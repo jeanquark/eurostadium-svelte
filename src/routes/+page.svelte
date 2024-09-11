@@ -19,6 +19,8 @@
 		updateDoc,
 		deleteDoc,
 	} from "firebase/firestore";
+	import { leagueStore, leagueHandlers } from "../store/league.js";
+	import { countStore, countHandlers } from "../store/count";
 
 	let map = "europe-with-russia.svg";
 
@@ -68,16 +70,32 @@
 	const fetchLeagues = async () => {
 		const querySnapshot = await getDocs(collection(db, "leagues"));
 		// console.log('querySnapshot: ', querySnapshot);
+		const array = []
 		querySnapshot.forEach((doc) => {
 			// doc.data() is never undefined for query doc snapshots
-			console.log(doc.id, " => ", doc.data());
+			// console.log(doc.id, " => ", doc.data());
+			array.push(doc.data())
 		});
+		// console.log('array: ', array)
+		$leagueStore.leagues = array
 	};
-	const fetchLeague = async () => {
-		console.log("fetchLeague");
+	const fetchLeagueByApiFootballId = async (leagueId) => {
+		console.log("fetchLeagueByApiFootballId");
+		console.log("leagues1: ", leagues);
+		return;
+		leagueHandlers.setLeagues([
+			{ id: 1, text: "Learn Svelte state management", completed: false },
+			{
+				id: 2,
+				text: "Build a Todo-list with state management",
+				completed: false,
+			},
+		]);
+		console.log("leagues2: ", leagues);
+		return;
 		const q = query(
 			collection(db, "leagues"),
-			where("name", "==", "Super League"),
+			where("api_football_id", "==", leagueId),
 		);
 		const querySnapshot = await getDocs(q);
 		querySnapshot.forEach((doc) => {
@@ -114,6 +132,37 @@
 		console.log("deleteLeague");
 		await deleteDoc(doc(db, "leagues2", "SF"));
 	};
+	const onCountryHover = (event) => {
+		// console.log("onCountryHover dataLeaguesId: ", event.detail);
+		const leagueIds = event.detail?.split(",");
+		if (!leagueIds?.length) {
+			return;
+		}
+		// console.log("abc: ", abc);
+		const countryLeagues = []
+		for (let i = 0; i < leagueIds.length; i++) {
+			console.log('leagueIds[i]: ', leagueIds[i])
+			// fetchLeagueByApiFootballId(parseInt(leagues[i]))
+			const abc = $leagueStore.leagues.find((league) => league.api_football_id == leagueIds[i])
+			if (abc) {
+				countryLeagues.push(abc)
+			}
+		}
+		console.log('countryLeagues: ', countryLeagues);
+	};
+	
+	// Store
+	// $: leagues = [];
+	// leagueStore.subscribe((curr) => {
+	// 	leagues = curr.data;
+	// });
+	const increaseCount = () => {
+		$countStore.value += 1;
+	};
+	const decreaseCount = () => {
+		// countHandlers.setCount(2)
+		$countStore.value -= 1;
+	};
 </script>
 
 <svelte:head>
@@ -122,13 +171,20 @@
 </svelte:head>
 
 <section>
-	<!-- <h1 title="This is a greeting" use:tooltip>Hello World!</h1> -->
-
-	<Tooltip title="This is a greeting">Hello World!</Tooltip>
-	<br /><br />
+	<Tooltip title="This is a greeting"><h2>eurostadium</h2></Tooltip>
+	<br />
+	<a href="/about">About</a>
+	<br />
+	$leagueStore.leagues.length: {$leagueStore.leagues?.length}<br /><br />
+	<!-- $leagueStore.data.length: {$leagueStore.data.length}<br /><br /> -->
+	<div style="display: flex">
+		<button on:click={decreaseCount}>decrease</button>
+		<span style="padding: 0 10px">{$countStore.value}</span>
+		<button on:click={increaseCount}>increase</button>
+	</div>
 	<div>
 		<!-- <button on:click={() => toggleMap}>Toggle map</button><br /> -->
-		<div style="display: flex; justify-content: center;">
+		<div style="display: flex; gap: 5px; justify-content: center;">
 			<button on:click={() => displayMap("Europe")}>Europe</button><br />
 			<button on:click={() => displayMap("Germany")}>Germany</button><br
 			/>
@@ -141,14 +197,19 @@
 		<!-- <button on:click={() => loadComponent()}>Load component</button><br /> -->
 		<!-- <Circle /> -->
 		<div style="border: 1px solid red;">
-			<svelte:component this={currentComponent} />
+			<svelte:component
+				this={currentComponent}
+				on:countryHover={onCountryHover}
+			/>
 			<!-- <img src="/images/europe-with-russia.svg" width="200" alt="europe map" /> -->
 		</div>
 
-		<div style="display: flex; justify-content: center;">
+		<div style="display: flex; gap: 5px; justify-content: center;">
 			<button on:click={() => fetchLeagues()}>Fetch leagues</button>
 			<br />
-			<button on:click={() => fetchLeague()}>Fetch league</button>
+			<button on:click={() => fetchLeagueByApiFootballId()}
+				>Fetch league</button
+			>
 			<br />
 			<button on:click={() => updateLeague()}>Update league</button>
 			<br />

@@ -1,3 +1,7 @@
+<script>
+	import { leagueStore } from "../../store/league.js";
+</script>
+
 <svelte:head>
 	<title>About</title>
 	<meta name="description" content="About this app" />
@@ -5,6 +9,9 @@
 
 <div class="text-column">
 	<h1>About this app</h1>
+	<a href="/">&larr;Home</a>
+	$leagueStore.leagues.length: {$leagueStore.leagues?.length}<br /><br />
+
 
 	<p>
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
