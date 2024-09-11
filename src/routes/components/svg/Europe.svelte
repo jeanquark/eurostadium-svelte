@@ -10,7 +10,17 @@
         // console.log("e.target.data-country: ", e.target.getAttribute("data-country"));
         // onCountryHover(e.target.id)
         // dispatch('countryHover', e.target.id)
-        dispatch("countryHover", e.target.getAttribute("data-leagues-id"));
+        const clientX = e.clientX
+        console.log('clientX: ', clientX);
+        const rect = e.target.getBoundingClientRect()
+        console.log('rect: ', rect);
+        const data = {
+            leagueIds: e.target.getAttribute("data-leagues-id").split(","),
+            clientX: e.clientX,
+            rect: e.target.getBoundingClientRect()
+        }
+        // dispatch("countryHover", e.target.getAttribute("data-leagues-id"));
+        dispatch("countryHover", data);
     }
     // export let onCountryHover = () => {}
 </script>
