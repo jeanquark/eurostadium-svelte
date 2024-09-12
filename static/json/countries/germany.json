@@ -1,0 +1,1104 @@
+[
+	{
+		"team": {
+			"api_football_id": 157,
+			"name": "Bayern Munich",
+			"code": "BAY",
+			"country": "Germany",
+			"founded": 1900
+		},
+		"venue": {
+			"api_football_id": 20732,
+			"name": "Fußball Arena München",
+			"address": "Werner-Heisenberg-Allee 25",
+			"city": "München",
+			"capacity": 75024,
+			"surface": "grass",
+			"lat": 48.218791,
+			"lng": 11.624695,
+			"x": 492.4,
+			"y": 695.4,
+			"url": "https://en.wikipedia.org/wiki/FC_Bayern_Munich"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 1
+	},
+	{
+		"team": {
+			"api_football_id": 158,
+			"name": "Fortuna Dusseldorf",
+			"code": "DUS",
+			"country": "Germany",
+			"founded": 1895
+		},
+		"venue": {
+			"api_football_id": 20735,
+			"name": "Düsseldorf Arena",
+			"address": "Arena-Str. 1",
+			"city": "Düsseldorf",
+			"capacity": 54600,
+			"surface": "grass",
+			"lat": 51.261635,
+			"lng": 6.733163,
+			"x": 180.4,
+			"y": 385.7,
+			"url": "https://en.wikipedia.org/wiki/Fortuna_D%C3%BCsseldorf"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 2
+	},
+	{
+		"team": {
+			"api_football_id": 160,
+			"name": "SC Freiburg",
+			"code": "FRE",
+			"country": "Germany",
+			"founded": 1904
+		},
+		"venue": {
+			"api_football_id": 12717,
+			"name": "Europa-Park Stadion",
+			"address": "Achim-Stocker-Straße 1",
+			"city": "Freiburg im Breisgau",
+			"capacity": 34700,
+			"surface": "grass",
+			"lat": 48.021536,
+			"lng": 7.830006,
+			"x": 250.4,
+			"y": 715.4,
+			"url": "https://en.wikipedia.org/wiki/SC_Freiburg"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 3
+	},
+	{
+		"team": {
+			"api_football_id": 161,
+			"name": "VfL Wolfsburg",
+			"code": "WOL",
+			"country": "Germany",
+			"founded": 1945
+		},
+		"venue": {
+			"api_football_id": 752,
+			"name": "Volkswagen Arena",
+			"address": "In den Allerwiesen 1",
+			"city": "Wolfsburg",
+			"capacity": 30000,
+			"surface": "grass",
+			"lat": 52.431944,
+			"lng": 10.803889,
+			"x": 440.1,
+			"y": 266.6,
+			"url": "https://en.wikipedia.org/wiki/VfL_Wolfsburg"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 4
+	},
+	{
+		"team": {
+			"api_football_id": 162,
+			"name": "Werder Bremen",
+			"code": "WER",
+			"country": "Germany",
+			"founded": 1899
+		},
+		"venue": {
+			"api_football_id": 755,
+			"name": "wohninvest WESERSTADION",
+			"address": "Franz-Böhmert-Straße 1c",
+			"city": "Bremen",
+			"capacity": 42358,
+			"surface": "grass",
+			"lat": 53.066435,
+			"lng": 8.837661,
+			"x": 314.6,
+			"y": 202,
+			"url": "https://en.wikipedia.org/wiki/SV_Werder_Bremen"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 5
+	},
+	{
+		"team": {
+			"api_football_id": 163,
+			"name": "Borussia Monchengladbach",
+			"code": "MOE",
+			"country": "Germany",
+			"founded": 1900
+		},
+		"venue": {
+			"api_football_id": 20471,
+			"name": "BORUSSIA-PARK",
+			"address": "Hennes-Weisweiler-Allee 1",
+			"city": "Mönchengladbach",
+			"capacity": 54057,
+			"surface": "grass",
+			"lat": 51.174636,
+			"lng": 6.385412,
+			"x": 158.2,
+			"y": 394.6,
+			"url": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 6
+	},
+	{
+		"team": {
+			"api_football_id": 164,
+			"name": "FSV Mainz 05",
+			"code": "MAI",
+			"country": "Germany",
+			"founded": 1905
+		},
+		"venue": {
+			"api_football_id": 11899,
+			"name": "MEWA ARENA",
+			"address": "Eugen-Salomon-Straße 1",
+			"city": "Mainz",
+			"capacity": 34034,
+			"surface": "grass",
+			"lat": 49.98415,
+			"lng": 8.2243,
+			"x": 275.5,
+			"y": 515.7,
+			"url": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 7
+	},
+	{
+		"team": {
+			"api_football_id": 165,
+			"name": "Borussia Dortmund",
+			"code": "DOR",
+			"country": "Germany",
+			"founded": 1909
+		},
+		"venue": {
+			"api_football_id": 20733,
+			"name": "BVB Stadion Dortmund",
+			"address": "Strobelalle 50",
+			"city": "Dortmund",
+			"capacity": 81365,
+			"surface": "grass",
+			"lat": 51.492668,
+			"lng": 7.451767,
+			"x": 226.2,
+			"y": 362.2,
+			"url": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 8
+	},
+	{
+		"team": {
+			"api_football_id": 167,
+			"name": "1899 Hoffenheim",
+			"code": "HOF",
+			"country": "Germany",
+			"founded": 1899
+		},
+		"venue": {
+			"api_football_id": 724,
+			"name": "PreZero Arena",
+			"address": "Dietmar-Hopp-Straße 1",
+			"city": "Sinsheim",
+			"capacity": 30164,
+			"surface": "grass",
+			"lat": 49.238014,
+			"lng": 8.887657,
+			"x": 317.8,
+			"y": 591.6,
+			"url": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 168,
+			"name": "Bayer Leverkusen",
+			"code": "BAY",
+			"country": "Germany",
+			"founded": 1904
+		},
+		"venue": {
+			"api_football_id": 699,
+			"name": "BayArena",
+			"address": "Bismarckstr. 122-124",
+			"city": "Leverkusen",
+			"capacity": 30210,
+			"surface": "grass",
+			"lat": 51.038196,
+			"lng": 7.002292,
+			"x": 197.6,
+			"y": 408.4,
+			"url": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 169,
+			"name": "Eintracht Frankfurt",
+			"code": "EIN",
+			"country": "Germany",
+			"founded": 1899
+		},
+		"venue": {
+			"api_football_id": 20734,
+			"name": "Frankfurt Arena",
+			"address": "Mörfelder Landstr. 362",
+			"city": "Frankfurt am Main",
+			"capacity": 58000,
+			"surface": "grass",
+			"lat": 50.068548,
+			"lng": 8.645415,
+			"x": 302.4,
+			"y": 507.1,
+			"url": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 170,
+			"name": "FC Augsburg",
+			"code": "AUG",
+			"country": "Germany",
+			"founded": 1907
+		},
+		"venue": {
+			"api_football_id": 698,
+			"name": "WWK Arena",
+			"address": "Bürgermeister Ulrich-Straße 90",
+			"city": "Augsburg",
+			"capacity": 30662,
+			"surface": "grass",
+			"lat": 48.323126,
+			"lng": 10.885996,
+			"x": 445.3,
+			"y": 684.8,
+			"url": "https://en.wikipedia.org/wiki/FC_Augsburg"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 12
+	},
+	{
+		"team": {
+			"api_football_id": 172,
+			"name": "VfB Stuttgart",
+			"code": "STU",
+			"country": "Germany",
+			"founded": 1893
+		},
+		"venue": {
+			"api_football_id": 20739,
+			"name": "Stuttgart Arena",
+			"address": "Mercedesstrasse 87",
+			"city": "Stuttgart",
+			"capacity": 60469,
+			"surface": "grass",
+			"lat": 48.792222,
+			"lng": 9.231944,
+			"x": 339.8,
+			"y": 637,
+			"url": "https://en.wikipedia.org/wiki/VfB_Stuttgart"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 173,
+			"name": "RB Leipzig",
+			"code": "LEI",
+			"country": "Germany",
+			"founded": 2009
+		},
+		"venue": {
+			"api_football_id": 20737,
+			"name": "Leipzig Stadium",
+			"address": "Am Sportforum 3",
+			"city": "Leipzig",
+			"capacity": 47069,
+			"surface": "grass",
+			"lat": 51.345787,
+			"lng": 12.34827,
+			"x": 538.6,
+			"y": 377.1,
+			"url": "https://en.wikipedia.org/wiki/RB_Leipzig"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 176,
+			"name": "Vfl Bochum",
+			"code": "BOC",
+			"country": "Germany",
+			"founded": 1848
+		},
+		"venue": {
+			"api_football_id": 751,
+			"name": "Vonovia Ruhrstadion",
+			"address": "Castropher Straße 145",
+			"city": "Bochum",
+			"capacity": 27599,
+			"surface": "grass",
+			"lat": 51.489919,
+			"lng": 7.236521,
+			"x": 212.5,
+			"y": 362.5,
+			"url": "https://en.wikipedia.org/wiki/VfL_Bochum"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 180,
+			"name": "FC Heidenheim",
+			"code": "HEI",
+			"country": "Germany",
+			"founded": 1946
+		},
+		"venue": {
+			"api_football_id": 723,
+			"name": "Voith-Arena",
+			"address": "Schloßhaustraße 160",
+			"city": "Heidenheim an der Brenz",
+			"capacity": 15000,
+			"surface": "grass",
+			"lat": 48.66829,
+			"lng": 10.14068,
+			"x": 397.8,
+			"y": 649.6,
+			"url": "https://en.wikipedia.org/wiki/1._FC_Heidenheim"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 181,
+			"name": "SV Darmstadt 98",
+			"code": "DAR",
+			"country": "Germany",
+			"founded": 1898
+		},
+		"venue": {
+			"api_football_id": 705,
+			"name": "Merck-Stadion am Böllenfalltor",
+			"address": "Nieder-Ramstädter Straße 170",
+			"city": "Darmstadt",
+			"capacity": 17810,
+			"surface": "grass",
+			"lat": 49.857701,
+			"lng": 8.672349,
+			"x": 304.1,
+			"y": 528.6,
+			"url": "https://en.wikipedia.org/wiki/SV_Darmstadt_98"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 182,
+			"name": "Union Berlin",
+			"code": "UNI",
+			"country": "Germany",
+			"founded": 1966
+		},
+		"venue": {
+			"api_football_id": 748,
+			"name": "Stadion An der Alten Försterei",
+			"address": "Hämmerlingstraße 80-88, Köpenick",
+			"city": "Berlin",
+			"capacity": 22467,
+			"surface": "grass",
+			"lat": 52.457391,
+			"lng": 13.568124,
+			"x": 616.4,
+			"y": 264,
+			"url": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 192,
+			"name": "1.FC Köln",
+			"code": "KOL",
+			"country": "Germany",
+			"founded": 1948
+		},
+		"venue": {
+			"api_football_id": 20736,
+			"name": "Cologne Stadium",
+			"address": "Aachener Str. 999",
+			"city": "Köln",
+			"capacity": 50076,
+			"surface": "grass",
+			"lat": 50.933454,
+			"lng": 6.875128,
+			"x": 189.5,
+			"y": 419.1,
+			"url": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln"
+		},
+		"league": {
+			"api_football_id": 78,
+			"name": "Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 158,
+			"name": "Fortuna Dusseldorf",
+			"code": "DUS",
+			"country": "Germany",
+			"founded": 1895
+		},
+		"venue": {
+			"api_football_id": 20735,
+			"name": "Düsseldorf Arena",
+			"address": "Arena-Str. 1",
+			"city": "Düsseldorf",
+			"capacity": 54600,
+			"surface": "grass",
+			"lat": 51.261635,
+			"lng": 6.733163,
+			"x": 180.4,
+			"y": 385.7,
+			"url": "https://en.wikipedia.org/wiki/Fortuna_D%C3%BCsseldorf"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 159,
+			"name": "Hertha Berlin",
+			"code": "HER",
+			"country": "Germany",
+			"founded": 1892
+		},
+		"venue": {
+			"api_football_id": 694,
+			"name": "Olympiastadion Berlin",
+			"address": "Olympischer Platz 3",
+			"city": "Berlin",
+			"capacity": 74667,
+			"surface": "grass",
+			"lat": 52.514628,
+			"lng": 13.239624,
+			"x": 595.4,
+			"y": 258.2,
+			"url": "https://en.wikipedia.org/wiki/Hertha_BSC"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 166,
+			"name": "Hannover 96",
+			"code": "HAN",
+			"country": "Germany",
+			"founded": 1896
+		},
+		"venue": {
+			"api_football_id": 18858,
+			"name": "Heinz von Heiden-Arena",
+			"address": "Robert-Enke-Str. 3",
+			"city": "Hannover",
+			"capacity": 49951,
+			"surface": "grass",
+			"lat": 52.360018,
+			"lng": 9.731219,
+			"x": 371.6,
+			"y": 273.9,
+			"url": "https://en.wikipedia.org/wiki/Hannover_96"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 171,
+			"name": "FC Nurnberg",
+			"code": "NUR",
+			"country": "Germany",
+			"founded": 1900
+		},
+		"venue": {
+			"api_football_id": 713,
+			"name": "Max-Morlock-Stadion",
+			"address": "Max-Morlock-Platz 1",
+			"city": "Nürnberg",
+			"capacity": 50000,
+			"surface": "grass",
+			"lat": 49.426255,
+			"lng": 11.125707,
+			"x": 460.6,
+			"y": 572.5,
+			"url": "https://en.wikipedia.org/wiki/1._FC_N%C3%BCrnberg"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 174,
+			"name": "FC Schalke 04",
+			"code": "SCH",
+			"country": "Germany",
+			"founded": 1904
+		},
+		"venue": {
+			"api_football_id": 20738,
+			"name": "Arena AufSchalke",
+			"address": "Arenaring 1",
+			"city": "Gelsenkirchen",
+			"capacity": 62278,
+			"surface": "grass",
+			"lat": 51.554474,
+			"lng": 7.067642,
+			"x": 201.7,
+			"y": 355.9,
+			"url": "https://en.wikipedia.org/wiki/FC_Schalke_04"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 175,
+			"name": "Hamburger SV",
+			"code": "HAM",
+			"country": "Germany",
+			"founded": 1887
+		},
+		"venue": {
+			"api_football_id": 720,
+			"name": "Volksparkstadion",
+			"address": "Sylvester Allee 7",
+			"city": "Hamburg",
+			"capacity": 57030,
+			"surface": "grass",
+			"lat": 53.587153,
+			"lng": 9.898643,
+			"x": 382.3,
+			"y": 149,
+			"url": "https://en.wikipedia.org/wiki/Hamburger_SV"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 177,
+			"name": "Jahn Regensburg",
+			"code": "REG",
+			"country": "Germany",
+			"founded": 2000
+		},
+		"venue": {
+			"api_football_id": 10490,
+			"name": "Jahnstadion Regensburg",
+			"address": "Franz-Josef-Strauß-Allee, Oberisling",
+			"city": "Regensburg",
+			"capacity": 15224,
+			"surface": "grass",
+			"lat": 49.015556,
+			"lng": 12.073889,
+			"x": 521.1,
+			"y": 614.3,
+			"url": "https://en.wikipedia.org/wiki/SSV_Jahn_Regensburg"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 178,
+			"name": "SpVgg Greuther Furth",
+			"code": "GRE",
+			"country": "Germany",
+			"founded": 1903
+		},
+		"venue": {
+			"api_football_id": 718,
+			"name": "Sportpark Ronhof Thomas Sommer",
+			"address": "Laubenweg 60",
+			"city": "Fürth",
+			"capacity": 18000,
+			"surface": "grass",
+			"lat": 49.486944,
+			"lng": 10.999167,
+			"x": 452.5,
+			"y": 566.3,
+			"url": "https://en.wikipedia.org/wiki/SpVgg_Greuther_F%C3%BCrth"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 179,
+			"name": "FC Magdeburg",
+			"code": "MAG",
+			"country": "Germany",
+			"founded": 1965
+		},
+		"venue": {
+			"api_football_id": 733,
+			"name": "MDCC-Arena",
+			"address": "Friedrich-Ebert-Straße 69",
+			"city": "Magdeburg",
+			"capacity": 30000,
+			"surface": "grass",
+			"lat": 52.1251,
+			"lng": 11.67079,
+			"x": 495.4,
+			"y": 297.8,
+			"url": "https://en.wikipedia.org/wiki/1._FC_Magdeburg"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 28
+	},
+	{
+		"team": {
+			"api_football_id": 185,
+			"name": "SC Paderborn 07",
+			"code": "PAD",
+			"country": "Germany",
+			"founded": 1907
+		},
+		"venue": {
+			"api_football_id": 18622,
+			"name": "Home Deluxe Arena",
+			"address": "Wilfried-Finke-Allee 1",
+			"city": "Paderborn",
+			"capacity": 15306,
+			"surface": "grass",
+			"lat": 51.731389,
+			"lng": 8.710833,
+			"x": 306.6,
+			"y": 337.9,
+			"url": "https://en.wikipedia.org/wiki/SC_Paderborn_07"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 29
+	},
+	{
+		"team": {
+			"api_football_id": 186,
+			"name": "FC St. Pauli",
+			"code": "PAU",
+			"country": "Germany",
+			"founded": 1910
+		},
+		"venue": {
+			"api_football_id": 745,
+			"name": "Millerntor-Stadion",
+			"address": "Harald-Stender-Platz 1",
+			"city": "Hamburg",
+			"capacity": 29564,
+			"surface": "grass",
+			"lat": 53.554571,
+			"lng": 9.967656,
+			"x": 386.7,
+			"y": 152.4,
+			"url": "https://en.wikipedia.org/wiki/FC_St._Pauli"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 191,
+			"name": "Holstein Kiel",
+			"code": "HOL",
+			"country": "Germany",
+			"founded": 1900
+		},
+		"venue": {
+			"api_football_id": 725,
+			"name": "Holstein-Stadion",
+			"address": "Westring 501",
+			"city": "Kiel",
+			"capacity": 15034,
+			"surface": "grass",
+			"lat": 54.349167,
+			"lng": 10.123611,
+			"x": 396.7,
+			"y": 71.5,
+			"url": "https://en.wikipedia.org/wiki/Holstein_Kiel"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 31
+	},
+	{
+		"team": {
+			"api_football_id": 744,
+			"name": "Eintracht Braunschweig",
+			"code": "BRA",
+			"country": "Germany",
+			"founded": 1895
+		},
+		"venue": {
+			"api_football_id": 708,
+			"name": "Eintracht-Stadion",
+			"address": "Hamburger Straße 210",
+			"city": "Braunschweig",
+			"capacity": 24474,
+			"surface": "grass",
+			"lat": 52.290144,
+			"lng": 10.521562,
+			"x": 422.1,
+			"y": 281,
+			"url": "https://en.wikipedia.org/wiki/Eintracht_Braunschweig"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 32
+	},
+	{
+		"team": {
+			"api_football_id": 745,
+			"name": "FC Kaiserslautern",
+			"code": "KAI",
+			"country": "Germany",
+			"founded": 1900
+		},
+		"venue": {
+			"api_football_id": 728,
+			"name": "Fritz-Walter-Stadion",
+			"address": "Fritz-Walter-Straße 1",
+			"city": "Kaiserslautern",
+			"capacity": 49780,
+			"surface": "grass",
+			"lat": 49.434697,
+			"lng": 7.776466,
+			"x": 246.9,
+			"y": 571.6,
+			"url": "https://en.wikipedia.org/wiki/1._FC_Kaiserslautern"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 33
+	},
+	{
+		"team": {
+			"api_football_id": 785,
+			"name": "Karlsruher SC",
+			"code": "KAR",
+			"country": "Germany",
+			"founded": 1898
+		},
+		"venue": {
+			"api_football_id": 11900,
+			"name": "BBBank Wildpark",
+			"address": "Adenauerring 17",
+			"city": "Karlsruhe",
+			"capacity": 34302,
+			"surface": "grass",
+			"lat": 49.020019,
+			"lng": 8.413035,
+			"x": 287.6,
+			"y": 613.8,
+			"url": "https://en.wikipedia.org/wiki/Karlsruher_SC"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 34
+	},
+	{
+		"team": {
+			"api_football_id": 1319,
+			"name": "SV Wehen",
+			"code": "WEH",
+			"country": "Germany",
+			"founded": 1926
+		},
+		"venue": {
+			"api_football_id": 753,
+			"name": "BRITA-Arena",
+			"address": "Berliner Straße 9",
+			"city": "Wiesbaden",
+			"capacity": 13144,
+			"surface": "grass",
+			"lat": 50.071244,
+			"lng": 8.256644,
+			"x": 277.6,
+			"y": 506.9,
+			"url": "https://en.wikipedia.org/wiki/SV_Wehen_Wiesbaden"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 35
+	},
+	{
+		"team": {
+			"api_football_id": 1321,
+			"name": "Hansa Rostock",
+			"code": "HAN",
+			"country": "Germany",
+			"founded": 1965
+		},
+		"venue": {
+			"api_football_id": 722,
+			"name": "Ostseestadion",
+			"address": "Kopernikusstraße 17",
+			"city": "Rostock",
+			"capacity": 29000,
+			"surface": "grass",
+			"lat": 54.084958,
+			"lng": 12.095136,
+			"x": 522.4,
+			"y": 98.4,
+			"url": "https://en.wikipedia.org/wiki/FC_Hansa_Rostock"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 36
+	},
+	{
+		"team": {
+			"api_football_id": 1324,
+			"name": "VfL Osnabruck",
+			"code": "OSN",
+			"country": "Germany",
+			"founded": 1899
+		},
+		"venue": {
+			"api_football_id": 735,
+			"name": "Bremer Brücke",
+			"address": "Scharnhorststraße 50, Schinkel",
+			"city": "Osnabrück",
+			"capacity": 16667,
+			"surface": "grass",
+			"lat": 52.280833,
+			"lng": 8.071111,
+			"x": 265.7,
+			"y": 282,
+			"url": "https://en.wikipedia.org/wiki/VfL_Osnabr%C3%BCck"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 37
+	},
+	{
+		"team": {
+			"api_football_id": 1660,
+			"name": "SV Elversberg",
+			"code": "ELV",
+			"country": "Germany",
+			"founded": 1907
+		},
+		"venue": {
+			"api_football_id": 710,
+			"name": "URSAPHARM-Arena an der Kaiserlinde",
+			"address": "Lindenstraße 7",
+			"city": "Spiesen-Elversberg",
+			"capacity": 11150,
+			"surface": "grass",
+			"lat": 49.31881,
+			"lng": 7.121712,
+			"x": 205.2,
+			"y": 583.4,
+			"url": "https://en.wikipedia.org/wiki/SV_Elversberg"
+		},
+		"league": {
+			"api_football_id": 79,
+			"name": "2. Bundesliga",
+			"country": "Germany",
+			"api_football_country_id": 0
+		},
+		"no": 38
+	}
+]

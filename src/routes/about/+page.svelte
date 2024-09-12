@@ -7,7 +7,13 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<div class="text-column">
+<div class="row border-3">
+	<div class="col-4 border-1">col-4</div>
+	<div class="col-4">col-4</div>
+	<div class="col-4">col-4</div>
+</div>
+
+<!-- <div class="text-column">
 	<h1>About this app</h1>
 	<a href="/">&larr;Home</a>
 	$leagueStore.leagues.length: {$leagueStore.leagues?.length}<br /><br />
@@ -30,4 +36,4 @@
 		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
 		using it with JavaScript disabled!
 	</p>
-</div>
+</div> -->

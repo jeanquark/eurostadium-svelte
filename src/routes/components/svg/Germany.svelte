@@ -1,5 +1,12 @@
 <script>
-    function handleMouseOver(e) {
+    import { createEventDispatcher } from "svelte";
+    const dispatch = createEventDispatcher();
+
+    const handleClick = () => {
+        console.log("handleClick")
+        dispatch("clickOutsideCountry")
+    }
+    const handleMouseOver = (e) => {
         console.log("handleMouseOver: ", e);
     }
 </script>
@@ -51,6 +58,7 @@
         y="0"
         x="0"
         fill="#d3d3d3"
+        on:click={handleClick}
     />
     <g>
         <path
