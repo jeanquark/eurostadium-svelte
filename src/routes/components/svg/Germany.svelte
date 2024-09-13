@@ -1,5 +1,7 @@
 <script>
-    import { createEventDispatcher } from "svelte";
+    import { createEventDispatcher, onMount } from "svelte";
+    import { stadiumStore } from "../../../store/stadium"
+    import addStadiumsToSvgMap from "../../../utils/addStadiumsToSvgMap"
     const dispatch = createEventDispatcher();
 
     const handleClick = () => {
@@ -9,6 +11,44 @@
     const handleMouseOver = (e) => {
         console.log("handleMouseOver: ", e);
     }
+    onMount(() => {
+        console.log('onMount')
+        const stadiums = $stadiumStore.stadiums.germany
+        console.log('stadiums: ', stadiums)
+        let circleRadius = 10
+        let leagueColors = ['#FF0000', '#FFFF00']
+
+        const stadiumObj = document.getElementById('stadiums')
+        if (!stadiumObj) {
+            alert('No stadium object')
+            return
+        }
+        // addStadiumsToSvgMap(stadiumObj, stadiums)
+        circleRadius = document.getElementById('stadiums').getAttribute('data-circle-radius')
+        const circleColors = stadiumObj.getAttribute('data-circle-colors').split(',')
+            if (circleColors && circleColors.length == 2) {
+                leagueColors[0] = circleColors[0]
+                leagueColors[1] = circleColors[1]
+            }
+        const leagues = [78, 79]
+
+        for (let i = 0; i < stadiums.length; i++) {
+            let newElement = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
+            newElement.setAttribute('cx', stadiums[i]['venue']['x'])
+            newElement.setAttribute('cy', stadiums[i]['venue']['y'] + 0)
+            newElement.setAttribute('r', circleRadius)
+            newElement.setAttribute('fill', stadiums[i]['league']['api_football_id'] == leagues[0] ? leagueColors[0] : leagueColors[1])
+            newElement.setAttribute('data-city', stadiums[i]['venue']['city'])
+            newElement.setAttribute('data-stadium-id', stadiums[i]['venue']['api_football_id'])
+            newElement.setAttribute('class', 'stadium')
+            newElement.setAttribute('api-football-league-id', stadiums[i]['league']['api_football_id'])
+            newElement.setAttribute('capacity', stadiums[i]['venue']['capacity'])
+            stadiumObj.appendChild(newElement)
+        }
+        setTimeout(() => {
+            console.log('Done!')
+        }, 2000)
+    })
 </script>
 
 <!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" id="map-germany"
@@ -59,6 +99,7 @@
         x="0"
         fill="#d3d3d3"
         on:click={handleClick}
+        role="presentation"
     />
     <g>
         <path
@@ -164,7 +205,7 @@
         data-circle-radius="12"
         data-circle-colors="#a149be,#bea149"
     >
-        <circle
+        <!-- <circle
             cx="200"
             cy="200"
             r="10"
@@ -191,6 +232,6 @@
             data-city="Munich"
             data-stadium-capacity="75 000"
             class="city"
-        />
+        /> -->
     </g>
 </svg>

@@ -24,14 +24,14 @@
             // console.log("panzoomchange: ", event.detail); // => { x: 0, y: 0, scale: 1 }
         });
         abc = panzoom(node, {
-            isSvg: true,
+            // isSvg: true,
             cursor: "normal",
             disablePan: false,
             disableZoom: false,
             maxScale: 8,
             minScale: 1,
             touchAction: "none",
-            contain: "outside",
+            // contain: "outside",
         });
         node.addEventListener("wheel", (e) => {
             console.log("wheel e: ", e)
@@ -56,7 +56,7 @@
         console.log("handleClick");
         const country = e.target.getAttribute("data-country");
         console.log("country: ", country);
-        dispatch("countryClick", country);
+        dispatch("countryClick", e.target.id);
     };
 
     const handleMouseOver = (e) => {

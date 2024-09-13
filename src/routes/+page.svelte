@@ -23,6 +23,7 @@
 	import { leagueStore, leagueHandlers } from "../store/league.js";
 	import { counter } from "../store/count";
 	import { stadiumStore } from "../store/stadium";
+	import camelize from "../utils/convertToCamelCase"
 
 	let map = "europe-with-russia.svg";
 	let countryLeagues = [];
@@ -139,14 +140,29 @@
 		await deleteDoc(doc(db, "leagues2", "SF"));
 	};
 	const onCountryClick = async (event) => {
-		console.log("onCountryClick country: ", event.detail);
-		// const querySnapshot = await getDocs(collection(db, "countries/germany/stadiums"));
-		// console.log('querySnapshot: ', querySnapshot);
-		// const array = [];
-		// querySnapshot.forEach((doc) => {
-		// 	array.push(doc.data());
-		// });
-		// console.log('array: ', array)
+		const country = event.detail
+		console.log("onCountryClick country: ", country);
+
+		const countryStadiums = $stadiumStore.stadiums[country]
+		console.log('countryStadiums: ', countryStadiums);
+		if (!countryStadiums || countryStadiums.length < 5) {	
+			const querySnapshot = await getDocs(collection(db, `countries/${country}/stadiums`));
+			console.log('[Firebase call] querySnapshot: ', querySnapshot);
+			const array = [];
+			querySnapshot.forEach((doc) => {
+				array.push(doc.data());
+			});
+			console.log('array: ', array)
+
+			stadiumStore.setStadiums({ [country]: array })
+		}
+		const abc = $stadiumStore.stadiums
+		console.log('abc: ', abc);
+		const def = camelize(country)
+		console.log('def: ', def);
+		displayMap(camelize(country));
+
+		return
 		// $stadiumStore = [...$stadiumStore, {
 		// 	germany: [
 		// 		{
@@ -159,19 +175,25 @@
 		// 		}
 		// 	]
 		// }];
-		const abc = $stadiumStore
-		console.log('abc: ', abc);
-		stadiumStore.setStadium({
-			germany: [
-				{
-					id: 1,
-					city: "Berlin",
-				},
-				{
-					id: 2,
-					city: "Munich",
-				},
-			],
+		// const abc = $stadiumStore
+		// console.log('abc: ', abc);
+		// stadiumStore.setIsGirl()
+		// const def = $stadiumStore
+		// console.log('def: ', def);
+		// return
+		
+		// return
+		stadiumStore.setStadiums({
+			// germany: [
+			// 	{
+			// 		id: 1,
+			// 		city: "Berlin",
+			// 	},
+			// 	{
+			// 		id: 2,
+			// 		city: "Munich",
+			// 	},
+			// ],
 			france: [
 				{
 					id: 1,
@@ -184,6 +206,7 @@
 			]
 		});
 		console.log("stadiumStore: ", $stadiumStore);
+		console.log("stadiumStore.stadiums: ", $stadiumStore.stadiums);
 		return;
 		displayMap(event.detail);
 	};
