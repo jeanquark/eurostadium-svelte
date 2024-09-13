@@ -2,6 +2,8 @@
     import { createEventDispatcher, onMount } from "svelte";
     import { stadiumStore } from "../../../store/stadium"
     import addStadiumsToSvgMap from "../../../utils/addStadiumsToSvgMap"
+    export let country
+    export let filter
     const dispatch = createEventDispatcher();
 
     const handleClick = () => {
@@ -9,23 +11,36 @@
         dispatch("clickOutsideCountry")
     }
     const handleMouseOver = (e) => {
-        console.log("handleMouseOver: ", e);
+        // console.clear()
+        // console.log("handleMouseOver: ", e)
+        const stadiumId = parseInt(e.target.getAttribute("data-stadium-id"))
+        // console.log("stadiumId: ", stadiumId)
+        dispatch("stadiumHover", stadiumId)
+    }
+    const handleMouseLeave = (e) => {
+        // console.log("handleMouseLeave: ", e)
+        const stadiumId = e.target.getAttribute("data-stadium-id")
+        dispatch("stadiumLeave")
     }
     onMount(() => {
         console.log('onMount')
+        console.log('country: ', country);
+        console.log('filter: ', filter)
         const stadiums = $stadiumStore.stadiums.germany
         console.log('stadiums: ', stadiums)
-        let circleRadius = 10
-        let leagueColors = ['#FF0000', '#FFFF00']
+        // let circleRadius = 10
+        // let leagueColors = ['#FF0000', '#FFFF00']
 
         const stadiumObj = document.getElementById('stadiums')
         if (!stadiumObj) {
             alert('No stadium object')
             return
         }
-        const newElement = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
-        circleRadius = document.getElementById('stadiums').getAttribute('data-circle-radius')
-        addStadiumsToSvgMap(stadiumObj, stadiums, newElement)
+        // const newElement = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
+        // circleRadius = document.getElementById('stadiums').getAttribute('data-circle-radius')
+
+        const leagues = [78,79]
+        addStadiumsToSvgMap(stadiumObj, stadiums, leagues)
         // const circleColors = stadiumObj.getAttribute('data-circle-colors').split(',')
         //     if (circleColors && circleColors.length == 2) {
         //         leagueColors[0] = circleColors[0]
@@ -47,13 +62,22 @@
         //     stadiumObj.appendChild(newElement)
         // }
         setTimeout(() => {
-            console.log('Done!')
+            // console.log('Done!')
         }, 2000)
     })
+
+    const filterUpdate = (filter) => {
+        console.log('filterUpdate: ', filter)
+        // return
+    }
+    // $: filter = console.log('update filter value')
+    $: filterUpdate(filter)
 </script>
 
 <!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" id="map-germany"
    viewBox="0 0 791.99896 791.99896" width="791.99896" height="791.99896" class=""> -->
+   <!-- filter: {filter} -->
+   <!-- <span use:filterUpdate={filter}></span> -->
 <svg
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +99,7 @@
                 fill: #bdbdbd;
                 cursor: pointer;
             }
-            .city:hover {
+            .stadium:hover {
                 fill: #ffffff !important;
                 cursor: pointer;
             }
@@ -205,6 +229,10 @@
         data-country="germany"
         data-circle-radius="12"
         data-circle-colors="#a149be,#bea149"
+        on:mouseover={handleMouseOver}
+        on:mouseleave={handleMouseLeave}
+        on:focus={() => {}}
+        role="presentation"
     >
         <!-- <circle
             cx="200"

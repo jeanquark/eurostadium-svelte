@@ -1,7 +1,7 @@
 <script>
     export let data
-    export let left
-    export let top
+    // export let left
+    // export let top
     let isHovered = false
     let x
     let y
@@ -44,9 +44,7 @@
 {/if} -->
 
 <div class="tooltip" style="top: 50%; transform: translateY(50%); left: 0px;">
-    <h2 class="text-center">{data?.name}</h2>
-    left: {left}<br />
-    top: {top}
+    {data[0]?.venue?.name}, {data[0]?.venue?.city}
 </div>
 
 <style>

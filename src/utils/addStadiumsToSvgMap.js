@@ -1,12 +1,12 @@
-export default function (stadiumObj, stadiums, newElement2) {
-    const circleRadius = 10
+export default function (stadiumObj, stadiums, leagues) {
+    let circleRadius = 10
+    circleRadius = stadiumObj.getAttribute('data-circle-radius')
     let leagueColors = ['#FF0000', '#FFFF00']
     const circleColors = stadiumObj.getAttribute('data-circle-colors').split(',')
     if (circleColors && circleColors.length == 2) {
         leagueColors[0] = circleColors[0]
         leagueColors[1] = circleColors[1]
     }
-    const leagues = [78, 79]
 
     for (let i = 0; i < stadiums.length; i++) {
         let newElement = document.createElementNS('http://www.w3.org/2000/svg', 'circle')

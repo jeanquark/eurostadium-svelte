@@ -60,18 +60,23 @@
     };
 
     const handleMouseOver = (e) => {
-        return;
+        // return;
         // console.log("handleMouseOver: ", e);
         // console.log("e.target: ", e.target);
         // console.log("e.target.id: ", e.target.id);
         // console.log("e.target.data-country: ", e.target.getAttribute("data-country"));
         // onCountryHover(e.target.id)
         // dispatch('countryHover', e.target.id)
+        // const countryName = e.target.getAttribute("data-country")
+        // const population = e.target.getAttribute("data-population")
         const clientX = e.clientX;
-        console.log("clientX: ", clientX);
+        // console.log("clientX: ", clientX);
         const rect = e.target.getBoundingClientRect();
-        console.log("rect: ", rect);
+        // console.log("rect: ", rect);
         const data = {
+            id: e.target.id,
+            countryName: e.target.getAttribute("data-country"),
+            population: e.target.getAttribute("data-pop"),
             leagueIds: e.target.getAttribute("data-leagues-id").split(","),
             clientX: e.clientX,
             rect: e.target.getBoundingClientRect(),
@@ -79,6 +84,9 @@
         // dispatch("countryHover", e.target.getAttribute("data-leagues-id"));
         dispatch("countryHover", data);
     };
+    const handleMouseLeave = (e) => {
+        dispatch("countryLeave")
+    }
     // export let onCountryHover = () => {}
 </script>
 
@@ -666,6 +674,7 @@
         <g
             on:click={handleClick}
             on:mouseover={handleMouseOver}
+            on:mouseleave={handleMouseLeave}
             on:focus={() => {}}
             role="presentation"
         >

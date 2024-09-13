@@ -2,6 +2,7 @@
 	import Counter from "./Counter.svelte";
 	import Tooltip from "./Tooltip.svelte";
 	import TooltipCountry from "./TooltipCountry.svelte";
+	import TooltipStadium from "./TooltipStadium.svelte";
 	// import Circle from "./Circle.svelte";
 	// import Rect from "./Rect.svelte";
 	import Europe from "./components/svg/Europe.svelte";
@@ -12,6 +13,8 @@
 		collection,
 		query,
 		where,
+		orderBy,
+		limit,
 		doc,
 		getDoc,
 		getDocs,
@@ -23,16 +26,23 @@
 	import { leagueStore, leagueHandlers } from "../store/league.js";
 	import { counter } from "../store/count";
 	import { stadiumStore } from "../store/stadium";
-	import camelize from "../utils/convertToCamelCase"
+	import camelize from "../utils/convertToCamelCase";
 
 	let map = "europe-with-russia.svg";
 	let countryLeagues = [];
+	let country = {};
+	$: country2 = {};
+	let stadiums = [];
 	let left = 0;
 	let top = 0;
 	// $: countryLeagues = []
+	let showCountryTooltip = false;
+	let showStadiumTooltip = false;
+	let showFilterButtons = false;
+	let filterValue = "all";
 
 	const toggleMap = () => {
-		console.clear();
+		// console.clear();
 		console.log("toggleMap");
 		// console.log('component: ', component);
 		// component = Circle
@@ -139,101 +149,36 @@
 		console.log("deleteLeague");
 		await deleteDoc(doc(db, "leagues2", "SF"));
 	};
-	const onCountryClick = async (event) => {
-		const country = event.detail
-		console.log("onCountryClick country: ", country);
 
-		const countryStadiums = $stadiumStore.stadiums[country]
-		console.log('countryStadiums: ', countryStadiums);
-		if (!countryStadiums || countryStadiums.length < 5) {	
-			const querySnapshot = await getDocs(collection(db, `countries/${country}/stadiums`));
-			console.log('[Firebase call] querySnapshot: ', querySnapshot);
-			const array = [];
-			querySnapshot.forEach((doc) => {
-				array.push(doc.data());
-			});
-			console.log('array: ', array)
-
-			stadiumStore.setStadiums({ [country]: array })
-		}
-		const abc = $stadiumStore.stadiums
-		console.log('abc: ', abc);
-		const def = camelize(country)
-		console.log('def: ', def);
-		displayMap(camelize(country));
-
-		return
-		// $stadiumStore = [...$stadiumStore, {
-		// 	germany: [
-		// 		{
-		// 			id: 1,
-		// 			city: 'Berlin'
-		// 		},
-		// 		{
-		// 			id: 2,
-		// 			city: 'Munich'
-		// 		}
-		// 	]
-		// }];
-		// const abc = $stadiumStore
-		// console.log('abc: ', abc);
-		// stadiumStore.setIsGirl()
-		// const def = $stadiumStore
-		// console.log('def: ', def);
-		// return
-		
-		// return
-		stadiumStore.setStadiums({
-			// germany: [
-			// 	{
-			// 		id: 1,
-			// 		city: "Berlin",
-			// 	},
-			// 	{
-			// 		id: 2,
-			// 		city: "Munich",
-			// 	},
-			// ],
-			france: [
-				{
-					id: 1,
-					city: 'Paris'
-				},
-				{
-					id: 2,
-					city: 'Marseille'
-				}
-			]
-		});
-		console.log("stadiumStore: ", $stadiumStore);
-		console.log("stadiumStore.stadiums: ", $stadiumStore.stadiums);
-		return;
-		displayMap(event.detail);
-	};
 	const onCountryHover = (event) => {
 		// return
-		console.log("onCountryHover: ", event.detail);
+		// console.clear();
+		// console.log("onCountryHover: ", event.detail);
+		// country = event.detail
+		showCountryTooltip = true;
 		// const leagueIds = event.detail?.split(",");
 		const { leagueIds, clientX, rect } = event.detail;
-		console.log("leagueIds: ", leagueIds);
+		// console.log("leagueIds: ", leagueIds);
 		const offsetWidth = document.getElementById("svgWrapper").offsetWidth;
-		console.log("offsetWidth: ", offsetWidth);
-		const tooltip = document.getElementById("tooltip");
-		const tooltipRect = tooltip.getBoundingClientRect();
+		// console.log("offsetWidth: ", offsetWidth);
+		// const tooltip = document.getElementById("tooltip");
+		// const tooltipRect = tooltip.getBoundingClientRect();
 		// let left = 0
 
-		if (clientX > offsetWidth / 2) {
-			// tooltip.style.left = `${rect.x - 410 - rect.width}px`
-			// tooltip.style.left = `${rect.x - rect.width - parseInt(tooltipRect.width)}px`
-			left = parseInt(`${rect.x - 200}px`);
-			// tooltip.style.left = offsetLeft + (clientX - parseInt(tooltipRect.width)) - 20 + 'px'
-		} else {
-			left = parseInt(`${rect.x + rect.width}px`);
-		}
-		console.log("left: ", left);
+		// if (clientX > offsetWidth / 2) {
+		// 	// tooltip.style.left = `${rect.x - 410 - rect.width}px`
+		// 	// tooltip.style.left = `${rect.x - rect.width - parseInt(tooltipRect.width)}px`
+		// 	left = parseInt(`${rect.x - 200}px`);
+		// 	// tooltip.style.left = offsetLeft + (clientX - parseInt(tooltipRect.width)) - 20 + 'px'
+		// } else {
+		// 	left = parseInt(`${rect.x + rect.width}px`);
+		// }
+		// left = 0
+		// console.log("left: ", left);
 
 		// const leagueIds = data.leagueIds
 		if (!leagueIds?.length) {
+			alert("leagueIds are not defined");
 			return;
 		}
 		countryLeagues = [];
@@ -249,6 +194,73 @@
 			}
 		}
 		// console.log('countryLeagues: ', countryLeagues);
+		// country = {
+		// 	firstname: 'John',
+		// 	lastname: 'Doe'
+		// }
+		country = {
+			slug: event.detail.id,
+			name: event.detail.countryName,
+			population: event.detail.population,
+			leagues: countryLeagues,
+		};
+		// console.log('$country2: ', country2);
+	};
+	const onCountryClick = async (event) => {
+		const country = event.detail;
+		console.log("onCountryClick country: ", country);
+		showCountryTooltip = false;
+		showFilterButtons = true;
+
+		const countryStadiums = $stadiumStore.stadiums[country];
+		console.log("countryStadiums: ", countryStadiums);
+		if (!countryStadiums || countryStadiums.length < 5) {
+			// const querySnapshot = await getDocs(collection(db, `countries/${country}/stadiums`));
+
+			const stadiumsRef = collection(db, `countries/${country}/stadiums`);
+			const q = query(stadiumsRef, orderBy("venue.capacity", "asc"));
+			const querySnapshot = await getDocs(q);
+
+			console.log("[Firebase call] querySnapshot: ", querySnapshot);
+			const array = [];
+			querySnapshot.forEach((doc) => {
+				array.push(doc.data());
+			});
+			console.log("array: ", array);
+
+			stadiumStore.setStadiums({ [country]: array });
+		}
+		const abc = $stadiumStore.stadiums;
+		console.log("abc: ", abc);
+		const def = camelize(country);
+		console.log("def: ", def);
+		displayMap(camelize(country));
+	};
+	const onCountryLeave = () => {
+		showCountryTooltip = false;
+	};
+
+	const onStadiumHover = (event) => {
+		// console.log("onStadiumHover: ", event.detail);
+		const stadiumId = event.detail;
+		stadiums = $stadiumStore.stadiums["germany"].filter(
+			(team) => team.venue.api_football_id == stadiumId,
+		);
+		showStadiumTooltip = true;
+		// const tooltip = document.getElementById("tooltip");
+		// if (tooltip) {
+		// 	tooltip.style.display = "block";
+		// }
+		// console.log("stadiums: ", stadiums);
+	};
+
+	const onStadiumLeave = () => {
+		// console.log("onStadiumLeave: ");
+		const tooltip = document.getElementById("tooltip");
+		showStadiumTooltip = false;
+		if (tooltip) {
+			tooltip.style.display = "none";
+		}
 	};
 
 	// Store
@@ -281,6 +293,65 @@
 			);
 		}
 	};
+
+	const filterStadiums = (filter) => {
+		// console.log('filterStadiums: ', filter)
+		// filterValue = filter;
+		switch (filter) {
+			case "all":
+				return $stadiumStore.stadiums[country?.slug].length;
+			case "top_league":
+				return $stadiumStore.stadiums[country?.slug].filter(
+					(team) => team.league.api_football_id == 78,
+				).length;
+			// return abc1.length;
+			case "second_league":
+				return $stadiumStore.stadiums[country?.slug].filter(
+					(team) => team.league.api_football_id == 79,
+				).length;
+			case "stadium_sm":
+				const abc = [
+					...new Set(
+						$stadiumStore.stadiums[country?.slug]
+							.filter((team) => team.venue.capacity < 20000)
+							.map((team) => team.venue.api_football_id),
+					),
+				];
+				return abc.length;
+			case "stadium_md":
+				return [
+					...new Set(
+						$stadiumStore.stadiums[country?.slug]
+							.filter(
+								(team) =>
+									team.venue.capacity >= 20000 &&
+									team.venue.capacity < 40000,
+							)
+							.map((team) => team.venue.api_football_id),
+					),
+				].length;
+			case "stadium_lg":
+				return [
+					...new Set(
+						$stadiumStore.stadiums[country?.slug]
+							.filter(
+								(team) =>
+									team.venue.capacity >= 40000 &&
+									team.venue.capacity < 60000,
+							)
+							.map((team) => team.venue.api_football_id),
+					),
+				].length;
+			case "stadium_xl":
+				return [
+					...new Set(
+						$stadiumStore.stadiums[country?.slug]
+							.filter((team) => team.venue.capacity >= 60000)
+							.map((team) => team.venue.api_football_id),
+					),
+				].length;
+		}
+	};
 </script>
 
 <svelte:head>
@@ -297,9 +368,15 @@
 	<div class="col-12 text-center">
 		<!-- <section> -->
 		<Tooltip title="This is a greeting"><h2>eurostadium</h2></Tooltip>
-		<div id="tooltip">
-			<!-- <TooltipCountry data={countryLeagues} {left} {top} /> -->
-		</div>
+		<!-- <div id="tooltip" style="display: none;"> -->
+		<!-- showCountryTooltip: {showCountryTooltip} -->
+		{#if showCountryTooltip}
+			<TooltipCountry data={country} {left} {top} />
+		{/if}
+		{#if showStadiumTooltip}
+			<TooltipStadium data={stadiums} />
+		{/if}
+		<!-- </div> -->
 		<br />
 		<a href="/about">About page</a>
 		<br /><br />
@@ -380,13 +457,70 @@
 		<div id="svgWrapper" style="border: 1px solid red;">
 			<svelte:component
 				this={currentComponent}
+				filter={filterValue}
+				{country}
 				on:countryHover={onCountryHover}
 				on:countryClick={onCountryClick}
-				on:clickOutsideCountry={() => displayMap("Europe")}
+				on:countryLeave={onCountryLeave}
+				on:stadiumHover={onStadiumHover}
+				on:stadiumLeave={onStadiumLeave}
+				on:clickOutsideCountry={() => {
+					displayMap("Europe");
+					showFilterButtons = false;
+				}}
 			/>
 		</div>
 	</div>
-	<div class="col-4"></div>
+	<div
+		class="col-xl-4 col-lg-2 col-md-1 col-sm-0 justify-center align-content border-3"
+	>
+		{#if showFilterButtons}
+			<div class="text-center" id="filterPanel">
+				filterValue: {filterValue}<br />
+				<button
+					class="btn btn-filter active"
+					id="btnAll"
+					on:click={() => {filterValue = 'all'}}
+					>All teams&nbsp;<span class="pill"
+						>{filterStadiums("all")}</span
+					></button
+				>
+				<button class="btn btn-filter" id="btnTop" on:click={() => {filterValue = 'top_league'}}
+					>1<sup>st</sup> league teams&nbsp;<span class="pill"
+						>{filterStadiums("top_league")}</span
+					></button
+				>
+				<button
+					class="btn btn-filter"
+					id="btnSecond"
+					on:click={() => {filterValue = 'second_league'}}
+					>2<sup>nd</sup> league teams&nbsp;<span class="pill"
+						>{filterStadiums("second_league")}</span
+					></button
+				>
+				<button class="btn btn-filter" id="btnSm" on:click={() => {filterValue = 'stadium_sm'}}>
+					&#60; 20,000&nbsp;<span class="pill"
+						>{filterStadiums("stadium_sm")}</span
+					></button
+				>
+				<button class="btn btn-filter" id="btnMd" on:click={() => {filterValue = 'stadium_md'}}
+					>20,000 &#60; 40,000&nbsp;<span class="pill"
+						>{filterStadiums("stadium_md")}</span
+					></button
+				>
+				<button class="btn btn-filter" id="btnLg" on:click={() => {filterValue = 'stadium_lg'}}
+					>40,000 &#60; 60,000&nbsp;<span class="pill"
+						>{filterStadiums("stadium_lg")}</span
+					></button
+				>
+				<button class="btn btn-filter" id="btnXl" on:click={() => {filterValue = 'stadium_xl'}}
+					>&#62; 60,000&nbsp;<span class="pill"
+						>{filterStadiums("stadium_xl")}</span
+					></button
+				>
+			</div>
+		{/if}
+	</div>
 </div>
 
 <br /><br /><br /><br />
