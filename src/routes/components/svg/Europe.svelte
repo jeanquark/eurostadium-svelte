@@ -3,8 +3,12 @@
     import { browser } from "$app/environment";
     import panzoom from "@panzoom/panzoom";
 
+    // svelte-ignore unused-export-let
     export let country
+    // svelte-ignore unused-export-let
     export let filter
+    // svelte-ignore unused-export-let
+    export let stadiums3
 
     const dispatch = createEventDispatcher();
     // let instance

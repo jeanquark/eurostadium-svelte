@@ -1,7 +1,7 @@
 <script>
     export let data
-    export let left
-    export let top
+    // export let left
+    // export let top
     let isHovered = false
     let x
     let y
