@@ -45,8 +45,11 @@
 
 <div class="tooltip" style="top: 50%; transform: translateY(50%); left: 0px;">
     <h2 class="text-center">{data?.name}</h2>
-    left: {left}<br />
-    top: {top}
+    <p>
+        data.slug: {data?.slug}<br />
+        data.population: {data?.population}<br />
+        data.leagues.length {data?.leagues?.length}<br />
+    </p>
 </div>
 
 <style>

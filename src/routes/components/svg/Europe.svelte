@@ -3,6 +3,9 @@
     import { browser } from "$app/environment";
     import panzoom from "@panzoom/panzoom";
 
+    export let country
+    export let filter
+
     const dispatch = createEventDispatcher();
     // let instance
     let abc;
@@ -19,7 +22,7 @@
     // panzoom2.zoom(2, { animate: true });
 
     const initPanzoom = (node) => {
-        console.log("node: ", node);
+        // console.log("node: ", node);
         node.addEventListener("panzoomchange", (event) => {
             // console.log("panzoomchange: ", event.detail); // => { x: 0, y: 0, scale: 1 }
         });
@@ -49,7 +52,7 @@
 
     if (browser) {
         const elem = document.getElementById("map-europe");
-        console.log("elem: ", elem);
+        // console.log("elem: ", elem);
     }
 
     const handleClick = (e) => {
@@ -97,7 +100,7 @@
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 190000 155000"
-    width="400"
+    width="100%"
     use:initPanzoom
 >
     <def id="def">
