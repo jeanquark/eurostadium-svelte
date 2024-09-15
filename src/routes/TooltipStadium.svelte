@@ -64,7 +64,7 @@
     </div>
     <div class="row">
         <div class="col-12 text-center">
-            <img src="images/stadiums/{countrySlug}/{data[0]['venue']['api_football_id']}.jpg" width="100%" alt="Stadium" />
+            <img src="{base}/images/stadiums/{countrySlug}/{data[0]['venue']['api_football_id']}.jpg" width="100%" alt="Stadium" />
         </div>
     </div>
 </div>

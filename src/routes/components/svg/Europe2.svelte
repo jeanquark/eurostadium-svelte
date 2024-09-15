@@ -13,52 +13,39 @@
     const dispatch = createEventDispatcher();
     // let instance
     let abc;
-    let flag = 1;
 
-    // on:click={handleClick}
-    //         on:mouseover={handleMouseOver}
-    //         on:mouseleave={handleMouseLeave}
-    //         on:focus={() => {}}
-    //         role="presentation"
+    // function initPanzoom(node) {
+    // 	instance = panzoom(node)
+    // }
 
-
+    // const elem = document.getElementById("map-europe");
+    // const panzoom2 = panzoom(elem, {
+    //     maxScale: 5,
+    // });
+    // panzoom2.pan(10, 10);
+    // panzoom2.zoom(2, { animate: true });
 
     const initPanzoom = (node) => {
         // console.log("node: ", node);
-        // node.addEventListener("panzoomchange", (event) => {
-        //     console.log("panzoomchange: ", event.detail); // => { x: 0, y: 0, scale: 1 }
-        //     if (event.detail.x != 0 || event.detail.y != 0) {
-        //         flag = 0
-        //     }
+        node.addEventListener("mousedown", (event) => {
+            console.log("mousedown: ", event.detail);
+        });
+        node.addEventListener("mouseup", (event) => {
+            console.log("mouseup: ", event.detail);
+        });
+        node.addEventListener("panzoomchange", (event) => {
+            console.log("panzoomchange: ", event.detail); // => { x: 0, y: 0, scale: 1 }
+        });
+        node.addEventListener("click", (event) => {
+            console.log("click: ", event.detail);
+        });
+        // node.addEventListener("touchstart", (event) => {
+        //     console.log("touchstart: ", event.detail);
         // });
-        node.addEventListener("panzoompan", (event) => {
-            console.log("panzoompan: ", event.detail);
-            if (event.detail.x != 0 || event.detail.y != 0) {
-                flag = 0
-            }
-        });
-        node.addEventListener("panzoomzoom", (event) => {
-            console.log("panzoomzoom: ", event.detail);
-        });
-        
         // node.addEventListener("wheel", (e) => {
-        //     // console.log("wheel e: ", e)
+        //     console.log("wheel e: ", e)
         //     abc.zoomWithWheel(e);
         // })
-        node.addEventListener("click", (event) => {
-            // console.log("click: ", event.detail);
-            // console.log('click flag: ', flag)
-            if (flag == 1) {
-                // console.log('click')
-                abc.destroy()
-                node.removeEventListener("wheel", def)
-                handleClick(event)
-                
-            } else {
-                console.log('no click')
-            }
-            flag = 1
-        });
         abc = panzoom(node, {
             isSvg: true,
             cursor: "normal",
@@ -69,35 +56,40 @@
             touchAction: "none",
             // contain: "outside",
             handleStartEvent: (event) => {
-                event.preventDefault();
-                event.stopPropagation();
-            },
-            // destroy: () => {
-            //     console.log('destroy')
-            // }
+                event.preventDefault()
+                event.stopPropagation()
+            }
         });
-        const def = (e) => {
-            abc.zoomWithWheel(e);
-        }
-        node.addEventListener("wheel", def)
+        // node.parentElement.addEventListener('wheel', (e) => {
+        //     console.log('e.deltaY: ', e.deltaX)
+        //     // abc.zoom(e.deltaX, { animate: true })
+        // })
+        // abc.zoomWithWheel(() => { console.log('abc')})
+        // console.log('getScale(): ', abc.getScale())
+        // abc.zoom(8)
+        // abc.pan(1, 1)
     };
 
     if (browser) {
         const elem = document.getElementById("map-europe");
         // console.log("elem: ", elem);
     }
-   
+
     const handleClick = (e) => {
         console.log("handleClick");
+        return
         const country = e.target.getAttribute("data-country");
         console.log("country: ", country);
-        
-        // dispatch("countryClick", e.target.id);
+        dispatch("countryClick", e.target.id);
     };
 
+    const handleMouseMove = (e) => {
+        console.log('handleMouseMove')
+    }
+
     const handleMouseOver = (e) => {
-        // return;
-        // console.log("handleMouseOver: ", e);
+        console.log("handleMouseOver: ", e);
+        return;
         // console.log("e.target: ", e.target);
         // console.log("e.target.id: ", e.target.id);
         // console.log("e.target.data-country: ", e.target.getAttribute("data-country"));
@@ -123,11 +115,27 @@
     const handleMouseLeave = (e) => {
         dispatch("countryLeave")
     }
+    const handleMouseDown = (e) => {
+        console.log("handleMouseDown")
+    }
+    const handleMouseUp = (e) => {
+        console.log("handleMouseUp")
+    }
+    function update () {
+        console.log('update')
+    }
     // export let onCountryHover = () => {}
 </script>
 
-<!-- <svg id="map-europe" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190000 155000" width="190000" height="155000"> -->
-<!-- abc: {abc?.zoom}<br /> -->
+<!-- on:click={handleClick} -->
+<!-- on:mouseover={handleMouseOver} -->
+<!-- on:mousemove={handleMouseMove} -->
+<!-- on:mouseleave={handleMouseLeave} -->
+<!-- on:mousedown={handleMouseDown} -->
+<!-- on:mouseup={() => handleMouseUp} -->
+<!-- role="presentation" -->
+<!-- on:focus={() => {}} -->
+<!-- use:initPanzoom -->
 <svg
     id="map-europe"
     version="1.1"
