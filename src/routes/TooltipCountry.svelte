@@ -53,7 +53,7 @@
     <div class="row">
         <div class="col-2" style="display: flex;
         align-items: center;">
-            <img src="/images/flags/{data.slug}.png" width="60" alt="Country flag" />
+            <img src="images/flags/{data.slug}.png" width="60" alt="Country flag" />
         </div>
         <div class="col-4" style="display: flex; justify-content: center;
         align-items: center;">

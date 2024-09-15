@@ -1,4 +1,6 @@
 <script>
+	import { base } from "$app/paths";
+
     export let data
     export let countrySlug
     // export let left
@@ -57,12 +59,12 @@
             <h3 class="">
                 ${formatNumber(data[0]['venue']['capacity'])}
             </h3>
-            <img src="/images/icons/close.svg" width="20" class="text-right" id="closeTooltipBtn" alt="close button" style="position: absolute; top: 0; right: 0;" />
+            <img src="{base}/images/icons/close.svg" width="20" class="text-right" id="closeTooltipBtn" alt="close button" style="position: absolute; top: 0; right: 0;" />
         </div>
     </div>
     <div class="row">
         <div class="col-12 text-center">
-            <img src="/images/stadiums/{countrySlug}/{data[0]['venue']['api_football_id']}.jpg" width="100%" alt="Stadium" />
+            <img src="images/stadiums/{countrySlug}/{data[0]['venue']['api_football_id']}.jpg" width="100%" alt="Stadium" />
         </div>
     </div>
 </div>
