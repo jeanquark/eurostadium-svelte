@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from "svelte";
+	import { base } from '$app/paths';
 	import Counter from "./Counter.svelte";
 	import Tooltip from "./Tooltip.svelte";
 	import TooltipCountry from "./TooltipCountry.svelte";
@@ -480,7 +481,7 @@
 		{/if}
 		<!-- </div> -->
 		<br />
-		<a href="/about">About page</a>
+		<a href="{base}/about">About page</a>
 		<br /><br />
 		<!-- $leagueStore.leagues.length: {$leagueStore.leagues?.length}<br /><br /> -->
 		<!-- countryLeagues.length: {countryLeagues.length}<br /><br /> -->
