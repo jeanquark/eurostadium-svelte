@@ -1,5 +1,6 @@
 <script>
     export let data
+    export let countrySlug
     // export let left
     // export let top
     let isHovered = false
@@ -23,6 +24,9 @@
         console.log('mouseLeave')
         isHovered = false
     }
+    const formatNumber = (number) => {
+    return number.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ',')
+}
     // const clientX = e.clientX
     // const offsetWidth = document.getElementById('svgWrapper').offsetWidth
     // const rect = e.target.getBoundingClientRect()
@@ -45,6 +49,22 @@
 
 <div class="tooltip" style="top: 50%; transform: translateY(50%); left: 0px;">
     {data[0]?.venue?.name}, {data[0]?.venue?.city}
+    <div class="row align-center">
+        <div class="col-12 text-center relative">
+            <h2>
+                <span class="text-primary"><b>{data[0]['venue']['name']}</b></span>, <span class="text-muted">{data[0]['venue']['city']}</span>
+            </h2>
+            <h3 class="">
+                ${formatNumber(data[0]['venue']['capacity'])}
+            </h3>
+            <img src="/images/icons/close.svg" width="20" class="text-right" id="closeTooltipBtn" alt="close button" style="position: absolute; top: 0; right: 0;" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <img src="/images/stadiums/{countrySlug}/{data[0]['venue']['api_football_id']}.jpg" width="100%" alt="Stadium" />
+        </div>
+    </div>
 </div>
 
 <style>

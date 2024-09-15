@@ -477,7 +477,7 @@
 			<TooltipCountry data={country} />
 		{/if}
 		{#if showStadiumTooltip}
-			<TooltipStadium data={stadiums} />
+			<TooltipStadium data={stadiums} countrySlug={country.slug} />
 		{/if}
 		<!-- </div> -->
 		<br />
@@ -655,6 +655,7 @@
 		{/if}
 	</div>
 </div>
+<img src="images/no-image.png" width="100" alt="not found"/>
 
 <br /><br /><br /><br />
 

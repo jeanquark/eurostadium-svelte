@@ -50,6 +50,22 @@
         data.population: {data?.population}<br />
         data.leagues.length {data?.leagues?.length}<br />
     </p>
+    <div class="row">
+        <div class="col-2" style="display: flex;
+        align-items: center;">
+            <img src="/images/flags/{data.slug}.png" width="60" alt="Country flag" />
+        </div>
+        <div class="col-4" style="display: flex; justify-content: center;
+        align-items: center;">
+            <div style="display: flex-column;">
+                <h2 class="text-center">{data.name}</h2>
+                <h4 class="text-center">Pop: {data.population}</h4>
+            </div>
+        </div>
+        <div class="col-6">
+            <img src="/images/countries/{data.slug}.jpg" width="100%" alt="Country panorama" />
+        </div>
+    </div>
 </div>
 
 <style>
