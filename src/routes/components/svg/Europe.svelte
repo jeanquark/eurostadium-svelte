@@ -16,10 +16,10 @@
     let flag = 1;
 
     // on:click={handleClick}
-    //         on:mouseover={handleMouseOver}
-    //         on:mouseleave={handleMouseLeave}
-    //         on:focus={() => {}}
-    //         role="presentation"
+    // on:mouseover={handleMouseOver}
+    // on:mouseleave={handleMouseLeave}
+    // on:focus={() => {}}
+    // role="presentation"
 
 
 
@@ -53,7 +53,6 @@
                 abc.destroy()
                 node.removeEventListener("wheel", def)
                 handleClick(event)
-                
             } else {
                 console.log('no click')
             }
@@ -91,8 +90,7 @@
         console.log("handleClick");
         const country = e.target.getAttribute("data-country");
         console.log("country: ", country);
-        
-        // dispatch("countryClick", e.target.id);
+        dispatch("countryClick", e.target.id);
     };
 
     const handleMouseOver = (e) => {
@@ -113,11 +111,11 @@
             id: e.target.id,
             countryName: e.target.getAttribute("data-country"),
             population: e.target.getAttribute("data-pop"),
-            leagueIds: e.target.getAttribute("data-leagues-id").split(","),
+            leagueIds: e.target.getAttribute("data-leagues-id")?.split(","),
             clientX: e.clientX,
             rect: e.target.getBoundingClientRect(),
         };
-        // dispatch("countryHover", e.target.getAttribute("data-leagues-id"));
+        // console.log('data: ', data);
         dispatch("countryHover", data);
     };
     const handleMouseLeave = (e) => {
@@ -707,7 +705,9 @@
             id="circle7010"
         />
 
-        <g>
+        <g on:mouseover={handleMouseOver}
+        on:focus={() => {}}
+        role="presentation">
             <path
                 id="iceland"
                 class="country"

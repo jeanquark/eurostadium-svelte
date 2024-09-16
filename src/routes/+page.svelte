@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from "svelte";
-	import { base } from '$app/paths';
+	import { base } from "$app/paths";
 	import Counter from "./Counter.svelte";
 	import Tooltip from "./Tooltip.svelte";
 	import TooltipCountry from "./TooltipCountry.svelte";
@@ -50,47 +50,68 @@
 	let showFilterButtons = false;
 	let filterValue = "all";
 	$: stadiumsAll = [
-		...new Set($stadiumStore.stadiums[country?.slug]?.map((team) => team.venue.api_football_id))].length;
-	$: stadiumsTopLeague =  [
-		...new Set($stadiumStore.stadiums[country?.slug]?.filter(
-		(team) =>
-			team.league.api_football_id ==
-			country.leagues[0]["api_football_id"],
-			).map((team) => team.venue.api_football_id))].length;
-	$: stadiumsSecondLeague =  [
-		...new Set($stadiumStore.stadiums[country?.slug]?.filter(
-		(team) =>
-			team.league.api_football_id ==
-			country.leagues[1]["api_football_id"],
-	).map((team) => team.venue.api_football_id))].length;
+		...new Set(
+			$stadiumStore.stadiums[country?.slug]?.map(
+				(team) => team.venue.api_football_id,
+			),
+		),
+	].length;
+	$: stadiumsTopLeague = [
+		...new Set(
+			$stadiumStore.stadiums[country?.slug]
+				?.filter(
+					(team) =>
+						team.league.api_football_id ==
+						country.leagues[0]["api_football_id"],
+				)
+				.map((team) => team.venue.api_football_id),
+		),
+	].length;
+	$: stadiumsSecondLeague = [
+		...new Set(
+			$stadiumStore.stadiums[country?.slug]
+				?.filter(
+					(team) =>
+						team.league.api_football_id ==
+						country.leagues[1]["api_football_id"],
+				)
+				.map((team) => team.venue.api_football_id),
+		),
+	].length;
 	$: stadiumsSm = [
 		...new Set(
-			$stadiumStore.stadiums[country?.slug]?.filter(
-				(team) => team.venue.capacity < 20000,
-			).map((team) => team.venue.api_football_id),
+			$stadiumStore.stadiums[country?.slug]
+				?.filter((team) => team.venue.capacity < 20000)
+				.map((team) => team.venue.api_football_id),
 		),
 	].length;
 	$: stadiumsMd = [
 		...new Set(
-			$stadiumStore.stadiums[country?.slug]?.filter(
-				(team) =>
-					team.venue.capacity >= 20000 && team.venue.capacity < 40000,
-			).map((team) => team.venue.api_football_id)
+			$stadiumStore.stadiums[country?.slug]
+				?.filter(
+					(team) =>
+						team.venue.capacity >= 20000 &&
+						team.venue.capacity < 40000,
+				)
+				.map((team) => team.venue.api_football_id),
 		),
 	].length;
 	$: stadiumsLg = [
 		...new Set(
-			$stadiumStore.stadiums[country?.slug]?.filter(
-				(team) =>
-					team.venue.capacity >= 40000 && team.venue.capacity < 60000,
-			).map((team) => team.venue.api_football_id),
+			$stadiumStore.stadiums[country?.slug]
+				?.filter(
+					(team) =>
+						team.venue.capacity >= 40000 &&
+						team.venue.capacity < 60000,
+				)
+				.map((team) => team.venue.api_football_id),
 		),
 	].length;
 	$: stadiumsXl = [
 		...new Set(
-			$stadiumStore.stadiums[country?.slug]?.filter(
-				(team) => team.venue.capacity >= 60000,
-			).map((team) => team.venue.api_football_id),
+			$stadiumStore.stadiums[country?.slug]
+				?.filter((team) => team.venue.capacity >= 60000)
+				.map((team) => team.venue.api_football_id),
 		),
 	].length;
 
@@ -294,7 +315,7 @@
 		const def = camelize(country);
 		console.log("def: ", def);
 		displayMap(camelize(country));
-		filterValue = 'all'
+		filterValue = "all";
 		showFilterButtons = true;
 	};
 	const onCountryLeave = () => {
@@ -555,7 +576,6 @@
 		{/if}
 
 		<div id="svgWrapper" style="border: 1px solid red;">
-			<!-- on:countryClick={onCountryClick} -->
 			<svelte:component
 				this={currentComponent}
 				filter={filterValue}
@@ -565,6 +585,7 @@
 				on:countryLeave={onCountryLeave}
 				on:stadiumHover={onStadiumHover}
 				on:stadiumLeave={onStadiumLeave}
+				on:countryClick={onCountryClick}
 				on:clickOutsideCountry={() => {
 					displayMap("Europe");
 					showFilterButtons = false;
