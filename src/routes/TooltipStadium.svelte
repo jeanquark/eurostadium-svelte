@@ -71,7 +71,7 @@
     </div>
 </div> -->
 
-<div class="text-center tooltip">
+<div class="text-center tooltip" style="">
     <div class="row align-center">
         <div class="col-12 text-center relative">
             <h2>
@@ -149,8 +149,8 @@
         padding: 10px;
         position: absolute;
         left: 0px;
-        top: 50%;
         /* top: 400px; */
+        top: 50%;
         transform: translateY(-50%);
     }
 </style>

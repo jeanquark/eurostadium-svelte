@@ -49,6 +49,7 @@
 	let showStadiumTooltip = false;
 	let showFilterButtons = false;
 	let filterValue = "all";
+	let svgMap
 	$: stadiumsAll = [
 		...new Set(
 			$stadiumStore.stadiums[country?.slug]?.map(
@@ -238,21 +239,30 @@
 		showCountryTooltip = true;
 		// const leagueIds = event.detail?.split(",");
 		const { leagueIds, clientX, rect } = event.detail;
+		// console.log('clientX: ', clientX)
+		// console.log('rect: ', rect);
 		// console.log("leagueIds: ", leagueIds);
-		const offsetWidth = document.getElementById("svgWrapper").offsetWidth;
+		// const offsetWidth = document.getElementById("svgWrapper").offsetWidth;
+		const offsetWidth = svgMap.offsetWidth
 		// console.log("offsetWidth: ", offsetWidth);
 		// const tooltip = document.getElementById("tooltip");
 		// const tooltipRect = tooltip.getBoundingClientRect();
 		// let left = 0
+		const tooltipRect = svgMap.getBoundingClientRect();
+		// console.log('abc: ', clientX - tooltipRect.left);
+		const distFromLeft = clientX - parseInt(tooltipRect.left)
 
-		// if (clientX > offsetWidth / 2) {
-		// 	// tooltip.style.left = `${rect.x - 410 - rect.width}px`
-		// 	// tooltip.style.left = `${rect.x - rect.width - parseInt(tooltipRect.width)}px`
-		// 	left = parseInt(`${rect.x - 200}px`);
-		// 	// tooltip.style.left = offsetLeft + (clientX - parseInt(tooltipRect.width)) - 20 + 'px'
-		// } else {
-		// 	left = parseInt(`${rect.x + rect.width}px`);
-		// }
+		if (distFromLeft > (offsetWidth / 2)) {
+			console.log('Left tooltip')
+			// tooltip.style.left = `${rect.x - 410 - rect.width}px`
+			// tooltip.style.left = `${rect.x - rect.width - parseInt(tooltipRect.width)}px`
+			left = parseInt(rect.x) - parseInt(tooltipRect.width) - 15
+			// left = parseInt(`${rect.x - 200}px`);
+			// tooltip.style.left = offsetLeft + (clientX - parseInt(tooltipRect.width)) - 20 + 'px'
+		} else {
+			console.log('Right tooltip')
+			left = parseInt(rect.x) + parseInt(rect.width)
+		}
 		// left = 0
 		// console.log("left: ", left);
 
@@ -497,6 +507,7 @@
 		<!-- $leagueStore.leagues.length: {$leagueStore.leagues?.length}<br /><br /> -->
 		<!-- countryLeagues.length: {countryLeagues.length}<br /><br /> -->
 		<!-- $leagueStore.data.length: {$leagueStore.data.length}<br /><br /> -->
+		left: {left}<br />
 		<div style="">
 			<button on:click={decreaseCount}>decrease</button>
 			<!-- <span style="padding: 0 10px">$countStore: {$countStore.value}</span> -->
@@ -569,17 +580,17 @@
 	<div class="col-xl-4 col-lg-2 col-md-1 col-sm-0 border-1"></div>
 	<div class="col-xl-4 col-lg-8 col-md-10 col-sm-12 border-2">
 		{#if showCountryTooltip}
-			<TooltipCountry data={country} />
+			<TooltipCountry data={country} left={left} />
 		{/if}
 		{#if showStadiumTooltip}
 			<TooltipStadium data={stadiums} countrySlug={country.slug} />
 		{/if}
 
-		<div id="svgWrapper" style="border: 1px solid red;">
+		<div id="svgWrapper" bind:this={svgMap} style="border: 1px solid red;">
 			<svelte:component
 				this={currentComponent}
 				filter={filterValue}
-				{country}
+				country={country}
 				stadiums3={stadiums}
 				on:countryHover={onCountryHover}
 				on:countryLeave={onCountryLeave}
@@ -600,7 +611,7 @@
 			<div class="text-center" id="filterPanel">
 				filterValue: {filterValue}<br />
 				<button
-					class="btn btn-filter {filterValue == 'all' && 'active'}"
+					class="btn btn-filter {filterValue == 'all' && 'active'} grass-background"
 					id="btnAll"
 					on:click={() => {
 						filterStadiums("all");
@@ -740,5 +751,9 @@
 		background-color: #cccccc;
 		color: #666666;
 		cursor: not-allowed;
+	}
+	.grass-background {
+		/* background: red !important; */
+		background: url("/images/grass_03.png") no-repeat scroll 0 0 transparent !important;
 	}
 </style>

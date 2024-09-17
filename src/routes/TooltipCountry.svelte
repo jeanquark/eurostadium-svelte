@@ -2,7 +2,7 @@
     import { base } from "$app/paths";
 
     export let data;
-    // export let left
+    export let left;
     // export let top
     let isHovered = false;
     let x;
@@ -46,7 +46,7 @@
 {/if} -->
 
 <!-- <div class="col-12 text-center tooltip" style=""> -->
-<div class="text-center tooltip">
+<div class="text-center tooltip" style="left: {left}px;">
     <!-- <h2 class="text-center">{data?.name}</h2>
     <p>
         data.slug: {data?.slug}<br />
@@ -157,9 +157,10 @@
         background: white;
         position: absolute;
         /* top: 0px; */
-        left: 0px;
+        /* left: 0px; */
         top: 50%;
         /* top: 400px; */
         transform: translateY(-50%);
+        z-index: 1000;
     }
 </style>
