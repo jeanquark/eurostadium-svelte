@@ -18,7 +18,14 @@
         // console.log("handleMouseOver: ", e)
         const stadiumId = parseInt(e.target.getAttribute('data-stadium-id'))
         // console.log("stadiumId: ", stadiumId)
-        dispatch('stadiumHover', stadiumId)
+        const data = {
+            id: e.target.id,
+            stadiumId: stadiumId,
+            clientX: e.clientX,
+            rect: e.target.getBoundingClientRect(),
+        };
+
+        dispatch('stadiumHover', data)
     }
     const handleMouseLeave = (e) => {
         // console.log("handleMouseLeave: ", e)

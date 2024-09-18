@@ -49,7 +49,7 @@
 	let showStadiumTooltip = false;
 	let showFilterButtons = false;
 	let filterValue = "all";
-	let svgMap
+	let svgMap;
 	$: stadiumsAll = [
 		...new Set(
 			$stadiumStore.stadiums[country?.slug]?.map(
@@ -243,25 +243,25 @@
 		// console.log('rect: ', rect);
 		// console.log("leagueIds: ", leagueIds);
 		// const offsetWidth = document.getElementById("svgWrapper").offsetWidth;
-		const offsetWidth = svgMap.offsetWidth
+		const offsetWidth = svgMap.offsetWidth;
 		// console.log("offsetWidth: ", offsetWidth);
 		// const tooltip = document.getElementById("tooltip");
 		// const tooltipRect = tooltip.getBoundingClientRect();
 		// let left = 0
 		const tooltipRect = svgMap.getBoundingClientRect();
 		// console.log('abc: ', clientX - tooltipRect.left);
-		const distFromLeft = clientX - parseInt(tooltipRect.left)
+		const distFromLeft = clientX - parseInt(tooltipRect.left);
 
-		if (distFromLeft > (offsetWidth / 2)) {
-			console.log('Left tooltip')
+		if (distFromLeft > offsetWidth / 2) {
+			console.log("Left tooltip");
 			// tooltip.style.left = `${rect.x - 410 - rect.width}px`
 			// tooltip.style.left = `${rect.x - rect.width - parseInt(tooltipRect.width)}px`
-			left = parseInt(rect.x) - parseInt(tooltipRect.width) - 15
+			left = parseInt(rect.x) - parseInt(tooltipRect.width) - 15;
 			// left = parseInt(`${rect.x - 200}px`);
 			// tooltip.style.left = offsetLeft + (clientX - parseInt(tooltipRect.width)) - 20 + 'px'
 		} else {
-			console.log('Right tooltip')
-			left = parseInt(rect.x) + parseInt(rect.width)
+			console.log("Right tooltip");
+			left = parseInt(rect.x) + parseInt(rect.width);
 		}
 		// left = 0
 		// console.log("left: ", left);
@@ -329,15 +329,30 @@
 		showFilterButtons = true;
 	};
 	const onCountryLeave = () => {
+		console.log("onCountryLeave");
 		showCountryTooltip = false;
 	};
 
 	const onStadiumHover = (event) => {
-		// console.log("onStadiumHover: ", event.detail);
-		const stadiumId = event.detail;
+		console.log("onStadiumHover: ", event.detail);
+		const { stadiumId, clientX, rect } = event.detail;
+		// const stadiumId = event.detail;
 		stadiums = $stadiumStore.stadiums[country.slug]?.filter(
 			(team) => team.venue.api_football_id == stadiumId,
 		);
+
+		const offsetWidth = svgMap.offsetWidth;
+		const tooltipRect = svgMap.getBoundingClientRect();
+		const distFromLeft = clientX - parseInt(tooltipRect.left);
+
+		if (distFromLeft > offsetWidth / 2) {
+			console.log("Left tooltip");
+			left = parseInt(rect.x) - parseInt(tooltipRect.width) - 10;
+		} else {
+			console.log("Right tooltip");
+			left = parseInt(rect.x) + parseInt(rect.width);
+		}
+
 		showStadiumTooltip = true;
 		// const tooltip = document.getElementById("tooltip");
 		// if (tooltip) {
@@ -348,12 +363,30 @@
 
 	const onStadiumLeave = () => {
 		// console.log("onStadiumLeave: ");
-		// const tooltip = document.getElementById("tooltip");
-		showStadiumTooltip = false;
-		// if (tooltip) {
-		// 	tooltip.style.display = "none";
-		// }
+		// showStadiumTooltip = false;
 	};
+
+	const onTooltipHover = () => {
+		console.log("onTooltipHover");
+		// mouseOverTooltip = true
+		// tooltip.style.display = 'block'
+		// stadium.classList.add('hover')
+	};
+
+	const onTooltipLeave = () => {
+		console.log("onTooltipLeave");
+		showStadiumTooltip = false
+		// mouseOverTooltip = false
+		// const tooltip = document.getElementById('tooltip')
+		// // console.log('stadium2: ', stadium)
+		// if (!mouseOverStadium) {
+		//     stadium.classList.remove('hover')
+		// }
+		// tooltip.style.display = 'none'
+	};
+	const onTooltipClose = () => {
+		showStadiumTooltip = false
+	}
 
 	// Store
 	// $: leagues = [];
@@ -580,23 +613,30 @@
 	<div class="col-xl-4 col-lg-2 col-md-1 col-sm-0 border-1"></div>
 	<div class="col-xl-4 col-lg-8 col-md-10 col-sm-12 border-2">
 		{#if showCountryTooltip}
-			<TooltipCountry data={country} left={left} />
+			<TooltipCountry data={country} {left} />
 		{/if}
 		{#if showStadiumTooltip}
-			<TooltipStadium data={stadiums} countrySlug={country.slug} />
+			<TooltipStadium
+				data={stadiums}
+				countrySlug={country.slug}
+				{left}
+				on:tooltipHover={onTooltipHover}
+				on:tooltipLeave={onTooltipLeave}
+				on:tooltipClose={onTooltipClose}
+			/>
 		{/if}
 
 		<div id="svgWrapper" bind:this={svgMap} style="border: 1px solid red;">
 			<svelte:component
 				this={currentComponent}
 				filter={filterValue}
-				country={country}
+				{country}
 				stadiums3={stadiums}
 				on:countryHover={onCountryHover}
 				on:countryLeave={onCountryLeave}
+				on:countryClick={onCountryClick}
 				on:stadiumHover={onStadiumHover}
 				on:stadiumLeave={onStadiumLeave}
-				on:countryClick={onCountryClick}
 				on:clickOutsideCountry={() => {
 					displayMap("Europe");
 					showFilterButtons = false;
@@ -611,7 +651,8 @@
 			<div class="text-center" id="filterPanel">
 				filterValue: {filterValue}<br />
 				<button
-					class="btn btn-filter {filterValue == 'all' && 'active'} grass-background"
+					class="btn btn-filter {filterValue == 'all' &&
+						'active'} grass-background"
 					id="btnAll"
 					on:click={() => {
 						filterStadiums("all");

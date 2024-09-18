@@ -158,8 +158,8 @@
         position: absolute;
         /* top: 0px; */
         /* left: 0px; */
-        top: 50%;
         /* top: 400px; */
+        top: 50%;
         transform: translateY(-50%);
         z-index: 1000;
     }

@@ -705,7 +705,7 @@
             id="circle7010"
         />
 
-        <g on:mouseover={handleMouseOver}
+        <g on:mouseover={handleMouseOver} on:mouseleave={handleMouseLeave}
         on:focus={() => {}}
         role="presentation">
             <path

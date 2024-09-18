@@ -1,8 +1,12 @@
 <script>
+    import { createEventDispatcher, onMount } from 'svelte'
     import { base } from "$app/paths";
-
+    
     export let data;
     export let countrySlug;
+    export let left;
+
+    const dispatch = createEventDispatcher()
     // export let left
     // export let top
     let isHovered = false;
@@ -31,6 +35,18 @@
             .toString()
             .replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
     };
+    const handleMouseOver = () => {
+        console.log('[TooltipStadium] handleMouseOver');
+        dispatch('tooltipHover')
+    }
+    const handleMouseLeave = () => {
+        console.log('[TooltipStadium] handleMouseLeave')
+        dispatch('tooltipLeave')
+    }
+    const handleTooltipClose = () => {
+        console.log('handleTooltipClose')
+        dispatch('tooltipClose')
+    }
     // const clientX = e.clientX
     // const offsetWidth = document.getElementById('svgWrapper').offsetWidth
     // const rect = e.target.getBoundingClientRect()
@@ -71,7 +87,9 @@
     </div>
 </div> -->
 
-<div class="text-center tooltip" style="">
+<div class="text-center tooltip" style="left: {left}px;" on:mouseover={handleMouseOver}
+on:mouseleave={handleMouseLeave}
+on:focus={() => {}} role="presentation">
     <div class="row align-center">
         <div class="col-12 text-center relative">
             <h2>
@@ -82,18 +100,19 @@
             <h3 class="">
                 {formatNumber(data[0]["venue"]["capacity"])}
             </h3>
-            <img
-                src="{base}/images/icons/close.svg"
-                width="20"
-                class="text-right"
-                id="closeTooltipBtn"
-                alt="close button"
-                style="position: absolute; top: 0; right: 0;"
-            />
+            <button on:click={handleTooltipClose} class="tooltip-close-btn">
+                <img
+                    src="{base}/images/icons/close.svg"
+                    width="20"
+                    class="text-right"
+                    alt="close button"
+                    style=""
+                />
+            </button>
         </div>
     </div>
     <div class="row">
-        <div class="col-12 text-center">
+        <div class="col-6 text-center">
             <img
                 src="{base}/images/stadiums/{countrySlug}/{data[0]['venue'][
                     'api_football_id'
@@ -148,9 +167,17 @@
         background: white;
         padding: 10px;
         position: absolute;
-        left: 0px;
+        /* left: 0px; */
         /* top: 400px; */
         top: 50%;
         transform: translateY(-50%);
+    }
+
+    .tooltip-close-btn {
+        position: absolute; top: 0; right: 0;
+    }
+    .tooltip-close-btn:hover {
+        color: orange;
+        cursor: pointer;
     }
 </style>
