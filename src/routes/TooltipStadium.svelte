@@ -5,6 +5,7 @@
     export let data;
     export let countrySlug;
     export let left;
+    export let tooltipWidth;
 
     const dispatch = createEventDispatcher()
     // export let left
@@ -12,6 +13,8 @@
     let isHovered = false;
     let x;
     let y;
+	// let tooltipWidth;
+
 
     function mouseOver(e) {
         console.log("mouseOver: ", e);
@@ -46,6 +49,10 @@
     const handleTooltipClose = () => {
         console.log('handleTooltipClose')
         dispatch('tooltipClose')
+    }
+    const handleOpenModal = () => {
+        console.log('handleOpenModal')
+        // dispatch('modalOpen')
     }
     // const clientX = e.clientX
     // const offsetWidth = document.getElementById('svgWrapper').offsetWidth
@@ -88,8 +95,7 @@
 </div> -->
 
 <div class="text-center tooltip" style="left: {left}px;" on:mouseover={handleMouseOver}
-on:mouseleave={handleMouseLeave}
-on:focus={() => {}} role="presentation">
+on:mouseleave={handleMouseLeave} bind:clientWidth={tooltipWidth} on:focus={() => {}} role="presentation" >
     <div class="row align-center">
         <div class="col-12 text-center relative">
             <h2>
@@ -99,8 +105,9 @@ on:focus={() => {}} role="presentation">
             </h2>
             <h3 class="">
                 {formatNumber(data[0]["venue"]["capacity"])}
+                tooltipWidth: {tooltipWidth}
             </h3>
-            <button on:click={handleTooltipClose} class="tooltip-close-btn">
+            <button type="button" on:click={handleTooltipClose} class="tooltip-close-btn">
                 <img
                     src="{base}/images/icons/close.svg"
                     width="20"
@@ -111,16 +118,22 @@ on:focus={() => {}} role="presentation">
             </button>
         </div>
     </div>
-    <div class="row">
-        <div class="col-6 text-center">
+    <div class="row align-center">
+        <div class="col-1 text-center border-1" style="overflow: hidden;"><img src="{base}/images/angle-left-solid.svg" width="100%" alt="left" /></div>
+        <div class="col-10 text-center">
+            <button type="button" on:click={handleOpenModal} class="image" style="background: transparent; border: none !important; font-size:0;">
             <img
                 src="{base}/images/stadiums/{countrySlug}/{data[0]['venue'][
                     'api_football_id'
                 ]}.jpg"
                 width="100%"
+                class=""
                 alt="Stadium"
+                
             />
+            </button>
         </div>
+        <div class="col-1 border-2" style="overflow: hidden;"><img src="{base}/images/angle-right-solid.svg" alt="right" /></div>
     </div>
     <div class="row align-center">
         <div class="col-4 text-center border-1" style="">
@@ -178,6 +191,9 @@ on:focus={() => {}} role="presentation">
     }
     .tooltip-close-btn:hover {
         color: orange;
+        cursor: pointer;
+    }
+    .tooltip .image:hover {
         cursor: pointer;
     }
 </style>

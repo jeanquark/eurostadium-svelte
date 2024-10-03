@@ -112,6 +112,14 @@
     flex: 16.67%;
     /* flex-grow:0; */
 }
+.col-1 {
+    flex: 8.33%;
+    /* flex-grow:0; */
+}
+.col-0 {
+    flex: 0%;
+    /* flex-grow:0; */
+}
 
 /* xl */
 @media screen and (min-width: 1201px) {
@@ -244,8 +252,23 @@
     .col-xs-12 {
         flex: 100%;
     }
+    .col-xs-10 {
+        flex: 83.33%;
+    }
+    .col-xs-8 {
+        flex: 66.67%;
+    }
     .col-xs-6 {
         flex: 50%;
+    }
+    .col-xs-4 {
+        flex: 33.33%;
+    }
+    .col-xs-2 {
+        flex: 16.67%;
+    }
+    .col-xs-1 {
+        flex: 8.33%;
     }
     .col-xs-0 {
         flex: 0%;

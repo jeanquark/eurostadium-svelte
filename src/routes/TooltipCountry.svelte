@@ -3,6 +3,7 @@
 
     export let data;
     export let left;
+    export let tooltipWidth;
     // export let top
     let isHovered = false;
     let x;
@@ -46,7 +47,7 @@
 {/if} -->
 
 <!-- <div class="col-12 text-center tooltip" style=""> -->
-<div class="text-center tooltip" style="left: {left}px;">
+<div class="text-center tooltip" style="left: {left}px;" bind:clientWidth={tooltipWidth}>
     <!-- <h2 class="text-center">{data?.name}</h2>
     <p>
         data.slug: {data?.slug}<br />
@@ -134,6 +135,7 @@
                     />
                 </div>
                 <div class="col-6 text-center border-0">
+                    {#if data.leagues[1]}
                     <img
                         src="{base}/images/leagues/{data.slug}/{data
                             .leagues[1]?.api_football_id}.png"
@@ -141,6 +143,7 @@
                         class="border-0"
                         alt="Second league"
                     />
+                    {/if}
                 </div>
             </div>
         </div>
