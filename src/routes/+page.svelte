@@ -42,6 +42,7 @@
     let myElement
     let tooltipWidth = 420
 	let tooltipCountryWidth = 0
+	let mouseOverTooltip = false
 
     $: stadiumsAll = [...new Set($stadiumStore.stadiums[country?.slug]?.map((team) => team.venue.api_football_id))].length
     $: stadiumsTopLeague = [...new Set($stadiumStore.stadiums[country?.slug]?.filter((team) => team.league.api_football_id == country.leagues[0]['api_football_id']).map((team) => team.venue.api_football_id))].length
@@ -86,6 +87,7 @@
         // const module = await import ('./Circle.svelte');
         console.log('module: ', module)
         currentComponent = module.default
+		showStadiumTooltip = false
     }
 
     const displayMap = async (map) => {
@@ -273,17 +275,18 @@
         const offsetWidth = svgMap.offsetWidth
         const tooltipRect = svgMap.getBoundingClientRect()
         const distFromLeft = clientX - parseInt(tooltipRect.left)
-        console.log('tooltipRect: ', tooltipRect)
-        console.log('rect: ', rect)
-        console.log('myElement: ', myElement)
+        // console.log('tooltipRect: ', tooltipRect)
+        console.log('rect.width: ', rect.width)
+        // console.log('myElement: ', myElement)
 
         if (distFromLeft > offsetWidth / 2) {
             // console.log('Left tooltip')
-            // left = parseInt(rect.x) - parseInt(tooltipRect.width) - 10;
-            left = parseInt(rect.x) - parseInt(tooltipWidth) - 5
+            left = parseInt(rect.x) - parseInt(tooltipRect.width) - 8;
+            // left = parseInt(rect.x) - parseInt(tooltipWidth) - (parseInt(rect.width)/2)
         } else {
             // console.log('Right tooltip')
-            left = parseInt(rect.x) + parseInt(rect.width)
+            left = parseInt(rect.x) + (parseInt(rect.width)/2)
+            // left = parseInt(rect.x) + 5
         }
 
         showStadiumTooltip = true
@@ -294,13 +297,16 @@
         // console.log("stadiums: ", stadiums);
     }
 
-    const onStadiumLeave = () => {
-        // console.log("onStadiumLeave: ");
-        // showStadiumTooltip = false;
+    const onStadiumLeave = (e) => {
+        console.log("onStadiumLeave e: ", e);
+		console.log('mouseOverTooltip: ', mouseOverTooltip);
+		// if (!mouseOverTooltip) {
+			showStadiumTooltip = false;
+		// }
     }
 
-    const onTooltipHover = () => {
-        console.log('onTooltipHover')
+    const onTooltipStadiumHover = () => {
+        console.log('onTooltipStadiumHover')
         // mouseOverTooltip = true
         // tooltip.style.display = 'block'
         // stadium.classList.add('hover')
@@ -404,10 +410,8 @@
 </svelte:head>
 
 <div class="row border-4">
-    <div class="col-1 border-1" style="overflow: hidden;">
-        <img src="{base}/images/angle-left-solid.svg" width="100%" alt="left" />
-    </div>
-    <div class="col-10 border-2">col-4</div>
+    <div class="col-1 border-1" style="overflow: hidden;">col-1</div>
+    <div class="col-10 border-2">col-10</div>
     <div class="col-1 border-3">col-1</div>
 </div>
 <div class="row" style="justify-content: center;">
@@ -494,7 +498,7 @@
             <TooltipCountry data={country} {left} bind:tooltipWidth={tooltipCountryWidth} />
         {/if}
         {#if showStadiumTooltip}
-            <TooltipStadium data={stadiums} countrySlug={country.slug} {left} bind:tooltipWidth={tooltipWidth} on:tooltipHover={onTooltipHover} on:tooltipLeave={onTooltipLeave} on:tooltipClose={onTooltipClose} on:modalOpen={onModalOpen} />
+            <TooltipStadium data={stadiums} countrySlug={country.slug} left={left} bind:tooltipWidth={tooltipWidth} on:tooltipHover={onTooltipStadiumHover} on:tooltipLeave={onTooltipLeave} on:tooltipClose={onTooltipClose} on:modalOpen={onModalOpen} />
         {/if}
 
         <div id="svgWrapper" bind:this={svgMap} style="border: 1px solid red;">

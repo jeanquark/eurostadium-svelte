@@ -105,7 +105,6 @@ on:mouseleave={handleMouseLeave} bind:clientWidth={tooltipWidth} on:focus={() =>
             </h2>
             <h3 class="">
                 {formatNumber(data[0]["venue"]["capacity"])}
-                tooltipWidth: {tooltipWidth}
             </h3>
             <button type="button" on:click={handleTooltipClose} class="tooltip-close-btn">
                 <img
@@ -121,7 +120,7 @@ on:mouseleave={handleMouseLeave} bind:clientWidth={tooltipWidth} on:focus={() =>
     <div class="row align-center">
         <div class="col-1 text-center border-1" style="overflow: hidden;"><img src="{base}/images/angle-left-solid.svg" width="100%" alt="left" /></div>
         <div class="col-10 text-center">
-            <button type="button" on:click={handleOpenModal} class="image" style="background: transparent; border: none !important; font-size:0;">
+            <button type="button" on:click={handleOpenModal} class="image" style="background: transparent; padding: 0; border: none !important; font-size:0;">
             <img
                 src="{base}/images/stadiums/{countrySlug}/{data[0]['venue'][
                     'api_football_id'
