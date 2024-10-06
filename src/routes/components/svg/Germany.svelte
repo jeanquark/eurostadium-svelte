@@ -9,48 +9,17 @@
     export let stadiums3
     let stadiumObj2
     let clientX
+    // $: filter = console.log('update filter value')
+    $: filterUpdate(filter)
+    // $: stadiumsUpdate(stadiums2)
 
-    const handleClick = () => {
-        console.log('handleClick')
-        dispatch('clickOutsideCountry')
-    }
-    const handleMouseOverStadium = (e) => {
-        // console.clear()
-        console.log("handleMouseOverStadium: ", e.target)
-        const stadiumId = parseInt(e.target.getAttribute('data-stadium-id'))
-        console.log("stadiumId: ", stadiumId)
-        clientX = e.clientX
-        const data = {
-            id: e.target.id,
-            stadiumId: stadiumId,
-            clientX: e.clientX,
-            rect: e.target.getBoundingClientRect(),
-        };
-
-        dispatch('stadiumHover', data)
-    }
-    const handleMouseLeaveStadium = (e) => {
-        console.log("handleMouseLeaveStadium: ", e.target)
-        console.log('e.clientX: ', e.clientX);
-        // const stadiumId = parseInt(e.target.getAttribute('data-stadium-id'))
-        // console.log('stadiumId: ', stadiumId);
-        // if (e.clientX <= clientX) {
-            // dispatch('stadiumLeave')
-        // }
-    }
-    function a (node, params) {
-        console.log('node: ', node)
-        console.log('params: ', params)
-        console.log('country: ', country)
-        addStadiumsToSvgMap(node, params, country.leagues)
-    }
     onMount(() => {
         console.log('onMount')
         console.log('filter: ', filter)
         const stadiums = $stadiumStore.stadiums[country?.slug]
         console.log('stadiums: ', stadiums)
         console.log('[onMount] stadiumObj: ', document.getElementById('stadiums'))
-        console.log('[onMount] stadiumObj2: ', stadiumObj2);
+        console.log('[onMount] stadiumObj2: ', stadiumObj2)
         // let circleRadius = 10
         // let leagueColors = ['#FF0000', '#FFFF00']
 
@@ -86,18 +55,95 @@
         //     newElement.setAttribute('capacity', stadiums[i]['venue']['capacity'])
         //     stadiumObj.appendChild(newElement)
         // }
-        setTimeout(() => {
-            // console.log('Done!')
-        }, 2000)
+
+        // const hiddenElements = document.querySelectorAll('.stadium')
+        // hiddenElements.forEach((el) => {
+        //     console.log('el: ', el)
+        // })
+
+        // setTimeout(() => {
+        //     // console.log('Done!')
+        // }, 2000)
     })
+
+    function test() {
+        console.log('test')
+    }
+
+    const handleClick = () => {
+        console.log('handleClick')
+        dispatch('clickOutsideCountry')
+    }
+    const handleMouseOverCircle = (e) => {
+        // console.clear()
+        console.log('[Germany] handleMouseOverCircle e.target: ', e.target)
+        // console.log('[Germany] handleMouseOverCircle e.relatedTarget: ', e.relatedTarget);
+        // return
+        const stadiumId = parseInt(e.target.getAttribute('data-stadium-id'))
+        // console.log("stadiumId: ", stadiumId)
+        clientX = e.clientX
+        // console.log('clientX: ', clientX);
+        const data = {
+            id: e.target.id,
+            stadiumId: stadiumId,
+            clientX: e.clientX,
+            clientY: e.clientY,
+            rect: e.target.getBoundingClientRect(),
+        }
+        e.target.classList.add('hover')
+        dispatch('stadiumHover', data)
+    }
+    const handleMouseOutCircle = (e) => {
+        console.log('[Germany] handleMouseOutCircle e.target: ', e.target)
+        // console.log('[Germany] handleMouseOutCircle e.relatedTarget: ', e.relatedTarget);
+        // const abc = e.relatedTarget.classList.contains('tooltip')
+        // console.log('abc: ', abc);
+        if (!e.relatedTarget?.classList?.contains('tooltip')) {
+            e.target.classList.remove('hover')
+            dispatch('stadiumLeave')
+
+        }
+    }
+    const handleMouseEnterCircle = (e) => {
+        return
+        console.log('[Germany] handleMouseEnterCircle: ', e.target)
+        const stadiumId = parseInt(e.target.getAttribute('data-stadium-id'))
+        clientX = e.clientX
+        const data = {
+            id: e.target.id,
+            stadiumId: 755, // Bremen
+            clientX: 895,
+            rect: e.target.getBoundingClientRect(),
+        }
+        dispatch('stadiumHover', data)
+    }
+    const handleMouseLeaveCircle = (e) => {
+        return
+        console.log('[Germany] handleMouseLeaveCircle: ', e.target)
+        // console.log('e.clientX: ', e.clientX);
+        // const stadiumId = parseInt(e.target.getAttribute('data-stadium-id'))
+        // console.log('stadiumId: ', stadiumId);
+        // if (e.clientX <= clientX) {
+        setTimeout(() => {
+            // dispatch('stadiumLeave')
+        }, 500)
+        // }
+        
+    }
+    function a(node, params) {
+        console.log('node: ', node)
+        console.log('params: ', params)
+        console.log('country: ', country)
+        addStadiumsToSvgMap(node, params, country.leagues)
+    }
 
     const filterUpdate = (filter) => {
         console.log('filterUpdate: ', filter)
         const stadiumObj = document.getElementById('stadiums')
         console.log('stadiumObj: ', stadiumObj)
-        console.log('stadiumObj2: ', stadiumObj2);
-        console.log('stadiums3.length: ', stadiums3.length);
-        console.log('country.leagues: ', country.leagues);
+        console.log('stadiumObj2: ', stadiumObj2)
+        console.log('stadiums3.length: ', stadiums3.length)
+        console.log('country.leagues: ', country.leagues)
         // if (!stadiumObj) {
         //     alert('No stadium object')
         //     return
@@ -110,12 +156,9 @@
         }
         // return
     }
-    const stadiumsUpdate = stadiums => {
+    const stadiumsUpdate = (stadiums) => {
         // console.log('stadiumsUpdate: ', stadiums2)
     }
-    // $: filter = console.log('update filter value')
-    $: filterUpdate(filter)
-    // $: stadiumsUpdate(stadiums2)
 </script>
 
 <!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" id="map-germany"
@@ -127,8 +170,8 @@ country.leagues.length: {country.leagues?.length}<br />
         <li>{league.name}</li>
     {/each}
 </ul>
-stadiums3.length: {stadiums3.length}<br />
-clientX: {clientX}<br />
+<!-- stadiums3.length: {stadiums3.length}<br /> -->
+<!-- clientX: {clientX}<br /> -->
 
 <!-- <span use:filterUpdate={filter}></span> -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" id="map-germany" viewBox="0 0 791.99896 791.99896" width="100%" class="">
@@ -145,9 +188,18 @@ clientX: {clientX}<br />
                 fill: #bdbdbd;
                 cursor: pointer;
             }
+             #stadiums:focus {
+                outline: none;
+             }
             .stadium:hover {
                 /* fill: #ffffff !important; */
                 /* cursor: pointer; */
+            }
+            .hover {
+                fill: #FFFFFF !important;
+            }
+            .test {
+                border: 2px solid red;
             }
         </style>
         <!-- <amcharts:ammap
@@ -218,7 +270,7 @@ clientX: {clientX}<br />
         />
         <path id="DE-TH" title="Thuringia" class="land" d="m 407.60658,363.70432 14.05,2.44 0.53,2.73 -2.25,-1.08 -0.52,2.41 3.82,4.16 2.95,12.22 20.91,0.77 4.93,2.99 5.06,8.68 -6.98,7.67 6.6,2.85 0.95,9.14 11.7,-0.87 5.74,6.99 8.4,-1.3 8.06,8.86 10.62,-0.86 1.98,3.7 4.8,-8.2 -2.62,-1.79 2.12,-5.26 v 0 l 3.44,-1.33 10.6,4.05 0.25,4.63 6.41,2.08 2.96,7.75 -10.89,2.5 -2.71,5.19 -4.25,-1.09 -1.72,3.08 -6.15,0.26 2.46,3.79 -4.03,4.49 2.54,0.09 -0.25,4.32 3.52,3.11 -3.4,3.35 -4.06,-0.85 -0.6,2.53 -2.6,-1.63 0.86,5.28 -5.29,0.05 -1.51,2.54 -3.5,-8.32 -8.36,9.64 6.08,5.09 -1.04,3.31 -3.45,0.52 1.8,2.5 v 0 l -6.28,3.38 -2.9,-3 -16.4,4.45 -2.5,-5.53 -2.55,1.03 -1.44,-2.45 0.67,-6.69 -5.42,-0.95 -3.51,4.51 -2.75,-0.32 2.34,11.84 -2.11,9.14 -6.71,-1.7 0.75,-4.46 -2.71,-3.6 -8.31,1.88 -3.12,-4.44 -6.6,-0.01 -7.57,4.63 0.16,2.5 8.25,4.52 0.07,3.07 -7.33,-0.69 -0.94,4.64 -6.97,-2.54 -0.5,-10.28 -3.52,-3.02 -3.37,0.87 -2.5,-4.63 -3.64,0.78 -4.13,-9.98 -6.26,-1.71 -1.81,-4.31 -3.89,1.14 -2.19,-2.1 -4.25,4.74 v 0 l -0.3,-9.46 2.89,-1.19 -1.82,-4.86 -6.4,0.38 0.4,3.79 -5.32,-1.09 4.87,-18.15 4.75,-1.35 2.12,-4.84 -3.09,-3.96 -2.57,1.39 1.03,-2.39 -2.39,-1.06 7.2,-0.25 -2.79,-3.71 1.26,-3.19 10.53,0.53 0.06,-2.77 -4.11,-2.46 2.13,-5.74 -3.51,-2.32 2.95,-1.4 2.1,4.07 2.43,-7.39 -10.73,-4.15 -0.84,-5.28 -5.3,-0.6 -2.82,-9.23 v 0 l 7.55,-6.32 1.4,1.94 5.45,-1.36 3.08,-5.57 1.99,1.58 4.16,-2.37 4.54,-9.57 4.01,-0.48 5.48,3.91 5.54,-2.62 3.23,2.15 -1.14,-6.26 z" />
     </g>
-    <g id="stadiums" data-country="germany" data-circle-radius="12" data-circle-colors="#a149be,#bea149" on:mouseover={handleMouseOverStadium} on:mouseleave={handleMouseLeaveStadium} on:focus={() => {}} role="presentation" bind:this={stadiumObj2} use:a={stadiums3}>
+    <g id="stadiums" class="test" data-country="germany" data-circle-radius="12" data-circle-colors="#a149be,#bea149" on:mouseenter={handleMouseEnterCircle} on:mouseleave={handleMouseLeaveCircle} on:mouseover={handleMouseOverCircle} on:mouseout={handleMouseOutCircle} on:focus={() => {}} role="presentation" on:blur={() => {}} use:a={stadiums3} style="">
         <!-- <circle
             cx="200"
             cy="200"

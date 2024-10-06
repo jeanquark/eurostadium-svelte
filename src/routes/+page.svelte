@@ -13,8 +13,8 @@
     import welcome_fallback from '$lib/images/svelte-welcome.png'
     import { db } from '../lib/firebase/firebase'
     import { collection, query, where, orderBy, limit, doc, getDoc, getDocs, addDoc, setDoc, updateDoc, deleteDoc } from 'firebase/firestore'
-    import { leagueStore, leagueHandlers } from '../store/league.js'
     import { counter } from '../store/count'
+    import { leagueStore } from '../store/league'
     import { stadiumStore } from '../store/stadium'
     import camelize from '../utils/convertToCamelCase'
 
@@ -40,9 +40,9 @@
     let svgMap
     let showModal = false
     let myElement
-    let tooltipWidth = 420
-	let tooltipCountryWidth = 0
-	let mouseOverTooltip = false
+    let tooltipCountryWidth = 0
+    let tooltipStadiumWidth = 0
+    let mouseOverTooltip = false
 
     $: stadiumsAll = [...new Set($stadiumStore.stadiums[country?.slug]?.map((team) => team.venue.api_football_id))].length
     $: stadiumsTopLeague = [...new Set($stadiumStore.stadiums[country?.slug]?.filter((team) => team.league.api_football_id == country.leagues[0]['api_football_id']).map((team) => team.venue.api_football_id))].length
@@ -87,7 +87,7 @@
         // const module = await import ('./Circle.svelte');
         console.log('module: ', module)
         currentComponent = module.default
-		showStadiumTooltip = false
+        showStadiumTooltip = false
     }
 
     const displayMap = async (map) => {
@@ -103,6 +103,8 @@
     // let component2 = Circle
 
     const fetchLeagues = async () => {
+		await leagueStore.fetchLeagues()
+		return
         const querySnapshot = await getDocs(collection(db, 'leagues'))
         // console.log('querySnapshot: ', querySnapshot);
         const array = []
@@ -191,7 +193,7 @@
             // tooltip.style.left = `${rect.x - 410 - rect.width}px`
             // tooltip.style.left = `${rect.x - rect.width - parseInt(tooltipRect.width)}px`
             // left = parseInt(rect.x) - parseInt(tooltipRect.width) - 15
-			left = parseInt(rect.x) - parseInt(tooltipCountryWidth) - 10
+            left = parseInt(rect.x) - parseInt(tooltipCountryWidth) - 10
             // left = parseInt(`${rect.x - 200}px`);
             // tooltip.style.left = offsetLeft + (clientX - parseInt(tooltipRect.width)) - 20 + 'px'
         } else {
@@ -211,7 +213,7 @@
         for (let i = 0; i < leagueIds.length; i++) {
             // console.log('leagueIds[i]: ', leagueIds[i])
             // fetchLeagueByApiFootballId(parseInt(leagues[i]))
-            const abc = $leagueStore.leagues.find((league) => league.api_football_id == parseInt(leagueIds[i]))
+            const abc = leagueStore.leagues.find((league) => league.api_football_id == parseInt(leagueIds[i]))
             if (abc) {
                 countryLeagues.push(abc)
             }
@@ -238,19 +240,20 @@
         console.log('countryStadiums: ', countryStadiums)
         if (!countryStadiums || countryStadiums.length < 5) {
             // const querySnapshot = await getDocs(collection(db, `countries/${country}/stadiums`));
+			await stadiumStore.fetchStadiumsByCountry(country)
 
-            const stadiumsRef = collection(db, `countries/${country}/stadiums`)
-            const q = query(stadiumsRef, orderBy('venue.capacity', 'asc'))
-            const querySnapshot = await getDocs(q)
+            // const stadiumsRef = collection(db, `countries/${country}/stadiums`)
+            // const q = query(stadiumsRef, orderBy('venue.capacity', 'asc'))
+            // const querySnapshot = await getDocs(q)
 
-            console.log('[Firebase call] querySnapshot: ', querySnapshot)
-            const array = []
-            querySnapshot.forEach((doc) => {
-                array.push(doc.data())
-            })
-            console.log('array: ', array)
+            // console.log('[Firebase call] querySnapshot: ', querySnapshot)
+            // const array = []
+            // querySnapshot.forEach((doc) => {
+            //     array.push(doc.data())
+            // })
+            // console.log('array: ', array)
 
-            stadiumStore.setStadiums({ [country]: array })
+            // stadiumStore.setStadiums({ [country]: array })
         }
         stadiums = $stadiumStore.stadiums[country]
         const abc = $stadiumStore.stadiums
@@ -268,27 +271,30 @@
 
     const onStadiumHover = (event) => {
         console.log('onStadiumHover: ', event.detail)
-        const { stadiumId, clientX, rect } = event.detail
+        const { stadiumId, clientX, clientY, rect } = event.detail
         // const stadiumId = event.detail;
         stadiums = $stadiumStore.stadiums[country.slug]?.filter((team) => team.venue.api_football_id == stadiumId)
 
         const offsetWidth = svgMap.offsetWidth
         const tooltipRect = svgMap.getBoundingClientRect()
         const distFromLeft = clientX - parseInt(tooltipRect.left)
-        // console.log('tooltipRect: ', tooltipRect)
-        console.log('rect.width: ', rect.width)
+        console.log('tooltipRect: ', tooltipRect)
+        // console.log('rect.width: ', rect.width)
         // console.log('myElement: ', myElement)
+		// console.log('clientY: ', clientY);
+		console.log('rect.y: ', rect.y);
 
         if (distFromLeft > offsetWidth / 2) {
             // console.log('Left tooltip')
-            left = parseInt(rect.x) - parseInt(tooltipRect.width) - 8;
-            // left = parseInt(rect.x) - parseInt(tooltipWidth) - (parseInt(rect.width)/2)
+            // left = parseInt(rect.x) - parseInt(tooltipRect.width) - 8
+            // left = parseInt(rect.x) - 420 - 4
+            left = parseInt(rect.x) - parseInt(tooltipStadiumWidth) - 4
         } else {
             // console.log('Right tooltip')
-            left = parseInt(rect.x) + (parseInt(rect.width)/2)
+            left = parseInt(rect.x) + (parseInt(rect.width) / 2)
             // left = parseInt(rect.x) + 5
         }
-
+		top = rect.y - tooltipRect.top
         showStadiumTooltip = true
         // const tooltip = document.getElementById("tooltip");
         // if (tooltip) {
@@ -298,11 +304,11 @@
     }
 
     const onStadiumLeave = (e) => {
-        console.log("onStadiumLeave e: ", e);
-		console.log('mouseOverTooltip: ', mouseOverTooltip);
-		// if (!mouseOverTooltip) {
-			showStadiumTooltip = false;
-		// }
+        console.log('onStadiumLeave e: ', e)
+        console.log('mouseOverTooltip: ', mouseOverTooltip)
+        // if (!mouseOverTooltip) {
+        showStadiumTooltip = false
+        // }
     }
 
     const onTooltipStadiumHover = () => {
@@ -315,6 +321,12 @@
     const onTooltipLeave = () => {
         console.log('onTooltipLeave')
         showStadiumTooltip = false
+		const stadiums = document.getElementsByTagName('circle')
+		// console.log('stadiums: ', document.getElementsByTagName('circle'));
+		for (let i = 0; i < stadiums.length; i++) {
+			// console.log('i: ', i);
+			stadiums[i].classList.remove('hover')
+		}
         // mouseOverTooltip = false
         // const tooltip = document.getElementById('tooltip')
         // // console.log('stadium2: ', stadium)
@@ -347,6 +359,7 @@
     }
     const fetchCountry = async () => {
         const country = 'germany'
+		return
         const response = await fetch(`/json/countries/${country}.json`)
         const json = await response.json()
 
@@ -402,6 +415,19 @@
                 break
         }
     }
+
+    	// var el = document.getElementsByClassName("test");
+    // for (i in el){
+    //     el[i].addEventListener("mouseover", function(){
+    //         //do something here
+
+    //         //or call a function
+    //         doSomeThing();
+    //     });
+    // }
+    const doSomeThing = () => {
+        console.log('doSomeThing')
+    }
 </script>
 
 <svelte:head>
@@ -430,7 +456,7 @@
         <!-- countryLeagues.length: {countryLeagues.length}<br /><br /> -->
         <!-- $leagueStore.data.length: {$leagueStore.data.length}<br /><br /> -->
         left: {left}<br />
-        tooltipWidth: {tooltipWidth}<br />
+        tooltipStadiumWidth: {tooltipStadiumWidth}<br />
         tooltipCountryWidth: {tooltipCountryWidth}<br />
         <div style="">
             <button on:click={decreaseCount}>decrease</button>
@@ -498,7 +524,7 @@
             <TooltipCountry data={country} {left} bind:tooltipWidth={tooltipCountryWidth} />
         {/if}
         {#if showStadiumTooltip}
-            <TooltipStadium data={stadiums} countrySlug={country.slug} left={left} bind:tooltipWidth={tooltipWidth} on:tooltipHover={onTooltipStadiumHover} on:tooltipLeave={onTooltipLeave} on:tooltipClose={onTooltipClose} on:modalOpen={onModalOpen} />
+            <TooltipStadium data={stadiums} countrySlug={country.slug} left={left} top={top} bind:tooltipWidth={tooltipStadiumWidth} on:tooltipHover={onTooltipStadiumHover} on:tooltipLeave={onTooltipLeave} on:tooltipClose={onTooltipClose} on:modalOpen={onModalOpen} />
         {/if}
 
         <div id="svgWrapper" bind:this={svgMap} style="border: 1px solid red;">
@@ -593,6 +619,8 @@
 </div>
 
 <div class="row">
+    <br /><br /><br /><br />
+    <br /><br /><br /><br />
     <br /><br /><br /><br />
     <br /><br /><br /><br />
 </div>

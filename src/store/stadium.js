@@ -1,4 +1,18 @@
-import { writable } from 'svelte/store'
+import { writable } from "svelte/store";
+import { db } from "../lib/firebase/firebase";
+import {
+    collection,
+    query,
+    where,
+    orderBy,
+    doc,
+    getDoc,
+    getDocs,
+    addDoc,
+    setDoc,
+    updateDoc,
+    deleteDoc,
+} from "firebase/firestore";
 
 const state = {
 	stadiums: {},
@@ -11,6 +25,21 @@ function createStadiumStore() {
     const { subscribe, set, update } = writable(state)
 
     const methods = {
+        async fetchStadiumsByCountry(country) {
+            console.log('[StadiumStore] fetchStadiumsByCountry country: ', country);
+            const stadiumsRef = collection(db, `countries/${country}/stadiums`)
+            const q = query(stadiumsRef, orderBy('venue.capacity', 'asc'))
+            const querySnapshot = await getDocs(q)
+
+            console.log('[StadiumStore Firebase] querySnapshot: ', querySnapshot)
+            const array = []
+            querySnapshot.forEach((doc) => {
+                array.push(doc.data())
+            })
+            console.log('array: ', array)
+
+            this.setStadiums({ [country]: array })
+        },
 		setStadiums(entry) {
 			const key = Object.keys(entry)[0]
 			const value = Object.values(entry)[0]

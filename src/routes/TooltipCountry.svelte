@@ -1,5 +1,6 @@
 <script>
     import { base } from "$app/paths";
+    import { leagueStore } from "../store/league"
 
     export let data;
     export let left;
@@ -51,10 +52,11 @@
     <!-- <h2 class="text-center">{data?.name}</h2>
     <p>
         data.slug: {data?.slug}<br />
-        data.population: {data?.population}<br />
-        data.leagues.length {data?.leagues?.length}<br />
-    </p> -->
-    <!-- <div class="row">
+        data.population: {data?.population}<br />-->
+        data.leagues.length: {data?.leagues?.length}<br />
+        leagueStore.leagues.length: {leagueStore.leagues?.length}<br />
+    <!-- </p>
+    <div class="row">
         <div
             class="col-2"
             style="display: flex;

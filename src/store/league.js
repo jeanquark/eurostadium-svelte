@@ -1,37 +1,34 @@
-import { writable } from "svelte/store";
-import { db } from "../lib/firebase/firebase";
-import {
-    collection,
-    query,
-    where,
-    doc,
-    getDoc,
-    getDocs,
-    addDoc,
-    setDoc,
-    updateDoc,
-    deleteDoc,
-} from "firebase/firestore";
+import { writable } from 'svelte/store'
+import { db } from '../lib/firebase/firebase'
+import { collection, query, where, doc, getDoc, getDocs, addDoc, setDoc, updateDoc, deleteDoc } from 'firebase/firestore'
 
-// export const leagues = writable([
-// //   { id: 1, text: "Learn Svelte state management", completed: false },
-// //   { id: 2, text: "Build a Todo-list with state management", completed: false },
-// ]);
+const state = {
+    leagues: [],
+}
 
-export const leagueStore = writable({
-    leagues: [
-        // { id: 1, text: "Learn Svelte state management", completed: false },
-        // { id: 2, text: "Build a Todo-list with state management", completed: false },
-    ],
-})
+function createLeagueStore() {
+    const { subscribe, set, update } = writable(state)
 
-export const leagueHandlers = {
-    fetchLeagues: async () => {
-    //     const querySnapshot = await getDocs(collection(db, "leagues"));
-	// 	// console.log('querySnapshot: ', querySnapshot);
-	// 	querySnapshot.forEach((doc) => {
-	// 		// doc.data() is never undefined for query doc snapshots
-	// 		console.log(doc.id, " => ", doc.data());
-	// 	});
+    const methods = {
+        async fetchLeagues() {
+            console.log('[LeagueStore] fetchLeagues');
+            const querySnapshot = await getDocs(collection(db, 'leagues'))
+            console.log('[LeagueStore Firebase] querySnapshot: ', querySnapshot);
+            const array = []
+            querySnapshot.forEach((doc) => {
+                // doc.data() is never undefined for query doc snapshots
+                // console.log(doc.id, " => ", doc.data());
+                array.push(doc.data())
+            })
+            // console.log('array: ', array)
+            this.leagues = array
+        },
+    }
+
+    return {
+        subscribe,
+        ...methods,
     }
 }
+
+export const leagueStore = createLeagueStore()

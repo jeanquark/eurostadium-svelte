@@ -14,6 +14,7 @@ export default function (stadiumObj, stadiums, leagues) {
 
     for (let i = 0; i < stadiums.length; i++) {
         let newElement = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
+        // newElement.classList.add('stadium')
         newElement.setAttribute('cx', stadiums[i]['venue']['x'])
         newElement.setAttribute('cy', stadiums[i]['venue']['y'] + 0)
         newElement.setAttribute('r', circleRadius)

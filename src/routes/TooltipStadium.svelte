@@ -5,6 +5,7 @@
     export let data;
     export let countrySlug;
     export let left;
+    export let top;
     export let tooltipWidth;
 
     const dispatch = createEventDispatcher()
@@ -38,12 +39,21 @@
             .toString()
             .replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
     };
-    const handleMouseOver = () => {
-        console.log('[TooltipStadium] handleMouseOver');
-        dispatch('tooltipHover')
+    const handleMouseOverTooltip = () => {
+        // console.log('[TooltipStadium] handleMouseOver');
+        // dispatch('tooltipHover')
     }
-    const handleMouseLeave = () => {
-        console.log('[TooltipStadium] handleMouseLeave')
+    const handleMouseOutTooltip = (e) => {
+        return
+        console.log('[TooltipStadium] handleMouseOutTooltip e.target: ', e.target);
+        console.log('[TooltipStadium] handleMouseOutTooltip e.relatedTarget: ', e.relatedTarget);
+    }
+    const handleMouseEnter = () => {
+        console.log('[TooltipStadium] handleMouseEnter')
+    }
+    const handleMouseLeave = (e) => {
+        console.log('[TooltipStadium] handleMouseLeave e.target:', e.target)
+
         dispatch('tooltipLeave')
     }
     const handleTooltipClose = () => {
@@ -94,8 +104,8 @@
     </div>
 </div> -->
 
-<div class="text-center tooltip" style="left: {left}px;" on:mouseover={handleMouseOver}
-on:mouseleave={handleMouseLeave} bind:clientWidth={tooltipWidth} on:focus={() => {}} role="presentation" >
+<div class="text-center tooltip" style="left: {left}px; top: {top}px;" bind:clientWidth={tooltipWidth} on:mouseenter={handleMouseEnter}
+on:mouseleave={handleMouseLeave} on:focus={() => {}} role="presentation" on:mouseover={handleMouseOverTooltip} on:mouseout={handleMouseOutTooltip} on:blur={() => {}}>
     <div class="row align-center">
         <div class="col-12 text-center relative">
             <h2>
