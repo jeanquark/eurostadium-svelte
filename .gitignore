@@ -23,3 +23,6 @@ vite.config.ts.timestamp-*
 # Images
 /static/images/stadiums/*
 static/images/stadiums/*
+
+# Firebase
+firebase-admin-sdk.json
