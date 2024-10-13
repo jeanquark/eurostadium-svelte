@@ -12,15 +12,23 @@ function createLeagueStore() {
     const methods = {
         async fetchLeagues() {
             console.log('[LeagueStore] fetchLeagues');
-            const querySnapshot = await getDocs(collection(db, 'leagues'))
-            console.log('[LeagueStore Firebase] querySnapshot: ', querySnapshot);
+
+            // // 1) Fetch from Firestore
+            // const querySnapshot = await getDocs(collection(db, 'leagues'))
+            // console.log('[Firebase call] LeagueStore querySnapshot: ', querySnapshot);
+            // const array = []
+            // querySnapshot.forEach((doc) => {
+            //     array.push(doc.data())
+            // })
+            // this.leagues = array
+
+            // 2) Or fetch from local json file
             const array = []
-            querySnapshot.forEach((doc) => {
-                // doc.data() is never undefined for query doc snapshots
-                // console.log(doc.id, " => ", doc.data());
-                array.push(doc.data())
-            })
-            // console.log('array: ', array)
+            const response = await fetch(`json/leagues.json`);
+            const data = await response.json();
+            for (let i = 0; i < data.length; i++) {
+                array.push(data[i])
+            }
             this.leagues = array
         },
     }

@@ -213,7 +213,7 @@
         for (let i = 0; i < leagueIds.length; i++) {
             // console.log('leagueIds[i]: ', leagueIds[i])
             // fetchLeagueByApiFootballId(parseInt(leagues[i]))
-            const abc = leagueStore.leagues.find((league) => league.api_football_id == parseInt(leagueIds[i]))
+            const abc = leagueStore.leagues?.find((league) => league.api_football_id == parseInt(leagueIds[i]))
             if (abc) {
                 countryLeagues.push(abc)
             }
@@ -288,7 +288,7 @@
             // console.log('Left tooltip')
             // left = parseInt(rect.x) - parseInt(tooltipRect.width) - 8
             // left = parseInt(rect.x) - 420 - 4
-            left = parseInt(rect.x) - parseInt(tooltipStadiumWidth) - 4
+            left = parseInt(rect.x) - parseInt(tooltipStadiumWidth) - 0
         } else {
             // console.log('Right tooltip')
             left = parseInt(rect.x) + (parseInt(rect.width) / 2)

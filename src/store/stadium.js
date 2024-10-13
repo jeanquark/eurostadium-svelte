@@ -27,15 +27,26 @@ function createStadiumStore() {
     const methods = {
         async fetchStadiumsByCountry(country) {
             console.log('[StadiumStore] fetchStadiumsByCountry country: ', country);
-            const stadiumsRef = collection(db, `countries/${country}/stadiums`)
-            const q = query(stadiumsRef, orderBy('venue.capacity', 'asc'))
-            const querySnapshot = await getDocs(q)
 
-            console.log('[StadiumStore Firebase] querySnapshot: ', querySnapshot)
+            // // 1) Fetch from Firestore
+            // const stadiumsRef = collection(db, `countries/${country}/stadiums`)
+            // const q = query(stadiumsRef, orderBy('venue.capacity', 'asc'))
+            // const querySnapshot = await getDocs(q)
+
+            // console.log('[Firebase call] StadiumStore querySnapshot: ', querySnapshot)
+            // const array = []
+            // querySnapshot.forEach((doc) => {
+            //     array.push(doc.data())
+            // })
+
+            // 2) Or fetch from local json file
             const array = []
-            querySnapshot.forEach((doc) => {
-                array.push(doc.data())
-            })
+            const response = await fetch(`json/teams/${country}.json`);
+            const data = await response.json();
+            for (let i = 0; i < data.length; i++) {
+                array.push(data[i])
+            }
+            console.log('data: ', data);
             console.log('array: ', array)
 
             this.setStadiums({ [country]: array })

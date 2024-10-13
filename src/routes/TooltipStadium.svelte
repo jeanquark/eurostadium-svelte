@@ -15,6 +15,7 @@
     let x;
     let y;
 	// let tooltipWidth;
+    let imageIndex = 0;
 
 
     function mouseOver(e) {
@@ -104,7 +105,7 @@
     </div>
 </div> -->
 
-<div class="text-center tooltip" style="left: {left}px; top: {top}px;" bind:clientWidth={tooltipWidth} on:mouseenter={handleMouseEnter}
+<div class="text-center tooltip" style="left: {left}px; top: {top}px; z-index: 1000;" bind:clientWidth={tooltipWidth} on:mouseenter={handleMouseEnter}
 on:mouseleave={handleMouseLeave} on:focus={() => {}} role="presentation" on:mouseover={handleMouseOverTooltip} on:mouseout={handleMouseOutTooltip} on:blur={() => {}}>
     <div class="row align-center">
         <div class="col-12 text-center relative">
@@ -130,19 +131,20 @@ on:mouseleave={handleMouseLeave} on:focus={() => {}} role="presentation" on:mous
     <div class="row align-center">
         <div class="col-1 text-center border-1" style="overflow: hidden;"><img src="{base}/images/angle-left-solid.svg" width="100%" alt="left" /></div>
         <div class="col-10 text-center">
-            <button type="button" on:click={handleOpenModal} class="image" style="background: transparent; padding: 0; border: none !important; font-size:0;">
+            data[0][images]: {data[0]['images'][0]['name']}<br />
+            imageIndex: {imageIndex}<br />
+            <!-- <button type="button" on:click={handleOpenModal} class="image" style="background: transparent; padding: 0; border: none !important; font-size:0;">-->
             <img
-                src="{base}/images/stadiums/{countrySlug}/{data[0]['venue'][
-                    'api_football_id'
-                ]}.jpg"
+                src="{base}/images/stadiums/{countrySlug}/{data[0]['images'][imageIndex]['name']}"
                 width="100%"
                 class=""
-                alt="Stadium"
-                
+                alt="Stadium"   
             />
-            </button>
+            <!--</button> -->
         </div>
-        <div class="col-1 border-2" style="overflow: hidden;"><img src="{base}/images/angle-right-solid.svg" alt="right" /></div>
+        <div class="col-1 border-2" style="overflow: hidden;">
+            <button type="button" on:click={() => imageIndex += 1}><img src="{base}/images/angle-right-solid.svg" alt="right" /></button>
+        </div>
     </div>
     <div class="row align-center">
         <div class="col-4 text-center border-1" style="">

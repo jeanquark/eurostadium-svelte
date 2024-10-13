@@ -66,7 +66,7 @@
             maxScale: 8,
             minScale: 1,
             touchAction: "none",
-            // contain: "outside",
+            contain: "outside",
             handleStartEvent: (event) => {
                 event.preventDefault();
                 event.stopPropagation();
