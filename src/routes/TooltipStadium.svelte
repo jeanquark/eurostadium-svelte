@@ -1,22 +1,53 @@
 <script>
-    import { createEventDispatcher, onMount } from 'svelte'
+    import { createEventDispatcher, onMount } from "svelte";
     import { base } from "$app/paths";
-    
+    import Carousel from "./components/Carousel.svelte";
+
     export let data;
     export let countrySlug;
     export let left;
     export let top;
     export let tooltipWidth;
 
-    const dispatch = createEventDispatcher()
+    const dispatch = createEventDispatcher();
+
+    onMount(() => {
+        try {
+            console.log('onMount')
+            items = data[0]['images']
+            // for (let i = 0; i < data[0]['images'].length; i++) {
+            //     items2.push(data[0]['images'][i])
+            // }
+            console.log('items: ', items);
+        } catch (error) {
+            console.log('error: ', error);
+        }
+    })
+
     // export let left
     // export let top
     let isHovered = false;
     let x;
     let y;
-	// let tooltipWidth;
+    // let tooltipWidth;
     let imageIndex = 0;
-
+    let items = [
+        { label: "one", color: "red", img: "https://placekitten.com/400/400" },
+        {
+            label: "two",
+            color: "green",
+            img: "https://placekitten.com/200/200",
+        },
+        { label: "three", color: "blue",  img: "/images/stadiums/germany/20732.jpg" },
+        { label: "four", color: "orange", img: "/images/stadiums/germany/20732_1.jpg" },
+        { label: "five", color: "yellow" },
+        { label: "six", color: "pink" },
+        { label: "seven", color: "white" },
+        { label: "eight", color: "purple" },
+    ];
+    let items2 = []
+    let current = 0;
+    let show = 1;
 
     function mouseOver(e) {
         console.log("mouseOver: ", e);
@@ -43,28 +74,34 @@
     const handleMouseOverTooltip = () => {
         // console.log('[TooltipStadium] handleMouseOver');
         // dispatch('tooltipHover')
-    }
+    };
     const handleMouseOutTooltip = (e) => {
-        return
-        console.log('[TooltipStadium] handleMouseOutTooltip e.target: ', e.target);
-        console.log('[TooltipStadium] handleMouseOutTooltip e.relatedTarget: ', e.relatedTarget);
-    }
+        return;
+        console.log(
+            "[TooltipStadium] handleMouseOutTooltip e.target: ",
+            e.target,
+        );
+        console.log(
+            "[TooltipStadium] handleMouseOutTooltip e.relatedTarget: ",
+            e.relatedTarget,
+        );
+    };
     const handleMouseEnter = () => {
-        console.log('[TooltipStadium] handleMouseEnter')
-    }
+        console.log("[TooltipStadium] handleMouseEnter");
+    };
     const handleMouseLeave = (e) => {
-        console.log('[TooltipStadium] handleMouseLeave e.target:', e.target)
+        console.log("[TooltipStadium] handleMouseLeave e.target:", e.target);
 
-        dispatch('tooltipLeave')
-    }
+        dispatch("tooltipLeave");
+    };
     const handleTooltipClose = () => {
-        console.log('handleTooltipClose')
-        dispatch('tooltipClose')
-    }
+        console.log("handleTooltipClose");
+        dispatch("tooltipClose");
+    };
     const handleOpenModal = () => {
-        console.log('handleOpenModal')
+        console.log("handleOpenModal");
         // dispatch('modalOpen')
-    }
+    };
     // const clientX = e.clientX
     // const offsetWidth = document.getElementById('svgWrapper').offsetWidth
     // const rect = e.target.getBoundingClientRect()
@@ -105,8 +142,18 @@
     </div>
 </div> -->
 
-<div class="text-center tooltip" style="left: {left}px; top: {top}px; z-index: 1000;" bind:clientWidth={tooltipWidth} on:mouseenter={handleMouseEnter}
-on:mouseleave={handleMouseLeave} on:focus={() => {}} role="presentation" on:mouseover={handleMouseOverTooltip} on:mouseout={handleMouseOutTooltip} on:blur={() => {}}>
+<div
+    class="text-center tooltip"
+    style="left: {left}px; top: {top}px; z-index: 1000;"
+    bind:clientWidth={tooltipWidth}
+    on:mouseenter={handleMouseEnter}
+    on:mouseleave={handleMouseLeave}
+    on:focus={() => {}}
+    role="presentation"
+    on:mouseover={handleMouseOverTooltip}
+    on:mouseout={handleMouseOutTooltip}
+    on:blur={() => {}}
+>
     <div class="row align-center">
         <div class="col-12 text-center relative">
             <h2>
@@ -117,7 +164,11 @@ on:mouseleave={handleMouseLeave} on:focus={() => {}} role="presentation" on:mous
             <h3 class="">
                 {formatNumber(data[0]["venue"]["capacity"])}
             </h3>
-            <button type="button" on:click={handleTooltipClose} class="tooltip-close-btn">
+            <button
+                type="button"
+                on:click={handleTooltipClose}
+                class="tooltip-close-btn"
+            >
                 <img
                     src="{base}/images/icons/close.svg"
                     width="20"
@@ -129,22 +180,82 @@ on:mouseleave={handleMouseLeave} on:focus={() => {}} role="presentation" on:mous
         </div>
     </div>
     <div class="row align-center">
-        <div class="col-1 text-center border-1" style="overflow: hidden;"><img src="{base}/images/angle-left-solid.svg" width="100%" alt="left" /></div>
-        <div class="col-10 text-center">
-            data[0][images]: {data[0]['images'][0]['name']}<br />
+        <!-- <div class="col-1 text-center border-1" style="overflow: hidden;">
+            <img
+                src="{base}/images/angle-left-solid.svg"
+                width="100%"
+                alt="left"
+            />
+        </div> -->
+        <div class="col-12 text-center">
+            data[0][images].length: {data[0]['images'].length}<br />
+            data[0][images]: {data[0]["images"][0]["name"]}<br />
             imageIndex: {imageIndex}<br />
-            <!-- <button type="button" on:click={handleOpenModal} class="image" style="background: transparent; padding: 0; border: none !important; font-size:0;">-->
+            items.length: {items.length}<br />
+            current: {current}<br />
+            <!-- <button type="button" on:click={handleOpenModal} class="image" style="background: transparent; padding: 0; border: none !important; font-size:0;">
             <img
                 src="{base}/images/stadiums/{countrySlug}/{data[0]['images'][imageIndex]['name']}"
                 width="100%"
                 class=""
                 alt="Stadium"   
             />
-            <!--</button> -->
+            </button> -->
+            <div style="width:100%; height: 300px; border: 1px solid red;">
+                <!-- <Carousel bind:current {items} let:item bind:show>
+                    <div
+                        class="item"
+                        style="background-color:{item.color};background-image:{item.img
+                            ? `url(${item.img})`
+                            : ''}; background-size: cover;"
+                    >
+                        {item.label}
+                    </div>
+                </Carousel> -->
+                <Carousel items={items} let:item bind:current bind:show>
+                    <div class="item" style="background-image: url({base}/images/stadiums/{countrySlug}/{item.name}); background-size: contain; background-repeat: no-repeat; background-position: center center;">
+                        {item.name}
+                    </div>
+                </Carousel>
+            </div>
+            {#each items as item, i}
+                <span
+                    role="button"
+                    tabindex="0"
+                    on:keydown={() => {}}
+                    class="carousel-navigation-item"
+                    on:click={() => (current = i)}
+                >
+                    <svg viewBox="0 0 512 512" width="12" version="1.1" id="ring">
+                        <ellipse
+                            style="fill:#325bad;"
+                            id="outerRing"
+                            cx="256"
+                            cy="256"
+                            rx="256"
+                            ry="256"
+                        />
+                        <ellipse
+                            style="fill:#fff;"
+                            class={current == i && 'active-item'}
+                            id="innerRing"
+                            cx="256"
+                            cy="256"
+                            rx="202"
+                            ry="202"
+                        />
+                    </svg>
+                </span>
+            {/each}
         </div>
-        <div class="col-1 border-2" style="overflow: hidden;">
-            <button type="button" on:click={() => imageIndex += 1}><img src="{base}/images/angle-right-solid.svg" alt="right" /></button>
-        </div>
+        <!-- <div class="col-1 border-2" style="overflow: hidden;">
+            <button type="button" on:click={() => (imageIndex += 1)}
+                ><img
+                    src="{base}/images/angle-right-solid.svg"
+                    alt="right"
+                /></button
+            >
+        </div> -->
     </div>
     <div class="row align-center">
         <div class="col-4 text-center border-1" style="">
@@ -198,7 +309,9 @@ on:mouseleave={handleMouseLeave} on:focus={() => {}} role="presentation" on:mous
     }
 
     .tooltip-close-btn {
-        position: absolute; top: 0; right: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
     .tooltip-close-btn:hover {
         color: orange;
@@ -206,5 +319,17 @@ on:mouseleave={handleMouseLeave} on:focus={() => {}} role="presentation" on:mous
     }
     .tooltip .image:hover {
         cursor: pointer;
+    }
+    .carousel-navigation-item {
+        display: inline;
+    }
+    .carousel-navigation-item:hover {
+        cursor: pointer;
+    }
+    /* .carousel-navigation-item:hover #ring #innerRing{
+        fill: #325bad;
+    } */
+    .active-item {
+        fill: #325bad !important;
     }
 </style>

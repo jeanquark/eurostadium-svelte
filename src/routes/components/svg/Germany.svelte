@@ -9,7 +9,7 @@
     export let country
     export let filter
     export let stadiums3
-    let radius = 10
+    let radius = 12
     let stadiumObj2
     let clientX
     let abc

@@ -1,6 +1,6 @@
 export default function (stadiumObj, stadiums, leagues) {
-    let circleRadius = 10
-    circleRadius = stadiumObj.getAttribute('data-circle-radius')
+    // let circleRadius = 10
+    const circleRadius = stadiumObj.getAttribute('data-circle-radius') || 10
     let leagueColors = ['#FF0000', '#FFFF00']
     const circleColors = stadiumObj.getAttribute('data-circle-colors').split(',')
     console.log('circleColors: ', circleColors);
