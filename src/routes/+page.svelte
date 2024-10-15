@@ -125,6 +125,11 @@
     ].length;
 
     onMount(() => {
+        if (hasTouchSupport() && hasSmallScreen()) {
+            console.log("Mobile device detected");
+        } else {
+            console.log("Desktop device detected");
+        }
         if ($leagueStore.leagues.length < 2) {
             fetchLeagues();
         }
@@ -558,6 +563,14 @@
         }
     };
 
+    const hasSmallScreen = () => {
+        const minWidth = 1024; // Minimum width for desktop devices
+        return window.innerWidth < minWidth || screen.width < minWidth;
+    };
+    const hasTouchSupport = () => {
+        return "ontouchstart" in window || navigator.maxTouchPoints > 0;
+    };
+
     // var el = document.getElementsByClassName("test");
     // for (i in el){
     //     el[i].addEventListener("mouseover", function(){
@@ -577,13 +590,33 @@
     <meta name="description" content="Football stadiums across Europe" />
 </svelte:head>
 
-<div class="row border-4">
-    <div class="col-1 border-1" style="overflow: hidden;">col-1</div>
-    <div class="col-10 border-2">col-10</div>
-    <div class="col-1 border-3">col-1</div>
+<div class="row">
+    <div class="col-1 col-xl-2 border-1" style="overflow: hidden;">col-1</div>
+    <div class="col-10 col-xl-8 border-2">col-10</div>
+    <div class="col-1 col-xl-2 border-3">col-1</div>
+</div>
+<div class="row">
+    <div
+        class="col-xs-12 col-sm-4 col-md-3 col-lg-2 col-xl-1"
+        style="background: yellow;"
+    >
+        col-xs-12 col-sm-4 col-md-3 col-lg-2 col-xl-1
+    </div>
+    <div
+        class="col-xs-12 col-sm-4 col-md-6 col-lg-8 col-xl-10"
+        style="background: orange;"
+    >
+        col-xs-12 col-sm-4 col-md-6 col-lg-8 col-xl-10
+    </div>
+    <div
+        class="col-xs-12 col-sm-4 col-md-3 col-lg-2 col-xl-1"
+        style="background: orangered;"
+    >
+        col-xs-12 col-sm-4 col-md-3 col-lg-2 col-xl-1
+    </div>
 </div>
 <div class="row" style="justify-content: center;">
-    <div class="col-12 text-center">
+    <div class="col-12 text-center" style="overflow: auto;">
         <!-- </div> -->
         <br />
         <a href="{base}/about">About page</a>
@@ -669,8 +702,8 @@
 </div>
 
 <div class="row my-2 py-5 border-4" style="position: relative;">
-    <div class="col-xl-4 col-lg-2 col-md-1 col-sm-0 border-1"></div>
-    <div class="col-xl-4 col-lg-8 col-md-10 col-sm-12 border-2">
+    <div class="col-sm-1 col-md-4 col-lg-3 col-xl-4 border-1"></div>
+    <div class="col-sm-10 col-md-4 col-lg-6 col-xl-4 border-2">
         {#if showCountryTooltip}
             <TooltipCountry
                 data={country}
@@ -711,7 +744,7 @@
         </div>
     </div>
     <div
-        class="col-xl-4 col-lg-2 col-md-1 col-sm-0 justify-center align-content border-3"
+        class="col-sm-1 col-md-4 col-lg-3 col-xl-4 justify-center align-content border-3"
     >
         {#if showFilterButtons}
             <div class="text-center" id="filterPanel">
@@ -792,8 +825,7 @@
     </div>
 </div>
 
-<div class="row">
-</div>
+<div class="row"></div>
 
 <div class="row">
     <br /><br /><br /><br />

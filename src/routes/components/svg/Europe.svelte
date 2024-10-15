@@ -32,13 +32,13 @@
         //     }
         // });
         node.addEventListener("panzoompan", (event) => {
-            console.log("panzoompan: ", event.detail);
+            // console.log("panzoompan: ", event.detail);
             if (event.detail.x != 0 || event.detail.y != 0) {
                 flag = 0
             }
         });
         node.addEventListener("panzoomzoom", (event) => {
-            console.log("panzoomzoom: ", event.detail);
+            // console.log("panzoomzoom: ", event.detail);
         });
         
         // node.addEventListener("wheel", (e) => {
@@ -120,6 +120,10 @@
     };
     const handleMouseLeave = (e) => {
         dispatch("countryLeave")
+    }
+
+    const handlePointerDown = (e) => {
+        console.log('handlePointerDown')
     }
     // export let onCountryHover = () => {}
 </script>
@@ -705,7 +709,7 @@
             id="circle7010"
         />
 
-        <g on:mouseover={handleMouseOver} on:mouseleave={handleMouseLeave}
+        <g on:pointerdown={handlePointerDown} on:mouseover={handleMouseOver} on:mouseleave={handleMouseLeave}
         on:focus={() => {}}
         role="presentation">
             <path
