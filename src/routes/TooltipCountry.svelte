@@ -1,31 +1,31 @@
 <script>
-    import { base } from "$app/paths";
-    import { leagueStore } from "../store/league"
+    import { base } from '$app/paths'
+    import { leagueStore } from '../store/league'
 
-    export let data;
-    export let left;
-    export let tooltipWidth;
+    export let data
+    export let left
+    export let tooltipWidth
     // export let top
-    let isHovered = false;
-    let x;
-    let y;
+    let isHovered = false
+    let x
+    let y
 
     function mouseOver(e) {
-        console.log("mouseOver: ", e);
-        const path = e.target;
-        console.log("path: ", path);
-        isHovered = true;
-        x = e.pageX + 5;
-        y = e.pageY + 5;
+        console.log('mouseOver: ', e)
+        const path = e.target
+        console.log('path: ', path)
+        isHovered = true
+        x = e.pageX + 5
+        y = e.pageY + 5
     }
     function mouseMove(e) {
-        console.log("mouseMove: ", e);
-        x = e.pageX + 5;
-        y = e.pageY + 5;
+        console.log('mouseMove: ', e)
+        x = e.pageX + 5
+        y = e.pageY + 5
     }
     function mouseLeave() {
-        console.log("mouseLeave");
-        isHovered = false;
+        console.log('mouseLeave')
+        isHovered = false
     }
     // const clientX = e.clientX
     // const offsetWidth = document.getElementById('svgWrapper').offsetWidth
@@ -53,8 +53,8 @@
     <p>
         data.slug: {data?.slug}<br />
         data.population: {data?.population}<br />-->
-        data.leagues.length: {data?.leagues?.length}<br />
-        leagueStore.leagues.length: {leagueStore.leagues?.length}<br />
+    data.leagues.length: {data?.leagues?.length}<br />
+    leagueStore.leagues.length: {leagueStore.leagues?.length}<br />
     <!-- </p>
     <div class="row">
         <div
@@ -87,18 +87,21 @@
         </div>
     </div> -->
     <div class="row">
-        <div class="col-2" style="display: flex;
-        align-items: center;">
-            <img src="{base}/images/flags/{data.slug}.png" width="60" alt="Country flag" />
-        </div>
-        <div class="col-4" style="display: flex; justify-content: center;
-        align-items: center;">
+        <div
+            class="col-4"
+            style="display: flex;
+        align-items: center;"
+        >
             <div style="display: flex-column;">
+                <img src="{base}/images/flags/{data.slug}.png" width="60" alt="Country flag" />
                 <h2 class="text-center">{data.name}</h2>
                 <h5 class="text-center">Pop: {data.population}</h5>
             </div>
         </div>
-        <div class="col-6">
+        <!-- <div class="col-4" style="display: flex; justify-content: center;
+        align-items: center;">
+        </div> -->
+        <div class="col-8">
             <img src="{base}/images/countries/{data.slug}.jpg" width="100%" alt="Country panorama" />
         </div>
     </div>
@@ -109,11 +112,7 @@
                 align-items: center;"
     >
         <div class="col-6">
-            <img
-                src="{base}/images/countries/{data.slug}_stadium.jpg"
-                width="100%"
-                alt="Stadium"
-            />
+            <img src="{base}/images/countries/{data.slug}_stadium.jpg" width="100%" alt="Stadium" />
         </div>
         <div class="col-6 border-0">
             <div class="row align-center">
@@ -128,23 +127,11 @@
             </div>
             <div class="row align-center">
                 <div class="col-6 text-center border-0">
-                    <img
-                        src="{base}/images/leagues/{data.slug}/{data
-                            .leagues[0]?.api_football_id}.png"
-                        width="60"
-                        class="border-0"
-                        alt="Top league"
-                    />
+                    <img src="{base}/images/leagues/{data.slug}/{data.leagues[0]?.api_football_id}.png" width="60" class="border-0" alt="Top league" />
                 </div>
                 <div class="col-6 text-center border-0">
                     {#if data.leagues[1]}
-                    <img
-                        src="{base}/images/leagues/{data.slug}/{data
-                            .leagues[1]?.api_football_id}.png"
-                        width="60"
-                        class="border-0"
-                        alt="Second league"
-                    />
+                        <img src="{base}/images/leagues/{data.slug}/{data.leagues[1]?.api_football_id}.png" width="60" class="border-0" alt="Second league" />
                     {/if}
                 </div>
             </div>

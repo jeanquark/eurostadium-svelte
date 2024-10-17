@@ -45,6 +45,7 @@
         //     // console.log("wheel e: ", e)
         //     abc.zoomWithWheel(e);
         // })
+
         node.addEventListener("click", (event) => {
             // console.log("click: ", event.detail);
             // console.log('click flag: ', flag)
@@ -88,14 +89,17 @@
    
     const handleClick = (e) => {
         console.log("handleClick");
+        // return
         const country = e.target.getAttribute("data-country");
         console.log("country: ", country);
+        // return
         dispatch("countryClick", e.target.id);
     };
 
     const handleMouseOver = (e) => {
-        // return;
         // console.log("handleMouseOver: ", e);
+        // return
+        // return;
         // console.log("e.target: ", e.target);
         // console.log("e.target.id: ", e.target.id);
         // console.log("e.target.data-country: ", e.target.getAttribute("data-country"));

@@ -16,6 +16,9 @@
 </div>
 
 <style>
+	.app {
+		background-image: url('/images/background-stadiums.svg')
+	}
 	/* .app {
 		display: flex;
 		flex-direction: column;

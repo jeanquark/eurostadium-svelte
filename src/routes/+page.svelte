@@ -49,7 +49,7 @@
     // $: countryLeagues = []
     let showCountryTooltip = false;
     let showStadiumTooltip = false;
-    let showFilterButtons = false;
+    let showFilterButtons = true;
     let filterValue = "all";
     let svgMap;
     let showModal = false;
@@ -254,8 +254,12 @@
     const onCountryHover = (event) => {
         // return
         // console.clear();
-        // console.log("onCountryHover: ", event.detail);
+        console.log("onCountryHover: ", event.detail);
         // country = event.detail
+        if (isMobile()) {
+            console.log('isMobile');
+            // return
+        }
         showCountryTooltip = true;
         // const leagueIds = event.detail?.split(",");
         const { leagueIds, clientX, rect } = event.detail;
@@ -320,6 +324,11 @@
     const onCountryClick = async (event) => {
         const country = event.detail;
         console.log("onCountryClick country: ", country);
+        if (isMobile()) {
+            console.log('isMobile');
+            // displayMap(camelize(country));
+            // return
+        }
         showCountryTooltip = false;
 
         const countryStadiums = $stadiumStore.stadiums[country];
@@ -570,6 +579,13 @@
     const hasTouchSupport = () => {
         return "ontouchstart" in window || navigator.maxTouchPoints > 0;
     };
+    const isMobile = () => {
+        if (hasSmallScreen && hasTouchSupport) {
+            return true
+        }
+        return false
+    }
+    
 
     // var el = document.getElementsByClassName("test");
     // for (i in el){
@@ -701,9 +717,9 @@
     <!-- </section> -->
 </div>
 
-<div class="row my-2 py-5 border-4" style="position: relative;">
-    <div class="col-sm-1 col-md-4 col-lg-3 col-xl-4 border-1"></div>
-    <div class="col-sm-10 col-md-4 col-lg-6 col-xl-4 border-2">
+<div class="row my-2 py-5 border-4 justify-content-center" style="position: relative;">
+    <div class="col-sm-0 col-md-4 col-lg-3 col-xl-4 border-1" style=""></div>
+    <div class="col-sm-8 col-md-4 col-lg-6 col-xl-4 border-2" style="background: #FFF;">
         {#if showCountryTooltip}
             <TooltipCountry
                 data={country}
@@ -744,7 +760,7 @@
         </div>
     </div>
     <div
-        class="col-sm-1 col-md-4 col-lg-3 col-xl-4 justify-center align-content border-3"
+        class="col-sm-3 col-md-4 col-lg-3 col-xl-4 justify-center align-content border-3"
     >
         {#if showFilterButtons}
             <div class="text-center" id="filterPanel">
@@ -756,7 +772,7 @@
                     on:click={() => {
                         filterStadiums("all");
                     }}
-                    >All stadiums&nbsp;
+                    >All&nbsp;
                     <span class="pill">{stadiumsAll}</span>
                 </button>
                 <button
@@ -766,7 +782,7 @@
                     on:click={() => {
                         filterStadiums("top_league");
                     }}
-                    >1<sup>st</sup> league stadiums&nbsp;
+                    >1<sup>st</sup>&nbsp;
                     <span class="pill">{stadiumsTopLeague}</span>
                 </button>
                 <button
