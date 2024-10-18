@@ -28,48 +28,64 @@
 		},
 		"images": [
 			{
-				"name": "20732.jpg",
-				"origin": "",
+				"name": "20732_01.jpg",
+				"source": "",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20732_1.jpg",
-				"origin": "",
+				"name": "20732_02.jpg",
+				"source": "https://cdn-imgix.headout.com/media/images/f20cdaa7123d7227bc35f6df02d4c160-4522-munich-allianz-arena-01.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20732_2.jpg",
-				"origin": "",
+				"name": "20732_03.jpg",
+				"source": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/9d/d9/89.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20732_3.jpg",
-				"origin": "",
+				"name": "20732_04.jpg",
+				"source": "https://www.santosfootballplanet.com/uploads/_contentImageSlider/allianzmunchenshutterstock.jpg?v=1679495823",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20732_4.jpg",
-				"origin": "",
+				"name": "20732_05.jpg",
+				"source": "",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20732_5.jpg",
-				"origin": "",
+				"name": "20732_06.jpg",
+				"source": "https://www.filmlocations-bayern.com/searchlocation/Allianz-Arena-Football-Stadium/",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20732_07.jpg",
+				"source": "https://img.fcbayern.com/image/upload/t_cms-16x9-seo/v1715781567/cms/public/images/fcbayern-com/homepage/fans/fanbetreuung/Inside_Allianz_Arena_17.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20732_08.jpg",
+				"source": "https://img.fcbayern.com/image/upload/t_cms-4x3-seo/v1601458426/cms/public/images/allianz-arena/stadion-innenraum/aa_haupttribuene.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -107,24 +123,40 @@
 		},
 		"images": [
 			{
-				"name": "20735.jpg",
-				"origin": "",
+				"name": "20735_01.jpg",
+				"origin": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/d5/14/6e/empty-stadium.jpg?w=1200&h=-1&s=1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20735.jpg",
-				"origin": "",
+				"name": "20735_02.jpg",
+				"origin": "https://www.liga-zwei.de/app/uploads/2018/03/esprit-arena-duesseldorf-23-03-2018-imago-team-2-27871082.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20735.jpg",
-				"origin": "",
+				"name": "20735_03.jpg",
+				"origin": "https://www.antenneduesseldorf.de/externalimages/?source=jpg640/img_7009.jpeg&crop=605x-1x2558x2558&resize=1200x1200&dt=202406131036250",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20735_04.jpg",
+				"origin": "https://rp-online.de/imgs/32/1/9/7/6/5/4/4/8/5/tok_41d6e3f7d5ba94d6813a73f2803bace8/w2016_h1313_x1008_y756_Arena_7-6edd966dac9d986b.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20735_05.jpg",
+				"origin": "https://a.storyblok.com/f/273380/636x920/04398ad0ef/duesseldorfer-stadion-mit-heizung_artikelbild.jpg/m/1440x0/smart",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -162,24 +194,40 @@
 		},
 		"images": [
 			{
-				"name": "12717.jpg",
-				"origin": "",
+				"name": "12717_01.jpg",
+				"origin": "https://www.scfreiburg.com/fileadmin/_processed_/e/a/csm_Stadion_Das_neue_Stadion_UEbersichtskachel_e6042bf8a4.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "12717.jpg",
-				"origin": "",
+				"name": "12717_02.jpg",
+				"origin": "https://www.scfreiburg.com/typo3temp/assets/_processed_/1/4/csm_f0805ab0742e74c59b9550a7d35cc0cd32e531cd-fp-1000-600-0-0_faaa8a058f.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "12717.jpg",
-				"origin": "",
+				"name": "12717_03.jpg",
+				"origin": "https://www.iwr.de/ticker/images/4592/SC-Freiburg-Europa-Park-Stadion-Dach_im_Sonnenuntergang_TEXT_IMAGE_1400.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12717_04.jpg",
+				"origin": "https://www.santosfootballplanet.com/uploads/_heroBackground/shutterstock_1944362236.jpg?v=1679690271",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12717_05.jpg",
+				"origin": "https://image.architonic.com/prj2-3/20725644/brunner-reference-sc-freiburg-49-arcit18.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -217,24 +265,32 @@
 		},
 		"images": [
 			{
-				"name": "752.jpg",
-				"origin": "",
+				"name": "752_01.jpg",
+				"origin": "https://www.automobile-magazine.fr/asset/cms/198193/config/145910/la-volkswagen-arena-le-stade-dans-lequel-evolue-le-club-de-wolfsburg.jpg_large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "752.jpg",
-				"origin": "",
+				"name": "752_02.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Wolfsburg_stadion.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "752.jpg",
-				"origin": "",
+				"name": "752_03.jpg",
+				"origin": "https://derzwoelftemann.net/wp-content/uploads/2023/12/Wolfsburg306D12M-1373x1030.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "752_04.jpg",
+				"origin": "https://www.mecreeled.com/wp-content/uploads/2022/12/28wol2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -272,24 +328,40 @@
 		},
 		"images": [
 			{
-				"name": "755.jpg",
-				"origin": "",
+				"name": "755_01.jpg",
+				"origin": "https://images.squarespace-cdn.com/content/v1/626713d4611a1c7ec260cf13/a30434c4-8ba3-465c-9f29-3ba284ae9b9b/2540.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "755.jpg",
-				"origin": "",
+				"name": "755_02.jpg",
+				"origin": "https://www.bremerfv.de/wp-content/uploads/slider_schiedsrichterkarten.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "755.jpg",
-				"origin": "",
+				"name": "755_03.jpg",
+				"origin": "https://www.fehmarn24.de/assets/images/27/934/27934720-heisst-das-wohninvest-weserstadion-zukuenftig-wieder-nur-noch-weserstadion-2opSgYKOite9.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "755_04.jpg",
+				"origin": "https://cdn.tomas-travel.com/btz/repository/DEU99999990084532384/DEU99999990027100431/DEU99999990086258132_sized_800_0.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "755_05.jpg",
+				"origin": "https://www.esport-event.gmbh/wp-content/uploads/2022/06/Werder_eSport_FIFA22_Cup_Bremen_Wohninvester_Weserstation_33-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -327,24 +399,32 @@
 		},
 		"images": [
 			{
-				"name": "20471.jpg",
-				"origin": "",
+				"name": "20471_01.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/2/2b/M%C3%B6nchengladbach_stadion.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20471.jpg",
-				"origin": "",
+				"name": "20471_02.jpg",
+				"origin": "https://www.santosfootballplanet.com/uploads/_contentImageSlider/borussia-gladbach-shutterstock_1844081386.jpg?v=1679497731",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20471.jpg",
-				"origin": "",
+				"name": "20471_03.jpg",
+				"origin": "https://pbs.twimg.com/media/EYsxio8XgAEPGGg?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20471_04.jpg",
+				"origin": "https://www.stadiumguide.com/wp-content/uploads/borussiapark16.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -382,24 +462,32 @@
 		},
 		"images": [
 			{
-				"name": "11899.jpg",
-				"origin": "",
+				"name": "11899_01.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Er%C3%B6ffnungsfeier_Coface_Arena.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "11899.jpg",
-				"origin": "",
+				"name": "11899_02.jpg",
+				"origin": "https://www.eventlocation-stadion.de/wp-content/uploads/2014/09/MEWA-ARENA_Innenraum-1-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "11899.jpg",
-				"origin": "",
+				"name": "11899_03.jpg",
+				"origin": "https://img.allgemeine-zeitung.de/lokales/mainz/stadt-mainz/xt96yd-Luftbild-Mainz-Mewa-Arena/alternates/GOOGLE_1200_1_1/Luftbild%20Mainz%20Mewa%20Arena",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11899_04.jpg",
+				"origin": "https://www.stadiumguide.com/wp-content/uploads/mewa_top.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -437,24 +525,48 @@
 		},
 		"images": [
 			{
-				"name": "20733.jpg",
-				"origin": "",
+				"name": "20733_01.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/1/13/Signal_iduna_park_stadium_dortmund_4.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20733.jpg",
-				"origin": "",
+				"name": "20733_02.jpg",
+				"origin": "https://s7g10.scene7.com/is/image/BORUSSIADORTMUNDGMBHANDCOKGAA/G_Stadion-7:News-TeamStage-Mobile?ts=1713562341864&dpr=on,2.625",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20733.jpg",
-				"origin": "",
+				"name": "20733_03.jpg",
+				"origin": "https://rp-online.de/imgs/32/1/5/9/0/5/8/5/4/3/tok_a3ef2b39f27c0a8a9a831cdc7e6e4a11/w2100_h1575_x1796_y1347_rp_IMG_9142-262ac795f40723c7.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20733_04.jpg",
+				"origin": "https://img.sparknews.funkemedien.de/241985328/241985328_1711620008_v16_9_1600.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20733_05.jpg",
+				"origin": "https://www.radio912.de/externalimages/?source=jpg35/bvb2.jpg&crop=0x211x5000x3125&resize=1280x800&dt=201902111046580",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20733_06.jpg",
+				"origin": "https://em2024.org/wp-content/uploads/2024/02/shutterstock_1934623340-1.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -492,24 +604,32 @@
 		},
 		"images": [
 			{
-				"name": "724.jpg",
-				"origin": "",
+				"name": "724_01.jpg",
+				"origin": "https://de1.sportal365images.com/process/smp-bet365-images/news.bet365.de-de/21072023/241b7810-8ed3-40df-9106-6848a006072b.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "724.jpg",
-				"origin": "",
+				"name": "724_02.jpg",
+				"origin": "https://res.cloudinary.com/dfwt0gh29/image/upload/c_limit,w_3840/f_auto/q_auto/v1/venue_images/bundesliga/prezero-arena-hoffenheim?_a=BAVAS2DW0",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "724.jpg",
-				"origin": "",
+				"name": "724_03.jpg",
+				"origin": "https://i0.wp.com/au-stade.fr/wp-content/uploads/2021/07/hoffenheim-2.jpg?ssl=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "724_04.jpg",
+				"origin": "https://pbs.twimg.com/media/FbKi-ujUEAERDos?format=jpg&name=large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -547,24 +667,48 @@
 		},
 		"images": [
 			{
-				"name": "699.jpg",
-				"origin": "",
+				"name": "699_01.jpg",
+				"origin": "https://codaaudio.com/wp-content/uploads/2022/08/pic-1-1200x900.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "699.jpg",
-				"origin": "",
+				"name": "699_02.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bayarena_Leverkusen_2020.jpg/1200px-Bayarena_Leverkusen_2020.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "699.jpg",
-				"origin": "",
+				"name": "699_03.jpg",
+				"origin": "https://res.cloudinary.com/dfwt0gh29/image/upload/c_limit,w_3840/f_auto/q_auto/v1/Stadium_Pictures/German_Bundesliga/Leverkusen_BayArena_1?_a=BAVAS2DW0",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "699_04.jpg",
+				"origin": "https://www.baunetz-architekten.de/img/6/6/5/1/2/4/BayArena_1_Foto_Jens_Willebrand-709f73472c002c1c.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "699_05.jpg",
+				"origin": "https://www.stadiumguide.com/wp-content/uploads/bayarena27.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "699_06.jpg",
+				"origin": "https://pbs.twimg.com/media/DHxlH7vXYAABC4D.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -602,24 +746,40 @@
 		},
 		"images": [
 			{
-				"name": "20734.jpg",
-				"origin": "",
+				"name": "20734_01.jpg",
+				"origin": "https://www.footballticketnet.fr/theme/images/venues_cover/Buy-Commerzbank_Arena-Football-Tickets-FootballTicketNet-Cover.1725866923.png",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20734.jpg",
-				"origin": "",
+				"name": "20734_02.jpg",
+				"origin": "https://editorial.uefa.com/resources/0287-196b5074c3e7-7c95ba1e7cb1-1000/eintracht_frankfurt_v_aberdeen_fc_group_g_-_uefa_europa_conference_league_2023_24.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20734.jpg",
-				"origin": "",
+				"name": "20734_03.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Deutsche_bank_park.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20734_04.jpg",
+				"origin": "https://inotes.sbp.de/portal/pictures3.nsf/58707800D884FCA9C1257E75003622AB/$FILE/1998_1078_b_MAX.jpg?Open",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20734_05.jpg",
+				"origin": "https://pbs.twimg.com/media/GQhVGyWWsAAWIA5?format=jpg&name=4096x4096",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -657,24 +817,40 @@
 		},
 		"images": [
 			{
-				"name": "698.jpg",
-				"origin": "",
+				"name": "698_01.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Impuls_Arena_Augsburg_2011.jpg/1200px-Impuls_Arena_Augsburg_2011.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "698.jpg",
-				"origin": "",
+				"name": "698_02.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Impuls_arena_06-2009.JPG/1200px-Impuls_arena_06-2009.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "698.jpg",
-				"origin": "",
+				"name": "698_03.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Stadion_1106_-_panoramio.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "698_04.jpg",
+				"origin": "https://www.stadiumguide.com/wp-content/uploads/augsburg1-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "698_05.jpg",
+				"origin": "https://res.cloudinary.com/dfwt0gh29/image/upload/c_limit,w_3840/f_auto/q_auto/v1/venue_images/bundesliga/wwk-arena?_a=BAVAS2DW0",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -712,24 +888,56 @@
 		},
 		"images": [
 			{
-				"name": "20739.jpg",
-				"origin": "",
+				"name": "20739_01.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Stuttgart_stadium.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20739.jpg",
-				"origin": "",
+				"name": "20739_02.jpg",
+				"origin": "https://seh-engineering.de/fileadmin/user_upload/MERCEDESBENZARENA_EIFFEL_0391_BILDSCHIRM_LAYOUT.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20739.jpg",
-				"origin": "",
+				"name": "20739_03.jpg",
+				"origin": "https://concular.de/wp-content/uploads/2022/11/Concular-031-XT413296-20210812-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20739_04.jpg",
+				"origin": "https://www.bw24.de/assets/images/28/503/28503956-die-mercedes-benz-arena-ist-seit-1945-das-wohnzimmer-des-vfb-stuttgart-1Pec.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20739_05.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Stuttgart_stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20739_06.jpg",
+				"origin": "https://seh-engineering.de/fileadmin/_processed_/7/5/csm_MERCEDESBENZARENA_EIFFEL_0648_BILDSCHIRM_LAYOUT_672e3badf2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20739_07.jpg",
+				"origin": "https://www.zvw.de/cms_media/module_img/6073/3036733_1_org_B3804EF2-B076-4388-9E4E-E7E43427BE9F_1_201_a.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -767,24 +975,48 @@
 		},
 		"images": [
 			{
-				"name": "20737.jpg",
-				"origin": "",
+				"name": "20737_01.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Leipzig_stadium.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20737.jpg",
-				"origin": "",
+				"name": "20737_02.jpg",
+				"origin": "https://stadiumdb.com/img/news/2021/05/28rbl5.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20737.jpg",
-				"origin": "",
+				"name": "20737_03.jpg",
+				"origin": "https://img.bundesliga.com/tachyon/sites/2/2019/09/SW3_7586.jpg?crop=505px,0px,5077px,4058px",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20737_04.jpg",
+				"origin": "https://facts.net/wp-content/uploads/2023/09/20-captivating-facts-about-red-bull-arena-leipzig-1695301992.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20737_05.jpg",
+				"origin": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/MTNkYjQ3ODItNDQxZC00/0/il-leipzig-stadium-conosciuto-anche-con-il-nome-di-red-bull-arena.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20737_06.jpg",
+				"origin": "https://pbs.twimg.com/media/EBokjvmW4AAV_oS.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -822,24 +1054,40 @@
 		},
 		"images": [
 			{
-				"name": "751.jpg",
-				"origin": "",
+				"name": "751_01.jpg",
+				"origin": "https://proprojekt.de/media/content-full-L/0381_01_bochum_ruhrstadion_dd_proprojekt.jpg?timestamp=1714136773",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "751.jpg",
-				"origin": "",
+				"name": "751_02.jpg",
+				"origin": "https://deutsche-fussballroute.de/fileadmin/dfr/images/bochum_-_rewirpowerstadion.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "751.jpg",
-				"origin": "",
+				"name": "751_03.jpg",
+				"origin": "https://www.stadionbetreiber.de/wp-content/uploads/2019/06/vonovia-ruhrstadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "751_04.jpg",
+				"origin": "https://img.sparknews.funkemedien.de/241786604/241786604_1709220690_v16_9_1200.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "751_05.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Vonovia_Ruhrstadion_04.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -877,24 +1125,48 @@
 		},
 		"images": [
 			{
-				"name": "723.jpg",
-				"origin": "",
+				"name": "723_01.jpg",
+				"origin": "https://www.fc-heidenheim.de/fileadmin/50_redaktion/01_img/01_kopfbilder/Luftbild.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "723.jpg",
-				"origin": "",
+				"name": "723_02.jpg",
+				"origin": "https://www.santosfootballplanet.nl/uploads/_contentImageSlider/shutterstock_2074180424.jpg?v=1694778611",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "723.jpg",
-				"origin": "",
+				"name": "723_03.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/c/c4/GAGFAH-ARENA_Heidenheim.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "723_04.jpg",
+				"origin": "https://www.dronestagr.am/wp-content/uploads/2015/07/image223-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "723_05.jpg",
+				"origin": "https://1.bp.blogspot.com/-7UluSI1Bp_8/WOeO7XlwtOI/AAAAAAAALDY/7wUnZ7hOejA74H_WAYNJ7jbRL7Dze-mDACPcB/s1600/20170402_123252.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "723_06.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Voith-Arena.jpg/1200px-Voith-Arena.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -932,24 +1204,40 @@
 		},
 		"images": [
 			{
-				"name": "705.jpg",
-				"origin": "",
+				"name": "705_01.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Merck-Stadion_am_B%C3%B6llenfalltor.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "705.jpg",
-				"origin": "",
+				"name": "705_02.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Gegengerade_des_Stadions_am_B%C3%B6llenfalltor_in_Darmstadt_gegen_Dortmund_am_13._Januar_2024.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "705.jpg",
-				"origin": "",
+				"name": "705_03.jpg",
+				"origin": "https://www.merckgroup.com/content/dam/web/corporate/images/country-specifics/germany/company/darmstadt-site/nachbarschaft/blog/2022/stadion_eroeffnung_02_19_12_2022.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "705_04.jpg",
+				"origin": "https://fc.de/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fnurz7nsnha04%2F7cp7HpGGwvZ4UbBD7kr7zI%2Fbc6844dbe15d6c0f98af330514d70f15%2Fimago1036409569.jpg&w=3840&q=75",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "705_05.jpg",
+				"origin": "https://mim.p7s1.io/pis/ld/d5c5zChLCVyZ-c1vEwXZAanB-DJ78rnq2V2gRWTHzVV6NywNWMSJCEGmZ4YSENP-WRL0b9lo2z78G9GAMM3KNYucN6gnbR3cGJNktBOoLDn_M9sbEeeHNWnxWa966vP0Qyd4r_sD4so/profile:original?w=1200&rect=240%2C0%2C1440%2C1080",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -987,24 +1275,48 @@
 		},
 		"images": [
 			{
-				"name": "748.jpg",
-				"origin": "",
+				"name": "748_01.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Berlin_alte_f%C3%B6rsterei.jpg/1200px-Berlin_alte_f%C3%B6rsterei.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "748.jpg",
-				"origin": "",
+				"name": "748_02.jpg",
+				"origin": "https://imageserver.stadionwelt.de/Image/9/5/2d7d1ac5030063b973259b266ae80c1b0ffe30a5f28f959203de8becbe3969/2012-04-Union%20(1).JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "748.jpg",
-				"origin": "",
+				"name": "748_03.jpg",
+				"origin": "https://www.eventlocation-stadion.de/wp-content/uploads/2023/08/Haupteingang.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "748_04.jpg",
+				"origin": "https://derzwoelftemann.net/wp-content/uploads/2024/05/UnionBerlin100D12M-1373x1030.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "748_05.jpg",
+				"origin": "https://www.heidelbergmaterials.de/sites/default/files/2023-04/Stadion%20Alte%20F%C3%B6rsterei%20Betonfertigteile%20Trib%C3%BCne%20Heidelberg%20Materials.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "748_06.jpg",
+				"origin": "https://www.cremeguides.com/wp-content/uploads/2021/04/stadion-an-der-alten-foersterei-2.1624534378.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1042,7 +1354,7 @@
 		},
 		"images": [
 			{
-				"name": "20736.jpg",
+				"name": "20736_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1050,7 +1362,7 @@
 				"size": 0
 			},
 			{
-				"name": "20736.jpg",
+				"name": "20736_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1058,7 +1370,7 @@
 				"size": 0
 			},
 			{
-				"name": "20736.jpg",
+				"name": "20736_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1097,7 +1409,7 @@
 		},
 		"images": [
 			{
-				"name": "20735.jpg",
+				"name": "20735_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1105,7 +1417,7 @@
 				"size": 0
 			},
 			{
-				"name": "20735.jpg",
+				"name": "20735_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1113,7 +1425,7 @@
 				"size": 0
 			},
 			{
-				"name": "20735.jpg",
+				"name": "20735_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1152,7 +1464,7 @@
 		},
 		"images": [
 			{
-				"name": "694.jpg",
+				"name": "694_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1160,7 +1472,7 @@
 				"size": 0
 			},
 			{
-				"name": "694.jpg",
+				"name": "694_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1168,7 +1480,7 @@
 				"size": 0
 			},
 			{
-				"name": "694.jpg",
+				"name": "694_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1207,7 +1519,7 @@
 		},
 		"images": [
 			{
-				"name": "18858.jpg",
+				"name": "18858_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1215,7 +1527,7 @@
 				"size": 0
 			},
 			{
-				"name": "18858.jpg",
+				"name": "18858_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1223,7 +1535,7 @@
 				"size": 0
 			},
 			{
-				"name": "18858.jpg",
+				"name": "18858_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1262,7 +1574,7 @@
 		},
 		"images": [
 			{
-				"name": "713.jpg",
+				"name": "713_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1270,7 +1582,7 @@
 				"size": 0
 			},
 			{
-				"name": "713.jpg",
+				"name": "713_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1278,7 +1590,7 @@
 				"size": 0
 			},
 			{
-				"name": "713.jpg",
+				"name": "713_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1317,7 +1629,7 @@
 		},
 		"images": [
 			{
-				"name": "20738.jpg",
+				"name": "20738_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1325,7 +1637,7 @@
 				"size": 0
 			},
 			{
-				"name": "20738.jpg",
+				"name": "20738_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1333,7 +1645,7 @@
 				"size": 0
 			},
 			{
-				"name": "20738.jpg",
+				"name": "20738_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1372,7 +1684,7 @@
 		},
 		"images": [
 			{
-				"name": "720.jpg",
+				"name": "720_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1380,7 +1692,7 @@
 				"size": 0
 			},
 			{
-				"name": "720.jpg",
+				"name": "720_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1388,7 +1700,7 @@
 				"size": 0
 			},
 			{
-				"name": "720.jpg",
+				"name": "720_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1427,7 +1739,7 @@
 		},
 		"images": [
 			{
-				"name": "10490.jpg",
+				"name": "10490_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1435,7 +1747,7 @@
 				"size": 0
 			},
 			{
-				"name": "10490.jpg",
+				"name": "10490_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1443,7 +1755,7 @@
 				"size": 0
 			},
 			{
-				"name": "10490.jpg",
+				"name": "10490_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1482,7 +1794,7 @@
 		},
 		"images": [
 			{
-				"name": "718.jpg",
+				"name": "718_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1490,7 +1802,7 @@
 				"size": 0
 			},
 			{
-				"name": "718.jpg",
+				"name": "718_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1498,7 +1810,7 @@
 				"size": 0
 			},
 			{
-				"name": "718.jpg",
+				"name": "718_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1537,7 +1849,7 @@
 		},
 		"images": [
 			{
-				"name": "733.jpg",
+				"name": "733_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1545,7 +1857,7 @@
 				"size": 0
 			},
 			{
-				"name": "733.jpg",
+				"name": "733_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1553,7 +1865,7 @@
 				"size": 0
 			},
 			{
-				"name": "733.jpg",
+				"name": "733_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1592,7 +1904,7 @@
 		},
 		"images": [
 			{
-				"name": "18622.jpg",
+				"name": "18622_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1600,7 +1912,7 @@
 				"size": 0
 			},
 			{
-				"name": "18622.jpg",
+				"name": "18622_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1608,7 +1920,7 @@
 				"size": 0
 			},
 			{
-				"name": "18622.jpg",
+				"name": "18622_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1647,7 +1959,7 @@
 		},
 		"images": [
 			{
-				"name": "745.jpg",
+				"name": "745_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1655,7 +1967,7 @@
 				"size": 0
 			},
 			{
-				"name": "745.jpg",
+				"name": "745_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1663,7 +1975,7 @@
 				"size": 0
 			},
 			{
-				"name": "745.jpg",
+				"name": "745_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1702,7 +2014,7 @@
 		},
 		"images": [
 			{
-				"name": "725.jpg",
+				"name": "725_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1710,7 +2022,7 @@
 				"size": 0
 			},
 			{
-				"name": "725.jpg",
+				"name": "725_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1718,7 +2030,7 @@
 				"size": 0
 			},
 			{
-				"name": "725.jpg",
+				"name": "725_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1757,7 +2069,7 @@
 		},
 		"images": [
 			{
-				"name": "708.jpg",
+				"name": "708_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1765,7 +2077,7 @@
 				"size": 0
 			},
 			{
-				"name": "708.jpg",
+				"name": "708_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1773,7 +2085,7 @@
 				"size": 0
 			},
 			{
-				"name": "708.jpg",
+				"name": "708_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1812,7 +2124,7 @@
 		},
 		"images": [
 			{
-				"name": "728.jpg",
+				"name": "728_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1820,7 +2132,7 @@
 				"size": 0
 			},
 			{
-				"name": "728.jpg",
+				"name": "728_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1828,7 +2140,7 @@
 				"size": 0
 			},
 			{
-				"name": "728.jpg",
+				"name": "728_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1867,7 +2179,7 @@
 		},
 		"images": [
 			{
-				"name": "11900.jpg",
+				"name": "11900_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1875,7 +2187,7 @@
 				"size": 0
 			},
 			{
-				"name": "11900.jpg",
+				"name": "11900_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1883,7 +2195,7 @@
 				"size": 0
 			},
 			{
-				"name": "11900.jpg",
+				"name": "11900_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1922,7 +2234,7 @@
 		},
 		"images": [
 			{
-				"name": "753.jpg",
+				"name": "753_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1930,7 +2242,7 @@
 				"size": 0
 			},
 			{
-				"name": "753.jpg",
+				"name": "753_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1938,7 +2250,7 @@
 				"size": 0
 			},
 			{
-				"name": "753.jpg",
+				"name": "753_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1977,7 +2289,7 @@
 		},
 		"images": [
 			{
-				"name": "722.jpg",
+				"name": "722_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1985,7 +2297,7 @@
 				"size": 0
 			},
 			{
-				"name": "722.jpg",
+				"name": "722_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -1993,7 +2305,7 @@
 				"size": 0
 			},
 			{
-				"name": "722.jpg",
+				"name": "722_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -2032,7 +2344,7 @@
 		},
 		"images": [
 			{
-				"name": "735.jpg",
+				"name": "735_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -2040,7 +2352,7 @@
 				"size": 0
 			},
 			{
-				"name": "735.jpg",
+				"name": "735_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -2048,7 +2360,7 @@
 				"size": 0
 			},
 			{
-				"name": "735.jpg",
+				"name": "735_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -2087,7 +2399,7 @@
 		},
 		"images": [
 			{
-				"name": "710.jpg",
+				"name": "710_01.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -2095,7 +2407,7 @@
 				"size": 0
 			},
 			{
-				"name": "710.jpg",
+				"name": "710_02.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,
@@ -2103,7 +2415,7 @@
 				"size": 0
 			},
 			{
-				"name": "710.jpg",
+				"name": "710_03.jpg",
 				"origin": "",
 				"owner": "",
 				"width": 0,

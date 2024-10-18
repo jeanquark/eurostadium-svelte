@@ -9,7 +9,7 @@
     export let country
     export let filter
     export let stadiums3
-    let radius = 12
+    let radius = 15
     let stadiumObj2
     let clientX
     let abc
@@ -19,7 +19,7 @@
     // $: stadiumsUpdate(stadiums2)
 
     onMount(() => {
-        console.log('onMount')
+        console.log('[Germany] onMount')
         console.log('filter: ', filter)
         const stadiums = $stadiumStore.stadiums[country?.slug]
         console.log('stadiums: ', stadiums)
@@ -134,13 +134,25 @@
         console.log('test')
     }
 
-    const handleClick = () => {
-        console.log('handleClick')
-        dispatch('clickOutsideCountry')
+    const handleClick = (e) => {
+        console.log('[Germany] handleClick')
+        // console.log('e.target: ', e.target);
+        if (e.target.classList.contains('stadium')) {
+            console.log('Click on stadium')
+        }
+        if (e.target.classList.contains('rectangle')) {
+            console.log('Click on rectangle')
+            dispatch('clickOutsideCountry')
+        }
     }
     const handleMouseOverCircle = (e) => {
         // console.clear()
         console.log('[Germany] handleMouseOverCircle e.target: ', e.target)
+        if (e.target.classList.contains('stadium')) {
+            console.log('Click on stadium')
+        }
+        // return
+
         // console.log('[Germany] handleMouseOverCircle e.relatedTarget: ', e.relatedTarget);
         // return
         const stadiumId = parseInt(e.target.getAttribute('data-api-football-venue-id'))
@@ -154,6 +166,12 @@
             clientY: e.clientY,
             rect: e.target.getBoundingClientRect(),
         }
+        // console.log('e.target: ', e.target)
+        console.log('stadiums3: ', stadiums3);
+        document.querySelectorAll(".stadium").forEach(element => {
+            // console.log('element: ', element);
+            element.classList.remove('hover')
+        })
         e.target.classList.add('hover')
         dispatch('stadiumHover', data)
     }
@@ -273,7 +291,8 @@
         <!-- All areas are listed in the line below. You can use this list in your script. -->
         <!--{id:"DE-BW"},{id:"DE-BY"},{id:"DE-BE"},{id:"DE-BB"},{id:"DE-HB"},{id:"DE-HH"},{id:"DE-HE"},{id:"DE-MV"},{id:"DE-NI"},{id:"DE-NW"},{id:"DE-RP"},{id:"DE-SL"},{id:"DE-SN"},{id:"DE-ST"},{id:"DE-SH"},{id:"DE-TH"}-->
     </defs>
-    <rect id="background" class="rectangle" stroke-width="0" stroke="#000" width="1000" height="1000" x="0" y="0" fill="#d3d3d3" on:click={handleClick} role="presentation" />
+    <rect id="background" class="rectangle" stroke-width="0" stroke="#000" width="1000" height="1000" x="0" y="0" fill="#d3d3d3" />
+    <!-- <rect id="background" class="rectangle" stroke-width="0" stroke="#000" width="1000" height="1000" x="0" y="0" fill="#d3d3d3" on:click={handleClick} role="presentation" /> -->
     <g>
         <path
             id="DE-BW"
@@ -352,6 +371,7 @@
             d="m 514.63953,459.23996 17.73937,3.08071 0.66917,3.44687 -2.84083,-1.3636 -0.65653,3.04285 4.82308,5.25236 3.72464,15.42884 26.40072,0.97219 6.22457,3.77514 6.38871,10.95927 -8.81288,9.68406 8.33309,3.59837 1.19946,11.54007 14.7723,-1.09845 7.24724,8.8255 10.60576,-1.64137 10.17646,11.18654 13.4087,-1.08583 2.49992,4.67158 6.06042,-10.35323 -3.30798,-2.26003 2.67669,-6.64123 v 0 l 4.34331,-1.67924 13.38344,5.11348 0.31565,5.8458 8.0932,2.62619 3.73726,9.78506 -13.7496,3.15646 -3.42161,6.55284 -5.366,-1.37622 -2.17165,3.88878 -7.76493,0.32828 3.10597,4.7852 -5.08823,5.66901 3.20697,0.11365 -0.31564,5.45439 4.44431,3.92664 -4.2928,4.22968 -5.12612,-1.07319 -0.75755,3.19434 -3.28273,-2.05803 1.08583,6.66647 -6.67911,0.0631 -1.9065,3.20698 -4.41906,-10.50474 -10.55525,12.17136 7.67655,6.42657 -1.3131,4.17918 -4.35593,0.65654 2.27266,3.15648 v 0 l -7.92906,4.26754 -3.6615,-3.78776 -20.70646,5.61852 -3.15648,-6.98212 -3.2196,1.30045 -1.81812,-3.09333 0.84593,-8.44672 -6.84323,-1.19946 -4.43169,5.69428 -3.47211,-0.40404 2.95445,14.94907 -2.66405,11.54005 -8.47198,-2.1464 0.94694,-5.63113 -3.4216,-4.54533 -10.49213,2.37366 -3.93928,-5.60589 -8.33308,-0.0126 -9.55779,5.84578 0.20201,3.15649 10.41636,5.70689 0.0884,3.87615 -9.25479,-0.87118 -1.18683,5.85841 -8.80023,-3.20699 -0.6313,-12.97939 -4.44432,-3.81303 -4.25492,1.09845 -3.15647,-5.84578 -4.59582,0.98481 -5.2145,-12.60063 -7.9038,-2.15903 -2.2853,-5.44175 -4.91146,1.43935 -2.76508,-2.65145 -5.366,5.98468 v 0 l -0.37877,-11.94409 3.64888,-1.50247 -2.29792,-6.13619 -8.08056,0.47978 0.50504,4.78522 -6.71698,-1.37622 6.14881,-22.91601 5.9973,-1.70448 2.6767,-6.11093 -3.90141,-4.99985 -3.24485,1.75498 1.30047,-3.01757 -3.0176,-1.33835 9.09065,-0.31564 -3.52264,-4.68421 1.59087,-4.02766 13.29506,0.66917 0.0757,-3.49737 -5.18924,-3.10596 2.68931,-7.24727 -4.43168,-2.9292 3.72463,-1.76763 2.65144,5.13874 3.06808,-9.33053 -13.54757,-5.23974 -1.06057,-6.66647 -6.69171,-0.75755 -3.56051,-11.65369 v 0 l 9.53254,-7.97958 1.76763,2.44943 6.8811,-1.71713 3.88878,-7.03261 2.51256,1.9949 5.25236,-2.99234 5.73215,-12.08298 5.06299,-0.60604 6.91899,4.93671 6.99472,-3.30797 4.07818,2.71456 -1.43936,-7.9038 z"
         />
     </g>
+    <!-- <g id="stadiums" data-country="germany" data-circle-radius="{radius}" data-circle-colors="#a149be,#bea149" on:mouseenter={handleMouseEnterCircle} on:mouseleave={handleMouseLeaveCircle} on:mouseover={handleMouseOverCircle} on:focus={() => {}} role="presentation" on:blur={() => {}} use:a={stadiums3} style=""> -->
     <g id="stadiums" data-country="germany" data-circle-radius="{radius}" data-circle-colors="#a149be,#bea149" on:mouseenter={handleMouseEnterCircle} on:mouseleave={handleMouseLeaveCircle} on:mouseover={handleMouseOverCircle} on:mouseout={handleMouseOutCircle} on:focus={() => {}} role="presentation" on:blur={() => {}} use:a={stadiums3} style="">
         <!-- <g id="stadiums" class="test" data-country="germany" data-circle-radius="5" data-circle-colors="#a149be,#bea149" on:mouseenter={handleMouseEnterCircle} on:mouseleave={handleMouseLeaveCircle} on:mouseover={handleMouseOverCircle} on:mouseout={handleMouseOutCircle} on:focus={() => {}} role="presentation" on:blur={() => {}} style=""> -->
         <!-- <circle cx="594.050751245482" cy="345.071962280227" r="5" fill="#FF0000" id="Berlin" data-api-football-venue-id="694" data-api-football-league-id="78" data-stadium="Olympiastadion Berlin" data-city="Berlin" data-capacity="70 000" class="stadium" />

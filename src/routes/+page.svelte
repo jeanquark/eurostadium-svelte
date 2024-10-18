@@ -42,6 +42,7 @@
     };
     $: country2 = {};
     let stadiums = [];
+    let teams = [];
     let stadiums2 = [];
     // $:stadiums = [];
     let left = 0;
@@ -57,6 +58,7 @@
     let tooltipCountryWidth = 0;
     let tooltipStadiumWidth = 0;
     let mouseOverTooltip = false;
+    let isMobileDevice = false;
 
     $: stadiumsAll = [
         ...new Set(
@@ -132,6 +134,9 @@
         }
         if ($leagueStore.leagues.length < 2) {
             fetchLeagues();
+        }
+        if (hasSmallScreen() && hasTouchSupport()) {
+            isMobileDevice = true;
         }
     });
 
@@ -256,11 +261,12 @@
         // console.clear();
         console.log("onCountryHover: ", event.detail);
         // country = event.detail
-        if (isMobile()) {
-            console.log('isMobile');
+        if (isMobileDevice) {
+            console.log("isMobileDevice");
             // return
+        } else {
+            showCountryTooltip = true;
         }
-        showCountryTooltip = true;
         // const leagueIds = event.detail?.split(",");
         const { leagueIds, clientX, rect } = event.detail;
         // console.log('clientX: ', clientX)
@@ -324,8 +330,8 @@
     const onCountryClick = async (event) => {
         const country = event.detail;
         console.log("onCountryClick country: ", country);
-        if (isMobile()) {
-            console.log('isMobile');
+        if (isMobileDevice) {
+            console.log("isMobileDevice");
             // displayMap(camelize(country));
             // return
         }
@@ -366,11 +372,16 @@
 
     const onStadiumHover = (event) => {
         console.log("onStadiumHover: ", event.detail);
+        // return
+
         const { stadiumId, clientX, clientY, rect } = event.detail;
         // const stadiumId = event.detail;
         stadiums = $stadiumStore.stadiums[country.slug]?.filter(
             (team) => team.venue.api_football_id == stadiumId,
         );
+        // teams = $stadiumStore.stadiums[country.slug]?.filter(
+        //     (team) => team.venue.api_football_id == stadiumId,
+        // );
 
         const offsetWidth = svgMap.offsetWidth;
         const tooltipRect = svgMap.getBoundingClientRect();
@@ -392,7 +403,17 @@
             // left = parseInt(rect.x) + 5
         }
         top = rect.y - tooltipRect.top;
-        showStadiumTooltip = true;
+
+        if (isMobileDevice) {
+            console.log("isMobileDevice");
+            console.log("showModal1: ", showModal);
+            // if (!showModal) {
+            showModal = true;
+            // }
+            console.log("showModal2: ", showModal);
+        } else {
+            showStadiumTooltip = true;
+        }
         // const tooltip = document.getElementById("tooltip");
         // if (tooltip) {
         // 	tooltip.style.display = "block";
@@ -404,6 +425,9 @@
         console.log("onStadiumLeave e: ", e);
         console.log("mouseOverTooltip: ", mouseOverTooltip);
         // if (!mouseOverTooltip) {
+        if (isMobileDevice) {
+            return
+        }
         showStadiumTooltip = false;
         // }
     };
@@ -579,13 +603,6 @@
     const hasTouchSupport = () => {
         return "ontouchstart" in window || navigator.maxTouchPoints > 0;
     };
-    const isMobile = () => {
-        if (hasSmallScreen && hasTouchSupport) {
-            return true
-        }
-        return false
-    }
-    
 
     // var el = document.getElementsByClassName("test");
     // for (i in el){
@@ -638,17 +655,34 @@
         <a href="{base}/about">About page</a>
         <br /><br />
         <button on:click={() => (showModal = true)}>Show modal</button>
-        <Modal bind:showModal>
+        <Modal bind:showModal bind:stadiums>
             <h2 slot="header">modal</h2>
-            This is the modal content
+            This is the modal content<br />
+            <div class="row align-center">
+                <div class="col-12 text-center relative">
+                    <h2>
+                        <span class="text-primary"
+                            ><b>{stadiums[0]?.venue?.name}</b></span
+                        >,
+                        <span class="text-muted"
+                            >{stadiums[0]?.venue?.city}</span
+                        >
+                    </h2>
+                    <h3 class="">
+                        {stadiums[0]?.venue?.capacity}
+                    </h3>
+                </div>
+            </div>
         </Modal>
         <br /><br />
         <!-- $leagueStore.leagues.length: {$leagueStore.leagues?.length}<br /><br /> -->
         <!-- countryLeagues.length: {countryLeagues.length}<br /><br /> -->
         <!-- $leagueStore.data.length: {$leagueStore.data.length}<br /><br /> -->
-        left: {left}<br />
-        tooltipStadiumWidth: {tooltipStadiumWidth}<br />
-        tooltipCountryWidth: {tooltipCountryWidth}<br />
+        showModal: {showModal}<br />
+        isMobileDevice: {isMobileDevice}<br />
+        <!-- left: {left}<br /> -->
+        <!-- tooltipStadiumWidth: {tooltipStadiumWidth}<br /> -->
+        <!-- tooltipCountryWidth: {tooltipCountryWidth}<br /> -->
         <div style="">
             <button on:click={decreaseCount}>decrease</button>
             <!-- <span style="padding: 0 10px">$countStore: {$countStore.value}</span> -->
@@ -717,9 +751,18 @@
     <!-- </section> -->
 </div>
 
-<div class="row my-2 py-5 border-4 justify-content-center" style="position: relative;">
-    <div class="col-sm-0 col-md-4 col-lg-3 col-xl-4 border-1" style=""></div>
-    <div class="col-sm-8 col-md-4 col-lg-6 col-xl-4 border-2" style="background: #FFF;">
+<div
+    class="row my-2 py-5 border-4 justify-content-center"
+    style="position: relative;"
+>
+    <div
+        class="col-sm-1 col-md-4 col-lg-3 col-xl-4 border-1 d-xs-none d-sm-none"
+        style=""
+    ></div>
+    <div
+        class="col-sm-10 col-md-4 col-lg-6 col-xl-4 border-2"
+        style="background: #FFF;"
+    >
         {#if showCountryTooltip}
             <TooltipCountry
                 data={country}
@@ -760,7 +803,7 @@
         </div>
     </div>
     <div
-        class="col-sm-3 col-md-4 col-lg-3 col-xl-4 justify-center align-content border-3"
+        class="col-sm-1 col-md-4 col-lg-3 col-xl-4 justify-center align-content border-3 d-xs-none d-sm-none"
     >
         {#if showFilterButtons}
             <div class="text-center" id="filterPanel">
@@ -841,7 +884,19 @@
     </div>
 </div>
 
-<div class="row"></div>
+<div class="row">
+    <div class="col-12">
+        <div class="box">
+            <div class="pill">All</div>
+            <div class="pill">1st League</div>
+            <div class="pill">2nd League</div>
+            <div class="pill">0 - 20k</div>
+            <div class="pill">20k - 40k</div>
+            <div class="pill">40k - 60k</div>
+            <div class="pill">+60k</div>
+        </div>
+    </div>
+</div>
 
 <div class="row">
     <br /><br /><br /><br />
@@ -851,6 +906,21 @@
 </div>
 
 <style>
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pill {
+        background: var(--color-theme-1);
+        color: #fff;
+        border-radius: 0.5em;
+        margin: 0.4em 0.2em;
+        /* padding: 0.3em 0.5em; */
+        padding: 15px 10px;
+        height: 20px;
+        line-height: 0px;
+    }
     /* section {
         display: flex;
         flex-direction: column;

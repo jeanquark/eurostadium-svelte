@@ -421,6 +421,10 @@
         flex-basis: 0%;
         max-width: 0%;
     }
+
+    .d-sm-none {
+        display: none;
+    }
 }
 
 /* xs */
@@ -478,6 +482,10 @@
     .col-xs-0 {
         flex-basis: 0%;
         max-width: 0%;
+    }
+
+    .d-xs-none {
+        display: none;
     }
 }
 
