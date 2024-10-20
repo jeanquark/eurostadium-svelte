@@ -164,10 +164,12 @@
         "topLatitude": "51.089515",
         "rightLongitude": "9.560176",
         "bottomLatitude": "41.363289",
-        "xMax": 595.64178,
-        "yMax": 584.59808,
+        "xMax2": 595.64178,
+        "xMax": 1000,
+        "yMax2": 584.59808,
+        "yMax": 981.459,
         "xTranslate": 0,
-        "yTranslate": 6
+        "yTranslate": 10
     },
     "georgia": {
         "leftLongitude": "40.011506",
@@ -475,10 +477,13 @@
         "topLatitude": "47.807842",
         "rightLongitude": "10.492616",
         "bottomLatitude": "45.817599",
-        "xMax": 612.58246,
-        "yMax": 391.84637,
+        "xMax": 1000,
+        "xMax2": 612.58246,
+        "yMax": 639.66309,
+        "yMax2": 391.84637,
         "xTranslate": 0,
-        "yTranslate": 113
+        "yTranslate2": 113,
+        "yTranslate": 177
     },
     "turkey": {
         "leftLongitude": "25.663689",

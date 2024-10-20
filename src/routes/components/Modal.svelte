@@ -4,28 +4,20 @@
     import Carousel from "./Carousel.svelte";
 
     export let showModal; // boolean
-    export let stadiums
+    export let stadiums;
+    export let country;
     
     let dialog; // HTMLDialogElement
     let current = 0;
     let show = 1;
-    let countrySlug = 'germany'
-    let items = [
-        {
-            name: '20732.jpg'
-        },
-        {
-            name: '20732.jpg'
-        }
-    ]
+    // let countrySlug = 'germany'
 
-    $: if (dialog && showModal) dialog.showModal();
-
-    const formatNumber = (number) => {
-        return number
-            .toString()
-            .replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
-    };
+    $: if (dialog && showModal) {
+        dialog.showModal();
+    }
+    $: if (!showModal) {
+        current = 0;
+    }
 
     onMount(() => {
         try {
@@ -51,17 +43,18 @@
         {#if (stadiums[0] && stadiums[0]['images'])}
         <div class="text-center">
             showModal: {showModal}<br />
+            country.slug: {country?.slug}<br />
             <!-- stadiums.length: {stadiums.length}<br /> -->
             <!-- stadiums[0][images][0][name]: {stadiums[0]['images'][0]['name']}<br /> -->
 
-            <div style="width:100%; height: 250px; border: 1px solid red;">
+            <div style="width: 100%; height: 300px; border: 1px solid red; text-align: center;">
                 <Carousel items={stadiums[0]['images']} let:item bind:current bind:show>
-                    <div class="item" style="background-image: url({base}/images/stadiums/{countrySlug}/{item.name}); background-size: contain; background-repeat: no-repeat; background-position: center c">
+                    <div class="item" style="text-align: center; border: 1px dashed orange; background-image: url({base}/images/stadiums/{country.slug}/{item.name}); background-repeat: no-repeat; background-position: center;">
                         {item.name}
                     </div>
                 </Carousel>
             </div>
-            {#each stadiums[0]['images'] as item, i}
+            {#each stadiums[0]['images'] as _, i}
                 <span
                 role="button"
                     tabindex="0"

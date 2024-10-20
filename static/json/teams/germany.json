@@ -29,7 +29,7 @@
 		"images": [
 			{
 				"name": "20732_01.jpg",
-				"source": "",
+				"source": "https://img.fcbayern.com/image/upload/t_cms-2x1/f_auto/w_1600%2Cc_fill/q_auto/cms/public/images/fcbayern-com/homepage/saison-18-19/galerien/neue-allianz-arena/arenaumbau_02_duc_030818.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -37,7 +37,7 @@
 			},
 			{
 				"name": "20732_02.jpg",
-				"source": "https://cdn-imgix.headout.com/media/images/f20cdaa7123d7227bc35f6df02d4c160-4522-munich-allianz-arena-01.jpg",
+				"source": "https://img.fcbayern.com/image/upload/t_cms-2x1/f_auto/w_1600%2Cc_fill/q_auto/cms/public/images/allianz-arena/stadion-innenraum/aa_haupttribuene.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -45,38 +45,6 @@
 			},
 			{
 				"name": "20732_03.jpg",
-				"source": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/9d/d9/89.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20732_04.jpg",
-				"source": "https://www.santosfootballplanet.com/uploads/_contentImageSlider/allianzmunchenshutterstock.jpg?v=1679495823",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20732_05.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20732_06.jpg",
-				"source": "https://www.filmlocations-bayern.com/searchlocation/Allianz-Arena-Football-Stadium/",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20732_07.jpg",
 				"source": "https://img.fcbayern.com/image/upload/t_cms-16x9-seo/v1715781567/cms/public/images/fcbayern-com/homepage/fans/fanbetreuung/Inside_Allianz_Arena_17.jpg",
 				"owner": "",
 				"width": 0,
@@ -84,8 +52,40 @@
 				"size": 0
 			},
 			{
+				"name": "20732_04.jpg",
+				"source": "https://www.in-muenchen.de/wp-content/uploads/2024/01/allianzarena-scaled.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20732_05.jpg",
+				"source": "https://cdn-imgix.headout.com/media/images/f20cdaa7123d7227bc35f6df02d4c160-4522-munich-allianz-arena-01.jpg?auto=format&w=1222.3999999999999&h=687.6&q=90&fit=crop&ar=16%3A9&crop=faces",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20732_06.jpg",
+				"source": "https://fcbinside.de/wp-content/uploads/2020/03/fc-bayern-muenchen-v-fc-augsburg-bundesliga-3-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20732_07.jpg",
+				"source": "https://www.stadionbetreiber.de/wp-content/uploads/2019/08/stadion-allianz-arena.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
 				"name": "20732_08.jpg",
-				"source": "https://img.fcbayern.com/image/upload/t_cms-4x3-seo/v1601458426/cms/public/images/allianz-arena/stadion-innenraum/aa_haupttribuene.jpg",
+				"source": "https://www.fr.de/assets/images/35/870/35870516-innerhalb-der-muenchner-allianz-arena-2pGFDcGVMVe9.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1355,7 +1355,7 @@
 		"images": [
 			{
 				"name": "20736_01.jpg",
-				"origin": "",
+				"origin": "https://www.gmp.de/images/gmp_1327_04_1327_160629_MB146_2078.jpg?w=1600",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1363,7 +1363,7 @@
 			},
 			{
 				"name": "20736_02.jpg",
-				"origin": "",
+				"origin": "https://stadiumdb.com/img/news/2017/05/07koln1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1371,7 +1371,31 @@
 			},
 			{
 				"name": "20736_03.jpg",
-				"origin": "",
+				"origin": "https://www.nrw-tourism.com/images/el!ri2i0s_m-/the-soccer-stadium-of-the-1st-fc-cologne.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20736_04.jpg",
+				"origin": "https://editorial.uefa.com/resources/0287-196ac5b63823-cbf5d5af6d65-1000/1._fc_koeln_v_bate_borisov_-_uefa_europa_league.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20736_05.jpg",
+				"origin": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/N2NjMGIyOGYtOGUxOS00/0/il-rheinenergiestadion-mentre-ospita-una-partita-casalinga-del-colonia-fc.webp?f=16%3A9&q=1&w=1560",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20736_05.jpg",
+				"origin": "https://groundhopperguides.com/wp-content/uploads/2024/02/Cologne-Scarves-shutterstock-copy-scaled.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1379,61 +1403,6 @@
 			}
 		],
 		"no": 19
-	},
-	{
-		"team": {
-			"api_football_id": 158,
-			"name": "Fortuna Dusseldorf",
-			"code": "DUS",
-			"country": "Germany",
-			"founded": 1895
-		},
-		"venue": {
-			"api_football_id": 20735,
-			"name": "Düsseldorf Arena",
-			"address": "Arena-Str. 1",
-			"city": "Düsseldorf",
-			"capacity": 54600,
-			"surface": "grass",
-			"lat": 51.261635,
-			"lng": 6.733163,
-			"x": 200.95014877980282,
-			"y": 508.1676441602348,
-			"url": "https://en.wikipedia.org/wiki/Fortuna_D%C3%BCsseldorf"
-		},
-		"league": {
-			"api_football_id": 79,
-			"name": "2. Bundesliga",
-			"country": "Germany",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "20735_01.jpg",
-				"origin": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20735_02.jpg",
-				"origin": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20735_03.jpg",
-				"origin": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 20
 	},
 	{
 		"team": {
@@ -1465,7 +1434,7 @@
 		"images": [
 			{
 				"name": "694_01.jpg",
-				"origin": "",
+				"origin": "https://www.baumeister.de/wp-content/uploads/2023/03/Olympiastadion_Berlin_Sep-2015.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1473,7 +1442,7 @@
 			},
 			{
 				"name": "694_02.jpg",
-				"origin": "",
+				"origin": "https://derzwoelftemann.net/wp-content/uploads/2024/02/HerthaBSC225D12M-1373x1030.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1481,14 +1450,30 @@
 			},
 			{
 				"name": "694_03.jpg",
-				"origin": "",
+				"origin": "https://files.structurae.net/files/photos/5256/2017-03-12/dsc05459.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "694_04.jpg",
+				"origin": "https://www.gmp.de/images/gmp_1115_H%203200-44.jpg?w=1500",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "694_05.jpg",
+				"origin": "https://img.sparknews.funkemedien.de/241496224/241496224_1706110091_v16_9_1200.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 21
+		"no": 20
 	},
 	{
 		"team": {
@@ -1520,7 +1505,7 @@
 		"images": [
 			{
 				"name": "18858_01.jpg",
-				"origin": "",
+				"origin": "https://derzwoelftemann.net/wp-content/uploads/2024/05/Hannover331D12M-1373x1030.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1528,7 +1513,7 @@
 			},
 			{
 				"name": "18858_02.jpg",
-				"origin": "",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Hanover_stadium.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1536,14 +1521,30 @@
 			},
 			{
 				"name": "18858_03.jpg",
-				"origin": "",
+				"origin": "https://www.heinzvonheiden-arena.de/sites/default/files/slider-001.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18858_04.jpg",
+				"origin": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/fe/32/8c/hannover-96-bayern-monachium.jpg?w=1200&h=-1&s=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18858_05.jpg",
+				"origin": "https://www.heinzvonheiden-arena.de/sites/default/files/raeume/_dsc2336cmarc_theis.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 22
+		"no": 21
 	},
 	{
 		"team": {
@@ -1575,7 +1576,7 @@
 		"images": [
 			{
 				"name": "713_01.jpg",
-				"origin": "",
+				"origin": "https://www.stadiumguide.com/wp-content/uploads/maxmorlock_top-1100x749.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1583,7 +1584,7 @@
 			},
 			{
 				"name": "713_02.jpg",
-				"origin": "",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/3/32/Frankenstadion_1.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1591,14 +1592,30 @@
 			},
 			{
 				"name": "713_03.jpg",
-				"origin": "",
+				"origin": "https://media04.marktspiegel.de/article/2024/02/21/4/381024_XXL.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "713_04.jpg",
+				"origin": "https://www.nuernberg.de/imperia/md/zentral/bilder/pressemitteilungen/2021/210622_3bm_stadionfuehrungen_stadion_innen.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "713_05.jpg",
+				"origin": "https://images.nordbayern.de/image/contentid/policy:1.6743743:1507830582/OBJ8223765_1.JPG?f=16%3A9&h=816&m=FIT&w=1680&$p$f$h$m$w=056c00c",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 23
+		"no": 22
 	},
 	{
 		"team": {
@@ -1630,7 +1647,7 @@
 		"images": [
 			{
 				"name": "20738_01.jpg",
-				"origin": "",
+				"origin": "https://storage.schalke04.de/2021/08/210830_arena-1440x810.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1638,7 +1655,7 @@
 			},
 			{
 				"name": "20738_02.jpg",
-				"origin": "",
+				"origin": "https://pbs.twimg.com/media/GQiZIryXUAIp5SA.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1646,14 +1663,38 @@
 			},
 			{
 				"name": "20738_03.jpg",
-				"origin": "",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Germany_-v-_Ireland_Euro_2016_Qualifier_%2815365957457%29.jpg/1200px-Germany_-v-_Ireland_Euro_2016_Qualifier_%2815365957457%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20738_04.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/2010-06-03_Arena_AufSchalke_01.jpg/1200px-2010-06-03_Arena_AufSchalke_01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20738_05.jpg",
+				"origin": "https://stadiumdb.com/pictures/tournaments/euro_2024/arena_auf_schalke/arena_auf_schalke07.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20738_06.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/2010-06-03_Arena_AufSchalke_08.jpg/2560px-2010-06-03_Arena_AufSchalke_08.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 24
+		"no": 23
 	},
 	{
 		"team": {
@@ -1685,7 +1726,7 @@
 		"images": [
 			{
 				"name": "720_01.jpg",
-				"origin": "",
+				"origin": "https://fcdynamo.com/img/5489a81a-469b-4fc4-a8b6-a4907fa7203d/volksparkstadion-2024.jpg?fm=jpg&q=80&fit=max&crop=1920%2C1080%2C0%2C0",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1693,7 +1734,7 @@
 			},
 			{
 				"name": "720_02.jpg",
-				"origin": "",
+				"origin": "https://e6.365dm.de/23/07/1600x900/skysport_de-hamburg-volksparkstadion_6233835.jpg?20230729083902",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1701,14 +1742,38 @@
 			},
 			{
 				"name": "720_03.jpg",
-				"origin": "",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Volksparkstadion.jpg/1280px-Volksparkstadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "720_04.jpg",
+				"origin": "https://stadiumdb.com/img/news/2024/06/44Ger03.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "720_05.jpg",
+				"origin": "https://imtecharena.de/wp-content/uploads/2023/07/Em2024-stadion-hamburg-2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "720_06.jpg",
+				"origin": "https://stadiumdb.com/pictures/tournaments/euro_2024/volksparkstadion/volksparkstadion07.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 25
+		"no": 24
 	},
 	{
 		"team": {
@@ -1740,7 +1805,7 @@
 		"images": [
 			{
 				"name": "10490_01.jpg",
-				"origin": "",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Westtrib%C3%BCne_2.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1748,7 +1813,7 @@
 			},
 			{
 				"name": "10490_02.jpg",
-				"origin": "",
+				"origin": "https://www.jeld-wen.de/getmedia/3cf2bdbe-c1bd-4319-8771-8f1982e97250/img",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1756,14 +1821,38 @@
 			},
 			{
 				"name": "10490_03.jpg",
-				"origin": "",
+				"origin": "https://derzwoelftemann.net/wp-content/uploads/2024/03/JahnRegensburg225D12M-1373x1030.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10490_04.jpg",
+				"origin": "https://www.stadion-erlebnisse.de/wp-content/uploads/2023/04/Regensburg_Jahnstadion_06.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10490_05.jpg",
+				"origin": "https://www.eventlocation-stadion.de/wp-content/uploads/2016/06/PR_150804_0217.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10490_06.jpg",
+				"origin": "https://regioapp.unipush.de//regregional/cpimages//regreg_comp-a3-c82996-iid82996-del0-i1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 26
+		"no": 25
 	},
 	{
 		"team": {
@@ -1795,7 +1884,7 @@
 		"images": [
 			{
 				"name": "718_01.jpg",
-				"origin": "",
+				"origin": "https://www.sv98.de/wordpress/wp-content/uploads/2023/05/2223_MD12_SGFFCH_SW_048-1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1803,7 +1892,7 @@
 			},
 			{
 				"name": "718_02.jpg",
-				"origin": "",
+				"origin": "https://pbs.twimg.com/media/DoHYcD0XsAInueI.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1811,14 +1900,22 @@
 			},
 			{
 				"name": "718_03.jpg",
-				"origin": "",
+				"origin": "https://images.noz-mhn.de/img/45752369/crop/cbase_16_9-w1200/918235369/2139899882/imago1010582541h.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "718_04.jpg",
+				"origin": "https://footballhost.com/cdn/shop/collections/SPORTPARK.jpg?v=1666187565",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 27
+		"no": 26
 	},
 	{
 		"team": {
@@ -1850,7 +1947,7 @@
 		"images": [
 			{
 				"name": "733_01.jpg",
-				"origin": "",
+				"origin": "https://1.fc-magdeburg.de/fileadmin/user_upload/FCMFCN__011.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1858,7 +1955,7 @@
 			},
 			{
 				"name": "733_02.jpg",
-				"origin": "",
+				"origin": "https://1.fc-magdeburg.de/fileadmin/user_upload/20240328_Spieltagmeldung.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1866,14 +1963,38 @@
 			},
 			{
 				"name": "733_03.jpg",
-				"origin": "",
+				"origin": "https://1.fc-magdeburg.de/fileadmin/user_upload/news/8688.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "733_04.jpg",
+				"origin": "https://www.mdcc.de/media/uploads/Aktuelles/2024/mdcc-arena/Vorschaubild_MDCC-Arena_1200x1200.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "733_05.jpg",
+				"origin": "https://groundhopping.carlluis.de/storage/fotos/large/343/MDCC_Arena-028-Suedtribuene.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "733_06.jpg",
+				"origin": "https://bmg-images.forward-publishing.io/2024/03/11/ecda6cc7-433e-4233-ba94-e5eb7bc721ea.jpeg?rect=667%2C0%2C2667%2C2667&w=1024",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 28
+		"no": 27
 	},
 	{
 		"team": {
@@ -1905,7 +2026,7 @@
 		"images": [
 			{
 				"name": "18622_01.jpg",
-				"origin": "",
+				"origin": "https://stadioncheck.de/wp-content/gallery/home-deluxe/Home-Deluxe-Arena-SC-Paderborn-06.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1913,7 +2034,7 @@
 			},
 			{
 				"name": "18622_02.jpg",
-				"origin": "",
+				"origin": "https://stadioncheck.de/wp-content/gallery/home-deluxe/Home-Deluxe-Arena-SC-Paderborn-04.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1921,14 +2042,30 @@
 			},
 			{
 				"name": "18622_03.jpg",
-				"origin": "",
+				"origin": "https://dam.destination.one/2320621/9ccf62fb2231ba66c506f8edf244fa0b1d1f9ad5d99a3ce721df318ed6b9ad5a/home-deluxe-arena-innen.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18622_04.jpg",
+				"origin": "https://stadioncheck.de/wp-content/gallery/home-deluxe/Home-Deluxe-Arena-SC-Paderborn-05.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18622_05.jpg",
+				"origin": "https://e6.365dm.de/22/07/1600x900/skysport_de-sc-paderborn-home-deluxe-arena_5835131.jpg?20220715115811",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 29
+		"no": 28
 	},
 	{
 		"team": {
@@ -1960,7 +2097,7 @@
 		"images": [
 			{
 				"name": "745_01.jpg",
-				"origin": "",
+				"origin": "https://www.sv98.de/wordpress/wp-content/uploads/2024/08/2324_MD02_STPF95_RC_0079.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1968,7 +2105,7 @@
 			},
 			{
 				"name": "745_02.jpg",
-				"origin": "",
+				"origin": "https://www.pinte2foot.com/wp-content/uploads/2023/10/Millerntor-Stadion2-1400x562.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1976,14 +2113,30 @@
 			},
 			{
 				"name": "745_03.jpg",
-				"origin": "",
+				"origin": "https://stadiumdb.com/pictures/stadiums/ger/millerntor_stadion/millerntor_stadion41.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "745_04.jpg",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/2/24/Millerntor_budapester_2009.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "745_05.jpg",
+				"origin": "https://www.liga2-online.de/wp-content/uploads/2022/11/pauli-rasen-winterschlaf-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 30
+		"no": 29
 	},
 	{
 		"team": {
@@ -2015,30 +2168,46 @@
 		"images": [
 			{
 				"name": "725_01.jpg",
-				"origin": "",
+				"origin": "https://www.ndr.de/fernsehen/screenshot1737404_v-fullhd.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "725_01.jpg",
-				"origin": "",
+				"name": "725_02.jpg",
+				"origin": "https://pbs.twimg.com/media/E0N8p_sXMAA8eci?format=jpg&name=large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "725_01.jpg",
-				"origin": "",
+				"name": "725_03.jpg",
+				"origin": "https://www.hlsports.de/wp-content/uploads/2021/11/holstein-kiel-stadion-foto-sr.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "725_04.jpg",
+				"origin": "https://derivates.kicker.de/image/upload/w_5376%2Ch_3024%2Cc_fill%2Cg_auto:subject/w_1200%2Cq_auto/uloxu1mygywehbhxkc1h.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "725_05.jpg",
+				"origin": "https://www.nussli.com/ecomaXL/files/1574159805-2019ksvholsteinkiel01.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 31
+		"no": 30
 	},
 	{
 		"team": {
@@ -2070,7 +2239,7 @@
 		"images": [
 			{
 				"name": "708_01.jpg",
-				"origin": "",
+				"origin": "https://www.info-stades.fr/uploads/stades/braunschweig-eintracht-stadion-75991.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2078,7 +2247,7 @@
 			},
 			{
 				"name": "708_02.jpg",
-				"origin": "",
+				"origin": "https://www.eintracht.com/fileadmin/_processed_/1/6/csm_Anriss_Stadionname_a7297fc74c.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2086,14 +2255,30 @@
 			},
 			{
 				"name": "708_03.jpg",
-				"origin": "",
+				"origin": "https://cdn.regionalheute.de/images/2021/5/3bb780e7563f402e9198a4c324e883e7.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "708_04.jpg",
+				"origin": "https://www.eventlocation-stadion.de/wp-content/uploads/2014/10/G0120305hp.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "708_05.jpg",
+				"origin": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6d/41/70/aufstiegsrelegation-2017.jpg?w=1200&h=-1&s=1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 32
+		"no": 31
 	},
 	{
 		"team": {
@@ -2125,7 +2310,7 @@
 		"images": [
 			{
 				"name": "728_01.jpg",
-				"origin": "",
+				"origin": "https://fck.de/de/wp-content/uploads/sites/2/2017/07/1718_stadion_stadionplan.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2133,7 +2318,7 @@
 			},
 			{
 				"name": "728_02.jpg",
-				"origin": "",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/8/8d/FIFA-Fritz-Walter-Stadion01.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2141,14 +2326,30 @@
 			},
 			{
 				"name": "728_03.jpg",
-				"origin": "",
+				"origin": "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/1683808325574%2Cfritz-walter-stadion-in-kaiserslautern-bildaufnahme-aus-der-luft-100~_v-1x1@2dL_-029cdd853d61a51824ed2ee643deeae504b065c1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "728_04.jpg",
+				"origin": "https://liga3-news.de/wp-content/uploads/2020/04/1.FC-Kaiserslautern-Stadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "728_05.jpg",
+				"origin": "https://www.kaeufer.de/wp-content/uploads/2021/06/fritzWalter_edit.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 33
+		"no": 32
 	},
 	{
 		"team": {
@@ -2180,7 +2381,7 @@
 		"images": [
 			{
 				"name": "11900_01.jpg",
-				"origin": "",
+				"origin": "https://derzwoelftemann.net/wp-content/uploads/2024/05/KarlsruherSC90D12M-1373x1030.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2188,7 +2389,7 @@
 			},
 			{
 				"name": "11900_02.jpg",
-				"origin": "",
+				"origin": "https://static.bnn.de/sport/ksc/KSC-Stadion_Christian-Bodamer.JPG-lya8c0/alternates/LANDSCAPE_16x9_BASE/KSC-Stadion_Christian%20Bodamer.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2196,14 +2397,30 @@
 			},
 			{
 				"name": "11900_03.jpg",
-				"origin": "",
+				"origin": "https://www.bbbank-wildpark.de/wp-content/uploads/20230728_Baustellenblog_1-1024x768.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11900_04.jpg",
+				"origin": "https://www.bbbank-wildpark.de/wp-content/uploads/20230616_Baustellenblog_2-1024x768.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11900_05.jpg",
+				"origin": "https://www.bbbank-wildpark.de/wp-content/uploads/Sitze-Gegentribuene-Vereinsfarben-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 34
+		"no": 33
 	},
 	{
 		"team": {
@@ -2235,7 +2452,7 @@
 		"images": [
 			{
 				"name": "753_01.jpg",
-				"origin": "",
+				"origin": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Wiesbaden-wehen-stadion_brita-arena.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2243,7 +2460,7 @@
 			},
 			{
 				"name": "753_02.jpg",
-				"origin": "",
+				"origin": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/0b/c3/ca/caption.jpg?w=1200&h=1200&s=1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2251,14 +2468,38 @@
 			},
 			{
 				"name": "753_03.jpg",
-				"origin": "",
+				"origin": "https://www.ezi-ingenieure.de/wp-content/uploads/2023/01/Brita-Arena-Bild1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "753_04.jpg",
+				"origin": "https://www.assmanngruppe.com/fileadmin/_processed_/c/b/csm_6402_BRITA-Arena_Header_1ab9e32e57.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "753_05.jpg",
+				"origin": "https://www.assmanngruppe.com/fileadmin/Website/Projekte/ARCH_6402_BRITA-Arena/6402_BRITA-Arena-_1_.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "753_06.jpg",
+				"origin": "https://svww.de/fileadmin/user_upload/Stadion_Header.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 35
+		"no": 34
 	},
 	{
 		"team": {
@@ -2290,7 +2531,7 @@
 		"images": [
 			{
 				"name": "722_01.jpg",
-				"origin": "",
+				"origin": "https://www.liga-drei.de/app/uploads/2017/11/ostseestadion-hansa-rostock-17-11-2017-imago-camera-4-00807066h.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2298,7 +2539,7 @@
 			},
 			{
 				"name": "722_02.jpg",
-				"origin": "",
+				"origin": "https://derzwoelftemann.net/wp-content/uploads/2024/06/HansaRostock116D12M-1373x1030.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2306,14 +2547,30 @@
 			},
 			{
 				"name": "722_03.jpg",
-				"origin": "",
+				"origin": "https://i.ytimg.com/vi/XgUkvUFAkNw/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "722_04.jpg",
+				"origin": "https://www.ndr.de/sport/fussball/ostseestadion118_v-fullhd.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "722_05.jpg",
+				"origin": "https://www.eintracht.com/fileadmin/_processed_/2/b/csm_Ostseestadion_c9b468c247.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 36
+		"no": 35
 	},
 	{
 		"team": {
@@ -2345,7 +2602,7 @@
 		"images": [
 			{
 				"name": "735_01.jpg",
-				"origin": "",
+				"origin": "https://www.stadionbetreiber.de/wp-content/uploads/2020/02/vds-bremer-bruecke.jpg.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2353,7 +2610,7 @@
 			},
 			{
 				"name": "735_02.jpg",
-				"origin": "",
+				"origin": "https://www.liga-drei.de/app/uploads/2017/10/bremer-bruecke-osnabrueck-20-10-2017-imago-osnapix-11319559h.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2361,14 +2618,30 @@
 			},
 			{
 				"name": "735_03.jpg",
-				"origin": "",
+				"origin": "https://images.sportschau.de/image/e8827bcf-5ec1-45fd-a15a-3d6f55fc2049/AAABj5Zh9v0/AAABkZLiamM/16x9-1920/ndr-das-stadion-des-fussball-zweitligisten-vfl-osnabrueck-an-der-bremer-bruecke-104.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "735_04.jpg",
+				"origin": "https://img.ecmaps.de/remote/.jpg?mode=crop&scale=both&width=1230&url=https%3A%2F%2Fdam.destination.one%2F1421394%2F3c08c8259bc9513269726a7d6d9db9a30d411fc58e18338b4287bf2c85bf231e%2Fbremer-br-cke.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "735_05.jpg",
+				"origin": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/bremerbruecke100_v-fullhd.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 37
+		"no": 36
 	},
 	{
 		"team": {
@@ -2400,7 +2673,7 @@
 		"images": [
 			{
 				"name": "710_01.jpg",
-				"origin": "",
+				"origin": "https://www.saarbruecker-zeitung.de/imgs/scaled/03/1/8/5/1/2/8/9/4/3/w2100_h1182_x1500_y844_Stadion-Umbau_Elversberg_18_Juli_2023-4-114bb4248f71e93f.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2408,7 +2681,7 @@
 			},
 			{
 				"name": "710_02.jpg",
-				"origin": "",
+				"origin": "https://www.saarbruecker-zeitung.de/imgs/03/1/3/0/6/9/2/1/8/9/tok_24f629033ce53a46db83d128d63da79d/w1900_h1087_x1396_y799_Stadion_Kaiserlinde_Elversberg-6-88be8afae9e344d8.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2416,13 +2689,29 @@
 			},
 			{
 				"name": "710_03.jpg",
-				"origin": "",
+				"origin": "https://groundhopping.carlluis.de/storage/fotos/large/633/27-Kaiserlinde-Haupttribuene.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "710_04.jpg",
+				"origin": "https://www.regio-sw.de/wp-content/uploads/2020/03/stadion1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "710_05.jpg",
+				"origin": "https://www.kurier.de/media.media.86284fa0-0252-463b-941f-f623178ad0d9.original1024.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 38
+		"no": 37
 	}
 ]

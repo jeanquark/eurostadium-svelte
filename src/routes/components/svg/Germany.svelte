@@ -13,6 +13,7 @@
     let stadiumObj2
     let clientX
     let abc
+    let panzoomRef
     let flag = 1
     // $: filter = console.log('update filter value')
     $: filterUpdate(filter)
@@ -87,7 +88,7 @@
                 return
             }
             const stadiums = stadiumElement.children
-            console.log('stadiums: ', stadiums);
+            // console.log('stadiums: ', stadiums);
             for (let i = 0; i < stadiums.length; i++) {
                 stadiums[i].setAttribute('r', radius / scale)
             }
@@ -97,16 +98,17 @@
             // console.log("click: ", event.detail);
             // console.log('click flag: ', flag)
             if (flag == 1) {
-                // console.log('click')
-                abc.destroy()
-                node.removeEventListener('wheel', def)
+                console.log('click')
+                console.log('destroy event listener')
+                // abc.destroy()
+                // node.removeEventListener('wheel', def)
                 handleClick(event)
             } else {
                 console.log('no click')
             }
             flag = 1
         })
-        abc = panzoom(node, {
+        panzoomRef = panzoom(node, {
             isSvg: true,
             cursor: 'normal',
             disableZoom: false,
@@ -125,7 +127,7 @@
             // }
         })
         const def = (e) => {
-            abc.zoomWithWheel(e)
+            panzoomRef.zoomWithWheel(e)
         }
         node.addEventListener('wheel', def)
     }
@@ -142,6 +144,7 @@
         }
         if (e.target.classList.contains('rectangle')) {
             console.log('Click on rectangle')
+            panzoomRef.destroy()
             dispatch('clickOutsideCountry')
         }
     }

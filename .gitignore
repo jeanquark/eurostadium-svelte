@@ -22,9 +22,9 @@ vite.config.ts.timestamp-*
 
 # Images
 static/images/stadiums/*
-!static/images/stadiums/germany.json
-!static/images/stadiums/france.json
-!static/images/stadiums/switzerland.json
+!static/images/stadiums/germany
+!static/images/stadiums/france
+!static/images/stadiums/switzerland
 
 # Firebase
 firebase-admin-sdk.json
