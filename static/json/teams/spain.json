@@ -28,7 +28,7 @@
 		"images": [
 			{
 				"name": "19939_01.jpg",
-				"source": "",
+				"source": "https://www.fcbarcelona.com/fcbarcelona/photo/2023/07/03/8bfe6e2c-cae2-4448-a2d9-447227618e40/Estadi-Ol-mpic-BSM.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -36,7 +36,7 @@
 			},
 			{
 				"name": "19939_02.jpg",
-				"source": "",
+				"source": "https://estadiolimpic.barcelona/sites/default/files/2023-07/Estadi_0.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -44,7 +44,7 @@
 			},
 			{
 				"name": "19939_03.jpg",
-				"source": "",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/6a/af/03/20181104-173408-hdr-largejpg.jpg?w=1200&h=1200&s=1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -52,15 +52,14 @@
 			},
 			{
 				"name": "19939_04.jpg",
-				"source": "",
-				"owner": "",
+				"source": "https://www.info-stades.fr/uploads/stades/stade-olympique-barcelone-41087.jpg",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
 				"name": "19939_05.jpg",
-				"source": "",
+				"source": "https://www.thenewbarcelonapost.com/wp-content/uploads/2021/01/Estadi-Olimpic-Lluis-Companys-%C2%A9-Oh-Barcelona.com_-1170x780.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -68,7 +67,23 @@
 			},
 			{
 				"name": "19939_06.jpg",
-				"source": "",
+				"source": "https://media.koobit.com/tribuna-stand-at-estadi-olmpic-lluis-companys-v2-44115.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19939_07.jpg",
+				"source": "https://media.koobit.com/tribuna-stand-at-estadi-olmpic-lluis-companys-v2-44115.jpg",
+				"owner": "https://stadiumdb.com/pictures/stadiums/esp/olimpic_de_montjuic/olimpic_de_montjuic44.jpg",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19939_08.jpg",
+				"source": "https://s3.eu-west-1.amazonaws.com/pro.static.portalstdo.tmb.cat/styles/galeria_slider/s3/s3fs-public/2017-11/REF_ESTADIO_OLIMPICO_CT6A3121.jpg?itok=Xz9-wKfY",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -106,7 +121,7 @@
 		"images": [
 			{
 				"name": "19217_01.jpg",
-				"source": "",
+				"source": "https://www.hatkohybridgrass.com/wp-content/uploads/2024/09/Athletico-Madrid.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -114,7 +129,7 @@
 			},
 			{
 				"name": "19217_02.jpg",
-				"source": "",
+				"source": "https://masatletico.opennemas.com/media/masatletico/images/2022/07/02/2022070220054082481.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -122,7 +137,7 @@
 			},
 			{
 				"name": "19217_03.jpg",
-				"source": "",
+				"source": "https://cdn.vox-cdn.com/thumbor/8va16j-3_eEUvd4kxE_MHPvHgo0=/0x0:5000x3333/1200x800/filters:focal(2100x1267:2900x2067)/cdn.vox-cdn.com/uploads/chorus_image/image/71042274/1397800738.0.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -130,7 +145,7 @@
 			},
 			{
 				"name": "19217_04.jpg",
-				"source": "",
+				"source": "https://media.koobit.com/metropolitano-stadium-aerial-view-v2-20431.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -138,7 +153,7 @@
 			},
 			{
 				"name": "19217_05.jpg",
-				"source": "",
+				"source": "https://images.ctfassets.net/zqradj6qcvuh/6X8EnNWPwxBGngCphckW0Y/4d3b464dc9c9b6574c5e61bf3cd7c901/Dise__o_sin_t__tulo.png",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -146,7 +161,15 @@
 			},
 			{
 				"name": "19217_06.jpg",
-				"source": "",
+				"source": "https://cdn.prod.website-files.com/63bc34cf1e70243326769491/6411e8fbf37f4256bfd0aecb_image%203.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19217_07.jpg",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/a0/7d/c2/wanda-metropolitano.jpg?w=1200&h=-1&s=1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -184,7 +207,7 @@
 		"images": [
 			{
 				"name": "1460_01.jpg",
-				"source": "",
+				"source": "https://www.info-stades.fr/uploads/stades/bilbao-san-mames-barria3.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -192,7 +215,7 @@
 			},
 			{
 				"name": "1460_02.jpg",
-				"source": "",
+				"source": "https://eheim-moebel.de/wp-content/uploads/2019/02/es_bilbao_acb_fcb_523_web1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -200,7 +223,7 @@
 			},
 			{
 				"name": "1460_03.jpg",
-				"source": "",
+				"source": "https://eheim-moebel.de/wp-content/uploads/2019/02/es_bilbao_acb_fcb_005_web.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -208,7 +231,7 @@
 			},
 			{
 				"name": "1460_04.jpg",
-				"source": "",
+				"source": "https://www.idom.com/wp-content/uploads/2019/02/San_Mames_Stadium_04_Architecture_IDOM_photo_Aitor_Ortiz.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -216,7 +239,7 @@
 			},
 			{
 				"name": "1460_05.jpg",
-				"source": "",
+				"source": "https://i.ytimg.com/vi/qDWrptcyAEo/maxresdefault.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -224,7 +247,15 @@
 			},
 			{
 				"name": "1460_06.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/San_Mames_Barria_eta_Bilboko_ikuspegia.jpg/1200px-San_Mames_Barria_eta_Bilboko_ikuspegia.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1460_07.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/f8/San_Mames%2C_Bilbao%2C_Euskal_Herria_-_Basque_Country.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -262,7 +293,7 @@
 		"images": [
 			{
 				"name": "1497_01.jpg",
-				"source": "",
+				"source": "https://www.visitvalencia.com/sites/default/files/media/media-images/images/2/20140908_04_reformas_mestalla_gradas_2014_021.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -270,7 +301,7 @@
 			},
 			{
 				"name": "1497_02.jpg",
-				"source": "",
+				"source": "https://stadiumdb.com/img/news/2020/03/31val1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -278,7 +309,7 @@
 			},
 			{
 				"name": "1497_03.jpg",
-				"source": "",
+				"source": "https://i.pinimg.com/originals/47/3a/77/473a7769ca2d8649d61fac974f8c6ae6.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -286,7 +317,7 @@
 			},
 			{
 				"name": "1497_04.jpg",
-				"source": "",
+				"source": "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Festadio-mestalla-valencia-cf-v0-p1iw2x1fidgc1.jpg%3Fwidth%3D1500%26format%3Dpjpg%26auto%3Dwebp%26s%3D3542daf693d9e7ab4d83e9304d177e9a73744cdc",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -294,7 +325,7 @@
 			},
 			{
 				"name": "1497_05.jpg",
-				"source": "",
+				"source": "https://www.barcelo.com/guia-turismo/wp-content/uploads/2024/09/ok-mestalla.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -302,7 +333,31 @@
 			},
 			{
 				"name": "1497_06.jpg",
-				"source": "",
+				"source": "https://www.valenciacf.com/public/Image/2024/1/mestallasinpatroscopia.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1497_07.jpg",
+				"source": "https://offloadmedia.feverup.com/valenciasecreta.com/wp-content/uploads/2024/02/26125733/Camp-de-Mestalla-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1497_08.jpg",
+				"source": "https://www.valenciacf.com/public/Image/2024/1/20230804recursosestadio57_ExtraGrande.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1497_09.jpg",
+				"source": "https://mediaim.expedia.com/destination/2/201e21a5bd6a24cacb7e6717299b84f3.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -340,7 +395,7 @@
 		"images": [
 			{
 				"name": "1498_01.jpg",
-				"source": "",
+				"source": "https://villarrealcf.es/wp-content/uploads/2023/08/20230623-ObrasEstadioLaCeramica-004-1920x1080.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -348,7 +403,7 @@
 			},
 			{
 				"name": "1498_02.jpg",
-				"source": "",
+				"source": "https://villarrealcf.es/wp-content/uploads/2023/01/VillarrealCF-RealMadrid-001.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -356,7 +411,7 @@
 			},
 			{
 				"name": "1498_03.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/1/13/ESTADIO3.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -364,7 +419,7 @@
 			},
 			{
 				"name": "1498_04.jpg",
-				"source": "",
+				"source": "https://i.ytimg.com/vi/aQjm4KWeX7k/maxresdefault.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -372,7 +427,7 @@
 			},
 			{
 				"name": "1498_05.jpg",
-				"source": "",
+				"source": "https://villarrealcf.es/wp-content/uploads/2024/04/20240318-EstadioLaCeramicaAereas-017.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -380,7 +435,15 @@
 			},
 			{
 				"name": "1498_06.jpg",
-				"source": "",
+				"source": "https://estaticos-cdn.prensaiberica.es/clip/e0ebddb6-7a8c-4cea-ab03-b02d5607efe5_16-9-discover-aspect-ratio_default_0.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1498_07.jpg",
+				"source": "https://www.valenciacf.com/public/Image/2024/3/webprevia00183_forCrop.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -418,7 +481,7 @@
 		"images": [
 			{
 				"name": "1481_01.jpg",
-				"source": "",
+				"source": "https://rtvc.es/archivos/2024/06/estadio-de-gran-canaria.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -426,7 +489,7 @@
 			},
 			{
 				"name": "1481_02.jpg",
-				"source": "",
+				"source": "https://www.atlanticohoy.com/uploads/s1/32/51/62/5/foto-cee-sped-estadio.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -434,7 +497,7 @@
 			},
 			{
 				"name": "1481_03.jpg",
-				"source": "",
+				"source": "https://www.santosfootballplanet.com/uploads/_contentImageSlider/Webshutterstock_1964700199_2023-06-02-110457_vvdr.jpg?v=1685708249",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -442,7 +505,7 @@
 			},
 			{
 				"name": "1481_04.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Estadio_Gran_Canaria.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -450,7 +513,7 @@
 			},
 			{
 				"name": "1481_05.jpg",
-				"source": "",
+				"source": "https://statics-maker.llt-services.com/lpa/images/2024/04/19/large-wp/81068522-20ae-48d1-bc5c-08644e537f3e-526.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -458,7 +521,7 @@
 			},
 			{
 				"name": "1481_06.jpg",
-				"source": "",
+				"source": "https://www.atlanticohoy.com/uploads/s1/32/54/63/3/disen-o-sin-ti-tulo-10.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
