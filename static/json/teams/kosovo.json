@@ -1,0 +1,321 @@
+[
+	{
+		"team": {
+			"api_football_id": 680,
+			"name": "Prishtina",
+			"code": null,
+			"country": "Kosovo",
+			"founded": 1922
+		},
+		"venue": {
+			"api_football_id": 1813,
+			"name": "Stadiumi Fadil Vokrri",
+			"address": null,
+			"city": "Pristina",
+			"capacity": 13500,
+			"surface": "grass",
+			"lat": 42.66297,
+			"lng": 21.15688,
+			"x": 428.6,
+			"y": 284.5,
+			"url": "https://en.wikipedia.org/wiki/Fadil_Vokrri_Stadium"
+		},
+		"league": {
+			"api_football_id": 664,
+			"name": "Superliga",
+			"country": "Kosovo",
+			"api_football_country_id": 0
+		},
+		"no": 1
+	},
+	{
+		"team": {
+			"api_football_id": 4132,
+			"name": "Feronikeli",
+			"code": null,
+			"country": "Kosovo",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 3160,
+			"name": "Stadiumi Rexhep Rexhepi",
+			"address": null,
+			"city": "Glogovac",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 42.616446,
+			"lng": 20.903551,
+			"x": 340.8,
+			"y": 306.3,
+			"url": "https://en.wikipedia.org/wiki/Rexhep_Rexhepi_Stadium"
+		},
+		"league": {
+			"api_football_id": 664,
+			"name": "Superliga",
+			"country": "Kosovo",
+			"api_football_country_id": 0
+		},
+		"no": 2
+	},
+	{
+		"team": {
+			"api_football_id": 12733,
+			"name": "Ballkani",
+			"code": null,
+			"country": "Kosovo",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 8093,
+			"name": "Stadiumi i qytetit Suharekë",
+			"address": "E851, Therandë",
+			"city": "Suva Reka",
+			"capacity": 1500,
+			"surface": "artificial turf",
+			"lat": 42.353243,
+			"lng": 20.82257,
+			"x": 312.7,
+			"y": 429.7,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 664,
+			"name": "Superliga",
+			"country": "Kosovo",
+			"api_football_country_id": 0
+		},
+		"no": 3
+	},
+	{
+		"team": {
+			"api_football_id": 12772,
+			"name": "Gjilani",
+			"code": null,
+			"country": "Kosovo",
+			"founded": 1995
+		},
+		"venue": {
+			"api_football_id": 20315,
+			"name": "Stadiumi me bar sintetik Gjilan",
+			"address": "pn. Rruga e Kumanovës",
+			"city": "Gnjilane",
+			"capacity": 1000,
+			"surface": "artificial turf",
+			"lat": 42.453612,
+			"lng": 21.464586,
+			"x": 535.3,
+			"y": 382.6,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 664,
+			"name": "Superliga",
+			"country": "Kosovo",
+			"api_football_country_id": 0
+		},
+		"no": 4
+	},
+	{
+		"team": {
+			"api_football_id": 14281,
+			"name": "Drita",
+			"code": null,
+			"country": "Kosovo",
+			"founded": 1947
+		},
+		"venue": {
+			"api_football_id": 20315,
+			"name": "Stadiumi me bar sintetik Gjilan",
+			"address": "pn. Rruga e Kumanovës",
+			"city": "Gnjilane",
+			"capacity": 1000,
+			"surface": "artificial turf",
+			"lat": 42.453612,
+			"lng": 21.464586,
+			"x": 535.3,
+			"y": 382.6,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 664,
+			"name": "Superliga",
+			"country": "Kosovo",
+			"api_football_country_id": 0
+		},
+		"no": 5
+	},
+	{
+		"team": {
+			"api_football_id": 14393,
+			"name": "Dukagjini",
+			"code": null,
+			"country": "Kosovo",
+			"founded": 1958
+		},
+		"venue": {
+			"api_football_id": 12659,
+			"name": "Stadiumi 18 Qershori",
+			"address": null,
+			"city": "Klinë",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 42.617034,
+			"lng": 20.58089,
+			"x": 229,
+			"y": 306.1,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 664,
+			"name": "Superliga",
+			"country": "Kosovo",
+			"api_football_country_id": 0
+		},
+		"no": 6
+	},
+	{
+		"team": {
+			"api_football_id": 14395,
+			"name": "Llapi",
+			"code": null,
+			"country": "Kosovo",
+			"founded": 1932
+		},
+		"venue": {
+			"api_football_id": 11084,
+			"name": "Stadiumi Zahir Pajaziti",
+			"address": null,
+			"city": "Besiana, Podujevo",
+			"capacity": 8000,
+			"surface": "grass",
+			"lat": 42.905073,
+			"lng": 21.19489,
+			"x": 441.8,
+			"y": 171.1,
+			"url": "https://en.wikipedia.org/wiki/Zahir_Pajaziti_Stadium"
+		},
+		"league": {
+			"api_football_id": 664,
+			"name": "Superliga",
+			"country": "Kosovo",
+			"api_football_country_id": 0
+		},
+		"no": 7
+	},
+	{
+		"team": {
+			"api_football_id": 14402,
+			"name": "Liria Prizren",
+			"code": null,
+			"country": "Kosovo",
+			"founded": 1930
+		},
+		"venue": {
+			"api_football_id": 20438,
+			"name": "Stadiumi Përparim Thaçi",
+			"address": null,
+			"city": "Prizren",
+			"capacity": 15000,
+			"surface": "grass",
+			"lat": 42.206992,
+			"lng": 20.729061,
+			"x": 280.3,
+			"y": 498.2,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 664,
+			"name": "Superliga",
+			"country": "Kosovo",
+			"api_football_country_id": 0
+		},
+		"no": 8
+	},
+	{
+		"team": {
+			"api_football_id": 15576,
+			"name": "Malisheva",
+			"code": null,
+			"country": "Kosovo",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 12497,
+			"name": "Stadiumi Liman Gegaj",
+			"address": null,
+			"city": "Malishevë",
+			"capacity": 2000,
+			"surface": "artificial turf",
+			"lat": 42.482245,
+			"lng": 20.724799,
+			"x": 278.8,
+			"y": 369.2,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 664,
+			"name": "Superliga",
+			"country": "Kosovo",
+			"api_football_country_id": 0
+		},
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 18293,
+			"name": "Fushë Kosova",
+			"code": null,
+			"country": "Kosovo",
+			"founded": 1972
+		},
+		"venue": {
+			"api_football_id": 20145,
+			"name": "Stadiumi Ekrem Grajqevci",
+			"address": null,
+			"city": "Kosovo Polje",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 42.63427,
+			"lng": 21.086662,
+			"x": 404.3,
+			"y": 298,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 664,
+			"name": "Superliga",
+			"country": "Kosovo",
+			"api_football_country_id": 0
+		},
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 22816,
+			"name": "Prishtina e Re",
+			"code": null,
+			"country": "Kosovo",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": -6905.4,
+			"y": 20277.3,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 664,
+			"name": "Superliga",
+			"country": "Kosovo",
+			"api_football_country_id": 0
+		},
+		"no": 11
+	}
+]

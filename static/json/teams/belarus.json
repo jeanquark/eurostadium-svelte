@@ -1,0 +1,959 @@
+[
+	{
+		"team": {
+			"api_football_id": 379,
+			"name": "FC Slutsk",
+			"code": "SLU",
+			"country": "Belarus",
+			"founded": 1998
+		},
+		"venue": {
+			"api_football_id": 169,
+			"name": "Stadyen Haradski",
+			"address": "ul. Lenina",
+			"city": "Slutsk",
+			"capacity": 2150,
+			"surface": "grass",
+			"lat": 54.222442,
+			"lng": 28.490456,
+			"x": 392.7,
+			"y": 295.3,
+			"url": "https://en.wikipedia.org/wiki/Haradski_Stadium"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 1
+	},
+	{
+		"team": {
+			"api_football_id": 380,
+			"name": "FC Minsk",
+			"code": "MIN",
+			"country": "Belarus",
+			"founded": 2003
+		},
+		"venue": {
+			"api_football_id": 163,
+			"name": "Stadion FK Minsk",
+			"address": "ul. Mayakovskogo 127/3",
+			"city": "Minsk",
+			"capacity": 3100,
+			"surface": "artificial turf",
+			"lat": 53.861667,
+			"lng": 27.578611,
+			"x": 325.3,
+			"y": 340.4,
+			"url": "https://en.wikipedia.org/wiki/FC_Minsk_Stadium"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 2
+	},
+	{
+		"team": {
+			"api_football_id": 382,
+			"name": "FC Vitebsk",
+			"code": null,
+			"country": "Belarus",
+			"founded": 1960
+		},
+		"venue": {
+			"api_football_id": 164,
+			"name": "Stadyen Central'ny Vitsyebski",
+			"address": "prospekt Ljudnikova 12",
+			"city": "Vitebsk",
+			"capacity": 8144,
+			"surface": "grass",
+			"lat": 55.198333,
+			"lng": 30.229167,
+			"x": 521.3,
+			"y": 173.5,
+			"url": "https://en.wikipedia.org/wiki/Vitebsky_Central_Sport_Complex"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 3
+	},
+	{
+		"team": {
+			"api_football_id": 385,
+			"name": "Torpedo Zhodino",
+			"code": "ZHO",
+			"country": "Belarus",
+			"founded": 1961
+		},
+		"venue": {
+			"api_football_id": 171,
+			"name": "Stadyen Tarpeda",
+			"address": "ul. Derevjanko",
+			"city": "Zhodino",
+			"capacity": 6524,
+			"surface": "grass",
+			"lat": 54.092222,
+			"lng": 28.32,
+			"x": 380.1,
+			"y": 311.6,
+			"url": "https://en.wikipedia.org/wiki/Torpedo_Stadium_(Zhodino)"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 4
+	},
+	{
+		"team": {
+			"api_football_id": 386,
+			"name": "Dinamo Brest",
+			"code": "BRE",
+			"country": "Belarus",
+			"founded": 1960
+		},
+		"venue": {
+			"api_football_id": 160,
+			"name": "Stadyen DASK Brestski",
+			"address": "ul. Gogolya 9",
+			"city": "Brest",
+			"capacity": 10169,
+			"surface": "artificial turf",
+			"lat": 52.089828,
+			"lng": 23.683914,
+			"x": 37.3,
+			"y": 561.5,
+			"url": "https://en.wikipedia.org/wiki/Regional_Sport_Complex_Brestsky"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 5
+	},
+	{
+		"team": {
+			"api_football_id": 387,
+			"name": "Neman",
+			"code": "NEM",
+			"country": "Belarus",
+			"founded": 1964
+		},
+		"venue": {
+			"api_football_id": 10497,
+			"name": "Stadion Neman",
+			"address": "ul. Gor&apos;kogo",
+			"city": "Grodno",
+			"capacity": 9000,
+			"surface": "grass",
+			"lat": 53.688861,
+			"lng": 23.82072,
+			"x": 47.5,
+			"y": 361.9,
+			"url": "https://en.wikipedia.org/wiki/Neman_Stadium"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 6
+	},
+	{
+		"team": {
+			"api_football_id": 388,
+			"name": "Bate Borisov",
+			"code": "BAT",
+			"country": "Belarus",
+			"founded": 1973
+		},
+		"venue": {
+			"api_football_id": 7764,
+			"name": "Borisov Arena",
+			"address": null,
+			"city": "Borisov",
+			"capacity": 13141,
+			"surface": "grass",
+			"lat": 54.193056,
+			"lng": 28.475278,
+			"x": 391.6,
+			"y": 299,
+			"url": "https://en.wikipedia.org/wiki/Borisov_Arena"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 7
+	},
+	{
+		"team": {
+			"api_football_id": 389,
+			"name": "FC Gomel",
+			"code": "GOM",
+			"country": "Belarus",
+			"founded": 1959
+		},
+		"venue": {
+			"api_football_id": 162,
+			"name": "Stadyen Central'ny",
+			"address": null,
+			"city": "Gomel",
+			"capacity": 14307,
+			"surface": "grass",
+			"lat": 52.436667,
+			"lng": 31.012222,
+			"x": 579.2,
+			"y": 518.2,
+			"url": "https://en.wikipedia.org/wiki/Central_Stadium_(Gomel)"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 8
+	},
+	{
+		"team": {
+			"api_football_id": 391,
+			"name": "FC Isloch Minsk R.",
+			"code": null,
+			"country": "Belarus",
+			"founded": 2007
+		},
+		"venue": {
+			"api_football_id": 1759,
+			"name": "Stadyen Haradski",
+			"address": "ul. Masherova 6a",
+			"city": "Molodechno",
+			"capacity": 4312,
+			"surface": "grass",
+			"lat": 54.222442,
+			"lng": 28.490456,
+			"x": 392.7,
+			"y": 295.3,
+			"url": "https://en.wikipedia.org/wiki/Haradski_Stadium"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 392,
+			"name": "Shakhter Soligorsk",
+			"code": "SOL",
+			"country": "Belarus",
+			"founded": 1963
+		},
+		"venue": {
+			"api_football_id": 167,
+			"name": "Stadyen Budaŭnik (Stroitel')",
+			"address": "ul. Leninskogo Komsomola 51",
+			"city": "Soligorsk",
+			"capacity": 4200,
+			"surface": "grass",
+			"lat": 52.798333,
+			"lng": 27.538333,
+			"x": 322.3,
+			"y": 473.1,
+			"url": "https://en.wikipedia.org/wiki/Stroitel_Stadium_(Soligorsk)"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 394,
+			"name": "Dinamo Minsk",
+			"code": "MIN",
+			"country": "Belarus",
+			"founded": 1927
+		},
+		"venue": {
+			"api_football_id": 2606,
+			"name": "Stadyen Dynama",
+			"address": "ul. Kirova 8/2",
+			"city": "Minsk",
+			"capacity": 41024,
+			"surface": "grass",
+			"lat": 53.895186,
+			"lng": 27.560056,
+			"x": 323.9,
+			"y": 336.2,
+			"url": "https://en.wikipedia.org/wiki/Dinamo_Stadium_(Minsk)"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 750,
+			"name": "Naftan",
+			"code": "NAF",
+			"country": "Belarus",
+			"founded": 1963
+		},
+		"venue": {
+			"api_football_id": 2202,
+			"name": "Stadyen Atlant",
+			"address": "ul. Molodezhnaja 49a",
+			"city": "Novopolotsk",
+			"capacity": 4522,
+			"surface": "grass",
+			"lat": 55.537222,
+			"lng": 28.648333,
+			"x": 404.4,
+			"y": 131.2,
+			"url": "https://en.wikipedia.org/wiki/Atlant_Stadium"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 12
+	},
+	{
+		"team": {
+			"api_football_id": 751,
+			"name": "Slavia Mozyr",
+			"code": "SLA",
+			"country": "Belarus",
+			"founded": 1987
+		},
+		"venue": {
+			"api_football_id": 168,
+			"name": "Stadyen Junatsva",
+			"address": "ul. Yanki Kupaly 26a",
+			"city": "Mozyr",
+			"capacity": 5371,
+			"surface": "grass",
+			"lat": 52.038889,
+			"lng": 29.277083,
+			"x": 450.9,
+			"y": 567.9,
+			"url": "https://en.wikipedia.org/wiki/Yunost_Stadium_(Mazyr)"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 2433,
+			"name": "FC Energetik-Bgu Minsk",
+			"code": "ZVE",
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 172,
+			"name": "Stadyen RTsOP-BGU",
+			"address": "ul. Semashko 13",
+			"city": "Minsk",
+			"capacity": 1500,
+			"surface": "artificial turf",
+			"lat": 53.85962,
+			"lng": 27.501742,
+			"x": 319.6,
+			"y": 340.6,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 3384,
+			"name": "Belshina",
+			"code": "BEL",
+			"country": "Belarus",
+			"founded": 1977
+		},
+		"venue": {
+			"api_football_id": 8650,
+			"name": "Stadyen Spartak",
+			"address": "ul. Oktyabr&apos;skaya 119",
+			"city": "Bobruisk",
+			"capacity": 3661,
+			"surface": "grass",
+			"lat": 53.140278,
+			"lng": 29.217222,
+			"x": 446.5,
+			"y": 430.4,
+			"url": "https://en.wikipedia.org/wiki/Spartak_Stadium_(Bobruisk)"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 3393,
+			"name": "Smorgon",
+			"code": "SMO",
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 2210,
+			"name": "Stadyen Junatstva",
+			"address": null,
+			"city": "Smorgon",
+			"capacity": 3500,
+			"surface": "grass",
+			"lat": 54.478969,
+			"lng": 26.404436,
+			"x": 238.5,
+			"y": 263.3,
+			"url": "https://en.wikipedia.org/wiki/Yunost_Stadium_(Smorgon)"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 382,
+			"name": "FC Vitebsk",
+			"code": null,
+			"country": "Belarus",
+			"founded": 1960
+		},
+		"venue": {
+			"api_football_id": 164,
+			"name": "Stadyen Central'ny Vitsyebski",
+			"address": "prospekt Ljudnikova 12",
+			"city": "Vitebsk",
+			"capacity": 8144,
+			"surface": "grass",
+			"lat": 55.198333,
+			"lng": 30.229167,
+			"x": 521.3,
+			"y": 173.5,
+			"url": "https://en.wikipedia.org/wiki/Vitebsky_Central_Sport_Complex"
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 384,
+			"name": "FC Dnepr Mogilev",
+			"code": "DNE",
+			"country": "Belarus",
+			"founded": 1960
+		},
+		"venue": {
+			"api_football_id": 2595,
+			"name": "Stadyen Spartak",
+			"address": "ul. Mironova",
+			"city": "Mogilev",
+			"capacity": 7350,
+			"surface": "grass",
+			"lat": 53.905278,
+			"lng": 30.340556,
+			"x": 529.5,
+			"y": 334.9,
+			"url": "https://en.wikipedia.org/wiki/Spartak_Stadium_(Mogilev)"
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 3383,
+			"name": "Baranovichi",
+			"code": "BAR",
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 2203,
+			"name": "Stadyen Lyakamatyu",
+			"address": "ul. Lenina 22",
+			"city": "Baranovichi",
+			"capacity": 4000,
+			"surface": "grass",
+			"lat": 53.131003,
+			"lng": 26.032036,
+			"x": 211,
+			"y": 431.6,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 3387,
+			"name": "Lida",
+			"code": "LID",
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 2206,
+			"name": "Stadyen Start",
+			"address": null,
+			"city": "Lida",
+			"capacity": 3000,
+			"surface": "artificial turf",
+			"lat": 54.175837,
+			"lng": 45.192175,
+			"x": 1627.6,
+			"y": 301.1,
+			"url": "https://en.wikipedia.org/wiki/Start_Stadium_(Saransk)"
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 3388,
+			"name": "Lokomotiv Gomel",
+			"code": null,
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 2207,
+			"name": "Stadyen DYuSSh-8",
+			"address": "ul. Soscshskaya 1a",
+			"city": "Gomel",
+			"capacity": 2200,
+			"surface": "artificial turf",
+			"lat": 52.43389036185221,
+			"lng": 31.018461730439647,
+			"x": 579.6,
+			"y": 518.6,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 3390,
+			"name": "Orsha",
+			"code": null,
+			"country": "Belarus",
+			"founded": 1956
+		},
+		"venue": {
+			"api_football_id": 2208,
+			"name": "Stadyen Haradski",
+			"address": "ul. Lenina 39",
+			"city": "Orsha",
+			"capacity": 2600,
+			"surface": "grass",
+			"lat": 54.222442,
+			"lng": 28.490456,
+			"x": 392.7,
+			"y": 295.3,
+			"url": "https://en.wikipedia.org/wiki/Haradski_Stadium"
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 3392,
+			"name": "Slonim",
+			"code": "FCS",
+			"country": "Belarus",
+			"founded": 2013
+		},
+		"venue": {
+			"api_football_id": 2209,
+			"name": "Stadyen Yunatstva",
+			"address": "vul. Puškina",
+			"city": "Slonim",
+			"capacity": 2220,
+			"surface": "grass",
+			"lat": 53.0975,
+			"lng": 25.306944,
+			"x": 157.3,
+			"y": 435.7,
+			"url": "https://en.wikipedia.org/wiki/Yunost_Stadium_(Slonim)"
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 3395,
+			"name": "Volna",
+			"code": "VOL",
+			"country": "Belarus",
+			"founded": 1989
+		},
+		"venue": {
+			"api_football_id": 2211,
+			"name": "Stadyen Valna",
+			"address": "Irkutsko-Pinskoy Divizii 46",
+			"city": "Pinsk",
+			"capacity": 3136,
+			"surface": "artificial turf",
+			"lat": 52.114764,
+			"lng": 26.095807,
+			"x": 215.7,
+			"y": 558.4,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 4273,
+			"name": "Osipovichy",
+			"code": null,
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 3268,
+			"name": "Stadyen Junatstva",
+			"address": "pr. 60 let Oktyabrya, 6",
+			"city": "Osipovichy",
+			"capacity": 2200,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": -1713.8,
+			"y": 7062.9,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 7798,
+			"name": "Molodechno-DYuSSh 4",
+			"code": "MOL",
+			"country": "Belarus",
+			"founded": 1989
+		},
+		"venue": {
+			"api_football_id": 1759,
+			"name": "Stadyen Haradski",
+			"address": "ul. Masherova 6a",
+			"city": "Molodechno",
+			"capacity": 4312,
+			"surface": "grass",
+			"lat": 54.222442,
+			"lng": 28.490456,
+			"x": 392.7,
+			"y": 295.3,
+			"url": "https://en.wikipedia.org/wiki/Haradski_Stadium"
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 7802,
+			"name": "Bumprom",
+			"code": null,
+			"country": "Belarus",
+			"founded": 2016
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": -1713.8,
+			"y": 7062.9,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 7808,
+			"name": "MKK-Dnepr",
+			"code": null,
+			"country": "Belarus",
+			"founded": 1983
+		},
+		"venue": {
+			"api_football_id": 5648,
+			"name": "Stadyen DYuSSh-1",
+			"address": "ul. Lenina",
+			"city": "Rohachev",
+			"capacity": 7000,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": -1713.8,
+			"y": 7062.9,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 28
+	},
+	{
+		"team": {
+			"api_football_id": 9419,
+			"name": "Arsenal",
+			"code": null,
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 11595,
+			"name": "Stadyen Haradski",
+			"address": "ul. Naberezhnaya 22a",
+			"city": "Dzerzhinsk",
+			"capacity": 1100,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": -1713.8,
+			"y": 7062.9,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 29
+	},
+	{
+		"team": {
+			"api_football_id": 13149,
+			"name": "Ostrovets FC",
+			"code": null,
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 8300,
+			"name": "Stadyen ASK",
+			"address": null,
+			"city": "Astravets",
+			"capacity": 3000,
+			"surface": "artificial turf",
+			"lat": 0,
+			"lng": 0,
+			"x": -1713.8,
+			"y": 7062.9,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 13151,
+			"name": "Shakhtyor Petrikov",
+			"code": null,
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 8301,
+			"name": "Stadyen FOK Prypiać",
+			"address": null,
+			"city": "Petryków",
+			"capacity": 1500,
+			"surface": "artificial turf",
+			"lat": 0,
+			"lng": 0,
+			"x": -1713.8,
+			"y": 7062.9,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 31
+	},
+	{
+		"team": {
+			"api_football_id": 16656,
+			"name": "Niva",
+			"code": null,
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": -1713.8,
+			"y": 7062.9,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 32
+	},
+	{
+		"team": {
+			"api_football_id": 18861,
+			"name": "Zhodino Yuzhnoe",
+			"code": null,
+			"country": "Belarus",
+			"founded": 2011
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": -1713.8,
+			"y": 7062.9,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "1. Division",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 33
+	}
+]

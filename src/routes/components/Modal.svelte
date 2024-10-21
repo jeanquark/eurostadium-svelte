@@ -41,54 +41,52 @@
         <!-- svelte-ignore a11y-autofocus -->
 
         {#if (stadiums[0] && stadiums[0]['images'])}
-        <div class="text-center">
-            showModal: {showModal}<br />
-            country.slug: {country?.slug}<br />
-            <!-- stadiums.length: {stadiums.length}<br /> -->
-            <!-- stadiums[0][images][0][name]: {stadiums[0]['images'][0]['name']}<br /> -->
+            <div class="text-center">
+                showModal: {showModal}<br />
+                country.slug: {country?.slug}<br />
+                <!-- stadiums.length: {stadiums.length}<br /> -->
+                <!-- stadiums[0][images][0][name]: {stadiums[0]['images'][0]['name']}<br /> -->
 
-            <div style="width: 100%; height: 300px; border: 1px solid red; text-align: center;">
-                <Carousel items={stadiums[0]['images']} let:item bind:current bind:show>
-                    <div class="item" style="text-align: center; border: 1px dashed orange; background-image: url({base}/images/stadiums/{country.slug}/{item.name}); background-repeat: no-repeat; background-position: center;">
-                        {item.name}
-                    </div>
-                </Carousel>
-            </div>
-            {#each stadiums[0]['images'] as _, i}
-                <span
-                role="button"
-                    tabindex="0"
-                    on:keydown={() => {}}
-                    class="carousel-navigation-item"
-                    on:click={() => (current = i)}
-                    >
-                    <svg viewBox="0 0 512 512" width="12" version="1.1" id="ring">
-                        <ellipse
-                        style="fill:#325bad;"
-                        id="outerRing"
-                        cx="256"
-                        cy="256"
-                        rx="256"
-                        ry="256"
-                        />
-                        <ellipse
-                        style="fill:#fff;"
-                        class={current == i && 'active-item'}
-                        id="innerRing"
-                        cx="256"
-                        cy="256"
-                        rx="202"
-                        ry="202"
-                        />
-                    </svg>
-                </span>
-                {/each}
-                
-                <button class="" style="margin: 0 auto;" on:click={() => dialog.close()}
-                    >close modal</button
-                    >
+                <div style="width: 100%; height: 300px; border: 1px solid red; text-align: center;">
+                    <Carousel items={stadiums[0]['images']} let:item bind:current bind:show>
+                        <div class="item" style="text-align: center; border: 1px dashed orange; background-image: url({base}/images/stadiums/{country.slug}/{item.name}); background-repeat: no-repeat; background-position: center;">
+                            {item.name}
+                        </div>
+                    </Carousel>
                 </div>
-                {/if}
+                {#each stadiums[0]['images'] as _, i}
+                    <span
+                    role="button"
+                        tabindex="0"
+                        on:keydown={() => {}}
+                        class="carousel-navigation-item"
+                        on:click={() => (current = i)}
+                        >
+                        <svg viewBox="0 0 512 512" width="12" version="1.1" id="ring">
+                            <ellipse
+                            style="fill:#325bad;"
+                            id="outerRing"
+                            cx="256"
+                            cy="256"
+                            rx="256"
+                            ry="256"
+                            />
+                            <ellipse
+                            style="fill:#fff;"
+                            class={current == i && 'active-item'}
+                            id="innerRing"
+                            cx="256"
+                            cy="256"
+                            rx="202"
+                            ry="202"
+                            />
+                        </svg>
+                    </span>
+                {/each}
+                    
+                <button class="" style="margin: 0 auto;" on:click={() => dialog.close()}>close modal</button>
+            </div>
+        {/if}
     </div>
 </dialog>
 

@@ -656,8 +656,8 @@
         <br /><br />
         <button on:click={() => (showModal = true)}>Show modal</button>
         <Modal bind:showModal bind:stadiums bind:country>
-            <h2 slot="header">modal</h2>
-            This is the modal content<br />
+            <!-- <h2 slot="header">modal</h2> -->
+            <!-- This is the modal content<br /> -->
             <div class="row align-center">
                 <div class="col-12 text-center relative">
                     <h2>

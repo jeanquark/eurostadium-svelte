@@ -1,0 +1,3004 @@
+[
+	{
+		"team": {
+			"api_football_id": 211,
+			"name": "Benfica",
+			"code": "BEN",
+			"country": "Portugal",
+			"founded": 1904
+		},
+		"venue": {
+			"api_football_id": 1265,
+			"name": "Estádio do Sport Lisboa e Benfica (da Luz)",
+			"address": "Rua José Maria Nicolau",
+			"city": "Lisboa",
+			"capacity": 65647,
+			"surface": "grass",
+			"lat": 38.7527,
+			"lng": -9.1847,
+			"x": 243.2,
+			"y": 113.5,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_da_Luz"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1265_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1265_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1265_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1265_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1265_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1265_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 1
+	},
+	{
+		"team": {
+			"api_football_id": 212,
+			"name": "FC Porto",
+			"code": "POR",
+			"country": "Portugal",
+			"founded": 1893
+		},
+		"venue": {
+			"api_football_id": 1286,
+			"name": "Estádio Do Dragão",
+			"address": "Via Futebol Clube do Porto",
+			"city": "Porto",
+			"capacity": 50399,
+			"surface": "grass",
+			"lat": 41.1618,
+			"lng": -8.5839,
+			"x": 248.5,
+			"y": 33.2,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Drag%C3%A3o"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1286_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1286_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1286_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1286_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1286_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1286_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 2
+	},
+	{
+		"team": {
+			"api_football_id": 215,
+			"name": "Moreirense",
+			"code": "MOR",
+			"country": "Portugal",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 1280,
+			"name": "Parque Desportivo Comendador Joaquim de Almeida Freitas",
+			"address": "Avenida Comendador Joaquim de Almeida Freitas",
+			"city": "Moreira de Cónegos",
+			"capacity": 13000,
+			"surface": "grass",
+			"lat": 41.378056,
+			"lng": -8.354722,
+			"x": 250.5,
+			"y": 26,
+			"url": "https://en.wikipedia.org/wiki/Parque_de_Jogos_Comendador_Joaquim_de_Almeida_Freitas"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1280_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1280_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1280_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1280_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1280_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1280_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 3
+	},
+	{
+		"team": {
+			"api_football_id": 216,
+			"name": "Portimonense",
+			"code": "POR",
+			"country": "Portugal",
+			"founded": 1914
+		},
+		"venue": {
+			"api_football_id": 1285,
+			"name": "Estádio Municipal de Portimão",
+			"address": "Avenida Zeca Afonso Portimão",
+			"city": "Portimão",
+			"capacity": 9544,
+			"surface": "grass",
+			"lat": 37.135833,
+			"lng": -8.539722,
+			"x": 248.9,
+			"y": 167.5,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_de_Portim%C3%A3o"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1285_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1285_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1285_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1285_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1285_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1285_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 4
+	},
+	{
+		"team": {
+			"api_football_id": 217,
+			"name": "SC Braga",
+			"code": "BRA",
+			"country": "Portugal",
+			"founded": 1921
+		},
+		"venue": {
+			"api_football_id": 1291,
+			"name": "Estádio Municipal de Braga",
+			"address": "Avenida do Estádio",
+			"city": "Braga",
+			"capacity": 30286,
+			"surface": "grass",
+			"lat": 41.5625,
+			"lng": -8.43,
+			"x": 249.9,
+			"y": 19.8,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_de_Braga"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1291_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1291_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1291_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1291_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1291_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1291_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 5
+	},
+	{
+		"team": {
+			"api_football_id": 222,
+			"name": "Boavista",
+			"code": null,
+			"country": "Portugal",
+			"founded": 1903
+		},
+		"venue": {
+			"api_football_id": 1267,
+			"name": "Estádio do Bessa Século XXI",
+			"address": "Rua O Primeiro de Janeiro, Boavista",
+			"city": "Porto",
+			"capacity": 28263,
+			"surface": "grass",
+			"lat": 41.162222,
+			"lng": -8.642778,
+			"x": 248,
+			"y": 33.2,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Bessa"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1267_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1267_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1267_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1267_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1267_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1267_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 6
+	},
+	{
+		"team": {
+			"api_football_id": 223,
+			"name": "Chaves",
+			"code": "CHA",
+			"country": "Portugal",
+			"founded": 1949
+		},
+		"venue": {
+			"api_football_id": 1273,
+			"name": "Estádio Municipal Eng. Manuel Branco Teixeira",
+			"address": "Avenida do Estádio Municipal",
+			"city": "Chaves",
+			"capacity": 12000,
+			"surface": "grass",
+			"lat": 41.7506,
+			"lng": -7.46499,
+			"x": 258.4,
+			"y": 13.5,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_Eng._Manuel_Branco_Teixeira"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1273_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1273_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1273_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1273_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1273_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1273_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 7
+	},
+	{
+		"team": {
+			"api_football_id": 224,
+			"name": "Guimaraes",
+			"code": "GUI",
+			"country": "Portugal",
+			"founded": 1922
+		},
+		"venue": {
+			"api_football_id": 1295,
+			"name": "Estádio Dom Afonso Henriques",
+			"address": "Rua de São Gonçalo 505",
+			"city": "Guimarães",
+			"capacity": 30165,
+			"surface": "grass",
+			"lat": 41.445833,
+			"lng": -8.301111,
+			"x": 251,
+			"y": 23.7,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_D._Afonso_Henriques"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1295_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1295_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1295_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1295_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1295_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1295_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 8
+	},
+	{
+		"team": {
+			"api_football_id": 226,
+			"name": "Rio Ave",
+			"code": "RIO",
+			"country": "Portugal",
+			"founded": 1939
+		},
+		"venue": {
+			"api_football_id": 1288,
+			"name": "Estádio do Rio Ave Futebol Clube",
+			"address": "Rua Dona Maria Pães Ribeiro",
+			"city": "Vila do Conde",
+			"capacity": 12815,
+			"surface": "grass",
+			"lat": 41.362778,
+			"lng": -8.740278,
+			"x": 247.1,
+			"y": 26.5,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_dos_Arcos"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1288_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1288_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1288_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1288_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1288_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1288_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 228,
+			"name": "Sporting CP",
+			"code": "SPO",
+			"country": "Portugal",
+			"founded": 1906
+		},
+		"venue": {
+			"api_football_id": 1293,
+			"name": "Estádio José Alvalade",
+			"address": "Rua Professor Fernando da Fonseca",
+			"city": "Lisboa",
+			"capacity": 50466,
+			"surface": "grass",
+			"lat": 38.761111,
+			"lng": -9.160833,
+			"x": 243.4,
+			"y": 113.3,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Jos%C3%A9_Alvalade"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1293_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1293_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1293_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1293_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1293_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1293_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 230,
+			"name": "Estoril",
+			"code": "EST",
+			"country": "Portugal",
+			"founded": 1939
+		},
+		"venue": {
+			"api_football_id": 1274,
+			"name": "Estádio António Coimbra da Mota",
+			"address": "Rua Dom Bosco",
+			"city": "Estoril",
+			"capacity": 8015,
+			"surface": "grass",
+			"lat": 38.715833,
+			"lng": -9.406389,
+			"x": 241.2,
+			"y": 114.8,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Ant%C3%B3nio_Coimbra_da_Mota"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1274_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1274_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1274_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1274_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1274_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1274_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 231,
+			"name": "Farense",
+			"code": "FAR",
+			"country": "Portugal",
+			"founded": 1910
+		},
+		"venue": {
+			"api_football_id": 1290,
+			"name": "Estádio de São Lúis",
+			"address": "Rua do Sporting Club Farense",
+			"city": "Faro",
+			"capacity": 12000,
+			"surface": "grass",
+			"lat": 37.022778,
+			"lng": -7.928611,
+			"x": 254.3,
+			"y": 171.3,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_de_S%C3%A3o_Lu%C3%ADs"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1290.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1290_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1290_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1290_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1290_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1290_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 12
+	},
+	{
+		"team": {
+			"api_football_id": 240,
+			"name": "Arouca",
+			"code": "ARO",
+			"country": "Portugal",
+			"founded": 1951
+		},
+		"venue": {
+			"api_football_id": 1275,
+			"name": "Estádio Municipal de Arouca",
+			"address": "Afonso Pinto Magalhães Valdasna",
+			"city": "Arouca",
+			"capacity": 7000,
+			"surface": "grass",
+			"lat": 40.933,
+			"lng": -8.2503,
+			"x": 251.5,
+			"y": 40.8,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_de_Arouca"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1275_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1275_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1275_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1275_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1275_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1275_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 242,
+			"name": "Famalicao",
+			"code": "FAM",
+			"country": "Portugal",
+			"founded": 1931
+		},
+		"venue": {
+			"api_football_id": 1276,
+			"name": "Estádio Municipal 22 de Junho",
+			"address": "Alameda dos Bargos",
+			"city": "Vila Nova de Famalicão",
+			"capacity": 8000,
+			"surface": "grass",
+			"lat": 41.401389,
+			"lng": -8.5225,
+			"x": 249.1,
+			"y": 25.2,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_22_de_Junho"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1276_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1276_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1276_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1276_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1276_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1276_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 762,
+			"name": "GIL Vicente",
+			"code": "VIC",
+			"country": "Portugal",
+			"founded": 1924
+		},
+		"venue": {
+			"api_football_id": 2811,
+			"name": "Estádio Cidade de Barcelos",
+			"address": "strada Nacional 103, Vila Boa",
+			"city": "Barcelos",
+			"capacity": 12046,
+			"surface": "grass",
+			"lat": 41.551,
+			"lng": -8.623,
+			"x": 248.2,
+			"y": 20.2,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Cidade_de_Barcelos"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2811_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2811_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2811_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2811_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2811_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2811_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 810,
+			"name": "Vizela",
+			"code": "VIZ",
+			"country": "Portugal",
+			"founded": 1939
+		},
+		"venue": {
+			"api_football_id": 2817,
+			"name": "Estádio Do Vizela",
+			"address": null,
+			"city": "Caldas de Vizela",
+			"capacity": 6565,
+			"surface": "grass",
+			"lat": 41.388796,
+			"lng": -8.307328,
+			"x": 251,
+			"y": 25.6,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2817_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2817_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2817_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2817_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2817_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2817_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 4716,
+			"name": "Casa Pia",
+			"code": "CAS",
+			"country": "Portugal",
+			"founded": 1920
+		},
+		"venue": {
+			"api_football_id": 1262,
+			"name": "Estádio Nacional",
+			"address": "Rua Monsanto",
+			"city": "Jamor, Oeiras",
+			"capacity": 38000,
+			"surface": "grass",
+			"lat": 38.7089,
+			"lng": -9.2628,
+			"x": 242.5,
+			"y": 115,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Nacional"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1262_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1262_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1262_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1262_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1262_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1262_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 15130,
+			"name": "Estrela",
+			"code": null,
+			"country": "Portugal",
+			"founded": 2018
+		},
+		"venue": {
+			"api_football_id": 19187,
+			"name": "Estádio José Gomes",
+			"address": "Alameda Bonifácio Lázaro Lozano",
+			"city": "Amadora",
+			"capacity": 9288,
+			"surface": "grass",
+			"lat": 38.751944,
+			"lng": -9.228056,
+			"x": 242.8,
+			"y": 113.6,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Jos%C3%A9_Gomes"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19187_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19187_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19187_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19187_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19187_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19187_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 21595,
+			"name": "AVS",
+			"code": null,
+			"country": "Portugal",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 1272,
+			"name": "Estádio Clube Desportivo das Aves",
+			"address": "Rua Luís Gonzaga Mendes de Carvalho 265",
+			"city": "Vila das Aves",
+			"capacity": 8560,
+			"surface": "grass",
+			"lat": 41.366932,
+			"lng": -8.411789,
+			"x": 250,
+			"y": 26.3,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_CD_Aves"
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1272_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1272_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1272_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1272_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1272_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1272_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 213,
+			"name": "Feirense",
+			"code": "FEI",
+			"country": "Portugal",
+			"founded": 1918
+		},
+		"venue": {
+			"api_football_id": 1277,
+			"name": "Estádio Marcolino de Castro",
+			"address": "Avenida 25 de Abril 14",
+			"city": "Santa Maria da Feira",
+			"capacity": 5449,
+			"surface": "grass",
+			"lat": 40.926689,
+			"lng": -8.545814,
+			"x": 248.8,
+			"y": 41,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Marcolino_de_Castro"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1277_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1277_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1277_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1277_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1277_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1277_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 214,
+			"name": "Maritimo",
+			"code": "MAR",
+			"country": "Portugal",
+			"founded": 1910
+		},
+		"venue": {
+			"api_football_id": 1279,
+			"name": "Estádio dos Barreiros",
+			"address": "Rua do Dr. Pita",
+			"city": "Ilha da Madeira",
+			"capacity": 10932,
+			"surface": "grass",
+			"lat": 32.645561,
+			"lng": -16.928331,
+			"x": 174.8,
+			"y": 317.3,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Mar%C3%ADtimo"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1279_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1279_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1279_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1279_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1279_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1279_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 218,
+			"name": "Tondela",
+			"code": "TON",
+			"country": "Portugal",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 1271,
+			"name": "Estádio João Cardoso",
+			"address": "Rua Doutor Eurico José Gouveia",
+			"city": "Tondela",
+			"capacity": 7500,
+			"surface": "grass",
+			"lat": 40.512041,
+			"lng": -8.082825,
+			"x": 252.9,
+			"y": 54.8,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Jo%C3%A3o_Cardoso"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1271_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1271_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1271_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1271_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1271_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1271_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 225,
+			"name": "Nacional",
+			"code": "NAC",
+			"country": "Portugal",
+			"founded": 1910
+		},
+		"venue": {
+			"api_football_id": 1281,
+			"name": "Estádio da Madeira",
+			"address": "Rua do Esmeraldo, nº 46",
+			"city": "Ilha da Madeira",
+			"capacity": 5200,
+			"surface": "grass",
+			"lat": 32.670625,
+			"lng": -16.883525,
+			"x": 175.2,
+			"y": 316.5,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_da_Madeira"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1281_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1281_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1281_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1281_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1281_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1281_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 227,
+			"name": "Santa Clara",
+			"code": "SAN",
+			"country": "Portugal",
+			"founded": 1921
+		},
+		"venue": {
+			"api_football_id": 1289,
+			"name": "Estádio de São Miguel",
+			"address": "Rua Comandante Jaime de Sousa 21",
+			"city": "Ponta Delgada, Ilha de São Miguel, Açores",
+			"capacity": 13277,
+			"surface": "grass",
+			"lat": 37.763708,
+			"lng": -25.622589,
+			"x": 97.9,
+			"y": 146.5,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_de_S%C3%A3o_Miguel_(Ponta_Delgada)"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1289_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1289_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1289_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1289_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1289_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1289_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 229,
+			"name": "Benfica B",
+			"code": "BEN",
+			"country": "Portugal",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 1266,
+			"name": "Caixa Futebol Campus",
+			"address": "Benfica Campus",
+			"city": "Seixal",
+			"capacity": 2720,
+			"surface": "grass",
+			"lat": 38.640556,
+			"lng": -9.091944,
+			"x": 244,
+			"y": 117.3,
+			"url": "https://en.wikipedia.org/wiki/Benfica_Campus"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1266_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1266_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1266_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1266_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1266_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1266_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 233,
+			"name": "Oliveirense",
+			"code": "OLI",
+			"country": "Portugal",
+			"founded": 1922
+		},
+		"venue": {
+			"api_football_id": 10959,
+			"name": "Estádio Carlos Osório",
+			"address": "Rua Doutor Ilidio de Freitas",
+			"city": "Oliveira de Azeméis",
+			"capacity": 2670,
+			"surface": "grass",
+			"lat": 40.8419,
+			"lng": -8.4703,
+			"x": 249.5,
+			"y": 43.8,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Carlos_Os%C3%B3rio"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "10959_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10959_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10959_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10959_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10959_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10959_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 234,
+			"name": "Pacos Ferreira",
+			"code": "FER",
+			"country": "Portugal",
+			"founded": 1950
+		},
+		"venue": {
+			"api_football_id": 1283,
+			"name": "Estádio da Capital do Móvel",
+			"address": "Rua do Estádio, Apartado 26",
+			"city": "Paços de Ferreira",
+			"capacity": 9146,
+			"surface": "grass",
+			"lat": 41.271353,
+			"lng": -8.385581,
+			"x": 250.3,
+			"y": 29.5,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_da_Mata_Real"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1283_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1283_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1283_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1283_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1283_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1283_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 235,
+			"name": "Penafiel",
+			"code": "PEN",
+			"country": "Portugal",
+			"founded": 1951
+		},
+		"venue": {
+			"api_football_id": 1284,
+			"name": "Estádio Municipal 25 de Abril",
+			"address": "Rua Futebol Clube de Penafiel",
+			"city": "Penafiel",
+			"capacity": 6500,
+			"surface": "grass",
+			"lat": 41.2117,
+			"lng": -8.277919,
+			"x": 251.2,
+			"y": 31.5,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_25_de_Abril"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1284_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1284_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1284_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1284_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1284_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1284_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 28
+	},
+	{
+		"team": {
+			"api_football_id": 238,
+			"name": "Academico Viseu",
+			"code": "ACA",
+			"country": "Portugal",
+			"founded": 1914
+		},
+		"venue": {
+			"api_football_id": 1264,
+			"name": "Estádio Municipal do Fontelo",
+			"address": "Avenida José Relvas",
+			"city": "Viseu",
+			"capacity": 14368,
+			"surface": "grass",
+			"lat": 40.659444,
+			"lng": -7.900833,
+			"x": 254.5,
+			"y": 49.9,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Fontelo"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1264_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1264_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1264_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1264_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1264_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1264_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 29
+	},
+	{
+		"team": {
+			"api_football_id": 243,
+			"name": "FC Porto B",
+			"code": "POR",
+			"country": "Portugal",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 1287,
+			"name": "Estádio Dr. Jorge Sampaio",
+			"address": "Rua da Paradela",
+			"city": "Pedroso, Vila Nova de Gaia",
+			"capacity": 8500,
+			"surface": "grass",
+			"lat": 41.067158,
+			"lng": -8.544812,
+			"x": 248.9,
+			"y": 36.3,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_Jorge_Sampaio"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1287_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1287_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1287_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1287_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1287_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1287_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 244,
+			"name": "Leixoes",
+			"code": "LEI",
+			"country": "Portugal",
+			"founded": 1907
+		},
+		"venue": {
+			"api_football_id": 1278,
+			"name": "Estádio do Mar",
+			"address": "Lugar da Cruz de Pau",
+			"city": "Matosinhos",
+			"capacity": 9730,
+			"surface": "grass",
+			"lat": 41.183969,
+			"lng": -8.666919,
+			"x": 247.8,
+			"y": 32.4,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Mar"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1278_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1278_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1278_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1278_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1278_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1278_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 31
+	},
+	{
+		"team": {
+			"api_football_id": 245,
+			"name": "Mafra",
+			"code": "MAF",
+			"country": "Portugal",
+			"founded": 1965
+		},
+		"venue": {
+			"api_football_id": 1270,
+			"name": "Estádio Municipal de Mafra",
+			"address": "Av. Dr. Francisco Sá Carneiro",
+			"city": "Mafra",
+			"capacity": 2900,
+			"surface": "grass",
+			"lat": 38.940802,
+			"lng": -9.341495,
+			"x": 241.8,
+			"y": 107.3,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1270_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1270_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1270_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1270_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1270_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1270_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 32
+	},
+	{
+		"team": {
+			"api_football_id": 4662,
+			"name": "União de Leiria",
+			"code": "LEI",
+			"country": "Portugal",
+			"founded": 1966
+		},
+		"venue": {
+			"api_football_id": 3514,
+			"name": "Estádio Dr. Magalhães Pessoa",
+			"address": "Avenida Bernardo Pimenta",
+			"city": "Leiria",
+			"capacity": 23888,
+			"surface": "grass",
+			"lat": 39.748611,
+			"lng": -8.813056,
+			"x": 246.5,
+			"y": 80.3,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Dr._Magalh%C3%A3es_Pessoa"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3514_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3514_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3514_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3514_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3514_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3514_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 33
+	},
+	{
+		"team": {
+			"api_football_id": 4799,
+			"name": "Torreense",
+			"code": "TOR",
+			"country": "Portugal",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 3638,
+			"name": "Campo Manuel Marques",
+			"address": "Rua Cândido dos Reis",
+			"city": "Torres Vedras",
+			"capacity": 12000,
+			"surface": "grass",
+			"lat": 39.094878,
+			"lng": -9.256594,
+			"x": 242.6,
+			"y": 102.1,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Manuel_Marques"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3638_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3638_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3638_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3638_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3638_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3638_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 34
+	},
+	{
+		"team": {
+			"api_football_id": 4814,
+			"name": "Vilaverdense",
+			"code": "VIL",
+			"country": "Portugal",
+			"founded": 1953
+		},
+		"venue": {
+			"api_football_id": 3646,
+			"name": "Campo Cruz Do Reguengo",
+			"address": "Rua Luís António Oliveira Ramos",
+			"city": "Vila Verde",
+			"capacity": 5000,
+			"surface": "grass",
+			"lat": 41.649413,
+			"lng": -8.423059,
+			"x": 249.9,
+			"y": 16.9,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3646_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3646_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3646_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3646_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3646_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3646_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 35
+	},
+	{
+		"team": {
+			"api_football_id": 6358,
+			"name": "Lusitânia Lourosa",
+			"code": null,
+			"country": "Portugal",
+			"founded": 1924
+		},
+		"venue": {
+			"api_football_id": 4700,
+			"name": "Estádio do Lusitânia FC",
+			"address": "R. do Lusitânia 318",
+			"city": "Lourosa",
+			"capacity": 11000,
+			"surface": "grass",
+			"lat": 40.987881,
+			"lng": -8.543601,
+			"x": 248.9,
+			"y": 39,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "4700_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4700_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4700_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4700_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4700_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4700_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 36
+	},
+	{
+		"team": {
+			"api_football_id": 17692,
+			"name": "CF Os Belenenses",
+			"code": null,
+			"country": "Portugal",
+			"founded": 2018
+		},
+		"venue": {
+			"api_football_id": 12376,
+			"name": "Estádio do Restelo",
+			"address": "Avenida da Ilha da Madeira, Santa Maria de Belém",
+			"city": "Lisboa",
+			"capacity": 19856,
+			"surface": "grass",
+			"lat": 38.702778,
+			"lng": -9.207778,
+			"x": 243,
+			"y": 115.2,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Restelo"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "12376_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12376_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12376_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12376_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12376_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12376_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 37
+	},
+	{
+		"team": {
+			"api_football_id": 21595,
+			"name": "AVS",
+			"code": null,
+			"country": "Portugal",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 1272,
+			"name": "Estádio Clube Desportivo das Aves",
+			"address": "Rua Luís Gonzaga Mendes de Carvalho 265",
+			"city": "Vila das Aves",
+			"capacity": 8560,
+			"surface": "grass",
+			"lat": 41.366932,
+			"lng": -8.411789,
+			"x": 250,
+			"y": 26.3,
+			"url": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_CD_Aves"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1272_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1272_02.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1272_03.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1272_04.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1272_05.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1272_06.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 38
+	}
+]

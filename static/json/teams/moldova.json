@@ -1,0 +1,495 @@
+[
+	{
+		"team": {
+			"api_football_id": 568,
+			"name": "Sheriff Tiraspol",
+			"code": "SHE",
+			"country": "Moldova",
+			"founded": 1997
+		},
+		"venue": {
+			"api_football_id": 1093,
+			"name": "Bolshaya Sportivnaya Arena",
+			"address": "ul. K. Libnekhta 1/2",
+			"city": "Tiraspol",
+			"capacity": 13460,
+			"surface": "grass",
+			"lat": 46.838333,
+			"lng": 29.5575,
+			"x": 579.3,
+			"y": 420,
+			"url": "https://en.wikipedia.org/wiki/Sheriff_Arena"
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 1
+	},
+	{
+		"team": {
+			"api_football_id": 691,
+			"name": "Milsami Orhei",
+			"code": "MIL",
+			"country": "Moldova",
+			"founded": 2005
+		},
+		"venue": {
+			"api_football_id": 1094,
+			"name": "Complexul Sportiv Raional",
+			"address": "Str. Tricolorului",
+			"city": "Orhei",
+			"capacity": 3160,
+			"surface": "grass",
+			"lat": 47.3744,
+			"lng": 28.8192,
+			"x": 451.3,
+			"y": 284.2,
+			"url": "https://en.wikipedia.org/wiki/CSR_Orhei"
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 2
+	},
+	{
+		"team": {
+			"api_football_id": 2271,
+			"name": "Petrocub",
+			"code": null,
+			"country": "Moldova",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 1092,
+			"name": "Stadionul Orăşenesc",
+			"address": "Str. Metropolit Varlaam",
+			"city": "Hînceşti",
+			"capacity": 2672,
+			"surface": "grass",
+			"lat": 46.825284,
+			"lng": 28.586687,
+			"x": 411,
+			"y": 423.3,
+			"url": "https://en.wikipedia.org/wiki/Stadionul_Municipal_(H%C3%AEnce%C8%99ti)"
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 3
+	},
+	{
+		"team": {
+			"api_football_id": 4633,
+			"name": "Zimbru",
+			"code": "ZIM",
+			"country": "Moldova",
+			"founded": 1947
+		},
+		"venue": {
+			"api_football_id": 2615,
+			"name": "Stadionul Zimbru",
+			"address": "Bulevardul Dacia, nr. 45",
+			"city": "Chişinău",
+			"capacity": 10500,
+			"surface": "grass",
+			"lat": 46.980278,
+			"lng": 28.866944,
+			"x": 459.6,
+			"y": 384,
+			"url": "https://en.wikipedia.org/wiki/Zimbru_Stadium"
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 4
+	},
+	{
+		"team": {
+			"api_football_id": 4637,
+			"name": "Saxan",
+			"code": "SAX",
+			"country": "Moldova",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 3494,
+			"name": "Stadionul Ceadîr Lunga",
+			"address": null,
+			"city": "Ceadîr Lunga",
+			"capacity": 4000,
+			"surface": "artificial turf",
+			"lat": 46.0569,
+			"lng": 28.8341,
+			"x": 453.9,
+			"y": 618.1,
+			"url": "https://en.wikipedia.org/wiki/Cead%C3%AEr-Lunga_Stadium"
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 5
+	},
+	{
+		"team": {
+			"api_football_id": 5372,
+			"name": "Iskra",
+			"code": null,
+			"country": "Moldova",
+			"founded": 2013
+		},
+		"venue": {
+			"api_football_id": 20040,
+			"name": "Stadionul Orăşenesc Rîbnița",
+			"address": "Str. Cernişevschi, nr. 15",
+			"city": "Rîbniţa",
+			"capacity": 4500,
+			"surface": "grass",
+			"lat": 47.774561,
+			"lng": 29.004309,
+			"x": 483.4,
+			"y": 182.7,
+			"url": "https://en.wikipedia.org/wiki/Stadionul_Or%C4%83%C8%99enesc_(R%C3%AEbni%C8%9Ba)"
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 6
+	},
+	{
+		"team": {
+			"api_football_id": 5375,
+			"name": "Dacia-Buiucani",
+			"code": null,
+			"country": "Moldova",
+			"founded": 1997
+		},
+		"venue": {
+			"api_football_id": 20757,
+			"name": "Baza Zimbru 2",
+			"address": "Str. Butucului, nr. 1",
+			"city": "Chişinău",
+			"capacity": 2850,
+			"surface": "grass",
+			"lat": 47.0476,
+			"lng": 28.7825,
+			"x": 445,
+			"y": 367,
+			"url": "https://en.wikipedia.org/wiki/Joma_Arena"
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 7
+	},
+	{
+		"team": {
+			"api_football_id": 5376,
+			"name": "Floreşti",
+			"code": null,
+			"country": "Moldova",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 4058,
+			"name": "Stadionul Izvoare",
+			"address": "ul. Kommunisticheskaya",
+			"city": "Izvoare",
+			"capacity": 1000,
+			"surface": "grass",
+			"lat": 47.975448,
+			"lng": 28.12508,
+			"x": 331,
+			"y": 131.8,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 8
+	},
+	{
+		"team": {
+			"api_football_id": 5380,
+			"name": "Spartanii Selemet",
+			"code": null,
+			"country": "Moldova",
+			"founded": 2011
+		},
+		"venue": {
+			"api_football_id": 4055,
+			"name": "Stadionul Selemet",
+			"address": null,
+			"city": "Selemet",
+			"capacity": 1000,
+			"surface": "grass",
+			"lat": 46.575965,
+			"lng": 28.923626,
+			"x": 469.4,
+			"y": 486.5,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 5381,
+			"name": "Speranța Drochia",
+			"code": null,
+			"country": "Moldova",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 12360,
+			"name": "Complexul Sportiv Drochia",
+			"address": null,
+			"city": "Drochia",
+			"capacity": 5000,
+			"surface": "grass",
+			"lat": 48.033599,
+			"lng": 27.8134,
+			"x": 276.9,
+			"y": 117.1,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 5384,
+			"name": "Victoria Bardar",
+			"code": "BAR",
+			"country": "Moldova",
+			"founded": 1995
+		},
+		"venue": {
+			"api_football_id": 4057,
+			"name": "Joma Arena",
+			"address": "Str. Ghidighici 1/2, Buiucani",
+			"city": "Chişinău",
+			"capacity": 2000,
+			"surface": "artificial turf",
+			"lat": 47.0476,
+			"lng": 28.7825,
+			"x": 445,
+			"y": 367,
+			"url": "https://en.wikipedia.org/wiki/Joma_Arena"
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 14008,
+			"name": "CSF Bălți",
+			"code": null,
+			"country": "Moldova",
+			"founded": 2020
+		},
+		"venue": {
+			"api_football_id": 19653,
+			"name": "Stadionul Orăşenesc",
+			"address": "Strada Kiev, nr. 115",
+			"city": "Bălţi",
+			"capacity": 5953,
+			"surface": "grass",
+			"lat": 47.76621,
+			"lng": 27.9332,
+			"x": 297.7,
+			"y": 184.9,
+			"url": "https://en.wikipedia.org/wiki/Stadionul_Or%C4%83%C8%99enesc_(B%C4%83l%C8%9Bi)"
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 12
+	},
+	{
+		"team": {
+			"api_football_id": 14009,
+			"name": "Făleşti",
+			"code": null,
+			"country": "Moldova",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 10760,
+			"name": "Stadionul Făleşti",
+			"address": "Str. Ştefan cel Mare 50",
+			"city": "Făleşti",
+			"capacity": 4000,
+			"surface": "artificial turf",
+			"lat": 47.574656,
+			"lng": 27.711561,
+			"x": 259.3,
+			"y": 233.4,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 14010,
+			"name": "Olimp Comrat",
+			"code": null,
+			"country": "Moldova",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 10761,
+			"name": "Stadion im. V.G. Mumzhieva",
+			"address": "Str. Lenina, nr. 19",
+			"city": "Komrat",
+			"capacity": 4000,
+			"surface": "artificial turf",
+			"lat": 46.323179,
+			"lng": 28.658444,
+			"x": 423.5,
+			"y": 550.6,
+			"url": "https://en.wikipedia.org/wiki/Nisporeni_Stadium"
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 14894,
+			"name": "FCM Ungheni",
+			"code": null,
+			"country": "Moldova",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 3495,
+			"name": "Stadionul Ungheni",
+			"address": "Str. M. Bălcescu, nr. 9",
+			"city": "Ungheni",
+			"capacity": 3500,
+			"surface": "artificial turf",
+			"lat": 47.212778,
+			"lng": 27.8,
+			"x": 274.6,
+			"y": 325.1,
+			"url": "https://en.wikipedia.org/wiki/Ungheni_Stadium"
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 17626,
+			"name": "Gagauziya-Oguzsport",
+			"code": "GAG",
+			"country": "Moldova",
+			"founded": 1991
+		},
+		"venue": {
+			"api_football_id": 10761,
+			"name": "Stadion im. V.G. Mumzhieva",
+			"address": "Str. Lenina, nr. 19",
+			"city": "Komrat",
+			"capacity": 4000,
+			"surface": "artificial turf",
+			"lat": 46.323179,
+			"lng": 28.658444,
+			"x": 423.5,
+			"y": 550.6,
+			"url": "https://en.wikipedia.org/wiki/Nisporeni_Stadium"
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 21306,
+			"name": "Speranis Nisporeni",
+			"code": null,
+			"country": "Moldova",
+			"founded": 2022
+		},
+		"venue": {
+			"api_football_id": 19104,
+			"name": "Stadionul Orăşenesc",
+			"address": "Str. Marii Adunări Naţionale",
+			"city": "Nisporeni",
+			"capacity": 6000,
+			"surface": "grass",
+			"lat": 47.07637,
+			"lng": 28.18005,
+			"x": 340.5,
+			"y": 359.7,
+			"url": "https://en.wikipedia.org/wiki/Nisporeni_Stadium"
+		},
+		"league": {
+			"api_football_id": 394,
+			"name": "Super Liga",
+			"country": "Moldova",
+			"api_football_country_id": 0
+		},
+		"no": 17
+	}
+]

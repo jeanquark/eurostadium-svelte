@@ -1,0 +1,785 @@
+[
+	{
+		"team": {
+			"api_football_id": 552,
+			"name": "Maribor",
+			"code": "MAR",
+			"country": "Slovenia",
+			"founded": 1960
+		},
+		"venue": {
+			"api_football_id": 1441,
+			"name": "Ljudski vrt",
+			"address": "Mladinska ul. 29",
+			"city": "Maribor",
+			"capacity": 12994,
+			"surface": "grass",
+			"lat": 46.562222,
+			"lng": 15.640278,
+			"x": 431.3,
+			"y": 191.9,
+			"url": "https://en.wikipedia.org/wiki/Ljudski_vrt"
+		},
+		"league": {
+			"api_football_id": 373,
+			"name": "1. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 1
+	},
+	{
+		"team": {
+			"api_football_id": 615,
+			"name": "NK Domzale",
+			"code": "DOM",
+			"country": "Slovenia",
+			"founded": 1921
+		},
+		"venue": {
+			"api_football_id": 1440,
+			"name": "Športni Park",
+			"address": "Kopališka cesta 4",
+			"city": "Domžale",
+			"capacity": 3100,
+			"surface": "grass",
+			"lat": 46.136944,
+			"lng": 14.602222,
+			"x": 233.9,
+			"y": 308.3,
+			"url": "https://en.wikipedia.org/wiki/Dom%C5%BEale_Sports_Park"
+		},
+		"league": {
+			"api_football_id": 373,
+			"name": "1. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 2
+	},
+	{
+		"team": {
+			"api_football_id": 677,
+			"name": "Olimpija Ljubljana",
+			"code": "LJU",
+			"country": "Slovenia",
+			"founded": 1911
+		},
+		"venue": {
+			"api_football_id": 1442,
+			"name": "Stadion Stožice",
+			"address": null,
+			"city": "Ljubljana",
+			"capacity": 16432,
+			"surface": "grass",
+			"lat": 46.080444,
+			"lng": 14.524306,
+			"x": 219,
+			"y": 323.7,
+			"url": "https://en.wikipedia.org/wiki/Sto%C5%BEice_Stadium"
+		},
+		"league": {
+			"api_football_id": 373,
+			"name": "1. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 3
+	},
+	{
+		"team": {
+			"api_football_id": 4197,
+			"name": "Mura",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 2012
+		},
+		"venue": {
+			"api_football_id": 3201,
+			"name": "Mestni Štadion Fazanerija",
+			"address": "Kopališka ulica 45",
+			"city": "Murska Sobota",
+			"capacity": 5400,
+			"surface": "grass",
+			"lat": 46.668333,
+			"lng": 16.1575,
+			"x": 529.7,
+			"y": 162.8,
+			"url": "https://en.wikipedia.org/wiki/Fazanerija_City_Stadium"
+		},
+		"league": {
+			"api_football_id": 373,
+			"name": "1. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 4
+	},
+	{
+		"team": {
+			"api_football_id": 4358,
+			"name": "Aluminij",
+			"code": "ALU",
+			"country": "Slovenia",
+			"founded": 1946
+		},
+		"venue": {
+			"api_football_id": 3330,
+			"name": "Športni Park Aluminij",
+			"address": "Kajuhova 16",
+			"city": "Kidričevo",
+			"capacity": 2600,
+			"surface": "grass",
+			"lat": 46.407778,
+			"lng": 15.789722,
+			"x": 459.8,
+			"y": 234.1,
+			"url": "https://en.wikipedia.org/wiki/Aluminij_Sports_Park"
+		},
+		"league": {
+			"api_football_id": 373,
+			"name": "1. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 5
+	},
+	{
+		"team": {
+			"api_football_id": 4359,
+			"name": "Bravo",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 2006
+		},
+		"venue": {
+			"api_football_id": 11939,
+			"name": "Športni Park Šiška",
+			"address": "Milčinskega ulica 2",
+			"city": "Ljubljana",
+			"capacity": 2308,
+			"surface": "grass",
+			"lat": 46.069444,
+			"lng": 14.499444,
+			"x": 214.3,
+			"y": 326.8,
+			"url": "https://en.wikipedia.org/wiki/%C5%A0i%C5%A1ka_Sports_Park"
+		},
+		"league": {
+			"api_football_id": 373,
+			"name": "1. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 6
+	},
+	{
+		"team": {
+			"api_football_id": 4360,
+			"name": "Celje",
+			"code": "CEL",
+			"country": "Slovenia",
+			"founded": 1919
+		},
+		"venue": {
+			"api_football_id": 3332,
+			"name": "Stadion Z'dežele",
+			"address": "Opekarniška cesta 15a",
+			"city": "Celje",
+			"capacity": 13059,
+			"surface": "grass",
+			"lat": 46.246667,
+			"lng": 15.27,
+			"x": 360.9,
+			"y": 278.2,
+			"url": "https://en.wikipedia.org/wiki/Stadion_Z%27de%C5%BEele"
+		},
+		"league": {
+			"api_football_id": 373,
+			"name": "1. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 7
+	},
+	{
+		"team": {
+			"api_football_id": 4374,
+			"name": "Koper",
+			"code": "KOP",
+			"country": "Slovenia",
+			"founded": 1920
+		},
+		"venue": {
+			"api_football_id": 3346,
+			"name": "ŠRC Bonifika",
+			"address": "Ljubljanska cesta 2",
+			"city": "Koper",
+			"capacity": 4190,
+			"surface": "grass",
+			"lat": 45.542222,
+			"lng": 13.730278,
+			"x": 68,
+			"y": 471.1,
+			"url": "https://en.wikipedia.org/wiki/Bonifika_Stadium"
+		},
+		"league": {
+			"api_football_id": 373,
+			"name": "1. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 8
+	},
+	{
+		"team": {
+			"api_football_id": 4376,
+			"name": "Nafta",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 1903
+		},
+		"venue": {
+			"api_football_id": 3348,
+			"name": "Športni park Lendava",
+			"address": "Kolodvorska ul. 7",
+			"city": "Lendava",
+			"capacity": 3020,
+			"surface": "grass",
+			"lat": 46.559444,
+			"lng": 16.450556,
+			"x": 585.5,
+			"y": 192.6,
+			"url": "https://en.wikipedia.org/wiki/Lendava_Sports_Park"
+		},
+		"league": {
+			"api_football_id": 373,
+			"name": "1. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 4378,
+			"name": "Radomlje",
+			"code": "RAD",
+			"country": "Slovenia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 1440,
+			"name": "Športni Park",
+			"address": "Kopališka cesta 4",
+			"city": "Domžale",
+			"capacity": 3100,
+			"surface": "grass",
+			"lat": 46.136944,
+			"lng": 14.602222,
+			"x": 233.9,
+			"y": 308.3,
+			"url": "https://en.wikipedia.org/wiki/Dom%C5%BEale_Sports_Park"
+		},
+		"league": {
+			"api_football_id": 373,
+			"name": "1. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 4379,
+			"name": "Rogaška",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 1999
+		},
+		"venue": {
+			"api_football_id": 3351,
+			"name": "Športni center Rogaška Slatina",
+			"address": "Sotelska Cesta 55",
+			"city": "Rogaška Slatina",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 46.219736,
+			"lng": 15.641026,
+			"x": 431.5,
+			"y": 285.6,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 373,
+			"name": "1. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 4361,
+			"name": "Rudar",
+			"code": "VEL",
+			"country": "Slovenia",
+			"founded": 1948
+		},
+		"venue": {
+			"api_football_id": 3333,
+			"name": "Štadion Ob Jezeru",
+			"address": "Cesta na jezero 7",
+			"city": "Velenje",
+			"capacity": 2500,
+			"surface": "grass",
+			"lat": 46.372778,
+			"lng": 15.104167,
+			"x": 329.3,
+			"y": 243.7,
+			"url": "https://en.wikipedia.org/wiki/Ob_Jezeru_City_Stadium"
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 12
+	},
+	{
+		"team": {
+			"api_football_id": 4362,
+			"name": "Tabor Sežana",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 1923
+		},
+		"venue": {
+			"api_football_id": 3334,
+			"name": "Stadion Rajko Štolfa",
+			"address": "Kosovelova 4b",
+			"city": "Sežana",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 45.705833,
+			"lng": 13.871667,
+			"x": 94.9,
+			"y": 426.3,
+			"url": "https://en.wikipedia.org/wiki/Rajko_%C5%A0tolfa_Stadium"
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 4363,
+			"name": "Triglav",
+			"code": "TRI",
+			"country": "Slovenia",
+			"founded": 1920
+		},
+		"venue": {
+			"api_football_id": 3335,
+			"name": "Športni Center Stanko Mlakar",
+			"address": "Partizanska cesta 39",
+			"city": "Kranj",
+			"capacity": 2077,
+			"surface": "grass",
+			"lat": 46.251667,
+			"lng": 14.364722,
+			"x": 188.7,
+			"y": 276.9,
+			"url": "https://en.wikipedia.org/wiki/Stanko_Mlakar_Stadium"
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 4364,
+			"name": "Gorica",
+			"code": "GOR",
+			"country": "Slovenia",
+			"founded": 1947
+		},
+		"venue": {
+			"api_football_id": 3336,
+			"name": "Športni Park",
+			"address": "Bazoviška ulica 4",
+			"city": "Nova Gorica",
+			"capacity": 3066,
+			"surface": "grass",
+			"lat": 45.955833,
+			"lng": 13.641389,
+			"x": 51.1,
+			"y": 357.9,
+			"url": "https://en.wikipedia.org/wiki/Nova_Gorica_Sports_Park"
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 4366,
+			"name": "Beltinci",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 2007
+		},
+		"venue": {
+			"api_football_id": 3338,
+			"name": "Športni park Beltinci",
+			"address": "Mladinska 2",
+			"city": "Beltinci",
+			"capacity": 4000,
+			"surface": "grass",
+			"lat": 46.6075,
+			"lng": 16.229167,
+			"x": 543.4,
+			"y": 179.5,
+			"url": "https://en.wikipedia.org/wiki/Beltinci_Sports_Park"
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 4367,
+			"name": "Bilje",
+			"code": null,
+			"country": "Slovenia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 3339,
+			"name": "Stadion V dolinci",
+			"address": "Bilje 3",
+			"city": "Renče",
+			"capacity": 1300,
+			"surface": "grass",
+			"lat": 45.893331,
+			"lng": 13.630183,
+			"x": 48.9,
+			"y": 375,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 4370,
+			"name": "Dekani",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 1938
+		},
+		"venue": {
+			"api_football_id": 3342,
+			"name": "Igrišče Ivan Gregorič",
+			"address": "Dekani 75 A",
+			"city": "Dekani",
+			"capacity": 2500,
+			"surface": "grass",
+			"lat": 45.545863,
+			"lng": 13.818328,
+			"x": 84.7,
+			"y": 470.1,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 4373,
+			"name": "Fužinar",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 1937
+		},
+		"venue": {
+			"api_football_id": 11940,
+			"name": "Športni center Vinka Cajnka",
+			"address": "Kopališka ulica",
+			"city": "Slovenj Gradec",
+			"capacity": 1050,
+			"surface": "grass",
+			"lat": 46.50513,
+			"lng": 15.085582,
+			"x": 325.8,
+			"y": 207.5,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 4375,
+			"name": "Krka",
+			"code": "KRK",
+			"country": "Slovenia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 3347,
+			"name": "Stadion Portoval",
+			"address": "Topliška cesta 4",
+			"city": "Novo mesto",
+			"capacity": 4000,
+			"surface": "grass",
+			"lat": 45.803333,
+			"lng": 15.158333,
+			"x": 339.6,
+			"y": 399.6,
+			"url": "https://en.wikipedia.org/wiki/Portoval"
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 4376,
+			"name": "Nafta",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 1903
+		},
+		"venue": {
+			"api_football_id": 3348,
+			"name": "Športni park Lendava",
+			"address": "Kolodvorska ul. 7",
+			"city": "Lendava",
+			"capacity": 3020,
+			"surface": "grass",
+			"lat": 46.559444,
+			"lng": 16.450556,
+			"x": 585.5,
+			"y": 192.6,
+			"url": "https://en.wikipedia.org/wiki/Lendava_Sports_Park"
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 4381,
+			"name": "Ilirija",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 1911
+		},
+		"venue": {
+			"api_football_id": 3352,
+			"name": "Športni park Ilirija",
+			"address": "Vodnikova 155",
+			"city": "Ljubljana",
+			"capacity": 4000,
+			"surface": "grass",
+			"lat": 46.07,
+			"lng": 14.476389,
+			"x": 209.9,
+			"y": 326.6,
+			"url": "https://en.wikipedia.org/wiki/Ilirija_Sports_Park"
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 6718,
+			"name": "Bistrica",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 1958
+		},
+		"venue": {
+			"api_football_id": 4906,
+			"name": "Stadion Srednja Bistrica",
+			"address": "Srednja Bistrica 49 b",
+			"city": "Srednja Bistrica",
+			"capacity": 750,
+			"surface": "grass",
+			"lat": 46.549991,
+			"lng": 16.280174,
+			"x": 553.1,
+			"y": 195.2,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 6724,
+			"name": "Tolmin",
+			"code": null,
+			"country": "Slovenia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 4911,
+			"name": "Stadion Na Brajdi",
+			"address": "Ulica padlih borcev 1D",
+			"city": "Tolmin",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 46.180497,
+			"lng": 13.733021,
+			"x": 68.5,
+			"y": 296.4,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 12744,
+			"name": "Brinje-Grosuplje",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 2003
+		},
+		"venue": {
+			"api_football_id": 8102,
+			"name": "Stadion Brinje",
+			"address": "Ob Grosupeljščici 19",
+			"city": "Grosuplje",
+			"capacity": 1200,
+			"surface": "grass",
+			"lat": 45.961198,
+			"lng": 14.659565,
+			"x": 244.8,
+			"y": 356.4,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 14007,
+			"name": "Primorje",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 2011
+		},
+		"venue": {
+			"api_football_id": 18694,
+			"name": "Nogometni stadion Ajdovščina",
+			"address": "Goriška cesta 44",
+			"city": "Ajdovščina",
+			"capacity": 1705,
+			"surface": "grass",
+			"lat": 45.888169,
+			"lng": 13.894444,
+			"x": 99.2,
+			"y": 376.4,
+			"url": "https://en.wikipedia.org/wiki/Ajdov%C5%A1%C4%8Dina_Stadium"
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 16302,
+			"name": "Dravinja",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 1934
+		},
+		"venue": {
+			"api_football_id": 11410,
+			"name": "Štadion Dobrava",
+			"address": "Dobrava pri Konjicah 2",
+			"city": "Slovenske Konjice",
+			"capacity": 1200,
+			"surface": "grass",
+			"lat": 46.34426,
+			"lng": 15.41435,
+			"x": 388.3,
+			"y": 251.5,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"no": 27
+	}
+]

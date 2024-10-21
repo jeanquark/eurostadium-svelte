@@ -1,0 +1,1133 @@
+[
+	{
+		"team": {
+			"api_football_id": 553,
+			"name": "Olympiakos Piraeus",
+			"code": "OLY",
+			"country": "Greece",
+			"founded": 1925
+		},
+		"venue": {
+			"api_football_id": 775,
+			"name": "Stadio Georgios Karaiskáki",
+			"address": "Poseidonos Avenue, Faliro",
+			"city": "Piraeus",
+			"capacity": 33296,
+			"surface": "grass",
+			"lat": 37.946111,
+			"lng": 23.664444,
+			"x": 385,
+			"y": 495.6,
+			"url": "https://en.wikipedia.org/wiki/Karaiskakis_Stadium"
+		},
+		"league": {
+			"api_football_id": 197,
+			"name": "Super League 1",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 1
+	},
+	{
+		"team": {
+			"api_football_id": 575,
+			"name": "AEK Athens FC",
+			"code": "AEK",
+			"country": "Greece",
+			"founded": 1924
+		},
+		"venue": {
+			"api_football_id": 19785,
+			"name": "OPAP Arena",
+			"address": "Fokon 11, Nea Filadelfia",
+			"city": "Athens",
+			"capacity": 33000,
+			"surface": "grass",
+			"lat": 38.036947,
+			"lng": 23.741358,
+			"x": 391.9,
+			"y": 485.2,
+			"url": "https://en.wikipedia.org/wiki/Agia_Sophia_Stadium"
+		},
+		"league": {
+			"api_football_id": 197,
+			"name": "Super League 1",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 2
+	},
+	{
+		"team": {
+			"api_football_id": 617,
+			"name": "Panathinaikos",
+			"code": "PAN",
+			"country": "Greece",
+			"founded": 1908
+		},
+		"venue": {
+			"api_football_id": 19929,
+			"name": "Stadio Apóstolos Nikolaidis",
+			"address": "Leoforos Alexandras, Ampelokipi",
+			"city": "Athens",
+			"capacity": 16620,
+			"surface": "grass",
+			"lat": 37.987222,
+			"lng": 23.754167,
+			"x": 393.1,
+			"y": 490.9,
+			"url": "https://en.wikipedia.org/wiki/Leoforos_Alexandras_Stadium"
+		},
+		"league": {
+			"api_football_id": 197,
+			"name": "Super League 1",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 3
+	},
+	{
+		"team": {
+			"api_football_id": 619,
+			"name": "PAOK",
+			"code": "PAO",
+			"country": "Greece",
+			"founded": 1926
+		},
+		"venue": {
+			"api_football_id": 780,
+			"name": "Stadio Toumbas",
+			"address": "Plateia Mikras Asias",
+			"city": "Thessaloníki",
+			"capacity": 28803,
+			"surface": "grass",
+			"lat": 40.613889,
+			"lng": 22.9725,
+			"x": 322.9,
+			"y": 191.1,
+			"url": "https://en.wikipedia.org/wiki/Toumba_Stadium"
+		},
+		"league": {
+			"api_football_id": 197,
+			"name": "Super League 1",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 4
+	},
+	{
+		"team": {
+			"api_football_id": 949,
+			"name": "Panetolikos",
+			"code": "PAN",
+			"country": "Greece",
+			"founded": 1926
+		},
+		"venue": {
+			"api_football_id": 778,
+			"name": "Stadio Panetolikou",
+			"address": "Nikitara",
+			"city": "Agrinio",
+			"capacity": 7200,
+			"surface": "grass",
+			"lat": 38.63,
+			"lng": 21.411667,
+			"x": 182.8,
+			"y": 417.5,
+			"url": "https://en.wikipedia.org/wiki/Panetolikos_Stadium"
+		},
+		"league": {
+			"api_football_id": 197,
+			"name": "Super League 1",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 5
+	},
+	{
+		"team": {
+			"api_football_id": 950,
+			"name": "PAS Giannina",
+			"code": "GIA",
+			"country": "Greece",
+			"founded": 1966
+		},
+		"venue": {
+			"api_football_id": 781,
+			"name": "Stadio Zosimades",
+			"address": "18 Fotis Tzavella",
+			"city": "Ioannina",
+			"capacity": 7652,
+			"surface": "grass",
+			"lat": 39.667647,
+			"lng": 20.848669,
+			"x": 132.2,
+			"y": 299.1,
+			"url": "https://es.wikipedia.org/wiki/Estadio_Zosimades"
+		},
+		"league": {
+			"api_football_id": 197,
+			"name": "Super League 1",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 6
+	},
+	{
+		"team": {
+			"api_football_id": 955,
+			"name": "Asteras Tripolis",
+			"code": "AST",
+			"country": "Greece",
+			"founded": 1930
+		},
+		"venue": {
+			"api_football_id": 766,
+			"name": "Stadio Theodoros Kolokotronis",
+			"address": "Liagora",
+			"city": "Tripoli",
+			"capacity": 7717,
+			"surface": "grass",
+			"lat": 37.5025,
+			"lng": 22.388611,
+			"x": 270.5,
+			"y": 546.2,
+			"url": "https://en.wikipedia.org/wiki/Theodoros_Kolokotronis_Stadium"
+		},
+		"league": {
+			"api_football_id": 197,
+			"name": "Super League 1",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 7
+	},
+	{
+		"team": {
+			"api_football_id": 956,
+			"name": "Lamia",
+			"code": "LAM",
+			"country": "Greece",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 771,
+			"name": "Dimotiko Athlitiko Kentro Lamias",
+			"address": "Asklipiou 12",
+			"city": "Lamia",
+			"capacity": 5500,
+			"surface": "grass",
+			"lat": 38.91,
+			"lng": 22.431111,
+			"x": 274.3,
+			"y": 385.6,
+			"url": "https://en.wikipedia.org/wiki/Lamia_Municipal_Stadium"
+		},
+		"league": {
+			"api_football_id": 197,
+			"name": "Super League 1",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 8
+	},
+	{
+		"team": {
+			"api_football_id": 1123,
+			"name": "Aris Thessalonikis",
+			"code": "ARI",
+			"country": "Greece",
+			"founded": 1914
+		},
+		"venue": {
+			"api_football_id": 765,
+			"name": "Stadio Harilaou Kleánthis Vikelídis",
+			"address": "69 Alkminis, Charilaou",
+			"city": "Thessaloníki",
+			"capacity": 23220,
+			"surface": "grass",
+			"lat": 40.6,
+			"lng": 22.969444,
+			"x": 322.6,
+			"y": 192.7,
+			"url": "https://en.wikipedia.org/wiki/Kleanthis_Vikelidis_Stadium"
+		},
+		"league": {
+			"api_football_id": 197,
+			"name": "Super League 1",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 1124,
+			"name": "OFI",
+			"code": "CRE",
+			"country": "Greece",
+			"founded": 1925
+		},
+		"venue": {
+			"api_football_id": 774,
+			"name": "Stadio Thódoros Vardinoyánnis",
+			"address": "Parnassou",
+			"city": "Heraklion",
+			"capacity": 9000,
+			"surface": "grass",
+			"lat": 35.338056,
+			"lng": 25.114722,
+			"x": 515.2,
+			"y": 793.2,
+			"url": "https://en.wikipedia.org/wiki/Theodoros_Vardinogiannis_Stadium"
+		},
+		"league": {
+			"api_football_id": 197,
+			"name": "Super League 1",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 2099,
+			"name": "Panserraikos",
+			"code": "PAN",
+			"country": "Greece",
+			"founded": 1964
+		},
+		"venue": {
+			"api_football_id": 2734,
+			"name": "Dimotiko Stadio Serron",
+			"address": "1 Spetson",
+			"city": "Serres",
+			"capacity": 9500,
+			"surface": "grass",
+			"lat": 41.0847,
+			"lng": 23.5466,
+			"x": 374.5,
+			"y": 137.4,
+			"url": "https://en.wikipedia.org/wiki/Serres_Municipal_Stadium"
+		},
+		"league": {
+			"api_football_id": 197,
+			"name": "Super League 1",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 2110,
+			"name": "Volos NFC",
+			"code": null,
+			"country": "Greece",
+			"founded": 2017
+		},
+		"venue": {
+			"api_football_id": 1918,
+			"name": "Panthessaliko Stadio",
+			"address": "Odos Stadiou",
+			"city": "Volos",
+			"capacity": 22700,
+			"surface": "grass",
+			"lat": 39.3875,
+			"lng": 22.931111,
+			"x": 319.2,
+			"y": 331.1,
+			"url": "https://en.wikipedia.org/wiki/Panthessaliko_Stadium"
+		},
+		"league": {
+			"api_football_id": 197,
+			"name": "Super League 1",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 12
+	},
+	{
+		"team": {
+			"api_football_id": 5050,
+			"name": "Kifisia",
+			"code": "KIF",
+			"country": "Greece",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 20340,
+			"name": "Stadio Kaisarianis Michalis Kritikopoulos",
+			"address": "118 Leoforos Ethnikis Antistaseos, Kaisariani",
+			"city": "Athens",
+			"capacity": 4851,
+			"surface": "grass",
+			"lat": 37.96425,
+			"lng": 23.775293,
+			"x": 395,
+			"y": 493.5,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 197,
+			"name": "Super League 1",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 12260,
+			"name": "Atromitos",
+			"code": "ATR",
+			"country": "Greece",
+			"founded": 1923
+		},
+		"venue": {
+			"api_football_id": 7804,
+			"name": "Stadio Peristeriou",
+			"address": "93 Giannitson, Peristeri",
+			"city": "Athens",
+			"capacity": 9035,
+			"surface": "grass",
+			"lat": 38.004722,
+			"lng": 23.689722,
+			"x": 387.3,
+			"y": 488.9,
+			"url": "https://en.wikipedia.org/wiki/Peristeri_Stadium"
+		},
+		"league": {
+			"api_football_id": 197,
+			"name": "Super League 1",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 953,
+			"name": "Larisa",
+			"code": "AEL",
+			"country": "Greece",
+			"founded": 1964
+		},
+		"venue": {
+			"api_football_id": 772,
+			"name": "AEL Arena",
+			"address": "Morava",
+			"city": "Larissa",
+			"capacity": 16118,
+			"surface": "grass",
+			"lat": 39.61561,
+			"lng": 22.39949,
+			"x": 271.5,
+			"y": 305,
+			"url": "https://en.wikipedia.org/wiki/AEL_FC_Arena"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 957,
+			"name": "Levadiakos",
+			"code": "LEV",
+			"country": "Greece",
+			"founded": 1961
+		},
+		"venue": {
+			"api_football_id": 773,
+			"name": "Stadio Levadias",
+			"address": "Agion Theodoron",
+			"city": "Levadia",
+			"capacity": 5915,
+			"surface": "grass",
+			"lat": 38.435897,
+			"lng": 22.882844,
+			"x": 314.9,
+			"y": 439.7,
+			"url": "https://en.wikipedia.org/wiki/Levadia_Municipal_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 2094,
+			"name": "Anagennisi Karditsas",
+			"code": null,
+			"country": "Greece",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 2731,
+			"name": "Stadio Karditsas",
+			"address": "Leoforos Dimokratias",
+			"city": "Karditsa",
+			"capacity": 4600,
+			"surface": "grass",
+			"lat": 39.362552,
+			"lng": 21.935127,
+			"x": 229.8,
+			"y": 333.9,
+			"url": "https://en.wikipedia.org/wiki/Municipal_Stadium_of_Karditsa"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 2095,
+			"name": "Kallithea",
+			"code": "KAL",
+			"country": "Greece",
+			"founded": 1966
+		},
+		"venue": {
+			"api_football_id": 2732,
+			"name": "Stadio Kallitheas Grigóris Lamprákis",
+			"address": "Odos Psiloreiti, Kallithea",
+			"city": "Athens",
+			"capacity": 4250,
+			"surface": "grass",
+			"lat": 37.9601,
+			"lng": 23.7151,
+			"x": 389.6,
+			"y": 494,
+			"url": "https://en.wikipedia.org/wiki/Grigoris_Lamprakis_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 2096,
+			"name": "Kissamikos",
+			"code": "KIS",
+			"country": "Greece",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 782,
+			"name": "Dimotiko Stadio Perivolion",
+			"address": "Eleftherias",
+			"city": "Perivolia",
+			"capacity": 4527,
+			"surface": "grass",
+			"lat": 35.48726,
+			"lng": 24.000509,
+			"x": 415.2,
+			"y": 776.2,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 2102,
+			"name": "Apollon Pontou",
+			"code": "KAL",
+			"country": "Greece",
+			"founded": 1926
+		},
+		"venue": {
+			"api_football_id": 762,
+			"name": "Stadio Kalamarias",
+			"address": "Papagou &amp; Sourmenon, Kalamaria",
+			"city": "Thessaloníki",
+			"capacity": 6500,
+			"surface": "grass",
+			"lat": 40.581475,
+			"lng": 22.945114,
+			"x": 320.5,
+			"y": 194.8,
+			"url": "https://en.wikipedia.org/wiki/Kalamaria_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 2106,
+			"name": "Panachaiki FC",
+			"code": "PAN",
+			"country": "Greece",
+			"founded": 1891
+		},
+		"venue": {
+			"api_football_id": 777,
+			"name": "Stadio Kostas Davourlis",
+			"address": "Nikigora",
+			"city": "Patras",
+			"capacity": 11321,
+			"surface": "grass",
+			"lat": 38.261667,
+			"lng": 21.745833,
+			"x": 212.8,
+			"y": 459.6,
+			"url": "https://en.wikipedia.org/wiki/Kostas_Davourlis_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 5027,
+			"name": "Aiolikos",
+			"code": null,
+			"country": "Greece",
+			"founded": 1975
+		},
+		"venue": {
+			"api_football_id": 10907,
+			"name": "Dimotiko Stadio Mytilene",
+			"address": null,
+			"city": "Mytilene",
+			"capacity": 5500,
+			"surface": "grass",
+			"lat": 39.097819,
+			"lng": 26.554267,
+			"x": 644.5,
+			"y": 364.1,
+			"url": "https://en.wikipedia.org/wiki/Mytilene_Municipal_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 5046,
+			"name": "Kalamata",
+			"code": "KAL",
+			"country": "Greece",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 3817,
+			"name": "Gipedo Messiniakos",
+			"address": null,
+			"city": "Kalamata",
+			"capacity": 5613,
+			"surface": "grass",
+			"lat": 37.04137,
+			"lng": 22.120933,
+			"x": 246.5,
+			"y": 598.8,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 5056,
+			"name": "Niki Volos",
+			"code": "NIK",
+			"country": "Greece",
+			"founded": 1924
+		},
+		"venue": {
+			"api_football_id": 1918,
+			"name": "Panthessaliko Stadio",
+			"address": "Odos Stadiou",
+			"city": "Volos",
+			"capacity": 22700,
+			"surface": "grass",
+			"lat": 39.3875,
+			"lng": 22.931111,
+			"x": 319.2,
+			"y": 331.1,
+			"url": "https://en.wikipedia.org/wiki/Panthessaliko_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 5066,
+			"name": "Tilikratis",
+			"code": "TIL",
+			"country": "Greece",
+			"founded": 2014
+		},
+		"venue": {
+			"api_football_id": 3833,
+			"name": "Stadio Platonas Gligoris",
+			"address": "Stadiou 2",
+			"city": "Lefkas",
+			"capacity": 3300,
+			"surface": "grass",
+			"lat": 38.829245,
+			"lng": 20.699236,
+			"x": 118.8,
+			"y": 394.8,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 7510,
+			"name": "Diagoras",
+			"code": null,
+			"country": "Greece",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 5452,
+			"name": "Stadio Diagora",
+			"address": "1 Diagora Square",
+			"city": "Rodos",
+			"capacity": 3693,
+			"surface": "grass",
+			"lat": 36.438228,
+			"lng": 28.228233,
+			"x": 794.8,
+			"y": 667.7,
+			"url": "https://en.wikipedia.org/wiki/Diagoras_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 7511,
+			"name": "Egaleo",
+			"code": "EGA",
+			"country": "Greece",
+			"founded": 1931
+		},
+		"venue": {
+			"api_football_id": 5453,
+			"name": "Stadio Stavros Mavrothalassitis",
+			"address": "Thivon &amp; Korai",
+			"city": "Athens",
+			"capacity": 8217,
+			"surface": "grass",
+			"lat": 37.987169,
+			"lng": 23.676011,
+			"x": 386.1,
+			"y": 490.9,
+			"url": "https://en.wikipedia.org/wiki/Stavros_Mavrothalassitis_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 7513,
+			"name": "Ionikos",
+			"code": "ION",
+			"country": "Greece",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 5455,
+			"name": "Dimotiko Gipedo Neapolis Nikaias",
+			"address": "Grigoriou Labraki &amp; Parnassou, Neapoli, Nikaia",
+			"city": "Athens",
+			"capacity": 4999,
+			"surface": "grass",
+			"lat": 37.977122,
+			"lng": 23.635,
+			"x": 382.4,
+			"y": 492,
+			"url": "https://en.wikipedia.org/wiki/Neapoli_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 28
+	},
+	{
+		"team": {
+			"api_football_id": 12368,
+			"name": "Almopos",
+			"code": null,
+			"country": "Greece",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 7896,
+			"name": "Dimotiko Stadio Arideas",
+			"address": null,
+			"city": "Aridaea",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 40.968821,
+			"lng": 22.065427,
+			"x": 241.5,
+			"y": 150.6,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 29
+	},
+	{
+		"team": {
+			"api_football_id": 12372,
+			"name": "Makedonikos Neapolis",
+			"code": null,
+			"country": "Greece",
+			"founded": 1928
+		},
+		"venue": {
+			"api_football_id": 7898,
+			"name": "Gipedo Neas Efkarpias Makedonikou",
+			"address": "27 Eleftheriou Venizelou, Neapoli-Polichni",
+			"city": "Thessaloníki",
+			"capacity": 8100,
+			"surface": "grass",
+			"lat": 40.677778,
+			"lng": 22.950278,
+			"x": 320.9,
+			"y": 183.8,
+			"url": "https://en.wikipedia.org/wiki/Makedonikos_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 12418,
+			"name": "Giouchtas",
+			"code": "GIO",
+			"country": "Greece",
+			"founded": 1957
+		},
+		"venue": {
+			"api_football_id": 7927,
+			"name": "Gipedo Archanes",
+			"address": null,
+			"city": "Archanes",
+			"capacity": 1000,
+			"surface": "grass",
+			"lat": 35.245466,
+			"lng": 25.165553,
+			"x": 519.8,
+			"y": 803.8,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 31
+	},
+	{
+		"team": {
+			"api_football_id": 15235,
+			"name": "Ilioupoli",
+			"code": null,
+			"country": "Greece",
+			"founded": 1953
+		},
+		"venue": {
+			"api_football_id": 10915,
+			"name": "Stadio Ilioupolis",
+			"address": "Charilaou Trikoupi, Ilioupoli",
+			"city": "Athens",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 37.930688,
+			"lng": 23.746332,
+			"x": 392.4,
+			"y": 497.3,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 32
+	},
+	{
+		"team": {
+			"api_football_id": 15259,
+			"name": "Kozani",
+			"code": "KOZ",
+			"country": "Greece",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 10946,
+			"name": "Dimotiko Stadio Kozanis",
+			"address": "Olympiados",
+			"city": "Kozani",
+			"capacity": 1500,
+			"surface": "grass",
+			"lat": 40.293597,
+			"lng": 21.782669,
+			"x": 216.1,
+			"y": 227.6,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 33
+	},
+	{
+		"team": {
+			"api_football_id": 17991,
+			"name": "Iraklis 1908",
+			"code": null,
+			"country": "Greece",
+			"founded": 2021
+		},
+		"venue": {
+			"api_football_id": 769,
+			"name": "Kaftanzoglio Stadio",
+			"address": "Aghiou Dimitriou",
+			"city": "Thessaloníki",
+			"capacity": 27770,
+			"surface": "grass",
+			"lat": 40.625497,
+			"lng": 22.967003,
+			"x": 322.4,
+			"y": 189.8,
+			"url": "https://en.wikipedia.org/wiki/Kaftanzoglio_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 34
+	},
+	{
+		"team": {
+			"api_football_id": 18016,
+			"name": "AEK Athens II",
+			"code": null,
+			"country": "Greece",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": -1739.6,
+			"y": 4826.6,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 35
+	},
+	{
+		"team": {
+			"api_football_id": 18017,
+			"name": "Olympiakos Piraeus II",
+			"code": null,
+			"country": "Greece",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 20350,
+			"name": "Proponitiko Kentro Reti",
+			"address": "Legaki 9-11, Agios Ioannis Rentis",
+			"city": "Athens",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 37.970802,
+			"lng": 23.683007,
+			"x": 386.7,
+			"y": 492.8,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 36
+	},
+	{
+		"team": {
+			"api_football_id": 18018,
+			"name": "PAOK II",
+			"code": null,
+			"country": "Greece",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": -1739.6,
+			"y": 4826.6,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 37
+	},
+	{
+		"team": {
+			"api_football_id": 18019,
+			"name": "Panathinaikos II",
+			"code": null,
+			"country": "Greece",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 761,
+			"name": "Olympiako Stadio Spyros Louis",
+			"address": "37 Kifissias Avenue, Maroussi",
+			"city": "Athens",
+			"capacity": 71030,
+			"surface": "grass",
+			"lat": 38.036068,
+			"lng": 23.7876,
+			"x": 396.1,
+			"y": 485.3,
+			"url": "https://en.wikipedia.org/wiki/Olympic_Stadium_(Athens)"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 38
+	},
+	{
+		"team": {
+			"api_football_id": 20683,
+			"name": "Kampaniakos Chalastra",
+			"code": null,
+			"country": "Greece",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 19333,
+			"name": "Gipedo Chalastras",
+			"address": "Karamanli 76",
+			"city": "Chalastra",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 40.630269,
+			"lng": 22.741193,
+			"x": 302.1,
+			"y": 189.2,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"no": 39
+	}
+]

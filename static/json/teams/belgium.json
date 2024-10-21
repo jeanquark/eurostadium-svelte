@@ -1,0 +1,959 @@
+[
+	{
+		"team": {
+			"api_football_id": 259,
+			"name": "Lommel United",
+			"code": "KVS",
+			"country": "Belgium",
+			"founded": 1937
+		},
+		"venue": {
+			"api_football_id": 20335,
+			"name": "Soeverein Stadion",
+			"address": "Speelpleinstraat 20",
+			"city": "Lommel",
+			"capacity": 12911,
+			"surface": "grass",
+			"lat": 51.23916667,
+			"lng": 5.30611111,
+			"x": 537.7,
+			"y": 149.6,
+			"url": "https://fr.wikipedia.org/wiki/Stade_Soeverein"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 1
+	},
+	{
+		"team": {
+			"api_football_id": 260,
+			"name": "OH Leuven",
+			"code": "LEU",
+			"country": "Belgium",
+			"founded": 1957
+		},
+		"venue": {
+			"api_football_id": 186,
+			"name": "King Power at Den Dreef Stadion",
+			"address": "Kardinaal Mercierlaan 46",
+			"city": "Heverlee",
+			"capacity": 12500,
+			"surface": "grass",
+			"lat": 50.868333,
+			"lng": 4.694167,
+			"x": 418.6,
+			"y": 262.9,
+			"url": "https://en.wikipedia.org/wiki/Den_Dreef"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 2
+	},
+	{
+		"team": {
+			"api_football_id": 261,
+			"name": "KVC Westerlo",
+			"code": "WES",
+			"country": "Belgium",
+			"founded": 1933
+		},
+		"venue": {
+			"api_football_id": 195,
+			"name": "Het Kuipje",
+			"address": "De Merodedreef 189",
+			"city": "Westerlo",
+			"capacity": 8035,
+			"surface": "grass",
+			"lat": 51.094817,
+			"lng": 4.928806,
+			"x": 464.3,
+			"y": 193.7,
+			"url": "https://en.wikipedia.org/wiki/Het_Kuipje"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 3
+	},
+	{
+		"team": {
+			"api_football_id": 266,
+			"name": "KV Mechelen",
+			"code": "MEC",
+			"country": "Belgium",
+			"founded": 1904
+		},
+		"venue": {
+			"api_football_id": 20336,
+			"name": "AFAS Stadion",
+			"address": "Kleine Nieuwedijk 53",
+			"city": "Malines",
+			"capacity": 16715,
+			"surface": "grass",
+			"lat": 51.037184,
+			"lng": 4.486397,
+			"x": 378.1,
+			"y": 211.3,
+			"url": "https://en.wikipedia.org/wiki/Achter_de_Kazerne"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 4
+	},
+	{
+		"team": {
+			"api_football_id": 554,
+			"name": "Anderlecht",
+			"code": "AND",
+			"country": "Belgium",
+			"founded": 1908
+		},
+		"venue": {
+			"api_football_id": 174,
+			"name": "Lotto Park",
+			"address": "Avenue Théo Verbeeck 2",
+			"city": "Brussel",
+			"capacity": 28063,
+			"surface": "grass",
+			"lat": 50.834167,
+			"lng": 4.298333,
+			"x": 341.5,
+			"y": 273.3,
+			"url": "https://en.wikipedia.org/wiki/Constant_Vanden_Stock_Stadium"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 5
+	},
+	{
+		"team": {
+			"api_football_id": 569,
+			"name": "Club Brugge KV",
+			"code": "CLU",
+			"country": "Belgium",
+			"founded": 1891
+		},
+		"venue": {
+			"api_football_id": 176,
+			"name": "Jan Breydelstadion",
+			"address": "Olympialaan 74",
+			"city": "Brugge",
+			"capacity": 29062,
+			"surface": "grass",
+			"lat": 51.193333,
+			"lng": 3.180556,
+			"x": 124,
+			"y": 163.6,
+			"url": "https://en.wikipedia.org/wiki/Jan_Breydel_Stadium"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 6
+	},
+	{
+		"team": {
+			"api_football_id": 631,
+			"name": "Gent",
+			"code": "GEN",
+			"country": "Belgium",
+			"founded": 1900
+		},
+		"venue": {
+			"api_football_id": 20727,
+			"name": "Planet Group Arena",
+			"address": "Ottergemsesteenweg-Zuid 808",
+			"city": "Gent",
+			"capacity": 20185,
+			"surface": "grass",
+			"lat": 51.016111,
+			"lng": 3.734167,
+			"x": 231.7,
+			"y": 217.7,
+			"url": "https://en.wikipedia.org/wiki/Planet_Group_Arena"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 7
+	},
+	{
+		"team": {
+			"api_football_id": 733,
+			"name": "Standard Liege",
+			"code": "STA",
+			"country": "Belgium",
+			"founded": 1898
+		},
+		"venue": {
+			"api_football_id": 192,
+			"name": "Stade Maurice Dufrasne",
+			"address": "Rue de la Centrale 2, Sclessin",
+			"city": "Luik",
+			"capacity": 27670,
+			"surface": "grass",
+			"lat": 50.61,
+			"lng": 5.543333,
+			"x": 583.9,
+			"y": 341.7,
+			"url": "https://en.wikipedia.org/wiki/Stade_Maurice_Dufrasne"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 8
+	},
+	{
+		"team": {
+			"api_football_id": 734,
+			"name": "Kortrijk",
+			"code": "KOR",
+			"country": "Belgium",
+			"founded": 1901
+		},
+		"venue": {
+			"api_football_id": 182,
+			"name": "Guldensporenstadion",
+			"address": "Meensesteenweg 84a / Moorseelsestraat 111b, Heule",
+			"city": "Kortrijk",
+			"capacity": 9399,
+			"surface": "grass",
+			"lat": 50.830432,
+			"lng": 3.248906,
+			"x": 137.3,
+			"y": 274.4,
+			"url": "https://en.wikipedia.org/wiki/Guldensporen_Stadion"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 735,
+			"name": "St. Truiden",
+			"code": "TRU",
+			"country": "Belgium",
+			"founded": 1924
+		},
+		"venue": {
+			"api_football_id": 19611,
+			"name": "Daio Wasabi Stayen Stadium",
+			"address": "Tiensesteenweg 168",
+			"city": "St.-Trond",
+			"capacity": 14600,
+			"surface": "artificial turf",
+			"lat": 50.813474,
+			"lng": 5.166256,
+			"x": 510.5,
+			"y": 279.6,
+			"url": "https://en.wikipedia.org/wiki/Stayen"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 736,
+			"name": "Charleroi",
+			"code": "CHA",
+			"country": "Belgium",
+			"founded": 1904
+		},
+		"venue": {
+			"api_football_id": 177,
+			"name": "Stade du Pays de Charleroi",
+			"address": "Boulevard Zoé Drion 19",
+			"city": "Charleroi",
+			"capacity": 18000,
+			"surface": "grass",
+			"lat": 50.414609,
+			"lng": 4.453787,
+			"x": 371.8,
+			"y": 401.4,
+			"url": "https://en.wikipedia.org/wiki/Stade_du_Pays_de_Charleroi"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 739,
+			"name": "AS Eupen",
+			"code": "EUP",
+			"country": "Belgium",
+			"founded": 1945
+		},
+		"venue": {
+			"api_football_id": 20333,
+			"name": "Kehrwegstadion",
+			"address": "Kehrweg 14",
+			"city": "Eupen",
+			"capacity": 8363,
+			"surface": "grass",
+			"lat": 50.626389,
+			"lng": 6.045833,
+			"x": 681.7,
+			"y": 336.7,
+			"url": "https://en.wikipedia.org/wiki/Kehrwegstadion"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 12
+	},
+	{
+		"team": {
+			"api_football_id": 740,
+			"name": "Antwerp",
+			"code": "ANT",
+			"country": "Belgium",
+			"founded": 1880
+		},
+		"venue": {
+			"api_football_id": 175,
+			"name": "Bosuilstadion",
+			"address": "Oude Bosuilbaan 54a",
+			"city": "Deurne",
+			"capacity": 23057,
+			"surface": "grass",
+			"lat": 51.2325,
+			"lng": 4.472222,
+			"x": 375.4,
+			"y": 151.7,
+			"url": "https://en.wikipedia.org/wiki/Bosuilstadion"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 741,
+			"name": "Cercle Brugge",
+			"code": "CER",
+			"country": "Belgium",
+			"founded": 1899
+		},
+		"venue": {
+			"api_football_id": 176,
+			"name": "Jan Breydelstadion",
+			"address": "Olympialaan 74",
+			"city": "Brugge",
+			"capacity": 29062,
+			"surface": "grass",
+			"lat": 51.193333,
+			"lng": 3.180556,
+			"x": 124,
+			"y": 163.6,
+			"url": "https://en.wikipedia.org/wiki/Jan_Breydel_Stadium"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 742,
+			"name": "Genk",
+			"code": "GEN",
+			"country": "Belgium",
+			"founded": 1988
+		},
+		"venue": {
+			"api_football_id": 12455,
+			"name": "Cegeka Arena",
+			"address": "Stadionplein 4, Waterschei",
+			"city": "Genk",
+			"capacity": 24956,
+			"surface": "grass",
+			"lat": 51.005,
+			"lng": 5.533333,
+			"x": 581.9,
+			"y": 221.1,
+			"url": "https://en.wikipedia.org/wiki/Cegeka_Arena"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 1393,
+			"name": "Union St. Gilloise",
+			"code": "GIL",
+			"country": "Belgium",
+			"founded": 1897
+		},
+		"venue": {
+			"api_football_id": 194,
+			"name": "Stade Joseph Mariën",
+			"address": "Chaussée de Bruxelles 223, Forest",
+			"city": "Brussels",
+			"capacity": 9400,
+			"surface": "grass",
+			"lat": 50.817778,
+			"lng": 4.329167,
+			"x": 347.5,
+			"y": 278.3,
+			"url": "https://en.wikipedia.org/wiki/Joseph_Marien_Stadium"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 6224,
+			"name": "RWDM",
+			"code": null,
+			"country": "Belgium",
+			"founded": 2015
+		},
+		"venue": {
+			"api_football_id": 19385,
+			"name": "Edmond Machtensstadion",
+			"address": "61, rue Charles Malis, Molenbeek-Saint-Jean",
+			"city": "Bruxelles",
+			"capacity": 15266,
+			"surface": "grass",
+			"lat": 50.855,
+			"lng": 4.311,
+			"x": 344,
+			"y": 266.9,
+			"url": "https://en.wikipedia.org/wiki/Edmond_Machtens_Stadium"
+		},
+		"league": {
+			"api_football_id": 144,
+			"name": "Jupiler Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 259,
+			"name": "Lommel United",
+			"code": "KVS",
+			"country": "Belgium",
+			"founded": 1937
+		},
+		"venue": {
+			"api_football_id": 20335,
+			"name": "Soeverein Stadion",
+			"address": "Speelpleinstraat 20",
+			"city": "Lommel",
+			"capacity": 12911,
+			"surface": "grass",
+			"lat": 51.23916667,
+			"lng": 5.30611111,
+			"x": 537.7,
+			"y": 149.6,
+			"url": "https://fr.wikipedia.org/wiki/Stade_Soeverein"
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 263,
+			"name": "Beerschot Wilrijk",
+			"code": null,
+			"country": "Belgium",
+			"founded": 1921
+		},
+		"venue": {
+			"api_football_id": 181,
+			"name": "Olympisch Stadion",
+			"address": "Atletenstraat 32",
+			"city": "Anvers",
+			"capacity": 13405,
+			"surface": "grass",
+			"lat": 51.185,
+			"lng": 4.382222,
+			"x": 357.9,
+			"y": 166.2,
+			"url": "https://en.wikipedia.org/wiki/Olympisch_Stadion_(Antwerp)"
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 600,
+			"name": "Zulte Waregem",
+			"code": "WAR",
+			"country": "Belgium",
+			"founded": 2001
+		},
+		"venue": {
+			"api_football_id": 11891,
+			"name": "Elindus Arena",
+			"address": "Zuiderlaan 17",
+			"city": "Waregem",
+			"capacity": 12300,
+			"surface": "grass",
+			"lat": 50.883056,
+			"lng": 3.428889,
+			"x": 172.3,
+			"y": 258.4,
+			"url": "https://en.wikipedia.org/wiki/Elindus_Arena"
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 624,
+			"name": "Oostende",
+			"code": "OOS",
+			"country": "Belgium",
+			"founded": 1981
+		},
+		"venue": {
+			"api_football_id": 10509,
+			"name": "Diaz Arena",
+			"address": "Leopold van Tyghemlaan 62, Mariakerke",
+			"city": "Oostende",
+			"capacity": 8432,
+			"surface": "grass",
+			"lat": 51.2169,
+			"lng": 2.8865,
+			"x": 66.7,
+			"y": 156.4,
+			"url": "https://en.wikipedia.org/wiki/Diaz_Arena"
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 738,
+			"name": "Waasland-beveren",
+			"code": "WAA",
+			"country": "Belgium",
+			"founded": 1936
+		},
+		"venue": {
+			"api_football_id": 189,
+			"name": "Freethielstadion",
+			"address": "Stadionplein 1",
+			"city": "Beveren",
+			"capacity": 8235,
+			"surface": "grass",
+			"lat": 51.214139,
+			"lng": 4.243931,
+			"x": 330.9,
+			"y": 157.3,
+			"url": "https://en.wikipedia.org/wiki/Freethiel_Stadion"
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 5805,
+			"name": "Francs Borains",
+			"code": null,
+			"country": "Belgium",
+			"founded": 1922
+		},
+		"venue": {
+			"api_football_id": 4311,
+			"name": "Stade Robert Urbain",
+			"address": "6, rue Saint Antoine",
+			"city": "Boussu",
+			"capacity": 8500,
+			"surface": "grass",
+			"lat": 50.41333333,
+			"lng": 3.77916667,
+			"x": 240.5,
+			"y": 401.8,
+			"url": "https://fr.wikipedia.org/wiki/Stade_Robert_Urbain"
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 6214,
+			"name": "Deinze",
+			"code": "DEI",
+			"country": "Belgium",
+			"founded": 1926
+		},
+		"venue": {
+			"api_football_id": 12688,
+			"name": "Dakota Arena",
+			"address": "Stadionlaan 5",
+			"city": "Deinze",
+			"capacity": 8000,
+			"surface": "grass",
+			"lat": 50.983844,
+			"lng": 3.520403,
+			"x": 190.1,
+			"y": 227.6,
+			"url": "https://nl.wikipedia.org/wiki/Dakota_Arena"
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 6215,
+			"name": "Dender",
+			"code": "DEN",
+			"country": "Belgium",
+			"founded": 1935
+		},
+		"venue": {
+			"api_football_id": 19052,
+			"name": "DENDER Football Complex",
+			"address": "Stadionlaan 5",
+			"city": "Denderleeuw",
+			"capacity": 6429,
+			"surface": "grass",
+			"lat": 50.883683,
+			"lng": 4.071185,
+			"x": 297.3,
+			"y": 258.2,
+			"url": "https://en.wikipedia.org/wiki/Van_Roystadion"
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 6219,
+			"name": "Lierse Kempenzonen",
+			"code": null,
+			"country": "Belgium",
+			"founded": 2018
+		},
+		"venue": {
+			"api_football_id": 2664,
+			"name": "Herman Vanderpoortenstadion",
+			"address": "Voetbalstraat 4, Lisp",
+			"city": "Lier",
+			"capacity": 14538,
+			"surface": "grass",
+			"lat": 51.144167,
+			"lng": 4.573611,
+			"x": 395.1,
+			"y": 178.6,
+			"url": "https://en.wikipedia.org/wiki/Herman_Vanderpoortenstadion"
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 6220,
+			"name": "Liège",
+			"code": null,
+			"country": "Belgium",
+			"founded": 1995
+		},
+		"venue": {
+			"api_football_id": 20342,
+			"name": "Stade de la rue Gilles Magnée",
+			"address": "Rue Gilles Magnée",
+			"city": "Ans",
+			"capacity": 2500,
+			"surface": "grass",
+			"lat": 50.660198,
+			"lng": 5.527453,
+			"x": 580.8,
+			"y": 326.4,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 6222,
+			"name": "Patro Eisden",
+			"code": "PAT",
+			"country": "Belgium",
+			"founded": 1942
+		},
+		"venue": {
+			"api_football_id": 20343,
+			"name": "Patrostadion",
+			"address": "Kolenmijn Limburg-Maasland 2",
+			"city": "Maasmechelen",
+			"capacity": 6490,
+			"surface": "grass",
+			"lat": 50.99444444,
+			"lng": 5.70361111,
+			"x": 615.1,
+			"y": 224.3,
+			"url": "https://fr.wikipedia.org/wiki/Stade_du_Patro_Eisden"
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 28
+	},
+	{
+		"team": {
+			"api_football_id": 10244,
+			"name": "Seraing United",
+			"code": null,
+			"country": "Belgium",
+			"founded": 1901
+		},
+		"venue": {
+			"api_football_id": 4600,
+			"name": "Stade du Pairay",
+			"address": "Rue de la Boverie 255",
+			"city": "Seraing",
+			"capacity": 14326,
+			"surface": "grass",
+			"lat": 50.600556,
+			"lng": 5.503611,
+			"x": 576.1,
+			"y": 344.6,
+			"url": "https://en.wikipedia.org/wiki/Stade_du_Pairay"
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 29
+	},
+	{
+		"team": {
+			"api_football_id": 14130,
+			"name": "Club Brugge II",
+			"code": null,
+			"country": "Belgium",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 18696,
+			"name": "The NEST",
+			"address": "Diksmuidsesteenweg 374",
+			"city": "Roulers",
+			"capacity": 9593,
+			"surface": "grass",
+			"lat": 50.952013,
+			"lng": 3.105504,
+			"x": 109.4,
+			"y": 237.3,
+			"url": "https://en.wikipedia.org/wiki/Schiervelde_Stadion"
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 19045,
+			"name": "KRC Genk II",
+			"code": null,
+			"country": "Belgium",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 20341,
+			"name": "De Leunen",
+			"address": "Rauwelkoven 43",
+			"city": "Geel",
+			"capacity": 10524,
+			"surface": "grass",
+			"lat": 51.1703,
+			"lng": 4.96834,
+			"x": 471.9,
+			"y": 170.7,
+			"url": "https://en.wikipedia.org/wiki/De_Leunen"
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 31
+	},
+	{
+		"team": {
+			"api_football_id": 19046,
+			"name": "RSC Anderlecht II",
+			"code": null,
+			"country": "Belgium",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 174,
+			"name": "Lotto Park",
+			"address": "Avenue Théo Verbeeck 2",
+			"city": "Brussel",
+			"capacity": 28063,
+			"surface": "grass",
+			"lat": 50.834167,
+			"lng": 4.298333,
+			"x": 341.5,
+			"y": 273.3,
+			"url": "https://en.wikipedia.org/wiki/Constant_Vanden_Stock_Stadium"
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 32
+	},
+	{
+		"team": {
+			"api_football_id": 19047,
+			"name": "Standard Liège II",
+			"code": null,
+			"country": "Belgium",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": -495.1,
+			"y": 15795.1,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 145,
+			"name": "Challenger Pro League",
+			"country": "Belgium",
+			"api_football_country_id": 0
+		},
+		"no": 33
+	}
+]

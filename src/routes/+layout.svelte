@@ -1,6 +1,6 @@
 <script>
-	import Header from './Header.svelte';
-	import '../app.css';
+	import Header from "./Header.svelte";
+	import "../app.css";
 </script>
 
 <div class="app">
@@ -16,8 +16,20 @@
 </div>
 
 <style>
-	.app {
-		background-image: url('/images/background-stadiums.svg')
+	@media only screen and (max-width: 600px) {
+		.app {
+			background-image: url("/images/background-stadiums-mobile-screen.svg");
+		}
+	}
+	@media only screen and (max-width: 1199px) {
+		.app {
+			background-image: url("/images/background-stadiums-tablet-screen.svg");
+		}
+	}
+	@media only screen and (min-width: 1200px) {
+		.app {
+			background-image: url("/images/background-stadiums.svg");
+		}
 	}
 	/* .app {
 		display: flex;
