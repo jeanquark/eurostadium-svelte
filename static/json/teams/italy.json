@@ -29,7 +29,7 @@
 		"images": [
 			{
 				"name": "910_01.jpg",
-				"source": "",
+				"source": "https://media.ouest-france.fr/v1/pictures/MjAyMTA2YjYxNDU1NDZkMDhmMjEyNjAyYTRiZmQwNWNmN2Y4NzE?width=1260&height=708&focuspoint=50%2C50&cropresize=1&client_id=bpeditorial&sign=b6f257d3bfc42aefbe11712ed235b3c2b256bad88e03ea2e63a56d972aed1017",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -37,7 +37,7 @@
 			},
 			{
 				"name": "910_02.jpg",
-				"source": "",
+				"source": "https://www.middleeastmonitor.com/wp-content/uploads/2021/08/20210825_2_49763326_68201325.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -45,7 +45,7 @@
 			},
 			{
 				"name": "910_03.jpg",
-				"source": "",
+				"source": "https://www.turismoroma.it/sites/default/files/Foto%20Pixabay%2012%20maggio%20Marco%20Pomella_0.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -53,7 +53,7 @@
 			},
 			{
 				"name": "910_04.jpg",
-				"source": "",
+				"source": "https://www.santosfootballplanet.com/uploads/_contentImageSlider/shutterstock_1608345571.jpg?v=1679487068",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -61,7 +61,7 @@
 			},
 			{
 				"name": "910_05.jpg",
-				"source": "",
+				"source": "https://omsi.it/wp-content/uploads/2022/10/StadioOlimpico_Roma-e1690279448820.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -69,7 +69,7 @@
 			},
 			{
 				"name": "910_06.jpg",
-				"source": "",
+				"source": "https://omsi.it/wp-content/uploads/2022/10/StadioOlimpico_Roma1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -108,7 +108,7 @@
 		"images": [
 			{
 				"name": "935_01.jpg",
-				"source": "",
+				"source": "https://www.footballticketnet.fr/theme/images/venues_cover/Buy-MAPEI_Stadium_-_Citta_del_Tricolore-Football-Tickets-FootballTicketNet-Cover.png",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -116,7 +116,7 @@
 			},
 			{
 				"name": "935_02.jpg",
-				"source": "",
+				"source": "https://cdnmedia.mapei.com/images/projects-images/brat2-jpg.tmb-mapeiprjco.jpg?Culture=en&sfvrsn=f9ef826a_1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -124,7 +124,7 @@
 			},
 			{
 				"name": "935_03.jpg",
-				"source": "",
+				"source": "https://www.dz-e.com/wp-content/uploads/2023/08/%C2%A9Luca-Gilli_MAPEI_3238.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -132,7 +132,7 @@
 			},
 			{
 				"name": "935_04.jpg",
-				"source": "",
+				"source": "https://en.atalanta.it/_next/image?url=https%3A%2F%2Fimages.atalanta.it%2Fimage%2Fprivate%2Ft_ratio3_4-size60%2Fprd%2Fgrjcsqkxn1ksycunzqzl&w=1280&q=75",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -140,7 +140,7 @@
 			},
 			{
 				"name": "935_05.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/0/03/Reggio_Emilia%2C_Stadio_Giglio%2C_2010_%28cropped%29.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -148,7 +148,7 @@
 			},
 			{
 				"name": "935_06.jpg",
-				"source": "",
+				"source": "https://www.sassuolocalcio.it/wp-content/uploads/2023/02/FIL1999_Vinardi.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -187,7 +187,7 @@
 		"images": [
 			{
 				"name": "907_01.jpg",
-				"source": "",
+				"source": "https://stadiumdb.com/pictures/stadiums/ita/san_siro/san_siro51.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -195,7 +195,7 @@
 			},
 			{
 				"name": "907_02.jpg",
-				"source": "",
+				"source": "https://i0.wp.com/stadiumbase.com/wp-content/uploads/2020/05/San-Siro5.jpg?fit=1200%2C800&ssl=1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -203,7 +203,7 @@
 			},
 			{
 				"name": "907_03.jpg",
-				"source": "",
+				"source": "https://www.info-stades.fr/uploads/stades/milan-san-siro-4676.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -211,7 +211,7 @@
 			},
 			{
 				"name": "907_04.jpg",
-				"source": "",
+				"source": "https://stadiumdb.com/pictures/stadiums/ita/san_siro/san_siro58.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -219,7 +219,7 @@
 			},
 			{
 				"name": "907_05.jpg",
-				"source": "",
+				"source": "https://www.spaziocalcio.it/contents/uploads/2016/12/Stadio-Giuseppe-Meazza-San-Siro-Milano-2016.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -227,7 +227,23 @@
 			},
 			{
 				"name": "907_06.jpg",
-				"source": "",
+				"source": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b6ff0824-6ddd-4503-b5be-3dbc0b60c40f/dev7qtb-132e4279-f052-4147-b7c3-a30f6adb70de.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I2ZmYwODI0LTZkZGQtNDUwMy1iNWJlLTNkYmMwYjYwYzQwZlwvZGV2N3F0Yi0xMzJlNDI3OS1mMDUyLTQxNDctYjdjMy1hMzBmNmFkYjcwZGUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hKH0RrvubWquM_0xXhx7kHqOE7gqzRjmBjhMw-VfTu4",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "907_07.jpg",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/20/7b/ac/curva-sud.jpg?w=1200&h=-1&s=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "907_08.jpg",
+				"source": "https://intermilan.bynder.com/transform/79fc95fb-7188-4882-acc1-f14992113736/Stadio-Meazza?quality=100&io=transform:fill,width:1600,height:900&format=webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -266,7 +282,7 @@
 		"images": [
 			{
 				"name": "12275_01.jpg",
-				"source": "",
+				"source": "https://s.myguestcare.com/www.iginepri.com/wp-content/uploads/hotel-ristorante-i-ginepri-quartucciu-sardegna-cagliari-stadio.jpg?1728055097",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -274,7 +290,7 @@
 			},
 			{
 				"name": "12275_02.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/D1PdjyAX4AAuaQB.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -282,7 +298,7 @@
 			},
 			{
 				"name": "12275_03.jpg",
-				"source": "",
+				"source": "https://cagliaricalcio.com/wp-content/uploads/2024/02/Nuovo-progetto.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -290,7 +306,7 @@
 			},
 			{
 				"name": "12275_04.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/E6_WfhRWQAQlp8f.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -298,15 +314,7 @@
 			},
 			{
 				"name": "12275_05.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12275_06.jpg",
-				"source": "",
+				"source": "https://www.napolita.it/wp-content/uploads/2024/09/sardegna-1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -345,7 +353,7 @@
 		"images": [
 			{
 				"name": "11904_01.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/7/71/Stadio_Maradona_Serie_A.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -353,7 +361,7 @@
 			},
 			{
 				"name": "11904_02.jpg",
-				"source": "",
+				"source": "https://www.napolike.it/wp-content/uploads/2022/12/319954104_837563567520191_1337805154640669362_n.jpg.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -361,7 +369,7 @@
 			},
 			{
 				"name": "11904_03.jpg",
-				"source": "",
+				"source": "https://stadiumdb.com/img/news/2023/07/03Die01.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -369,7 +377,7 @@
 			},
 			{
 				"name": "11904_04.jpg",
-				"source": "",
+				"source": "https://www.campania.info/wp-content/uploads/sites/111/stadio-diego-armando-maradona-hd.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -377,7 +385,7 @@
 			},
 			{
 				"name": "11904_05.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/FMXtC1hXoAgcUkQ.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -385,7 +393,7 @@
 			},
 			{
 				"name": "11904_06.jpg",
-				"source": "",
+				"source": "https://media.koobit.com/stadio-diego-armando-maradona-33436.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -424,7 +432,7 @@
 		"images": [
 			{
 				"name": "20416_01.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/6/69/DaciArena.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -432,7 +440,7 @@
 			},
 			{
 				"name": "20416_02.jpg",
-				"source": "",
+				"source": "https://live.staticflickr.com/65535/53216037341_de5f4acfef_h.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -440,7 +448,7 @@
 			},
 			{
 				"name": "20416_03.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/GCih6VdXcAAOq9d.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -448,7 +456,7 @@
 			},
 			{
 				"name": "20416_04.jpg",
-				"source": "",
+				"source": "https://www.gedistatic.it/content/gnn/img/messaggeroveneto/2023/11/29/090225584-52687d8a-bbe2-4463-9738-a9423dfc0ab6.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -456,7 +464,7 @@
 			},
 			{
 				"name": "20416_05.jpg",
-				"source": "",
+				"source": "https://www.pianetagenoa1893.net/wp-content/uploads/2019/03/17/06/Stadio-Udinese-Genoa.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -464,7 +472,7 @@
 			},
 			{
 				"name": "20416_06.jpg",
-				"source": "",
+				"source": "https://sportal.eu/wp-content/uploads/2024/01/bluenergy-stadium-udine_12526571190x786.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -503,7 +511,7 @@
 		"images": [
 			{
 				"name": "905_01.jpg",
-				"source": "",
+				"source": "https://www.1000cuorirossoblu.it/wp-content/uploads/2024/10/stadio-luigi-ferraris-2.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -511,7 +519,7 @@
 			},
 			{
 				"name": "905_02.jpg",
-				"source": "",
+				"source": "https://www.stadiumguide.com/wp-content/uploads/luigi4-1100x825.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -519,7 +527,7 @@
 			},
 			{
 				"name": "905_03.jpg",
-				"source": "",
+				"source": "https://www.ivg.it/photogallery_new/images/2017/09/ferraris-418499.large.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -527,7 +535,7 @@
 			},
 			{
 				"name": "905_04.jpg",
-				"source": "",
+				"source": "https://www.repstatic.it/content/localirep/img/rep-genova/2024/07/24/164451900-27b9de2e-0113-4afa-a6d1-efa5f5cbf880.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -535,7 +543,7 @@
 			},
 			{
 				"name": "905_05.jpg",
-				"source": "",
+				"source": "https://www.clubdoria46.it/wp-content/uploads/2021/02/marassi-sampdoria-5-okcd46.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -543,7 +551,15 @@
 			},
 			{
 				"name": "905_06.jpg",
-				"source": "",
+				"source": "https://www.pratobindi.it/wp-content/uploads/2021/02/3-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "905_07.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Stadio_Luigi_Ferraris_di_Genova.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -582,7 +598,7 @@
 		"images": [
 			{
 				"name": "909_01.jpg",
-				"source": "",
+				"source": "https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/f_auto/dev/u1qybrmcxchrosaaarui.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -590,7 +606,7 @@
 			},
 			{
 				"name": "909_02.jpg",
-				"source": "",
+				"source": "https://cdn.eventtrips.com/2021/03/26085640/shutterstock_751272046-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -598,7 +614,7 @@
 			},
 			{
 				"name": "909_03.jpg",
-				"source": "",
+				"source": "https://i.namu.wiki/i/-kZCZj99eAZPl0xA2OL2amNPWwt-y9W23ew-4tHKZ14eCO5-iZiJ9IZwz2sOya8e5AiFaYNz1Ap0jBcgDCDJ7g.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -606,7 +622,7 @@
 			},
 			{
 				"name": "909_04.jpg",
-				"source": "",
+				"source": "https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/v1583859095/dev/u31dyb9h5xlrb2gmbmbb.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -614,7 +630,7 @@
 			},
 			{
 				"name": "909_05.jpg",
-				"source": "",
+				"source": "https://www.seatsza.com/wp-content/uploads/2023/07/allianz-stadium-scaled.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -622,7 +638,7 @@
 			},
 			{
 				"name": "909_06.jpg",
-				"source": "",
+				"source": "https://thebestofturin.com/wp-content/uploads/2020/11/Juventus-Stadium-Museum-Guide-2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -661,7 +677,7 @@
 		"images": [
 			{
 				"name": "910_01.jpg",
-				"source": "",
+				"source": "https://media.ouest-france.fr/v1/pictures/MjAyMTA2YjYxNDU1NDZkMDhmMjEyNjAyYTRiZmQwNWNmN2Y4NzE?width=1260&height=708&focuspoint=50%2C50&cropresize=1&client_id=bpeditorial&sign=b6f257d3bfc42aefbe11712ed235b3c2b256bad88e03ea2e63a56d972aed1017",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -669,7 +685,7 @@
 			},
 			{
 				"name": "910_02.jpg",
-				"source": "",
+				"source": "https://www.middleeastmonitor.com/wp-content/uploads/2021/08/20210825_2_49763326_68201325.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -677,7 +693,7 @@
 			},
 			{
 				"name": "910_03.jpg",
-				"source": "",
+				"source": "https://www.turismoroma.it/sites/default/files/Foto%20Pixabay%2012%20maggio%20Marco%20Pomella_0.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -685,7 +701,7 @@
 			},
 			{
 				"name": "910_04.jpg",
-				"source": "",
+				"source": "https://www.santosfootballplanet.com/uploads/_contentImageSlider/shutterstock_1608345571.jpg?v=1679487068",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -693,7 +709,7 @@
 			},
 			{
 				"name": "910_05.jpg",
-				"source": "",
+				"source": "https://omsi.it/wp-content/uploads/2022/10/StadioOlimpico_Roma-e1690279448820.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -701,7 +717,7 @@
 			},
 			{
 				"name": "910_06.jpg",
-				"source": "",
+				"source": "https://omsi.it/wp-content/uploads/2022/10/StadioOlimpico_Roma1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -740,7 +756,7 @@
 		"images": [
 			{
 				"name": "879_01.jpg",
-				"source": "",
+				"source": "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Frl6bz1io5sp61.jpg%3Fauto%3Dwebp%26s%3D97e5dc78875d9469b11323dfc5d8b094313b226c",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -748,7 +764,7 @@
 			},
 			{
 				"name": "879_02.jpg",
-				"source": "",
+				"source": "https://www.spaziocalcio.it/contents/uploads/2019/10/Gewiss-Stadium-e1570200150463.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -756,7 +772,7 @@
 			},
 			{
 				"name": "879_03.jpg",
-				"source": "",
+				"source": "https://omsi.it/wp-content/uploads/2020/11/M2010_bergamo3.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -764,23 +780,7 @@
 			},
 			{
 				"name": "879_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "879_05.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "879_06.jpg",
-				"source": "",
+				"source": "https://omsi.it/wp-content/uploads/2020/11/LeonardoSilver_Seating_GewissStadium1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -819,7 +819,7 @@
 		"images": [
 			{
 				"name": "881_01.jpg",
-				"source": "",
+				"source": "https://www.santosfootballplanet.com/uploads/_contentImageSlider/shutterstock_1523801510-bologna.png?v=1679489300",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -827,7 +827,7 @@
 			},
 			{
 				"name": "881_02.jpg",
-				"source": "",
+				"source": "https://omsi.it/wp-content/uploads/2020/08/M2008_DallAra_Bologna2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -835,7 +835,7 @@
 			},
 			{
 				"name": "881_03.jpg",
-				"source": "",
+				"source": "https://omsi.it/wp-content/uploads/2020/08/M2008_dallaraStadium_Bologna.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -843,7 +843,7 @@
 			},
 			{
 				"name": "881_04.jpg",
-				"source": "",
+				"source": "https://omsi.it/wp-content/uploads/2020/08/M2008_DallAra_Bologna1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -851,7 +851,7 @@
 			},
 			{
 				"name": "881_05.jpg",
-				"source": "",
+				"source": "https://omsi.it/wp-content/uploads/2020/08/M2008_dallAra.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -859,7 +859,7 @@
 			},
 			{
 				"name": "881_06.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Bologna%E2%80%98s_Renato_Dall%E2%80%98Ara_Stadium_in_2021.jpg/1280px-Bologna%E2%80%98s_Renato_Dall%E2%80%98Ara_Stadium_in_2021.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -898,7 +898,7 @@
 		"images": [
 			{
 				"name": "902_01.jpg",
-				"source": "",
+				"source": "https://www.stadiumguide.com/wp-content/uploads/artemio12.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -906,7 +906,7 @@
 			},
 			{
 				"name": "902_02.jpg",
-				"source": "",
+				"source": "https://cdn.vox-cdn.com/thumbor/OYL7dDmS-JUFOIIOo3cgM2tbllI=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/25220033/1465658381.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -914,7 +914,7 @@
 			},
 			{
 				"name": "902_03.jpg",
-				"source": "",
+				"source": "https://stadiumdb.com/pictures/stadiums/ita/artemio_franchi/artemio_franchi28.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -922,7 +922,7 @@
 			},
 			{
 				"name": "902_04.jpg",
-				"source": "",
+				"source": "https://omsi.it/wp-content/uploads/2020/08/M2012_Franchi_stadium_Firenze_seat.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -930,7 +930,7 @@
 			},
 			{
 				"name": "902_05.jpg",
-				"source": "",
+				"source": "https://www.stadiumguide.com/wp-content/uploads/artemio14.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -938,7 +938,7 @@
 			},
 			{
 				"name": "902_06.jpg",
-				"source": "",
+				"source": "https://www.italyguide.info/pics/stadio-firenze.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -977,7 +977,7 @@
 		"images": [
 			{
 				"name": "943_01.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/4/42/Stadio_Olimpico_Torino_2017_cropped.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -985,7 +985,7 @@
 			},
 			{
 				"name": "943_02.jpg",
-				"source": "",
+				"source": "https://www.beneventonelpallone.it/wp-content/uploads/2021/09/Stadio-Olimpico-Grande-Torino.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -993,7 +993,7 @@
 			},
 			{
 				"name": "943_03.jpg",
-				"source": "",
+				"source": "https://www.torinofc.it/sites/default/files/styles/immagine_news_scala_e_ritaglia_/public/2022-08/GAN_7125.jpg?itok=tFXR5-LM",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1001,7 +1001,7 @@
 			},
 			{
 				"name": "943_04.jpg",
-				"source": "",
+				"source": "https://www.torinofc.it/sites/default/files/2023-04/Storia%20stadio%202.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1009,15 +1009,7 @@
 			},
 			{
 				"name": "943_05.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "943_06.jpg",
-				"source": "",
+				"source": "https://www.lacasadic.com/wp-content/uploads/2024/06/stadio-torino-credit-imagephotoagency-copertina-1250x703.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1056,7 +1048,7 @@
 		"images": [
 			{
 				"name": "890_01.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Italy_-_Verona_-_Stadio_Marcantonio_Bentegodi.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1064,7 +1056,7 @@
 			},
 			{
 				"name": "890_02.jpg",
-				"source": "",
+				"source": "https://www.santosfootballplanet.com/uploads/_contentImageSlider/shutterstock_1696431934.jpg?v=1679524745",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1072,7 +1064,7 @@
 			},
 			{
 				"name": "890_03.jpg",
-				"source": "",
+				"source": "https://farm4.static.flickr.com/3348/3624260425_b9d325e9a8_b.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1080,7 +1072,7 @@
 			},
 			{
 				"name": "890_04.jpg",
-				"source": "",
+				"source": "https://www.nummer1-fussballreisen.de/site/storage/files/2342/afbeelding_van_whatsapp_op_2024-08-20_om_13_57_08_fe7e312b.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1088,7 +1080,7 @@
 			},
 			{
 				"name": "890_05.jpg",
-				"source": "",
+				"source": "https://res.cloudinary.com/dfwt0gh29/image/upload/c_limit,w_3840/f_auto/q_auto/v1/Stadium_Pictures/SerieA/Bentegodiverona?_a=BAVAS2DW0",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1096,7 +1088,7 @@
 			},
 			{
 				"name": "890_06.jpg",
-				"source": "",
+				"source": "https://static.wikia.nocookie.net/the-football-database/images/7/71/Chievo_Verona_Stadium_001.jpg/revision/latest?cb=20130606161443",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1135,7 +1127,7 @@
 		"images": [
 			{
 				"name": "907_01.jpg",
-				"source": "",
+				"source": "https://stadiumdb.com/pictures/stadiums/ita/san_siro/san_siro51.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1143,7 +1135,7 @@
 			},
 			{
 				"name": "907_02.jpg",
-				"source": "",
+				"source": "https://i0.wp.com/stadiumbase.com/wp-content/uploads/2020/05/San-Siro5.jpg?fit=1200%2C800&ssl=1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1151,7 +1143,7 @@
 			},
 			{
 				"name": "907_03.jpg",
-				"source": "",
+				"source": "https://www.info-stades.fr/uploads/stades/milan-san-siro-4676.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1159,7 +1151,7 @@
 			},
 			{
 				"name": "907_04.jpg",
-				"source": "",
+				"source": "https://stadiumdb.com/pictures/stadiums/ita/san_siro/san_siro58.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1167,7 +1159,7 @@
 			},
 			{
 				"name": "907_05.jpg",
-				"source": "",
+				"source": "https://www.spaziocalcio.it/contents/uploads/2016/12/Stadio-Giuseppe-Meazza-San-Siro-Milano-2016.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1175,7 +1167,23 @@
 			},
 			{
 				"name": "907_06.jpg",
-				"source": "",
+				"source": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b6ff0824-6ddd-4503-b5be-3dbc0b60c40f/dev7qtb-132e4279-f052-4147-b7c3-a30f6adb70de.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I2ZmYwODI0LTZkZGQtNDUwMy1iNWJlLTNkYmMwYjYwYzQwZlwvZGV2N3F0Yi0xMzJlNDI3OS1mMDUyLTQxNDctYjdjMy1hMzBmNmFkYjcwZGUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hKH0RrvubWquM_0xXhx7kHqOE7gqzRjmBjhMw-VfTu4",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "907_07.jpg",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/20/7b/ac/curva-sud.jpg?w=1200&h=-1&s=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "907_08.jpg",
+				"source": "https://intermilan.bynder.com/transform/79fc95fb-7188-4882-acc1-f14992113736/Stadio-Meazza?quality=100&io=transform:fill,width:1600,height:900&format=webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1214,7 +1222,7 @@
 		"images": [
 			{
 				"name": "20109_01.jpg",
-				"source": "",
+				"source": "https://empolifc.com/wp-content/uploads/PartitaEmpoliCittadellaHD13-Copia-2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1222,7 +1230,7 @@
 			},
 			{
 				"name": "20109_02.jpg",
-				"source": "",
+				"source": "https://met.cittametropolitana.fi.it/public/images/20240802152415730.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1230,7 +1238,7 @@
 			},
 			{
 				"name": "20109_03.jpg",
-				"source": "",
+				"source": "https://i0.wp.com/nelquotidiano.news/wp-content/uploads/2024/10/1-47.jpg?fit=1024%2C768&ssl=1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1238,7 +1246,7 @@
 			},
 			{
 				"name": "20109_04.jpg",
-				"source": "",
+				"source": "https://www.calcionews24.com/wp-content/uploads/2023/04/Empoli_MAT_5828-e1689618776126.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1246,15 +1254,7 @@
 			},
 			{
 				"name": "20109_05.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20109_06.jpg",
-				"source": "",
+				"source": "https://www.empolichannel.it/wp-content/uploads/2023/09/maratona_stadio_castellani.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1293,7 +1293,7 @@
 		"images": [
 			{
 				"name": "904_01.jpg",
-				"source": "",
+				"source": "https://togetherinfrastrutturesportive.it/wp-content/uploads/2018/02/stadio5.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1301,7 +1301,7 @@
 			},
 			{
 				"name": "904_02.jpg",
-				"source": "",
+				"source": "https://www.toa.de/procat-toa/assets/jpg_large/Stadion_Frosinone.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1309,7 +1309,7 @@
 			},
 			{
 				"name": "904_03.jpg",
-				"source": "",
+				"source": "https://media-cdn.tripadvisor.com/media/photo-m/1280/13/cc/87/d6/stadio-benito-stirpe.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1317,7 +1317,7 @@
 			},
 			{
 				"name": "904_04.jpg",
-				"source": "",
+				"source": "https://omsi.it/wp-content/uploads/2020/10/BRAKET_BenitoStirpe_STADIUM_Frosinone3.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1325,15 +1325,7 @@
 			},
 			{
 				"name": "904_05.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "904_06.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Stadio_Benito_Stirpe_Frosinone_Cittadella_playoff_curva_nord_prima_della_gara.jpg/2560px-Stadio_Benito_Stirpe_Frosinone_Cittadella_playoff_curva_nord_prima_della_gara.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1372,7 +1364,7 @@
 		"images": [
 			{
 				"name": "933_01.jpg",
-				"source": "",
+				"source": "https://salernitana.b-cdn.net/wp-content/uploads/2023/06/stadioArechi-alto.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1380,7 +1372,7 @@
 			},
 			{
 				"name": "933_02.jpg",
-				"source": "",
+				"source": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/44/43/34/stadio-arechi.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1388,7 +1380,7 @@
 			},
 			{
 				"name": "933_03.jpg",
-				"source": "",
+				"source": "https://omsi.it/wp-content/uploads/2020/08/Rialzo_ArechiStadium_Salerno3-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1396,7 +1388,7 @@
 			},
 			{
 				"name": "933_04.jpg",
-				"source": "",
+				"source": "https://omsi.it/wp-content/uploads/2020/08/M2009_ArechiStadium_Salerno_Italy1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1404,7 +1396,7 @@
 			},
 			{
 				"name": "933_05.jpg",
-				"source": "",
+				"source": "https://www.infocilento.it/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-31-at-08.31.38.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1412,7 +1404,7 @@
 			},
 			{
 				"name": "933_06.jpg",
-				"source": "",
+				"source": "https://salernitana.b-cdn.net/wp-content/uploads/2023/06/stadio-slide-01.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1451,7 +1443,7 @@
 		"images": [
 			{
 				"name": "911_01.jpg",
-				"source": "",
+				"source": "https://leccezionale.it/wp-content/uploads/2022/06/Tribuna-Est-Via-del-Mare.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1459,7 +1451,7 @@
 			},
 			{
 				"name": "911_02.jpg",
-				"source": "",
+				"source": "https://archistadia.it/wp-content/uploads/2022/01/lecce-stadio-via-del-mare.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1467,7 +1459,7 @@
 			},
 			{
 				"name": "911_03.jpg",
-				"source": "",
+				"source": "https://exuqspimqo8.exactdn.com/wp-content/uploads/2023/12/giochi.jpg?strip=all&lossy=1&ssl=1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1475,7 +1467,7 @@
 			},
 			{
 				"name": "911_04.jpg",
-				"source": "",
+				"source": "https://www.ilgallo.it/wp-content/uploads/2021/05/Stadio.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1483,7 +1475,7 @@
 			},
 			{
 				"name": "911_05.jpg",
-				"source": "",
+				"source": "https://stadiumdb.com/pictures/stadiums/ita/via_del_mare/via_del_mare14.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1491,7 +1483,7 @@
 			},
 			{
 				"name": "911_06.jpg",
-				"source": "",
+				"source": "https://www.sporteimpianti.it/wp-content/uploads/2020/02/IMG_2764.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1530,7 +1522,7 @@
 		"images": [
 			{
 				"name": "12086_01.jpg",
-				"source": "",
+				"source": "https://www.schiavispa.it/wp-content/uploads/2023/11/schiavi-stadio-brianteo-u-power-3-1200x675.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1538,7 +1530,7 @@
 			},
 			{
 				"name": "12086_02.jpg",
-				"source": "",
+				"source": "https://th-italia.com/wp-content/uploads/2021/08/B0043469.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1546,7 +1538,7 @@
 			},
 			{
 				"name": "12086_03.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Stadio_Brianteo_2024.jpg/1200px-Stadio_Brianteo_2024.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1554,7 +1546,7 @@
 			},
 			{
 				"name": "12086_04.jpg",
-				"source": "",
+				"source": "https://www.ilcittadinomb.it/wp-content/uploads/2022/08/stadio-3-1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1562,7 +1554,7 @@
 			},
 			{
 				"name": "12086_05.jpg",
-				"source": "",
+				"source": "https://jpius.it/wp-content/uploads/2024/01/DJI_0037_transformed.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1570,7 +1562,7 @@
 			},
 			{
 				"name": "12086_06.jpg",
-				"source": "",
+				"source": "https://jpius.it/wp-content/uploads/2024/01/DJI_0007_transformed.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,

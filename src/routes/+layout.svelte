@@ -6,30 +6,46 @@
 <div class="app">
 	<!-- <Header /> -->
 
-	<main>
+	<main class="main">
 		<slot />
 	</main>
 
 	<footer>
 		<!-- <p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p> -->
+		<br /><br />Footer<br /><br />
 	</footer>
 </div>
 
 <style>
+	.app {
+		min-height: 100vh;
+		margin: 0;
+		position: relative;
+	}
 	@media only screen and (max-width: 600px) {
-		.app {
+		.main {
 			background-image: url("/images/background-stadiums-mobile-screen.svg");
 		}
 	}
 	@media only screen and (max-width: 1199px) {
-		.app {
+		.main {
 			background-image: url("/images/background-stadiums-tablet-screen.svg");
 		}
 	}
 	@media only screen and (min-width: 1200px) {
-		.app {
+		.main {
 			background-image: url("/images/background-stadiums.svg");
 		}
+	}
+	footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 200px;
+		border: 1px solid red;
+		background-image: url("/images/footer.svg");
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 	/* .app {
 		display: flex;

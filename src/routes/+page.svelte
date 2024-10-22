@@ -426,7 +426,7 @@
         console.log("mouseOverTooltip: ", mouseOverTooltip);
         // if (!mouseOverTooltip) {
         if (isMobileDevice) {
-            return
+            return;
         }
         showStadiumTooltip = false;
         // }
@@ -624,9 +624,15 @@
 </svelte:head>
 
 <div class="row">
-    <div class="col-1 col-xl-2 border-1" style="overflow: hidden;">col-1</div>
-    <div class="col-10 col-xl-8 border-2">col-10</div>
-    <div class="col-1 col-xl-2 border-3">col-1</div>
+    <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2 col-xl-1 border-1">
+        col-xl-2
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-8 col-xl-10 border-2">
+        col-xl-8
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2 col-xl-1 border-3">
+        col-xl-2
+    </div>
 </div>
 <div class="row">
     <div
@@ -887,13 +893,90 @@
 <div class="row">
     <div class="col-12">
         <div class="box">
-            <div class="pill">All</div>
+            <button
+                class="btn btn-filter {filterValue == 'all' &&
+                    'active'} grass-background"
+                id="btnAll"
+                on:click={() => {
+                    filterStadiums("all");
+                }}
+                >
+                <span style="vertical-align: middle;">All&nbsp;</span>
+                <span class="pill">{stadiumsAll}</span>
+            </button>
+            <button
+                    class="btn btn-filter {filterValue == 'top_league' &&
+                        'active'} grass-background-blue"
+                    id="btnTop" style="color: #FFF;"
+                    on:click={() => {
+                        filterStadiums("top_league");
+                    }}
+                    >
+                    <span style="vertical-align: middle;">1<sup>st</sup> League&nbsp;</span>
+                    <span class="pill">{stadiumsTopLeague}</span>
+                </button>
+                <button
+                    class="btn btn-filter {filterValue == 'second_league' &&
+                        'active'} grass-background-grey"
+                    id="btnSecond"
+                    on:click={() => {
+                        filterStadiums("second_league");
+                    }}
+                    >
+                    <span style="vertical-align: middle;">2<sup>nd</sup> League&nbsp;</span>
+                    <span class="pill">{stadiumsSecondLeague}</span>
+                </button>
+                <button
+                    class="btn btn-filter {filterValue == 'stadium_sm' &&
+                        'active'} grass-background-grey"
+                    id="btnSm"
+                    on:click={() => {
+                        filterStadiums("stadium_sm");
+                    }}
+                >
+                    <span style="vertical-align: middle;">0 - 20k&nbsp;</span>
+                    <span class="pill" style="">{stadiumsSm}</span>
+                </button>
+                <button
+                    class="btn btn-filter {filterValue == 'stadium_md' &&
+                        'active'} grass-background-grey"
+                    id="btnMd"
+                    on:click={() => {
+                        filterStadiums("stadium_md");
+                    }}
+                    >
+                    <span style="vertical-align: middle;">20k - 40k&nbsp;</span>
+                    <span class="pill">{stadiumsMd}</span>
+                </button>
+                <button
+                    class="btn btn-filter {filterValue == 'stadium_lg' &&
+                        'active'} grass-background-grey"
+                    id="btnLg"
+                    on:click={() => {
+                        filterStadiums("stadium_lg");
+                    }}
+                    >
+                    <span style="vertical-align: middle;">40k - 60k&nbsp;</span>
+                    <span class="pill">{stadiumsLg}</span>
+                </button>
+                <button
+                    class="btn btn-filter {filterValue == 'stadium_xl' &&
+                        'active'} grass-background-grey"
+                    id="btnXl"
+                    on:click={() => {
+                        filterStadiums("stadium_xl");
+                    }}
+                    >
+                    <span style="vertical-align: middle;">60k+&nbsp;</span>
+                    <span class="pill">{stadiumsXl}</span>
+                </button>
+            <!-- <div class="pill">All</div>
             <div class="pill">1st League</div>
             <div class="pill">2nd League</div>
             <div class="pill">0 - 20k</div>
             <div class="pill">20k - 40k</div>
             <div class="pill">40k - 60k</div>
-            <div class="pill">+60k</div>
+            <div class="pill">+60k</div> -->
         </div>
     </div>
 </div>
@@ -917,6 +1000,7 @@
         border-radius: 0.5em;
         margin: 0.4em 0.2em;
         /* padding: 0.3em 0.5em; */
+        vertical-align: middle;
         padding: 15px 10px;
         height: 20px;
         line-height: 0px;
@@ -950,7 +1034,7 @@
     } */
 
     .btn-filter {
-        padding: 0.6em;
+        padding: 0.4em;
         border-radius: 0.4em;
         background: #325bad;
         border: none;
@@ -986,8 +1070,13 @@
         cursor: not-allowed;
     }
     .grass-background {
-        /* background: red !important; */
         background: url("/images/grass_01.jpg") no-repeat scroll 0 0 transparent !important;
+    }
+    .grass-background-grey {
+        background: url("/images/grass_01_grey.jpg") no-repeat scroll 0 0 transparent !important;
+    }
+    .grass-background-blue {
+        background: url("/images/grass_01_blue2.jpg") no-repeat scroll 0 0 transparent !important;
     }
     .carousel-navigation-item:hover {
         cursor: pointer;
