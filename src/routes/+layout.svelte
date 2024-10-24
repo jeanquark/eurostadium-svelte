@@ -1,5 +1,6 @@
 <script>
     import Header from './Header.svelte'
+	// import Logo from './components/Logo.svelte'
     import '../app.css'
 </script>
 
@@ -10,18 +11,21 @@
 <div class="app">
     <!-- <Header /> -->
 
-    <header>
-        <h3 class="text-center my-2">Football stadiums across Europe</h3>
-        <img src="/images/logo.svg" width="100" alt="logo" />
+    <header style="border: 2px solid green;">
+		<div class="d-flex justify-center align-center">
+			<h3 class="text-center my-2">Football stadiums across Europe</h3>
+        	<img src="/images/logo_without_image.svg" width="200" alt="logo" class="text-center" />
+		</div>
+		<!-- <Logo /> -->
     </header>
 
     <main class="main">
         <slot />
+        <footer>
+            <br /><br />Footer<br /><br />
+        </footer>
     </main>
 
-    <footer>
-        <br /><br />Footer<br /><br />
-    </footer>
 </div>
 
 <style>
@@ -75,7 +79,7 @@
         /* bottom: 0; */
         margin-top: auto;
         width: 100%;
-        height: 200px;
+        height: 260px;
         border: 1px solid red;
         background-image: url('/images/footer.svg');
         background-size: cover;
