@@ -1,14 +1,16 @@
 <script>
     import { onMount } from "svelte";
     import { base } from "$app/paths";
+    import { dev } from "$app/environment";
     import Counter from "./Counter.svelte";
     import Tooltip from "./Tooltip.svelte";
     import TooltipCountry from "./TooltipCountry.svelte";
     import TooltipStadium from "./TooltipStadium.svelte";
     import Modal from "./components/Modal.svelte";
-    // import Circle from "./Circle.svelte";
-    // import Rect from "./Rect.svelte";
+    import Circle from "./Circle.svelte";
+    import Rectangle from "./Rectangle.svelte";
     import Europe from "./components/svg/Europe.svelte";
+    import Germany from "./components/svg/Germany.svelte";
     import welcome from "$lib/images/svelte-welcome.webp";
     import welcome_fallback from "$lib/images/svelte-welcome.png";
     import { db } from "../lib/firebase/firebase";
@@ -31,7 +33,7 @@
     import { stadiumStore } from "../store/stadium";
     import camelize from "../utils/convertToCamelCase";
     import Carousel from "./components/Carousel.svelte";
-    import FilterButtons from "./components/FilterButtons.svelte"
+    import FilterButtons from "./components/FilterButtons.svelte";
 
     let map = "europe-with-russia.svg";
     let countryLeagues = [];
@@ -51,7 +53,8 @@
     // $: countryLeagues = []
     let showCountryTooltip = false;
     let showStadiumTooltip = false;
-    let showFilterButtons = true;
+    let showFilterButtons = false;
+    let showComponent = false;
     let filterValue = "all";
     let svgMap;
     let showModal = false;
@@ -60,8 +63,6 @@
     let tooltipStadiumWidth = 0;
     let mouseOverTooltip = false;
     let isMobileDevice = false;
-
-    
 
     onMount(() => {
         if (hasTouchSupport() && hasSmallScreen()) {
@@ -75,6 +76,7 @@
         if (hasSmallScreen() && hasTouchSupport()) {
             isMobileDevice = true;
         }
+        showComponent = true;
     });
 
     function mod(n, m) {
@@ -196,7 +198,7 @@
     const onCountryHover = (event) => {
         // return
         // console.clear();
-        console.log("onCountryHover: ", event.detail);
+        // console.log("onCountryHover: ", event.detail);
         // country = event.detail
         if (isMobileDevice) {
             console.log("isMobileDevice");
@@ -303,7 +305,7 @@
         showFilterButtons = true;
     };
     const onCountryLeave = () => {
-        console.log("onCountryLeave");
+        // console.log("onCountryLeave");
         showCountryTooltip = false;
     };
 
@@ -432,8 +434,6 @@
         }
     };
 
-    
-
     const hasSmallScreen = () => {
         const minWidth = 1024; // Minimum width for desktop devices
         return window.innerWidth < minWidth || screen.width < minWidth;
@@ -462,9 +462,7 @@
 </svelte:head>
 
 <div class="row">
-    <div class="col-xs-12">
-        
-    </div>
+    <div class="col-xs-12"></div>
 </div>
 
 <!-- <div class="row">
@@ -478,7 +476,7 @@
         col-xl-2
     </div>
 </div> -->
-<div class="row">
+<!-- <div class="row">
     <div
         class="col-xs-12 col-sm-4 col-md-3 col-lg-2 col-xl-1"
         style="background: yellow;"
@@ -497,7 +495,7 @@
     >
         col-xs-12 col-sm-4 col-md-3 col-lg-2 col-xl-1
     </div>
-</div>
+</div> -->
 <div class="row" style="justify-content: center;">
     <div class="col-12 text-center" style="overflow: auto;">
         <!-- </div> -->
@@ -528,6 +526,7 @@
         <!-- $leagueStore.leagues.length: {$leagueStore.leagues?.length}<br /><br /> -->
         <!-- countryLeagues.length: {countryLeagues.length}<br /><br /> -->
         <!-- $leagueStore.data.length: {$leagueStore.data.length}<br /><br /> -->
+        dev: {dev}<br />
         showModal: {showModal}<br />
         isMobileDevice: {isMobileDevice}<br />
         <!-- left: {left}<br /> -->
@@ -602,15 +601,22 @@
 </div>
 
 <div class="row justify-content-center">
-    <p class="my-0">Click on any country to load map</p>
-</div> 
+    <p class="my-1"><i>Click on any country to load its map</i></p>
+</div>
+
+<div class="row justify-content-center border-1">
+    <div class="col-4 border-2">
+        <Rectangle />
+        <!-- <div style="width: 100%; height: 200px; background: yellow;">DIV</div> -->
+    </div>
+</div>
 
 <div
     class="row my-0 py-0 border-4 justify-content-center"
     style="position: relative;"
 >
     <div
-        class="col-sm-1 col-md-4 col-lg-3 col-xl-4 border-1 d-xs-none d-sm-none"
+        class="col-sm-1 col-md-4 col-lg-3 col-xl-4 border-1 hidden-sm-and-down"
         style=""
     ></div>
     <div
@@ -638,6 +644,10 @@
             />
         {/if}
 
+        <!-- {#if showComponent} -->
+        <!-- <Rectangle />  -->
+        <!-- <Europe filter={filterValue} {country} stadiums3={stadiums} /> -->
+        <!-- {/if} -->
         <div id="svgWrapper" bind:this={svgMap} style="border: 1px solid red;">
             <svelte:component
                 this={currentComponent}
@@ -657,92 +667,19 @@
         </div>
     </div>
     <div
-        class="col-sm-1 col-md-4 col-lg-3 col-xl-4 justify-center align-content border-3 d-xs-none d-sm-none"
+        class="col-sm-1 col-md-4 col-lg-3 col-xl-4 justify-center align-content border-3 d-xs-none hidden-sm-and-down"
     >
-        <FilterButtons />
-        <!-- {#if showFilterButtons}
-            <div class="text-center" id="filterPanel">
-                filterValue: {filterValue}<br />
-                <button
-                    class="btn btn-filter {filterValue == 'all' &&
-                        'active'} grass-background"
-                    id="btnAll"
-                    on:click={() => {
-                        filterStadiums("all");
-                    }}
-                    >All&nbsp;
-                    <span class="pill">{stadiumsAll}</span>
-                </button>
-                <button
-                    class="btn btn-filter {filterValue == 'top_league' &&
-                        'active'}"
-                    id="btnTop"
-                    on:click={() => {
-                        filterStadiums("top_league");
-                    }}
-                    >1<sup>st</sup>&nbsp;
-                    <span class="pill">{stadiumsTopLeague}</span>
-                </button>
-                <button
-                    class="btn btn-filter {filterValue == 'second_league' &&
-                        'active'}"
-                    id="btnSecond"
-                    on:click={() => {
-                        filterStadiums("second_league");
-                    }}
-                    >2<sup>nd</sup> league stadiums&nbsp;
-                    <span class="pill">{stadiumsSecondLeague}</span>
-                </button>
-                <button
-                    class="btn btn-filter {filterValue == 'stadium_sm' &&
-                        'active'}"
-                    id="btnSm"
-                    on:click={() => {
-                        filterStadiums("stadium_sm");
-                    }}
-                >
-                    &#60; 20,000&nbsp;
-                    <span class="pill">{stadiumsSm}</span>
-                </button>
-                <button
-                    class="btn btn-filter {filterValue == 'stadium_md' &&
-                        'active'}"
-                    id="btnMd"
-                    on:click={() => {
-                        filterStadiums("stadium_md");
-                    }}
-                    >20,000 &#60; 40,000&nbsp;
-                    <span class="pill">{stadiumsMd}</span>
-                </button>
-                <button
-                    class="btn btn-filter {filterValue == 'stadium_lg' &&
-                        'active'}"
-                    id="btnLg"
-                    on:click={() => {
-                        filterStadiums("stadium_lg");
-                    }}
-                    >40,000 &#60; 60,000&nbsp;
-                    <span class="pill">{stadiumsLg}</span>
-                </button>
-                <button
-                    class="btn btn-filter {filterValue == 'stadium_xl' &&
-                        'active'}"
-                    id="btnXl"
-                    on:click={() => {
-                        filterStadiums("stadium_xl");
-                    }}
-                    >&#62; 60,000&nbsp;
-                    <span class="pill">{stadiumsXl}</span>
-                </button>
-            </div>
-        {/if} -->
+        {#if showFilterButtons}
+            <FilterButtons {country} />
+        {/if}
     </div>
 </div>
 
-<div class="row">
-    <div class="col-12">
-        <FilterButtons />
-        
+<div class="row hidden-md-and-up">
+    <div class="col-12 py-2">
+        {#if showFilterButtons}
+            <FilterButtons />
+        {/if}
     </div>
 </div>
 
@@ -754,22 +691,10 @@
 </div>
 
 <style>
-    .box {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .pill {
-        background: var(--color-theme-1);
-        color: #fff;
-        border-radius: 0.5em;
-        margin: 0.4em 0.2em;
-        /* padding: 0.3em 0.5em; */
-        vertical-align: middle;
-        padding: 15px 10px;
-        height: 20px;
-        line-height: 0px;
-    }
+    :global(svg) {
+		/* max-width: 512px; */
+		display: block
+	}
     /* section {
         display: flex;
         flex-direction: column;
@@ -798,7 +723,6 @@
         display: block;
     } */
 
-    
     .carousel-navigation-item:hover {
         cursor: pointer;
     }

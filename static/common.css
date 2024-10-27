@@ -365,6 +365,13 @@
     }
 }
 
+/* md */
+@media screen and (min-width: 769px) {
+    .hidden-md-and-up {
+        display: none;
+    }
+}
+
 /* sm */
 @media screen and (max-width: 768px) {
     .col-sm-12 {
@@ -422,7 +429,7 @@
         max-width: 0%;
     }
 
-    .d-sm-none {
+    .hidden-sm-and-down {
         display: none;
     }
 }
@@ -482,10 +489,6 @@
     .col-xs-0 {
         flex-basis: 0%;
         max-width: 0%;
-    }
-
-    .d-xs-none {
-        display: none;
     }
 }
 

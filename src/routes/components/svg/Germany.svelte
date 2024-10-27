@@ -76,7 +76,8 @@
         // console.log("node: ", node);
         node.addEventListener('panzoompan', (event) => {
             console.log('panzoompan: ', event.detail)
-            if (event.detail.x != 0 || event.detail.y != 0) {
+            // if (event.detail.x != 0 || event.detail.y != 0) {
+            if (event.detail.x > .5 || event.detail.y > .5) {
                 flag = 0
             }
         })
@@ -97,6 +98,8 @@
         node.addEventListener('click', (event) => {
             // console.log("click: ", event.detail);
             // console.log('click flag: ', flag)
+            handleClick(event)
+            return
             if (flag == 1) {
                 console.log('click')
                 console.log('destroy event listener')

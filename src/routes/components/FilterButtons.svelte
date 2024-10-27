@@ -1,14 +1,20 @@
 <script>
+    import { onMount } from "svelte";
     import { stadiumStore } from "../../store/stadium";
+    export let country;
+
+    onMount(() => {
+        console.log('FilterButtons')
+    });
 
     let filterValue = "all";
     let stadiums = [];
-    let country = {
-        slug: "",
-        name: "",
-        population: 0,
-        leagues: [],
-    };
+    // let country = {
+    //     slug: "",
+    //     name: "",
+    //     population: 0,
+    //     leagues: [],
+    // };
 
     $: stadiumsAll = [
         ...new Set(
@@ -153,6 +159,9 @@
 </script>
 
 <div class="box">
+    country.slug: {country?.slug}<br /><br />
+    <!-- stadiums.length: {stadiums.length}<br /> -->
+    <!-- $stadiumStore.stadiums[country]: {$stadiumStore.stadiums[country]}<br /> -->
     <button
         class="btn btn-filter {filterValue == 'all' &&
             'active'} grass-background"
