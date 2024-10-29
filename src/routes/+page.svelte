@@ -526,7 +526,7 @@
         <!-- $leagueStore.leagues.length: {$leagueStore.leagues?.length}<br /><br /> -->
         <!-- countryLeagues.length: {countryLeagues.length}<br /><br /> -->
         <!-- $leagueStore.data.length: {$leagueStore.data.length}<br /><br /> -->
-        dev: {dev}<br />
+        <!-- dev: {dev}<br /> -->
         showModal: {showModal}<br />
         isMobileDevice: {isMobileDevice}<br />
         <!-- left: {left}<br /> -->
@@ -606,8 +606,7 @@
 
 <div class="row justify-content-center border-1">
     <div class="col-4 border-2">
-        <Rectangle />
-        <!-- <div style="width: 100%; height: 200px; background: yellow;">DIV</div> -->
+        <!-- <Rectangle /> -->
     </div>
 </div>
 
