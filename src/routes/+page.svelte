@@ -14,6 +14,7 @@
     import welcome from "$lib/images/svelte-welcome.webp";
     import welcome_fallback from "$lib/images/svelte-welcome.png";
     import { db } from "../lib/firebase/firebase";
+    import { supabase } from "../lib/supabase/supabaseClient";
     import {
         collection,
         query,
@@ -29,6 +30,7 @@
         deleteDoc,
     } from "firebase/firestore";
     import { counter } from "../store/count";
+    import { countryStore } from "../store/country";
     import { leagueStore } from "../store/league";
     import { stadiumStore } from "../store/stadium";
     import camelize from "../utils/convertToCamelCase";
@@ -64,7 +66,7 @@
     let mouseOverTooltip = false;
     let isMobileDevice = false;
 
-    onMount(() => {
+    onMount(async () => {
         if (hasTouchSupport() && hasSmallScreen()) {
             console.log("Mobile device detected");
         } else {
@@ -77,6 +79,11 @@
             isMobileDevice = true;
         }
         showComponent = true;
+
+        const { data, error } = await supabase.from("countries").select(`id, name, leagues (id, name, teams (id, name, stadiums(id, name, images(id, name))))`).eq('id', 1);
+        console.log("data: ", data);
+        console.log('error: ', error);
+        // fetchCountries();
     });
 
     function mod(n, m) {
@@ -126,6 +133,14 @@
     let currentComponent = Europe;
     let componentName = "Circle";
     // let component2 = Circle
+
+    const fetchCountries = async () => {
+        try {
+            await countryStore.fetchCountries();
+        } catch (error) {
+            console.log("error: ", error);
+        }
+    };
 
     const fetchLeagues = async () => {
         await leagueStore.fetchLeagues();
@@ -196,9 +211,9 @@
     };
 
     const onCountryHover = (event) => {
+        // console.log("onCountryHover: ", event.detail);
         // return
         // console.clear();
-        // console.log("onCountryHover: ", event.detail);
         // country = event.detail
         if (isMobileDevice) {
             console.log("isMobileDevice");
@@ -249,22 +264,24 @@
             const abc = leagueStore.leagues?.find(
                 (league) => league.api_football_id == parseInt(leagueIds[i]),
             );
+            // console.log("abc: ", abc);
             if (abc) {
                 countryLeagues.push(abc);
             }
         }
+
+        // console.log('countryStore.countries: ', countryStore.countries);
+        // const abc2 = countryStore.countries?.find(
+        //     (country) => (country.name = event.detail.countryName),
+        // );
+        // console.log("abc2: ", abc2);
         // console.log('countryLeagues: ', countryLeagues);
-        // country = {
-        // 	firstname: 'John',
-        // 	lastname: 'Doe'
-        // }
         country = {
             slug: event.detail.id,
             name: event.detail.countryName,
             population: event.detail.population,
             leagues: countryLeagues,
         };
-        // console.log('$country2: ', country2);
     };
     const onCountryClick = async (event) => {
         const country = event.detail;
@@ -532,6 +549,7 @@
         <!-- left: {left}<br /> -->
         <!-- tooltipStadiumWidth: {tooltipStadiumWidth}<br /> -->
         <!-- tooltipCountryWidth: {tooltipCountryWidth}<br /> -->
+        countryStore.countries: {countryStore.countries?.length}<br />
         <div style="">
             <button on:click={decreaseCount}>decrease</button>
             <!-- <span style="padding: 0 10px">$countStore: {$countStore.value}</span> -->
@@ -604,8 +622,8 @@
     <p class="my-1"><i>Click on any country to load its map</i></p>
 </div>
 
-<div class="row justify-content-center border-1">
-    <div class="col-4 border-2">
+<div class="row justify-content-center">
+    <div class="col-4">
         <!-- <Rectangle /> -->
     </div>
 </div>
@@ -691,9 +709,9 @@
 
 <style>
     :global(svg) {
-		/* max-width: 512px; */
-		display: block
-	}
+        /* max-width: 512px; */
+        display: block;
+    }
     /* section {
         display: flex;
         flex-direction: column;

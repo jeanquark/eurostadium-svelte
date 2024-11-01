@@ -1,4 +1,5 @@
 import { writable } from "svelte/store";
+import { supabase } from "../lib/supabase/supabaseClient";
 import { db } from "../lib/firebase/firebase";
 import {
     collection,
@@ -15,7 +16,8 @@ import {
 } from "firebase/firestore";
 
 const state = {
-	stadiums: {},
+    stadiums: {},
+    stadiumsByCountry: {},
     isBoy: false,
     isGirl: false,
     isSick: false,
@@ -26,6 +28,18 @@ function createStadiumStore() {
 
     const methods = {
         async fetchStadiumsByCountry(country) {
+            console.log('[StadiumStore] fetchStadiumsByCountry() country: ', country)
+            const { data, error } = await supabase.from("stadiums").select(`id, name, capacity, x, y, images (id, name, api_football_venue_id, user_id)`).eq('country_id', 1);
+            console.log("data2: ", data);
+            console.log('error: ', error);
+            const array = []
+            for (let i = 0; i < data.length; i++) {
+                array.push(data[i])
+            }
+            console.log('array: ', array);
+            // this.stadiums = array
+        },
+        async fetchStadiumsByCountry2(country) {
             console.log('[StadiumStore] fetchStadiumsByCountry country: ', country);
 
             // // 1) Fetch from Firestore
@@ -51,17 +65,17 @@ function createStadiumStore() {
 
             this.setStadiums({ [country]: array })
         },
-		setStadiums(entry) {
-			const key = Object.keys(entry)[0]
-			const value = Object.values(entry)[0]
-			console.log('key: ', key)
-			console.log('value: ',value)
-			update((state) => {
-				let x = { ...state };
-      			x.stadiums[key] = value
-				return x
-			})
-		},
+        setStadiums(entry) {
+            const key = Object.keys(entry)[0]
+            const value = Object.values(entry)[0]
+            console.log('key: ', key)
+            console.log('value: ', value)
+            update((state) => {
+                let x = { ...state };
+                x.stadiums[key] = value
+                return x
+            })
+        },
         setIsBoy() {
             console.log('*: playerStore -> setIsBoy()')
             update((state) => ({ ...state, isBoy: true, isGirl: false }))

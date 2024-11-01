@@ -86,22 +86,21 @@
             />
         </div>
     </div> -->
-    <div class="row">
+    <div class="row align-center">
         <div
-            class="col-4"
-            style="display: flex;
-        align-items: center;"
+            class="col-4 border-1"
+            style=""
         >
-            <div style="display: flex-column;">
-                <img src="{base}/images/flags/{data.slug}.png" width="60" alt="Country flag" />
-                <h2 class="text-center">{data.name}</h2>
+            <div style="">
+                <img src="{base}/images/flags/{data.slug}.png" width="60" alt="Country flag" class="my-2" />
+                <h3 class="text-center text-truncate">{data.name}</h3>
                 <h5 class="text-center">Pop: {data.population}</h5>
             </div>
         </div>
         <!-- <div class="col-4" style="display: flex; justify-content: center;
         align-items: center;">
         </div> -->
-        <div class="col-8">
+        <div class="col-8 border-2">
             <img src="{base}/images/countries/{data.slug}.jpg" width="100%" alt="Country panorama" />
         </div>
     </div>

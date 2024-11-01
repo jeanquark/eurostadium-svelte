@@ -1,0 +1,57 @@
+--------------------------
+--      Seed data       --
+--------------------------
+
+insert into
+  stadiums (
+    "api_football_id",
+    "name",
+    "address",
+    "city",
+    "capacity",
+    "surface",
+    "lat",
+    "lng",
+    "x",
+    "y",
+    "wiki",
+    "is_active"
+  )
+values
+(19207,'Decathlon Arena – Stade Pierre-Mauroy','261, Boulevard de Tournai, l&apos;Hôtel de Ville','Villeneuve d&apos;Ascq',50083,'grass',50.611275,3.128197,551,63,'https://en.wikipedia.org/wiki/Lille_OSC',true),
+(666,'Groupama Stadium','Chemin du Montout','Décines-Charpieu',61556,'grass',45.765521,4.980085,681,569,'https://en.wikipedia.org/wiki/Olympique_Lyonnais',true),
+(12678,'Stade Orange Vélodrome','3, boulevard Michelet','Marseille',67394,'grass',43.269846,5.39591,710,812,'https://en.wikipedia.org/wiki/Olympique_de_Marseille',true),
+(20107,'Stade de la Mosson-Mondial 98','Avenue de Heidelberg','Montpellier',32939,'grass',43.622181,3.812022,599,778,'https://en.wikipedia.org/wiki/Montpellier_HSC',true),
+(662,'Stade de la Beaujoire - Louis Fonteneau','5, boulevard de la Beaujoire','Nantes',38285,'grass',47.256009,-1.524681,227,418,'https://en.wikipedia.org/wiki/FC_Nantes',true),
+(663,'Allianz Riviera','Boulevard des Jardiniers','Nice',35624,'grass',43.705086,7.19263,835,770,'https://en.wikipedia.org/wiki/OGC_Nice',true),
+(671,'Parc des Princes','24, rue du Commandant Guilbaud','Paris',47929,'grass',48.841471,2.253012,490,253,'https://en.wikipedia.org/wiki/Paris_Saint-Germain_F.C.',true),
+(20470,'Stade Louis-II','7, avenue des Castelans','Monaco',18523,'grass',43.727778,7.415556,850,768,'https://en.wikipedia.org/wiki/AS_Monaco_FC',true),
+(674,'Stade Auguste-Delaune II','33, Chaussée Bocquaine','Reims',21684,'grass',49.247222,4.024722,614,210,'https://en.wikipedia.org/wiki/Stade_de_Reims',true),
+(680,'Roazhon Park','111, route de Lorient','Rennes',31127,'grass',48.107458,-1.712839,214,330,'https://en.wikipedia.org/wiki/Stade_Rennais_F.C.',true),
+(681,'Stade de la Meinau','12, rue de l&apos;Extenwoerth','Strasbourg',26109,'grass',48.560027,7.755117,874,283,'https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace',true),
+(682,'Stadium de Toulouse','1, allée Gabriel Biènés','Toulouse',33150,'grass',43.583278,1.434021,433,782,'https://en.wikipedia.org/wiki/Toulouse_FC',true),
+(656,'Stade Yves Allainmat - Le Moustoir','11, rue Jean Le Coutaller','Lorient',18970,'artificial turf',47.748747,-3.369367,98,367,'https://en.wikipedia.org/wiki/FC_Lorient',true),
+(644,'Stade Gabriel Montpied','Rue Adrien-Mabut','Clermont-Ferrand',13576,'grass',45.815804,3.121679,551,564,'https://en.wikipedia.org/wiki/Clermont_Foot',true),
+(641,'Stade Francis-Le Blé','26, rue de Quimper','Brest',15931,'grass',48.402778,-4.461389,22,299,'https://en.wikipedia.org/wiki/Stade_Brestois_29',true),
+(652,'Stade Océane','Boulevard de Léningrad','Le Havre',25178,'grass',49.498785,0.169773,345,183,'https://en.wikipedia.org/wiki/Le_Havre_AC',true),
+(658,'Stade Saint-Symphorien','3, allée Saint-Symphorien','Longeville-lès-Metz',30000,'grass',49.109797,6.1595,763,225,'https://en.wikipedia.org/wiki/FC_Metz',true),
+(654,'Stade Bollaert-Delelis','83, rue Maurice-Carton','Lens',41233,'grass',50.43285,2.814853,530,82,'https://en.wikipedia.org/wiki/RC_Lens',true),
+(676,'Stade Geoffroy-Guichard','14, rue Pierre et Paul Guichard','Saint-Ètienne',41965,'grass',45.460753,4.390161,639,599,'https://en.wikipedia.org/wiki/AS_Saint-%C3%89tienne',true),
+(634,'Stade Raymond-Kopa','73, boulevard Pierre de Coubertin','Angers',19000,'grass',47.460454,-0.530791,296,397,'https://en.wikipedia.org/wiki/Angers_SCO',true),
+(638,'Stade Matmut-Atlantique','Cours Jules Ladoumegue','Bordeaux',42115,'grass',44.897358,-0.561606,294,655,'https://en.wikipedia.org/wiki/FC_Girondins_de_Bordeaux',true),
+(633,'Stade Crédit Agricole de la Licorne','25, rue du Chapître','Amiens',12999,'grass',49.894222,2.263352,491,141,'https://en.wikipedia.org/wiki/Amiens_SC',true),
+(642,'Stade Michel d''Ornano','Boulevard Georges Pompidou','Caen',20453,'grass',49.179444,-0.396667,306,217,'https://en.wikipedia.org/wiki/Stade_Malherbe_Caen',true),
+(650,'Stade du Roudourou','Rue du Manoir 11','Guingamp',19003,'grass',48.566058,-3.164492,113,282,'https://en.wikipedia.org/wiki/En_Avant_Guingamp',true),
+(632,'Stade François Coty','Ancienne route de Sartène, Zone Industrielle du Vazzio','Ajaccio',10660,'grass',41.930833,8.776667,945,939,'https://en.wikipedia.org/wiki/AC_Ajaccio',true),
+(649,'Stade des Alpes','Avenue de Valmy','Grenoble',20068,'grass',45.1875,5.74,734,626,'https://en.wikipedia.org/wiki/Grenoble_Foot_38',true),
+(686,'Stade du Hainaut','Nungesser','Valenciennes',24926,'grass',50.348056,3.533056,580,91,'https://fr.wikipedia.org/wiki/Valenciennes_Football_Club',true),
+(636,'Stade de l''Abbé Deschamps','Route de Vaux','Auxerre',23467,'grass',47.78675,3.588667,584,363,'https://en.wikipedia.org/wiki/AJ_Auxerre',true),
+(684,'Stade de l''Aube','42, avenue Robert Schuman','Troyes',21877,'grass',48.3075,4.098333,619,309,'https://en.wikipedia.org/wiki/ES_Troyes_AC',true),
+(12585,'Stade Charléty','99 Boulevard Kellermann','Paris',20000,'grass',48.818534,2.346658,497,256,'https://en.wikipedia.org/wiki/Paris_FC',true),
+(672,'Stade Robert Diochon','48, Avenue des Canadiens','Le Petit-Quevilly',12018,'grass',49.411062,1.070759,408,193,'https://en.wikipedia.org/wiki/US_Quevilly-Rouen_M%C3%A9tropole',true),
+(651,'Stade Francis Le Basser','Avenue Pierre de Coubertin','Laval',18607,'grass',48.082222,-0.754722,281,333,'https://en.wikipedia.org/wiki/Stade_Lavallois',true),
+(11898,'Stade Nouste Camp','Chemin de l&apos;Aviation (Larribau)','Bizanos',4031,'grass',43.30805556,0.32555556,356,808,'https://en.wikipedia.org/wiki/Pau_FC',true),
+(675,'Stade Paul Lignon','2, rue Vieussens','Rodez',5996,'grass',44.351667,2.563611,512,708,'https://en.wikipedia.org/wiki/Rodez_AF',true),
+(646,'Stade Marcel-Tribut','Avenue de Rosendaël','Dunkerque',4933,'grass',51.035158,2.389687,500,16,'https://en.wikipedia.org/wiki/USL_Dunkerque',true),
+(1977,'Stade Armand-Césari','Route du Stade','Furiani',17000,'grass',42.651389,9.442611,992,871,'https://en.wikipedia.org/wiki/SC_Bastia',true),
+(1979,'Parc des Sports','Rue Pierre de Coubertin','Annecy',15660,'grass',45.916497,6.118053,760,554,'https://en.wikipedia.org/wiki/FC_Annecy',true);
