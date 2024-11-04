@@ -1,7 +1,6 @@
 --------------------------
 --      Seed data       --
 --------------------------
-
 insert into
   stadiums (
     "api_football_id",
@@ -312,4 +311,3 @@ values
     'https://en.wikipedia.org/wiki/FC_Baden',
     true
   );
-

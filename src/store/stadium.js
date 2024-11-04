@@ -42,7 +42,7 @@ function createStadiumStore() {
             update((state) => ({ ...state, loading: !state.loading }))
         },
         async fetchStadiumsByCountrySlug(countrySlug) {
-            const { data, error } = await supabase.from('teams_view').select(`stadium_name, league_name, team_name, stadium_id`).eq('country_slug', countrySlug)
+            const { data, error } = await supabase.from('teams_view').select(`stadium_name, stadium_city, stadium_capacity, stadium_x, stadium_y, league_name, team_name, team_api_football_id, stadium_id, image_name, image_src`).eq('country_slug', countrySlug)
             console.log('[stadiumStore] data: ', data)
             if (error) {
                 console.log('error: ', error)
@@ -54,15 +54,39 @@ function createStadiumStore() {
                     const key = keyGetter(item)
                     const collection = map.get(key)
                     if (!collection) {
-                        map.set(key, [item])
+                        // map.set(key, [item])
+                        map.set(key, {
+                            id: item.stadium_id,
+                            name: item.stadium_name,
+                            city: item.stadium_city,
+                            capacity: item.stadium_capacity,
+                            teams: [{
+                                name: item.team_name,
+                                api_football_id: item.team_api_football_id
+                            }],
+                            images: [{
+                                name: item.image_name,
+                                src: item.image_src
+                            }]
+                        })
                     } else {
-                        collection.push(item)
+                        // collection.push(item)
+                        if (!collection.teams.find((team) => team.name == item.team_name)) {
+                            collection.teams.push({
+                                name: item.team_name,
+                                api_football_id: item.team_api_football_id
+                            })
+                        }
+                        collection.images.push({
+                            name: item.image_name,
+                            src: item.image_src
+                        })
                     }
                 })
                 return map
             }
-            const abc = groupBy(data, (el) => el.stadium_id)
-            console.log('abc: ', abc)
+            const stadiumsMap = groupBy(data, (el) => el.stadium_id)
+            console.log('stadiumsMap: ', stadiumsMap)
             //   for (let i = 0; i < map.length; i++) {
             // this.stadiumsByCountry['switzerland'] = { name: 'Switzerland' }
             // this.stadiumsByCountry = { name: 'Switzerland' }
@@ -70,48 +94,30 @@ function createStadiumStore() {
             //   }
             console.log('countrySlug: ', countrySlug)
             console.log('state.stadiumsByCountry 1: ', state.stadiumsByCountry)
-            // if (!state.stadiumsByCountry[countrySlug]) {
-            //     state.stadiumsByCountry[countrySlug] = [
-            //         {
-            //             name: 'St. Jakob-Park',
-            //             city: 'Basel',
-            //             images: [],
-            //         },
-            //         {
-            //             name: 'Stadion Wankdorf',
-            //             city: 'Bern',
-            //             images: [],
-            //         }
-            //     ]
-            // }
-            // update(state => ({ ...state, [state.stadiumsByCountry[countrySlug]]: abc }))
-            // update((prev) => ({ ...prev, [prev.stadiumsByCountry2]: [
-            //     {
-            //         name: 'St. Jakob-Park',
-            //         city: 'Basel',
-            //         images: [],
-            //     },
-            //     {
-            //         name: 'Stadion Wankdorf',
-            //         city: 'Bern',
-            //         images: [],
-            //     },
-            // ]}))
+
+            let array = []
+            // for (let i = 0; i < abc.length; i++) {
+            for (let [key, value] of stadiumsMap) {
+                console.log('value: ', value);
+                array.push(value)
+            }
+            console.log('array: ', array);
             update((state) => {
-                let x = { ...state }
-                x.stadiumsByCountry[countrySlug] = [
-                    {
-                        name: 'St. Jakob-Park',
-                        city: 'Basel',
-                        images: [],
-                    },
-                    {
-                        name: 'Stadion Wankdorf',
-                        city: 'Bern',
-                        images: [],
-                    },
-                ]
-                return x
+                let entry = { ...state }
+                entry.stadiumsByCountry[countrySlug] = array
+                // x.stadiumsByCountry[countrySlug] = [
+                //     {
+                //         name: 'St. Jakob-Park',
+                //         city: 'Basel',
+                //         images: [],
+                //     },
+                //     {
+                //         name: 'Stadion Wankdorf',
+                //         city: 'Bern',
+                //         images: [],
+                //     },
+                // ]
+                return entry
             })
 
             console.log('state.stadiumsByCountry 2: ', state.stadiumsByCountry)
