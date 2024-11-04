@@ -79,7 +79,7 @@
         /* bottom: 0; */
         margin-top: auto;
         width: 100%;
-        height: 260px;
+        height: 360px;
         border: 1px solid red;
         background-image: url('/images/footer.svg');
         background-size: cover;

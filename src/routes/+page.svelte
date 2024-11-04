@@ -80,10 +80,12 @@
         }
         showComponent = true;
 
-        const { data, error } = await supabase.from("countries").select(`id, name, leagues (id, name, teams (id, name, stadiums(id, name, images(id, name))))`).eq('id', 1);
-        console.log("data: ", data);
-        console.log('error: ', error);
+        // const { data, error } = await supabase.from("countries").select(`id, name, leagues (id, name, teams (id, name, stadiums(id, name, images(id, name))))`).eq('id', 1);
+        // const { data, error } = await supabase.from("teams_view").select(`stadium_name, league_name, team_name, stadium_id`).eq('country_id', 1);
+        // console.log("data: ", data);
+        // console.log('error: ', error);
         // fetchCountries();
+        fetchStadiumsByCountrySlug('switzerland');
     });
 
     function mod(n, m) {
@@ -156,6 +158,10 @@
         // console.log('array: ', array)
         $leagueStore.leagues = array;
     };
+    const fetchStadiumsByCountrySlug = async (countrySlug) => {
+        await stadiumStore.fetchStadiumsByCountrySlug(countrySlug)
+    };
+
     const fetchLeagueByApiFootballId = async (leagueId) => {
         console.log("fetchLeagueByApiFootballId");
         console.log("leagues1: ", leagues);
@@ -549,12 +555,18 @@
         <!-- left: {left}<br /> -->
         <!-- tooltipStadiumWidth: {tooltipStadiumWidth}<br /> -->
         <!-- tooltipCountryWidth: {tooltipCountryWidth}<br /> -->
-        countryStore.countries: {countryStore.countries?.length}<br />
+        <!-- countryStore.countries: {countryStore.countries?.length}<br /> -->
+        $stadiumStore.loading: {$stadiumStore.loading}<br />
+        $stadiumStore.stadiumsByCountry: {$stadiumStore.stadiumsByCountry}<br />
+        <!-- $stadiumStore.stadiumsByCountry[0]: {$stadiumStore.stadiumsByCountry[0]}<br /> -->
+        $stadiumStore.stadiumsByCountry[switzerland].length: {$stadiumStore.stadiumsByCountry['switzerland']?.length}<br />
+        <button on:click={() => stadiumStore.toggleLoading()}>Toggle loading</button><br /><br />
         <div style="">
             <button on:click={decreaseCount}>decrease</button>
             <!-- <span style="padding: 0 10px">$countStore: {$countStore.value}</span> -->
             <span style="padding: 0 10px">$counter: {$counter}</span>
             <button on:click={increaseCount}>increase</button>
+            <!-- <button on:click={updateState}>update state</button> -->
         </div>
         <br />
         <div>
