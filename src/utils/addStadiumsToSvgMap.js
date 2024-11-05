@@ -16,13 +16,14 @@ export default function (stadiumObj, stadiums, leagues) {
     }
     stadiumObj.innerHTML = ''
 
-    for (let i = 0; i < stadiums.length; i++) {
+    // for (let i = 0; i < stadiums.length; i++) {
+    for (let i = stadiums.length - 1; i >= 0; i--) {
         let newElement = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
         // newElement.setAttribute('cx', 0 + stadiums[i]['venue']['x'])
         // newElement.setAttribute('cy', stadiums[i]['venue']['y'])
         newElement.setAttribute('r', circleRadius)
         // newElement.setAttribute('fill', stadiums[i]['league']['api_football_id'] == leagues[0]['api_football_id'] ? leagueColors[0] : leagueColors[1])
-        newElement.setAttribute('fill', leagueColors[1])
+        newElement.setAttribute('fill', stadiums[i]['leagues'][0]['api_football_id'] == leagues[0]['api_football_id'] ? leagueColors[0] : leagueColors[1])
         // newElement.setAttribute('data-api-football-league-id', stadiums[i]['league']['api_football_id'])
         newElement.setAttribute('data-leagues', stadiums[i]['leagues'])
         // newElement.setAttribute('data-api-football-venue-id', stadiums[i]['venue']['api_football_id'])

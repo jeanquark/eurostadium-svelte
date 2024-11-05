@@ -6,7 +6,7 @@
 
     export let data;
     export let countrySlug;
-    export let stadium;
+    // export let stadium;
     export let left;
     export let top;
     export let tooltipWidth;
