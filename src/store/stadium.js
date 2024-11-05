@@ -60,6 +60,8 @@ function createStadiumStore() {
                             name: item.stadium_name,
                             city: item.stadium_city,
                             capacity: item.stadium_capacity,
+                            x: item.stadium_x,
+                            y: item.stadium_y,
                             teams: [{
                                 name: item.team_name,
                                 api_football_id: item.team_api_football_id
@@ -86,19 +88,13 @@ function createStadiumStore() {
                 return map
             }
             const stadiumsMap = groupBy(data, (el) => el.stadium_id)
-            console.log('stadiumsMap: ', stadiumsMap)
-            //   for (let i = 0; i < map.length; i++) {
-            // this.stadiumsByCountry['switzerland'] = { name: 'Switzerland' }
-            // this.stadiumsByCountry = { name: 'Switzerland' }
-            // this.stadiumsByCountry = ['abc', 'def']
-            //   }
-            console.log('countrySlug: ', countrySlug)
-            console.log('state.stadiumsByCountry 1: ', state.stadiumsByCountry)
+            // console.log('countrySlug: ', countrySlug)
+            // console.log('state.stadiumsByCountry 1: ', state.stadiumsByCountry)
 
             let array = []
             // for (let i = 0; i < abc.length; i++) {
             for (let [key, value] of stadiumsMap) {
-                console.log('value: ', value);
+                // console.log('value: ', value);
                 array.push(value)
             }
             console.log('array: ', array);
@@ -120,7 +116,7 @@ function createStadiumStore() {
                 return entry
             })
 
-            console.log('state.stadiumsByCountry 2: ', state.stadiumsByCountry)
+            // console.log('state.stadiumsByCountry 2: ', state.stadiumsByCountry)
         },
         async fetchStadiumsByCountry2(country) {
             console.log('[StadiumStore] fetchStadiumsByCountry() country: ', country)

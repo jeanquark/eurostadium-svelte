@@ -80,12 +80,7 @@
         }
         showComponent = true;
 
-        // const { data, error } = await supabase.from("countries").select(`id, name, leagues (id, name, teams (id, name, stadiums(id, name, images(id, name))))`).eq('id', 1);
-        // const { data, error } = await supabase.from("teams_view").select(`stadium_name, league_name, team_name, stadium_id`).eq('country_id', 1);
-        // console.log("data: ", data);
-        // console.log('error: ', error);
-        // fetchCountries();
-        fetchStadiumsByCountrySlug('switzerland');
+        // fetchStadiumsByCountrySlug('switzerland');
     });
 
     function mod(n, m) {
@@ -290,8 +285,9 @@
         };
     };
     const onCountryClick = async (event) => {
-        const country = event.detail;
-        console.log("onCountryClick country: ", country);
+        const countrySlug = event.detail;
+        console.log("onCountryClick countrySlug: ", countrySlug);
+        // return
         if (isMobileDevice) {
             console.log("isMobileDevice");
             // displayMap(camelize(country));
@@ -299,11 +295,16 @@
         }
         showCountryTooltip = false;
 
-        const countryStadiums = $stadiumStore.stadiums[country];
-        console.log("countryStadiums: ", countryStadiums);
-        if (!countryStadiums || countryStadiums.length < 5) {
+        // await fetchStadiumsByCountrySlug('switzerland');
+        // await stadiumStore.fetchStadiumsByCountrySlug(countrySlug);
+
+        const stadiumsByCountry = $stadiumStore.stadiumsByCountry[countrySlug];
+
+        console.log("stadiumsByCountry: ", stadiumsByCountry);
+        console.log('stadiumStore.stadiumsByCountry: ', $stadiumStore.stadiumsByCountry);
+        if (!$stadiumStore.stadiumsByCountry[countrySlug]) {
             // const querySnapshot = await getDocs(collection(db, `countries/${country}/stadiums`));
-            await stadiumStore.fetchStadiumsByCountry(country);
+            await stadiumStore.fetchStadiumsByCountrySlug(countrySlug);
 
             // const stadiumsRef = collection(db, `countries/${country}/stadiums`)
             // const q = query(stadiumsRef, orderBy('venue.capacity', 'asc'))
@@ -318,12 +319,17 @@
 
             // stadiumStore.setStadiums({ [country]: array })
         }
-        stadiums = $stadiumStore.stadiums[country];
-        const abc = $stadiumStore.stadiums;
-        console.log("abc: ", abc);
-        const def = camelize(country);
-        console.log("def: ", def);
-        displayMap(camelize(country));
+
+        stadiums = $stadiumStore.stadiumsByCountry[countrySlug];
+        console.log('stadiums: ', stadiums);
+        // return
+        // const abc = $stadiumStore.stadiums;
+        // console.log("abc: ", abc);
+        // return
+        // const def = camelize(countrySlug);
+        // console.log("def: ", def);
+        // return
+        displayMap(camelize(countrySlug));
         filterValue = "all";
         showFilterButtons = true;
     };
@@ -338,8 +344,8 @@
 
         const { stadiumId, clientX, clientY, rect } = event.detail;
         // const stadiumId = event.detail;
-        stadiums = $stadiumStore.stadiums[country.slug]?.filter(
-            (team) => team.venue.api_football_id == stadiumId,
+        stadiums = $stadiumStore.stadiumsByCountry[country.slug]?.filter(
+            (team) => team.id == stadiumId,
         );
         // teams = $stadiumStore.stadiums[country.slug]?.filter(
         //     (team) => team.venue.api_football_id == stadiumId,

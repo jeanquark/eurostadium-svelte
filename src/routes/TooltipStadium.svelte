@@ -2,6 +2,7 @@
     import { createEventDispatcher, onMount } from "svelte";
     import { base } from "$app/paths";
     import Carousel from "./components/Carousel.svelte";
+    import { stadiumStore } from "../store/stadium";
 
     export let data;
     export let countrySlug;
@@ -11,14 +12,16 @@
 
     const dispatch = createEventDispatcher();
 
-    onMount(() => {
+    onMount(async () => {
         try {
             console.log('onMount')
-            items = data[0]['images']
+            // items = data[0]['images']
+            console.log('data: ', data);
             // for (let i = 0; i < data[0]['images'].length; i++) {
             //     items2.push(data[0]['images'][i])
             // }
-            console.log('items: ', items);
+            // console.log('items: ', items);
+            // await stadiumStore.fetchStadiumsByCountrySlug(countrySlug)
         } catch (error) {
             console.log('error: ', error);
         }
@@ -157,12 +160,10 @@
     <div class="row align-center">
         <div class="col-12 text-center relative">
             <h2>
-                <span class="text-primary"
-                    ><b>{data[0]["venue"]["name"]}</b></span
-                >, <span class="text-muted">{data[0]["venue"]["city"]}</span>
+                <!-- <span class="text-primary"><b>{data[0]["venue"]["name"]}</b></span>, <span class="text-muted">{data[0]["venue"]["city"]}</span> -->
             </h2>
             <h3 class="">
-                {formatNumber(data[0]["venue"]["capacity"])}
+                <!-- {formatNumber(data[0]["venue"]["capacity"])} -->
             </h3>
             <button
                 type="button"
@@ -188,11 +189,12 @@
             />
         </div> -->
         <div class="col-12 text-center">
-            data[0][images].length: {data[0]['images'].length}<br />
-            data[0][images]: {data[0]["images"][0]["name"]}<br />
+            <!-- data[0][images].length: {data[0]['images'].length}<br /> -->
+            <!-- data[0][images]: {data[0]["images"][0]["name"]}<br /> -->
             imageIndex: {imageIndex}<br />
             items.length: {items.length}<br />
             current: {current}<br />
+            countrySlug: {countrySlug}<br />
             <!-- <button type="button" on:click={handleOpenModal} class="image" style="background: transparent; padding: 0; border: none !important; font-size:0;">
             <img
                 src="{base}/images/stadiums/{countrySlug}/{data[0]['images'][imageIndex]['name']}"
@@ -213,9 +215,9 @@
                     </div>
                 </Carousel> -->
                 <Carousel items={items} let:item bind:current bind:show>
-                    <div class="item" style="background-image: url({base}/images/stadiums/{countrySlug}/{item.name}); background-size: contain; background-repeat: no-repeat; background-position: center center;">
+                    <!-- <div class="item" style="background-image: url({base}/images/stadiums/{countrySlug}/{item.name}); background-size: contain; background-repeat: no-repeat; background-position: center center;">
                         {item.name}
-                    </div>
+                    </div> -->
                 </Carousel>
             </div>
             {#each items as item, i}
@@ -259,16 +261,16 @@
     </div>
     <div class="row align-center">
         <div class="col-4 text-center border-1" style="">
-            <h3 class="text-center">{data[0].team?.name}</h3>
-            <img
+            <!-- <h3 class="text-center">{data[0].team?.name}</h3> -->
+            <!-- <img
                 src="{base}/images/teams/{countrySlug}/{data[0]['team'][
                     'api_football_id'
                 ]}.png"
                 width="40%"
                 alt="Team logo"
-            />
+            /> -->
         </div>
-        {#if data[1]}
+        <!-- {#if data[1]}
             <div class="col-4 text-center border-1" style="">
                 <h3 class="text-center">{data[1].team?.name}</h3>
                 <img
@@ -279,16 +281,16 @@
                     alt="Team logo"
                 />
             </div>
-        {/if}
+        {/if} -->
         <div class="col-4 text-center border-1" style="">
-            <a href={base / data[0]["venue"]["url"]} target="_blank">
+            <!-- <a href={base / data[0]["venue"]["url"]} target="_blank">
                 Wiki
                 <img
                     src="{base}/images/icons/external-link.svg"
                     width="10"
                     alt="Wikipedia icon"
                 />
-            </a>
+            </a> -->
         </div>
     </div>
 </div>

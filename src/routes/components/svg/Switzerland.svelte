@@ -20,9 +20,9 @@
     // $: stadiumsUpdate(stadiums2)
 
     onMount(() => {
-        console.log('[Germany] onMount')
+        console.log('[Switzerland] onMount')
         console.log('filter: ', filter)
-        const stadiums = $stadiumStore.stadiums[country?.slug]
+        const stadiums = $stadiumStore.stadiumsByCountry[country?.slug]
         console.log('stadiums: ', stadiums)
         console.log('[onMount] stadiumObj: ', document.getElementById('stadiums'))
         console.log('[onMount] stadiumObj2: ', stadiumObj2)
@@ -137,7 +137,7 @@
     }
 
     const handleClick = (e) => {
-        console.log('[Germany] handleClick')
+        console.log('[Switzerland] handleClick')
         // console.log('e.target: ', e.target);
         if (e.target.classList.contains('stadium')) {
             console.log('Click on stadium')
@@ -150,13 +150,13 @@
     }
     const handleMouseOverCircle = (e) => {
         // console.clear()
-        console.log('[Germany] handleMouseOverCircle e.target: ', e.target)
+        console.log('[Switzerland] handleMouseOverCircle e.target: ', e.target)
         if (e.target.classList.contains('stadium')) {
             console.log('Click on stadium')
         }
         // return
 
-        // console.log('[Germany] handleMouseOverCircle e.relatedTarget: ', e.relatedTarget);
+        // console.log('[Switzerland] handleMouseOverCircle e.relatedTarget: ', e.relatedTarget);
         // return
         const stadiumId = parseInt(e.target.getAttribute('data-api-football-venue-id'))
         // console.log("stadiumId: ", stadiumId)
@@ -179,8 +179,8 @@
         dispatch('stadiumHover', data)
     }
     const handleMouseOutCircle = (e) => {
-        console.log('[Germany] handleMouseOutCircle e.target: ', e.target)
-        // console.log('[Germany] handleMouseOutCircle e.relatedTarget: ', e.relatedTarget);
+        console.log('[Switzerland] handleMouseOutCircle e.target: ', e.target)
+        // console.log('[Switzerland] handleMouseOutCircle e.relatedTarget: ', e.relatedTarget);
         // const abc = e.relatedTarget.classList.contains('tooltip')
         // console.log('abc: ', abc);
         if (!e.relatedTarget?.classList?.contains('tooltip')) {
@@ -190,7 +190,7 @@
     }
     const handleMouseEnterCircle = (e) => {
         return
-        console.log('[Germany] handleMouseEnterCircle: ', e.target)
+        console.log('[Switzerland] handleMouseEnterCircle: ', e.target)
         const stadiumId = parseInt(e.target.getAttribute('data-stadium-id'))
         clientX = e.clientX
         const data = {
@@ -203,7 +203,7 @@
     }
     const handleMouseLeaveCircle = (e) => {
         return
-        console.log('[Germany] handleMouseLeaveCircle: ', e.target)
+        console.log('[Switzerland] handleMouseLeaveCircle: ', e.target)
         // console.log('e.clientX: ', e.clientX);
         // const stadiumId = parseInt(e.target.getAttribute('data-stadium-id'))
         // console.log('stadiumId: ', stadiumId);
@@ -213,11 +213,11 @@
         }, 500)
         // }
     }
-    function a(node, params) {
-        console.log('node: ', node)
-        console.log('params: ', params)
+    function a(stadiumObj, stadiums) {
+        console.log('stadiumObj: ', stadiumObj)
+        console.log('stadiums: ', stadiums)
         console.log('country: ', country)
-        addStadiumsToSvgMap(node, params, country.leagues)
+        addStadiumsToSvgMap(stadiumObj, stadiums, country.leagues)
     }
 
     const filterUpdate = (filter) => {
