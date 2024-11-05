@@ -158,12 +158,12 @@
 
         // console.log('[Switzerland] handleMouseOverCircle e.relatedTarget: ', e.relatedTarget);
         // return
-        const stadiumId = parseInt(e.target.getAttribute('data-api-football-venue-id'))
-        // console.log("stadiumId: ", stadiumId)
+        const stadiumId = parseInt(e.target.getAttribute('data-api-football-stadium-id'))
+        console.log("stadiumId: ", stadiumId)
         clientX = e.clientX
         // console.log('clientX: ', clientX);
         const data = {
-            id: e.target.id,
+            // id: e.target.id,
             stadiumId: stadiumId,
             clientX: e.clientX,
             clientY: e.clientY,

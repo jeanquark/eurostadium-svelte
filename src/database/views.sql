@@ -3,12 +3,14 @@ DROP VIEW IF EXISTS teams_view;
 create view teams_view as
   select
     stadiums.id as stadium_id,
+    stadiums.api_football_id as stadium_api_football_id,
     stadiums.name as stadium_name,
     stadiums.city as stadium_city,
     stadiums.capacity as stadium_capacity,
     stadiums.x as stadium_x,
     stadiums.y as stadium_y,
     leagues.id as league_id,
+    leagues.api_football_id as league_api_football_id,
     leagues.name as league_name,
     teams.id as team_id,
     teams.api_football_id as team_api_football_id,

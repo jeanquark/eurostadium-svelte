@@ -56,15 +56,24 @@ function createStadiumStore() {
                     if (!collection) {
                         // map.set(key, [item])
                         map.set(key, {
-                            id: item.stadium_id,
-                            name: item.stadium_name,
-                            city: item.stadium_city,
-                            capacity: item.stadium_capacity,
-                            x: item.stadium_x,
-                            y: item.stadium_y,
+                            stadium: {
+                                id: item.stadium_id,
+                                api_football_id: item.stadium_api_football_id,
+                                name: item.stadium_name,
+                                city: item.stadium_city,
+                                capacity: item.stadium_capacity,
+                                x: item.stadium_x,
+                                y: item.stadium_y
+                            },
+                            leagues: [{
+                                id: item.league_id,
+                                api_football_id: item.league_api_football_id,
+                                name: item.league_name
+                            }],
                             teams: [{
-                                name: item.team_name,
-                                api_football_id: item.team_api_football_id
+                                id: item.team_id,
+                                api_football_id: item.team_api_football_id,
+                                name: item.team_name
                             }],
                             images: [{
                                 name: item.image_name,
@@ -73,10 +82,18 @@ function createStadiumStore() {
                         })
                     } else {
                         // collection.push(item)
+                        if (!collection.leagues.find((league) => league.name == item.league_name)) {
+                            collection.leagues.push({
+                                id: item.league_id,
+                                api_football_id: item.league_api_football_id,
+                                name: item.league_name
+                            })
+                        }
                         if (!collection.teams.find((team) => team.name == item.team_name)) {
                             collection.teams.push({
-                                name: item.team_name,
-                                api_football_id: item.team_api_football_id
+                                id: item.team_id,
+                                api_football_id: item.team_api_football_id,
+                                name: item.team_name
                             })
                         }
                         collection.images.push({

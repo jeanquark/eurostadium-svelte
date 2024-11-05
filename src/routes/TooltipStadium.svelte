@@ -6,6 +6,7 @@
 
     export let data;
     export let countrySlug;
+    export let stadium;
     export let left;
     export let top;
     export let tooltipWidth;
@@ -14,18 +15,18 @@
 
     onMount(async () => {
         try {
-            console.log('onMount')
+            console.log("[TooltipStadium] onMount");
             // items = data[0]['images']
-            console.log('data: ', data);
+            console.log("data: ", data);
             // for (let i = 0; i < data[0]['images'].length; i++) {
             //     items2.push(data[0]['images'][i])
             // }
             // console.log('items: ', items);
             // await stadiumStore.fetchStadiumsByCountrySlug(countrySlug)
         } catch (error) {
-            console.log('error: ', error);
+            console.log("error: ", error);
         }
-    })
+    });
 
     // export let left
     // export let top
@@ -41,14 +42,22 @@
             color: "green",
             img: "https://placekitten.com/200/200",
         },
-        { label: "three", color: "blue",  img: "/images/stadiums/germany/20732.jpg" },
-        { label: "four", color: "orange", img: "/images/stadiums/germany/20732_1.jpg" },
+        {
+            label: "three",
+            color: "blue",
+            img: "/images/stadiums/germany/20732.jpg",
+        },
+        {
+            label: "four",
+            color: "orange",
+            img: "/images/stadiums/germany/20732_1.jpg",
+        },
         { label: "five", color: "yellow" },
         { label: "six", color: "pink" },
         { label: "seven", color: "white" },
         { label: "eight", color: "purple" },
     ];
-    let items2 = []
+    let items2 = [];
     let current = 0;
     let show = 1;
 
@@ -160,10 +169,12 @@
     <div class="row align-center">
         <div class="col-12 text-center relative">
             <h2>
-                <!-- <span class="text-primary"><b>{data[0]["venue"]["name"]}</b></span>, <span class="text-muted">{data[0]["venue"]["city"]}</span> -->
+                <span class="text-primary"
+                    ><b>{data["stadium"]["name"]}</b></span
+                >, <span class="text-muted">{data["stadium"]["city"]}</span>
             </h2>
             <h3 class="">
-                <!-- {formatNumber(data[0]["venue"]["capacity"])} -->
+                {formatNumber(data["stadium"]["capacity"])}
             </h3>
             <button
                 type="button"
@@ -195,6 +206,11 @@
             items.length: {items.length}<br />
             current: {current}<br />
             countrySlug: {countrySlug}<br />
+            data: {data}<br />
+            top: {top}<br />
+            left: {left}<br />
+            data.images.length: {data.images?.length}<br />
+            <!-- stadium: {stadium}<br /> -->
             <!-- <button type="button" on:click={handleOpenModal} class="image" style="background: transparent; padding: 0; border: none !important; font-size:0;">
             <img
                 src="{base}/images/stadiums/{countrySlug}/{data[0]['images'][imageIndex]['name']}"
@@ -214,41 +230,51 @@
                         {item.label}
                     </div>
                 </Carousel> -->
-                <Carousel items={items} let:item bind:current bind:show>
-                    <!-- <div class="item" style="background-image: url({base}/images/stadiums/{countrySlug}/{item.name}); background-size: contain; background-repeat: no-repeat; background-position: center center;">
+                <Carousel items={data.images} let:item bind:current bind:show>
+                    <div
+                        class="item"
+                        style="background-image: url({base}/images/stadiums/{countrySlug}/{item.name}); background-size: contain; background-repeat: no-repeat; background-position: center center;"
+                    >
                         {item.name}
-                    </div> -->
+                    </div>
                 </Carousel>
             </div>
-            {#each items as item, i}
-                <span
-                    role="button"
-                    tabindex="0"
-                    on:keydown={() => {}}
-                    class="carousel-navigation-item"
-                    on:click={() => (current = i)}
-                >
-                    <svg viewBox="0 0 512 512" width="12" version="1.1" id="ring">
-                        <ellipse
-                            style="fill:#325bad;"
-                            id="outerRing"
-                            cx="256"
-                            cy="256"
-                            rx="256"
-                            ry="256"
-                        />
-                        <ellipse
-                            style="fill:#fff;"
-                            class={current == i && 'active-item'}
-                            id="innerRing"
-                            cx="256"
-                            cy="256"
-                            rx="202"
-                            ry="202"
-                        />
-                    </svg>
-                </span>
-            {/each}
+            <div class="d-flex justify-center">
+                {#each data.images as image, i}
+                    <span
+                        role="button"
+                        tabindex="0"
+                        on:keydown={() => {}}
+                        class="carousel-navigation-item"
+                        on:click={() => (current = i)}
+                    >
+                        <svg
+                            viewBox="0 0 512 512"
+                            width="12"
+                            version="1.1"
+                            id="ring"
+                        >
+                            <ellipse
+                                style="fill:#325bad;"
+                                id="outerRing"
+                                cx="256"
+                                cy="256"
+                                rx="256"
+                                ry="256"
+                            />
+                            <ellipse
+                                style="fill:#fff;"
+                                class={current == i && "active-item"}
+                                id="innerRing"
+                                cx="256"
+                                cy="256"
+                                rx="202"
+                                ry="202"
+                            />
+                        </svg>
+                    </span>
+                {/each}
+            </div>
         </div>
         <!-- <div class="col-1 border-2" style="overflow: hidden;">
             <button type="button" on:click={() => (imageIndex += 1)}
@@ -261,7 +287,7 @@
     </div>
     <div class="row align-center">
         <div class="col-4 text-center border-1" style="">
-            <!-- <h3 class="text-center">{data[0].team?.name}</h3> -->
+            <!-- <h3 class="text-center">{data.stadium?.name}</h3> -->
             <!-- <img
                 src="{base}/images/teams/{countrySlug}/{data[0]['team'][
                     'api_football_id'

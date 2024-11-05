@@ -47,6 +47,7 @@
     };
     $: country2 = {};
     let stadiums = [];
+    let selectedStadium = null;
     let teams = [];
     let stadiums2 = [];
     // $:stadiums = [];
@@ -344,9 +345,12 @@
 
         const { stadiumId, clientX, clientY, rect } = event.detail;
         // const stadiumId = event.detail;
-        stadiums = $stadiumStore.stadiumsByCountry[country.slug]?.filter(
-            (team) => team.id == stadiumId,
-        );
+        // stadiums = $stadiumStore.stadiumsByCountry[country.slug]?.filter(
+        //     (team) => team.id == stadiumId,
+        // );
+        console.log('stadiums: ', stadiums);
+        selectedStadium = stadiums.find((el) => el.stadium.id == stadiumId)
+        console.log('selectedStadium: ', selectedStadium);
         // teams = $stadiumStore.stadiums[country.slug]?.filter(
         //     (team) => team.venue.api_football_id == stadiumId,
         // );
@@ -358,7 +362,7 @@
         // console.log('rect.width: ', rect.width)
         // console.log('myElement: ', myElement)
         // console.log('clientY: ', clientY);
-        console.log("rect.y: ", rect.y);
+        // console.log("rect.y: ", rect.y);
 
         if (distFromLeft > offsetWidth / 2) {
             // console.log('Left tooltip')
@@ -566,6 +570,8 @@
         $stadiumStore.stadiumsByCountry: {$stadiumStore.stadiumsByCountry}<br />
         <!-- $stadiumStore.stadiumsByCountry[0]: {$stadiumStore.stadiumsByCountry[0]}<br /> -->
         $stadiumStore.stadiumsByCountry[switzerland].length: {$stadiumStore.stadiumsByCountry['switzerland']?.length}<br />
+        stadiums.length: {stadiums.length}<br />
+        selectedStadium: {selectedStadium}<br />
         <button on:click={() => stadiumStore.toggleLoading()}>Toggle loading</button><br /><br />
         <div style="">
             <button on:click={decreaseCount}>decrease</button>
@@ -667,7 +673,7 @@
         {/if}
         {#if showStadiumTooltip}
             <TooltipStadium
-                data={stadiums}
+                data={selectedStadium}
                 countrySlug={country.slug}
                 {left}
                 {top}
