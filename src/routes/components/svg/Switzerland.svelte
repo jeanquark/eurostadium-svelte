@@ -17,6 +17,7 @@
     let flag = 1
     // $: filter = console.log('update filter value')
     $: filterUpdate(filter)
+    $: updateStadiums(stadiums3)
     // $: stadiumsUpdate(stadiums2)
 
     onMount(() => {
@@ -213,20 +214,26 @@
         }, 500)
         // }
     }
-    function a(stadiumObj, stadiums) {
+    // function a(stadiumObj, stadiums) {
+    const a = (stadiumObj, stadiums) => {
         console.log('stadiumObj: ', stadiumObj)
         console.log('stadiums: ', stadiums)
         console.log('country: ', country)
+        stadiumObj2 = stadiumObj
         addStadiumsToSvgMap(stadiumObj, stadiums, country.leagues)
     }
 
     const filterUpdate = (filter) => {
-        console.log('filterUpdate: ', filter)
+        console.log('[Switzerland] filterUpdate: ', filter)
+        return
         const stadiumObj = document.getElementById('stadiums')
-        console.log('stadiumObj: ', stadiumObj)
-        console.log('stadiumObj2: ', stadiumObj2)
-        console.log('stadiums3.length: ', stadiums3.length)
-        console.log('country.leagues: ', country.leagues)
+        // console.log('stadiumObj: ', stadiumObj)
+        // console.log('stadiumObj2: ', stadiumObj2)
+        // console.log('stadiums3.length: ', stadiums3.length)
+        // console.log('country.leagues: ', country.leagues)
+        // console.log('stadiums3: ', stadiums3);
+
+        // return
         // if (!stadiumObj) {
         //     alert('No stadium object')
         //     return
@@ -239,8 +246,18 @@
         }
         // return
     }
-    const stadiumsUpdate = (stadiums) => {
-        // console.log('stadiumsUpdate: ', stadiums2)
+    const updateStadiums = (stadiums) => {
+        console.log('[Switzerland] updateStadiums: ', stadiums)
+        // stadiums3 = []
+        // for (let i = 0; i < stadiums.length; i++) {
+        //     stadiums3.push(stadiums[i])
+        // }
+        // addStadiumsToSvgMap(stadiumObj2, stadiums, country.leagues)
+        const stadiumObj = document.getElementById('stadiums')
+        // a(stadiumObj, stadiums)
+        console.log('country.leagues: ', country.leagues);
+        console.log('stadiumObj2: ', stadiumObj2);
+        // addStadiumsToSvgMap(stadiumObj2, stadiums, country.leagues)
     }
 </script>
 

@@ -42,6 +42,7 @@ function createStadiumStore() {
             update((state) => ({ ...state, loading: !state.loading }))
         },
         async fetchStadiumsByCountrySlug(countrySlug) {
+            console.log('[stadiumStore] fetchStadiumsByCountrySlug: ', countrySlug);
             const { data, error } = await supabase.from('teams_view').select(`stadium_id, stadium_api_football_id, stadium_name, stadium_city, stadium_capacity, stadium_x, stadium_y, league_id, league_api_football_id, league_name, team_id, team_api_football_id, team_name, image_name, image_src`).eq('country_slug', countrySlug)
             console.log('[stadiumStore] data: ', data)
             if (error) {

@@ -79,9 +79,12 @@
         isHovered = false;
     }
     const formatNumber = (number) => {
-        return number
-            .toString()
-            .replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+        if (number) {
+            return number
+                .toString()
+                .replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+        }
+        return
     };
     const handleMouseOverTooltip = () => {
         // console.log('[TooltipStadium] handleMouseOver');
@@ -170,11 +173,11 @@
         <div class="col-12 text-center relative">
             <h2>
                 <span class="text-primary"
-                    ><b>{data["stadium"]["name"]}</b></span
-                >, <span class="text-muted">{data["stadium"]["city"]}</span>
+                    ><b>{data?.stadium?.name}</b></span
+                >, <span class="text-muted">{data?.stadium?.city}</span>
             </h2>
             <h3 class="">
-                {formatNumber(data["stadium"]["capacity"])}
+                {formatNumber(data?.stadium?.capacity)}
             </h3>
             <button
                 type="button"
@@ -209,7 +212,7 @@
             data: {data}<br />
             top: {top}<br />
             left: {left}<br />
-            data.images.length: {data.images?.length}<br />
+            data.images.length: {data?.images?.length}<br />
             <!-- stadium: {stadium}<br /> -->
             <!-- <button type="button" on:click={handleOpenModal} class="image" style="background: transparent; padding: 0; border: none !important; font-size:0;">
             <img

@@ -1,96 +1,86 @@
 <script>
-    import { onMount } from "svelte";
-    import { base } from "$app/paths";
-    import { dev } from "$app/environment";
-    import Counter from "./Counter.svelte";
-    import Tooltip from "./Tooltip.svelte";
-    import TooltipCountry from "./TooltipCountry.svelte";
-    import TooltipStadium from "./TooltipStadium.svelte";
-    import Modal from "./components/Modal.svelte";
-    import Circle from "./Circle.svelte";
-    import Rectangle from "./Rectangle.svelte";
-    import Europe from "./components/svg/Europe.svelte";
-    import Germany from "./components/svg/Germany.svelte";
-    import welcome from "$lib/images/svelte-welcome.webp";
-    import welcome_fallback from "$lib/images/svelte-welcome.png";
-    import { db } from "../lib/firebase/firebase";
-    import { supabase } from "../lib/supabase/supabaseClient";
-    import {
-        collection,
-        query,
-        where,
-        orderBy,
-        limit,
-        doc,
-        getDoc,
-        getDocs,
-        addDoc,
-        setDoc,
-        updateDoc,
-        deleteDoc,
-    } from "firebase/firestore";
-    import { counter } from "../store/count";
-    import { countryStore } from "../store/country";
-    import { leagueStore } from "../store/league";
-    import { stadiumStore } from "../store/stadium";
-    import camelize from "../utils/convertToCamelCase";
-    import Carousel from "./components/Carousel.svelte";
-    import FilterButtons from "./components/FilterButtons.svelte";
+    import { createEventDispatcher, onMount } from 'svelte'
+    import { base } from '$app/paths'
+    import { dev } from '$app/environment'
+    import Counter from './Counter.svelte'
+    import Tooltip from './Tooltip.svelte'
+    import TooltipCountry from './TooltipCountry.svelte'
+    import TooltipStadium from './TooltipStadium.svelte'
+    import Modal from './components/Modal.svelte'
+    import Circle from './Circle.svelte'
+    import Rectangle from './Rectangle.svelte'
+    import Europe from './components/svg/Europe.svelte'
+    import Germany from './components/svg/Germany.svelte'
+    import welcome from '$lib/images/svelte-welcome.webp'
+    import welcome_fallback from '$lib/images/svelte-welcome.png'
+    import { db } from '../lib/firebase/firebase'
+    import { supabase } from '../lib/supabase/supabaseClient'
+    import { collection, query, where, orderBy, limit, doc, getDoc, getDocs, addDoc, setDoc, updateDoc, deleteDoc } from 'firebase/firestore'
+    import { counter } from '../store/count'
+    import { countryStore } from '../store/country'
+    import { leagueStore } from '../store/league'
+    import { stadiumStore } from '../store/stadium'
+    import camelize from '../utils/convertToCamelCase'
+    import Carousel from './components/Carousel.svelte'
+    import FilterButtons from './components/FilterButtons.svelte'
 
-    let map = "europe-with-russia.svg";
-    let countryLeagues = [];
+    const dispatch = createEventDispatcher();
+    
+    let map = 'europe-with-russia.svg'
+    let countryLeagues = []
     let country = {
-        slug: "",
-        name: "",
+        slug: '',
+        name: '',
         population: 0,
         leagues: [],
-    };
-    $: country2 = {};
-    let stadiums = [];
-    let selectedStadium = null;
-    let teams = [];
-    let stadiums2 = [];
+    }
+    $: country2 = {}
+    // let stadiums = [];
+    $: stadiums = []
+    let selectedStadium = null
+    let teams = []
+    let stadiums2 = []
     // $:stadiums = [];
-    let left = 0;
-    let top = 0;
+    let left = 0
+    let top = 0
     // $: countryLeagues = []
-    let showCountryTooltip = false;
-    let showStadiumTooltip = false;
-    let showFilterButtons = false;
-    let showComponent = false;
-    let filterValue = "all";
-    let svgMap;
-    let showModal = false;
-    let myElement;
-    let tooltipCountryWidth = 0;
-    let tooltipStadiumWidth = 0;
-    let mouseOverTooltip = false;
-    let isMobileDevice = false;
+    let showCountryTooltip = false
+    let showStadiumTooltip = false
+    let showFilterButtons = false
+    let showComponent = false
+    let filterValue = 'all'
+    let svgMap
+    let showModal = false
+    let myElement
+    let tooltipCountryWidth = 0
+    let tooltipStadiumWidth = 0
+    let mouseOverTooltip = false
+    let isMobileDevice = false
 
     onMount(async () => {
         if (hasTouchSupport() && hasSmallScreen()) {
-            console.log("Mobile device detected");
+            console.log('Mobile device detected')
         } else {
-            console.log("Desktop device detected");
+            console.log('Desktop device detected')
         }
         if ($leagueStore.leagues.length < 2) {
-            fetchLeagues();
+            fetchLeagues()
         }
         if (hasSmallScreen() && hasTouchSupport()) {
-            isMobileDevice = true;
+            isMobileDevice = true
         }
-        showComponent = true;
+        showComponent = true
 
         // fetchStadiumsByCountrySlug('switzerland');
-    });
+    })
 
     function mod(n, m) {
-        return ((n % m) + m) % m;
+        return ((n % m) + m) % m
     }
 
     const toggleMap = () => {
         // console.clear();
-        console.log("toggleMap");
+        console.log('toggleMap')
         // console.log('component: ', component);
         // component = Circle
         // if (map == "europe-with-russia.svg") {
@@ -100,117 +90,114 @@
         // }
         // component == Circle ? component = Rect : component = Circle
         // console.log('currentComponent: ', currentComponent)
-        if (componentName == "Circle") {
-            componentName = "Rect";
+        if (componentName == 'Circle') {
+            componentName = 'Rect'
         } else {
-            componentName = "Circle";
+            componentName = 'Circle'
         }
         // loadComponent();
-    };
+    }
 
     const loadComponent = async (map) => {
-        console.log("loadComponent map: ", map);
+        console.log('loadComponent map: ', map)
         // let myComponent
         // console.log('myComponent: ', myComponent);
         // const module = await import (`./${componentName}.svelte`);
-        const module = await import(`./components/svg/${map}.svelte`);
+        const module = await import(`./components/svg/${map}.svelte`)
         // const module = await import ('./Circle.svelte');
-        console.log("module: ", module);
-        currentComponent = module.default;
-        showStadiumTooltip = false;
-    };
+        console.log('module: ', module)
+        currentComponent = module.default
+        showStadiumTooltip = false
+    }
 
     const displayMap = async (map) => {
-        loadComponent(map);
-    };
+        loadComponent(map)
+    }
 
     function useTooltip() {}
     function abc(e) {
-        console.log("abc: ", e);
+        console.log('abc: ', e)
     }
-    let currentComponent = Europe;
-    let componentName = "Circle";
+    let currentComponent = Europe
+    let componentName = 'Circle'
     // let component2 = Circle
 
     const fetchCountries = async () => {
         try {
-            await countryStore.fetchCountries();
+            await countryStore.fetchCountries()
         } catch (error) {
-            console.log("error: ", error);
+            console.log('error: ', error)
         }
-    };
+    }
 
     const fetchLeagues = async () => {
-        await leagueStore.fetchLeagues();
-        return;
-        const querySnapshot = await getDocs(collection(db, "leagues"));
+        await leagueStore.fetchLeagues()
+        return
+        const querySnapshot = await getDocs(collection(db, 'leagues'))
         // console.log('querySnapshot: ', querySnapshot);
-        const array = [];
+        const array = []
         querySnapshot.forEach((doc) => {
             // doc.data() is never undefined for query doc snapshots
             // console.log(doc.id, " => ", doc.data());
-            array.push(doc.data());
-        });
+            array.push(doc.data())
+        })
         // console.log('array: ', array)
-        $leagueStore.leagues = array;
-    };
+        $leagueStore.leagues = array
+    }
     const fetchStadiumsByCountrySlug = async (countrySlug) => {
         await stadiumStore.fetchStadiumsByCountrySlug(countrySlug)
-    };
+    }
 
     const fetchLeagueByApiFootballId = async (leagueId) => {
-        console.log("fetchLeagueByApiFootballId");
-        console.log("leagues1: ", leagues);
-        return;
+        console.log('fetchLeagueByApiFootballId')
+        console.log('leagues1: ', leagues)
+        return
         leagueHandlers.setLeagues([
-            { id: 1, text: "Learn Svelte state management", completed: false },
+            { id: 1, text: 'Learn Svelte state management', completed: false },
             {
                 id: 2,
-                text: "Build a Todo-list with state management",
+                text: 'Build a Todo-list with state management',
                 completed: false,
             },
-        ]);
-        console.log("leagues2: ", leagues);
-        return;
-        const q = query(
-            collection(db, "leagues"),
-            where("api_football_id", "==", leagueId),
-        );
-        const querySnapshot = await getDocs(q);
+        ])
+        console.log('leagues2: ', leagues)
+        return
+        const q = query(collection(db, 'leagues'), where('api_football_id', '==', leagueId))
+        const querySnapshot = await getDocs(q)
         querySnapshot.forEach((doc) => {
             // doc.data() is never undefined for query doc snapshots
-            console.log(doc.id, " => ", doc.data());
-        });
-    };
+            console.log(doc.id, ' => ', doc.data())
+        })
+    }
     const updateLeague = async () => {
-        console.log("updateLeague");
-        const washingtonRef = doc(db, "leagues", "QXaYrt8zQws8ONic7p6D");
+        console.log('updateLeague')
+        const washingtonRef = doc(db, 'leagues', 'QXaYrt8zQws8ONic7p6D')
 
         // Set the "capital" field of the city 'DC'
         await updateDoc(washingtonRef, {
-            name: "Challenge League",
-        });
-    };
+            name: 'Challenge League',
+        })
+    }
     const setLeagues = async () => {
-        console.log("setLeagues");
+        console.log('setLeagues')
 
-        const response = await fetch("/json/leagues.json");
-        const json = await response.json();
+        const response = await fetch('/json/leagues.json')
+        const json = await response.json()
         // console.log(json)
 
-        const leaguesRef = doc(collection(db, "leagues2"));
+        const leaguesRef = doc(collection(db, 'leagues2'))
 
-        const abc = json.length;
+        const abc = json.length
         // console.log('abc: ', abc);
         // return
         for (let i = 0; i < json.length; i++) {
-            await addDoc(collection(db, "leagues"), json[i]);
+            await addDoc(collection(db, 'leagues'), json[i])
         }
-    };
+    }
     const deleteLeague = async () => {
-        console.log("deleteLeague");
-        await deleteDoc(doc(db, "leagues2", "SF"));
-    };
+        console.log('deleteLeague')
+        await deleteDoc(doc(db, 'leagues2', 'SF'))
+    }
 
     const onCountryHover = (event) => {
         // console.log("onCountryHover: ", event.detail);
@@ -218,57 +205,55 @@
         // console.clear();
         // country = event.detail
         if (isMobileDevice) {
-            console.log("isMobileDevice");
+            console.log('isMobileDevice')
             // return
         } else {
-            showCountryTooltip = true;
+            showCountryTooltip = true
         }
         // const leagueIds = event.detail?.split(",");
-        const { leagueIds, clientX, rect } = event.detail;
+        const { leagueIds, clientX, rect } = event.detail
         // console.log('clientX: ', clientX)
         // console.log('rect: ', rect);
         // console.log("leagueIds: ", leagueIds);
         // const offsetWidth = document.getElementById("svgWrapper").offsetWidth;
-        const offsetWidth = svgMap.offsetWidth;
+        const offsetWidth = svgMap.offsetWidth
         // console.log("offsetWidth: ", offsetWidth);
         // const tooltip = document.getElementById("tooltip");
         // const tooltipRect = tooltip.getBoundingClientRect();
         // let left = 0
-        const tooltipRect = svgMap.getBoundingClientRect();
+        const tooltipRect = svgMap.getBoundingClientRect()
         // console.log('abc: ', clientX - tooltipRect.left);
-        const distFromLeft = clientX - parseInt(tooltipRect.left);
+        const distFromLeft = clientX - parseInt(tooltipRect.left)
 
         if (distFromLeft > offsetWidth / 2) {
             // console.log('Left tooltip')
             // tooltip.style.left = `${rect.x - 410 - rect.width}px`
             // tooltip.style.left = `${rect.x - rect.width - parseInt(tooltipRect.width)}px`
             // left = parseInt(rect.x) - parseInt(tooltipRect.width) - 15
-            left = parseInt(rect.x) - parseInt(tooltipCountryWidth) - 10;
+            left = parseInt(rect.x) - parseInt(tooltipCountryWidth) - 10
             // left = parseInt(`${rect.x - 200}px`);
             // tooltip.style.left = offsetLeft + (clientX - parseInt(tooltipRect.width)) - 20 + 'px'
         } else {
             // console.log('Right tooltip')
-            left = parseInt(rect.x) + parseInt(rect.width);
+            left = parseInt(rect.x) + parseInt(rect.width)
         }
         // left = 0
         // console.log("left: ", left);
 
         // const leagueIds = data.leagueIds
         if (!leagueIds?.length) {
-            alert("leagueIds are not defined");
-            return;
+            alert('leagueIds are not defined')
+            return
         }
-        countryLeagues = [];
+        countryLeagues = []
         // console.log("abc: ", abc);
         for (let i = 0; i < leagueIds.length; i++) {
             // console.log('leagueIds[i]: ', leagueIds[i])
             // fetchLeagueByApiFootballId(parseInt(leagues[i]))
-            const abc = leagueStore.leagues?.find(
-                (league) => league.api_football_id == parseInt(leagueIds[i]),
-            );
+            const abc = leagueStore.leagues?.find((league) => league.api_football_id == parseInt(leagueIds[i]))
             // console.log("abc: ", abc);
             if (abc) {
-                countryLeagues.push(abc);
+                countryLeagues.push(abc)
             }
         }
 
@@ -283,29 +268,29 @@
             name: event.detail.countryName,
             population: event.detail.population,
             leagues: countryLeagues,
-        };
-    };
+        }
+    }
     const onCountryClick = async (event) => {
-        const countrySlug = event.detail;
-        console.log("onCountryClick countrySlug: ", countrySlug);
+        const countrySlug = event.detail
+        console.log('onCountryClick countrySlug: ', countrySlug)
         // return
         if (isMobileDevice) {
-            console.log("isMobileDevice");
+            console.log('isMobileDevice')
             // displayMap(camelize(country));
             // return
         }
-        showCountryTooltip = false;
+        showCountryTooltip = false
 
         // await fetchStadiumsByCountrySlug('switzerland');
         // await stadiumStore.fetchStadiumsByCountrySlug(countrySlug);
 
-        const stadiumsByCountry = $stadiumStore.stadiumsByCountry[countrySlug];
+        const stadiumsByCountry = $stadiumStore.stadiumsByCountry[countrySlug]
 
-        console.log("stadiumsByCountry: ", stadiumsByCountry);
-        console.log('stadiumStore.stadiumsByCountry: ', $stadiumStore.stadiumsByCountry);
+        console.log('stadiumsByCountry: ', stadiumsByCountry)
+        console.log('stadiumStore.stadiumsByCountry: ', $stadiumStore.stadiumsByCountry)
         if (!$stadiumStore.stadiumsByCountry[countrySlug]) {
             // const querySnapshot = await getDocs(collection(db, `countries/${country}/stadiums`));
-            await stadiumStore.fetchStadiumsByCountrySlug(countrySlug);
+            await stadiumStore.fetchStadiumsByCountrySlug(countrySlug)
 
             // const stadiumsRef = collection(db, `countries/${country}/stadiums`)
             // const q = query(stadiumsRef, orderBy('venue.capacity', 'asc'))
@@ -321,8 +306,8 @@
             // stadiumStore.setStadiums({ [country]: array })
         }
 
-        stadiums = $stadiumStore.stadiumsByCountry[countrySlug];
-        console.log('stadiums: ', stadiums);
+        stadiums = $stadiumStore.stadiumsByCountry[countrySlug]
+        console.log('stadiums: ', stadiums)
         // return
         // const abc = $stadiumStore.stadiums;
         // console.log("abc: ", abc);
@@ -330,35 +315,35 @@
         // const def = camelize(countrySlug);
         // console.log("def: ", def);
         // return
-        displayMap(camelize(countrySlug));
-        filterValue = "all";
-        showFilterButtons = true;
-    };
+        displayMap(camelize(countrySlug))
+        filterValue = 'all'
+        showFilterButtons = true
+    }
     const onCountryLeave = () => {
         // console.log("onCountryLeave");
-        showCountryTooltip = false;
-    };
+        showCountryTooltip = false
+    }
 
     const onStadiumHover = (event) => {
-        console.log("onStadiumHover: ", event.detail);
+        console.log('onStadiumHover: ', event.detail)
         // return
 
-        const { stadiumId, clientX, clientY, rect } = event.detail;
+        const { stadiumId, clientX, clientY, rect } = event.detail
         // const stadiumId = event.detail;
         // stadiums = $stadiumStore.stadiumsByCountry[country.slug]?.filter(
         //     (team) => team.id == stadiumId,
         // );
-        console.log('stadiums: ', stadiums);
+        console.log('stadiums: ', stadiums)
         selectedStadium = stadiums.find((el) => el.stadium.id == stadiumId)
-        console.log('selectedStadium: ', selectedStadium);
+        console.log('selectedStadium: ', selectedStadium)
         // teams = $stadiumStore.stadiums[country.slug]?.filter(
         //     (team) => team.venue.api_football_id == stadiumId,
         // );
 
-        const offsetWidth = svgMap.offsetWidth;
-        const tooltipRect = svgMap.getBoundingClientRect();
-        const distFromLeft = clientX - parseInt(tooltipRect.left);
-        console.log("tooltipRect: ", tooltipRect);
+        const offsetWidth = svgMap.offsetWidth
+        const tooltipRect = svgMap.getBoundingClientRect()
+        const distFromLeft = clientX - parseInt(tooltipRect.left)
+        console.log('tooltipRect: ', tooltipRect)
         // console.log('rect.width: ', rect.width)
         // console.log('myElement: ', myElement)
         // console.log('clientY: ', clientY);
@@ -368,57 +353,57 @@
             // console.log('Left tooltip')
             // left = parseInt(rect.x) - parseInt(tooltipRect.width) - 8
             // left = parseInt(rect.x) - 420 - 4
-            left = parseInt(rect.x) - parseInt(tooltipStadiumWidth) - 0;
+            left = parseInt(rect.x) - parseInt(tooltipStadiumWidth) - 0
         } else {
             // console.log('Right tooltip')
-            left = parseInt(rect.x) + parseInt(rect.width) / 2;
+            left = parseInt(rect.x) + parseInt(rect.width) / 2
             // left = parseInt(rect.x) + 5
         }
-        top = rect.y - tooltipRect.top;
+        top = rect.y - tooltipRect.top
 
         if (isMobileDevice) {
-            console.log("isMobileDevice");
-            console.log("showModal1: ", showModal);
+            console.log('isMobileDevice')
+            console.log('showModal1: ', showModal)
             // if (!showModal) {
-            showModal = true;
+            showModal = true
             // }
-            console.log("showModal2: ", showModal);
+            console.log('showModal2: ', showModal)
         } else {
-            showStadiumTooltip = true;
+            showStadiumTooltip = true
         }
         // const tooltip = document.getElementById("tooltip");
         // if (tooltip) {
         // 	tooltip.style.display = "block";
         // }
         // console.log("stadiums: ", stadiums);
-    };
+    }
 
     const onStadiumLeave = (e) => {
-        console.log("onStadiumLeave e: ", e);
-        console.log("mouseOverTooltip: ", mouseOverTooltip);
+        console.log('onStadiumLeave e: ', e)
+        console.log('mouseOverTooltip: ', mouseOverTooltip)
         // if (!mouseOverTooltip) {
         if (isMobileDevice) {
-            return;
+            return
         }
-        showStadiumTooltip = false;
+        showStadiumTooltip = false
         // }
-    };
+    }
 
     const onTooltipStadiumHover = () => {
-        console.log("onTooltipStadiumHover");
+        console.log('onTooltipStadiumHover')
         // mouseOverTooltip = true
         // tooltip.style.display = 'block'
         // stadium.classList.add('hover')
-    };
+    }
 
     const onTooltipLeave = () => {
-        console.log("onTooltipLeave");
-        showStadiumTooltip = false;
-        const stadiums = document.getElementsByTagName("circle");
+        console.log('onTooltipLeave')
+        showStadiumTooltip = false
+        const stadiums = document.getElementsByTagName('circle')
         // console.log('stadiums: ', document.getElementsByTagName('circle'));
         for (let i = 0; i < stadiums.length; i++) {
             // console.log('i: ', i);
-            stadiums[i].classList.remove("hover");
+            stadiums[i].classList.remove('hover')
         }
         // mouseOverTooltip = false
         // const tooltip = document.getElementById('tooltip')
@@ -427,13 +412,23 @@
         //     stadium.classList.remove('hover')
         // }
         // tooltip.style.display = 'none'
-    };
+    }
     const onTooltipClose = () => {
-        showStadiumTooltip = false;
-    };
+        showStadiumTooltip = false
+    }
     const onModalOpen = () => {
-        showModal = true;
-    };
+        showModal = true
+    }
+    const onUpdateFilter = (value) => {
+        console.log('onUpdateFilter: ', value.detail)
+        filterValue = value.detail
+        // stadiums = value.detail
+        // dispatch('updateFilter', value.detail)
+    }
+    const onUpdateStadiums = (value) => {
+        console.log('onUpdateStadiums: ', value.detail)
+        stadiums = value.detail
+    }
 
     // Store
     // $: leagues = [];
@@ -443,37 +438,34 @@
     const increaseCount = () => {
         // $countStore.value += 1;
         // count.update((n) => n + 1);
-        counter.increment();
-    };
+        counter.increment()
+    }
     const decreaseCount = () => {
         // $countStore.value -= 1;
         // count.update((n) => n - 1);
-        counter.decrement();
-    };
+        counter.decrement()
+    }
     const fetchCountry = async () => {
-        const country = "germany";
-        return;
-        const response = await fetch(`/json/countries/${country}.json`);
-        const json = await response.json();
+        const country = 'germany'
+        return
+        const response = await fetch(`/json/countries/${country}.json`)
+        const json = await response.json()
 
-        const abc = json.length;
-        console.log("abc: ", abc);
+        const abc = json.length
+        console.log('abc: ', abc)
 
         for (let i = 0; i < json.length; i++) {
-            await addDoc(
-                collection(db, `countries/${country}/stadiums`),
-                json[i],
-            );
+            await addDoc(collection(db, `countries/${country}/stadiums`), json[i])
         }
-    };
+    }
 
     const hasSmallScreen = () => {
-        const minWidth = 1024; // Minimum width for desktop devices
-        return window.innerWidth < minWidth || screen.width < minWidth;
-    };
+        const minWidth = 1024 // Minimum width for desktop devices
+        return window.innerWidth < minWidth || screen.width < minWidth
+    }
     const hasTouchSupport = () => {
-        return "ontouchstart" in window || navigator.maxTouchPoints > 0;
-    };
+        return 'ontouchstart' in window || navigator.maxTouchPoints > 0
+    }
 
     // var el = document.getElementsByClassName("test");
     // for (i in el){
@@ -485,8 +477,8 @@
     //     });
     // }
     const doSomeThing = () => {
-        console.log("doSomeThing");
-    };
+        console.log('doSomeThing')
+    }
 </script>
 
 <svelte:head>
@@ -542,12 +534,8 @@
             <div class="row align-center">
                 <div class="col-12 text-center relative">
                     <h2>
-                        <span class="text-primary"
-                            ><b>{stadiums[0]?.venue?.name}</b></span
-                        >,
-                        <span class="text-muted"
-                            >{stadiums[0]?.venue?.city}</span
-                        >
+                        <span class="text-primary"><b>{stadiums[0]?.venue?.name}</b></span>,
+                        <span class="text-muted">{stadiums[0]?.venue?.city}</span>
                     </h2>
                     <h3 class="">
                         {stadiums[0]?.venue?.capacity}
@@ -572,6 +560,7 @@
         $stadiumStore.stadiumsByCountry[switzerland].length: {$stadiumStore.stadiumsByCountry['switzerland']?.length}<br />
         stadiums.length: {stadiums.length}<br />
         selectedStadium: {selectedStadium}<br />
+        filterValue: {filterValue}<br />
         <button on:click={() => stadiumStore.toggleLoading()}>Toggle loading</button><br /><br />
         <div style="">
             <button on:click={decreaseCount}>decrease</button>
@@ -584,16 +573,11 @@
         <div>
             <!-- <button on:click={() => toggleMap}>Toggle map</button><br /> -->
             <div style="display: flex; gap: 5px; justify-content: center;">
-                <button on:click={() => displayMap("Europe")}>Europe</button><br
-                />
-                <button on:click={() => displayMap("Germany")}>Germany</button
-                ><br />
-                <button on:click={() => displayMap("France")}>France</button><br
-                />
-                <button on:click={() => displayMap("Switzerland")}
-                    >Switzerland</button
-                ><br />
-                <button on:click={() => displayMap("Test")}>Test</button><br />
+                <button on:click={() => displayMap('Europe')}>Europe</button><br />
+                <button on:click={() => displayMap('Germany')}>Germany</button><br />
+                <button on:click={() => displayMap('France')}>France</button><br />
+                <button on:click={() => displayMap('Switzerland')}>Switzerland</button><br />
+                <button on:click={() => displayMap('Test')}>Test</button><br />
             </div>
             <br />
             <!-- <button on:click={() => loadComponent()}>Load component</button><br /> -->
@@ -602,9 +586,7 @@
             <div style="display: flex; gap: 5px; justify-content: center;">
                 <button on:click={() => fetchLeagues()}>Fetch leagues</button>
                 <br />
-                <button on:click={() => fetchLeagueByApiFootballId()}
-                    >Fetch league</button
-                >
+                <button on:click={() => fetchLeagueByApiFootballId()}>Fetch league</button>
                 <br />
                 <button on:click={() => updateLeague()}>Update league</button>
                 <br />
@@ -612,9 +594,7 @@
                 <br />
                 <button on:click={() => deleteLeague()}>Delete league</button>
                 <br />
-                <button on:click={() => fetchCountry()}
-                    >Fetch country data</button
-                >
+                <button on:click={() => fetchCountry()}>Fetch country data</button>
             </div>
 
             <!-- {#await import("./{component2}.svelte") then Module}
@@ -652,37 +632,14 @@
     </div>
 </div>
 
-<div
-    class="row my-0 py-0 border-4 justify-content-center"
-    style="position: relative;"
->
-    <div
-        class="col-sm-1 col-md-4 col-lg-3 col-xl-4 border-1 hidden-sm-and-down"
-        style=""
-    ></div>
-    <div
-        class="col-sm-10 col-md-4 col-lg-6 col-xl-4 border-2"
-        style="background: #FFF;"
-    >
+<div class="row my-0 py-0 border-4 justify-content-center" style="position: relative;">
+    <div class="col-sm-1 col-md-4 col-lg-3 col-xl-4 border-1 hidden-sm-and-down" style=""></div>
+    <div class="col-sm-10 col-md-4 col-lg-6 col-xl-4 border-2" style="background: #FFF;">
         {#if showCountryTooltip}
-            <TooltipCountry
-                data={country}
-                {left}
-                bind:tooltipWidth={tooltipCountryWidth}
-            />
+            <TooltipCountry data={country} {left} bind:tooltipWidth={tooltipCountryWidth} />
         {/if}
         {#if showStadiumTooltip}
-            <TooltipStadium
-                data={selectedStadium}
-                countrySlug={country.slug}
-                {left}
-                {top}
-                bind:tooltipWidth={tooltipStadiumWidth}
-                on:tooltipHover={onTooltipStadiumHover}
-                on:tooltipLeave={onTooltipLeave}
-                on:tooltipClose={onTooltipClose}
-                on:modalOpen={onModalOpen}
-            />
+            <TooltipStadium data={selectedStadium} countrySlug={country.slug} {left} {top} bind:tooltipWidth={tooltipStadiumWidth} on:tooltipHover={onTooltipStadiumHover} on:tooltipLeave={onTooltipLeave} on:tooltipClose={onTooltipClose} on:modalOpen={onModalOpen} />
         {/if}
 
         <!-- {#if showComponent} -->
@@ -701,17 +658,15 @@
                 on:stadiumHover={onStadiumHover}
                 on:stadiumLeave={onStadiumLeave}
                 on:clickOutsideCountry={() => {
-                    displayMap("Europe");
-                    showFilterButtons = false;
+                    displayMap('Europe')
+                    showFilterButtons = false
                 }}
             />
         </div>
     </div>
-    <div
-        class="col-sm-1 col-md-4 col-lg-3 col-xl-4 justify-center align-content border-3 d-xs-none hidden-sm-and-down"
-    >
+    <div class="col-sm-1 col-md-4 col-lg-3 col-xl-4 justify-center align-content border-3 d-xs-none hidden-sm-and-down">
         {#if showFilterButtons}
-            <FilterButtons {country} />
+            <FilterButtons {country} on:updateFilter={onUpdateFilter} on:updateStadiums={onUpdateStadiums} />
         {/if}
     </div>
 </div>
