@@ -74,16 +74,17 @@
         }
     }
     footer {
-        /* position: absolute; */
-        /* position: fixed; */
-        /* bottom: 0; */
-        margin-top: auto;
+        /* margin-top: auto; */
         width: 100%;
-        height: 360px;
+        /* height: 360px; */
+        height: 200px;
         border: 1px solid red;
         background-image: url('/images/footer.svg');
-        background-size: cover;
         background-repeat: no-repeat;
+        /* background-position: 100% 100%; */
+        background-position: center center;
+        background-size: cover;
+        /* background-size: contain; */
     }
     /* .app {
 		display: flex;

@@ -11,6 +11,7 @@
     export let stadiums3
     let radius = 15
     let stadiumObj2
+    let stadiumObj3
     let clientX
     let abc
     let panzoomRef
@@ -27,6 +28,7 @@
         console.log('stadiums: ', stadiums)
         console.log('[onMount] stadiumObj: ', document.getElementById('stadiums'))
         console.log('[onMount] stadiumObj2: ', stadiumObj2)
+        stadiumObj3 = document.getElementById('stadiums')
         // let circleRadius = 10
         // let leagueColors = ['#FF0000', '#FFFF00']
 
@@ -216,11 +218,11 @@
     }
     // function a(stadiumObj, stadiums) {
     const a = (stadiumObj, stadiums) => {
-        console.log('stadiumObj: ', stadiumObj)
-        console.log('stadiums: ', stadiums)
-        console.log('country: ', country)
+        console.log('a stadiumObj: ', stadiumObj)
+        console.log('a stadiums: ', stadiums)
+        console.log('a country: ', country)
         stadiumObj2 = stadiumObj
-        addStadiumsToSvgMap(stadiumObj, stadiums, country.leagues)
+        addStadiumsToSvgMap(stadiumObj2, stadiums, country.leagues)
     }
 
     const filterUpdate = (filter) => {
@@ -255,9 +257,12 @@
         // addStadiumsToSvgMap(stadiumObj2, stadiums, country.leagues)
         const stadiumObj = document.getElementById('stadiums')
         // a(stadiumObj, stadiums)
+        console.log('stadiums3: ', stadiums3);
         console.log('country.leagues: ', country.leagues);
         console.log('stadiumObj2: ', stadiumObj2);
-        // addStadiumsToSvgMap(stadiumObj2, stadiums, country.leagues)
+        if (stadiumObj2) {
+            addStadiumsToSvgMap(stadiumObj2, stadiums, country.leagues)
+        }
     }
 </script>
 

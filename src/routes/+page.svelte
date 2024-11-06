@@ -37,7 +37,7 @@
     $: country2 = {}
     // let stadiums = [];
     $: stadiums = []
-    let selectedStadium = null
+    let selectedStadium = {}
     let teams = []
     let stadiums2 = []
     // $:stadiums = [];
@@ -538,7 +538,7 @@
                         <span class="text-muted">{stadiums[0]?.venue?.city}</span>
                     </h2>
                     <h3 class="">
-                        {stadiums[0]?.venue?.capacity}
+                        {stadiums[0]?.stadium?.capacity}
                     </h3>
                 </div>
             </div>
@@ -559,7 +559,7 @@
         <!-- $stadiumStore.stadiumsByCountry[0]: {$stadiumStore.stadiumsByCountry[0]}<br /> -->
         $stadiumStore.stadiumsByCountry[switzerland].length: {$stadiumStore.stadiumsByCountry['switzerland']?.length}<br />
         stadiums.length: {stadiums.length}<br />
-        selectedStadium: {selectedStadium}<br />
+        <!-- selectedStadium: {selectedStadium}<br /> -->
         filterValue: {filterValue}<br />
         <button on:click={() => stadiumStore.toggleLoading()}>Toggle loading</button><br /><br />
         <div style="">
