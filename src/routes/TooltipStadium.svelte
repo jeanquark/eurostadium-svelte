@@ -1,15 +1,17 @@
 <script>
     import { createEventDispatcher, onMount } from "svelte";
     import { base } from "$app/paths";
+    import { browser } from "$app/environment";
     import Carousel from "./components/Carousel.svelte";
+    import SvelteCarousel from "svelte-carousel";
     import { stadiumStore } from "../store/stadium";
 
-    export let data;
-    export let countrySlug;
-    // export let stadium;
-    export let left;
-    export let top;
-    export let tooltipWidth;
+    // export let data;
+    // export let countrySlug;
+    // export let left;
+    // export let top;
+    // export let tooltipWidth;
+    let { data, countrySlug, left, top, tooltipWidth = $bindable() } = $props();
 
     const dispatch = createEventDispatcher();
 
@@ -60,7 +62,34 @@
     let items2 = [];
     let current = 0;
     let show = 1;
+    let carousel;
+    // let carousel = $state(null);
+    let loaded = $state([0, 1]);
+    // let loaded = [0, 1];
+    let images = [
+        {
+            id: 1,
+            src: "/images/switzerland/1530_001.jpg",
+        },
+        {
+            id: 2,
+            src: "/images/switzerland/1533_001.jpg",
+        },
+        {
+            id: 3,
+            src: "/images/switzerland/1535_001.jpg",
+        },
+        {
+            id: 4,
+            src: "/images/switzerland/1538_001.jpg",
+        },
+        {
+            id: 5,
+            src: "/images/switzerland/1541_011.jpg",
+        },
+    ];
 
+    // Methods
     function mouseOver(e) {
         console.log("mouseOver: ", e);
         const path = e.target;
@@ -84,7 +113,7 @@
                 .toString()
                 .replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
         }
-        return
+        return;
     };
     const handleMouseOverTooltip = () => {
         // console.log('[TooltipStadium] handleMouseOver');
@@ -117,6 +146,22 @@
         console.log("handleOpenModal");
         // dispatch('modalOpen')
     };
+    const handlePreviousClick = () => {
+        carousel.goToPrev();
+    };
+    const handleNextClick = () => {
+        console.log("handleNextClick");
+        console.log("carousel: ", carousel);
+        carousel.goToNext();
+    };
+
+    const onPageChange = (event) => {
+        console.log("onPageChange event: ", event);
+        if (!loaded.includes(event.detail + 1)) {
+            loaded.push(event.detail + 1);
+            // console.log('loaded: ', loaded);
+        }
+    };
     // const clientX = e.clientX
     // const offsetWidth = document.getElementById('svgWrapper').offsetWidth
     // const rect = e.target.getBoundingClientRect()
@@ -126,36 +171,6 @@
     // tooltip.style.top = '50%'
     // tooltip.style.transform = 'translateY(-50%)'
 </script>
-
-<!-- <div on:mouseover={mouseOver} on:mouseleave={mouseLeave} on:mousemove={mouseMove} role="tooltip" on:focus={() => {}}>
-    <slot />
-</div>
-
-{#if isHovered}
-<div style="top: {y}px; left: {x}px;" class="tooltip">
-    {title}
-</div>
-{/if} -->
-
-<!-- <div class="tooltip" style="top: 50%; transform: translateY(50%); left: 0px;">
-    {data[0]?.venue?.name}, {data[0]?.venue?.city}
-    <div class="row align-center">
-        <div class="col-12 text-center relative">
-            <h2>
-                <span class="text-primary"><b>{data[0]['venue']['name']}</b></span>, <span class="text-muted">{data[0]['venue']['city']}</span>
-            </h2>
-            <h3 class="">
-                ${formatNumber(data[0]['venue']['capacity'])}
-            </h3>
-            <img src="{base}/images/icons/close.svg" width="20" class="text-right" id="closeTooltipBtn" alt="close button" style="position: absolute; top: 0; right: 0;" />
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12 text-center">
-            <img src="{base}/images/stadiums/{countrySlug}/{data[0]['venue']['api_football_id']}.jpg" width="100%" alt="Stadium" />
-        </div>
-    </div>
-</div> -->
 
 <div
     class="text-center tooltip"
@@ -172,9 +187,8 @@
     <div class="row align-center">
         <div class="col-12 text-center relative">
             <h2>
-                <span class="text-primary"
-                    ><b>{data?.stadium?.name}</b></span
-                >, <span class="text-muted">{data?.stadium?.city}</span>
+                <span class="text-primary"><b>{data?.stadium?.name}</b></span>,
+                <span class="text-muted">{data?.stadium?.city}</span>
             </h2>
             <h3 class="">
                 {formatNumber(data?.stadium?.capacity)}
@@ -210,19 +224,17 @@
             current: {current}<br />
             countrySlug: {countrySlug}<br />
             data: {data}<br />
+            tooltipWidth: {tooltipWidth}<br />
             top: {top}<br />
             left: {left}<br />
             data.images.length: {data?.images?.length}<br />
+            loaded: {loaded}<br />
+            <!-- {#each data.images.sort((a, b) => b.name - a.name) as img, i}
+                i: {i}<br />
+                img.name: {img.name}<br />
+            {/each} -->
             <!-- stadium: {stadium}<br /> -->
-            <!-- <button type="button" on:click={handleOpenModal} class="image" style="background: transparent; padding: 0; border: none !important; font-size:0;">
-            <img
-                src="{base}/images/stadiums/{countrySlug}/{data[0]['images'][imageIndex]['name']}"
-                width="100%"
-                class=""
-                alt="Stadium"   
-            />
-            </button> -->
-            <div style="width:100%; height: 300px; border: 1px solid red;">
+            <div style="width:100%; height: 300px; border: 2px dashed red;">
                 <!-- <Carousel bind:current {items} let:item bind:show>
                     <div
                         class="item"
@@ -233,24 +245,58 @@
                         {item.label}
                     </div>
                 </Carousel> -->
-                <Carousel items={data.images} let:item bind:current bind:show>
-                    <!-- <div
+                <!-- <Carousel items={data.images} let:item bind:current bind:show>
+                    <div
                         class="item"
                         style="background-image: url({base}/images/stadiums/{countrySlug}/{item.name}); background-size: contain; background-repeat: no-repeat; background-position: center center;"
                     >
                         {item.name}
-                    </div> -->
+                    </div>
+                </Carousel> -->
+                <!-- <Carousel items={data.images} let:item bind:current bind:show>
                     <div
                         class="item"
                         style="background-image: url({item.url}); background-size: contain; background-repeat: no-repeat; background-position: center center;"
                     >
                         {item.name}
                     </div>
-                </Carousel>
+                </Carousel> -->
+                {#if browser}
+                    <SvelteCarousel
+                        autoplay
+                        autoplayDuration={1000}
+                        pauseOnFocus={true}
+                        bind:this={carousel}
+                        on:pageChange={onPageChange}
+                    >
+                        {#each data.images as image, imageIndex}
+                            <div class="img-container">
+                                {#if loaded.includes(imageIndex)}
+                                    {image.name}<br />
+                                    <!-- {image.url}<br /> -->
+                                    <!-- <img
+                                        src={image.url}
+                                        alt="stadium"
+                                        width="100%"
+                                        height="100%"
+                                        style=""
+                                    /> -->
+                                    <img
+                                        src={image.url}
+                                        alt="stadium"
+                                        width="100%"
+                                        height="100%"
+                                        style=""
+                                    />
+                                {/if}
+                            </div>
+                        {/each}
+                    </SvelteCarousel>
+                {/if}
             </div>
             <div class="d-flex justify-center">
                 {#each data.images as image, i}
-                    <span
+                    <!-- <span
                         role="button"
                         tabindex="0"
                         on:keydown={() => {}}
@@ -281,7 +327,7 @@
                                 ry="202"
                             />
                         </svg>
-                    </span>
+                    </span> -->
                 {/each}
             </div>
         </div>
@@ -295,7 +341,7 @@
         </div> -->
     </div>
     <div class="row align-center">
-        <div class="col-4 text-center border-1" style="">
+        <div class="col-4 text-center" style="">
             <!-- <h3 class="text-center">{data.stadium?.name}</h3> -->
             <!-- <img
                 src="{base}/images/teams/{countrySlug}/{data[0]['team'][
@@ -317,7 +363,7 @@
                 />
             </div>
         {/if} -->
-        <div class="col-4 text-center border-1" style="">
+        <div class="col-4 text-center" style="">
             <!-- <a href={base / data[0]["venue"]["url"]} target="_blank">
                 Wiki
                 <img
@@ -331,6 +377,12 @@
 </div>
 
 <style>
+    .img-container {
+        border: 2px dashed blue;
+        height: 300px;
+        /* height: 100%; */
+        /* vertical-align: bottom; */
+    }
     .tooltip {
         width: 400px;
         /* height: 100px; */

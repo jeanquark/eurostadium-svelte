@@ -115,6 +115,16 @@ function createStadiumStore() {
             // for (let i = 0; i < abc.length; i++) {
             for (let [key, value] of stadiumsMap) {
                 // console.log('value: ', value);
+                // value.images = value.images.sort((a, b) => a.name - b.name)
+                value.images.sort((a, b) => {
+                    if (a.name < b.name) {
+                        return -1;
+                    }
+                    if (a.name > b.name) {
+                        return 1;
+                    }
+                    return 0;
+                });
                 array.push(value)
             }
             console.log('array: ', array);
