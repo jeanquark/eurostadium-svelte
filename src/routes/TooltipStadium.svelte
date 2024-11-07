@@ -234,9 +234,15 @@
                     </div>
                 </Carousel> -->
                 <Carousel items={data.images} let:item bind:current bind:show>
-                    <div
+                    <!-- <div
                         class="item"
                         style="background-image: url({base}/images/stadiums/{countrySlug}/{item.name}); background-size: contain; background-repeat: no-repeat; background-position: center center;"
+                    >
+                        {item.name}
+                    </div> -->
+                    <div
+                        class="item"
+                        style="background-image: url({item.url}); background-size: contain; background-repeat: no-repeat; background-position: center center;"
                     >
                         {item.name}
                     </div>
