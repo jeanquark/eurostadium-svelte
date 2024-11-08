@@ -176,13 +176,13 @@
     class="text-center tooltip"
     style="left: {left}px; top: {top}px; z-index: 1000;"
     bind:clientWidth={tooltipWidth}
-    on:mouseenter={handleMouseEnter}
-    on:mouseleave={handleMouseLeave}
-    on:focus={() => {}}
+    onmouseenter={handleMouseEnter}
+    onmouseleave={handleMouseLeave}
+    onfocus={() => {}}
     role="presentation"
-    on:mouseover={handleMouseOverTooltip}
-    on:mouseout={handleMouseOutTooltip}
-    on:blur={() => {}}
+    onmouseover={handleMouseOverTooltip}
+    onmouseout={handleMouseOutTooltip}
+    onblur={() => {}}
 >
     <div class="row align-center">
         <div class="col-12 text-center relative">
@@ -195,7 +195,7 @@
             </h3>
             <button
                 type="button"
-                on:click={handleTooltipClose}
+                onclick={handleTooltipClose}
                 class="tooltip-close-btn"
             >
                 <img
@@ -234,7 +234,7 @@
                 img.name: {img.name}<br />
             {/each} -->
             <!-- stadium: {stadium}<br /> -->
-            <div style="width:100%; height: 300px; border: 2px dashed red;">
+            <div style="heigth: 300px; border: 2px dashed red;">
                 <!-- <Carousel bind:current {items} let:item bind:show>
                     <div
                         class="item"
@@ -264,13 +264,13 @@
                 {#if browser}
                     <SvelteCarousel
                         autoplay
-                        autoplayDuration={1000}
+                        autoplayDuration={500}
                         pauseOnFocus={true}
                         bind:this={carousel}
                         on:pageChange={onPageChange}
                     >
                         {#each data.images as image, imageIndex}
-                            <div class="img-container">
+                            <div class="img-container" style="height: 300px; background: #FFF;">
                                 {#if loaded.includes(imageIndex)}
                                     {image.name}<br />
                                     <!-- {image.url}<br /> -->
@@ -284,7 +284,6 @@
                                     <img
                                         src={image.url}
                                         alt="stadium"
-                                        width="100%"
                                         height="100%"
                                         style=""
                                     />
@@ -379,8 +378,8 @@
 <style>
     .img-container {
         border: 2px dashed blue;
-        height: 300px;
-        /* height: 100%; */
+        /* height: 300px; */
+        /* max-height: 200px; */
         /* vertical-align: bottom; */
     }
     .tooltip {
@@ -406,7 +405,7 @@
         color: orange;
         cursor: pointer;
     }
-    .tooltip .image:hover {
+    /* .tooltip .image:hover {
         cursor: pointer;
     }
     .carousel-navigation-item {
@@ -415,10 +414,7 @@
     .carousel-navigation-item:hover {
         cursor: pointer;
     }
-    /* .carousel-navigation-item:hover #ring #innerRing{
-        fill: #325bad;
-    } */
     .active-item {
         fill: #325bad !important;
-    }
+    } */
 </style>
