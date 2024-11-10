@@ -38,13 +38,13 @@ function createStadiumStore() {
 
     const methods = {
         toggleLoading: () => {
-            console.log('[stadiumStore] toggleLoading')
+            // console.log('[stadiumStore] toggleLoading')
             update((state) => ({ ...state, loading: !state.loading }))
         },
         async fetchStadiumsByCountrySlug(countrySlug) {
-            console.log('[stadiumStore] fetchStadiumsByCountrySlug: ', countrySlug);
-            const { data, error } = await supabase.from('teams_view').select(`stadium_id, stadium_api_football_id, stadium_name, stadium_city, stadium_capacity, stadium_x, stadium_y, league_id, league_api_football_id, league_name, team_id, team_api_football_id, team_name, image_name, image_src, image_url`).eq('country_slug', countrySlug)
-            console.log('[stadiumStore] data: ', data)
+            console.log('[Store] fetchStadiumsByCountrySlug: ', countrySlug);
+            const { data, error } = await supabase.from('teams_view').select(`stadium_id, stadium_api_football_id, stadium_name, stadium_city, stadium_capacity, stadium_wiki, stadium_x, stadium_y, league_id, league_api_football_id, league_name, team_id, team_api_football_id, team_name, image_name, image_src, image_url`).eq('country_slug', countrySlug)
+            // console.log('[stadiumStore] data: ', data)
             if (error) {
                 console.log('error: ', error)
                 return
@@ -63,6 +63,7 @@ function createStadiumStore() {
                                 name: item.stadium_name,
                                 city: item.stadium_city,
                                 capacity: item.stadium_capacity,
+                                wiki: item.stadium_wiki,
                                 x: item.stadium_x,
                                 y: item.stadium_y
                             },

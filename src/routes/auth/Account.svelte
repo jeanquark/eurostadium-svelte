@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import type { AuthSession } from "@supabase/supabase-js";
-    import { supabase } from "../lib/supabase/supabaseClient";
+    import { supabase } from "../../lib/supabase/supabaseClient";
 
     export let session: AuthSession;
 
@@ -21,7 +21,7 @@
 
             const { data, error, status } = await supabase
                 .from("profiles")
-                .select("username, website, avatar_url")
+                .select("username, website")
                 .eq("id", user.id)
                 .single();
 
@@ -30,7 +30,6 @@
             if (data) {
                 username = data.username;
                 website = data.website;
-                avatarUrl = data.avatar_url;
             }
         } catch (error) {
             if (error instanceof Error) {

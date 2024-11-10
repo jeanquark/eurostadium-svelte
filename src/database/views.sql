@@ -7,6 +7,7 @@ create view teams_view as
     stadiums.name as stadium_name,
     stadiums.city as stadium_city,
     stadiums.capacity as stadium_capacity,
+    stadiums.wiki as stadium_wiki,
     stadiums.x as stadium_x,
     stadiums.y as stadium_y,
     leagues.id as league_id,

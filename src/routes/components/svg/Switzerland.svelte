@@ -6,73 +6,24 @@
     import filterStadiums from '../../../utils/filterStadiums'
     const dispatch = createEventDispatcher()
 
-    export let country
-    export let filter
-    export let stadiums3
+    export let countryObj
+    // export let filter
+    export let stadiumsArray
     let radius = 15
-    let stadiumObj2
-    let stadiumObj3
-    let clientX
-    let abc
+    let stadiumObj
+    // let stadiumObj2
+    // let stadiumObj3
+    // let clientX
+    // let abc
     let panzoomRef
     let flag = 1
     // $: filter = console.log('update filter value')
-    $: filterUpdate(filter)
-    $: updateStadiums(stadiums3)
+    // $: filterUpdate(filter)
+    $: updateStadiums(stadiumsArray)
     // $: stadiumsUpdate(stadiums2)
 
     onMount(() => {
         console.log('[Switzerland] onMount')
-        console.log('filter: ', filter)
-        const stadiums = $stadiumStore.stadiumsByCountry[country?.slug]
-        console.log('stadiums: ', stadiums)
-        console.log('[onMount] stadiumObj: ', document.getElementById('stadiums'))
-        console.log('[onMount] stadiumObj2: ', stadiumObj2)
-        stadiumObj3 = document.getElementById('stadiums')
-        // let circleRadius = 10
-        // let leagueColors = ['#FF0000', '#FFFF00']
-
-        // const stadiumObj = document.getElementById('stadiums')
-        // if (!stadiumObj) {
-        //     alert('No stadium object')
-        //     return
-        // }
-        // const newElement = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
-        // circleRadius = document.getElementById('stadiums').getAttribute('data-circle-radius')
-
-        // const leagues = [78,79]
-        // const leagues = [country.leagues[0], country.leagues[1]]
-        // addStadiumsToSvgMap(stadiumObj, stadiums, country, filter)
-        // filterUpdate('all')
-        // const circleColors = stadiumObj.getAttribute('data-circle-colors').split(',')
-        //     if (circleColors && circleColors.length == 2) {
-        //         leagueColors[0] = circleColors[0]
-        //         leagueColors[1] = circleColors[1]
-        //     }
-        // const leagues = [78, 79]
-
-        // for (let i = 0; i < stadiums.length; i++) {
-        //     let newElement = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
-        //     newElement.setAttribute('cx', stadiums[i]['venue']['x'])
-        //     newElement.setAttribute('cy', stadiums[i]['venue']['y'] + 0)
-        //     newElement.setAttribute('r', circleRadius)
-        //     newElement.setAttribute('fill', stadiums[i]['league']['api_football_id'] == leagues[0] ? leagueColors[0] : leagueColors[1])
-        //     newElement.setAttribute('data-city', stadiums[i]['venue']['city'])
-        //     newElement.setAttribute('data-stadium-id', stadiums[i]['venue']['api_football_id'])
-        //     newElement.setAttribute('class', 'stadium')
-        //     newElement.setAttribute('api-football-league-id', stadiums[i]['league']['api_football_id'])
-        //     newElement.setAttribute('capacity', stadiums[i]['venue']['capacity'])
-        //     stadiumObj.appendChild(newElement)
-        // }
-
-        // const hiddenElements = document.querySelectorAll('.stadium')
-        // hiddenElements.forEach((el) => {
-        //     console.log('el: ', el)
-        // })
-
-        // setTimeout(() => {
-        //     // console.log('Done!')
-        // }, 2000)
     })
 
     const initPanzoom = (node) => {
@@ -135,10 +86,6 @@
         node.addEventListener('wheel', def)
     }
 
-    function test() {
-        console.log('test')
-    }
-
     const handleClick = (e) => {
         console.log('[Switzerland] handleClick')
         // console.log('e.target: ', e.target);
@@ -163,7 +110,7 @@
         // return
         const stadiumId = parseInt(e.target.getAttribute('data-api-football-stadium-id'))
         console.log("stadiumId: ", stadiumId)
-        clientX = e.clientX
+        // clientX = e.clientX
         // console.log('clientX: ', clientX);
         const data = {
             // id: e.target.id,
@@ -173,7 +120,7 @@
             rect: e.target.getBoundingClientRect(),
         }
         // console.log('e.target: ', e.target)
-        console.log('stadiums3: ', stadiums3)
+        // console.log('stadiums3: ', stadiums3)
         document.querySelectorAll('.stadium').forEach((element) => {
             // console.log('element: ', element);
             element.classList.remove('hover')
@@ -191,77 +138,16 @@
             dispatch('stadiumLeave')
         }
     }
-    const handleMouseEnterCircle = (e) => {
-        return
-        console.log('[Switzerland] handleMouseEnterCircle: ', e.target)
-        const stadiumId = parseInt(e.target.getAttribute('data-stadium-id'))
-        clientX = e.clientX
-        const data = {
-            id: e.target.id,
-            stadiumId: 755, // Bremen
-            clientX: 895,
-            rect: e.target.getBoundingClientRect(),
-        }
-        dispatch('stadiumHover', data)
-    }
-    const handleMouseLeaveCircle = (e) => {
-        return
-        console.log('[Switzerland] handleMouseLeaveCircle: ', e.target)
-        // console.log('e.clientX: ', e.clientX);
-        // const stadiumId = parseInt(e.target.getAttribute('data-stadium-id'))
-        // console.log('stadiumId: ', stadiumId);
-        // if (e.clientX <= clientX) {
-        setTimeout(() => {
-            // dispatch('stadiumLeave')
-        }, 500)
-        // }
-    }
+
     // function a(stadiumObj, stadiums) {
-    const a = (stadiumObj, stadiums) => {
-        console.log('a stadiumObj: ', stadiumObj)
-        console.log('a stadiums: ', stadiums)
-        console.log('a country: ', country)
-        stadiumObj2 = stadiumObj
-        addStadiumsToSvgMap(stadiumObj2, stadiums, country.leagues)
-    }
-
-    const filterUpdate = (filter) => {
-        console.log('[Switzerland] filterUpdate: ', filter)
-        return
-        const stadiumObj = document.getElementById('stadiums')
-        // console.log('stadiumObj: ', stadiumObj)
-        // console.log('stadiumObj2: ', stadiumObj2)
-        // console.log('stadiums3.length: ', stadiums3.length)
-        // console.log('country.leagues: ', country.leagues)
-        // console.log('stadiums3: ', stadiums3);
-
-        // return
-        // if (!stadiumObj) {
-        //     alert('No stadium object')
-        //     return
-        // }
-        // const leagueIds = [country.leagues[0]['api_football_id'], country.leagues[1]['api_football_id']]
-        // const newStadiumsArray = filterStadiums($stadiumStore.stadiums[country.slug], leagueIds, filter)
-        // console.log('newStadiumsArray: ', newStadiumsArray);
-        if (stadiumObj2) {
-            addStadiumsToSvgMap(stadiumObj2, stadiums3, country.leagues)
-        }
-        // return
+    const a = (node, stadiums) => {
+        stadiumObj = node
+        addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues)
     }
     const updateStadiums = (stadiums) => {
         console.log('[Switzerland] updateStadiums: ', stadiums)
-        // stadiums3 = []
-        // for (let i = 0; i < stadiums.length; i++) {
-        //     stadiums3.push(stadiums[i])
-        // }
-        // addStadiumsToSvgMap(stadiumObj2, stadiums, country.leagues)
-        const stadiumObj = document.getElementById('stadiums')
-        // a(stadiumObj, stadiums)
-        console.log('stadiums3: ', stadiums3);
-        console.log('country.leagues: ', country.leagues);
-        console.log('stadiumObj2: ', stadiumObj2);
-        if (stadiumObj2) {
-            addStadiumsToSvgMap(stadiumObj2, stadiums, country.leagues)
+        if (stadiumObj) {
+            addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues)
         }
     }
 </script>
@@ -422,5 +308,5 @@
             style=""
         /></g
     >
-    <g id="stadiums" data-country="switzerland" data-circle-radius={radius} data-circle-colors="#c456d6,#56d6c4" on:mouseenter={handleMouseEnterCircle} on:mouseleave={handleMouseLeaveCircle} on:mouseover={handleMouseOverCircle} on:mouseout={handleMouseOutCircle} on:focus={() => {}} role="presentation" on:blur={() => {}} use:a={stadiums3} style=""> </g>
+    <g id="stadiums" data-country="switzerland" data-circle-radius={radius} data-circle-colors="#c456d6,#56d6c4" on:mouseover={handleMouseOverCircle} on:mouseout={handleMouseOutCircle} on:focus={() => {}} role="presentation" on:blur={() => {}} use:a={stadiumsArray} style=""> </g>
 </svg>

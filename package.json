@@ -11,6 +11,7 @@
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
+		"supabase": "^1.219.2",
 		"svelte": "^5.0.0",
 		"svelte-carousel": "^1.0.25",
 		"vite": "^5.0.3"

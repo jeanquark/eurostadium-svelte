@@ -715,7 +715,7 @@
 		"images": [
 			{
 				"name": "451_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Hvidovre_Stadion_%28Stadium%29_-_Pitch_and_the_main_grandstand.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -723,7 +723,7 @@
 			},
 			{
 				"name": "451_002.jpg",
-				"source": "",
+				"source": "https://www.fck.dk/sites/default/files/styles/max_650x650/public/images/2023-08/230806_pro-ventilation-arena_hvidovre.jpg?itok=vbZQYXEo",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -731,7 +731,7 @@
 			},
 			{
 				"name": "451_003.jpg",
-				"source": "",
+				"source": "https://soccerroundtheworld.com/wp-content/uploads/2023/10/img_6099.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -778,7 +778,7 @@
 		"images": [
 			{
 				"name": "459_001.jpg",
-				"source": "",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/82/aa/69/photo0jpg.jpg?w=1200&h=1200&s=1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -786,7 +786,7 @@
 			},
 			{
 				"name": "459_002.jpg",
-				"source": "",
+				"source": "https://www.nordicstadiums.com/wp-content/uploads/2019/11/JYSK-Park-Silkeborg-IF-bj.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -794,7 +794,7 @@
 			},
 			{
 				"name": "459_003.jpg",
-				"source": "",
+				"source": "https://www.unisport.com/sites/default/files/styles/4_4_mobile_1x/public/2017-06/kunstg%C3%A6s-fodbold-jysk-park-unisport%20%282%29.JPG?itok=UMY0kGZz",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -802,7 +802,15 @@
 			},
 			{
 				"name": "459_004.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/JYSK_Park_Silkeborg-_inside.jpg/1200px-JYSK_Park_Silkeborg-_inside.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "459_005.jpg",
+				"source": "https://cdn.midtvest.bazo.dk/images/63884de0-8971-4499-afda-07584b2eba1a",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -841,7 +849,7 @@
 		"images": [
 			{
 				"name": "460_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/4/48/Sydbank_park_september_2018.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -849,7 +857,7 @@
 			},
 			{
 				"name": "460_002.jpg",
-				"source": "",
+				"source": "https://www.haderslevic.dk/media/mgqndco1/haderslev-stadion-02.jpg?quality=50&v=1dad6bdaa31bbc0",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -857,7 +865,7 @@
 			},
 			{
 				"name": "460_003.jpg",
-				"source": "",
+				"source": "https://www.haderslevic.dk/media/bfkeuklo/haderslev-stadion_pp-arkitekter_fotograf-thomas-illemann_72dpi_02.jpg?quality=50&v=1dad6bda2dc71d0",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -865,7 +873,15 @@
 			},
 			{
 				"name": "460_004.jpg",
-				"source": "",
+				"source": "https://soenderjyskefodbold.dk/wp-content/uploads/2024/05/PatrickEchers_Soenderjyske-Fodbold-vs-Fredericia-FC-Alt-samlet_144_SoMe.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "460_005.jpg",
+				"source": "https://pbs.twimg.com/media/GHqF3lhWIAEO_9n.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -904,7 +920,7 @@
 		"images": [
 			{
 				"name": "448_001.jpg",
-				"source": "",
+				"source": "https://www.info-stades.fr/uploads/stades/aalborg-stadion-27535.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -912,7 +928,7 @@
 			},
 			{
 				"name": "448_002.jpg",
-				"source": "",
+				"source": "https://vendsysselff.dk/wp-content/uploads/2022/08/Print-0091-1920x500.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -920,15 +936,7 @@
 			},
 			{
 				"name": "448_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "448_004.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/GNytNpDWgAEexnn.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -967,7 +975,7 @@
 		"images": [
 			{
 				"name": "440_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/E7DzTR4XMAg2ons.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -975,7 +983,7 @@
 			},
 			{
 				"name": "440_002.jpg",
-				"source": "",
+				"source": "https://migogaalborg.dk/wp-content/uploads/2020/07/Aalborg_Portland_Park2-scaled.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -983,7 +991,7 @@
 			},
 			{
 				"name": "440_003.jpg",
-				"source": "",
+				"source": "https://campo.dk/wp-content/uploads/2023/11/superligakampen-aab-ob-pa-aalborg-portland-park-soendag.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -991,7 +999,7 @@
 			},
 			{
 				"name": "440_004.jpg",
-				"source": "",
+				"source": "https://www.aalborgportland.dk/wp-content/uploads/2023/07/Aalborg-Portland-Park-med-fans-1140x757.png",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1030,7 +1038,7 @@
 		"images": [
 			{
 				"name": "19379_001.jpg",
-				"source": "",
+				"source": "https://optimise2.assets-servd.host/casa-site/production/images/Referencer/Nordstern-Arena_2_2.JPG?w=1536&h=864&q=61&fm=jpg&fit=crop&dm=1722249931&s=1532ea62cb355bd30bfcc0435b1e64a7",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1038,7 +1046,7 @@
 			},
 			{
 				"name": "19379_002.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/CASA_Arena_2011.JPG/1200px-CASA_Arena_2011.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1046,7 +1054,7 @@
 			},
 			{
 				"name": "19379_003.jpg",
-				"source": "",
+				"source": "https://www.fck.dk/sites/default/files/styles/article_full/public/images/2023-03/nordstern-arena-horsens.jpg?itok=vyeZYjzl",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1054,7 +1062,7 @@
 			},
 			{
 				"name": "19379_004.jpg",
-				"source": "",
+				"source": "https://www.thesportsdb.com/images/media/venue/thumb/kf1nmp1654200648.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1093,7 +1101,7 @@
 		"images": [
 			{
 				"name": "449_001.jpg",
-				"source": "",
+				"source": "https://hobroik.dk/wp-content/uploads/2021/02/Skaermbillede-2021-02-25-kl.-20.34.47.png",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1101,7 +1109,7 @@
 			},
 			{
 				"name": "449_002.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/ERT9vE2WoAAQkh2.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1109,15 +1117,7 @@
 			},
 			{
 				"name": "449_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "449_004.jpg",
-				"source": "",
+				"source": "https://karljensen.dk/wp-content/uploads/2021/12/0002_DJI_0249.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1156,7 +1156,7 @@
 		"images": [
 			{
 				"name": "446_001.jpg",
-				"source": "",
+				"source": "https://www.f-i-c.dk/sites/fic.subsites.fredericia.dk/files/monjasa_park.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1164,7 +1164,7 @@
 			},
 			{
 				"name": "446_002.jpg",
-				"source": "",
+				"source": "https://dkel.nu/media/1573/monjasa-park_0009.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1172,15 +1172,7 @@
 			},
 			{
 				"name": "446_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "446_004.jpg",
-				"source": "",
+				"source": "https://f.nordiskemedier.dk/23g30gn3c0iweivb.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1219,7 +1211,7 @@
 		"images": [
 			{
 				"name": "444_001.jpg",
-				"source": "",
+				"source": "https://i0.wp.com/www.stadsmagasinet.dk/wp-content/uploads/2021/05/Helsingoer-Stadion-2.png?fit=1206%2C679&ssl=1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1227,7 +1219,7 @@
 			},
 			{
 				"name": "444_002.jpg",
-				"source": "",
+				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2019/12/Nye-Helsing%C3%B8r-Stadion-h.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1235,15 +1227,7 @@
 			},
 			{
 				"name": "444_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "444_004.jpg",
-				"source": "",
+				"source": "https://www.groundhopping.se/res/HelsingoerNyStadion/Pano-Helsingoer-Ny-Stadion4.png",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1282,7 +1266,7 @@
 		"images": [
 			{
 				"name": "11892_001.jpg",
-				"source": "",
+				"source": "https://www.hbkoge.dk/wp-content/uploads/IMG_7770-2-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1290,7 +1274,7 @@
 			},
 			{
 				"name": "11892_002.jpg",
-				"source": "",
+				"source": "https://i0.wp.com/www.hbkoge.dk/wp-content/uploads/245339245_358108729263232_2857666390365690554_n-e1637590241904.jpeg?fit=1817%2C1203&ssl=1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1298,15 +1282,7 @@
 			},
 			{
 				"name": "11892_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11892_004.jpg",
-				"source": "",
+				"source": "https://www.hbkoge.dk/wp-content/uploads/81A2278-1-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1345,7 +1321,7 @@
 		"images": [
 			{
 				"name": "11946_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/FpUsYmoXwAA9WlF.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1353,23 +1329,7 @@
 			},
 			{
 				"name": "11946_002.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11946_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11946_004.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/FU-RT_AWQAAU4l5.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1408,7 +1368,7 @@
 		"images": [
 			{
 				"name": "3525_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/EX5CbWBXkAIbzxN.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1416,7 +1376,7 @@
 			},
 			{
 				"name": "3525_002.jpg",
-				"source": "",
+				"source": "https://www.europlan-online.de/files/94e66735ab4901eaea015d0fd458f380.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1424,15 +1384,7 @@
 			},
 			{
 				"name": "3525_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3525_004.jpg",
-				"source": "",
+				"source": "https://www.europlan-online.de/files/fdec5a330171eed71dcefbf04a51e126.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1471,7 +1423,7 @@
 		"images": [
 			{
 				"name": "4471_001.jpg",
-				"source": "",
+				"source": "https://dansk-atletik.dk/media/t1aer0k1/dm-senior-2020.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1479,7 +1431,7 @@
 			},
 			{
 				"name": "4471_002.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/GIukgw-XYAAxFiE.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1487,15 +1439,7 @@
 			},
 			{
 				"name": "4471_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4471_004.jpg",
-				"source": "",
+				"source": "https://www.fck.dk/sites/default/files/styles/article_full/public/images/2022-09/oesterbro-stadion.jpg?itok=yrAvo0Gw",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1534,7 +1478,7 @@
 		"images": [
 			{
 				"name": "12607_001.jpg",
-				"source": "",
+				"source": "https://i.ytimg.com/vi/ZXp42BOM-mI/maxresdefault.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1542,23 +1486,7 @@
 			},
 			{
 				"name": "12607_002.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12607_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12607_004.jpg",
-				"source": "",
+				"source": "https://www.nordicstadiums.com/wp-content/uploads/2017/12/Hiller%C3%B8d-Stadion-2a.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,

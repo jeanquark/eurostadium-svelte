@@ -32,7 +32,7 @@
         //     }
         // });
         node.addEventListener("panzoompan", (event) => {
-            console.log("panzoompan: ", event.detail);
+            // console.log("panzoompan: ", event.detail);
             if (event.detail.x > .5 || event.detail.y > .5) {
                 flag = 0
             }
@@ -47,8 +47,8 @@
         // })
 
         node.addEventListener("click", (event) => {
-            console.log("click: ", event);
-            console.log('flag: ', flag);
+            // console.log("click: ", event);
+            // console.log('flag: ', flag);
             
             // return
             // console.log('click flag: ', flag)
@@ -91,10 +91,10 @@
     }
    
     const handleClick = (e) => {
-        console.log("handleClick");
+        // console.log("handleClick");
         // return
         const country = e.target.getAttribute("data-country");
-        console.log("country: ", country);
+        // console.log("country: ", country);
         // return
         dispatch("countryClick", e.target.id);
     };

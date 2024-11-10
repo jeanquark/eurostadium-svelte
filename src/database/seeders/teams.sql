@@ -134,9 +134,9 @@ VALUES
     /* France */
     (79, 19207, 61, 'Lille', 'LIL', 1944, true),
     (80, 666, 61, 'Lyon', 'LYO', 1950, true),
-    (81, 20470, 61, 'Marseille', 'MAR', 1899, true),
+    (81, 12678, 61, 'Marseille', 'MAR', 1899, true),
     (82, 20107, 61, 'Montpellier', 'MON', 1974, true),
-    (83, 20470, 61, 'Nantes', 'NAN', 1943, true),
+    (83, 662, 61, 'Nantes', 'NAN', 1943, true),
     (84, 663, 61, 'Nice', 'NIC', 1904, true),
     (
         85,

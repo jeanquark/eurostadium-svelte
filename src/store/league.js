@@ -11,7 +11,7 @@ function createLeagueStore() {
 
     const methods = {
         async fetchLeagues() {
-            console.log('[LeagueStore] fetchLeagues');
+            console.log('[Store] fetchLeagues');
 
             // // 1) Fetch from Firestore
             // const querySnapshot = await getDocs(collection(db, 'leagues'))

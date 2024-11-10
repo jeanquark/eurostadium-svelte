@@ -6,30 +6,22 @@
     import filterStadiums from '../../../utils/filterStadiums'
     const dispatch = createEventDispatcher()
 
-    export let country
-    export let filter
-    export let stadiums3
+    export let countryObj
+    export let stadiumsArray
     let radius = 15
-    let stadiumObj2
+    let stadiumObj
     let panzoomRef
-    let clientX
     let flag = 1
-    $: filterUpdate(filter)
+    $: updateStadiums(stadiumsArray)
 
     onMount(() => {
-        console.log('[Germany] onMount')
-        console.log('filter: ', filter)
-        const stadiums = $stadiumStore.stadiums[country?.slug]
-        console.log('stadiums: ', stadiums)
-        console.log('[onMount] stadiumObj: ', document.getElementById('stadiums'))
-        console.log('[onMount] stadiumObj2: ', stadiumObj2)
+        console.log('[France] onMount')
     })
 
     const initPanzoom = (node) => {
-        // console.log("node: ", node);
         node.addEventListener('panzoompan', (event) => {
             console.log('panzoompan: ', event.detail)
-            if (event.detail.x != 0 || event.detail.y != 0) {
+            if (event.detail.x > .5 || event.detail.y > .5) {
                 flag = 0
             }
         })
@@ -41,25 +33,13 @@
                 return
             }
             const stadiums = stadiumElement.children
-            console.log('stadiums: ', stadiums)
             for (let i = 0; i < stadiums.length; i++) {
                 stadiums[i].setAttribute('r', radius / scale)
             }
         })
 
         node.addEventListener('click', (event) => {
-            // console.log("click: ", event.detail);
-            // console.log('click flag: ', flag)
-            if (flag == 1) {
-                console.log('click')
-                console.log('destroy event listener')
-                // abc.destroy()
-                // node.removeEventListener('wheel', def)
-                handleClick(event)
-            } else {
-                console.log('no click')
-            }
-            flag = 1
+            handleClick(event)
         })
         panzoomRef = panzoom(node, {
             isSvg: true,
@@ -68,21 +48,21 @@
             maxScale: 8,
             minScale: 1,
             touchAction: 'none',
-            contain: 'outside',
+            contain: "outside",
             panOnlyWhenZoomed: false,
             handleStartEvent: (event) => {
                 event.preventDefault()
                 event.stopPropagation()
-            },
+            }
         })
-        const def = (e) => {
+        const zoom = (e) => {
             panzoomRef.zoomWithWheel(e)
         }
-        node.addEventListener('wheel', def)
+        node.addEventListener('wheel', zoom)
     }
 
     const handleClick = (e) => {
-        console.log('[Germany] handleClick')
+        console.log('[France] handleClick')
         // console.log('e.target: ', e.target);
         if (e.target.classList.contains('stadium')) {
             console.log('Click on stadium')
@@ -95,18 +75,11 @@
     }
     const handleMouseOverCircle = (e) => {
         // console.clear()
-        console.log('[Germany] handleMouseOverCircle e.target: ', e.target)
+        console.log('[France] handleMouseOverCircle e.target: ', e.target)
         if (e.target.classList.contains('stadium')) {
             console.log('Click on stadium')
         }
-        // return
-
-        // console.log('[Germany] handleMouseOverCircle e.relatedTarget: ', e.relatedTarget);
-        // return
-        const stadiumId = parseInt(e.target.getAttribute('data-api-football-venue-id'))
-        // console.log("stadiumId: ", stadiumId)
-        clientX = e.clientX
-        // console.log('clientX: ', clientX);
+        const stadiumId = parseInt(e.target.getAttribute('data-api-football-stadium-id'))
         const data = {
             id: e.target.id,
             stadiumId: stadiumId,
@@ -115,8 +88,8 @@
             rect: e.target.getBoundingClientRect(),
         }
         // console.log('e.target: ', e.target)
-        console.log('stadiums3: ', stadiums3)
-        document.querySelectorAll('.stadium').forEach((element) => {
+        // console.log('stadiums3: ', stadiums3);
+        document.querySelectorAll(".stadium").forEach(element => {
             // console.log('element: ', element);
             element.classList.remove('hover')
         })
@@ -124,68 +97,22 @@
         dispatch('stadiumHover', data)
     }
     const handleMouseOutCircle = (e) => {
-        console.log('[Germany] handleMouseOutCircle e.target: ', e.target)
-        // console.log('[Germany] handleMouseOutCircle e.relatedTarget: ', e.relatedTarget);
-        // const abc = e.relatedTarget.classList.contains('tooltip')
-        // console.log('abc: ', abc);
+        console.log('[France] handleMouseOutCircle e.target: ', e.target)
         if (!e.relatedTarget?.classList?.contains('tooltip')) {
             e.target.classList.remove('hover')
             dispatch('stadiumLeave')
         }
     }
-    const handleMouseEnterCircle = (e) => {
-        return
-        console.log('[Germany] handleMouseEnterCircle: ', e.target)
-        const stadiumId = parseInt(e.target.getAttribute('data-stadium-id'))
-        clientX = e.clientX
-        const data = {
-            id: e.target.id,
-            stadiumId: 755, // Bremen
-            clientX: 895,
-            rect: e.target.getBoundingClientRect(),
-        }
-        dispatch('stadiumHover', data)
-    }
-    const handleMouseLeaveCircle = (e) => {
-        return
-        console.log('[Germany] handleMouseLeaveCircle: ', e.target)
-        // console.log('e.clientX: ', e.clientX);
-        // const stadiumId = parseInt(e.target.getAttribute('data-stadium-id'))
-        // console.log('stadiumId: ', stadiumId);
-        // if (e.clientX <= clientX) {
-        setTimeout(() => {
-            // dispatch('stadiumLeave')
-        }, 500)
-        // }
-    }
-    function a(node, params) {
-        console.log('node: ', node)
-        console.log('params: ', params)
-        console.log('country: ', country)
-        addStadiumsToSvgMap(node, params, country.leagues)
+    const a = (node, stadiums) => {
+        stadiumObj = node
+        addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues)
     }
 
-    const filterUpdate = (filter) => {
-        console.log('filterUpdate: ', filter)
-        const stadiumObj = document.getElementById('stadiums')
-        console.log('stadiumObj: ', stadiumObj)
-        console.log('stadiumObj2: ', stadiumObj2)
-        console.log('stadiums3.length: ', stadiums3.length)
-        console.log('country.leagues: ', country.leagues)
-        // if (!stadiumObj) {
-        //     alert('No stadium object')
-        //     return
-        // }
-        // const leagueIds = [country.leagues[0]['api_football_id'], country.leagues[1]['api_football_id']]
-        // const newStadiumsArray = filterStadiums($stadiumStore.stadiums[country.slug], leagueIds, filter)
-        // console.log('newStadiumsArray: ', newStadiumsArray);
-        if (stadiumObj2) {
-            addStadiumsToSvgMap(stadiumObj2, stadiums3, country.leagues)
+    const updateStadiums = (stadiums) => {
+        console.log('[France] updateStadiums: ', stadiums)
+        if (stadiumObj) {
+            addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues)
         }
-        // return
-    }
-    const stadiumsUpdate = (stadiums) => {
-        // console.log('stadiumsUpdate: ', stadiums2)
     }
 </script>
 
@@ -205,10 +132,6 @@
             }
             #stadiums:focus {
                 outline: none;
-            }
-            .stadium:hover {
-                /* fill: #ffffff !important; */
-                /* cursor: pointer; */
             }
             .hover {
                 fill: #ffffff !important;
@@ -347,5 +270,5 @@
             id="FR-V"
         />
     </g>
-    <g id="stadiums" data-country="france" data-circle-radius={radius} data-circle-colors="#a149be,#bea149" on:mouseenter={handleMouseEnterCircle} on:mouseleave={handleMouseLeaveCircle} on:mouseover={handleMouseOverCircle} on:mouseout={handleMouseOutCircle} on:focus={() => {}} role="presentation" on:blur={() => {}} use:a={stadiums3} style=""> </g></svg
+    <g id="stadiums" data-country="france" data-circle-radius={radius} data-circle-colors="#a149be,#bea149" on:mouseover={handleMouseOverCircle} on:mouseout={handleMouseOutCircle} on:focus={() => {}} role="presentation" on:blur={() => {}} use:a={stadiumsArray} style=""> </g></svg
 >

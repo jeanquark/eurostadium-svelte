@@ -170,7 +170,7 @@
     filterValue: {filterValue}<br />
     <button
         class="btn btn-filter {filterValue == 'all' &&
-            'active'} grass-background"
+            'active'}"
         id="btnAll"
         on:click={() => {
             filterStadiums("all");
@@ -181,7 +181,7 @@
     </button>
     <button
             class="btn btn-filter {filterValue == 'top_league' &&
-                'active'} grass-background-blue"
+                'active'}"
             id="btnTop" style="color: #FFF;"
             on:click={() => {
                 filterStadiums("top_league");
@@ -192,7 +192,7 @@
         </button>
         <button
             class="btn btn-filter {filterValue == 'second_league' &&
-                'active'} grass-background-grey"
+                'active'}"
             id="btnSecond"
             on:click={() => {
                 filterStadiums("second_league");
@@ -203,7 +203,7 @@
         </button>
         <button
             class="btn btn-filter {filterValue == 'stadium_sm' &&
-                'active'} grass-background-grey"
+                'active'}"
             id="btnSm"
             on:click={() => {
                 filterStadiums("stadium_sm");
@@ -214,7 +214,7 @@
         </button>
         <button
             class="btn btn-filter {filterValue == 'stadium_md' &&
-                'active'} grass-background-grey"
+                'active'}"
             id="btnMd"
             on:click={() => {
                 filterStadiums("stadium_md");
@@ -225,7 +225,7 @@
         </button>
         <button
             class="btn btn-filter {filterValue == 'stadium_lg' &&
-                'active'} grass-background-grey"
+                'active'}"
             id="btnLg"
             on:click={() => {
                 filterStadiums("stadium_lg");
@@ -236,7 +236,7 @@
         </button>
         <button
             class="btn btn-filter {filterValue == 'stadium_xl' &&
-                'active'} grass-background-grey"
+                'active'}"
             id="btnXl"
             on:click={() => {
                 filterStadiums("stadium_xl");
@@ -274,10 +274,15 @@
     .btn-filter {
         padding: 0.4em;
         border-radius: 0.4em;
-        background: #325bad;
+        /* background: #325bad; */
+        background: url("/images/grass_01_blue2.jpg") no-repeat scroll 0 0 transparent !important;
         border: none;
         color: #ffffff;
         margin: 0.3em;
+    }
+
+    .btn-filter.active {
+        background: url("/images/grass_01.jpg") no-repeat scroll 0 0 transparent !important;
     }
 
     .btn-filter > .pill {

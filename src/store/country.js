@@ -10,7 +10,7 @@ function createCountryStore() {
 
     const methods = {
         async fetchCountries() {
-            console.log('[CountryStore] fetchCountries()')
+            console.log('[Store] fetchCountries()')
             const { data, error } = await supabase.from("countries").select(`id, name, image, leagues (id, name, image, api_football_id)`);
             console.log("data2: ", data);
             console.log('error: ', error);
