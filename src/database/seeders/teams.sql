@@ -176,7 +176,7 @@ VALUES
         true
     ),
     (77, 634, 61, 'Angers', 'ANG', 1919, true),
-    (78, 634, 62, 'Bordeaux', 'BOR', 1881, true),
+    (78, 638, 62, 'Bordeaux', 'BOR', 1881, true),
     (87, 633, 62, 'Amiens', 'AMI', 1901, true),
     (88, 642, 62, 'Caen', 'CAE', 1897, true),
     (90, 650, 62, 'Guingamp', 'GUI', 1912, true),

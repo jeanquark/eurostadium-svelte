@@ -165,9 +165,9 @@
 
 <div class="box">
     <!-- country.slug: {country?.slug}<br /><br /> -->
-    stadiums.length: {stadiums.length}<br />
+    <!-- stadiums.length: {stadiums.length}<br /> -->
     <!-- $stadiumStore.stadiumsByCountry[country.slug]: {$stadiumStore.stadiumsByCountry[country?.slug]}<br /> -->
-    filterValue: {filterValue}<br />
+    <!-- filterValue: {filterValue}<br /> -->
     <button
         class="btn btn-filter {filterValue == 'all' &&
             'active'}"

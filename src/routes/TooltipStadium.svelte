@@ -304,7 +304,7 @@
         {#each data.teams as team, i}
             <div class="col-4 text-center" style="border: 2px solid purple;">
                 <h3 class="text-center">{team.name}</h3>
-                <img src="{base}/images/clubs/{countrySlug}/{team.api_football_id}.png" width="40%" alt="Team logo" />
+                <img src="{base}/images/teams/{countrySlug}/{team.api_football_id}.png" width="40%" alt="Team logo" />
             </div>
         {/each}
     </div>

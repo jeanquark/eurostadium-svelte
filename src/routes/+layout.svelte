@@ -74,7 +74,7 @@
         }
     }
     footer {
-        /* margin-top: auto; */
+        margin-top: auto;
         width: 100%;
         /* height: 360px; */
         height: 200px;
