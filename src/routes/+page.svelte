@@ -95,6 +95,7 @@
         supabase.auth.onAuthStateChange((_event, _session) => {
             session = _session;
         });
+
         // fetchStadiumsByCountrySlug('switzerland');
 
         // const { data, error } = await supabase.storage
@@ -104,10 +105,11 @@
         //         offset: 0,
         //         sortBy: { column: "name", order: "asc" },
         //     });
-        
+
         // const { data, error } = supabase.storage
         //     .from("stadiums")
         //     .getPublicUrl("switzerland/10500_001.jpg");
+
         // if (error) {
         //     console.log("error: ", error);
         // }

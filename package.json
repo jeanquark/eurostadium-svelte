@@ -21,6 +21,7 @@
 		"@fontsource/fira-mono": "^5.1.0",
 		"@fontsource/nunito": "^5.1.0",
 		"@panzoom/panzoom": "^4.5.1",
+		"@supabase/ssr": "^0.5.2",
 		"@supabase/supabase-js": "^2.46.1",
 		"dotenv": "^16.4.5",
 		"firebase": "^11.0.1",
