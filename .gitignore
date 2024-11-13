@@ -28,3 +28,6 @@ static/images/stadiums/*
 
 # Firebase
 firebase-admin-sdk.json
+# Supabase
+**/supabase/.branches
+**/supabase/.temp

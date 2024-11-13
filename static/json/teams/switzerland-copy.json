@@ -18,7 +18,7 @@
 			"lng": 7.62,
 			"x": 366.7029029519353,
 			"y": 264.02857210180207,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/FC_Basel"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -113,7 +113,7 @@
 			"lng": 7.465,
 			"x": 332.5315935801129,
 			"y": 451.50299988767694,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/BSC_Young_Boys"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -182,8 +182,8 @@
 			"founded": 1908
 		},
 		"venue": {
-			"api_football_id": 1536,
-			"name": "Stadio di Cornaredo",
+			"api_football_id": 19807,
+			"name": "Stadio Comunale di Cornaredo",
 			"address": "Via Trevano 100",
 			"city": "Lugano",
 			"capacity": 14873,
@@ -192,7 +192,7 @@
 			"lng": 8.961469,
 			"x": 662.443239801677,
 			"y": 751.4891658941011,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/FC_Lugano"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -246,93 +246,6 @@
 	},
 	{
 		"team": {
-			"api_football_id": 630,
-			"name": "FC Sion",
-			"code": "SIO",
-			"country": "Switzerland",
-			"founded": 1909
-		},
-		"venue": {
-			"api_football_id": 1542,
-			"name": "Stade de Tourbillon",
-			"address": "38, rue des Echutes",
-			"city": "Sion",
-			"capacity": 16263,
-			"surface": "grass",
-			"lat": 46.233333,
-			"lng": 7.376389,
-			"x": 312.99640716238645,
-			"y": 684.9825322226301,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 207,
-			"name": "Super League",
-			"country": "Switzerland",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "1542_001.jpg",
-				"source": "https://media.lenouvelliste.ch/media/image/124/google_16_9/le-nouvelliste-494116.jpg.webp?hash=e715730d5ed35c032e4f12539b8793fb",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1542_002.jpg",
-				"source": "https://www.fcsion.ch/media/image/0/base/tourbillon1.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1542_003.jpg",
-				"source": "https://pbs.twimg.com/media/Fp0nISUXgAAxM4y.jpg:large",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1542_004.jpg",
-				"source": "https://media.lenouvelliste.ch/media/image/74/base/34634643563463.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1542_005.jpg",
-				"source": "https://au-stade.fr/wp-content/uploads/2021/07/sion-5.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1542_006.jpg",
-				"source": "https://canal9.ch/wp-content/uploads/07-Tourbillon-Sion-2026_C9000SM6.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1542_007.jpg",
-				"source": "https://www.info-stades.fr/uploads/stades/sion-stade-de-tourbillon-47814.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 4
-	},
-	{
-		"team": {
 			"api_football_id": 644,
 			"name": "FC Luzern",
 			"code": "LUZ",
@@ -350,7 +263,7 @@
 			"lng": 8.305187,
 			"x": 517.7592704006571,
 			"y": 428.774124324056,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/FC_Luzern"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -416,7 +329,7 @@
 				"size": 0
 			}
 		],
-		"no": 5
+		"no": 4
 	},
 	{
 		"team": {
@@ -437,7 +350,7 @@
 			"lng": 8.504167,
 			"x": 561.626413231658,
 			"y": 315.624021579717,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/FC_Z%C3%BCrich"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -511,7 +424,7 @@
 				"size": 0
 			}
 		],
-		"no": 6
+		"no": 5
 	},
 	{
 		"team": {
@@ -532,7 +445,7 @@
 			"lng": 9.305116,
 			"x": 738.2036781997422,
 			"y": 307.33362751587725,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/FC_St._Gallen"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -590,6 +503,85 @@
 				"size": 0
 			}
 		],
+		"no": 6
+	},
+	{
+		"team": {
+			"api_football_id": 1012,
+			"name": "FC Thun",
+			"code": "THU",
+			"country": "Switzerland",
+			"founded": 1898
+		},
+		"venue": {
+			"api_football_id": 1544,
+			"name": "Stockhorn Arena",
+			"address": "Weststrasse 12",
+			"city": "Thun",
+			"capacity": 10398,
+			"surface": "artificial turf",
+			"lat": 46.744722,
+			"lng": 7.606667,
+			"x": 363.76350896577856,
+			"y": 521.6282198159482,
+			"url": "https://en.wikipedia.org/wiki/FC_Thun"
+		},
+		"league": {
+			"api_football_id": 207,
+			"name": "Super League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1544_001.jpg",
+				"source": "https://dam.destination.one/215442/3b154018fe02149d72b458073737078ca45c2845ee435ebb20b322b3e3e66d0d/.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1544_002.jpg",
+				"source": "https://cdn.unitycms.io/images/0GF3WGbVasdBQ7gKZ2fc-M.jpg?op=ocroped&val=1200,630,1000,1000,0,0&sum=aGvIiIMMS_c",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1544_003.jpg",
+				"source": "https://dam.destination.one/215443/65f38a3b2a48a9f60ac89b4527688a1c7c3de4b9949796f1867d9fc7045f3c2d/.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1544_004.jpg",
+				"source": "https://huettenzauber.ch/site/assets/files/1434/fct-vaduz0637.1100x1000.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1544_005.jpg",
+				"source": "https://www.jakob.com/files/_processed_/a/6/csm_jakob-rope-systems-reference-protection-safety-webnet-switzerland-thun-football-arena-05_229cb77cbe.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1544_006.jpg",
+				"source": "https://www.fcthun.ch/_Resources/Persistent/4/5/1/a/451a3e764335e85bdb59250bc01203903fc05ed6/FCT_Jubi1183.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 7
 	},
 	{
@@ -611,7 +603,7 @@
 			"lng": 8.504167,
 			"x": 561.626413231658,
 			"y": 315.624021579717,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/Grasshopper_Club_Zurich"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -706,7 +698,7 @@
 			"lng": 6.62188,
 			"x": 146.65730740223205,
 			"y": 586.0725417110787,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/FC_Lausanne-Sport"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -785,7 +777,7 @@
 			"lng": 8.717382,
 			"x": 608.6318050233539,
 			"y": 277.2481255650108,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/FC_Winterthur"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -856,7 +848,7 @@
 			"lng": 6.1275,
 			"x": 37.66626271034268,
 			"y": 702.6366326562296,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/Servette_FC"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -934,6 +926,69 @@
 	},
 	{
 		"team": {
+			"api_football_id": 4269,
+			"name": "Stade Lausanne-Ouchy",
+			"code": "STA",
+			"country": "Switzerland",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 1535,
+			"name": "Stade Olympique de la Pontaise",
+			"address": "Route des Plaines du Loup 7",
+			"city": "Lausanne",
+			"capacity": 15786,
+			"surface": "grass",
+			"lat": 46.533611,
+			"lng": 6.625,
+			"x": 147.34514279087355,
+			"y": 589.2502444616616,
+			"url": "https://en.wikipedia.org/wiki/FC_Stade_Lausanne_Ouchy"
+		},
+		"league": {
+			"api_football_id": 207,
+			"name": "Super League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1535_001.jpg",
+				"source": "https://cdn.unitycms.io/images/8VO3IOxyqkTAOt-38s4Ket.jpg?op=ocroped&val=1200,630,1000,1000,0,0&sum=7RUvpCTpTSo",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1535_002.jpg",
+				"source": "https://www.lausanne.ch/ressources/decimuni/file/9886.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1535_003.jpg",
+				"source": "https://cdn.unitycms.io/images/FrMVjk6XKoT8aZjsUL0uS6.jpg?op=ocroped&val=1200,630,1000,1000,0,0&sum=3A-He2dpVPI",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1535_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Lausanne_Sport_vs_FC_Sion_-_Avril_2014_-_Tribune_nord_de_la_Pontaise.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 12
+	},
+	{
+		"team": {
 			"api_football_id": 6653,
 			"name": "Yverdon Sport",
 			"code": "YVE",
@@ -951,7 +1006,7 @@
 			"lng": 6.647056,
 			"x": 152.2076098844573,
 			"y": 509.24348503698684,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/Yverdon-Sport_FC"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -1001,7 +1056,94 @@
 				"size": 0
 			}
 		],
-		"no": 12
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 630,
+			"name": "FC Sion",
+			"code": "SIO",
+			"country": "Switzerland",
+			"founded": 1909
+		},
+		"venue": {
+			"api_football_id": 1542,
+			"name": "Stade de Tourbillon",
+			"address": "38, rue des Echutes",
+			"city": "Sion",
+			"capacity": 16263,
+			"surface": "grass",
+			"lat": 46.233333,
+			"lng": 7.376389,
+			"x": 312.99640716238645,
+			"y": 684.9825322226301,
+			"url": "https://en.wikipedia.org/wiki/FC_Sion"
+		},
+		"league": {
+			"api_football_id": 208,
+			"name": "Challenge League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1542_001.jpg",
+				"source": "https://media.lenouvelliste.ch/media/image/124/google_16_9/le-nouvelliste-494116.jpg.webp?hash=e715730d5ed35c032e4f12539b8793fb",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1542_002.jpg",
+				"source": "https://www.fcsion.ch/media/image/0/base/tourbillon1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1542_003.jpg",
+				"source": "https://pbs.twimg.com/media/Fp0nISUXgAAxM4y.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1542_004.jpg",
+				"source": "https://media.lenouvelliste.ch/media/image/74/base/34634643563463.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1542_005.jpg",
+				"source": "https://au-stade.fr/wp-content/uploads/2021/07/sion-5.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1542_006.jpg",
+				"source": "https://canal9.ch/wp-content/uploads/07-Tourbillon-Sion-2026_C9000SM6.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1542_007.jpg",
+				"source": "https://www.info-stades.fr/uploads/stades/sion-stade-de-tourbillon-47814.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 14
 	},
 	{
 		"team": {
@@ -1022,7 +1164,7 @@
 			"lng": 9.510278,
 			"x": 783.4337051245305,
 			"y": 394.208988332397,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/FC_Vaduz"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1072,86 +1214,7 @@
 				"size": 0
 			}
 		],
-		"no": 13
-	},
-	{
-		"team": {
-			"api_football_id": 1012,
-			"name": "FC Thun",
-			"code": "THU",
-			"country": "Switzerland",
-			"founded": 1898
-		},
-		"venue": {
-			"api_football_id": 1544,
-			"name": "Stockhorn Arena",
-			"address": "Weststrasse 12",
-			"city": "Thun",
-			"capacity": 10398,
-			"surface": "artificial turf",
-			"lat": 46.744722,
-			"lng": 7.606667,
-			"x": 363.76350896577856,
-			"y": 521.6282198159482,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 208,
-			"name": "Challenge League",
-			"country": "Switzerland",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "1544_001.jpg",
-				"source": "https://dam.destination.one/215442/3b154018fe02149d72b458073737078ca45c2845ee435ebb20b322b3e3e66d0d/.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1544_002.jpg",
-				"source": "https://cdn.unitycms.io/images/0GF3WGbVasdBQ7gKZ2fc-M.jpg?op=ocroped&val=1200,630,1000,1000,0,0&sum=aGvIiIMMS_c",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1544_003.jpg",
-				"source": "https://dam.destination.one/215443/65f38a3b2a48a9f60ac89b4527688a1c7c3de4b9949796f1867d9fc7045f3c2d/.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1544_004.jpg",
-				"source": "https://huettenzauber.ch/site/assets/files/1434/fct-vaduz0637.1100x1000.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1544_005.jpg",
-				"source": "https://www.jakob.com/files/_processed_/a/6/csm_jakob-rope-systems-reference-protection-safety-webnet-switzerland-thun-football-arena-05_229cb77cbe.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1544_006.jpg",
-				"source": "https://www.fcthun.ch/_Resources/Persistent/4/5/1/a/451a3e764335e85bdb59250bc01203903fc05ed6/FCT_Jubi1183.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 14
+		"no": 15
 	},
 	{
 		"team": {
@@ -1172,13 +1235,7 @@
 			"lng": 6.944625,
 			"x": 217.8096896164835,
 			"y": 440.97359014801634,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 208,
-			"name": "Challenge League",
-			"country": "Switzerland",
-			"api_football_country_id": 0
+			"url": "https://en.wikipedia.org/wiki/Neuch%C3%A2tel_Xamax_FCS"
 		},
 		"images": [
 			{
@@ -1246,7 +1303,13 @@
 				"size": 0
 			}
 		],
-		"no": 15
+		"league": {
+			"api_football_id": 208,
+			"name": "Challenge League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
+		"no": 16
 	},
 	{
 		"team": {
@@ -1267,7 +1330,7 @@
 			"lng": 8.059811,
 			"x": 463.66366260439537,
 			"y": 315.4395310527823,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/FC_Aarau"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1325,7 +1388,7 @@
 				"size": 0
 			}
 		],
-		"no": 16
+		"no": 17
 	},
 	{
 		"team": {
@@ -1346,7 +1409,7 @@
 			"lng": 9.037222,
 			"x": 679.1437507619581,
 			"y": 291.0657311158367,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/FC_Wil"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1396,7 +1459,7 @@
 				"size": 0
 			}
 		],
-		"no": 17
+		"no": 18
 	},
 	{
 		"team": {
@@ -1417,7 +1480,7 @@
 			"lng": 8.666377,
 			"x": 597.3872396394264,
 			"y": 206.65497081528775,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/FC_Schaffhausen"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1467,69 +1530,6 @@
 				"size": 0
 			}
 		],
-		"no": 18
-	},
-	{
-		"team": {
-			"api_football_id": 4269,
-			"name": "Stade Lausanne-Ouchy",
-			"code": "STA",
-			"country": "Switzerland",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 1535,
-			"name": "Stade Olympique de la Pontaise",
-			"address": "Route des Plaines du Loup 7",
-			"city": "Lausanne",
-			"capacity": 15786,
-			"surface": "grass",
-			"lat": 46.533611,
-			"lng": 6.625,
-			"x": 147.34514279087355,
-			"y": 589.2502444616616,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 208,
-			"name": "Challenge League",
-			"country": "Switzerland",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "1535_001.jpg",
-				"source": "https://cdn.unitycms.io/images/8VO3IOxyqkTAOt-38s4Ket.jpg?op=ocroped&val=1200,630,1000,1000,0,0&sum=7RUvpCTpTSo",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1535_002.jpg",
-				"source": "https://www.lausanne.ch/ressources/decimuni/file/9886.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1535_003.jpg",
-				"source": "https://cdn.unitycms.io/images/FrMVjk6XKoT8aZjsUL0uS6.jpg?op=ocroped&val=1200,630,1000,1000,0,0&sum=3A-He2dpVPI",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1535_004.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Lausanne_Sport_vs_FC_Sion_-_Avril_2014_-_Tribune_nord_de_la_Pontaise.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 19
 	},
 	{
@@ -1551,7 +1551,7 @@
 			"lng": 9.022304,
 			"x": 675.854927579971,
 			"y": 696.1865586284893,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/AC_Bellinzona"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1614,7 +1614,7 @@
 			"lng": 6.226201,
 			"x": 59.42589113814363,
 			"y": 641.2500795432725,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/FC_Stade_Nyonnais"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1660,35 +1660,6 @@
 	},
 	{
 		"team": {
-			"api_football_id": 6654,
-			"name": "Étoile Carouge",
-			"code": "ETO",
-			"country": "Switzerland",
-			"founded": 1904
-		},
-		"venue": {
-			"api_football_id": 4860,
-			"name": "Stade de la Fontenette",
-			"address": "Route de Veyrier 53",
-			"city": "Carouge",
-			"capacity": 7200,
-			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 208,
-			"name": "Challenge League",
-			"country": "Switzerland",
-			"api_football_country_id": 0
-		},
-		"no": 22
-	},
-	{
-		"team": {
 			"api_football_id": 12699,
 			"name": "Baden",
 			"code": "BAD",
@@ -1698,7 +1669,7 @@
 		"venue": {
 			"api_football_id": 19808,
 			"name": "Stadion Esp",
-			"address": "TÃÂ¤fernstrasse 41",
+			"address": "Täfernstrasse 41",
 			"city": "Fislisbach",
 			"capacity": 7000,
 			"surface": "grass",
@@ -1708,7 +1679,12 @@
 			"y": 295.1343995594274,
 			"url": "https://en.wikipedia.org/wiki/FC_Baden"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 208,
+			"name": "Challenge League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19808_001.jpg",
@@ -1751,6 +1727,6 @@
 				"size": 0
 			}
 		],
-		"no": 24
+		"no": 22
 	}
 ]
