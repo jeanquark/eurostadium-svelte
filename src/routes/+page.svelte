@@ -573,7 +573,7 @@
     <div class="col-12 text-center" style="overflow: auto;">
         <!-- </div> -->
         <br />
-        <a href="{base}/about">About page</a>
+        <a href="{base}/about">About page</a>&nbsp;|&nbsp;<a href="{base}/upload-image">Upload image</a>
         <br /><br />
         <button on:click={() => (showModal = true)}>Show modal</button>
         <Modal bind:showModal bind:stadiums bind:country>

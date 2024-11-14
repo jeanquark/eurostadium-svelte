@@ -40,45 +40,6 @@
 	},
 	{
 		"team": {
-			"api_football_id": 688,
-			"name": "Gandzasar",
-			"code": "GAN",
-			"country": "Armenia",
-			"founded": 2021
-		},
-		"venue": {
-			"api_football_id": 19103,
-			"name": "Gandzasar Stadium",
-			"address": "M-2",
-			"city": "Kapan",
-			"capacity": 3500,
-			"surface": "grass",
-			"lat": 39.207787,
-			"lng": 46.400674,
-			"x": 739.5,
-			"y": 680,
-			"url": "https://en.wikipedia.org/wiki/Gandzasar_Stadium"
-		},
-		"league": {
-			"api_football_id": 342,
-			"name": "Premier League",
-			"country": "Armenia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "19103_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 2
-	},
-	{
-		"team": {
 			"api_football_id": 709,
 			"name": "Pyunik Yerevan",
 			"code": "PYU",
@@ -114,7 +75,7 @@
 				"size": 0
 			}
 		],
-		"no": 3
+		"no": 2
 	},
 	{
 		"team": {
@@ -153,7 +114,7 @@
 				"size": 0
 			}
 		],
-		"no": 4
+		"no": 3
 	},
 	{
 		"team": {
@@ -192,7 +153,7 @@
 				"size": 0
 			}
 		],
-		"no": 5
+		"no": 4
 	},
 	{
 		"team": {
@@ -231,12 +192,12 @@
 				"size": 0
 			}
 		],
-		"no": 6
+		"no": 5
 	},
 	{
 		"team": {
 			"api_football_id": 3684,
-			"name": "FC Noah",
+			"name": "Artsakh",
 			"code": null,
 			"country": "Armenia",
 			"founded": 2017
@@ -270,7 +231,7 @@
 				"size": 0
 			}
 		],
-		"no": 7
+		"no": 6
 	},
 	{
 		"team": {
@@ -309,7 +270,7 @@
 				"size": 0
 			}
 		],
-		"no": 8
+		"no": 7
 	},
 	{
 		"team": {
@@ -348,7 +309,7 @@
 				"size": 0
 			}
 		],
-		"no": 9
+		"no": 8
 	},
 	{
 		"team": {
@@ -356,7 +317,7 @@
 			"name": "Van",
 			"code": null,
 			"country": "Armenia",
-			"founded": 2019
+			"founded": null
 		},
 		"venue": {
 			"api_football_id": 4655,
@@ -387,7 +348,7 @@
 				"size": 0
 			}
 		],
-		"no": 10
+		"no": 9
 	},
 	{
 		"team": {
@@ -426,7 +387,85 @@
 				"size": 0
 			}
 		],
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 688,
+			"name": "Gandzasar",
+			"code": "GAN",
+			"country": "Armenia",
+			"founded": 2021
+		},
+		"venue": {
+			"api_football_id": 19103,
+			"name": "Gandzasar Stadium",
+			"address": "M-2",
+			"city": "Kapan",
+			"capacity": 3500,
+			"surface": "grass",
+			"lat": 39.207787,
+			"lng": 46.400674,
+			"x": 739.5,
+			"y": 680,
+			"url": "https://en.wikipedia.org/wiki/Gandzasar_Stadium"
+		},
+		"league": {
+			"api_football_id": 343,
+			"name": "First League",
+			"country": "Armenia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19103_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 3687,
+			"name": "Alashkert II",
+			"code": null,
+			"country": "Armenia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 10489,
+			"name": "Kasakhi Marzik Stadium",
+			"address": "Linch Street",
+			"city": "Ashtarak",
+			"capacity": 3600,
+			"surface": "grass",
+			"lat": 40.291111,
+			"lng": 44.352222,
+			"x": 228.9,
+			"y": 328,
+			"url": "https://en.wikipedia.org/wiki/Kasakhi_Marzik_Stadium"
+		},
+		"league": {
+			"api_football_id": 343,
+			"name": "First League",
+			"country": "Armenia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "10489_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 12
 	},
 	{
 		"team": {
@@ -465,7 +504,7 @@
 				"size": 0
 			}
 		],
-		"no": 12
+		"no": 13
 	},
 	{
 		"team": {
@@ -504,7 +543,7 @@
 				"size": 0
 			}
 		],
-		"no": 13
+		"no": 14
 	},
 	{
 		"team": {
@@ -543,7 +582,7 @@
 				"size": 0
 			}
 		],
-		"no": 14
+		"no": 15
 	},
 	{
 		"team": {
@@ -582,7 +621,7 @@
 				"size": 0
 			}
 		],
-		"no": 15
+		"no": 16
 	},
 	{
 		"team": {
@@ -621,7 +660,7 @@
 				"size": 0
 			}
 		],
-		"no": 16
+		"no": 17
 	},
 	{
 		"team": {
@@ -660,7 +699,7 @@
 				"size": 0
 			}
 		],
-		"no": 17
+		"no": 18
 	},
 	{
 		"team": {
@@ -699,7 +738,7 @@
 				"size": 0
 			}
 		],
-		"no": 18
+		"no": 19
 	},
 	{
 		"team": {
@@ -738,7 +777,7 @@
 				"size": 0
 			}
 		],
-		"no": 19
+		"no": 20
 	},
 	{
 		"team": {
@@ -777,7 +816,7 @@
 				"size": 0
 			}
 		],
-		"no": 20
+		"no": 21
 	},
 	{
 		"team": {
@@ -816,7 +855,7 @@
 				"size": 0
 			}
 		],
-		"no": 21
+		"no": 22
 	},
 	{
 		"team": {
@@ -855,7 +894,7 @@
 				"size": 0
 			}
 		],
-		"no": 22
+		"no": 23
 	},
 	{
 		"team": {
@@ -894,70 +933,7 @@
 				"size": 0
 			}
 		],
-		"no": 23
-	},
-	{
-		"team": {
-			"api_football_id": 24965,
-			"name": "Bentonit Ijevan",
-			"code": null,
-			"country": "Armenia",
-			"founded": 2019
-		},
-		"venue": {
-			"api_football_id": null,
-			"name": null,
-			"address": null,
-			"city": null,
-			"capacity": null,
-			"surface": null,
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
-			"api_football_country_id": 0
-		},
 		"no": 24
-	},
-	{
-		"team": {
-			"api_football_id": 3687,
-			"name": "Alashkert II",
-			"code": null,
-			"country": "Armenia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 10489,
-			"name": "Kasakhi Marzik Stadium",
-			"address": "Linch Street",
-			"city": "Ashtarak",
-			"capacity": 3600,
-			"surface": "grass",
-			"lat": 40.291111,
-			"lng": 44.352222,
-			"x": 228.9,
-			"y": 328,
-			"url": "https://en.wikipedia.org/wiki/Kasakhi_Marzik_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "10489_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 25
 	},
 	{
 		"team": {
@@ -980,7 +956,12 @@
 			"y": 13417.4,
 			"url": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 343,
+			"name": "First League",
+			"country": "Armenia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "",
@@ -991,6 +972,6 @@
 				"size": 0
 			}
 		],
-		"no": 26
+		"no": 25
 	}
 ]

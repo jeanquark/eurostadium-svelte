@@ -5,210 +5,135 @@ import { API_FOOTBALL_KEY } from '$env/static/private';
 export async function GET() {
     console.log('[api/api-football/fetch-eurostadium-teams]', new Date())
 
-    const season = 2024;
-    const countryObj = {
-        name: 'Switzerland',
-        slug: 'switzerland'
-    }
-    // const file = `./public/eurostadium/${country}.json`;
-    const file1 = './static/json/leagues.json';
-    const file2 = `./static/json/teams/${countryObj.slug}.json`;
+    const SEASON = 2024;
+    const TOTAL_COUNTRIES = 1
 
-    const leaguesFile = await fs.readFile(file1, "binary");
-    const teamsFile = await fs.readFile(file2, "binary");
+    // const countryObj = {
+    //     name: 'Switzerland',
+    //     slug: 'switzerland'
+    // }
+    const file1 = './static/json/countries.json';
+    const file2 = './static/json/leagues.json';
+
+    const countriesFile = await fs.readFile(file1, "binary");
+    const leaguesFile = await fs.readFile(file2, "binary");
+    // const teamsFile = await fs.readFile(file3, "binary");
+    // console.log('countriesFile: ', countriesFile);
     // console.log('leaguesFile: ', leaguesFile);
-    console.log('teamsFile: ', teamsFile);
+    // console.log('teamsFile: ', teamsFile);
 
-    // const leagues2 = leaguesFile.find((league) => league.country == 'Switzerland')
-    // const abc = JSON.parse((leaguesFile))
+    let countriesArray = []
     let leaguesArray = []
-    let teamsArray = []
+    if (countriesFile.length > 0) {
+        countriesArray = JSON.parse(countriesFile)
+    }
     if (leaguesFile.length > 0) {
-        leaguesArray = JSON.parse(leaguesFile).filter((el) => el.country == countryObj.name)
-    }
-    if (teamsFile.length > 0) {
-        teamsArray = JSON.parse(teamsFile)
+        leaguesArray = JSON.parse(leaguesFile)
     }
 
-    // 1) Reset league object for all teams
-    for (let i = 0; i < teamsArray.length; i++) {
-        teamsArray[i]['league'] = {}
-    }
+    let filesUpdated = 0
+    for (let i = 0; i < TOTAL_COUNTRIES; i++) {
+        let countryLeagues = []
+        let countryTeams = []
+        let teamsArray = []
 
-    // 2) Fetch teams for all leagues
-    let apiFootballTeams = [];
-    for (let i = 0; i < leaguesArray.length - 0; i++) {
+        countryLeagues = leaguesArray.filter((league) => league.country == countriesArray[i]['name'])
 
-        // 2.1) Request data from API Football
-        const teams = await fetch(`https://v3.football.api-sports.io/teams?league=${leaguesArray[i]['api_football_id']}&season=${season}`, {
-            "method": "GET",
-            "headers": {
-                "x-rapidapi-key": API_FOOTBALL_KEY,
-                "x-rapidapi-host": 'v3.football.api-sports.io'
-            }
-        })
-        const { response } = await teams.json()
-        // console.log('response: ', response);
-        // let teamObj = {}
-        for (let j = 0; j < response.length; j++) {
-            let data = { league: {}, ...response[j] }
-            data['league']['api_football_id'] = leaguesArray[i]['api_football_id']
-            data['league']['name'] = leaguesArray[i]['name']
-            data['league']['country'] = leaguesArray[i]['country']
-            data['league']['api_football_country_id'] = leaguesArray[i]['api_football_country_id']
-            apiFootballTeams.push(data)
+        const file = `./static/json/teams/${countriesArray[i].slug}.json`;
+        // const teamsFile = await fs.readFile(file, "binary");
+        const teamsFile = await fs.readFile(file, "utf8");
+        if (teamsFile.length > 0) {
+            countryTeams = JSON.parse(teamsFile)
         }
-    }
 
-    // return json(apiFootballTeams);
-
-
-    // // 1) Get leagues
-    // const leagues = [
-    //     {
-    //         "name": "Premier League",
-    //         "slug": "premier_league",
-    //         "api_football_id": 333,
-    //         "country": "Ukraine",
-    //         "api_football_country_id": 0
-    //     },
-    //     {
-    //         "name": "Persha Liga",
-    //         "slug": "persha_liga",
-    //         "api_football_id": 334,
-    //         "country": "Ukraine",
-    //         "api_football_country_id": 0
-    //     }
-    // ]
-    // console.log('leagues: ', leagues)
-    // // return
-
-    // // 1) Reset league object for all teams
-    // const currentFile = await fs.readFile(file, "binary");
-    // let currentTeams = []
-    // if (currentFile.length > 0) {
-    //     currentTeams = JSON.parse(currentFile);
-    // }
-
-    // for (let i = 0; i < currentTeams.length; i++) {
-    //     currentTeams[i]['league'] = {}
-    // }
-
-    // // console.log('currentTeams: ', currentTeams);
-
-    // // return
-
-    // // 2) Fetch teams for all leagues
-    // let apiFootballTeams = [];
-    // for (let i = 0; i < leagues.length - 0; i++) {
-
-    //     // 2.1) Request data from API Football
-    //     const teams = await fetch(`https://v3.football.api-sports.io/teams?league=${leagues[i]['api_football_id']}&season=${season}`, {
-    //         "method": "GET",
-    //         "headers": {
-    //             "x-rapidapi-key": '[PUT_API_KEY_HERE]',
-    //             "x-rapidapi-host": 'v3.football.api-sports.io'
-    //         }
-    //     })
-    //     const { response } = await teams.json()
-    //     // console.log('response: ', response);
-    //     // let teamObj = {}
-    //     for (let j = 0; j < response.length; j++) {
-    //         let data = { league: {}, ...response[j] }
-    //         data['league']['api_football_id'] = leagues[i]['api_football_id']
-    //         data['league']['name'] = leagues[i]['name']
-    //         data['league']['country'] = leagues[i]['country']
-    //         data['league']['api_football_country_id'] = leagues[i]['api_football_country_id']
-    //         apiFootballTeams.push(data)
-    //     }
-    // }
-
-    // // console.log("currentFile: ", currentFile);
-    // // console.log("stadiums[0][api_football_id]: ", stadiums[0]['api_football_id']);
-
-    // 3) Add all API Football teams
-    let teams = []
-    let i;
-    for (i = 0; i < apiFootballTeams.length; i++) {
-        let obj = { team: {}, venue: {}, league: {} }
-        const team = teamsArray.find((el) => el.team.api_football_id == apiFootballTeams[i]['team']['id'])
-        // console.log('team: ', team);
-
-        obj['team']['api_football_id'] = apiFootballTeams[i]['team']['id']
-        obj['team']['name'] = apiFootballTeams[i]['team']['name']
-        obj['team']['code'] = apiFootballTeams[i]['team']['code']
-        obj['team']['country'] = apiFootballTeams[i]['team']['country']
-        obj['team']['founded'] = apiFootballTeams[i]['team']['founded']
-
-        obj['venue']['api_football_id'] = apiFootballTeams[i]['venue']['id']
-        obj['venue']['name'] = apiFootballTeams[i]['venue']['name']
-        obj['venue']['address'] = apiFootballTeams[i]['venue']['address']
-        obj['venue']['city'] = apiFootballTeams[i]['venue']['city']
-        obj['venue']['capacity'] = apiFootballTeams[i]['venue']['capacity']
-        obj['venue']['surface'] = apiFootballTeams[i]['venue']['surface']
-        obj['venue']['lat'] = team && team.venue.lat ? team.venue.lat : 0.0
-        obj['venue']['lng'] = team && team.venue.lng ? team.venue.lng : 0.0
-        obj['venue']['x'] = team && team.venue.x ? team.venue.x : 0
-        obj['venue']['y'] = team && team.venue.y ? team.venue.y : 0
-        obj['venue']['url'] = ''
-
-        obj['league']['api_football_id'] = apiFootballTeams[i]['league']['api_football_id']
-        obj['league']['name'] = apiFootballTeams[i]['league']['name']
-        obj['league']['country'] = apiFootballTeams[i]['league']['country']
-        obj['league']['api_football_country_id'] = apiFootballTeams[i]['league']['api_football_country_id']
-
-        obj['images'] = team && team.images
-        
-        obj['no'] = i + 1
-
-        teams.push(obj)
-    }
-
-    // 4) Add teams that are no more part of the leagues
-    for (let j = 0; j < teamsArray.length; j++) {
-        if (!teams.find((team) => team['team']['api_football_id'] == teamsArray[j]['team']['api_football_id'])) {
-            i++
-            teamsArray[j]['no'] = i + 1;
-            teams.push(teamsArray[j])
+        // 1) Reset league object for all teams
+        for (let j = 0; j < countryTeams.length; j++) {
+            countryTeams[j]['league'] = {}
         }
-    }
 
+        // 2) Fetch teams for all leagues
+        let apiFootballTeams = []
+        for (let j = 0; j < countryLeagues.length; j++) {
+            // 2.1) Request data from API Football
+            const teams = await fetch(`https://v3.football.api-sports.io/teams?league=${countryLeagues[j]['api_football_id']}&season=${SEASON}`, {
+                "method": "GET",
+                "headers": {
+                    "x-rapidapi-key": API_FOOTBALL_KEY,
+                    "x-rapidapi-host": 'v3.football.api-sports.io'
+                }
+            })
+            const { response } = await teams.json()
+            // console.log('response: ', response);
+            // let teamObj = {}
 
-    const newContent = [
-        {
-            "team": {
-                "id": 529,
-                "name": "Barcelona",
-                "code": "BAR",
-                "country": "Spain",
-                "founded": 1899,
-                "national": false,
-                "logo": "https://media.api-sports.io/football/teams/529.png"
-            },
-            "venue": {
-                "id": 19939,
-                "name": "Estadi Olímpic Lluís Companys",
-                "address": "Carrer de l&apos;Estadi",
-                "city": "Barcelona",
-                "capacity": 55926,
-                "surface": "grass",
-                "image": "https://media.api-sports.io/football/venues/19939.png"
+            for (let k = 0; k < response.length; k++) {
+                let data = { league: {}, ...response[k] }
+                data['league']['api_football_id'] = countryLeagues[j]['api_football_id']
+                data['league']['name'] = countryLeagues[j]['name']
+                data['league']['country'] = countryLeagues[j]['country']
+                data['league']['api_football_country_id'] = countryLeagues[j]['api_football_country_id']
+                apiFootballTeams.push(data)
             }
         }
-    ]
 
-    if (teams.length > 0) {
-        const data2 = await fs.writeFile(file2, JSON.stringify(teams, null, "\t"));
+        // console.log('apiFootballTeams: ', apiFootballTeams);
 
+        // 3) Add all API Football teams
+        let n = 0;
+        for (let j = 0; j < apiFootballTeams.length; j++) {
+            let obj = { team: {}, venue: {}, league: {} }
+            const team = countryTeams.find((el) => el.team.api_football_id == apiFootballTeams[j]['team']['id'])
+            // console.log('team: ', team);
+
+            obj['team']['api_football_id'] = apiFootballTeams[j]['team']['id']
+            obj['team']['name'] = apiFootballTeams[j]['team']['name']
+            obj['team']['code'] = apiFootballTeams[j]['team']['code']
+            obj['team']['country'] = apiFootballTeams[j]['team']['country']
+            obj['team']['founded'] = apiFootballTeams[j]['team']['founded']
+
+            obj['venue']['api_football_id'] = apiFootballTeams[j]['venue']['id']
+            obj['venue']['name'] = apiFootballTeams[j]['venue']['name']
+            obj['venue']['address'] = apiFootballTeams[j]['venue']['address']
+            obj['venue']['city'] = apiFootballTeams[j]['venue']['city']
+            obj['venue']['capacity'] = apiFootballTeams[j]['venue']['capacity']
+            obj['venue']['surface'] = apiFootballTeams[j]['venue']['surface']
+            obj['venue']['lat'] = team && team.venue.lat ? team.venue.lat : 0.0
+            obj['venue']['lng'] = team && team.venue.lng ? team.venue.lng : 0.0
+            obj['venue']['x'] = team && team.venue.x ? team.venue.x : 0
+            obj['venue']['y'] = team && team.venue.y ? team.venue.y : 0
+            obj['venue']['url'] = team && team.venue.url ? team.venue.url : ""
+
+            obj['league']['api_football_id'] = apiFootballTeams[j]['league']['api_football_id']
+            obj['league']['name'] = apiFootballTeams[j]['league']['name']
+            obj['league']['country'] = apiFootballTeams[j]['league']['country']
+            obj['league']['api_football_country_id'] = apiFootballTeams[j]['league']['api_football_country_id']
+
+            obj['images'] = team && team.images
+
+            obj['no'] = j + 1
+            n++
+
+            teamsArray.push(obj)
+        }
+
+        // 4) Add teams that are no more part of the leagues
+        for (let j = 0; j < countryTeams.length; j++) {
+            if (!teamsArray.find((team) => team['team']['api_football_id'] == countryTeams[j]['team']['api_football_id'])) {
+                n++
+                countryTeams[j]['no'] = n;
+                console.log('countryTeams[j]: ', countryTeams[j])
+                teamsArray.push(countryTeams[j])
+            }
+        }
+
+        if (teamsArray.length > 0) {
+            const data2 = await fs.writeFile(file, JSON.stringify(teamsArray, null, "\t"), 'utf8');
+            filesUpdated++
+        }
     }
-    // console.log('array: ', array);
-    // console.log('dsts2: ', data2);
 
-
-
-    // return json(number);
     return json({
         success: true,
-        teamsLength: teams.length
+        number_of_files_updated: filesUpdated
     })
 }
