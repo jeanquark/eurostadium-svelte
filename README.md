@@ -10,6 +10,15 @@ Update country name on line 4 of file calculateSVGCoord.js. Then run
 node calculateSVGCoord
 ```
 
+## Update data
+
+* Fetch all teams by country
+
+    Specify values for year, start index as well as end index. Then visite url `/api/api-football/fetch-api-football-teams`
+
+* Calculate x and y coordinates for each stadium
+* Retrieve supabase url for each image
+
 ## Developer
 
 Jean-Marc Kleger

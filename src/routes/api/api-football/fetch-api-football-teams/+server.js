@@ -6,7 +6,8 @@ export async function GET() {
     console.log('[api/api-football/fetch-eurostadium-teams]', new Date())
 
     const SEASON = 2024;
-    const TOTAL_COUNTRIES = 1
+    const COUNTRY_START_INDEX = 0
+    const COUNTRY_END_INDEX = 4
 
     // const countryObj = {
     //     name: 'Switzerland',
@@ -32,7 +33,7 @@ export async function GET() {
     }
 
     let filesUpdated = 0
-    for (let i = 0; i < TOTAL_COUNTRIES; i++) {
+    for (let i = COUNTRY_START_INDEX; i <= COUNTRY_END_INDEX; i++) {
         let countryLeagues = []
         let countryTeams = []
         let teamsArray = []

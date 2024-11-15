@@ -209,11 +209,11 @@
 			"city": "Ballsh",
 			"capacity": 3360,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -3605.1,
-			"y": 11212.8,
-			"url": ""
+			"lat": 40.601944,
+			"lng": 19.740833,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/Adush_Mu%C3%A7a_Stadium"
 		},
 		"league": {
 			"api_football_id": 310,
@@ -755,11 +755,11 @@
 			"city": "Pogradec",
 			"capacity": 5000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 40.9,
+			"lng": 20.663889,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/Gjorgji_Ky%C3%A7yku_Stadium"
 		},
 		"league": {
 			"api_football_id": 311,
@@ -767,6 +767,16 @@
 			"country": "Albania",
 			"api_football_country_id": 0
 		},
+		"images": [
+			{
+				"name": "2171_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 20
 	},
 	{
@@ -823,8 +833,8 @@
 			"city": "Bajram Curri",
 			"capacity": 3000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 42.360607,
+			"lng": 20.073748,
 			"x": 0,
 			"y": 0,
 			"url": ""
@@ -835,6 +845,24 @@
 			"country": "Albania",
 			"api_football_country_id": 0
 		},
+		"images": [
+			{
+				"name": "20288_001.jpg",
+				"source": "https://www.panorama.com.al/sport/wp-content/uploads/2019/07/Stadiumi.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20288_002.jpg",
+				"source": "https://www.panorama.com.al/sport/wp-content/uploads/2019/07/Stadiumi-Tropoje.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 22
 	},
 	{

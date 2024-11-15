@@ -1,34 +1,34 @@
 [
 	{
 		"team": {
-			"api_football_id": 582,
-			"name": "Alashkert",
-			"code": "ALA",
-			"country": "Armenia",
-			"founded": 1990
+			"api_football_id": 605,
+			"name": "Skenderbeu Korce",
+			"code": "SKE",
+			"country": "Albania",
+			"founded": 1909
 		},
 		"venue": {
-			"api_football_id": 1755,
-			"name": "Stadion Nairi",
-			"address": null,
-			"city": "Yerevan",
-			"capacity": 6800,
+			"api_football_id": 2155,
+			"name": "Stadiumi Skënderbeu",
+			"address": "Rruga Gjiergi Kastrioti",
+			"city": "Korçë",
+			"capacity": 11000,
 			"surface": "grass",
-			"lat": 40.154605,
-			"lng": 44.475231,
-			"x": 259.5,
-			"y": 372.4,
-			"url": "https://en.wikipedia.org/wiki/Alashkert_Stadium"
+			"lat": 40.625833,
+			"lng": 20.782778,
+			"x": 525.4,
+			"y": 534.7,
+			"url": "https://en.wikipedia.org/wiki/Sk%C3%ABnderbeu_Stadium"
 		},
 		"league": {
-			"api_football_id": 342,
-			"name": "Premier League",
-			"country": "Armenia",
+			"api_football_id": 310,
+			"name": "Superliga",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "1755_001.jpg",
+				"name": "2155_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -40,34 +40,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 709,
-			"name": "Pyunik Yerevan",
-			"code": "PYU",
-			"country": "Armenia",
-			"founded": 1992
+			"api_football_id": 694,
+			"name": "Tirana",
+			"code": "TIR",
+			"country": "Albania",
+			"founded": 1920
 		},
 		"venue": {
-			"api_football_id": 121,
-			"name": "Vazgen Sargsyan anvan Hanrapetakan Marzadasht",
-			"address": "ul. Nar-Dos",
-			"city": "Yerevan",
-			"capacity": 14530,
+			"api_football_id": 4,
+			"name": "Stadiumi Selman Stërmasi",
+			"address": "Rruga Muhamet Gjollesha",
+			"city": "Tirana",
+			"capacity": 12724,
 			"surface": "grass",
-			"lat": 40.171944,
-			"lng": 44.525833,
-			"x": 272.1,
-			"y": 366.7,
-			"url": "https://en.wikipedia.org/wiki/Vazgen_Sargsyan_Republican_Stadium"
+			"lat": 41.318979,
+			"lng": 19.81131,
+			"x": 332.3,
+			"y": 352.6,
+			"url": "https://en.wikipedia.org/wiki/Selman_St%C3%ABrmasi_Stadium"
 		},
 		"league": {
-			"api_football_id": 342,
-			"name": "Premier League",
-			"country": "Armenia",
+			"api_football_id": 310,
+			"name": "Superliga",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "121_001.jpg",
+				"name": "4_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -79,34 +79,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 2276,
-			"name": "FC Urartu",
-			"code": "BAN",
-			"country": "Armenia",
-			"founded": 1992
+			"api_football_id": 708,
+			"name": "Partizani",
+			"code": "PAR",
+			"country": "Albania",
+			"founded": 1946
 		},
 		"venue": {
-			"api_football_id": 119,
-			"name": "Urartu Stadium",
-			"address": "ul. Al. Manukian, Malatia-Sebastia",
-			"city": "Yerevan",
+			"api_football_id": 19776,
+			"name": "Arena e Demave",
+			"address": "Myslym Keta Road, Tufine",
+			"city": "Tirana",
 			"capacity": 5000,
-			"surface": "grass",
-			"lat": 40.171426,
-			"lng": 44.449938,
-			"x": 253.2,
-			"y": 366.9,
-			"url": "https://en.wikipedia.org/wiki/Urartu_Stadium"
+			"surface": "artificial turf",
+			"lat": 41.356257,
+			"lng": 19.85127,
+			"x": 340.3,
+			"y": 342.8,
+			"url": "https://en.wikipedia.org/wiki/Arena_e_Demave"
 		},
 		"league": {
-			"api_football_id": 342,
-			"name": "Premier League",
-			"country": "Armenia",
+			"api_football_id": 310,
+			"name": "Superliga",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "119_001.jpg",
+				"name": "19776_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -118,34 +118,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3682,
-			"name": "Ararat",
-			"code": "ARA",
-			"country": "Armenia",
-			"founded": 1935
+			"api_football_id": 2256,
+			"name": "Laci",
+			"code": "LAC",
+			"country": "Albania",
+			"founded": 1965
 		},
 		"venue": {
-			"api_football_id": 121,
-			"name": "Vazgen Sargsyan anvan Hanrapetakan Marzadasht",
-			"address": "ul. Nar-Dos",
-			"city": "Yerevan",
-			"capacity": 14530,
+			"api_football_id": 3,
+			"name": "Stadiumi Laçi",
+			"address": "Pranë Bashkisë",
+			"city": "Laç",
+			"capacity": 3000,
 			"surface": "grass",
-			"lat": 40.171944,
-			"lng": 44.525833,
-			"x": 272.1,
-			"y": 366.7,
-			"url": "https://en.wikipedia.org/wiki/Vazgen_Sargsyan_Republican_Stadium"
+			"lat": 41.642472,
+			"lng": 19.711667,
+			"x": 312.5,
+			"y": 267.5,
+			"url": "https://en.wikipedia.org/wiki/La%C3%A7i_Stadium"
 		},
 		"league": {
-			"api_football_id": 342,
-			"name": "Premier League",
-			"country": "Armenia",
+			"api_football_id": 310,
+			"name": "Superliga",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "121_001.jpg",
+				"name": "3_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -157,34 +157,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3683,
-			"name": "Ararat-Armenia",
-			"code": null,
-			"country": "Armenia",
-			"founded": 2017
+			"api_football_id": 3320,
+			"name": "Teuta Durrës",
+			"code": "TEU",
+			"country": "Albania",
+			"founded": 1925
 		},
 		"venue": {
-			"api_football_id": 120,
-			"name": "Yerevan Football Academy",
-			"address": "Acharyan 35/31, Avan",
-			"city": "Yerevan",
-			"capacity": 1500,
+			"api_football_id": 2159,
+			"name": "Stadiumi Niko Dovana",
+			"address": "Lagjia 18, Rruga Ahmet Ramzoti",
+			"city": "Durrës",
+			"capacity": 12040,
 			"surface": "grass",
-			"lat": 40.221111,
-			"lng": 44.555278,
-			"x": 279.5,
-			"y": 350.8,
-			"url": "https://en.wikipedia.org/wiki/Yerevan_Football_Academy_Stadium"
+			"lat": 41.326081,
+			"lng": 19.449856,
+			"x": 260.5,
+			"y": 350.7,
+			"url": "https://en.wikipedia.org/wiki/Niko_Dovana_Stadium"
 		},
 		"league": {
-			"api_football_id": 342,
-			"name": "Premier League",
-			"country": "Armenia",
+			"api_football_id": 310,
+			"name": "Superliga",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "120_001.jpg",
+				"name": "2159_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -196,34 +196,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3684,
-			"name": "Artsakh",
-			"code": null,
-			"country": "Armenia",
-			"founded": 2017
+			"api_football_id": 3325,
+			"name": "Bylis",
+			"code": "BYL",
+			"country": "Albania",
+			"founded": 1972
 		},
 		"venue": {
-			"api_football_id": 20559,
-			"name": "Armaviri Hakob Tonoyani Stadium",
-			"address": null,
-			"city": "Armavir",
-			"capacity": 3300,
+			"api_football_id": 2164,
+			"name": "Stadiumi Adush Muça",
+			"address": "Stadiumi Adush Muça",
+			"city": "Ballsh",
+			"capacity": 3360,
 			"surface": "grass",
-			"lat": 40.164722,
-			"lng": 44.045278,
-			"x": 152.4,
-			"y": 369.1,
-			"url": "https://en.wikipedia.org/wiki/Armavir_City_Stadium"
+			"lat": 40.601944,
+			"lng": 19.740833,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/Adush_Mu%C3%A7a_Stadium"
 		},
 		"league": {
-			"api_football_id": 342,
-			"name": "Premier League",
-			"country": "Armenia",
+			"api_football_id": 310,
+			"name": "Superliga",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "20559_001.jpg",
+				"name": "2164_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -235,34 +235,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3686,
-			"name": "Shirak",
-			"code": "SHI",
-			"country": "Armenia",
-			"founded": 1958
+			"api_football_id": 3326,
+			"name": "Dinamo Tirana",
+			"code": "DIN",
+			"country": "Albania",
+			"founded": 1950
 		},
 		"venue": {
-			"api_football_id": 2479,
-			"name": "Gyumri City Stadium",
-			"address": "Ozanyan Str. 6",
-			"city": "Gyumri",
-			"capacity": 3500,
+			"api_football_id": 2,
+			"name": "Elbasan Arena",
+			"address": "Bulevardi Qemal Stafa",
+			"city": "Elbasan",
+			"capacity": 12800,
 			"surface": "grass",
-			"lat": 40.785833,
-			"lng": 43.833333,
-			"x": 99.5,
-			"y": 167.3,
-			"url": "https://en.wikipedia.org/wiki/Gyumri_City_Stadium"
+			"lat": 41.115875,
+			"lng": 20.091992,
+			"x": 388.1,
+			"y": 405.9,
+			"url": "https://en.wikipedia.org/wiki/Elbasan_Arena"
 		},
 		"league": {
-			"api_football_id": 342,
-			"name": "Premier League",
-			"country": "Armenia",
+			"api_football_id": 310,
+			"name": "Superliga",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "2479_001.jpg",
+				"name": "2_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -274,34 +274,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 6279,
-			"name": "BKMA",
+			"api_football_id": 3327,
+			"name": "Egnatia Rrogozhinë",
 			"code": null,
-			"country": "Armenia",
-			"founded": null
+			"country": "Albania",
+			"founded": 1964
 		},
 		"venue": {
-			"api_football_id": 120,
-			"name": "Yerevan Football Academy",
-			"address": "Acharyan 35/31, Avan",
-			"city": "Yerevan",
-			"capacity": 1500,
+			"api_football_id": 12601,
+			"name": "Arena Egnatia",
+			"address": null,
+			"city": "Rrogozhinë",
+			"capacity": 4000,
 			"surface": "grass",
-			"lat": 40.221111,
-			"lng": 44.555278,
-			"x": 279.5,
-			"y": 350.8,
-			"url": "https://en.wikipedia.org/wiki/Yerevan_Football_Academy_Stadium"
+			"lat": 41.076806,
+			"lng": 19.661639,
+			"x": 302.6,
+			"y": 416.2,
+			"url": "https://en.wikipedia.org/wiki/Egnatia_Arena"
 		},
 		"league": {
-			"api_football_id": 342,
-			"name": "Premier League",
-			"country": "Armenia",
+			"api_football_id": 310,
+			"name": "Superliga",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "120_001.jpg",
+				"name": "12601_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -313,34 +313,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 6286,
-			"name": "Van",
-			"code": null,
-			"country": "Armenia",
-			"founded": null
+			"api_football_id": 3339,
+			"name": "Vllaznia Shkodër",
+			"code": "VLL",
+			"country": "Albania",
+			"founded": 1919
 		},
 		"venue": {
-			"api_football_id": 4655,
-			"name": "Charentsavan City Stadium",
-			"address": null,
-			"city": "Charentsavan",
-			"capacity": 5000,
-			"surface": "artificial turf",
-			"lat": 40.408611,
-			"lng": 44.645556,
-			"x": 302,
-			"y": 289.8,
-			"url": "https://en.wikipedia.org/wiki/Charentsavan_City_Stadium"
+			"api_football_id": 1966,
+			"name": "Stadiumi Loro Boriçi",
+			"address": "Rruga Musa Luli 1",
+			"city": "Shkodër",
+			"capacity": 16000,
+			"surface": "grass",
+			"lat": 42.070031,
+			"lng": 19.506558,
+			"x": 271.8,
+			"y": 155.1,
+			"url": "https://en.wikipedia.org/wiki/Loro_Bori%C3%A7i_Stadium"
 		},
 		"league": {
-			"api_football_id": 342,
-			"name": "Premier League",
-			"country": "Armenia",
+			"api_football_id": 310,
+			"name": "Superliga",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "4655_001.jpg",
+				"name": "1966_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -352,34 +352,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 6287,
-			"name": "West Armenia",
+			"api_football_id": 20406,
+			"name": "AF Elbasani",
 			"code": null,
-			"country": "Armenia",
-			"founded": null
+			"country": "Albania",
+			"founded": 2021
 		},
 		"venue": {
-			"api_football_id": 10489,
-			"name": "Kasakhi Marzik Stadium",
-			"address": "Linch Street",
-			"city": "Ashtarak",
-			"capacity": 3600,
+			"api_football_id": 2,
+			"name": "Elbasan Arena",
+			"address": "Bulevardi Qemal Stafa",
+			"city": "Elbasan",
+			"capacity": 12000,
 			"surface": "grass",
-			"lat": 40.291111,
-			"lng": 44.352222,
-			"x": 228.9,
-			"y": 328,
-			"url": "https://en.wikipedia.org/wiki/Kasakhi_Marzik_Stadium"
+			"lat": 41.115875,
+			"lng": 20.091992,
+			"x": 388.1,
+			"y": 405.9,
+			"url": "https://en.wikipedia.org/wiki/Elbasan_Arena"
 		},
 		"league": {
-			"api_football_id": 342,
-			"name": "Premier League",
-			"country": "Armenia",
+			"api_football_id": 310,
+			"name": "Superliga",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "10489_001.jpg",
+				"name": "2_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -391,34 +391,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 688,
-			"name": "Gandzasar",
-			"code": "GAN",
-			"country": "Armenia",
-			"founded": 2021
+			"api_football_id": 577,
+			"name": "FK Kukesi",
+			"code": "KUK",
+			"country": "Albania",
+			"founded": 1930
 		},
 		"venue": {
-			"api_football_id": 19103,
-			"name": "Gandzasar Stadium",
-			"address": "M-2",
-			"city": "Kapan",
-			"capacity": 3500,
+			"api_football_id": 19194,
+			"name": "Kukës Arena",
+			"address": "Rruga Stadiumi",
+			"city": "Kukës",
+			"capacity": 6200,
 			"surface": "grass",
-			"lat": 39.207787,
-			"lng": 46.400674,
-			"x": 739.5,
-			"y": 680,
-			"url": "https://en.wikipedia.org/wiki/Gandzasar_Stadium"
+			"lat": 42.078889,
+			"lng": 20.420278,
+			"x": 453.4,
+			"y": 152.8,
+			"url": "https://en.wikipedia.org/wiki/Kuk%C3%ABs_Arena"
 		},
 		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
+			"api_football_id": 311,
+			"name": "1st Division",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "19103_001.jpg",
+				"name": "19194_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -430,34 +430,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3687,
-			"name": "Alashkert II",
-			"code": null,
-			"country": "Armenia",
-			"founded": null
+			"api_football_id": 3317,
+			"name": "Flamurtari",
+			"code": "FLA",
+			"country": "Albania",
+			"founded": 1923
 		},
 		"venue": {
-			"api_football_id": 10489,
-			"name": "Kasakhi Marzik Stadium",
-			"address": "Linch Street",
-			"city": "Ashtarak",
-			"capacity": 3600,
+			"api_football_id": 2156,
+			"name": "Stadiumi Flamurtari",
+			"address": "Lagja Pavarësia",
+			"city": "Vlorë",
+			"capacity": 8800,
 			"surface": "grass",
-			"lat": 40.291111,
-			"lng": 44.352222,
-			"x": 228.9,
-			"y": 328,
-			"url": "https://en.wikipedia.org/wiki/Kasakhi_Marzik_Stadium"
+			"lat": 40.455922,
+			"lng": 19.488986,
+			"x": 268.3,
+			"y": 579.4,
+			"url": "https://en.wikipedia.org/wiki/Flamurtari_Stadium"
 		},
 		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
+			"api_football_id": 311,
+			"name": "1st Division",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "10489_001.jpg",
+				"name": "2156_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -469,34 +469,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3688,
-			"name": "Ararat II",
-			"code": null,
-			"country": "Armenia",
-			"founded": null
+			"api_football_id": 3319,
+			"name": "Kastrioti Krujë",
+			"code": "KAS",
+			"country": "Albania",
+			"founded": 1926
 		},
 		"venue": {
-			"api_football_id": 2481,
-			"name": "Sports Complex Dzoraghbyur",
+			"api_football_id": 2158,
+			"name": "Stadiumi Redi Maloku",
 			"address": null,
-			"city": "Dzoraghbyur",
-			"capacity": 1000,
+			"city": "Fushë-Krujë",
+			"capacity": 3000,
 			"surface": "grass",
-			"lat": 40.203611,
-			"lng": 44.651111,
-			"x": 303.4,
-			"y": 356.4,
-			"url": "https://en.wikipedia.org/wiki/Dzoraghbyur_Training_Centre"
+			"lat": 41.512028,
+			"lng": 19.786667,
+			"x": 327.4,
+			"y": 301.8,
+			"url": "https://en.wikipedia.org/wiki/Redi_Maloku_Stadium"
 		},
 		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
+			"api_football_id": 311,
+			"name": "1st Division",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "2481_001.jpg",
+				"name": "2158_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -508,34 +508,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3689,
-			"name": "Ararat-Armenia II",
-			"code": null,
-			"country": "Armenia",
-			"founded": null
+			"api_football_id": 3321,
+			"name": "Apolonia Fier",
+			"code": "APO",
+			"country": "Albania",
+			"founded": 1925
 		},
 		"venue": {
-			"api_football_id": 120,
-			"name": "Yerevan Football Academy",
-			"address": "Acharyan 35/31, Avan",
-			"city": "Yerevan",
-			"capacity": 1500,
+			"api_football_id": 2160,
+			"name": "Stadiumi Loni Papuçiu",
+			"address": "Rruga R. Aranitasi",
+			"city": "Fier",
+			"capacity": 6800,
 			"surface": "grass",
-			"lat": 40.221111,
-			"lng": 44.555278,
-			"x": 279.5,
-			"y": 350.8,
-			"url": "https://en.wikipedia.org/wiki/Yerevan_Football_Academy_Stadium"
+			"lat": 40.720833,
+			"lng": 19.552222,
+			"x": 280.8,
+			"y": 509.8,
+			"url": "https://en.wikipedia.org/wiki/Loni_Papu%C3%A7iu_Stadium"
 		},
 		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
+			"api_football_id": 311,
+			"name": "1st Division",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "120_001.jpg",
+				"name": "2160_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -547,34 +547,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3690,
-			"name": "Banants II",
-			"code": null,
-			"country": "Armenia",
-			"founded": 1992
+			"api_football_id": 3322,
+			"name": "Besa Kavajë",
+			"code": "BES",
+			"country": "Albania",
+			"founded": 1925
 		},
 		"venue": {
-			"api_football_id": 4653,
-			"name": "Banants-3",
-			"address": "ul. Jivani, Malatia-Sebastia",
-			"city": "Yerevan",
-			"capacity": 1500,
+			"api_football_id": 12390,
+			"name": "Stadiumi Luz i Vogël",
+			"address": "Luz i Vogël",
+			"city": "Luz i Vogël",
+			"capacity": 600,
 			"surface": "grass",
-			"lat": 40.171362,
-			"lng": 44.449878,
-			"x": 253.2,
-			"y": 366.9,
-			"url": ""
+			"lat": 41.126111,
+			"lng": 19.575,
+			"x": 285.4,
+			"y": 403.2,
+			"url": "https://en.wikipedia.org/wiki/Luz_i_Vog%C3%ABl_Stadium"
 		},
 		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
+			"api_football_id": 311,
+			"name": "1st Division",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "4653_001.jpg",
+				"name": "12390_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -586,34 +586,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3696,
-			"name": "Pyunik II",
-			"code": null,
-			"country": "Armenia",
-			"founded": null
+			"api_football_id": 3324,
+			"name": "Burreli",
+			"code": "BUR",
+			"country": "Albania",
+			"founded": 1952
 		},
 		"venue": {
-			"api_football_id": 2480,
-			"name": "Pyunik Training Centre",
-			"address": "Tsitsernakaberd Highway",
-			"city": "Yerevan",
-			"capacity": 2000,
-			"surface": "artificial turf",
-			"lat": 40.181944,
-			"lng": 44.49,
-			"x": 263.2,
-			"y": 363.5,
-			"url": "https://en.wikipedia.org/wiki/Pyunik_Training_Centre"
+			"api_football_id": 2163,
+			"name": "Stadiumi Liri Ballabani",
+			"address": null,
+			"city": "Burreli",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 41.608961,
+			"lng": 20.006975,
+			"x": 371.2,
+			"y": 276.3,
+			"url": "https://en.wikipedia.org/wiki/Liri_Ballabani_Stadium"
 		},
 		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
+			"api_football_id": 311,
+			"name": "1st Division",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "2480_001.jpg",
+				"name": "2163_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -625,34 +625,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3697,
-			"name": "Shirak II",
+			"api_football_id": 3329,
+			"name": "Erzeni Shijak",
 			"code": null,
-			"country": "Armenia",
-			"founded": null
+			"country": "Albania",
+			"founded": 1931
 		},
 		"venue": {
-			"api_football_id": 2479,
-			"name": "Gyumri City Stadium",
-			"address": "Ozanyan Str. 6",
-			"city": "Gyumri",
-			"capacity": 3500,
+			"api_football_id": 2167,
+			"name": "Stadiumi Tofik Jashari",
+			"address": null,
+			"city": "Shijak",
+			"capacity": 4000,
 			"surface": "grass",
-			"lat": 40.785833,
-			"lng": 43.833333,
-			"x": 99.5,
-			"y": 167.3,
-			"url": "https://en.wikipedia.org/wiki/Gyumri_City_Stadium"
+			"lat": 41.582778,
+			"lng": 19.931944,
+			"x": 356.3,
+			"y": 283.2,
+			"url": "https://en.wikipedia.org/wiki/Tofik_Jashari_Stadium"
 		},
 		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
+			"api_football_id": 311,
+			"name": "1st Division",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "2479_001.jpg",
+				"name": "2167_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -664,34 +664,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 6281,
-			"name": "Lernayin Artsakh",
+			"api_football_id": 3331,
+			"name": "Korabi Peshkopi",
 			"code": null,
-			"country": "Armenia",
-			"founded": 1927
+			"country": "Albania",
+			"founded": null
 		},
 		"venue": {
-			"api_football_id": 19915,
-			"name": "Vayk Stadium",
-			"address": "Yeritasardakan Street",
-			"city": "Vayk",
-			"capacity": 2000,
+			"api_football_id": 2168,
+			"name": "Stadiumi Korabi",
+			"address": null,
+			"city": "Peshkopi",
+			"capacity": 3000,
 			"surface": "grass",
-			"lat": 39.689728,
-			"lng": 45.462568,
-			"x": 505.6,
-			"y": 523.4,
-			"url": ""
+			"lat": 41.680361,
+			"lng": 20.425306,
+			"x": 454.4,
+			"y": 257.6,
+			"url": "https://en.wikipedia.org/wiki/Korabi_Stadium"
 		},
 		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
+			"api_football_id": 311,
+			"name": "1st Division",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "19915_001.jpg",
+				"name": "2168_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -703,34 +703,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 11174,
-			"name": "Mika",
-			"code": "MIK",
-			"country": "Armenia",
-			"founded": 2018
+			"api_football_id": 3332,
+			"name": "Lushnja",
+			"code": "LUS",
+			"country": "Albania",
+			"founded": 1926
 		},
 		"venue": {
-			"api_football_id": 7464,
-			"name": "Mika",
-			"address": "41 Manandyan Str.",
-			"city": "Yerevan",
-			"capacity": 7140,
+			"api_football_id": 2169,
+			"name": "Stadiumi Roza Haxhiu",
+			"address": "Rruga Nexhat Nepravishta",
+			"city": "Lushnjë",
+			"capacity": 8000,
 			"surface": "grass",
-			"lat": 40.149373,
-			"lng": 44.476449,
-			"x": 259.8,
-			"y": 374.1,
-			"url": "https://en.wikipedia.org/wiki/Mika_Stadium"
+			"lat": 40.935425,
+			"lng": 19.709644,
+			"x": 312.1,
+			"y": 453.4,
+			"url": "https://en.wikipedia.org/wiki/Abdurrahman_Roza_Haxhiu_Stadium"
 		},
 		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
+			"api_football_id": 311,
+			"name": "1st Division",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "7464_001.jpg",
+				"name": "2169_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -742,34 +742,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 17171,
-			"name": "BKMA II",
-			"code": null,
-			"country": "Armenia",
-			"founded": null
+			"api_football_id": 3334,
+			"name": "Pogradeci",
+			"code": "POG",
+			"country": "Albania",
+			"founded": 1930
 		},
 		"venue": {
-			"api_football_id": 120,
-			"name": "Yerevan Football Academy",
-			"address": "Acharyan 35/31, Avan",
-			"city": "Yerevan",
-			"capacity": 1500,
+			"api_football_id": 2171,
+			"name": "Stadiumi Gjorgji Kyçyku",
+			"address": null,
+			"city": "Pogradec",
+			"capacity": 5000,
 			"surface": "grass",
-			"lat": 40.221111,
-			"lng": 44.555278,
-			"x": 279.5,
-			"y": 350.8,
-			"url": "https://en.wikipedia.org/wiki/Yerevan_Football_Academy_Stadium"
+			"lat": 40.9,
+			"lng": 20.663889,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/Gjorgji_Ky%C3%A7yku_Stadium"
 		},
 		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
+			"api_football_id": 311,
+			"name": "1st Division",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "120_001.jpg",
+				"name": "2171_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -781,34 +781,34 @@
 	},
 	{
 		"team": {
-			"api_football_id": 20087,
-			"name": "Syunik",
+			"api_football_id": 3340,
+			"name": "Vora",
 			"code": null,
-			"country": "Armenia",
-			"founded": 2004
+			"country": "Albania",
+			"founded": 2011
 		},
 		"venue": {
-			"api_football_id": 19103,
-			"name": "Gandzasar Stadium",
-			"address": "M-2",
-			"city": "Kapan",
-			"capacity": 3500,
-			"surface": "grass",
-			"lat": 39.207787,
-			"lng": 46.400674,
-			"x": 739.5,
-			"y": 680,
-			"url": "https://en.wikipedia.org/wiki/Gandzasar_Stadium"
+			"api_football_id": 20286,
+			"name": "Stadiumi Vora",
+			"address": "Marqinet",
+			"city": "Vora",
+			"capacity": 1200,
+			"surface": "artificial turf",
+			"lat": 41.403470284772034,
+			"lng": 19.64225163053985,
+			"x": 298.7,
+			"y": 330.3,
+			"url": ""
 		},
 		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
+			"api_football_id": 311,
+			"name": "1st Division",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "19103_001.jpg",
+				"name": "20286_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -820,35 +820,43 @@
 	},
 	{
 		"team": {
-			"api_football_id": 21877,
-			"name": "Andranik",
+			"api_football_id": 15511,
+			"name": "Valbona",
 			"code": null,
-			"country": "Armenia",
+			"country": "Albania",
 			"founded": null
 		},
 		"venue": {
-			"api_football_id": null,
-			"name": null,
-			"address": null,
-			"city": null,
-			"capacity": null,
-			"surface": null,
-			"lat": 0,
-			"lng": 0,
-			"x": -10826.5,
-			"y": 13417.4,
+			"api_football_id": 20288,
+			"name": "Stadiumi Tropojë",
+			"address": "Rruga Sylejman Vokshi",
+			"city": "Bajram Curri",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 42.360607,
+			"lng": 20.073748,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
+			"api_football_id": 311,
+			"name": "1st Division",
+			"country": "Albania",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "343_001.jpg",
-				"source": "",
+				"name": "20288_001.jpg",
+				"source": "https://www.panorama.com.al/sport/wp-content/uploads/2019/07/Stadiumi.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20288_002.jpg",
+				"source": "https://www.panorama.com.al/sport/wp-content/uploads/2019/07/Stadiumi-Tropoje.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -859,34 +867,29 @@
 	},
 	{
 		"team": {
-			"api_football_id": 21878,
-			"name": "Nikarm",
-			"code": null,
-			"country": "Armenia",
-			"founded": null
+			"api_football_id": 3330,
+			"name": "Iliria Fushë-Krujë",
+			"code": "ILI",
+			"country": "Albania",
+			"founded": 1991
 		},
 		"venue": {
-			"api_football_id": null,
-			"name": null,
+			"api_football_id": 2158,
+			"name": "Stadiumi Redi Maloku",
 			"address": null,
-			"city": null,
-			"capacity": null,
-			"surface": null,
-			"lat": 0,
-			"lng": 0,
-			"x": -10826.5,
-			"y": 13417.4,
-			"url": ""
+			"city": "Fushë-Krujë",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 40.601944,
+			"lng": 19.740833,
+			"x": 318.3,
+			"y": 541,
+			"url": "https://en.wikipedia.org/wiki/Adush_Mu%C3%A7a_Stadium"
 		},
-		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
-				"name": "",
+				"name": "2158_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -898,34 +901,29 @@
 	},
 	{
 		"team": {
-			"api_football_id": 21879,
-			"name": "Noah II",
-			"code": null,
-			"country": "Armenia",
-			"founded": null
+			"api_football_id": 3336,
+			"name": "Tomori Berat",
+			"code": "BER",
+			"country": "Albania",
+			"founded": 1923
 		},
 		"venue": {
-			"api_football_id": null,
-			"name": null,
+			"api_football_id": 2173,
+			"name": "Stadiumi Tomori",
 			"address": null,
-			"city": null,
-			"capacity": null,
-			"surface": null,
-			"lat": 0,
-			"lng": 0,
-			"x": -10826.5,
-			"y": 13417.4,
-			"url": ""
+			"city": "Berat",
+			"capacity": 12000,
+			"surface": "grass",
+			"lat": 40.698889,
+			"lng": 19.964444,
+			"x": 362.8,
+			"y": 515.5,
+			"url": "https://en.wikipedia.org/wiki/Tomori_Stadium"
 		},
-		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
-				"name": "",
+				"name": "2173_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -937,34 +935,29 @@
 	},
 	{
 		"team": {
-			"api_football_id": 21880,
-			"name": "Onor",
+			"api_football_id": 10720,
+			"name": "Luzi 2008",
 			"code": null,
-			"country": "Armenia",
-			"founded": 2016
+			"country": "Albania",
+			"founded": 2008
 		},
 		"venue": {
-			"api_football_id": null,
-			"name": null,
-			"address": null,
-			"city": null,
-			"capacity": null,
-			"surface": null,
-			"lat": 0,
-			"lng": 0,
-			"x": -10826.5,
-			"y": 13417.4,
-			"url": ""
+			"api_football_id": 12390,
+			"name": "Stadiumi Luz i Vogël",
+			"address": "Luz i Vogël",
+			"city": "Luz i Vogël",
+			"capacity": 600,
+			"surface": "grass",
+			"lat": 41.126111,
+			"lng": 19.575,
+			"x": 285.4,
+			"y": 403.2,
+			"url": "https://en.wikipedia.org/wiki/Luz_i_Vog%C3%ABl_Stadium"
 		},
-		"league": {
-			"api_football_id": 343,
-			"name": "First League",
-			"country": "Armenia",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
-				"name": "",
+				"name": "12390_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -973,5 +966,39 @@
 			}
 		],
 		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 17740,
+			"name": "Luftëtari",
+			"code": null,
+			"country": "Albania",
+			"founded": 2020
+		},
+		"venue": {
+			"api_football_id": 1,
+			"name": "Stadiumi Gjirokastra",
+			"address": "Lagja 18 Shtatori",
+			"city": "Gjirokastër",
+			"capacity": 8400,
+			"surface": "grass",
+			"lat": 40.081211,
+			"lng": 20.138092,
+			"x": 397.3,
+			"y": 677.9,
+			"url": "https://en.wikipedia.org/wiki/Gjirokastra_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "1_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 26
 	}
 ]

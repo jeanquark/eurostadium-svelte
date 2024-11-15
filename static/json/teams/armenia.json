@@ -796,8 +796,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -10826.5,
-			"y": 13417.4,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
@@ -806,16 +806,6 @@
 			"country": "Armenia",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "343_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 21
 	},
 	{
@@ -835,8 +825,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -10826.5,
-			"y": 13417.4,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
@@ -845,16 +835,6 @@
 			"country": "Armenia",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 22
 	},
 	{
@@ -874,8 +854,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -10826.5,
-			"y": 13417.4,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
@@ -884,16 +864,6 @@
 			"country": "Armenia",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 23
 	},
 	{
@@ -976,21 +946,11 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -10826.5,
-			"y": 13417.4,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 26
 	}
 ]

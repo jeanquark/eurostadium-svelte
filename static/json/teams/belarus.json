@@ -118,6 +118,45 @@
 	},
 	{
 		"team": {
+			"api_football_id": 384,
+			"name": "FC Dnepr Mogilev",
+			"code": "DNE",
+			"country": "Belarus",
+			"founded": 1960
+		},
+		"venue": {
+			"api_football_id": 2595,
+			"name": "Stadyen Spartak",
+			"address": "ul. Mironova",
+			"city": "Mogilev",
+			"capacity": 7350,
+			"surface": "grass",
+			"lat": 53.905278,
+			"lng": 30.340556,
+			"x": 529.5,
+			"y": 334.9,
+			"url": "https://en.wikipedia.org/wiki/Spartak_Stadium_(Mogilev)"
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2595_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 4
+	},
+	{
+		"team": {
 			"api_football_id": 385,
 			"name": "Torpedo Zhodino",
 			"code": "ZHO",
@@ -153,7 +192,7 @@
 				"size": 0
 			}
 		],
-		"no": 4
+		"no": 5
 	},
 	{
 		"team": {
@@ -192,7 +231,7 @@
 				"size": 0
 			}
 		],
-		"no": 5
+		"no": 6
 	},
 	{
 		"team": {
@@ -231,7 +270,7 @@
 				"size": 0
 			}
 		],
-		"no": 6
+		"no": 7
 	},
 	{
 		"team": {
@@ -270,7 +309,7 @@
 				"size": 0
 			}
 		],
-		"no": 7
+		"no": 8
 	},
 	{
 		"team": {
@@ -309,7 +348,7 @@
 				"size": 0
 			}
 		],
-		"no": 8
+		"no": 9
 	},
 	{
 		"team": {
@@ -348,7 +387,7 @@
 				"size": 0
 			}
 		],
-		"no": 9
+		"no": 10
 	},
 	{
 		"team": {
@@ -387,7 +426,7 @@
 				"size": 0
 			}
 		],
-		"no": 10
+		"no": 11
 	},
 	{
 		"team": {
@@ -426,7 +465,7 @@
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 12
 	},
 	{
 		"team": {
@@ -465,7 +504,7 @@
 				"size": 0
 			}
 		],
-		"no": 12
+		"no": 13
 	},
 	{
 		"team": {
@@ -504,85 +543,7 @@
 				"size": 0
 			}
 		],
-		"no": 13
-	},
-	{
-		"team": {
-			"api_football_id": 2433,
-			"name": "FC Energetik-Bgu Minsk",
-			"code": "ZVE",
-			"country": "Belarus",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 172,
-			"name": "Stadyen RTsOP-BGU",
-			"address": "ul. Semashko 13",
-			"city": "Minsk",
-			"capacity": 1500,
-			"surface": "artificial turf",
-			"lat": 53.85962,
-			"lng": 27.501742,
-			"x": 319.6,
-			"y": 340.6,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 116,
-			"name": "Premier League",
-			"country": "Belarus",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "172_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 14
-	},
-	{
-		"team": {
-			"api_football_id": 3384,
-			"name": "Belshina",
-			"code": "BEL",
-			"country": "Belarus",
-			"founded": 1977
-		},
-		"venue": {
-			"api_football_id": 8650,
-			"name": "Stadyen Spartak",
-			"address": "ul. Oktyabr&apos;skaya 119",
-			"city": "Bobruisk",
-			"capacity": 3661,
-			"surface": "grass",
-			"lat": 53.140278,
-			"lng": 29.217222,
-			"x": 446.5,
-			"y": 430.4,
-			"url": "https://en.wikipedia.org/wiki/Spartak_Stadium_(Bobruisk)"
-		},
-		"league": {
-			"api_football_id": 116,
-			"name": "Premier League",
-			"country": "Belarus",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "8650_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 15
 	},
 	{
 		"team": {
@@ -621,38 +582,67 @@
 				"size": 0
 			}
 		],
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 9419,
+			"name": "Arsenal",
+			"code": null,
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 11595,
+			"name": "Stadyen Haradski",
+			"address": "ul. Naberezhnaya 22a",
+			"city": "Dzerzhinsk",
+			"capacity": 1100,
+			"surface": "grass",
+			"lat": 53.683372,
+			"lng": 27.138737,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 116,
+			"name": "Premier League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
 		"no": 16
 	},
 	{
 		"team": {
-			"api_football_id": 382,
-			"name": "FC Vitebsk",
-			"code": null,
+			"api_football_id": 2433,
+			"name": "FC Energetik-Bgu Minsk",
+			"code": "ZVE",
 			"country": "Belarus",
-			"founded": 1960
+			"founded": null
 		},
 		"venue": {
-			"api_football_id": 164,
-			"name": "Stadyen Central'ny Vitsyebski",
-			"address": "prospekt Ljudnikova 12",
-			"city": "Vitebsk",
-			"capacity": 8144,
-			"surface": "grass",
-			"lat": 55.198333,
-			"lng": 30.229167,
-			"x": 521.3,
-			"y": 173.5,
-			"url": "https://en.wikipedia.org/wiki/Vitebsky_Central_Sport_Complex"
+			"api_football_id": 172,
+			"name": "Stadyen RTsOP-BGU",
+			"address": "ul. Semashko 13",
+			"city": "Minsk",
+			"capacity": 1500,
+			"surface": "artificial turf",
+			"lat": 53.85962,
+			"lng": 27.501742,
+			"x": 319.6,
+			"y": 340.6,
+			"url": ""
 		},
 		"league": {
 			"api_football_id": 117,
-			"name": "1. Division",
+			"name": "First League",
 			"country": "Belarus",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "164_001.jpg",
+				"name": "172_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -661,45 +651,6 @@
 			}
 		],
 		"no": 17
-	},
-	{
-		"team": {
-			"api_football_id": 384,
-			"name": "FC Dnepr Mogilev",
-			"code": "DNE",
-			"country": "Belarus",
-			"founded": 1960
-		},
-		"venue": {
-			"api_football_id": 2595,
-			"name": "Stadyen Spartak",
-			"address": "ul. Mironova",
-			"city": "Mogilev",
-			"capacity": 7350,
-			"surface": "grass",
-			"lat": 53.905278,
-			"lng": 30.340556,
-			"x": 529.5,
-			"y": 334.9,
-			"url": "https://en.wikipedia.org/wiki/Spartak_Stadium_(Mogilev)"
-		},
-		"league": {
-			"api_football_id": 117,
-			"name": "1. Division",
-			"country": "Belarus",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2595_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 18
 	},
 	{
 		"team": {
@@ -724,13 +675,52 @@
 		},
 		"league": {
 			"api_football_id": 117,
-			"name": "1. Division",
+			"name": "First League",
 			"country": "Belarus",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
 				"name": "2203_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 3384,
+			"name": "Belshina",
+			"code": "BEL",
+			"country": "Belarus",
+			"founded": 1977
+		},
+		"venue": {
+			"api_football_id": 8650,
+			"name": "Stadyen Spartak",
+			"address": "ul. Oktyabr&apos;skaya 119",
+			"city": "Bobruisk",
+			"capacity": 3661,
+			"surface": "grass",
+			"lat": 53.140278,
+			"lng": 29.217222,
+			"x": 446.5,
+			"y": 430.4,
+			"url": "https://en.wikipedia.org/wiki/Spartak_Stadium_(Bobruisk)"
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "First League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "8650_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -763,7 +753,7 @@
 		},
 		"league": {
 			"api_football_id": 117,
-			"name": "1. Division",
+			"name": "First League",
 			"country": "Belarus",
 			"api_football_country_id": 0
 		},
@@ -802,7 +792,7 @@
 		},
 		"league": {
 			"api_football_id": 117,
-			"name": "1. Division",
+			"name": "First League",
 			"country": "Belarus",
 			"api_football_country_id": 0
 		},
@@ -841,7 +831,7 @@
 		},
 		"league": {
 			"api_football_id": 117,
-			"name": "1. Division",
+			"name": "First League",
 			"country": "Belarus",
 			"api_football_country_id": 0
 		},
@@ -880,7 +870,7 @@
 		},
 		"league": {
 			"api_football_id": 117,
-			"name": "1. Division",
+			"name": "First League",
 			"country": "Belarus",
 			"api_football_country_id": 0
 		},
@@ -919,7 +909,7 @@
 		},
 		"league": {
 			"api_football_id": 117,
-			"name": "1. Division",
+			"name": "First League",
 			"country": "Belarus",
 			"api_football_country_id": 0
 		},
@@ -934,45 +924,6 @@
 			}
 		],
 		"no": 24
-	},
-	{
-		"team": {
-			"api_football_id": 4273,
-			"name": "Osipovichy",
-			"code": null,
-			"country": "Belarus",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 3268,
-			"name": "Stadyen Junatstva",
-			"address": "pr. 60 let Oktyabrya, 6",
-			"city": "Osipovichy",
-			"capacity": 2200,
-			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -1713.8,
-			"y": 7062.9,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 117,
-			"name": "1. Division",
-			"country": "Belarus",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "3268_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 25
 	},
 	{
 		"team": {
@@ -997,7 +948,7 @@
 		},
 		"league": {
 			"api_football_id": 117,
-			"name": "1. Division",
+			"name": "First League",
 			"country": "Belarus",
 			"api_football_country_id": 0
 		},
@@ -1011,7 +962,7 @@
 				"size": 0
 			}
 		],
-		"no": 26
+		"no": 25
 	},
 	{
 		"team": {
@@ -1030,27 +981,17 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -1713.8,
-			"y": 7062.9,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 117,
-			"name": "1. Division",
+			"name": "First League",
 			"country": "Belarus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 27
+		"no": 26
 	},
 	{
 		"team": {
@@ -1067,68 +1008,48 @@
 			"city": "Rohachev",
 			"capacity": 7000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -1713.8,
-			"y": 7062.9,
+			"lat": 53.080498,
+			"lng": 30.054001,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 117,
-			"name": "1. Division",
+			"name": "First League",
 			"country": "Belarus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "5648_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 28
+		"no": 27
 	},
 	{
 		"team": {
-			"api_football_id": 9419,
-			"name": "Arsenal",
+			"api_football_id": 11266,
+			"name": "Dinamo Minsk II",
 			"code": null,
 			"country": "Belarus",
 			"founded": null
 		},
 		"venue": {
-			"api_football_id": 11595,
-			"name": "Stadyen Haradski",
-			"address": "ul. Naberezhnaya 22a",
-			"city": "Dzerzhinsk",
-			"capacity": 1100,
-			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -1713.8,
-			"y": 7062.9,
+			"api_football_id": 172,
+			"name": "Stadyen RTsOP-BGU",
+			"address": null,
+			"city": null,
+			"capacity": 1500,
+			"surface": "artificial turf",
+			"lat": 53.859723,
+			"lng": 27.501719,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 117,
-			"name": "1. Division",
+			"name": "First League",
 			"country": "Belarus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "11595_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 29
+		"no": 28
 	},
 	{
 		"team": {
@@ -1145,29 +1066,19 @@
 			"city": "Astravets",
 			"capacity": 3000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
-			"x": -1713.8,
-			"y": 7062.9,
+			"lat": 54.622093,
+			"lng": 25.968428,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 117,
-			"name": "1. Division",
+			"name": "First League",
 			"country": "Belarus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "8300_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 30
+		"no": 29
 	},
 	{
 		"team": {
@@ -1184,29 +1095,19 @@
 			"city": "Petryków",
 			"capacity": 1500,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
-			"x": -1713.8,
-			"y": 7062.9,
+			"lat": 52.118513,
+			"lng": 28.481699,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 117,
-			"name": "1. Division",
+			"name": "First League",
 			"country": "Belarus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "8301_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 31
+		"no": 30
 	},
 	{
 		"team": {
@@ -1225,27 +1126,128 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -1713.8,
-			"y": 7062.9,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 117,
-			"name": "1. Division",
+			"name": "First League",
 			"country": "Belarus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"no": 31
+	},
+	{
+		"team": {
+			"api_football_id": 23271,
+			"name": "ABFF U17",
+			"code": null,
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "First League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
 		"no": 32
+	},
+	{
+		"team": {
+			"api_football_id": 23272,
+			"name": "BATE II",
+			"code": null,
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "First League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 33
+	},
+	{
+		"team": {
+			"api_football_id": 23273,
+			"name": "Torpedo BelAZ II",
+			"code": null,
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 117,
+			"name": "First League",
+			"country": "Belarus",
+			"api_football_country_id": 0
+		},
+		"no": 34
+	},
+	{
+		"team": {
+			"api_football_id": 4273,
+			"name": "Osipovichy",
+			"code": null,
+			"country": "Belarus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 3268,
+			"name": "Stadyen Junatstva",
+			"address": "pr. 60 let Oktyabrya, 6",
+			"city": "Osipovichy",
+			"capacity": 2200,
+			"surface": "grass",
+			"lat": 52.201341,
+			"lng": 24.354179,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {},
+		"no": 35
 	},
 	{
 		"team": {
@@ -1264,26 +1266,11 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -1713.8,
-			"y": 7062.9,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
-		"league": {
-			"api_football_id": 117,
-			"name": "1. Division",
-			"country": "Belarus",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 33
+		"league": {},
+		"no": 36
 	}
 ]
