@@ -1,16 +1,20 @@
 <script>
+    import { base } from "$app/paths";
+    import { supabase } from "../../lib/supabase/supabaseClient";
     // Stores the selected file and image preview URL
     let selectedFile = null;
     let previewUrl = "";
 
     async function getImages(event) {
         try {
-            const response = await fetch("https://ybfeookvrzkbcgobnzez.supabase.co/functions/v1/upload-image");
-            console.log('response: ', response);
-            const data = await response.json()
-            console.log('data: ', data);
+            const response = await fetch(
+                "https://ybfeookvrzkbcgobnzez.supabase.co/functions/v1/upload-image2",
+            );
+            console.log("response: ", response);
+            const data = await response.json();
+            console.log("data: ", data);
         } catch (error) {
-            console.log('error: ', error);
+            console.log("error: ", error);
         }
     }
 
@@ -35,24 +39,55 @@
 
         const formData = new FormData();
         formData.append("image", selectedFile);
-        
+        console.log('formData.get(image): ', formData.get('image'));
+        const fileName = `${Date.now()}-${selectedFile.name}`;
+        // return
+        const image = formData.get('image')
+
+        const { data: { session } } = await supabase.auth.getSession()
+        // console.log('session: ', session);
+        const accessToken = session?.access_token
+        // console.log('accessToken: ', accessToken);
+        // return
 
         try {
-            const response = await fetch("https://ybfeookvrzkbcgobnzez.supabase.co/functions/v1/upload-image", {
-                method: "POST",
-                body: formData,
-            });
+            // 1) Upload image directly from browser
+
+            // const { data: data1, error: error1 } = await supabase.storage
+            //     .from("image_uploads")
+            //     .upload(fileName, image, {
+            //         cacheControl: "3600",
+            //         contentType: image.type,
+            //         upsert: false,
+            //     });
+            // if (error1) throw error1;
+
+            // return;
+
+            // 2) Upload image through Edge function
+            const response = await fetch(
+                "https://ybfeookvrzkbcgobnzez.supabase.co/functions/v1/upload-image2",
+                {
+                    method: "POST",
+                    headers: {
+                        'Authorization': `Bearer ${accessToken}`
+                    },
+                    body: formData,
+                },
+            );
 
             if (response.ok) {
                 alert("Image uploaded successfully!");
+                console.log('response: ', response);
                 // Clear the form or handle success as needed
                 selectedFile = null;
                 previewUrl = "";
             } else {
+                console.log("response: ", response);
                 alert("Image upload failed.");
             }
         } catch (error) {
-            console.error("Error uploading image:", error);
+            console.error(error);
             alert("An error occurred during upload.");
         }
     }
@@ -65,6 +100,9 @@
 
 <div class="container">
     <h2 class="text-center">Upload image</h2>
+    <div class="text-center my-4">
+        <a href="{base}/">&larr;Home</a>
+    </div>
     <form on:submit={handleSubmit}>
         <label>
             Select an image to upload:
@@ -84,7 +122,8 @@
 <style>
     .preview {
         margin-top: 10px;
-        max-width: 100%;
+        /* max-width: 100%; */
+        width: 200px;
         height: auto;
         border: 1px solid #ddd;
         border-radius: 8px;
