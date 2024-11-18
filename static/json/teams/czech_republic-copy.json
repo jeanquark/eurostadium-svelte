@@ -1,0 +1,2168 @@
+[
+	{
+		"team": {
+			"api_football_id": 560,
+			"name": "Slavia Praha",
+			"code": "SLA",
+			"country": "Czech-Republic",
+			"founded": 1892
+		},
+		"venue": {
+			"api_football_id": 18856,
+			"name": "Fortuna Arena",
+			"address": "Vladivostocká 1460/10",
+			"city": "Praha",
+			"capacity": 21000,
+			"surface": "grass",
+			"lat": 50.0675,
+			"lng": 14.471667,
+			"x": 215.5,
+			"y": 265.3,
+			"url": "https://en.wikipedia.org/wiki/Fortuna_Arena"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "18856_01.jpg",
+				"source": "https://www.o2tvsport.cz/data/r/a/fortuna-arena.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18856_02.jpg",
+				"source": "https://cdn.praguecitytourism.city/2024/03/13080427/fortuna-arena-hriste-hlediste.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18856_03.jpg",
+				"source": "https://cdn.praguecitytourism.city/2024/03/26131618/386602174_826686349464551_5938071171277935655_n.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18856_04.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Fortuna_arena.jpg/1200px-Fortuna_arena.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18856_05.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/cze/stadion_eden/stadion_eden06.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18856_06.jpg",
+				"source": "https://www.fotbal.cz/files/images/2462/optimized/fortuna-arena-test.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18856_07.jpg",
+				"source": "https://zlin.cz/wp-content/uploads/2022/05/20220519_111616-e1653028556392.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 1
+	},
+	{
+		"team": {
+			"api_football_id": 567,
+			"name": "Plzen",
+			"code": "PLZ",
+			"country": "Czech-Republic",
+			"founded": 1911
+		},
+		"venue": {
+			"api_football_id": 438,
+			"name": "Doosan Aréna",
+			"address": null,
+			"city": "Plzeň",
+			"capacity": 12500,
+			"surface": "grass",
+			"lat": 49.75,
+			"lng": 13.385556,
+			"x": 117.2,
+			"y": 309.7,
+			"url": "https://en.wikipedia.org/wiki/Doosan_Arena"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "438_01.jpg",
+				"source": "https://www.toka.cz/wp-content/uploads/2023/05/DOOSAN_ARENA_SEDACKY_STADION_FOTO_REALIZACE_TOKA_3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "438_02.jpg",
+				"source": "https://www.fcviktoria.cz/foto/stadion-subpage/2016/vchod_R.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "438_03.jpg",
+				"source": "https://api.sportswhereiam.com/wp-content/uploads/2017/09/Czech-Republic-Plzen-Doosan-Arena-1024x768.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "438_04.jpg",
+				"source": "https://pbs.twimg.com/media/FasP6JZWQAEQ9v7.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "438_05.jpg",
+				"source": "https://zonglmagazin.com/wp-content/uploads/2024/07/fans2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "438_06.jpg",
+				"source": "https://www.fcviktoria.cz/foto/stadion-subpage/2016/sektor_T9.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 2
+	},
+	{
+		"team": {
+			"api_football_id": 603,
+			"name": "Zlin",
+			"code": "ZLI",
+			"country": "Czech-Republic",
+			"founded": 1919
+		},
+		"venue": {
+			"api_football_id": 2492,
+			"name": "Stadion Letná",
+			"address": "Tyršovo nábřeží 4381",
+			"city": "Zlín",
+			"capacity": 6375,
+			"surface": "grass",
+			"lat": 49.231389,
+			"lng": 17.669444,
+			"x": 504.9,
+			"y": 382.3,
+			"url": "https://en.wikipedia.org/wiki/Letn%C3%A1_Stadion_(Zl%C3%ADn)"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2492_01.jpg",
+				"source": "https://g.denik.cz/55/92/zlin-fc-fastav-ftbal-stadion-letna-07.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2492_02.jpg",
+				"source": "https://d48-a.sdn.cz/d_48/c_img_G_C/3HHByFa.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2492_03.jpg",
+				"source": "https://sport.rozhlas.cz/sites/default/files/images/e03ab9401f61b59da5e88177b785df87.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2492_04.jpg",
+				"source": "https://g.denik.cz/55/92/zlin-fc-fastav-ftbal-stadion-letna.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2492_05.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/1/17/West_stand_of_Letna_Stadium_in_Zlin.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 3
+	},
+	{
+		"team": {
+			"api_football_id": 628,
+			"name": "Sparta Praha",
+			"code": "SPA",
+			"country": "Czech-Republic",
+			"founded": 1893
+		},
+		"venue": {
+			"api_football_id": 19513,
+			"name": "epet ARENA",
+			"address": "Milady Horákové 1066/98, Letná",
+			"city": "Praha",
+			"capacity": 20854,
+			"surface": "grass",
+			"lat": 50.099722,
+			"lng": 14.415833,
+			"x": 210.4,
+			"y": 260.7,
+			"url": "https://en.wikipedia.org/wiki/Stadion_Letn%C3%A1"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19513_01.jpg",
+				"source": "https://cdn.praguecitytourism.city/2024/03/13082122/iyxgof-7.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19513_02.jpg",
+				"source": "https://forumsport.cz/wp-content/webpc-passthru.php?src=https://forumsport.cz/wp-content/uploads/2021/07/Generali-arena-letna-sparta.jpg&nocache=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19513_03.jpg",
+				"source": "https://pbs.twimg.com/media/F2wOFRjXoAAsvBE.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19513_04.jpg",
+				"source": "https://cdn.praguecitytourism.city/2024/03/13082113/zvr9-paw-scaled.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19513_05.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/cze/toyota_arena/toyota_arena17.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19513_06.jpg",
+				"source": "https://images.myguide-cdn.com/prague/companies/prague-ac-sparta-praha-stadium-tour/large/prague-ac-sparta-praha-stadium-tour-3130480.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 4
+	},
+	{
+		"team": {
+			"api_football_id": 640,
+			"name": "Mlada Boleslav",
+			"code": "MLA",
+			"country": "Czech-Republic",
+			"founded": 1902
+		},
+		"venue": {
+			"api_football_id": 2494,
+			"name": "Lokotrans Aréna",
+			"address": "U stadionu 1118/II",
+			"city": "Mladá Boleslav",
+			"capacity": 5500,
+			"surface": "grass",
+			"lat": 50.427222,
+			"lng": 14.916944,
+			"x": 255.8,
+			"y": 214.9,
+			"url": "https://en.wikipedia.org/wiki/Lokotrans_Ar%C3%A9na"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2494_01.jpg",
+				"source": "https://stadiony.blog/wp-content/uploads/2024/01/mestsky_stadion_mlada_boleslav_dsc_6649.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2494_02.jpg",
+				"source": "https://pbs.twimg.com/media/FSpWQhNXoAETE4g.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2494_03.jpg",
+				"source": "https://d8-a.sdn.cz/d_8/c_imgrestricted_QP_U/RDsdL/fotbal.jpeg?fl=cro,39,0,2794,1572%7Cres,1200,,1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2494_04.jpg",
+				"source": "https://1742741114.rsc.cdn77.org/files/2023/03/18/1679161113rhbzx-24fl-hkr-spa-20230318-150408-dsc-3737.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 5
+	},
+	{
+		"team": {
+			"api_football_id": 782,
+			"name": "Slovan Liberec",
+			"code": "LIB",
+			"country": "Czech-Republic",
+			"founded": 1921
+		},
+		"venue": {
+			"api_football_id": 2493,
+			"name": "Stadion u Nisy",
+			"address": "Na Hradbách 1300",
+			"city": "Liberec",
+			"capacity": 9900,
+			"surface": "grass",
+			"lat": 50.776111,
+			"lng": 15.05,
+			"x": 267.8,
+			"y": 166.1,
+			"url": "https://en.wikipedia.org/wiki/Stadion_u_Nisy"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2493_01.jpg",
+				"source": "https://pbs.twimg.com/amplify_video_thumb/1781997087485206530/img/lazmZuUOMdRcryF6.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2493_02.jpg",
+				"source": "https://www.fcslovanliberec.cz/foto/den_otevrenych_dveri__(stadion_u_nisy)__14_7_2018/API_8678.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2493_03.jpg",
+				"source": "https://i.ytimg.com/vi/pLbPnQqPGGo/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2493_04.jpg",
+				"source": "https://live.staticflickr.com/7436/9367804633_6c3bae82b0_b.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2493_05.jpg",
+				"source": "https://www.fcslovanliberec.cz/foto/top23/sektor_hoste.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 6
+	},
+	{
+		"team": {
+			"api_football_id": 1122,
+			"name": "FK Jablonec",
+			"code": "JAB",
+			"country": "Czech-Republic",
+			"founded": 1945
+		},
+		"venue": {
+			"api_football_id": 434,
+			"name": "Stadion Střelnice",
+			"address": "U stadionu 4904/5",
+			"city": "Jablonec nad Nisou",
+			"capacity": 6280,
+			"surface": "grass",
+			"lat": 50.715,
+			"lng": 15.162222,
+			"x": 278,
+			"y": 174.6,
+			"url": "https://en.wikipedia.org/wiki/Stadion_St%C5%99elnice"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "434_01.jpg",
+				"source": "https://pbs.twimg.com/media/DuoD_FTX4AAAaTj.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "434_02.jpg",
+				"source": "https://estadiosfc.com/wp-content/uploads/2024/01/Stadion-Strelnice.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "434_03.jpg",
+				"source": "https://www.jablonec.com/wp-content/uploads/zzz-DJI00431-1-1-scaled-e1582002968122.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "434_04.jpg",
+				"source": "https://i.ytimg.com/vi/Xm9U4fCw2Jg/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 7
+	},
+	{
+		"team": {
+			"api_football_id": 2250,
+			"name": "Sigma Olomouc",
+			"code": "SIG",
+			"country": "Czech-Republic",
+			"founded": 1919
+		},
+		"venue": {
+			"api_football_id": 435,
+			"name": "Andrův stadion",
+			"address": "Legionářská 1165/12",
+			"city": "Olomouc",
+			"capacity": 12566,
+			"surface": "grass",
+			"lat": 49.6,
+			"lng": 17.248333,
+			"x": 466.8,
+			"y": 330.7,
+			"url": "https://en.wikipedia.org/wiki/Andr%C5%AFv_stadion"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "435_01.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Andruv_stadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "435_02.jpg",
+				"source": "https://fs2-ct24.ceskatelevize.cz/image/M2RhZmY0NGRlNGVjNzY0NK6OefSzuLt5X5qQIfgYhfJN9INEtIUXur0DgoLoWCdrxK9z_Wo9Aylo_0ZCQ1kfSqrqL9qAgkq0BsBTydXbatZqbVq7UvLwrEdAvpVvVY3dZ4nQWJbOjGCbxHKhCGX63mCj2wa0uA9wSaQZysi8sPJPKpuUmuWT4_1LEEc-hYzCQts_QUjuHN48hfeH8WIwLg.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "435_03.jpg",
+				"source": "https://www.info-stades.fr/uploads/stades/olomouc-andruv-stadion-24963.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "435_04.jpg",
+				"source": "https://pres.upmedia.cz/media/k2/items/cache/cdeccebf0b7f3e481039151ff6b0c25c_XL.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "435_05.jpg",
+				"source": "https://www.irozhlas.cz/sites/default/files/styles/zpravy_fotogalerie_large/public/images/03408367.jpeg?itok=_uujJAQJ",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 8
+	},
+	{
+		"team": {
+			"api_football_id": 3713,
+			"name": "Baník Ostrava",
+			"code": "OST",
+			"country": "Czech-Republic",
+			"founded": 1922
+		},
+		"venue": {
+			"api_football_id": 2495,
+			"name": "Městský stadion - Vítkovice Aréna",
+			"address": "Závodní 2891/86, Vítkovice",
+			"city": "Ostrava",
+			"capacity": 15275,
+			"surface": "grass",
+			"lat": 49.804444,
+			"lng": 18.255833,
+			"x": 558,
+			"y": 302.1,
+			"url": "https://en.wikipedia.org/wiki/M%C4%9Bstsk%C3%BD_stadion_(Ostrava)"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2495_01.jpg",
+				"source": "https://www.fcb.cz/download/redactor/476f7bc8356eb80aebcde82a9b380f50.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2495_02.jpg",
+				"source": "https://ridera-stavebni.cz/wp-content/uploads/2013/07/2013-06-stadion-Vitkovice-06.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2495_03.jpg",
+				"source": "https://www.ostrava-bezbarier.cz/wp-content/uploads/2023/03/05_Mestsky-stadion_tribuna-ZTP-1024x768.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2495_04.jpg",
+				"source": "https://www.patriotmagazin.cz/images/article-preview/1096x732/mestsky-stadion-novy-20150503-zer-044.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2495_05.jpg",
+				"source": "https://www.cityinvestostrava.cz/wp-content/uploads/2021/11/mestsky-stadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2495_06.jpg",
+				"source": "https://www.ostrava.cz/cs/o-meste/aktualne/odhaleni-pametni-desky-na-mestskem-stadionu/zrekonstruovany-mestsky-stadion-ostrava",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 3714,
+			"name": "Bohemians 1905",
+			"code": "BOH",
+			"country": "Czech-Republic",
+			"founded": 1905
+		},
+		"venue": {
+			"api_football_id": 2496,
+			"name": "Stadion Ďolíček",
+			"address": "Vršovická 31",
+			"city": "Praha",
+			"capacity": 7500,
+			"surface": "grass",
+			"lat": 50.066944,
+			"lng": 14.454167,
+			"x": 213.9,
+			"y": 265.3,
+			"url": "https://en.wikipedia.org/wiki/%C4%8Eol%C3%AD%C4%8Dek"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2496_01.jpg",
+				"source": "https://sport.rozhlas.cz/sites/default/files/styles/cro_original_desktop/public/images/2fdf105d302fd95afe5136865d827230.jpg?itok=DVZeEq4L",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2496_02.jpg",
+				"source": "https://www.irozhlas.cz/sites/default/files/styles/zpravy_fotogalerie_large/public/images/03261903.jpeg?itok=_cmeH_6f",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2496_03.jpg",
+				"source": "https://www.irozhlas.cz/sites/default/files/styles/zpravy_fotogalerie_large/public/images/02590134_18.jpeg?itok=ld_-M3t7",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2496_04.jpg",
+				"source": "https://www.nasepraha.cz/wp-content/uploads/2018/01/Dolicek_3-1280x853.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2496_05.jpg",
+				"source": "https://bohemians.esports.cz/files/editor/kotel-dolicek-web.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 3716,
+			"name": "Karviná",
+			"code": "KAR",
+			"country": "Czech-Republic",
+			"founded": 2003
+		},
+		"venue": {
+			"api_football_id": 2498,
+			"name": "Městský Stadión",
+			"address": "U hřiště 318/17, Ráj",
+			"city": "Karviná",
+			"capacity": 4838,
+			"surface": "grass",
+			"lat": 49.8453,
+			"lng": 18.5613,
+			"x": 585.6,
+			"y": 296.4,
+			"url": "https://en.wikipedia.org/wiki/M%C4%9Bstsk%C3%BD_stadion_(Karvin%C3%A1)"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2498_01.jpg",
+				"source": "https://ridera-stavebni.cz/wp-content/uploads/2014/11/Stadion-Karvina_01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2498_02.jpg",
+				"source": "https://o2tvsport.cz/data/p/p/mfk-karvina-stadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2498_03.jpg",
+				"source": "https://www.exx.cz/sites/default/files/styles/huge/public/2021-11/0001.jpg?itok=HA6VQYgW",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2498_04.jpg",
+				"source": "https://sport.rozhlas.cz/sites/default/files/styles/cro_original_desktop/public/images/22fcd661a185f76ef3244545fa17647e.jpg?itok=Be9Ql70p",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 3719,
+			"name": "Slovácko",
+			"code": "SLO",
+			"country": "Czech-Republic",
+			"founded": 1927
+		},
+		"venue": {
+			"api_football_id": 2501,
+			"name": "Městský fotbalový stadion Miroslava Valenty",
+			"address": "Stonky 635",
+			"city": "Uherské Hradiště",
+			"capacity": 8121,
+			"surface": "grass",
+			"lat": 49.065556,
+			"lng": 17.471389,
+			"x": 487,
+			"y": 405.5,
+			"url": "https://en.wikipedia.org/wiki/M%C4%9Bstsk%C3%BD_fotbalov%C3%BD_stadion_Miroslava_Valenty"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2501_01.jpg",
+				"source": "https://live.staticflickr.com/5701/22260960582_3c66be17bc_k.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2501_02.jpg",
+				"source": "https://i.ytimg.com/vi/wFnpjn-1870/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2501_03.jpg",
+				"source": "https://www.info-stades.fr/uploads/stades/uherske-hradiste-mestsky-stadion-valenty5.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2501_04.jpg",
+				"source": "https://www.czechsoccernet.cz/obrazky/STADIONsize800x450/stadion2005_westSTAND.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 12
+	},
+	{
+		"team": {
+			"api_football_id": 3720,
+			"name": "Teplice",
+			"code": "TEP",
+			"country": "Czech-Republic",
+			"founded": 1945
+		},
+		"venue": {
+			"api_football_id": 10575,
+			"name": "AGC Aréna Na Stínadlech",
+			"address": "Na Stínadlech 2796",
+			"city": "Teplice",
+			"capacity": 18221,
+			"surface": "grass",
+			"lat": 50.64,
+			"lng": 13.818056,
+			"x": 156.3,
+			"y": 185.1,
+			"url": "https://en.wikipedia.org/wiki/Na_St%C3%ADnadlech"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "10575_01.jpg",
+				"source": "https://groundhopping.carlluis.de/storage/fotos/large/578/061-Na_Stinadlech-Einlauf_der_Mannschaften.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10575_02.jpg",
+				"source": "https://fkbms.cz/files/articles_photo/3315_stinadla.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10575_03.jpg",
+				"source": "https://i.ytimg.com/vi/MUpNigBSWoU/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10575_04.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/cze/na_stinadlech/na_stinadlech16.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10575_05.jpg",
+				"source": "https://visitteplice.com/wp-content/uploads/2022/08/fkteplice_agcarena_3-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 3723,
+			"name": "Hradec Králové",
+			"code": "HRA",
+			"country": "Czech-Republic",
+			"founded": 1905
+		},
+		"venue": {
+			"api_football_id": 20749,
+			"name": "Malšovická Aréna",
+			"address": "Úprkova 473",
+			"city": "Hradec Králové",
+			"capacity": 9300,
+			"surface": "grass",
+			"lat": 50.2064,
+			"lng": 15.8454,
+			"x": 339.8,
+			"y": 245.8,
+			"url": "https://en.wikipedia.org/wiki/Mal%C5%A1ovick%C3%A1_ar%C3%A9na"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20749_01.jpg",
+				"source": "https://d48-a.sdn.cz/d_48/c_img_QK_3/vkveDH.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20749_02.jpg",
+				"source": "https://images.jifo.co/107122141_1690880475541.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20749_03.jpg",
+				"source": "https://www.visionsmag.cz/upload/3541-1001275548_v.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20749_04.jpg",
+				"source": "https://malsovickaarena.sh12w4.esports.cz/wp-content/uploads/2024/05/cropped-image.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20749_05.jpg",
+				"source": "https://www.fchk.cz/foto/vystavba_hradecke_areny-cerven_2023/arena_6_233.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20749_06.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/6/64/Mal%C5%A1ovick%C3%A1_ar%C3%A9na.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 3724,
+			"name": "Pardubice",
+			"code": null,
+			"country": "Czech-Republic",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 20750,
+			"name": "CFIG Arena",
+			"address": "U Stadionu 1652",
+			"city": "Pardubice",
+			"capacity": 4625,
+			"surface": "grass",
+			"lat": 50.041111,
+			"lng": 15.771111,
+			"x": 333.1,
+			"y": 268.9,
+			"url": "https://en.wikipedia.org/wiki/CFIG_Arena"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20750_01.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/cze/letni_stadion_pardubice/letni_stadion_pardubice07.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20750_02.jpg",
+				"source": "https://eastbohemiafilmoffice.cz/content/gal_locations/64/fotbalovy_stadion_pardubice_archiv_dsvc_25.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20750_03.jpg",
+				"source": "https://eastbohemiafilmoffice.cz/content/gal_locations/64/fotbalovy_stadion_pardubice_archiv_dsvc_18.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20750_04.jpg",
+				"source": "https://pbs.twimg.com/media/Fn52R60XEAEtqJD.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20750_05.jpg",
+				"source": "https://1gr.cz/fotky/idnes/23/021/cl8h/MVO993011_7.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 3726,
+			"name": "Táborsko",
+			"code": "MAS",
+			"country": "Czech-Republic",
+			"founded": 1926
+		},
+		"venue": {
+			"api_football_id": 2508,
+			"name": "Stadion Kvapilova",
+			"address": "Kvapilova",
+			"city": "Tábor",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 49.419912,
+			"lng": 14.66366,
+			"x": 232.9,
+			"y": 355.9,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2508_01.jpg",
+				"source": "https://iscus.cz/media/files/facility/00/00/00/85/59b19333d4077.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2508_02.jpg",
+				"source": "https://iscus.cz/media/files/facility-part/00/00/00/86/59b1939b49bdf.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2508_03.jpg",
+				"source": "https://d48-a.sdn.cz/d_48/c_img_QQ_0/BKBLyU.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 3736,
+			"name": "České Budějovice",
+			"code": "CES",
+			"country": "Czech-Republic",
+			"founded": 1905
+		},
+		"venue": {
+			"api_football_id": 2517,
+			"name": "Fotbalový stadion Střelecký ostrov",
+			"address": "Střelecký ostrov 3",
+			"city": "Ceské Budejovice",
+			"capacity": 6746,
+			"surface": "grass",
+			"lat": 48.966944,
+			"lng": 14.4675,
+			"x": 215.1,
+			"y": 419.3,
+			"url": "https://en.wikipedia.org/wiki/Stadion_St%C5%99eleck%C3%BD_ostrov"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2517_01.jpg",
+				"source": "https://pbs.twimg.com/media/F2RjzXiXcAAaRMn.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2517_02.jpg",
+				"source": "https://i.ytimg.com/vi/L-RoaOqeSJY/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2517_03.jpg",
+				"source": "https://sport.rozhlas.cz/sites/default/files/styles/cro_original_desktop/public/images/9051e66a0cee35d1925b32a2034c6259.jpg?itok=JBmUAZFS",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 7379,
+			"name": "Vyškov",
+			"code": null,
+			"country": "Czech-Republic",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 11958,
+			"name": "Sportovní areál Drnovice",
+			"address": "Mlýnská 20",
+			"city": "Drnovice",
+			"capacity": 6616,
+			"surface": "grass",
+			"lat": 49.275561,
+			"lng": 16.953611,
+			"x": 440.1,
+			"y": 376.1,
+			"url": "https://nl.wikipedia.org/wiki/Sportovn%C3%AD_are%C3%A1l_Drnovice"
+		},
+		"league": {
+			"api_football_id": 345,
+			"name": "Czech Liga",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "11958_01.jpg",
+				"source": "https://nova-ott-images-tn.ssl.cdn.cra.cz/rx1920/q80/c5fb3ec1-45a0-4a09-bc29-f5536dafa638",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11958_02.jpg",
+				"source": "https://nova-ott-images-tn.ssl.cdn.cra.cz/rx1920/q80/e1f451d3-2334-4c08-85cc-23c8e0dd2e04",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11958_03.jpg",
+				"source": "https://fs2-ct24.ceskatelevize.cz/image/ZDhlZjNhMzhjNjc1OTgzN8WeBXm4HSXq-mZ07TDYJO2ICa3_HdalWrGie7sAqLWB4nUwBQtGjWl2uqipG8fk5TWzlHGmNt_apsXiNvtIx0FlPODk5hfV4Lt9kJKNehKYXGCD7DD9wmI9sMHyvy-oqhenO0qkndhTUsidg3_MRiOedS_tcDHB4DYTC05-6DlphAJQbcUIrM3eFolv4FIA2w.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11958_04.jpg",
+				"source": "https://cdn.xsd.cz/original/9965048d8efb3974a6db8cc9d0ead2c9.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 3715,
+			"name": "Dukla Praha",
+			"code": "DUK",
+			"country": "Czech-Republic",
+			"founded": 1948
+		},
+		"venue": {
+			"api_football_id": 2497,
+			"name": "Stadion Juliska",
+			"address": "Na Julisce 28, Dejvice",
+			"city": "Praha",
+			"capacity": 8150,
+			"surface": "grass",
+			"lat": 50.111944,
+			"lng": 14.3875,
+			"x": 207.9,
+			"y": 259,
+			"url": "https://en.wikipedia.org/wiki/Stadion_Juliska"
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2497_01.jpg",
+				"source": "https://pbs.twimg.com/media/CnBTYrWWAAEDVK2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2497_02.jpg",
+				"source": "https://www.polytan.fr/wp-content/uploads/2020/03/Polytan_Stadion_Juliska_02-scaled-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2497_03.jpg",
+				"source": "https://moresports.network/wp-content/uploads/2019/03/Polytan_Stadion_Juliska_01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2497_04.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Juliska_Tribuna_2013.jpg/1200px-Juliska_Tribuna_2013.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 3717,
+			"name": "Opava",
+			"code": "OPA",
+			"country": "Czech-Republic",
+			"founded": 1907
+		},
+		"venue": {
+			"api_football_id": 2499,
+			"name": "Stadion v Městských sadech",
+			"address": "Lipová 105/2",
+			"city": "Opava",
+			"capacity": 7758,
+			"surface": "grass",
+			"lat": 49.949725,
+			"lng": 17.890092,
+			"x": 524.9,
+			"y": 281.7,
+			"url": "https://en.wikipedia.org/wiki/Stadion_v_M%C4%9Bstsk%C3%BDch_sadech"
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2499_01.jpg",
+				"source": "https://sfc.esports.cz//foto_opa/top_foto/20150516-_MG_2222-HQ.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2499_02.jpg",
+				"source": "https://g.denik.cz/74/77/ostrava-opava-povodne-armada-skody-sfc-stadion-fotbal-02.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2499_03.jpg",
+				"source": "https://www.chachari.cz/gallery/Foto_clanky_web/1.FC_Banik_Ostrava/2019-2020/sfc_fcb_19-20.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 3718,
+			"name": "Příbram",
+			"code": "PRI",
+			"country": "Czech-Republic",
+			"founded": 1948
+		},
+		"venue": {
+			"api_football_id": 10574,
+			"name": "Stadion Na Litavce",
+			"address": "Lazec 60",
+			"city": "Příbram",
+			"capacity": 9100,
+			"surface": "grass",
+			"lat": 49.676944,
+			"lng": 13.976389,
+			"x": 170.7,
+			"y": 319.9,
+			"url": "https://en.wikipedia.org/wiki/Na_Litavce"
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "10574_01.jpg",
+				"source": "https://www.fkpribram.cz/foto/ostatni/stadion2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10574_02.jpg",
+				"source": "https://www.fkpribram.cz/foto/ostatni/stadion3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10574_03.jpg",
+				"source": "https://www.fkpribram.cz/foto/ostatni/stadion4.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10574_04.jpg",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/ea/54/7a/winter-time.jpg?w=1200&h=-1&s=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 3722,
+			"name": "Chrudim",
+			"code": "CHR",
+			"country": "Czech-Republic",
+			"founded": 1899
+		},
+		"venue": {
+			"api_football_id": 2504,
+			"name": "Stadion Za Vodojemem",
+			"address": "Fotinová 332 / Novoměstská 230",
+			"city": "Chrudim",
+			"capacity": 2350,
+			"surface": "grass",
+			"lat": 49.947322,
+			"lng": 15.804296,
+			"x": 336.1,
+			"y": 282.1,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2504_01.jpg",
+				"source": "https://g.denik.cz/34/1b/11056589-10203585574634676-1650432300309085682-o.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2504_02.jpg",
+				"source": "https://mfkchrudim.esports.cz/files/editor/unnamed%20(8).jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 3725,
+			"name": "Prostějov",
+			"code": "HAN",
+			"country": "Czech-Republic",
+			"founded": 1904
+		},
+		"venue": {
+			"api_football_id": 5289,
+			"name": "Stadion 1. HFK Olomouc",
+			"address": "Staškova 28, Holice",
+			"city": "Olomouc",
+			"capacity": 2900,
+			"surface": "grass",
+			"lat": 49.575181,
+			"lng": 17.300418,
+			"x": 471.5,
+			"y": 334.2,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5289_01.jpg",
+				"source": "https://www.stadionwelt.de/images/stadionlisten/tschechien/holice/holice_03.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5289_02.jpg",
+				"source": "https://michalfrantik.cz/wp-content/uploads/2022/06/283358185_5497651100254452_4107413698222022124_n.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 3726,
+			"name": "Táborsko",
+			"code": "MAS",
+			"country": "Czech-Republic",
+			"founded": 1926
+		},
+		"venue": {
+			"api_football_id": 2508,
+			"name": "Stadion Kvapilova",
+			"address": "Kvapilova",
+			"city": "Tábor",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 49.419912,
+			"lng": 14.66366,
+			"x": 232.9,
+			"y": 355.9,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2508_01.jpg",
+				"source": "https://iscus.cz/media/files/facility/00/00/00/85/59b19333d4077.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2508_02.jpg",
+				"source": "https://iscus.cz/media/files/facility-part/00/00/00/86/59b1939b49bdf.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2508_03.jpg",
+				"source": "https://d48-a.sdn.cz/d_48/c_img_QQ_0/BKBLyU.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 3728,
+			"name": "Varnsdorf",
+			"code": "VAR",
+			"country": "Czech-Republic",
+			"founded": 1938
+		},
+		"venue": {
+			"api_football_id": 2510,
+			"name": "Stadion v Kotlině",
+			"address": "Moravská 2688",
+			"city": "Varnsdorf",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 50.914902,
+			"lng": 14.618924,
+			"x": 228.8,
+			"y": 146.6,
+			"url": "https://en.wikipedia.org/wiki/M%C4%9Bstsk%C3%BD_stadion_v_Kotlin%C4%9B"
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2510_01.jpg",
+				"source": "https://www.regiavdf.cz/upload/galeries/1/119.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2510_02.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/SK_Slovan_Varnsdorf%2C_Moravsk%C3%A1_2688%2C_40747%2C_Varnsdorf%2C_D%C4%9B%C4%8D%C3%ADn%2C_%C4%8Cesk%C3%A1_republika_-_panoramio.jpg/1200px-SK_Slovan_Varnsdorf%2C_Moravsk%C3%A1_2688%2C_40747%2C_Varnsdorf%2C_D%C4%9B%C4%8D%C3%ADn%2C_%C4%8Cesk%C3%A1_republika_-_panoramio.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 3729,
+			"name": "Viktoria Žižkov",
+			"code": "ZIZ",
+			"country": "Czech-Republic",
+			"founded": 1903
+		},
+		"venue": {
+			"api_football_id": 2511,
+			"name": "eFotbal aréna",
+			"address": "Seifertova třída 2871/10, Žižkov",
+			"city": "Praha",
+			"capacity": 5600,
+			"surface": "grass",
+			"lat": 50.083917,
+			"lng": 14.444606,
+			"x": 213,
+			"y": 263,
+			"url": "https://en.wikipedia.org/wiki/FK_Viktoria_Stadion"
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2511_01.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Stadium_FK_Viktoria_%C5%BDi%C5%BEkov.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2511_02.jpg",
+				"source": "https://phildanmatt.weebly.com/uploads/6/6/2/3/6623029/dsc00331_orig.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2511_03.jpg",
+				"source": "https://groundhopping.carlluis.de/storage/fotos/large/478/020-eFootball_Arena-Hintertortribuene.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2511_04.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/FK_Viktoria_%C5%BDi%C5%BEkov.jpg/1200px-FK_Viktoria_%C5%BDi%C5%BEkov.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 3730,
+			"name": "Vlašim",
+			"code": "VLA",
+			"country": "Czech-Republic",
+			"founded": 1969
+		},
+		"venue": {
+			"api_football_id": 2512,
+			"name": "Stadion Kollárova ulice",
+			"address": "Kollárova 1008",
+			"city": "Vlašim",
+			"capacity": 6000,
+			"surface": "grass",
+			"lat": 49.702603,
+			"lng": 14.8915,
+			"x": 253.5,
+			"y": 316.3,
+			"url": "https://en.wikipedia.org/wiki/Stadion_Koll%C3%A1rova_ulice"
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2512_01.jpg",
+				"source": "https://www.europlan-online.de/files/2dfa546a847b13df7fe57a390bfb5062.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2512_02.jpg",
+				"source": "https://cdn.soccerwiki.org/images/stadium/1976.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 3731,
+			"name": "Vysočina Jihlava",
+			"code": "JIH",
+			"country": "Czech-Republic",
+			"founded": 1948
+		},
+		"venue": {
+			"api_football_id": 2513,
+			"name": "Stadion v Jiráskově ulici",
+			"address": "Jiráskova 69",
+			"city": "Jihlava",
+			"capacity": 4500,
+			"surface": "grass",
+			"lat": 49.402,
+			"lng": 15.5735,
+			"x": 315.2,
+			"y": 358.4,
+			"url": "https://en.wikipedia.org/wiki/Stadion_v_Jir%C3%A1skov%C4%9B_ulici"
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2513_01.jpg",
+				"source": "https://i.ytimg.com/vi/XJUEIWc5g3E/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2513_02.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/39/Jihlava_StadionvJiraskoveulici_%288%29.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2513_03.jpg",
+				"source": "https://1gr.cz/fotky/idnes/13/081/cl6h/OT4d089d_080849_5759390.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 28
+	},
+	{
+		"team": {
+			"api_football_id": 3733,
+			"name": "Zbrojovka Brno",
+			"code": "BRN",
+			"country": "Czech-Republic",
+			"founded": 1913
+		},
+		"venue": {
+			"api_football_id": 19226,
+			"name": "ADAX INVEST Arena",
+			"address": "Srbská 47a",
+			"city": "Brno",
+			"capacity": 12550,
+			"surface": "grass",
+			"lat": 49.227162,
+			"lng": 16.586276,
+			"x": 406.9,
+			"y": 382.9,
+			"url": "https://en.wikipedia.org/wiki/M%C4%9Bstsk%C3%BD_fotbalov%C3%BD_stadion_Srbsk%C3%A1"
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19226_01.jpg",
+				"source": "https://stisk.online/img/641745413e5be66a5fc6db22/1910/1000?_sig=9uYkkZqDurk_Kds7ZfRCAnW_nKR4CT6eLK3geHOLO6w",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19226_02.jpg",
+				"source": "https://www.agrozet.cz/files/agrozetshop/images/page/size4-162132898353-175-seco-starjet-p6-4x4-pro.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19226_03.jpg",
+				"source": "https://www.fczbrno.cz/foto/zima_2021/StadionTOP2b.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19226_04.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Srbsk%C3%A1_stadium_overview_in_Brno%2C_Brno-city_District.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 29
+	},
+	{
+		"team": {
+			"api_football_id": 4257,
+			"name": "Líšeň",
+			"code": "LIS",
+			"country": "Czech-Republic",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 3252,
+			"name": "Stadion SK Líšeň",
+			"address": "Kučerova 4",
+			"city": "Brno",
+			"capacity": 2070,
+			"surface": "grass",
+			"lat": 49.202261,
+			"lng": 16.696255,
+			"x": 416.8,
+			"y": 386.4,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3252_01.jpg",
+				"source": "https://pbs.twimg.com/media/EmNj-TpW8AAGgKp.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3252_02.jpg",
+				"source": "https://cdn.ticketlive.cz/upload/obrazek/zvetsena/image-4.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3252_03.jpg",
+				"source": "https://www.sklisen.com/files/editor/3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 7291,
+			"name": "Hanácká",
+			"code": "KRO",
+			"country": "Czech-Republic",
+			"founded": 1919
+		},
+		"venue": {
+			"api_football_id": 19955,
+			"name": "Stadion Jožky Silného",
+			"address": "Obvodová 3607",
+			"city": "Kroměříž",
+			"capacity": 4197,
+			"surface": "grass",
+			"lat": 49.289883,
+			"lng": 17.402386,
+			"x": 480.7,
+			"y": 374.1,
+			"url": "https://en.wikipedia.org/wiki/Stadion_SK_Han%C3%A1ck%C3%A1_Slavia_Krom%C4%9B%C5%99%C3%AD%C5%BE"
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19955_01.jpg",
+				"source": "https://kromeriz.eu/wp-content/uploads/2021/05/Fotbalovy_stadion_X7A0389-1024x683.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19955_02.jpg",
+				"source": "https://i.ytimg.com/vi/QRbc6efXIdc/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19955_03.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/HS_Krom%C4%9B%C5%99%C3%AD%C5%BE-Zbrojovka_Brno.jpg/1200px-HS_Krom%C4%9B%C5%99%C3%AD%C5%BE-Zbrojovka_Brno.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 31
+	},
+	{
+		"team": {
+			"api_football_id": 7379,
+			"name": "Vyškov",
+			"code": null,
+			"country": "Czech-Republic",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 11958,
+			"name": "Sportovní areál Drnovice",
+			"address": "Mlýnská 20",
+			"city": "Drnovice",
+			"capacity": 6616,
+			"surface": "grass",
+			"lat": 49.275561,
+			"lng": 16.953611,
+			"x": 440.1,
+			"y": 376.1,
+			"url": "https://nl.wikipedia.org/wiki/Sportovn%C3%AD_are%C3%A1l_Drnovice"
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "11958_01.jpg",
+				"source": "https://nova-ott-images-tn.ssl.cdn.cra.cz/rx1920/q80/c5fb3ec1-45a0-4a09-bc29-f5536dafa638",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11958_02.jpg",
+				"source": "https://nova-ott-images-tn.ssl.cdn.cra.cz/rx1920/q80/e1f451d3-2334-4c08-85cc-23c8e0dd2e04",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11958_03.jpg",
+				"source": "https://fs2-ct24.ceskatelevize.cz/image/ZDhlZjNhMzhjNjc1OTgzN8WeBXm4HSXq-mZ07TDYJO2ICa3_HdalWrGie7sAqLWB4nUwBQtGjWl2uqipG8fk5TWzlHGmNt_apsXiNvtIx0FlPODk5hfV4Lt9kJKNehKYXGCD7DD9wmI9sMHyvy-oqhenO0qkndhTUsidg3_MRiOedS_tcDHB4DYTC05-6DlphAJQbcUIrM3eFolv4FIA2w.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11958_04.jpg",
+				"source": "https://cdn.xsd.cz/original/9965048d8efb3974a6db8cc9d0ead2c9.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 32
+	},
+	{
+		"team": {
+			"api_football_id": 8619,
+			"name": "Sparta Praha II",
+			"code": "SPA",
+			"country": "Czech-Republic",
+			"founded": 1893
+		},
+		"venue": {
+			"api_football_id": 2511,
+			"name": "eFotbal aréna",
+			"address": "Seifertova třída 2871/10, Žižkov",
+			"city": "Praha",
+			"capacity": 5600,
+			"surface": "grass",
+			"lat": 50.083917,
+			"lng": 14.444606,
+			"x": 213,
+			"y": 263,
+			"url": "https://en.wikipedia.org/wiki/FK_Viktoria_Stadion"
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2511_01.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Stadium_FK_Viktoria_%C5%BDi%C5%BEkov.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2511_02.jpg",
+				"source": "https://phildanmatt.weebly.com/uploads/6/6/2/3/6623029/dsc00331_orig.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2511_03.jpg",
+				"source": "https://groundhopping.carlluis.de/storage/fotos/large/478/020-eFootball_Arena-Hintertortribuene.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2511_04.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/FK_Viktoria_%C5%BDi%C5%BEkov.jpg/1200px-FK_Viktoria_%C5%BDi%C5%BEkov.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 33
+	},
+	{
+		"team": {
+			"api_football_id": 8622,
+			"name": "Sigma Olomouc II",
+			"code": null,
+			"country": "Czech-Republic",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 435,
+			"name": "Andrův stadion",
+			"address": "Legionářská 1165/12",
+			"city": "Olomouc",
+			"capacity": 12566,
+			"surface": "grass",
+			"lat": 49.6,
+			"lng": 17.248333,
+			"x": 466.8,
+			"y": 330.7,
+			"url": "https://en.wikipedia.org/wiki/Andr%C5%AFv_stadion"
+		},
+		"league": {
+			"api_football_id": 346,
+			"name": "FNL",
+			"country": "Czech Republic",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "435_01.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Andruv_stadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "435_02.jpg",
+				"source": "https://fs2-ct24.ceskatelevize.cz/image/M2RhZmY0NGRlNGVjNzY0NK6OefSzuLt5X5qQIfgYhfJN9INEtIUXur0DgoLoWCdrxK9z_Wo9Aylo_0ZCQ1kfSqrqL9qAgkq0BsBTydXbatZqbVq7UvLwrEdAvpVvVY3dZ4nQWJbOjGCbxHKhCGX63mCj2wa0uA9wSaQZysi8sPJPKpuUmuWT4_1LEEc-hYzCQts_QUjuHN48hfeH8WIwLg.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "435_03.jpg",
+				"source": "https://www.info-stades.fr/uploads/stades/olomouc-andruv-stadion-24963.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "435_04.jpg",
+				"source": "https://pres.upmedia.cz/media/k2/items/cache/cdeccebf0b7f3e481039151ff6b0c25c_XL.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "435_05.jpg",
+				"source": "https://www.irozhlas.cz/sites/default/files/styles/zpravy_fotogalerie_large/public/images/03408367.jpeg?itok=_uujJAQJ",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 34
+	}
+]

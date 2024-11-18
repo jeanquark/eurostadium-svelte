@@ -274,24 +274,24 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3510,
-			"name": "Shukura",
-			"code": "SHU",
+			"api_football_id": 3507,
+			"name": "Kolkheti Poti",
+			"code": "KOL",
 			"country": "Georgia",
-			"founded": null
+			"founded": 1913
 		},
 		"venue": {
-			"api_football_id": 2300,
-			"name": "Chele Arena",
+			"api_football_id": 2308,
+			"name": "Saragbo Baza Parki-Arena",
 			"address": null,
-			"city": "Kobuleti",
-			"capacity": 6000,
-			"surface": "artificial turf",
-			"lat": 41.812981,
-			"lng": 41.774458,
-			"x": 208.2,
-			"y": 473.2,
-			"url": "https://en.wikipedia.org/wiki/Chele_Arena"
+			"city": "Poti",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 42.146266,
+			"lng": 41.689904,
+			"x": 198.2,
+			"y": 420.1,
+			"url": ""
 		},
 		"league": {
 			"api_football_id": 327,
@@ -301,7 +301,7 @@
 		},
 		"images": [
 			{
-				"name": "2300_001.jpg",
+				"name": "2308_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -391,84 +391,6 @@
 	},
 	{
 		"team": {
-			"api_football_id": 14860,
-			"name": "Gareji",
-			"code": null,
-			"country": "Georgia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": null,
-			"name": null,
-			"address": null,
-			"city": null,
-			"capacity": null,
-			"surface": null,
-			"lat": 0,
-			"lng": 0,
-			"x": -4724.9,
-			"y": 7132.7,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 327,
-			"name": "Erovnuli Liga",
-			"country": "Georgia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 11
-	},
-	{
-		"team": {
-			"api_football_id": 14864,
-			"name": "Spaeri",
-			"code": null,
-			"country": "Georgia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": null,
-			"name": null,
-			"address": null,
-			"city": null,
-			"capacity": null,
-			"surface": null,
-			"lat": 0,
-			"lng": 0,
-			"x": -4724.9,
-			"y": 7132.7,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 327,
-			"name": "Erovnuli Liga",
-			"country": "Georgia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 12
-	},
-	{
-		"team": {
 			"api_football_id": 3500,
 			"name": "Lokomotivi Tbilisi",
 			"code": null,
@@ -504,7 +426,46 @@
 				"size": 0
 			}
 		],
-		"no": 13
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 3501,
+			"name": "Rustavi",
+			"code": null,
+			"country": "Georgia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 2303,
+			"name": "Teknikuri Tsentri",
+			"address": "Leonidze Street",
+			"city": "Rustavi",
+			"capacity": 4000,
+			"surface": "grass",
+			"lat": 41.574425,
+			"lng": 44.970745,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 326,
+			"name": "Erovnuli Liga 2",
+			"country": "Georgia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2303_001.jpg",
+				"source": "https://www.europlan-online.de/files/ff866619f775a679b8988c1e352295ab.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 12
 	},
 	{
 		"team": {
@@ -543,7 +504,7 @@
 				"size": 0
 			}
 		],
-		"no": 14
+		"no": 13
 	},
 	{
 		"team": {
@@ -582,105 +543,27 @@
 				"size": 0
 			}
 		],
-		"no": 15
+		"no": 14
 	},
 	{
 		"team": {
-			"api_football_id": 3507,
-			"name": "Kolkheti Poti",
-			"code": "KOL",
-			"country": "Georgia",
-			"founded": 1913
-		},
-		"venue": {
-			"api_football_id": 2308,
-			"name": "Saragbo Baza Parki-Arena",
-			"address": null,
-			"city": "Poti",
-			"capacity": 3000,
-			"surface": "grass",
-			"lat": 42.146266,
-			"lng": 41.689904,
-			"x": 198.2,
-			"y": 420.1,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 326,
-			"name": "Erovnuli Liga 2",
-			"country": "Georgia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2308_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 16
-	},
-	{
-		"team": {
-			"api_football_id": 3508,
-			"name": "Merani Tbilisi",
+			"api_football_id": 10015,
+			"name": "Aragvi Dusheti",
 			"code": null,
 			"country": "Georgia",
 			"founded": null
 		},
 		"venue": {
-			"api_football_id": 2309,
-			"name": "Sport-kompleksi Shatili",
+			"api_football_id": 7053,
+			"name": "Tsentraluri Stadioni",
 			"address": null,
-			"city": "Tbilisi",
-			"capacity": 2000,
-			"surface": "artificial turf",
-			"lat": 41.77854,
-			"lng": 44.80047,
-			"x": 565.5,
-			"y": 478.7,
-			"url": "https://en.wikipedia.org/wiki/Sport-kompleksi_Shatili"
-		},
-		"league": {
-			"api_football_id": 326,
-			"name": "Erovnuli Liga 2",
-			"country": "Georgia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2309_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 17
-	},
-	{
-		"team": {
-			"api_football_id": 10016,
-			"name": "Merani Martvili",
-			"code": "MER",
-			"country": "Georgia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 7054,
-			"name": "Stadioni Murtaz Khurtsilava",
-			"address": "Merani",
-			"city": "Martvili",
+			"city": "Dusheti",
 			"capacity": 2000,
 			"surface": "grass",
-			"lat": 42.419956,
-			"lng": 42.374825,
-			"x": 279.1,
-			"y": 376.5,
+			"lat": 42.083361,
+			"lng": 44.695998,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
@@ -691,15 +574,15 @@
 		},
 		"images": [
 			{
-				"name": "7054_001.jpg",
-				"source": "",
+				"name": "7053_001.jpg",
+				"source": "https://www.europlan-online.de/files/e3d6a57e401bf99d2af16f4864a6afc9.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 18
+		"no": 15
 	},
 	{
 		"team": {
@@ -738,7 +621,7 @@
 				"size": 0
 			}
 		],
-		"no": 19
+		"no": 16
 	},
 	{
 		"team": {
@@ -777,7 +660,7 @@
 				"size": 0
 			}
 		],
-		"no": 20
+		"no": 17
 	},
 	{
 		"team": {
@@ -796,8 +679,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -4724.9,
-			"y": 7132.7,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
@@ -816,7 +699,7 @@
 				"size": 0
 			}
 		],
-		"no": 21
+		"no": 18
 	},
 	{
 		"team": {
@@ -835,8 +718,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -4724.9,
-			"y": 7132.7,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
@@ -855,6 +738,138 @@
 				"size": 0
 			}
 		],
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 16516,
+			"name": "Shturmi",
+			"code": null,
+			"country": "Georgia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 326,
+			"name": "Erovnuli Liga 2",
+			"country": "Georgia",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 3510,
+			"name": "Shukura",
+			"code": "SHU",
+			"country": "Georgia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 2300,
+			"name": "Chele Arena",
+			"address": null,
+			"city": "Kobuleti",
+			"capacity": 6000,
+			"surface": "artificial turf",
+			"lat": 41.812981,
+			"lng": 41.774458,
+			"x": 208.2,
+			"y": 473.2,
+			"url": "https://en.wikipedia.org/wiki/Chele_Arena"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "2300_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 3508,
+			"name": "Merani Tbilisi",
+			"code": null,
+			"country": "Georgia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 2309,
+			"name": "Sport-kompleksi Shatili",
+			"address": null,
+			"city": "Tbilisi",
+			"capacity": 2000,
+			"surface": "artificial turf",
+			"lat": 41.77854,
+			"lng": 44.80047,
+			"x": 565.5,
+			"y": 478.7,
+			"url": "https://en.wikipedia.org/wiki/Sport-kompleksi_Shatili"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "2309_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 10016,
+			"name": "Merani Martvili",
+			"code": "MER",
+			"country": "Georgia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 7054,
+			"name": "Stadioni Murtaz Khurtsilava",
+			"address": "Merani",
+			"city": "Martvili",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 42.419956,
+			"lng": 42.374825,
+			"x": 279.1,
+			"y": 376.5,
+			"url": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "7054_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 23
 	}
 ]

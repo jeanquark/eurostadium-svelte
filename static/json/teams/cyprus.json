@@ -196,24 +196,24 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3398,
-			"name": "Doxa",
-			"code": "DOX",
+			"api_football_id": 3399,
+			"name": "Enosis",
+			"code": "PAR",
 			"country": "Cyprus",
-			"founded": 1954
+			"founded": 1936
 		},
 		"venue": {
-			"api_football_id": 20303,
-			"name": "Stadio Peristerona",
-			"address": "Stadiou 12",
-			"city": "Peristerona",
-			"capacity": 4000,
+			"api_football_id": 2214,
+			"name": "Stadio Tasos Markou",
+			"address": "Antoni Papadopoulou 17",
+			"city": "Paralímni",
+			"capacity": 5800,
 			"surface": "grass",
-			"lat": 35.129167,
-			"lng": 33.083889,
-			"x": 212.7,
-			"y": 291.4,
-			"url": "https://en.wikipedia.org/wiki/Katokopia_Stadium"
+			"lat": 35.030833,
+			"lng": 33.987222,
+			"x": 449.2,
+			"y": 322.8,
+			"url": "https://en.wikipedia.org/wiki/Paralimni_Stadium"
 		},
 		"league": {
 			"api_football_id": 318,
@@ -223,7 +223,7 @@
 		},
 		"images": [
 			{
-				"name": "20303_001.jpg",
+				"name": "2214_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -352,45 +352,6 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3404,
-			"name": "AE Zakakiou",
-			"code": "ZAK",
-			"country": "Cyprus",
-			"founded": 1956
-		},
-		"venue": {
-			"api_football_id": 19790,
-			"name": "Koinotiko Stadio Parekklisias",
-			"address": "E109",
-			"city": "Parekklisia",
-			"capacity": 3000,
-			"surface": "grass",
-			"lat": 34.7362,
-			"lng": 33.160754,
-			"x": 232.8,
-			"y": 416.7,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 318,
-			"name": "1. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "19790_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 10
-	},
-	{
-		"team": {
 			"api_football_id": 3408,
 			"name": "Aris",
 			"code": "ARI",
@@ -426,7 +387,7 @@
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 10
 	},
 	{
 		"team": {
@@ -465,7 +426,7 @@
 				"size": 0
 			}
 		],
-		"no": 12
+		"no": 11
 	},
 	{
 		"team": {
@@ -504,93 +465,15 @@
 				"size": 0
 			}
 		],
-		"no": 13
+		"no": 12
 	},
 	{
 		"team": {
-			"api_football_id": 3418,
-			"name": "Othellos",
-			"code": "OTH",
+			"api_football_id": 3416,
+			"name": "Omonia Aradippou",
+			"code": "OMO",
 			"country": "Cyprus",
-			"founded": 1933
-		},
-		"venue": {
-			"api_football_id": 2226,
-			"name": "Gipedo Othellos Athienou",
-			"address": "Ifestou",
-			"city": "Athienou",
-			"capacity": 2000,
-			"surface": "grass",
-			"lat": 35.062024,
-			"lng": 33.532742,
-			"x": 330.2,
-			"y": 312.9,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 318,
-			"name": "1. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2226_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 14
-	},
-	{
-		"team": {
-			"api_football_id": 3399,
-			"name": "Enosis",
-			"code": "PAR",
-			"country": "Cyprus",
-			"founded": 1936
-		},
-		"venue": {
-			"api_football_id": 2214,
-			"name": "Stadio Tasos Markou",
-			"address": "Antoni Papadopoulou 17",
-			"city": "Paralímni",
-			"capacity": 5800,
-			"surface": "grass",
-			"lat": 35.030833,
-			"lng": 33.987222,
-			"x": 449.2,
-			"y": 322.8,
-			"url": "https://en.wikipedia.org/wiki/Paralimni_Stadium"
-		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2214_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 15
-	},
-	{
-		"team": {
-			"api_football_id": 3400,
-			"name": "Ermis",
-			"code": "ERM",
-			"country": "Cyprus",
-			"founded": 1958
+			"founded": 1929
 		},
 		"venue": {
 			"api_football_id": 2215,
@@ -606,6 +489,84 @@
 			"url": ""
 		},
 		"league": {
+			"api_football_id": 318,
+			"name": "1. Division",
+			"country": "Cyprus",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2215_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 14126,
+			"name": "Omonia 29is Maiou",
+			"code": null,
+			"country": "Cyprus",
+			"founded": 2018
+		},
+		"venue": {
+			"api_football_id": 2213,
+			"name": "Makareio Stadio",
+			"address": "Stadiou, Makedonitissa",
+			"city": "Lefkosía",
+			"capacity": 16000,
+			"surface": "grass",
+			"lat": 35.146111,
+			"lng": 33.314444,
+			"x": 273,
+			"y": 286,
+			"url": "https://en.wikipedia.org/wiki/Makario_Stadium"
+		},
+		"league": {
+			"api_football_id": 318,
+			"name": "1. Division",
+			"country": "Cyprus",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2213_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 3398,
+			"name": "Doxa",
+			"code": "DOX",
+			"country": "Cyprus",
+			"founded": 1954
+		},
+		"venue": {
+			"api_football_id": 20303,
+			"name": "Stadio Peristerona",
+			"address": "Stadiou 12",
+			"city": "Peristerona",
+			"capacity": 4000,
+			"surface": "grass",
+			"lat": 35.129167,
+			"lng": 33.083889,
+			"x": 212.7,
+			"y": 291.4,
+			"url": "https://en.wikipedia.org/wiki/Katokopia_Stadium"
+		},
+		"league": {
 			"api_football_id": 319,
 			"name": "2. Division",
 			"country": "Cyprus",
@@ -613,7 +574,46 @@
 		},
 		"images": [
 			{
-				"name": "2215_001.jpg",
+				"name": "20303_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 3404,
+			"name": "AE Zakakiou",
+			"code": "ZAK",
+			"country": "Cyprus",
+			"founded": 1956
+		},
+		"venue": {
+			"api_football_id": 19790,
+			"name": "Koinotiko Stadio Parekklisias",
+			"address": "E109",
+			"city": "Parekklisia",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 34.7362,
+			"lng": 33.160754,
+			"x": 232.8,
+			"y": 416.7,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 319,
+			"name": "2. Division",
+			"country": "Cyprus",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19790_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -703,6 +703,45 @@
 	},
 	{
 		"team": {
+			"api_football_id": 3407,
+			"name": "Anagennisi Deryneia",
+			"code": "ANA",
+			"country": "Cyprus",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 2218,
+			"name": "Gipedo Anagennisi Deryneias",
+			"address": null,
+			"city": "Derynias",
+			"capacity": 5800,
+			"surface": "grass",
+			"lat": 35.053082,
+			"lng": 33.956370,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 319,
+			"name": "2. Division",
+			"country": "Cyprus",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2218_001.jpg",
+				"source": "https://www.altamirarealestate.com.cy/estaticos/activos/inmuebles/fotos/grandes/99/126599_8.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 19
+	},
+	{
+		"team": {
 			"api_football_id": 3409,
 			"name": "Ayia Napa",
 			"code": "AYI",
@@ -738,7 +777,7 @@
 				"size": 0
 			}
 		],
-		"no": 19
+		"no": 20
 	},
 	{
 		"team": {
@@ -777,7 +816,7 @@
 				"size": 0
 			}
 		],
-		"no": 20
+		"no": 21
 	},
 	{
 		"team": {
@@ -816,27 +855,27 @@
 				"size": 0
 			}
 		],
-		"no": 21
+		"no": 22
 	},
 	{
 		"team": {
-			"api_football_id": 3416,
-			"name": "Omonia Aradippou",
-			"code": "OMO",
+			"api_football_id": 3418,
+			"name": "Othellos",
+			"code": "OTH",
 			"country": "Cyprus",
-			"founded": 1929
+			"founded": 1933
 		},
 		"venue": {
-			"api_football_id": 2215,
-			"name": "Dimotiko Stadio Aradippou",
-			"address": "Plateia Apostolou Louka 3",
-			"city": "Aradippou",
+			"api_football_id": 2226,
+			"name": "Gipedo Othellos Athienou",
+			"address": "Ifestou",
+			"city": "Athienou",
 			"capacity": 2000,
 			"surface": "grass",
-			"lat": 34.948599,
-			"lng": 33.587935,
-			"x": 344.6,
-			"y": 349,
+			"lat": 35.062024,
+			"lng": 33.532742,
+			"x": 330.2,
+			"y": 312.9,
 			"url": ""
 		},
 		"league": {
@@ -847,7 +886,7 @@
 		},
 		"images": [
 			{
-				"name": "2215_001.jpg",
+				"name": "2226_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -855,7 +894,7 @@
 				"size": 0
 			}
 		],
-		"no": 22
+		"no": 23
 	},
 	{
 		"team": {
@@ -894,7 +933,7 @@
 				"size": 0
 			}
 		],
-		"no": 23
+		"no": 24
 	},
 	{
 		"team": {
@@ -933,7 +972,7 @@
 				"size": 0
 			}
 		],
-		"no": 24
+		"no": 25
 	},
 	{
 		"team": {
@@ -972,27 +1011,27 @@
 				"size": 0
 			}
 		],
-		"no": 25
+		"no": 26
 	},
 	{
 		"team": {
-			"api_football_id": 3425,
-			"name": "ENAD",
-			"code": null,
+			"api_football_id": 3429,
+			"name": "Halkanoras",
+			"code": "HAL",
 			"country": "Cyprus",
-			"founded": 1994
+			"founded": 1948
 		},
 		"venue": {
-			"api_football_id": 2231,
-			"name": "Dimotiko Stadio Polis Chrysochous",
-			"address": "Mariou",
-			"city": "Polis Chrysochous",
-			"capacity": 1000,
+			"api_football_id": 2234,
+			"name": "Gipedo Dimitris Chamatsos",
+			"address": null,
+			"city": "Dali",
+			"capacity": 2000,
 			"surface": "grass",
-			"lat": 35.038066,
-			"lng": 32.432488,
-			"x": 42.1,
-			"y": 320.5,
+			"lat": 35.026934,
+			"lng": 33.418353,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
@@ -1003,15 +1042,15 @@
 		},
 		"images": [
 			{
-				"name": "2231_001.jpg",
-				"source": "",
+				"name": "2234_001.jpg",
+				"source": "https://www.ostadium.com/galleries/gipedo-dimitris-chamatsos-illus.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 26
+		"no": 27
 	},
 	{
 		"team": {
@@ -1050,85 +1089,7 @@
 				"size": 0
 			}
 		],
-		"no": 27
-	},
-	{
-		"team": {
-			"api_football_id": 3435,
-			"name": "Xylotympou",
-			"code": null,
-			"country": "Cyprus",
-			"founded": 2006
-		},
-		"venue": {
-			"api_football_id": 2222,
-			"name": "Stadio Dasaki Achnas",
-			"address": "Griva Digeni",
-			"city": "Dasaki Achnas",
-			"capacity": 5422,
-			"surface": "grass",
-			"lat": 35.033889,
-			"lng": 33.765,
-			"x": 391,
-			"y": 321.8,
-			"url": "https://en.wikipedia.org/wiki/Dasaki_Stadium"
-		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2222_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 28
-	},
-	{
-		"team": {
-			"api_football_id": 14126,
-			"name": "Omonia 29is Maiou",
-			"code": null,
-			"country": "Cyprus",
-			"founded": 2018
-		},
-		"venue": {
-			"api_football_id": 2213,
-			"name": "Makareio Stadio",
-			"address": "Stadiou, Makedonitissa",
-			"city": "Lefkosía",
-			"capacity": 16000,
-			"surface": "grass",
-			"lat": 35.146111,
-			"lng": 33.314444,
-			"x": 273,
-			"y": 286,
-			"url": "https://en.wikipedia.org/wiki/Makario_Stadium"
-		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2213_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 29
 	},
 	{
 		"team": {
@@ -1167,6 +1128,147 @@
 				"size": 0
 			}
 		],
+		"no": 29
+	},
+	{
+		"team": {
+			"api_football_id": 22127,
+			"name": "Spartakos Kitiou",
+			"code": null,
+			"country": "Cyprus",
+			"founded": 1958
+		},
+		"venue": {
+			"api_football_id": 20149,
+			"name": "Koinotiko Stadio Kitiou",
+			"address": null,
+			"city": "Kiti",
+			"capacity": 1000,
+			"surface": "grass",
+			"lat": 34.850326,
+			"lng": 33.575425,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 319,
+			"name": "2. Division",
+			"country": "Cyprus",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20149_001.jpg",
+				"source": "https://www.rowdie.co.uk/wp-content/uploads/2024/08/19790.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 3400,
+			"name": "Ermis",
+			"code": "ERM",
+			"country": "Cyprus",
+			"founded": 1958
+		},
+		"venue": {
+			"api_football_id": 2215,
+			"name": "Dimotiko Stadio Aradippou",
+			"address": "Plateia Apostolou Louka 3",
+			"city": "Aradippou",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 34.948599,
+			"lng": 33.587935,
+			"x": 344.6,
+			"y": 349,
+			"url": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "2215_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 31
+	},
+	{
+		"team": {
+			"api_football_id": 3425,
+			"name": "ENAD",
+			"code": null,
+			"country": "Cyprus",
+			"founded": 1994
+		},
+		"venue": {
+			"api_football_id": 2231,
+			"name": "Dimotiko Stadio Polis Chrysochous",
+			"address": "Mariou",
+			"city": "Polis Chrysochous",
+			"capacity": 1000,
+			"surface": "grass",
+			"lat": 35.038066,
+			"lng": 32.432488,
+			"x": 42.1,
+			"y": 320.5,
+			"url": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "2231_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 32
+	},
+	{
+		"team": {
+			"api_football_id": 3435,
+			"name": "Xylotympou",
+			"code": null,
+			"country": "Cyprus",
+			"founded": 2006
+		},
+		"venue": {
+			"api_football_id": 2222,
+			"name": "Stadio Dasaki Achnas",
+			"address": "Griva Digeni",
+			"city": "Dasaki Achnas",
+			"capacity": 5422,
+			"surface": "grass",
+			"lat": 35.033889,
+			"lng": 33.765,
+			"x": 391,
+			"y": 321.8,
+			"url": "https://en.wikipedia.org/wiki/Dasaki_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "2222_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 33
 	}
 ]

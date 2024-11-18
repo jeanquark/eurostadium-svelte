@@ -120,7 +120,7 @@
     <defs id="defs4">
         <style type="text/css" id="style2">
             .land {
-                fill: #49bea1;
+                fill: #c2d234;
                 fill-opacity: 1;
                 stroke: white;
                 stroke-opacity: 1;

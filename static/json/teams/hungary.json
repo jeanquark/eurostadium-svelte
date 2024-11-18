@@ -2,7 +2,7 @@
 	{
 		"team": {
 			"api_football_id": 610,
-			"name": "Videoton FC",
+			"name": "Fehérvár FC",
 			"code": "VID",
 			"country": "Hungary",
 			"founded": 1941
@@ -14,11 +14,11 @@
 			"city": "Székesfehérvár",
 			"capacity": 14201,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -1455.4,
-			"y": 6556.3,
-			"url": ""
+			"lat": 47.173611,
+			"lng": 18.415278,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/S%C3%B3st%C3%B3i_Stadion"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -28,31 +28,7 @@
 		},
 		"images": [
 			{
-				"name": "798_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "798_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "798_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "798_04.jpg",
+				"name": "798_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -77,11 +53,11 @@
 			"city": "Budapest",
 			"capacity": 23698,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -1455.4,
-			"y": 6556.3,
-			"url": ""
+			"lat": 47.475556,
+			"lng": 19.095278,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/Ferencv%C3%A1ros_Stadion"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -91,32 +67,48 @@
 		},
 		"images": [
 			{
-				"name": "799_01.jpg",
-				"source": "",
+				"name": "799_001.jpg",
+				"source": "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fmbuycicnr7o91.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "799_02.jpg",
-				"source": "",
+				"name": "799_002.jpg",
+				"source": "https://i.ytimg.com/vi/DcpXY1t_YGc/maxresdefault.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "799_03.jpg",
-				"source": "",
+				"name": "799_003.jpg",
+				"source": "https://assets.isu.pub/document-structure/240805045621-9e474ca4fe79b6feede07fa901480b84/v1/7dc91d99374685b796c25e286482bd7f.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "799_04.jpg",
-				"source": "",
+				"name": "799_004.jpg",
+				"source": "https://images.squarespace-cdn.com/content/v1/6103e9025995f52c1012eebc/ded8ab45-efc9-4f82-8aca-8bee7f1704ed/Groupama-esti_FTC-esos.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "799_005.jpg",
+				"source": "https://assets.isu.pub/document-structure/240805045621-9e474ca4fe79b6feede07fa901480b84/v1/501e1115edb1fe6d41a837fd0f66563e.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "799_006.jpg",
+				"source": "https://www.peikko.com/reference/ftc-stadium/",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -140,11 +132,11 @@
 			"city": "Budapest",
 			"capacity": 13501,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -1455.4,
-			"y": 6556.3,
-			"url": ""
+			"lat": 47.575,
+			"lng": 19.084722,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/Szusza_Ferenc_Stadion"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -154,32 +146,8 @@
 		},
 		"images": [
 			{
-				"name": "814_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "814_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "814_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "814_04.jpg",
-				"source": "",
+				"name": "814_001.jpg",
+				"source": "https://img.uefa.com/imgml/stadium/uw/63453.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -187,69 +155,6 @@
 			}
 		],
 		"no": 3
-	},
-	{
-		"team": {
-			"api_football_id": 2389,
-			"name": "Mezokovesd-zsory",
-			"code": "MEZ",
-			"country": "Hungary",
-			"founded": 1975
-		},
-		"venue": {
-			"api_football_id": 805,
-			"name": "Városi Stadion",
-			"address": "Széchenyi István u. 9.",
-			"city": "Mezőkövesd",
-			"capacity": 5020,
-			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -1455.4,
-			"y": 6556.3,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 271,
-			"name": "NB I",
-			"country": "Hungary",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "805_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "805_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "805_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "805_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 4
 	},
 	{
 		"team": {
@@ -266,11 +171,11 @@
 			"city": "Paks",
 			"capacity": 4950,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -1455.4,
-			"y": 6556.3,
-			"url": ""
+			"lat": 46.633611,
+			"lng": 18.8525,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/Feh%C3%A9rv%C3%A1ri_%C3%BAti_Stadion"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -280,39 +185,15 @@
 		},
 		"images": [
 			{
-				"name": "809_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "809_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "809_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "809_04.jpg",
-				"source": "",
+				"name": "809_001.jpg",
+				"source": "https://i.ytimg.com/vi/T8Lbyx8mwEg/maxresdefault.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 5
+		"no": 4
 	},
 	{
 		"team": {
@@ -329,11 +210,11 @@
 			"city": "Felcsút",
 			"capacity": 3865,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -1455.4,
-			"y": 6556.3,
-			"url": ""
+			"lat": 47.464,
+			"lng": 18.5868,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/Pancho_Ar%C3%A9na"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -343,39 +224,55 @@
 		},
 		"images": [
 			{
-				"name": "1764_01.jpg",
-				"source": "",
+				"name": "1764_001.jpg",
+				"source": "https://www.kovostal.cz/r/103/79986/obsah/projekty/evropa_projektovefoto1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1764_02.jpg",
-				"source": "",
+				"name": "1764_002.jpg",
+				"source": "https://cdnassets.hw.net/66/99/2305c187455094da9ab893b0dfb0/panchoarena-doparumarchitects-herojpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1764_03.jpg",
-				"source": "",
+				"name": "1764_003.jpg",
+				"source": "https://images.adsttc.com/media/images/53f2/ca8e/c07a/80c3/8400/051d/large_jpg/28_Pancho_Arena_-_Felcsut_Hungary_-_Photo_Jozsef_Takacs.jpg?1408420470",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1764_04.jpg",
-				"source": "",
+				"name": "1764_004.jpg",
+				"source": "https://magyarpart.cfjlab.fr/wp-content/uploads/sites/25/2022/05/terrain-1920x480.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1764_005.jpg",
+				"source": "https://images.adsttc.com/media/images/53f2/ca54/c07a/8038/8e00/046a/large_jpg/14_Pancho_Arena_-_Felcsut_Hungary_-_Photo_Jozsef_Takacs.jpg?1408420423",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1764_006.jpg",
+				"source": "https://cdn.origo.hu/2023/12/D3_tSEEU6eRL2n5ispLIlb-fjPtxyc2JP6-g8_iFCFg/fill/1347/758/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzA3MDQ5MjYyYjVhMzQ0NjZiOGUzNmQ3NTM1M2Q1MDY1.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 6
+		"no": 5
 	},
 	{
 		"team": {
@@ -406,31 +303,7 @@
 		},
 		"images": [
 			{
-				"name": "795_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "795_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "795_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "795_04.jpg",
+				"name": "795_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -438,7 +311,7 @@
 				"size": 0
 			}
 		],
-		"no": 7
+		"no": 6
 	},
 	{
 		"team": {
@@ -469,31 +342,7 @@
 		},
 		"images": [
 			{
-				"name": "796_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "796_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "796_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "796_04.jpg",
+				"name": "796_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -501,70 +350,7 @@
 				"size": 0
 			}
 		],
-		"no": 8
-	},
-	{
-		"team": {
-			"api_football_id": 2394,
-			"name": "Kisvarda FC",
-			"code": "KIS",
-			"country": "Hungary",
-			"founded": 2003
-		},
-		"venue": {
-			"api_football_id": 816,
-			"name": "Várkerti Stadion",
-			"address": null,
-			"city": "Kisvárda",
-			"capacity": 3385,
-			"surface": "grass",
-			"lat": 48.225434,
-			"lng": 22.087968,
-			"x": 539.6,
-			"y": 164.8,
-			"url": "https://en.wikipedia.org/wiki/V%C3%A1rkerti_Stadion"
-		},
-		"league": {
-			"api_football_id": 271,
-			"name": "NB I",
-			"country": "Hungary",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "816_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "816_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "816_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "816_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 9
+		"no": 7
 	},
 	{
 		"team": {
@@ -595,31 +381,85 @@
 		},
 		"images": [
 			{
-				"name": "802_01.jpg",
+				"name": "802_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
-			},
+			}
+		],
+		"no": 8
+	},
+	{
+		"team": {
+			"api_football_id": 2402,
+			"name": "Gyori ETO FC",
+			"code": "GYO",
+			"country": "Hungary",
+			"founded": 1904
+		},
+		"venue": {
+			"api_football_id": 801,
+			"name": "ETO Park",
+			"address": "Nagysándor József utca 31.",
+			"city": "Győr",
+			"capacity": 16000,
+			"surface": "grass",
+			"lat": 47.695769,
+			"lng": 17.663827,
+			"x": 140,
+			"y": 235,
+			"url": "https://en.wikipedia.org/wiki/ETO_Park"
+		},
+		"league": {
+			"api_football_id": 271,
+			"name": "NB I",
+			"country": "Hungary",
+			"api_football_country_id": 0
+		},
+		"images": [
 			{
-				"name": "802_02.jpg",
+				"name": "801_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
-			},
+			}
+		],
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 2403,
+			"name": "Nyiregyhaza",
+			"code": "NYI",
+			"country": "Hungary",
+			"founded": 1928
+		},
+		"venue": {
+			"api_football_id": 1796,
+			"name": "Balmazújvárosi Városi Sportpálya",
+			"address": "Sporttér út 5.",
+			"city": "Balmazújváros",
+			"capacity": 3500,
+			"surface": "grass",
+			"lat": 47.611561,
+			"lng": 21.349071,
+			"x": 472.9,
+			"y": 246.2,
+			"url": "https://en.wikipedia.org/wiki/Balmaz%C3%BAjv%C3%A1rosi_V%C3%A1rosi_Sportp%C3%A1lya"
+		},
+		"league": {
+			"api_football_id": 271,
+			"name": "NB I",
+			"country": "Hungary",
+			"api_football_country_id": 0
+		},
+		"images": [
 			{
-				"name": "802_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "802_04.jpg",
+				"name": "1796_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -658,31 +498,7 @@
 		},
 		"images": [
 			{
-				"name": "818_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "818_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "818_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "818_04.jpg",
+				"name": "818_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -721,31 +537,7 @@
 		},
 		"images": [
 			{
-				"name": "3862_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3862_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3862_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3862_04.jpg",
+				"name": "3862_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -784,31 +576,7 @@
 		},
 		"images": [
 			{
-				"name": "11902_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11902_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11902_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11902_04.jpg",
+				"name": "11902_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -847,31 +615,7 @@
 		},
 		"images": [
 			{
-				"name": "817_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "817_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "817_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "817_04.jpg",
+				"name": "817_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -883,24 +627,24 @@
 	},
 	{
 		"team": {
-			"api_football_id": 2395,
-			"name": "Szombathelyi Haladas",
-			"code": "HAL",
+			"api_football_id": 2389,
+			"name": "Mezokovesd-zsory",
+			"code": "MEZ",
 			"country": "Hungary",
-			"founded": 1919
+			"founded": 1975
 		},
 		"venue": {
-			"api_football_id": 812,
-			"name": "Haladás Stadion",
-			"address": "Rohonci út 3.",
-			"city": "Szombathely",
-			"capacity": 8903,
+			"api_football_id": 805,
+			"name": "Városi Stadion",
+			"address": "Széchenyi István u. 9.",
+			"city": "Mezőkövesd",
+			"capacity": 5020,
 			"surface": "grass",
-			"lat": 47.234762,
-			"lng": 16.607117,
-			"x": 44.6,
-			"y": 296.1,
-			"url": "https://en.wikipedia.org/wiki/Halad%C3%A1s_Sportkomplexum"
+			"lat": 47.8023,
+			"lng": 20.5673,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/Mez%C5%91k%C3%B6vesdi_V%C3%A1rosi_Stadion"
 		},
 		"league": {
 			"api_football_id": 272,
@@ -910,32 +654,8 @@
 		},
 		"images": [
 			{
-				"name": "812_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "812_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "812_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "812_04.jpg",
-				"source": "",
+				"name": "805_001.jpg",
+				"source": "https://assets.goal.com/images/v3/bltff073ad102714ce6/mzsestadion.jpg?auto=webp&format=pjpg&width=3840&quality=60",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -943,6 +663,45 @@
 			}
 		],
 		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 2394,
+			"name": "Kisvarda FC",
+			"code": "KIS",
+			"country": "Hungary",
+			"founded": 2003
+		},
+		"venue": {
+			"api_football_id": 816,
+			"name": "Várkerti Stadion",
+			"address": null,
+			"city": "Kisvárda",
+			"capacity": 3385,
+			"surface": "grass",
+			"lat": 48.225434,
+			"lng": 22.087968,
+			"x": 539.6,
+			"y": 164.8,
+			"url": "https://en.wikipedia.org/wiki/V%C3%A1rkerti_Stadion"
+		},
+		"league": {
+			"api_football_id": 272,
+			"name": "NB II",
+			"country": "Hungary",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "816_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 16
 	},
 	{
 		"team": {
@@ -973,31 +732,7 @@
 		},
 		"images": [
 			{
-				"name": "800_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "800_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "800_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "800_04.jpg",
+				"name": "800_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1005,7 +740,7 @@
 				"size": 0
 			}
 		],
-		"no": 16
+		"no": 17
 	},
 	{
 		"team": {
@@ -1036,94 +771,7 @@
 		},
 		"images": [
 			{
-				"name": "1886_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1886_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1886_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1886_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 17
-	},
-	{
-		"team": {
-			"api_football_id": 2402,
-			"name": "Gyori ETO FC",
-			"code": "GYO",
-			"country": "Hungary",
-			"founded": 1904
-		},
-		"venue": {
-			"api_football_id": 801,
-			"name": "ETO Park",
-			"address": "Nagysándor József utca 31.",
-			"city": "Győr",
-			"capacity": 16000,
-			"surface": "grass",
-			"lat": 47.695769,
-			"lng": 17.663827,
-			"x": 140,
-			"y": 235,
-			"url": "https://en.wikipedia.org/wiki/ETO_Park"
-		},
-		"league": {
-			"api_football_id": 272,
-			"name": "NB II",
-			"country": "Hungary",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "801_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "801_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "801_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "801_04.jpg",
+				"name": "1886_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1132,69 +780,6 @@
 			}
 		],
 		"no": 18
-	},
-	{
-		"team": {
-			"api_football_id": 2403,
-			"name": "Nyiregyhaza",
-			"code": "NYI",
-			"country": "Hungary",
-			"founded": 1928
-		},
-		"venue": {
-			"api_football_id": 1796,
-			"name": "Balmazújvárosi Városi Sportpálya",
-			"address": "Sporttér út 5.",
-			"city": "Balmazújváros",
-			"capacity": 3500,
-			"surface": "grass",
-			"lat": 47.611561,
-			"lng": 21.349071,
-			"x": 472.9,
-			"y": 246.2,
-			"url": "https://en.wikipedia.org/wiki/Balmaz%C3%BAjv%C3%A1rosi_V%C3%A1rosi_Sportp%C3%A1lya"
-		},
-		"league": {
-			"api_football_id": 272,
-			"name": "NB II",
-			"country": "Hungary",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "1796_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1796_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1796_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1796_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 19
 	},
 	{
 		"team": {
@@ -1225,32 +810,71 @@
 		},
 		"images": [
 			{
-				"name": "811_01.jpg",
+				"name": "811_001.jpg",
 				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 2406,
+			"name": "Bekescsaba 1912",
+			"code": "BEK",
+			"country": "Hungary",
+			"founded": 1912
+		},
+		"venue": {
+			"api_football_id": 792,
+			"name": "Kórház utcai stadion",
+			"address": "Kórház u. 6.",
+			"city": "Békéscsaba",
+			"capacity": 10432,
+			"surface": "grass",
+			"lat": 46.686111,
+			"lng": 21.105,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/K%C3%B3rh%C3%A1z_utcai_Stadion"
+		},
+		"league": {
+			"api_football_id": 272,
+			"name": "NB II",
+			"country": "Hungary",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "792_001.jpg",
+				"source": "https://1912elore.hu/site/wp-content/uploads/2024/02/20231026_stadion.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "811_02.jpg",
-				"source": "",
+				"name": "792_002.jpg",
+				"source": "https://1912elore.hu/site/wp-content/uploads/2024/06/20240609_korhaz_utcai_stadion.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "811_03.jpg",
-				"source": "",
+				"name": "792_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/K%C3%B3rh%C3%A1z_utcai_Stadion_2nd_stand.jpg/1024px-K%C3%B3rh%C3%A1z_utcai_Stadion_2nd_stand.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "811_04.jpg",
-				"source": "",
+				"name": "792_004.jpg",
+				"source": "https://i.ytimg.com/vi/CsEyANXYSgg/maxresdefault.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1288,31 +912,7 @@
 		},
 		"images": [
 			{
-				"name": "1737_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1737_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1737_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1737_04.jpg",
+				"name": "1737_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1351,31 +951,7 @@
 		},
 		"images": [
 			{
-				"name": "11903_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11903_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11903_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11903_04.jpg",
+				"name": "11903_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1384,195 +960,6 @@
 			}
 		],
 		"no": 22
-	},
-	{
-		"team": {
-			"api_football_id": 2412,
-			"name": "MTE 1904",
-			"code": null,
-			"country": "Hungary",
-			"founded": 1904
-		},
-		"venue": {
-			"api_football_id": 807,
-			"name": "Wittmann Antal park",
-			"address": "Gazdász u. 10",
-			"city": "Mosonmagyaróvár",
-			"capacity": 4000,
-			"surface": "grass",
-			"lat": 47.884694,
-			"lng": 17.276806,
-			"x": 105.1,
-			"y": 210,
-			"url": "https://en.wikipedia.org/wiki/Wittmann_Antal_park"
-		},
-		"league": {
-			"api_football_id": 272,
-			"name": "NB II",
-			"country": "Hungary",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "807_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "807_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "807_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "807_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 23
-	},
-	{
-		"team": {
-			"api_football_id": 2413,
-			"name": "Siofok",
-			"code": "SIO",
-			"country": "Hungary",
-			"founded": 1921
-		},
-		"venue": {
-			"api_football_id": 810,
-			"name": "Révész Géza utcai stadion",
-			"address": "Dr. Révész Géza utca 11.",
-			"city": "Siófok",
-			"capacity": 6500,
-			"surface": "grass",
-			"lat": 46.909167,
-			"lng": 18.061389,
-			"x": 175.9,
-			"y": 339.3,
-			"url": "https://en.wikipedia.org/wiki/R%C3%A9v%C3%A9sz_G%C3%A9za_utcai_Stadion"
-		},
-		"league": {
-			"api_football_id": 272,
-			"name": "NB II",
-			"country": "Hungary",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "810_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "810_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "810_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "810_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 24
-	},
-	{
-		"team": {
-			"api_football_id": 2415,
-			"name": "Tiszakecske FC",
-			"code": null,
-			"country": "Hungary",
-			"founded": 2015
-		},
-		"venue": {
-			"api_football_id": 813,
-			"name": "Városi Stadion",
-			"address": null,
-			"city": "Tiszakécske",
-			"capacity": 4500,
-			"surface": "grass",
-			"lat": 46.935173,
-			"lng": 20.10552,
-			"x": 360.5,
-			"y": 335.8,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 272,
-			"name": "NB II",
-			"country": "Hungary",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "813_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "813_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "813_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "813_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 25
 	},
 	{
 		"team": {
@@ -1603,31 +990,7 @@
 		},
 		"images": [
 			{
-				"name": "2742_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2742_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2742_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2742_04.jpg",
+				"name": "2742_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1635,7 +998,7 @@
 				"size": 0
 			}
 		],
-		"no": 26
+		"no": 23
 	},
 	{
 		"team": {
@@ -1666,31 +1029,7 @@
 		},
 		"images": [
 			{
-				"name": "2746_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2746_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2746_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2746_04.jpg",
+				"name": "2746_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1698,7 +1037,7 @@
 				"size": 0
 			}
 		],
-		"no": 27
+		"no": 24
 	},
 	{
 		"team": {
@@ -1729,31 +1068,7 @@
 		},
 		"images": [
 			{
-				"name": "3562_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3562_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3562_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3562_04.jpg",
+				"name": "3562_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1761,7 +1076,7 @@
 				"size": 0
 			}
 		],
-		"no": 28
+		"no": 25
 	},
 	{
 		"team": {
@@ -1792,31 +1107,151 @@
 		},
 		"images": [
 			{
-				"name": "10566_01.jpg",
+				"name": "10566_001.jpg",
 				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 5139,
+			"name": "Szentlőrinc SE",
+			"code": null,
+			"country": "Hungary",
+			"founded": 1912
+		},
+		"venue": {
+			"api_football_id": 3881,
+			"name": "Szentlőrinci Sportpálya",
+			"address": "Eszterházy út",
+			"city": "Szentlőrinc",
+			"capacity": 1100,
+			"surface": "grass",
+			"lat": 46.040730,
+			"lng": 17.990592,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 272,
+			"name": "NB II",
+			"country": "Hungary",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3881_001.jpg",
+				"source": "https://www.szentlorincse.hu/images/stadion/centerpalya//Nvtelen-1s.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "10566_02.jpg",
-				"source": "",
+				"name": "3881_002.jpg",
+				"source": "https://www.szentlorincse.hu/images/stadion/centerpalya//Nvtelen-11s.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "10566_03.jpg",
-				"source": "",
+				"name": "3881_003.jpg",
+				"source": "https://www.szentlorincse.hu/images/stadion/centerpalya//Nvtelen-6s.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "10566_04.jpg",
+				"name": "3881_004.jpg",
+				"source": "https://www.szentlorincse.hu/images/stadion/centerpalya//Nvtelen-5s.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 5145,
+			"name": "Tatabánya",
+			"code": "TAT",
+			"country": "Hungary",
+			"founded": 1910
+		},
+		"venue": {
+			"api_football_id": 793,
+			"name": "Grosics Gyula Stadion",
+			"address": "Ságvári Endre út 9.",
+			"city": "Tatabánya",
+			"capacity": 4000,
+			"surface": "grass",
+			"lat": 47.556544,
+			"lng": 18.417775,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/V%C3%A1rosi_Stadion_(Tatab%C3%A1nya)"
+		},
+		"league": {
+			"api_football_id": 272,
+			"name": "NB II",
+			"country": "Hungary",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "793_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Grosics_Stadion%2C_Mitte%2C_2021_Tatab%C3%A1nya.jpg/1280px-Grosics_Stadion%2C_Mitte%2C_2021_Tatab%C3%A1nya.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "793_002.jpg",
+				"source": "https://agoranonprofit.hu/wp-content/uploads/2021/08/grosics6-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 28
+	},
+	{
+		"team": {
+			"api_football_id": 2395,
+			"name": "Szombathelyi Haladas",
+			"code": "HAL",
+			"country": "Hungary",
+			"founded": 1919
+		},
+		"venue": {
+			"api_football_id": 812,
+			"name": "Haladás Stadion",
+			"address": "Rohonci út 3.",
+			"city": "Szombathely",
+			"capacity": 8903,
+			"surface": "grass",
+			"lat": 47.234762,
+			"lng": 16.607117,
+			"x": 44.6,
+			"y": 296.1,
+			"url": "https://en.wikipedia.org/wiki/Halad%C3%A1s_Sportkomplexum"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "812_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1825,6 +1260,108 @@
 			}
 		],
 		"no": 29
+	},
+	{
+		"team": {
+			"api_football_id": 2412,
+			"name": "MTE 1904",
+			"code": null,
+			"country": "Hungary",
+			"founded": 1904
+		},
+		"venue": {
+			"api_football_id": 807,
+			"name": "Wittmann Antal park",
+			"address": "Gazdász u. 10",
+			"city": "Mosonmagyaróvár",
+			"capacity": 4000,
+			"surface": "grass",
+			"lat": 47.884694,
+			"lng": 17.276806,
+			"x": 105.1,
+			"y": 210,
+			"url": "https://en.wikipedia.org/wiki/Wittmann_Antal_park"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "807_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 2413,
+			"name": "Siofok",
+			"code": "SIO",
+			"country": "Hungary",
+			"founded": 1921
+		},
+		"venue": {
+			"api_football_id": 810,
+			"name": "Révész Géza utcai stadion",
+			"address": "Dr. Révész Géza utca 11.",
+			"city": "Siófok",
+			"capacity": 6500,
+			"surface": "grass",
+			"lat": 46.909167,
+			"lng": 18.061389,
+			"x": 175.9,
+			"y": 339.3,
+			"url": "https://en.wikipedia.org/wiki/R%C3%A9v%C3%A9sz_G%C3%A9za_utcai_Stadion"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "810_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 31
+	},
+	{
+		"team": {
+			"api_football_id": 2415,
+			"name": "Tiszakecske FC",
+			"code": null,
+			"country": "Hungary",
+			"founded": 2015
+		},
+		"venue": {
+			"api_football_id": 813,
+			"name": "Városi Stadion",
+			"address": null,
+			"city": "Tiszakécske",
+			"capacity": 4500,
+			"surface": "grass",
+			"lat": 46.935173,
+			"lng": 20.10552,
+			"x": 360.5,
+			"y": 335.8,
+			"url": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "813_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 32
 	},
 	{
 		"team": {
@@ -1847,39 +1384,10 @@
 			"y": 450.7,
 			"url": "https://en.wikipedia.org/wiki/Stadion_PMFC"
 		},
-		"league": {
-			"api_football_id": 272,
-			"name": "NB II",
-			"country": "Hungary",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
-				"name": "3873_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3873_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3873_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3873_04.jpg",
+				"name": "3873_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1887,6 +1395,6 @@
 				"size": 0
 			}
 		],
-		"no": 30
+		"no": 33
 	}
 ]

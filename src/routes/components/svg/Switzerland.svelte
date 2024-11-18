@@ -80,10 +80,10 @@
             //     console.log('destroy')
             // }
         })
-        const def = (e) => {
+        const zoom = (e) => {
             panzoomRef.zoomWithWheel(e)
         }
-        node.addEventListener('wheel', def)
+        node.addEventListener('wheel', zoom)
     }
 
     const handleClick = (e) => {
@@ -156,7 +156,7 @@
     <defs id="defs4">
         <style type="text/css" id="style2">
             .land {
-                fill: #49bea1;
+                fill: #d6c456;
                 fill-opacity: 1;
                 stroke: white;
                 stroke-opacity: 1;

@@ -1,13 +1,13 @@
 import { json } from '@sveltejs/kit';
 import { promises as fs } from "fs";
-import { API_FOOTBALL_KEY } from '$env/static/private';
+import { env } from '$env/dynamic/private';
 
 export async function GET() {
     console.log('[api/api-football/fetch-eurostadium-teams]', new Date())
 
     const SEASON = 2024;
-    const COUNTRY_START_INDEX = 0
-    const COUNTRY_END_INDEX = 4
+    const COUNTRY_START_INDEX = 20
+    const COUNTRY_END_INDEX = 20
 
     // const countryObj = {
     //     name: 'Switzerland',
@@ -16,12 +16,15 @@ export async function GET() {
     const file1 = './static/json/countries.json';
     const file2 = './static/json/leagues.json';
 
-    const countriesFile = await fs.readFile(file1, "binary");
-    const leaguesFile = await fs.readFile(file2, "binary");
+    // const countriesFile = await fs.readFile(file1, "binary");
+    const countriesFile = await fs.readFile(file1, "utf8");
+    // const leaguesFile = await fs.readFile(file2, "binary");
+    const leaguesFile = await fs.readFile(file2, "utf8");
     // const teamsFile = await fs.readFile(file3, "binary");
     // console.log('countriesFile: ', countriesFile);
     // console.log('leaguesFile: ', leaguesFile);
     // console.log('teamsFile: ', teamsFile);
+    // return
 
     let countriesArray = []
     let leaguesArray = []
@@ -39,6 +42,8 @@ export async function GET() {
         let teamsArray = []
 
         countryLeagues = leaguesArray.filter((league) => league.country == countriesArray[i]['name'])
+        console.log('countryLeagues: ', countryLeagues);
+        // return
 
         const file = `./static/json/teams/${countriesArray[i].slug}.json`;
         // const teamsFile = await fs.readFile(file, "binary");
@@ -59,7 +64,7 @@ export async function GET() {
             const teams = await fetch(`https://v3.football.api-sports.io/teams?league=${countryLeagues[j]['api_football_id']}&season=${SEASON}`, {
                 "method": "GET",
                 "headers": {
-                    "x-rapidapi-key": API_FOOTBALL_KEY,
+                    "x-rapidapi-key": env.API_FOOTBALL_KEY,
                     "x-rapidapi-host": 'v3.football.api-sports.io'
                 }
             })
@@ -83,7 +88,11 @@ export async function GET() {
         let n = 0;
         for (let j = 0; j < apiFootballTeams.length; j++) {
             let obj = { team: {}, venue: {}, league: {} }
-            const team = countryTeams.find((el) => el.team.api_football_id == apiFootballTeams[j]['team']['id'])
+            let team = null
+            const countryTeam = countryTeams.find((el) => el.team.api_football_id == apiFootballTeams[j]['team']['id'])
+            if (countryTeam) {
+                team = countryTeam
+            }
             // console.log('team: ', team);
 
             obj['team']['api_football_id'] = apiFootballTeams[j]['team']['id']
@@ -98,18 +107,18 @@ export async function GET() {
             obj['venue']['city'] = apiFootballTeams[j]['venue']['city']
             obj['venue']['capacity'] = apiFootballTeams[j]['venue']['capacity']
             obj['venue']['surface'] = apiFootballTeams[j]['venue']['surface']
-            obj['venue']['lat'] = team && team.venue.lat ? team.venue.lat : 0.0
-            obj['venue']['lng'] = team && team.venue.lng ? team.venue.lng : 0.0
-            obj['venue']['x'] = team && team.venue.x ? team.venue.x : 0
-            obj['venue']['y'] = team && team.venue.y ? team.venue.y : 0
-            obj['venue']['url'] = team && team.venue.url ? team.venue.url : ""
+            obj['venue']['lat'] = (team && team.venue && team.venue.lat) ? team.venue.lat : 0.0
+            obj['venue']['lng'] = (team && team.venue && team.venue.lng) ? team.venue.lng : 0.0
+            obj['venue']['x'] = (team && team.venue && team.venue.x) ? team.venue.x : 0
+            obj['venue']['y'] = (team && team.venue && team.venue.y) ? team.venue.y : 0
+            obj['venue']['url'] = (team && team.venue && team.venue.url) ? team.venue.url : ""
 
             obj['league']['api_football_id'] = apiFootballTeams[j]['league']['api_football_id']
             obj['league']['name'] = apiFootballTeams[j]['league']['name']
             obj['league']['country'] = apiFootballTeams[j]['league']['country']
             obj['league']['api_football_country_id'] = apiFootballTeams[j]['league']['api_football_country_id']
 
-            obj['images'] = team && team.images
+            obj['images'] = team && team.images ? team.images : []
 
             obj['no'] = j + 1
             n++
@@ -122,7 +131,7 @@ export async function GET() {
             if (!teamsArray.find((team) => team['team']['api_football_id'] == countryTeams[j]['team']['api_football_id'])) {
                 n++
                 countryTeams[j]['no'] = n;
-                console.log('countryTeams[j]: ', countryTeams[j])
+                // console.log('countryTeams[j]: ', countryTeams[j])
                 teamsArray.push(countryTeams[j])
             }
         }
