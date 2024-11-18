@@ -235,6 +235,45 @@
 	},
 	{
 		"team": {
+			"api_football_id": 14394,
+			"name": "Ferizaj",
+			"code": null,
+			"country": "Kosovo",
+			"founded": 1923
+		},
+		"venue": {
+			"api_football_id": 19336,
+			"name": "Stadiumi me bar sintetik Ferizaj",
+			"address": null,
+			"city": "Uroševac",
+			"capacity": 2500,
+			"surface": "artificial turf",
+			"lat": 42.374523,
+			"lng": 21.137208,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 664,
+			"name": "Superliga",
+			"country": "Kosovo",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19336_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 7
+	},
+	{
+		"team": {
 			"api_football_id": 14395,
 			"name": "Llapi",
 			"code": null,
@@ -263,45 +302,6 @@
 		"images": [
 			{
 				"name": "11084_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 7
-	},
-	{
-		"team": {
-			"api_football_id": 14402,
-			"name": "Liria Prizren",
-			"code": null,
-			"country": "Kosovo",
-			"founded": 1930
-		},
-		"venue": {
-			"api_football_id": 20438,
-			"name": "Stadiumi Përparim Thaçi",
-			"address": null,
-			"city": "Prizren",
-			"capacity": 15000,
-			"surface": "grass",
-			"lat": 42.206992,
-			"lng": 20.729061,
-			"x": 280.3,
-			"y": 498.2,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 664,
-			"name": "Superliga",
-			"country": "Kosovo",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "20438_01.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -352,6 +352,70 @@
 	},
 	{
 		"team": {
+			"api_football_id": 22817,
+			"name": "Suhareka",
+			"code": null,
+			"country": "Kosovo",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 664,
+			"name": "Superliga",
+			"country": "Kosovo",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 14402,
+			"name": "Liria Prizren",
+			"code": null,
+			"country": "Kosovo",
+			"founded": 1930
+		},
+		"venue": {
+			"api_football_id": 20438,
+			"name": "Stadiumi Përparim Thaçi",
+			"address": null,
+			"city": "Prizren",
+			"capacity": 15000,
+			"surface": "grass",
+			"lat": 42.206992,
+			"lng": 20.729061,
+			"x": 280.3,
+			"y": 498.2,
+			"url": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "20438_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 11
+	},
+	{
+		"team": {
 			"api_football_id": 18293,
 			"name": "Fushë Kosova",
 			"code": null,
@@ -371,12 +435,7 @@
 			"y": 298,
 			"url": ""
 		},
-		"league": {
-			"api_football_id": 664,
-			"name": "Superliga",
-			"country": "Kosovo",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "20145_01.jpg",
@@ -387,7 +446,7 @@
 				"size": 0
 			}
 		],
-		"no": 10
+		"no": 12
 	},
 	{
 		"team": {
@@ -406,16 +465,11 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -6905.4,
-			"y": 20277.3,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
-		"league": {
-			"api_football_id": 664,
-			"name": "Superliga",
-			"country": "Kosovo",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "",
@@ -426,6 +480,6 @@
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 13
 	}
 ]

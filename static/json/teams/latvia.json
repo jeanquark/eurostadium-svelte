@@ -28,7 +28,7 @@
 		},
 		"images": [
 			{
-				"name": "1820_01.jpg",
+				"name": "1820_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -67,7 +67,7 @@
 		},
 		"images": [
 			{
-				"name": "19576_01.jpg",
+				"name": "19576_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -79,24 +79,24 @@
 	},
 	{
 		"team": {
-			"api_football_id": 4143,
-			"name": "Super Nova",
-			"code": null,
+			"api_football_id": 4138,
+			"name": "Grobiņa",
+			"code": "GRO",
 			"country": "Latvia",
-			"founded": null
+			"founded": 2009
 		},
 		"venue": {
-			"api_football_id": 11512,
-			"name": "Slokas Stadionā",
-			"address": "Skolas ielā 3, Sloka",
-			"city": "Jūrmala",
-			"capacity": 2800,
+			"api_football_id": 3164,
+			"name": "Grobiņas stadionā",
+			"address": null,
+			"city": "Grobiņa",
+			"capacity": 1000,
 			"surface": "grass",
-			"lat": 56.949591,
-			"lng": 23.610199,
-			"x": 451,
-			"y": 602.6,
-			"url": "https://en.wikipedia.org/wiki/Sloka_Stadium"
+			"lat": 56.538366,
+			"lng": 21.171166,
+			"x": 0,
+			"y": 0,
+			"url": ""
 		},
 		"league": {
 			"api_football_id": 365,
@@ -106,7 +106,7 @@
 		},
 		"images": [
 			{
-				"name": "11512_01.jpg",
+				"name": "3164_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -145,7 +145,7 @@
 		},
 		"images": [
 			{
-				"name": "1024_01.jpg",
+				"name": "1024_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -184,7 +184,7 @@
 		},
 		"images": [
 			{
-				"name": "3169_01.jpg",
+				"name": "3169_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -223,7 +223,7 @@
 		},
 		"images": [
 			{
-				"name": "3174_01.jpg",
+				"name": "3174_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -242,12 +242,12 @@
 			"founded": 2006
 		},
 		"venue": {
-			"api_football_id": 3177,
-			"name": "Hanzas vidusskolas laukums",
-			"address": "Grostonas 5",
+			"api_football_id": 11513,
+			"name": "Daugavas Stadionā",
+			"address": "Augšiela 1",
 			"city": "Riga",
-			"capacity": 2000,
-			"surface": "artificial turf",
+			"capacity": 10461,
+			"surface": "grass",
 			"lat": 56.96643,
 			"lng": 24.118364,
 			"x": 535.8,
@@ -262,7 +262,7 @@
 		},
 		"images": [
 			{
-				"name": "3177_01.jpg",
+				"name": "3177_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -301,7 +301,7 @@
 		},
 		"images": [
 			{
-				"name": "19577_01.jpg",
+				"name": "19577_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -340,7 +340,7 @@
 		},
 		"images": [
 			{
-				"name": "2611_01.jpg",
+				"name": "2611_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -349,45 +349,6 @@
 			}
 		],
 		"no": 9
-	},
-	{
-		"team": {
-			"api_football_id": 16835,
-			"name": "Skanste",
-			"code": null,
-			"country": "Latvia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 3177,
-			"name": "Hanzas vidusskolas laukums",
-			"address": "Grostonas 5",
-			"city": "Riga",
-			"capacity": 2000,
-			"surface": "artificial turf",
-			"lat": 56.96643,
-			"lng": 24.118364,
-			"x": 535.8,
-			"y": 597.4,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 365,
-			"name": "Virsliga",
-			"country": "Latvia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "3177_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 10
 	},
 	{
 		"team": {
@@ -418,7 +379,7 @@
 		},
 		"images": [
 			{
-				"name": "19582_01.jpg",
+				"name": "19582_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -426,46 +387,7 @@
 				"size": 0
 			}
 		],
-		"no": 11
-	},
-	{
-		"team": {
-			"api_football_id": 4138,
-			"name": "Grobiņa",
-			"code": "GRO",
-			"country": "Latvia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 3164,
-			"name": "Grobiņas stadionā",
-			"address": null,
-			"city": "Grobiņa",
-			"capacity": 1000,
-			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -3490.5,
-			"y": 18124,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 364,
-			"name": "1. Liga",
-			"country": "Latvia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "3164_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 12
+		"no": 10
 	},
 	{
 		"team": {
@@ -482,21 +404,21 @@
 			"city": "Upesciems",
 			"capacity": 1000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -3490.5,
-			"y": 18124,
+			"lat": 56.980959,
+			"lng": 24.339192,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 364,
-			"name": "1. Liga",
+			"name": "First League",
 			"country": "Latvia",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "8652_01.jpg",
+				"name": "8652_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -504,7 +426,7 @@
 				"size": 0
 			}
 		],
-		"no": 13
+		"no": 11
 	},
 	{
 		"team": {
@@ -521,21 +443,21 @@
 			"city": "Rezekne",
 			"capacity": 978,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -3490.5,
-			"y": 18124,
+			"lat": 56.509776,
+			"lng": 27.340755,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 364,
-			"name": "1. Liga",
+			"name": "First League",
 			"country": "Latvia",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "8653_01.jpg",
+				"name": "8653_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -543,7 +465,7 @@
 				"size": 0
 			}
 		],
-		"no": 14
+		"no": 12
 	},
 	{
 		"team": {
@@ -560,21 +482,21 @@
 			"city": "Smiltene",
 			"capacity": 1000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
-			"x": -3490.5,
-			"y": 18124,
+			"lat": 57.430763,
+			"lng": 25.921527,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 364,
-			"name": "1. Liga",
+			"name": "First League",
 			"country": "Latvia",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "3167_01.jpg",
+				"name": "3167_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -582,7 +504,46 @@
 				"size": 0
 			}
 		],
-		"no": 15
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 4143,
+			"name": "Super Nova",
+			"code": null,
+			"country": "Latvia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 11512,
+			"name": "Slokas Stadionā",
+			"address": "Skolas ielā 3, Sloka",
+			"city": "Jūrmala",
+			"capacity": 2800,
+			"surface": "grass",
+			"lat": 56.949591,
+			"lng": 23.610199,
+			"x": 451,
+			"y": 602.6,
+			"url": "https://en.wikipedia.org/wiki/Sloka_Stadium"
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "11512_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 14
 	},
 	{
 		"team": {
@@ -599,22 +560,61 @@
 			"city": "Olaine",
 			"capacity": 2500,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
-			"x": -3490.5,
-			"y": 18124,
+			"lat": 56.788807,
+			"lng": 23.943825,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 364,
-			"name": "1. Liga",
+			"name": "First League",
 			"country": "Latvia",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "3168_01.jpg",
+				"name": "3168_001.jpg",
 				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 14366,
+			"name": "Mārupe",
+			"code": null,
+			"country": "Latvia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 21382,
+			"name": "Jaunmārupes stadions",
+			"address": "Īvju iela 5/7",
+			"city": "Jaunmārupe",
+			"capacity": 1500,
+			"surface": "artificial turf",
+			"lat": 56.878370,
+			"lng": 23.937024,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "21382_001.jpg",
+				"source": "https://www.marupe.lv/sites/default/files/styles/photo_gallery_view_full/public/2019-08/Jaunmarupes_stadions.jpg?itok=KjfWc-fj",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -622,84 +622,6 @@
 			}
 		],
 		"no": 16
-	},
-	{
-		"team": {
-			"api_football_id": 13999,
-			"name": "Saldus SS/Leevon",
-			"code": null,
-			"country": "Latvia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 3175,
-			"name": "Saldus pilsētas stadionā",
-			"address": null,
-			"city": "Saldus",
-			"capacity": 2000,
-			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -3490.5,
-			"y": 18124,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 364,
-			"name": "1. Liga",
-			"country": "Latvia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "3175_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 17
-	},
-	{
-		"team": {
-			"api_football_id": 14353,
-			"name": "Dinamo Rīga",
-			"code": "DIN",
-			"country": "Latvia",
-			"founded": 2005
-		},
-		"venue": {
-			"api_football_id": 1022,
-			"name": "RTU stadions",
-			"address": "Daugavgrīvas iela 56",
-			"city": "Riga",
-			"capacity": 1000,
-			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
-			"x": -3490.5,
-			"y": 18124,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 364,
-			"name": "1. Liga",
-			"country": "Latvia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "1022_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 18
 	},
 	{
 		"team": {
@@ -716,21 +638,21 @@
 			"city": "Riga",
 			"capacity": 2000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
-			"x": -3490.5,
-			"y": 18124,
+			"lat": 56.96643,
+			"lng": 24.118364,
+			"x": 535.8,
+			"y": 597.4,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 364,
-			"name": "1. Liga",
+			"name": "First League",
 			"country": "Latvia",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "3177_01.jpg",
+				"name": "3177_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -738,7 +660,7 @@
 				"size": 0
 			}
 		],
-		"no": 19
+		"no": 17
 	},
 	{
 		"team": {
@@ -755,21 +677,21 @@
 			"city": "Riga",
 			"capacity": 1500,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -3490.5,
-			"y": 18124,
+			"lat": 57.004355,
+			"lng": 24.175346,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 364,
-			"name": "1. Liga",
+			"name": "First League",
 			"country": "Latvia",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "19576_01.jpg",
+				"name": "19576_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -777,7 +699,7 @@
 				"size": 0
 			}
 		],
-		"no": 20
+		"no": 18
 	},
 	{
 		"team": {
@@ -794,21 +716,21 @@
 			"city": "Riga",
 			"capacity": 3000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -3490.5,
-			"y": 18124,
+			"lat": 56.908049,
+			"lng": 24.155260,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 364,
-			"name": "1. Liga",
+			"name": "First League",
 			"country": "Latvia",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "19577_01.jpg",
+				"name": "19577_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -816,7 +738,7 @@
 				"size": 0
 			}
 		],
-		"no": 21
+		"no": 19
 	},
 	{
 		"team": {
@@ -833,21 +755,21 @@
 			"city": "Tukums",
 			"capacity": 1000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
-			"x": -3490.5,
-			"y": 18124,
+			"lat": 56.965098,
+			"lng": 23.139428,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 364,
-			"name": "1. Liga",
+			"name": "First League",
 			"country": "Latvia",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "1024_01.jpg",
+				"name": "1024_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -855,7 +777,7 @@
 				"size": 0
 			}
 		],
-		"no": 22
+		"no": 20
 	},
 	{
 		"team": {
@@ -872,21 +794,21 @@
 			"city": "Valmiera",
 			"capacity": 1000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
-			"x": -3490.5,
-			"y": 18124,
+			"lat": 57.528908,
+			"lng": 25.390023,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 364,
-			"name": "1. Liga",
+			"name": "First League",
 			"country": "Latvia",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "3174_01.jpg",
+				"name": "3174_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -894,46 +816,37 @@
 				"size": 0
 			}
 		],
-		"no": 23
+		"no": 21
 	},
 	{
 		"team": {
-			"api_football_id": 18957,
-			"name": "Beitar",
+			"api_football_id": 18936,
+			"name": "Ogre United",
 			"code": null,
 			"country": "Latvia",
-			"founded": 2008
+			"founded": 2022
 		},
 		"venue": {
-			"api_football_id": 7699,
-			"name": "Salaspils sporta nama stadions",
-			"address": "Rudzu ielā 2",
-			"city": "Salaspils",
-			"capacity": 648,
-			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -3490.5,
-			"y": 18124,
+			"api_football_id": 21383,
+			"name": "Ogres pilsētas ģimnāzija",
+			"address": "Meža prospekts 14",
+			"city": "Ogre",
+			"capacity": 3000,
+			"surface": "artificial turf",
+			"lat": 56.822839,
+			"lng": 24.605110,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 364,
-			"name": "1. Liga",
+			"name": "First League",
 			"country": "Latvia",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "7699_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 24
+		"images": [],
+		"no": 22
 	},
 	{
 		"team": {
@@ -950,21 +863,85 @@
 			"city": "Ventspils",
 			"capacity": 1000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -3490.5,
-			"y": 18124,
+			"lat": 57.387986,
+			"lng": 21.572101,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
 			"api_football_id": 364,
-			"name": "1. Liga",
+			"name": "First League",
 			"country": "Latvia",
 			"api_football_country_id": 0
 		},
 		"images": [
 			{
-				"name": "19698_01.jpg",
+				"name": "19698_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 23266,
+			"name": "Leevon / PPK",
+			"code": null,
+			"country": "Latvia",
+			"founded": 2024
+		},
+		"venue": {
+			"api_football_id": 21384,
+			"name": "LNK Sporta Parks 2",
+			"address": "Lejupes iela 5, Zemgales priekšpilsēta",
+			"city": "Riga",
+			"capacity": 1500,
+			"surface": "artificial turf",
+			"lat": 56.908039,
+			"lng": 24.155205,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 13999,
+			"name": "Saldus SS/Leevon",
+			"code": null,
+			"country": "Latvia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 3175,
+			"name": "Saldus pilsētas stadionā",
+			"address": null,
+			"city": "Saldus",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 56.668270,
+			"lng": 22.499993,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "3175_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -973,5 +950,73 @@
 			}
 		],
 		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 14353,
+			"name": "Dinamo Rīga",
+			"code": "DIN",
+			"country": "Latvia",
+			"founded": 2005
+		},
+		"venue": {
+			"api_football_id": 1022,
+			"name": "RTU stadions",
+			"address": "Daugavgrīvas iela 56",
+			"city": "Riga",
+			"capacity": 1000,
+			"surface": "artificial turf",
+			"lat": 56.954212,
+			"lng": 24.067518,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "1022_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 18957,
+			"name": "Beitar",
+			"code": null,
+			"country": "Latvia",
+			"founded": 2008
+		},
+		"venue": {
+			"api_football_id": 7699,
+			"name": "Salaspils sporta nama stadions",
+			"address": "Rudzu ielā 2",
+			"city": "Salaspils",
+			"capacity": 648,
+			"surface": "grass",
+			"lat": 56.857912,
+			"lng": 24.337041,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "7699_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 27
 	}
 ]

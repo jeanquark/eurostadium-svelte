@@ -253,12 +253,11 @@
      <path
         style="fill:none;stroke:#000000;stroke-width:2.55682349px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
         d="M 602.46526,356.46172 V 606.20356 L 896.7384,776.10226"
-        id="path839"
+        id="path839" />
      <path
-        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+        style="fill:none;stroke:#000000;stroke-width:2.55682349px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
         d="M 432.42527,788.56708 536.7674,676.66282 602.46526,606.20356"
-        id="path863"
-        sodipodi:nodetypes="ccc" />
+        id="path863" />
   <g
      id="stadiums"
      data-country="portugal"

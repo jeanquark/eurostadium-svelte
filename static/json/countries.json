@@ -1,202 +1,252 @@
 [
     {
         "name": "Albania",
-        "slug": "albania"
+        "slug": "albania",
+        "image": "albania.png"
     },
     {
         "name": "Armenia",
-        "slug": "armenia"
+        "slug": "armenia",
+        "image": "armenia.png"
     },
     {
         "name": "Austria",
-        "slug": "austria"
+        "slug": "austria",
+        "image": "austria.png"
     },
     {
         "name": "Azerbaijan",
-        "slug": "azerbaijan"
+        "slug": "azerbaijan",
+        "image": "azerbaijan.png"
     },
     {
         "name": "Belarus",
-        "slug": "belarus"
+        "slug": "belarus",
+        "image": "belarus.png"
     },
     {
         "name": "Belgium",
-        "slug": "belgium"
+        "slug": "belgium",
+        "image": "belgium.png"
     },
     {
         "name": "Bosnia and Herzegovina",
-        "slug": "bosnia_and_herzegovina"
+        "slug": "bosnia_and_herzegovina",
+        "image": "bosnia_and_herzegovina.png"
     },
     {
         "name": "Bulgaria",
-        "slug": "bulgaria"
+        "slug": "bulgaria",
+        "image": "bulgaria.png"
     },
     {
         "name": "Croatia",
-        "slug": "croatia"
+        "slug": "croatia",
+        "image": "croatia.png"
     },
     {
         "name": "Cyprus",
-        "slug": "cyprus"
+        "slug": "cyprus",
+        "image": "cyprus.png"
     },
     {
         "name": "Czech Republic",
-        "slug": "czech_republic"
+        "slug": "czech_republic",
+        "image": "czech_republic.png"
     },
     {
         "name": "Denmark",
-        "slug": "denmark"
+        "slug": "denmark",
+        "image": "denmark.png"
     },
     {
         "name": "England and Wales",
-        "slug": "england_and_wales"
+        "slug": "england_and_wales",
+        "image": "england_and_wales.png"
     },
     {
         "name": "Estonia",
-        "slug": "estonia"
+        "slug": "estonia",
+        "image": "estonia.png"
     },
     {
         "name": "Faroe-Islands",
-        "slug": "faroe_islands"
+        "slug": "faroe_islands",
+        "image": "faroe_islands.png"
     },
     {
         "name": "Finland",
-        "slug": "finland"
+        "slug": "finland",
+        "image": "finland.png"
     },
     {
         "name": "France",
-        "slug": "france"
+        "slug": "france",
+        "image": "france.png"
     },
     {
         "name": "Georgia",
-        "slug": "georgia"
+        "slug": "georgia",
+        "image": "georgia.png"
     },
     {
         "name": "Germany",
-        "slug": "germany"
+        "slug": "germany",
+        "image": "germany.png"
     },
     {
         "name": "Greece",
-        "slug": "greece"
+        "slug": "greece",
+        "image": "greece.png"
     },
     {
         "name": "Hungary",
-        "slug": "hungary"
+        "slug": "hungary",
+        "image": "hungary.png"
     },
     {
         "name": "Iceland",
-        "slug": "iceland"
+        "slug": "iceland",
+        "image": "iceland.png"
     },
     {
         "name": "Ireland",
-        "slug": "ireland"
+        "slug": "ireland",
+        "image": ""
     },
     {
         "name": "Israel",
-        "slug": "israel"
+        "slug": "israel",
+        "image": "israel.png"
     },
     {
         "name": "Italy",
-        "slug": "italy"
+        "slug": "italy",
+        "image": "italy.png"
     },
     {
         "name": "Kazakhstan",
-        "slug": "kazakhstan"
+        "slug": "kazakhstan",
+        "image": "kazakhstan.png"
     },
     {
         "name": "Kosovo",
-        "slug": "kosovo"
+        "slug": "kosovo",
+        "image": "kosovo.png"
     },
     {
         "name": "Latvia",
-        "slug": "latvia"
+        "slug": "latvia",
+        "image": "latvia.png"
     },
     {
         "name": "Lithuania",
-        "slug": "lithuania"
+        "slug": "lithuania",
+        "image": "lithuania.png"
     },
     {
         "name": "Luxembourg",
-        "slug": "luxembourg"
+        "slug": "luxembourg",
+        "image": "luxembourg.png"
     },
     {
         "name": "Macedonia",
-        "slug": "macedonia"
+        "slug": "macedonia",
+        "image": "macedonia.png"
     },
     {
         "name": "Malta",
-        "slug": "malta"
+        "slug": "malta",
+        "image": "malta.png"
     },
     {
         "name": "Moldova",
-        "slug": "moldova"
+        "slug": "moldova",
+        "image": "moldova.png"
     },
     {
         "name": "Montenegro",
-        "slug": "montenegro"
+        "slug": "montenegro",
+        "image": "montenegro.png"
     },
     {
         "name": "Netherlands",
-        "slug": "netherlands"
+        "slug": "netherlands",
+        "image": "netherlands.png"
     },
     {
         "name": "Northern ireland",
-        "slug": "northern_ireland"
+        "slug": "northern_ireland",
+        "image": "northern_ireland.png"
     },
     {
         "name": "Norway",
-        "slug": "norway"
+        "slug": "norway",
+        "image": "norway.png"
     },
     {
         "name": "Poland",
-        "slug": "poland"
+        "slug": "poland",
+        "image": "poland.png"
     },
     {
         "name": "Portugal",
-        "slug": "portugal"
+        "slug": "portugal",
+        "image": "portugal.png"
     },
     {
         "name": "Romania",
-        "slug": "romania"
+        "slug": "romania",
+        "image": "romania.png"
     },
     {
         "name": "Russia",
-        "slug": "russia"
+        "slug": "russia",
+        "image": "russia.png"
     },
     {
         "name": "Scotland",
-        "slug": "scotland"
+        "slug": "scotland",
+        "image": "scotland.png"
     },
     {
         "name": "Serbia",
-        "slug": "serbia"
+        "slug": "serbia",
+        "image": "serbia.png"
     },
     {
         "name": "Slovakia",
-        "slug": "slovakia"
+        "slug": "slovakia",
+        "image": "slovakia.png"
     },
     {
         "name": "Slovenia",
-        "slug": "slovenia"
+        "slug": "slovenia",
+        "image": "slovenia.png"
     },
     {
         "name": "Spain",
-        "slug": "spain"
+        "slug": "spain",
+        "image": "spain.png"
     },
     {
         "name": "Sweden",
-        "slug": "sweden"
+        "slug": "sweden",
+        "image": "sweden.png"
     },
     {
         "name": "Switzerland",
-        "slug": "switzerland"
+        "slug": "switzerland",
+        "image": "switzerland.png"
     },
     {
         "name": "Turkey",
-        "slug": "turkey"
+        "slug": "turkey",
+        "image": "turkey.png"
     },
     {
         "name": "Ukraine",
-        "slug": "ukraine"
+        "slug": "ukraine",
+        "image": "ukraine.png"
     }
 ]

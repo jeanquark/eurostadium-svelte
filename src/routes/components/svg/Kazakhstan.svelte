@@ -128,7 +128,6 @@
         <!-- <amcharts:ammap projection="mercator" leftLongitude="46.488635" topLatitude="55.432742" rightLongitude="87.315881" bottomLatitude="40.549293"></amcharts:ammap> -->
     <!-- All areas are listed in the line below. You can use this list in your script. -->
     <!--{id:"KZ-AKM"},{id:"KZ-AKT"},{id:"KZ-ALM"},{id:"KZ-ATY"},{id:"KZ-KAR"},{id:"KZ-KUS"},{id:"KZ-KZY"},{id:"KZ-MAN"},{id:"KZ-PAV"},{id:"KZ-SEV"},{id:"KZ-VOS"},{id:"KZ-YUZ"},{id:"KZ-ZAP"},{id:"KZ-ZHA"},{id:"KZ-AS"}-->
-  </defs>
     </defs>
     <rect id="background" class="rectangle" stroke-width="0" stroke="#000" width="1000" height="1000" x="0" y="0" fill="#d3d3d3" />
     <g>
