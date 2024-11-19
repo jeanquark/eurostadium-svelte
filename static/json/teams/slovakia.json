@@ -28,7 +28,7 @@
 		},
 		"images": [
 			{
-				"name": "1439_01.jpg",
+				"name": "1439_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -67,7 +67,7 @@
 		},
 		"images": [
 			{
-				"name": "11914_01.jpg",
+				"name": "11914_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -106,7 +106,7 @@
 		},
 		"images": [
 			{
-				"name": "11602_01.jpg",
+				"name": "11602_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -145,7 +145,7 @@
 		},
 		"images": [
 			{
-				"name": "1436_01.jpg",
+				"name": "1436_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -184,7 +184,7 @@
 		},
 		"images": [
 			{
-				"name": "2353_01.jpg",
+				"name": "2353_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -223,7 +223,7 @@
 		},
 		"images": [
 			{
-				"name": "2354_01.jpg",
+				"name": "2354_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -262,7 +262,7 @@
 		},
 		"images": [
 			{
-				"name": "2357_01.jpg",
+				"name": "2357_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -271,45 +271,6 @@
 			}
 		],
 		"no": 7
-	},
-	{
-		"team": {
-			"api_football_id": 3553,
-			"name": "Zlaté Moravce",
-			"code": "MOR",
-			"country": "Slovakia",
-			"founded": 1995
-		},
-		"venue": {
-			"api_football_id": 11923,
-			"name": "Štadión FC ViOn",
-			"address": "Továrenská 64",
-			"city": "Zlaté Moravce",
-			"capacity": 4008,
-			"surface": "grass",
-			"lat": 48.399167,
-			"lng": 18.403889,
-			"x": 167.7,
-			"y": 344.1,
-			"url": "https://en.wikipedia.org/wiki/ViOn_Ar%C3%A9na"
-		},
-		"league": {
-			"api_football_id": 332,
-			"name": "Super Liga",
-			"country": "Slovakia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "11923_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 8
 	},
 	{
 		"team": {
@@ -340,7 +301,7 @@
 		},
 		"images": [
 			{
-				"name": "2359_01.jpg",
+				"name": "2359_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -348,7 +309,7 @@
 				"size": 0
 			}
 		],
-		"no": 9
+		"no": 8
 	},
 	{
 		"team": {
@@ -379,7 +340,7 @@
 		},
 		"images": [
 			{
-				"name": "7233_01.jpg",
+				"name": "7233_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -387,7 +348,7 @@
 				"size": 0
 			}
 		],
-		"no": 10
+		"no": 9
 	},
 	{
 		"team": {
@@ -418,7 +379,7 @@
 		},
 		"images": [
 			{
-				"name": "18644_01.jpg",
+				"name": "18644_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -426,28 +387,28 @@
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 10
 	},
 	{
 		"team": {
-			"api_football_id": 10538,
-			"name": "Petržalka",
+			"api_football_id": 10535,
+			"name": "Komárno",
 			"code": null,
 			"country": "Slovakia",
-			"founded": 2014
+			"founded": 1900
 		},
 		"venue": {
-			"api_football_id": 7238,
-			"name": "Štadión FC Petržalka 1898",
-			"address": "Marie Curie Sklodowskej 1",
-			"city": "Bratislava",
-			"capacity": 3000,
-			"surface": "artificial turf",
-			"lat": 48.133333,
-			"lng": 17.115833,
-			"x": 30.1,
-			"y": 387.1,
-			"url": "https://en.wikipedia.org/wiki/%C5%A0tadi%C3%B3n_Petr%C5%BEalka"
+			"api_football_id": 12114,
+			"name": "Futbalový štadión FK Slovan Duslo Šaľa",
+			"address": "Nitrianska 1727/1",
+			"city": "Šaľa",
+			"capacity": 1126,
+			"surface": "grass",
+			"lat": 48.164517,
+			"lng": 17.880979,
+			"x": 111.8,
+			"y": 382,
+			"url": ""
 		},
 		"league": {
 			"api_football_id": 332,
@@ -457,7 +418,7 @@
 		},
 		"images": [
 			{
-				"name": "7238_01.jpg",
+				"name": "12114_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -465,7 +426,7 @@
 				"size": 0
 			}
 		],
-		"no": 12
+		"no": 11
 	},
 	{
 		"team": {
@@ -496,7 +457,46 @@
 		},
 		"images": [
 			{
-				"name": "7241_01.jpg",
+				"name": "7241_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 12
+	},
+	{
+		"team": {
+			"api_football_id": 3553,
+			"name": "Zlaté Moravce",
+			"code": "MOR",
+			"country": "Slovakia",
+			"founded": 1995
+		},
+		"venue": {
+			"api_football_id": 11923,
+			"name": "Štadión FC ViOn",
+			"address": "Továrenská 64",
+			"city": "Zlaté Moravce",
+			"capacity": 4008,
+			"surface": "grass",
+			"lat": 48.399167,
+			"lng": 18.403889,
+			"x": 167.7,
+			"y": 344.1,
+			"url": "https://en.wikipedia.org/wiki/ViOn_Ar%C3%A9na"
+		},
+		"league": {
+			"api_football_id": 506,
+			"name": "2. liga",
+			"country": "Slovakia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "11923_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -535,7 +535,7 @@
 		},
 		"images": [
 			{
-				"name": "3161_01.jpg",
+				"name": "3161_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -544,45 +544,6 @@
 			}
 		],
 		"no": 14
-	},
-	{
-		"team": {
-			"api_football_id": 10535,
-			"name": "Komárno",
-			"code": null,
-			"country": "Slovakia",
-			"founded": 1900
-		},
-		"venue": {
-			"api_football_id": 12114,
-			"name": "Futbalový štadión FK Slovan Duslo Šaľa",
-			"address": "Nitrianska 1727/1",
-			"city": "Šaľa",
-			"capacity": 1126,
-			"surface": "grass",
-			"lat": 48.164517,
-			"lng": 17.880979,
-			"x": 111.8,
-			"y": 382,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 506,
-			"name": "2. liga",
-			"country": "Slovakia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "12114_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 15
 	},
 	{
 		"team": {
@@ -613,7 +574,7 @@
 		},
 		"images": [
 			{
-				"name": "7236_01.jpg",
+				"name": "7236_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -621,7 +582,7 @@
 				"size": 0
 			}
 		],
-		"no": 16
+		"no": 15
 	},
 	{
 		"team": {
@@ -652,7 +613,7 @@
 		},
 		"images": [
 			{
-				"name": "7238_01.jpg",
+				"name": "7238_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -660,7 +621,7 @@
 				"size": 0
 			}
 		],
-		"no": 17
+		"no": 16
 	},
 	{
 		"team": {
@@ -691,7 +652,7 @@
 		},
 		"images": [
 			{
-				"name": "7240_01.jpg",
+				"name": "7240_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -699,46 +660,7 @@
 				"size": 0
 			}
 		],
-		"no": 18
-	},
-	{
-		"team": {
-			"api_football_id": 10543,
-			"name": "Slavoj Trebišov",
-			"code": "SLA",
-			"country": "Slovakia",
-			"founded": 1912
-		},
-		"venue": {
-			"api_football_id": 7242,
-			"name": "Štadión Slavoj Trebišov",
-			"address": "Jána Kostru 2095",
-			"city": "Trebišov",
-			"capacity": 3000,
-			"surface": "grass",
-			"lat": 48.622829,
-			"lng": 21.724365,
-			"x": 522.5,
-			"y": 308,
-			"url": ""
-		},
-		"league": {
-			"api_football_id": 506,
-			"name": "2. liga",
-			"country": "Slovakia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "7242_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 19
+		"no": 17
 	},
 	{
 		"team": {
@@ -769,7 +691,7 @@
 		},
 		"images": [
 			{
-				"name": "7243_01.jpg",
+				"name": "7243_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -777,7 +699,7 @@
 				"size": 0
 			}
 		],
-		"no": 20
+		"no": 18
 	},
 	{
 		"team": {
@@ -808,7 +730,7 @@
 		},
 		"images": [
 			{
-				"name": "7244_01.jpg",
+				"name": "7244_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -816,7 +738,7 @@
 				"size": 0
 			}
 		],
-		"no": 21
+		"no": 19
 	},
 	{
 		"team": {
@@ -847,7 +769,7 @@
 		},
 		"images": [
 			{
-				"name": "2359_01.jpg",
+				"name": "2359_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -855,7 +777,7 @@
 				"size": 0
 			}
 		],
-		"no": 22
+		"no": 20
 	},
 	{
 		"team": {
@@ -886,7 +808,7 @@
 		},
 		"images": [
 			{
-				"name": "12117_01.jpg",
+				"name": "12117_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -894,27 +816,27 @@
 				"size": 0
 			}
 		],
-		"no": 23
+		"no": 21
 	},
 	{
 		"team": {
-			"api_football_id": 10555,
-			"name": "Spišská Nová Ves",
+			"api_football_id": 10552,
+			"name": "Lokomotíva Zvolen",
 			"code": null,
 			"country": "Slovakia",
-			"founded": null
+			"founded": 1902
 		},
 		"venue": {
-			"api_football_id": 7251,
-			"name": "Štadión Nová Ves",
-			"address": "Za Hornádom 15",
-			"city": "Spišská Nová Ves",
-			"capacity": 4000,
+			"api_football_id": 7249,
+			"name": "Areál MFK Lokomotíva Zvolen",
+			"address": "Lučenecká cesta 13",
+			"city": "Zvolen",
+			"capacity": 1500,
 			"surface": "grass",
-			"lat": 48.941299,
-			"lng": 20.562525,
-			"x": 398.4,
-			"y": 256.6,
+			"lat": 48.565833,
+			"lng": 19.139096,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
@@ -925,54 +847,15 @@
 		},
 		"images": [
 			{
-				"name": "7251_01.jpg",
-				"source": "",
+				"name": "7249_001.jpg",
+				"source": "https://www.ostadium.com/galleries/stadion-mfk-zvolen-illus.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 24
-	},
-	{
-		"team": {
-			"api_football_id": 12859,
-			"name": "Spartak Myjava",
-			"code": "MYJ",
-			"country": "Slovakia",
-			"founded": 1920
-		},
-		"venue": {
-			"api_football_id": 8204,
-			"name": "Futbalový štadión Spartak Myjava",
-			"address": "Hodžova 261/1",
-			"city": "Myjava",
-			"capacity": 2795,
-			"surface": "grass",
-			"lat": 48.761139,
-			"lng": 17.565472,
-			"x": 78.1,
-			"y": 285.7,
-			"url": "https://en.wikipedia.org/wiki/Stadium_Myjava"
-		},
-		"league": {
-			"api_football_id": 506,
-			"name": "2. liga",
-			"country": "Slovakia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "8204_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 25
+		"no": 22
 	},
 	{
 		"team": {
@@ -1003,7 +886,7 @@
 		},
 		"images": [
 			{
-				"name": "12112_01.jpg",
+				"name": "12112_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1011,7 +894,7 @@
 				"size": 0
 			}
 		],
-		"no": 26
+		"no": 23
 	},
 	{
 		"team": {
@@ -1042,7 +925,7 @@
 		},
 		"images": [
 			{
-				"name": "18869_01.jpg",
+				"name": "18869_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1050,7 +933,7 @@
 				"size": 0
 			}
 		],
-		"no": 27
+		"no": 24
 	},
 	{
 		"team": {
@@ -1081,7 +964,122 @@
 		},
 		"images": [
 			{
-				"name": "11982_01.jpg",
+				"name": "11982_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 19398,
+			"name": "Stará Ľubovňa",
+			"code": null,
+			"country": "Slovakia",
+			"founded": 1923
+		},
+		"venue": {
+			"api_football_id": 18759,
+			"name": "Štadión MFK Goral Stará Ľubovňa",
+			"address": "Továrenská 1",
+			"city": "Stará Ľubovňa",
+			"capacity": 2500,
+			"surface": "grass",
+			"lat": 49.306985,
+			"lng": 20.682837,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 506,
+			"name": "2. liga",
+			"country": "Slovakia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "18759_001.jpg",
+				"source": "https://www.europlan-online.de/files/e838eea60d0d915f19be47fde07e6410.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18759_002.jpg",
+				"source": "https://www.europlan-online.de/files/b73bbf4b83a33be89ad44e700a7fa5ca.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 10543,
+			"name": "Slavoj Trebišov",
+			"code": "SLA",
+			"country": "Slovakia",
+			"founded": 1912
+		},
+		"venue": {
+			"api_football_id": 7242,
+			"name": "Štadión Slavoj Trebišov",
+			"address": "Jána Kostru 2095",
+			"city": "Trebišov",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 48.622829,
+			"lng": 21.724365,
+			"x": 522.5,
+			"y": 308,
+			"url": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "7242_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 10555,
+			"name": "Spišská Nová Ves",
+			"code": null,
+			"country": "Slovakia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 7251,
+			"name": "Štadión Nová Ves",
+			"address": "Za Hornádom 15",
+			"city": "Spišská Nová Ves",
+			"capacity": 4000,
+			"surface": "grass",
+			"lat": 48.941299,
+			"lng": 20.562525,
+			"x": 398.4,
+			"y": 256.6,
+			"url": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "7251_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1090,6 +1088,40 @@
 			}
 		],
 		"no": 28
+	},
+	{
+		"team": {
+			"api_football_id": 12859,
+			"name": "Spartak Myjava",
+			"code": "MYJ",
+			"country": "Slovakia",
+			"founded": 1920
+		},
+		"venue": {
+			"api_football_id": 8204,
+			"name": "Futbalový štadión Spartak Myjava",
+			"address": "Hodžova 261/1",
+			"city": "Myjava",
+			"capacity": 2795,
+			"surface": "grass",
+			"lat": 48.761139,
+			"lng": 17.565472,
+			"x": 78.1,
+			"y": 285.7,
+			"url": "https://en.wikipedia.org/wiki/Stadium_Myjava"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "8204_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 29
 	},
 	{
 		"team": {
@@ -1112,15 +1144,10 @@
 			"y": 213.8,
 			"url": "https://en.wikipedia.org/wiki/%C5%A0tadi%C3%B3n_MUDr._Ivana_Chod%C3%A1ka"
 		},
-		"league": {
-			"api_football_id": 506,
-			"name": "2. liga",
-			"country": "Slovakia",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
-				"name": "10781_01.jpg",
+				"name": "10781_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1128,6 +1155,6 @@
 				"size": 0
 			}
 		],
-		"no": 29
+		"no": 30
 	}
 ]

@@ -293,6 +293,85 @@
 	},
 	{
 		"team": {
+			"api_football_id": 343,
+			"name": "Lechia Gdansk",
+			"code": "LEC",
+			"country": "Poland",
+			"founded": 1945
+		},
+		"venue": {
+			"api_football_id": 18627,
+			"name": "Polsat Plus Arena Gdańsk",
+			"address": "Pokoleń Lechii Gdańsk 1",
+			"city": "Gdańsk",
+			"capacity": 43615,
+			"surface": "grass",
+			"lat": 54.39,
+			"lng": 18.640278,
+			"x": 276.1,
+			"y": 62,
+			"url": "https://en.wikipedia.org/wiki/Gda%C5%84sk_Stadium"
+		},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "18627_001.jpg",
+				"source": "https://jestemzgdanska.pl/res/1094714/40814719/DJI_0233.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18627_002.jpg",
+				"source": "https://polsatplusarenagdansk.pl/wp-content/uploads/2022/09/Punkt_Widokowy_136172_1900px.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18627_003.jpg",
+				"source": "https://polska-org.pl/foto/9692/Polsat_Plus_Arena_Gdansk_ul_Pokolen_Lechii_Gdansk_Gdansk_9692163.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18627_004.jpg",
+				"source": "https://polska-org.pl/foto/9425/Polsat_Plus_Arena_Gdansk_ul_Pokolen_Lechii_Gdansk_Gdansk_9425970.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18627_005.jpg",
+				"source": "https://sp57.edu.gdansk.pl/Content/articles/foto/polsat-plus-arena-557224.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18627_006.jpg",
+				"source": "https://pbs.twimg.com/media/E16QIiZXsAEGuT3.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 5
+	},
+	{
+		"team": {
 			"api_football_id": 345,
 			"name": "Zaglebie Lubin",
 			"code": "ZAG",
@@ -360,7 +439,7 @@
 				"size": 0
 			}
 		],
-		"no": 5
+		"no": 6
 	},
 	{
 		"team": {
@@ -371,8 +450,8 @@
 			"founded": 1973
 		},
 		"venue": {
-			"api_football_id": 1250,
-			"name": "Suzuki Arena",
+			"api_football_id": 21189,
+			"name": "Stadion Miejski",
 			"address": "ul. Ściegiennego 8",
 			"city": "Kielce",
 			"capacity": 15550,
@@ -423,7 +502,7 @@
 				"size": 0
 			}
 		],
-		"no": 6
+		"no": 7
 	},
 	{
 		"team": {
@@ -502,7 +581,7 @@
 				"size": 0
 			}
 		],
-		"no": 7
+		"no": 8
 	},
 	{
 		"team": {
@@ -565,7 +644,7 @@
 				"size": 0
 			}
 		],
-		"no": 8
+		"no": 9
 	},
 	{
 		"team": {
@@ -628,7 +707,7 @@
 				"size": 0
 			}
 		],
-		"no": 9
+		"no": 10
 	},
 	{
 		"team": {
@@ -699,7 +778,62 @@
 				"size": 0
 			}
 		],
-		"no": 10
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 3484,
+			"name": "GKS Katowice",
+			"code": null,
+			"country": "Poland",
+			"founded": 1964
+		},
+		"venue": {
+			"api_football_id": 2285,
+			"name": "Stadion ul. Bukowa",
+			"address": "ul. Bukowa 1",
+			"city": "Katowice",
+			"capacity": 10052,
+			"surface": "grass",
+			"lat": 50.279747,
+			"lng": 19.001203,
+			"x": 298.2,
+			"y": 468.8,
+			"url": "https://en.wikipedia.org/wiki/GKS_Katowice_Stadium"
+		},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2285_001.jpg",
+				"source": "https://www.wkatowicach.eu/assets/pics/galerie/4490/DJI_20241022115552_0656_D_Du%C5%BCy.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2285_002.jpg",
+				"source": "https://d-art.ppstatic.pl/kadry/k/r/1/8a/7e/671a4a5a014a8_o_original.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2285_003.jpg",
+				"source": "https://d-art.ppstatic.pl/kadry/k/r/1/60/4f/66deb6d846125_o_full.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 12
 	},
 	{
 		"team": {
@@ -770,7 +904,7 @@
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 13
 	},
 	{
 		"team": {
@@ -833,7 +967,7 @@
 				"size": 0
 			}
 		],
-		"no": 12
+		"no": 14
 	},
 	{
 		"team": {
@@ -890,156 +1024,6 @@
 			{
 				"name": "18634_004.jpg",
 				"source": "https://stadiumdb.com/pictures/stadiums/pol/stadion_miejski_w_mielcu/stadion_miejski_w_mielcu27.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 13
-	},
-	{
-		"team": {
-			"api_football_id": 3496,
-			"name": "Warta Poznań",
-			"code": "WAR",
-			"country": "Poland",
-			"founded": 1912
-		},
-		"venue": {
-			"api_football_id": 20304,
-			"name": "Stadion Respect Energy",
-			"address": "ul. Powstańców Chocieszyńskich 52",
-			"city": "Grodzisk Wielkopolski",
-			"capacity": 5383,
-			"surface": "grass",
-			"lat": 52.229031,
-			"lng": 16.378128,
-			"x": 137.9,
-			"y": 275.9,
-			"url": "https://en.wikipedia.org/wiki/Dyskobolia_Grodzisk_Wielkopolski_Stadium"
-		},
-		"league": {
-			"api_football_id": 106,
-			"name": "Ekstraklasa",
-			"country": "Poland",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "20304_001.jpg",
-				"source": "https://pbs.twimg.com/media/GIZtS7hWwAAzIxU.jpg:large",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20304_002.jpg",
-				"source": "https://pbs.twimg.com/media/GIaZvbpXcAADPWR?format=jpg&name=large",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20304_003.jpg",
-				"source": "https://pbs.twimg.com/media/GHXLerLXkAA61de?format=jpg&name=4096x4096",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20304_004.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/pol/stadion_dyskobolii_grodzisk_wielkopolski/stadion_dyskobolii_grodzisk_wielkopolski42.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 14
-	},
-	{
-		"team": {
-			"api_football_id": 3498,
-			"name": "ŁKS Łódź",
-			"code": "ŁKS",
-			"country": "Poland",
-			"founded": 1908
-		},
-		"venue": {
-			"api_football_id": 12602,
-			"name": "Stadion Miejski LKS Lodz",
-			"address": "Al. Unii Lubelskiej 2",
-			"city": "Łódź",
-			"capacity": 18033,
-			"surface": "grass",
-			"lat": 51.757639,
-			"lng": 19.4275,
-			"x": 324.2,
-			"y": 322.6,
-			"url": "https://en.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Kr%C3%B3l_Stadium"
-		},
-		"league": {
-			"api_football_id": 106,
-			"name": "Ekstraklasa",
-			"country": "Poland",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "12602_001.jpg",
-				"source": "https://mirbud.pl/media/asset/7dc6eb59ef0a4a48f4c4051b1679f275f0d53a6f00bf549078c217702901d06a.jpeg?w=1600&h=900&fm=jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12602_002.jpg",
-				"source": "https://stadiony.net/img/news/2021/12/23%C5%81KS1.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12602_003.jpg",
-				"source": "https://lkslodz.pl/wp-content/uploads/2024/06/Stadion-Krola-LKS-Lodz.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12602_004.jpg",
-				"source": "https://lkslodz.pl/wp-content/uploads/2024/04/stadion-krola-lks-lodz-2.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12602_005.jpg",
-				"source": "https://stadiony.net/pictures/stadiums/pol/stadion_mosir_lks/stadion_mosir_lks16.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12602_006.jpg",
-				"source": "https://www.urbanity.pl/photos/15/93/20881593.jpg?v=631152000",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12602_007.jpg",
-				"source": "https://stadiony.net/pictures/stadiums/pol/stadion_mosir_lks/stadion_mosir_lks23.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1121,77 +1105,6 @@
 	},
 	{
 		"team": {
-			"api_football_id": 6953,
-			"name": "Ruch Chorzów",
-			"code": "RUC",
-			"country": "Poland",
-			"founded": 1920
-		},
-		"venue": {
-			"api_football_id": 20760,
-			"name": "Stadion Śląski",
-			"address": "ul. Katowicka 10",
-			"city": "Chorzów",
-			"capacity": 55211,
-			"surface": "grass",
-			"lat": 50.288333,
-			"lng": 18.973056,
-			"x": 296.5,
-			"y": 468,
-			"url": "https://en.wikipedia.org/wiki/Silesian_Stadium"
-		},
-		"league": {
-			"api_football_id": 106,
-			"name": "Ekstraklasa",
-			"country": "Poland",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "20760_001.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/pol/slaski/slaski45.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20760_002.jpg",
-				"source": "https://parkslaski.pl/media/photos/22/xl.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20760_003.jpg",
-				"source": "https://d-art.ppstatic.pl/kadry/k/r/1/62/d4/598da526bf9f4_o_original.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20760_004.jpg",
-				"source": "https://tvs.pl/wp-content/uploads/2024/07/dji_fly_20240717_100300_367_1721203763335_photo_optimized-scaled.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20760_005.jpg",
-				"source": "https://d-art.ppstatic.pl/kadry/k/r/19/96/61712f1ac7208_o_full.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 17
-	},
-	{
-		"team": {
 			"api_football_id": 6962,
 			"name": "Widzew Łódź",
 			"code": "WID",
@@ -1245,6 +1158,77 @@
 			{
 				"name": "5080_004.jpg",
 				"source": "https://www.goal.pl/wp-content/uploads/2022/06/stadion-widzew-lodz.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 14562,
+			"name": "Motor Lublin",
+			"code": "MOT",
+			"country": "Poland",
+			"founded": 1950
+		},
+		"venue": {
+			"api_football_id": 11992,
+			"name": "Arena Lublin",
+			"address": "ul. Krochmalna",
+			"city": "Lublin",
+			"capacity": 15500,
+			"surface": "grass",
+			"lat": 51.232375,
+			"lng": 22.557465,
+			"x": 515.5,
+			"y": 374.5,
+			"url": "https://en.wikipedia.org/wiki/Arena_Lublin"
+		},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "11992_001.jpg",
+				"source": "https://www.heidelbergmaterials.com/sites/default/files/2024-06/arenalublin.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11992_002.jpg",
+				"source": "https://pliki.propertydesign.pl/i/00/84/28/008428_r0_1140.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11992_003.jpg",
+				"source": "https://www.lapstudio.com.pl/wp-content/uploads/2017/02/07_05.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11992_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/7/77/Arena_Lublin_z_lotu_ptaka.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11992_005.jpg",
+				"source": "https://mosir.lublin.pl/wp-content/uploads/2021/02/Elbrus-Studio-028.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1444,148 +1428,6 @@
 	},
 	{
 		"team": {
-			"api_football_id": 342,
-			"name": "Zaglebie Sosnowiec",
-			"code": "ZAG",
-			"country": "Poland",
-			"founded": 1906
-		},
-		"venue": {
-			"api_football_id": 19931,
-			"name": "ArcelorMittal Park",
-			"address": "gen. Mariusza Zaruskiego 2",
-			"city": "Sosnowiec",
-			"capacity": 11600,
-			"surface": "grass",
-			"lat": 50.2884,
-			"lng": 19.1707,
-			"x": 308.5,
-			"y": 468,
-			"url": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99biowski_Park_Sportowy"
-		},
-		"league": {
-			"api_football_id": 107,
-			"name": "I Liga",
-			"country": "Poland",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "19931_001.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/pol/zaglebiowski_park_sportowy/zaglebiowski_park_sportowy12.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "19931_002.jpg",
-				"source": "https://www.wkatowicach.eu/assets/pics/galerie/708/DSC09451.JPG",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "19931_003.jpg",
-				"source": "https://bi.im-g.pl/im/c3/4a/1c/z29666499AMP,Nowy-stadion-w-Sosnowcu.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "19931_004.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/2/20/ArcelorMittal_Park.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 22
-	},
-	{
-		"team": {
-			"api_football_id": 343,
-			"name": "Lechia Gdansk",
-			"code": "LEC",
-			"country": "Poland",
-			"founded": 1945
-		},
-		"venue": {
-			"api_football_id": 18627,
-			"name": "Polsat Plus Arena Gdańsk",
-			"address": "Pokoleń Lechii Gdańsk 1",
-			"city": "Gdańsk",
-			"capacity": 43615,
-			"surface": "grass",
-			"lat": 54.39,
-			"lng": 18.640278,
-			"x": 276.1,
-			"y": 62,
-			"url": "https://en.wikipedia.org/wiki/Gda%C5%84sk_Stadium"
-		},
-		"league": {
-			"api_football_id": 107,
-			"name": "I Liga",
-			"country": "Poland",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "18627_001.jpg",
-				"source": "https://jestemzgdanska.pl/res/1094714/40814719/DJI_0233.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "18627_002.jpg",
-				"source": "https://polsatplusarenagdansk.pl/wp-content/uploads/2022/09/Punkt_Widokowy_136172_1900px.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "18627_003.jpg",
-				"source": "https://polska-org.pl/foto/9692/Polsat_Plus_Arena_Gdansk_ul_Pokolen_Lechii_Gdansk_Gdansk_9692163.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "18627_004.jpg",
-				"source": "https://polska-org.pl/foto/9425/Polsat_Plus_Arena_Gdansk_ul_Pokolen_Lechii_Gdansk_Gdansk_9425970.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "18627_005.jpg",
-				"source": "https://sp57.edu.gdansk.pl/Content/articles/foto/polsat-plus-arena-557224.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "18627_006.jpg",
-				"source": "https://pbs.twimg.com/media/E16QIiZXsAEGuT3.jpg:large",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 23
-	},
-	{
-		"team": {
 			"api_football_id": 344,
 			"name": "Arka Gdynia",
 			"code": "ARK",
@@ -1645,7 +1487,7 @@
 				"size": 0
 			}
 		],
-		"no": 24
+		"no": 22
 	},
 	{
 		"team": {
@@ -1700,62 +1542,7 @@
 				"size": 0
 			}
 		],
-		"no": 25
-	},
-	{
-		"team": {
-			"api_football_id": 3484,
-			"name": "GKS Katowice",
-			"code": null,
-			"country": "Poland",
-			"founded": 1964
-		},
-		"venue": {
-			"api_football_id": 2285,
-			"name": "Stadion ul. Bukowa",
-			"address": "ul. Bukowa 1",
-			"city": "Katowice",
-			"capacity": 10052,
-			"surface": "grass",
-			"lat": 50.279747,
-			"lng": 19.001203,
-			"x": 298.2,
-			"y": 468.8,
-			"url": "https://en.wikipedia.org/wiki/GKS_Katowice_Stadium"
-		},
-		"league": {
-			"api_football_id": 107,
-			"name": "I Liga",
-			"country": "Poland",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2285_001.jpg",
-				"source": "https://www.wkatowicach.eu/assets/pics/galerie/4490/DJI_20241022115552_0656_D_Du%C5%BCy.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2285_002.jpg",
-				"source": "https://d-art.ppstatic.pl/kadry/k/r/1/8a/7e/671a4a5a014a8_o_original.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2285_003.jpg",
-				"source": "https://d-art.ppstatic.pl/kadry/k/r/1/60/4f/66deb6d846125_o_full.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 26
+		"no": 23
 	},
 	{
 		"team": {
@@ -1818,7 +1605,7 @@
 				"size": 0
 			}
 		],
-		"no": 27
+		"no": 24
 	},
 	{
 		"team": {
@@ -1865,70 +1652,7 @@
 				"size": 0
 			}
 		],
-		"no": 28
-	},
-	{
-		"team": {
-			"api_football_id": 3489,
-			"name": "Podbeskidzie",
-			"code": "POD",
-			"country": "Poland",
-			"founded": 1907
-		},
-		"venue": {
-			"api_football_id": 2290,
-			"name": "Stadion Miejski",
-			"address": "ul. Rychlińskiego 19",
-			"city": "Bielsko-Biała",
-			"capacity": 15292,
-			"surface": "grass",
-			"lat": 49.817419,
-			"lng": 19.054267,
-			"x": 301.4,
-			"y": 514.6,
-			"url": "https://en.wikipedia.org/wiki/Bielsko-Bia%C5%82a_Stadium"
-		},
-		"league": {
-			"api_football_id": 107,
-			"name": "I Liga",
-			"country": "Poland",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2290_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/3/33/Stadion_miejski_BB.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2290_002.jpg",
-				"source": "https://www.slaskie.travel/Media/Default/.MainStorage/ContentItemDocumentTypeRecord/fggolvj4.kjo/Stadion_TSP_%C5%9Al%C4%85sk_21.12.15_002%20-%20Kopia.JPG",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2290_003.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/5/50/Stadion_Miejski_Bielsko-Bia%C5%82a_trybuna_wschodnia_February_2015.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2290_004.jpg",
-				"source": "https://bi.im-g.pl/im/19/a7/11/z18513689IEG,Stadion-Miejski-w-Bielsku-Bialej.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 29
+		"no": 25
 	},
 	{
 		"team": {
@@ -1999,7 +1723,157 @@
 				"size": 0
 			}
 		],
-		"no": 30
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 3496,
+			"name": "Warta Poznań",
+			"code": "WAR",
+			"country": "Poland",
+			"founded": 1912
+		},
+		"venue": {
+			"api_football_id": 20110,
+			"name": "Enea Stadion",
+			"address": "ul. Bułgarska 17",
+			"city": "Poznań",
+			"capacity": 43269,
+			"surface": "grass",
+			"lat": 52.229031,
+			"lng": 16.378128,
+			"x": 137.9,
+			"y": 275.9,
+			"url": "https://en.wikipedia.org/wiki/Dyskobolia_Grodzisk_Wielkopolski_Stadium"
+		},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20304_001.jpg",
+				"source": "https://pbs.twimg.com/media/GIZtS7hWwAAzIxU.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20304_002.jpg",
+				"source": "https://pbs.twimg.com/media/GIaZvbpXcAADPWR?format=jpg&name=large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20304_003.jpg",
+				"source": "https://pbs.twimg.com/media/GHXLerLXkAA61de?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20304_004.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/pol/stadion_dyskobolii_grodzisk_wielkopolski/stadion_dyskobolii_grodzisk_wielkopolski42.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 3498,
+			"name": "ŁKS Łódź",
+			"code": "ŁKS",
+			"country": "Poland",
+			"founded": 1908
+		},
+		"venue": {
+			"api_football_id": 12602,
+			"name": "Stadion Miejski LKS Lodz",
+			"address": "Al. Unii Lubelskiej 2",
+			"city": "Łódź",
+			"capacity": 18033,
+			"surface": "grass",
+			"lat": 51.757639,
+			"lng": 19.4275,
+			"x": 324.2,
+			"y": 322.6,
+			"url": "https://en.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Kr%C3%B3l_Stadium"
+		},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "12602_001.jpg",
+				"source": "https://mirbud.pl/media/asset/7dc6eb59ef0a4a48f4c4051b1679f275f0d53a6f00bf549078c217702901d06a.jpeg?w=1600&h=900&fm=jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12602_002.jpg",
+				"source": "https://stadiony.net/img/news/2021/12/23%C5%81KS1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12602_003.jpg",
+				"source": "https://lkslodz.pl/wp-content/uploads/2024/06/Stadion-Krola-LKS-Lodz.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12602_004.jpg",
+				"source": "https://lkslodz.pl/wp-content/uploads/2024/04/stadion-krola-lks-lodz-2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12602_005.jpg",
+				"source": "https://stadiony.net/pictures/stadiums/pol/stadion_mosir_lks/stadion_mosir_lks16.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12602_006.jpg",
+				"source": "https://www.urbanity.pl/photos/15/93/20881593.jpg?v=631152000",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12602_007.jpg",
+				"source": "https://stadiony.net/pictures/stadiums/pol/stadion_mosir_lks/stadion_mosir_lks23.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 28
 	},
 	{
 		"team": {
@@ -2054,15 +1928,133 @@
 				"size": 0
 			}
 		],
+		"no": 29
+	},
+	{
+		"team": {
+			"api_football_id": 6947,
+			"name": "Pogoń Siedlce",
+			"code": "SIE",
+			"country": "Poland",
+			"founded": 1944
+		},
+		"venue": {
+			"api_football_id": 5065,
+			"name": "Stadion ROSRRiT",
+			"address": "ul. Jana Pawła II 2a (ul. Północna 2a)",
+			"city": "Siedlce",
+			"capacity": 8000,
+			"surface": "grass",
+			"lat": 52.178522,
+			"lng": 22.298541,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5065_001.jpg",
+				"source": "https://mkppogonsiedlce.pl/wp-content/uploads/2015/02/07.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5065_002.jpg",
+				"source": "https://stadiony.net/pictures/stadiums/pol/stadion_rosrrit_siedlce/stadion_rosrrit_siedlce11.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 6953,
+			"name": "Ruch Chorzów",
+			"code": "RUC",
+			"country": "Poland",
+			"founded": 1920
+		},
+		"venue": {
+			"api_football_id": 20760,
+			"name": "Stadion Śląski",
+			"address": "ul. Katowicka 10",
+			"city": "Chorzów",
+			"capacity": 55211,
+			"surface": "grass",
+			"lat": 50.288333,
+			"lng": 18.973056,
+			"x": 296.5,
+			"y": 468,
+			"url": "https://en.wikipedia.org/wiki/Silesian_Stadium"
+		},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20760_001.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/pol/slaski/slaski45.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20760_002.jpg",
+				"source": "https://parkslaski.pl/media/photos/22/xl.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20760_003.jpg",
+				"source": "https://d-art.ppstatic.pl/kadry/k/r/1/62/d4/598da526bf9f4_o_original.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20760_004.jpg",
+				"source": "https://tvs.pl/wp-content/uploads/2024/07/dji_fly_20240717_100300_367_1721203763335_photo_optimized-scaled.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20760_005.jpg",
+				"source": "https://d-art.ppstatic.pl/kadry/k/r/19/96/61712f1ac7208_o_full.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 31
 	},
 	{
 		"team": {
-			"api_football_id": 6951,
-			"name": "Resovia Rzeszów",
-			"code": null,
+			"api_football_id": 6957,
+			"name": "Stal Rzeszów",
+			"code": "STA",
 			"country": "Poland",
-			"founded": 1905
+			"founded": 1944
 		},
 		"venue": {
 			"api_football_id": 5075,
@@ -2121,24 +2113,24 @@
 	},
 	{
 		"team": {
-			"api_football_id": 6957,
-			"name": "Stal Rzeszów",
+			"api_football_id": 6958,
+			"name": "Stal Stalowa Wola",
 			"code": "STA",
 			"country": "Poland",
-			"founded": 1944
+			"founded": 1938
 		},
 		"venue": {
-			"api_football_id": 5075,
-			"name": "Stadion Stal",
-			"address": "ul. Hetmańska 69",
-			"city": "Rzeszów",
-			"capacity": 12700,
+			"api_football_id": 11362,
+			"name": "Podkarpackie Centrum Piłki Nożnej",
+			"address": "ul. Hutnicza 15",
+			"city": "Stalowa Wola",
+			"capacity": 3764,
 			"surface": "grass",
-			"lat": 50.02144,
-			"lng": 21.99629,
-			"x": 481.2,
-			"y": 494.4,
-			"url": "https://en.wikipedia.org/wiki/Stal_Rzesz%C3%B3w_Municipal_Stadium"
+			"lat": 50.561463,
+			"lng": 22.052845,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/Subcarpathian_Football_Center"
 		},
 		"league": {
 			"api_football_id": 107,
@@ -2148,32 +2140,32 @@
 		},
 		"images": [
 			{
-				"name": "5075_001.jpg",
-				"source": "https://pbs.twimg.com/media/Fu5QFc0XsAAhsis.jpg:large",
+				"name": "11362_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Podkarpackie_Centrum_Pi%C5%82ki_No%C5%BCnej_A01.jpg/1280px-Podkarpackie_Centrum_Pi%C5%82ki_No%C5%BCnej_A01.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "5075_002.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Stal_Mielec_stadion_1.JPG/1200px-Stal_Mielec_stadion_1.JPG",
+				"name": "11362_002.jpg",
+				"source": "https://pcpn.pl/wp-content/uploads/2020/09/1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "5075_003.jpg",
-				"source": "https://stalrzeszow.pl/wp-content/uploads/2022/05/2-stal-rzeszow-motor-lublin-dron-stadion-dron-stadion-scaled.jpg",
+				"name": "11362_003.jpg",
+				"source": "https://estadiosdb.com/pictures/stadiums/pol/stadion_miejski_stalowa_wola/stadion_miejski_stalowa_wola12.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "5075_004.jpg",
-				"source": "https://supernowosci24.pl/wp-content/uploads/2023/12/stadion_miejski_rzeszow.jpg",
+				"name": "11362_004.jpg",
+				"source": "https://d-art.ppstatic.pl/kadry/k/r/1/41/40/6256a431de707_o_full.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2247,77 +2239,6 @@
 	},
 	{
 		"team": {
-			"api_football_id": 14562,
-			"name": "Motor Lublin",
-			"code": "MOT",
-			"country": "Poland",
-			"founded": 1950
-		},
-		"venue": {
-			"api_football_id": 11992,
-			"name": "Arena Lublin",
-			"address": "ul. Krochmalna",
-			"city": "Lublin",
-			"capacity": 15500,
-			"surface": "grass",
-			"lat": 51.232375,
-			"lng": 22.557465,
-			"x": 515.5,
-			"y": 374.5,
-			"url": "https://en.wikipedia.org/wiki/Arena_Lublin"
-		},
-		"league": {
-			"api_football_id": 107,
-			"name": "I Liga",
-			"country": "Poland",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "11992_001.jpg",
-				"source": "https://www.heidelbergmaterials.com/sites/default/files/2024-06/arenalublin.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11992_002.jpg",
-				"source": "https://pliki.propertydesign.pl/i/00/84/28/008428_r0_1140.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11992_003.jpg",
-				"source": "https://www.lapstudio.com.pl/wp-content/uploads/2017/02/07_05.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11992_004.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/7/77/Arena_Lublin_z_lotu_ptaka.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11992_005.jpg",
-				"source": "https://mosir.lublin.pl/wp-content/uploads/2021/02/Elbrus-Studio-028.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 35
-	},
-	{
-		"team": {
 			"api_football_id": 16239,
 			"name": "Polonia Warszawa",
 			"code": null,
@@ -2369,6 +2290,227 @@
 				"size": 0
 			}
 		],
+		"no": 35
+	},
+	{
+		"team": {
+			"api_football_id": 16249,
+			"name": "Kotwica Kołobrzeg",
+			"code": null,
+			"country": "Poland",
+			"founded": 1946
+		},
+		"venue": {
+			"api_football_id": 11343,
+			"name": "Stadion Miejski im. Sebastiana Karpiniuka",
+			"address": "Śliwińskiego 10",
+			"city": "Kołobrzeg",
+			"capacity": 3014,
+			"surface": "grass",
+			"lat": 54.175967,
+			"lng": 15.562060,
+			"x": 0,
+			"y": 0,
+			"url": ""
+		},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "11343_001.jpg",
+				"source": "https://stadiony.net/img/news/2024/06/89Kol02.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11343_002.jpg",
+				"source": "https://stadiony.net/img/news/2024/05/64Kol02.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 36
+	},
+	{
+		"team": {
+			"api_football_id": 342,
+			"name": "Zaglebie Sosnowiec",
+			"code": "ZAG",
+			"country": "Poland",
+			"founded": 1906
+		},
+		"venue": {
+			"api_football_id": 19931,
+			"name": "ArcelorMittal Park",
+			"address": "gen. Mariusza Zaruskiego 2",
+			"city": "Sosnowiec",
+			"capacity": 11600,
+			"surface": "grass",
+			"lat": 50.2884,
+			"lng": 19.1707,
+			"x": 308.5,
+			"y": 468,
+			"url": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99biowski_Park_Sportowy"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "19931_001.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/pol/zaglebiowski_park_sportowy/zaglebiowski_park_sportowy12.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19931_002.jpg",
+				"source": "https://www.wkatowicach.eu/assets/pics/galerie/708/DSC09451.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19931_003.jpg",
+				"source": "https://bi.im-g.pl/im/c3/4a/1c/z29666499AMP,Nowy-stadion-w-Sosnowcu.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19931_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/2/20/ArcelorMittal_Park.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 37
+	},
+	{
+		"team": {
+			"api_football_id": 3489,
+			"name": "Podbeskidzie",
+			"code": "POD",
+			"country": "Poland",
+			"founded": 1907
+		},
+		"venue": {
+			"api_football_id": 2290,
+			"name": "Stadion Miejski",
+			"address": "ul. Rychlińskiego 19",
+			"city": "Bielsko-Biała",
+			"capacity": 15292,
+			"surface": "grass",
+			"lat": 49.817419,
+			"lng": 19.054267,
+			"x": 301.4,
+			"y": 514.6,
+			"url": "https://en.wikipedia.org/wiki/Bielsko-Bia%C5%82a_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "2290_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/33/Stadion_miejski_BB.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2290_002.jpg",
+				"source": "https://www.slaskie.travel/Media/Default/.MainStorage/ContentItemDocumentTypeRecord/fggolvj4.kjo/Stadion_TSP_%C5%9Al%C4%85sk_21.12.15_002%20-%20Kopia.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2290_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/5/50/Stadion_Miejski_Bielsko-Bia%C5%82a_trybuna_wschodnia_February_2015.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2290_004.jpg",
+				"source": "https://bi.im-g.pl/im/19/a7/11/z18513689IEG,Stadion-Miejski-w-Bielsku-Bialej.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 38
+	},
+	{
+		"team": {
+			"api_football_id": 6951,
+			"name": "Resovia Rzeszów",
+			"code": null,
+			"country": "Poland",
+			"founded": 1905
+		},
+		"venue": {
+			"api_football_id": 5075,
+			"name": "Stadion Stal",
+			"address": "ul. Hetmańska 69",
+			"city": "Rzeszów",
+			"capacity": 12700,
+			"surface": "grass",
+			"lat": 50.02144,
+			"lng": 21.99629,
+			"x": 481.2,
+			"y": 494.4,
+			"url": "https://en.wikipedia.org/wiki/Stal_Rzesz%C3%B3w_Municipal_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "5075_001.jpg",
+				"source": "https://pbs.twimg.com/media/Fu5QFc0XsAAhsis.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5075_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Stal_Mielec_stadion_1.JPG/1200px-Stal_Mielec_stadion_1.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5075_003.jpg",
+				"source": "https://stalrzeszow.pl/wp-content/uploads/2022/05/2-stal-rzeszow-motor-lublin-dron-stadion-dron-stadion-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5075_004.jpg",
+				"source": "https://supernowosci24.pl/wp-content/uploads/2023/12/stadion_miejski_rzeszow.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 39
 	}
 ]

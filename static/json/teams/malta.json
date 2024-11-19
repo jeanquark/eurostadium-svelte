@@ -1028,11 +1028,11 @@
 			"city": "Ta&apos;Qali",
 			"capacity": 2000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 35.896667,
+			"lng": 14.415556,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/Centenary_Stadium"
 		},
 		"league": {
 			"api_football_id": 392,
@@ -1040,7 +1040,16 @@
 			"country": "Malta",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "1067_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 27
 	},
 	{

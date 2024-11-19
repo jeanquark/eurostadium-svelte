@@ -560,11 +560,11 @@
 			"city": "Tiraspol",
 			"capacity": 9300,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 46.8404,
+			"lng": 29.5579,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/Malaya_Sportivnaya_Arena"
 		},
 		"league": {
 			"api_football_id": 395,
@@ -572,7 +572,16 @@
 			"country": "Moldova",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "19654_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 15
 	},
 	{
@@ -629,8 +638,8 @@
 			"city": "Stăuceni",
 			"capacity": 2500,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 47.084965,
+			"lng": 28.867058,
 			"x": 0,
 			"y": 0,
 			"url": ""
@@ -641,7 +650,16 @@
 			"country": "Moldova",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "19107_001.jpg",
+				"source": "https://stauceni.md/uploads/images/image_750x_5eceb29328d70.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 17
 	},
 	{
@@ -698,8 +716,8 @@
 			"city": "Sîngerei",
 			"capacity": 1500,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 47.637082,
+			"lng": 28.123045,
 			"x": 0,
 			"y": 0,
 			"url": ""
@@ -710,7 +728,16 @@
 			"country": "Moldova",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "4062_001.jpg",
+				"source": "https://www.europlan-online.de/files/b2c24e5a10f0a525c4f3caf32d9647da.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 19
 	},
 	{

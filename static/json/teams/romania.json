@@ -28,7 +28,7 @@
 		},
 		"images": [
 			{
-				"name": "1326_01.jpg",
+				"name": "1326_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -36,7 +36,7 @@
 				"size": 0
 			},
 			{
-				"name": "1326_02.jpg",
+				"name": "1326_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -44,7 +44,7 @@
 				"size": 0
 			},
 			{
-				"name": "1326_03.jpg",
+				"name": "1326_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -52,7 +52,7 @@
 				"size": 0
 			},
 			{
-				"name": "1326_04.jpg",
+				"name": "1326_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -91,7 +91,7 @@
 		},
 		"images": [
 			{
-				"name": "12282_01.jpg",
+				"name": "12282_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -99,7 +99,7 @@
 				"size": 0
 			},
 			{
-				"name": "12282_02.jpg",
+				"name": "12282_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -107,7 +107,7 @@
 				"size": 0
 			},
 			{
-				"name": "12282_03.jpg",
+				"name": "12282_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -115,7 +115,7 @@
 				"size": 0
 			},
 			{
-				"name": "12282_04.jpg",
+				"name": "12282_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -154,7 +154,7 @@
 		},
 		"images": [
 			{
-				"name": "19612_01.jpg",
+				"name": "19612_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -162,7 +162,7 @@
 				"size": 0
 			},
 			{
-				"name": "19612_02.jpg",
+				"name": "19612_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -170,7 +170,7 @@
 				"size": 0
 			},
 			{
-				"name": "19612_03.jpg",
+				"name": "19612_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -178,7 +178,7 @@
 				"size": 0
 			},
 			{
-				"name": "19612_04.jpg",
+				"name": "19612_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -217,7 +217,7 @@
 		},
 		"images": [
 			{
-				"name": "1311_01.jpg",
+				"name": "1311_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -225,7 +225,7 @@
 				"size": 0
 			},
 			{
-				"name": "1311_02.jpg",
+				"name": "1311_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -233,7 +233,7 @@
 				"size": 0
 			},
 			{
-				"name": "1311_03.jpg",
+				"name": "1311_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -241,7 +241,7 @@
 				"size": 0
 			},
 			{
-				"name": "1311_04.jpg",
+				"name": "1311_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -250,69 +250,6 @@
 			}
 		],
 		"no": 4
-	},
-	{
-		"team": {
-			"api_football_id": 2578,
-			"name": "FC Voluntari",
-			"code": null,
-			"country": "Romania",
-			"founded": 1949
-		},
-		"venue": {
-			"api_football_id": 1315,
-			"name": "Stadionul Anghel Iordănescu",
-			"address": "Strada Niţă Pintea, Pipera",
-			"city": "Voluntari",
-			"capacity": 4700,
-			"surface": "grass",
-			"lat": 44.499167,
-			"lng": 26.145556,
-			"x": 381,
-			"y": 439.6,
-			"url": "https://en.wikipedia.org/wiki/Anghel_Iord%C4%83nescu_Stadium"
-		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "1315_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1315_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1315_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1315_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 5
 	},
 	{
 		"team": {
@@ -343,7 +280,7 @@
 		},
 		"images": [
 			{
-				"name": "1894_01.jpg",
+				"name": "1894_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -351,7 +288,7 @@
 				"size": 0
 			},
 			{
-				"name": "1894_02.jpg",
+				"name": "1894_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -359,7 +296,7 @@
 				"size": 0
 			},
 			{
-				"name": "1894_03.jpg",
+				"name": "1894_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -367,7 +304,7 @@
 				"size": 0
 			},
 			{
-				"name": "1894_04.jpg",
+				"name": "1894_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -375,7 +312,7 @@
 				"size": 0
 			}
 		],
-		"no": 6
+		"no": 5
 	},
 	{
 		"team": {
@@ -406,7 +343,7 @@
 		},
 		"images": [
 			{
-				"name": "1309_01.jpg",
+				"name": "1309_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -414,7 +351,7 @@
 				"size": 0
 			},
 			{
-				"name": "1309_02.jpg",
+				"name": "1309_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -422,7 +359,7 @@
 				"size": 0
 			},
 			{
-				"name": "1309_03.jpg",
+				"name": "1309_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -430,7 +367,7 @@
 				"size": 0
 			},
 			{
-				"name": "1309_04.jpg",
+				"name": "1309_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -438,7 +375,7 @@
 				"size": 0
 			}
 		],
-		"no": 7
+		"no": 6
 	},
 	{
 		"team": {
@@ -455,10 +392,10 @@
 			"city": "Iaşi",
 			"capacity": 13000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -1312.1,
-			"y": 4573.4,
+			"lat": 47.184589,
+			"lng": 27.561389,
+			"x": 0,
+			"y": 0,
 			"url": "https://en.wikipedia.org/wiki/Emil_Alexandrescu_Stadium"
 		},
 		"league": {
@@ -469,7 +406,7 @@
 		},
 		"images": [
 			{
-				"name": "1322_01.jpg",
+				"name": "1322_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -477,7 +414,7 @@
 				"size": 0
 			},
 			{
-				"name": "1322_02.jpg",
+				"name": "1322_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -485,7 +422,7 @@
 				"size": 0
 			},
 			{
-				"name": "1322_03.jpg",
+				"name": "1322_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -493,7 +430,7 @@
 				"size": 0
 			},
 			{
-				"name": "1322_04.jpg",
+				"name": "1322_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -501,7 +438,7 @@
 				"size": 0
 			}
 		],
-		"no": 8
+		"no": 7
 	},
 	{
 		"team": {
@@ -532,7 +469,7 @@
 		},
 		"images": [
 			{
-				"name": "12593_01.jpg",
+				"name": "12593_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -540,7 +477,7 @@
 				"size": 0
 			},
 			{
-				"name": "12593_02.jpg",
+				"name": "12593_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -548,7 +485,7 @@
 				"size": 0
 			},
 			{
-				"name": "12593_03.jpg",
+				"name": "12593_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -556,7 +493,7 @@
 				"size": 0
 			},
 			{
-				"name": "12593_04.jpg",
+				"name": "12593_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -564,7 +501,7 @@
 				"size": 0
 			}
 		],
-		"no": 9
+		"no": 8
 	},
 	{
 		"team": {
@@ -595,7 +532,7 @@
 		},
 		"images": [
 			{
-				"name": "11931_01.jpg",
+				"name": "11931_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -603,7 +540,7 @@
 				"size": 0
 			},
 			{
-				"name": "11931_02.jpg",
+				"name": "11931_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -611,7 +548,7 @@
 				"size": 0
 			},
 			{
-				"name": "11931_03.jpg",
+				"name": "11931_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -619,7 +556,7 @@
 				"size": 0
 			},
 			{
-				"name": "11931_04.jpg",
+				"name": "11931_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -627,70 +564,7 @@
 				"size": 0
 			}
 		],
-		"no": 10
-	},
-	{
-		"team": {
-			"api_football_id": 2594,
-			"name": "CS Mioveni",
-			"code": "DAC",
-			"country": "Romania",
-			"founded": 2000
-		},
-		"venue": {
-			"api_football_id": 1317,
-			"name": "Stadionul Orăşenesc",
-			"address": "Str. Stadionului",
-			"city": "Mioveni",
-			"capacity": 10000,
-			"surface": "grass",
-			"lat": 44.960278,
-			"lng": 24.940556,
-			"x": 302.9,
-			"y": 396.7,
-			"url": "https://en.wikipedia.org/wiki/Or%C4%83%C8%99enesc_Stadium_(Mioveni)"
-		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "1317_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1317_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1317_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1317_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 11
+		"no": 9
 	},
 	{
 		"team": {
@@ -721,7 +595,7 @@
 		},
 		"images": [
 			{
-				"name": "1324_01.jpg",
+				"name": "1324_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -729,7 +603,7 @@
 				"size": 0
 			},
 			{
-				"name": "1324_02.jpg",
+				"name": "1324_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -737,7 +611,7 @@
 				"size": 0
 			},
 			{
-				"name": "1324_03.jpg",
+				"name": "1324_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -745,7 +619,7 @@
 				"size": 0
 			},
 			{
-				"name": "1324_04.jpg",
+				"name": "1324_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -753,7 +627,7 @@
 				"size": 0
 			}
 		],
-		"no": 12
+		"no": 10
 	},
 	{
 		"team": {
@@ -784,7 +658,7 @@
 		},
 		"images": [
 			{
-				"name": "1312_01.jpg",
+				"name": "1312_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -792,7 +666,7 @@
 				"size": 0
 			},
 			{
-				"name": "1312_02.jpg",
+				"name": "1312_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -800,7 +674,7 @@
 				"size": 0
 			},
 			{
-				"name": "1312_03.jpg",
+				"name": "1312_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -808,7 +682,7 @@
 				"size": 0
 			},
 			{
-				"name": "1312_04.jpg",
+				"name": "1312_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -816,7 +690,7 @@
 				"size": 0
 			}
 		],
-		"no": 13
+		"no": 11
 	},
 	{
 		"team": {
@@ -847,7 +721,7 @@
 		},
 		"images": [
 			{
-				"name": "1913_01.jpg",
+				"name": "1913_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -855,7 +729,7 @@
 				"size": 0
 			},
 			{
-				"name": "1913_02.jpg",
+				"name": "1913_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -863,7 +737,7 @@
 				"size": 0
 			},
 			{
-				"name": "1913_03.jpg",
+				"name": "1913_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -871,7 +745,7 @@
 				"size": 0
 			},
 			{
-				"name": "1913_04.jpg",
+				"name": "1913_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -879,70 +753,7 @@
 				"size": 0
 			}
 		],
-		"no": 14
-	},
-	{
-		"team": {
-			"api_football_id": 6230,
-			"name": "Csikszereda",
-			"code": null,
-			"country": "Romania",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 4607,
-			"name": "Stadionul Municipal",
-			"address": "Str. Stadion nr. 3",
-			"city": "Miercurea Ciuc",
-			"capacity": 4000,
-			"surface": "grass",
-			"lat": 46.366944,
-			"lng": 25.802917,
-			"x": 358.8,
-			"y": 266.1,
-			"url": "https://en.wikipedia.org/wiki/Miercurea_Ciuc_Municipal_Stadium"
-		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "4607_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4607_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4607_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4607_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 15
+		"no": 12
 	},
 	{
 		"team": {
@@ -973,7 +784,7 @@
 		},
 		"images": [
 			{
-				"name": "19516_01.jpg",
+				"name": "19516_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -981,7 +792,7 @@
 				"size": 0
 			},
 			{
-				"name": "19516_02.jpg",
+				"name": "19516_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -989,7 +800,7 @@
 				"size": 0
 			},
 			{
-				"name": "19516_03.jpg",
+				"name": "19516_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -997,7 +808,7 @@
 				"size": 0
 			},
 			{
-				"name": "19516_04.jpg",
+				"name": "19516_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1005,7 +816,70 @@
 				"size": 0
 			}
 		],
-		"no": 16
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 6232,
+			"name": "SCM Gloria Buzău",
+			"code": null,
+			"country": "Romania",
+			"founded": 2016
+		},
+		"venue": {
+			"api_football_id": 4608,
+			"name": "Stadionul Gloria",
+			"address": "Bulevardul Stadionului, nr. 1",
+			"city": "Buzău",
+			"capacity": 13400,
+			"surface": "grass",
+			"lat": 45.146028,
+			"lng": 26.803333,
+			"x": 423.6,
+			"y": 379.5,
+			"url": "https://en.wikipedia.org/wiki/Buz%C4%83u_Municipal_Stadium_(Cr%C3%A2ng_Stadium)"
+		},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "4608_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4608_002.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4608_003.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4608_004.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 14
 	},
 	{
 		"team": {
@@ -1036,7 +910,7 @@
 		},
 		"images": [
 			{
-				"name": "5026_01.jpg",
+				"name": "5026_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1044,7 +918,7 @@
 				"size": 0
 			},
 			{
-				"name": "5026_02.jpg",
+				"name": "5026_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1052,7 +926,7 @@
 				"size": 0
 			},
 			{
-				"name": "5026_03.jpg",
+				"name": "5026_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1060,7 +934,7 @@
 				"size": 0
 			},
 			{
-				"name": "5026_04.jpg",
+				"name": "5026_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1068,28 +942,28 @@
 				"size": 0
 			}
 		],
-		"no": 17
+		"no": 15
 	},
 	{
 		"team": {
-			"api_football_id": 6910,
-			"name": "U Craiova 1948",
-			"code": null,
+			"api_football_id": 6916,
+			"name": "Unirea Slobozia",
+			"code": "SLO",
 			"country": "Romania",
-			"founded": 2017
+			"founded": 2004
 		},
 		"venue": {
-			"api_football_id": 12282,
-			"name": "Complex Sportiv Craiova",
-			"address": "Bulevardul Știrbei Vodă, nr. 36",
-			"city": "Craiova",
-			"capacity": 30983,
+			"api_football_id": 5044,
+			"name": "Stadionul 1 Mai",
+			"address": "Bulevardul Matei Basarab / Şoseaua de Centură",
+			"city": "Slobozia",
+			"capacity": 6000,
 			"surface": "grass",
-			"lat": 44.314,
-			"lng": 23.7843,
-			"x": 228.1,
-			"y": 456.8,
-			"url": "https://en.wikipedia.org/wiki/Ion_Oblemenco_Stadium"
+			"lat": 44.56,
+			"lng": 27.373889,
+			"x": 460.5,
+			"y": 433.9,
+			"url": "https://en.wikipedia.org/wiki/May_1_Stadium_(Slobozia)"
 		},
 		"league": {
 			"api_football_id": 283,
@@ -1099,7 +973,7 @@
 		},
 		"images": [
 			{
-				"name": "12282_01.jpg",
+				"name": "5044_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1107,7 +981,7 @@
 				"size": 0
 			},
 			{
-				"name": "12282_02.jpg",
+				"name": "5044_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1115,7 +989,7 @@
 				"size": 0
 			},
 			{
-				"name": "12282_03.jpg",
+				"name": "5044_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1123,7 +997,7 @@
 				"size": 0
 			},
 			{
-				"name": "12282_04.jpg",
+				"name": "5044_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1131,7 +1005,70 @@
 				"size": 0
 			}
 		],
-		"no": 18
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 2578,
+			"name": "FC Voluntari",
+			"code": null,
+			"country": "Romania",
+			"founded": 1949
+		},
+		"venue": {
+			"api_football_id": 1315,
+			"name": "Stadionul Anghel Iordănescu",
+			"address": "Strada Niţă Pintea, Pipera",
+			"city": "Voluntari",
+			"capacity": 4700,
+			"surface": "grass",
+			"lat": 44.499167,
+			"lng": 26.145556,
+			"x": 381,
+			"y": 439.6,
+			"url": "https://en.wikipedia.org/wiki/Anghel_Iord%C4%83nescu_Stadium"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1315_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1315_002.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1315_003.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1315_004.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 17
 	},
 	{
 		"team": {
@@ -1162,7 +1099,7 @@
 		},
 		"images": [
 			{
-				"name": "1313_01.jpg",
+				"name": "1313_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1170,7 +1107,7 @@
 				"size": 0
 			},
 			{
-				"name": "1313_02.jpg",
+				"name": "1313_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1178,7 +1115,7 @@
 				"size": 0
 			},
 			{
-				"name": "1313_03.jpg",
+				"name": "1313_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1186,7 +1123,7 @@
 				"size": 0
 			},
 			{
-				"name": "1313_04.jpg",
+				"name": "1313_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1194,7 +1131,7 @@
 				"size": 0
 			}
 		],
-		"no": 19
+		"no": 18
 	},
 	{
 		"team": {
@@ -1225,7 +1162,7 @@
 		},
 		"images": [
 			{
-				"name": "20111_01.jpg",
+				"name": "20111_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1233,7 +1170,7 @@
 				"size": 0
 			},
 			{
-				"name": "20111_02.jpg",
+				"name": "20111_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1241,7 +1178,7 @@
 				"size": 0
 			},
 			{
-				"name": "20111_03.jpg",
+				"name": "20111_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1249,7 +1186,7 @@
 				"size": 0
 			},
 			{
-				"name": "20111_04.jpg",
+				"name": "20111_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1257,7 +1194,7 @@
 				"size": 0
 			}
 		],
-		"no": 20
+		"no": 19
 	},
 	{
 		"team": {
@@ -1288,7 +1225,7 @@
 		},
 		"images": [
 			{
-				"name": "1317_01.jpg",
+				"name": "1317_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1296,7 +1233,7 @@
 				"size": 0
 			},
 			{
-				"name": "1317_02.jpg",
+				"name": "1317_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1304,7 +1241,7 @@
 				"size": 0
 			},
 			{
-				"name": "1317_03.jpg",
+				"name": "1317_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1312,7 +1249,7 @@
 				"size": 0
 			},
 			{
-				"name": "1317_04.jpg",
+				"name": "1317_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1320,7 +1257,7 @@
 				"size": 0
 			}
 		],
-		"no": 21
+		"no": 20
 	},
 	{
 		"team": {
@@ -1351,7 +1288,7 @@
 		},
 		"images": [
 			{
-				"name": "1317_01.jpg",
+				"name": "1317_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1359,7 +1296,7 @@
 				"size": 0
 			},
 			{
-				"name": "1317_02.jpg",
+				"name": "1317_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1367,7 +1304,7 @@
 				"size": 0
 			},
 			{
-				"name": "1317_03.jpg",
+				"name": "1317_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1375,7 +1312,7 @@
 				"size": 0
 			},
 			{
-				"name": "1317_04.jpg",
+				"name": "1317_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1383,7 +1320,7 @@
 				"size": 0
 			}
 		],
-		"no": 22
+		"no": 21
 	},
 	{
 		"team": {
@@ -1414,7 +1351,7 @@
 		},
 		"images": [
 			{
-				"name": "19422_01.jpg",
+				"name": "19422_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1422,7 +1359,7 @@
 				"size": 0
 			},
 			{
-				"name": "19422_02.jpg",
+				"name": "19422_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1430,7 +1367,7 @@
 				"size": 0
 			},
 			{
-				"name": "19422_03.jpg",
+				"name": "19422_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1438,7 +1375,7 @@
 				"size": 0
 			},
 			{
-				"name": "19422_04.jpg",
+				"name": "19422_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1446,7 +1383,7 @@
 				"size": 0
 			}
 		],
-		"no": 23
+		"no": 22
 	},
 	{
 		"team": {
@@ -1477,7 +1414,7 @@
 		},
 		"images": [
 			{
-				"name": "20116_01.jpg",
+				"name": "20116_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1485,7 +1422,7 @@
 				"size": 0
 			},
 			{
-				"name": "20116_02.jpg",
+				"name": "20116_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1493,7 +1430,7 @@
 				"size": 0
 			},
 			{
-				"name": "20116_03.jpg",
+				"name": "20116_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1501,8 +1438,47 @@
 				"size": 0
 			},
 			{
-				"name": "20116_04.jpg",
+				"name": "20116_004.jpg",
 				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 2608,
+			"name": "CS Afumati",
+			"code": null,
+			"country": "Romania",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 2823,
+			"name": "Stadionul Afumaţi",
+			"address": null,
+			"city": "Afumaţi",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 44.533056,
+			"lng": 26.259861,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/Stadionul_Comunal_(Afuma%C8%9Bi)"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2823_001.jpg",
+				"source": "https://i.ytimg.com/vi/L6BRPEB_mxE/maxresdefault.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1540,7 +1516,7 @@
 		},
 		"images": [
 			{
-				"name": "4606_01.jpg",
+				"name": "4606_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1548,7 +1524,7 @@
 				"size": 0
 			},
 			{
-				"name": "4606_02.jpg",
+				"name": "4606_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1556,7 +1532,7 @@
 				"size": 0
 			},
 			{
-				"name": "4606_03.jpg",
+				"name": "4606_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1564,7 +1540,7 @@
 				"size": 0
 			},
 			{
-				"name": "4606_04.jpg",
+				"name": "4606_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1603,7 +1579,7 @@
 		},
 		"images": [
 			{
-				"name": "4607_01.jpg",
+				"name": "4607_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1611,7 +1587,7 @@
 				"size": 0
 			},
 			{
-				"name": "4607_02.jpg",
+				"name": "4607_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1619,7 +1595,7 @@
 				"size": 0
 			},
 			{
-				"name": "4607_03.jpg",
+				"name": "4607_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1627,7 +1603,7 @@
 				"size": 0
 			},
 			{
-				"name": "4607_04.jpg",
+				"name": "4607_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1636,132 +1612,6 @@
 			}
 		],
 		"no": 26
-	},
-	{
-		"team": {
-			"api_football_id": 6232,
-			"name": "SCM Gloria Buzău",
-			"code": null,
-			"country": "Romania",
-			"founded": 2016
-		},
-		"venue": {
-			"api_football_id": 4608,
-			"name": "Stadionul Gloria",
-			"address": "Bulevardul Stadionului, nr. 1",
-			"city": "Buzău",
-			"capacity": 13400,
-			"surface": "grass",
-			"lat": 45.146028,
-			"lng": 26.803333,
-			"x": 423.6,
-			"y": 379.5,
-			"url": "https://en.wikipedia.org/wiki/Buz%C4%83u_Municipal_Stadium_(Cr%C3%A2ng_Stadium)"
-		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "4608_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4608_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4608_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4608_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 27
-	},
-	{
-		"team": {
-			"api_football_id": 6842,
-			"name": "Alexandria",
-			"code": null,
-			"country": "Romania",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 4610,
-			"name": "Stadionul Municipal",
-			"address": "Zona Peco",
-			"city": "Turnu Măgurele",
-			"capacity": 2000,
-			"surface": "grass",
-			"lat": 43.760133,
-			"lng": 24.877442,
-			"x": 298.9,
-			"y": 508.2,
-			"url": "https://en.wikipedia.org/wiki/Turnu_M%C4%83gurele_Municipal_Stadium"
-		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "4610_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4610_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4610_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4610_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 28
 	},
 	{
 		"team": {
@@ -1792,7 +1642,7 @@
 		},
 		"images": [
 			{
-				"name": "5004_01.jpg",
+				"name": "5004_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1800,7 +1650,7 @@
 				"size": 0
 			},
 			{
-				"name": "5004_02.jpg",
+				"name": "5004_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1808,7 +1658,7 @@
 				"size": 0
 			},
 			{
-				"name": "5004_03.jpg",
+				"name": "5004_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1816,7 +1666,7 @@
 				"size": 0
 			},
 			{
-				"name": "5004_04.jpg",
+				"name": "5004_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1824,27 +1674,66 @@
 				"size": 0
 			}
 		],
-		"no": 29
+		"no": 27
 	},
 	{
 		"team": {
-			"api_football_id": 6892,
-			"name": "Progresul Spartac",
+			"api_football_id": 6863,
+			"name": "Focşani",
 			"code": null,
 			"country": "Romania",
-			"founded": null
+			"founded": 2007
 		},
 		"venue": {
-			"api_football_id": 19619,
-			"name": "Centrul de Fotbal Buftea Teren Sintetic",
-			"address": "Intrarea Vrabiei",
-			"city": "Buftea",
-			"capacity": 450,
+			"api_football_id": 5010,
+			"name": "Stadionul Milcovul (Sud)",
+			"address": "Aleea Stadionului, nr. 2",
+			"city": "Focşani",
+			"capacity": 8500,
+			"surface": "grass",
+			"lat": 45.675361,
+			"lng": 27.17825,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/Milcovul_Stadium"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5010_001.jpg",
+				"source": "https://en.wikipedia.org/wiki/Milcovul_Stadium#/media/File:Stadionul_Milcovul.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 28
+	},
+	{
+		"team": {
+			"api_football_id": 6875,
+			"name": "Metalul Buzău",
+			"code": null,
+			"country": "Romania",
+			"founded": 1954
+		},
+		"venue": {
+			"api_football_id": 5017,
+			"name": "Teren Sintetic Cornel Negoescu",
+			"address": "Bulevardul Stadionului, nr. 1",
+			"city": "Buzău",
+			"capacity": 3000,
 			"surface": "artificial turf",
-			"lat": 44.547939,
-			"lng": 25.980362,
-			"x": 370.3,
-			"y": 435.1,
+			"lat": 45.145974,
+			"lng": 26.803352,
+			"x": 0,
+			"y": 0,
 			"url": ""
 		},
 		"league": {
@@ -1855,39 +1744,15 @@
 		},
 		"images": [
 			{
-				"name": "19619_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "19619_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "19619_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "19619_04.jpg",
-				"source": "",
+				"name": "5017_001.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4LIqB45_DhV9jfxj8Lw1GWW9o4h6VUkNnCPTAOQsu2xoCJ1cfMx7JlBBR7qKfg5993Z2FOgGOOqthCTLL1nZPEm-HI4ISBDdj8oPQP45wWIfjx_gRW1BlZ-_CAcDHOkg5W0Z-gxZ56zFW/s1600/stad+cornel+negoescu2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 30
+		"no": 29
 	},
 	{
 		"team": {
@@ -1918,7 +1783,7 @@
 		},
 		"images": [
 			{
-				"name": "5032_01.jpg",
+				"name": "5032_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1926,7 +1791,7 @@
 				"size": 0
 			},
 			{
-				"name": "5032_02.jpg",
+				"name": "5032_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1934,7 +1799,7 @@
 				"size": 0
 			},
 			{
-				"name": "5032_03.jpg",
+				"name": "5032_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1942,7 +1807,70 @@
 				"size": 0
 			},
 			{
-				"name": "5032_04.jpg",
+				"name": "5032_004.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 6910,
+			"name": "U Craiova 1948",
+			"code": null,
+			"country": "Romania",
+			"founded": 2017
+		},
+		"venue": {
+			"api_football_id": 12282,
+			"name": "Complex Sportiv Craiova",
+			"address": "Bulevardul Știrbei Vodă, nr. 36",
+			"city": "Craiova",
+			"capacity": 30983,
+			"surface": "grass",
+			"lat": 44.314,
+			"lng": 23.7843,
+			"x": 228.1,
+			"y": 456.8,
+			"url": "https://en.wikipedia.org/wiki/Ion_Oblemenco_Stadium"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "12282_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12282_002.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12282_003.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12282_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1951,195 +1879,6 @@
 			}
 		],
 		"no": 31
-	},
-	{
-		"team": {
-			"api_football_id": 6908,
-			"name": "Tunari",
-			"code": null,
-			"country": "Romania",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 5038,
-			"name": "Stadionul Tunari",
-			"address": "Str. Domna Ghica",
-			"city": "Tunari",
-			"capacity": 1000,
-			"surface": "grass",
-			"lat": 44.551944,
-			"lng": 26.142222,
-			"x": 380.8,
-			"y": 434.7,
-			"url": "https://en.wikipedia.org/wiki/Tunari_Stadium"
-		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "5038_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5038_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5038_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5038_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 32
-	},
-	{
-		"team": {
-			"api_football_id": 6914,
-			"name": "Unirea Dej",
-			"code": null,
-			"country": "Romania",
-			"founded": 1921
-		},
-		"venue": {
-			"api_football_id": 12594,
-			"name": "Stadionul Municipal Dej",
-			"address": "Str. Nicolae Titulescu, nr. 16A",
-			"city": "Dej",
-			"capacity": 6000,
-			"surface": "grass",
-			"lat": 47.14725,
-			"lng": 23.872278,
-			"x": 233.8,
-			"y": 193.6,
-			"url": "https://en.wikipedia.org/wiki/Unirea_Stadium_(Dej)"
-		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "12594_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12594_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12594_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12594_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 33
-	},
-	{
-		"team": {
-			"api_football_id": 6916,
-			"name": "Unirea Slobozia",
-			"code": "SLO",
-			"country": "Romania",
-			"founded": 2004
-		},
-		"venue": {
-			"api_football_id": 5044,
-			"name": "Stadionul 1 Mai",
-			"address": "Bulevardul Matei Basarab / Şoseaua de Centură",
-			"city": "Slobozia",
-			"capacity": 6000,
-			"surface": "grass",
-			"lat": 44.56,
-			"lng": 27.373889,
-			"x": 460.5,
-			"y": 433.9,
-			"url": "https://en.wikipedia.org/wiki/May_1_Stadium_(Slobozia)"
-		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "5044_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5044_02.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5044_03.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5044_04.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 34
 	},
 	{
 		"team": {
@@ -2170,7 +1909,7 @@
 		},
 		"images": [
 			{
-				"name": "5050_01.jpg",
+				"name": "5050_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2178,7 +1917,7 @@
 				"size": 0
 			},
 			{
-				"name": "5050_02.jpg",
+				"name": "5050_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2186,7 +1925,7 @@
 				"size": 0
 			},
 			{
-				"name": "5050_03.jpg",
+				"name": "5050_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2194,7 +1933,7 @@
 				"size": 0
 			},
 			{
-				"name": "5050_04.jpg",
+				"name": "5050_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2202,7 +1941,7 @@
 				"size": 0
 			}
 		],
-		"no": 35
+		"no": 32
 	},
 	{
 		"team": {
@@ -2233,7 +1972,7 @@
 		},
 		"images": [
 			{
-				"name": "12042_01.jpg",
+				"name": "12042_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2241,7 +1980,7 @@
 				"size": 0
 			},
 			{
-				"name": "12042_02.jpg",
+				"name": "12042_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2249,7 +1988,7 @@
 				"size": 0
 			},
 			{
-				"name": "12042_03.jpg",
+				"name": "12042_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2257,7 +1996,7 @@
 				"size": 0
 			},
 			{
-				"name": "12042_04.jpg",
+				"name": "12042_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2265,7 +2004,7 @@
 				"size": 0
 			}
 		],
-		"no": 36
+		"no": 33
 	},
 	{
 		"team": {
@@ -2296,7 +2035,7 @@
 		},
 		"images": [
 			{
-				"name": "5436_01.jpg",
+				"name": "5436_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2304,7 +2043,7 @@
 				"size": 0
 			},
 			{
-				"name": "5436_02.jpg",
+				"name": "5436_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2312,7 +2051,7 @@
 				"size": 0
 			},
 			{
-				"name": "5436_03.jpg",
+				"name": "5436_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2320,7 +2059,7 @@
 				"size": 0
 			},
 			{
-				"name": "5436_04.jpg",
+				"name": "5436_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2328,7 +2067,109 @@
 				"size": 0
 			}
 		],
-		"no": 37
+		"no": 34
+	},
+	{
+		"team": {
+			"api_football_id": 7492,
+			"name": "Unirea Ungheni",
+			"code": "FCU",
+			"country": "Romania",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 5445,
+			"name": "Stadionul Unirea",
+			"address": "Str. Gării, nr. 60",
+			"city": "Ungheni",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 47.14725,
+			"lng": 23.872278,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/Unirea_Stadium_(Dej)"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5445_001.jpg",
+				"source": "https://en.wikipedia.org/wiki/Unirea_Stadium_(Dej)#/media/File:Stadionul_Municipal_Dej_2021.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 35
+	},
+	{
+		"team": {
+			"api_football_id": 20033,
+			"name": "Bihor Oradea",
+			"code": null,
+			"country": "Romania",
+			"founded": 1958
+		},
+		"venue": {
+			"api_football_id": 11407,
+			"name": "Stadionul Iuliu Bodola",
+			"address": "Strada Republicii, nr. 3-5",
+			"city": "Oradea",
+			"capacity": 25250,
+			"surface": "grass",
+			"lat": 47.071944,
+			"lng": 21.93,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/Iuliu_Bodola_Stadium"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "11407_001.jpg",
+				"source": "https://anaulmanu.com/wp-content/uploads/2023/05/oradea-1024x1024.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11407_002.jpg",
+				"source": "https://oradeaindirect.ro/wp-content/uploads/2024/03/fc-bihor-3.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11407_003.jpg",
+				"source": "https://media.prosport.ro/70Ep14KxpqaJIT4cDrJWl9xbLxw=/1280x720/smart/filters:contrast(5):format(webp):quality(80)/https%3A%2F%2Fwww.prosport.ro%2Fwp-content%2Fuploads%2F2008%2F04%2F2573562%2F1-stadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11407_004.jpg",
+				"source": "https://www.bihon.ro/wp-content/uploads/2023/09/5378468fcb6.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 36
 	},
 	{
 		"team": {
@@ -2359,7 +2200,7 @@
 		},
 		"images": [
 			{
-				"name": "5013_01.jpg",
+				"name": "5013_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2367,7 +2208,7 @@
 				"size": 0
 			},
 			{
-				"name": "5013_02.jpg",
+				"name": "5013_002.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2375,7 +2216,7 @@
 				"size": 0
 			},
 			{
-				"name": "5013_03.jpg",
+				"name": "5013_003.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2383,7 +2224,7 @@
 				"size": 0
 			},
 			{
-				"name": "5013_04.jpg",
+				"name": "5013_004.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -2391,6 +2232,285 @@
 				"size": 0
 			}
 		],
+		"no": 37
+	},
+	{
+		"team": {
+			"api_football_id": 20831,
+			"name": "Muscelul Câmpulung Elite",
+			"code": null,
+			"country": "Romania",
+			"founded": 2022
+		},
+		"venue": {
+			"api_football_id": 19434,
+			"name": "Stadionul Muscelul",
+			"address": "Bulevardul Ion Mihalache",
+			"city": "Câmpulung Muscel",
+			"capacity": 6000,
+			"surface": "grass",
+			"lat": 45.265917,
+			"lng": 25.047972,
+			"x": 0,
+			"y": 0,
+			"url": "https://en.wikipedia.org/wiki/Muscelul_Stadium"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19434_001.jpg",
+				"source": "https://evenimentulmuscelean.ro/wp-content/uploads/2022/07/2680-Av-960x720.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19434_002.jpg",
+				"source": "https://evenimentulmuscelean.ro/wp-content/uploads/2022/07/2679-Ag.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 38
+	},
+	{
+		"team": {
+			"api_football_id": 6842,
+			"name": "Alexandria",
+			"code": null,
+			"country": "Romania",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 4610,
+			"name": "Stadionul Municipal",
+			"address": "Zona Peco",
+			"city": "Turnu Măgurele",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 43.760133,
+			"lng": 24.877442,
+			"x": 298.9,
+			"y": 508.2,
+			"url": "https://en.wikipedia.org/wiki/Turnu_M%C4%83gurele_Municipal_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "4610_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4610_002.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4610_003.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4610_004.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 39
+	},
+	{
+		"team": {
+			"api_football_id": 6892,
+			"name": "Progresul Spartac",
+			"code": null,
+			"country": "Romania",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 19619,
+			"name": "Centrul de Fotbal Buftea Teren Sintetic",
+			"address": "Intrarea Vrabiei",
+			"city": "Buftea",
+			"capacity": 450,
+			"surface": "artificial turf",
+			"lat": 44.547939,
+			"lng": 25.980362,
+			"x": 370.3,
+			"y": 435.1,
+			"url": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "19619_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19619_002.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19619_003.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19619_004.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 40
+	},
+	{
+		"team": {
+			"api_football_id": 6908,
+			"name": "Tunari",
+			"code": null,
+			"country": "Romania",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 5038,
+			"name": "Stadionul Tunari",
+			"address": "Str. Domna Ghica",
+			"city": "Tunari",
+			"capacity": 1000,
+			"surface": "grass",
+			"lat": 44.551944,
+			"lng": 26.142222,
+			"x": 380.8,
+			"y": 434.7,
+			"url": "https://en.wikipedia.org/wiki/Tunari_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "5038_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5038_002.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5038_003.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5038_004.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 41
+	},
+	{
+		"team": {
+			"api_football_id": 6914,
+			"name": "Unirea Dej",
+			"code": null,
+			"country": "Romania",
+			"founded": 1921
+		},
+		"venue": {
+			"api_football_id": 12594,
+			"name": "Stadionul Municipal Dej",
+			"address": "Str. Nicolae Titulescu, nr. 16A",
+			"city": "Dej",
+			"capacity": 6000,
+			"surface": "grass",
+			"lat": 47.14725,
+			"lng": 23.872278,
+			"x": 233.8,
+			"y": 193.6,
+			"url": "https://en.wikipedia.org/wiki/Unirea_Stadium_(Dej)"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "12594_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12594_002.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12594_003.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12594_004.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 42
 	}
 ]
