@@ -167,7 +167,8 @@
         "xMax2": 595.64178,
         "xMax": 1000,
         "yMax2": 584.59808,
-        "yMax": 981.459,
+        "yMax3": 981.459,
+        "yMax": 1000,
         "xTranslate": 0,
         "yTranslate": 10
     },
@@ -186,7 +187,8 @@
         "topLatitude": "55.051693",
         "rightLongitude": "15.043380",
         "bottomLatitude": "47.269299",
-        "xMax": 739.34473,
+        "xMax": 1000,
+        "xMax2": 739.34473,
         "yMax": 1000,
         "xTranslate": 131,
         "xTranslate2": 0,
@@ -479,11 +481,12 @@
         "bottomLatitude": "45.817599",
         "xMax": 1000,
         "xMax2": 612.58246,
-        "yMax": 639.66309,
+        "yMax3": 639.66309,
         "yMax2": 391.84637,
+        "yMax": 1000,
         "xTranslate": 0,
         "yTranslate2": 113,
-        "yTranslate": 177
+        "yTranslate": 180
     },
     "turkey": {
         "leftLongitude": "25.663689",

@@ -18,7 +18,7 @@
 			"lng": -0.530791,
 			"x": 296.2194775784749,
 			"y": 397.05967944275693,
-			"url": "https://en.wikipedia.org/wiki/Angers_SCO"
+			"wiki": "https://en.wikipedia.org/wiki/Angers_SCO"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -89,7 +89,7 @@
 			"lng": 3.128197,
 			"x": 551.4105297515806,
 			"y": 62.678202833611174,
-			"url": "https://en.wikipedia.org/wiki/Lille_OSC"
+			"wiki": "https://en.wikipedia.org/wiki/Lille_OSC"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -167,7 +167,7 @@
 			"lng": 4.980085,
 			"x": 680.5678943635295,
 			"y": 568.6703606972407,
-			"url": "https://en.wikipedia.org/wiki/Olympique_Lyonnais"
+			"wiki": "https://en.wikipedia.org/wiki/Olympique_Lyonnais"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -245,7 +245,7 @@
 			"lng": 5.39591,
 			"x": 709.5690332767721,
 			"y": 812.1299630868361,
-			"url": "https://en.wikipedia.org/wiki/Olympique_de_Marseille"
+			"wiki": "https://en.wikipedia.org/wiki/Olympique_de_Marseille"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -337,7 +337,7 @@
 			"lng": 3.812022,
 			"x": 599.1029576175034,
 			"y": 778.3813484955601,
-			"url": "https://en.wikipedia.org/wiki/Montpellier_HSC"
+			"wiki": "https://en.wikipedia.org/wiki/Montpellier_HSC"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -408,7 +408,7 @@
 			"lng": -1.524681,
 			"x": 226.90199557407215,
 			"y": 418.04775122711885,
-			"url": "https://en.wikipedia.org/wiki/FC_Nantes"
+			"wiki": "https://en.wikipedia.org/wiki/FC_Nantes"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -486,7 +486,7 @@
 			"lng": 7.19263,
 			"x": 834.8787821090896,
 			"y": 770.4115483055957,
-			"url": "https://en.wikipedia.org/wiki/OGC_Nice"
+			"wiki": "https://en.wikipedia.org/wiki/OGC_Nice"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -564,7 +564,7 @@
 			"lng": 2.253012,
 			"x": 490.37196362452136,
 			"y": 253.0978039252423,
-			"url": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_F.C."
+			"wiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_F.C."
 		},
 		"league": {
 			"api_football_id": 61,
@@ -656,7 +656,7 @@
 			"lng": 7.415556,
 			"x": 850.4264473369443,
 			"y": 768.2282066659861,
-			"url": "https://en.wikipedia.org/wiki/AS_Monaco_FC"
+			"wiki": "https://en.wikipedia.org/wiki/AS_Monaco_FC"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -727,7 +727,7 @@
 			"lng": 4.024722,
 			"x": 613.937424633306,
 			"y": 210.04956351829227,
-			"url": "https://en.wikipedia.org/wiki/Stade_de_Reims"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_de_Reims"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -798,7 +798,7 @@
 			"lng": -1.712839,
 			"x": 213.77917636974752,
 			"y": 330.0958076457269,
-			"url": "https://en.wikipedia.org/wiki/Stade_Rennais_F.C."
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Rennais_F.C."
 		},
 		"league": {
 			"api_football_id": 61,
@@ -876,7 +876,7 @@
 			"lng": 7.755117,
 			"x": 874.1086591580712,
 			"y": 282.7531781961904,
-			"url": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace"
+			"wiki": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -947,7 +947,7 @@
 			"lng": 1.434021,
 			"x": 433.2525702265905,
 			"y": 782.117371927291,
-			"url": "https://en.wikipedia.org/wiki/Toulouse_FC"
+			"wiki": "https://en.wikipedia.org/wiki/Toulouse_FC"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -1025,7 +1025,7 @@
 			"lng": -4.461389,
 			"x": 22.085362000749868,
 			"y": 299.25048079572747,
-			"url": "https://en.wikipedia.org/wiki/Stade_Brestois_29"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Brestois_29"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -1088,7 +1088,7 @@
 			"lng": 3.588667,
 			"x": 583.5253723785984,
 			"y": 363.39275312541355,
-			"url": "https://en.wikipedia.org/wiki/AJ_Auxerre"
+			"wiki": "https://en.wikipedia.org/wiki/AJ_Auxerre"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -1166,7 +1166,7 @@
 			"lng": 0.169773,
 			"x": 345.0793438241686,
 			"y": 183.18204796802058,
-			"url": "https://en.wikipedia.org/wiki/Le_Havre_AC"
+			"wiki": "https://en.wikipedia.org/wiki/Le_Havre_AC"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -1244,7 +1244,7 @@
 			"lng": 2.814853,
 			"x": 529.5567862978903,
 			"y": 82.19449168223191,
-			"url": "https://en.wikipedia.org/wiki/RC_Lens"
+			"wiki": "https://en.wikipedia.org/wiki/RC_Lens"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -1336,7 +1336,7 @@
 			"lng": 4.390161,
 			"x": 639.4244617362119,
 			"y": 598.9696158089887,
-			"url": "https://en.wikipedia.org/wiki/AS_Saint-%C3%89tienne"
+			"wiki": "https://en.wikipedia.org/wiki/AS_Saint-%C3%89tienne"
 		},
 		"league": {
 			"api_football_id": 61,
@@ -1414,7 +1414,7 @@
 			"lng": 2.263352,
 			"x": 491.0931126087399,
 			"y": 140.66779224399744,
-			"url": "https://en.wikipedia.org/wiki/Amiens_SC"
+			"wiki": "https://en.wikipedia.org/wiki/Amiens_SC"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -1485,7 +1485,7 @@
 			"lng": -0.396667,
 			"x": 305.5737702631355,
 			"y": 217.26498234100228,
-			"url": "https://en.wikipedia.org/wiki/Stade_Malherbe_Caen"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Malherbe_Caen"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -1563,7 +1563,7 @@
 			"lng": -3.164492,
 			"x": 112.53564770547035,
 			"y": 282.11943415382007,
-			"url": "https://en.wikipedia.org/wiki/En_Avant_Guingamp"
+			"wiki": "https://en.wikipedia.org/wiki/En_Avant_Guingamp"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -1641,7 +1641,7 @@
 			"lng": -3.369367,
 			"x": 98.2469244809157,
 			"y": 367.3247051876319,
-			"url": "https://en.wikipedia.org/wiki/FC_Lorient"
+			"wiki": "https://en.wikipedia.org/wiki/FC_Lorient"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -1712,7 +1712,7 @@
 			"lng": 8.776667,
 			"x": 945.3552495670668,
 			"y": 938.6406103712426,
-			"url": "https://en.wikipedia.org/wiki/AC_Ajaccio"
+			"wiki": "https://en.wikipedia.org/wiki/AC_Ajaccio"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -1783,7 +1783,7 @@
 			"lng": 3.121679,
 			"x": 550.9559408657835,
 			"y": 563.6554727696482,
-			"url": "https://en.wikipedia.org/wiki/Clermont_Foot"
+			"wiki": "https://en.wikipedia.org/wiki/Clermont_Foot"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -1846,7 +1846,7 @@
 			"lng": 5.74,
 			"x": 733.5671139324741,
 			"y": 625.9967747162074,
-			"url": "https://en.wikipedia.org/wiki/Grenoble_Foot_38"
+			"wiki": "https://en.wikipedia.org/wiki/Grenoble_Foot_38"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -1924,7 +1924,7 @@
 			"lng": 2.340833,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Stade_Bauer"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Bauer"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -1963,7 +1963,7 @@
 			"lng": 4.098333,
 			"x": 619.0713219135143,
 			"y": 309.22148078505984,
-			"url": "https://en.wikipedia.org/wiki/ES_Troyes_AC"
+			"wiki": "https://en.wikipedia.org/wiki/ES_Troyes_AC"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -2041,7 +2041,7 @@
 			"lng": 6.1595,
 			"x": 762.824560632659,
 			"y": 224.6690822858745,
-			"url": "https://en.wikipedia.org/wiki/FC_Metz"
+			"wiki": "https://en.wikipedia.org/wiki/FC_Metz"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -2119,7 +2119,7 @@
 			"lng": 2.346658,
 			"x": 496.90317424117177,
 			"y": 255.52086432339348,
-			"url": "https://en.wikipedia.org/wiki/Paris_FC"
+			"wiki": "https://en.wikipedia.org/wiki/Paris_FC"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -2190,7 +2190,7 @@
 			"lng": -0.754722,
 			"x": 280.60172001704615,
 			"y": 332.72339870225505,
-			"url": "https://en.wikipedia.org/wiki/Stade_Lavallois"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Lavallois"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -2268,7 +2268,7 @@
 			"lng": 0.32555556,
 			"x": 355.9441827896474,
 			"y": 808.4795183909514,
-			"url": "https://en.wikipedia.org/wiki/Pau_FC"
+			"wiki": "https://en.wikipedia.org/wiki/Pau_FC"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -2339,7 +2339,7 @@
 			"lng": 2.563611,
 			"x": 512.0342608536772,
 			"y": 707.8724391831631,
-			"url": "https://en.wikipedia.org/wiki/Rodez_AF"
+			"wiki": "https://en.wikipedia.org/wiki/Rodez_AF"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -2402,7 +2402,7 @@
 			"lng": 2.389687,
 			"x": 499.9041722723112,
 			"y": 16.014732276033442,
-			"url": "https://en.wikipedia.org/wiki/USL_Dunkerque"
+			"wiki": "https://en.wikipedia.org/wiki/USL_Dunkerque"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -2473,7 +2473,7 @@
 			"lng": 9.442611,
 			"x": 991.8005918443214,
 			"y": 870.9002824901905,
-			"url": "https://en.wikipedia.org/wiki/SC_Bastia"
+			"wiki": "https://en.wikipedia.org/wiki/SC_Bastia"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -2544,7 +2544,7 @@
 			"lng": 6.118053,
 			"x": 759.933897001235,
 			"y": 553.5993992069394,
-			"url": "https://en.wikipedia.org/wiki/FC_Annecy"
+			"wiki": "https://en.wikipedia.org/wiki/FC_Annecy"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -2607,7 +2607,7 @@
 			"lng": 5.049444,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Stade_Francis-Turcan"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Francis-Turcan"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -2646,7 +2646,7 @@
 			"lng": -0.561606,
 			"x": 294.070328066992,
 			"y": 654.5527669429769,
-			"url": "https://en.wikipedia.org/wiki/FC_Girondins_de_Bordeaux"
+			"wiki": "https://en.wikipedia.org/wiki/FC_Girondins_de_Bordeaux"
 		},
 		"league": {},
 		"images": [
@@ -2733,7 +2733,7 @@
 			"lng": 3.533056,
 			"x": 579.6468601773017,
 			"y": 91.44355668888369,
-			"url": "https://fr.wikipedia.org/wiki/Valenciennes_Football_Club"
+			"wiki": "https://fr.wikipedia.org/wiki/Valenciennes_Football_Club"
 		},
 		"league": {},
 		"images": [
@@ -2806,7 +2806,7 @@
 			"lng": 1.070759,
 			"x": 407.91736497461835,
 			"y": 192.5666941795565,
-			"url": "https://en.wikipedia.org/wiki/US_Quevilly-Rouen_M%C3%A9tropole"
+			"wiki": "https://en.wikipedia.org/wiki/US_Quevilly-Rouen_M%C3%A9tropole"
 		},
 		"league": {},
 		"images": [
@@ -2879,7 +2879,7 @@
 			"lng": -4.461389,
 			"x": 22.085362000749868,
 			"y": 299.25048079572747,
-			"url": "https://en.wikipedia.org/wiki/US_Concarneau"
+			"wiki": "https://en.wikipedia.org/wiki/US_Concarneau"
 		},
 		"league": {},
 		"images": [

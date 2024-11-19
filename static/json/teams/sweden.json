@@ -18,7 +18,7 @@
 			"lng": 18.08534,
 			"x": 969.5,
 			"y": 1287.9,
-			"url": "https://en.wikipedia.org/wiki/Tele2_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Tele2_Arena"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -97,7 +97,7 @@
 			"lng": 18.08534,
 			"x": 969.5,
 			"y": 1287.9,
-			"url": "https://en.wikipedia.org/wiki/Tele2_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Tele2_Arena"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -176,7 +176,7 @@
 			"lng": 11.98014,
 			"x": 595.6,
 			"y": 1496.8,
-			"url": "https://en.wikipedia.org/wiki/Gamla_Ullevi"
+			"wiki": "https://en.wikipedia.org/wiki/Gamla_Ullevi"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -247,7 +247,7 @@
 			"lng": 11.930556,
 			"x": 592.5,
 			"y": 1495,
-			"url": "https://en.wikipedia.org/wiki/Bravida_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Bravida_Arena"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -310,7 +310,7 @@
 			"lng": 17.64532,
 			"x": 942.5,
 			"y": 1214.2,
-			"url": "https://en.wikipedia.org/wiki/Studenternas_IP"
+			"wiki": "https://en.wikipedia.org/wiki/Studenternas_IP"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -373,7 +373,7 @@
 			"lng": 17.851667,
 			"x": 955.2,
 			"y": 1278.5,
-			"url": "https://en.wikipedia.org/wiki/Grimsta_IP"
+			"wiki": "https://en.wikipedia.org/wiki/Grimsta_IP"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -436,7 +436,7 @@
 			"lng": 12.934722,
 			"x": 654,
 			"y": 1493,
-			"url": "https://en.wikipedia.org/wiki/Bor%C3%A5s_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Bor%C3%A5s_Arena"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -507,7 +507,7 @@
 			"lng": 16.31493,
 			"x": 861.1,
 			"y": 1630.5,
-			"url": "https://en.wikipedia.org/wiki/Guldf%C3%A5geln_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Guldf%C3%A5geln_Arena"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -586,7 +586,7 @@
 			"lng": 12.987806,
 			"x": 657.3,
 			"y": 1776.5,
-			"url": "https://en.wikipedia.org/wiki/Stadion,_Malm%C3%B6"
+			"wiki": "https://en.wikipedia.org/wiki/Stadion,_Malm%C3%B6"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -673,7 +673,7 @@
 			"lng": 18,
 			"x": 964.3,
 			"y": 1277.1,
-			"url": "https://en.wikipedia.org/wiki/Strawberry_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Strawberry_Arena"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -768,7 +768,7 @@
 			"lng": 16.173056,
 			"x": 852.4,
 			"y": 1381,
-			"url": "https://en.wikipedia.org/wiki/Nya_Parken"
+			"wiki": "https://en.wikipedia.org/wiki/Nya_Parken"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -839,7 +839,7 @@
 			"lng": 12.866389,
 			"x": 649.9,
 			"y": 1631.5,
-			"url": "https://en.wikipedia.org/wiki/%C3%96rjans_Vall"
+			"wiki": "https://en.wikipedia.org/wiki/%C3%96rjans_Vall"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -902,7 +902,7 @@
 			"lng": 14.042806,
 			"x": 721.9,
 			"y": 1564,
-			"url": "https://en.wikipedia.org/wiki/Finnvedsvallen"
+			"wiki": "https://en.wikipedia.org/wiki/Finnvedsvallen"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -949,7 +949,7 @@
 			"lng": 11.98014,
 			"x": 595.6,
 			"y": 1496.8,
-			"url": "https://en.wikipedia.org/wiki/Gamla_Ullevi"
+			"wiki": "https://en.wikipedia.org/wiki/Gamla_Ullevi"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -1020,7 +1020,7 @@
 			"lng": 14.716251,
 			"x": 763.2,
 			"y": 1720.1,
-			"url": "https://en.wikipedia.org/wiki/Strandvallen"
+			"wiki": "https://en.wikipedia.org/wiki/Strandvallen"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -1075,7 +1075,7 @@
 			"lng": 16.530669,
 			"x": 874.3,
 			"y": 1243.5,
-			"url": "https://en.wikipedia.org/wiki/Hitachi_Energy_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Hitachi_Energy_Arena"
 		},
 		"league": {
 			"api_football_id": 113,
@@ -1130,7 +1130,7 @@
 			"lng": 15.223056,
 			"x": 794.2,
 			"y": 1291.1,
-			"url": "https://en.wikipedia.org/wiki/Eyravallen"
+			"wiki": "https://en.wikipedia.org/wiki/Eyravallen"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1193,7 +1193,7 @@
 			"lng": 13.160983,
 			"x": 667.9,
 			"y": 1802.7,
-			"url": "https://en.wikipedia.org/wiki/V%C3%A5ngavallen"
+			"wiki": "https://en.wikipedia.org/wiki/V%C3%A5ngavallen"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1248,7 +1248,7 @@
 			"lng": 17.301278,
 			"x": 921.5,
 			"y": 878.8,
-			"url": "https://en.wikipedia.org/wiki/Idrottsparken_(Sundsvall)"
+			"wiki": "https://en.wikipedia.org/wiki/Idrottsparken_(Sundsvall)"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1319,7 +1319,7 @@
 			"lng": 14.655848,
 			"x": 759.5,
 			"y": 773.3,
-			"url": "https://en.wikipedia.org/wiki/J%C3%A4mtkraft_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/J%C3%A4mtkraft_Arena"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1390,7 +1390,7 @@
 			"lng": 12.706944,
 			"x": 640.1,
 			"y": 1715.1,
-			"url": "https://en.wikipedia.org/wiki/Olympia_(Helsingborg)"
+			"wiki": "https://en.wikipedia.org/wiki/Olympia_(Helsingborg)"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1469,7 +1469,7 @@
 			"lng": 17.135373,
 			"x": 911.3,
 			"y": 1103.2,
-			"url": "https://en.wikipedia.org/wiki/Gavlevallen"
+			"wiki": "https://en.wikipedia.org/wiki/Gavlevallen"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1524,7 +1524,7 @@
 			"lng": 11.98014,
 			"x": 595.6,
 			"y": 1496.8,
-			"url": "https://en.wikipedia.org/wiki/Gamla_Ullevi"
+			"wiki": "https://en.wikipedia.org/wiki/Gamla_Ullevi"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1595,7 +1595,7 @@
 			"lng": 12.26547,
 			"x": 613.1,
 			"y": 1576.9,
-			"url": "https://en.wikipedia.org/wiki/P%C3%A5skbergsvallen"
+			"wiki": "https://en.wikipedia.org/wiki/P%C3%A5skbergsvallen"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1658,7 +1658,7 @@
 			"lng": 14.443056,
 			"x": 746.4,
 			"y": 1294.8,
-			"url": "https://en.wikipedia.org/wiki/Stora_Valla"
+			"wiki": "https://en.wikipedia.org/wiki/Stora_Valla"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1721,7 +1721,7 @@
 			"lng": 14.776389,
 			"x": 766.8,
 			"y": 1605.7,
-			"url": "https://en.wikipedia.org/wiki/Visma_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Visma_Arena"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1784,7 +1784,7 @@
 			"lng": 15.433889,
 			"x": 807.1,
 			"y": 1129.1,
-			"url": "https://en.wikipedia.org/wiki/Domnarvsvallen"
+			"wiki": "https://en.wikipedia.org/wiki/Domnarvsvallen"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1831,7 +1831,7 @@
 			"lng": 12.83761,
 			"x": 648.1,
 			"y": 1736.2,
-			"url": "https://en.wikipedia.org/wiki/Landskrona_IP"
+			"wiki": "https://en.wikipedia.org/wiki/Landskrona_IP"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1886,7 +1886,7 @@
 			"lng": 16.773056,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Jernvallen"
+			"wiki": "https://en.wikipedia.org/wiki/Jernvallen"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1933,7 +1933,7 @@
 			"lng": 13.840556,
 			"x": 709.5,
 			"y": 1408.1,
-			"url": "https://en.wikipedia.org/wiki/S%C3%B6dermalms_IP"
+			"wiki": "https://en.wikipedia.org/wiki/S%C3%B6dermalms_IP"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1980,7 +1980,7 @@
 			"lng": 11.909444,
 			"x": 591.3,
 			"y": 1502.3,
-			"url": "https://en.wikipedia.org/wiki/Ruddalens_IP"
+			"wiki": "https://en.wikipedia.org/wiki/Ruddalens_IP"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -2027,7 +2027,7 @@
 			"lng": 11.936906,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 114,
@@ -2068,7 +2068,7 @@
 			"x1": 800,
 			"y": 1486.6,
 			"y1": 400,
-			"url": "https://en.wikipedia.org/wiki/Stadsparksvallen"
+			"wiki": "https://en.wikipedia.org/wiki/Stadsparksvallen"
 		},
 		"league": {},
 		"images": [
@@ -2128,7 +2128,7 @@
 			"x1": 800,
 			"y": 1277.4,
 			"y1": 500,
-			"url": "https://en.wikipedia.org/wiki/Tunavallen"
+			"wiki": "https://en.wikipedia.org/wiki/Tunavallen"
 		},
 		"league": {},
 		"images": [
@@ -2188,7 +2188,7 @@
 			"x1": 800,
 			"y": 1603.8,
 			"y1": 700,
-			"url": "https://en.wikipedia.org/wiki/Falcon_Alkoholfri_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Falcon_Alkoholfri_Arena"
 		},
 		"league": {},
 		"images": [
@@ -2240,7 +2240,7 @@
 			"x1": 900,
 			"y": 1301.5,
 			"y1": 800,
-			"url": "https://en.wikipedia.org/wiki/S%C3%B6dert%C3%A4lje_Fotbollsarena"
+			"wiki": "https://en.wikipedia.org/wiki/S%C3%B6dert%C3%A4lje_Fotbollsarena"
 		},
 		"league": {},
 		"images": [

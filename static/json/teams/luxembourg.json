@@ -18,7 +18,7 @@
 			"lng": 6.084722,
 			"x": 366.9,
 			"y": 765.8,
-			"url": "https://en.wikipedia.org/wiki/Stade_Jos_Nosbaum"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Jos_Nosbaum"
 		},
 		"league": {
 			"api_football_id": 261,
@@ -57,7 +57,7 @@
 			"lng": 5.989722,
 			"x": 300.7,
 			"y": 744.2,
-			"url": "https://en.wikipedia.org/wiki/Stade_%C3%89mile_Mayrisch"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_%C3%89mile_Mayrisch"
 		},
 		"league": {
 			"api_football_id": 261,
@@ -96,7 +96,7 @@
 			"lng": 5.9034,
 			"x": 240.6,
 			"y": 686.2,
-			"url": "https://en.wikipedia.org/wiki/Stade_Jos_Haupert"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Jos_Haupert"
 		},
 		"league": {
 			"api_football_id": 261,
@@ -135,7 +135,7 @@
 			"lng": 5.889765,
 			"x": 231.1,
 			"y": 720.9,
-			"url": "https://en.wikipedia.org/wiki/Stade_Municipal_de_la_Ville_de_Differdange"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Municipal_de_la_Ville_de_Differdange"
 		},
 		"league": {
 			"api_football_id": 261,
@@ -174,7 +174,7 @@
 			"lng": 6.140278,
 			"x": 405.6,
 			"y": 623.1,
-			"url": "https://en.wikipedia.org/wiki/Stade_Achille_Hammerel"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Achille_Hammerel"
 		},
 		"league": {
 			"api_football_id": 261,
@@ -213,7 +213,7 @@
 			"lng": 5.856485,
 			"x": 207.9,
 			"y": 674.3,
-			"url": "https://en.wikipedia.org/wiki/Stade_Municipal,_P%C3%A9tange"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Municipal,_P%C3%A9tange"
 		},
 		"league": {
 			"api_football_id": 261,
@@ -252,7 +252,7 @@
 			"lng": 5.976944,
 			"x": 291.8,
 			"y": 751.1,
-			"url": "https://en.wikipedia.org/wiki/Stade_de_la_Fronti%C3%A8re"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_de_la_Fronti%C3%A8re"
 		},
 		"league": {
 			"api_football_id": 261,
@@ -291,7 +291,7 @@
 			"lng": 6.071651,
 			"x": 357.8,
 			"y": 609,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 261,
@@ -330,7 +330,7 @@
 			"lng": 6.448519,
 			"x": 620.3,
 			"y": 534.7,
-			"url": "https://de.wikipedia.org/wiki/Stade_John_Gr%C3%BCn"
+			"wiki": "https://de.wikipedia.org/wiki/Stade_John_Gr%C3%BCn"
 		},
 		"league": {
 			"api_football_id": 261,
@@ -369,7 +369,7 @@
 			"lng": 6.505675,
 			"x": 660.2,
 			"y": 403.8,
-			"url": "https://en.wikipedia.org/wiki/VictoriArena"
+			"wiki": "https://en.wikipedia.org/wiki/VictoriArena"
 		},
 		"league": {
 			"api_football_id": 261,
@@ -408,7 +408,7 @@
 			"lng": 5.837260,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 261,
@@ -447,7 +447,7 @@
 			"lng": 6.227982,
 			"x": 466.7,
 			"y": 564.4,
-			"url": "https://de.wikipedia.org/wiki/Stade_Jos_Becker"
+			"wiki": "https://de.wikipedia.org/wiki/Stade_Jos_Becker"
 		},
 		"league": {
 			"api_football_id": 261,
@@ -486,7 +486,7 @@
 			"lng": 6.116626,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 261,
@@ -525,7 +525,7 @@
 			"lng": 5.941781,
 			"x": 267.3,
 			"y": 225.5,
-			"url": "https://en.wikipedia.org/wiki/Stade_Am_P%C3%ABtz"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Am_P%C3%ABtz"
 		},
 		"league": {
 			"api_football_id": 261,
@@ -564,7 +564,7 @@
 			"lng": 6.157408,
 			"x": 417.5,
 			"y": 655,
-			"url": "https://en.wikipedia.org/wiki/Stade_Alphonse_Theis"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Alphonse_Theis"
 		},
 		"league": {
 			"api_football_id": 261,
@@ -603,7 +603,7 @@
 			"lng": 5.978261,
 			"x": 292.7,
 			"y": 686.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 261,
@@ -642,7 +642,7 @@
 			"lng": 6.033157,
 			"x": 331,
 			"y": 782.3,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -676,7 +676,7 @@
 			"lng": 5.905852,
 			"x": 242.3,
 			"y": 668.3,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -710,7 +710,7 @@
 			"lng": 6.105889,
 			"x": 381.6,
 			"y": 468.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -744,7 +744,7 @@
 			"lng": 6.015372,
 			"x": 318.6,
 			"y": 724,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [

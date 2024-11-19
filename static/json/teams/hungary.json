@@ -18,7 +18,7 @@
 			"lng": 18.415278,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/S%C3%B3st%C3%B3i_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/S%C3%B3st%C3%B3i_Stadion"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -57,7 +57,7 @@
 			"lng": 19.095278,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Ferencv%C3%A1ros_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Ferencv%C3%A1ros_Stadion"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -136,7 +136,7 @@
 			"lng": 19.084722,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Szusza_Ferenc_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Szusza_Ferenc_Stadion"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -175,7 +175,7 @@
 			"lng": 18.8525,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Feh%C3%A9rv%C3%A1ri_%C3%BAti_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Feh%C3%A9rv%C3%A1ri_%C3%BAti_Stadion"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -214,7 +214,7 @@
 			"lng": 18.5868,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Pancho_Ar%C3%A9na"
+			"wiki": "https://en.wikipedia.org/wiki/Pancho_Ar%C3%A9na"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -293,7 +293,7 @@
 			"lng": 21.633333,
 			"x": 498.5,
 			"y": 253.8,
-			"url": "https://en.wikipedia.org/wiki/Nagyerdei_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Nagyerdei_Stadion"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -332,7 +332,7 @@
 			"lng": 20.717222,
 			"x": 415.8,
 			"y": 181.5,
-			"url": "https://en.wikipedia.org/wiki/Di%C3%B3sgy%C5%91ri_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Di%C3%B3sgy%C5%91ri_Stadion"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -371,7 +371,7 @@
 			"lng": 19.106667,
 			"x": 270.3,
 			"y": 262.2,
-			"url": "https://en.wikipedia.org/wiki/Hidegkuti_N%C3%A1ndor_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Hidegkuti_N%C3%A1ndor_Stadion"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -410,7 +410,7 @@
 			"lng": 17.663827,
 			"x": 140,
 			"y": 235,
-			"url": "https://en.wikipedia.org/wiki/ETO_Park"
+			"wiki": "https://en.wikipedia.org/wiki/ETO_Park"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -449,7 +449,7 @@
 			"lng": 21.349071,
 			"x": 472.9,
 			"y": 246.2,
-			"url": "https://en.wikipedia.org/wiki/Balmaz%C3%BAjv%C3%A1rosi_V%C3%A1rosi_Sportp%C3%A1lya"
+			"wiki": "https://en.wikipedia.org/wiki/Balmaz%C3%BAjv%C3%A1rosi_V%C3%A1rosi_Sportp%C3%A1lya"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -488,7 +488,7 @@
 			"lng": 16.848611,
 			"x": 66.4,
 			"y": 347.3,
-			"url": "https://en.wikipedia.org/wiki/ZTE_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/ZTE_Arena"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -527,7 +527,7 @@
 			"lng": 19.668889,
 			"x": 321.1,
 			"y": 340.3,
-			"url": "https://en.wikipedia.org/wiki/Sz%C3%A9kt%C3%B3i_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Sz%C3%A9kt%C3%B3i_Stadion"
 		},
 		"league": {
 			"api_football_id": 271,
@@ -566,7 +566,7 @@
 			"lng": 19.155,
 			"x": 274.7,
 			"y": 268.6,
-			"url": "https://en.wikipedia.org/wiki/Bozsik_Ar%C3%A9na"
+			"wiki": "https://en.wikipedia.org/wiki/Bozsik_Ar%C3%A9na"
 		},
 		"league": {
 			"api_football_id": 272,
@@ -605,7 +605,7 @@
 			"lng": 19.080473,
 			"x": 268,
 			"y": 256.1,
-			"url": "https://en.wikipedia.org/wiki/Illovszky_Rudolf_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Illovszky_Rudolf_Stadion"
 		},
 		"league": {
 			"api_football_id": 272,
@@ -644,7 +644,7 @@
 			"lng": 20.5673,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Mez%C5%91k%C3%B6vesdi_V%C3%A1rosi_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Mez%C5%91k%C3%B6vesdi_V%C3%A1rosi_Stadion"
 		},
 		"league": {
 			"api_football_id": 272,
@@ -683,7 +683,7 @@
 			"lng": 22.087968,
 			"x": 539.6,
 			"y": 164.8,
-			"url": "https://en.wikipedia.org/wiki/V%C3%A1rkerti_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/V%C3%A1rkerti_Stadion"
 		},
 		"league": {
 			"api_football_id": 272,
@@ -722,7 +722,7 @@
 			"lng": 17.5927,
 			"x": 133.6,
 			"y": 243.4,
-			"url": "https://en.wikipedia.org/wiki/M%C3%A9nf%C5%91i_%C3%BAti_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/M%C3%A9nf%C5%91i_%C3%BAti_Stadion"
 		},
 		"league": {
 			"api_football_id": 272,
@@ -761,7 +761,7 @@
 			"lng": 19.028208,
 			"x": 263.2,
 			"y": 271.3,
-			"url": "https://en.wikipedia.org/wiki/Promontor_utcai_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Promontor_utcai_Stadion"
 		},
 		"league": {
 			"api_football_id": 272,
@@ -800,7 +800,7 @@
 			"lng": 19.112656,
 			"x": 270.9,
 			"y": 275.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 272,
@@ -839,7 +839,7 @@
 			"lng": 21.105,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/K%C3%B3rh%C3%A1z_utcai_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/K%C3%B3rh%C3%A1z_utcai_Stadion"
 		},
 		"league": {
 			"api_football_id": 272,
@@ -902,7 +902,7 @@
 			"lng": 18.46809,
 			"x": 212.6,
 			"y": 274.1,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 272,
@@ -941,7 +941,7 @@
 			"lng": 20.610278,
 			"x": 406.1,
 			"y": 162.4,
-			"url": "https://en.wikipedia.org/wiki/Kolorcity_Ar%C3%A9na"
+			"wiki": "https://en.wikipedia.org/wiki/Kolorcity_Ar%C3%A9na"
 		},
 		"league": {
 			"api_football_id": 272,
@@ -980,7 +980,7 @@
 			"lng": 20.118139,
 			"x": 361.7,
 			"y": 425.1,
-			"url": "https://en.wikipedia.org/wiki/Szent_Gell%C3%A9rt_F%C3%B3rum"
+			"wiki": "https://en.wikipedia.org/wiki/Szent_Gell%C3%A9rt_F%C3%B3rum"
 		},
 		"league": {
 			"api_football_id": 272,
@@ -1019,7 +1019,7 @@
 			"lng": 18.290157,
 			"x": 196.6,
 			"y": 454.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 272,
@@ -1058,7 +1058,7 @@
 			"lng": 17.548335,
 			"x": 129.6,
 			"y": 312.6,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 272,
@@ -1097,7 +1097,7 @@
 			"lng": 19.091667,
 			"x": 269,
 			"y": 257.8,
-			"url": "https://en.wikipedia.org/wiki/Sz%C5%91nyi_%C3%BAti_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Sz%C5%91nyi_%C3%BAti_Stadion"
 		},
 		"league": {
 			"api_football_id": 272,
@@ -1136,7 +1136,7 @@
 			"lng": 17.990592,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 272,
@@ -1199,7 +1199,7 @@
 			"lng": 18.417775,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/V%C3%A1rosi_Stadion_(Tatab%C3%A1nya)"
+			"wiki": "https://en.wikipedia.org/wiki/V%C3%A1rosi_Stadion_(Tatab%C3%A1nya)"
 		},
 		"league": {
 			"api_football_id": 272,
@@ -1246,7 +1246,7 @@
 			"lng": 16.607117,
 			"x": 44.6,
 			"y": 296.1,
-			"url": "https://en.wikipedia.org/wiki/Halad%C3%A1s_Sportkomplexum"
+			"wiki": "https://en.wikipedia.org/wiki/Halad%C3%A1s_Sportkomplexum"
 		},
 		"league": {},
 		"images": [
@@ -1280,7 +1280,7 @@
 			"lng": 17.276806,
 			"x": 105.1,
 			"y": 210,
-			"url": "https://en.wikipedia.org/wiki/Wittmann_Antal_park"
+			"wiki": "https://en.wikipedia.org/wiki/Wittmann_Antal_park"
 		},
 		"league": {},
 		"images": [
@@ -1314,7 +1314,7 @@
 			"lng": 18.061389,
 			"x": 175.9,
 			"y": 339.3,
-			"url": "https://en.wikipedia.org/wiki/R%C3%A9v%C3%A9sz_G%C3%A9za_utcai_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/R%C3%A9v%C3%A9sz_G%C3%A9za_utcai_Stadion"
 		},
 		"league": {},
 		"images": [
@@ -1348,7 +1348,7 @@
 			"lng": 20.10552,
 			"x": 360.5,
 			"y": 335.8,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -1382,7 +1382,7 @@
 			"lng": 18.195891,
 			"x": 188.1,
 			"y": 450.7,
-			"url": "https://en.wikipedia.org/wiki/Stadion_PMFC"
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_PMFC"
 		},
 		"league": {},
 		"images": [

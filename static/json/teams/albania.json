@@ -18,7 +18,7 @@
 			"lng": 20.782778,
 			"x": 525.4,
 			"y": 534.7,
-			"url": "https://en.wikipedia.org/wiki/Sk%C3%ABnderbeu_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Sk%C3%ABnderbeu_Stadium"
 		},
 		"league": {
 			"api_football_id": 310,
@@ -57,7 +57,7 @@
 			"lng": 19.81131,
 			"x": 332.3,
 			"y": 352.6,
-			"url": "https://en.wikipedia.org/wiki/Selman_St%C3%ABrmasi_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Selman_St%C3%ABrmasi_Stadium"
 		},
 		"league": {
 			"api_football_id": 310,
@@ -96,7 +96,7 @@
 			"lng": 19.85127,
 			"x": 340.3,
 			"y": 342.8,
-			"url": "https://en.wikipedia.org/wiki/Arena_e_Demave"
+			"wiki": "https://en.wikipedia.org/wiki/Arena_e_Demave"
 		},
 		"league": {
 			"api_football_id": 310,
@@ -135,7 +135,7 @@
 			"lng": 19.711667,
 			"x": 312.5,
 			"y": 267.5,
-			"url": "https://en.wikipedia.org/wiki/La%C3%A7i_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/La%C3%A7i_Stadium"
 		},
 		"league": {
 			"api_football_id": 310,
@@ -174,7 +174,7 @@
 			"lng": 19.449856,
 			"x": 260.5,
 			"y": 350.7,
-			"url": "https://en.wikipedia.org/wiki/Niko_Dovana_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Niko_Dovana_Stadium"
 		},
 		"league": {
 			"api_football_id": 310,
@@ -213,7 +213,7 @@
 			"lng": 19.740833,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Adush_Mu%C3%A7a_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Adush_Mu%C3%A7a_Stadium"
 		},
 		"league": {
 			"api_football_id": 310,
@@ -252,7 +252,7 @@
 			"lng": 20.091992,
 			"x": 388.1,
 			"y": 405.9,
-			"url": "https://en.wikipedia.org/wiki/Elbasan_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Elbasan_Arena"
 		},
 		"league": {
 			"api_football_id": 310,
@@ -291,7 +291,7 @@
 			"lng": 19.661639,
 			"x": 302.6,
 			"y": 416.2,
-			"url": "https://en.wikipedia.org/wiki/Egnatia_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Egnatia_Arena"
 		},
 		"league": {
 			"api_football_id": 310,
@@ -330,7 +330,7 @@
 			"lng": 19.506558,
 			"x": 271.8,
 			"y": 155.1,
-			"url": "https://en.wikipedia.org/wiki/Loro_Bori%C3%A7i_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Loro_Bori%C3%A7i_Stadium"
 		},
 		"league": {
 			"api_football_id": 310,
@@ -369,7 +369,7 @@
 			"lng": 20.091992,
 			"x": 388.1,
 			"y": 405.9,
-			"url": "https://en.wikipedia.org/wiki/Elbasan_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Elbasan_Arena"
 		},
 		"league": {
 			"api_football_id": 310,
@@ -408,7 +408,7 @@
 			"lng": 20.420278,
 			"x": 453.4,
 			"y": 152.8,
-			"url": "https://en.wikipedia.org/wiki/Kuk%C3%ABs_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Kuk%C3%ABs_Arena"
 		},
 		"league": {
 			"api_football_id": 311,
@@ -447,7 +447,7 @@
 			"lng": 19.488986,
 			"x": 268.3,
 			"y": 579.4,
-			"url": "https://en.wikipedia.org/wiki/Flamurtari_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Flamurtari_Stadium"
 		},
 		"league": {
 			"api_football_id": 311,
@@ -486,7 +486,7 @@
 			"lng": 19.786667,
 			"x": 327.4,
 			"y": 301.8,
-			"url": "https://en.wikipedia.org/wiki/Redi_Maloku_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Redi_Maloku_Stadium"
 		},
 		"league": {
 			"api_football_id": 311,
@@ -525,7 +525,7 @@
 			"lng": 19.552222,
 			"x": 280.8,
 			"y": 509.8,
-			"url": "https://en.wikipedia.org/wiki/Loni_Papu%C3%A7iu_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Loni_Papu%C3%A7iu_Stadium"
 		},
 		"league": {
 			"api_football_id": 311,
@@ -564,7 +564,7 @@
 			"lng": 19.575,
 			"x": 285.4,
 			"y": 403.2,
-			"url": "https://en.wikipedia.org/wiki/Luz_i_Vog%C3%ABl_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Luz_i_Vog%C3%ABl_Stadium"
 		},
 		"league": {
 			"api_football_id": 311,
@@ -603,7 +603,7 @@
 			"lng": 20.006975,
 			"x": 371.2,
 			"y": 276.3,
-			"url": "https://en.wikipedia.org/wiki/Liri_Ballabani_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Liri_Ballabani_Stadium"
 		},
 		"league": {
 			"api_football_id": 311,
@@ -642,7 +642,7 @@
 			"lng": 19.931944,
 			"x": 356.3,
 			"y": 283.2,
-			"url": "https://en.wikipedia.org/wiki/Tofik_Jashari_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Tofik_Jashari_Stadium"
 		},
 		"league": {
 			"api_football_id": 311,
@@ -681,7 +681,7 @@
 			"lng": 20.425306,
 			"x": 454.4,
 			"y": 257.6,
-			"url": "https://en.wikipedia.org/wiki/Korabi_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Korabi_Stadium"
 		},
 		"league": {
 			"api_football_id": 311,
@@ -720,7 +720,7 @@
 			"lng": 19.709644,
 			"x": 312.1,
 			"y": 453.4,
-			"url": "https://en.wikipedia.org/wiki/Abdurrahman_Roza_Haxhiu_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Abdurrahman_Roza_Haxhiu_Stadium"
 		},
 		"league": {
 			"api_football_id": 311,
@@ -759,7 +759,7 @@
 			"lng": 20.663889,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Gjorgji_Ky%C3%A7yku_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Gjorgji_Ky%C3%A7yku_Stadium"
 		},
 		"league": {
 			"api_football_id": 311,
@@ -798,7 +798,7 @@
 			"lng": 19.64225163053985,
 			"x": 298.7,
 			"y": 330.3,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 311,
@@ -837,7 +837,7 @@
 			"lng": 20.073748,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 311,
@@ -884,7 +884,7 @@
 			"lng": 19.740833,
 			"x": 318.3,
 			"y": 541,
-			"url": "https://en.wikipedia.org/wiki/Adush_Mu%C3%A7a_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Adush_Mu%C3%A7a_Stadium"
 		},
 		"league": {},
 		"images": [
@@ -918,7 +918,7 @@
 			"lng": 19.964444,
 			"x": 362.8,
 			"y": 515.5,
-			"url": "https://en.wikipedia.org/wiki/Tomori_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Tomori_Stadium"
 		},
 		"league": {},
 		"images": [
@@ -952,7 +952,7 @@
 			"lng": 19.575,
 			"x": 285.4,
 			"y": 403.2,
-			"url": "https://en.wikipedia.org/wiki/Luz_i_Vog%C3%ABl_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Luz_i_Vog%C3%ABl_Stadium"
 		},
 		"league": {},
 		"images": [
@@ -986,7 +986,7 @@
 			"lng": 20.138092,
 			"x": 397.3,
 			"y": 677.9,
-			"url": "https://en.wikipedia.org/wiki/Gjirokastra_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Gjirokastra_Stadium"
 		},
 		"league": {},
 		"images": [

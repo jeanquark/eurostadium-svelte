@@ -18,7 +18,7 @@
 			"lng": 29.5575,
 			"x": 579.3,
 			"y": 420,
-			"url": "https://en.wikipedia.org/wiki/Sheriff_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Sheriff_Arena"
 		},
 		"league": {
 			"api_football_id": 394,
@@ -57,7 +57,7 @@
 			"lng": 28.8192,
 			"x": 451.3,
 			"y": 284.2,
-			"url": "https://en.wikipedia.org/wiki/CSR_Orhei"
+			"wiki": "https://en.wikipedia.org/wiki/CSR_Orhei"
 		},
 		"league": {
 			"api_football_id": 394,
@@ -96,7 +96,7 @@
 			"lng": 28.586687,
 			"x": 411,
 			"y": 423.3,
-			"url": "https://en.wikipedia.org/wiki/Stadionul_Municipal_(H%C3%AEnce%C8%99ti)"
+			"wiki": "https://en.wikipedia.org/wiki/Stadionul_Municipal_(H%C3%AEnce%C8%99ti)"
 		},
 		"league": {
 			"api_football_id": 394,
@@ -135,7 +135,7 @@
 			"lng": 28.866944,
 			"x": 459.6,
 			"y": 384,
-			"url": "https://en.wikipedia.org/wiki/Zimbru_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Zimbru_Stadium"
 		},
 		"league": {
 			"api_football_id": 394,
@@ -174,7 +174,7 @@
 			"lng": 28.7825,
 			"x": 445,
 			"y": 367,
-			"url": "https://en.wikipedia.org/wiki/Joma_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Joma_Arena"
 		},
 		"league": {
 			"api_football_id": 394,
@@ -213,7 +213,7 @@
 			"lng": 28.12508,
 			"x": 331,
 			"y": 131.8,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 394,
@@ -252,7 +252,7 @@
 			"lng": 28.923626,
 			"x": 469.4,
 			"y": 486.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 394,
@@ -291,7 +291,7 @@
 			"lng": 27.9332,
 			"x": 297.7,
 			"y": 184.9,
-			"url": "https://en.wikipedia.org/wiki/Stadionul_Or%C4%83%C8%99enesc_(B%C4%83l%C8%9Bi)"
+			"wiki": "https://en.wikipedia.org/wiki/Stadionul_Or%C4%83%C8%99enesc_(B%C4%83l%C8%9Bi)"
 		},
 		"league": {
 			"api_football_id": 394,
@@ -330,7 +330,7 @@
 			"lng": 28.8341,
 			"x": 453.9,
 			"y": 618.1,
-			"url": "https://en.wikipedia.org/wiki/Cead%C3%AEr-Lunga_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Cead%C3%AEr-Lunga_Stadium"
 		},
 		"league": {
 			"api_football_id": 395,
@@ -369,7 +369,7 @@
 			"lng": 29.004309,
 			"x": 483.4,
 			"y": 182.7,
-			"url": "https://en.wikipedia.org/wiki/Stadionul_Or%C4%83%C8%99enesc_(R%C3%AEbni%C8%9Ba)"
+			"wiki": "https://en.wikipedia.org/wiki/Stadionul_Or%C4%83%C8%99enesc_(R%C3%AEbni%C8%9Ba)"
 		},
 		"league": {
 			"api_football_id": 395,
@@ -408,7 +408,7 @@
 			"lng": 27.8134,
 			"x": 276.9,
 			"y": 117.1,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 395,
@@ -447,7 +447,7 @@
 			"lng": 28.7825,
 			"x": 445,
 			"y": 367,
-			"url": "https://en.wikipedia.org/wiki/Joma_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Joma_Arena"
 		},
 		"league": {
 			"api_football_id": 395,
@@ -486,7 +486,7 @@
 			"lng": 27.711561,
 			"x": 259.3,
 			"y": 233.4,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 395,
@@ -525,7 +525,7 @@
 			"lng": 28.658444,
 			"x": 423.5,
 			"y": 550.6,
-			"url": "https://en.wikipedia.org/wiki/Nisporeni_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Nisporeni_Stadium"
 		},
 		"league": {
 			"api_football_id": 395,
@@ -564,7 +564,7 @@
 			"lng": 29.5579,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Malaya_Sportivnaya_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Malaya_Sportivnaya_Arena"
 		},
 		"league": {
 			"api_football_id": 395,
@@ -603,7 +603,7 @@
 			"lng": 27.8,
 			"x": 274.6,
 			"y": 325.1,
-			"url": "https://en.wikipedia.org/wiki/Ungheni_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Ungheni_Stadium"
 		},
 		"league": {
 			"api_football_id": 395,
@@ -642,7 +642,7 @@
 			"lng": 28.867058,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 395,
@@ -681,7 +681,7 @@
 			"lng": 28.658444,
 			"x": 423.5,
 			"y": 550.6,
-			"url": "https://en.wikipedia.org/wiki/Nisporeni_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Nisporeni_Stadium"
 		},
 		"league": {
 			"api_football_id": 395,
@@ -720,7 +720,7 @@
 			"lng": 28.123045,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 395,
@@ -759,7 +759,7 @@
 			"lng": 28.18005,
 			"x": 340.5,
 			"y": 359.7,
-			"url": "https://en.wikipedia.org/wiki/Nisporeni_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Nisporeni_Stadium"
 		},
 		"league": {
 			"api_football_id": 395,

@@ -18,7 +18,7 @@
 			"lng": 42.3306,
 			"x": 273.9,
 			"y": 417.8,
-			"url": "https://en.wikipedia.org/wiki/Erosi_Manjgaladze_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Erosi_Manjgaladze_Stadium"
 		},
 		"league": {
 			"api_football_id": 327,
@@ -57,7 +57,7 @@
 			"lng": 42.683086,
 			"x": 315.5,
 			"y": 402.8,
-			"url": "https://en.wikipedia.org/wiki/Ramaz_Shengelia_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Ramaz_Shengelia_Stadium"
 		},
 		"league": {
 			"api_football_id": 327,
@@ -96,7 +96,7 @@
 			"lng": 41.774458,
 			"x": 208.2,
 			"y": 473.2,
-			"url": "https://en.wikipedia.org/wiki/Chele_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Chele_Arena"
 		},
 		"league": {
 			"api_football_id": 327,
@@ -135,7 +135,7 @@
 			"lng": 44.789722,
 			"x": 564.3,
 			"y": 487.5,
-			"url": "https://en.wikipedia.org/wiki/Boris_Paichadze_Dinamo_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Boris_Paichadze_Dinamo_Arena"
 		},
 		"league": {
 			"api_football_id": 327,
@@ -174,7 +174,7 @@
 			"lng": 44.103889,
 			"x": 483.3,
 			"y": 446.1,
-			"url": "https://en.wikipedia.org/wiki/Tengiz_Burjanadze_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Tengiz_Burjanadze_Stadium"
 		},
 		"league": {
 			"api_football_id": 327,
@@ -213,7 +213,7 @@
 			"lng": 44.746111,
 			"x": 559.1,
 			"y": 489.6,
-			"url": "https://en.wikipedia.org/wiki/Mikheil_Meskhi_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Mikheil_Meskhi_Stadium"
 		},
 		"league": {
 			"api_football_id": 327,
@@ -252,7 +252,7 @@
 			"lng": 44.779914,
 			"x": 563.1,
 			"y": 476.6,
-			"url": "https://de.wikipedia.org/wiki/Dawid-Petriaschwili-Stadion"
+			"wiki": "https://de.wikipedia.org/wiki/Dawid-Petriaschwili-Stadion"
 		},
 		"league": {
 			"api_football_id": 327,
@@ -291,7 +291,7 @@
 			"lng": 41.689904,
 			"x": 198.2,
 			"y": 420.1,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 327,
@@ -330,7 +330,7 @@
 			"lng": 45.480824,
 			"x": 645.9,
 			"y": 457.5,
-			"url": "https://en.wikipedia.org/wiki/Municipal_Stadium_(Telavi)"
+			"wiki": "https://en.wikipedia.org/wiki/Municipal_Stadium_(Telavi)"
 		},
 		"league": {
 			"api_football_id": 327,
@@ -369,7 +369,7 @@
 			"lng": 42.374825,
 			"x": 279.1,
 			"y": 376.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 327,
@@ -408,7 +408,7 @@
 			"lng": 44.746111,
 			"x": 559.1,
 			"y": 489.6,
-			"url": "https://en.wikipedia.org/wiki/Mikheil_Meskhi_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Mikheil_Meskhi_Stadium"
 		},
 		"league": {
 			"api_football_id": 326,
@@ -447,7 +447,7 @@
 			"lng": 44.970745,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 326,
@@ -486,7 +486,7 @@
 			"lng": 44.535186,
 			"x": 534.2,
 			"y": 531.3,
-			"url": "https://en.wikipedia.org/wiki/Tamaz_Stepania_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Tamaz_Stepania_Stadium"
 		},
 		"league": {
 			"api_football_id": 326,
@@ -525,7 +525,7 @@
 			"lng": 44.721492,
 			"x": 556.2,
 			"y": 467.7,
-			"url": "https://en.wikipedia.org/wiki/Mtskheta_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Mtskheta_Park"
 		},
 		"league": {
 			"api_football_id": 326,
@@ -564,7 +564,7 @@
 			"lng": 44.695998,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 326,
@@ -603,7 +603,7 @@
 			"lng": 41.904607,
 			"x": 223.6,
 			"y": 392.4,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 326,
@@ -642,7 +642,7 @@
 			"lng": 44.771445,
 			"x": 562.1,
 			"y": 478.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 326,
@@ -681,7 +681,7 @@
 			"lng": 0,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 326,
@@ -720,7 +720,7 @@
 			"lng": 0,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 326,
@@ -759,7 +759,7 @@
 			"lng": 0,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 326,
@@ -789,7 +789,7 @@
 			"lng": 41.774458,
 			"x": 208.2,
 			"y": 473.2,
-			"url": "https://en.wikipedia.org/wiki/Chele_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Chele_Arena"
 		},
 		"league": {},
 		"images": [
@@ -823,7 +823,7 @@
 			"lng": 44.80047,
 			"x": 565.5,
 			"y": 478.7,
-			"url": "https://en.wikipedia.org/wiki/Sport-kompleksi_Shatili"
+			"wiki": "https://en.wikipedia.org/wiki/Sport-kompleksi_Shatili"
 		},
 		"league": {},
 		"images": [
@@ -857,7 +857,7 @@
 			"lng": 42.374825,
 			"x": 279.1,
 			"y": 376.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [

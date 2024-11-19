@@ -18,7 +18,7 @@
 			"lng": 24.158839,
 			"x": 542.6,
 			"y": 600.9,
-			"url": "https://en.wikipedia.org/wiki/Daugava_Stadium_(Riga)"
+			"wiki": "https://en.wikipedia.org/wiki/Daugava_Stadium_(Riga)"
 		},
 		"league": {
 			"api_football_id": 365,
@@ -57,7 +57,7 @@
 			"lng": 24.175378,
 			"x": 545.4,
 			"y": 585.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 365,
@@ -96,7 +96,7 @@
 			"lng": 21.171166,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 365,
@@ -135,7 +135,7 @@
 			"lng": 23.11846,
 			"x": 368.9,
 			"y": 602,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 365,
@@ -174,7 +174,7 @@
 			"lng": 26.550619,
 			"x": 941.9,
 			"y": 933.3,
-			"url": "https://en.wikipedia.org/wiki/Celtnieks_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Celtnieks_Stadium"
 		},
 		"league": {
 			"api_football_id": 365,
@@ -213,7 +213,7 @@
 			"lng": 25.440471,
 			"x": 756.6,
 			"y": 420.6,
-			"url": "https://en.wikipedia.org/wiki/J%C4%81nis_Dali%C5%86%C5%A1_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/J%C4%81nis_Dali%C5%86%C5%A1_Stadium"
 		},
 		"league": {
 			"api_football_id": 365,
@@ -252,7 +252,7 @@
 			"lng": 24.118364,
 			"x": 535.8,
 			"y": 597.4,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 365,
@@ -291,7 +291,7 @@
 			"lng": 24.155,
 			"x": 542,
 			"y": 615.4,
-			"url": "https://en.wikipedia.org/wiki/LNK_Sporta_Parks"
+			"wiki": "https://en.wikipedia.org/wiki/LNK_Sporta_Parks"
 		},
 		"league": {
 			"api_football_id": 365,
@@ -330,7 +330,7 @@
 			"lng": 24.116408,
 			"x": 535.5,
 			"y": 599,
-			"url": "https://en.wikipedia.org/wiki/Skonto_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Skonto_Stadium"
 		},
 		"league": {
 			"api_football_id": 365,
@@ -369,7 +369,7 @@
 			"lng": 23.7558,
 			"x": 475.3,
 			"y": 691.5,
-			"url": "https://en.wikipedia.org/wiki/Zemgale_Olympic_Center"
+			"wiki": "https://en.wikipedia.org/wiki/Zemgale_Olympic_Center"
 		},
 		"league": {
 			"api_football_id": 365,
@@ -408,7 +408,7 @@
 			"lng": 24.339192,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 364,
@@ -447,7 +447,7 @@
 			"lng": 27.340755,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 364,
@@ -486,7 +486,7 @@
 			"lng": 25.921527,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 364,
@@ -525,7 +525,7 @@
 			"lng": 23.610199,
 			"x": 451,
 			"y": 602.6,
-			"url": "https://en.wikipedia.org/wiki/Sloka_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Sloka_Stadium"
 		},
 		"league": {
 			"api_football_id": 364,
@@ -564,7 +564,7 @@
 			"lng": 23.943825,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 364,
@@ -603,7 +603,7 @@
 			"lng": 23.937024,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 364,
@@ -642,7 +642,7 @@
 			"lng": 24.118364,
 			"x": 535.8,
 			"y": 597.4,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 364,
@@ -681,7 +681,7 @@
 			"lng": 24.175346,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 364,
@@ -720,7 +720,7 @@
 			"lng": 24.155260,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 364,
@@ -759,7 +759,7 @@
 			"lng": 23.139428,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 364,
@@ -798,7 +798,7 @@
 			"lng": 25.390023,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 364,
@@ -837,7 +837,7 @@
 			"lng": 24.605110,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 364,
@@ -867,7 +867,7 @@
 			"lng": 21.572101,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 364,
@@ -906,7 +906,7 @@
 			"lng": 24.155205,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 364,
@@ -936,7 +936,7 @@
 			"lng": 22.499993,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -970,7 +970,7 @@
 			"lng": 24.067518,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -1004,7 +1004,7 @@
 			"lng": 24.337041,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [

@@ -18,7 +18,7 @@
 			"lng": 24.659603,
 			"x": 274.5,
 			"y": 165.6,
-			"url": "https://en.wikipedia.org/wiki/Hiiu_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Hiiu_Stadium"
 		},
 		"league": {
 			"api_football_id": 329,
@@ -57,7 +57,7 @@
 			"lng": 24.731944,
 			"x": 281.4,
 			"y": 159.1,
-			"url": "https://en.wikipedia.org/wiki/Lillek%C3%BCla_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Lillek%C3%BCla_Stadium"
 		},
 		"league": {
 			"api_football_id": 329,
@@ -96,7 +96,7 @@
 			"lng": 24.731944,
 			"x": 281.4,
 			"y": 159.1,
-			"url": "https://en.wikipedia.org/wiki/Lillek%C3%BCla_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Lillek%C3%BCla_Stadium"
 		},
 		"league": {
 			"api_football_id": 329,
@@ -135,7 +135,7 @@
 			"lng": 28.1845,
 			"x": 609.4,
 			"y": 169.6,
-			"url": "https://en.wikipedia.org/wiki/Narva_Kreenholm_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Narva_Kreenholm_Stadium"
 		},
 		"league": {
 			"api_football_id": 329,
@@ -174,7 +174,7 @@
 			"lng": 24.503461,
 			"x": 259.6,
 			"y": 349.7,
-			"url": "https://en.wikipedia.org/wiki/P%C3%A4rnu_Rannastaadion"
+			"wiki": "https://en.wikipedia.org/wiki/P%C3%A4rnu_Rannastaadion"
 		},
 		"league": {
 			"api_football_id": 329,
@@ -213,7 +213,7 @@
 			"lng": 22.480172,
 			"x": 67.4,
 			"y": 373.9,
-			"url": "https://en.wikipedia.org/wiki/Kuressaare_linnastaadion"
+			"wiki": "https://en.wikipedia.org/wiki/Kuressaare_linnastaadion"
 		},
 		"league": {
 			"api_football_id": 329,
@@ -252,7 +252,7 @@
 			"lng": 25.54063,
 			"x": 358.2,
 			"y": 258,
-			"url": "https://en.wikipedia.org/wiki/Paide_linnastaadion"
+			"wiki": "https://en.wikipedia.org/wiki/Paide_linnastaadion"
 		},
 		"league": {
 			"api_football_id": 329,
@@ -291,7 +291,7 @@
 			"lng": 24.783444,
 			"x": 286.2,
 			"y": 156.7,
-			"url": "https://en.wikipedia.org/wiki/Kadriorg_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Kadriorg_Stadium"
 		},
 		"league": {
 			"api_football_id": 329,
@@ -330,7 +330,7 @@
 			"lng": 26.713728,
 			"x": 469.6,
 			"y": 351.2,
-			"url": "https://en.wikipedia.org/wiki/Tamme_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Tamme_Stadium"
 		},
 		"league": {
 			"api_football_id": 329,
@@ -369,7 +369,7 @@
 			"lng": 24.713514,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/M%C3%A4nniku_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/M%C3%A4nniku_Stadium"
 		},
 		"league": {
 			"api_football_id": 329,
@@ -408,7 +408,7 @@
 			"lng": 26.404954,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 328,
@@ -447,7 +447,7 @@
 			"lng": 24.817781,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 328,
@@ -486,7 +486,7 @@
 			"lng": 24.731944,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Lillek%C3%BCla_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Lillek%C3%BCla_Stadium"
 		},
 		"league": {
 			"api_football_id": 328,
@@ -525,7 +525,7 @@
 			"lng": 24.762747,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 328,
@@ -564,7 +564,7 @@
 			"lng": 26.773550,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 328,
@@ -603,7 +603,7 @@
 			"lng": 24.799900,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 328,
@@ -642,7 +642,7 @@
 			"lng": 24.834833,
 			"x": 291.1,
 			"y": 143,
-			"url": "https://en.wikipedia.org/wiki/Viimsi_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Viimsi_Stadium"
 		},
 		"league": {
 			"api_football_id": 328,
@@ -681,7 +681,7 @@
 			"lng": 25.54063,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Paide_linnastaadion"
+			"wiki": "https://en.wikipedia.org/wiki/Paide_linnastaadion"
 		},
 		"league": {
 			"api_football_id": 328,
@@ -720,7 +720,7 @@
 			"lng": 24.534222,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Tabasalu_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Tabasalu_Arena"
 		},
 		"league": {
 			"api_football_id": 328,
@@ -759,7 +759,7 @@
 			"lng": 24.616546,
 			"x": 270.4,
 			"y": 172,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 328,
@@ -798,7 +798,7 @@
 			"lng": 27.258936,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Kohtla-J%C3%A4rve_Spordikeskuse_staadion"
+			"wiki": "https://en.wikipedia.org/wiki/Kohtla-J%C3%A4rve_Spordikeskuse_staadion"
 		},
 		"league": {},
 		"images": [
@@ -832,7 +832,7 @@
 			"lng": 24.783444,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Kadriorg_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Kadriorg_Stadium"
 		},
 		"league": {},
 		"images": [
@@ -866,7 +866,7 @@
 			"lng": 26.773550,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [

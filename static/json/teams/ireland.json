@@ -18,7 +18,7 @@
 			"lng": -6.4166,
 			"x": 578.2,
 			"y": 270.7,
-			"url": "https://en.wikipedia.org/wiki/Oriel_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Oriel_Park"
 		},
 		"league": {
 			"api_football_id": 357,
@@ -81,7 +81,7 @@
 			"lng": -6.37371,
 			"x": 583.2,
 			"y": 410.9,
-			"url": "https://en.wikipedia.org/wiki/Tallaght_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Tallaght_Stadium"
 		},
 		"league": {
 			"api_football_id": 357,
@@ -144,7 +144,7 @@
 			"lng": -7.336111,
 			"x": 470.9,
 			"y": 77,
-			"url": "https://en.wikipedia.org/wiki/Ryan_McBride_Brandywell_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Ryan_McBride_Brandywell_Stadium"
 		},
 		"league": {
 			"api_football_id": 357,
@@ -207,7 +207,7 @@
 			"lng": -6.275,
 			"x": 594.8,
 			"y": 395.6,
-			"url": "https://en.wikipedia.org/wiki/Dalymount_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Dalymount_Park"
 		},
 		"league": {
 			"api_football_id": 357,
@@ -270,7 +270,7 @@
 			"lng": -8.487222,
 			"x": 336.6,
 			"y": 217.9,
-			"url": "https://en.wikipedia.org/wiki/The_Showgrounds,_Sligo"
+			"wiki": "https://en.wikipedia.org/wiki/The_Showgrounds,_Sligo"
 		},
 		"league": {
 			"api_football_id": 357,
@@ -333,7 +333,7 @@
 			"lng": -6.316667,
 			"x": 589.9,
 			"y": 399.6,
-			"url": "https://en.wikipedia.org/wiki/Richmond_Park_(football_ground)"
+			"wiki": "https://en.wikipedia.org/wiki/Richmond_Park_(football_ground)"
 		},
 		"league": {
 			"api_football_id": 357,
@@ -396,7 +396,7 @@
 			"lng": -7.124692,
 			"x": 495.6,
 			"y": 613.7,
-			"url": "https://en.wikipedia.org/wiki/Waterford_Regional_Sports_Centre"
+			"wiki": "https://en.wikipedia.org/wiki/Waterford_Regional_Sports_Centre"
 		},
 		"league": {
 			"api_football_id": 357,
@@ -459,7 +459,7 @@
 			"lng": -6.102778,
 			"x": 614.9,
 			"y": 426,
-			"url": "https://en.wikipedia.org/wiki/Carlisle_Grounds"
+			"wiki": "https://en.wikipedia.org/wiki/Carlisle_Grounds"
 		},
 		"league": {
 			"api_football_id": 357,
@@ -522,7 +522,7 @@
 			"lng": -6.357222,
 			"x": 585.2,
 			"y": 324.8,
-			"url": "https://en.wikipedia.org/wiki/United_Park"
+			"wiki": "https://en.wikipedia.org/wiki/United_Park"
 		},
 		"league": {
 			"api_football_id": 357,
@@ -585,7 +585,7 @@
 			"lng": -9.056389,
 			"x": 270.1,
 			"y": 410.6,
-			"url": "https://en.wikipedia.org/wiki/Eamonn_Deacy_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Eamonn_Deacy_Park"
 		},
 		"league": {
 			"api_football_id": 357,
@@ -648,7 +648,7 @@
 			"lng": -6.251944,
 			"x": 597.4,
 			"y": 394.4,
-			"url": "https://en.wikipedia.org/wiki/Tolka_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Tolka_Park"
 		},
 		"league": {
 			"api_football_id": 357,
@@ -711,7 +711,7 @@
 			"lng": -8.467778,
 			"x": 338.8,
 			"y": 684.3,
-			"url": "https://en.wikipedia.org/wiki/Turners_Cross_(stadium)"
+			"wiki": "https://en.wikipedia.org/wiki/Turners_Cross_(stadium)"
 		},
 		"league": {
 			"api_football_id": 358,
@@ -774,7 +774,7 @@
 			"lng": -7.778,
 			"x": 419.3,
 			"y": 114.7,
-			"url": "https://en.wikipedia.org/wiki/Finn_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Finn_Park"
 		},
 		"league": {
 			"api_football_id": 358,
@@ -837,7 +837,7 @@
 			"lng": -6.228056,
 			"x": 600.2,
 			"y": 405.6,
-			"url": "https://en.wikipedia.org/wiki/UCD_Bowl"
+			"wiki": "https://en.wikipedia.org/wiki/UCD_Bowl"
 		},
 		"league": {
 			"api_football_id": 358,
@@ -900,7 +900,7 @@
 			"lng": -7.919167,
 			"x": 402.9,
 			"y": 382.7,
-			"url": "https://en.wikipedia.org/wiki/Athlone_Town_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Athlone_Town_Stadium"
 		},
 		"league": {
 			"api_football_id": 358,
@@ -963,7 +963,7 @@
 			"lng": -6.102778,
 			"x": 614.9,
 			"y": 426,
-			"url": "https://en.wikipedia.org/wiki/Carlisle_Grounds"
+			"wiki": "https://en.wikipedia.org/wiki/Carlisle_Grounds"
 		},
 		"league": {
 			"api_football_id": 358,
@@ -1026,7 +1026,7 @@
 			"lng": -8.301389,
 			"x": 358.3,
 			"y": 690.8,
-			"url": "https://en.wikipedia.org/wiki/St_Colman%27s_Park"
+			"wiki": "https://en.wikipedia.org/wiki/St_Colman%27s_Park"
 		},
 		"league": {
 			"api_football_id": 358,
@@ -1089,7 +1089,7 @@
 			"lng": -7.854,
 			"x": 410.5,
 			"y": 324.7,
-			"url": "https://en.wikipedia.org/wiki/Bishopsgate_(stadium)"
+			"wiki": "https://en.wikipedia.org/wiki/Bishopsgate_(stadium)"
 		},
 		"league": {
 			"api_football_id": 358,
@@ -1152,7 +1152,7 @@
 			"lng": -6.515556,
 			"x": 566.7,
 			"y": 590.4,
-			"url": "https://en.wikipedia.org/wiki/Ferrycarrig_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Ferrycarrig_Park"
 		},
 		"league": {
 			"api_football_id": 358,
@@ -1215,7 +1215,7 @@
 			"lng": 0,
 			"x": 1327.1,
 			"y": 10831.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 358,
@@ -1278,7 +1278,7 @@
 			"lng": -8.6149,
 			"x": 321.7,
 			"y": 532.7,
-			"url": "https://en.wikipedia.org/wiki/Markets_Field"
+			"wiki": "https://en.wikipedia.org/wiki/Markets_Field"
 		},
 		"league": {
 			"api_football_id": 358,

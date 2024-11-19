@@ -18,7 +18,7 @@
 			"lng": 20.459097,
 			"x": 294.5,
 			"y": 253,
-			"url": "https://en.wikipedia.org/wiki/Partizan_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Partizan_Stadium"
 		},
 		"league": {
 			"api_football_id": 286,
@@ -57,7 +57,7 @@
 			"lng": 20.464722,
 			"x": 295.2,
 			"y": 254,
-			"url": "https://en.wikipedia.org/wiki/Red_Star_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Red_Star_Stadium"
 		},
 		"league": {
 			"api_football_id": 286,
@@ -96,7 +96,7 @@
 			"lng": 20.1325,
 			"x": 252.1,
 			"y": 420.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 286,
@@ -135,7 +135,7 @@
 			"lng": 19.842222,
 			"x": 214.4,
 			"y": 170.3,
-			"url": "https://en.wikipedia.org/wiki/Kara%C4%91or%C4%91e_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Kara%C4%91or%C4%91e_Stadium"
 		},
 		"league": {
 			"api_football_id": 286,
@@ -174,7 +174,7 @@
 			"lng": 19.676958,
 			"x": 193,
 			"y": 19.6,
-			"url": "https://en.wikipedia.org/wiki/Subotica_City_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Subotica_City_Stadium"
 		},
 		"league": {
 			"api_football_id": 286,
@@ -213,7 +213,7 @@
 			"lng": 21.908533,
 			"x": 482.7,
 			"y": 519,
-			"url": "https://en.wikipedia.org/wiki/%C4%8Cair_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/%C4%8Cair_Stadium"
 		},
 		"league": {
 			"api_football_id": 286,
@@ -252,7 +252,7 @@
 			"lng": 20.494047,
 			"x": 299,
 			"y": 248.2,
-			"url": "https://en.wikipedia.org/wiki/Omladinski_stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Omladinski_stadion"
 		},
 		"league": {
 			"api_football_id": 286,
@@ -291,7 +291,7 @@
 			"lng": 20.516067,
 			"x": 301.9,
 			"y": 551.7,
-			"url": "https://en.wikipedia.org/wiki/Novi_Pazar_City_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Novi_Pazar_City_Stadium"
 		},
 		"league": {
 			"api_football_id": 286,
@@ -330,7 +330,7 @@
 			"lng": 20.899194,
 			"x": 351.7,
 			"y": 391.6,
-			"url": "https://en.wikipedia.org/wiki/%C4%8Cika_Da%C4%8Da_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/%C4%8Cika_Da%C4%8Da_Stadium"
 		},
 		"league": {
 			"api_football_id": 286,
@@ -369,7 +369,7 @@
 			"lng": 19.627569,
 			"x": 186.6,
 			"y": 67.6,
-			"url": "https://en.wikipedia.org/wiki/TSC_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/TSC_Arena"
 		},
 		"league": {
 			"api_football_id": 286,
@@ -408,7 +408,7 @@
 			"lng": 21.338122,
 			"x": 408.6,
 			"y": 470.6,
-			"url": "https://en.wikipedia.org/wiki/Mladost_Stadium_(Kru%C5%A1evac)"
+			"wiki": "https://en.wikipedia.org/wiki/Mladost_Stadium_(Kru%C5%A1evac)"
 		},
 		"league": {
 			"api_football_id": 286,
@@ -447,7 +447,7 @@
 			"lng": 20.421639,
 			"x": 289.6,
 			"y": 255.9,
-			"url": "https://en.wikipedia.org/wiki/%C4%8Cukari%C4%8Dki_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/%C4%8Cukari%C4%8Dki_Stadium"
 		},
 		"league": {
 			"api_football_id": 286,
@@ -486,7 +486,7 @@
 			"lng": 20.373882,
 			"x": 283.4,
 			"y": 249.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 286,
@@ -525,7 +525,7 @@
 			"lng": 20.071385,
 			"x": 244.2,
 			"y": 313.6,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 286,
@@ -564,7 +564,7 @@
 			"lng": 20.662684,
 			"x": 320.9,
 			"y": 236.6,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 286,
@@ -603,7 +603,7 @@
 			"lng": 19.269958,
 			"x": 140.1,
 			"y": 122.2,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 286,
@@ -642,7 +642,7 @@
 			"lng": 20.090289,
 			"x": 246.6,
 			"y": 205.8,
-			"url": "https://en.wikipedia.org/wiki/In%C4%91ija_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/In%C4%91ija_Stadium"
 		},
 		"league": {
 			"api_football_id": 287,
@@ -681,7 +681,7 @@
 			"lng": 19.687784,
 			"x": 194.4,
 			"y": 260.6,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 287,
@@ -720,7 +720,7 @@
 			"lng": 19.846796,
 			"x": 215,
 			"y": 422.2,
-			"url": "https://en.wikipedia.org/wiki/Radomir_Anti%C4%87_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Radomir_Anti%C4%87_Stadium"
 		},
 		"league": {
 			"api_football_id": 287,
@@ -759,7 +759,7 @@
 			"lng": 20.398062,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 287,
@@ -798,7 +798,7 @@
 			"lng": 20.341406,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/%C4%8Ca%C4%8Dak_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/%C4%8Ca%C4%8Dak_Stadium"
 		},
 		"league": {
 			"api_football_id": 287,
@@ -853,7 +853,7 @@
 			"lng": 21.338122,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Mladost_Stadium_(Kru%C5%A1evac)"
+			"wiki": "https://en.wikipedia.org/wiki/Mladost_Stadium_(Kru%C5%A1evac)"
 		},
 		"league": {
 			"api_football_id": 287,
@@ -900,7 +900,7 @@
 			"lng": 20.227239,
 			"x": 264.4,
 			"y": 470.1,
-			"url": "https://en.wikipedia.org/wiki/Javor_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Javor_Stadium"
 		},
 		"league": {
 			"api_football_id": 287,
@@ -939,7 +939,7 @@
 			"lng": 22.1666,
 			"x": 516.2,
 			"y": 633.1,
-			"url": "https://en.wikipedia.org/wiki/Surdulica_City_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Surdulica_City_Stadium"
 		},
 		"league": {
 			"api_football_id": 287,
@@ -978,7 +978,7 @@
 			"lng": 20.490194,
 			"x": 298.5,
 			"y": 255.5,
-			"url": "https://en.wikipedia.org/wiki/Vo%C5%BEdovac_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Vo%C5%BEdovac_Stadium"
 		},
 		"league": {
 			"api_football_id": 287,
@@ -1017,7 +1017,7 @@
 			"lng": 20.442712,
 			"x": 292.4,
 			"y": 252.8,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 287,
@@ -1056,7 +1056,7 @@
 			"lng": 20.901733,
 			"x": 352,
 			"y": 276.1,
-			"url": "https://en.wikipedia.org/wiki/Smederevo_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Smederevo_Stadium"
 		},
 		"league": {
 			"api_football_id": 287,
@@ -1095,7 +1095,7 @@
 			"lng": 21.959828,
 			"x": 489.4,
 			"y": 577.7,
-			"url": "https://de.wikipedia.org/wiki/Dubo%C4%8Dica-Stadion"
+			"wiki": "https://de.wikipedia.org/wiki/Dubo%C4%8Dica-Stadion"
 		},
 		"league": {
 			"api_football_id": 287,
@@ -1134,7 +1134,7 @@
 			"lng": 21.309759,
 			"x": 405,
 			"y": 193.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 287,
@@ -1173,7 +1173,7 @@
 			"lng": 19.590075,
 			"x": 181.7,
 			"y": 218.9,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 287,
@@ -1212,7 +1212,7 @@
 			"lng": 19.794097,
 			"x": 208.2,
 			"y": 169.9,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 287,
@@ -1251,7 +1251,7 @@
 			"lng": 0,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 287,
@@ -1281,7 +1281,7 @@
 			"lng": 20.26625,
 			"x": 269.5,
 			"y": 326.1,
-			"url": "https://en.wikipedia.org/wiki/Kolubara_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Kolubara_Stadium"
 		},
 		"league": {},
 		"images": [
@@ -1315,7 +1315,7 @@
 			"lng": 20.466677,
 			"x": 295.5,
 			"y": 390.6,
-			"url": "https://en.wikipedia.org/wiki/Stadion_Metalac"
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_Metalac"
 		},
 		"league": {},
 		"images": [
@@ -1349,7 +1349,7 @@
 			"lng": 20.396106,
 			"x": 286.3,
 			"y": 246.4,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -1383,7 +1383,7 @@
 			"lng": 19.815087,
 			"x": 210.9,
 			"y": 166.7,
-			"url": "https://nl.wikipedia.org/wiki/Detelinarastadion"
+			"wiki": "https://nl.wikipedia.org/wiki/Detelinarastadion"
 		},
 		"league": {},
 		"images": [

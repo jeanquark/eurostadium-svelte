@@ -16,7 +16,11 @@ node calculateSVGCoord
 
     Specify values for year, start index as well as end index. Then visite url `/api/api-football/fetch-api-football-teams`
 
-* Calculate x and y coordinates for each stadium
+* Calculate x and y coordinates for each stadium (Svg map)
+
+    Call `/api/calculate-svg-coord?country=[COUNTRY_SLUG]`
+    It will update x & y values for each stadium.
+
 * Retrieve supabase url for each image
 
 ## Developer

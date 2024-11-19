@@ -18,7 +18,7 @@
 			"lng": 2.15555556,
 			"x": 376,
 			"y": 94.3,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -112,7 +112,7 @@
 			"lng": -3.59944444,
 			"x": 199.2,
 			"y": 130.4,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -199,7 +199,7 @@
 			"lng": -2.94805556,
 			"x": 219.2,
 			"y": 20.6,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -286,7 +286,7 @@
 			"lng": -0.35833333,
 			"x": 298.7,
 			"y": 167.8,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -389,7 +389,7 @@
 			"lng": -0.10361111,
 			"x": 306.6,
 			"y": 149.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -476,7 +476,7 @@
 			"lng": -15.45666667,
 			"x": -165.1,
 			"y": 609.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -555,7 +555,7 @@
 			"lng": -5.97055556,
 			"x": 126.3,
 			"y": 249,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -634,7 +634,7 @@
 			"lng": -3.7607,
 			"x": 194.2,
 			"y": 134.1,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -713,7 +713,7 @@
 			"lng": -8.73972222,
 			"x": 41.3,
 			"y": 61.4,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -800,7 +800,7 @@
 			"lng": 2.075667,
 			"x": 373.5,
 			"y": 95,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -879,7 +879,7 @@
 			"lng": -3.68805556,
 			"x": 196.5,
 			"y": 129.8,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -974,7 +974,7 @@
 			"lng": -2.68777778,
 			"x": 227.2,
 			"y": 37.1,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1053,7 +1053,7 @@
 			"lng": -5.98194444,
 			"x": 126,
 			"y": 250.1,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1140,7 +1140,7 @@
 			"lng": -3.71472222,
 			"x": 195.6,
 			"y": 134.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1211,7 +1211,7 @@
 			"lng": 2.82805556,
 			"x": 396.6,
 			"y": 71.1,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1298,7 +1298,7 @@
 			"lng": -1.97361111,
 			"x": 249.1,
 			"y": 19.1,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1377,7 +1377,7 @@
 			"lng": -4.761111,
 			"x": 163.5,
 			"y": 83.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1456,7 +1456,7 @@
 			"lng": -1.636944,
 			"x": 259.5,
 			"y": 38.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1551,7 +1551,7 @@
 			"lng": -3.658961,
 			"x": 197.3,
 			"y": 132.1,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1622,7 +1622,7 @@
 			"lng": 2.63,
 			"x": 390.5,
 			"y": 163.3,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1717,7 +1717,7 @@
 			"lng": -4.4266,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/La_Rosaleda_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/La_Rosaleda_Stadium"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -1796,7 +1796,7 @@
 			"lng": -0.364167,
 			"x": 298.6,
 			"y": 167,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -1875,7 +1875,7 @@
 			"lng": -8.4175,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Estadio_Riazor"
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Riazor"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -1938,7 +1938,7 @@
 			"lng": -2.475803,
 			"x": 233.7,
 			"y": 23.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2001,7 +2001,7 @@
 			"lng": -4.764642,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Estadio_Nuevo_Arc%C3%A1ngel"
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Nuevo_Arc%C3%A1ngel"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2064,7 +2064,7 @@
 			"lng": -3.595833,
 			"x": 199.3,
 			"y": 258,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2135,7 +2135,7 @@
 			"lng": -5.870222,
 			"x": 129.4,
 			"y": 16.8,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2214,7 +2214,7 @@
 			"lng": -16.260556,
 			"x": -189.8,
 			"y": 595.6,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2293,7 +2293,7 @@
 			"lng": -1.852142,
 			"x": 252.9,
 			"y": 187,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2364,7 +2364,7 @@
 			"lng": -2.435278,
 			"x": 234.9,
 			"y": 270.1,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2427,7 +2427,7 @@
 			"lng": -6.273056,
 			"x": 117,
 			"y": 283.2,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2506,7 +2506,7 @@
 			"lng": -0.424444,
 			"x": 296.7,
 			"y": 64.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2585,7 +2585,7 @@
 			"lng": -5.637222,
 			"x": 136.6,
 			"y": 10,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2680,7 +2680,7 @@
 			"lng": -0.901822,
 			"x": 282,
 			"y": 83.8,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2759,7 +2759,7 @@
 			"lng": -0.663333,
 			"x": 289.4,
 			"y": 214.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2846,7 +2846,7 @@
 			"lng": -2.935556,
 			"x": 219.6,
 			"y": 43.2,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2917,7 +2917,7 @@
 			"lng": -3.793333,
 			"x": 193.2,
 			"y": 12.3,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -3004,7 +3004,7 @@
 			"lng": -0.038792,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Nou_Estadi_Cast%C3%A0lia"
+			"wiki": "https://en.wikipedia.org/wiki/Nou_Estadi_Cast%C3%A0lia"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -3067,7 +3067,7 @@
 			"lng": 240.4,
 			"x": 7694.9,
 			"y": -10592.2,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -3146,7 +3146,7 @@
 			"lng": -8.239274,
 			"x": 56.6,
 			"y": 11.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -3233,7 +3233,7 @@
 			"lng": -3.680556,
 			"x": 196.7,
 			"y": 56.3,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,
@@ -3304,7 +3304,7 @@
 			"lng": -0.796031,
 			"x": 285.3,
 			"y": 206.9,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 141,

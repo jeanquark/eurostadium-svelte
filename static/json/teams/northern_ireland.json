@@ -18,7 +18,7 @@
 			"lng": -5.955278,
 			"x": 104.4,
 			"y": 70.9,
-			"url": "https://en.wikipedia.org/wiki/Windsor_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Windsor_Park"
 		},
 		"league": {},
 		"images": [
@@ -52,7 +52,7 @@
 			"lng": -6.26507,
 			"x": 89.9,
 			"y": 47.7,
-			"url": "https://en.wikipedia.org/wiki/Ballymena_Showgrounds"
+			"wiki": "https://en.wikipedia.org/wiki/Ballymena_Showgrounds"
 		},
 		"league": {},
 		"images": [
@@ -86,7 +86,7 @@
 			"lng": -6.660278,
 			"x": 71.3,
 			"y": 26.5,
-			"url": "https://en.wikipedia.org/wiki/The_Showgrounds_(Coleraine)"
+			"wiki": "https://en.wikipedia.org/wiki/The_Showgrounds_(Coleraine)"
 		},
 		"league": {},
 		"images": [
@@ -120,7 +120,7 @@
 			"lng": -5.921925,
 			"x": 106,
 			"y": 67.5,
-			"url": "https://en.wikipedia.org/wiki/Seaview_(football_ground)"
+			"wiki": "https://en.wikipedia.org/wiki/Seaview_(football_ground)"
 		},
 		"league": {},
 		"images": [
@@ -154,7 +154,7 @@
 			"lng": -5.947222,
 			"x": 104.8,
 			"y": 67.9,
-			"url": "https://en.wikipedia.org/wiki/Solitude_(football_ground)"
+			"wiki": "https://en.wikipedia.org/wiki/Solitude_(football_ground)"
 		},
 		"league": {},
 		"images": [
@@ -188,7 +188,7 @@
 			"lng": -6.336389,
 			"x": 86.5,
 			"y": 81.2,
-			"url": "https://en.wikipedia.org/wiki/Mourneview_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Mourneview_Park"
 		},
 		"league": {},
 		"images": [
@@ -222,7 +222,7 @@
 			"lng": -6.611441,
 			"x": 73.6,
 			"y": 85,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -256,7 +256,7 @@
 			"lng": -6.320606,
 			"x": 87.3,
 			"y": 105.7,
-			"url": "https://en.wikipedia.org/wiki/The_Showgrounds_(Newry)"
+			"wiki": "https://en.wikipedia.org/wiki/The_Showgrounds_(Newry)"
 		},
 		"league": {},
 		"images": [
@@ -290,7 +290,7 @@
 			"lng": -5.800278,
 			"x": 111.7,
 			"y": 59.8,
-			"url": "https://en.wikipedia.org/wiki/Taylors_Avenue"
+			"wiki": "https://en.wikipedia.org/wiki/Taylors_Avenue"
 		},
 		"league": {},
 		"images": [
@@ -324,7 +324,7 @@
 			"lng": -6.746,
 			"x": 67.3,
 			"y": 78.4,
-			"url": "https://en.wikipedia.org/wiki/Stangmore_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Stangmore_Park"
 		},
 		"league": {},
 		"images": [
@@ -358,7 +358,7 @@
 			"lng": -5.891319,
 			"x": 107.4,
 			"y": 69.2,
-			"url": "https://en.wikipedia.org/wiki/The_Oval_(Belfast)"
+			"wiki": "https://en.wikipedia.org/wiki/The_Oval_(Belfast)"
 		},
 		"league": {},
 		"images": [
@@ -392,7 +392,7 @@
 			"lng": -7.336111,
 			"x": 39.5,
 			"y": 38,
-			"url": "https://en.wikipedia.org/wiki/Ryan_McBride_Brandywell_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Ryan_McBride_Brandywell_Stadium"
 		},
 		"league": {},
 		"images": [
@@ -426,7 +426,7 @@
 			"lng": -5.826258,
 			"x": 110.5,
 			"y": 49.3,
-			"url": "https://en.wikipedia.org/wiki/Inver_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Inver_Park"
 		},
 		"league": {},
 		"images": [
@@ -460,7 +460,7 @@
 			"lng": -5.684475,
 			"x": 117.2,
 			"y": 65.3,
-			"url": "https://en.wikipedia.org/wiki/Clandeboye_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Clandeboye_Park"
 		},
 		"league": {},
 		"images": [
@@ -494,7 +494,7 @@
 			"lng": -7.59975,
 			"x": 27.2,
 			"y": 84.4,
-			"url": "https://en.wikipedia.org/wiki/Ferney_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Ferney_Park"
 		},
 		"league": {},
 		"images": [
@@ -528,7 +528,7 @@
 			"lng": -6.001942,
 			"x": 102.2,
 			"y": 57.3,
-			"url": "https://en.wikipedia.org/wiki/Dixon_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Dixon_Park"
 		},
 		"league": {},
 		"images": [
@@ -562,7 +562,7 @@
 			"lng": -7.599728,
 			"x": 27.2,
 			"y": 60.8,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -596,7 +596,7 @@
 			"lng": -5.878344,
 			"x": 108.1,
 			"y": 69.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -630,7 +630,7 @@
 			"lng": -5.865489,
 			"x": 108.7,
 			"y": 68.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -664,7 +664,7 @@
 			"lng": -5.854394,
 			"x": 109.2,
 			"y": 72,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -698,7 +698,7 @@
 			"lng": -6.457778,
 			"x": 80.8,
 			"y": 84.5,
-			"url": "https://en.wikipedia.org/wiki/Shamrock_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Shamrock_Park"
 		},
 		"league": {},
 		"images": [
@@ -732,7 +732,7 @@
 			"lng": -6.438282,
 			"x": 81.7,
 			"y": 84.8,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -766,7 +766,7 @@
 			"lng": -6.626184,
 			"x": 72.9,
 			"y": 90.5,
-			"url": "https://en.wikipedia.org/wiki/Holm_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Holm_Park"
 		},
 		"league": {},
 		"images": [
@@ -800,7 +800,7 @@
 			"lng": -5.684475,
 			"x": 117.2,
 			"y": 65.3,
-			"url": "https://en.wikipedia.org/wiki/Clandeboye_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Clandeboye_Park"
 		},
 		"league": {},
 		"images": [
@@ -834,7 +834,7 @@
 			"lng": -5.826258,
 			"x": 110.5,
 			"y": 49.3,
-			"url": "https://en.wikipedia.org/wiki/Inver_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Inver_Park"
 		},
 		"league": {},
 		"images": [

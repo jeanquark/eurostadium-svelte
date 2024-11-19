@@ -2,8 +2,10 @@ import { json } from '@sveltejs/kit';
 import { promises as fs } from "fs";
 import { env } from '$env/dynamic/private';
 
-export async function GET() {
+export async function GET({ url }) {
     console.log('[api/api-football/fetch-eurostadium-teams]', new Date())
+
+    console.log('[api/api-football/fetch-eurostadium-teams] season: ', url.searchParams.get('season'));
 
     const SEASON = 2024;
     const COUNTRY_START_INDEX = 46

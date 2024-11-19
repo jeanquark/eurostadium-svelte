@@ -18,7 +18,7 @@
 			"lng": 32.939167,
 			"x": 174.8,
 			"y": 430.4,
-			"url": "https://en.wikipedia.org/wiki/Alphamega_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Alphamega_Stadium"
 		},
 		"league": {
 			"api_football_id": 318,
@@ -57,7 +57,7 @@
 			"lng": 33.597778,
 			"x": 347.2,
 			"y": 356.1,
-			"url": "https://en.wikipedia.org/wiki/AEK_Arena_%E2%80%93_Georgios_Karapatakis"
+			"wiki": "https://en.wikipedia.org/wiki/AEK_Arena_%E2%80%93_Georgios_Karapatakis"
 		},
 		"league": {
 			"api_football_id": 318,
@@ -96,7 +96,7 @@
 			"lng": 33.362833,
 			"x": 285.7,
 			"y": 296.1,
-			"url": "https://en.wikipedia.org/wiki/GSP_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/GSP_Stadium"
 		},
 		"league": {
 			"api_football_id": 318,
@@ -135,7 +135,7 @@
 			"lng": 33.620833,
 			"x": 353.3,
 			"y": 352.6,
-			"url": "https://en.wikipedia.org/wiki/Antonis_Papadopoulos_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Antonis_Papadopoulos_Stadium"
 		},
 		"league": {
 			"api_football_id": 318,
@@ -174,7 +174,7 @@
 			"lng": 32.939167,
 			"x": 174.8,
 			"y": 430.4,
-			"url": "https://en.wikipedia.org/wiki/Alphamega_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Alphamega_Stadium"
 		},
 		"league": {
 			"api_football_id": 318,
@@ -213,7 +213,7 @@
 			"lng": 33.987222,
 			"x": 449.2,
 			"y": 322.8,
-			"url": "https://en.wikipedia.org/wiki/Paralimni_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Paralimni_Stadium"
 		},
 		"league": {
 			"api_football_id": 318,
@@ -252,7 +252,7 @@
 			"lng": 33.613056,
 			"x": 351.2,
 			"y": 355,
-			"url": "https://en.wikipedia.org/wiki/Ammochostos_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Ammochostos_Stadium"
 		},
 		"league": {
 			"api_football_id": 318,
@@ -291,7 +291,7 @@
 			"lng": 33.362833,
 			"x": 285.7,
 			"y": 296.1,
-			"url": "https://en.wikipedia.org/wiki/GSP_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/GSP_Stadium"
 		},
 		"league": {
 			"api_football_id": 318,
@@ -330,7 +330,7 @@
 			"lng": 32.440144,
 			"x": 44.1,
 			"y": 406.2,
-			"url": "https://en.wikipedia.org/wiki/Stelios_Kyriakides_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Stelios_Kyriakides_Stadium"
 		},
 		"league": {
 			"api_football_id": 318,
@@ -369,7 +369,7 @@
 			"lng": 32.939167,
 			"x": 174.8,
 			"y": 430.4,
-			"url": "https://en.wikipedia.org/wiki/Alphamega_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Alphamega_Stadium"
 		},
 		"league": {
 			"api_football_id": 318,
@@ -408,7 +408,7 @@
 			"lng": 33.765,
 			"x": 391,
 			"y": 321.8,
-			"url": "https://en.wikipedia.org/wiki/Dasaki_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Dasaki_Stadium"
 		},
 		"league": {
 			"api_football_id": 318,
@@ -447,7 +447,7 @@
 			"lng": 32.988743,
 			"x": 187.8,
 			"y": 427.6,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 318,
@@ -486,7 +486,7 @@
 			"lng": 33.587935,
 			"x": 344.6,
 			"y": 349,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 318,
@@ -525,7 +525,7 @@
 			"lng": 33.314444,
 			"x": 273,
 			"y": 286,
-			"url": "https://en.wikipedia.org/wiki/Makario_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Makario_Stadium"
 		},
 		"league": {
 			"api_football_id": 318,
@@ -564,7 +564,7 @@
 			"lng": 33.083889,
 			"x": 212.7,
 			"y": 291.4,
-			"url": "https://en.wikipedia.org/wiki/Katokopia_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Katokopia_Stadium"
 		},
 		"league": {
 			"api_football_id": 319,
@@ -603,7 +603,7 @@
 			"lng": 33.160754,
 			"x": 232.8,
 			"y": 416.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 319,
@@ -642,7 +642,7 @@
 			"lng": 33.597778,
 			"x": 347.2,
 			"y": 356.1,
-			"url": "https://en.wikipedia.org/wiki/AEK_Arena_%E2%80%93_Georgios_Karapatakis"
+			"wiki": "https://en.wikipedia.org/wiki/AEK_Arena_%E2%80%93_Georgios_Karapatakis"
 		},
 		"league": {
 			"api_football_id": 319,
@@ -681,7 +681,7 @@
 			"lng": 32.4126,
 			"x": 36.9,
 			"y": 398.8,
-			"url": "https://en.wikipedia.org/wiki/Chloraka_Municipal_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Chloraka_Municipal_Stadium"
 		},
 		"league": {
 			"api_football_id": 319,
@@ -720,7 +720,7 @@
 			"lng": 33.956370,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 319,
@@ -759,7 +759,7 @@
 			"lng": 34.006609,
 			"x": 454.3,
 			"y": 334.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 319,
@@ -798,7 +798,7 @@
 			"lng": 33.396129,
 			"x": 294.4,
 			"y": 326.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 319,
@@ -837,7 +837,7 @@
 			"lng": 33.314444,
 			"x": 273,
 			"y": 286,
-			"url": "https://en.wikipedia.org/wiki/Makario_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Makario_Stadium"
 		},
 		"league": {
 			"api_football_id": 319,
@@ -876,7 +876,7 @@
 			"lng": 33.532742,
 			"x": 330.2,
 			"y": 312.9,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 319,
@@ -915,7 +915,7 @@
 			"lng": 33.318033,
 			"x": 274,
 			"y": 290.3,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 319,
@@ -954,7 +954,7 @@
 			"lng": 33.314444,
 			"x": 273,
 			"y": 286,
-			"url": "https://en.wikipedia.org/wiki/Makario_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Makario_Stadium"
 		},
 		"league": {
 			"api_football_id": 319,
@@ -993,7 +993,7 @@
 			"lng": 32.955103,
 			"x": 179,
 			"y": 434.9,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 319,
@@ -1032,7 +1032,7 @@
 			"lng": 33.418353,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 319,
@@ -1071,7 +1071,7 @@
 			"lng": 32.382491,
 			"x": 29.1,
 			"y": 372.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 319,
@@ -1110,7 +1110,7 @@
 			"lng": 33.936502,
 			"x": 435.9,
 			"y": 324.9,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 319,
@@ -1149,7 +1149,7 @@
 			"lng": 33.575425,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 319,
@@ -1188,7 +1188,7 @@
 			"lng": 33.587935,
 			"x": 344.6,
 			"y": 349,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -1222,7 +1222,7 @@
 			"lng": 32.432488,
 			"x": 42.1,
 			"y": 320.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -1256,7 +1256,7 @@
 			"lng": 33.765,
 			"x": 391,
 			"y": 321.8,
-			"url": "https://en.wikipedia.org/wiki/Dasaki_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Dasaki_Stadium"
 		},
 		"league": {},
 		"images": [

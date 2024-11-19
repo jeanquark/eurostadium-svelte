@@ -18,7 +18,7 @@
 			"lng": 28.994722,
 			"x": 163.8,
 			"y": 56.4,
-			"url": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -89,7 +89,7 @@
 			"lng": 28.808611,
 			"x": 156.1,
 			"y": 51.9,
-			"url": "https://en.wikipedia.org/wiki/Ba%C5%9Fak%C5%9Fehir_Fatih_Terim_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Ba%C5%9Fak%C5%9Fehir_Fatih_Terim_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -160,7 +160,7 @@
 			"lng": 32.488,
 			"x": 308.4,
 			"y": 220.7,
-			"url": "https://en.wikipedia.org/wiki/Konya_Metropolitan_Municipality_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Konya_Metropolitan_Municipality_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -231,7 +231,7 @@
 			"lng": 29.036944,
 			"x": 165.6,
 			"y": 59.1,
-			"url": "https://en.wikipedia.org/wiki/%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -310,7 +310,7 @@
 			"lng": 28.990556,
 			"x": 163.7,
 			"y": 53,
-			"url": "https://en.wikipedia.org/wiki/Rams_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Rams_Park"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -381,7 +381,7 @@
 			"lng": 27.07595,
 			"x": 84.4,
 			"y": 196.8,
-			"url": "https://en.wikipedia.org/wiki/G%C3%BCrsel_Aksel_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/G%C3%BCrsel_Aksel_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -444,7 +444,7 @@
 			"lng": 32.0792,
 			"x": 291.4,
 			"y": 294.3,
-			"url": "https://en.wikipedia.org/wiki/Alanya_Oba_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Alanya_Oba_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -507,7 +507,7 @@
 			"lng": 39.645833,
 			"x": 604.5,
 			"y": 58.5,
-			"url": "https://en.wikipedia.org/wiki/%C5%9Eenol_G%C3%BCne%C5%9F_Sports_Complex"
+			"wiki": "https://en.wikipedia.org/wiki/%C5%9Eenol_G%C3%BCne%C5%9F_Sports_Complex"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -578,7 +578,7 @@
 			"lng": 35.423056,
 			"x": 429.8,
 			"y": 178.7,
-			"url": "https://en.wikipedia.org/wiki/Kadir_Has_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Kadir_Has_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -649,7 +649,7 @@
 			"lng": 36.983889,
 			"x": 494.4,
 			"y": 126,
-			"url": "https://en.wikipedia.org/wiki/New_Sivas_4_Eyl%C3%BCl_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/New_Sivas_4_Eyl%C3%BCl_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -712,7 +712,7 @@
 			"lng": 28.97222222,
 			"x": 162.9,
 			"y": 56.7,
-			"url": "https://en.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -775,7 +775,7 @@
 			"lng": 30.66888889,
 			"x": 233.1,
 			"y": 276.9,
-			"url": "https://en.wikipedia.org/wiki/Antalya_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Antalya_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -838,7 +838,7 @@
 			"lng": 40.5733,
 			"x": 642.9,
 			"y": 56.2,
-			"url": "https://en.wikipedia.org/wiki/Rize_City_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Rize_City_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -901,7 +901,7 @@
 			"lng": 35.375,
 			"x": 427.8,
 			"y": 267.7,
-			"url": "https://en.wikipedia.org/wiki/New_Adana_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/New_Adana_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -964,7 +964,7 @@
 			"lng": 37.3825,
 			"x": 510.9,
 			"y": 264.4,
-			"url": "https://en.wikipedia.org/wiki/Gaziantep_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Gaziantep_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -1035,7 +1035,7 @@
 			"lng": 34.538611,
 			"x": 393.2,
 			"y": 280.6,
-			"url": "https://en.wikipedia.org/wiki/Mersin_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Mersin_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -1098,7 +1098,7 @@
 			"lng": 27.431667,
 			"x": 99.2,
 			"y": 268.9,
-			"url": "https://de.wikipedia.org/wiki/Bodrum_%C4%B0l%C3%A7e_Stadyumu"
+			"wiki": "https://de.wikipedia.org/wiki/Bodrum_%C4%B0l%C3%A7e_Stadyumu"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -1145,7 +1145,7 @@
 			"lng": 28.93,
 			"x": 161.1,
 			"y": 55.9,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 203,
@@ -1192,7 +1192,7 @@
 			"lng": 36.4575,
 			"x": 472.6,
 			"y": 46.3,
-			"url": "https://en.wikipedia.org/wiki/Samsun_19_May%C4%B1s_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Samsun_19_May%C4%B1s_Stadium"
 		},
 		"league": {
 			"api_football_id": 203,
@@ -1263,7 +1263,7 @@
 			"lng": 32.613889,
 			"x": 313.6,
 			"y": 112.6,
-			"url": "https://en.wikipedia.org/wiki/Eryaman_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Eryaman_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -1326,7 +1326,7 @@
 			"lng": 38.445833,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/New_Malatya_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/New_Malatya_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -1389,7 +1389,7 @@
 			"lng": 41.238056,
 			"x": 670.4,
 			"y": 116.3,
-			"url": "https://en.wikipedia.org/wiki/Kaz%C4%B1m_Karabekir_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Kaz%C4%B1m_Karabekir_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -1444,7 +1444,7 @@
 			"lng": 32.613889,
 			"x": 313.6,
 			"y": 112.6,
-			"url": "https://en.wikipedia.org/wiki/Eryaman_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Eryaman_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -1507,7 +1507,7 @@
 			"lng": 35.375,
 			"x": 427.8,
 			"y": 267.7,
-			"url": "https://en.wikipedia.org/wiki/New_Adana_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/New_Adana_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -1570,7 +1570,7 @@
 			"lng": 31.60675,
 			"x": 271.9,
 			"y": 72.5,
-			"url": "https://en.wikipedia.org/wiki/Bolu_Atat%C3%BCrk_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Bolu_Atat%C3%BCrk_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -1633,7 +1633,7 @@
 			"lng": 29.109389,
 			"x": 168.6,
 			"y": 55.3,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 204,
@@ -1688,7 +1688,7 @@
 			"lng": 28.697778,
 			"x": 151.5,
 			"y": 57.1,
-			"url": "https://en.wikipedia.org/wiki/Esenyurt_Necmi_Kad%C4%B1o%C4%9Flu_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Esenyurt_Necmi_Kad%C4%B1o%C4%9Flu_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -1743,7 +1743,7 @@
 			"lng": 40.192747,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 204,
@@ -1782,7 +1782,7 @@
 			"lng": 27.984722,
 			"x": 122,
 			"y": 93.6,
-			"url": "https://en.wikipedia.org/wiki/Band%C4%B1rma_17_Eyl%C3%BCl_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Band%C4%B1rma_17_Eyl%C3%BCl_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -1829,7 +1829,7 @@
 			"lng": 28.765833,
 			"x": 154.4,
 			"y": 54.5,
-			"url": "https://en.wikipedia.org/wiki/Atat%C3%BCrk_Olympic_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Atat%C3%BCrk_Olympic_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -1908,7 +1908,7 @@
 			"lng": 32.880739,
 			"x": 324.6,
 			"y": 111.6,
-			"url": "https://en.wikipedia.org/wiki/Ankara_Aktepe_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Ankara_Aktepe_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -1955,7 +1955,7 @@
 			"lng": 27.439933,
 			"x": 99.5,
 			"y": 184.8,
-			"url": "https://en.wikipedia.org/wiki/Manisa_19_May%C4%B1s_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Manisa_19_May%C4%B1s_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -2002,7 +2002,7 @@
 			"lng": 29.227778,
 			"x": 173.5,
 			"y": 64.4,
-			"url": "https://de.wikipedia.org/wiki/Pendik_Stadyumu"
+			"wiki": "https://de.wikipedia.org/wiki/Pendik_Stadyumu"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -2057,7 +2057,7 @@
 			"lng": 30.432222,
 			"x": 223.3,
 			"y": 70.1,
-			"url": "https://en.wikipedia.org/wiki/New_Sakarya_Atat%C3%BCrk_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/New_Sakarya_Atat%C3%BCrk_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -2120,7 +2120,7 @@
 			"lng": 38.806667,
 			"x": 569.8,
 			"y": 263.2,
-			"url": "https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfa_11_Nisan_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfa_11_Nisan_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -2183,7 +2183,7 @@
 			"lng": 34.922778,
 			"x": 409.1,
 			"y": 83.2,
-			"url": "https://tr.wikipedia.org/wiki/%C3%87orum_%C5%9Eehir_Stadyumu"
+			"wiki": "https://tr.wikipedia.org/wiki/%C3%87orum_%C5%9Eehir_Stadyumu"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -2246,7 +2246,7 @@
 			"lng": 28.879937,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 204,
@@ -2293,7 +2293,7 @@
 			"lng": 30.0175,
 			"x": 206.1,
 			"y": 70.4,
-			"url": "https://en.wikipedia.org/wiki/Kocaeli_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Kocaeli_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -2356,7 +2356,7 @@
 			"lng": 0,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 204,
@@ -2386,7 +2386,7 @@
 			"lng": 27.150889,
 			"x": 87.5,
 			"y": 194.6,
-			"url": "https://en.wikipedia.org/wiki/Alsancak_Mustafa_Denizli_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Alsancak_Mustafa_Denizli_Stadium"
 		},
 		"league": {},
 		"images": [
@@ -2444,7 +2444,7 @@
 			"lng": 38.439167,
 			"x": 554.6,
 			"y": 64.3,
-			"url": "https://en.wikipedia.org/wiki/%C3%87otanak_Sports_Complex"
+			"wiki": "https://en.wikipedia.org/wiki/%C3%87otanak_Sports_Complex"
 		},
 		"league": {},
 		"images": [
@@ -2502,7 +2502,7 @@
 			"lng": 29.22609,
 			"x": 173.4,
 			"y": 58.3,
-			"url": "https://en.wikipedia.org/wiki/Sancaktepe_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Sancaktepe_Stadium"
 		},
 		"league": {},
 		"images": [

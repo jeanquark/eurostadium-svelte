@@ -18,7 +18,7 @@
 			"lng": 28.490456,
 			"x": 392.7,
 			"y": 295.3,
-			"url": "https://en.wikipedia.org/wiki/Haradski_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Haradski_Stadium"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -57,7 +57,7 @@
 			"lng": 27.578611,
 			"x": 325.3,
 			"y": 340.4,
-			"url": "https://en.wikipedia.org/wiki/FC_Minsk_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/FC_Minsk_Stadium"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -96,7 +96,7 @@
 			"lng": 30.229167,
 			"x": 521.3,
 			"y": 173.5,
-			"url": "https://en.wikipedia.org/wiki/Vitebsky_Central_Sport_Complex"
+			"wiki": "https://en.wikipedia.org/wiki/Vitebsky_Central_Sport_Complex"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -135,7 +135,7 @@
 			"lng": 30.340556,
 			"x": 529.5,
 			"y": 334.9,
-			"url": "https://en.wikipedia.org/wiki/Spartak_Stadium_(Mogilev)"
+			"wiki": "https://en.wikipedia.org/wiki/Spartak_Stadium_(Mogilev)"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -174,7 +174,7 @@
 			"lng": 28.32,
 			"x": 380.1,
 			"y": 311.6,
-			"url": "https://en.wikipedia.org/wiki/Torpedo_Stadium_(Zhodino)"
+			"wiki": "https://en.wikipedia.org/wiki/Torpedo_Stadium_(Zhodino)"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -213,7 +213,7 @@
 			"lng": 23.683914,
 			"x": 37.3,
 			"y": 561.5,
-			"url": "https://en.wikipedia.org/wiki/Regional_Sport_Complex_Brestsky"
+			"wiki": "https://en.wikipedia.org/wiki/Regional_Sport_Complex_Brestsky"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -252,7 +252,7 @@
 			"lng": 23.82072,
 			"x": 47.5,
 			"y": 361.9,
-			"url": "https://en.wikipedia.org/wiki/Neman_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Neman_Stadium"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -291,7 +291,7 @@
 			"lng": 28.475278,
 			"x": 391.6,
 			"y": 299,
-			"url": "https://en.wikipedia.org/wiki/Borisov_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Borisov_Arena"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -330,7 +330,7 @@
 			"lng": 31.012222,
 			"x": 579.2,
 			"y": 518.2,
-			"url": "https://en.wikipedia.org/wiki/Central_Stadium_(Gomel)"
+			"wiki": "https://en.wikipedia.org/wiki/Central_Stadium_(Gomel)"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -369,7 +369,7 @@
 			"lng": 28.490456,
 			"x": 392.7,
 			"y": 295.3,
-			"url": "https://en.wikipedia.org/wiki/Haradski_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Haradski_Stadium"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -408,7 +408,7 @@
 			"lng": 27.538333,
 			"x": 322.3,
 			"y": 473.1,
-			"url": "https://en.wikipedia.org/wiki/Stroitel_Stadium_(Soligorsk)"
+			"wiki": "https://en.wikipedia.org/wiki/Stroitel_Stadium_(Soligorsk)"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -447,7 +447,7 @@
 			"lng": 27.560056,
 			"x": 323.9,
 			"y": 336.2,
-			"url": "https://en.wikipedia.org/wiki/Dinamo_Stadium_(Minsk)"
+			"wiki": "https://en.wikipedia.org/wiki/Dinamo_Stadium_(Minsk)"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -486,7 +486,7 @@
 			"lng": 28.648333,
 			"x": 404.4,
 			"y": 131.2,
-			"url": "https://en.wikipedia.org/wiki/Atlant_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Atlant_Stadium"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -525,7 +525,7 @@
 			"lng": 29.277083,
 			"x": 450.9,
 			"y": 567.9,
-			"url": "https://en.wikipedia.org/wiki/Yunost_Stadium_(Mazyr)"
+			"wiki": "https://en.wikipedia.org/wiki/Yunost_Stadium_(Mazyr)"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -564,7 +564,7 @@
 			"lng": 26.404436,
 			"x": 238.5,
 			"y": 263.3,
-			"url": "https://en.wikipedia.org/wiki/Yunost_Stadium_(Smorgon)"
+			"wiki": "https://en.wikipedia.org/wiki/Yunost_Stadium_(Smorgon)"
 		},
 		"league": {
 			"api_football_id": 116,
@@ -603,7 +603,7 @@
 			"lng": 27.138737,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 116,
@@ -632,7 +632,7 @@
 			"lng": 27.501742,
 			"x": 319.6,
 			"y": 340.6,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 117,
@@ -671,7 +671,7 @@
 			"lng": 26.032036,
 			"x": 211,
 			"y": 431.6,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 117,
@@ -710,7 +710,7 @@
 			"lng": 29.217222,
 			"x": 446.5,
 			"y": 430.4,
-			"url": "https://en.wikipedia.org/wiki/Spartak_Stadium_(Bobruisk)"
+			"wiki": "https://en.wikipedia.org/wiki/Spartak_Stadium_(Bobruisk)"
 		},
 		"league": {
 			"api_football_id": 117,
@@ -749,7 +749,7 @@
 			"lng": 45.192175,
 			"x": 1627.6,
 			"y": 301.1,
-			"url": "https://en.wikipedia.org/wiki/Start_Stadium_(Saransk)"
+			"wiki": "https://en.wikipedia.org/wiki/Start_Stadium_(Saransk)"
 		},
 		"league": {
 			"api_football_id": 117,
@@ -788,7 +788,7 @@
 			"lng": 31.018461730439647,
 			"x": 579.6,
 			"y": 518.6,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 117,
@@ -827,7 +827,7 @@
 			"lng": 28.490456,
 			"x": 392.7,
 			"y": 295.3,
-			"url": "https://en.wikipedia.org/wiki/Haradski_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Haradski_Stadium"
 		},
 		"league": {
 			"api_football_id": 117,
@@ -866,7 +866,7 @@
 			"lng": 25.306944,
 			"x": 157.3,
 			"y": 435.7,
-			"url": "https://en.wikipedia.org/wiki/Yunost_Stadium_(Slonim)"
+			"wiki": "https://en.wikipedia.org/wiki/Yunost_Stadium_(Slonim)"
 		},
 		"league": {
 			"api_football_id": 117,
@@ -905,7 +905,7 @@
 			"lng": 26.095807,
 			"x": 215.7,
 			"y": 558.4,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 117,
@@ -944,7 +944,7 @@
 			"lng": 28.490456,
 			"x": 392.7,
 			"y": 295.3,
-			"url": "https://en.wikipedia.org/wiki/Haradski_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Haradski_Stadium"
 		},
 		"league": {
 			"api_football_id": 117,
@@ -983,7 +983,7 @@
 			"lng": 0,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 117,
@@ -1012,7 +1012,7 @@
 			"lng": 30.054001,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 117,
@@ -1041,7 +1041,7 @@
 			"lng": 27.501719,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 117,
@@ -1070,7 +1070,7 @@
 			"lng": 25.968428,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 117,
@@ -1099,7 +1099,7 @@
 			"lng": 28.481699,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 117,
@@ -1128,7 +1128,7 @@
 			"lng": 0,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 117,
@@ -1157,7 +1157,7 @@
 			"lng": 0,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 117,
@@ -1186,7 +1186,7 @@
 			"lng": 0,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 117,
@@ -1215,7 +1215,7 @@
 			"lng": 0,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 117,
@@ -1244,7 +1244,7 @@
 			"lng": 24.354179,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"no": 35
@@ -1268,7 +1268,7 @@
 			"lng": 0,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"no": 36

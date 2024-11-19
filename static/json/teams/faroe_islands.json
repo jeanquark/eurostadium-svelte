@@ -18,7 +18,7 @@
 			"lng": -6.7457,
 			"x": 474.9,
 			"y": 158.7,
-			"url": "https://en.wikipedia.org/wiki/Sarpuger%C3%B0i"
+			"wiki": "https://en.wikipedia.org/wiki/Sarpuger%C3%B0i"
 		},
 		"league": {
 			"api_football_id": 367,
@@ -57,7 +57,7 @@
 			"lng": -6.781139,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Gundadalur"
+			"wiki": "https://en.wikipedia.org/wiki/Gundadalur"
 		},
 		"league": {
 			"api_football_id": 367,
@@ -96,7 +96,7 @@
 			"lng": -6.723333,
 			"x": 483.3,
 			"y": 232.5,
-			"url": "https://en.wikipedia.org/wiki/Vi%C3%B0_L%C3%B8kin"
+			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_L%C3%B8kin"
 		},
 		"league": {
 			"api_football_id": 367,
@@ -135,7 +135,7 @@
 			"lng": -6.579201,
 			"x": 536.9,
 			"y": 138.4,
-			"url": "https://en.wikipedia.org/wiki/Vi%C3%B0_Dj%C3%BApum%C3%BDrar"
+			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_Dj%C3%BApum%C3%BDrar"
 		},
 		"league": {
 			"api_football_id": 367,
@@ -174,7 +174,7 @@
 			"lng": -6.781139,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Gundadalur"
+			"wiki": "https://en.wikipedia.org/wiki/Gundadalur"
 		},
 		"league": {
 			"api_football_id": 367,
@@ -213,7 +213,7 @@
 			"lng": -7.310361,
 			"x": 265,
 			"y": 259.5,
-			"url": "https://en.wikipedia.org/wiki/%C3%81_Dungasandi"
+			"wiki": "https://en.wikipedia.org/wiki/%C3%81_Dungasandi"
 		},
 		"league": {
 			"api_football_id": 367,
@@ -252,7 +252,7 @@
 			"lng": -7.0431,
 			"x": 364.4,
 			"y": 162.9,
-			"url": "https://en.wikipedia.org/wiki/Vi%C3%B0_Marg%C3%A1ir"
+			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_Marg%C3%A1ir"
 		},
 		"league": {
 			"api_football_id": 367,
@@ -291,7 +291,7 @@
 			"lng": -6.736111,
 			"x": 478.5,
 			"y": 237.3,
-			"url": "https://en.wikipedia.org/wiki/Svangaskar%C3%B0"
+			"wiki": "https://en.wikipedia.org/wiki/Svangaskar%C3%B0"
 		},
 		"league": {
 			"api_football_id": 367,
@@ -330,7 +330,7 @@
 			"lng": -6.814399,
 			"x": 449.4,
 			"y": 122.8,
-			"url": "https://en.wikipedia.org/wiki/%C3%8D_Fl%C3%B8tuger%C3%B0i"
+			"wiki": "https://en.wikipedia.org/wiki/%C3%8D_Fl%C3%B8tuger%C3%B0i"
 		},
 		"league": {
 			"api_football_id": 367,
@@ -369,7 +369,7 @@
 			"lng": -6.788611,
 			"x": 459,
 			"y": 189.8,
-			"url": "https://en.wikipedia.org/wiki/Undir_M%C3%BDruhjalla"
+			"wiki": "https://en.wikipedia.org/wiki/Undir_M%C3%BDruhjalla"
 		},
 		"league": {
 			"api_football_id": 367,
@@ -408,7 +408,7 @@
 			"lng": -6.828889,
 			"x": 444,
 			"y": 426.2,
-			"url": "https://en.wikipedia.org/wiki/Inni_%C3%AD_Dal"
+			"wiki": "https://en.wikipedia.org/wiki/Inni_%C3%AD_Dal"
 		},
 		"league": {
 			"api_football_id": 366,
@@ -447,7 +447,7 @@
 			"lng": -6.781139,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Gundadalur"
+			"wiki": "https://en.wikipedia.org/wiki/Gundadalur"
 		},
 		"league": {
 			"api_football_id": 366,
@@ -486,7 +486,7 @@
 			"lng": -6.579201,
 			"x": 536.9,
 			"y": 138.4,
-			"url": "https://en.wikipedia.org/wiki/Vi%C3%B0_Dj%C3%BApum%C3%BDrar"
+			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_Dj%C3%BApum%C3%BDrar"
 		},
 		"league": {
 			"api_football_id": 366,
@@ -525,7 +525,7 @@
 			"lng": -6.723333,
 			"x": 483.3,
 			"y": 232.5,
-			"url": "https://en.wikipedia.org/wiki/Vi%C3%B0_L%C3%B8kin"
+			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_L%C3%B8kin"
 		},
 		"league": {
 			"api_football_id": 366,
@@ -564,7 +564,7 @@
 			"lng": -6.836389,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/%C3%81_Ei%C3%B0inum"
+			"wiki": "https://en.wikipedia.org/wiki/%C3%81_Ei%C3%B0inum"
 		},
 		"league": {
 			"api_football_id": 366,
@@ -603,7 +603,7 @@
 			"lng": -6.7457,
 			"x": 474.9,
 			"y": 158.7,
-			"url": "https://en.wikipedia.org/wiki/Sarpuger%C3%B0i"
+			"wiki": "https://en.wikipedia.org/wiki/Sarpuger%C3%B0i"
 		},
 		"league": {
 			"api_football_id": 366,
@@ -642,7 +642,7 @@
 			"lng": -6.802778,
 			"x": 453.7,
 			"y": 319.8,
-			"url": "https://en.wikipedia.org/wiki/Inni_%C3%AD_Vika"
+			"wiki": "https://en.wikipedia.org/wiki/Inni_%C3%AD_Vika"
 		},
 		"league": {
 			"api_football_id": 366,
@@ -681,7 +681,7 @@
 			"lng": -6.781139,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Gundadalur"
+			"wiki": "https://en.wikipedia.org/wiki/Gundadalur"
 		},
 		"league": {
 			"api_football_id": 366,
@@ -720,7 +720,7 @@
 			"lng": -6.8518,
 			"x": 435.5,
 			"y": 660.9,
-			"url": "https://en.wikipedia.org/wiki/Vi%C3%B0_St%C3%B3r%C3%A1"
+			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_St%C3%B3r%C3%A1"
 		},
 		"league": {
 			"api_football_id": 366,
@@ -759,7 +759,7 @@
 			"lng": -6.781139,
 			"x": 461.8,
 			"y": 300.6,
-			"url": "https://en.wikipedia.org/wiki/Gundadalur#Ni%C3%B0ari_v%C3%B8llur"
+			"wiki": "https://en.wikipedia.org/wiki/Gundadalur#Ni%C3%B0ari_v%C3%B8llur"
 		},
 		"league": {
 			"api_football_id": 366,
@@ -798,7 +798,7 @@
 			"lng": -7.0431,
 			"x": 364.4,
 			"y": 162.9,
-			"url": "https://en.wikipedia.org/wiki/Vi%C3%B0_Marg%C3%A1ir"
+			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_Marg%C3%A1ir"
 		},
 		"league": {},
 		"images": [
@@ -832,7 +832,7 @@
 			"lng": -6.736111,
 			"x": 478.5,
 			"y": 237.3,
-			"url": "https://en.wikipedia.org/wiki/Svangaskar%C3%B0"
+			"wiki": "https://en.wikipedia.org/wiki/Svangaskar%C3%B0"
 		},
 		"league": {},
 		"images": [

@@ -18,7 +18,7 @@
 			"lng": 9.557161,
 			"x": 205.2,
 			"y": 599,
-			"url": "https://en.wikipedia.org/wiki/Vejle_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Vejle_Stadium"
 		},
 		"league": {
 			"api_football_id": 119,
@@ -89,7 +89,7 @@
 			"lng": 9.487791,
 			"x": 195.6,
 			"y": 711.3,
-			"url": "https://en.wikipedia.org/wiki/Haderslev_Football_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Haderslev_Football_Stadium"
 		},
 		"league": {
 			"api_football_id": 119,
@@ -160,7 +160,7 @@
 			"lng": 8.951669,
 			"x": 121.4,
 			"y": 498.9,
-			"url": "https://en.wikipedia.org/wiki/MCH_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/MCH_Arena"
 		},
 		"league": {
 			"api_football_id": 119,
@@ -231,7 +231,7 @@
 			"lng": 12.353289,
 			"x": 592.3,
 			"y": 573.7,
-			"url": "https://en.wikipedia.org/wiki/Right_to_Dream_Park"
+			"wiki": "https://en.wikipedia.org/wiki/Right_to_Dream_Park"
 		},
 		"league": {
 			"api_football_id": 119,
@@ -294,7 +294,7 @@
 			"lng": 12.572203,
 			"x": 622.6,
 			"y": 601.8,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 119,
@@ -373,7 +373,7 @@
 			"lng": 10.010262,
 			"x": 267.9,
 			"y": 412.2,
-			"url": "https://en.wikipedia.org/wiki/Randers_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Randers_Stadium"
 		},
 		"league": {
 			"api_football_id": 119,
@@ -444,7 +444,7 @@
 			"lng": 9.8991,
 			"x": 252.5,
 			"y": 266.9,
-			"url": "https://en.wikipedia.org/wiki/Aalborg_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Aalborg_Stadium"
 		},
 		"league": {
 			"api_football_id": 119,
@@ -507,7 +507,7 @@
 			"lng": 10.196589,
 			"x": 293.7,
 			"y": 495.1,
-			"url": "https://en.wikipedia.org/wiki/Aarhus_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Aarhus_Stadium"
 		},
 		"league": {
 			"api_football_id": 119,
@@ -586,7 +586,7 @@
 			"lng": 12.418611,
 			"x": 601.3,
 			"y": 615.1,
-			"url": "https://en.wikipedia.org/wiki/Br%C3%B8ndby_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Br%C3%B8ndby_Stadium"
 		},
 		"league": {
 			"api_football_id": 119,
@@ -649,7 +649,7 @@
 			"lng": 12.505628,
 			"x": 613.4,
 			"y": 582.2,
-			"url": "https://en.wikipedia.org/wiki/Lyngby_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Lyngby_Stadium"
 		},
 		"league": {
 			"api_football_id": 119,
@@ -712,7 +712,7 @@
 			"lng": 9.402064,
 			"x": 183.7,
 			"y": 414.7,
-			"url": "https://en.wikipedia.org/wiki/Viborg_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Viborg_Stadium"
 		},
 		"league": {
 			"api_football_id": 119,
@@ -775,7 +775,7 @@
 			"lng": 9.575658,
 			"x": 207.8,
 			"y": 482.2,
-			"url": "https://en.wikipedia.org/wiki/JYSK_Park"
+			"wiki": "https://en.wikipedia.org/wiki/JYSK_Park"
 		},
 		"league": {
 			"api_football_id": 119,
@@ -846,7 +846,7 @@
 			"lng": 9.998506,
 			"x": 266.3,
 			"y": 166,
-			"url": "https://en.wikipedia.org/wiki/Hj%C3%B8rring_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Hj%C3%B8rring_Stadium"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -901,7 +901,7 @@
 			"lng": 8.43941,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Esbjerg_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Esbjerg_Stadium"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -964,7 +964,7 @@
 			"lng": 9.857161,
 			"x": 246.7,
 			"y": 559.8,
-			"url": "https://en.wikipedia.org/wiki/Forum_Horsens_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Forum_Horsens_Stadium"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -1027,7 +1027,7 @@
 			"lng": 10.350055,
 			"x": 315,
 			"y": 677.4,
-			"url": "https://en.wikipedia.org/wiki/Odense_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Odense_Stadium"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -1090,7 +1090,7 @@
 			"lng": 9.82,
 			"x": 241.6,
 			"y": 370.3,
-			"url": "https://en.wikipedia.org/wiki/Hobro_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Hobro_Stadium"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -1145,7 +1145,7 @@
 			"lng": 9.7286,
 			"x": 228.9,
 			"y": 632.6,
-			"url": "https://en.wikipedia.org/wiki/Fredericia_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Fredericia_Stadium"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -1200,7 +1200,7 @@
 			"lng": 12.134179,
 			"x": 561.9,
 			"y": 673.5,
-			"url": "https://en.wikipedia.org/wiki/Herf%C3%B8lge_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Herf%C3%B8lge_Stadium"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -1255,7 +1255,7 @@
 			"lng": 12.072474,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Roskilde_Idr%C3%A6tspark"
+			"wiki": "https://en.wikipedia.org/wiki/Roskilde_Idr%C3%A6tspark"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -1294,7 +1294,7 @@
 			"lng": 12.482878,
 			"x": 610.2,
 			"y": 619.3,
-			"url": "https://en.wikipedia.org/wiki/Hvidovre_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Hvidovre_Stadium"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -1357,7 +1357,7 @@
 			"lng": 9.459167,
 			"x": 191.6,
 			"y": 653.5,
-			"url": "https://en.wikipedia.org/wiki/Kolding_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Kolding_Stadium"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -1412,7 +1412,7 @@
 			"lng": 12.57485,
 			"x": 623,
 			"y": 601.4,
-			"url": "https://en.wikipedia.org/wiki/%C3%98sterbro_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/%C3%98sterbro_Stadium"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -1467,7 +1467,7 @@
 			"lng": 12.295911,
 			"x": 584.3,
 			"y": 541.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 120,
@@ -1514,7 +1514,7 @@
 			"lng": 12.596181,
 			"x": 625.9,
 			"y": 516.4,
-			"url": "https://en.wikipedia.org/wiki/Helsing%C3%B8r_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Helsing%C3%B8r_Stadium"
 		},
 		"league": {},
 		"images": [
@@ -1564,7 +1564,7 @@
 			"lng": 11.7664,
 			"x": 511,
 			"y": 720.8,
-			"url": "https://en.wikipedia.org/wiki/N%C3%A6stved_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/N%C3%A6stved_Stadium"
 		},
 		"league": {},
 		"images": [

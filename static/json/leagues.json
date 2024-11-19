@@ -378,14 +378,6 @@
     {
         "name": "First League",
         "slug": "first_league",
-        "api_football_id": "kosovo_second_league_id",
-        "country": "Kosovo",
-        "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/First_Football_League_of_Kosovo"
-    },
-    {
-        "name": "First League",
-        "slug": "first_league",
         "api_football_id": 371,
         "country": "Macedonia",
         "api_football_country_id": 0,
@@ -435,7 +427,7 @@
         "name": "Premyer Liqa",
         "slug": "premyer_liqa",
         "api_football_id": 419,
-        "country": "Azerbaidjan",
+        "country": "Azerbaijan",
         "api_football_country_id": 0,
         "wiki": "https://en.wikipedia.org/wiki/Azerbaijan_Premier_League"
     },
@@ -579,7 +571,7 @@
         "name": "Süper Lig",
         "slug": "super_lig",
         "api_football_id": 203,
-        "country": "Turkey",
+        "country": "Türkiye",
         "api_football_country_id": 0,
         "wiki": "https://en.wikipedia.org/wiki/S%C3%BCper_Lig"
     },
@@ -587,7 +579,7 @@
         "name": "1. Lig",
         "slug": "1_lig",
         "api_football_id": 204,
-        "country": "Turkey",
+        "country": "Türkiye",
         "api_football_country_id": 0,
         "wiki": "https://en.wikipedia.org/wiki/TFF_First_League"
     },

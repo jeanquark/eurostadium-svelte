@@ -1,5 +1,5 @@
 import { json } from '@sveltejs/kit';
-import admin from '../../../lib/firebase/admin'
+import admin from '../../../../lib/firebase/admin'
 
 // More on why use event driven api routes
 // https://kit.svelte.dev/docs/routing#server-receiving-data

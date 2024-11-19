@@ -18,7 +18,7 @@
 			"lng": 23.936944,
 			"x": 398.2,
 			"y": 455.3,
-			"url": "https://en.wikipedia.org/wiki/Darius_and_Gir%C4%97nas_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Darius_and_Gir%C4%97nas_Stadium"
 		},
 		"league": {
 			"api_football_id": 362,
@@ -57,7 +57,7 @@
 			"lng": 23.365392,
 			"x": 321.8,
 			"y": 530.7,
-			"url": "https://en.wikipedia.org/wiki/S%C5%ABduva_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/S%C5%ABduva_Stadium"
 		},
 		"league": {
 			"api_football_id": 362,
@@ -96,7 +96,7 @@
 			"lng": 21.404444,
 			"x": 59.6,
 			"y": 264,
-			"url": "https://en.wikipedia.org/wiki/Garg%C5%BEdai_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Garg%C5%BEdai_Stadium"
 		},
 		"league": {
 			"api_football_id": 362,
@@ -135,7 +135,7 @@
 			"lng": 23.365392,
 			"x": 321.8,
 			"y": 530.7,
-			"url": "https://en.wikipedia.org/wiki/S%C5%ABduva_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/S%C5%ABduva_Stadium"
 		},
 		"league": {
 			"api_football_id": 362,
@@ -174,7 +174,7 @@
 			"lng": 22.2426,
 			"x": 171.7,
 			"y": 201,
-			"url": "https://lt.wikipedia.org/wiki/Tel%C5%A1i%C5%B3_miesto_centrinis_stadionas"
+			"wiki": "https://lt.wikipedia.org/wiki/Tel%C5%A1i%C5%B3_miesto_centrinis_stadionas"
 		},
 		"league": {
 			"api_football_id": 362,
@@ -213,7 +213,7 @@
 			"lng": 23.9288,
 			"x": 397.2,
 			"y": 453.6,
-			"url": "https://lt.wikipedia.org/wiki/LFF_Kauno_treniruo%C4%8Di%C5%B3_centras"
+			"wiki": "https://lt.wikipedia.org/wiki/LFF_Kauno_treniruo%C4%8Di%C5%B3_centras"
 		},
 		"league": {
 			"api_football_id": 362,
@@ -252,7 +252,7 @@
 			"lng": 23.2428,
 			"x": 305.4,
 			"y": 219.5,
-			"url": "https://lt.wikipedia.org/wiki/Gytari%C5%B3_stadionas"
+			"wiki": "https://lt.wikipedia.org/wiki/Gytari%C5%B3_stadionas"
 		},
 		"league": {
 			"api_football_id": 362,
@@ -291,7 +291,7 @@
 			"lng": 23.936944,
 			"x": 398.2,
 			"y": 455.3,
-			"url": "https://en.wikipedia.org/wiki/Darius_and_Gir%C4%97nas_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Darius_and_Gir%C4%97nas_Stadium"
 		},
 		"league": {
 			"api_football_id": 362,
@@ -330,7 +330,7 @@
 			"lng": 24.3696,
 			"x": 456.1,
 			"y": 263.7,
-			"url": "https://lt.wikipedia.org/wiki/Panev%C4%97%C5%BEio_%C5%BDemynos_progimnazijos_stadionas"
+			"wiki": "https://lt.wikipedia.org/wiki/Panev%C4%97%C5%BEio_%C5%BDemynos_progimnazijos_stadionas"
 		},
 		"league": {
 			"api_football_id": 362,
@@ -369,7 +369,7 @@
 			"lng": 24.960465,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 362,
@@ -408,7 +408,7 @@
 			"lng": 25.294444,
 			"x": 579.7,
 			"y": 508.7,
-			"url": "https://en.wikipedia.org/wiki/LFF_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/LFF_Stadium"
 		},
 		"league": {
 			"api_football_id": 361,
@@ -447,7 +447,7 @@
 			"lng": 22.340440,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 361,
@@ -477,7 +477,7 @@
 			"lng": 25.208824,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 361,
@@ -516,7 +516,7 @@
 			"lng": 21.252377,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 361,
@@ -555,7 +555,7 @@
 			"lng": 23.9875,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/K%C4%97dainiai_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/K%C4%97dainiai_Stadium"
 		},
 		"league": {
 			"api_football_id": 361,
@@ -594,7 +594,7 @@
 			"lng": 24.3696,
 			"x": 0,
 			"y": 0,
-			"url": "https://lt.wikipedia.org/wiki/Panev%C4%97%C5%BEio_%C5%BDemynos_progimnazijos_stadionas"
+			"wiki": "https://lt.wikipedia.org/wiki/Panev%C4%97%C5%BEio_%C5%BDemynos_progimnazijos_stadionas"
 		},
 		"league": {
 			"api_football_id": 361,
@@ -633,7 +633,7 @@
 			"lng": 22.294039,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 361,
@@ -663,7 +663,7 @@
 			"lng": 23.837750,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 361,
@@ -702,7 +702,7 @@
 			"lng": 24.3696,
 			"x": 0,
 			"y": 0,
-			"url": "https://lt.wikipedia.org/wiki/Panev%C4%97%C5%BEio_%C5%BDemynos_progimnazijos_stadionas"
+			"wiki": "https://lt.wikipedia.org/wiki/Panev%C4%97%C5%BEio_%C5%BDemynos_progimnazijos_stadionas"
 		},
 		"league": {
 			"api_football_id": 361,
@@ -741,7 +741,7 @@
 			"lng": 21.850827,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 361,
@@ -780,7 +780,7 @@
 			"lng": 21.109580,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 361,
@@ -819,7 +819,7 @@
 			"lng": 21.404444,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Garg%C5%BEdai_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Garg%C5%BEdai_Stadium"
 		},
 		"league": {
 			"api_football_id": 361,
@@ -858,7 +858,7 @@
 			"lng": 23.876735,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 361,
@@ -897,7 +897,7 @@
 			"lng": 23.9288,
 			"x": 397.2,
 			"y": 453.6,
-			"url": "https://lt.wikipedia.org/wiki/LFF_Kauno_treniruo%C4%8Di%C5%B3_centras"
+			"wiki": "https://lt.wikipedia.org/wiki/LFF_Kauno_treniruo%C4%8Di%C5%B3_centras"
 		},
 		"league": {
 			"api_football_id": 361,
@@ -936,7 +936,7 @@
 			"lng": 23.241502,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 361,
@@ -975,7 +975,7 @@
 			"lng": 0,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 361,
@@ -1005,7 +1005,7 @@
 			"lng": 24.271601,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -1039,7 +1039,7 @@
 			"lng": 24.939920,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [
@@ -1073,7 +1073,7 @@
 			"lng": 25.294444,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/LFF_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/LFF_Stadium"
 		},
 		"league": {},
 		"images": [
@@ -1107,7 +1107,7 @@
 			"lng": 23.962484,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [

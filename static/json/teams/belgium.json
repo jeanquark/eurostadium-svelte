@@ -18,7 +18,7 @@
 			"lng": 4.694167,
 			"x": 418.6,
 			"y": 262.9,
-			"url": "https://en.wikipedia.org/wiki/Den_Dreef"
+			"wiki": "https://en.wikipedia.org/wiki/Den_Dreef"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -89,7 +89,7 @@
 			"lng": 4.928806,
 			"x": 464.3,
 			"y": 193.7,
-			"url": "https://en.wikipedia.org/wiki/Het_Kuipje"
+			"wiki": "https://en.wikipedia.org/wiki/Het_Kuipje"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -152,7 +152,7 @@
 			"lng": 4.382222,
 			"x": 357.9,
 			"y": 166.2,
-			"url": "https://en.wikipedia.org/wiki/Olympisch_Stadion_(Antwerp)"
+			"wiki": "https://en.wikipedia.org/wiki/Olympisch_Stadion_(Antwerp)"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -207,7 +207,7 @@
 			"lng": 4.486397,
 			"x": 378.1,
 			"y": 211.3,
-			"url": "https://en.wikipedia.org/wiki/Achter_de_Kazerne"
+			"wiki": "https://en.wikipedia.org/wiki/Achter_de_Kazerne"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -270,7 +270,7 @@
 			"lng": 4.298333,
 			"x": 341.5,
 			"y": 273.3,
-			"url": "https://en.wikipedia.org/wiki/Constant_Vanden_Stock_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Constant_Vanden_Stock_Stadium"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -341,7 +341,7 @@
 			"lng": 3.180556,
 			"x": 124,
 			"y": 163.6,
-			"url": "https://en.wikipedia.org/wiki/Jan_Breydel_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Jan_Breydel_Stadium"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -412,7 +412,7 @@
 			"lng": 3.734167,
 			"x": 231.7,
 			"y": 217.7,
-			"url": "https://en.wikipedia.org/wiki/Planet_Group_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Planet_Group_Arena"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -483,7 +483,7 @@
 			"lng": 5.543333,
 			"x": 583.9,
 			"y": 341.7,
-			"url": "https://en.wikipedia.org/wiki/Stade_Maurice_Dufrasne"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Maurice_Dufrasne"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -562,7 +562,7 @@
 			"lng": 3.248906,
 			"x": 137.3,
 			"y": 274.4,
-			"url": "https://en.wikipedia.org/wiki/Guldensporen_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Guldensporen_Stadion"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -625,7 +625,7 @@
 			"lng": 5.166256,
 			"x": 510.5,
 			"y": 279.6,
-			"url": "https://en.wikipedia.org/wiki/Stayen"
+			"wiki": "https://en.wikipedia.org/wiki/Stayen"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -696,7 +696,7 @@
 			"lng": 4.453787,
 			"x": 371.8,
 			"y": 401.4,
-			"url": "https://en.wikipedia.org/wiki/Stade_du_Pays_de_Charleroi"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_du_Pays_de_Charleroi"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -759,7 +759,7 @@
 			"lng": 4.472222,
 			"x": 375.4,
 			"y": 151.7,
-			"url": "https://en.wikipedia.org/wiki/Bosuilstadion"
+			"wiki": "https://en.wikipedia.org/wiki/Bosuilstadion"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -822,7 +822,7 @@
 			"lng": 3.180556,
 			"x": 124,
 			"y": 163.6,
-			"url": "https://en.wikipedia.org/wiki/Jan_Breydel_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Jan_Breydel_Stadium"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -893,7 +893,7 @@
 			"lng": 5.533333,
 			"x": 581.9,
 			"y": 221.1,
-			"url": "https://en.wikipedia.org/wiki/Cegeka_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Cegeka_Arena"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -956,7 +956,7 @@
 			"lng": 4.329167,
 			"x": 347.5,
 			"y": 278.3,
-			"url": "https://en.wikipedia.org/wiki/Joseph_Marien_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Joseph_Marien_Stadium"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -1019,7 +1019,7 @@
 			"lng": 4.071185,
 			"x": 297.3,
 			"y": 258.2,
-			"url": "https://en.wikipedia.org/wiki/Van_Roystadion"
+			"wiki": "https://en.wikipedia.org/wiki/Van_Roystadion"
 		},
 		"league": {
 			"api_football_id": 144,
@@ -1082,7 +1082,7 @@
 			"lng": 5.30611111,
 			"x": 537.7,
 			"y": 149.6,
-			"url": "https://fr.wikipedia.org/wiki/Stade_Soeverein"
+			"wiki": "https://fr.wikipedia.org/wiki/Stade_Soeverein"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1145,7 +1145,7 @@
 			"lng": 3.428889,
 			"x": 172.3,
 			"y": 258.4,
-			"url": "https://en.wikipedia.org/wiki/Elindus_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Elindus_Arena"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1200,7 +1200,7 @@
 			"lng": 4.243931,
 			"x": 330.9,
 			"y": 157.3,
-			"url": "https://en.wikipedia.org/wiki/Freethiel_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Freethiel_Stadion"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1263,7 +1263,7 @@
 			"lng": 6.045833,
 			"x": 681.7,
 			"y": 336.7,
-			"url": "https://en.wikipedia.org/wiki/Kehrwegstadion"
+			"wiki": "https://en.wikipedia.org/wiki/Kehrwegstadion"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1334,7 +1334,7 @@
 			"lng": 3.77916667,
 			"x": 240.5,
 			"y": 401.8,
-			"url": "https://fr.wikipedia.org/wiki/Stade_Robert_Urbain"
+			"wiki": "https://fr.wikipedia.org/wiki/Stade_Robert_Urbain"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1397,7 +1397,7 @@
 			"lng": 4.201026,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Stade_du_Tivoli"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_du_Tivoli"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1436,7 +1436,7 @@
 			"lng": 3.520403,
 			"x": 190.1,
 			"y": 227.6,
-			"url": "https://nl.wikipedia.org/wiki/Dakota_Arena"
+			"wiki": "https://nl.wikipedia.org/wiki/Dakota_Arena"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1483,7 +1483,7 @@
 			"lng": 4.573611,
 			"x": 395.1,
 			"y": 178.6,
-			"url": "https://en.wikipedia.org/wiki/Herman_Vanderpoortenstadion"
+			"wiki": "https://en.wikipedia.org/wiki/Herman_Vanderpoortenstadion"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1546,7 +1546,7 @@
 			"lng": 5.527453,
 			"x": 580.8,
 			"y": 326.4,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1593,7 +1593,7 @@
 			"lng": 5.70361111,
 			"x": 615.1,
 			"y": 224.3,
-			"url": "https://fr.wikipedia.org/wiki/Stade_du_Patro_Eisden"
+			"wiki": "https://fr.wikipedia.org/wiki/Stade_du_Patro_Eisden"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1648,7 +1648,7 @@
 			"lng": 4.311,
 			"x": 344,
 			"y": 266.9,
-			"url": "https://en.wikipedia.org/wiki/Edmond_Machtens_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Edmond_Machtens_Stadium"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1703,7 +1703,7 @@
 			"lng": 5.503611,
 			"x": 576.1,
 			"y": 344.6,
-			"url": "https://en.wikipedia.org/wiki/Stade_du_Pairay"
+			"wiki": "https://en.wikipedia.org/wiki/Stade_du_Pairay"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1774,7 +1774,7 @@
 			"lng": 3.987222,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Daknamstadion"
+			"wiki": "https://en.wikipedia.org/wiki/Daknamstadion"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1813,7 +1813,7 @@
 			"lng": 3.105504,
 			"x": 109.4,
 			"y": 237.3,
-			"url": "https://en.wikipedia.org/wiki/Schiervelde_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Schiervelde_Stadion"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1860,7 +1860,7 @@
 			"lng": 4.96834,
 			"x": 471.9,
 			"y": 170.7,
-			"url": "https://en.wikipedia.org/wiki/De_Leunen"
+			"wiki": "https://en.wikipedia.org/wiki/De_Leunen"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1907,7 +1907,7 @@
 			"lng": 4.298333,
 			"x": 341.5,
 			"y": 273.3,
-			"url": "https://en.wikipedia.org/wiki/Constant_Vanden_Stock_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Constant_Vanden_Stock_Stadium"
 		},
 		"league": {
 			"api_football_id": 145,
@@ -1978,7 +1978,7 @@
 			"lng": 2.8865,
 			"x": 66.7,
 			"y": 156.4,
-			"url": "https://en.wikipedia.org/wiki/Diaz_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Diaz_Arena"
 		},
 		"league": {},
 		"images": [
@@ -2036,7 +2036,7 @@
 			"lng": 0,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {},
 		"images": [],

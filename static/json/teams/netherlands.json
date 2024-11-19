@@ -18,7 +18,7 @@
 			"lng": 6.120833,
 			"x": 492.4,
 			"y": 268.7,
-			"url": "https://en.wikipedia.org/wiki/MAC%C2%B3PARK_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/MAC%C2%B3PARK_Stadion"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -97,7 +97,7 @@
 			"lng": 4.941944,
 			"x": 305.7,
 			"y": 321,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 88,
@@ -176,7 +176,7 @@
 			"lng": 5.066944,
 			"x": 325.5,
 			"y": 519.7,
-			"url": "https://en.wikipedia.org/wiki/Koning_Willem_II_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Koning_Willem_II_Stadion"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -255,7 +255,7 @@
 			"lng": 5.4675,
 			"x": 388.9,
 			"y": 545.7,
-			"url": "https://en.wikipedia.org/wiki/Philips_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Philips_Stadion"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -334,7 +334,7 @@
 			"lng": 4.742222,
 			"x": 274.1,
 			"y": 244.1,
-			"url": "https://en.wikipedia.org/wiki/AFAS_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/AFAS_Stadion"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -413,7 +413,7 @@
 			"lng": 6.591389,
 			"x": 567,
 			"y": 91.2,
-			"url": "https://en.wikipedia.org/wiki/Euroborg"
+			"wiki": "https://en.wikipedia.org/wiki/Euroborg"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -492,7 +492,7 @@
 			"lng": 4.750278,
 			"x": 275.3,
 			"y": 506.2,
-			"url": "https://en.wikipedia.org/wiki/Rat_Verlegh_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Rat_Verlegh_Stadion"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -571,7 +571,7 @@
 			"lng": 5.843675,
 			"x": 448.5,
 			"y": 661.5,
-			"url": "https://en.wikipedia.org/wiki/Fortuna_Sittard_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Fortuna_Sittard_Stadion"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -650,7 +650,7 @@
 			"lng": 6.650556,
 			"x": 576.3,
 			"y": 314.6,
-			"url": "https://en.wikipedia.org/wiki/Erve_Asito"
+			"wiki": "https://en.wikipedia.org/wiki/Erve_Asito"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -729,7 +729,7 @@
 			"lng": 5.145833,
 			"x": 338,
 			"y": 381.7,
-			"url": "https://en.wikipedia.org/wiki/Stadion_Galgenwaard"
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_Galgenwaard"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -808,7 +808,7 @@
 			"lng": 4.523056,
 			"x": 239.3,
 			"y": 429.2,
-			"url": "https://en.wikipedia.org/wiki/De_Kuip"
+			"wiki": "https://en.wikipedia.org/wiki/De_Kuip"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -887,7 +887,7 @@
 			"lng": 5.936111,
 			"x": 463.2,
 			"y": 155,
-			"url": "https://en.wikipedia.org/wiki/Abe_Lenstra_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Abe_Lenstra_Stadion"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -966,7 +966,7 @@
 			"lng": 6.172578,
 			"x": 500.6,
 			"y": 334.8,
-			"url": "https://en.wikipedia.org/wiki/De_Adelaarshorst"
+			"wiki": "https://en.wikipedia.org/wiki/De_Adelaarshorst"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -1045,7 +1045,7 @@
 			"lng": 5.836667,
 			"x": 447.4,
 			"y": 447.6,
-			"url": "https://en.wikipedia.org/wiki/Goffertstadion"
+			"wiki": "https://en.wikipedia.org/wiki/Goffertstadion"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -1124,7 +1124,7 @@
 			"lng": 6.8375,
 			"x": 606,
 			"y": 340.9,
-			"url": "https://en.wikipedia.org/wiki/De_Grolsch_Veste"
+			"wiki": "https://en.wikipedia.org/wiki/De_Grolsch_Veste"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -1203,7 +1203,7 @@
 			"lng": 5.088611,
 			"x": 328.9,
 			"y": 482.5,
-			"url": "https://en.wikipedia.org/wiki/Mandemakers_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Mandemakers_Stadion"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -1282,7 +1282,7 @@
 			"lng": 5.2405,
 			"x": 353,
 			"y": 300.3,
-			"url": "https://en.wikipedia.org/wiki/Yanmar_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Yanmar_Stadion"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -1361,7 +1361,7 @@
 			"lng": 4.433619,
 			"x": 225.2,
 			"y": 422.6,
-			"url": "https://en.wikipedia.org/wiki/Sparta_Stadion_Het_Kasteel"
+			"wiki": "https://en.wikipedia.org/wiki/Sparta_Stadion_Het_Kasteel"
 		},
 		"league": {
 			"api_football_id": 88,
@@ -1440,7 +1440,7 @@
 			"lng": 4.520556,
 			"x": 238.9,
 			"y": 423.3,
-			"url": "https://en.wikipedia.org/wiki/Van_Donge_%26_De_Roo_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Van_Donge_%26_De_Roo_Stadion"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -1519,7 +1519,7 @@
 			"lng": 4.3831,
 			"x": 217.2,
 			"y": 385.7,
-			"url": "https://en.wikipedia.org/wiki/ADO_Den_Haag_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/ADO_Den_Haag_Stadium"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -1598,7 +1598,7 @@
 			"lng": 6.309722,
 			"x": 522.4,
 			"y": 413.3,
-			"url": "https://en.wikipedia.org/wiki/De_Vijverberg"
+			"wiki": "https://en.wikipedia.org/wiki/De_Vijverberg"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -1677,7 +1677,7 @@
 			"lng": 5.892778,
 			"x": 456.3,
 			"y": 411.5,
-			"url": "https://en.wikipedia.org/wiki/GelreDome"
+			"wiki": "https://en.wikipedia.org/wiki/GelreDome"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -1756,7 +1756,7 @@
 			"lng": 6.179722,
 			"x": 501.8,
 			"y": 568.8,
-			"url": "https://en.wikipedia.org/wiki/De_Koel"
+			"wiki": "https://en.wikipedia.org/wiki/De_Koel"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -1835,7 +1835,7 @@
 			"lng": 6.945556,
 			"x": 623.1,
 			"y": 202.4,
-			"url": "https://en.wikipedia.org/wiki/De_Oude_Meerdijk"
+			"wiki": "https://en.wikipedia.org/wiki/De_Oude_Meerdijk"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -1914,7 +1914,7 @@
 			"lng": 4.689167,
 			"x": 265.7,
 			"y": 452.8,
-			"url": "https://en.wikipedia.org/wiki/Stadion_Krommedijk"
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_Krommedijk"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -1993,7 +1993,7 @@
 			"lng": 5.438889,
 			"x": 384.4,
 			"y": 540.8,
-			"url": "https://en.wikipedia.org/wiki/De_Herdgang"
+			"wiki": "https://en.wikipedia.org/wiki/De_Herdgang"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -2072,7 +2072,7 @@
 			"lng": 5.717778,
 			"x": 428.6,
 			"y": 696.2,
-			"url": "https://en.wikipedia.org/wiki/De_Geusselt"
+			"wiki": "https://en.wikipedia.org/wiki/De_Geusselt"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -2151,7 +2151,7 @@
 			"lng": 6.005833,
 			"x": 474.2,
 			"y": 696.3,
-			"url": "https://en.wikipedia.org/wiki/Parkstad_Limburg_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Parkstad_Limburg_Stadion"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -2230,7 +2230,7 @@
 			"lng": 5.066389,
 			"x": 325.4,
 			"y": 274.5,
-			"url": "https://en.wikipedia.org/wiki/Kras_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Kras_Stadion"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -2309,7 +2309,7 @@
 			"lng": 4.846594,
 			"x": 290.6,
 			"y": 280.1,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 89,
@@ -2388,7 +2388,7 @@
 			"lng": 5.814722,
 			"x": 443.9,
 			"y": 91.5,
-			"url": "https://en.wikipedia.org/wiki/Cambuur_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Cambuur_Stadion"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -2467,7 +2467,7 @@
 			"lng": 5.329722,
 			"x": 367.1,
 			"y": 478.7,
-			"url": "https://en.wikipedia.org/wiki/De_Vliert"
+			"wiki": "https://en.wikipedia.org/wiki/De_Vliert"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -2546,7 +2546,7 @@
 			"lng": 5.479444,
 			"x": 390.8,
 			"y": 553.4,
-			"url": "https://en.wikipedia.org/wiki/Jan_Louwers_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Jan_Louwers_Stadion"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -2625,7 +2625,7 @@
 			"lng": 5.528175,
 			"x": 398.6,
 			"y": 465,
-			"url": "https://en.wikipedia.org/wiki/Frans_Heesen_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/Frans_Heesen_Stadion"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -2704,7 +2704,7 @@
 			"lng": 5.68,
 			"x": 422.6,
 			"y": 534.2,
-			"url": "https://en.wikipedia.org/wiki/GS_Staalwerken_Stadion"
+			"wiki": "https://en.wikipedia.org/wiki/GS_Staalwerken_Stadion"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -2783,7 +2783,7 @@
 			"lng": 4.928889,
 			"x": 303.6,
 			"y": 321.2,
-			"url": "https://en.wikipedia.org/wiki/Sportpark_De_Toekomst"
+			"wiki": "https://en.wikipedia.org/wiki/Sportpark_De_Toekomst"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -2862,7 +2862,7 @@
 			"lng": 4.635,
 			"x": 257.1,
 			"y": 284.7,
-			"url": "https://en.wikipedia.org/wiki/Sportpark_Schoonenberg"
+			"wiki": "https://en.wikipedia.org/wiki/Sportpark_Schoonenberg"
 		},
 		"league": {
 			"api_football_id": 89,
@@ -2941,7 +2941,7 @@
 			"lng": 5.146346,
 			"x": 338.1,
 			"y": 382.7,
-			"url": "https://en.wikipedia.org/wiki/Sportcomplex_Zoudenbalch"
+			"wiki": "https://en.wikipedia.org/wiki/Sportcomplex_Zoudenbalch"
 		},
 		"league": {
 			"api_football_id": 89,

@@ -18,7 +18,7 @@
 			"lng": 37.516111,
 			"x": 127.2,
 			"y": 726.6,
-			"url": "https://en.wikipedia.org/wiki/VEB_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/VEB_Arena"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -89,7 +89,7 @@
 			"lng": 37.44025,
 			"x": 126.7,
 			"y": 726.1,
-			"url": "https://en.wikipedia.org/wiki/Lukoil_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Lukoil_Arena"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -160,7 +160,7 @@
 			"lng": 30.2205,
 			"x": 74.9,
 			"y": 648.3,
-			"url": "https://en.wikipedia.org/wiki/Krestovsky_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Krestovsky_Stadium"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -231,7 +231,7 @@
 			"lng": 37.741111,
 			"x": 128.8,
 			"y": 726.3,
-			"url": "https://en.wikipedia.org/wiki/Lokomotiv_Stadium_(Moscow)"
+			"wiki": "https://en.wikipedia.org/wiki/Lokomotiv_Stadium_(Moscow)"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -318,7 +318,7 @@
 			"lng": 39.029444,
 			"x": 138.1,
 			"y": 927.6,
-			"url": "https://en.wikipedia.org/wiki/Krasnodar_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Krasnodar_Stadium"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -389,7 +389,7 @@
 			"lng": 39.737778,
 			"x": 143.2,
 			"y": 887.1,
-			"url": "https://en.wikipedia.org/wiki/Rostov_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Rostov_Arena"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -468,7 +468,7 @@
 			"lng": 50.237222,
 			"x": 218.5,
 			"y": 773.6,
-			"url": "https://en.wikipedia.org/wiki/Solidarnost_Samara_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Solidarnost_Samara_Arena"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -531,7 +531,7 @@
 			"lng": 55.22116,
 			"x": 254.2,
 			"y": 801.5,
-			"url": "https://en.wikipedia.org/wiki/Gazovik_Stadium_(Orenburg)"
+			"wiki": "https://en.wikipedia.org/wiki/Gazovik_Stadium_(Orenburg)"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -594,7 +594,7 @@
 			"lng": 49.160833,
 			"x": 210.8,
 			"y": 726,
-			"url": "https://en.wikipedia.org/wiki/Ak_Bars_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Ak_Bars_Arena"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -665,7 +665,7 @@
 			"lng": 45.745252,
 			"x": 186.3,
 			"y": 959.8,
-			"url": "https://en.wikipedia.org/wiki/Akhmat-Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Akhmat-Arena"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -728,7 +728,7 @@
 			"lng": 37.559722,
 			"x": 127.5,
 			"y": 726.6,
-			"url": "https://en.wikipedia.org/wiki/VTB_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/VTB_Arena"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -807,7 +807,7 @@
 			"lng": 39.204167,
 			"x": 139.3,
 			"y": 803.6,
-			"url": "https://en.wikipedia.org/wiki/Tsentralnyi_Profsoyuz_Stadion_(Voronezh)"
+			"wiki": "https://en.wikipedia.org/wiki/Tsentralnyi_Profsoyuz_Stadion_(Voronezh)"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -870,7 +870,7 @@
 			"lng": 37.4542,
 			"x": 126.8,
 			"y": 724.8,
-			"url": "https://en.wikipedia.org/wiki/Arena_Khimki"
+			"wiki": "https://en.wikipedia.org/wiki/Arena_Khimki"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -933,7 +933,7 @@
 			"lng": 43.963333,
 			"x": 173.5,
 			"y": 716.3,
-			"url": "https://en.wikipedia.org/wiki/Nizhny_Novgorod_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Nizhny_Novgorod_Stadium"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -1012,7 +1012,7 @@
 			"lng": 49.502037,
 			"x": 213.2,
 			"y": 771.3,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 235,
@@ -1067,7 +1067,7 @@
 			"lng": 47.618587,
 			"x": 199.7,
 			"y": 967.5,
-			"url": "https://en.wikipedia.org/wiki/Anzhi_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Anzhi_Arena"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -1146,7 +1146,7 @@
 			"lng": 37.602722,
 			"x": 127.8,
 			"y": 756.8,
-			"url": "https://en.wikipedia.org/wiki/Arsenal_Stadium_(Tula)"
+			"wiki": "https://en.wikipedia.org/wiki/Arsenal_Stadium_(Tula)"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -1209,7 +1209,7 @@
 			"lng": 56.061667,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Neftyanik_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Neftyanik_Stadium"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -1272,7 +1272,7 @@
 			"lng": 60.573611,
 			"x": 292.6,
 			"y": 707.1,
-			"url": "https://en.wikipedia.org/wiki/Central_Stadium_(Yekaterinburg)"
+			"wiki": "https://en.wikipedia.org/wiki/Central_Stadium_(Yekaterinburg)"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -1351,7 +1351,7 @@
 			"lng": 135.046389,
 			"x": 826.9,
 			"y": 863.3,
-			"url": "https://en.wikipedia.org/wiki/Lenin_Stadium_(Khabarovsk)"
+			"wiki": "https://en.wikipedia.org/wiki/Lenin_Stadium_(Khabarovsk)"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -1406,7 +1406,7 @@
 			"lng": 92.884664,
 			"x": 524.4,
 			"y": 722.7,
-			"url": "https://en.wikipedia.org/wiki/Central_Stadium_(Krasnoyarsk)"
+			"wiki": "https://en.wikipedia.org/wiki/Central_Stadium_(Krasnoyarsk)"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -1461,7 +1461,7 @@
 			"lng": 45.998533,
 			"x": 188.1,
 			"y": 806.1,
-			"url": "https://en.wikipedia.org/wiki/Lokomotiv_Stadium_(Saratov)"
+			"wiki": "https://en.wikipedia.org/wiki/Lokomotiv_Stadium_(Saratov)"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -1516,7 +1516,7 @@
 			"lng": 39.867486,
 			"x": 144.1,
 			"y": 692.2,
-			"url": "https://en.wikipedia.org/wiki/Shinnik_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Shinnik_Stadium"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -1571,7 +1571,7 @@
 			"lng": 65.5139,
 			"x": 328.1,
 			"y": 700.9,
-			"url": "https://en.wikipedia.org/wiki/Geolog_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Geolog_Stadium"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -1634,7 +1634,7 @@
 			"lng": 51.802533,
 			"x": 229.7,
 			"y": 729.5,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 236,
@@ -1681,7 +1681,7 @@
 			"lng": 20.533889,
 			"x": 5.4,
 			"y": 747,
-			"url": "https://en.wikipedia.org/wiki/Kaliningrad_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Kaliningrad_Stadium"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -1752,7 +1752,7 @@
 			"lng": 44.548611,
 			"x": 0,
 			"y": 0,
-			"url": "https://en.wikipedia.org/wiki/Volgograd_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Volgograd_Arena"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -1831,7 +1831,7 @@
 			"lng": 39.956111,
 			"x": 144.7,
 			"y": 958.3,
-			"url": "https://en.wikipedia.org/wiki/Fisht_Olympic_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Fisht_Olympic_Stadium"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -1894,7 +1894,7 @@
 			"lng": 41.084805,
 			"x": 0,
 			"y": 0,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 236,
@@ -1933,7 +1933,7 @@
 			"lng": 37.698722,
 			"x": 128.5,
 			"y": 726.3,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 236,
@@ -1972,7 +1972,7 @@
 			"lng": 44.695,
 			"x": 178.7,
 			"y": 965.4,
-			"url": "https://en.wikipedia.org/wiki/Republican_Spartak_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Republican_Spartak_Stadium"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -2019,7 +2019,7 @@
 			"lng": 37.77935,
 			"x": 129.1,
 			"y": 933.7,
-			"url": ""
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 236,
@@ -2066,7 +2066,7 @@
 			"lng": 52.417819,
 			"x": 234.1,
 			"y": 727.7,
-			"url": "https://en.wikipedia.org/wiki/KAMAZ_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/KAMAZ_Stadium"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -2121,7 +2121,7 @@
 			"lng": 37.7377,
 			"x": 128.8,
 			"y": 726.3,
-			"url": "https://en.wikipedia.org/wiki/Sapsan_Arena"
+			"wiki": "https://en.wikipedia.org/wiki/Sapsan_Arena"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -2192,7 +2192,7 @@
 			"lng": 48.050833,
 			"x": 202.8,
 			"y": 902.5,
-			"url": "https://en.wikipedia.org/wiki/Central_Stadium_(Astrakhan)"
+			"wiki": "https://en.wikipedia.org/wiki/Central_Stadium_(Astrakhan)"
 		},
 		"league": {},
 		"images": [
@@ -2258,7 +2258,7 @@
 			"lng": 30.286389,
 			"x": 75.3,
 			"y": 648.7,
-			"url": "https://en.wikipedia.org/wiki/Petrovsky_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Petrovsky_Stadium"
 		},
 		"league": {},
 		"images": [
@@ -2316,7 +2316,7 @@
 			"lng": 38.999444,
 			"x": 137.9,
 			"y": 927.9,
-			"url": "https://en.wikipedia.org/wiki/Kuban_Stadium"
+			"wiki": "https://en.wikipedia.org/wiki/Kuban_Stadium"
 		},
 		"league": {},
 		"images": [
