@@ -44,9 +44,9 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="34.869235"
-     inkscape:cx="583.03545"
-     inkscape:cy="184.61833"
+     inkscape:zoom="0.77050852"
+     inkscape:cx="62.296521"
+     inkscape:cy="522.38228"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
@@ -65,6 +65,11 @@
        position="661.25161,819.59966"
        orientation="0,-1"
        id="guide1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="683.92333,182.92597"
+       orientation="0,-1"
+       id="guide2"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <defs

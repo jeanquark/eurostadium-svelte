@@ -4,7 +4,7 @@
 			"api_football_id": 549,
 			"name": "Besiktas",
 			"code": "BES",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1903
 		},
 		"venue": {
@@ -23,7 +23,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -75,7 +75,7 @@
 			"api_football_id": 564,
 			"name": "Istanbul Basaksehir",
 			"code": "IST",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1990
 		},
 		"venue": {
@@ -94,7 +94,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -146,7 +146,7 @@
 			"api_football_id": 607,
 			"name": "Konyaspor",
 			"code": "KON",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1981
 		},
 		"venue": {
@@ -165,7 +165,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -217,7 +217,7 @@
 			"api_football_id": 611,
 			"name": "Fenerbahce",
 			"code": "FEN",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1907
 		},
 		"venue": {
@@ -236,7 +236,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -296,7 +296,7 @@
 			"api_football_id": 645,
 			"name": "Galatasaray",
 			"code": "GAL",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1905
 		},
 		"venue": {
@@ -315,7 +315,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -367,7 +367,7 @@
 			"api_football_id": 994,
 			"name": "Goztepe",
 			"code": "GOZ",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1925
 		},
 		"venue": {
@@ -386,7 +386,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -430,7 +430,7 @@
 			"api_football_id": 996,
 			"name": "Alanyaspor",
 			"code": "ALA",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1948
 		},
 		"venue": {
@@ -449,7 +449,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -493,7 +493,7 @@
 			"api_football_id": 998,
 			"name": "Trabzonspor",
 			"code": "TRA",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1967
 		},
 		"venue": {
@@ -512,7 +512,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -564,7 +564,7 @@
 			"api_football_id": 1001,
 			"name": "Kayserispor",
 			"code": "KAY",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1966
 		},
 		"venue": {
@@ -583,7 +583,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -635,7 +635,7 @@
 			"api_football_id": 1002,
 			"name": "Sivasspor",
 			"code": "SIV",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1967
 		},
 		"venue": {
@@ -654,7 +654,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -698,7 +698,7 @@
 			"api_football_id": 1004,
 			"name": "Kasimpasa",
 			"code": "KAS",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1921
 		},
 		"venue": {
@@ -717,7 +717,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -761,7 +761,7 @@
 			"api_football_id": 1005,
 			"name": "Antalyaspor",
 			"code": "ANT",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1966
 		},
 		"venue": {
@@ -780,7 +780,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -824,7 +824,7 @@
 			"api_football_id": 1007,
 			"name": "Rizespor",
 			"code": "RIZ",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1953
 		},
 		"venue": {
@@ -843,7 +843,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -887,7 +887,7 @@
 			"api_football_id": 3563,
 			"name": "Adana Demirspor",
 			"code": "ADA",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1941
 		},
 		"venue": {
@@ -906,7 +906,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -950,7 +950,7 @@
 			"api_football_id": 3573,
 			"name": "Gazişehir Gaziantep",
 			"code": "GAZ",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1988
 		},
 		"venue": {
@@ -969,7 +969,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1021,7 +1021,7 @@
 			"api_football_id": 3575,
 			"name": "Hatayspor",
 			"code": "HAT",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1967
 		},
 		"venue": {
@@ -1040,7 +1040,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1084,7 +1084,7 @@
 			"api_football_id": 3583,
 			"name": "BB Bodrumspor",
 			"code": null,
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1931
 		},
 		"venue": {
@@ -1103,7 +1103,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1131,7 +1131,7 @@
 			"api_football_id": 3588,
 			"name": "Eyüpspor",
 			"code": "EYU",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1919
 		},
 		"venue": {
@@ -1150,7 +1150,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1178,7 +1178,7 @@
 			"api_football_id": 3603,
 			"name": "Samsunspor",
 			"code": "SAM",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1965
 		},
 		"venue": {
@@ -1197,7 +1197,7 @@
 		"league": {
 			"api_football_id": 203,
 			"name": "Süper Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1249,7 +1249,7 @@
 			"api_football_id": 997,
 			"name": "Genclerbirligi",
 			"code": "GEN",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1923
 		},
 		"venue": {
@@ -1268,7 +1268,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1312,7 +1312,7 @@
 			"api_football_id": 999,
 			"name": "Yeni Malatyaspor",
 			"code": "MAL",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1986
 		},
 		"venue": {
@@ -1331,7 +1331,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1375,7 +1375,7 @@
 			"api_football_id": 1009,
 			"name": "Erzurum BB",
 			"code": "ERZ",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 2005
 		},
 		"venue": {
@@ -1394,7 +1394,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1430,7 +1430,7 @@
 			"api_football_id": 1010,
 			"name": "Ankaragucu",
 			"code": "ANK",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1910
 		},
 		"venue": {
@@ -1449,7 +1449,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1493,7 +1493,7 @@
 			"api_football_id": 3564,
 			"name": "Adanaspor",
 			"code": "ADA",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1954
 		},
 		"venue": {
@@ -1512,7 +1512,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1556,7 +1556,7 @@
 			"api_football_id": 3569,
 			"name": "Boluspor",
 			"code": "BOL",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1965
 		},
 		"venue": {
@@ -1575,7 +1575,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1619,7 +1619,7 @@
 			"api_football_id": 3577,
 			"name": "Ümraniyespor",
 			"code": "UMR",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1938
 		},
 		"venue": {
@@ -1638,7 +1638,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1674,7 +1674,7 @@
 			"api_football_id": 3578,
 			"name": "İstanbulspor",
 			"code": "IST",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1926
 		},
 		"venue": {
@@ -1693,7 +1693,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1729,7 +1729,7 @@
 			"api_football_id": 3579,
 			"name": "Amed",
 			"code": "DIY",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1990
 		},
 		"venue": {
@@ -1748,7 +1748,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1768,7 +1768,7 @@
 			"api_football_id": 3584,
 			"name": "Bandırmaspor",
 			"code": "BAN",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1965
 		},
 		"venue": {
@@ -1787,7 +1787,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1815,7 +1815,7 @@
 			"api_football_id": 3589,
 			"name": "Fatih Karagümrük",
 			"code": "KAR",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": null
 		},
 		"venue": {
@@ -1834,7 +1834,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1894,7 +1894,7 @@
 			"api_football_id": 3595,
 			"name": "Keçiörengücü",
 			"code": "KEC",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1945
 		},
 		"venue": {
@@ -1913,7 +1913,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1941,7 +1941,7 @@
 			"api_football_id": 3597,
 			"name": "Manisa BBSK",
 			"code": null,
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1994
 		},
 		"venue": {
@@ -1960,7 +1960,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -1988,7 +1988,7 @@
 			"api_football_id": 3601,
 			"name": "Pendikspor",
 			"code": "PEN",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1950
 		},
 		"venue": {
@@ -2007,7 +2007,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -2043,7 +2043,7 @@
 			"api_football_id": 3602,
 			"name": "Sakaryaspor",
 			"code": "SAK",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1965
 		},
 		"venue": {
@@ -2062,7 +2062,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -2106,7 +2106,7 @@
 			"api_football_id": 3613,
 			"name": "Şanlıurfaspor",
 			"code": "SAN",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1969
 		},
 		"venue": {
@@ -2125,7 +2125,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -2169,7 +2169,7 @@
 			"api_football_id": 6343,
 			"name": "Yeni Çorumspor",
 			"code": "COR",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1997
 		},
 		"venue": {
@@ -2188,7 +2188,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -2232,7 +2232,7 @@
 			"api_football_id": 7402,
 			"name": "Erokspor",
 			"code": null,
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1959
 		},
 		"venue": {
@@ -2251,7 +2251,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -2279,7 +2279,7 @@
 			"api_football_id": 7411,
 			"name": "Kocaelispor",
 			"code": "KOC",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1966
 		},
 		"venue": {
@@ -2298,7 +2298,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [
@@ -2342,7 +2342,7 @@
 			"api_football_id": 17259,
 			"name": "76 Iğdır Belediyespor",
 			"code": null,
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 2016
 		},
 		"venue": {
@@ -2361,7 +2361,7 @@
 		"league": {
 			"api_football_id": 204,
 			"name": "1. Lig",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"api_football_country_id": 0
 		},
 		"images": [],
@@ -2372,7 +2372,7 @@
 			"api_football_id": 3566,
 			"name": "Altay",
 			"code": "ALT",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1914
 		},
 		"venue": {
@@ -2430,7 +2430,7 @@
 			"api_football_id": 3574,
 			"name": "Giresunspor",
 			"code": "GIR",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1967
 		},
 		"venue": {
@@ -2488,7 +2488,7 @@
 			"api_football_id": 3609,
 			"name": "Tuzlaspor",
 			"code": "TUZ",
-			"country": "Turkey",
+			"country": "Türkiye",
 			"founded": 1954
 		},
 		"venue": {

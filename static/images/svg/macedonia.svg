@@ -2,13 +2,6 @@
 <?xml-stylesheet type="text/css" href="/styles/home.css"?><!-- https://www.amcharts.com/svg-maps -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="map-macedonia"
    viewBox="0 0 1000 1000"
@@ -16,7 +9,14 @@
    height="1000"
    class=""
    sodipodi:docname="macedonia.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata95">
     <rdf:RDF>
@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -39,18 +39,21 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-height="1106"
      id="namedview93"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.30454976"
-     inkscape:cx="-3.0782916"
-     inkscape:cy="843.67645"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="256"
+     inkscape:cx="705.69141"
+     inkscape:cy="114.74805"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="map-macedonia">
+     inkscape:current-layer="map-macedonia"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="1304.8574,500"
        orientation="0,1"
@@ -58,6 +61,11 @@
        inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="704.51172,886.07031"
+       orientation="0,-1"
+       id="guide1"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
      id="defs4">
@@ -383,12 +391,13 @@
      inkscape:connector-curvature="0"
      style="fill:#f59088;fill-opacity:1;stroke:#ffffff;stroke-width:0.64459741;stroke-opacity:1" />
   <path
-     d="m 720.53939,119.55017 10.49405,10.85503 7.47734,3.90626 2.75887,-2.51393 3.15853,1.95958 4.08674,-0.1676 3.63553,7.46443 4.93762,2.62995 -0.90244,3.19721 5.74981,9.1146 3.46794,1.68886 0.21916,4.24145 3.6871,-0.87665 1.68884,5.46619 4.11254,3.19721 -0.63171,2.862 7.3613,13.85885 0.70906,4.65399 5.85295,0.3223 6.09789,3.45504 2.11428,13.34317 4.24144,5.90451 -1.93378,2.04982 v 0 l -18.78357,12.44074 -4.09964,5.99475 -6.8843,4.84738 v 0 l -6.18814,-1.18606 -20.31771,0.86376 -1.03135,3.00382 v 0 l -25.06195,-14.28428 -5.76271,3.57107 -13.54943,1.79198 -9.97838,-0.29651 -1.67595,-4.33169 v 0 l 3.89337,-4.31881 0.21917,-6.54911 -3.10696,-7.16792 -0.88956,-11.62854 -4.43482,-9.84946 0.45122,-10.44247 3.54529,-6.27838 v -3.57107 l -3.54529,-1.79198 h -11.55119 l -7.10346,-3.59685 -14.19404,-20.31773 -3.48082,-9.14038 v 0 l 21.96787,-5.41462 8.26374,-9.06303 6.63936,0.10312 22.78008,-5.94318 8.45711,0.38675 z"
+     d="m 720.53939,119.55017 10.49405,10.85503 7.47734,3.90626 2.75887,-2.51393 3.15853,1.95958 4.08674,-0.1676 3.63553,7.46443 4.93762,2.62995 -0.90244,3.19721 5.74981,9.1146 3.46794,1.68886 0.21916,4.24145 3.6871,-0.87665 1.68884,5.46619 4.11254,3.19721 -0.63171,2.862 7.3613,13.85885 0.70906,4.65399 5.85295,0.3223 6.09789,3.45504 2.11428,13.34317 4.24144,5.90451 -1.93378,2.04982 v 0 l -18.78357,12.44074 -4.09964,5.99475 -6.8843,4.84738 v 0 l -6.18814,-1.18606 -20.31771,0.86376 -1.03135,3.00382 v 0 l -25.06195,-14.28428 -5.76271,3.57107 -13.54943,1.79198 -9.97838,-0.29651 -1.67595,-4.33169 v 0 l 3.89337,-4.31881 0.21917,-6.54911 -3.10696,-7.16792 -0.88956,-11.62854 -4.43482,-9.84946 0.45122,-10.44247 3.54529,-6.27838 v -3.57107 l -3.54529,-1.79198 h -11.55119 l -7.10346,-3.59685 -14.19404,-20.31773 -3.48082,-9.14038 v 0 l 21.96787,-5.41462 8.26374,-9.06303 6.63936,0.10312 22.03899,-5.74983 0.74109,-0.19335 8.45711,0.38675 z"
      class="land"
      title="Kriva Palanka"
      id="MK-44"
      inkscape:connector-curvature="0"
-     style="fill:#f59088;fill-opacity:1;stroke:#ffffff;stroke-width:0.64459741;stroke-opacity:1" />
+     style="fill:#f59088;fill-opacity:1;stroke:#ffffff;stroke-width:0.644597;stroke-opacity:1"
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
   <path
      d="m 336.01123,617.94004 9.50137,-6.31705 2.50104,1.03134 3.45503,15.0578 18.47417,-1.01846 5.14389,3.9965 v 0 l -6.3944,6.97455 3.64841,9.44979 9.63029,2.03694 -5.38884,23.2184 -11.3578,11.73167 -7.99301,0.88954 v 0 l -3.64842,-2.16584 -3.06829,-4.58954 -5.01496,-1.94668 v 0 l -0.1805,-2.64285 -4.80869,-1.2763 4.61532,-16.32121 -0.58014,-5.36306 -9.23063,-13.52365 z"
      class="land"

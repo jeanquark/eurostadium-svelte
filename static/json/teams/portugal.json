@@ -16,8 +16,10 @@
 			"surface": "grass",
 			"lat": 38.7527,
 			"lng": -9.1847,
-			"x": 243.2,
-			"y": 113.5,
+			"x1": 243.2,
+			"x": 788,
+			"y1": 113.5,
+			"y": 818,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_da_Luz"
 		},
 		"league": {
@@ -28,7 +30,8 @@
 		},
 		"images": [
 			{
-				"name": "1265_001.jpg","source": "https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/617582d70cf2279e5b748706/",
+				"name": "1265_001.jpg",
+				"source": "https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/617582d70cf2279e5b748706/",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -110,8 +113,10 @@
 			"surface": "grass",
 			"lat": 41.1618,
 			"lng": -8.5839,
-			"x": 248.5,
-			"y": 33.2,
+			"x1": 248.5,
+			"x": 969,
+			"y1": 33.2,
+			"y": 352,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Drag%C3%A3o"
 		},
 		"league": {
@@ -122,7 +127,8 @@
 		},
 		"images": [
 			{
-				"name": "1286_001.jpg","source": "https://files.app.fcporto.pt/sources/5c90c108c4b3b1J17qAEFdZDq1XiD.jpg",
+				"name": "1286_001.jpg",
+				"source": "https://files.app.fcporto.pt/sources/5c90c108c4b3b1J17qAEFdZDq1XiD.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -204,8 +210,8 @@
 			"surface": "grass",
 			"lat": 41.378056,
 			"lng": -8.354722,
-			"x": 250.5,
-			"y": 26,
+			"x": 1038,
+			"y": 310,
 			"wiki": "https://en.wikipedia.org/wiki/Parque_de_Jogos_Comendador_Joaquim_de_Almeida_Freitas"
 		},
 		"league": {
@@ -216,7 +222,8 @@
 		},
 		"images": [
 			{
-				"name": "1280_001.jpg","source": "https://upload.wikimedia.org/wikipedia/commons/9/90/Est%C3%A1dio_do_Moreirense.jpg",
+				"name": "1280_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/9/90/Est%C3%A1dio_do_Moreirense.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -274,8 +281,8 @@
 			"surface": "grass",
 			"lat": 41.5625,
 			"lng": -8.43,
-			"x": 249.9,
-			"y": 19.8,
+			"x": 1016,
+			"y": 273,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_de_Braga"
 		},
 		"league": {
@@ -286,7 +293,8 @@
 		},
 		"images": [
 			{
-				"name": "1291_001.jpg","source": "https://asset.skoiy.com/ojonxcycnuapxiqs/mjnolcbopubu.jpg",
+				"name": "1291_001.jpg",
+				"source": "https://asset.skoiy.com/ojonxcycnuapxiqs/mjnolcbopubu.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -352,8 +360,8 @@
 			"surface": "grass",
 			"lat": 41.162222,
 			"lng": -8.642778,
-			"x": 248,
-			"y": 33.2,
+			"x": 951,
+			"y": 352,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Bessa"
 		},
 		"league": {
@@ -364,7 +372,8 @@
 		},
 		"images": [
 			{
-				"name": "1267_001.jpg","source": "https://upload.wikimedia.org/wikipedia/commons/1/11/Pitch_view_from_the_Estadio_do_Bessa_in_2018.jpg",
+				"name": "1267_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/1/11/Pitch_view_from_the_Estadio_do_Bessa_in_2018.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -430,8 +439,8 @@
 			"surface": "grass",
 			"lat": 41.445833,
 			"lng": -8.301111,
-			"x": 251,
-			"y": 23.7,
+			"x": 1054,
+			"y": 296,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_D._Afonso_Henriques"
 		},
 		"league": {
@@ -442,7 +451,8 @@
 		},
 		"images": [
 			{
-				"name": "1295_001.jpg","source": "https://pbs.twimg.com/media/F2nwHyqW0AAc36X?format=jpg&name=4096x4096",
+				"name": "1295_001.jpg",
+				"source": "https://pbs.twimg.com/media/F2nwHyqW0AAc36X?format=jpg&name=4096x4096",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -508,8 +518,8 @@
 			"surface": "grass",
 			"lat": 32.670625,
 			"lng": -16.883525,
-			"x": 175.2,
-			"y": 316.5,
+			"x": -1534,
+			"y": 1930,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_da_Madeira"
 		},
 		"league": {
@@ -520,7 +530,8 @@
 		},
 		"images": [
 			{
-				"name": "1281_001.jpg","source": "https://stadiumdb.com/pictures/stadiums/por/estadio_eng_rui_alves/estadio_eng_rui_alves18.jpg",
+				"name": "1281_001.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/por/estadio_eng_rui_alves/estadio_eng_rui_alves18.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -570,8 +581,8 @@
 			"surface": "grass",
 			"lat": 41.362778,
 			"lng": -8.740278,
-			"x": 247.1,
-			"y": 26.5,
+			"x": 922,
+			"y": 313,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_dos_Arcos"
 		},
 		"league": {
@@ -582,7 +593,8 @@
 		},
 		"images": [
 			{
-				"name": "1288_001.jpg","source": "https://www.visitviladoconde.pt/thumbs/turismoviladoconde/uploads/geo_article/image/3305/06_estadio_do_rio_ave_futebol_clube_amvc_15600_1_1024_2500.jpg",
+				"name": "1288_001.jpg",
+				"source": "https://www.visitviladoconde.pt/thumbs/turismoviladoconde/uploads/geo_article/image/3305/06_estadio_do_rio_ave_futebol_clube_amvc_15600_1_1024_2500.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -632,8 +644,8 @@
 			"surface": "grass",
 			"lat": 37.763708,
 			"lng": -25.622589,
-			"x": 97.9,
-			"y": 146.5,
+			"x": -4170,
+			"y": 1005,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_de_S%C3%A3o_Miguel_(Ponta_Delgada)"
 		},
 		"league": {
@@ -644,7 +656,8 @@
 		},
 		"images": [
 			{
-				"name": "1289_001.jpg","source": "https://psdacores.pt/wp-content/uploads/2020/06/ESTADIO-SAO-MIGUEL-1.jpg",
+				"name": "1289_001.jpg",
+				"source": "https://psdacores.pt/wp-content/uploads/2020/06/ESTADIO-SAO-MIGUEL-1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -694,8 +707,8 @@
 			"surface": "grass",
 			"lat": 38.761111,
 			"lng": -9.160833,
-			"x": 243.4,
-			"y": 113.3,
+			"x": 795,
+			"y": 817,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Jos%C3%A9_Alvalade"
 		},
 		"league": {
@@ -706,7 +719,8 @@
 		},
 		"images": [
 			{
-				"name": "1293_001.jpg","source": "https://editorial.uefa.com/resources/0282-185d605071d4-06036d20de7f-1000/sporting_cp_v_juventus_quarterfinal_second_leg_-_uefa_europa_league.jpeg",
+				"name": "1293_001.jpg",
+				"source": "https://editorial.uefa.com/resources/0282-185d605071d4-06036d20de7f-1000/sporting_cp_v_juventus_quarterfinal_second_leg_-_uefa_europa_league.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -772,8 +786,8 @@
 			"surface": "grass",
 			"lat": 38.715833,
 			"lng": -9.406389,
-			"x": 241.2,
-			"y": 114.8,
+			"x": 721,
+			"y": 825,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Ant%C3%B3nio_Coimbra_da_Mota"
 		},
 		"league": {
@@ -784,7 +798,8 @@
 		},
 		"images": [
 			{
-				"name": "1274_001.jpg","source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/31/0b/e2/estadio-antonio-coimbra.jpg?w=1200&h=-1&s=1",
+				"name": "1274_001.jpg",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/31/0b/e2/estadio-antonio-coimbra.jpg?w=1200&h=-1&s=1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -834,8 +849,8 @@
 			"surface": "grass",
 			"lat": 37.022778,
 			"lng": -7.928611,
-			"x": 254.3,
-			"y": 171.3,
+			"x": 1167,
+			"y": 1143,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_de_S%C3%A3o_Lu%C3%ADs"
 		},
 		"league": {
@@ -846,7 +861,8 @@
 		},
 		"images": [
 			{
-				"name": "1290_001.jpg","source": "https://photos1.blogger.com/x/blogger/3268/643/1600/231018/sluis2.jpg",
+				"name": "1290_001.jpg",
+				"source": "https://photos1.blogger.com/x/blogger/3268/643/1600/231018/sluis2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -896,8 +912,8 @@
 			"surface": "grass",
 			"lat": 40.933,
 			"lng": -8.2503,
-			"x": 251.5,
-			"y": 40.8,
+			"x": 1070,
+			"y": 397,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_de_Arouca"
 		},
 		"league": {
@@ -908,7 +924,8 @@
 		},
 		"images": [
 			{
-				"name": "1275_001.jpg","source": "https://www.em.com.br/apostas/wp-content/uploads/2024/02/arouca-municipal-de-arouca-2.jpg",
+				"name": "1275_001.jpg",
+				"source": "https://www.em.com.br/apostas/wp-content/uploads/2024/02/arouca-municipal-de-arouca-2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -958,8 +975,8 @@
 			"surface": "grass",
 			"lat": 41.401389,
 			"lng": -8.5225,
-			"x": 249.1,
-			"y": 25.2,
+			"x": 988,
+			"y": 305,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_22_de_Junho"
 		},
 		"league": {
@@ -970,7 +987,8 @@
 		},
 		"images": [
 			{
-				"name": "1276_001.jpg","source": "https://www.fcfamalicao.pt/wp-content/uploads/2024/06/13-scaled.jpg",
+				"name": "1276_001.jpg",
+				"source": "https://www.fcfamalicao.pt/wp-content/uploads/2024/06/13-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1020,8 +1038,8 @@
 			"surface": "grass",
 			"lat": 41.551,
 			"lng": -8.623,
-			"x": 248.2,
-			"y": 20.2,
+			"x": 957,
+			"y": 275,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Cidade_de_Barcelos"
 		},
 		"league": {
@@ -1032,7 +1050,8 @@
 		},
 		"images": [
 			{
-				"name": "2811_001.jpg","source": "https://pbs.twimg.com/media/Fz9M5mkXsAI3vfb.jpg:large",
+				"name": "2811_001.jpg",
+				"source": "https://pbs.twimg.com/media/Fz9M5mkXsAI3vfb.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1082,8 +1101,8 @@
 			"surface": "grass",
 			"lat": 38.7089,
 			"lng": -9.2628,
-			"x": 242.5,
-			"y": 115,
+			"x": 764,
+			"y": 827,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Nacional"
 		},
 		"league": {
@@ -1094,7 +1113,8 @@
 		},
 		"images": [
 			{
-				"name": "1262_001.jpg","source": "https://upload.wikimedia.org/wikipedia/commons/7/72/StadionJamor.JPG",
+				"name": "1262_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/7/72/StadionJamor.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1160,8 +1180,8 @@
 			"surface": "grass",
 			"lat": 38.751944,
 			"lng": -9.228056,
-			"x": 242.8,
-			"y": 113.6,
+			"x": 775,
+			"y": 818,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Jos%C3%A9_Gomes"
 		},
 		"league": {
@@ -1172,7 +1192,8 @@
 		},
 		"images": [
 			{
-				"name": "19187_001.jpg","source": "https://pbs.twimg.com/media/F3bBpX4XwAEugCM?format=jpg&name=4096x4096",
+				"name": "19187_001.jpg",
+				"source": "https://pbs.twimg.com/media/F3bBpX4XwAEugCM?format=jpg&name=4096x4096",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1230,8 +1251,8 @@
 			"surface": "grass",
 			"lat": 41.366932,
 			"lng": -8.411789,
-			"x": 250,
-			"y": 26.3,
+			"x": 1021,
+			"y": 312,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_CD_Aves"
 		},
 		"league": {
@@ -1242,7 +1263,8 @@
 		},
 		"images": [
 			{
-				"name": "1272_001.jpg","source": "https://jornalentremargens.com/wp-content/uploads/2023/04/Estadio-1-cut.jpg",
+				"name": "1272_001.jpg",
+				"source": "https://jornalentremargens.com/wp-content/uploads/2023/04/Estadio-1-cut.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1292,8 +1314,8 @@
 			"surface": "grass",
 			"lat": 40.926689,
 			"lng": -8.545814,
-			"x": 248.8,
-			"y": 41,
+			"x": 981,
+			"y": 399,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Marcolino_de_Castro"
 		},
 		"league": {
@@ -1304,7 +1326,8 @@
 		},
 		"images": [
 			{
-				"name": "1277_001.jpg","source": "https://sportal365images.com/process/smp-images-production/abola.pt/07092023/fe3d7842-c602-407d-8f7a-0d6b8e3980eb.jpg",
+				"name": "1277_001.jpg",
+				"source": "https://sportal365images.com/process/smp-images-production/abola.pt/07092023/fe3d7842-c602-407d-8f7a-0d6b8e3980eb.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1362,8 +1385,8 @@
 			"surface": "grass",
 			"lat": 32.645561,
 			"lng": -16.928331,
-			"x": 174.8,
-			"y": 317.3,
+			"x": -1548,
+			"y": 1934,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Mar%C3%ADtimo"
 		},
 		"league": {
@@ -1374,7 +1397,8 @@
 		},
 		"images": [
 			{
-				"name": "1279_001.jpg","source": "https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/63dd00130cf2665294d3e5b7/",
+				"name": "1279_001.jpg",
+				"source": "https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/63dd00130cf2665294d3e5b7/",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1440,8 +1464,8 @@
 			"surface": "grass",
 			"lat": 37.135833,
 			"lng": -8.539722,
-			"x": 248.9,
-			"y": 167.5,
+			"x": 982,
+			"y": 1122,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_de_Portim%C3%A3o"
 		},
 		"league": {
@@ -1452,7 +1476,8 @@
 		},
 		"images": [
 			{
-				"name": "1285_001.jpg","source": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Est%C3%A1dio_Municipal_de_Portim%C3%A3o.jpg",
+				"name": "1285_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Est%C3%A1dio_Municipal_de_Portim%C3%A3o.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1502,8 +1527,8 @@
 			"surface": "grass",
 			"lat": 40.512041,
 			"lng": -8.082825,
-			"x": 252.9,
-			"y": 54.8,
+			"x": 1120,
+			"y": 480,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Jo%C3%A3o_Cardoso"
 		},
 		"league": {
@@ -1514,7 +1539,8 @@
 		},
 		"images": [
 			{
-				"name": "1271_001.jpg","source": "https://www.jornaldocentro.pt/wp-content/uploads/2024/08/2706241514515380dbbbe6657a79069525fe2f12dbc9fffc5b8f.jpg",
+				"name": "1271_001.jpg",
+				"source": "https://www.jornaldocentro.pt/wp-content/uploads/2024/08/2706241514515380dbbbe6657a79069525fe2f12dbc9fffc5b8f.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1572,8 +1598,8 @@
 			"surface": "grass",
 			"lat": 41.7506,
 			"lng": -7.46499,
-			"x": 258.4,
-			"y": 13.5,
+			"x": 1307,
+			"y": 236,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_Eng._Manuel_Branco_Teixeira"
 		},
 		"league": {
@@ -1584,7 +1610,8 @@
 		},
 		"images": [
 			{
-				"name": "1273_001.jpg","source": "https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/6429b9cb0cf2665294dd1e25/",
+				"name": "1273_001.jpg",
+				"source": "https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/6429b9cb0cf2665294dd1e25/",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1634,8 +1661,8 @@
 			"surface": "grass",
 			"lat": 38.640556,
 			"lng": -9.091944,
-			"x": 244,
-			"y": 117.3,
+			"x": 816,
+			"y": 840,
 			"wiki": "https://en.wikipedia.org/wiki/Benfica_Campus"
 		},
 		"league": {
@@ -1646,7 +1673,8 @@
 		},
 		"images": [
 			{
-				"name": "1266_001.jpg","source": "https://stadiumdb.com/pictures/stadiums/por/caixa_futebol_campus/caixa_futebol_campus03.jpg",
+				"name": "1266_001.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/por/caixa_futebol_campus/caixa_futebol_campus03.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1688,8 +1716,8 @@
 			"surface": "grass",
 			"lat": 40.8419,
 			"lng": -8.4703,
-			"x": 249.5,
-			"y": 43.8,
+			"x": 1003,
+			"y": 415,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Carlos_Os%C3%B3rio"
 		},
 		"league": {
@@ -1700,7 +1728,8 @@
 		},
 		"images": [
 			{
-				"name": "10959_001.jpg","source": "https://upload.wikimedia.org/wikipedia/commons/8/80/Estadiocarlososorio.jpg",
+				"name": "10959_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/8/80/Estadiocarlososorio.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1734,8 +1763,8 @@
 			"surface": "grass",
 			"lat": 41.271353,
 			"lng": -8.385581,
-			"x": 250.3,
-			"y": 29.5,
+			"x": 1029,
+			"y": 331,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_da_Mata_Real"
 		},
 		"league": {
@@ -1746,7 +1775,8 @@
 		},
 		"images": [
 			{
-				"name": "1283_001.jpg","source": "https://media-manager.noticiasaominuto.com/1280/naom_5a16a9114da9e.webp",
+				"name": "1283_001.jpg",
+				"source": "https://media-manager.noticiasaominuto.com/1280/naom_5a16a9114da9e.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1796,8 +1826,8 @@
 			"surface": "grass",
 			"lat": 41.2117,
 			"lng": -8.277919,
-			"x": 251.2,
-			"y": 31.5,
+			"x": 1061,
+			"y": 342,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_25_de_Abril"
 		},
 		"league": {
@@ -1808,7 +1838,8 @@
 		},
 		"images": [
 			{
-				"name": "1284_001.jpg","source": "https://asset.skoiy.com/ojonxcycnuapxiqs/vitmeha67s5t.jpg?w=1852&q=80",
+				"name": "1284_001.jpg",
+				"source": "https://asset.skoiy.com/ojonxcycnuapxiqs/vitmeha67s5t.jpg?w=1852&q=80",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1850,8 +1881,8 @@
 			"surface": "grass",
 			"lat": 40.659444,
 			"lng": -7.900833,
-			"x": 254.5,
-			"y": 49.9,
+			"x": 1175,
+			"y": 451,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Fontelo"
 		},
 		"league": {
@@ -1862,7 +1893,8 @@
 		},
 		"images": [
 			{
-				"name": "1264_001.jpg","source": "https://www.jornaldocentro.pt/wp-content/uploads/2024/08/301122144916089367367e281e465a56254dc2a1015c1a150664.jpeg",
+				"name": "1264_001.jpg",
+				"source": "https://www.jornaldocentro.pt/wp-content/uploads/2024/08/301122144916089367367e281e465a56254dc2a1015c1a150664.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1920,8 +1952,8 @@
 			"surface": "grass",
 			"lat": 41.067158,
 			"lng": -8.544812,
-			"x": 248.9,
-			"y": 36.3,
+			"x": 981,
+			"y": 371,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_Jorge_Sampaio"
 		},
 		"league": {
@@ -1932,7 +1964,8 @@
 		},
 		"images": [
 			{
-				"name": "1287_001.jpg","source": "https://novumcanal.pt/wp-content/uploads/2024/05/foto-esta-sim-sim-.jpg",
+				"name": "1287_001.jpg",
+				"source": "https://novumcanal.pt/wp-content/uploads/2024/05/foto-esta-sim-sim-.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1974,8 +2007,8 @@
 			"surface": "grass",
 			"lat": 41.183969,
 			"lng": -8.666919,
-			"x": 247.8,
-			"y": 32.4,
+			"x": 944,
+			"y": 348,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Mar"
 		},
 		"league": {
@@ -1986,7 +2019,8 @@
 		},
 		"images": [
 			{
-				"name": "1278_001.jpg","source": "https://mundorubronegro.com/wp-content/uploads/2024/08/Estadio-do-Mar-2.jpeg",
+				"name": "1278_001.jpg",
+				"source": "https://mundorubronegro.com/wp-content/uploads/2024/08/Estadio-do-Mar-2.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2028,8 +2062,8 @@
 			"surface": "grass",
 			"lat": 38.940802,
 			"lng": -9.341495,
-			"x": 241.8,
-			"y": 107.3,
+			"x": 741,
+			"y": 783,
 			"wiki": ""
 		},
 		"league": {
@@ -2040,7 +2074,8 @@
 		},
 		"images": [
 			{
-				"name": "1270_001.jpg","source": "https://www.dragaoautentico.pt/media/estadio_do_parque_desportivo_mafra__34_.jpeg",
+				"name": "1270_001.jpg",
+				"source": "https://www.dragaoautentico.pt/media/estadio_do_parque_desportivo_mafra__34_.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2082,8 +2117,8 @@
 			"surface": "grass",
 			"lat": 41.388796,
 			"lng": -8.307328,
-			"x": 251,
-			"y": 25.6,
+			"x": 1053,
+			"y": 308,
 			"wiki": ""
 		},
 		"league": {
@@ -2094,7 +2129,8 @@
 		},
 		"images": [
 			{
-				"name": "2817_001.jpg","source": "https://fcvizela.pt/wp-content/uploads/2021/11/IMG_9927.jpeg",
+				"name": "2817_001.jpg",
+				"source": "https://fcvizela.pt/wp-content/uploads/2021/11/IMG_9927.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2152,8 +2188,8 @@
 			"surface": "grass",
 			"lat": 39.748611,
 			"lng": -8.813056,
-			"x": 246.5,
-			"y": 80.3,
+			"x": 900,
+			"y": 628,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Dr._Magalh%C3%A3es_Pessoa"
 		},
 		"league": {
@@ -2164,7 +2200,8 @@
 		},
 		"images": [
 			{
-				"name": "3514_001.jpg","source": "https://www.cm-leiria.pt/cmleiria/uploads/page/image1/1860/estadio_cabecalho_14082023.JPG",
+				"name": "3514_001.jpg",
+				"source": "https://www.cm-leiria.pt/cmleiria/uploads/page/image1/1860/estadio_cabecalho_14082023.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2230,8 +2267,8 @@
 			"surface": "grass",
 			"lat": 38.897927,
 			"lng": -9.034942,
-			"x": 0,
-			"y": 0,
+			"x": 833,
+			"y": 791,
 			"wiki": ""
 		},
 		"league": {
@@ -2293,8 +2330,8 @@
 			"surface": "grass",
 			"lat": 41.355956,
 			"lng": -8.190729,
-			"x": 0,
-			"y": 0,
+			"x": 1088,
+			"y": 314,
 			"wiki": ""
 		},
 		"league": {
@@ -2348,8 +2385,8 @@
 			"surface": "grass",
 			"lat": 39.094878,
 			"lng": -9.256594,
-			"x": 242.6,
-			"y": 102.1,
+			"x": 766,
+			"y": 753,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Manuel_Marques"
 		},
 		"league": {
@@ -2360,7 +2397,8 @@
 		},
 		"images": [
 			{
-				"name": "3638_001.jpg","source": "https://sportizzy.s3.amazonaws.com/torreense/galleries/6/img_4926.JPEG",
+				"name": "3638_001.jpg",
+				"source": "https://sportizzy.s3.amazonaws.com/torreense/galleries/6/img_4926.JPEG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2410,14 +2448,15 @@
 			"surface": "grass",
 			"lat": 41.649413,
 			"lng": -8.423059,
-			"x": 249.9,
-			"y": 16.9,
+			"x": 1018,
+			"y": 256,
 			"wiki": ""
 		},
 		"league": {},
 		"images": [
 			{
-				"name": "3646_001.jpg","source": "https://radiogeice.com/wp-content/uploads/2022/01/Campo_da_cruz_do_reguengo.jpg",
+				"name": "3646_001.jpg",
+				"source": "https://radiogeice.com/wp-content/uploads/2022/01/Campo_da_cruz_do_reguengo.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2459,14 +2498,15 @@
 			"surface": "grass",
 			"lat": 40.987881,
 			"lng": -8.543601,
-			"x": 248.9,
-			"y": 39,
+			"x": 981,
+			"y": 386,
 			"wiki": ""
 		},
 		"league": {},
 		"images": [
 			{
-				"name": "4700_001.jpg","source": "https://sportal365images.com/process/smp-images-production/abola.pt/23032024/03258915-5f56-4029-a70a-14233b21f42b.jpg?operations=fit(1920:)",
+				"name": "4700_001.jpg",
+				"source": "https://sportal365images.com/process/smp-images-production/abola.pt/23032024/03258915-5f56-4029-a70a-14233b21f42b.jpg?operations=fit(1920:)",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2516,14 +2556,15 @@
 			"surface": "grass",
 			"lat": 38.702778,
 			"lng": -9.207778,
-			"x": 243,
-			"y": 115.2,
+			"x": 781,
+			"y": 828,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Restelo"
 		},
 		"league": {},
 		"images": [
 			{
-				"name": "12376_001.jpg","source": "https://bordalo.observador.pt/v2/q:60/rs:fill:1440/c:2000:1333:nowe:0:0/plain/https://s3.observador.pt/wp-content/uploads/2016/09/15120505/aniversario-estadio-restelo01.jpg",
+				"name": "12376_001.jpg",
+				"source": "https://bordalo.observador.pt/v2/q:60/rs:fill:1440/c:2000:1333:nowe:0:0/plain/https://s3.observador.pt/wp-content/uploads/2016/09/15120505/aniversario-estadio-restelo01.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,

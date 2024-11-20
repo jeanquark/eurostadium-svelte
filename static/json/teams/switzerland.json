@@ -16,9 +16,13 @@
 			"surface": "grass",
 			"lat": 47.541389,
 			"lng": 7.62,
-			"x": 366.7029029519353,
-			"y": 264.02857210180207,
-			"wiki": ""
+			"x1": 366.7029029519353,
+			"x2": 367,
+			"x": 367,
+			"y1": 264.02857210180207,
+			"y2": 226,
+			"y": 226,
+			"wiki": "https://en.wikipedia.org/wiki/St._Jakob-Park"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -111,9 +115,13 @@
 			"surface": "artificial turf",
 			"lat": 46.962778,
 			"lng": 7.465,
-			"x": 332.5315935801129,
-			"y": 451.50299988767694,
-			"wiki": ""
+			"x1": 332.5315935801129,
+			"x2": 333,
+			"x": 333,
+			"y1": 451.50299988767694,
+			"y2": 519,
+			"y": 519,
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_Wankdorf"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -190,9 +198,11 @@
 			"surface": "grass",
 			"lat": 46.023753,
 			"lng": 8.961469,
-			"x": 662.443239801677,
-			"y": 751.4891658941011,
-			"wiki": ""
+			"x1": 662.443239801677,
+			"x": 662,
+			"y1": 751.4891658941011,
+			"y": 988,
+			"wiki": "https://en.wikipedia.org/wiki/Cornaredo_Stadium"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -261,9 +271,11 @@
 			"surface": "grass",
 			"lat": 46.233333,
 			"lng": 7.376389,
-			"x": 312.99640716238645,
-			"y": 684.9825322226301,
-			"wiki": ""
+			"x1": 312.99640716238645,
+			"x": 313,
+			"y1": 684.9825322226301,
+			"y": 884,
+			"wiki": "https://en.wikipedia.org/wiki/Stade_de_Tourbillon"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -348,9 +360,11 @@
 			"surface": "grass",
 			"lat": 47.033264,
 			"lng": 8.305187,
-			"x": 517.7592704006571,
-			"y": 428.774124324056,
-			"wiki": ""
+			"x1": 517.7592704006571,
+			"x": 518,
+			"y1": 428.774124324056,
+			"y": 484,
+			"wiki": "https://en.wikipedia.org/wiki/Swissporarena"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -435,9 +449,11 @@
 			"surface": "grass",
 			"lat": 47.382778,
 			"lng": 8.504167,
-			"x": 561.626413231658,
-			"y": 315.624021579717,
-			"wiki": ""
+			"x1": 561.626413231658,
+			"x": 562,
+			"y1": 315.624021579717,
+			"y": 307,
+			"wiki": "https://en.wikipedia.org/wiki/Letzigrund"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -530,9 +546,11 @@
 			"surface": "grass",
 			"lat": 47.408296,
 			"lng": 9.305116,
-			"x": 738.2036781997422,
-			"y": 307.33362751587725,
-			"wiki": ""
+			"x1": 738.2036781997422,
+			"x": 738,
+			"y1": 307.33362751587725,
+			"y": 294,
+			"wiki": "https://en.wikipedia.org/wiki/Kybunpark"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -609,9 +627,11 @@
 			"surface": "grass",
 			"lat": 47.382778,
 			"lng": 8.504167,
-			"x": 561.626413231658,
-			"y": 315.624021579717,
-			"wiki": ""
+			"x1": 561.626413231658,
+			"x": 562,
+			"y1": 315.624021579717,
+			"y": 307,
+			"wiki": "https://en.wikipedia.org/wiki/Letzigrund"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -704,9 +724,11 @@
 			"surface": "artificial turf",
 			"lat": 46.54355,
 			"lng": 6.62188,
-			"x": 146.65730740223205,
-			"y": 586.0725417110787,
-			"wiki": ""
+			"x1": 146.65730740223205,
+			"x": 147,
+			"y1": 586.0725417110787,
+			"y": 730,
+			"wiki": "https://en.wikipedia.org/wiki/Stade_de_la_Tuili%C3%A8re"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -783,9 +805,11 @@
 			"surface": "grass",
 			"lat": 47.500796,
 			"lng": 8.717382,
-			"x": 608.6318050233539,
-			"y": 277.2481255650108,
-			"wiki": ""
+			"x1": 608.6318050233539,
+			"x": 609,
+			"y1": 277.2481255650108,
+			"y": 247,
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_Sch%C3%BCtzenwiese"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -854,9 +878,11 @@
 			"surface": "grass",
 			"lat": 46.177778,
 			"lng": 6.1275,
-			"x": 37.66626271034268,
-			"y": 702.6366326562296,
-			"wiki": ""
+			"x1": 37.66626271034268,
+			"x": 38,
+			"y1": 702.6366326562296,
+			"y": 912,
+			"wiki": "https://en.wikipedia.org/wiki/Stade_de_Gen%C3%A8ve"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -949,9 +975,11 @@
 			"surface": "grass",
 			"lat": 46.783297,
 			"lng": 6.647056,
-			"x": 152.2076098844573,
-			"y": 509.24348503698684,
-			"wiki": ""
+			"x1": 152.2076098844573,
+			"x": 152,
+			"y1": 509.24348503698684,
+			"y": 609,
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Municipal_(Yverdon)"
 		},
 		"league": {
 			"api_football_id": 207,
@@ -1020,9 +1048,11 @@
 			"surface": "grass",
 			"lat": 47.140278,
 			"lng": 9.510278,
-			"x": 783.4337051245305,
-			"y": 394.208988332397,
-			"wiki": ""
+			"x1": 783.4337051245305,
+			"x": 783,
+			"y1": 394.208988332397,
+			"y": 430,
+			"wiki": "https://en.wikipedia.org/wiki/Rheinpark_Stadion"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1091,9 +1121,11 @@
 			"surface": "artificial turf",
 			"lat": 46.744722,
 			"lng": 7.606667,
-			"x": 363.76350896577856,
-			"y": 521.6282198159482,
-			"wiki": ""
+			"x1": 363.76350896577856,
+			"x": 364,
+			"y1": 521.6282198159482,
+			"y": 629,
+			"wiki": "https://en.wikipedia.org/wiki/Stockhorn_Arena"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1170,9 +1202,11 @@
 			"surface": "artificial turf",
 			"lat": 46.995443,
 			"lng": 6.944625,
-			"x": 217.8096896164835,
-			"y": 440.97359014801634,
-			"wiki": ""
+			"x1": 217.8096896164835,
+			"x": 218,
+			"y1": 440.97359014801634,
+			"y": 503,
+			"wiki": "https://en.wikipedia.org/wiki/Stade_de_la_Maladi%C3%A8re"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1265,9 +1299,11 @@
 			"surface": "grass",
 			"lat": 47.383346,
 			"lng": 8.059811,
-			"x": 463.66366260439537,
-			"y": 315.4395310527823,
-			"wiki": ""
+			"x1": 463.66366260439537,
+			"x": 464,
+			"y1": 315.4395310527823,
+			"y": 306,
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_Br%C3%BCgglifeld"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1344,9 +1380,11 @@
 			"surface": "artificial turf",
 			"lat": 47.458333,
 			"lng": 9.037222,
-			"x": 679.1437507619581,
-			"y": 291.0657311158367,
-			"wiki": ""
+			"x1": 679.1437507619581,
+			"x": 679,
+			"y1": 291.0657311158367,
+			"y": 268,
+			"wiki": "https://en.wikipedia.org/wiki/Lidl_Arena"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1415,9 +1453,11 @@
 			"surface": "artificial turf",
 			"lat": 47.717201,
 			"lng": 8.666377,
-			"x": 597.3872396394264,
-			"y": 206.65497081528775,
-			"wiki": ""
+			"x1": 597.3872396394264,
+			"x": 597,
+			"y1": 206.65497081528775,
+			"y": 136,
+			"wiki": "https://en.wikipedia.org/wiki/FCS_Arena_Schaffhausen"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1486,9 +1526,11 @@
 			"surface": "grass",
 			"lat": 46.533611,
 			"lng": 6.625,
-			"x": 147.34514279087355,
-			"y": 589.2502444616616,
-			"wiki": ""
+			"x1": 147.34514279087355,
+			"x": 147,
+			"y1": 589.2502444616616,
+			"y": 734,
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Olympique_de_la_Pontaise"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1549,9 +1591,11 @@
 			"surface": "grass",
 			"lat": 46.198082,
 			"lng": 9.022304,
-			"x": 675.854927579971,
-			"y": 696.1865586284893,
-			"wiki": ""
+			"x1": 675.854927579971,
+			"x": 676,
+			"y1": 696.1865586284893,
+			"y": 902,
+			"wiki": "https://en.wikipedia.org/wiki/Stadio_Comunale_Bellinzona"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1612,9 +1656,11 @@
 			"surface": "grass",
 			"lat": 46.370711,
 			"lng": 6.226201,
-			"x": 59.42589113814363,
-			"y": 641.2500795432725,
-			"wiki": ""
+			"x1": 59.42589113814363,
+			"x": 59,
+			"y1": 641.2500795432725,
+			"y": 816,
+			"wiki": "https://en.wikipedia.org/wiki/Colovray_Sports_Centre"
 		},
 		"league": {
 			"api_football_id": 208,
@@ -1675,8 +1721,8 @@
 			"surface": "artificial turf",
 			"lat": 46.185863,
 			"lng": 6.149849,
-			"x": 0,
-			"y": 0,
+			"x": 43,
+			"y": 908,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_de_la_Fontenette"
 		},
 		"league": {

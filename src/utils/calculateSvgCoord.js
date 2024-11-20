@@ -19,9 +19,9 @@ export default function (countrySlug) {
         const lat_max = coordData[country]['topLatitude']
         const x_max = coordData[country]['xMax']
         const y_max = coordData[country]['yMax']
-        // const x_translate = coordData[country]['xTranslate']
-        const x_translate = 131
-        const y_translate = coordData[country]['yTranslate']
+        // const x_translate = 75
+        const x_translate = Math.round(coordData[country]['xTranslate'])
+        const y_translate = Math.round(coordData[country]['yTranslate'])
         // console.log('x_translate: ', x_translate);
         // console.log('y_translate: ', y_translate);
         // const mapWidth = 739.34473;
