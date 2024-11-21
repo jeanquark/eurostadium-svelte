@@ -16,8 +16,8 @@
 			"surface": "grass",
 			"lat": 41.039167,
 			"lng": 28.994722,
-			"x": 163.8,
-			"y": 56.4,
+			"x": 174,
+			"y": 363,
 			"wiki": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_Stadium"
 		},
 		"league": {
@@ -87,8 +87,8 @@
 			"surface": "grass",
 			"lat": 41.122778,
 			"lng": 28.808611,
-			"x": 156.1,
-			"y": 51.9,
+			"x": 164,
+			"y": 357,
 			"wiki": "https://en.wikipedia.org/wiki/Ba%C5%9Fak%C5%9Fehir_Fatih_Terim_Stadium"
 		},
 		"league": {
@@ -158,8 +158,8 @@
 			"surface": "grass",
 			"lat": 37.946,
 			"lng": 32.488,
-			"x": 308.4,
-			"y": 220.7,
+			"x": 356,
+			"y": 572,
 			"wiki": "https://en.wikipedia.org/wiki/Konya_Metropolitan_Municipality_Stadium"
 		},
 		"league": {
@@ -229,8 +229,8 @@
 			"surface": "grass",
 			"lat": 40.987778,
 			"lng": 29.036944,
-			"x": 165.6,
-			"y": 59.1,
+			"x": 176,
+			"y": 366,
 			"wiki": "https://en.wikipedia.org/wiki/%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu_Stadium"
 		},
 		"league": {
@@ -308,8 +308,8 @@
 			"surface": "grass",
 			"lat": 41.102778,
 			"lng": 28.990556,
-			"x": 163.7,
-			"y": 53,
+			"x": 174,
+			"y": 358,
 			"wiki": "https://en.wikipedia.org/wiki/Rams_Park"
 		},
 		"league": {
@@ -379,8 +379,8 @@
 			"surface": "artificial turf",
 			"lat": 38.396821,
 			"lng": 27.07595,
-			"x": 84.4,
-			"y": 196.8,
+			"x": 74,
+			"y": 542,
 			"wiki": "https://en.wikipedia.org/wiki/G%C3%BCrsel_Aksel_Stadium"
 		},
 		"league": {
@@ -442,8 +442,8 @@
 			"surface": "grass",
 			"lat": 36.5626,
 			"lng": 32.0792,
-			"x": 291.4,
-			"y": 294.3,
+			"x": 335,
+			"y": 662,
 			"wiki": "https://en.wikipedia.org/wiki/Alanya_Oba_Stadium"
 		},
 		"league": {
@@ -505,8 +505,8 @@
 			"surface": "grass",
 			"lat": 40.999167,
 			"lng": 39.645833,
-			"x": 604.5,
-			"y": 58.5,
+			"x": 730,
+			"y": 366,
 			"wiki": "https://en.wikipedia.org/wiki/%C5%9Eenol_G%C3%BCne%C5%9F_Sports_Complex"
 		},
 		"league": {
@@ -576,8 +576,8 @@
 			"surface": "grass",
 			"lat": 38.737222,
 			"lng": 35.423056,
-			"x": 429.8,
-			"y": 178.7,
+			"x": 509,
+			"y": 519,
 			"wiki": "https://en.wikipedia.org/wiki/Kadir_Has_Stadium"
 		},
 		"league": {
@@ -647,8 +647,8 @@
 			"surface": "grass",
 			"lat": 39.728333,
 			"lng": 36.983889,
-			"x": 494.4,
-			"y": 126,
+			"x": 591,
+			"y": 452,
 			"wiki": "https://en.wikipedia.org/wiki/New_Sivas_4_Eyl%C3%BCl_Stadium"
 		},
 		"league": {
@@ -710,8 +710,8 @@
 			"surface": "grass",
 			"lat": 41.03277778,
 			"lng": 28.97222222,
-			"x": 162.9,
-			"y": 56.7,
+			"x": 173,
+			"y": 363,
 			"wiki": "https://en.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan_Stadium"
 		},
 		"league": {
@@ -773,8 +773,8 @@
 			"surface": "grass",
 			"lat": 36.88861111,
 			"lng": 30.66888889,
-			"x": 233.1,
-			"y": 276.9,
+			"x": 261,
+			"y": 641,
 			"wiki": "https://en.wikipedia.org/wiki/Antalya_Stadium"
 		},
 		"league": {
@@ -836,8 +836,8 @@
 			"surface": "grass",
 			"lat": 41.04202,
 			"lng": 40.5733,
-			"x": 642.9,
-			"y": 56.2,
+			"x": 778,
+			"y": 363,
 			"wiki": "https://en.wikipedia.org/wiki/Rize_City_Stadium"
 		},
 		"league": {
@@ -899,8 +899,8 @@
 			"surface": "grass",
 			"lat": 37.063333,
 			"lng": 35.375,
-			"x": 427.8,
-			"y": 267.7,
+			"x": 507,
+			"y": 629,
 			"wiki": "https://en.wikipedia.org/wiki/New_Adana_Stadium"
 		},
 		"league": {
@@ -962,8 +962,8 @@
 			"surface": "grass",
 			"lat": 37.123889,
 			"lng": 37.3825,
-			"x": 510.9,
-			"y": 264.4,
+			"x": 612,
+			"y": 626,
 			"wiki": "https://en.wikipedia.org/wiki/Gaziantep_Stadium"
 		},
 		"league": {
@@ -1033,8 +1033,8 @@
 			"surface": "grass",
 			"lat": 36.820556,
 			"lng": 34.538611,
-			"x": 393.2,
-			"y": 280.6,
+			"x": 463,
+			"y": 645,
 			"wiki": "https://en.wikipedia.org/wiki/Mersin_Stadium"
 		},
 		"league": {
@@ -1096,8 +1096,8 @@
 			"surface": "grass",
 			"lat": 37.040556,
 			"lng": 27.431667,
-			"x": 99.2,
-			"y": 268.9,
+			"x": 92,
+			"y": 631,
 			"wiki": "https://de.wikipedia.org/wiki/Bodrum_%C4%B0l%C3%A7e_Stadyumu"
 		},
 		"league": {
@@ -1143,8 +1143,8 @@
 			"surface": "grass",
 			"lat": 41.0475,
 			"lng": 28.93,
-			"x": 161.1,
-			"y": 55.9,
+			"x": 171,
+			"y": 362,
 			"wiki": ""
 		},
 		"league": {
@@ -1190,8 +1190,8 @@
 			"surface": "grass",
 			"lat": 41.227778,
 			"lng": 36.4575,
-			"x": 472.6,
-			"y": 46.3,
+			"x": 563,
+			"y": 350,
 			"wiki": "https://en.wikipedia.org/wiki/Samsun_19_May%C4%B1s_Stadium"
 		},
 		"league": {
@@ -1261,8 +1261,8 @@
 			"surface": "grass",
 			"lat": 39.980278,
 			"lng": 32.613889,
-			"x": 313.6,
-			"y": 112.6,
+			"x": 363,
+			"y": 435,
 			"wiki": "https://en.wikipedia.org/wiki/Eryaman_Stadium"
 		},
 		"league": {
@@ -1324,8 +1324,8 @@
 			"surface": "grass",
 			"lat": 38.337222,
 			"lng": 38.445833,
-			"x": 0,
-			"y": 0,
+			"x": 667,
+			"y": 546,
 			"wiki": "https://en.wikipedia.org/wiki/New_Malatya_Stadium"
 		},
 		"league": {
@@ -1387,8 +1387,8 @@
 			"surface": "grass",
 			"lat": 39.911111,
 			"lng": 41.238056,
-			"x": 670.4,
-			"y": 116.3,
+			"x": 813,
+			"y": 440,
 			"wiki": "https://en.wikipedia.org/wiki/Kaz%C4%B1m_Karabekir_Stadium"
 		},
 		"league": {
@@ -1442,8 +1442,8 @@
 			"surface": "grass",
 			"lat": 39.980278,
 			"lng": 32.613889,
-			"x": 313.6,
-			"y": 112.6,
+			"x": 363,
+			"y": 435,
 			"wiki": "https://en.wikipedia.org/wiki/Eryaman_Stadium"
 		},
 		"league": {
@@ -1505,8 +1505,8 @@
 			"surface": "grass",
 			"lat": 37.063333,
 			"lng": 35.375,
-			"x": 427.8,
-			"y": 267.7,
+			"x": 507,
+			"y": 629,
 			"wiki": "https://en.wikipedia.org/wiki/New_Adana_Stadium"
 		},
 		"league": {
@@ -1568,8 +1568,8 @@
 			"surface": "grass",
 			"lat": 40.736306,
 			"lng": 31.60675,
-			"x": 271.9,
-			"y": 72.5,
+			"x": 310,
+			"y": 384,
 			"wiki": "https://en.wikipedia.org/wiki/Bolu_Atat%C3%BCrk_Stadium"
 		},
 		"league": {
@@ -1631,8 +1631,8 @@
 			"surface": "grass",
 			"lat": 41.058754,
 			"lng": 29.109389,
-			"x": 168.6,
-			"y": 55.3,
+			"x": 180,
+			"y": 361,
 			"wiki": ""
 		},
 		"league": {
@@ -1686,8 +1686,8 @@
 			"surface": "grass",
 			"lat": 41.024444,
 			"lng": 28.697778,
-			"x": 151.5,
-			"y": 57.1,
+			"x": 158,
+			"y": 364,
 			"wiki": "https://en.wikipedia.org/wiki/Esenyurt_Necmi_Kad%C4%B1o%C4%9Flu_Stadium"
 		},
 		"league": {
@@ -1741,8 +1741,8 @@
 			"surface": "grass",
 			"lat": 37.955892,
 			"lng": 40.192747,
-			"x": 0,
-			"y": 0,
+			"x": 758,
+			"y": 571,
 			"wiki": ""
 		},
 		"league": {
@@ -1780,8 +1780,8 @@
 			"surface": "grass",
 			"lat": 40.338056,
 			"lng": 27.984722,
-			"x": 122,
-			"y": 93.6,
+			"x": 121,
+			"y": 411,
 			"wiki": "https://en.wikipedia.org/wiki/Band%C4%B1rma_17_Eyl%C3%BCl_Stadium"
 		},
 		"league": {
@@ -1827,8 +1827,8 @@
 			"surface": "grass",
 			"lat": 41.074444,
 			"lng": 28.765833,
-			"x": 154.4,
-			"y": 54.5,
+			"x": 162,
+			"y": 360,
 			"wiki": "https://en.wikipedia.org/wiki/Atat%C3%BCrk_Olympic_Stadium"
 		},
 		"league": {
@@ -1906,8 +1906,8 @@
 			"surface": "artificial turf",
 			"lat": 39.999158,
 			"lng": 32.880739,
-			"x": 324.6,
-			"y": 111.6,
+			"x": 377,
+			"y": 434,
 			"wiki": "https://en.wikipedia.org/wiki/Ankara_Aktepe_Stadium"
 		},
 		"league": {
@@ -1953,8 +1953,8 @@
 			"surface": "grass",
 			"lat": 38.623006,
 			"lng": 27.439933,
-			"x": 99.5,
-			"y": 184.8,
+			"x": 93,
+			"y": 527,
 			"wiki": "https://en.wikipedia.org/wiki/Manisa_19_May%C4%B1s_Stadium"
 		},
 		"league": {
@@ -2000,8 +2000,8 @@
 			"surface": "grass",
 			"lat": 40.888056,
 			"lng": 29.227778,
-			"x": 173.5,
-			"y": 64.4,
+			"x": 186,
+			"y": 373,
 			"wiki": "https://de.wikipedia.org/wiki/Pendik_Stadyumu"
 		},
 		"league": {
@@ -2055,8 +2055,8 @@
 			"surface": "grass",
 			"lat": 40.780556,
 			"lng": 30.432222,
-			"x": 223.3,
-			"y": 70.1,
+			"x": 249,
+			"y": 381,
 			"wiki": "https://en.wikipedia.org/wiki/New_Sakarya_Atat%C3%BCrk_Stadium"
 		},
 		"league": {
@@ -2118,8 +2118,8 @@
 			"surface": "grass",
 			"lat": 37.147778,
 			"lng": 38.806667,
-			"x": 569.8,
-			"y": 263.2,
+			"x": 686,
+			"y": 624,
 			"wiki": "https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfa_11_Nisan_Stadium"
 		},
 		"league": {
@@ -2181,8 +2181,8 @@
 			"surface": "grass",
 			"lat": 40.534444,
 			"lng": 34.922778,
-			"x": 409.1,
-			"y": 83.2,
+			"x": 483,
+			"y": 398,
 			"wiki": "https://tr.wikipedia.org/wiki/%C3%87orum_%C5%9Eehir_Stadyumu"
 		},
 		"league": {
@@ -2244,8 +2244,8 @@
 			"surface": "grass",
 			"lat": 41.053934,
 			"lng": 28.879937,
-			"x": 0,
-			"y": 0,
+			"x": 168,
+			"y": 362,
 			"wiki": ""
 		},
 		"league": {
@@ -2291,8 +2291,8 @@
 			"surface": "grass",
 			"lat": 40.774722,
 			"lng": 30.0175,
-			"x": 206.1,
-			"y": 70.4,
+			"x": 227,
+			"y": 381,
 			"wiki": "https://en.wikipedia.org/wiki/Kocaeli_Stadium"
 		},
 		"league": {
@@ -2354,8 +2354,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"x": -1340,
+			"y": 2710,
 			"wiki": ""
 		},
 		"league": {
@@ -2384,8 +2384,8 @@
 			"surface": "grass",
 			"lat": 38.437289,
 			"lng": 27.150889,
-			"x": 87.5,
-			"y": 194.6,
+			"x": 78,
+			"y": 539,
 			"wiki": "https://en.wikipedia.org/wiki/Alsancak_Mustafa_Denizli_Stadium"
 		},
 		"league": {},
@@ -2442,8 +2442,8 @@
 			"surface": "grass",
 			"lat": 40.889167,
 			"lng": 38.439167,
-			"x": 554.6,
-			"y": 64.3,
+			"x": 667,
+			"y": 373,
 			"wiki": "https://en.wikipedia.org/wiki/%C3%87otanak_Sports_Complex"
 		},
 		"league": {},
@@ -2500,8 +2500,8 @@
 			"surface": "artificial turf",
 			"lat": 41.00244,
 			"lng": 29.22609,
-			"x": 173.4,
-			"y": 58.3,
+			"x": 186,
+			"y": 365,
 			"wiki": "https://en.wikipedia.org/wiki/Sancaktepe_Stadium"
 		},
 		"league": {},

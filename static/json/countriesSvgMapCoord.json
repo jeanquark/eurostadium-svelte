@@ -4,52 +4,50 @@
         "topLatitude": "42.660316",
         "rightLongitude": "21.056942",
         "bottomLatitude": "39.645057",
-        "xMax2": 355.88525,
-        "xMax": 1000,
-        "yMax2": 792.52643,
+        "xMax": 449.052,
         "yMax": 1000,
-        "xTranslate2": 224,
-        "xTranslate": 275,
+        "xTranslate": 276.18055,
         "yTranslate": 0
+    },
+    "andorra": {
+        "leftLongitude": "1.409457",
+        "topLatitude": "42.654913",
+        "rightLongitude": "1.786852",
+        "bottomLatitude": "42.426982",
+        "xMax": 1000,
+        "yMax": 816.751,
+        "xTranslate": 0,
+        "yTranslate": 91.88669
     },
     "armenia": {
         "leftLongitude": "43.454090",
         "topLatitude": "41.300808",
         "rightLongitude": "46.632730",
         "bottomLatitude": "38.832890",
-        "xMax2": 792.31866,
         "xMax": 1000,
-        "yMax2": 801.75549,
-        "yMax": 1000,
-        "xTranslate2": 5,
-        "xTranslate": 7,
-        "yTranslate": 0
+        "yMax": 942.222,
+        "xTranslate": 0,
+        "yTranslate": 29.87776
     },
     "austria": {
         "leftLongitude": "9.501127",
         "topLatitude": "49.015154",
         "rightLongitude": "17.163378",
         "bottomLatitude": "46.370917",
-        "xMax2": 613.01746,
         "xMax": 1000,
-        "yMax2": 313.75916,
-        "yMax": 1000,
+        "yMax": 511.827,
         "xTranslate": 0,
-        "yTranslate2": 157,
-        "yTranslate": 245
+        "yTranslate": 244.74633
     },
     "azerbaijan": {
         "leftLongitude": "44.760601",
         "topLatitude": "41.906070",
         "rightLongitude": "50.614493",
         "bottomLatitude": "38.353659",
-        "xMax2": 774.02295,
         "xMax": 1000,
-        "yMax2": 612.3905,
-        "yMax": 1000,
+        "yMax": 791.179,
         "xTranslate": 0,
-        "yTranslate2": 84,
-        "yTranslate": 105
+        "yTranslate": 105.15725
     },
     "belarus": {
         "leftLongitude": "23.178942",
@@ -59,113 +57,88 @@
         "xMax2": 709.90222,
         "xMax": 1000,
         "yMax2": 612.76831,
-        "yMax": 1000,
+        "yMax": 863.173,
         "xTranslate": 0,
-        "yTranslate2": 52,
-        "yTranslate": 68
+        "yTranslate": 69.69313
     },
     "belgium": {
         "leftLongitude": "2.543698",
         "topLatitude": "51.499939",
         "rightLongitude": "6.408540",
         "bottomLatitude": "49.497691",
-        "xMax2": 752.27374,
         "xMax": 1000,
-        "yMax2": 611.37036,
-        "yMax": 1000,
+        "yMax": 812.697,
         "xTranslate": 0,
-        "yTranslate2": 70,
-        "yTranslate": 96
+        "yTranslate": 94.52604
     },
     "bosnia_and_herzegovina": {
         "leftLongitude": "15.714400",
         "topLatitude": "45.275910",
         "rightLongitude": "19.625600",
         "bottomLatitude": "42.560878",
-        "xMax2": 612.57397,
         "xMax": 1000,
-        "yMax2": 588.5271,
-        "yMax": 1000,
+        "yMax": 960.745,
         "xTranslate": 0,
-        "yTranslate2": 13,
-        "yTranslate": 21
+        "yTranslate": 21.33302
     },
     "bulgaria": {
         "leftLongitude": "22.356421",
         "topLatitude": "44.212643",
         "rightLongitude": "28.610539",
         "bottomLatitude": "41.235569",
-        "xMax2": 612.55042,
         "xMax": 1000,
-        "yMax2": 395.75009,
-        "yMax": 1000,
+        "yMax": 646.069,
         "xTranslate": 0,
-        "yTranslate2": 104,
-        "yTranslate": 178
+        "yTranslate": 177.77508
     },
     "croatia": {
         "leftLongitude": "13.492149",
         "topLatitude": "46.542610",
         "rightLongitude": "19.400320",
         "bottomLatitude": "42.403920",
-        "xMax2": 611.99579,
         "xMax": 1000,
-        "yMax2": 599.39093,
-        "yMax": 1000,
+        "yMax": 979.404,
         "xTranslate": 0,
-        "yTranslate2": 7,
-        "yTranslate": 12
+        "yTranslate": 11.62889
     },
     "cyprus": {
         "leftLongitude": "32.271509",
         "topLatitude": "35.695073",
         "rightLongitude": "34.589764",
         "bottomLatitude": "34.565124",
-        "xMax2": 606.92645,
         "xMax": 1000,
-        "yMax2": 360.28967,
-        "yMax": 1000,
+        "yMax": 593.677,
         "xTranslate": 0,
-        "yTranslate2": 111,
-        "yTranslate": 204
+        "yTranslate": 204.03939
     },
     "czech_republic": {
         "leftLongitude": "12.090946",
         "topLatitude": "51.055243",
         "rightLongitude": "18.859518",
         "bottomLatitude": "48.551226",
-        "xMax2": 612.62207,
         "xMax": 1000,
-        "yMax2": 350.48792,
-        "yMax": 1000,
+        "yMax": 572.111,
         "xTranslate": 0,
-        "yTranslate2": 127,
-        "yTranslate": 215
+        "yTranslate": 214.93114
     },
     "denmark": {
         "leftLongitude": "8.074878",
         "topLatitude": "57.751786",
         "rightLongitude": "15.157522",
         "bottomLatitude": "54.559212",
-        "xMax2": 980.48608,
         "xMax": 1000,
-        "yMax2": 792.64435,
-        "yMax": 100,
+        "yMax": 808.420,
         "xTranslate": 0,
-        "yTranslate2": 93,
-        "yTranslate": 95
+        "yTranslate": 96.26992
     },
     "england_and_wales": {
-        "leftLongitude": -6.40250000,
-        "topLatitude": 55.81111111,
-        "rightLongitude": 1.76277778,
-        "bottomLatitude": 49.86305556,
-        "xMax2": 380.89841,
-        "xMax": 1000,
-        "yMax2": 458.80078,
+        "leftLongitude": -6.445734,
+        "topLatitude": 55.810708,
+        "rightLongitude": 1.761915,
+        "bottomLatitude": 49.164425,
+        "xMax": 745.616,
         "yMax": 1000,
-        "xTranslate2": 26,
-        "xTranslate": 86,
+        "xTranslate": 128.11111,
         "yTranslate": 0
     },
     "estonia": {
@@ -173,25 +146,19 @@
         "topLatitude": "59.668926",
         "rightLongitude": "28.208948",
         "bottomLatitude": "57.509646",
-        "xMax2": 611.68964,
         "xMax": 1000,
-        "yMax2": 393.30511,
-        "yMax": 1000,
+        "yMax": 642.981,
         "xTranslate": 0,
-        "yTranslate2": 114,
-        "yTranslate": 180
+        "yTranslate": 179.70703
     },
     "faroe_islands": {
         "leftLongitude": "-7.681426",
         "topLatitude": "62.400788",
         "rightLongitude": "-6.258475",
         "bottomLatitude": "61.394739",
-        "xMax2": 529.10907,
-        "xMax": 1000,
-        "yMax2": 792.95703,
+        "xMax": 667.261,
         "yMax": 1000,
-        "xTranslate2": 127,
-        "xTranslate": 169,
+        "xTranslate": 167.49883,
         "yTranslate": 0
     },
     "finland": {
@@ -199,12 +166,9 @@
         "topLatitude": "70.093113",
         "rightLongitude": "31.590203",
         "bottomLatitude": "59.808736",
-        "xMax2": 387.73218,
-        "xMax": 1000,
-        "yMax2": 787.00201,
+        "xMax": 492.670,
         "yMax": 1000,
-        "xTranslate2": 191,
-        "xTranslate": 254,
+        "xTranslate": 254.28739,
         "yTranslate": 0
     },
     "france": {
@@ -212,37 +176,29 @@
         "topLatitude": "51.089515",
         "rightLongitude": "9.560176",
         "bottomLatitude": "41.363289",
-        "xMax2": 595.64178,
         "xMax": 1000,
-        "yMax2": 584.59808,
-        "yMax3": 981.459,
-        "yMax": 1000,
+        "yMax": 981.459,
         "xTranslate": 0,
-        "yTranslate": 10
+        "yTranslate": 10.45055
     },
     "georgia": {
         "leftLongitude": "40.011506",
         "topLatitude": "43.584733",
         "rightLongitude": "46.721888",
         "bottomLatitude": "41.064411",
-        "xMax2": 792.42603,
         "xMax": 1000,
-        "yMax2": 401.40649,
-        "yMax": 1000,
+        "yMax": 506.554,
         "xTranslate": 0,
-        "yTranslate2": 191,
-        "yTranslate": 247
+        "yTranslate": 247.21342
     },
     "germany": {
         "leftLongitude": "5.864765",
         "topLatitude": "55.051693",
         "rightLongitude": "15.043380",
         "bottomLatitude": "47.269299",
-        "xMax": 1000,
-        "xMax2": 739.34473,
+        "xMax": 739.276,
         "yMax": 1000,
-        "xTranslate2": 0,
-        "xTranslate": 131,
+        "xTranslate": 131.25652,
         "yTranslate": 0
     },
     "greece": {
@@ -250,51 +206,39 @@
         "topLatitude": "41.7448887",
         "rightLongitude": "29.609274",
         "bottomLatitude": "34.803673",
-        "xMax2": 918.76868,
         "xMax": 1000,
-        "yMax2": 792.24194,
-        "yMax": 1000,
+        "yMax": 862.287,
         "xTranslate": 0,
-        "yTranslate2": 62,
-        "yTranslate": 68
+        "yTranslate": 69.42290
     },
     "hungary": {
         "leftLongitude": "16.113634",
         "topLatitude": "48.586316",
         "rightLongitude": "22.897693",
         "bottomLatitude": "45.736783",
-        "xMax2": 612.72321,
         "xMax": 1000,
-        "yMax2": 377.65659,
-        "yMax": 1000,
+        "yMax": 616.357,
         "xTranslate": 0,
-        "yTranslate2": 117,
-        "yTranslate": 193
+        "yTranslate": 192.99379
     },
     "iceland": {
         "leftLongitude": "-24.531109",
         "topLatitude": "66.574598",
         "rightLongitude": "-13.496555",
         "bottomLatitude": "63.377251",
-        "xMax2": 612.40503,
         "xMax": 1000,
-        "yMax2": 419.47293,
-        "yMax": 1000,
+        "yMax": 684.960,
         "xTranslate": 0,
-        "yTranslate2": 88,
-        "yTranslate": 160
+        "yTranslate": 160.15212
     },
     "ireland": {
         "leftLongitude": "-10.617130",
         "topLatitude": "55.384293",
         "rightLongitude": "-5.429497",
         "bottomLatitude": "51.419835",
-        "xMax2": 605.43189,
-        "xMax": 1000,
-        "yMax2": 775.34131,
+        "xMax": 780.858,
         "yMax": 1000,
-        "xTranslate2": 88,
-        "xTranslate": 115,
+        "xTranslate": 114.70254,
         "yTranslate": 0
     },
     "israel": {
@@ -302,12 +246,9 @@
         "topLatitude": "33.434207",
         "rightLongitude": "35.935383",
         "bottomLatitude": "29.496687",
-        "xMax2": 294.62534,
-        "xMax": 1000,
-        "yMax2": 792.64856,
+        "xMax": 371.697,
         "yMax": 1000,
-        "xTranslate2": 247,
-        "xTranslate": 315,
+        "xTranslate": 314.87629,
         "yTranslate": 0
     },
     "italy": {
@@ -315,12 +256,9 @@
         "topLatitude": "47.087088",
         "rightLongitude": "18.517034",
         "bottomLatitude": "35.490552",
-        "xMax2": 610.15046,
-        "xMax": 1000,
-        "yMax2": 792.21057,
+        "xMax": 770.187,
         "yMax": 1000,
-        "xTranslate2": 93,
-        "xTranslate": 116,
+        "xTranslate": 115.67188,
         "yTranslate": 0
     },
     "kazakhstan": {
@@ -328,25 +266,19 @@
         "topLatitude": "55.432742",
         "rightLongitude": "87.315881",
         "bottomLatitude": "40.549293",
-        "xMax2": 792.65601,
         "xMax": 1000,
-        "yMax2": 434.95065,
-        "yMax": 1000,
+        "yMax": 548.869,
         "xTranslate": 0,
-        "yTranslate2": 182,
-        "yTranslate": 226
+        "yTranslate": 226.25386
     },
     "kosovo": {
         "leftLongitude": "20.047335",
         "topLatitude": "43.270140",
         "rightLongitude": "21.814235",
         "bottomLatitude": "41.783403",
-        "xMax2": 612.49115,
-        "xMax": 1000,
-        "yMax2": 696.71777,
+        "xMax": 864.965,
         "yMax": 1000,
-        "xTranslate2": 44,
-        "xTranslate": 67,
+        "xTranslate": 68.08497,
         "yTranslate": 0
     },
     "latvia": {
@@ -354,38 +286,39 @@
         "topLatitude": "58.085902",
         "rightLongitude": "28.243214",
         "bottomLatitude": "55.672529",
-        "xMax2": 1224.4478,
         "xMax": 1000,
-        "yMax2": 742.51166,
-        "yMax": 1000,
+        "yMax": 606.405,
         "xTranslate": 0,
-        "yTranslate2": 253,
-        "yTranslate": 197
+        "yTranslate": 197.21764
+    },
+    "liechtenstein": {
+        "leftLongitude": "20.958510",
+        "topLatitude": "56.446758",
+        "rightLongitude": "26.838150",
+        "bottomLatitude": "53.898758",
+        "xMax": 501.899,
+        "yMax": 1000,
+        "xTranslate": 249.65625,
+        "yTranslate": 0
     },
     "lithuania": {
         "leftLongitude": "20.958510",
         "topLatitude": "56.446758",
         "rightLongitude": "26.838150",
         "bottomLatitude": "53.898758",
-        "xMax2": 786.15241,
         "xMax": 1000,
-        "yMax2": 595.69708,
-        "yMax": 1000,
+        "yMax": 757.737,
         "xTranslate": 0,
-        "yTranslate2": 93,
-        "yTranslate": 122
+        "yTranslate": 121.84098
     },
     "luxembourg": {
         "leftLongitude": "5.736110",
         "topLatitude": "50.183529",
         "rightLongitude": "6.529993",
         "bottomLatitude": "49.447341",
-        "xMax2": 553.11145,
-        "xMax": 1000,
-        "yMax2": 792.5556,
+        "xMax": 697.884,
         "yMax": 1000,
-        "xTranslate2": 124,
-        "xTranslate": 152,
+        "xTranslate": 151.73752,
         "yTranslate": 0
     },
     "macedonia": {
@@ -393,38 +326,29 @@
         "topLatitude": "42.338708",
         "rightLongitude": "23.006302",
         "bottomLatitude": "40.855134",
-        "xMax2": 774.91443,
         "xMax": 1000,
-        "yMax2": 600.50305,
-        "yMax": 1000,
+        "yMax": 774.928,
         "xTranslate": 0,
-        "yTranslate2": 94,
-        "yTranslate": 114
+        "yTranslate": 113.17187
     },
     "malta": {
         "leftLongitude": "14.182891",
         "topLatitude": "36.082376",
         "rightLongitude": "14.576552",
         "bottomLatitude": "35.805673",
-        "xMax2": 916.64319,
         "xMax": 1000,
-        "yMax2": 792.52557,
-        "yMax": 1000,
+        "yMax": 864.596,
         "xTranslate": 0,
-        "yTranslate2": 61,
-        "yTranslate": 67
+        "yTranslate": 68.15349
     },
     "moldova": {
         "leftLongitude": "26.648880",
         "topLatitude": "48.495637",
         "rightLongitude": "30.175684",
         "bottomLatitude": "45.461826",
-        "xMax2": 611.53839,
-        "xMax": 1000,
-        "yMax2": 768.87463,
+        "xMax": 795.368,
         "yMax": 1000,
-        "xTranslate2": 75,
-        "xTranslate": 104,
+        "xTranslate": 102.98155,
         "yTranslate": 0
     },
     "montenegro": {
@@ -432,12 +356,9 @@
         "topLatitude": "43.565072",
         "rightLongitude": "20.376768",
         "bottomLatitude": "41.849068",
-        "xMax2": 612,
-        "xMax": 1000,
-        "yMax2": 734.75977,
+        "xMax": 832.994,
         "yMax": 1000,
-        "xTranslate2": 60,
-        "xTranslate": 85,
+        "xTranslate": 84.12378,
         "yTranslate": 0
     },
     "netherlands": {
@@ -445,12 +366,9 @@
         "topLatitude": "53.560347",
         "rightLongitude": "7.227792",
         "bottomLatitude": "50.750938",
-        "xMax2": 612.78192,
-        "xMax": 1000,
-        "yMax2": 723.61823,
+        "xMax": 846.830,
         "yMax": 1000,
-        "xTranslate2": 55,
-        "xTranslate": 77,
+        "xTranslate": 77.46893,
         "yTranslate": 0
     },
     "northern_ireland": {
@@ -458,25 +376,19 @@
         "topLatitude": 55.31277778,
         "rightLongitude": -5.43277778,
         "bottomLatitude": 54.02250000,
-        "xMax2": 128.99998,
         "xMax": 1000,
-        "yMax2": 103.99996,
-        "yMax": 1000,
+        "yMax": 804.887,
         "xTranslate": 0,
-        "yTranslate2": 12,
-        "yTranslate": 101
+        "yTranslate": 101.44921
     },
     "norway": {
         "leftLongitude": "4.641249",
         "topLatitude": "71.184230",
         "rightLongitude": "31.063204",
         "bottomLatitude": "57.979458",
-        "xMax2": 607.39301,
-        "xMax": 1000,
-        "yMax2": 722.4787,
+        "xMax": 840.707,
         "yMax": 1000,
-        "xTranslate2": 57,
-        "xTranslate": 80,
+        "xTranslate": 80.32291,
         "yTranslate": 0
     },
     "poland": {
@@ -484,13 +396,10 @@
         "topLatitude": "54.834793",
         "rightLongitude": "24.149724",
         "bottomLatitude": "49.002699",
-        "xMax2": 612.82178,
         "xMax": 1000,
-        "yMax2": 577.23145,
-        "yMax": 1000,
+        "yMax": 941.924,
         "xTranslate": 0,
-        "yTranslate2": 18,
-        "yTranslate": 30
+        "yTranslate": 29.80868
     },
     "portugal": {
         "leftLongitude2": "-31.270171",
@@ -499,52 +408,39 @@
         "rightLongitude": "-6.187163",
         "bottomLatitude2": "32.400528",
         "bottomLatitude": "36.96",
-        "xMax2": 221.69129,
         "xMax": 1000,
-        "yMax2": 325.46381,
-        "yMax": 1000,
-        "xTranslate2": 48,
-        "xTranslate": 692,
-        "yTranslate2": 0,
-        "yTranslate": 155
+        "yMax": 709.250,
+        "xTranslate": 691.82813,
+        "yTranslate": 153.43750
     },
     "romania": {
         "leftLongitude": "20.262217",
         "topLatitude": "48.2623309",
         "rightLongitude": "29.713041",
         "bottomLatitude": "43.617249",
-        "xMax2": 611.97998,
         "xMax": 1000,
-        "yMax2": 431.51001,
-        "yMax": 1000,
+        "yMax": 705.693,
         "xTranslate": 0,
-        "yTranslate2": 90,
-        "yTranslate": 149
+        "yTranslate": 148.50919
     },
     "russia": {
         "leftLongitude": "19.784141",
         "topLatitude": "81.857875",
         "rightLongitude": "190.348146",
         "bottomLatitude": "41.202033",
-        "xMax2": 1223.662,
         "xMax": 1000,
-        "yMax2": 760.43396,
-        "yMax": 1000,
+        "yMax": 621.441,
         "xTranslate": 0,
-        "yTranslate2": 239,
-        "yTranslate": 190
+        "yTranslate": 189.67969
     },
     "scotland": {
         "leftLongitude": "-7.66611111",
         "topLatitude": "60.85666667",
         "rightLongitude": "-0.72444444",
         "bottomLatitude": "54.63416667",
-        "xMax2": 320.5,
-        "xMax": 1000,
-        "yMax2": 547.24915,
+        "xMax": 593.674,
         "yMax": 1000,
-        "xTranslate2": 94,
-        "xTranslate": 237,
+        "xTranslate": 204.33333,
         "yTranslate": 0
     },
     "serbia": {
@@ -552,12 +448,9 @@
         "topLatitude": "46.190167",
         "rightLongitude": "23.006466",
         "bottomLatitude": "42.244813",
-        "xMax2": 544.24713,
-        "xMax": 1000,
-        "yMax2": 712.25055,
+        "xMax": 764.123,
         "yMax": 1000,
-        "xTranslate2": 81,
-        "xTranslate": 119,
+        "xTranslate": 119.21143,
         "yTranslate": 0
     },
     "slovakia": {
@@ -565,26 +458,20 @@
         "topLatitude": "49.614162",
         "rightLongitude": "22.568332",
         "bottomLatitude": "47.731105",
-        "xMax2": 612.70129,
         "xMax": 1000,
-        "yMax2": 303.98813,
-        "yMax": 1000,
+        "yMax": 496.144,
         "xTranslate": 0,
-        "yTranslate2": 148,
-        "yTranslate": 253
+        "yTranslate": 252.61718
     },
     "slovenia": {
         "leftLongitude": "13.372971",
         "topLatitude": "46.875889",
         "rightLongitude": "16.594476",
         "bottomLatitude": "45.422671",
-        "xMax2": 612.85449,
         "xMax": 1000,
-        "yMax2": 397.79544,
-        "yMax": 1000,
+        "yMax": 649.086,
         "xTranslate": 0,
-        "yTranslate2": 106,
-        "yTranslate": 177
+        "yTranslate": 176.16465
     },
     "spain": {
         "leftLongitude": "-9.301684",
@@ -592,12 +479,10 @@
         "rightLongitude": "4.313022",
         "bottomLatitude2": "31.733447",
         "bottomLatitude": "36.0",
-        "xMax2": 418.24765,
-        "xMax": 1000,
-        "yMax2": 468.5632,
-        "yMax": 662,
-        "xTranslate2": 24,
-        "xTranslate": 57,
+        "xMax": 892.617,
+        "yMax2": 1000,
+        "yMax": 663.08938,
+        "xTranslate": 55.08203,
         "yTranslate": 0
     },
     "sweden": {
@@ -605,12 +490,9 @@
         "topLatitude": "69.061149",
         "rightLongitude": "24.170696",
         "bottomLatitude": "55.338154",
-        "xMax2": 800.1626,
-        "xMax": 1000,
-        "yMax2": 1808.9011,
+        "xMax": 442.347,
         "yMax": 1000,
-        "xTranslate2": 542,
-        "xTranslate": 278,
+        "xTranslate": 279.13789,
         "yTranslate": 0
     },
     "switzerland": {
@@ -619,40 +501,28 @@
         "rightLongitude": "10.492616",
         "bottomLatitude": "45.817599",
         "xMax": 1000,
-        "xMax2": 612.58246,
-        "yMax3": 639.66309,
-        "yMax2": 391.84637,
-        "yMax": 639,
+        "yMax": 639.663,
         "xTranslate": 0,
-        "yTranslate2": 113,
-        "yTranslate3": 180,
-        "yTranslate": 0
+        "yTranslate": 182.12891
     },
     "turkiye": {
         "leftLongitude": "25.663689",
         "topLatitude": "42.099732",
         "rightLongitude": "44.819611",
         "bottomLatitude": "35.805510",
-        "xMax2": 792.58868,
         "xMax": 1000,
-        "yMax2": 334.49701,
-        "yMax": 1000,
-        "xTranslate2": 26,
+        "yMax": 421.896,
         "xTranslate": 0,
-        "yTranslate2": 0,
-        "yTranslate": 290
+        "yTranslate": 289.92320
     },
     "ukraine": {
         "leftLongitude": "22.138115",
         "topLatitude": "52.374337",
         "rightLongitude": "40.216930",
         "bottomLatitude": "44.387017",
-        "xMax2": 612.47827,
         "xMax": 1000,
-        "yMax2": 407.47662,
-        "yMax": 1000,
+        "yMax": 665.292,
         "xTranslate": 0,
-        "yTranslate2": 99,
-        "yTranslate": 168
+        "yTranslate": 168.17578
     }
 }

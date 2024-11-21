@@ -3,7 +3,7 @@ import { readFileSync, writeFile } from 'fs';
 // const calculateSVGCoord = async () => {
 export default function (countrySlug) {
 
-    const country = 'switzerland'
+    const country = 'austria'
     const data1 = readFileSync(`./static/json/countriesSvgMapCoord.json`)
     const coordData = JSON.parse(data1);
     // for (const country in coordData) {

@@ -31,7 +31,7 @@ export async function GET({ request }) {
         for (let i = 0; i < 1; i++) {
             let countryTeams = []
             // const file = `./static/json/teams/${countriesArray[i].slug}.json`;
-            const file = `./static/json/teams/switzerland.json`;
+            const file = `./static/json/teams/turkiye.json`;
             const teamsFile = await fs.readFile(file, "utf8");
             if (teamsFile.length > 0) {
                 countryTeams = JSON.parse(teamsFile)
@@ -41,7 +41,7 @@ export async function GET({ request }) {
             // console.log('countryTeams[0]: ', countryTeams[0]?.venue?.api_football_id);
             for (let j = 0; j < countryTeams.length; j++) {
                 // for (let j = 0; j < 2; j++) {
-                if (countryTeams[i] && countryTeams[i].venue && countryTeams[i].venue.api_football_id) {
+                if (countryTeams[j] && countryTeams[j].venue && countryTeams[j].venue.api_football_id) {
                     const { data, error: error2 } = await supabase
                         .from('stadiums')
                         .upsert(

@@ -19,7 +19,7 @@
 			"x1": 296.2194775784749,
 			"x": 296,
 			"y1": 397.05967944275693,
-			"y": 404,
+			"y": 397,
 			"wiki": "https://en.wikipedia.org/wiki/Angers_SCO"
 		},
 		"league": {
@@ -92,7 +92,7 @@
 			"x1": 551.4105297515806,
 			"x": 551,
 			"y1": 62.678202833611174,
-			"y": 64,
+			"y": 63,
 			"wiki": "https://en.wikipedia.org/wiki/Lille_OSC"
 		},
 		"league": {
@@ -172,7 +172,7 @@
 			"x1": 680.5678943635295,
 			"x": 681,
 			"y1": 568.6703606972407,
-			"y": 579,
+			"y": 569,
 			"wiki": "https://en.wikipedia.org/wiki/Olympique_Lyonnais"
 		},
 		"league": {
@@ -250,7 +250,7 @@
 			"lat": 43.269846,
 			"lng": 5.39591,
 			"x": 710,
-			"y": 827,
+			"y": 812,
 			"wiki": "https://en.wikipedia.org/wiki/Olympique_de_Marseille"
 		},
 		"league": {
@@ -342,7 +342,7 @@
 			"lat": 43.622181,
 			"lng": 3.812022,
 			"x": 599,
-			"y": 793,
+			"y": 778,
 			"wiki": "https://en.wikipedia.org/wiki/Montpellier_HSC"
 		},
 		"league": {
@@ -413,7 +413,7 @@
 			"lat": 47.256009,
 			"lng": -1.524681,
 			"x": 227,
-			"y": 426,
+			"y": 418,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Nantes"
 		},
 		"league": {
@@ -491,7 +491,7 @@
 			"lat": 43.705086,
 			"lng": 7.19263,
 			"x": 835,
-			"y": 785,
+			"y": 770,
 			"wiki": "https://en.wikipedia.org/wiki/OGC_Nice"
 		},
 		"league": {
@@ -569,7 +569,7 @@
 			"lat": 48.841471,
 			"lng": 2.253012,
 			"x": 490,
-			"y": 258,
+			"y": 253,
 			"wiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_F.C."
 		},
 		"league": {
@@ -661,7 +661,7 @@
 			"lat": 43.727778,
 			"lng": 7.415556,
 			"x": 850,
-			"y": 783,
+			"y": 768,
 			"wiki": "https://en.wikipedia.org/wiki/AS_Monaco_FC"
 		},
 		"league": {
@@ -732,7 +732,7 @@
 			"lat": 49.247222,
 			"lng": 4.024722,
 			"x": 614,
-			"y": 214,
+			"y": 210,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_de_Reims"
 		},
 		"league": {
@@ -803,7 +803,7 @@
 			"lat": 48.107458,
 			"lng": -1.712839,
 			"x": 214,
-			"y": 336,
+			"y": 330,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Rennais_F.C."
 		},
 		"league": {
@@ -881,7 +881,7 @@
 			"lat": 48.560027,
 			"lng": 7.755117,
 			"x": 874,
-			"y": 288,
+			"y": 283,
 			"wiki": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace"
 		},
 		"league": {
@@ -952,7 +952,7 @@
 			"lat": 43.583278,
 			"lng": 1.434021,
 			"x": 433,
-			"y": 797,
+			"y": 782,
 			"wiki": "https://en.wikipedia.org/wiki/Toulouse_FC"
 		},
 		"league": {
@@ -1030,7 +1030,7 @@
 			"lat": 48.402778,
 			"lng": -4.461389,
 			"x": 22,
-			"y": 305,
+			"y": 299,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Brestois_29"
 		},
 		"league": {
@@ -1093,7 +1093,7 @@
 			"lat": 47.78675,
 			"lng": 3.588667,
 			"x": 584,
-			"y": 370,
+			"y": 363,
 			"wiki": "https://en.wikipedia.org/wiki/AJ_Auxerre"
 		},
 		"league": {
@@ -1171,7 +1171,7 @@
 			"lat": 49.498785,
 			"lng": 0.169773,
 			"x": 345,
-			"y": 186,
+			"y": 183,
 			"wiki": "https://en.wikipedia.org/wiki/Le_Havre_AC"
 		},
 		"league": {
@@ -1249,7 +1249,7 @@
 			"lat": 50.43285,
 			"lng": 2.814853,
 			"x": 530,
-			"y": 84,
+			"y": 82,
 			"wiki": "https://en.wikipedia.org/wiki/RC_Lens"
 		},
 		"league": {
@@ -1341,7 +1341,7 @@
 			"lat": 45.460753,
 			"lng": 4.390161,
 			"x": 639,
-			"y": 610,
+			"y": 599,
 			"wiki": "https://en.wikipedia.org/wiki/AS_Saint-%C3%89tienne"
 		},
 		"league": {
@@ -1419,7 +1419,7 @@
 			"lat": 49.894222,
 			"lng": 2.263352,
 			"x": 491,
-			"y": 143,
+			"y": 141,
 			"wiki": "https://en.wikipedia.org/wiki/Amiens_SC"
 		},
 		"league": {
@@ -1490,7 +1490,7 @@
 			"lat": 49.179444,
 			"lng": -0.396667,
 			"x": 306,
-			"y": 221,
+			"y": 217,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Malherbe_Caen"
 		},
 		"league": {
@@ -1568,7 +1568,7 @@
 			"lat": 48.566058,
 			"lng": -3.164492,
 			"x": 113,
-			"y": 287,
+			"y": 282,
 			"wiki": "https://en.wikipedia.org/wiki/En_Avant_Guingamp"
 		},
 		"league": {
@@ -1646,7 +1646,7 @@
 			"lat": 47.748747,
 			"lng": -3.369367,
 			"x": 98,
-			"y": 374,
+			"y": 367,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Lorient"
 		},
 		"league": {
@@ -1717,7 +1717,7 @@
 			"lat": 41.930833,
 			"lng": 8.776667,
 			"x": 945,
-			"y": 956,
+			"y": 939,
 			"wiki": "https://en.wikipedia.org/wiki/AC_Ajaccio"
 		},
 		"league": {
@@ -1788,7 +1788,7 @@
 			"lat": 45.815804,
 			"lng": 3.121679,
 			"x": 551,
-			"y": 574,
+			"y": 564,
 			"wiki": "https://en.wikipedia.org/wiki/Clermont_Foot"
 		},
 		"league": {
@@ -1851,7 +1851,7 @@
 			"lat": 45.1875,
 			"lng": 5.74,
 			"x": 734,
-			"y": 638,
+			"y": 626,
 			"wiki": "https://en.wikipedia.org/wiki/Grenoble_Foot_38"
 		},
 		"league": {
@@ -1929,7 +1929,7 @@
 			"lat": 48.905833,
 			"lng": 2.340833,
 			"x": 496,
-			"y": 251,
+			"y": 246,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Bauer"
 		},
 		"league": {
@@ -1968,7 +1968,7 @@
 			"lat": 48.3075,
 			"lng": 4.098333,
 			"x": 619,
-			"y": 315,
+			"y": 309,
 			"wiki": "https://en.wikipedia.org/wiki/ES_Troyes_AC"
 		},
 		"league": {
@@ -2046,7 +2046,7 @@
 			"lat": 49.109797,
 			"lng": 6.1595,
 			"x": 763,
-			"y": 229,
+			"y": 225,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Metz"
 		},
 		"league": {
@@ -2124,7 +2124,7 @@
 			"lat": 48.818534,
 			"lng": 2.346658,
 			"x": 497,
-			"y": 260,
+			"y": 256,
 			"wiki": "https://en.wikipedia.org/wiki/Paris_FC"
 		},
 		"league": {
@@ -2195,7 +2195,7 @@
 			"lat": 48.082222,
 			"lng": -0.754722,
 			"x": 281,
-			"y": 339,
+			"y": 333,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Lavallois"
 		},
 		"league": {
@@ -2273,7 +2273,7 @@
 			"lat": 43.30805556,
 			"lng": 0.32555556,
 			"x": 356,
-			"y": 824,
+			"y": 808,
 			"wiki": "https://en.wikipedia.org/wiki/Pau_FC"
 		},
 		"league": {
@@ -2344,7 +2344,7 @@
 			"lat": 44.351667,
 			"lng": 2.563611,
 			"x": 512,
-			"y": 721,
+			"y": 708,
 			"wiki": "https://en.wikipedia.org/wiki/Rodez_AF"
 		},
 		"league": {
@@ -2478,7 +2478,7 @@
 			"lat": 42.651389,
 			"lng": 9.442611,
 			"x": 992,
-			"y": 887,
+			"y": 871,
 			"wiki": "https://en.wikipedia.org/wiki/SC_Bastia"
 		},
 		"league": {
@@ -2549,7 +2549,7 @@
 			"lat": 45.916497,
 			"lng": 6.118053,
 			"x": 760,
-			"y": 564,
+			"y": 554,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Annecy"
 		},
 		"league": {
@@ -2612,7 +2612,7 @@
 			"lat": 43.407222,
 			"lng": 5.049444,
 			"x": 685,
-			"y": 814,
+			"y": 799,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Francis-Turcan"
 		},
 		"league": {
@@ -2651,7 +2651,7 @@
 			"lat": 44.897358,
 			"lng": -0.561606,
 			"x": 294,
-			"y": 667,
+			"y": 655,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Girondins_de_Bordeaux"
 		},
 		"league": {},
@@ -2738,7 +2738,7 @@
 			"lat": 50.348056,
 			"lng": 3.533056,
 			"x": 580,
-			"y": 93,
+			"y": 91,
 			"wiki": "https://fr.wikipedia.org/wiki/Valenciennes_Football_Club"
 		},
 		"league": {},
@@ -2811,7 +2811,7 @@
 			"lat": 49.411062,
 			"lng": 1.070759,
 			"x": 408,
-			"y": 196,
+			"y": 193,
 			"wiki": "https://en.wikipedia.org/wiki/US_Quevilly-Rouen_M%C3%A9tropole"
 		},
 		"league": {},
@@ -2884,7 +2884,7 @@
 			"lat": 48.402778,
 			"lng": -4.461389,
 			"x": 22,
-			"y": 305,
+			"y": 299,
 			"wiki": "https://en.wikipedia.org/wiki/US_Concarneau"
 		},
 		"league": {},

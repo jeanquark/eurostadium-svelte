@@ -747,10 +747,10 @@
 
             <g id="g982">
                 <path
-                    id="turkey"
+                    id="turkyie"
                     class="country"
                     data-code="tr"
-                    data-country="Turkey"
+                    data-country="Turkyie"
                     data-leagues="Süper Lig, 1. Lig"
                     data-leagues-id="203,204"
                     data-pop="86,400,000"

@@ -17,7 +17,7 @@
 			"lat": 48.218791,
 			"lng": 11.624695,
 			"x1": 759,
-			"x": 759,
+			"x": 595,
 			"y1": 887,
 			"y": 887,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich"
@@ -114,7 +114,7 @@
 			"lat": 48.021536,
 			"lng": 7.830006,
 			"x1": 345,
-			"x": 345,
+			"x": 289,
 			"y1": 910,
 			"y": 910,
 			"wiki": "https://en.wikipedia.org/wiki/SC_Freiburg"
@@ -187,7 +187,7 @@
 			"lat": 52.431944,
 			"lng": 10.803889,
 			"x1": 669,
-			"x": 669,
+			"x": 529,
 			"y1": 356,
 			"y": 356,
 			"wiki": "https://en.wikipedia.org/wiki/VfL_Wolfsburg"
@@ -252,7 +252,7 @@
 			"lat": 53.066435,
 			"lng": 8.837661,
 			"x1": 455,
-			"x": 455,
+			"x": 370,
 			"y1": 272,
 			"y": 272,
 			"wiki": "https://en.wikipedia.org/wiki/SV_Werder_Bremen"
@@ -324,7 +324,7 @@
 			"surface": "grass",
 			"lat": 51.174636,
 			"lng": 6.385412,
-			"x": 188,
+			"x": 173,
 			"y": 519,
 			"wiki": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach"
 		},
@@ -387,7 +387,7 @@
 			"surface": "grass",
 			"lat": 49.98415,
 			"lng": 8.2243,
-			"x": 388,
+			"x": 321,
 			"y": 670,
 			"wiki": "https://en.wikipedia.org/wiki/1._FSV_Mainz_005"
 		},
@@ -450,7 +450,7 @@
 			"surface": "grass",
 			"lat": 51.492668,
 			"lng": 7.451767,
-			"x": 304,
+			"x": 259,
 			"y": 478,
 			"wiki": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
 		},
@@ -529,7 +529,7 @@
 			"surface": "grass",
 			"lat": 49.238014,
 			"lng": 8.887657,
-			"x": 460,
+			"x": 374,
 			"y": 762,
 			"wiki": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim"
 		},
@@ -592,7 +592,7 @@
 			"surface": "grass",
 			"lat": 51.038196,
 			"lng": 7.002292,
-			"x": 255,
+			"x": 223,
 			"y": 537,
 			"wiki": "https://en.wikipedia.org/wiki/Bayer_004_Leverkusen"
 		},
@@ -671,7 +671,7 @@
 			"surface": "grass",
 			"lat": 50.068548,
 			"lng": 8.645415,
-			"x": 434,
+			"x": 355,
 			"y": 659,
 			"wiki": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"
 		},
@@ -742,7 +742,7 @@
 			"surface": "grass",
 			"lat": 48.323126,
 			"lng": 10.885996,
-			"x": 678,
+			"x": 535,
 			"y": 874,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Augsburg"
 		},
@@ -813,7 +813,7 @@
 			"surface": "grass",
 			"lat": 48.792222,
 			"lng": 9.231944,
-			"x": 498,
+			"x": 402,
 			"y": 817,
 			"wiki": "https://en.wikipedia.org/wiki/VfB_Stuttgart"
 		},
@@ -900,7 +900,7 @@
 			"surface": "grass",
 			"lat": 51.345787,
 			"lng": 12.34827,
-			"x": 837,
+			"x": 653,
 			"y": 497,
 			"wiki": "https://en.wikipedia.org/wiki/RB_Leipzig"
 		},
@@ -979,7 +979,7 @@
 			"surface": "grass",
 			"lat": 51.489919,
 			"lng": 7.236521,
-			"x": 280,
+			"x": 241,
 			"y": 479,
 			"wiki": "https://en.wikipedia.org/wiki/VfL_Bochum"
 		},
@@ -1050,7 +1050,7 @@
 			"surface": "grass",
 			"lat": 48.66829,
 			"lng": 10.14068,
-			"x": 597,
+			"x": 475,
 			"y": 832,
 			"wiki": "https://en.wikipedia.org/wiki/1._FC_Heidenheim"
 		},
@@ -1129,7 +1129,7 @@
 			"surface": "grass",
 			"lat": 52.457391,
 			"lng": 13.568124,
-			"x": 970,
+			"x": 751,
 			"y": 353,
 			"wiki": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin"
 		},
@@ -1208,7 +1208,7 @@
 			"surface": "grass",
 			"lat": 53.554571,
 			"lng": 9.967656,
-			"x": 578,
+			"x": 461,
 			"y": 206,
 			"wiki": "https://en.wikipedia.org/wiki/FC_St._Pauli"
 		},
@@ -1279,7 +1279,7 @@
 			"surface": "grass",
 			"lat": 54.349167,
 			"lng": 10.123611,
-			"x": 595,
+			"x": 474,
 			"y": 98,
 			"wiki": "https://en.wikipedia.org/wiki/Holstein_Kiel"
 		},
@@ -1350,7 +1350,7 @@
 			"surface": "grass",
 			"lat": 51.261635,
 			"lng": 6.733163,
-			"x": 226,
+			"x": 201,
 			"y": 508,
 			"wiki": "https://en.wikipedia.org/wiki/Fortuna_D%C3%BCsseldorf"
 		},
@@ -1421,7 +1421,7 @@
 			"surface": "grass",
 			"lat": 52.514628,
 			"lng": 13.239624,
-			"x": 934,
+			"x": 725,
 			"y": 345,
 			"wiki": "https://en.wikipedia.org/wiki/Hertha_BSC"
 		},
@@ -1492,7 +1492,7 @@
 			"surface": "grass",
 			"lat": 52.360018,
 			"lng": 9.731219,
-			"x": 552,
+			"x": 442,
 			"y": 365,
 			"wiki": "https://en.wikipedia.org/wiki/Hannover_96"
 		},
@@ -1563,7 +1563,7 @@
 			"surface": "grass",
 			"lat": 49.426255,
 			"lng": 11.125707,
-			"x": 704,
+			"x": 555,
 			"y": 739,
 			"wiki": "https://en.wikipedia.org/wiki/1._FC_N%C3%BCrnberg"
 		},
@@ -1634,7 +1634,7 @@
 			"surface": "grass",
 			"lat": 51.554474,
 			"lng": 7.067642,
-			"x": 262,
+			"x": 228,
 			"y": 470,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Schalke_004"
 		},
@@ -1713,7 +1713,7 @@
 			"surface": "grass",
 			"lat": 53.587153,
 			"lng": 9.898643,
-			"x": 570,
+			"x": 456,
 			"y": 202,
 			"wiki": "https://en.wikipedia.org/wiki/Hamburger_SV"
 		},
@@ -1792,7 +1792,7 @@
 			"surface": "grass",
 			"lat": 49.015556,
 			"lng": 12.073889,
-			"x": 807,
+			"x": 631,
 			"y": 790,
 			"wiki": "https://en.wikipedia.org/wiki/SSV_Jahn_Regensburg"
 		},
@@ -1871,7 +1871,7 @@
 			"surface": "grass",
 			"lat": 49.486944,
 			"lng": 10.999167,
-			"x": 690,
+			"x": 545,
 			"y": 732,
 			"wiki": "https://en.wikipedia.org/wiki/SpVgg_Greuther_F%C3%BCrth"
 		},
@@ -1934,7 +1934,7 @@
 			"surface": "grass",
 			"lat": 52.1251,
 			"lng": 11.67079,
-			"x": 764,
+			"x": 599,
 			"y": 396,
 			"wiki": "https://en.wikipedia.org/wiki/1._FC_Magdeburg"
 		},
@@ -2013,7 +2013,7 @@
 			"surface": "grass",
 			"lat": 49.857701,
 			"lng": 8.672349,
-			"x": 437,
+			"x": 357,
 			"y": 686,
 			"wiki": "https://en.wikipedia.org/wiki/SV_Darmstadt_98"
 		},
@@ -2084,7 +2084,7 @@
 			"surface": "grass",
 			"lat": 51.731389,
 			"lng": 8.710833,
-			"x": 441,
+			"x": 360,
 			"y": 448,
 			"wiki": "https://en.wikipedia.org/wiki/SC_Paderborn_007"
 		},
@@ -2155,7 +2155,7 @@
 			"surface": "grass",
 			"lat": 50.933454,
 			"lng": 6.875128,
-			"x": 241,
+			"x": 212,
 			"y": 550,
 			"wiki": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln"
 		},
@@ -2234,7 +2234,7 @@
 			"surface": "grass",
 			"lat": 52.290144,
 			"lng": 10.521562,
-			"x": 638,
+			"x": 506,
 			"y": 375,
 			"wiki": "https://en.wikipedia.org/wiki/Eintracht_Braunschweig"
 		},
@@ -2305,7 +2305,7 @@
 			"surface": "grass",
 			"lat": 49.434697,
 			"lng": 7.776466,
-			"x": 339,
+			"x": 285,
 			"y": 738,
 			"wiki": "https://en.wikipedia.org/wiki/1._FC_Kaiserslautern"
 		},
@@ -2376,7 +2376,7 @@
 			"surface": "grass",
 			"lat": 49.020019,
 			"lng": 8.413035,
-			"x": 409,
+			"x": 336,
 			"y": 789,
 			"wiki": "https://en.wikipedia.org/wiki/Karlsruher_SC"
 		},
@@ -2447,7 +2447,7 @@
 			"surface": "grass",
 			"lat": 0,
 			"lng": 0,
-			"x": -508,
+			"x": -341,
 			"y": 5320,
 			"wiki": ""
 		},
@@ -2477,7 +2477,7 @@
 			"surface": "grass",
 			"lat": 48.404444,
 			"lng": 10.009722,
-			"x": 583,
+			"x": 465,
 			"y": 864,
 			"wiki": "https://en.wikipedia.org/wiki/Donaustadion"
 		},
@@ -2540,7 +2540,7 @@
 			"surface": "grass",
 			"lat": 49.31881,
 			"lng": 7.121712,
-			"x": 268,
+			"x": 232,
 			"y": 752,
 			"wiki": "https://en.wikipedia.org/wiki/SV_Elversberg"
 		},
@@ -2611,7 +2611,7 @@
 			"surface": "grass",
 			"lat": 50.071244,
 			"lng": 8.256644,
-			"x": 392,
+			"x": 324,
 			"y": 659,
 			"wiki": "https://en.wikipedia.org/wiki/SV_Wehen_Wiesbaden"
 		},
@@ -2685,7 +2685,7 @@
 			"surface": "grass",
 			"lat": 54.084958,
 			"lng": 12.095136,
-			"x": 810,
+			"x": 633,
 			"y": 134,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Hansa_Rostock"
 		},
@@ -2751,7 +2751,7 @@
 			"surface": "grass",
 			"lat": 52.280833,
 			"lng": 8.071111,
-			"x": 371,
+			"x": 309,
 			"y": 376,
 			"wiki": "https://en.wikipedia.org/wiki/VfL_Osnabr%C3%BCck"
 		},

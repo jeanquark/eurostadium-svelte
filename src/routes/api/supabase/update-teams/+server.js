@@ -2,6 +2,7 @@ import { json } from '@sveltejs/kit';
 import { promises as fs } from "fs";
 import { env } from '$env/dynamic/public';
 import { createServerClient } from '@supabase/ssr'
+import slugify from '../../../../utils/slugify';
 
 export async function GET({ request }) {
     try {
@@ -30,7 +31,7 @@ export async function GET({ request }) {
         for (let i = 0; i < 1; i++) {
             let countryTeams = []
             // const file = `./static/json/teams/${countriesArray[i].slug}.json`;
-            const file = `./static/json/teams/austria.json`;
+            const file = `./static/json/teams/turkiye.json`;
             const teamsFile = await fs.readFile(file, "utf8");
             if (teamsFile.length > 0) {
                 countryTeams = JSON.parse(teamsFile)
@@ -40,8 +41,8 @@ export async function GET({ request }) {
             // console.log('countryTeams[0]: ', countryTeams[0]?.venue?.api_football_id);
             for (let j = 0; j < countryTeams.length; j++) {
             // for (let j = 0; j < 2; j++) {
-                if (countryTeams[j] && countryTeams[j].team && countryTeams[j].team.api_football_id) {
-                    console.log('countryTeams[j].team.api_football_id: ', countryTeams[j].team.api_football_id);
+                if (countryTeams[j] && countryTeams[j].team && countryTeams[j].team.api_football_id && countryTeams[j].venue.api_football_id) {
+                    // console.log('countryTeams[j].team.api_football_id: ', countryTeams[j].team.api_football_id);
                     // const { data: league, error: error1 } = await supabase
                     //     .from('leagues')
                     //     .select()
@@ -69,6 +70,10 @@ export async function GET({ request }) {
                     // if (!venue) {
                     //     continue;
                     // }
+
+                    const teamSlug = slugify(countryTeams[j]['team']['name'])
+                    console.log('teamSlug: ', teamSlug);
+                    
                     const { data, error: error3 } = await supabase
                         .from('teams')
                         .upsert(
@@ -77,7 +82,7 @@ export async function GET({ request }) {
                                 name: countryTeams[j]['team']['name'],
                                 code: countryTeams[j]['team']['code'],
                                 founded: countryTeams[j]['team']['founded'],
-                                image: `/images/teams/${countryTeams[j]['team']['name']}.png`,
+                                image: `/images/teams/${teamSlug}.png`,
                                 api_football_league_id: countryTeams[j]['league']['api_football_id'] ? countryTeams[j]['league']['api_football_id'] : null,
                                 // api_football_league_id: country.api_football_id,
                                 api_football_venue_id: countryTeams[j]['venue']['api_football_id'],
