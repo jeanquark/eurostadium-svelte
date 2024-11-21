@@ -16,7 +16,9 @@
 			"surface": "grass",
 			"lat": 48.218791,
 			"lng": 11.624695,
+			"x1": 759,
 			"x": 759,
+			"y1": 887,
 			"y": 887,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich"
 		},
@@ -111,7 +113,9 @@
 			"surface": "grass",
 			"lat": 48.021536,
 			"lng": 7.830006,
+			"x1": 345,
 			"x": 345,
+			"y1": 910,
 			"y": 910,
 			"wiki": "https://en.wikipedia.org/wiki/SC_Freiburg"
 		},
@@ -182,7 +186,9 @@
 			"surface": "grass",
 			"lat": 52.431944,
 			"lng": 10.803889,
+			"x1": 669,
 			"x": 669,
+			"y1": 356,
 			"y": 356,
 			"wiki": "https://en.wikipedia.org/wiki/VfL_Wolfsburg"
 		},
@@ -245,7 +251,9 @@
 			"surface": "grass",
 			"lat": 53.066435,
 			"lng": 8.837661,
+			"x1": 455,
 			"x": 455,
+			"y1": 272,
 			"y": 272,
 			"wiki": "https://en.wikipedia.org/wiki/SV_Werder_Bremen"
 		},

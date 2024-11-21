@@ -8,7 +8,7 @@
 
     export let countryObj
     export let stadiumsArray
-    let radius = 15
+    let radius = 10
     let stadiumObj
     let panzoomRef
     let flag = 1
@@ -16,6 +16,7 @@
 
     onMount(() => {
         console.log('[Austria] onMount')
+        console.log('stadiumsArray: ', stadiumsArray);
     })
 
     const initPanzoom = (node) => {
@@ -89,10 +90,13 @@
         }
     }
     const a = (node, stadiums) => {
+        console.log('a: ', stadiums)
+
         stadiumObj = node
         addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues)
     }
     const updateStadiums = (stadiums) => {
+        console.log("[Austria] updateStadiums: ", stadiums);
         if (stadiumObj) {
             addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues)
         }

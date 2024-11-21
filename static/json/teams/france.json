@@ -16,8 +16,10 @@
 			"surface": "grass",
 			"lat": 47.460454,
 			"lng": -0.530791,
-			"x": 296.2194775784749,
-			"y": 397.05967944275693,
+			"x1": 296.2194775784749,
+			"x": 296,
+			"y1": 397.05967944275693,
+			"y": 404,
 			"wiki": "https://en.wikipedia.org/wiki/Angers_SCO"
 		},
 		"league": {
@@ -87,8 +89,10 @@
 			"surface": "grass",
 			"lat": 50.611275,
 			"lng": 3.128197,
-			"x": 551.4105297515806,
-			"y": 62.678202833611174,
+			"x1": 551.4105297515806,
+			"x": 551,
+			"y1": 62.678202833611174,
+			"y": 64,
 			"wiki": "https://en.wikipedia.org/wiki/Lille_OSC"
 		},
 		"league": {
@@ -165,8 +169,10 @@
 			"surface": "grass",
 			"lat": 45.765521,
 			"lng": 4.980085,
-			"x": 680.5678943635295,
-			"y": 568.6703606972407,
+			"x1": 680.5678943635295,
+			"x": 681,
+			"y1": 568.6703606972407,
+			"y": 579,
 			"wiki": "https://en.wikipedia.org/wiki/Olympique_Lyonnais"
 		},
 		"league": {
@@ -243,8 +249,8 @@
 			"surface": "grass",
 			"lat": 43.269846,
 			"lng": 5.39591,
-			"x": 709.5690332767721,
-			"y": 812.1299630868361,
+			"x": 710,
+			"y": 827,
 			"wiki": "https://en.wikipedia.org/wiki/Olympique_de_Marseille"
 		},
 		"league": {
@@ -335,8 +341,8 @@
 			"surface": "grass",
 			"lat": 43.622181,
 			"lng": 3.812022,
-			"x": 599.1029576175034,
-			"y": 778.3813484955601,
+			"x": 599,
+			"y": 793,
 			"wiki": "https://en.wikipedia.org/wiki/Montpellier_HSC"
 		},
 		"league": {
@@ -406,8 +412,8 @@
 			"surface": "grass",
 			"lat": 47.256009,
 			"lng": -1.524681,
-			"x": 226.90199557407215,
-			"y": 418.04775122711885,
+			"x": 227,
+			"y": 426,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Nantes"
 		},
 		"league": {
@@ -484,8 +490,8 @@
 			"surface": "grass",
 			"lat": 43.705086,
 			"lng": 7.19263,
-			"x": 834.8787821090896,
-			"y": 770.4115483055957,
+			"x": 835,
+			"y": 785,
 			"wiki": "https://en.wikipedia.org/wiki/OGC_Nice"
 		},
 		"league": {
@@ -562,8 +568,8 @@
 			"surface": "grass",
 			"lat": 48.841471,
 			"lng": 2.253012,
-			"x": 490.37196362452136,
-			"y": 253.0978039252423,
+			"x": 490,
+			"y": 258,
 			"wiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_F.C."
 		},
 		"league": {
@@ -654,8 +660,8 @@
 			"surface": "grass",
 			"lat": 43.727778,
 			"lng": 7.415556,
-			"x": 850.4264473369443,
-			"y": 768.2282066659861,
+			"x": 850,
+			"y": 783,
 			"wiki": "https://en.wikipedia.org/wiki/AS_Monaco_FC"
 		},
 		"league": {
@@ -725,8 +731,8 @@
 			"surface": "grass",
 			"lat": 49.247222,
 			"lng": 4.024722,
-			"x": 613.937424633306,
-			"y": 210.04956351829227,
+			"x": 614,
+			"y": 214,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_de_Reims"
 		},
 		"league": {
@@ -796,8 +802,8 @@
 			"surface": "grass",
 			"lat": 48.107458,
 			"lng": -1.712839,
-			"x": 213.77917636974752,
-			"y": 330.0958076457269,
+			"x": 214,
+			"y": 336,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Rennais_F.C."
 		},
 		"league": {
@@ -874,8 +880,8 @@
 			"surface": "grass",
 			"lat": 48.560027,
 			"lng": 7.755117,
-			"x": 874.1086591580712,
-			"y": 282.7531781961904,
+			"x": 874,
+			"y": 288,
 			"wiki": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace"
 		},
 		"league": {
@@ -945,8 +951,8 @@
 			"surface": "grass",
 			"lat": 43.583278,
 			"lng": 1.434021,
-			"x": 433.2525702265905,
-			"y": 782.117371927291,
+			"x": 433,
+			"y": 797,
 			"wiki": "https://en.wikipedia.org/wiki/Toulouse_FC"
 		},
 		"league": {
@@ -1023,8 +1029,8 @@
 			"surface": "grass",
 			"lat": 48.402778,
 			"lng": -4.461389,
-			"x": 22.085362000749868,
-			"y": 299.25048079572747,
+			"x": 22,
+			"y": 305,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Brestois_29"
 		},
 		"league": {
@@ -1086,8 +1092,8 @@
 			"surface": "grass",
 			"lat": 47.78675,
 			"lng": 3.588667,
-			"x": 583.5253723785984,
-			"y": 363.39275312541355,
+			"x": 584,
+			"y": 370,
 			"wiki": "https://en.wikipedia.org/wiki/AJ_Auxerre"
 		},
 		"league": {
@@ -1164,8 +1170,8 @@
 			"surface": "grass",
 			"lat": 49.498785,
 			"lng": 0.169773,
-			"x": 345.0793438241686,
-			"y": 183.18204796802058,
+			"x": 345,
+			"y": 186,
 			"wiki": "https://en.wikipedia.org/wiki/Le_Havre_AC"
 		},
 		"league": {
@@ -1242,8 +1248,8 @@
 			"surface": "grass",
 			"lat": 50.43285,
 			"lng": 2.814853,
-			"x": 529.5567862978903,
-			"y": 82.19449168223191,
+			"x": 530,
+			"y": 84,
 			"wiki": "https://en.wikipedia.org/wiki/RC_Lens"
 		},
 		"league": {
@@ -1334,8 +1340,8 @@
 			"surface": "grass",
 			"lat": 45.460753,
 			"lng": 4.390161,
-			"x": 639.4244617362119,
-			"y": 598.9696158089887,
+			"x": 639,
+			"y": 610,
 			"wiki": "https://en.wikipedia.org/wiki/AS_Saint-%C3%89tienne"
 		},
 		"league": {
@@ -1412,8 +1418,8 @@
 			"surface": "grass",
 			"lat": 49.894222,
 			"lng": 2.263352,
-			"x": 491.0931126087399,
-			"y": 140.66779224399744,
+			"x": 491,
+			"y": 143,
 			"wiki": "https://en.wikipedia.org/wiki/Amiens_SC"
 		},
 		"league": {
@@ -1483,8 +1489,8 @@
 			"surface": "grass",
 			"lat": 49.179444,
 			"lng": -0.396667,
-			"x": 305.5737702631355,
-			"y": 217.26498234100228,
+			"x": 306,
+			"y": 221,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Malherbe_Caen"
 		},
 		"league": {
@@ -1561,8 +1567,8 @@
 			"surface": "grass",
 			"lat": 48.566058,
 			"lng": -3.164492,
-			"x": 112.53564770547035,
-			"y": 282.11943415382007,
+			"x": 113,
+			"y": 287,
 			"wiki": "https://en.wikipedia.org/wiki/En_Avant_Guingamp"
 		},
 		"league": {
@@ -1639,8 +1645,8 @@
 			"surface": "artificial turf",
 			"lat": 47.748747,
 			"lng": -3.369367,
-			"x": 98.2469244809157,
-			"y": 367.3247051876319,
+			"x": 98,
+			"y": 374,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Lorient"
 		},
 		"league": {
@@ -1710,8 +1716,8 @@
 			"surface": "grass",
 			"lat": 41.930833,
 			"lng": 8.776667,
-			"x": 945.3552495670668,
-			"y": 938.6406103712426,
+			"x": 945,
+			"y": 956,
 			"wiki": "https://en.wikipedia.org/wiki/AC_Ajaccio"
 		},
 		"league": {
@@ -1781,8 +1787,8 @@
 			"surface": "grass",
 			"lat": 45.815804,
 			"lng": 3.121679,
-			"x": 550.9559408657835,
-			"y": 563.6554727696482,
+			"x": 551,
+			"y": 574,
 			"wiki": "https://en.wikipedia.org/wiki/Clermont_Foot"
 		},
 		"league": {
@@ -1844,8 +1850,8 @@
 			"surface": "grass",
 			"lat": 45.1875,
 			"lng": 5.74,
-			"x": 733.5671139324741,
-			"y": 625.9967747162074,
+			"x": 734,
+			"y": 638,
 			"wiki": "https://en.wikipedia.org/wiki/Grenoble_Foot_38"
 		},
 		"league": {
@@ -1922,8 +1928,8 @@
 			"surface": "artificial turf",
 			"lat": 48.905833,
 			"lng": 2.340833,
-			"x": 0,
-			"y": 0,
+			"x": 496,
+			"y": 251,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Bauer"
 		},
 		"league": {
@@ -1961,8 +1967,8 @@
 			"surface": "grass",
 			"lat": 48.3075,
 			"lng": 4.098333,
-			"x": 619.0713219135143,
-			"y": 309.22148078505984,
+			"x": 619,
+			"y": 315,
 			"wiki": "https://en.wikipedia.org/wiki/ES_Troyes_AC"
 		},
 		"league": {
@@ -2039,8 +2045,8 @@
 			"surface": "grass",
 			"lat": 49.109797,
 			"lng": 6.1595,
-			"x": 762.824560632659,
-			"y": 224.6690822858745,
+			"x": 763,
+			"y": 229,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Metz"
 		},
 		"league": {
@@ -2117,8 +2123,8 @@
 			"surface": "grass",
 			"lat": 48.818534,
 			"lng": 2.346658,
-			"x": 496.90317424117177,
-			"y": 255.52086432339348,
+			"x": 497,
+			"y": 260,
 			"wiki": "https://en.wikipedia.org/wiki/Paris_FC"
 		},
 		"league": {
@@ -2188,8 +2194,8 @@
 			"surface": "grass",
 			"lat": 48.082222,
 			"lng": -0.754722,
-			"x": 280.60172001704615,
-			"y": 332.72339870225505,
+			"x": 281,
+			"y": 339,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Lavallois"
 		},
 		"league": {
@@ -2266,8 +2272,8 @@
 			"surface": "grass",
 			"lat": 43.30805556,
 			"lng": 0.32555556,
-			"x": 355.9441827896474,
-			"y": 808.4795183909514,
+			"x": 356,
+			"y": 824,
 			"wiki": "https://en.wikipedia.org/wiki/Pau_FC"
 		},
 		"league": {
@@ -2337,8 +2343,8 @@
 			"surface": "grass",
 			"lat": 44.351667,
 			"lng": 2.563611,
-			"x": 512.0342608536772,
-			"y": 707.8724391831631,
+			"x": 512,
+			"y": 721,
 			"wiki": "https://en.wikipedia.org/wiki/Rodez_AF"
 		},
 		"league": {
@@ -2400,8 +2406,8 @@
 			"surface": "grass",
 			"lat": 51.035158,
 			"lng": 2.389687,
-			"x": 499.9041722723112,
-			"y": 16.014732276033442,
+			"x": 500,
+			"y": 16,
 			"wiki": "https://en.wikipedia.org/wiki/USL_Dunkerque"
 		},
 		"league": {
@@ -2471,8 +2477,8 @@
 			"surface": "grass",
 			"lat": 42.651389,
 			"lng": 9.442611,
-			"x": 991.8005918443214,
-			"y": 870.9002824901905,
+			"x": 992,
+			"y": 887,
 			"wiki": "https://en.wikipedia.org/wiki/SC_Bastia"
 		},
 		"league": {
@@ -2542,8 +2548,8 @@
 			"surface": "grass",
 			"lat": 45.916497,
 			"lng": 6.118053,
-			"x": 759.933897001235,
-			"y": 553.5993992069394,
+			"x": 760,
+			"y": 564,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Annecy"
 		},
 		"league": {
@@ -2605,8 +2611,8 @@
 			"surface": "grass",
 			"lat": 43.407222,
 			"lng": 5.049444,
-			"x": 0,
-			"y": 0,
+			"x": 685,
+			"y": 814,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Francis-Turcan"
 		},
 		"league": {
@@ -2644,8 +2650,8 @@
 			"surface": "grass",
 			"lat": 44.897358,
 			"lng": -0.561606,
-			"x": 294.070328066992,
-			"y": 654.5527669429769,
+			"x": 294,
+			"y": 667,
 			"wiki": "https://en.wikipedia.org/wiki/FC_Girondins_de_Bordeaux"
 		},
 		"league": {},
@@ -2731,8 +2737,8 @@
 			"surface": "grass",
 			"lat": 50.348056,
 			"lng": 3.533056,
-			"x": 579.6468601773017,
-			"y": 91.44355668888369,
+			"x": 580,
+			"y": 93,
 			"wiki": "https://fr.wikipedia.org/wiki/Valenciennes_Football_Club"
 		},
 		"league": {},
@@ -2804,8 +2810,8 @@
 			"surface": "grass",
 			"lat": 49.411062,
 			"lng": 1.070759,
-			"x": 407.91736497461835,
-			"y": 192.5666941795565,
+			"x": 408,
+			"y": 196,
 			"wiki": "https://en.wikipedia.org/wiki/US_Quevilly-Rouen_M%C3%A9tropole"
 		},
 		"league": {},
@@ -2877,8 +2883,8 @@
 			"surface": "grass",
 			"lat": 48.402778,
 			"lng": -4.461389,
-			"x": 22.085362000749868,
-			"y": 299.25048079572747,
+			"x": 22,
+			"y": 305,
 			"wiki": "https://en.wikipedia.org/wiki/US_Concarneau"
 		},
 		"league": {},

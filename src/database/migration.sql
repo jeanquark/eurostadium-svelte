@@ -84,7 +84,7 @@ CREATE TABLE teams (
   api_football_id INT NOT NULL UNIQUE,
   -- league_id INT,
   api_football_venue_id INT NOT NULL,
-  api_football_league_id INT NOT NULL,
+  api_football_league_id INT,
   name VARCHAR(60),
   slug VARCHAR(60),
   code VARCHAR(4),

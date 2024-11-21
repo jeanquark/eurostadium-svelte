@@ -29,7 +29,8 @@ export async function GET({ request }) {
         // for (let i = 0; i < countriesArray.length; i++) {
         for (let i = 0; i < 1; i++) {
             let countryTeams = []
-            const file = `./static/json/teams/${countriesArray[i].slug}.json`;
+            // const file = `./static/json/teams/${countriesArray[i].slug}.json`;
+            const file = `./static/json/teams/austria.json`;
             const teamsFile = await fs.readFile(file, "utf8");
             if (teamsFile.length > 0) {
                 countryTeams = JSON.parse(teamsFile)
@@ -39,7 +40,8 @@ export async function GET({ request }) {
             // console.log('countryTeams[0]: ', countryTeams[0]?.venue?.api_football_id);
             for (let j = 0; j < countryTeams.length; j++) {
             // for (let j = 0; j < 2; j++) {
-                if (countryTeams[i] && countryTeams[i].team && countryTeams[i].team.api_football_id) {
+                if (countryTeams[j] && countryTeams[j].team && countryTeams[j].team.api_football_id) {
+                    console.log('countryTeams[j].team.api_football_id: ', countryTeams[j].team.api_football_id);
                     // const { data: league, error: error1 } = await supabase
                     //     .from('leagues')
                     //     .select()
@@ -71,14 +73,14 @@ export async function GET({ request }) {
                         .from('teams')
                         .upsert(
                             {
-                                api_football_id: countryTeams[i]['team']['api_football_id'],
-                                name: countryTeams[i]['team']['name'],
-                                code: countryTeams[i]['team']['code'],
-                                founded: countryTeams[i]['team']['founded'],
-                                image: `/images/teams/${countryTeams[i]['team']['name']}.png`,
-                                api_football_league_id: countryTeams[i]['league']['api_football_id'],
+                                api_football_id: countryTeams[j]['team']['api_football_id'],
+                                name: countryTeams[j]['team']['name'],
+                                code: countryTeams[j]['team']['code'],
+                                founded: countryTeams[j]['team']['founded'],
+                                image: `/images/teams/${countryTeams[j]['team']['name']}.png`,
+                                api_football_league_id: countryTeams[j]['league']['api_football_id'] ? countryTeams[j]['league']['api_football_id'] : null,
                                 // api_football_league_id: country.api_football_id,
-                                api_football_venue_id: countryTeams[i]['venue']['api_football_id'],
+                                api_football_venue_id: countryTeams[j]['venue']['api_football_id'],
                                 // api_football_venue_id: venue.api_football_id,
                                 is_active: true
                             },
@@ -92,17 +94,13 @@ export async function GET({ request }) {
                     if (error3) {
                         throw error3
                     }
-
-                    if (error2) {
-                        throw error2
-                    }
                 }
-                return json({
-                    success: true,
-                    total_rows_updated: rowsUpdated
-                });
             }
         }
+        return json({
+            success: true,
+            total_rows_updated: rowsUpdated
+        });
     } catch (error) {
         console.log('error: ', error);
         return json(new Response(error, {

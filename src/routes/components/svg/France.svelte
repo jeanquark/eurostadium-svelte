@@ -104,6 +104,7 @@
         }
     }
     const a = (node, stadiums) => {
+        // console.log('a: ', stadiums)
         stadiumObj = node
         addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues)
     }

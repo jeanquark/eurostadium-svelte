@@ -622,10 +622,11 @@
         "xMax2": 612.58246,
         "yMax3": 639.66309,
         "yMax2": 391.84637,
-        "yMax": 1000,
+        "yMax": 639,
         "xTranslate": 0,
         "yTranslate2": 113,
-        "yTranslate": 180
+        "yTranslate3": 180,
+        "yTranslate": 0
     },
     "turkiye": {
         "leftLongitude": "25.663689",

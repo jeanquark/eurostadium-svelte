@@ -738,6 +738,7 @@
         <!-- <Rectangle />  -->
         <!-- <Europe filter={filterValue} {country} stadiums3={stadiums} /> -->
         <!-- {/if} -->
+        stadiums: {stadiums.length}<br />
         <div id="svgWrapper" bind:this={svgMap} style="border: 1px solid red;">
             <svelte:component
                 this={currentComponent}
