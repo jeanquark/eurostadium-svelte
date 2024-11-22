@@ -19,13 +19,9 @@
         collection,
         query,
         where,
-        orderBy,
-        limit,
         doc,
-        getDoc,
         getDocs,
         addDoc,
-        setDoc,
         updateDoc,
         deleteDoc,
     } from "firebase/firestore";
@@ -828,7 +824,7 @@
         display: block;
     } */
 
-    .carousel-navigation-item:hover {
+    /* .carousel-navigation-item:hover {
         cursor: pointer;
-    }
+    } */
 </style>

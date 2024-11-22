@@ -1,6 +1,4 @@
 import { writable } from 'svelte/store'
-import { db } from '../lib/firebase/firebase'
-import { collection, query, where, doc, getDoc, getDocs, addDoc, setDoc, updateDoc, deleteDoc } from 'firebase/firestore'
 
 const state = {
     leagues: [],

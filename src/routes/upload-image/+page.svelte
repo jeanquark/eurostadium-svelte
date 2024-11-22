@@ -110,7 +110,7 @@
         </label>
 
         {#if previewUrl}
-            <img src={previewUrl} alt="Image Preview" class="preview" />
+            <img src={previewUrl} alt="Preview" class="preview" />
         {/if}
 
         <button type="submit">Upload Image</button>
