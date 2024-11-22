@@ -16,8 +16,8 @@
 			"surface": "grass",
 			"lat": 42.005556,
 			"lng": 21.425556,
-			"x": 294.7,
-			"y": 228.8,
+			"x": 380,
+			"y": 289,
 			"wiki": "https://en.wikipedia.org/wiki/To%C5%A1e_Proeski_Arena"
 		},
 		"league": {
@@ -55,8 +55,8 @@
 			"surface": "grass",
 			"lat": 42.0186,
 			"lng": 20.9783,
-			"x": 158.8,
-			"y": 223.6,
+			"x": 205,
+			"y": 282,
 			"wiki": "https://en.wikipedia.org/wiki/Ecolog_Arena"
 		},
 		"league": {
@@ -94,8 +94,8 @@
 			"surface": "grass",
 			"lat": 42.005556,
 			"lng": 21.425556,
-			"x": 294.7,
-			"y": 228.8,
+			"x": 380,
+			"y": 289,
 			"wiki": "https://en.wikipedia.org/wiki/To%C5%A1e_Proeski_Arena"
 		},
 		"league": {
@@ -133,8 +133,8 @@
 			"surface": "grass",
 			"lat": 41.018056,
 			"lng": 21.338889,
-			"x": 0,
-			"y": 0,
+			"x": 346,
+			"y": 804,
 			"wiki": "https://en.wikipedia.org/wiki/Petar_Milo%C5%A1evski_Football_Stadium"
 		},
 		"league": {
@@ -172,8 +172,8 @@
 			"surface": "grass",
 			"lat": 42.01546,
 			"lng": 21.444347,
-			"x": 300.4,
-			"y": 224.8,
+			"x": 388,
+			"y": 283,
 			"wiki": "https://en.wikipedia.org/wiki/%C4%8Cair_Stadium_(North_Macedonia)"
 		},
 		"league": {
@@ -211,8 +211,8 @@
 			"surface": "grass",
 			"lat": 41.446026,
 			"lng": 22.637842,
-			"x": 663,
-			"y": 455.3,
+			"x": 856,
+			"y": 581,
 			"wiki": "https://de.wikipedia.org/wiki/Stadion_Blagoj_Istatov"
 		},
 		"league": {
@@ -250,8 +250,8 @@
 			"surface": "grass",
 			"lat": 42.080825,
 			"lng": 22.164068,
-			"x": 519,
-			"y": 198.4,
+			"x": 670,
+			"y": 249,
 			"wiki": "https://en.wikipedia.org/wiki/Gradski_Stadion_Kratovo"
 		},
 		"league": {
@@ -289,8 +289,8 @@
 			"surface": "grass",
 			"lat": 41.8,
 			"lng": 20.916667,
-			"x": 140.1,
-			"y": 312.1,
+			"x": 181,
+			"y": 396,
 			"wiki": "https://en.wikipedia.org/wiki/City_Stadium_Gostivar"
 		},
 		"league": {
@@ -328,8 +328,8 @@
 			"surface": "grass",
 			"lat": 41.172778,
 			"lng": 20.684167,
-			"x": 69.4,
-			"y": 565.9,
+			"x": 90,
+			"y": 723,
 			"wiki": "https://en.wikipedia.org/wiki/Gradska_Pla%C5%BEa_Stadium"
 		},
 		"league": {
@@ -367,8 +367,8 @@
 			"surface": "grass",
 			"lat": 41.435111,
 			"lng": 22.023361,
-			"x": 476.3,
-			"y": 459.7,
+			"x": 615,
+			"y": 587,
 			"wiki": "https://en.wikipedia.org/wiki/Gradski_Stadion_Kavadarci"
 		},
 		"league": {
@@ -406,8 +406,8 @@
 			"surface": "grass",
 			"lat": 41.8,
 			"lng": 20.916667,
-			"x": 0,
-			"y": 0,
+			"x": 181,
+			"y": 396,
 			"wiki": "https://en.wikipedia.org/wiki/City_Stadium_Gostivar"
 		},
 		"league": {
@@ -445,8 +445,8 @@
 			"surface": "grass",
 			"lat": 41.1051,
 			"lng": 20.8123,
-			"x": 108.4,
-			"y": 593.3,
+			"x": 140,
+			"y": 759,
 			"wiki": "https://en.wikipedia.org/wiki/SRC_Biljanini_Izvori"
 		},
 		"league": {
@@ -484,8 +484,8 @@
 			"surface": "grass",
 			"lat": 42.002222,
 			"lng": 21.36,
-			"x": 274.8,
-			"y": 230.2,
+			"x": 355,
+			"y": 290,
 			"wiki": "https://en.wikipedia.org/wiki/Gjor%C4%8De_Petrov_Stadium"
 		},
 		"league": {
@@ -523,8 +523,8 @@
 			"surface": "grass",
 			"lat": 41.4462,
 			"lng": 22.637708,
-			"x": 0,
-			"y": 0,
+			"x": 855,
+			"y": 581,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Blagoj_Istatov"
 		},
 		"league": {
@@ -562,8 +562,8 @@
 			"surface": "grass",
 			"lat": 41.343611,
 			"lng": 21.561944,
-			"x": 0,
-			"y": 0,
+			"x": 434,
+			"y": 635,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Goce_Del%C4%8Dev"
 		},
 		"league": {
@@ -601,8 +601,8 @@
 			"surface": "grass",
 			"lat": 42.006667,
 			"lng": 21.461111,
-			"x": 0,
-			"y": 0,
+			"x": 394,
+			"y": 288,
 			"wiki": "https://en.wikipedia.org/wiki/%C5%BDelezarnica_Stadium"
 		},
 		"league": {
@@ -640,8 +640,8 @@
 			"surface": "grass",
 			"lat": 41.737617,
 			"lng": 22.208358,
-			"x": 532.5,
-			"y": 337.3,
+			"x": 687,
+			"y": 429,
 			"wiki": "https://en.wikipedia.org/wiki/Gradski_stadion_%C5%A0tip"
 		},
 		"league": {
@@ -679,8 +679,8 @@
 			"surface": "artificial turf",
 			"lat": 41.719473,
 			"lng": 21.774933,
-			"x": 0,
-			"y": 0,
+			"x": 517,
+			"y": 439,
 			"wiki": ""
 		},
 		"league": {
@@ -708,9 +708,9 @@
 			"capacity": 2000,
 			"surface": "grass",
 			"lat": 41.136683,
-			"lng": 22.501160,
-			"x": 0,
-			"y": 0,
+			"lng": 22.50116,
+			"x": 802,
+			"y": 742,
 			"wiki": ""
 		},
 		"league": {
@@ -748,8 +748,8 @@
 			"surface": "grass",
 			"lat": 42.017461,
 			"lng": 22.589348,
-			"x": 0,
-			"y": 0,
+			"x": 837,
+			"y": 282,
 			"wiki": ""
 		},
 		"league": {
@@ -787,8 +787,8 @@
 			"surface": "grass",
 			"lat": 41.482304,
 			"lng": 22.085785,
-			"x": 0,
-			"y": 0,
+			"x": 639,
+			"y": 563,
 			"wiki": ""
 		},
 		"league": {
@@ -824,10 +824,10 @@
 			"city": "Novatsi",
 			"capacity": 1500,
 			"surface": "grass",
-			"lat": 41.042670,
+			"lat": 41.04267,
 			"lng": 21.450126,
-			"x": 0,
-			"y": 0,
+			"x": 390,
+			"y": 791,
 			"wiki": ""
 		},
 		"league": {
@@ -865,8 +865,8 @@
 			"surface": "grass",
 			"lat": 41.908528,
 			"lng": 22.406278,
-			"x": 0,
-			"y": 0,
+			"x": 765,
+			"y": 340,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Nikola_Mantov"
 		},
 		"league": {
@@ -904,8 +904,8 @@
 			"surface": "grass",
 			"lat": 41.1051,
 			"lng": 20.8123,
-			"x": 0,
-			"y": 0,
+			"x": 140,
+			"y": 759,
 			"wiki": "https://en.wikipedia.org/wiki/SRC_Biljanini_Izvori"
 		},
 		"league": {
@@ -943,8 +943,8 @@
 			"surface": "grass",
 			"lat": 41.976791,
 			"lng": 20.940969,
-			"x": 0,
-			"y": 0,
+			"x": 190,
+			"y": 304,
 			"wiki": ""
 		},
 		"league": {
@@ -982,8 +982,8 @@
 			"surface": "grass",
 			"lat": 1.641512,
 			"lng": 22.464046,
-			"x": 610.2,
-			"y": 16566.9,
+			"x": 787,
+			"y": 17759,
 			"wiki": ""
 		},
 		"league": {
@@ -1021,8 +1021,8 @@
 			"surface": "grass",
 			"lat": 42.142099,
 			"lng": 21.709974,
-			"x": 0,
-			"y": 0,
+			"x": 492,
+			"y": 217,
 			"wiki": "https://en.wikipedia.org/wiki/KF_Bashkimi_Stadium"
 		},
 		"league": {
@@ -1060,8 +1060,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"x": -8020,
+			"y": 18400,
 			"wiki": ""
 		},
 		"league": {

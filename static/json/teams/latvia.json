@@ -16,8 +16,8 @@
 			"surface": "grass",
 			"lat": 56.954997,
 			"lng": 24.158839,
-			"x": 542.6,
-			"y": 600.9,
+			"x": 443,
+			"y": 486,
 			"wiki": "https://en.wikipedia.org/wiki/Daugava_Stadium_(Riga)"
 		},
 		"league": {
@@ -55,8 +55,8 @@
 			"surface": "grass",
 			"lat": 57.004379,
 			"lng": 24.175378,
-			"x": 545.4,
-			"y": 585.7,
+			"x": 445,
+			"y": 474,
 			"wiki": ""
 		},
 		"league": {
@@ -94,8 +94,8 @@
 			"surface": "grass",
 			"lat": 56.538366,
 			"lng": 21.171166,
-			"x": 0,
-			"y": 0,
+			"x": 36,
+			"y": 590,
 			"wiki": ""
 		},
 		"league": {
@@ -133,8 +133,8 @@
 			"surface": "artificial turf",
 			"lat": 56.951659,
 			"lng": 23.11846,
-			"x": 368.9,
-			"y": 602,
+			"x": 301,
+			"y": 487,
 			"wiki": ""
 		},
 		"league": {
@@ -172,8 +172,8 @@
 			"surface": "artificial turf",
 			"lat": 55.874667,
 			"lng": 26.550619,
-			"x": 941.9,
-			"y": 933.3,
+			"x": 769,
+			"y": 754,
 			"wiki": "https://en.wikipedia.org/wiki/Celtnieks_Stadium"
 		},
 		"league": {
@@ -211,8 +211,8 @@
 			"surface": "artificial turf",
 			"lat": 57.54101,
 			"lng": 25.440471,
-			"x": 756.6,
-			"y": 420.6,
+			"x": 618,
+			"y": 337,
 			"wiki": "https://en.wikipedia.org/wiki/J%C4%81nis_Dali%C5%86%C5%A1_Stadium"
 		},
 		"league": {
@@ -250,8 +250,8 @@
 			"surface": "grass",
 			"lat": 56.96643,
 			"lng": 24.118364,
-			"x": 535.8,
-			"y": 597.4,
+			"x": 438,
+			"y": 483,
 			"wiki": ""
 		},
 		"league": {
@@ -289,8 +289,8 @@
 			"surface": "grass",
 			"lat": 56.908,
 			"lng": 24.155,
-			"x": 542,
-			"y": 615.4,
+			"x": 443,
+			"y": 498,
 			"wiki": "https://en.wikipedia.org/wiki/LNK_Sporta_Parks"
 		},
 		"league": {
@@ -328,8 +328,8 @@
 			"surface": "grass",
 			"lat": 56.961372,
 			"lng": 24.116408,
-			"x": 535.5,
-			"y": 599,
+			"x": 437,
+			"y": 484,
 			"wiki": "https://en.wikipedia.org/wiki/Skonto_Stadium"
 		},
 		"league": {
@@ -367,8 +367,8 @@
 			"surface": "grass",
 			"lat": 56.6608,
 			"lng": 23.7558,
-			"x": 475.3,
-			"y": 691.5,
+			"x": 388,
+			"y": 560,
 			"wiki": "https://en.wikipedia.org/wiki/Zemgale_Olympic_Center"
 		},
 		"league": {
@@ -406,8 +406,8 @@
 			"surface": "grass",
 			"lat": 56.980959,
 			"lng": 24.339192,
-			"x": 0,
-			"y": 0,
+			"x": 468,
+			"y": 480,
 			"wiki": ""
 		},
 		"league": {
@@ -445,8 +445,8 @@
 			"surface": "grass",
 			"lat": 56.509776,
 			"lng": 27.340755,
-			"x": 0,
-			"y": 0,
+			"x": 877,
+			"y": 597,
 			"wiki": ""
 		},
 		"league": {
@@ -484,8 +484,8 @@
 			"surface": "artificial turf",
 			"lat": 57.430763,
 			"lng": 25.921527,
-			"x": 0,
-			"y": 0,
+			"x": 683,
+			"y": 366,
 			"wiki": ""
 		},
 		"league": {
@@ -523,8 +523,8 @@
 			"surface": "grass",
 			"lat": 56.949591,
 			"lng": 23.610199,
-			"x": 451,
-			"y": 602.6,
+			"x": 368,
+			"y": 487,
 			"wiki": "https://en.wikipedia.org/wiki/Sloka_Stadium"
 		},
 		"league": {
@@ -562,8 +562,8 @@
 			"surface": "artificial turf",
 			"lat": 56.788807,
 			"lng": 23.943825,
-			"x": 0,
-			"y": 0,
+			"x": 414,
+			"y": 528,
 			"wiki": ""
 		},
 		"league": {
@@ -599,10 +599,10 @@
 			"city": "Jaunmārupe",
 			"capacity": 1500,
 			"surface": "artificial turf",
-			"lat": 56.878370,
+			"lat": 56.87837,
 			"lng": 23.937024,
-			"x": 0,
-			"y": 0,
+			"x": 413,
+			"y": 505,
 			"wiki": ""
 		},
 		"league": {
@@ -640,8 +640,8 @@
 			"surface": "artificial turf",
 			"lat": 56.96643,
 			"lng": 24.118364,
-			"x": 535.8,
-			"y": 597.4,
+			"x": 438,
+			"y": 483,
 			"wiki": ""
 		},
 		"league": {
@@ -679,8 +679,8 @@
 			"surface": "grass",
 			"lat": 57.004355,
 			"lng": 24.175346,
-			"x": 0,
-			"y": 0,
+			"x": 445,
+			"y": 474,
 			"wiki": ""
 		},
 		"league": {
@@ -717,9 +717,9 @@
 			"capacity": 3000,
 			"surface": "grass",
 			"lat": 56.908049,
-			"lng": 24.155260,
-			"x": 0,
-			"y": 0,
+			"lng": 24.15526,
+			"x": 443,
+			"y": 498,
 			"wiki": ""
 		},
 		"league": {
@@ -757,8 +757,8 @@
 			"surface": "artificial turf",
 			"lat": 56.965098,
 			"lng": 23.139428,
-			"x": 0,
-			"y": 0,
+			"x": 304,
+			"y": 484,
 			"wiki": ""
 		},
 		"league": {
@@ -796,8 +796,8 @@
 			"surface": "artificial turf",
 			"lat": 57.528908,
 			"lng": 25.390023,
-			"x": 0,
-			"y": 0,
+			"x": 611,
+			"y": 340,
 			"wiki": ""
 		},
 		"league": {
@@ -834,9 +834,9 @@
 			"capacity": 3000,
 			"surface": "artificial turf",
 			"lat": 56.822839,
-			"lng": 24.605110,
-			"x": 0,
-			"y": 0,
+			"lng": 24.60511,
+			"x": 504,
+			"y": 519,
 			"wiki": ""
 		},
 		"league": {
@@ -865,8 +865,8 @@
 			"surface": "grass",
 			"lat": 57.387986,
 			"lng": 21.572101,
-			"x": 0,
-			"y": 0,
+			"x": 90,
+			"y": 376,
 			"wiki": ""
 		},
 		"league": {
@@ -904,8 +904,8 @@
 			"surface": "artificial turf",
 			"lat": 56.908039,
 			"lng": 24.155205,
-			"x": 0,
-			"y": 0,
+			"x": 443,
+			"y": 498,
 			"wiki": ""
 		},
 		"league": {
@@ -932,10 +932,10 @@
 			"city": "Saldus",
 			"capacity": 2000,
 			"surface": "grass",
-			"lat": 56.668270,
+			"lat": 56.66827,
 			"lng": 22.499993,
-			"x": 0,
-			"y": 0,
+			"x": 217,
+			"y": 558,
 			"wiki": ""
 		},
 		"league": {},
@@ -968,8 +968,8 @@
 			"surface": "artificial turf",
 			"lat": 56.954212,
 			"lng": 24.067518,
-			"x": 0,
-			"y": 0,
+			"x": 431,
+			"y": 486,
 			"wiki": ""
 		},
 		"league": {},
@@ -1002,8 +1002,8 @@
 			"surface": "grass",
 			"lat": 56.857912,
 			"lng": 24.337041,
-			"x": 0,
-			"y": 0,
+			"x": 467,
+			"y": 510,
 			"wiki": ""
 		},
 		"league": {},

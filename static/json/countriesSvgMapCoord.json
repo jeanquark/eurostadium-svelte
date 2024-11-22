@@ -402,16 +402,21 @@
         "yTranslate": 29.80868
     },
     "portugal": {
-        "leftLongitude2": "-31.270171",
         "leftLongitude": "-9.502809",
+        "leftLongitude2": "-31.270171",
         "topLatitude": "42.155925",
         "rightLongitude": "-6.187163",
-        "bottomLatitude2": "32.400528",
         "bottomLatitude": "36.96",
-        "xMax": 1000,
-        "yMax": 709.250,
-        "xTranslate": 691.82813,
-        "yTranslate": 153.43750
+        "bottomLatitude2": "32.400528",
+        "xMax2": 1000,
+        "xMax": 494.645,
+        "yMax2": 709.250,
+        "yMax": 1000,
+        "xTranslate3": 691.82813,
+        "xTranslate2": 0,
+        "xTranslate": 508.05469,
+        "yTranslate3": 153.43750,
+        "yTranslate": 0
     },
     "romania": {
         "leftLongitude": "20.262217",

@@ -16,8 +16,8 @@
 			"surface": "artificial turf",
 			"lat": 54,
 			"lng": -6.4166,
-			"x": 578.2,
-			"y": 270.7,
+			"x": 746,
+			"y": 360,
 			"wiki": "https://en.wikipedia.org/wiki/Oriel_Park"
 		},
 		"league": {
@@ -79,8 +79,8 @@
 			"surface": "grass",
 			"lat": 53.28352,
 			"lng": -6.37371,
-			"x": 583.2,
-			"y": 410.9,
+			"x": 753,
+			"y": 541,
 			"wiki": "https://en.wikipedia.org/wiki/Tallaght_Stadium"
 		},
 		"league": {
@@ -142,8 +142,8 @@
 			"surface": "artificial turf",
 			"lat": 54.990556,
 			"lng": -7.336111,
-			"x": 470.9,
-			"y": 77,
+			"x": 608,
+			"y": 104,
 			"wiki": "https://en.wikipedia.org/wiki/Ryan_McBride_Brandywell_Stadium"
 		},
 		"league": {
@@ -205,8 +205,8 @@
 			"surface": "grass",
 			"lat": 53.361667,
 			"lng": -6.275,
-			"x": 594.8,
-			"y": 395.6,
+			"x": 768,
+			"y": 522,
 			"wiki": "https://en.wikipedia.org/wiki/Dalymount_Park"
 		},
 		"league": {
@@ -268,8 +268,8 @@
 			"surface": "grass",
 			"lat": 54.27,
 			"lng": -8.487222,
-			"x": 336.6,
-			"y": 217.9,
+			"x": 435,
+			"y": 291,
 			"wiki": "https://en.wikipedia.org/wiki/The_Showgrounds,_Sligo"
 		},
 		"league": {
@@ -331,8 +331,8 @@
 			"surface": "grass",
 			"lat": 53.340833,
 			"lng": -6.316667,
-			"x": 589.9,
-			"y": 399.6,
+			"x": 761,
+			"y": 527,
 			"wiki": "https://en.wikipedia.org/wiki/Richmond_Park_(football_ground)"
 		},
 		"league": {
@@ -394,8 +394,8 @@
 			"surface": "grass",
 			"lat": 52.246185,
 			"lng": -7.124692,
-			"x": 495.6,
-			"y": 613.7,
+			"x": 640,
+			"y": 799,
 			"wiki": "https://en.wikipedia.org/wiki/Waterford_Regional_Sports_Centre"
 		},
 		"league": {
@@ -457,8 +457,8 @@
 			"surface": "grass",
 			"lat": 53.205833,
 			"lng": -6.102778,
-			"x": 614.9,
-			"y": 426,
+			"x": 794,
+			"y": 561,
 			"wiki": "https://en.wikipedia.org/wiki/Carlisle_Grounds"
 		},
 		"league": {
@@ -520,8 +520,8 @@
 			"surface": "grass",
 			"lat": 53.723333,
 			"lng": -6.357222,
-			"x": 585.2,
-			"y": 324.8,
+			"x": 755,
+			"y": 430,
 			"wiki": "https://en.wikipedia.org/wiki/United_Park"
 		},
 		"league": {
@@ -583,8 +583,8 @@
 			"surface": "grass",
 			"lat": 53.284722,
 			"lng": -9.056389,
-			"x": 270.1,
-			"y": 410.6,
+			"x": 349,
+			"y": 541,
 			"wiki": "https://en.wikipedia.org/wiki/Eamonn_Deacy_Park"
 		},
 		"league": {
@@ -646,8 +646,8 @@
 			"surface": "grass",
 			"lat": 53.3675,
 			"lng": -6.251944,
-			"x": 597.4,
-			"y": 394.4,
+			"x": 771,
+			"y": 520,
 			"wiki": "https://en.wikipedia.org/wiki/Tolka_Park"
 		},
 		"league": {
@@ -709,8 +709,8 @@
 			"surface": "grass",
 			"lat": 51.885556,
 			"lng": -8.467778,
-			"x": 338.8,
-			"y": 684.3,
+			"x": 438,
+			"y": 887,
 			"wiki": "https://en.wikipedia.org/wiki/Turners_Cross_(stadium)"
 		},
 		"league": {
@@ -772,8 +772,8 @@
 			"surface": "grass",
 			"lat": 54.798,
 			"lng": -7.778,
-			"x": 419.3,
-			"y": 114.7,
+			"x": 541,
+			"y": 154,
 			"wiki": "https://en.wikipedia.org/wiki/Finn_Park"
 		},
 		"league": {
@@ -835,8 +835,8 @@
 			"surface": "grass",
 			"lat": 53.310278,
 			"lng": -6.228056,
-			"x": 600.2,
-			"y": 405.6,
+			"x": 775,
+			"y": 535,
 			"wiki": "https://en.wikipedia.org/wiki/UCD_Bowl"
 		},
 		"league": {
@@ -898,8 +898,8 @@
 			"surface": "grass",
 			"lat": 53.4275,
 			"lng": -7.919167,
-			"x": 402.9,
-			"y": 382.7,
+			"x": 520,
+			"y": 505,
 			"wiki": "https://en.wikipedia.org/wiki/Athlone_Town_Stadium"
 		},
 		"league": {
@@ -961,8 +961,8 @@
 			"surface": "grass",
 			"lat": 53.205833,
 			"lng": -6.102778,
-			"x": 614.9,
-			"y": 426,
+			"x": 794,
+			"y": 561,
 			"wiki": "https://en.wikipedia.org/wiki/Carlisle_Grounds"
 		},
 		"league": {
@@ -1024,8 +1024,8 @@
 			"surface": "grass",
 			"lat": 51.851944,
 			"lng": -8.301389,
-			"x": 358.3,
-			"y": 690.8,
+			"x": 463,
+			"y": 895,
 			"wiki": "https://en.wikipedia.org/wiki/St_Colman%27s_Park"
 		},
 		"league": {
@@ -1087,8 +1087,8 @@
 			"surface": "grass",
 			"lat": 53.724,
 			"lng": -7.854,
-			"x": 410.5,
-			"y": 324.7,
+			"x": 530,
+			"y": 430,
 			"wiki": "https://en.wikipedia.org/wiki/Bishopsgate_(stadium)"
 		},
 		"league": {
@@ -1150,8 +1150,8 @@
 			"surface": "grass",
 			"lat": 52.365556,
 			"lng": -6.515556,
-			"x": 566.7,
-			"y": 590.4,
+			"x": 731,
+			"y": 770,
 			"wiki": "https://en.wikipedia.org/wiki/Ferrycarrig_Park"
 		},
 		"league": {
@@ -1213,8 +1213,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": 1327.1,
-			"y": 10831.7,
+			"x": 1712,
+			"y": 10037,
 			"wiki": ""
 		},
 		"league": {
@@ -1276,8 +1276,8 @@
 			"surface": "grass",
 			"lat": 52.6603,
 			"lng": -8.6149,
-			"x": 321.7,
-			"y": 532.7,
+			"x": 415,
+			"y": 697,
 			"wiki": "https://en.wikipedia.org/wiki/Markets_Field"
 		},
 		"league": {

@@ -16,8 +16,8 @@
 			"surface": "grass",
 			"lat": 42.66297,
 			"lng": 21.15688,
-			"x": 428.6,
-			"y": 284.5,
+			"x": 611,
+			"y": 411,
 			"wiki": "https://en.wikipedia.org/wiki/Fadil_Vokrri_Stadium"
 		},
 		"league": {
@@ -55,8 +55,8 @@
 			"surface": "grass",
 			"lat": 42.616446,
 			"lng": 20.903551,
-			"x": 340.8,
-			"y": 306.3,
+			"x": 487,
+			"y": 443,
 			"wiki": "https://en.wikipedia.org/wiki/Rexhep_Rexhepi_Stadium"
 		},
 		"league": {
@@ -94,8 +94,8 @@
 			"surface": "artificial turf",
 			"lat": 42.353243,
 			"lng": 20.82257,
-			"x": 312.7,
-			"y": 429.7,
+			"x": 448,
+			"y": 620,
 			"wiki": ""
 		},
 		"league": {
@@ -133,8 +133,8 @@
 			"surface": "artificial turf",
 			"lat": 42.453612,
 			"lng": 21.464586,
-			"x": 535.3,
-			"y": 382.6,
+			"x": 762,
+			"y": 552,
 			"wiki": ""
 		},
 		"league": {
@@ -172,8 +172,8 @@
 			"surface": "artificial turf",
 			"lat": 42.453612,
 			"lng": 21.464586,
-			"x": 535.3,
-			"y": 382.6,
+			"x": 762,
+			"y": 552,
 			"wiki": ""
 		},
 		"league": {
@@ -211,8 +211,8 @@
 			"surface": "grass",
 			"lat": 42.617034,
 			"lng": 20.58089,
-			"x": 229,
-			"y": 306.1,
+			"x": 329,
+			"y": 442,
 			"wiki": ""
 		},
 		"league": {
@@ -250,8 +250,8 @@
 			"surface": "artificial turf",
 			"lat": 42.374523,
 			"lng": 21.137208,
-			"x": 0,
-			"y": 0,
+			"x": 602,
+			"y": 605,
 			"wiki": ""
 		},
 		"league": {
@@ -289,8 +289,8 @@
 			"surface": "grass",
 			"lat": 42.905073,
 			"lng": 21.19489,
-			"x": 441.8,
-			"y": 171.1,
+			"x": 630,
+			"y": 248,
 			"wiki": "https://en.wikipedia.org/wiki/Zahir_Pajaziti_Stadium"
 		},
 		"league": {
@@ -328,8 +328,8 @@
 			"surface": "artificial turf",
 			"lat": 42.482245,
 			"lng": 20.724799,
-			"x": 278.8,
-			"y": 369.2,
+			"x": 400,
+			"y": 533,
 			"wiki": ""
 		},
 		"league": {
@@ -367,8 +367,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"x": -9746,
+			"y": 23835,
 			"wiki": ""
 		},
 		"league": {
@@ -397,8 +397,8 @@
 			"surface": "grass",
 			"lat": 42.206992,
 			"lng": 20.729061,
-			"x": 280.3,
-			"y": 498.2,
+			"x": 402,
+			"y": 717,
 			"wiki": ""
 		},
 		"league": {},
@@ -431,8 +431,8 @@
 			"surface": "grass",
 			"lat": 42.63427,
 			"lng": 21.086662,
-			"x": 404.3,
-			"y": 298,
+			"x": 577,
+			"y": 431,
 			"wiki": ""
 		},
 		"league": {},
@@ -465,8 +465,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"x": -9746,
+			"y": 23835,
 			"wiki": ""
 		},
 		"league": {},

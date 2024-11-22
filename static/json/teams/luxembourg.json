@@ -16,8 +16,8 @@
 			"surface": "grass",
 			"lat": 49.472222,
 			"lng": 6.084722,
-			"x": 366.9,
-			"y": 765.8,
+			"x": 457,
+			"y": 966,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Jos_Nosbaum"
 		},
 		"league": {
@@ -55,8 +55,8 @@
 			"surface": "grass",
 			"lat": 49.492222,
 			"lng": 5.989722,
-			"x": 300.7,
-			"y": 744.2,
+			"x": 374,
+			"y": 939,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_%C3%89mile_Mayrisch"
 		},
 		"league": {
@@ -94,8 +94,8 @@
 			"surface": "grass",
 			"lat": 49.5461,
 			"lng": 5.9034,
-			"x": 240.6,
-			"y": 686.2,
+			"x": 298,
+			"y": 867,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Jos_Haupert"
 		},
 		"league": {
@@ -133,8 +133,8 @@
 			"surface": "grass",
 			"lat": 49.51392,
 			"lng": 5.889765,
-			"x": 231.1,
-			"y": 720.9,
+			"x": 286,
+			"y": 910,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Municipal_de_la_Ville_de_Differdange"
 		},
 		"league": {
@@ -172,8 +172,8 @@
 			"surface": "grass",
 			"lat": 49.604722,
 			"lng": 6.140278,
-			"x": 405.6,
-			"y": 623.1,
+			"x": 506,
+			"y": 787,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Achille_Hammerel"
 		},
 		"league": {
@@ -211,8 +211,8 @@
 			"surface": "grass",
 			"lat": 49.557212,
 			"lng": 5.856485,
-			"x": 207.9,
-			"y": 674.3,
+			"x": 257,
+			"y": 852,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Municipal,_P%C3%A9tange"
 		},
 		"league": {
@@ -250,8 +250,8 @@
 			"surface": "grass",
 			"lat": 49.485833,
 			"lng": 5.976944,
-			"x": 291.8,
-			"y": 751.1,
+			"x": 363,
+			"y": 948,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_de_la_Fronti%C3%A8re"
 		},
 		"league": {
@@ -289,8 +289,8 @@
 			"surface": "grass",
 			"lat": 49.617838,
 			"lng": 6.071651,
-			"x": 357.8,
-			"y": 609,
+			"x": 446,
+			"y": 770,
 			"wiki": ""
 		},
 		"league": {
@@ -328,8 +328,8 @@
 			"surface": "grass",
 			"lat": 49.686868,
 			"lng": 6.448519,
-			"x": 620.3,
-			"y": 534.7,
+			"x": 777,
+			"y": 676,
 			"wiki": "https://de.wikipedia.org/wiki/Stade_John_Gr%C3%BCn"
 		},
 		"league": {
@@ -367,8 +367,8 @@
 			"surface": "grass",
 			"lat": 49.80846,
 			"lng": 6.505675,
-			"x": 660.2,
-			"y": 403.8,
+			"x": 828,
+			"y": 511,
 			"wiki": "https://en.wikipedia.org/wiki/VictoriArena"
 		},
 		"league": {
@@ -405,9 +405,9 @@
 			"capacity": 3400,
 			"surface": "grass",
 			"lat": 49.545798,
-			"lng": 5.837260,
-			"x": 0,
-			"y": 0,
+			"lng": 5.83726,
+			"x": 240,
+			"y": 867,
 			"wiki": ""
 		},
 		"league": {
@@ -445,8 +445,8 @@
 			"surface": "grass",
 			"lat": 49.659225,
 			"lng": 6.227982,
-			"x": 466.7,
-			"y": 564.4,
+			"x": 583,
+			"y": 714,
 			"wiki": "https://de.wikipedia.org/wiki/Stade_Jos_Becker"
 		},
 		"league": {
@@ -484,8 +484,8 @@
 			"surface": "artificial turf",
 			"lat": 49.511244,
 			"lng": 6.116626,
-			"x": 0,
-			"y": 0,
+			"x": 486,
+			"y": 914,
 			"wiki": ""
 		},
 		"league": {
@@ -523,8 +523,8 @@
 			"surface": "grass",
 			"lat": 49.974083,
 			"lng": 5.941781,
-			"x": 267.3,
-			"y": 225.5,
+			"x": 332,
+			"y": 286,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Am_P%C3%ABtz"
 		},
 		"league": {
@@ -562,8 +562,8 @@
 			"surface": "grass",
 			"lat": 49.575111,
 			"lng": 6.157408,
-			"x": 417.5,
-			"y": 655,
+			"x": 521,
+			"y": 828,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Alphonse_Theis"
 		},
 		"league": {
@@ -601,8 +601,8 @@
 			"surface": "grass",
 			"lat": 49.545827,
 			"lng": 5.978261,
-			"x": 292.7,
-			"y": 686.5,
+			"x": 364,
+			"y": 867,
 			"wiki": ""
 		},
 		"league": {
@@ -640,8 +640,8 @@
 			"surface": "grass",
 			"lat": 49.456824,
 			"lng": 6.033157,
-			"x": 331,
-			"y": 782.3,
+			"x": 412,
+			"y": 987,
 			"wiki": ""
 		},
 		"league": {},
@@ -674,8 +674,8 @@
 			"surface": "artificial turf",
 			"lat": 49.562735,
 			"lng": 5.905852,
-			"x": 242.3,
-			"y": 668.3,
+			"x": 300,
+			"y": 844,
 			"wiki": ""
 		},
 		"league": {},
@@ -708,8 +708,8 @@
 			"surface": "grass",
 			"lat": 49.748201,
 			"lng": 6.105889,
-			"x": 381.6,
-			"y": 468.7,
+			"x": 476,
+			"y": 593,
 			"wiki": ""
 		},
 		"league": {},
@@ -742,8 +742,8 @@
 			"surface": "grass",
 			"lat": 49.511053,
 			"lng": 6.015372,
-			"x": 318.6,
-			"y": 724,
+			"x": 396,
+			"y": 914,
 			"wiki": ""
 		},
 		"league": {},

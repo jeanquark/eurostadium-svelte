@@ -16,8 +16,8 @@
 			"surface": "grass",
 			"lat": 55.849722,
 			"lng": -4.205556,
-			"x": 253.8,
-			"y": 440.3,
+			"x": 500,
+			"y": 818,
 			"wiki": "https://en.wikipedia.org/wiki/Celtic_Park"
 		},
 		"league": {
@@ -79,8 +79,8 @@
 			"surface": "grass",
 			"lat": 55.961667,
 			"lng": -3.165556,
-			"x": 301.8,
-			"y": 430.5,
+			"x": 589,
+			"y": 801,
 			"wiki": "https://en.wikipedia.org/wiki/Easter_Road"
 		},
 		"league": {
@@ -142,8 +142,8 @@
 			"surface": "artificial turf",
 			"lat": 55.604167,
 			"lng": -4.508056,
-			"x": 239.8,
-			"y": 461.9,
+			"x": 474,
+			"y": 855,
 			"wiki": "https://en.wikipedia.org/wiki/Rugby_Park"
 		},
 		"league": {
@@ -205,8 +205,8 @@
 			"surface": "grass",
 			"lat": 55.850556,
 			"lng": -4.443889,
-			"x": 242.8,
-			"y": 440.3,
+			"x": 480,
+			"y": 818,
 			"wiki": "https://en.wikipedia.org/wiki/St_Mirren_Park"
 		},
 		"league": {
@@ -268,8 +268,8 @@
 			"surface": "grass",
 			"lat": 57.159167,
 			"lng": -2.088889,
-			"x": 351.5,
-			"y": 325.2,
+			"x": 681,
+			"y": 615,
 			"wiki": "https://en.wikipedia.org/wiki/Pittodrie_Stadium"
 		},
 		"league": {
@@ -331,8 +331,8 @@
 			"surface": "grass",
 			"lat": 56.474722,
 			"lng": -2.973611,
-			"x": 310.7,
-			"y": 385.4,
+			"x": 605,
+			"y": 722,
 			"wiki": "https://en.wikipedia.org/wiki/Dens_Park"
 		},
 		"league": {
@@ -394,8 +394,8 @@
 			"surface": "grass",
 			"lat": 55.939167,
 			"lng": -3.232222,
-			"x": 298.7,
-			"y": 432.5,
+			"x": 583,
+			"y": 804,
 			"wiki": "https://en.wikipedia.org/wiki/Tynecastle_Park"
 		},
 		"league": {
@@ -457,8 +457,8 @@
 			"surface": "grass",
 			"lat": 55.78,
 			"lng": -3.98,
-			"x": 264.2,
-			"y": 446.5,
+			"x": 519,
+			"y": 828,
 			"wiki": "https://en.wikipedia.org/wiki/Fir_Park"
 		},
 		"league": {
@@ -520,8 +520,8 @@
 			"surface": "grass",
 			"lat": 55.853056,
 			"lng": -4.309167,
-			"x": 249,
-			"y": 440.1,
+			"x": 491,
+			"y": 817,
 			"wiki": "https://en.wikipedia.org/wiki/Ibrox_Stadium"
 		},
 		"league": {
@@ -583,8 +583,8 @@
 			"surface": "grass",
 			"lat": 56.409722,
 			"lng": -3.476944,
-			"x": 287.4,
-			"y": 391.1,
+			"x": 562,
+			"y": 732,
 			"wiki": "https://en.wikipedia.org/wiki/McDiarmid_Park"
 		},
 		"league": {
@@ -646,8 +646,8 @@
 			"surface": "grass",
 			"lat": 57.595833,
 			"lng": -4.418889,
-			"x": 243.9,
-			"y": 286.8,
+			"x": 482,
+			"y": 545,
 			"wiki": "https://en.wikipedia.org/wiki/Victoria_Park,_Dingwall"
 		},
 		"league": {
@@ -709,8 +709,8 @@
 			"surface": "grass",
 			"lat": 56.474722,
 			"lng": -2.968889,
-			"x": 310.9,
-			"y": 385.4,
+			"x": 606,
+			"y": 722,
 			"wiki": "https://en.wikipedia.org/wiki/Tannadice_Park"
 		},
 		"league": {
@@ -772,8 +772,8 @@
 			"surface": "artificial turf",
 			"lat": 55.782222,
 			"lng": -4.058611,
-			"x": 260.6,
-			"y": 446.3,
+			"x": 513,
+			"y": 828,
 			"wiki": "https://en.wikipedia.org/wiki/New_Douglas_Park"
 		},
 		"league": {
@@ -835,8 +835,8 @@
 			"surface": "grass",
 			"lat": 55.885833,
 			"lng": -3.521944,
-			"x": 285.3,
-			"y": 437.2,
+			"x": 558,
+			"y": 812,
 			"wiki": "https://en.wikipedia.org/wiki/Almondvale_Stadium"
 		},
 		"league": {
@@ -898,8 +898,8 @@
 			"surface": "grass",
 			"lat": 55.881389,
 			"lng": -4.269444,
-			"x": 250.8,
-			"y": 437.6,
+			"x": 494,
+			"y": 813,
 			"wiki": "https://en.wikipedia.org/wiki/Firhill_Stadium"
 		},
 		"league": {
@@ -961,8 +961,8 @@
 			"surface": "grass",
 			"lat": 55.941389,
 			"lng": -4.726944,
-			"x": 229.7,
-			"y": 432.3,
+			"x": 455,
+			"y": 804,
 			"wiki": "https://en.wikipedia.org/wiki/Cappielow"
 		},
 		"league": {
@@ -1024,8 +1024,8 @@
 			"surface": "grass",
 			"lat": 56.099722,
 			"lng": -3.168333,
-			"x": 301.7,
-			"y": 418.4,
+			"x": 589,
+			"y": 779,
 			"wiki": "https://en.wikipedia.org/wiki/Stark%27s_Park"
 		},
 		"league": {
@@ -1087,8 +1087,8 @@
 			"surface": "grass",
 			"lat": 56.099722,
 			"lng": -3.168333,
-			"x": 301.7,
-			"y": 418.4,
+			"x": 589,
+			"y": 779,
 			"wiki": "https://en.wikipedia.org/wiki/Stark%27s_Park"
 		},
 		"league": {
@@ -1150,8 +1150,8 @@
 			"surface": "grass",
 			"lat": 56.075278,
 			"lng": -3.441944,
-			"x": 289,
-			"y": 420.5,
+			"x": 565,
+			"y": 783,
 			"wiki": "https://en.wikipedia.org/wiki/East_End_Park"
 		},
 		"league": {
@@ -1213,8 +1213,8 @@
 			"surface": "artificial turf",
 			"lat": 56.005278,
 			"lng": -3.752778,
-			"x": 0,
-			"y": 0,
+			"x": 539,
+			"y": 794,
 			"wiki": "https://en.wikipedia.org/wiki/Falkirk_Stadium"
 		},
 		"league": {
@@ -1284,8 +1284,8 @@
 			"surface": "artificial turf",
 			"lat": 55.859722,
 			"lng": -3.959722,
-			"x": 265.1,
-			"y": 439.5,
+			"x": 521,
+			"y": 816,
 			"wiki": "https://en.wikipedia.org/wiki/Excelsior_Stadium"
 		},
 		"league": {
@@ -1347,8 +1347,8 @@
 			"surface": "grass",
 			"lat": 55.825833,
 			"lng": -4.251944,
-			"x": 251.6,
-			"y": 442.4,
+			"x": 496,
+			"y": 821,
 			"wiki": "https://en.wikipedia.org/wiki/Hampden_Park"
 		},
 		"league": {
@@ -1410,8 +1410,8 @@
 			"surface": "grass",
 			"lat": 57.494722,
 			"lng": -4.2175,
-			"x": 253.2,
-			"y": 295.7,
+			"x": 499,
+			"y": 562,
 			"wiki": "https://en.wikipedia.org/wiki/Caledonian_Stadium"
 		},
 		"league": {},
@@ -1468,8 +1468,8 @@
 			"surface": "artificial turf",
 			"lat": 56.116667,
 			"lng": -3.778611,
-			"x": 273.5,
-			"y": 416.9,
+			"x": 536,
+			"y": 777,
 			"wiki": "https://en.wikipedia.org/wiki/Recreation_Park,_Alloa"
 		},
 		"league": {},
@@ -1526,8 +1526,8 @@
 			"surface": "grass",
 			"lat": 56.552222,
 			"lng": -2.591389,
-			"x": 328.3,
-			"y": 378.6,
+			"x": 638,
+			"y": 710,
 			"wiki": "https://en.wikipedia.org/wiki/Gayfield_Park"
 		},
 		"league": {},
@@ -1584,8 +1584,8 @@
 			"surface": "artificial turf",
 			"lat": 56.713889,
 			"lng": -2.458889,
-			"x": 334.4,
-			"y": 364.3,
+			"x": 649,
+			"y": 685,
 			"wiki": "https://en.wikipedia.org/wiki/Links_Park"
 		},
 		"league": {},

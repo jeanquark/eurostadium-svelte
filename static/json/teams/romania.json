@@ -16,8 +16,8 @@
 			"surface": "grass",
 			"lat": 44.437222,
 			"lng": 26.1525,
-			"x": 381.4,
-			"y": 445.3,
+			"x": 623,
+			"y": 733,
 			"wiki": "https://en.wikipedia.org/wiki/Arena_Na%C8%9Bional%C4%83"
 		},
 		"league": {
@@ -79,8 +79,8 @@
 			"surface": "grass",
 			"lat": 44.314,
 			"lng": 23.7843,
-			"x": 228.1,
-			"y": 456.8,
+			"x": 373,
+			"y": 752,
 			"wiki": "https://en.wikipedia.org/wiki/Ion_Oblemenco_Stadium"
 		},
 		"league": {
@@ -142,8 +142,8 @@
 			"surface": "grass",
 			"lat": 44.46889,
 			"lng": 26.07492,
-			"x": 376.4,
-			"y": 442.4,
+			"x": 615,
+			"y": 729,
 			"wiki": "https://en.wikipedia.org/wiki/Arcul_de_Triumf_Stadium_(2021)"
 		},
 		"league": {
@@ -205,8 +205,8 @@
 			"surface": "grass",
 			"lat": 46.779444,
 			"lng": 23.5775,
-			"x": 214.7,
-			"y": 227.8,
+			"x": 351,
+			"y": 380,
 			"wiki": "https://en.wikipedia.org/wiki/Dr._Constantin_R%C4%83dulescu_Stadium"
 		},
 		"league": {
@@ -268,8 +268,8 @@
 			"surface": "grass",
 			"lat": 45.783056,
 			"lng": 24.143611,
-			"x": 251.3,
-			"y": 320.3,
+			"x": 411,
+			"y": 532,
 			"wiki": "https://en.wikipedia.org/wiki/Sibiu_Municipal_Stadium"
 		},
 		"league": {
@@ -331,8 +331,8 @@
 			"surface": "grass",
 			"lat": 47.7483,
 			"lng": 26.6519,
-			"x": 413.8,
-			"y": 137.8,
+			"x": 676,
+			"y": 229,
 			"wiki": "https://en.wikipedia.org/wiki/Boto%C8%99ani_Municipal_Stadium"
 		},
 		"league": {
@@ -394,8 +394,8 @@
 			"surface": "grass",
 			"lat": 47.184589,
 			"lng": 27.561389,
-			"x": 0,
-			"y": 0,
+			"x": 772,
+			"y": 317,
 			"wiki": "https://en.wikipedia.org/wiki/Emil_Alexandrescu_Stadium"
 		},
 		"league": {
@@ -457,8 +457,8 @@
 			"surface": "grass",
 			"lat": 45.883611,
 			"lng": 25.806278,
-			"x": 359,
-			"y": 311,
+			"x": 587,
+			"y": 517,
 			"wiki": "https://en.wikipedia.org/wiki/Sepsi_Arena_Stadium"
 		},
 		"league": {
@@ -520,8 +520,8 @@
 			"surface": "grass",
 			"lat": 46.1925,
 			"lng": 21.311944,
-			"x": 68,
-			"y": 282.3,
+			"x": 111,
+			"y": 470,
 			"wiki": "https://en.wikipedia.org/wiki/Francisc_von_Neuman_Stadium"
 		},
 		"league": {
@@ -583,8 +583,8 @@
 			"surface": "grass",
 			"lat": 44.263889,
 			"lng": 28.555833,
-			"x": 537,
-			"y": 461.4,
+			"x": 878,
+			"y": 759,
 			"wiki": "https://en.wikipedia.org/wiki/Central_Stadium_(Gheorghe_Hagi_Academy)"
 		},
 		"league": {
@@ -646,8 +646,8 @@
 			"surface": "grass",
 			"lat": 44.940278,
 			"lng": 26.033333,
-			"x": 373.7,
-			"y": 398.6,
+			"x": 611,
+			"y": 659,
 			"wiki": "https://en.wikipedia.org/wiki/Ilie_Oan%C4%83_Stadium"
 		},
 		"league": {
@@ -709,8 +709,8 @@
 			"surface": "grass",
 			"lat": 46.768333,
 			"lng": 23.572222,
-			"x": 214.3,
-			"y": 228.8,
+			"x": 350,
+			"y": 382,
 			"wiki": "https://en.wikipedia.org/wiki/Cluj_Arena"
 		},
 		"league": {
@@ -772,8 +772,8 @@
 			"surface": "grass",
 			"lat": 44.455833,
 			"lng": 26.056944,
-			"x": 375.2,
-			"y": 443.6,
+			"x": 613,
+			"y": 731,
 			"wiki": "https://en.wikipedia.org/wiki/Rapid-Giule%C8%99ti_Stadium"
 		},
 		"league": {
@@ -835,8 +835,8 @@
 			"surface": "grass",
 			"lat": 45.146028,
 			"lng": 26.803333,
-			"x": 423.6,
-			"y": 379.5,
+			"x": 692,
+			"y": 628,
 			"wiki": "https://en.wikipedia.org/wiki/Buz%C4%83u_Municipal_Stadium_(Cr%C3%A2ng_Stadium)"
 		},
 		"league": {
@@ -898,8 +898,8 @@
 			"surface": "grass",
 			"lat": 45.430194,
 			"lng": 28.022389,
-			"x": 502.5,
-			"y": 353.1,
+			"x": 821,
+			"y": 585,
 			"wiki": "https://en.wikipedia.org/wiki/O%C8%9Belul_Stadium_(1982)"
 		},
 		"league": {
@@ -961,8 +961,8 @@
 			"surface": "grass",
 			"lat": 44.56,
 			"lng": 27.373889,
-			"x": 460.5,
-			"y": 433.9,
+			"x": 752,
+			"y": 715,
 			"wiki": "https://en.wikipedia.org/wiki/May_1_Stadium_(Slobozia)"
 		},
 		"league": {
@@ -1024,8 +1024,8 @@
 			"surface": "grass",
 			"lat": 44.499167,
 			"lng": 26.145556,
-			"x": 381,
-			"y": 439.6,
+			"x": 623,
+			"y": 724,
 			"wiki": "https://en.wikipedia.org/wiki/Anghel_Iord%C4%83nescu_Stadium"
 		},
 		"league": {
@@ -1087,8 +1087,8 @@
 			"surface": "grass",
 			"lat": 44.462778,
 			"lng": 25.975278,
-			"x": 369.9,
-			"y": 443,
+			"x": 605,
+			"y": 730,
 			"wiki": "https://en.wikipedia.org/wiki/Concordia_Stadium_(Chiajna)"
 		},
 		"league": {
@@ -1150,8 +1150,8 @@
 			"surface": "grass",
 			"lat": 44.931389,
 			"lng": 25.462222,
-			"x": 336.7,
-			"y": 399.4,
+			"x": 550,
+			"y": 660,
 			"wiki": "https://en.wikipedia.org/wiki/Eugen_Popescu_Stadium"
 		},
 		"league": {
@@ -1213,8 +1213,8 @@
 			"surface": "grass",
 			"lat": 44.960278,
 			"lng": 24.940556,
-			"x": 302.9,
-			"y": 396.7,
+			"x": 495,
+			"y": 656,
 			"wiki": "https://en.wikipedia.org/wiki/Or%C4%83%C8%99enesc_Stadium_(Mioveni)"
 		},
 		"league": {
@@ -1276,8 +1276,8 @@
 			"surface": "grass",
 			"lat": 44.960278,
 			"lng": 24.940556,
-			"x": 302.9,
-			"y": 396.7,
+			"x": 495,
+			"y": 656,
 			"wiki": "https://en.wikipedia.org/wiki/Or%C4%83%C8%99enesc_Stadium_(Mioveni)"
 		},
 		"league": {
@@ -1339,8 +1339,8 @@
 			"surface": "grass",
 			"lat": 45.043639,
 			"lng": 23.270056,
-			"x": 194.8,
-			"y": 389,
+			"x": 318,
+			"y": 643,
 			"wiki": "https://en.wikipedia.org/wiki/Constantina_Di%C8%9B%C4%83-Tomescu_Stadium"
 		},
 		"league": {
@@ -1402,8 +1402,8 @@
 			"surface": "grass",
 			"lat": 44.377778,
 			"lng": 25.940833,
-			"x": 367.7,
-			"y": 450.9,
+			"x": 601,
+			"y": 742,
 			"wiki": "https://en.wikipedia.org/wiki/Clinceni_Stadium"
 		},
 		"league": {
@@ -1465,8 +1465,8 @@
 			"surface": "grass",
 			"lat": 44.533056,
 			"lng": 26.259861,
-			"x": 0,
-			"y": 0,
+			"x": 635,
+			"y": 719,
 			"wiki": "https://en.wikipedia.org/wiki/Stadionul_Comunal_(Afuma%C8%9Bi)"
 		},
 		"league": {
@@ -1504,8 +1504,8 @@
 			"surface": "grass",
 			"lat": 45.281667,
 			"lng": 21.889722,
-			"x": 105.4,
-			"y": 366.9,
+			"x": 172,
+			"y": 608,
 			"wiki": "https://en.wikipedia.org/wiki/Mircea_Chivu_Stadium"
 		},
 		"league": {
@@ -1567,8 +1567,8 @@
 			"surface": "grass",
 			"lat": 46.366944,
 			"lng": 25.802917,
-			"x": 358.8,
-			"y": 266.1,
+			"x": 586,
+			"y": 443,
 			"wiki": "https://en.wikipedia.org/wiki/Miercurea_Ciuc_Municipal_Stadium"
 		},
 		"league": {
@@ -1630,8 +1630,8 @@
 			"surface": "grass",
 			"lat": 46.938525,
 			"lng": 26.355742,
-			"x": 394.6,
-			"y": 213,
+			"x": 645,
+			"y": 355,
 			"wiki": "https://en.wikipedia.org/wiki/Ceahl%C4%83ul_Municipal_Stadium"
 		},
 		"league": {
@@ -1693,8 +1693,8 @@
 			"surface": "grass",
 			"lat": 45.675361,
 			"lng": 27.17825,
-			"x": 0,
-			"y": 0,
+			"x": 732,
+			"y": 548,
 			"wiki": "https://en.wikipedia.org/wiki/Milcovul_Stadium"
 		},
 		"league": {
@@ -1732,8 +1732,8 @@
 			"surface": "artificial turf",
 			"lat": 45.145974,
 			"lng": 26.803352,
-			"x": 0,
-			"y": 0,
+			"x": 692,
+			"y": 628,
 			"wiki": ""
 		},
 		"league": {
@@ -1771,8 +1771,8 @@
 			"surface": "grass",
 			"lat": 44.423194,
 			"lng": 24.35,
-			"x": 264.7,
-			"y": 446.6,
+			"x": 433,
+			"y": 735,
 			"wiki": "https://en.wikipedia.org/wiki/May_1_Stadium_(Slatina)"
 		},
 		"league": {
@@ -1834,8 +1834,8 @@
 			"surface": "grass",
 			"lat": 44.314,
 			"lng": 23.7843,
-			"x": 228.1,
-			"y": 456.8,
+			"x": 373,
+			"y": 752,
 			"wiki": "https://en.wikipedia.org/wiki/Ion_Oblemenco_Stadium"
 		},
 		"league": {
@@ -1897,8 +1897,8 @@
 			"surface": "grass",
 			"lat": 45.710266,
 			"lng": 24.153314,
-			"x": 252,
-			"y": 327.1,
+			"x": 412,
+			"y": 543,
 			"wiki": ""
 		},
 		"league": {
@@ -1960,8 +1960,8 @@
 			"surface": "grass",
 			"lat": 44.412778,
 			"lng": 26.040556,
-			"x": 374.2,
-			"y": 447.6,
+			"x": 611,
+			"y": 737,
 			"wiki": "https://en.wikipedia.org/wiki/Steaua_Stadium_(2021)"
 		},
 		"league": {
@@ -2023,8 +2023,8 @@
 			"surface": "grass",
 			"lat": 45.799167,
 			"lng": 21.249778,
-			"x": 63.9,
-			"y": 318.8,
+			"x": 104,
+			"y": 530,
 			"wiki": "https://en.wikipedia.org/wiki/%C8%98tefan_Dobay_Stadium"
 		},
 		"league": {
@@ -2086,8 +2086,8 @@
 			"surface": "grass",
 			"lat": 47.14725,
 			"lng": 23.872278,
-			"x": 0,
-			"y": 0,
+			"x": 382,
+			"y": 323,
 			"wiki": "https://en.wikipedia.org/wiki/Unirea_Stadium_(Dej)"
 		},
 		"league": {
@@ -2125,8 +2125,8 @@
 			"surface": "grass",
 			"lat": 47.071944,
 			"lng": 21.93,
-			"x": 0,
-			"y": 0,
+			"x": 176,
+			"y": 335,
 			"wiki": "https://en.wikipedia.org/wiki/Iuliu_Bodola_Stadium"
 		},
 		"league": {
@@ -2188,8 +2188,8 @@
 			"surface": "grass",
 			"lat": 45.761639,
 			"lng": 22.912972,
-			"x": 171.6,
-			"y": 322.3,
+			"x": 280,
+			"y": 535,
 			"wiki": "https://en.wikipedia.org/wiki/Michael_Klein_Stadium_(1960)"
 		},
 		"league": {
@@ -2251,8 +2251,8 @@
 			"surface": "grass",
 			"lat": 45.265917,
 			"lng": 25.047972,
-			"x": 0,
-			"y": 0,
+			"x": 506,
+			"y": 610,
 			"wiki": "https://en.wikipedia.org/wiki/Muscelul_Stadium"
 		},
 		"league": {
@@ -2298,8 +2298,8 @@
 			"surface": "grass",
 			"lat": 43.760133,
 			"lng": 24.877442,
-			"x": 298.9,
-			"y": 508.2,
+			"x": 488,
+			"y": 833,
 			"wiki": "https://en.wikipedia.org/wiki/Turnu_M%C4%83gurele_Municipal_Stadium"
 		},
 		"league": {},
@@ -2356,8 +2356,8 @@
 			"surface": "artificial turf",
 			"lat": 44.547939,
 			"lng": 25.980362,
-			"x": 370.3,
-			"y": 435.1,
+			"x": 605,
+			"y": 717,
 			"wiki": ""
 		},
 		"league": {},
@@ -2414,8 +2414,8 @@
 			"surface": "grass",
 			"lat": 44.551944,
 			"lng": 26.142222,
-			"x": 380.8,
-			"y": 434.7,
+			"x": 622,
+			"y": 716,
 			"wiki": "https://en.wikipedia.org/wiki/Tunari_Stadium"
 		},
 		"league": {},
@@ -2472,8 +2472,8 @@
 			"surface": "grass",
 			"lat": 47.14725,
 			"lng": 23.872278,
-			"x": 233.8,
-			"y": 193.6,
+			"x": 382,
+			"y": 323,
 			"wiki": "https://en.wikipedia.org/wiki/Unirea_Stadium_(Dej)"
 		},
 		"league": {},

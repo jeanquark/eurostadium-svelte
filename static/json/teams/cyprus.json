@@ -16,8 +16,8 @@
 			"surface": "grass",
 			"lat": 34.693333,
 			"lng": 32.939167,
-			"x": 174.8,
-			"y": 430.4,
+			"x": 288,
+			"y": 731,
 			"wiki": "https://en.wikipedia.org/wiki/Alphamega_Stadium"
 		},
 		"league": {
@@ -55,8 +55,8 @@
 			"surface": "grass",
 			"lat": 34.926389,
 			"lng": 33.597778,
-			"x": 347.2,
-			"y": 356.1,
+			"x": 572,
+			"y": 609,
 			"wiki": "https://en.wikipedia.org/wiki/AEK_Arena_%E2%80%93_Georgios_Karapatakis"
 		},
 		"league": {
@@ -94,8 +94,8 @@
 			"surface": "grass",
 			"lat": 35.114528,
 			"lng": 33.362833,
-			"x": 285.7,
-			"y": 296.1,
+			"x": 471,
+			"y": 510,
 			"wiki": "https://en.wikipedia.org/wiki/GSP_Stadium"
 		},
 		"league": {
@@ -133,8 +133,8 @@
 			"surface": "grass",
 			"lat": 34.9375,
 			"lng": 33.620833,
-			"x": 353.3,
-			"y": 352.6,
+			"x": 582,
+			"y": 603,
 			"wiki": "https://en.wikipedia.org/wiki/Antonis_Papadopoulos_Stadium"
 		},
 		"league": {
@@ -172,8 +172,8 @@
 			"surface": "grass",
 			"lat": 34.693333,
 			"lng": 32.939167,
-			"x": 174.8,
-			"y": 430.4,
+			"x": 288,
+			"y": 731,
 			"wiki": "https://en.wikipedia.org/wiki/Alphamega_Stadium"
 		},
 		"league": {
@@ -211,8 +211,8 @@
 			"surface": "grass",
 			"lat": 35.030833,
 			"lng": 33.987222,
-			"x": 449.2,
-			"y": 322.8,
+			"x": 740,
+			"y": 554,
 			"wiki": "https://en.wikipedia.org/wiki/Paralimni_Stadium"
 		},
 		"league": {
@@ -250,8 +250,8 @@
 			"surface": "grass",
 			"lat": 34.929722,
 			"lng": 33.613056,
-			"x": 351.2,
-			"y": 355,
+			"x": 579,
+			"y": 607,
 			"wiki": "https://en.wikipedia.org/wiki/Ammochostos_Stadium"
 		},
 		"league": {
@@ -289,8 +289,8 @@
 			"surface": "grass",
 			"lat": 35.114528,
 			"lng": 33.362833,
-			"x": 285.7,
-			"y": 296.1,
+			"x": 471,
+			"y": 510,
 			"wiki": "https://en.wikipedia.org/wiki/GSP_Stadium"
 		},
 		"league": {
@@ -328,8 +328,8 @@
 			"surface": "grass",
 			"lat": 34.769186,
 			"lng": 32.440144,
-			"x": 44.1,
-			"y": 406.2,
+			"x": 73,
+			"y": 691,
 			"wiki": "https://en.wikipedia.org/wiki/Stelios_Kyriakides_Stadium"
 		},
 		"league": {
@@ -367,8 +367,8 @@
 			"surface": "grass",
 			"lat": 34.693333,
 			"lng": 32.939167,
-			"x": 174.8,
-			"y": 430.4,
+			"x": 288,
+			"y": 731,
 			"wiki": "https://en.wikipedia.org/wiki/Alphamega_Stadium"
 		},
 		"league": {
@@ -406,8 +406,8 @@
 			"surface": "grass",
 			"lat": 35.033889,
 			"lng": 33.765,
-			"x": 391,
-			"y": 321.8,
+			"x": 644,
+			"y": 552,
 			"wiki": "https://en.wikipedia.org/wiki/Dasaki_Stadium"
 		},
 		"league": {
@@ -445,8 +445,8 @@
 			"surface": "artificial turf",
 			"lat": 34.702019,
 			"lng": 32.988743,
-			"x": 187.8,
-			"y": 427.6,
+			"x": 309,
+			"y": 726,
 			"wiki": ""
 		},
 		"league": {
@@ -484,8 +484,8 @@
 			"surface": "grass",
 			"lat": 34.948599,
 			"lng": 33.587935,
-			"x": 344.6,
-			"y": 349,
+			"x": 568,
+			"y": 597,
 			"wiki": ""
 		},
 		"league": {
@@ -523,8 +523,8 @@
 			"surface": "grass",
 			"lat": 35.146111,
 			"lng": 33.314444,
-			"x": 273,
-			"y": 286,
+			"x": 450,
+			"y": 493,
 			"wiki": "https://en.wikipedia.org/wiki/Makario_Stadium"
 		},
 		"league": {
@@ -562,8 +562,8 @@
 			"surface": "grass",
 			"lat": 35.129167,
 			"lng": 33.083889,
-			"x": 212.7,
-			"y": 291.4,
+			"x": 350,
+			"y": 502,
 			"wiki": "https://en.wikipedia.org/wiki/Katokopia_Stadium"
 		},
 		"league": {
@@ -601,8 +601,8 @@
 			"surface": "grass",
 			"lat": 34.7362,
 			"lng": 33.160754,
-			"x": 232.8,
-			"y": 416.7,
+			"x": 384,
+			"y": 708,
 			"wiki": ""
 		},
 		"league": {
@@ -640,8 +640,8 @@
 			"surface": "grass",
 			"lat": 34.926389,
 			"lng": 33.597778,
-			"x": 347.2,
-			"y": 356.1,
+			"x": 572,
+			"y": 609,
 			"wiki": "https://en.wikipedia.org/wiki/AEK_Arena_%E2%80%93_Georgios_Karapatakis"
 		},
 		"league": {
@@ -679,8 +679,8 @@
 			"surface": "grass",
 			"lat": 34.7924,
 			"lng": 32.4126,
-			"x": 36.9,
-			"y": 398.8,
+			"x": 61,
+			"y": 679,
 			"wiki": "https://en.wikipedia.org/wiki/Chloraka_Municipal_Stadium"
 		},
 		"league": {
@@ -717,9 +717,9 @@
 			"capacity": 5800,
 			"surface": "grass",
 			"lat": 35.053082,
-			"lng": 33.956370,
-			"x": 0,
-			"y": 0,
+			"lng": 33.95637,
+			"x": 727,
+			"y": 542,
 			"wiki": ""
 		},
 		"league": {
@@ -757,8 +757,8 @@
 			"surface": "grass",
 			"lat": 34.993504,
 			"lng": 34.006609,
-			"x": 454.3,
-			"y": 334.7,
+			"x": 748,
+			"y": 574,
 			"wiki": ""
 		},
 		"league": {
@@ -796,8 +796,8 @@
 			"surface": "grass",
 			"lat": 35.01844,
 			"lng": 33.396129,
-			"x": 294.4,
-			"y": 326.7,
+			"x": 485,
+			"y": 560,
 			"wiki": ""
 		},
 		"league": {
@@ -835,8 +835,8 @@
 			"surface": "grass",
 			"lat": 35.146111,
 			"lng": 33.314444,
-			"x": 273,
-			"y": 286,
+			"x": 450,
+			"y": 493,
 			"wiki": "https://en.wikipedia.org/wiki/Makario_Stadium"
 		},
 		"league": {
@@ -874,8 +874,8 @@
 			"surface": "grass",
 			"lat": 35.062024,
 			"lng": 33.532742,
-			"x": 330.2,
-			"y": 312.9,
+			"x": 544,
+			"y": 538,
 			"wiki": ""
 		},
 		"league": {
@@ -913,8 +913,8 @@
 			"surface": "grass",
 			"lat": 35.132749,
 			"lng": 33.318033,
-			"x": 274,
-			"y": 290.3,
+			"x": 451,
+			"y": 500,
 			"wiki": ""
 		},
 		"league": {
@@ -952,8 +952,8 @@
 			"surface": "grass",
 			"lat": 35.146111,
 			"lng": 33.314444,
-			"x": 273,
-			"y": 286,
+			"x": 450,
+			"y": 493,
 			"wiki": "https://en.wikipedia.org/wiki/Makario_Stadium"
 		},
 		"league": {
@@ -991,8 +991,8 @@
 			"surface": "grass",
 			"lat": 34.679135,
 			"lng": 32.955103,
-			"x": 179,
-			"y": 434.9,
+			"x": 295,
+			"y": 738,
 			"wiki": ""
 		},
 		"league": {
@@ -1030,8 +1030,8 @@
 			"surface": "grass",
 			"lat": 35.026934,
 			"lng": 33.418353,
-			"x": 0,
-			"y": 0,
+			"x": 495,
+			"y": 556,
 			"wiki": ""
 		},
 		"league": {
@@ -1069,8 +1069,8 @@
 			"surface": "grass",
 			"lat": 34.874834,
 			"lng": 32.382491,
-			"x": 29.1,
-			"y": 372.5,
+			"x": 48,
+			"y": 636,
 			"wiki": ""
 		},
 		"league": {
@@ -1108,8 +1108,8 @@
 			"surface": "grass",
 			"lat": 35.024116,
 			"lng": 33.936502,
-			"x": 435.9,
-			"y": 324.9,
+			"x": 718,
+			"y": 558,
 			"wiki": ""
 		},
 		"league": {
@@ -1147,8 +1147,8 @@
 			"surface": "grass",
 			"lat": 34.850326,
 			"lng": 33.575425,
-			"x": 0,
-			"y": 0,
+			"x": 562,
+			"y": 649,
 			"wiki": ""
 		},
 		"league": {
@@ -1186,8 +1186,8 @@
 			"surface": "grass",
 			"lat": 34.948599,
 			"lng": 33.587935,
-			"x": 344.6,
-			"y": 349,
+			"x": 568,
+			"y": 597,
 			"wiki": ""
 		},
 		"league": {},
@@ -1220,8 +1220,8 @@
 			"surface": "grass",
 			"lat": 35.038066,
 			"lng": 32.432488,
-			"x": 42.1,
-			"y": 320.5,
+			"x": 69,
+			"y": 550,
 			"wiki": ""
 		},
 		"league": {},
@@ -1254,8 +1254,8 @@
 			"surface": "grass",
 			"lat": 35.033889,
 			"lng": 33.765,
-			"x": 391,
-			"y": 321.8,
+			"x": 644,
+			"y": 552,
 			"wiki": "https://en.wikipedia.org/wiki/Dasaki_Stadium"
 		},
 		"league": {},

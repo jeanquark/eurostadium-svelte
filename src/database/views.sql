@@ -1,4 +1,5 @@
 DROP VIEW IF EXISTS teams_view;
+DROP VIEW IF EXISTS stadiums_view;
 
 create view teams_view as
   select

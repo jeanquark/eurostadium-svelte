@@ -16,8 +16,8 @@
 			"surface": "grass",
 			"lat": 46.838333,
 			"lng": 29.5575,
-			"x": 579.3,
-			"y": 420,
+			"x": 758,
+			"y": 553,
 			"wiki": "https://en.wikipedia.org/wiki/Sheriff_Arena"
 		},
 		"league": {
@@ -55,8 +55,8 @@
 			"surface": "grass",
 			"lat": 47.3744,
 			"lng": 28.8192,
-			"x": 451.3,
-			"y": 284.2,
+			"x": 591,
+			"y": 376,
 			"wiki": "https://en.wikipedia.org/wiki/CSR_Orhei"
 		},
 		"league": {
@@ -94,8 +94,8 @@
 			"surface": "grass",
 			"lat": 46.825284,
 			"lng": 28.586687,
-			"x": 411,
-			"y": 423.3,
+			"x": 539,
+			"y": 558,
 			"wiki": "https://en.wikipedia.org/wiki/Stadionul_Municipal_(H%C3%AEnce%C8%99ti)"
 		},
 		"league": {
@@ -133,8 +133,8 @@
 			"surface": "grass",
 			"lat": 46.980278,
 			"lng": 28.866944,
-			"x": 459.6,
-			"y": 384,
+			"x": 602,
+			"y": 507,
 			"wiki": "https://en.wikipedia.org/wiki/Zimbru_Stadium"
 		},
 		"league": {
@@ -172,8 +172,8 @@
 			"surface": "grass",
 			"lat": 47.0476,
 			"lng": 28.7825,
-			"x": 445,
-			"y": 367,
+			"x": 583,
+			"y": 484,
 			"wiki": "https://en.wikipedia.org/wiki/Joma_Arena"
 		},
 		"league": {
@@ -211,8 +211,8 @@
 			"surface": "grass",
 			"lat": 47.975448,
 			"lng": 28.12508,
-			"x": 331,
-			"y": 131.8,
+			"x": 435,
+			"y": 176,
 			"wiki": ""
 		},
 		"league": {
@@ -250,8 +250,8 @@
 			"surface": "grass",
 			"lat": 46.575965,
 			"lng": 28.923626,
-			"x": 469.4,
-			"y": 486.5,
+			"x": 615,
+			"y": 639,
 			"wiki": ""
 		},
 		"league": {
@@ -289,8 +289,8 @@
 			"surface": "grass",
 			"lat": 47.76621,
 			"lng": 27.9332,
-			"x": 297.7,
-			"y": 184.9,
+			"x": 392,
+			"y": 246,
 			"wiki": "https://en.wikipedia.org/wiki/Stadionul_Or%C4%83%C8%99enesc_(B%C4%83l%C8%9Bi)"
 		},
 		"league": {
@@ -328,8 +328,8 @@
 			"surface": "artificial turf",
 			"lat": 46.0569,
 			"lng": 28.8341,
-			"x": 453.9,
-			"y": 618.1,
+			"x": 595,
+			"y": 808,
 			"wiki": "https://en.wikipedia.org/wiki/Cead%C3%AEr-Lunga_Stadium"
 		},
 		"league": {
@@ -367,8 +367,8 @@
 			"surface": "grass",
 			"lat": 47.774561,
 			"lng": 29.004309,
-			"x": 483.4,
-			"y": 182.7,
+			"x": 633,
+			"y": 243,
 			"wiki": "https://en.wikipedia.org/wiki/Stadionul_Or%C4%83%C8%99enesc_(R%C3%AEbni%C8%9Ba)"
 		},
 		"league": {
@@ -406,8 +406,8 @@
 			"surface": "grass",
 			"lat": 48.033599,
 			"lng": 27.8134,
-			"x": 276.9,
-			"y": 117.1,
+			"x": 365,
+			"y": 156,
 			"wiki": ""
 		},
 		"league": {
@@ -445,8 +445,8 @@
 			"surface": "artificial turf",
 			"lat": 47.0476,
 			"lng": 28.7825,
-			"x": 445,
-			"y": 367,
+			"x": 583,
+			"y": 484,
 			"wiki": "https://en.wikipedia.org/wiki/Joma_Arena"
 		},
 		"league": {
@@ -484,8 +484,8 @@
 			"surface": "artificial turf",
 			"lat": 47.574656,
 			"lng": 27.711561,
-			"x": 259.3,
-			"y": 233.4,
+			"x": 342,
+			"y": 310,
 			"wiki": ""
 		},
 		"league": {
@@ -523,8 +523,8 @@
 			"surface": "artificial turf",
 			"lat": 46.323179,
 			"lng": 28.658444,
-			"x": 423.5,
-			"y": 550.6,
+			"x": 555,
+			"y": 722,
 			"wiki": "https://en.wikipedia.org/wiki/Nisporeni_Stadium"
 		},
 		"league": {
@@ -562,8 +562,8 @@
 			"surface": "artificial turf",
 			"lat": 46.8404,
 			"lng": 29.5579,
-			"x": 0,
-			"y": 0,
+			"x": 758,
+			"y": 553,
 			"wiki": "https://en.wikipedia.org/wiki/Malaya_Sportivnaya_Arena"
 		},
 		"league": {
@@ -601,8 +601,8 @@
 			"surface": "artificial turf",
 			"lat": 47.212778,
 			"lng": 27.8,
-			"x": 274.6,
-			"y": 325.1,
+			"x": 362,
+			"y": 430,
 			"wiki": "https://en.wikipedia.org/wiki/Ungheni_Stadium"
 		},
 		"league": {
@@ -640,8 +640,8 @@
 			"surface": "artificial turf",
 			"lat": 47.084965,
 			"lng": 28.867058,
-			"x": 0,
-			"y": 0,
+			"x": 602,
+			"y": 472,
 			"wiki": ""
 		},
 		"league": {
@@ -679,8 +679,8 @@
 			"surface": "artificial turf",
 			"lat": 46.323179,
 			"lng": 28.658444,
-			"x": 423.5,
-			"y": 550.6,
+			"x": 555,
+			"y": 722,
 			"wiki": "https://en.wikipedia.org/wiki/Nisporeni_Stadium"
 		},
 		"league": {
@@ -718,8 +718,8 @@
 			"surface": "grass",
 			"lat": 47.637082,
 			"lng": 28.123045,
-			"x": 0,
-			"y": 0,
+			"x": 434,
+			"y": 289,
 			"wiki": ""
 		},
 		"league": {
@@ -757,8 +757,8 @@
 			"surface": "artificial turf",
 			"lat": 47.07637,
 			"lng": 28.18005,
-			"x": 340.5,
-			"y": 359.7,
+			"x": 447,
+			"y": 475,
 			"wiki": "https://en.wikipedia.org/wiki/Nisporeni_Stadium"
 		},
 		"league": {

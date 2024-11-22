@@ -16,8 +16,8 @@
 			"surface": "artificial turf",
 			"lat": 59.385456,
 			"lng": 24.659603,
-			"x": 274.5,
-			"y": 165.6,
+			"x": 449,
+			"y": 266,
 			"wiki": "https://en.wikipedia.org/wiki/Hiiu_Stadium"
 		},
 		"league": {
@@ -55,8 +55,8 @@
 			"surface": "grass",
 			"lat": 59.421389,
 			"lng": 24.731944,
-			"x": 281.4,
-			"y": 159.1,
+			"x": 460,
+			"y": 255,
 			"wiki": "https://en.wikipedia.org/wiki/Lillek%C3%BCla_Stadium"
 		},
 		"league": {
@@ -94,8 +94,8 @@
 			"surface": "grass",
 			"lat": 59.421389,
 			"lng": 24.731944,
-			"x": 281.4,
-			"y": 159.1,
+			"x": 460,
+			"y": 255,
 			"wiki": "https://en.wikipedia.org/wiki/Lillek%C3%BCla_Stadium"
 		},
 		"league": {
@@ -133,8 +133,8 @@
 			"surface": "artificial turf",
 			"lat": 59.3635,
 			"lng": 28.1845,
-			"x": 609.4,
-			"y": 169.6,
+			"x": 996,
+			"y": 272,
 			"wiki": "https://en.wikipedia.org/wiki/Narva_Kreenholm_Stadium"
 		},
 		"league": {
@@ -172,8 +172,8 @@
 			"surface": "grass",
 			"lat": 58.374672,
 			"lng": 24.503461,
-			"x": 259.6,
-			"y": 349.7,
+			"x": 424,
+			"y": 569,
 			"wiki": "https://en.wikipedia.org/wiki/P%C3%A4rnu_Rannastaadion"
 		},
 		"league": {
@@ -211,8 +211,8 @@
 			"surface": "grass",
 			"lat": 58.242286,
 			"lng": 22.480172,
-			"x": 67.4,
-			"y": 373.9,
+			"x": 110,
+			"y": 608,
 			"wiki": "https://en.wikipedia.org/wiki/Kuressaare_linnastaadion"
 		},
 		"league": {
@@ -250,8 +250,8 @@
 			"surface": "grass",
 			"lat": 58.87845,
 			"lng": 25.54063,
-			"x": 358.2,
-			"y": 258,
+			"x": 586,
+			"y": 419,
 			"wiki": "https://en.wikipedia.org/wiki/Paide_linnastaadion"
 		},
 		"league": {
@@ -289,8 +289,8 @@
 			"surface": "artificial turf",
 			"lat": 59.434472,
 			"lng": 24.783444,
-			"x": 286.2,
-			"y": 156.7,
+			"x": 468,
+			"y": 251,
 			"wiki": "https://en.wikipedia.org/wiki/Kadriorg_Stadium"
 		},
 		"league": {
@@ -328,8 +328,8 @@
 			"surface": "grass",
 			"lat": 58.366536,
 			"lng": 26.713728,
-			"x": 469.6,
-			"y": 351.2,
+			"x": 768,
+			"y": 572,
 			"wiki": "https://en.wikipedia.org/wiki/Tamme_Stadium"
 		},
 		"league": {
@@ -367,8 +367,8 @@
 			"surface": "grass",
 			"lat": 59.382458,
 			"lng": 24.713514,
-			"x": 0,
-			"y": 0,
+			"x": 457,
+			"y": 267,
 			"wiki": "https://en.wikipedia.org/wiki/M%C3%A4nniku_Stadium"
 		},
 		"league": {
@@ -406,8 +406,8 @@
 			"surface": "grass",
 			"lat": 58.225163,
 			"lng": 26.404954,
-			"x": 0,
-			"y": 0,
+			"x": 720,
+			"y": 613,
 			"wiki": ""
 		},
 		"league": {
@@ -443,10 +443,10 @@
 			"city": "Tallinn",
 			"capacity": 2000,
 			"surface": "grass",
-			"lat": 59.457660,
+			"lat": 59.45766,
 			"lng": 24.817781,
-			"x": 0,
-			"y": 0,
+			"x": 473,
+			"y": 244,
 			"wiki": ""
 		},
 		"league": {
@@ -484,8 +484,8 @@
 			"surface": "grass",
 			"lat": 59.421389,
 			"lng": 24.731944,
-			"x": 0,
-			"y": 0,
+			"x": 460,
+			"y": 255,
 			"wiki": "https://en.wikipedia.org/wiki/Lillek%C3%BCla_Stadium"
 		},
 		"league": {
@@ -523,8 +523,8 @@
 			"surface": "artificial turf",
 			"lat": 59.424337,
 			"lng": 24.762747,
-			"x": 0,
-			"y": 0,
+			"x": 465,
+			"y": 254,
 			"wiki": ""
 		},
 		"league": {
@@ -561,9 +561,9 @@
 			"capacity": 500,
 			"surface": "artificial turf",
 			"lat": 58.375153,
-			"lng": 26.773550,
-			"x": 0,
-			"y": 0,
+			"lng": 26.77355,
+			"x": 777,
+			"y": 569,
 			"wiki": ""
 		},
 		"league": {
@@ -600,9 +600,9 @@
 			"capacity": 666,
 			"surface": "artificial turf",
 			"lat": 59.427221,
-			"lng": 24.799900,
-			"x": 0,
-			"y": 0,
+			"lng": 24.7999,
+			"x": 471,
+			"y": 253,
 			"wiki": ""
 		},
 		"league": {
@@ -640,8 +640,8 @@
 			"surface": "grass",
 			"lat": 59.509722,
 			"lng": 24.834833,
-			"x": 291.1,
-			"y": 143,
+			"x": 476,
+			"y": 228,
 			"wiki": "https://en.wikipedia.org/wiki/Viimsi_Stadium"
 		},
 		"league": {
@@ -679,8 +679,8 @@
 			"surface": "grass",
 			"lat": 58.87845,
 			"lng": 25.54063,
-			"x": 0,
-			"y": 0,
+			"x": 586,
+			"y": 419,
 			"wiki": "https://en.wikipedia.org/wiki/Paide_linnastaadion"
 		},
 		"league": {
@@ -718,8 +718,8 @@
 			"surface": "grass",
 			"lat": 59.428572,
 			"lng": 24.534222,
-			"x": 0,
-			"y": 0,
+			"x": 429,
+			"y": 253,
 			"wiki": "https://en.wikipedia.org/wiki/Tabasalu_Arena"
 		},
 		"league": {
@@ -757,8 +757,8 @@
 			"surface": "artificial turf",
 			"lat": 59.350357,
 			"lng": 24.616546,
-			"x": 270.4,
-			"y": 172,
+			"x": 442,
+			"y": 276,
 			"wiki": ""
 		},
 		"league": {
@@ -796,8 +796,8 @@
 			"surface": "grass",
 			"lat": 59.397786,
 			"lng": 27.258936,
-			"x": 0,
-			"y": 0,
+			"x": 852,
+			"y": 262,
 			"wiki": "https://en.wikipedia.org/wiki/Kohtla-J%C3%A4rve_Spordikeskuse_staadion"
 		},
 		"league": {},
@@ -830,8 +830,8 @@
 			"surface": "grass",
 			"lat": 59.434472,
 			"lng": 24.783444,
-			"x": 0,
-			"y": 0,
+			"x": 468,
+			"y": 251,
 			"wiki": "https://en.wikipedia.org/wiki/Kadriorg_Stadium"
 		},
 		"league": {},
@@ -863,9 +863,9 @@
 			"capacity": 500,
 			"surface": "artificial turf",
 			"lat": 58.375153,
-			"lng": 26.773550,
-			"x": 0,
-			"y": 0,
+			"lng": 26.77355,
+			"x": 777,
+			"y": 569,
 			"wiki": ""
 		},
 		"league": {},

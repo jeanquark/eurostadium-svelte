@@ -16,9 +16,9 @@
 			"surface": "grass",
 			"lat": 41.36472222,
 			"lng": 2.15555556,
-			"x": 376,
-			"y": 94.3,
-			"wiki": ""
+			"x": 806,
+			"y": 215,
+			"wiki": "https://en.wikipedia.org/wiki/Estadi_Ol%C3%ADmpic_Llu%C3%ADs_Companys"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -110,9 +110,9 @@
 			"surface": "grass",
 			"lat": 40.43611111,
 			"lng": -3.59944444,
-			"x": 199.2,
-			"y": 130.4,
-			"wiki": ""
+			"x": 429,
+			"y": 295,
+			"wiki": "https://en.wikipedia.org/wiki/Metropolitano_Stadium"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -197,9 +197,9 @@
 			"surface": "grass",
 			"lat": 43.26361111,
 			"lng": -2.94805556,
-			"x": 219.2,
-			"y": 20.6,
-			"wiki": ""
+			"x": 472,
+			"y": 48,
+			"wiki": "https://en.wikipedia.org/wiki/San_Mam%C3%A9s_Stadium_(2013)"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -284,9 +284,9 @@
 			"surface": "grass",
 			"lat": 39.47472222,
 			"lng": -0.35833333,
-			"x": 298.7,
-			"y": 167.8,
-			"wiki": ""
+			"x": 641,
+			"y": 377,
+			"wiki": "https://en.wikipedia.org/wiki/Mestalla_Stadium"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -387,9 +387,9 @@
 			"surface": "grass",
 			"lat": 39.94416667,
 			"lng": -0.10361111,
-			"x": 306.6,
-			"y": 149.5,
-			"wiki": ""
+			"x": 658,
+			"y": 337,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_de_la_Cer%C3%A1mica"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -474,9 +474,9 @@
 			"surface": "grass",
 			"lat": 28.10027778,
 			"lng": -15.45666667,
-			"x": -165.1,
-			"y": 609.7,
-			"wiki": ""
+			"x": 631,
+			"y": 912,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Gran_Canaria"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -553,9 +553,9 @@
 			"surface": "grass",
 			"lat": 37.38416667,
 			"lng": -5.97055556,
-			"x": 126.3,
-			"y": 249,
-			"wiki": ""
+			"x": 273,
+			"y": 551,
+			"wiki": "https://en.wikipedia.org/wiki/Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_Stadium"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -632,9 +632,9 @@
 			"surface": "grass",
 			"lat": 40.3404,
 			"lng": -3.7607,
-			"x": 194.2,
-			"y": 134.1,
-			"wiki": ""
+			"x": 418,
+			"y": 303,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Municipal_de_Butarque"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -711,9 +711,9 @@
 			"surface": "grass",
 			"lat": 42.21194444,
 			"lng": -8.73972222,
-			"x": 41.3,
-			"y": 61.4,
-			"wiki": ""
+			"x": 92,
+			"y": 141,
+			"wiki": "https://en.wikipedia.org/wiki/Bala%C3%ADdos"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -798,9 +798,9 @@
 			"surface": "grass",
 			"lat": 41.347861,
 			"lng": 2.075667,
-			"x": 373.5,
-			"y": 95,
-			"wiki": ""
+			"x": 801,
+			"y": 216,
+			"wiki": "https://en.wikipedia.org/wiki/Stage_Front_Stadium"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -877,9 +877,9 @@
 			"surface": "grass",
 			"lat": 40.45277778,
 			"lng": -3.68805556,
-			"x": 196.5,
-			"y": 129.8,
-			"wiki": ""
+			"x": 423,
+			"y": 294,
+			"wiki": "https://en.wikipedia.org/wiki/Santiago_Bernab%C3%A9u_Stadium"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -972,9 +972,9 @@
 			"surface": "grass",
 			"lat": 42.83694444,
 			"lng": -2.68777778,
-			"x": 227.2,
-			"y": 37.1,
-			"wiki": ""
+			"x": 489,
+			"y": 86,
+			"wiki": "https://en.wikipedia.org/wiki/Mendizorrotza_Stadium"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1051,9 +1051,9 @@
 			"surface": "grass",
 			"lat": 37.35694444,
 			"lng": -5.98194444,
-			"x": 126,
-			"y": 250.1,
-			"wiki": ""
+			"x": 273,
+			"y": 553,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Benito_Villamar%C3%ADn"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1138,9 +1138,9 @@
 			"surface": "grass",
 			"lat": 40.32555556,
 			"lng": -3.71472222,
-			"x": 195.6,
-			"y": 134.7,
-			"wiki": ""
+			"x": 421,
+			"y": 304,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Coliseum"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1209,9 +1209,9 @@
 			"surface": "grass",
 			"lat": 41.96194444,
 			"lng": 2.82805556,
-			"x": 396.6,
-			"y": 71.1,
-			"wiki": ""
+			"x": 850,
+			"y": 163,
+			"wiki": "https://en.wikipedia.org/wiki/Estadi_Montilivi"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1296,9 +1296,9 @@
 			"surface": "grass",
 			"lat": 43.30138889,
 			"lng": -1.97361111,
-			"x": 249.1,
-			"y": 19.1,
-			"wiki": ""
+			"x": 535,
+			"y": 44,
+			"wiki": "https://en.wikipedia.org/wiki/Anoeta_Stadium"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1375,9 +1375,9 @@
 			"surface": "grass",
 			"lat": 41.644444,
 			"lng": -4.761111,
-			"x": 163.5,
-			"y": 83.5,
-			"wiki": ""
+			"x": 353,
+			"y": 191,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Jos%C3%A9_Zorrilla"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1454,9 +1454,9 @@
 			"surface": "grass",
 			"lat": 42.796667,
 			"lng": -1.636944,
-			"x": 259.5,
-			"y": 38.7,
-			"wiki": ""
+			"x": 558,
+			"y": 89,
+			"wiki": "https://en.wikipedia.org/wiki/El_Sadar_Stadium"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1549,9 +1549,9 @@
 			"surface": "grass",
 			"lat": 40.391944,
 			"lng": -3.658961,
-			"x": 197.3,
-			"y": 132.1,
-			"wiki": ""
+			"x": 425,
+			"y": 299,
+			"wiki": "https://en.wikipedia.org/wiki/Vallecas_Stadium"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1620,9 +1620,9 @@
 			"surface": "grass",
 			"lat": 39.59,
 			"lng": 2.63,
-			"x": 390.5,
-			"y": 163.3,
-			"wiki": ""
+			"x": 837,
+			"y": 367,
+			"wiki": "https://en.wikipedia.org/wiki/Estadi_Mallorca_Son_Moix"
 		},
 		"league": {
 			"api_football_id": 140,
@@ -1715,8 +1715,8 @@
 			"surface": "grass",
 			"lat": 36.7342,
 			"lng": -4.4266,
-			"x": 0,
-			"y": 0,
+			"x": 375,
+			"y": 604,
 			"wiki": "https://en.wikipedia.org/wiki/La_Rosaleda_Stadium"
 		},
 		"league": {
@@ -1794,9 +1794,9 @@
 			"surface": "grass",
 			"lat": 39.494722,
 			"lng": -0.364167,
-			"x": 298.6,
-			"y": 167,
-			"wiki": ""
+			"x": 641,
+			"y": 375,
+			"wiki": "https://en.wikipedia.org/wiki/Estadi_Ciutat_de_Val%C3%A8ncia"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -1873,8 +1873,8 @@
 			"surface": "grass",
 			"lat": 43.3687,
 			"lng": -8.4175,
-			"x": 0,
-			"y": 0,
+			"x": 113,
+			"y": 38,
 			"wiki": "https://en.wikipedia.org/wiki/Estadio_Riazor"
 		},
 		"league": {
@@ -1936,9 +1936,9 @@
 			"surface": "grass",
 			"lat": 43.181706,
 			"lng": -2.475803,
-			"x": 233.7,
-			"y": 23.7,
-			"wiki": ""
+			"x": 503,
+			"y": 55,
+			"wiki": "https://en.wikipedia.org/wiki/Ipurua_Municipal_Stadium"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -1999,8 +1999,8 @@
 			"surface": "grass",
 			"lat": 37.872294,
 			"lng": -4.764642,
-			"x": 0,
-			"y": 0,
+			"x": 352,
+			"y": 510,
 			"wiki": "https://en.wikipedia.org/wiki/Estadio_Nuevo_Arc%C3%A1ngel"
 		},
 		"league": {
@@ -2062,9 +2062,9 @@
 			"surface": "grass",
 			"lat": 37.153056,
 			"lng": -3.595833,
-			"x": 199.3,
-			"y": 258,
-			"wiki": ""
+			"x": 429,
+			"y": 570,
+			"wiki": "https://en.wikipedia.org/wiki/Nuevo_Estadio_de_Los_C%C3%A1rmenes"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2133,9 +2133,9 @@
 			"surface": "grass",
 			"lat": 43.360783,
 			"lng": -5.870222,
-			"x": 129.4,
-			"y": 16.8,
-			"wiki": ""
+			"x": 280,
+			"y": 39,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Carlos_Tartiere"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2212,9 +2212,9 @@
 			"surface": "grass",
 			"lat": 28.463056,
 			"lng": -16.260556,
-			"x": -189.8,
-			"y": 595.6,
-			"wiki": ""
+			"x": 580,
+			"y": 883,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Heliodoro_Rodr%C3%ADguez_L%C3%B3pez"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2291,9 +2291,9 @@
 			"surface": "grass",
 			"lat": 38.981117,
 			"lng": -1.852142,
-			"x": 252.9,
-			"y": 187,
-			"wiki": ""
+			"x": 543,
+			"y": 418,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Carlos_Belmonte"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2362,9 +2362,9 @@
 			"surface": "grass",
 			"lat": 36.84,
 			"lng": -2.435278,
-			"x": 234.9,
-			"y": 270.1,
-			"wiki": ""
+			"x": 505,
+			"y": 595,
+			"wiki": "https://en.wikipedia.org/wiki/UD_Almer%C3%ADa_Stadium"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2425,9 +2425,9 @@
 			"surface": "grass",
 			"lat": 36.502778,
 			"lng": -6.273056,
-			"x": 117,
-			"y": 283.2,
-			"wiki": ""
+			"x": 254,
+			"y": 622,
+			"wiki": "https://en.wikipedia.org/wiki/Nuevo_Mirandilla"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2504,9 +2504,9 @@
 			"surface": "grass",
 			"lat": 42.131944,
 			"lng": -0.424444,
-			"x": 296.7,
-			"y": 64.5,
-			"wiki": ""
+			"x": 637,
+			"y": 148,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_El_Alcoraz"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2583,9 +2583,9 @@
 			"surface": "grass",
 			"lat": 43.536111,
 			"lng": -5.637222,
-			"x": 136.6,
-			"y": 10,
-			"wiki": ""
+			"x": 295,
+			"y": 23,
+			"wiki": "https://en.wikipedia.org/wiki/El_Molin%C3%B3n"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2678,9 +2678,9 @@
 			"surface": "grass",
 			"lat": 41.636592,
 			"lng": -0.901822,
-			"x": 282,
-			"y": 83.8,
-			"wiki": ""
+			"x": 606,
+			"y": 191,
+			"wiki": "https://en.wikipedia.org/wiki/La_Romareda"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2757,9 +2757,9 @@
 			"surface": "grass",
 			"lat": 38.266944,
 			"lng": -0.663333,
-			"x": 289.4,
-			"y": 214.7,
-			"wiki": ""
+			"x": 621,
+			"y": 478,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Mart%C3%ADnez_Valero"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2844,9 +2844,9 @@
 			"surface": "grass",
 			"lat": 42.680833,
 			"lng": -2.935556,
-			"x": 219.6,
-			"y": 43.2,
-			"wiki": ""
+			"x": 472,
+			"y": 99,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Municipal_de_Anduva"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2915,9 +2915,9 @@
 			"surface": "grass",
 			"lat": 43.476389,
 			"lng": -3.793333,
-			"x": 193.2,
-			"y": 12.3,
-			"wiki": ""
+			"x": 416,
+			"y": 28,
+			"wiki": "https://en.wikipedia.org/wiki/Campos_de_Sport_de_El_Sardinero"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -3002,8 +3002,8 @@
 			"surface": "grass",
 			"lat": 39.996053,
 			"lng": -0.038792,
-			"x": 0,
-			"y": 0,
+			"x": 662,
+			"y": 333,
 			"wiki": "https://en.wikipedia.org/wiki/Nou_Estadi_Cast%C3%A0lia"
 		},
 		"league": {
@@ -3063,11 +3063,11 @@
 			"city": "Cartagena",
 			"capacity": 15105,
 			"surface": "grass",
-			"lat": 316.4,
-			"lng": 240.4,
-			"x": 7694.9,
-			"y": -10592.2,
-			"wiki": ""
+			"lat": 37.609746,
+			"lng": -0.995977,
+			"x": 600,
+			"y": 532,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Cartagonova"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -3144,9 +3144,9 @@
 			"surface": "grass",
 			"lat": 43.491358,
 			"lng": -8.239274,
-			"x": 56.6,
-			"y": 11.7,
-			"wiki": ""
+			"x": 125,
+			"y": 27,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Municipal_da_Malata"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -3231,9 +3231,9 @@
 			"surface": "grass",
 			"lat": 42.344167,
 			"lng": -3.680556,
-			"x": 196.7,
-			"y": 56.3,
-			"wiki": ""
+			"x": 424,
+			"y": 129,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_El_Plant%C3%ADo"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -3302,9 +3302,9 @@
 			"surface": "artificial turf",
 			"lat": 38.467356,
 			"lng": -0.796031,
-			"x": 285.3,
-			"y": 206.9,
-			"wiki": ""
+			"x": 613,
+			"y": 461,
+			"wiki": "https://en.wikipedia.org/wiki/Nuevo_Pepico_Amat"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -3365,8 +3365,9 @@
 			"surface": "grass",
 			"lat": 40.338889,
 			"lng": -3.840556,
-			"x": 191.8,
-			"y": 134.2
+			"x": 413,
+			"y": 303,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Municipal_de_Santo_Domingo"
 		},
 		"league": {},
 		"images": [
@@ -3430,8 +3431,9 @@
 			"surface": "grass",
 			"lat": 42.50472222,
 			"lng": 1.5175,
-			"x": 356.4,
-			"y": 50
+			"x": 764,
+			"y": 115,
+			"wiki": "https://en.wikipedia.org/wiki/Estadi_Nacional"
 		},
 		"league": {},
 		"images": [
@@ -3503,8 +3505,9 @@
 			"surface": "grass",
 			"lat": 43.22105,
 			"lng": -2.725446,
-			"x": 226,
-			"y": 22.2
+			"x": 486,
+			"y": 51,
+			"wiki": "https://en.wikipedia.org/wiki/Urritxe"
 		},
 		"league": {},
 		"images": [
@@ -3560,8 +3563,9 @@
 			"surface": "grass",
 			"lat": 39.944167,
 			"lng": -0.103611,
-			"x": 306.6,
-			"y": 149.5
+			"x": 658,
+			"y": 337,
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_de_la_Cer%C3%A1mica"
 		},
 		"league": {},
 		"images": [

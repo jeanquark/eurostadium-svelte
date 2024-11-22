@@ -16,8 +16,8 @@
 			"surface": "grass",
 			"lat": 40.154605,
 			"lng": 44.475231,
-			"x": 259.5,
-			"y": 372.4,
+			"x": 321,
+			"y": 471,
 			"wiki": "https://en.wikipedia.org/wiki/Alashkert_Stadium"
 		},
 		"league": {
@@ -55,8 +55,8 @@
 			"surface": "grass",
 			"lat": 39.207787,
 			"lng": 46.400674,
-			"x": 739.5,
-			"y": 680,
+			"x": 927,
+			"y": 830,
 			"wiki": "https://en.wikipedia.org/wiki/Gandzasar_Stadium"
 		},
 		"league": {
@@ -94,8 +94,8 @@
 			"surface": "grass",
 			"lat": 40.171944,
 			"lng": 44.525833,
-			"x": 272.1,
-			"y": 366.7,
+			"x": 337,
+			"y": 464,
 			"wiki": "https://en.wikipedia.org/wiki/Vazgen_Sargsyan_Republican_Stadium"
 		},
 		"league": {
@@ -133,8 +133,8 @@
 			"surface": "grass",
 			"lat": 40.171426,
 			"lng": 44.449938,
-			"x": 253.2,
-			"y": 366.9,
+			"x": 313,
+			"y": 464,
 			"wiki": "https://en.wikipedia.org/wiki/Urartu_Stadium"
 		},
 		"league": {
@@ -172,8 +172,8 @@
 			"surface": "grass",
 			"lat": 40.171944,
 			"lng": 44.525833,
-			"x": 272.1,
-			"y": 366.7,
+			"x": 337,
+			"y": 464,
 			"wiki": "https://en.wikipedia.org/wiki/Vazgen_Sargsyan_Republican_Stadium"
 		},
 		"league": {
@@ -211,8 +211,8 @@
 			"surface": "grass",
 			"lat": 40.221111,
 			"lng": 44.555278,
-			"x": 279.5,
-			"y": 350.8,
+			"x": 346,
+			"y": 445,
 			"wiki": "https://en.wikipedia.org/wiki/Yerevan_Football_Academy_Stadium"
 		},
 		"league": {
@@ -250,8 +250,8 @@
 			"surface": "grass",
 			"lat": 40.164722,
 			"lng": 44.045278,
-			"x": 152.4,
-			"y": 369.1,
+			"x": 186,
+			"y": 467,
 			"wiki": "https://en.wikipedia.org/wiki/Armavir_City_Stadium"
 		},
 		"league": {
@@ -289,8 +289,8 @@
 			"surface": "grass",
 			"lat": 40.785833,
 			"lng": 43.833333,
-			"x": 99.5,
-			"y": 167.3,
+			"x": 119,
+			"y": 228,
 			"wiki": "https://en.wikipedia.org/wiki/Gyumri_City_Stadium"
 		},
 		"league": {
@@ -328,8 +328,8 @@
 			"surface": "grass",
 			"lat": 40.221111,
 			"lng": 44.555278,
-			"x": 279.5,
-			"y": 350.8,
+			"x": 346,
+			"y": 445,
 			"wiki": "https://en.wikipedia.org/wiki/Yerevan_Football_Academy_Stadium"
 		},
 		"league": {
@@ -367,8 +367,8 @@
 			"surface": "artificial turf",
 			"lat": 40.408611,
 			"lng": 44.645556,
-			"x": 302,
-			"y": 289.8,
+			"x": 375,
+			"y": 374,
 			"wiki": "https://en.wikipedia.org/wiki/Charentsavan_City_Stadium"
 		},
 		"league": {
@@ -406,8 +406,8 @@
 			"surface": "grass",
 			"lat": 40.291111,
 			"lng": 44.352222,
-			"x": 228.9,
-			"y": 328,
+			"x": 283,
+			"y": 419,
 			"wiki": "https://en.wikipedia.org/wiki/Kasakhi_Marzik_Stadium"
 		},
 		"league": {
@@ -445,8 +445,8 @@
 			"surface": "grass",
 			"lat": 40.203611,
 			"lng": 44.651111,
-			"x": 303.4,
-			"y": 356.4,
+			"x": 377,
+			"y": 452,
 			"wiki": "https://en.wikipedia.org/wiki/Dzoraghbyur_Training_Centre"
 		},
 		"league": {
@@ -484,8 +484,8 @@
 			"surface": "grass",
 			"lat": 40.221111,
 			"lng": 44.555278,
-			"x": 279.5,
-			"y": 350.8,
+			"x": 346,
+			"y": 445,
 			"wiki": "https://en.wikipedia.org/wiki/Yerevan_Football_Academy_Stadium"
 		},
 		"league": {
@@ -523,8 +523,8 @@
 			"surface": "grass",
 			"lat": 40.171362,
 			"lng": 44.449878,
-			"x": 253.2,
-			"y": 366.9,
+			"x": 313,
+			"y": 464,
 			"wiki": ""
 		},
 		"league": {
@@ -562,8 +562,8 @@
 			"surface": "artificial turf",
 			"lat": 40.181944,
 			"lng": 44.49,
-			"x": 263.2,
-			"y": 363.5,
+			"x": 326,
+			"y": 460,
 			"wiki": "https://en.wikipedia.org/wiki/Pyunik_Training_Centre"
 		},
 		"league": {
@@ -601,8 +601,8 @@
 			"surface": "grass",
 			"lat": 40.785833,
 			"lng": 43.833333,
-			"x": 99.5,
-			"y": 167.3,
+			"x": 119,
+			"y": 228,
 			"wiki": "https://en.wikipedia.org/wiki/Gyumri_City_Stadium"
 		},
 		"league": {
@@ -640,8 +640,8 @@
 			"surface": "grass",
 			"lat": 39.689728,
 			"lng": 45.462568,
-			"x": 505.6,
-			"y": 523.4,
+			"x": 632,
+			"y": 648,
 			"wiki": ""
 		},
 		"league": {
@@ -679,8 +679,8 @@
 			"surface": "grass",
 			"lat": 40.149373,
 			"lng": 44.476449,
-			"x": 259.8,
-			"y": 374.1,
+			"x": 322,
+			"y": 473,
 			"wiki": "https://en.wikipedia.org/wiki/Mika_Stadium"
 		},
 		"league": {
@@ -718,8 +718,8 @@
 			"surface": "grass",
 			"lat": 40.221111,
 			"lng": 44.555278,
-			"x": 279.5,
-			"y": 350.8,
+			"x": 346,
+			"y": 445,
 			"wiki": "https://en.wikipedia.org/wiki/Yerevan_Football_Academy_Stadium"
 		},
 		"league": {
@@ -757,8 +757,8 @@
 			"surface": "grass",
 			"lat": 39.207787,
 			"lng": 46.400674,
-			"x": 739.5,
-			"y": 680,
+			"x": 927,
+			"y": 830,
 			"wiki": "https://en.wikipedia.org/wiki/Gandzasar_Stadium"
 		},
 		"league": {
@@ -796,8 +796,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"x": -13671,
+			"y": 13299,
 			"wiki": ""
 		},
 		"league": {
@@ -825,8 +825,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"x": -13671,
+			"y": 13299,
 			"wiki": ""
 		},
 		"league": {
@@ -854,8 +854,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"x": -13671,
+			"y": 13299,
 			"wiki": ""
 		},
 		"league": {
@@ -883,8 +883,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"x": -13671,
+			"y": 13299,
 			"wiki": ""
 		},
 		"league": {
@@ -912,8 +912,8 @@
 			"surface": "grass",
 			"lat": 40.291111,
 			"lng": 44.352222,
-			"x": 228.9,
-			"y": 328,
+			"x": 283,
+			"y": 419,
 			"wiki": "https://en.wikipedia.org/wiki/Kasakhi_Marzik_Stadium"
 		},
 		"league": {},
@@ -946,8 +946,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"x": -13671,
+			"y": 13299,
 			"wiki": ""
 		},
 		"league": {},

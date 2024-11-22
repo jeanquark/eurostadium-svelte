@@ -16,8 +16,8 @@
 			"surface": "grass",
 			"lat": 45.346667,
 			"lng": 14.404167,
-			"x": 94.5,
-			"y": 180.2,
+			"x": 154,
+			"y": 301,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Rujevica"
 		},
 		"league": {
@@ -55,8 +55,8 @@
 			"surface": "grass",
 			"lat": 43.519444,
 			"lng": 16.431667,
-			"x": 304.5,
-			"y": 444.8,
+			"x": 498,
+			"y": 733,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Poljud"
 		},
 		"league": {
@@ -94,8 +94,8 @@
 			"surface": "grass",
 			"lat": 45.566389,
 			"lng": 18.6575,
-			"x": 535.1,
-			"y": 148.4,
+			"x": 874,
+			"y": 248,
 			"wiki": "https://en.wikipedia.org/wiki/Opus_Arena"
 		},
 		"league": {
@@ -133,8 +133,8 @@
 			"surface": "grass",
 			"lat": 45.818889,
 			"lng": 16.018056,
-			"x": 261.6,
-			"y": 111.8,
+			"x": 428,
+			"y": 187,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Maksimir"
 		},
 		"league": {
@@ -172,8 +172,8 @@
 			"surface": "grass",
 			"lat": 44.86157,
 			"lng": 13.8517,
-			"x": 37.2,
-			"y": 250.5,
+			"x": 61,
+			"y": 417,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Aldo_Drosina"
 		},
 		"league": {
@@ -211,8 +211,8 @@
 			"surface": "grass",
 			"lat": 45.804722,
 			"lng": 15.960833,
-			"x": 255.7,
-			"y": 113.9,
+			"x": 418,
+			"y": 191,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Kranj%C4%8Devi%C4%87eva"
 		},
 		"league": {
@@ -250,8 +250,8 @@
 			"surface": "grass",
 			"lat": 46.166111,
 			"lng": 16.834722,
-			"x": 346.2,
-			"y": 61.5,
+			"x": 566,
+			"y": 103,
 			"wiki": "https://en.wikipedia.org/wiki/Gradski_stadion_(Koprivnica)"
 		},
 		"league": {
@@ -289,8 +289,8 @@
 			"surface": "grass",
 			"lat": 45.724,
 			"lng": 16.0732,
-			"x": 267.4,
-			"y": 125.6,
+			"x": 437,
+			"y": 210,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Radnik"
 		},
 		"league": {
@@ -328,8 +328,8 @@
 			"surface": "grass",
 			"lat": 43.743553,
 			"lng": 15.896058,
-			"x": 249,
-			"y": 412.4,
+			"x": 407,
+			"y": 681,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_%C5%A0ubi%C4%87evac"
 		},
 		"league": {
@@ -367,8 +367,8 @@
 			"surface": "grass",
 			"lat": 46.2933,
 			"lng": 16.3443,
-			"x": 295.4,
-			"y": 43.1,
+			"x": 483,
+			"y": 72,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Varteks"
 		},
 		"league": {
@@ -406,8 +406,8 @@
 			"surface": "grass",
 			"lat": 45.804722,
 			"lng": 15.960833,
-			"x": 255.7,
-			"y": 113.9,
+			"x": 418,
+			"y": 191,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Kranj%C4%8Devi%C4%87eva"
 		},
 		"league": {
@@ -445,8 +445,8 @@
 			"surface": "grass",
 			"lat": 45.283742,
 			"lng": 18.797382,
-			"x": 549.5,
-			"y": 189.3,
+			"x": 898,
+			"y": 316,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_HNK_Cibalia"
 		},
 		"league": {
@@ -484,8 +484,8 @@
 			"surface": "grass",
 			"lat": 43.588056,
 			"lng": 16.574167,
-			"x": 319.2,
-			"y": 434.9,
+			"x": 522,
+			"y": 717,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Hrvatski_vitezovi"
 		},
 		"league": {
@@ -523,8 +523,8 @@
 			"surface": "grass",
 			"lat": 45.83608,
 			"lng": 16.117456,
-			"x": 271.9,
-			"y": 109.3,
+			"x": 444,
+			"y": 183,
 			"wiki": ""
 		},
 		"league": {
@@ -562,8 +562,8 @@
 			"surface": "grass",
 			"lat": 45.519348,
 			"lng": 18.874152,
-			"x": 557.5,
-			"y": 155.2,
+			"x": 911,
+			"y": 260,
 			"wiki": ""
 		},
 		"league": {
@@ -601,8 +601,8 @@
 			"surface": "grass",
 			"lat": 45.380246,
 			"lng": 18.965396,
-			"x": 566.9,
-			"y": 175.3,
+			"x": 926,
+			"y": 293,
 			"wiki": ""
 		},
 		"league": {
@@ -640,8 +640,8 @@
 			"surface": "grass",
 			"lat": 45.339202,
 			"lng": 14.380959,
-			"x": 0,
-			"y": 0,
+			"x": 150,
+			"y": 303,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Kantrida"
 		},
 		"league": {
@@ -679,8 +679,8 @@
 			"surface": "grass",
 			"lat": 43.414006,
 			"lng": 17.204961,
-			"x": 384.6,
-			"y": 460.1,
+			"x": 628,
+			"y": 758,
 			"wiki": ""
 		},
 		"league": {
@@ -718,8 +718,8 @@
 			"surface": "grass",
 			"lat": 45.771196,
 			"lng": 15.971722,
-			"x": 256.8,
-			"y": 118.7,
+			"x": 420,
+			"y": 199,
 			"wiki": ""
 		},
 		"league": {
@@ -757,8 +757,8 @@
 			"surface": null,
 			"lat": 45.323716,
 			"lng": 14.468459,
-			"x": 101.1,
-			"y": 183.5,
+			"x": 165,
+			"y": 307,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Krimeja"
 		},
 		"league": {
@@ -796,8 +796,8 @@
 			"surface": "grass",
 			"lat": 45.864722,
 			"lng": 15.799722,
-			"x": 239,
-			"y": 105.2,
+			"x": 391,
+			"y": 176,
 			"wiki": "https://en.wikipedia.org/wiki/Ivan_Laljak-Ivi%C4%87_Stadium"
 		},
 		"league": {
@@ -835,8 +835,8 @@
 			"surface": "grass",
 			"lat": 43.186717,
 			"lng": 16.600115,
-			"x": 321.9,
-			"y": 493,
+			"x": 526,
+			"y": 810,
 			"wiki": ""
 		},
 		"league": {
@@ -874,8 +874,8 @@
 			"surface": "grass",
 			"lat": 43.76906,
 			"lng": 16.629541,
-			"x": 325,
-			"y": 408.7,
+			"x": 531,
+			"y": 675,
 			"wiki": ""
 		},
 		"league": {},
@@ -908,8 +908,8 @@
 			"surface": "grass",
 			"lat": 45.809453,
 			"lng": 15.925911,
-			"x": 252.1,
-			"y": 113.2,
+			"x": 412,
+			"y": 190,
 			"wiki": ""
 		},
 		"league": {},

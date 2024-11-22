@@ -8,7 +8,7 @@
 
    export let countryObj;
    export let stadiumsArray;
-   let radius = 15;
+   let radius = 10;
    let stadiumObj;
    let panzoomRef;
    let flag = 1;

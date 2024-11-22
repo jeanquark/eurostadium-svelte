@@ -17,7 +17,7 @@
 			"lat": 40.625833,
 			"lng": 20.782778,
 			"x1": 525.4,
-			"x": 1122,
+			"x": 656,
 			"y1": 534.7,
 			"y": 680,
 			"wiki": "https://en.wikipedia.org/wiki/Sk%C3%ABnderbeu_Stadium"
@@ -58,7 +58,7 @@
 			"lat": 41.318979,
 			"lng": 19.81131,
 			"x1": 332.3,
-			"x": 579,
+			"x": 413,
 			"y1": 352.6,
 			"y": 451,
 			"wiki": "https://en.wikipedia.org/wiki/Selman_St%C3%ABrmasi_Stadium"
@@ -98,7 +98,7 @@
 			"surface": "artificial turf",
 			"lat": 41.356257,
 			"lng": 19.85127,
-			"x": 602,
+			"x": 423,
 			"y": 438,
 			"wiki": "https://en.wikipedia.org/wiki/Arena_e_Demave"
 		},
@@ -137,7 +137,7 @@
 			"surface": "grass",
 			"lat": 41.642472,
 			"lng": 19.711667,
-			"x": 524,
+			"x": 388,
 			"y": 343,
 			"wiki": "https://en.wikipedia.org/wiki/La%C3%A7i_Stadium"
 		},
@@ -176,7 +176,7 @@
 			"surface": "grass",
 			"lat": 41.326081,
 			"lng": 19.449856,
-			"x": 378,
+			"x": 322,
 			"y": 448,
 			"wiki": "https://en.wikipedia.org/wiki/Niko_Dovana_Stadium"
 		},
@@ -215,7 +215,7 @@
 			"surface": "grass",
 			"lat": 40.601944,
 			"lng": 19.740833,
-			"x": 540,
+			"x": 395,
 			"y": 688,
 			"wiki": "https://en.wikipedia.org/wiki/Adush_Mu%C3%A7a_Stadium"
 		},
@@ -254,7 +254,7 @@
 			"surface": "grass",
 			"lat": 41.115875,
 			"lng": 20.091992,
-			"x": 736,
+			"x": 483,
 			"y": 518,
 			"wiki": "https://en.wikipedia.org/wiki/Elbasan_Arena"
 		},
@@ -293,7 +293,7 @@
 			"surface": "grass",
 			"lat": 41.076806,
 			"lng": 19.661639,
-			"x": 496,
+			"x": 375,
 			"y": 531,
 			"wiki": "https://en.wikipedia.org/wiki/Egnatia_Arena"
 		},
@@ -332,7 +332,7 @@
 			"surface": "grass",
 			"lat": 42.070031,
 			"lng": 19.506558,
-			"x": 409,
+			"x": 336,
 			"y": 199,
 			"wiki": "https://en.wikipedia.org/wiki/Loro_Bori%C3%A7i_Stadium"
 		},
@@ -371,7 +371,7 @@
 			"surface": "grass",
 			"lat": 41.115875,
 			"lng": 20.091992,
-			"x": 736,
+			"x": 483,
 			"y": 518,
 			"wiki": "https://en.wikipedia.org/wiki/Elbasan_Arena"
 		},
@@ -410,7 +410,7 @@
 			"surface": "grass",
 			"lat": 42.078889,
 			"lng": 20.420278,
-			"x": 919,
+			"x": 565,
 			"y": 196,
 			"wiki": "https://en.wikipedia.org/wiki/Kuk%C3%ABs_Arena"
 		},
@@ -449,7 +449,7 @@
 			"surface": "grass",
 			"lat": 40.455922,
 			"lng": 19.488986,
-			"x": 399,
+			"x": 332,
 			"y": 736,
 			"wiki": "https://en.wikipedia.org/wiki/Flamurtari_Stadium"
 		},
@@ -488,7 +488,7 @@
 			"surface": "grass",
 			"lat": 41.512028,
 			"lng": 19.786667,
-			"x": 566,
+			"x": 406,
 			"y": 386,
 			"wiki": "https://en.wikipedia.org/wiki/Redi_Maloku_Stadium"
 		},
@@ -527,7 +527,7 @@
 			"surface": "grass",
 			"lat": 40.720833,
 			"lng": 19.552222,
-			"x": 435,
+			"x": 348,
 			"y": 648,
 			"wiki": "https://en.wikipedia.org/wiki/Loni_Papu%C3%A7iu_Stadium"
 		},
@@ -566,7 +566,7 @@
 			"surface": "grass",
 			"lat": 41.126111,
 			"lng": 19.575,
-			"x": 447,
+			"x": 353,
 			"y": 515,
 			"wiki": "https://en.wikipedia.org/wiki/Luz_i_Vog%C3%ABl_Stadium"
 		},
@@ -605,7 +605,7 @@
 			"surface": "grass",
 			"lat": 41.608961,
 			"lng": 20.006975,
-			"x": 689,
+			"x": 462,
 			"y": 354,
 			"wiki": "https://en.wikipedia.org/wiki/Liri_Ballabani_Stadium"
 		},
@@ -644,7 +644,7 @@
 			"surface": "grass",
 			"lat": 41.582778,
 			"lng": 19.931944,
-			"x": 647,
+			"x": 443,
 			"y": 363,
 			"wiki": "https://en.wikipedia.org/wiki/Tofik_Jashari_Stadium"
 		},
@@ -683,7 +683,7 @@
 			"surface": "grass",
 			"lat": 41.680361,
 			"lng": 20.425306,
-			"x": 922,
+			"x": 567,
 			"y": 330,
 			"wiki": "https://en.wikipedia.org/wiki/Korabi_Stadium"
 		},
@@ -722,7 +722,7 @@
 			"surface": "grass",
 			"lat": 40.935425,
 			"lng": 19.709644,
-			"x": 523,
+			"x": 387,
 			"y": 578,
 			"wiki": "https://en.wikipedia.org/wiki/Abdurrahman_Roza_Haxhiu_Stadium"
 		},
@@ -761,7 +761,7 @@
 			"surface": "grass",
 			"lat": 40.9,
 			"lng": 20.663889,
-			"x": 1055,
+			"x": 626,
 			"y": 589,
 			"wiki": "https://en.wikipedia.org/wiki/Gjorgji_Ky%C3%A7yku_Stadium"
 		},
@@ -800,7 +800,7 @@
 			"surface": "artificial turf",
 			"lat": 41.403470284772034,
 			"lng": 19.64225163053985,
-			"x": 485,
+			"x": 370,
 			"y": 422,
 			"wiki": ""
 		},
@@ -839,7 +839,7 @@
 			"surface": "grass",
 			"lat": 42.360607,
 			"lng": 20.073748,
-			"x": 726,
+			"x": 478,
 			"y": 101,
 			"wiki": ""
 		},
@@ -886,7 +886,7 @@
 			"surface": "grass",
 			"lat": 40.601944,
 			"lng": 19.740833,
-			"x": 540,
+			"x": 395,
 			"y": 688,
 			"wiki": "https://en.wikipedia.org/wiki/Adush_Mu%C3%A7a_Stadium"
 		},
@@ -920,7 +920,7 @@
 			"surface": "grass",
 			"lat": 40.698889,
 			"lng": 19.964444,
-			"x": 665,
+			"x": 451,
 			"y": 656,
 			"wiki": "https://en.wikipedia.org/wiki/Tomori_Stadium"
 		},
@@ -954,7 +954,7 @@
 			"surface": "grass",
 			"lat": 41.126111,
 			"lng": 19.575,
-			"x": 447,
+			"x": 353,
 			"y": 515,
 			"wiki": "https://en.wikipedia.org/wiki/Luz_i_Vog%C3%ABl_Stadium"
 		},
@@ -988,7 +988,7 @@
 			"surface": "grass",
 			"lat": 40.081211,
 			"lng": 20.138092,
-			"x": 762,
+			"x": 495,
 			"y": 858,
 			"wiki": "https://en.wikipedia.org/wiki/Gjirokastra_Stadium"
 		},

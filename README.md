@@ -10,7 +10,7 @@ Update country name on line 4 of file calculateSVGCoord.js. Then run
 node calculateSVGCoord
 ```
 
-## Update data
+## Data management
 
 * Fetch all teams by country
 
@@ -19,7 +19,18 @@ node calculateSVGCoord
 * Calculate x and y coordinates for each stadium (Svg map)
 
     Call `/api/calculate-svg-coord?country=[COUNTRY_SLUG]`
-    It will update x & y values for each stadium.
+    It will update x & y values for the specified country.
+    To update all countries, set value to 'all'
+
+* Update stadiums
+
+    Call `/api/supabase/update-stadium?country=[COUNTRY_SLUG]`
+    It will update stadiums table with data retrieved from the specified country json file located at `/static/json/teams/[COUNTRY_SLUG].json`.
+
+* Update teams (dependant on stadiums)
+
+    Call `/api/supabase/update-teams?country=[COUNTRY_SLUG]`
+    It will update teams table with data retrieved from the specified country json file located at `/static/json/teams/[COUNTRY_SLUG].json`.
 
 * Retrieve supabase url for each image
 

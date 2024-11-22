@@ -3,14 +3,16 @@ import { promises as fs } from "fs";
 import { env } from '$env/dynamic/public';
 import { createServerClient } from '@supabase/ssr'
 
-export async function GET({ request }) {
+export async function GET({ url }) {
     try {
+        const countrySlug = url.searchParams.get('country')
+        console.log('countrySlug: ', countrySlug)
 
-        const file1 = './static/json/countries.json';
-        const countriesFile = await fs.readFile(file1, "utf8");
-        let countriesArray = []
-        if (countriesFile.length > 0) {
-            countriesArray = JSON.parse(countriesFile)
+        if (!countrySlug) {
+            return json({
+                success: false,
+                message: 'Specify country in url params: "/api/supabase/update-stadiums?country=[COUNTRY_SLUG]"'
+            });
         }
 
         // 1) Set up Supabase DB
@@ -25,50 +27,43 @@ export async function GET({ request }) {
             }
         })
 
-        // console.log('countriesArray: ', countriesArray);
         let rowsUpdated = 0
-        // for (let i = 0; i < countriesArray.length; i++) {
-        for (let i = 0; i < 1; i++) {
-            let countryTeams = []
-            // const file = `./static/json/teams/${countriesArray[i].slug}.json`;
-            const file = `./static/json/teams/turkiye.json`;
-            const teamsFile = await fs.readFile(file, "utf8");
-            if (teamsFile.length > 0) {
-                countryTeams = JSON.parse(teamsFile)
-            }
+        let countryTeams = []
 
-            // console.log('countryTeams: ', countryTeams);
-            // console.log('countryTeams[0]: ', countryTeams[0]?.venue?.api_football_id);
-            for (let j = 0; j < countryTeams.length; j++) {
-                // for (let j = 0; j < 2; j++) {
-                if (countryTeams[j] && countryTeams[j].venue && countryTeams[j].venue.api_football_id) {
-                    const { data, error: error2 } = await supabase
-                        .from('stadiums')
-                        .upsert(
-                            {
-                                api_football_id: countryTeams[j]['venue']['api_football_id'],
-                                name: countryTeams[j]['venue']['name'],
-                                address: countryTeams[j]['venue']['address'],
-                                city: countryTeams[j]['venue']['city'],
-                                capacity: countryTeams[j]['venue']['capacity'],
-                                surface: countryTeams[j]['venue']['surface'],
-                                lat: countryTeams[j]['venue']['lat'],
-                                lng: countryTeams[j]['venue']['lng'],
-                                x: countryTeams[j]['venue']['x'],
-                                y: countryTeams[j]['venue']['y'],
-                                wiki: countryTeams[j]['venue']['wiki'],
-                                is_active: true
-                            },
-                            {
-                                onConflict: 'api_football_id'
-                            }
-                        )
-                        .select()
+        const file = `./static/json/teams/${countrySlug}.json`;
+        const teamsFile = await fs.readFile(file, "utf8");
+        if (teamsFile.length > 0) {
+            countryTeams = JSON.parse(teamsFile)
+        }
 
-                    rowsUpdated++
-                    if (error2) {
-                        throw error2
-                    }
+        for (let i = 0; i < countryTeams.length; i++) {
+            if (countryTeams[i] && countryTeams[i].venue && countryTeams[i].venue.api_football_id) {
+                const { data, error: error2 } = await supabase
+                    .from('stadiums')
+                    .upsert(
+                        {
+                            api_football_id: countryTeams[i]['venue']['api_football_id'],
+                            name: countryTeams[i]['venue']['name'],
+                            address: countryTeams[i]['venue']['address'],
+                            city: countryTeams[i]['venue']['city'],
+                            capacity: countryTeams[i]['venue']['capacity'],
+                            surface: countryTeams[i]['venue']['surface'],
+                            lat: countryTeams[i]['venue']['lat'],
+                            lng: countryTeams[i]['venue']['lng'],
+                            x: countryTeams[i]['venue']['x'],
+                            y: countryTeams[i]['venue']['y'],
+                            wiki: countryTeams[i]['venue']['wiki'],
+                            is_active: true
+                        },
+                        {
+                            onConflict: 'api_football_id'
+                        }
+                    )
+                    .select()
+
+                rowsUpdated++
+                if (error2) {
+                    throw error2
                 }
             }
         }
@@ -79,8 +74,9 @@ export async function GET({ request }) {
         });
     } catch (error) {
         console.log('error: ', error);
-        return json(new Response(error, {
-            status: 404
-        }))
+        return json({
+            success: false,
+            message: error.message
+        });
     }
 }

@@ -16,8 +16,8 @@
 			"surface": "grass",
 			"lat": 54.897222,
 			"lng": 23.936944,
-			"x": 398.2,
-			"y": 455.3,
+			"x": 507,
+			"y": 588,
 			"wiki": "https://en.wikipedia.org/wiki/Darius_and_Gir%C4%97nas_Stadium"
 		},
 		"league": {
@@ -55,8 +55,8 @@
 			"surface": "artificial turf",
 			"lat": 54.574547,
 			"lng": 23.365392,
-			"x": 321.8,
-			"y": 530.7,
+			"x": 409,
+			"y": 682,
 			"wiki": "https://en.wikipedia.org/wiki/S%C5%ABduva_Stadium"
 		},
 		"league": {
@@ -94,8 +94,8 @@
 			"surface": "artificial turf",
 			"lat": 55.715278,
 			"lng": 21.404444,
-			"x": 59.6,
-			"y": 264,
+			"x": 76,
+			"y": 344,
 			"wiki": "https://en.wikipedia.org/wiki/Garg%C5%BEdai_Stadium"
 		},
 		"league": {
@@ -133,8 +133,8 @@
 			"surface": "artificial turf",
 			"lat": 54.574547,
 			"lng": 23.365392,
-			"x": 321.8,
-			"y": 530.7,
+			"x": 409,
+			"y": 682,
 			"wiki": "https://en.wikipedia.org/wiki/S%C5%ABduva_Stadium"
 		},
 		"league": {
@@ -172,8 +172,8 @@
 			"surface": "grass",
 			"lat": 55.9848,
 			"lng": 22.2426,
-			"x": 171.7,
-			"y": 201,
+			"x": 218,
+			"y": 262,
 			"wiki": "https://lt.wikipedia.org/wiki/Tel%C5%A1i%C5%B3_miesto_centrinis_stadionas"
 		},
 		"league": {
@@ -211,8 +211,8 @@
 			"surface": "artificial turf",
 			"lat": 54.9042,
 			"lng": 23.9288,
-			"x": 397.2,
-			"y": 453.6,
+			"x": 505,
+			"y": 585,
 			"wiki": "https://lt.wikipedia.org/wiki/LFF_Kauno_treniruo%C4%8Di%C5%B3_centras"
 		},
 		"league": {
@@ -250,8 +250,8 @@
 			"surface": "artificial turf",
 			"lat": 55.9057,
 			"lng": 23.2428,
-			"x": 305.4,
-			"y": 219.5,
+			"x": 389,
+			"y": 286,
 			"wiki": "https://lt.wikipedia.org/wiki/Gytari%C5%B3_stadionas"
 		},
 		"league": {
@@ -289,8 +289,8 @@
 			"surface": "grass",
 			"lat": 54.897222,
 			"lng": 23.936944,
-			"x": 398.2,
-			"y": 455.3,
+			"x": 507,
+			"y": 588,
 			"wiki": "https://en.wikipedia.org/wiki/Darius_and_Gir%C4%97nas_Stadium"
 		},
 		"league": {
@@ -328,8 +328,8 @@
 			"surface": "artificial turf",
 			"lat": 55.7167,
 			"lng": 24.3696,
-			"x": 456.1,
-			"y": 263.7,
+			"x": 580,
+			"y": 343,
 			"wiki": "https://lt.wikipedia.org/wiki/Panev%C4%97%C5%BEio_%C5%BDemynos_progimnazijos_stadionas"
 		},
 		"league": {
@@ -365,10 +365,10 @@
 			"city": "Širvintos",
 			"capacity": 1500,
 			"surface": "artificial turf",
-			"lat": 55.037900,
+			"lat": 55.0379,
 			"lng": 24.960465,
-			"x": 0,
-			"y": 0,
+			"x": 681,
+			"y": 546,
 			"wiki": ""
 		},
 		"league": {
@@ -406,8 +406,8 @@
 			"surface": "grass",
 			"lat": 54.668611,
 			"lng": 25.294444,
-			"x": 579.7,
-			"y": 508.7,
+			"x": 737,
+			"y": 655,
 			"wiki": "https://en.wikipedia.org/wiki/LFF_Stadium"
 		},
 		"league": {
@@ -444,9 +444,9 @@
 			"capacity": 1000,
 			"surface": "artificial turf",
 			"lat": 56.294046,
-			"lng": 22.340440,
-			"x": 0,
-			"y": 0,
+			"lng": 22.34044,
+			"x": 235,
+			"y": 168,
 			"wiki": ""
 		},
 		"league": {
@@ -475,8 +475,8 @@
 			"surface": "artificial turf",
 			"lat": 54.694861,
 			"lng": 25.208824,
-			"x": 0,
-			"y": 0,
+			"x": 723,
+			"y": 647,
 			"wiki": ""
 		},
 		"league": {
@@ -514,8 +514,8 @@
 			"surface": "artificial turf",
 			"lat": 55.894457,
 			"lng": 21.252377,
-			"x": 0,
-			"y": 0,
+			"x": 50,
+			"y": 289,
 			"wiki": ""
 		},
 		"league": {
@@ -553,8 +553,8 @@
 			"surface": "artificial turf",
 			"lat": 55.299167,
 			"lng": 23.9875,
-			"x": 0,
-			"y": 0,
+			"x": 515,
+			"y": 468,
 			"wiki": "https://en.wikipedia.org/wiki/K%C4%97dainiai_Stadium"
 		},
 		"league": {
@@ -592,8 +592,8 @@
 			"surface": "artificial turf",
 			"lat": 55.7167,
 			"lng": 24.3696,
-			"x": 0,
-			"y": 0,
+			"x": 580,
+			"y": 343,
 			"wiki": "https://lt.wikipedia.org/wiki/Panev%C4%97%C5%BEio_%C5%BDemynos_progimnazijos_stadionas"
 		},
 		"league": {
@@ -631,8 +631,8 @@
 			"surface": "artificial turf",
 			"lat": 55.259774,
 			"lng": 22.294039,
-			"x": 0,
-			"y": 0,
+			"x": 227,
+			"y": 480,
 			"wiki": ""
 		},
 		"league": {
@@ -660,9 +660,9 @@
 			"capacity": 3000,
 			"surface": "artificial turf",
 			"lat": 54.895981,
-			"lng": 23.837750,
-			"x": 0,
-			"y": 0,
+			"lng": 23.83775,
+			"x": 490,
+			"y": 588,
 			"wiki": ""
 		},
 		"league": {
@@ -700,8 +700,8 @@
 			"surface": "artificial turf",
 			"lat": 55.7167,
 			"lng": 24.3696,
-			"x": 0,
-			"y": 0,
+			"x": 580,
+			"y": 343,
 			"wiki": "https://lt.wikipedia.org/wiki/Panev%C4%97%C5%BEio_%C5%BDemynos_progimnazijos_stadionas"
 		},
 		"league": {
@@ -739,8 +739,8 @@
 			"surface": "grass",
 			"lat": 55.917823,
 			"lng": 21.850827,
-			"x": 0,
-			"y": 0,
+			"x": 152,
+			"y": 282,
 			"wiki": ""
 		},
 		"league": {
@@ -777,9 +777,9 @@
 			"capacity": 1500,
 			"surface": "artificial turf",
 			"lat": 55.726362,
-			"lng": 21.109580,
-			"x": 0,
-			"y": 0,
+			"lng": 21.10958,
+			"x": 26,
+			"y": 340,
 			"wiki": ""
 		},
 		"league": {
@@ -817,8 +817,8 @@
 			"surface": "artificial turf",
 			"lat": 55.715278,
 			"lng": 21.404444,
-			"x": 0,
-			"y": 0,
+			"x": 76,
+			"y": 344,
 			"wiki": "https://en.wikipedia.org/wiki/Garg%C5%BEdai_Stadium"
 		},
 		"league": {
@@ -856,8 +856,8 @@
 			"surface": "grass",
 			"lat": 54.815029,
 			"lng": 23.876735,
-			"x": 0,
-			"y": 0,
+			"x": 496,
+			"y": 612,
 			"wiki": ""
 		},
 		"league": {
@@ -895,8 +895,8 @@
 			"surface": "artificial turf",
 			"lat": 54.9042,
 			"lng": 23.9288,
-			"x": 397.2,
-			"y": 453.6,
+			"x": 505,
+			"y": 585,
 			"wiki": "https://lt.wikipedia.org/wiki/LFF_Kauno_treniruo%C4%8Di%C5%B3_centras"
 		},
 		"league": {
@@ -934,8 +934,8 @@
 			"surface": "artificial turf",
 			"lat": 55.906444,
 			"lng": 23.241502,
-			"x": 0,
-			"y": 0,
+			"x": 388,
+			"y": 286,
 			"wiki": ""
 		},
 		"league": {
@@ -973,8 +973,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"x": -3565,
+			"y": 11784,
 			"wiki": ""
 		},
 		"league": {
@@ -1001,10 +1001,10 @@
 			"city": "Jonava",
 			"capacity": 3000,
 			"surface": "artificial turf",
-			"lat": 55.077950,
+			"lat": 55.07795,
 			"lng": 24.271601,
-			"x": 0,
-			"y": 0,
+			"x": 563,
+			"y": 534,
 			"wiki": ""
 		},
 		"league": {},
@@ -1036,9 +1036,9 @@
 			"capacity": 2500,
 			"surface": "grass",
 			"lat": 54.636806,
-			"lng": 24.939920,
-			"x": 0,
-			"y": 0,
+			"lng": 24.93992,
+			"x": 677,
+			"y": 664,
 			"wiki": ""
 		},
 		"league": {},
@@ -1071,8 +1071,8 @@
 			"surface": "grass",
 			"lat": 54.668611,
 			"lng": 25.294444,
-			"x": 0,
-			"y": 0,
+			"x": 737,
+			"y": 655,
 			"wiki": "https://en.wikipedia.org/wiki/LFF_Stadium"
 		},
 		"league": {},
@@ -1105,8 +1105,8 @@
 			"surface": "artificial turf",
 			"lat": 54.646881,
 			"lng": 23.962484,
-			"x": 0,
-			"y": 0,
+			"x": 511,
+			"y": 661,
 			"wiki": ""
 		},
 		"league": {},

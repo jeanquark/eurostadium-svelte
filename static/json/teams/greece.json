@@ -16,8 +16,8 @@
 			"surface": "grass",
 			"lat": 37.946111,
 			"lng": 23.664444,
-			"x": 385,
-			"y": 495.6,
+			"x": 419,
+			"y": 551,
 			"wiki": "https://en.wikipedia.org/wiki/Karaiskakis_Stadium"
 		},
 		"league": {
@@ -79,8 +79,8 @@
 			"surface": "grass",
 			"lat": 38.036947,
 			"lng": 23.741358,
-			"x": 391.9,
-			"y": 485.2,
+			"x": 427,
+			"y": 540,
 			"wiki": "https://en.wikipedia.org/wiki/Agia_Sophia_Stadium"
 		},
 		"league": {
@@ -158,8 +158,8 @@
 			"surface": "grass",
 			"lat": 37.987222,
 			"lng": 23.754167,
-			"x": 393.1,
-			"y": 490.9,
+			"x": 428,
+			"y": 546,
 			"wiki": "https://en.wikipedia.org/wiki/Leoforos_Alexandras_Stadium"
 		},
 		"league": {
@@ -221,8 +221,8 @@
 			"surface": "grass",
 			"lat": 40.613889,
 			"lng": 22.9725,
-			"x": 322.9,
-			"y": 191.1,
+			"x": 351,
+			"y": 215,
 			"wiki": "https://en.wikipedia.org/wiki/Toumba_Stadium"
 		},
 		"league": {
@@ -284,8 +284,8 @@
 			"surface": "grass",
 			"lat": 38.63,
 			"lng": 21.411667,
-			"x": 182.8,
-			"y": 417.5,
+			"x": 199,
+			"y": 466,
 			"wiki": "https://en.wikipedia.org/wiki/Panetolikos_Stadium"
 		},
 		"league": {
@@ -347,8 +347,8 @@
 			"surface": "grass",
 			"lat": 37.5025,
 			"lng": 22.388611,
-			"x": 270.5,
-			"y": 546.2,
+			"x": 294,
+			"y": 606,
 			"wiki": "https://en.wikipedia.org/wiki/Theodoros_Kolokotronis_Stadium"
 		},
 		"league": {
@@ -410,8 +410,8 @@
 			"surface": "grass",
 			"lat": 38.91,
 			"lng": 22.431111,
-			"x": 274.3,
-			"y": 385.6,
+			"x": 299,
+			"y": 431,
 			"wiki": "https://en.wikipedia.org/wiki/Lamia_Municipal_Stadium"
 		},
 		"league": {
@@ -473,8 +473,8 @@
 			"surface": "grass",
 			"lat": 38.435897,
 			"lng": 22.882844,
-			"x": 314.9,
-			"y": 439.7,
+			"x": 343,
+			"y": 490,
 			"wiki": "https://en.wikipedia.org/wiki/Levadia_Municipal_Stadium"
 		},
 		"league": {
@@ -536,8 +536,8 @@
 			"surface": "grass",
 			"lat": 40.6,
 			"lng": 22.969444,
-			"x": 322.6,
-			"y": 192.7,
+			"x": 351,
+			"y": 217,
 			"wiki": "https://en.wikipedia.org/wiki/Kleanthis_Vikelidis_Stadium"
 		},
 		"league": {
@@ -599,8 +599,8 @@
 			"surface": "grass",
 			"lat": 35.338056,
 			"lng": 25.114722,
-			"x": 515.2,
-			"y": 793.2,
+			"x": 561,
+			"y": 868,
 			"wiki": "https://en.wikipedia.org/wiki/Theodoros_Vardinogiannis_Stadium"
 		},
 		"league": {
@@ -662,8 +662,8 @@
 			"surface": "grass",
 			"lat": 37.9601,
 			"lng": 23.7151,
-			"x": 389.6,
-			"y": 494,
+			"x": 424,
+			"y": 549,
 			"wiki": "https://en.wikipedia.org/wiki/Grigoris_Lamprakis_Stadium"
 		},
 		"league": {
@@ -725,8 +725,8 @@
 			"surface": "grass",
 			"lat": 41.0847,
 			"lng": 23.5466,
-			"x": 374.5,
-			"y": 137.4,
+			"x": 408,
+			"y": 155,
 			"wiki": "https://en.wikipedia.org/wiki/Serres_Municipal_Stadium"
 		},
 		"league": {
@@ -788,8 +788,8 @@
 			"surface": "grass",
 			"lat": 39.3875,
 			"lng": 22.931111,
-			"x": 319.2,
-			"y": 331.1,
+			"x": 347,
+			"y": 371,
 			"wiki": "https://en.wikipedia.org/wiki/Panthessaliko_Stadium"
 		},
 		"league": {
@@ -851,8 +851,8 @@
 			"surface": "grass",
 			"lat": 38.004722,
 			"lng": 23.689722,
-			"x": 387.3,
-			"y": 488.9,
+			"x": 422,
+			"y": 544,
 			"wiki": "https://en.wikipedia.org/wiki/Peristeri_Stadium"
 		},
 		"league": {
@@ -914,8 +914,8 @@
 			"surface": "grass",
 			"lat": 37.943033,
 			"lng": 23.709225,
-			"x": 0,
-			"y": 0,
+			"x": 423,
+			"y": 551,
 			"wiki": "https://en.wikipedia.org/wiki/Nea_Smyrni_Stadium"
 		},
 		"league": {
@@ -961,8 +961,8 @@
 			"surface": "grass",
 			"lat": 39.667647,
 			"lng": 20.848669,
-			"x": 132.2,
-			"y": 299.1,
+			"x": 144,
+			"y": 336,
 			"wiki": "https://es.wikipedia.org/wiki/Estadio_Zosimades"
 		},
 		"league": {
@@ -1024,8 +1024,8 @@
 			"surface": "grass",
 			"lat": 39.61561,
 			"lng": 22.39949,
-			"x": 271.5,
-			"y": 305,
+			"x": 295,
+			"y": 342,
 			"wiki": "https://en.wikipedia.org/wiki/AEL_FC_Arena"
 		},
 		"league": {
@@ -1087,8 +1087,8 @@
 			"surface": "grass",
 			"lat": 35.48726,
 			"lng": 24.000509,
-			"x": 415.2,
-			"y": 776.2,
+			"x": 452,
+			"y": 850,
 			"wiki": ""
 		},
 		"league": {
@@ -1150,8 +1150,8 @@
 			"surface": "grass",
 			"lat": 38.261667,
 			"lng": 21.745833,
-			"x": 212.8,
-			"y": 459.6,
+			"x": 232,
+			"y": 512,
 			"wiki": "https://en.wikipedia.org/wiki/Kostas_Davourlis_Stadium"
 		},
 		"league": {
@@ -1213,8 +1213,8 @@
 			"surface": "grass",
 			"lat": 40.320045,
 			"lng": 22.463949,
-			"x": 0,
-			"y": 0,
+			"x": 302,
+			"y": 253,
 			"wiki": ""
 		},
 		"league": {
@@ -1252,8 +1252,8 @@
 			"surface": "grass",
 			"lat": 37.04137,
 			"lng": 22.120933,
-			"x": 246.5,
-			"y": 598.8,
+			"x": 268,
+			"y": 662,
 			"wiki": ""
 		},
 		"league": {
@@ -1315,8 +1315,8 @@
 			"surface": "grass",
 			"lat": 40.946944,
 			"lng": 24.436111,
-			"x": 0,
-			"y": 0,
+			"x": 494,
+			"y": 173,
 			"wiki": "https://en.wikipedia.org/wiki/Anthi_Karagianni_Stadium"
 		},
 		"league": {
@@ -1354,8 +1354,8 @@
 			"surface": "grass",
 			"lat": 37.96425,
 			"lng": 23.775293,
-			"x": 395,
-			"y": 493.5,
+			"x": 430,
+			"y": 549,
 			"wiki": ""
 		},
 		"league": {
@@ -1417,8 +1417,8 @@
 			"surface": "grass",
 			"lat": 39.3875,
 			"lng": 22.931111,
-			"x": 319.2,
-			"y": 331.1,
+			"x": 347,
+			"y": 371,
 			"wiki": "https://en.wikipedia.org/wiki/Panthessaliko_Stadium"
 		},
 		"league": {
@@ -1480,8 +1480,8 @@
 			"surface": "grass",
 			"lat": 37.628602,
 			"lng": 22.714688,
-			"x": 0,
-			"y": 0,
+			"x": 326,
+			"y": 590,
 			"wiki": ""
 		},
 		"league": {
@@ -1519,8 +1519,8 @@
 			"surface": "grass",
 			"lat": 36.438228,
 			"lng": 28.228233,
-			"x": 794.8,
-			"y": 667.7,
+			"x": 865,
+			"y": 735,
 			"wiki": "https://en.wikipedia.org/wiki/Diagoras_Stadium"
 		},
 		"league": {
@@ -1582,8 +1582,8 @@
 			"surface": "grass",
 			"lat": 37.987169,
 			"lng": 23.676011,
-			"x": 386.1,
-			"y": 490.9,
+			"x": 420,
+			"y": 546,
 			"wiki": "https://en.wikipedia.org/wiki/Stavros_Mavrothalassitis_Stadium"
 		},
 		"league": {
@@ -1645,8 +1645,8 @@
 			"surface": "grass",
 			"lat": 40.677778,
 			"lng": 22.950278,
-			"x": 320.9,
-			"y": 183.8,
+			"x": 349,
+			"y": 207,
 			"wiki": "https://en.wikipedia.org/wiki/Makedonikos_Stadium"
 		},
 		"league": {
@@ -1708,8 +1708,8 @@
 			"surface": "grass",
 			"lat": 37.930688,
 			"lng": 23.746332,
-			"x": 392.4,
-			"y": 497.3,
+			"x": 427,
+			"y": 553,
 			"wiki": ""
 		},
 		"league": {
@@ -1771,8 +1771,8 @@
 			"surface": "grass",
 			"lat": 40.625497,
 			"lng": 22.967003,
-			"x": 322.4,
-			"y": 189.8,
+			"x": 351,
+			"y": 214,
 			"wiki": "https://en.wikipedia.org/wiki/Kaftanzoglio_Stadium"
 		},
 		"league": {
@@ -1834,8 +1834,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"x": -1893,
+			"y": 4551,
 			"wiki": ""
 		},
 		"league": {
@@ -1897,8 +1897,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"x": -1893,
+			"y": 4551,
 			"wiki": ""
 		},
 		"league": {
@@ -1960,8 +1960,8 @@
 			"surface": "grass",
 			"lat": 40.630269,
 			"lng": 22.741193,
-			"x": 302.1,
-			"y": 189.2,
+			"x": 329,
+			"y": 213,
 			"wiki": ""
 		},
 		"league": {
@@ -2023,8 +2023,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"x": -1893,
+			"y": 4551,
 			"wiki": ""
 		},
 		"league": {
@@ -2053,8 +2053,8 @@
 			"surface": "grass",
 			"lat": 39.362552,
 			"lng": 21.935127,
-			"x": 229.8,
-			"y": 333.9,
+			"x": 250,
+			"y": 374,
 			"wiki": "https://en.wikipedia.org/wiki/Municipal_Stadium_of_Karditsa"
 		},
 		"league": {},
@@ -2111,8 +2111,8 @@
 			"surface": "grass",
 			"lat": 40.581475,
 			"lng": 22.945114,
-			"x": 320.5,
-			"y": 194.8,
+			"x": 349,
+			"y": 220,
 			"wiki": "https://en.wikipedia.org/wiki/Kalamaria_Stadium"
 		},
 		"league": {},
@@ -2169,8 +2169,8 @@
 			"surface": "grass",
 			"lat": 39.097819,
 			"lng": 26.554267,
-			"x": 644.5,
-			"y": 364.1,
+			"x": 701,
+			"y": 408,
 			"wiki": "https://en.wikipedia.org/wiki/Mytilene_Municipal_Stadium"
 		},
 		"league": {},
@@ -2227,8 +2227,8 @@
 			"surface": "grass",
 			"lat": 38.829245,
 			"lng": 20.699236,
-			"x": 118.8,
-			"y": 394.8,
+			"x": 129,
+			"y": 441,
 			"wiki": ""
 		},
 		"league": {},
@@ -2285,8 +2285,8 @@
 			"surface": "grass",
 			"lat": 37.977122,
 			"lng": 23.635,
-			"x": 382.4,
-			"y": 492,
+			"x": 416,
+			"y": 547,
 			"wiki": "https://en.wikipedia.org/wiki/Neapoli_Stadium"
 		},
 		"league": {},
@@ -2343,8 +2343,8 @@
 			"surface": "grass",
 			"lat": 40.968821,
 			"lng": 22.065427,
-			"x": 241.5,
-			"y": 150.6,
+			"x": 263,
+			"y": 170,
 			"wiki": ""
 		},
 		"league": {},
@@ -2401,8 +2401,8 @@
 			"surface": "grass",
 			"lat": 35.245466,
 			"lng": 25.165553,
-			"x": 519.8,
-			"y": 803.8,
+			"x": 566,
+			"y": 879,
 			"wiki": ""
 		},
 		"league": {},
@@ -2459,8 +2459,8 @@
 			"surface": "grass",
 			"lat": 40.293597,
 			"lng": 21.782669,
-			"x": 216.1,
-			"y": 227.6,
+			"x": 235,
+			"y": 256,
 			"wiki": ""
 		},
 		"league": {},
@@ -2517,8 +2517,8 @@
 			"surface": "grass",
 			"lat": 37.970802,
 			"lng": 23.683007,
-			"x": 386.7,
-			"y": 492.8,
+			"x": 421,
+			"y": 548,
 			"wiki": ""
 		},
 		"league": {},
@@ -2575,8 +2575,8 @@
 			"surface": "grass",
 			"lat": 38.036068,
 			"lng": 23.7876,
-			"x": 396.1,
-			"y": 485.3,
+			"x": 431,
+			"y": 540,
 			"wiki": "https://en.wikipedia.org/wiki/Olympic_Stadium_(Athens)"
 		},
 		"league": {},

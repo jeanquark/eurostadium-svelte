@@ -16,8 +16,8 @@
 			"surface": "grass",
 			"lat": 50.0675,
 			"lng": 14.471667,
-			"x": 215.5,
-			"y": 265.3,
+			"x": 352,
+			"y": 443,
 			"wiki": "https://en.wikipedia.org/wiki/Fortuna_Arena"
 		},
 		"league": {
@@ -103,8 +103,8 @@
 			"surface": "grass",
 			"lat": 49.75,
 			"lng": 13.385556,
-			"x": 117.2,
-			"y": 309.7,
+			"x": 191,
+			"y": 516,
 			"wiki": "https://en.wikipedia.org/wiki/Doosan_Arena"
 		},
 		"league": {
@@ -182,8 +182,8 @@
 			"surface": "grass",
 			"lat": 50.099722,
 			"lng": 14.415833,
-			"x": 210.4,
-			"y": 260.7,
+			"x": 343,
+			"y": 436,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Letn%C3%A1"
 		},
 		"league": {
@@ -261,8 +261,8 @@
 			"surface": "grass",
 			"lat": 50.427222,
 			"lng": 14.916944,
-			"x": 255.8,
-			"y": 214.9,
+			"x": 418,
+			"y": 360,
 			"wiki": "https://en.wikipedia.org/wiki/Lokotrans_Ar%C3%A9na"
 		},
 		"league": {
@@ -324,8 +324,8 @@
 			"surface": "grass",
 			"lat": 50.776111,
 			"lng": 15.05,
-			"x": 267.8,
-			"y": 166.1,
+			"x": 437,
+			"y": 279,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_u_Nisy"
 		},
 		"league": {
@@ -395,8 +395,8 @@
 			"surface": "grass",
 			"lat": 50.715,
 			"lng": 15.162222,
-			"x": 278,
-			"y": 174.6,
+			"x": 454,
+			"y": 294,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_St%C5%99elnice"
 		},
 		"league": {
@@ -458,8 +458,8 @@
 			"surface": "grass",
 			"lat": 49.6,
 			"lng": 17.248333,
-			"x": 466.8,
-			"y": 330.7,
+			"x": 762,
+			"y": 550,
 			"wiki": "https://en.wikipedia.org/wiki/Andr%C5%AFv_stadion"
 		},
 		"league": {
@@ -529,8 +529,8 @@
 			"surface": "grass",
 			"lat": 49.804444,
 			"lng": 18.255833,
-			"x": 558,
-			"y": 302.1,
+			"x": 911,
+			"y": 503,
 			"wiki": "https://en.wikipedia.org/wiki/M%C4%9Bstsk%C3%BD_stadion_(Ostrava)"
 		},
 		"league": {
@@ -608,8 +608,8 @@
 			"surface": "grass",
 			"lat": 50.066944,
 			"lng": 14.454167,
-			"x": 213.9,
-			"y": 265.3,
+			"x": 349,
+			"y": 443,
 			"wiki": "https://en.wikipedia.org/wiki/%C4%8Eol%C3%AD%C4%8Dek"
 		},
 		"league": {
@@ -679,8 +679,8 @@
 			"surface": "grass",
 			"lat": 50.111944,
 			"lng": 14.3875,
-			"x": 207.9,
-			"y": 259,
+			"x": 339,
+			"y": 433,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Juliska"
 		},
 		"league": {
@@ -742,8 +742,8 @@
 			"surface": "grass",
 			"lat": 49.8453,
 			"lng": 18.5613,
-			"x": 585.6,
-			"y": 296.4,
+			"x": 956,
+			"y": 494,
 			"wiki": "https://en.wikipedia.org/wiki/M%C4%9Bstsk%C3%BD_stadion_(Karvin%C3%A1)"
 		},
 		"league": {
@@ -805,8 +805,8 @@
 			"surface": "grass",
 			"lat": 49.065556,
 			"lng": 17.471389,
-			"x": 487,
-			"y": 405.5,
+			"x": 795,
+			"y": 671,
 			"wiki": "https://en.wikipedia.org/wiki/M%C4%9Bstsk%C3%BD_fotbalov%C3%BD_stadion_Miroslava_Valenty"
 		},
 		"league": {
@@ -868,8 +868,8 @@
 			"surface": "grass",
 			"lat": 50.64,
 			"lng": 13.818056,
-			"x": 156.3,
-			"y": 185.1,
+			"x": 255,
+			"y": 311,
 			"wiki": "https://en.wikipedia.org/wiki/Na_St%C3%ADnadlech"
 		},
 		"league": {
@@ -939,8 +939,8 @@
 			"surface": "grass",
 			"lat": 50.2064,
 			"lng": 15.8454,
-			"x": 339.8,
-			"y": 245.8,
+			"x": 555,
+			"y": 411,
 			"wiki": "https://en.wikipedia.org/wiki/Mal%C5%A1ovick%C3%A1_ar%C3%A9na"
 		},
 		"league": {
@@ -1018,8 +1018,8 @@
 			"surface": "grass",
 			"lat": 50.041111,
 			"lng": 15.771111,
-			"x": 333.1,
-			"y": 268.9,
+			"x": 544,
+			"y": 449,
 			"wiki": "https://en.wikipedia.org/wiki/CFIG_Arena"
 		},
 		"league": {
@@ -1089,8 +1089,8 @@
 			"surface": "grass",
 			"lat": 48.966944,
 			"lng": 14.4675,
-			"x": 215.1,
-			"y": 419.3,
+			"x": 351,
+			"y": 693,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_St%C5%99eleck%C3%BD_ostrov"
 		},
 		"league": {
@@ -1144,8 +1144,8 @@
 			"surface": "grass",
 			"lat": 49.231389,
 			"lng": 17.669444,
-			"x": 504.9,
-			"y": 382.3,
+			"x": 824,
+			"y": 634,
 			"wiki": "https://en.wikipedia.org/wiki/Letn%C3%A1_Stadion_(Zl%C3%ADn)"
 		},
 		"league": {
@@ -1215,8 +1215,8 @@
 			"surface": "grass",
 			"lat": 49.949725,
 			"lng": 17.890092,
-			"x": 524.9,
-			"y": 281.7,
+			"x": 857,
+			"y": 470,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_v_M%C4%9Bstsk%C3%BDch_sadech"
 		},
 		"league": {
@@ -1270,8 +1270,8 @@
 			"surface": "grass",
 			"lat": 49.947322,
 			"lng": 15.804296,
-			"x": 336.1,
-			"y": 282.1,
+			"x": 549,
+			"y": 471,
 			"wiki": ""
 		},
 		"league": {
@@ -1317,8 +1317,8 @@
 			"surface": "grass",
 			"lat": 49.575181,
 			"lng": 17.300418,
-			"x": 471.5,
-			"y": 334.2,
+			"x": 770,
+			"y": 556,
 			"wiki": ""
 		},
 		"league": {
@@ -1364,8 +1364,8 @@
 			"surface": "grass",
 			"lat": 49.419912,
 			"lng": 14.66366,
-			"x": 232.9,
-			"y": 355.9,
+			"x": 380,
+			"y": 591,
 			"wiki": ""
 		},
 		"league": {
@@ -1419,8 +1419,8 @@
 			"surface": "grass",
 			"lat": 50.914902,
 			"lng": 14.618924,
-			"x": 228.8,
-			"y": 146.6,
+			"x": 373,
+			"y": 247,
 			"wiki": "https://en.wikipedia.org/wiki/M%C4%9Bstsk%C3%BD_stadion_v_Kotlin%C4%9B"
 		},
 		"league": {
@@ -1466,8 +1466,8 @@
 			"surface": "grass",
 			"lat": 50.083917,
 			"lng": 14.444606,
-			"x": 213,
-			"y": 263,
+			"x": 348,
+			"y": 439,
 			"wiki": "https://en.wikipedia.org/wiki/FK_Viktoria_Stadion"
 		},
 		"league": {
@@ -1529,8 +1529,8 @@
 			"surface": "grass",
 			"lat": 49.702603,
 			"lng": 14.8915,
-			"x": 253.5,
-			"y": 316.3,
+			"x": 414,
+			"y": 527,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Koll%C3%A1rova_ulice"
 		},
 		"league": {
@@ -1576,8 +1576,8 @@
 			"surface": "grass",
 			"lat": 49.402,
 			"lng": 15.5735,
-			"x": 315.2,
-			"y": 358.4,
+			"x": 515,
+			"y": 595,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_v_Jir%C3%A1skov%C4%9B_ulici"
 		},
 		"league": {
@@ -1631,8 +1631,8 @@
 			"surface": "grass",
 			"lat": 49.227162,
 			"lng": 16.586276,
-			"x": 406.9,
-			"y": 382.9,
+			"x": 664,
+			"y": 635,
 			"wiki": "https://en.wikipedia.org/wiki/M%C4%9Bstsk%C3%BD_fotbalov%C3%BD_stadion_Srbsk%C3%A1"
 		},
 		"league": {
@@ -1694,8 +1694,8 @@
 			"surface": "grass",
 			"lat": 49.202261,
 			"lng": 16.696255,
-			"x": 416.8,
-			"y": 386.4,
+			"x": 680,
+			"y": 640,
 			"wiki": ""
 		},
 		"league": {
@@ -1749,8 +1749,8 @@
 			"surface": "grass",
 			"lat": 49.275561,
 			"lng": 16.953611,
-			"x": 440.1,
-			"y": 376.1,
+			"x": 718,
+			"y": 624,
 			"wiki": "https://nl.wikipedia.org/wiki/Sportovn%C3%AD_are%C3%A1l_Drnovice"
 		},
 		"league": {
@@ -1812,8 +1812,8 @@
 			"surface": "grass",
 			"lat": 50.109741,
 			"lng": 14.599274,
-			"x": 0,
-			"y": 0,
+			"x": 371,
+			"y": 434,
 			"wiki": "https://en.wikipedia.org/wiki/Na_Chvalech"
 		},
 		"league": {
@@ -1851,8 +1851,8 @@
 			"surface": "grass",
 			"lat": 50.083917,
 			"lng": 14.444606,
-			"x": 213,
-			"y": 263,
+			"x": 348,
+			"y": 439,
 			"wiki": "https://en.wikipedia.org/wiki/FK_Viktoria_Stadion"
 		},
 		"league": {
@@ -1914,8 +1914,8 @@
 			"surface": "grass",
 			"lat": 49.845,
 			"lng": 18.299444,
-			"x": 0,
-			"y": 0,
+			"x": 917,
+			"y": 494,
 			"wiki": "https://en.wikipedia.org/wiki/Bazaly"
 		},
 		"league": {
@@ -1953,8 +1953,8 @@
 			"surface": "grass",
 			"lat": 49.6,
 			"lng": 17.248333,
-			"x": 466.8,
-			"y": 330.7,
+			"x": 762,
+			"y": 550,
 			"wiki": "https://en.wikipedia.org/wiki/Andr%C5%AFv_stadion"
 		},
 		"league": {
@@ -2024,8 +2024,8 @@
 			"surface": "grass",
 			"lat": 49.676944,
 			"lng": 13.976389,
-			"x": 170.7,
-			"y": 319.9,
+			"x": 279,
+			"y": 533,
 			"wiki": "https://en.wikipedia.org/wiki/Na_Litavce"
 		},
 		"league": {},
@@ -2082,8 +2082,8 @@
 			"surface": "grass",
 			"lat": 49.289883,
 			"lng": 17.402386,
-			"x": 480.7,
-			"y": 374.1,
+			"x": 785,
+			"y": 620,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_SK_Han%C3%A1ck%C3%A1_Slavia_Krom%C4%9B%C5%99%C3%AD%C5%BE"
 		},
 		"league": {},
