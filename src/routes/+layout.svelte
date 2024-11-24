@@ -1,4 +1,5 @@
 <script>
+    import { base } from "$app/paths";
     import Header from './Header.svelte'
 	// import Logo from './components/Logo.svelte'
     import '../app.css'
@@ -14,7 +15,7 @@
     <header style="border: 2px solid green;">
 		<div class="d-flex justify-center align-center">
 			<h3 class="text-center my-2">Football stadiums across Europe</h3>
-        	<img src="/images/logo_without_image.svg" width="200" alt="logo" class="text-center" />
+        	<img src="{base}/images/logo_without_image.svg" width="200" alt="logo" class="text-center" />
 		</div>
 		<!-- <Logo /> -->
     </header>
