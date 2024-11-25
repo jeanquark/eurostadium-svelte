@@ -43,7 +43,7 @@ function createStadiumStore() {
         },
         async fetchStadiumsByCountrySlug(countrySlug) {
             console.log('[Store] fetchStadiumsByCountrySlug: ', countrySlug);
-            const { data, error } = await supabase.from('teams_view').select(`stadium_id, stadium_api_football_id, stadium_name, stadium_city, stadium_capacity, stadium_wiki, stadium_x, stadium_y, league_id, league_api_football_id, league_name, team_id, team_api_football_id, team_name, image_name, image_src, image_url`).eq('country_slug', countrySlug)
+            const { data, error } = await supabase.from('teams_view').select(`stadium_id, stadium_api_football_id, stadium_name, stadium_city, stadium_capacity, stadium_wiki, stadium_x, stadium_y, league_id, league_api_football_id, league_name, team_id, team_api_football_id, team_name, image_name, image_url`).eq('country_slug', countrySlug)
             // console.log('[stadiumStore] data: ', data)
             if (error) {
                 console.log('error: ', error)
@@ -80,7 +80,7 @@ function createStadiumStore() {
                             images: [{
                                 name: item.image_name,
                                 url: item.image_url,
-                                src: item.image_src
+                                // src: item.image_src
                             }]
                         })
                     } else {
@@ -102,7 +102,7 @@ function createStadiumStore() {
                         collection.images.push({
                             name: item.image_name,
                             url: item.image_url,
-                            src: item.image_src
+                            // src: item.image_src
                         })
                     }
                 })

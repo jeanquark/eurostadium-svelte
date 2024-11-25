@@ -53,7 +53,8 @@ export async function GET({ url }) {
 
 
         // 3) Create a signed URL
-        for (let i = 0; i < 5; i++) {
+        // for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < images.length; i++) {
             const { data: data2, error: error2 } = await supabase
                 .storage
                 .from('stadiums')

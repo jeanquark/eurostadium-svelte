@@ -146,6 +146,9 @@
         console.log('carousel: ', carousel)
         carousel.goToNext()
     }
+    const getImageSource = (imageId) => {
+        console.log('getImageSource imageId: ', imageId)
+    }
 
     const onPageChange = (event) => {
         console.log('onPageChange event: ', event)
@@ -298,6 +301,7 @@
                 Wiki
                 <img src="{base}/images/icons/external-link.svg" width="10" alt="Wikipedia icon" />
             </a>
+            <button onclick={() => getImageSource(1)}>Source</button>
         </div>
     </div>
     <div class="row justify-center align-center">
