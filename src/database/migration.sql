@@ -105,12 +105,13 @@ CREATE TABLE images (
   user_id uuid,
   api_football_venue_id INT NOT NULL,
   name VARCHAR(60) NOT NULL UNIQUE,
-  slug VARCHAR(60),
+  -- slug VARCHAR(60),
   source VARCHAR(511),
   width SMALLINT,
   height SMALLINT,
   size INT,
   url TEXT,
+  display_order SMALLINT,
   is_active BOOLEAN DEFAULT FALSE,
   inserted_at timestamp with time zone DEFAULT timezone('utc'::text, now()) NOT NULL,
   updated_at timestamp with time zone DEFAULT timezone('utc'::text, now()) NOT NULL,
@@ -124,5 +125,5 @@ CREATE TABLE image_uploads (
   name VARCHAR(255),
   url TEXT,
   inserted_at timestamp with time zone DEFAULT timezone('utc'::text, now()) NOT NULL,
-  CONSTRAINT fk_user_id FOREIGN KEY (user_id) REFERENCES users (id),
+  CONSTRAINT fk_user_id FOREIGN KEY (user_id) REFERENCES users (id)
 );

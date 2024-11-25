@@ -5,7 +5,8 @@
 			"name": "OH Leuven",
 			"code": "LEU",
 			"country": "Belgium",
-			"founded": 1957
+			"founded": 1957,
+			"wiki": "https://en.wikipedia.org/wiki/Oud-Heverlee_Leuven"
 		},
 		"venue": {
 			"api_football_id": 186,
@@ -76,7 +77,8 @@
 			"name": "KVC Westerlo",
 			"code": "WES",
 			"country": "Belgium",
-			"founded": 1933
+			"founded": 1933,
+			"wiki": "https://en.wikipedia.org/wiki/K.V.C._Westerlo"
 		},
 		"venue": {
 			"api_football_id": 195,
@@ -139,7 +141,8 @@
 			"name": "Beerschot Wilrijk",
 			"code": null,
 			"country": "Belgium",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/K_Beerschot_VA"
 		},
 		"venue": {
 			"api_football_id": 181,
@@ -194,7 +197,8 @@
 			"name": "KV Mechelen",
 			"code": "MEC",
 			"country": "Belgium",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": "https://en.wikipedia.org/wiki/K.V._Mechelen"
 		},
 		"venue": {
 			"api_football_id": 20336,
@@ -257,7 +261,8 @@
 			"name": "Anderlecht",
 			"code": "AND",
 			"country": "Belgium",
-			"founded": 1908
+			"founded": 1908,
+			"wiki": "https://en.wikipedia.org/wiki/R.S.C._Anderlecht"
 		},
 		"venue": {
 			"api_football_id": 174,
@@ -328,7 +333,8 @@
 			"name": "Club Brugge KV",
 			"code": "CLU",
 			"country": "Belgium",
-			"founded": 1891
+			"founded": 1891,
+			"wiki": "https://en.wikipedia.org/wiki/Club_Brugge_KV"
 		},
 		"venue": {
 			"api_football_id": 176,
@@ -399,7 +405,8 @@
 			"name": "Gent",
 			"code": "GEN",
 			"country": "Belgium",
-			"founded": 1900
+			"founded": 1900,
+			"wiki": "https://fr.wikipedia.org/wiki/KAA_La_Gantoise"
 		},
 		"venue": {
 			"api_football_id": 20727,
@@ -470,7 +477,8 @@
 			"name": "Standard Liege",
 			"code": "STA",
 			"country": "Belgium",
-			"founded": 1898
+			"founded": 1898,
+			"wiki": "https://en.wikipedia.org/wiki/Standard_Li%C3%A8ge"
 		},
 		"venue": {
 			"api_football_id": 192,
@@ -549,7 +557,8 @@
 			"name": "Kortrijk",
 			"code": "KOR",
 			"country": "Belgium",
-			"founded": 1901
+			"founded": 1901,
+			"wiki": "https://en.wikipedia.org/wiki/K.V._Kortrijk"
 		},
 		"venue": {
 			"api_football_id": 182,
@@ -612,7 +621,8 @@
 			"name": "St. Truiden",
 			"code": "TRU",
 			"country": "Belgium",
-			"founded": 1924
+			"founded": 1924,
+			"wiki": "https://en.wikipedia.org/wiki/Sint-Truidense_V.V."
 		},
 		"venue": {
 			"api_football_id": 19611,
@@ -683,7 +693,8 @@
 			"name": "Charleroi",
 			"code": "CHA",
 			"country": "Belgium",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": "https://en.wikipedia.org/wiki/Royal_Charleroi_S.C."
 		},
 		"venue": {
 			"api_football_id": 177,
@@ -746,7 +757,8 @@
 			"name": "Antwerp",
 			"code": "ANT",
 			"country": "Belgium",
-			"founded": 1880
+			"founded": 1880,
+			"wiki": "https://en.wikipedia.org/wiki/Royal_Antwerp_F.C."
 		},
 		"venue": {
 			"api_football_id": 175,
@@ -809,7 +821,8 @@
 			"name": "Cercle Brugge",
 			"code": "CER",
 			"country": "Belgium",
-			"founded": 1899
+			"founded": 1899,
+			"wiki": "https://en.wikipedia.org/wiki/Cercle_Brugge_K.S.V."
 		},
 		"venue": {
 			"api_football_id": 176,
@@ -880,7 +893,8 @@
 			"name": "Genk",
 			"code": "GEN",
 			"country": "Belgium",
-			"founded": 1988
+			"founded": 1988,
+			"wiki": "https://fr.wikipedia.org/wiki/KRC_Genk"
 		},
 		"venue": {
 			"api_football_id": 12455,
@@ -943,7 +957,8 @@
 			"name": "Union St. Gilloise",
 			"code": "GIL",
 			"country": "Belgium",
-			"founded": 1897
+			"founded": 1897,
+			"wiki": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise"
 		},
 		"venue": {
 			"api_football_id": 194,
@@ -1006,7 +1021,8 @@
 			"name": "Dender",
 			"code": "DEN",
 			"country": "Belgium",
-			"founded": 1935
+			"founded": 1935,
+			"wiki": "https://en.wikipedia.org/wiki/F.C.V._Dender_E.H."
 		},
 		"venue": {
 			"api_football_id": 19052,
@@ -1069,7 +1085,8 @@
 			"name": "Lommel United",
 			"code": "KVS",
 			"country": "Belgium",
-			"founded": 1937
+			"founded": 1937,
+			"wiki": "https://en.wikipedia.org/wiki/Lommel_S.K."
 		},
 		"venue": {
 			"api_football_id": 20335,
@@ -1132,7 +1149,8 @@
 			"name": "Zulte Waregem",
 			"code": "WAR",
 			"country": "Belgium",
-			"founded": 2001
+			"founded": 2001,
+			"wiki": "https://en.wikipedia.org/wiki/S.V._Zulte_Waregem"
 		},
 		"venue": {
 			"api_football_id": 11891,
@@ -1187,7 +1205,8 @@
 			"name": "Waasland-beveren",
 			"code": "WAA",
 			"country": "Belgium",
-			"founded": 1936
+			"founded": 1936,
+			"wiki": "https://en.wikipedia.org/wiki/S.K._Beveren"
 		},
 		"venue": {
 			"api_football_id": 189,
@@ -1250,7 +1269,8 @@
 			"name": "AS Eupen",
 			"code": "EUP",
 			"country": "Belgium",
-			"founded": 1945
+			"founded": 1945,
+			"wiki": "https://en.wikipedia.org/wiki/K.A.S._Eupen"
 		},
 		"venue": {
 			"api_football_id": 20333,
@@ -1321,7 +1341,8 @@
 			"name": "Francs Borains",
 			"code": null,
 			"country": "Belgium",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/Francs_Borains"
 		},
 		"venue": {
 			"api_football_id": 4311,
@@ -1384,7 +1405,8 @@
 			"name": "RAAL La Louvière",
 			"code": null,
 			"country": "Belgium",
-			"founded": 2017
+			"founded": 2017,
+			"wiki": "https://en.wikipedia.org/wiki/RAAL_La_Louvi%C3%A8re"
 		},
 		"venue": {
 			"api_football_id": 10514,
@@ -1423,7 +1445,8 @@
 			"name": "Deinze",
 			"code": "DEI",
 			"country": "Belgium",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/K.M.S.K._Deinze"
 		},
 		"venue": {
 			"api_football_id": 12688,
@@ -1470,7 +1493,8 @@
 			"name": "Lierse Kempenzonen",
 			"code": null,
 			"country": "Belgium",
-			"founded": 2018
+			"founded": 2018,
+			"wiki": "https://en.wikipedia.org/wiki/Lierse_S.K._(2018)"
 		},
 		"venue": {
 			"api_football_id": 2664,
@@ -1533,7 +1557,8 @@
 			"name": "Liège",
 			"code": null,
 			"country": "Belgium",
-			"founded": 1995
+			"founded": 1995,
+			"wiki": "https://en.wikipedia.org/wiki/RFC_Li%C3%A8ge"
 		},
 		"venue": {
 			"api_football_id": 21404,
@@ -1580,7 +1605,8 @@
 			"name": "Patro Eisden",
 			"code": "PAT",
 			"country": "Belgium",
-			"founded": 1942
+			"founded": 1942,
+			"wiki": "https://en.wikipedia.org/wiki/K._Patro_Eisden_Maasmechelen"
 		},
 		"venue": {
 			"api_football_id": 20343,
@@ -1635,7 +1661,8 @@
 			"name": "RWDM",
 			"code": null,
 			"country": "Belgium",
-			"founded": 2015
+			"founded": 2015,
+			"wiki": "https://en.wikipedia.org/wiki/R.W.D._Molenbeek_(2015)"
 		},
 		"venue": {
 			"api_football_id": 19385,
@@ -1690,7 +1717,8 @@
 			"name": "Seraing United",
 			"code": null,
 			"country": "Belgium",
-			"founded": 1901
+			"founded": 1901,
+			"wiki": "https://en.wikipedia.org/wiki/R.F.C._Seraing_(1922)"
 		},
 		"venue": {
 			"api_football_id": 4600,
@@ -1761,7 +1789,8 @@
 			"name": "Lokeren-Temse",
 			"code": null,
 			"country": "Belgium",
-			"founded": 2020
+			"founded": 2020,
+			"wiki": "https://en.wikipedia.org/wiki/K.S.C._Lokeren-Temse"
 		},
 		"venue": {
 			"api_football_id": 183,
@@ -1800,7 +1829,8 @@
 			"name": "Club Brugge II",
 			"code": null,
 			"country": "Belgium",
-			"founded": null
+			"founded": null,
+			"wiki": "https://fr.wikipedia.org/wiki/Club_Bruges_KV"
 		},
 		"venue": {
 			"api_football_id": 18696,
@@ -1847,7 +1877,8 @@
 			"name": "KRC Genk II",
 			"code": null,
 			"country": "Belgium",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/K.R.C._Genk"
 		},
 		"venue": {
 			"api_football_id": 20341,
@@ -1894,7 +1925,8 @@
 			"name": "RSC Anderlecht II",
 			"code": null,
 			"country": "Belgium",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/R.S.C._Anderlecht"
 		},
 		"venue": {
 			"api_football_id": 174,
@@ -1965,7 +1997,8 @@
 			"name": "Oostende",
 			"code": "OOS",
 			"country": "Belgium",
-			"founded": 1981
+			"founded": 1981,
+			"wiki": "https://en.wikipedia.org/wiki/K.V._Oostende"
 		},
 		"venue": {
 			"api_football_id": 10509,
@@ -2023,7 +2056,8 @@
 			"name": "Standard Liège II",
 			"code": null,
 			"country": "Belgium",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Standard_Li%C3%A8ge"
 		},
 		"venue": {
 			"api_football_id": null,

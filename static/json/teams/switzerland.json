@@ -5,7 +5,8 @@
 			"name": "FC Basel 1893",
 			"code": "BAS",
 			"country": "Switzerland",
-			"founded": 1893
+			"founded": 1893,
+			"wiki": "FC Basel 1893"
 		},
 		"venue": {
 			"api_football_id": 1530,
@@ -104,7 +105,8 @@
 			"name": "BSC Young Boys",
 			"code": "YOU",
 			"country": "Switzerland",
-			"founded": 1898
+			"founded": 1898,
+			"wiki": "https://en.wikipedia.org/wiki/BSC_Young_Boys"
 		},
 		"venue": {
 			"api_football_id": 10500,
@@ -189,7 +191,8 @@
 			"name": "FC Lugano",
 			"code": "LUG",
 			"country": "Switzerland",
-			"founded": 1908
+			"founded": 1908,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Lugano"
 		},
 		"venue": {
 			"api_football_id": 1536,
@@ -262,7 +265,8 @@
 			"name": "FC Sion",
 			"code": "SIO",
 			"country": "Switzerland",
-			"founded": 1909
+			"founded": 1909,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Sion"
 		},
 		"venue": {
 			"api_football_id": 1542,
@@ -351,7 +355,8 @@
 			"name": "FC Luzern",
 			"code": "LUZ",
 			"country": "Switzerland",
-			"founded": 1901
+			"founded": 1901,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Luzern"
 		},
 		"venue": {
 			"api_football_id": 1537,
@@ -440,7 +445,8 @@
 			"name": "FC Zurich",
 			"code": "ZUR",
 			"country": "Switzerland",
-			"founded": 1896
+			"founded": 1896,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Z%C3%BCrich"
 		},
 		"venue": {
 			"api_football_id": 1533,
@@ -537,7 +543,8 @@
 			"name": "FC ST. Gallen",
 			"code": "GAL",
 			"country": "Switzerland",
-			"founded": 1879
+			"founded": 1879,
+			"wiki": "https://en.wikipedia.org/wiki/FC_St._Gallen"
 		},
 		"venue": {
 			"api_football_id": 1543,
@@ -618,7 +625,8 @@
 			"name": "Grasshoppers",
 			"code": "GRA",
 			"country": "Switzerland",
-			"founded": 1886
+			"founded": 1886,
+			"wiki": "https://en.wikipedia.org/wiki/Grasshopper_Club_Zurich"
 		},
 		"venue": {
 			"api_football_id": 1533,
@@ -715,7 +723,8 @@
 			"name": "Lausanne",
 			"code": "LAU",
 			"country": "Switzerland",
-			"founded": 1896
+			"founded": 1896,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Lausanne-Sport"
 		},
 		"venue": {
 			"api_football_id": 11917,
@@ -796,7 +805,8 @@
 			"name": "FC Winterthur",
 			"code": "WIN",
 			"country": "Switzerland",
-			"founded": 1896
+			"founded": 1896,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Winterthur"
 		},
 		"venue": {
 			"api_football_id": 1547,
@@ -869,7 +879,8 @@
 			"name": "Servette FC",
 			"code": "SER",
 			"country": "Switzerland",
-			"founded": 1890
+			"founded": 1890,
+			"wiki": "https://en.wikipedia.org/wiki/Servette_FC"
 		},
 		"venue": {
 			"api_football_id": 1541,
@@ -966,7 +977,8 @@
 			"name": "Yverdon Sport",
 			"code": "YVE",
 			"country": "Switzerland",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": "https://en.wikipedia.org/wiki/Yverdon-Sport_FC"
 		},
 		"venue": {
 			"api_football_id": 4859,
@@ -1039,7 +1051,8 @@
 			"name": "FC Vaduz",
 			"code": "VAD",
 			"country": "Liechtenstein",
-			"founded": 1932
+			"founded": 1932,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Vaduz"
 		},
 		"venue": {
 			"api_football_id": 1545,
@@ -1112,7 +1125,8 @@
 			"name": "FC Thun",
 			"code": "THU",
 			"country": "Switzerland",
-			"founded": 1898
+			"founded": 1898,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Thun"
 		},
 		"venue": {
 			"api_football_id": 1544,
@@ -1193,7 +1207,8 @@
 			"name": "Neuchatel Xamax FC",
 			"code": "XAM",
 			"country": "Switzerland",
-			"founded": 1970
+			"founded": 1970,
+			"wiki": "https://en.wikipedia.org/wiki/Neuch%C3%A2tel_Xamax_FCS"
 		},
 		"venue": {
 			"api_football_id": 1538,
@@ -1290,7 +1305,8 @@
 			"name": "FC Aarau",
 			"code": "AAR",
 			"country": "Switzerland",
-			"founded": 1902
+			"founded": 1902,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Aarau"
 		},
 		"venue": {
 			"api_football_id": 1531,
@@ -1371,7 +1387,8 @@
 			"name": "FC WIL 1900",
 			"code": "WIL",
 			"country": "Switzerland",
-			"founded": 1900
+			"founded": 1900,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Wil"
 		},
 		"venue": {
 			"api_football_id": 19218,
@@ -1444,7 +1461,8 @@
 			"name": "FC Schaffhausen",
 			"code": "SCH",
 			"country": "Switzerland",
-			"founded": 1896
+			"founded": 1896,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Schaffhausen"
 		},
 		"venue": {
 			"api_football_id": 20337,
@@ -1517,7 +1535,8 @@
 			"name": "Stade Lausanne-Ouchy",
 			"code": "STA",
 			"country": "Switzerland",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Stade_Lausanne_Ouchy"
 		},
 		"venue": {
 			"api_football_id": 1535,
@@ -1582,7 +1601,8 @@
 			"name": "Bellinzona",
 			"code": null,
 			"country": "Switzerland",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": "https://en.wikipedia.org/wiki/AC_Bellinzona"
 		},
 		"venue": {
 			"api_football_id": 4830,
@@ -1647,7 +1667,8 @@
 			"name": "Stade Nyonnais",
 			"code": "STA",
 			"country": "Switzerland",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Stade_Nyonnais"
 		},
 		"venue": {
 			"api_football_id": 3264,
@@ -1712,7 +1733,8 @@
 			"name": "Étoile Carouge",
 			"code": "ETO",
 			"country": "Switzerland",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": "https://en.wikipedia.org/wiki/%C3%89toile_Carouge_FC"
 		},
 		"venue": {
 			"api_football_id": 4860,

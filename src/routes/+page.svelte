@@ -32,9 +32,6 @@
     import camelize from "../utils/convertToCamelCase";
     import Carousel from "./components/Carousel.svelte";
     import FilterButtons from "./components/FilterButtons.svelte";
-    import Account from "./auth/Account.svelte";
-    import Login from "./auth/Login.svelte";
-    import Register from "./auth/Register.svelte";
 
     const dispatch = createEventDispatcher();
 
@@ -77,7 +74,8 @@
             console.log("Desktop device detected");
         }
         if ($leagueStore.leagues.length < 2) {
-            fetchLeagues();
+            // fetchLeagues();
+            await leagueStore.fetchLeagues();
         }
         if (hasSmallScreen() && hasTouchSupport()) {
             isMobileDevice = true;
@@ -569,7 +567,9 @@
     <div class="col-12 text-center" style="overflow: auto;">
         <!-- </div> -->
         <br />
-        <a href="{base}/about">About page</a>&nbsp;|&nbsp;<a href="{base}/upload-image">Upload image</a>
+        <a href="{base}/about">About page</a>&nbsp;|&nbsp;<a href="{base}/upload-image">Upload image</a>&nbsp;|&nbsp;
+        <a href="{base}/auth/login">Login</a>&nbsp;|&nbsp;
+        <a href="{base}/auth/register">Register</a>
         <br /><br />
         <button on:click={() => (showModal = true)}>Show modal</button>
         <Modal bind:showModal bind:stadiums bind:country>
@@ -609,6 +609,7 @@
         $stadiumStore.stadiumsByCountry[switzerland].length: {$stadiumStore
             .stadiumsByCountry["switzerland"]?.length}<br />
         stadiums.length: {stadiums.length}<br />
+        leaguesStore.leagues.length: {$leagueStore.leagues.length}<br />
         <!-- selectedStadium: {selectedStadium}<br /> -->
         filterValue: {filterValue}<br />
         <button on:click={() => stadiumStore.toggleLoading()}
@@ -702,11 +703,11 @@
     style="position: relative;"
 >
     <div
-        class="col-sm-1 col-md-4 col-lg-3 col-xl-4 border-1 hidden-sm-and-down"
+        class="col-sm-1 col-md-4 col-lg-3 col-xl-3 border-1 hidden-sm-and-down"
         style=""
     ></div>
     <div
-        class="col-sm-10 col-md-4 col-lg-6 col-xl-4 border-2"
+        class="col-sm-10 col-md-4 col-lg-6 col-xl-6 border-2"
         style="background: #FFF;"
     >
         {#if showCountryTooltip}
@@ -754,7 +755,7 @@
         </div>
     </div>
     <div
-        class="col-sm-1 col-md-4 col-lg-3 col-xl-4 justify-center align-content border-3 d-xs-none hidden-sm-and-down"
+        class="col-sm-1 col-md-4 col-lg-3 col-xl-3 justify-center align-content border-3 d-xs-none hidden-sm-and-down"
     >
         {#if showFilterButtons}
             <FilterButtons
@@ -779,7 +780,7 @@
     <br /><br /><br /><br />
     <br /><br /><br /><br />
     <br /><br /><br /><br /> -->
-    <div class="col-6">
+    <!-- <div class="col-6">
         {#if !session}
             <Login />
         {:else}
@@ -788,7 +789,7 @@
     </div>
     <div class="col-6">
         <Register />
-    </div>
+    </div> -->
 </div>
 
 <style>

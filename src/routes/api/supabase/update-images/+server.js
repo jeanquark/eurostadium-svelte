@@ -48,6 +48,8 @@ export async function GET({ url }) {
                                 name: countryTeams[i]['images'][j]['name'],
                                 source: countryTeams[i]['images'][j]['source'],
                                 width: 0,
+                                height: 0,
+                                display_order: countryTeams[i]['images'][j]['display_order'] ? countryTeams[i]['images'][j]['display_order'] : j + 1,
                                 is_active: true
                             },
                             {

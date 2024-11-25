@@ -8,8 +8,8 @@ export async function GET({ url }) {
     console.log('[api/api-football/fetch-eurostadium-teams] season: ', url.searchParams.get('season'));
 
     const SEASON = 2024;
-    const COUNTRY_START_INDEX = 46
-    const COUNTRY_END_INDEX = 50
+    const COUNTRY_START_INDEX = 2
+    const COUNTRY_END_INDEX = 2
 
     // const countryObj = {
     //     name: 'Switzerland',
@@ -18,15 +18,8 @@ export async function GET({ url }) {
     const file1 = './static/json/countries.json';
     const file2 = './static/json/leagues.json';
 
-    // const countriesFile = await fs.readFile(file1, "binary");
     const countriesFile = await fs.readFile(file1, "utf8");
-    // const leaguesFile = await fs.readFile(file2, "binary");
     const leaguesFile = await fs.readFile(file2, "utf8");
-    // const teamsFile = await fs.readFile(file3, "binary");
-    // console.log('countriesFile: ', countriesFile);
-    // console.log('leaguesFile: ', leaguesFile);
-    // console.log('teamsFile: ', teamsFile);
-    // return
 
     let countriesArray = []
     let leaguesArray = []
@@ -45,7 +38,6 @@ export async function GET({ url }) {
 
         countryLeagues = leaguesArray.filter((league) => league.country == countriesArray[i]['name'])
         console.log('countryLeagues: ', countryLeagues);
-        // return
 
         const file = `./static/json/teams/${countriesArray[i].slug}.json`;
         // const teamsFile = await fs.readFile(file, "binary");
@@ -90,10 +82,10 @@ export async function GET({ url }) {
         let n = 0;
         for (let j = 0; j < apiFootballTeams.length; j++) {
             let obj = { team: {}, venue: {}, league: {} }
-            let team = null
+            let currentTeam = null
             const countryTeam = countryTeams.find((el) => el.team.api_football_id == apiFootballTeams[j]['team']['id'])
             if (countryTeam) {
-                team = countryTeam
+                currentTeam = countryTeam
             }
             // console.log('team: ', team);
 
@@ -102,6 +94,7 @@ export async function GET({ url }) {
             obj['team']['code'] = apiFootballTeams[j]['team']['code']
             obj['team']['country'] = apiFootballTeams[j]['team']['country']
             obj['team']['founded'] = apiFootballTeams[j]['team']['founded']
+            obj['team']['wiki'] = currentTeam && currentTeam.team && currentTeam.team.wiki ? currentTeam.team.wiki : ""
 
             obj['venue']['api_football_id'] = apiFootballTeams[j]['venue']['id']
             obj['venue']['name'] = apiFootballTeams[j]['venue']['name']
@@ -109,18 +102,18 @@ export async function GET({ url }) {
             obj['venue']['city'] = apiFootballTeams[j]['venue']['city']
             obj['venue']['capacity'] = apiFootballTeams[j]['venue']['capacity']
             obj['venue']['surface'] = apiFootballTeams[j]['venue']['surface']
-            obj['venue']['lat'] = (team && team.venue && team.venue.lat) ? team.venue.lat : 0.0
-            obj['venue']['lng'] = (team && team.venue && team.venue.lng) ? team.venue.lng : 0.0
-            obj['venue']['x'] = (team && team.venue && team.venue.x) ? team.venue.x : 0
-            obj['venue']['y'] = (team && team.venue && team.venue.y) ? team.venue.y : 0
-            obj['venue']['url'] = (team && team.venue && team.venue.url) ? team.venue.url : ""
+            obj['venue']['lat'] = (currentTeam && currentTeam.venue && currentTeam.venue.lat) ? currentTeam.venue.lat : 0.0
+            obj['venue']['lng'] = (currentTeam && currentTeam.venue && currentTeam.venue.lng) ? currentTeam.venue.lng : 0.0
+            obj['venue']['x'] = (currentTeam && currentTeam.venue && currentTeam.venue.x) ? currentTeam.venue.x : 0
+            obj['venue']['y'] = (currentTeam && currentTeam.venue && currentTeam.venue.y) ? currentTeam.venue.y : 0
+            obj['venue']['wiki'] = (currentTeam && currentTeam.venue && currentTeam.venue.wiki) ? currentTeam.venue.wiki : ""
 
             obj['league']['api_football_id'] = apiFootballTeams[j]['league']['api_football_id']
             obj['league']['name'] = apiFootballTeams[j]['league']['name']
             obj['league']['country'] = apiFootballTeams[j]['league']['country']
             obj['league']['api_football_country_id'] = apiFootballTeams[j]['league']['api_football_country_id']
 
-            obj['images'] = team && team.images ? team.images : []
+            obj['images'] = currentTeam && currentTeam.images ? currentTeam.images : []
 
             obj['no'] = j + 1
             n++
