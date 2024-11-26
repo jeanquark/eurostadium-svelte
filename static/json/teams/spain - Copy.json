@@ -5,7 +5,8 @@
 			"name": "Barcelona",
 			"code": "BAR",
 			"country": "Spain",
-			"founded": 1899
+			"founded": 1899,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Barcelona"
 		},
 		"venue": {
 			"api_football_id": 19939,
@@ -99,7 +100,8 @@
 			"name": "Atletico Madrid",
 			"code": "MAD",
 			"country": "Spain",
-			"founded": 1903
+			"founded": 1903,
+			"wiki": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
 		},
 		"venue": {
 			"api_football_id": 19217,
@@ -186,7 +188,8 @@
 			"name": "Athletic Club",
 			"code": "BIL",
 			"country": "Spain",
-			"founded": 1898
+			"founded": 1898,
+			"wiki": "https://en.wikipedia.org/wiki/Athletic_Bilbao"
 		},
 		"venue": {
 			"api_football_id": 1460,
@@ -273,7 +276,8 @@
 			"name": "Valencia",
 			"code": "VAL",
 			"country": "Spain",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/Valencia_CF"
 		},
 		"venue": {
 			"api_football_id": 1497,
@@ -376,7 +380,8 @@
 			"name": "Villarreal",
 			"code": "VIL",
 			"country": "Spain",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/Villarreal_CF"
 		},
 		"venue": {
 			"api_football_id": 1498,
@@ -463,7 +468,8 @@
 			"name": "Las Palmas",
 			"code": "PAL",
 			"country": "Spain",
-			"founded": 1949
+			"founded": 1949,
+			"wiki": "https://en.wikipedia.org/wiki/UD_Las_Palmas"
 		},
 		"venue": {
 			"api_football_id": 1481,
@@ -542,7 +548,8 @@
 			"name": "Sevilla",
 			"code": "SEV",
 			"country": "Spain",
-			"founded": 1890
+			"founded": 1890,
+			"wiki": "https://en.wikipedia.org/wiki/Sevilla_FC"
 		},
 		"venue": {
 			"api_football_id": 1494,
@@ -621,7 +628,8 @@
 			"name": "Leganes",
 			"code": "LEG",
 			"country": "Spain",
-			"founded": 1928
+			"founded": 1928,
+			"wiki": "https://en.wikipedia.org/wiki/CD_Legan%C3%A9s"
 		},
 		"venue": {
 			"api_football_id": 1464,
@@ -700,7 +708,8 @@
 			"name": "Celta Vigo",
 			"code": "CEL",
 			"country": "Spain",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo"
 		},
 		"venue": {
 			"api_football_id": 1467,
@@ -787,7 +796,8 @@
 			"name": "Espanyol",
 			"code": "ESP",
 			"country": "Spain",
-			"founded": 1900
+			"founded": 1900,
+			"wiki": "https://en.wikipedia.org/wiki/RCD_Espanyol"
 		},
 		"venue": {
 			"api_football_id": 20421,
@@ -866,7 +876,8 @@
 			"name": "Real Madrid",
 			"code": "REA",
 			"country": "Spain",
-			"founded": 1902
+			"founded": 1902,
+			"wiki": "https://en.wikipedia.org/wiki/Real_Madrid_CF"
 		},
 		"venue": {
 			"api_football_id": 1456,
@@ -961,7 +972,8 @@
 			"name": "Alaves",
 			"code": "ALA",
 			"country": "Spain",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s"
 		},
 		"venue": {
 			"api_football_id": 1470,
@@ -1040,7 +1052,8 @@
 			"name": "Real Betis",
 			"code": "BET",
 			"country": "Spain",
-			"founded": 1907
+			"founded": 1907,
+			"wiki": "https://en.wikipedia.org/wiki/Real_Betis"
 		},
 		"venue": {
 			"api_football_id": 1489,
@@ -1127,7 +1140,8 @@
 			"name": "Getafe",
 			"code": "GET",
 			"country": "Spain",
-			"founded": 1983
+			"founded": 1983,
+			"wiki": "https://en.wikipedia.org/wiki/Getafe_CF"
 		},
 		"venue": {
 			"api_football_id": 20422,
@@ -1198,7 +1212,8 @@
 			"name": "Girona",
 			"code": "GIR",
 			"country": "Spain",
-			"founded": 1930
+			"founded": 1930,
+			"wiki": "https://en.wikipedia.org/wiki/Girona_FC"
 		},
 		"venue": {
 			"api_football_id": 1478,
@@ -1285,7 +1300,8 @@
 			"name": "Real Sociedad",
 			"code": "RSO",
 			"country": "Spain",
-			"founded": 1909
+			"founded": 1909,
+			"wiki": "https://en.wikipedia.org/wiki/Real_Sociedad"
 		},
 		"venue": {
 			"api_football_id": 1491,
@@ -1364,7 +1380,8 @@
 			"name": "Valladolid",
 			"code": "VAL",
 			"country": "Spain",
-			"founded": 1928
+			"founded": 1928,
+			"wiki": "https://en.wikipedia.org/wiki/Real_Valladolid"
 		},
 		"venue": {
 			"api_football_id": 1492,
@@ -1443,7 +1460,8 @@
 			"name": "Osasuna",
 			"code": "OSA",
 			"country": "Spain",
-			"founded": 1920
+			"founded": 1920,
+			"wiki": "https://en.wikipedia.org/wiki/CA_Osasuna"
 		},
 		"venue": {
 			"api_football_id": 1486,
@@ -1538,7 +1556,8 @@
 			"name": "Rayo Vallecano",
 			"code": "RAY",
 			"country": "Spain",
-			"founded": 1924
+			"founded": 1924,
+			"wiki": "https://en.wikipedia.org/wiki/Rayo_Vallecano"
 		},
 		"venue": {
 			"api_football_id": 1488,
@@ -1609,7 +1628,8 @@
 			"name": "Mallorca",
 			"code": "MAL",
 			"country": "Spain",
-			"founded": 1916
+			"founded": 1916,
+			"wiki": "https://en.wikipedia.org/wiki/RCD_Mallorca"
 		},
 		"venue": {
 			"api_football_id": 19940,
@@ -1704,7 +1724,8 @@
 			"name": "Malaga",
 			"code": "MAL",
 			"country": "Spain",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF"
 		},
 		"venue": {
 			"api_football_id": 1483,
@@ -1783,7 +1804,8 @@
 			"name": "Levante",
 			"code": "LEV",
 			"country": "Spain",
-			"founded": 1909
+			"founded": 1909,
+			"wiki": "https://en.wikipedia.org/wiki/Levante_UD"
 		},
 		"venue": {
 			"api_football_id": 1482,
@@ -1862,7 +1884,8 @@
 			"name": "Deportivo La Coruna",
 			"code": "COR",
 			"country": "Spain",
-			"founded": 1906
+			"founded": 1906,
+			"wiki": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a"
 		},
 		"venue": {
 			"api_football_id": 1471,
@@ -1925,7 +1948,8 @@
 			"name": "Eibar",
 			"code": "EIB",
 			"country": "Spain",
-			"founded": 1940
+			"founded": 1940,
+			"wiki": "https://en.wikipedia.org/wiki/SD_Eibar"
 		},
 		"venue": {
 			"api_football_id": 1472,
@@ -1988,7 +2012,8 @@
 			"name": "Cordoba",
 			"code": "COR",
 			"country": "Spain",
-			"founded": 1954
+			"founded": 1954,
+			"wiki": "https://en.wikipedia.org/wiki/C%C3%B3rdoba_CF"
 		},
 		"venue": {
 			"api_football_id": 1469,
@@ -2051,7 +2076,8 @@
 			"name": "Granada CF",
 			"code": "GRA",
 			"country": "Spain",
-			"founded": 1931
+			"founded": 1931,
+			"wiki": "https://en.wikipedia.org/wiki/Granada_CF"
 		},
 		"venue": {
 			"api_football_id": 1479,
@@ -2122,7 +2148,8 @@
 			"name": "Oviedo",
 			"code": "OVI",
 			"country": "Spain",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/Real_Oviedo"
 		},
 		"venue": {
 			"api_football_id": 1490,
@@ -2201,7 +2228,8 @@
 			"name": "Tenerife",
 			"code": "TEN",
 			"country": "Spain",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/CD_Tenerife"
 		},
 		"venue": {
 			"api_football_id": 1496,
@@ -2280,7 +2308,8 @@
 			"name": "Albacete",
 			"code": "ALB",
 			"country": "Spain",
-			"founded": 1940
+			"founded": 1940,
+			"wiki": "https://en.wikipedia.org/wiki/Albacete_Balompi%C3%A9"
 		},
 		"venue": {
 			"api_football_id": 1458,
@@ -2351,7 +2380,8 @@
 			"name": "Almeria",
 			"code": "ALM",
 			"country": "Spain",
-			"founded": 1989
+			"founded": 1989,
+			"wiki": "https://en.wikipedia.org/wiki/UD_Almer%C3%ADa"
 		},
 		"venue": {
 			"api_football_id": 19216,
@@ -2414,7 +2444,8 @@
 			"name": "Cadiz",
 			"code": "CAD",
 			"country": "Spain",
-			"founded": 1910
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/C%C3%A1diz_CF"
 		},
 		"venue": {
 			"api_football_id": 11915,
@@ -2493,7 +2524,8 @@
 			"name": "Huesca",
 			"code": "HUE",
 			"country": "Spain",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/SD_Huesca"
 		},
 		"venue": {
 			"api_football_id": 1480,
@@ -2572,7 +2604,8 @@
 			"name": "Sporting Gijon",
 			"code": "GIJ",
 			"country": "Spain",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": "https://en.wikipedia.org/wiki/Sporting_de_Gij%C3%B3n"
 		},
 		"venue": {
 			"api_football_id": 1495,
@@ -2667,7 +2700,8 @@
 			"name": "Zaragoza",
 			"code": "ZAR",
 			"country": "Spain",
-			"founded": 1932
+			"founded": 1932,
+			"wiki": "https://en.wikipedia.org/wiki/Real_Zaragoza"
 		},
 		"venue": {
 			"api_football_id": 1493,
@@ -2746,7 +2780,8 @@
 			"name": "Elche",
 			"code": "ELC",
 			"country": "Spain",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/Elche_CF"
 		},
 		"venue": {
 			"api_football_id": 1473,
@@ -2833,7 +2868,8 @@
 			"name": "Mirandes",
 			"code": "MIR",
 			"country": "Spain",
-			"founded": 1927
+			"founded": 1927,
+			"wiki": "https://en.wikipedia.org/wiki/CD_Mirand%C3%A9s"
 		},
 		"venue": {
 			"api_football_id": 2920,
@@ -2904,7 +2940,8 @@
 			"name": "Racing Santander",
 			"code": "SAN",
 			"country": "Spain",
-			"founded": 1913
+			"founded": 1913,
+			"wiki": "https://en.wikipedia.org/wiki/Racing_de_Santander"
 		},
 		"venue": {
 			"api_football_id": 3516,
@@ -2991,7 +3028,8 @@
 			"name": "Castellón",
 			"code": null,
 			"country": "Spain",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/CD_Castell%C3%B3n"
 		},
 		"venue": {
 			"api_football_id": 3968,
@@ -3054,7 +3092,8 @@
 			"name": "FC Cartagena",
 			"code": "CAR",
 			"country": "Spain",
-			"founded": 1995
+			"founded": 1995,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Cartagena"
 		},
 		"venue": {
 			"api_football_id": 3976,
@@ -3133,7 +3172,8 @@
 			"name": "Racing Ferrol",
 			"code": "FER",
 			"country": "Spain",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/Racing_de_Ferrol"
 		},
 		"venue": {
 			"api_football_id": 6510,
@@ -3220,7 +3260,8 @@
 			"name": "Burgos",
 			"code": "BUR",
 			"country": "Spain",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/Burgos_CF"
 		},
 		"venue": {
 			"api_football_id": 6674,
@@ -3291,7 +3332,8 @@
 			"name": "Eldense",
 			"code": null,
 			"country": "Spain",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/CD_Eldense"
 		},
 		"venue": {
 			"api_football_id": 6783,
@@ -3354,7 +3396,8 @@
 			"name": "Alcorcon",
 			"code": "ALC",
 			"country": "Spain",
-			"founded": 1971
+			"founded": 1971,
+			"wiki": "https://en.wikipedia.org/wiki/AD_Alcorc%C3%B3n"
 		},
 		"venue": {
 			"api_football_id": 1457,
@@ -3420,7 +3463,8 @@
 			"name": "FC Andorra",
 			"code": null,
 			"country": "Spain",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Andorra"
 		},
 		"venue": {
 			"api_football_id": 2618,
@@ -3494,7 +3538,8 @@
 			"name": "Amorebieta",
 			"code": "AMO",
 			"country": "Spain",
-			"founded": 1925
+			"founded": 1925,
+			"wiki": "https://en.wikipedia.org/wiki/SD_Amorebieta"
 		},
 		"venue": {
 			"api_football_id": 6482,
@@ -3552,7 +3597,8 @@
 			"name": "Villarreal II",
 			"code": "VIL",
 			"country": "Spain",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/Villarreal_CF_B"
 		},
 		"venue": {
 			"api_football_id": 1498,

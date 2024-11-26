@@ -40,19 +40,7 @@ export async function GET({ url }) {
 
         // console.log('images: ', images);
 
-        // 2) Fetch public url by image
-        // for (let i = 0; i < 10; i++) {
-        //     const { data: url, error: error2 } = supabase.storage
-        //         .from("stadiums")
-        //         .getPublicUrl(`${countrySlug}/${images[i]['name']}`);
-        //     console.log('url: ', url);
-        //     if (error2) {
-        //         throw error2
-        //     }
-        // }
-
-
-        // 3) Create a signed URL
+        // 2) Create a signed URL
         // for (let i = 0; i < 5; i++) {
         for (let i = 0; i < images.length; i++) {
             const { data: data2, error: error2 } = await supabase
@@ -68,6 +56,7 @@ export async function GET({ url }) {
 
             console.log('images[i][name]: ', images[i]['name']);
 
+            // 2.1) Update signed url in images table
             const { data: data3, error: error3 } = await supabase
                 .from('images')
                 .update(
@@ -88,27 +77,6 @@ export async function GET({ url }) {
             console.log('data3: ', data3);
         }
 
-        // console.log('images.length: ', images.length);
-        // console.log('images[0]: ', images[0]);
-        // console.log('url: ', url);
-        // console.log('signedUrl: ', signedUrl);
-
-        // for (let i = 0; i < 10; i++) {
-        //     const { data, error: error3 } = await supabase
-        //         .from('images')
-        //         .upsert(
-        //             {
-        //                 url: data.signedUrl
-        //             },
-        //             {
-        //                 onConflict: 'name'
-        //             }
-        //         )
-        //         if (error3) {
-        //             throw error3
-        //         }
-        // }
-
 
         return json({
             success: true,
@@ -117,9 +85,6 @@ export async function GET({ url }) {
         });
     } catch (error) {
         console.log('error: ', error);
-        // return json(new Response(error, {
-        //     status: 404
-        // }))
         return json({
             success: false,
             message: error.message
