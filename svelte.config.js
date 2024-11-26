@@ -22,9 +22,10 @@ const config = {
 		},
 		alias: {
 			// these are the aliases and paths to them
-			'@components': path.resolve('./src/routes/components'),
+			'@components': path.resolve('./src/lib/components'),
 			'@lib': path.resolve('./src/lib'),
-			'@utils': path.resolve('./src/lib/utils')
+			'@utils': path.resolve('./src/lib/utils'),
+			'@store': path.resolve('./src/store')
 		}
 		// prerender: {
 		// 	handleHttpError: 'fail'

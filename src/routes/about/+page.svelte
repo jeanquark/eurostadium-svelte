@@ -1,6 +1,6 @@
 <script>
 	import { base } from "$app/paths";
-	import { leagueStore } from "../../store/league.js";
+	import { leagueStore } from "@store/league.js";
 </script>
 
 <svelte:head>

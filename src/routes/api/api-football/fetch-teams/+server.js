@@ -8,8 +8,8 @@ export async function GET({ url }) {
     console.log('[api/api-football/fetch-eurostadium-teams] season: ', url.searchParams.get('season'));
 
     const SEASON = 2024;
-    const COUNTRY_START_INDEX = 2
-    const COUNTRY_END_INDEX = 2
+    const COUNTRY_START_INDEX = 12
+    const COUNTRY_END_INDEX = 12
 
     // const countryObj = {
     //     name: 'Switzerland',
@@ -38,6 +38,10 @@ export async function GET({ url }) {
 
         countryLeagues = leaguesArray.filter((league) => league.country == countriesArray[i]['name'])
         console.log('countryLeagues: ', countryLeagues);
+        // return json({
+        //     success: false,
+        //     countryLeagues
+        // })
 
         const file = `./static/json/teams/${countriesArray[i].slug}.json`;
         // const teamsFile = await fs.readFile(file, "binary");

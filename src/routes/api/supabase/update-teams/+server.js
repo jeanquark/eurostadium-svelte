@@ -2,7 +2,7 @@ import { json } from '@sveltejs/kit';
 import { promises as fs } from "fs";
 import { env } from '$env/dynamic/public';
 import { createServerClient } from '@supabase/ssr'
-import slugify from '../../../../utils/slugify';
+import slugify from '@utils/slugify';
 
 export async function GET({ url }) {
     try {

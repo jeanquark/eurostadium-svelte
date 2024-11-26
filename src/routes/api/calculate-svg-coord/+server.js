@@ -1,6 +1,6 @@
 import { json } from '@sveltejs/kit';
 import { promises as fs } from "fs";
-import calculateSvgCoord from '../../../utils/calculateSvgCoord';
+import calculateSvgCoord from '@utils/calculateSvgCoord';
 
 export async function GET({ url }) {
     try {

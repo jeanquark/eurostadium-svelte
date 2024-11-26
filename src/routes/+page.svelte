@@ -6,11 +6,11 @@
     import Tooltip from "./Tooltip.svelte";
     import TooltipCountry from "./TooltipCountry.svelte";
     import TooltipStadium from "./TooltipStadium.svelte";
-    import Modal from "./components/Modal.svelte";
+    import Modal from "@components/Modal.svelte";
     import Circle from "./Circle.svelte";
     import Rectangle from "./Rectangle.svelte";
-    import Europe from "./components/svg/Europe.svelte";
-    import Germany from "./components/svg/Germany.svelte";
+    import Europe from "@components/svg/Europe.svelte";
+    import Germany from "@components/svg/Germany.svelte";
     import welcome from "$lib/images/svelte-welcome.webp";
     import welcome_fallback from "$lib/images/svelte-welcome.png";
     import { db } from "../lib/firebase/firebase";
@@ -29,9 +29,9 @@
     import { countryStore } from "../store/country";
     import { leagueStore } from "../store/league";
     import { stadiumStore } from "../store/stadium";
-    import camelize from "../utils/convertToCamelCase";
-    import Carousel from "./components/Carousel.svelte";
-    import FilterButtons from "./components/FilterButtons.svelte";
+    import camelize from "@utils/convertToCamelCase";
+    import Carousel from "@components/Carousel.svelte";
+    import FilterButtons from "@components/FilterButtons.svelte";
 
     const dispatch = createEventDispatcher();
 
@@ -139,7 +139,7 @@
         // let myComponent
         // console.log('myComponent: ', myComponent);
         // const module = await import (`./${componentName}.svelte`);
-        const module = await import(`./components/svg/${map}.svelte`);
+        const module = await import(`@components/svg/${map}.svelte`);
         // const module = await import ('./Circle.svelte');
         // console.log('module: ', module)
         currentComponent = module.default;

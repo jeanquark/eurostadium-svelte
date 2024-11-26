@@ -1,6 +1,6 @@
 <script>
     import { base } from "$app/paths";
-    import { supabase } from "../../lib/supabase/supabaseClient";
+    import { supabase } from "@lib/supabase/supabaseClient";
     // Stores the selected file and image preview URL
     let selectedFile = null;
     let previewUrl = "";

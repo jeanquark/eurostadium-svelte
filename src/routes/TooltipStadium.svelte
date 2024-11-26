@@ -2,7 +2,7 @@
     import { createEventDispatcher, onMount } from 'svelte'
     import { base } from '$app/paths'
     import { browser } from '$app/environment'
-    import Carousel from './components/Carousel.svelte'
+    import Carousel from '@components/Carousel.svelte'
     import SvelteCarousel from 'svelte-carousel'
     import { stadiumStore } from '../store/stadium'
 
