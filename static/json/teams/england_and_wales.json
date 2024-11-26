@@ -5,7 +5,8 @@
 			"name": "Manchester United",
 			"code": "MUN",
 			"country": "England",
-			"founded": 1878
+			"founded": 1878,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 556,
@@ -84,7 +85,8 @@
 			"name": "Newcastle",
 			"code": "NEW",
 			"country": "England",
-			"founded": 1892
+			"founded": 1892,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 562,
@@ -163,7 +165,8 @@
 			"name": "Bournemouth",
 			"code": "BOU",
 			"country": "England",
-			"founded": 1899
+			"founded": 1899,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 504,
@@ -242,7 +245,8 @@
 			"name": "Fulham",
 			"code": "FUL",
 			"country": "England",
-			"founded": 1879
+			"founded": 1879,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 535,
@@ -321,7 +325,8 @@
 			"name": "Wolves",
 			"code": "WOL",
 			"country": "England",
-			"founded": 1877
+			"founded": 1877,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 600,
@@ -400,7 +405,8 @@
 			"name": "Liverpool",
 			"code": "LIV",
 			"country": "England",
-			"founded": 1892
+			"founded": 1892,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 550,
@@ -479,7 +485,8 @@
 			"name": "Southampton",
 			"code": "SOU",
 			"country": "England",
-			"founded": 1885
+			"founded": 1885,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 585,
@@ -558,7 +565,8 @@
 			"name": "Arsenal",
 			"code": "ARS",
 			"country": "England",
-			"founded": 1886
+			"founded": 1886,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 494,
@@ -637,7 +645,8 @@
 			"name": "Everton",
 			"code": "EVE",
 			"country": "England",
-			"founded": 1878
+			"founded": 1878,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 8560,
@@ -716,7 +725,8 @@
 			"name": "Leicester",
 			"code": "LEI",
 			"country": "England",
-			"founded": 1884
+			"founded": 1884,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 547,
@@ -795,7 +805,8 @@
 			"name": "Tottenham",
 			"code": "TOT",
 			"country": "England",
-			"founded": 1882
+			"founded": 1882,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 593,
@@ -874,7 +885,8 @@
 			"name": "West Ham",
 			"code": "WES",
 			"country": "England",
-			"founded": 1895
+			"founded": 1895,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 598,
@@ -953,7 +965,8 @@
 			"name": "Chelsea",
 			"code": "CHE",
 			"country": "England",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 519,
@@ -1032,7 +1045,8 @@
 			"name": "Manchester City",
 			"code": "MAC",
 			"country": "England",
-			"founded": 1880
+			"founded": 1880,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 555,
@@ -1111,7 +1125,8 @@
 			"name": "Brighton",
 			"code": "BRI",
 			"country": "England",
-			"founded": 1901
+			"founded": 1901,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 508,
@@ -1190,7 +1205,8 @@
 			"name": "Crystal Palace",
 			"code": "CRY",
 			"country": "England",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 525,
@@ -1269,7 +1285,8 @@
 			"name": "Brentford",
 			"code": "BRE",
 			"country": "England",
-			"founded": 1889
+			"founded": 1889,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 10503,
@@ -1348,7 +1365,8 @@
 			"name": "Ipswich",
 			"code": "IPS",
 			"country": "England",
-			"founded": 1878
+			"founded": 1878,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 545,
@@ -1427,7 +1445,8 @@
 			"name": "Nottingham Forest",
 			"code": "NOT",
 			"country": "England",
-			"founded": 1865
+			"founded": 1865,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 566,
@@ -1506,7 +1525,8 @@
 			"name": "Aston Villa",
 			"code": "AST",
 			"country": "England",
-			"founded": 1874
+			"founded": 1874,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 495,
@@ -1585,7 +1605,8 @@
 			"name": "Watford",
 			"code": "WAT",
 			"country": "England",
-			"founded": 1881
+			"founded": 1881,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 596,
@@ -1664,7 +1685,8 @@
 			"name": "Cardiff",
 			"code": "CAR",
 			"country": "Wales",
-			"founded": 1889
+			"founded": 1889,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 516,
@@ -1743,7 +1765,8 @@
 			"name": "Burnley",
 			"code": "BUR",
 			"country": "England",
-			"founded": 1882
+			"founded": 1882,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 512,
@@ -1822,7 +1845,8 @@
 			"name": "Bristol City",
 			"code": "BRI",
 			"country": "England",
-			"founded": 1894
+			"founded": 1894,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 20106,
@@ -1901,7 +1925,8 @@
 			"name": "Millwall",
 			"code": "MIL",
 			"country": "England",
-			"founded": 1885
+			"founded": 1885,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 559,
@@ -1980,7 +2005,8 @@
 			"name": "Preston",
 			"code": "PRE",
 			"country": "England",
-			"founded": 1863
+			"founded": 1863,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 574,
@@ -2059,7 +2085,8 @@
 			"name": "West Brom",
 			"code": "WES",
 			"country": "England",
-			"founded": 1878
+			"founded": 1878,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 597,
@@ -2138,7 +2165,8 @@
 			"name": "Sheffield Utd",
 			"code": "SHE",
 			"country": "England",
-			"founded": 1889
+			"founded": 1889,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 581,
@@ -2217,7 +2245,8 @@
 			"name": "Leeds",
 			"code": "LEE",
 			"country": "England",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 546,
@@ -2296,7 +2325,8 @@
 			"name": "Hull City",
 			"code": "HUL",
 			"country": "England",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 12051,
@@ -2375,7 +2405,8 @@
 			"name": "Blackburn",
 			"code": "BLA",
 			"country": "England",
-			"founded": 1875
+			"founded": 1875,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 500,
@@ -2454,7 +2485,8 @@
 			"name": "Derby",
 			"code": "DER",
 			"country": "England",
-			"founded": 1884
+			"founded": 1884,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 527,
@@ -2562,7 +2594,8 @@
 			"name": "Norwich",
 			"code": "NOR",
 			"country": "England",
-			"founded": 1902
+			"founded": 1902,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 565,
@@ -2641,7 +2674,8 @@
 			"name": "QPR",
 			"code": "QPR",
 			"country": "England",
-			"founded": 1885
+			"founded": 1885,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 20414,
@@ -2720,7 +2754,8 @@
 			"name": "Sheffield Wednesday",
 			"code": "SHE",
 			"country": "England",
-			"founded": 1867
+			"founded": 1867,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 582,
@@ -2799,7 +2834,8 @@
 			"name": "Stoke City",
 			"code": "STO",
 			"country": "England",
-			"founded": 1868
+			"founded": 1868,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 588,
@@ -2878,7 +2914,8 @@
 			"name": "Swansea",
 			"code": "SWA",
 			"country": "Wales",
-			"founded": 1912
+			"founded": 1912,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 12273,
@@ -2957,7 +2994,8 @@
 			"name": "Sunderland",
 			"code": "SUN",
 			"country": "England",
-			"founded": 1879
+			"founded": 1879,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 589,
@@ -3036,7 +3074,8 @@
 			"name": "Oxford United",
 			"code": "OXF",
 			"country": "England",
-			"founded": 1893
+			"founded": 1893,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 569,
@@ -3065,7 +3104,8 @@
 			"name": "Coventry",
 			"code": "COV",
 			"country": "England",
-			"founded": 1883
+			"founded": 1883,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 11896,
@@ -3144,7 +3184,8 @@
 			"name": "Portsmouth",
 			"code": "POR",
 			"country": "England",
-			"founded": 1898
+			"founded": 1898,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 573,
@@ -3173,7 +3214,8 @@
 			"name": "Plymouth",
 			"code": "PLY",
 			"country": "England",
-			"founded": 1886
+			"founded": 1886,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 571,
@@ -3252,7 +3294,8 @@
 			"name": "Luton",
 			"code": "LUT",
 			"country": "England",
-			"founded": 1885
+			"founded": 1885,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 551,
@@ -3331,7 +3374,8 @@
 			"name": "Huddersfield",
 			"code": "HUD",
 			"country": "England",
-			"founded": 1908
+			"founded": 1908,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 543,
@@ -3405,7 +3449,8 @@
 			"name": "Birmingham",
 			"code": "BIR",
 			"country": "England",
-			"founded": 1875
+			"founded": 1875,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 12596,
@@ -3479,7 +3524,8 @@
 			"name": "Rotherham",
 			"code": "ROT",
 			"country": "England",
-			"founded": 1870
+			"founded": 1870,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 578,

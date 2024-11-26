@@ -20,7 +20,8 @@ create view teams_view as
     countries.name as country_name,
     countries.slug as country_slug,
     images.name as image_name,
-    images.url as image_url
+    images.url as image_url,
+    images.source as image_src
   from
     teams
     left join stadiums on teams.api_football_venue_id = stadiums.api_football_id

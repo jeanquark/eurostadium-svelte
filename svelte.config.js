@@ -1,4 +1,5 @@
 // import adapter from '@sveltejs/adapter-auto';
+import path from 'path';
 import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -19,6 +20,12 @@ const config = {
 			// base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
 			base: ''
 		},
+		alias: {
+			// these are the aliases and paths to them
+			'@components': path.resolve('./src/routes/components'),
+			'@lib': path.resolve('./src/lib'),
+			'@utils': path.resolve('./src/lib/utils')
+		}
 		// prerender: {
 		// 	handleHttpError: 'fail'
 		// }

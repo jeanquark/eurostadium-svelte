@@ -1,6 +1,7 @@
 <script>
-    import { supabase } from "../lib/supabase/supabaseClient";
-    import Login from "../../components/auth/Login.svelte";
+    import { onMount } from "svelte";
+    import { supabase } from "../../../lib/supabase/supabaseClient";
+    import Account from "@components/auth/Login.svelte";
     let session = null;
 
     onMount(async () => {
