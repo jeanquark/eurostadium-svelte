@@ -5,7 +5,8 @@
 			"name": "Celtic",
 			"code": "CEL",
 			"country": "Scotland",
-			"founded": 1888
+			"founded": 1888,
+			"wiki": "https://en.wikipedia.org/wiki/Celtic_F.C."
 		},
 		"venue": {
 			"api_football_id": 1386,
@@ -68,7 +69,8 @@
 			"name": "Hibernian",
 			"code": "HIB",
 			"country": "Scotland",
-			"founded": 1875
+			"founded": 1875,
+			"wiki": "https://en.wikipedia.org/wiki/Hibernian_F.C."
 		},
 		"venue": {
 			"api_football_id": 1394,
@@ -131,7 +133,8 @@
 			"name": "Kilmarnock",
 			"code": "KIL",
 			"country": "Scotland",
-			"founded": 1869
+			"founded": 1869,
+			"wiki": "https://en.wikipedia.org/wiki/Kilmarnock_F.C."
 		},
 		"venue": {
 			"api_football_id": 19215,
@@ -194,7 +197,8 @@
 			"name": "ST Mirren",
 			"code": "MIR",
 			"country": "Scotland",
-			"founded": 1877
+			"founded": 1877,
+			"wiki": "https://en.wikipedia.org/wiki/St_Mirren_F.C."
 		},
 		"venue": {
 			"api_football_id": 11913,
@@ -257,7 +261,8 @@
 			"name": "Aberdeen",
 			"code": "ABE",
 			"country": "Scotland",
-			"founded": 1903
+			"founded": 1903,
+			"wiki": "https://en.wikipedia.org/wiki/Aberdeen_F.C."
 		},
 		"venue": {
 			"api_football_id": 1383,
@@ -320,7 +325,8 @@
 			"name": "Dundee",
 			"code": "DUN",
 			"country": "Scotland",
-			"founded": 1893
+			"founded": 1893,
+			"wiki": "https://en.wikipedia.org/wiki/Dundee_F.C."
 		},
 		"venue": {
 			"api_football_id": 20420,
@@ -383,7 +389,8 @@
 			"name": "Heart Of Midlothian",
 			"code": "HEA",
 			"country": "Scotland",
-			"founded": 1874
+			"founded": 1874,
+			"wiki": "https://en.wikipedia.org/wiki/Heart_of_Midlothian_F.C."
 		},
 		"venue": {
 			"api_football_id": 1393,
@@ -446,7 +453,8 @@
 			"name": "Motherwell",
 			"code": "MOT",
 			"country": "Scotland",
-			"founded": 1886
+			"founded": 1886,
+			"wiki": "https://en.wikipedia.org/wiki/Motherwell_F.C."
 		},
 		"venue": {
 			"api_football_id": 1398,
@@ -509,7 +517,8 @@
 			"name": "Rangers",
 			"code": "RAN",
 			"country": "Scotland",
-			"founded": 1873
+			"founded": 1873,
+			"wiki": "https://en.wikipedia.org/wiki/Rangers_F.C."
 		},
 		"venue": {
 			"api_football_id": 1401,
@@ -572,7 +581,8 @@
 			"name": "ST Johnstone",
 			"code": "JOH",
 			"country": "Scotland",
-			"founded": 1885
+			"founded": 1885,
+			"wiki": "https://en.wikipedia.org/wiki/St_Johnstone_F.C."
 		},
 		"venue": {
 			"api_football_id": 1403,
@@ -635,7 +645,8 @@
 			"name": "Ross County",
 			"code": "ROS",
 			"country": "Scotland",
-			"founded": 1929
+			"founded": 1929,
+			"wiki": "https://en.wikipedia.org/wiki/Ross_County_F.C."
 		},
 		"venue": {
 			"api_football_id": 1402,
@@ -698,7 +709,8 @@
 			"name": "Dundee Utd",
 			"code": "DUN",
 			"country": "Scotland",
-			"founded": 1909
+			"founded": 1909,
+			"wiki": "https://en.wikipedia.org/wiki/Dundee_United_F.C."
 		},
 		"venue": {
 			"api_football_id": 1388,
@@ -761,7 +773,8 @@
 			"name": "Hamilton Academical",
 			"code": "HAM",
 			"country": "Scotland",
-			"founded": 1874
+			"founded": 1874,
+			"wiki": "https://en.wikipedia.org/wiki/Hamilton_Academical_F.C."
 		},
 		"venue": {
 			"api_football_id": 19937,
@@ -824,7 +837,8 @@
 			"name": "Livingston",
 			"code": "LIV",
 			"country": "Scotland",
-			"founded": 1943
+			"founded": 1943,
+			"wiki": "https://en.wikipedia.org/wiki/Livingston_F.C."
 		},
 		"venue": {
 			"api_football_id": 1397,
@@ -887,7 +901,8 @@
 			"name": "Partick",
 			"code": "PAR",
 			"country": "Scotland",
-			"founded": 1876
+			"founded": 1876,
+			"wiki": "https://en.wikipedia.org/wiki/Partick_Thistle_F.C."
 		},
 		"venue": {
 			"api_football_id": 19938,
@@ -950,7 +965,8 @@
 			"name": "Morton",
 			"code": "MOR",
 			"country": "Scotland",
-			"founded": 1874
+			"founded": 1874,
+			"wiki": "https://en.wikipedia.org/wiki/Greenock_Morton_F.C."
 		},
 		"venue": {
 			"api_football_id": 1391,
@@ -1013,7 +1029,8 @@
 			"name": "Raith Rovers",
 			"code": "RAI",
 			"country": "Scotland",
-			"founded": 1883
+			"founded": 1883,
+			"wiki": "https://en.wikipedia.org/wiki/Raith_Rovers_F.C."
 		},
 		"venue": {
 			"api_football_id": 2907,
@@ -1076,7 +1093,8 @@
 			"name": "Ayr Utd",
 			"code": "AYR",
 			"country": "Scotland",
-			"founded": 1910
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/Ayr_United_F.C."
 		},
 		"venue": {
 			"api_football_id": 1385,
@@ -1139,7 +1157,8 @@
 			"name": "Dunfermline",
 			"code": "DUN",
 			"country": "Scotland",
-			"founded": 1885
+			"founded": 1885,
+			"wiki": "https://en.wikipedia.org/wiki/Dunfermline_Athletic_F.C."
 		},
 		"venue": {
 			"api_football_id": 19936,
@@ -1202,7 +1221,8 @@
 			"name": "Falkirk",
 			"code": "FAL",
 			"country": "Scotland",
-			"founded": 1876
+			"founded": 1876,
+			"wiki": "https://en.wikipedia.org/wiki/Falkirk_F.C."
 		},
 		"venue": {
 			"api_football_id": 1390,
@@ -1273,7 +1293,8 @@
 			"name": "Airdrie United",
 			"code": "AIR",
 			"country": "Scotland",
-			"founded": 2002
+			"founded": 2002,
+			"wiki": "https://en.wikipedia.org/wiki/Airdrieonians_F.C."
 		},
 		"venue": {
 			"api_football_id": 19749,
@@ -1336,7 +1357,8 @@
 			"name": "Queen's Park",
 			"code": "QUE",
 			"country": "Scotland",
-			"founded": 1867
+			"founded": 1867,
+			"wiki": "https://en.wikipedia.org/wiki/Queen%27s_Park_F.C."
 		},
 		"venue": {
 			"api_football_id": 2617,
@@ -1399,7 +1421,8 @@
 			"name": "Inverness CT",
 			"code": "INV",
 			"country": "Scotland",
-			"founded": 1994
+			"founded": 1994,
+			"wiki": "https://en.wikipedia.org/wiki/Inverness_Caledonian_Thistle_F.C."
 		},
 		"venue": {
 			"api_football_id": 1395,
@@ -1457,7 +1480,8 @@
 			"name": "Alloa Athletic",
 			"code": "ALL",
 			"country": "Scotland",
-			"founded": 1878
+			"founded": 1878,
+			"wiki": "https://en.wikipedia.org/wiki/Alloa_Athletic_F.C."
 		},
 		"venue": {
 			"api_football_id": 1384,
@@ -1515,7 +1539,8 @@
 			"name": "Arbroath",
 			"code": "ARB",
 			"country": "Scotland",
-			"founded": 1878
+			"founded": 1878,
+			"wiki": "https://en.wikipedia.org/wiki/Arbroath_F.C."
 		},
 		"venue": {
 			"api_football_id": 3244,
@@ -1573,7 +1598,8 @@
 			"name": "Montrose",
 			"code": "MON",
 			"country": "Scotland",
-			"founded": 1879
+			"founded": 1879,
+			"wiki": "https://en.wikipedia.org/wiki/Montrose_F.C."
 		},
 		"venue": {
 			"api_football_id": 3246,

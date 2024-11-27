@@ -5,7 +5,8 @@
 			"name": "Vejle",
 			"code": "VEJ",
 			"country": "Denmark",
-			"founded": 1891
+			"founded": 1891,
+			"wiki": "https://en.wikipedia.org/wiki/Vejle_Boldklub"
 		},
 		"venue": {
 			"api_football_id": 462,
@@ -76,7 +77,8 @@
 			"name": "Sonderjyske",
 			"code": "SON",
 			"country": "Denmark",
-			"founded": 2004
+			"founded": 2004,
+			"wiki": "https://en.wikipedia.org/wiki/S%C3%B8nderjyske_Fodbold"
 		},
 		"venue": {
 			"api_football_id": 460,
@@ -147,7 +149,8 @@
 			"name": "FC Midtjylland",
 			"code": "MID",
 			"country": "Denmark",
-			"founded": 1999
+			"founded": 1999,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Midtjylland"
 		},
 		"venue": {
 			"api_football_id": 453,
@@ -218,7 +221,8 @@
 			"name": "FC Nordsjaelland",
 			"code": "NOR",
 			"country": "Denmark",
-			"founded": 2003
+			"founded": 2003,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Nordsj%C3%A6lland"
 		},
 		"venue": {
 			"api_football_id": 454,
@@ -281,7 +285,8 @@
 			"name": "FC Copenhagen",
 			"code": "COP",
 			"country": "Denmark",
-			"founded": 1992
+			"founded": 1992,
+			"wiki": "https://en.wikipedia.org/wiki/F.C._Copenhagen"
 		},
 		"venue": {
 			"api_football_id": 11600,
@@ -360,7 +365,8 @@
 			"name": "Randers FC",
 			"code": "RAN",
 			"country": "Denmark",
-			"founded": 2003
+			"founded": 2003,
+			"wiki": "https://en.wikipedia.org/wiki/Randers_FC"
 		},
 		"venue": {
 			"api_football_id": 457,
@@ -431,7 +437,8 @@
 			"name": "Aalborg",
 			"code": "AAL",
 			"country": "Denmark",
-			"founded": 1885
+			"founded": 1885,
+			"wiki": "https://en.wikipedia.org/wiki/AaB_Fodbold"
 		},
 		"venue": {
 			"api_football_id": 440,
@@ -494,7 +501,8 @@
 			"name": "Aarhus",
 			"code": "AAR",
 			"country": "Denmark",
-			"founded": 1902
+			"founded": 1902,
+			"wiki": "https://en.wikipedia.org/wiki/Aarhus_Gymnastikforening"
 		},
 		"venue": {
 			"api_football_id": 441,
@@ -573,7 +581,8 @@
 			"name": "Brondby",
 			"code": "BRO",
 			"country": "Denmark",
-			"founded": 1964
+			"founded": 1964,
+			"wiki": "https://en.wikipedia.org/wiki/Br%C3%B8ndby_IF"
 		},
 		"venue": {
 			"api_football_id": 443,
@@ -636,7 +645,8 @@
 			"name": "Lyngby",
 			"code": "LYN",
 			"country": "Denmark",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/Lyngby_Boldklub"
 		},
 		"venue": {
 			"api_football_id": 452,
@@ -699,7 +709,8 @@
 			"name": "Viborg",
 			"code": "VIB",
 			"country": "Denmark",
-			"founded": 1896
+			"founded": 1896,
+			"wiki": "https://en.wikipedia.org/wiki/Viborg_FF"
 		},
 		"venue": {
 			"api_football_id": 463,
@@ -762,7 +773,8 @@
 			"name": "Silkeborg",
 			"code": "SIL",
 			"country": "Denmark",
-			"founded": 1917
+			"founded": 1917,
+			"wiki": "https://en.wikipedia.org/wiki/Silkeborg_IF"
 		},
 		"venue": {
 			"api_football_id": 459,
@@ -833,7 +845,8 @@
 			"name": "Vendsyssel FF",
 			"code": "VEN",
 			"country": "Denmark",
-			"founded": 1886
+			"founded": 1886,
+			"wiki": "https://en.wikipedia.org/wiki/Vendsyssel_FF"
 		},
 		"venue": {
 			"api_football_id": 448,
@@ -888,7 +901,8 @@
 			"name": "Esbjerg",
 			"code": "ESB",
 			"country": "Denmark",
-			"founded": 1924
+			"founded": 1924,
+			"wiki": "https://en.wikipedia.org/wiki/Esbjerg_fB"
 		},
 		"venue": {
 			"api_football_id": 445,
@@ -951,7 +965,8 @@
 			"name": "AC Horsens",
 			"code": "HOR",
 			"country": "Denmark",
-			"founded": 1994
+			"founded": 1994,
+			"wiki": "https://en.wikipedia.org/wiki/AC_Horsens"
 		},
 		"venue": {
 			"api_football_id": 19379,
@@ -1014,7 +1029,8 @@
 			"name": "Odense",
 			"code": "ODE",
 			"country": "Denmark",
-			"founded": 1889
+			"founded": 1889,
+			"wiki": "https://en.wikipedia.org/wiki/Odense_Boldklub"
 		},
 		"venue": {
 			"api_football_id": 456,
@@ -1077,7 +1093,8 @@
 			"name": "Hobro",
 			"code": "HOB",
 			"country": "Denmark",
-			"founded": 1913
+			"founded": 1913,
+			"wiki": "https://en.wikipedia.org/wiki/Hobro_IK"
 		},
 		"venue": {
 			"api_football_id": 449,
@@ -1132,7 +1149,8 @@
 			"name": "FC Fredericia",
 			"code": "FRE",
 			"country": "Denmark",
-			"founded": 1991
+			"founded": 1991,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Fredericia"
 		},
 		"venue": {
 			"api_football_id": 446,
@@ -1187,7 +1205,8 @@
 			"name": "HB Koge",
 			"code": null,
 			"country": "Denmark",
-			"founded": 2009
+			"founded": 2009,
+			"wiki": "https://en.wikipedia.org/wiki/HB_K%C3%B8ge"
 		},
 		"venue": {
 			"api_football_id": 11892,
@@ -1242,7 +1261,8 @@
 			"name": "Roskilde",
 			"code": "ROS",
 			"country": "Denmark",
-			"founded": 2004
+			"founded": 2004,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Roskilde"
 		},
 		"venue": {
 			"api_football_id": 458,
@@ -1281,7 +1301,8 @@
 			"name": "Hvidovre",
 			"code": "HVI",
 			"country": "Denmark",
-			"founded": 1925
+			"founded": 1925,
+			"wiki": "https://en.wikipedia.org/wiki/Hvidovre_IF"
 		},
 		"venue": {
 			"api_football_id": 451,
@@ -1344,7 +1365,8 @@
 			"name": "Kolding IF",
 			"code": null,
 			"country": "Denmark",
-			"founded": 1895
+			"founded": 1895,
+			"wiki": "https://en.wikipedia.org/wiki/Kolding_IF"
 		},
 		"venue": {
 			"api_football_id": 3525,
@@ -1399,7 +1421,8 @@
 			"name": "B 93",
 			"code": "B",
 			"country": "Denmark",
-			"founded": 1893
+			"founded": 1893,
+			"wiki": "https://en.wikipedia.org/wiki/Boldklubben_af_1893"
 		},
 		"venue": {
 			"api_football_id": 4471,
@@ -1454,7 +1477,8 @@
 			"name": "Hillerød",
 			"code": null,
 			"country": "Denmark",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Hiller%C3%B8d_Fodbold"
 		},
 		"venue": {
 			"api_football_id": 4481,
@@ -1501,7 +1525,8 @@
 			"name": "FC Helsingor",
 			"code": "HEL",
 			"country": "Denmark",
-			"founded": 2005
+			"founded": 2005,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Helsing%C3%B8r"
 		},
 		"venue": {
 			"api_football_id": 444,
@@ -1551,7 +1576,8 @@
 			"name": "Naestved",
 			"code": "NAE",
 			"country": "Denmark",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/N%C3%A6stved_Boldklub"
 		},
 		"venue": {
 			"api_football_id": 11946,

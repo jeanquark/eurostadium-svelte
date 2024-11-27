@@ -32,7 +32,16 @@ node calculateSVGCoord
     Call `/api/supabase/update-teams?country=[COUNTRY_SLUG]`
     It will update teams table with data retrieved from the specified country json file located at `/static/json/teams/[COUNTRY_SLUG].json`.
 
-* Retrieve supabase url for each image
+* Update images (dependant on stadiums)
+
+    Call `/api/supabase/update-images?country=[COUNTRY_SLUG]`
+    It will update images table with data retrieved from the specified country json file located at `/static/json/teams/[COUNTRY_SLUG].json`.
+
+* Update supabase storage url for each image
+
+    Call `/api/supabase/set-images-public-url?country=[COUNTRY_SLUG]`
+    It will update image public url for each image stored in specified country folder of supabase storage.
+
 
 ## Developer
 

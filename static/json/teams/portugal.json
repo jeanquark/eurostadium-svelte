@@ -5,7 +5,8 @@
 			"name": "Benfica",
 			"code": "BEN",
 			"country": "Portugal",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": "https://en.wikipedia.org/wiki/S.L._Benfica"
 		},
 		"venue": {
 			"api_football_id": 1265,
@@ -102,7 +103,8 @@
 			"name": "FC Porto",
 			"code": "POR",
 			"country": "Portugal",
-			"founded": 1893
+			"founded": 1893,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Porto"
 		},
 		"venue": {
 			"api_football_id": 1286,
@@ -199,7 +201,8 @@
 			"name": "Moreirense",
 			"code": "MOR",
 			"country": "Portugal",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Moreirense_F.C."
 		},
 		"venue": {
 			"api_football_id": 1280,
@@ -270,7 +273,8 @@
 			"name": "SC Braga",
 			"code": "BRA",
 			"country": "Portugal",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/S.C._Braga"
 		},
 		"venue": {
 			"api_football_id": 1291,
@@ -349,7 +353,8 @@
 			"name": "Boavista",
 			"code": null,
 			"country": "Portugal",
-			"founded": 1903
+			"founded": 1903,
+			"wiki": "https://en.wikipedia.org/wiki/Boavista_F.C."
 		},
 		"venue": {
 			"api_football_id": 1267,
@@ -428,7 +433,8 @@
 			"name": "Guimaraes",
 			"code": "GUI",
 			"country": "Portugal",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/Vit%C3%B3ria_S.C."
 		},
 		"venue": {
 			"api_football_id": 1295,
@@ -507,7 +513,8 @@
 			"name": "Nacional",
 			"code": "NAC",
 			"country": "Portugal",
-			"founded": 1910
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/C.D._Nacional"
 		},
 		"venue": {
 			"api_football_id": 1281,
@@ -572,7 +579,8 @@
 			"name": "Rio Ave",
 			"code": "RIO",
 			"country": "Portugal",
-			"founded": 1939
+			"founded": 1939,
+			"wiki": "https://en.wikipedia.org/wiki/Rio_Ave_F.C."
 		},
 		"venue": {
 			"api_football_id": 1288,
@@ -635,7 +643,8 @@
 			"name": "Santa Clara",
 			"code": "SAN",
 			"country": "Portugal",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/C.D._Santa_Clara"
 		},
 		"venue": {
 			"api_football_id": 1289,
@@ -700,7 +709,8 @@
 			"name": "Sporting CP",
 			"code": "SPO",
 			"country": "Portugal",
-			"founded": 1906
+			"founded": 1906,
+			"wiki": "https://en.wikipedia.org/wiki/Sporting_CP"
 		},
 		"venue": {
 			"api_football_id": 1293,
@@ -779,7 +789,8 @@
 			"name": "Estoril",
 			"code": "EST",
 			"country": "Portugal",
-			"founded": 1939
+			"founded": 1939,
+			"wiki": "https://en.wikipedia.org/wiki/G.D._Estoril_Praia"
 		},
 		"venue": {
 			"api_football_id": 1274,
@@ -842,7 +853,8 @@
 			"name": "Farense",
 			"code": "FAR",
 			"country": "Portugal",
-			"founded": 1910
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/S.C._Farense"
 		},
 		"venue": {
 			"api_football_id": 1290,
@@ -905,7 +917,8 @@
 			"name": "Arouca",
 			"code": "ARO",
 			"country": "Portugal",
-			"founded": 1951
+			"founded": 1951,
+			"wiki": "https://en.wikipedia.org/wiki/F.C._Arouca"
 		},
 		"venue": {
 			"api_football_id": 1275,
@@ -968,7 +981,8 @@
 			"name": "Famalicao",
 			"code": "FAM",
 			"country": "Portugal",
-			"founded": 1931
+			"founded": 1931,
+			"wiki": "https://en.wikipedia.org/wiki/F.C._Famalic%C3%A3o"
 		},
 		"venue": {
 			"api_football_id": 1276,
@@ -1031,7 +1045,8 @@
 			"name": "GIL Vicente",
 			"code": "VIC",
 			"country": "Portugal",
-			"founded": 1924
+			"founded": 1924,
+			"wiki": "https://en.wikipedia.org/wiki/Gil_Vicente_F.C."
 		},
 		"venue": {
 			"api_football_id": 2811,
@@ -1094,7 +1109,8 @@
 			"name": "Casa Pia",
 			"code": "CAS",
 			"country": "Portugal",
-			"founded": 1920
+			"founded": 1920,
+			"wiki": "https://en.wikipedia.org/wiki/Casa_Pia_A.C."
 		},
 		"venue": {
 			"api_football_id": 1262,
@@ -1173,7 +1189,8 @@
 			"name": "Estrela",
 			"code": null,
 			"country": "Portugal",
-			"founded": 2018
+			"founded": 2018,
+			"wiki": "https://en.wikipedia.org/wiki/C.F._Estrela_da_Amadora"
 		},
 		"venue": {
 			"api_football_id": 19187,
@@ -1244,7 +1261,8 @@
 			"name": "AVS",
 			"code": null,
 			"country": "Portugal",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/AVS_Futebol_SAD"
 		},
 		"venue": {
 			"api_football_id": 1272,
@@ -1307,7 +1325,8 @@
 			"name": "Feirense",
 			"code": "FEI",
 			"country": "Portugal",
-			"founded": 1918
+			"founded": 1918,
+			"wiki": "https://en.wikipedia.org/wiki/C.D._Feirense"
 		},
 		"venue": {
 			"api_football_id": 1277,
@@ -1378,7 +1397,8 @@
 			"name": "Maritimo",
 			"code": "MAR",
 			"country": "Portugal",
-			"founded": 1910
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/C.S._Mar%C3%ADtimo"
 		},
 		"venue": {
 			"api_football_id": 21117,
@@ -1459,7 +1479,8 @@
 			"name": "Portimonense",
 			"code": "POR",
 			"country": "Portugal",
-			"founded": 1914
+			"founded": 1914,
+			"wiki": "https://en.wikipedia.org/wiki/Portimonense_S.C."
 		},
 		"venue": {
 			"api_football_id": 1285,
@@ -1522,7 +1543,8 @@
 			"name": "Tondela",
 			"code": "TON",
 			"country": "Portugal",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/C.D._Tondela"
 		},
 		"venue": {
 			"api_football_id": 1271,
@@ -1593,7 +1615,8 @@
 			"name": "Chaves",
 			"code": "CHA",
 			"country": "Portugal",
-			"founded": 1949
+			"founded": 1949,
+			"wiki": "https://en.wikipedia.org/wiki/G.D._Chaves"
 		},
 		"venue": {
 			"api_football_id": 1273,
@@ -1656,7 +1679,8 @@
 			"name": "Benfica B",
 			"code": "BEN",
 			"country": "Portugal",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/S.L._Benfica_B"
 		},
 		"venue": {
 			"api_football_id": 1266,
@@ -1711,7 +1735,8 @@
 			"name": "Oliveirense",
 			"code": "OLI",
 			"country": "Portugal",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/U.D._Oliveirense"
 		},
 		"venue": {
 			"api_football_id": 10959,
@@ -1758,7 +1783,8 @@
 			"name": "Pacos Ferreira",
 			"code": "FER",
 			"country": "Portugal",
-			"founded": 1950
+			"founded": 1950,
+			"wiki": "https://en.wikipedia.org/wiki/F.C._Pa%C3%A7os_de_Ferreira"
 		},
 		"venue": {
 			"api_football_id": 1283,
@@ -1821,7 +1847,8 @@
 			"name": "Penafiel",
 			"code": "PEN",
 			"country": "Portugal",
-			"founded": 1951
+			"founded": 1951,
+			"wiki": "https://en.wikipedia.org/wiki/F.C._Penafiel"
 		},
 		"venue": {
 			"api_football_id": 1284,
@@ -1876,7 +1903,8 @@
 			"name": "Academico Viseu",
 			"code": "ACA",
 			"country": "Portugal",
-			"founded": 1914
+			"founded": 1914,
+			"wiki": "https://en.wikipedia.org/wiki/Acad%C3%A9mico_de_Viseu_F.C."
 		},
 		"venue": {
 			"api_football_id": 1264,
@@ -1947,7 +1975,8 @@
 			"name": "FC Porto B",
 			"code": "POR",
 			"country": "Portugal",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Porto_B"
 		},
 		"venue": {
 			"api_football_id": 1287,
@@ -2002,7 +2031,8 @@
 			"name": "Leixoes",
 			"code": "LEI",
 			"country": "Portugal",
-			"founded": 1907
+			"founded": 1907,
+			"wiki": "https://en.wikipedia.org/wiki/Leix%C3%B5es_S.C."
 		},
 		"venue": {
 			"api_football_id": 1278,
@@ -2057,7 +2087,8 @@
 			"name": "Mafra",
 			"code": "MAF",
 			"country": "Portugal",
-			"founded": 1965
+			"founded": 1965,
+			"wiki": "https://en.wikipedia.org/wiki/C.D._Mafra"
 		},
 		"venue": {
 			"api_football_id": 1270,
@@ -2112,7 +2143,8 @@
 			"name": "Vizela",
 			"code": "VIZ",
 			"country": "Portugal",
-			"founded": 1939
+			"founded": 1939,
+			"wiki": "https://en.wikipedia.org/wiki/F.C._Vizela"
 		},
 		"venue": {
 			"api_football_id": 2817,
@@ -2183,7 +2215,8 @@
 			"name": "União de Leiria",
 			"code": "LEI",
 			"country": "Portugal",
-			"founded": 1966
+			"founded": 1966,
+			"wiki": "https://en.wikipedia.org/wiki/U.D._Leiria"
 		},
 		"venue": {
 			"api_football_id": 3514,
@@ -2262,7 +2295,8 @@
 			"name": "Alverca",
 			"code": null,
 			"country": "Portugal",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/F.C._Alverca"
 		},
 		"venue": {
 			"api_football_id": 3572,
@@ -2325,7 +2359,8 @@
 			"name": "Felgueiras 1932",
 			"code": null,
 			"country": "Portugal",
-			"founded": 2006
+			"founded": 2006,
+			"wiki": "https://en.wikipedia.org/wiki/F.C._Felgueiras_(2006)"
 		},
 		"venue": {
 			"api_football_id": 3590,
@@ -2380,7 +2415,8 @@
 			"name": "Torreense",
 			"code": "TOR",
 			"country": "Portugal",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/S.C.U._Torreense"
 		},
 		"venue": {
 			"api_football_id": 3638,
@@ -2443,7 +2479,8 @@
 			"name": "Vilaverdense",
 			"code": "VIL",
 			"country": "Portugal",
-			"founded": 1953
+			"founded": 1953,
+			"wiki": "https://en.wikipedia.org/wiki/Vilaverdense_FC"
 		},
 		"venue": {
 			"api_football_id": 3646,
@@ -2493,7 +2530,8 @@
 			"name": "Lusitânia Lourosa",
 			"code": null,
 			"country": "Portugal",
-			"founded": 1924
+			"founded": 1924,
+			"wiki": "https://en.wikipedia.org/wiki/Lusit%C3%A2nia_F.C."
 		},
 		"venue": {
 			"api_football_id": 4700,
@@ -2551,7 +2589,8 @@
 			"name": "CF Os Belenenses",
 			"code": null,
 			"country": "Portugal",
-			"founded": 2018
+			"founded": 2018,
+			"wiki": "https://en.wikipedia.org/wiki/C.F._Os_Belenenses"
 		},
 		"venue": {
 			"api_football_id": 12376,
