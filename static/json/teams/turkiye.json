@@ -5,7 +5,8 @@
 			"name": "Besiktas",
 			"code": "BES",
 			"country": "Türkiye",
-			"founded": 1903
+			"founded": 1903,
+			"wiki": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K."
 		},
 		"venue": {
 			"api_football_id": 20423,
@@ -76,7 +77,8 @@
 			"name": "Istanbul Basaksehir",
 			"code": "IST",
 			"country": "Türkiye",
-			"founded": 1990
+			"founded": 1990,
+			"wiki": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K."
 		},
 		"venue": {
 			"api_football_id": 1584,
@@ -147,7 +149,8 @@
 			"name": "Konyaspor",
 			"code": "KON",
 			"country": "Türkiye",
-			"founded": 1981
+			"founded": 1981,
+			"wiki": "https://en.wikipedia.org/wiki/Konyaspor"
 		},
 		"venue": {
 			"api_football_id": 1587,
@@ -218,7 +221,8 @@
 			"name": "Fenerbahce",
 			"code": "FEN",
 			"country": "Türkiye",
-			"founded": 1907
+			"founded": 1907,
+			"wiki": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)"
 		},
 		"venue": {
 			"api_football_id": 1581,
@@ -297,7 +301,8 @@
 			"name": "Galatasaray",
 			"code": "GAL",
 			"country": "Türkiye",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)"
 		},
 		"venue": {
 			"api_football_id": 19941,
@@ -368,7 +373,8 @@
 			"name": "Goztepe",
 			"code": "GOZ",
 			"country": "Türkiye",
-			"founded": 1925
+			"founded": 1925,
+			"wiki": "https://en.wikipedia.org/wiki/G%C3%B6ztepe_S.K."
 		},
 		"venue": {
 			"api_football_id": 1583,
@@ -431,7 +437,8 @@
 			"name": "Alanyaspor",
 			"code": "ALA",
 			"country": "Türkiye",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": "https://en.wikipedia.org/wiki/Alanyaspor"
 		},
 		"venue": {
 			"api_football_id": 21379,
@@ -494,7 +501,8 @@
 			"name": "Trabzonspor",
 			"code": "TRA",
 			"country": "Türkiye",
-			"founded": 1967
+			"founded": 1967,
+			"wiki": "https://en.wikipedia.org/wiki/Trabzonspor"
 		},
 		"venue": {
 			"api_football_id": 20189,
@@ -565,7 +573,8 @@
 			"name": "Kayserispor",
 			"code": "KAY",
 			"country": "Türkiye",
-			"founded": 1966
+			"founded": 1966,
+			"wiki": "https://en.wikipedia.org/wiki/Kayserispor"
 		},
 		"venue": {
 			"api_football_id": 19613,
@@ -636,7 +645,8 @@
 			"name": "Sivasspor",
 			"code": "SIV",
 			"country": "Türkiye",
-			"founded": 1967
+			"founded": 1967,
+			"wiki": "https://en.wikipedia.org/wiki/Sivasspor"
 		},
 		"venue": {
 			"api_football_id": 20425,
@@ -699,7 +709,8 @@
 			"name": "Kasimpasa",
 			"code": "KAS",
 			"country": "Türkiye",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/Kas%C4%B1mpa%C5%9Fa_S.K."
 		},
 		"venue": {
 			"api_football_id": 1585,
@@ -762,7 +773,8 @@
 			"name": "Antalyaspor",
 			"code": "ANT",
 			"country": "Türkiye",
-			"founded": 1966
+			"founded": 1966,
+			"wiki": "https://en.wikipedia.org/wiki/Antalyaspor"
 		},
 		"venue": {
 			"api_football_id": 19220,
@@ -825,7 +837,8 @@
 			"name": "Rizespor",
 			"code": "RIZ",
 			"country": "Türkiye",
-			"founded": 1953
+			"founded": 1953,
+			"wiki": "https://en.wikipedia.org/wiki/%C3%87aykur_Rizespor"
 		},
 		"venue": {
 			"api_football_id": 1580,
@@ -888,7 +901,8 @@
 			"name": "Adana Demirspor",
 			"code": "ADA",
 			"country": "Türkiye",
-			"founded": 1941
+			"founded": 1941,
+			"wiki": "https://en.wikipedia.org/wiki/Adana_Demirspor"
 		},
 		"venue": {
 			"api_football_id": 11924,
@@ -951,7 +965,8 @@
 			"name": "Gazişehir Gaziantep",
 			"code": "GAZ",
 			"country": "Türkiye",
-			"founded": 1988
+			"founded": 1988,
+			"wiki": "https://en.wikipedia.org/wiki/Gaziantep_F.K."
 		},
 		"venue": {
 			"api_football_id": 20118,
@@ -1022,7 +1037,8 @@
 			"name": "Hatayspor",
 			"code": "HAT",
 			"country": "Türkiye",
-			"founded": 1967
+			"founded": 1967,
+			"wiki": "https://en.wikipedia.org/wiki/Hatayspor"
 		},
 		"venue": {
 			"api_football_id": 8392,
@@ -1085,7 +1101,8 @@
 			"name": "BB Bodrumspor",
 			"code": null,
 			"country": "Türkiye",
-			"founded": 1931
+			"founded": 1931,
+			"wiki": "https://en.wikipedia.org/wiki/Bodrum_F.K."
 		},
 		"venue": {
 			"api_football_id": 2385,
@@ -1132,7 +1149,8 @@
 			"name": "Eyüpspor",
 			"code": "EYU",
 			"country": "Türkiye",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/Ey%C3%BCpspor"
 		},
 		"venue": {
 			"api_football_id": 2390,
@@ -1179,7 +1197,8 @@
 			"name": "Samsunspor",
 			"code": "SAM",
 			"country": "Türkiye",
-			"founded": 1965
+			"founded": 1965,
+			"wiki": "https://en.wikipedia.org/wiki/Samsunspor"
 		},
 		"venue": {
 			"api_football_id": 11925,
@@ -1250,7 +1269,8 @@
 			"name": "Genclerbirligi",
 			"code": "GEN",
 			"country": "Türkiye",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/Gen%C3%A7lerbirli%C4%9Fi_S.K."
 		},
 		"venue": {
 			"api_football_id": 2378,
@@ -1313,7 +1333,8 @@
 			"name": "Yeni Malatyaspor",
 			"code": "MAL",
 			"country": "Türkiye",
-			"founded": 1986
+			"founded": 1986,
+			"wiki": "https://en.wikipedia.org/wiki/Yeni_Malatyaspor"
 		},
 		"venue": {
 			"api_football_id": 1588,
@@ -1376,7 +1397,8 @@
 			"name": "Erzurum BB",
 			"code": "ERZ",
 			"country": "Türkiye",
-			"founded": 2005
+			"founded": 2005,
+			"wiki": "https://en.wikipedia.org/wiki/Erzurumspor_F.K."
 		},
 		"venue": {
 			"api_football_id": 1741,
@@ -1431,7 +1453,8 @@
 			"name": "Ankaragucu",
 			"code": "ANK",
 			"country": "Türkiye",
-			"founded": 1910
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/MKE_Ankarag%C3%BCc%C3%BC"
 		},
 		"venue": {
 			"api_football_id": 2378,
@@ -1494,7 +1517,8 @@
 			"name": "Adanaspor",
 			"code": "ADA",
 			"country": "Türkiye",
-			"founded": 1954
+			"founded": 1954,
+			"wiki": "https://en.wikipedia.org/wiki/Adanaspor"
 		},
 		"venue": {
 			"api_football_id": 11924,
@@ -1557,7 +1581,8 @@
 			"name": "Boluspor",
 			"code": "BOL",
 			"country": "Türkiye",
-			"founded": 1965
+			"founded": 1965,
+			"wiki": "https://en.wikipedia.org/wiki/Boluspor"
 		},
 		"venue": {
 			"api_football_id": 2371,
@@ -1620,7 +1645,8 @@
 			"name": "Ümraniyespor",
 			"code": "UMR",
 			"country": "Türkiye",
-			"founded": 1938
+			"founded": 1938,
+			"wiki": "https://en.wikipedia.org/wiki/%C3%9Cmraniyespor"
 		},
 		"venue": {
 			"api_football_id": 2379,
@@ -1675,7 +1701,8 @@
 			"name": "İstanbulspor",
 			"code": "IST",
 			"country": "Türkiye",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/%C4%B0stanbulspor"
 		},
 		"venue": {
 			"api_football_id": 20746,
@@ -1730,7 +1757,8 @@
 			"name": "Amed",
 			"code": "DIY",
 			"country": "Türkiye",
-			"founded": 1990
+			"founded": 1990,
+			"wiki": "https://en.wikipedia.org/wiki/Amed_S.F.K."
 		},
 		"venue": {
 			"api_football_id": 2381,
@@ -1769,7 +1797,8 @@
 			"name": "Bandırmaspor",
 			"code": "BAN",
 			"country": "Türkiye",
-			"founded": 1965
+			"founded": 1965,
+			"wiki": "https://en.wikipedia.org/wiki/Band%C4%B1rmaspor"
 		},
 		"venue": {
 			"api_football_id": 2386,
@@ -1816,7 +1845,8 @@
 			"name": "Fatih Karagümrük",
 			"code": "KAR",
 			"country": "Türkiye",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Fatih_Karag%C3%BCmr%C3%BCk_S.K."
 		},
 		"venue": {
 			"api_football_id": 1968,
@@ -1895,7 +1925,8 @@
 			"name": "Keçiörengücü",
 			"code": "KEC",
 			"country": "Türkiye",
-			"founded": 1945
+			"founded": 1945,
+			"wiki": "https://en.wikipedia.org/wiki/Ankara_Ke%C3%A7i%C3%B6reng%C3%BCc%C3%BC_S.K."
 		},
 		"venue": {
 			"api_football_id": 2397,
@@ -1942,7 +1973,8 @@
 			"name": "Manisa BBSK",
 			"code": null,
 			"country": "Türkiye",
-			"founded": 1994
+			"founded": 1994,
+			"wiki": "https://en.wikipedia.org/wiki/Manisa_F.K."
 		},
 		"venue": {
 			"api_football_id": 2399,
@@ -1989,7 +2021,8 @@
 			"name": "Pendikspor",
 			"code": "PEN",
 			"country": "Türkiye",
-			"founded": 1950
+			"founded": 1950,
+			"wiki": "https://en.wikipedia.org/wiki/Pendikspor"
 		},
 		"venue": {
 			"api_football_id": 19225,
@@ -2044,7 +2077,8 @@
 			"name": "Sakaryaspor",
 			"code": "SAK",
 			"country": "Türkiye",
-			"founded": 1965
+			"founded": 1965,
+			"wiki": "https://en.wikipedia.org/wiki/Sakaryaspor"
 		},
 		"venue": {
 			"api_football_id": 2404,
@@ -2107,7 +2141,8 @@
 			"name": "Şanlıurfaspor",
 			"code": "SAN",
 			"country": "Türkiye",
-			"founded": 1969
+			"founded": 1969,
+			"wiki": "https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfaspor"
 		},
 		"venue": {
 			"api_football_id": 20477,
@@ -2170,7 +2205,8 @@
 			"name": "Yeni Çorumspor",
 			"code": "COR",
 			"country": "Türkiye",
-			"founded": 1997
+			"founded": 1997,
+			"wiki": "https://en.wikipedia.org/wiki/%C3%87orum_F.K."
 		},
 		"venue": {
 			"api_football_id": 20306,
@@ -2233,7 +2269,8 @@
 			"name": "Erokspor",
 			"code": null,
 			"country": "Türkiye",
-			"founded": 1959
+			"founded": 1959,
+			"wiki": "https://en.wikipedia.org/wiki/Esenler_Erokspor"
 		},
 		"venue": {
 			"api_football_id": 12125,
@@ -2280,7 +2317,8 @@
 			"name": "Kocaelispor",
 			"code": "KOC",
 			"country": "Türkiye",
-			"founded": 1966
+			"founded": 1966,
+			"wiki": "https://en.wikipedia.org/wiki/Kocaelispor"
 		},
 		"venue": {
 			"api_football_id": 20309,
@@ -2343,7 +2381,8 @@
 			"name": "76 Iğdır Belediyespor",
 			"code": null,
 			"country": "Türkiye",
-			"founded": 2016
+			"founded": 2016,
+			"wiki": "https://en.wikipedia.org/wiki/I%C4%9Fd%C4%B1r_F.K."
 		},
 		"venue": {
 			"api_football_id": null,
@@ -2373,7 +2412,8 @@
 			"name": "Altay",
 			"code": "ALT",
 			"country": "Türkiye",
-			"founded": 1914
+			"founded": 1914,
+			"wiki": "https://en.wikipedia.org/wiki/Altay_S.K."
 		},
 		"venue": {
 			"api_football_id": 12684,
@@ -2431,7 +2471,8 @@
 			"name": "Giresunspor",
 			"code": "GIR",
 			"country": "Türkiye",
-			"founded": 1967
+			"founded": 1967,
+			"wiki": "https://en.wikipedia.org/wiki/Giresunspor"
 		},
 		"venue": {
 			"api_football_id": 12089,
@@ -2489,7 +2530,8 @@
 			"name": "Tuzlaspor",
 			"code": "TUZ",
 			"country": "Türkiye",
-			"founded": 1954
+			"founded": 1954,
+			"wiki": "https://en.wikipedia.org/wiki/Tuzlaspor"
 		},
 		"venue": {
 			"api_football_id": 2406,

@@ -30,7 +30,7 @@ export async function GET({ url }) {
         const { data: images, error: error1 } = await supabase.storage
             .from("stadiums")
             .list(countrySlug, {
-                limit: 300,
+                limit: 400,
                 offset: 0,
                 sortBy: { column: "name", order: "asc" },
             });

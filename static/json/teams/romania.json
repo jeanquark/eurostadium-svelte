@@ -5,7 +5,8 @@
 			"name": "FCSB",
 			"code": "STE",
 			"country": "Romania",
-			"founded": 1947
+			"founded": 1947,
+			"wiki": "https://en.wikipedia.org/wiki/FCSB"
 		},
 		"venue": {
 			"api_football_id": 1326,
@@ -68,7 +69,8 @@
 			"name": "Universitatea Craiova",
 			"code": "UNI",
 			"country": "Romania",
-			"founded": 2013
+			"founded": 2013,
+			"wiki": "https://en.wikipedia.org/wiki/CS_Universitatea_Craiova"
 		},
 		"venue": {
 			"api_football_id": 12282,
@@ -131,7 +133,8 @@
 			"name": "Dinamo Bucuresti",
 			"code": "DIN",
 			"country": "Romania",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Dinamo_Bucure%C8%99ti"
 		},
 		"venue": {
 			"api_football_id": 19612,
@@ -194,7 +197,8 @@
 			"name": "CFR 1907 Cluj",
 			"code": "CLU",
 			"country": "Romania",
-			"founded": 1907
+			"founded": 1907,
+			"wiki": "https://en.wikipedia.org/wiki/CFR_Cluj"
 		},
 		"venue": {
 			"api_football_id": 1311,
@@ -257,7 +261,8 @@
 			"name": "AFC Hermannstadt",
 			"code": null,
 			"country": "Romania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Hermannstadt"
 		},
 		"venue": {
 			"api_football_id": 1894,
@@ -320,7 +325,8 @@
 			"name": "FC Botosani",
 			"code": "BOT",
 			"country": "Romania",
-			"founded": 1973
+			"founded": 1973,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Boto%C8%99ani"
 		},
 		"venue": {
 			"api_football_id": 1309,
@@ -383,7 +389,8 @@
 			"name": "Politehnica Iasi",
 			"code": "CSM",
 			"country": "Romania",
-			"founded": 2010
+			"founded": 2010,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Politehnica_Ia%C8%99i_(2010)"
 		},
 		"venue": {
 			"api_football_id": 1322,
@@ -446,7 +453,8 @@
 			"name": "Sepsi OSK Sfantu Gheorghe",
 			"code": null,
 			"country": "Romania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Sepsi_OSK_Sf%C3%A2ntu_Gheorghe"
 		},
 		"venue": {
 			"api_football_id": 12593,
@@ -509,7 +517,8 @@
 			"name": "Uta Arad",
 			"code": "ARA",
 			"country": "Romania",
-			"founded": 2013
+			"founded": 2013,
+			"wiki": "https://en.wikipedia.org/wiki/FC_UTA_Arad"
 		},
 		"venue": {
 			"api_football_id": 11931,
@@ -572,7 +581,8 @@
 			"name": "Farul Constanta",
 			"code": null,
 			"country": "Romania",
-			"founded": 2016
+			"founded": 2016,
+			"wiki": "https://en.wikipedia.org/wiki/FCV_Farul_Constan%C8%9Ba"
 		},
 		"venue": {
 			"api_football_id": 1324,
@@ -635,7 +645,8 @@
 			"name": "Petrolul Ploiesti",
 			"code": "PET",
 			"country": "Romania",
-			"founded": 1924
+			"founded": 1924,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Petrolul_Ploie%C8%99ti"
 		},
 		"venue": {
 			"api_football_id": 1312,
@@ -698,7 +709,8 @@
 			"name": "Universitatea Cluj",
 			"code": "UNI",
 			"country": "Romania",
-			"founded": 2016
+			"founded": 2016,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Universitatea_Cluj"
 		},
 		"venue": {
 			"api_football_id": 1913,
@@ -761,7 +773,8 @@
 			"name": "Rapid",
 			"code": "RAP",
 			"country": "Romania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Rapid_Bucure%C8%99ti"
 		},
 		"venue": {
 			"api_football_id": 19516,
@@ -824,7 +837,8 @@
 			"name": "SCM Gloria Buzău",
 			"code": null,
 			"country": "Romania",
-			"founded": 2016
+			"founded": 2016,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Gloria_Buz%C4%83u"
 		},
 		"venue": {
 			"api_football_id": 4608,
@@ -887,7 +901,8 @@
 			"name": "Oţelul",
 			"code": "OTE",
 			"country": "Romania",
-			"founded": 1964
+			"founded": 1964,
+			"wiki": "https://en.wikipedia.org/wiki/ASC_O%C8%9Belul_Gala%C8%9Bi"
 		},
 		"venue": {
 			"api_football_id": 5026,
@@ -950,7 +965,8 @@
 			"name": "Unirea Slobozia",
 			"code": "SLO",
 			"country": "Romania",
-			"founded": 2004
+			"founded": 2004,
+			"wiki": "https://en.wikipedia.org/wiki/AFC_Unirea_Slobozia"
 		},
 		"venue": {
 			"api_football_id": 5044,
@@ -1013,7 +1029,8 @@
 			"name": "FC Voluntari",
 			"code": null,
 			"country": "Romania",
-			"founded": 1949
+			"founded": 1949,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Voluntari"
 		},
 		"venue": {
 			"api_football_id": 1315,
@@ -1076,7 +1093,8 @@
 			"name": "Concordia",
 			"code": "CON",
 			"country": "Romania",
-			"founded": 1957
+			"founded": 1957,
+			"wiki": "https://en.wikipedia.org/wiki/CS_Concordia_Chiajna"
 		},
 		"venue": {
 			"api_football_id": 1313,
@@ -1139,7 +1157,8 @@
 			"name": "Chindia Targoviste",
 			"code": "TAR",
 			"country": "Romania",
-			"founded": 2010
+			"founded": 2010,
+			"wiki": "https://en.wikipedia.org/wiki/AFC_Chindia_T%C3%A2rgovi%C8%99te"
 		},
 		"venue": {
 			"api_football_id": 20111,
@@ -1202,7 +1221,8 @@
 			"name": "Arges Pitesti",
 			"code": "ARG",
 			"country": "Romania",
-			"founded": 2010
+			"founded": 2010,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Arge%C8%99_Pite%C8%99ti"
 		},
 		"venue": {
 			"api_football_id": 1317,
@@ -1265,7 +1285,8 @@
 			"name": "CS Mioveni",
 			"code": "DAC",
 			"country": "Romania",
-			"founded": 2000
+			"founded": 2000,
+			"wiki": "https://en.wikipedia.org/wiki/CS_Mioveni"
 		},
 		"venue": {
 			"api_football_id": 1317,
@@ -1328,7 +1349,8 @@
 			"name": "ACS Sirineasa",
 			"code": null,
 			"country": "Romania",
-			"founded": 1998
+			"founded": 1998,
+			"wiki": "https://en.wikipedia.org/wiki/ACS_Viitorul_T%C3%A2rgu_Jiu"
 		},
 		"venue": {
 			"api_football_id": 19422,
@@ -1391,7 +1413,8 @@
 			"name": "Metaloglobus",
 			"code": null,
 			"country": "Romania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Metaloglobus_Bucure%C8%99ti"
 		},
 		"venue": {
 			"api_football_id": 20116,
@@ -1454,7 +1477,8 @@
 			"name": "CS Afumati",
 			"code": null,
 			"country": "Romania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/CS_Afuma%C8%9Bi"
 		},
 		"venue": {
 			"api_football_id": 2823,
@@ -1493,7 +1517,8 @@
 			"name": "CSM Reşiţa",
 			"code": null,
 			"country": "Romania",
-			"founded": 2009
+			"founded": 2009,
+			"wiki": "https://en.wikipedia.org/wiki/CSM_Re%C8%99i%C8%9Ba"
 		},
 		"venue": {
 			"api_football_id": 4606,
@@ -1556,7 +1581,8 @@
 			"name": "Csikszereda",
 			"code": null,
 			"country": "Romania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Cs%C3%ADkszereda_Miercurea_Ciuc"
 		},
 		"venue": {
 			"api_football_id": 4607,
@@ -1619,7 +1645,8 @@
 			"name": "Ceahlăul Piatra Neamţ",
 			"code": "CEA",
 			"country": "Romania",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/CSM_Ceahl%C4%83ul_Piatra_Neam%C8%9B"
 		},
 		"venue": {
 			"api_football_id": 5004,
@@ -1682,7 +1709,8 @@
 			"name": "Focşani",
 			"code": null,
 			"country": "Romania",
-			"founded": 2007
+			"founded": 2007,
+			"wiki": "https://en.wikipedia.org/wiki/CSM_Foc%C8%99ani_(football)"
 		},
 		"venue": {
 			"api_football_id": 5010,
@@ -1721,7 +1749,8 @@
 			"name": "Metalul Buzău",
 			"code": null,
 			"country": "Romania",
-			"founded": 1954
+			"founded": 1954,
+			"wiki": "https://en.wikipedia.org/wiki/AFC_Metalul_Buz%C4%83u"
 		},
 		"venue": {
 			"api_football_id": 5017,
@@ -1760,7 +1789,8 @@
 			"name": "Slatina",
 			"code": null,
 			"country": "Romania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/CSM_Slatina_(football)"
 		},
 		"venue": {
 			"api_football_id": 5032,
@@ -1823,7 +1853,8 @@
 			"name": "U Craiova 1948",
 			"code": null,
 			"country": "Romania",
-			"founded": 2017
+			"founded": 2017,
+			"wiki": "https://en.wikipedia.org/wiki/FC_U_Craiova_1948"
 		},
 		"venue": {
 			"api_football_id": 12282,
@@ -1886,7 +1917,8 @@
 			"name": "Viitorul Şelimbăr",
 			"code": null,
 			"country": "Romania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/CSC_1599_%C8%98elimb%C4%83r"
 		},
 		"venue": {
 			"api_football_id": 5050,
@@ -1949,7 +1981,8 @@
 			"name": "CSA Steaua Bucureşti",
 			"code": null,
 			"country": "Romania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/CSA_Steaua_Bucure%C8%99ti"
 		},
 		"venue": {
 			"api_football_id": 12042,
@@ -2012,7 +2045,8 @@
 			"name": "Dumbrăviţa",
 			"code": null,
 			"country": "Romania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/CSC_Dumbr%C4%83vi%C8%9Ba"
 		},
 		"venue": {
 			"api_football_id": 5436,
@@ -2075,7 +2109,8 @@
 			"name": "Unirea Ungheni",
 			"code": "FCU",
 			"country": "Romania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/CS_Unirea_Ungheni"
 		},
 		"venue": {
 			"api_football_id": 5445,
@@ -2114,7 +2149,8 @@
 			"name": "Bihor Oradea",
 			"code": null,
 			"country": "Romania",
-			"founded": 1958
+			"founded": 1958,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Bihor_Oradea_(2022)"
 		},
 		"venue": {
 			"api_football_id": 11407,
@@ -2177,7 +2213,8 @@
 			"name": "Corvinul Hunedoara",
 			"code": null,
 			"country": "Romania",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Corvinul_Hunedoara"
 		},
 		"venue": {
 			"api_football_id": 5013,
@@ -2240,7 +2277,8 @@
 			"name": "Muscelul Câmpulung Elite",
 			"code": null,
 			"country": "Romania",
-			"founded": 2022
+			"founded": 2022,
+			"wiki": "https://en.wikipedia.org/wiki/AFC_C%C3%A2mpulung_Muscel"
 		},
 		"venue": {
 			"api_football_id": 19434,
@@ -2287,7 +2325,8 @@
 			"name": "Alexandria",
 			"code": null,
 			"country": "Romania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/CSM_Alexandria"
 		},
 		"venue": {
 			"api_football_id": 4610,
@@ -2345,7 +2384,8 @@
 			"name": "Progresul Spartac",
 			"code": null,
 			"country": "Romania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/AFC_Progresul_Spartac_Bucure%C8%99ti"
 		},
 		"venue": {
 			"api_football_id": 19619,
@@ -2403,7 +2443,8 @@
 			"name": "Tunari",
 			"code": null,
 			"country": "Romania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/CS_Tunari"
 		},
 		"venue": {
 			"api_football_id": 5038,
@@ -2461,7 +2502,8 @@
 			"name": "Unirea Dej",
 			"code": null,
 			"country": "Romania",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Unirea_Dej"
 		},
 		"venue": {
 			"api_football_id": 12594,

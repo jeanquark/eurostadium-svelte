@@ -3,13 +3,18 @@ import { promises as fs } from "fs";
 import { env } from '$env/dynamic/private';
 
 export async function GET({ url }) {
-    console.log('[api/api-football/fetch-eurostadium-teams]', new Date())
+    console.log('[api/api-football/fetch-teams?season=[SEASON]&countryStartIndex=[COUNTRY_START_INDEX]&countryEndIndex=[COUNTRY_END_INDEX]]', new Date())
 
-    console.log('[api/api-football/fetch-eurostadium-teams] season: ', url.searchParams.get('season'));
+    const SEASON = url.searchParams.get('season')
+    const COUNTRY_START_INDEX = url.searchParams.get('countryStartIndex')
+    const COUNTRY_END_INDEX = url.searchParams.get('countryEndIndex')
 
-    const SEASON = 2024;
-    const COUNTRY_START_INDEX = 12
-    const COUNTRY_END_INDEX = 12
+    if (!SEASON || !COUNTRY_START_INDEX || !COUNTRY_END_INDEX) {
+        return json({
+            success: false,
+            message: 'Specify season, start index and end index in url params: "api/api-football/fetch-teams?season=[SEASON]&countryStartIndex=[COUNTRY_START_INDEX]&countryEndIndex=[COUNTRY_END_INDEX]"'
+        });
+    }
 
     // const countryObj = {
     //     name: 'Switzerland',

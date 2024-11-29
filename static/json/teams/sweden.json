@@ -5,7 +5,8 @@
 			"name": "Hammarby FF",
 			"code": "HAM",
 			"country": "Sweden",
-			"founded": 1897
+			"founded": 1897,
+			"wiki": "https://en.wikipedia.org/wiki/Hammarby_Fotboll"
 		},
 		"venue": {
 			"api_football_id": 1506,
@@ -84,7 +85,8 @@
 			"name": "Djurgardens IF",
 			"code": "DJU",
 			"country": "Sweden",
-			"founded": 1891
+			"founded": 1891,
+			"wiki": "https://en.wikipedia.org/wiki/Djurg%C3%A5rdens_IF_Fotboll"
 		},
 		"venue": {
 			"api_football_id": 1506,
@@ -163,7 +165,8 @@
 			"name": "IFK Goteborg",
 			"code": "GOT",
 			"country": "Sweden",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": "https://en.wikipedia.org/wiki/IFK_G%C3%B6teborg"
 		},
 		"venue": {
 			"api_football_id": 1509,
@@ -234,7 +237,8 @@
 			"name": "BK Hacken",
 			"code": "HAC",
 			"country": "Sweden",
-			"founded": 1940
+			"founded": 1940,
+			"wiki": "https://en.wikipedia.org/wiki/BK_H%C3%A4cken"
 		},
 		"venue": {
 			"api_football_id": 1511,
@@ -297,7 +301,8 @@
 			"name": "Sirius",
 			"code": "SIR",
 			"country": "Sweden",
-			"founded": 1907
+			"founded": 1907,
+			"wiki": "https://en.wikipedia.org/wiki/IK_Sirius_Fotboll"
 		},
 		"venue": {
 			"api_football_id": 1524,
@@ -360,7 +365,8 @@
 			"name": "IF Brommapojkarna",
 			"code": "BRO",
 			"country": "Sweden",
-			"founded": 1942
+			"founded": 1942,
+			"wiki": "https://en.wikipedia.org/wiki/IF_Brommapojkarna"
 		},
 		"venue": {
 			"api_football_id": 1503,
@@ -423,7 +429,8 @@
 			"name": "IF Elfsborg",
 			"code": "ELF",
 			"country": "Sweden",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": "https://en.wikipedia.org/wiki/IF_Elfsborg"
 		},
 		"venue": {
 			"api_football_id": 1507,
@@ -494,7 +501,8 @@
 			"name": "Kalmar FF",
 			"code": "KAL",
 			"country": "Sweden",
-			"founded": 1910
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/Kalmar_FF"
 		},
 		"venue": {
 			"api_football_id": 1517,
@@ -573,7 +581,8 @@
 			"name": "Malmo FF",
 			"code": "MAL",
 			"country": "Sweden",
-			"founded": 1910
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/Malm%C3%B6_FF"
 		},
 		"venue": {
 			"api_football_id": 1518,
@@ -660,7 +669,8 @@
 			"name": "AIK Stockholm",
 			"code": "AIK",
 			"country": "Sweden",
-			"founded": 1891
+			"founded": 1891,
+			"wiki": "https://en.wikipedia.org/wiki/AIK_Fotboll"
 		},
 		"venue": {
 			"api_football_id": 1501,
@@ -755,7 +765,8 @@
 			"name": "IFK Norrkoping",
 			"code": "NOR",
 			"country": "Sweden",
-			"founded": 1897
+			"founded": 1897,
+			"wiki": "https://en.wikipedia.org/wiki/IFK_Norrk%C3%B6ping"
 		},
 		"venue": {
 			"api_football_id": 11553,
@@ -826,7 +837,8 @@
 			"name": "Halmstad",
 			"code": "HAL",
 			"country": "Sweden",
-			"founded": 1914
+			"founded": 1914,
+			"wiki": "https://en.wikipedia.org/wiki/Halmstads_BK"
 		},
 		"venue": {
 			"api_football_id": 1512,
@@ -889,7 +901,8 @@
 			"name": "IFK Varnamo",
 			"code": "VAR",
 			"country": "Sweden",
-			"founded": 1912
+			"founded": 1912,
+			"wiki": "https://en.wikipedia.org/wiki/IFK_V%C3%A4rnamo"
 		},
 		"venue": {
 			"api_football_id": 1937,
@@ -936,7 +949,8 @@
 			"name": "Gais",
 			"code": "GAI",
 			"country": "Sweden",
-			"founded": 1894
+			"founded": 1894,
+			"wiki": "https://en.wikipedia.org/wiki/GAIS"
 		},
 		"venue": {
 			"api_football_id": 1509,
@@ -1007,7 +1021,8 @@
 			"name": "Mjallby AIF",
 			"code": "MJA",
 			"country": "Sweden",
-			"founded": 1939
+			"founded": 1939,
+			"wiki": "https://en.wikipedia.org/wiki/Mj%C3%A4llby_AIF"
 		},
 		"venue": {
 			"api_football_id": 1519,
@@ -1062,7 +1077,8 @@
 			"name": "Vasteras SK FK",
 			"code": "VAS",
 			"country": "Sweden",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": "https://en.wikipedia.org/wiki/V%C3%A4ster%C3%A5s_SK_Fotboll"
 		},
 		"venue": {
 			"api_football_id": 19703,
@@ -1117,7 +1133,8 @@
 			"name": "Orebro SK",
 			"code": "ORE",
 			"country": "Sweden",
-			"founded": 1908
+			"founded": 1908,
+			"wiki": "https://en.wikipedia.org/wiki/%C3%96rebro_SK"
 		},
 		"venue": {
 			"api_football_id": 1521,
@@ -1180,7 +1197,8 @@
 			"name": "trelleborgs FF",
 			"code": "TRE",
 			"country": "Sweden",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/Trelleborgs_FF"
 		},
 		"venue": {
 			"api_football_id": 1526,
@@ -1235,7 +1253,8 @@
 			"name": "GIF Sundsvall",
 			"code": "SUN",
 			"country": "Sweden",
-			"founded": 1903
+			"founded": 1903,
+			"wiki": "https://en.wikipedia.org/wiki/GIF_Sundsvall"
 		},
 		"venue": {
 			"api_football_id": 1510,
@@ -1306,7 +1325,8 @@
 			"name": "Ostersunds FK",
 			"code": "OST",
 			"country": "Sweden",
-			"founded": 1996
+			"founded": 1996,
+			"wiki": "https://en.wikipedia.org/wiki/%C3%96stersunds_FK"
 		},
 		"venue": {
 			"api_football_id": 1523,
@@ -1377,7 +1397,8 @@
 			"name": "Helsingborg",
 			"code": "HEL",
 			"country": "Sweden",
-			"founded": 1907
+			"founded": 1907,
+			"wiki": "https://en.wikipedia.org/wiki/Helsingborgs_IF"
 		},
 		"venue": {
 			"api_football_id": 1513,
@@ -1456,7 +1477,8 @@
 			"name": "gefle IF",
 			"code": "GEF",
 			"country": "Sweden",
-			"founded": 1882
+			"founded": 1882,
+			"wiki": "https://en.wikipedia.org/wiki/Gefle_IF"
 		},
 		"venue": {
 			"api_football_id": 1504,
@@ -1511,7 +1533,8 @@
 			"name": "Orgryte IS",
 			"code": "ORG",
 			"country": "Sweden",
-			"founded": 1887
+			"founded": 1887,
+			"wiki": "https://en.wikipedia.org/wiki/%C3%96rgryte_IS"
 		},
 		"venue": {
 			"api_football_id": 1509,
@@ -1582,7 +1605,8 @@
 			"name": "Varbergs BoIS FC",
 			"code": "VAR",
 			"country": "Sweden",
-			"founded": 1925
+			"founded": 1925,
+			"wiki": "https://en.wikipedia.org/wiki/Varbergs_BoIS"
 		},
 		"venue": {
 			"api_football_id": 10496,
@@ -1645,7 +1669,8 @@
 			"name": "Degerfors IF",
 			"code": "DEG",
 			"country": "Sweden",
-			"founded": 1907
+			"founded": 1907,
+			"wiki": "https://en.wikipedia.org/wiki/Degerfors_IF"
 		},
 		"venue": {
 			"api_football_id": 1505,
@@ -1708,7 +1733,8 @@
 			"name": "Osters IF",
 			"code": "OST",
 			"country": "Sweden",
-			"founded": 1930
+			"founded": 1930,
+			"wiki": "https://en.wikipedia.org/wiki/%C3%96sters_IF"
 		},
 		"venue": {
 			"api_football_id": 11916,
@@ -1771,7 +1797,8 @@
 			"name": "IK brage",
 			"code": "BRA",
 			"country": "Sweden",
-			"founded": 1925
+			"founded": 1925,
+			"wiki": "https://en.wikipedia.org/wiki/IK_Brage"
 		},
 		"venue": {
 			"api_football_id": 18631,
@@ -1818,7 +1845,8 @@
 			"name": "Landskrona BoIS",
 			"code": "LAN",
 			"country": "Sweden",
-			"founded": 1915
+			"founded": 1915,
+			"wiki": "https://en.wikipedia.org/wiki/Landskrona_BoIS"
 		},
 		"venue": {
 			"api_football_id": 1936,
@@ -1873,7 +1901,8 @@
 			"name": "Sandviken",
 			"code": "SAN",
 			"country": "Sweden",
-			"founded": 1918
+			"founded": 1918,
+			"wiki": "https://en.wikipedia.org/wiki/Sandvikens_IF"
 		},
 		"venue": {
 			"api_football_id": 4893,
@@ -1920,7 +1949,8 @@
 			"name": "Skövde AIK",
 			"code": "SKO",
 			"country": "Sweden",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/Sk%C3%B6vde_AIK"
 		},
 		"venue": {
 			"api_football_id": 4894,
@@ -1967,7 +1997,8 @@
 			"name": "Utsikten",
 			"code": "UTS",
 			"country": "Sweden",
-			"founded": 1935
+			"founded": 1935,
+			"wiki": "https://en.wikipedia.org/wiki/Utsiktens_BK"
 		},
 		"venue": {
 			"api_football_id": 4861,
@@ -2014,7 +2045,8 @@
 			"name": "Oddevold",
 			"code": "ODD",
 			"country": "Sweden",
-			"founded": 1932
+			"founded": 1932,
+			"wiki": "https://en.wikipedia.org/wiki/IK_Oddevold"
 		},
 		"venue": {
 			"api_football_id": 20480,
@@ -2053,7 +2085,8 @@
 			"name": "Jonkopings Sodra",
 			"code": "JON",
 			"country": "Sweden",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/J%C3%B6nk%C3%B6pings_S%C3%B6dra_IF"
 		},
 		"venue": {
 			"api_football_id": 1516,
@@ -2113,7 +2146,8 @@
 			"name": "AFC Eskilstuna",
 			"code": "AFC",
 			"country": "Sweden",
-			"founded": 2005
+			"founded": 2005,
+			"wiki": "https://en.wikipedia.org/wiki/AFC_Eskilstuna"
 		},
 		"venue": {
 			"api_football_id": 1528,
@@ -2173,7 +2207,8 @@
 			"name": "falkenbergs FF",
 			"code": "FAL",
 			"country": "Sweden",
-			"founded": 1928
+			"founded": 1928,
+			"wiki": "falkenbergs FF"
 		},
 		"venue": {
 			"api_football_id": 1508,
@@ -2225,7 +2260,8 @@
 			"name": "United Nordic",
 			"code": null,
 			"country": "Sweden",
-			"founded": 2020
+			"founded": 2020,
+			"wiki": "https://en.wikipedia.org/wiki/Nordic_United_FC"
 		},
 		"venue": {
 			"api_football_id": 1525,

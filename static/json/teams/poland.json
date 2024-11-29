@@ -5,7 +5,8 @@
 			"name": "Jagiellonia",
 			"code": "JAG",
 			"country": "Poland",
-			"founded": 1927
+			"founded": 1927,
+			"wiki": "https://en.wikipedia.org/wiki/Jagiellonia_Bia%C5%82ystok"
 		},
 		"venue": {
 			"api_football_id": 1249,
@@ -92,7 +93,8 @@
 			"name": "Slask Wroclaw",
 			"code": "SLA",
 			"country": "Poland",
-			"founded": 1947
+			"founded": 1947,
+			"wiki": "https://en.wikipedia.org/wiki/%C5%9Al%C4%85sk_Wroc%C5%82aw"
 		},
 		"venue": {
 			"api_football_id": 18628,
@@ -171,7 +173,8 @@
 			"name": "Legia Warszawa",
 			"code": "LEG",
 			"country": "Poland",
-			"founded": 1916
+			"founded": 1916,
+			"wiki": "https://en.wikipedia.org/wiki/Legia_Warsaw"
 		},
 		"venue": {
 			"api_football_id": 1253,
@@ -234,7 +237,8 @@
 			"name": "Gornik Zabrze",
 			"code": "GOR",
 			"country": "Poland",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": "https://en.wikipedia.org/wiki/G%C3%B3rnik_Zabrze"
 		},
 		"venue": {
 			"api_football_id": 18625,
@@ -297,7 +301,8 @@
 			"name": "Lechia Gdansk",
 			"code": "LEC",
 			"country": "Poland",
-			"founded": 1945
+			"founded": 1945,
+			"wiki": "https://en.wikipedia.org/wiki/Lechia_Gda%C5%84sk"
 		},
 		"venue": {
 			"api_football_id": 18627,
@@ -376,7 +381,8 @@
 			"name": "Zaglebie Lubin",
 			"code": "ZAG",
 			"country": "Poland",
-			"founded": 1945
+			"founded": 1945,
+			"wiki": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Lubin"
 		},
 		"venue": {
 			"api_football_id": 1260,
@@ -447,7 +453,8 @@
 			"name": "Korona Kielce",
 			"code": "KOR",
 			"country": "Poland",
-			"founded": 1973
+			"founded": 1973,
+			"wiki": "https://en.wikipedia.org/wiki/Korona_Kielce"
 		},
 		"venue": {
 			"api_football_id": 21189,
@@ -510,7 +517,8 @@
 			"name": "Lech Poznan",
 			"code": "LEC",
 			"country": "Poland",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/Lech_Pozna%C5%84"
 		},
 		"venue": {
 			"api_football_id": 20110,
@@ -589,7 +597,8 @@
 			"name": "Pogon Szczecin",
 			"code": "POG",
 			"country": "Poland",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": "https://en.wikipedia.org/wiki/Pogo%C5%84_Szczecin"
 		},
 		"venue": {
 			"api_football_id": 1256,
@@ -652,7 +661,8 @@
 			"name": "Piast Gliwice",
 			"code": "PIA",
 			"country": "Poland",
-			"founded": 1945
+			"founded": 1945,
+			"wiki": "https://en.wikipedia.org/wiki/Piast_Gliwice"
 		},
 		"venue": {
 			"api_football_id": 1255,
@@ -715,7 +725,8 @@
 			"name": "Cracovia Krakow",
 			"code": "CRA",
 			"country": "Poland",
-			"founded": 1906
+			"founded": 1906,
+			"wiki": "https://en.wikipedia.org/wiki/KS_Cracovia"
 		},
 		"venue": {
 			"api_football_id": 1247,
@@ -786,7 +797,8 @@
 			"name": "GKS Katowice",
 			"code": null,
 			"country": "Poland",
-			"founded": 1964
+			"founded": 1964,
+			"wiki": "https://en.wikipedia.org/wiki/GKS_Katowice"
 		},
 		"venue": {
 			"api_football_id": 2285,
@@ -841,7 +853,8 @@
 			"name": "Puszcza Niepołomice",
 			"code": "PUS",
 			"country": "Poland",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/Puszcza_Niepo%C5%82omice"
 		},
 		"venue": {
 			"api_football_id": 1247,
@@ -912,7 +925,8 @@
 			"name": "Raków Częstochowa",
 			"code": "RAK",
 			"country": "Poland",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/Rak%C3%B3w_Cz%C4%99stochowa"
 		},
 		"venue": {
 			"api_football_id": 18633,
@@ -975,7 +989,8 @@
 			"name": "Stal Mielec",
 			"code": "STA",
 			"country": "Poland",
-			"founded": 1939
+			"founded": 1939,
+			"wiki": "https://en.wikipedia.org/wiki/Stal_Mielec"
 		},
 		"venue": {
 			"api_football_id": 18634,
@@ -1038,7 +1053,8 @@
 			"name": "Radomiak Radom",
 			"code": "RAD",
 			"country": "Poland",
-			"founded": 1910
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/Radomiak_Radom"
 		},
 		"venue": {
 			"api_football_id": 20753,
@@ -1109,7 +1125,8 @@
 			"name": "Widzew Łódź",
 			"code": "WID",
 			"country": "Poland",
-			"founded": 1910
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/Widzew_%C5%81%C3%B3d%C5%BA"
 		},
 		"venue": {
 			"api_football_id": 5080,
@@ -1172,7 +1189,8 @@
 			"name": "Motor Lublin",
 			"code": "MOT",
 			"country": "Poland",
-			"founded": 1950
+			"founded": 1950,
+			"wiki": "https://en.wikipedia.org/wiki/Motor_Lublin"
 		},
 		"venue": {
 			"api_football_id": 11992,
@@ -1243,7 +1261,8 @@
 			"name": "Miedz Legnica",
 			"code": "MIE",
 			"country": "Poland",
-			"founded": 1971
+			"founded": 1971,
+			"wiki": "https://en.wikipedia.org/wiki/Mied%C5%BA_Legnica"
 		},
 		"venue": {
 			"api_football_id": 1254,
@@ -1298,7 +1317,8 @@
 			"name": "Wisla Krakow",
 			"code": "WIS",
 			"country": "Poland",
-			"founded": 1906
+			"founded": 1906,
+			"wiki": "https://en.wikipedia.org/wiki/Wis%C5%82a_Krak%C3%B3w"
 		},
 		"venue": {
 			"api_football_id": 1258,
@@ -1369,7 +1389,8 @@
 			"name": "Wisla Plock",
 			"code": "WIS",
 			"country": "Poland",
-			"founded": 1947
+			"founded": 1947,
+			"wiki": "https://en.wikipedia.org/wiki/Wis%C5%82a_P%C5%82ock"
 		},
 		"venue": {
 			"api_football_id": 19930,
@@ -1432,7 +1453,8 @@
 			"name": "Arka Gdynia",
 			"code": "ARK",
 			"country": "Poland",
-			"founded": 1929
+			"founded": 1929,
+			"wiki": "https://en.wikipedia.org/wiki/Arka_Gdynia"
 		},
 		"venue": {
 			"api_football_id": 1246,
@@ -1495,7 +1517,8 @@
 			"name": "Chrobry Głogów",
 			"code": "GLO",
 			"country": "Poland",
-			"founded": 1946
+			"founded": 1946,
+			"wiki": "https://en.wikipedia.org/wiki/Chrobry_G%C5%82og%C3%B3w"
 		},
 		"venue": {
 			"api_football_id": 2284,
@@ -1550,7 +1573,8 @@
 			"name": "Nieciecza",
 			"code": "TER",
 			"country": "Poland",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/Bruk-Bet_Termalica_Nieciecza"
 		},
 		"venue": {
 			"api_football_id": 18632,
@@ -1613,7 +1637,8 @@
 			"name": "Odra Opole",
 			"code": "ODR",
 			"country": "Poland",
-			"founded": 1945
+			"founded": 1945,
+			"wiki": "https://en.wikipedia.org/wiki/Odra_Opole"
 		},
 		"venue": {
 			"api_football_id": 2289,
@@ -1660,7 +1685,8 @@
 			"name": "Tychy 71",
 			"code": "TYC",
 			"country": "Poland",
-			"founded": 1971
+			"founded": 1971,
+			"wiki": "https://en.wikipedia.org/wiki/GKS_Tychy"
 		},
 		"venue": {
 			"api_football_id": 2296,
@@ -1731,7 +1757,8 @@
 			"name": "Warta Poznań",
 			"code": "WAR",
 			"country": "Poland",
-			"founded": 1912
+			"founded": 1912,
+			"wiki": "https://en.wikipedia.org/wiki/Warta_Pozna%C5%84"
 		},
 		"venue": {
 			"api_football_id": 20110,
@@ -1794,7 +1821,8 @@
 			"name": "ŁKS Łódź",
 			"code": "ŁKS",
 			"country": "Poland",
-			"founded": 1908
+			"founded": 1908,
+			"wiki": "https://en.wikipedia.org/wiki/%C5%81KS_%C5%81%C3%B3d%C5%BA"
 		},
 		"venue": {
 			"api_football_id": 12602,
@@ -1881,7 +1909,8 @@
 			"name": "Górnik Łęczna",
 			"code": "GOR",
 			"country": "Poland",
-			"founded": 1979
+			"founded": 1979,
+			"wiki": "https://en.wikipedia.org/wiki/GKS_G%C3%B3rnik_%C5%81%C4%99czna"
 		},
 		"venue": {
 			"api_football_id": 19952,
@@ -1936,7 +1965,8 @@
 			"name": "Pogoń Siedlce",
 			"code": "SIE",
 			"country": "Poland",
-			"founded": 1944
+			"founded": 1944,
+			"wiki": "https://en.wikipedia.org/wiki/MKP_Pogo%C5%84_Siedlce"
 		},
 		"venue": {
 			"api_football_id": 5065,
@@ -1983,7 +2013,8 @@
 			"name": "Ruch Chorzów",
 			"code": "RUC",
 			"country": "Poland",
-			"founded": 1920
+			"founded": 1920,
+			"wiki": "https://en.wikipedia.org/wiki/Ruch_Chorz%C3%B3w"
 		},
 		"venue": {
 			"api_football_id": 20760,
@@ -2054,7 +2085,8 @@
 			"name": "Stal Rzeszów",
 			"code": "STA",
 			"country": "Poland",
-			"founded": 1944
+			"founded": 1944,
+			"wiki": "https://en.wikipedia.org/wiki/Stal_Rzesz%C3%B3w_(football)"
 		},
 		"venue": {
 			"api_football_id": 5075,
@@ -2117,7 +2149,8 @@
 			"name": "Stal Stalowa Wola",
 			"code": "STA",
 			"country": "Poland",
-			"founded": 1938
+			"founded": 1938,
+			"wiki": "https://en.wikipedia.org/wiki/Stal_Stalowa_Wola"
 		},
 		"venue": {
 			"api_football_id": 11362,
@@ -2180,7 +2213,8 @@
 			"name": "Znicz Pruszków",
 			"code": "ZNI",
 			"country": "Poland",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/Znicz_Pruszk%C3%B3w"
 		},
 		"venue": {
 			"api_football_id": 5082,
@@ -2243,7 +2277,8 @@
 			"name": "Polonia Warszawa",
 			"code": null,
 			"country": "Poland",
-			"founded": 1911
+			"founded": 1911,
+			"wiki": "https://en.wikipedia.org/wiki/Polonia_Warsaw"
 		},
 		"venue": {
 			"api_football_id": 11332,
@@ -2298,7 +2333,8 @@
 			"name": "Kotwica Kołobrzeg",
 			"code": null,
 			"country": "Poland",
-			"founded": 1946
+			"founded": 1946,
+			"wiki": "https://en.wikipedia.org/wiki/Kotwica_Ko%C5%82obrzeg_(football)"
 		},
 		"venue": {
 			"api_football_id": 11343,
@@ -2345,7 +2381,8 @@
 			"name": "Zaglebie Sosnowiec",
 			"code": "ZAG",
 			"country": "Poland",
-			"founded": 1906
+			"founded": 1906,
+			"wiki": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Sosnowiec"
 		},
 		"venue": {
 			"api_football_id": 19931,
@@ -2403,7 +2440,8 @@
 			"name": "Podbeskidzie",
 			"code": "POD",
 			"country": "Poland",
-			"founded": 1907
+			"founded": 1907,
+			"wiki": "https://en.wikipedia.org/wiki/Podbeskidzie_Bielsko-Bia%C5%82a"
 		},
 		"venue": {
 			"api_football_id": 2290,
@@ -2461,7 +2499,8 @@
 			"name": "Resovia Rzeszów",
 			"code": null,
 			"country": "Poland",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": "https://en.wikipedia.org/wiki/Resovia_(football)"
 		},
 		"venue": {
 			"api_football_id": 5075,
