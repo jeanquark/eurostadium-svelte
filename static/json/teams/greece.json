@@ -5,7 +5,8 @@
 			"name": "Olympiakos Piraeus",
 			"code": "OLY",
 			"country": "Greece",
-			"founded": 1925
+			"founded": 1925,
+			"wiki": "https://en.wikipedia.org/wiki/Olympiacos_F.C."
 		},
 		"venue": {
 			"api_football_id": 775,
@@ -68,7 +69,8 @@
 			"name": "AEK Athens FC",
 			"code": "AEK",
 			"country": "Greece",
-			"founded": 1924
+			"founded": 1924,
+			"wiki": "https://en.wikipedia.org/wiki/AEK_Athens_F.C."
 		},
 		"venue": {
 			"api_football_id": 19785,
@@ -147,7 +149,8 @@
 			"name": "Panathinaikos",
 			"code": "PAN",
 			"country": "Greece",
-			"founded": 1908
+			"founded": 1908,
+			"wiki": "https://en.wikipedia.org/wiki/Panathinaikos_F.C."
 		},
 		"venue": {
 			"api_football_id": 19929,
@@ -210,7 +213,8 @@
 			"name": "PAOK",
 			"code": "PAO",
 			"country": "Greece",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/PAOK_FC"
 		},
 		"venue": {
 			"api_football_id": 780,
@@ -273,7 +277,8 @@
 			"name": "Panetolikos",
 			"code": "PAN",
 			"country": "Greece",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/Panetolikos_F.C."
 		},
 		"venue": {
 			"api_football_id": 778,
@@ -336,7 +341,8 @@
 			"name": "Asteras Tripolis",
 			"code": "AST",
 			"country": "Greece",
-			"founded": 1930
+			"founded": 1930,
+			"wiki": "https://en.wikipedia.org/wiki/Asteras_Tripolis_F.C."
 		},
 		"venue": {
 			"api_football_id": 766,
@@ -399,7 +405,8 @@
 			"name": "Lamia",
 			"code": "LAM",
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/PAS_Lamia_1964"
 		},
 		"venue": {
 			"api_football_id": 771,
@@ -462,7 +469,8 @@
 			"name": "Levadiakos",
 			"code": "LEV",
 			"country": "Greece",
-			"founded": 1961
+			"founded": 1961,
+			"wiki": "https://en.wikipedia.org/wiki/Levadiakos_F.C."
 		},
 		"venue": {
 			"api_football_id": 773,
@@ -525,7 +533,8 @@
 			"name": "Aris Thessalonikis",
 			"code": "ARI",
 			"country": "Greece",
-			"founded": 1914
+			"founded": 1914,
+			"wiki": "https://en.wikipedia.org/wiki/Aris_Thessaloniki_F.C."
 		},
 		"venue": {
 			"api_football_id": 765,
@@ -588,7 +597,8 @@
 			"name": "OFI",
 			"code": "CRE",
 			"country": "Greece",
-			"founded": 1925
+			"founded": 1925,
+			"wiki": "https://en.wikipedia.org/wiki/OFI_Crete_F.C."
 		},
 		"venue": {
 			"api_football_id": 774,
@@ -651,7 +661,8 @@
 			"name": "Kallithea",
 			"code": "KAL",
 			"country": "Greece",
-			"founded": 1966
+			"founded": 1966,
+			"wiki": "https://en.wikipedia.org/wiki/Athens_Kallithea_F.C."
 		},
 		"venue": {
 			"api_football_id": 2732,
@@ -714,7 +725,8 @@
 			"name": "Panserraikos",
 			"code": "PAN",
 			"country": "Greece",
-			"founded": 1964
+			"founded": 1964,
+			"wiki": "https://en.wikipedia.org/wiki/Panserraikos_F.C."
 		},
 		"venue": {
 			"api_football_id": 2734,
@@ -777,7 +789,8 @@
 			"name": "Volos NFC",
 			"code": null,
 			"country": "Greece",
-			"founded": 2017
+			"founded": 2017,
+			"wiki": "https://en.wikipedia.org/wiki/Volos_F.C."
 		},
 		"venue": {
 			"api_football_id": 1918,
@@ -840,7 +853,8 @@
 			"name": "Atromitos",
 			"code": "ATR",
 			"country": "Greece",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/Atromitos_F.C."
 		},
 		"venue": {
 			"api_football_id": 7804,
@@ -903,7 +917,8 @@
 			"name": "Panionios",
 			"code": "PAN",
 			"country": "Greece",
-			"founded": 1890
+			"founded": 1890,
+			"wiki": "https://en.wikipedia.org/wiki/Panionios_F.C."
 		},
 		"venue": {
 			"api_football_id": 779,
@@ -950,7 +965,8 @@
 			"name": "PAS Giannina",
 			"code": "GIA",
 			"country": "Greece",
-			"founded": 1966
+			"founded": 1966,
+			"wiki": "https://en.wikipedia.org/wiki/PAS_Giannina_F.C."
 		},
 		"venue": {
 			"api_football_id": 781,
@@ -1013,7 +1029,8 @@
 			"name": "Larisa",
 			"code": "AEL",
 			"country": "Greece",
-			"founded": 1964
+			"founded": 1964,
+			"wiki": "https://en.wikipedia.org/wiki/Athlitiki_Enosi_Larissa_F.C."
 		},
 		"venue": {
 			"api_football_id": 772,
@@ -1076,7 +1093,8 @@
 			"name": "Kissamikos",
 			"code": "KIS",
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/PGS_Kissamikos"
 		},
 		"venue": {
 			"api_football_id": 782,
@@ -1139,7 +1157,8 @@
 			"name": "Panachaiki FC",
 			"code": "PAN",
 			"country": "Greece",
-			"founded": 1891
+			"founded": 1891,
+			"wiki": "https://en.wikipedia.org/wiki/Panachaiki_F.C."
 		},
 		"venue": {
 			"api_football_id": 777,
@@ -1202,7 +1221,8 @@
 			"name": "Ethnikos Neou Keramidiou",
 			"code": null,
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/P.S._Ethnikos_Neo_Keramidi"
 		},
 		"venue": {
 			"api_football_id": 10941,
@@ -1241,7 +1261,8 @@
 			"name": "Kalamata",
 			"code": "KAL",
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Kalamata_F.C."
 		},
 		"venue": {
 			"api_football_id": 3817,
@@ -1304,7 +1325,8 @@
 			"name": "Kavala",
 			"code": "KAV",
 			"country": "Greece",
-			"founded": 1965
+			"founded": 1965,
+			"wiki": "https://en.wikipedia.org/wiki/Kavala_F.C."
 		},
 		"venue": {
 			"api_football_id": 3820,
@@ -1343,7 +1365,8 @@
 			"name": "Kifisia",
 			"code": "KIF",
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/A.E._Kifisia_F.C."
 		},
 		"venue": {
 			"api_football_id": 20340,
@@ -1406,7 +1429,8 @@
 			"name": "Niki Volos",
 			"code": "NIK",
 			"country": "Greece",
-			"founded": 1924
+			"founded": 1924,
+			"wiki": "https://en.wikipedia.org/wiki/Niki_Volos_F.C."
 		},
 		"venue": {
 			"api_football_id": 1918,
@@ -1469,7 +1493,8 @@
 			"name": "Panargiakos",
 			"code": "APO",
 			"country": "Greece",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/Panargiakos_F.C."
 		},
 		"venue": {
 			"api_football_id": 4674,
@@ -1508,7 +1533,8 @@
 			"name": "Diagoras",
 			"code": null,
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/P.A.E._G.S._Diagoras"
 		},
 		"venue": {
 			"api_football_id": 5452,
@@ -1571,7 +1597,8 @@
 			"name": "Egaleo",
 			"code": "EGA",
 			"country": "Greece",
-			"founded": 1931
+			"founded": 1931,
+			"wiki": "https://en.wikipedia.org/wiki/Egaleo_F.C."
 		},
 		"venue": {
 			"api_football_id": 5453,
@@ -1634,7 +1661,8 @@
 			"name": "Makedonikos Neapolis",
 			"code": null,
 			"country": "Greece",
-			"founded": 1928
+			"founded": 1928,
+			"wiki": "https://en.wikipedia.org/wiki/Makedonikos_F.C."
 		},
 		"venue": {
 			"api_football_id": 7898,
@@ -1697,7 +1725,8 @@
 			"name": "Ilioupoli",
 			"code": null,
 			"country": "Greece",
-			"founded": 1953
+			"founded": 1953,
+			"wiki": "https://en.wikipedia.org/wiki/GS_Ilioupolis"
 		},
 		"venue": {
 			"api_football_id": 10915,
@@ -1760,7 +1789,8 @@
 			"name": "Iraklis 1908",
 			"code": null,
 			"country": "Greece",
-			"founded": 2021
+			"founded": 2021,
+			"wiki": "https://en.wikipedia.org/wiki/Iraklis_F.C._(Thessaloniki)"
 		},
 		"venue": {
 			"api_football_id": 769,
@@ -1823,7 +1853,8 @@
 			"name": "AEK Athens II",
 			"code": null,
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/AEK_Athens_B_F.C."
 		},
 		"venue": {
 			"api_football_id": null,
@@ -1886,7 +1917,8 @@
 			"name": "PAOK II",
 			"code": null,
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/PAOK_B"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -1949,7 +1981,8 @@
 			"name": "Kampaniakos Chalastra",
 			"code": null,
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Kampaniakos_F.C."
 		},
 		"venue": {
 			"api_football_id": 19333,
@@ -2012,7 +2045,8 @@
 			"name": "Asteras Tripolis II",
 			"code": null,
 			"country": null,
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Asteras_Tripolis_F.C."
 		},
 		"venue": {
 			"api_football_id": null,
@@ -2042,7 +2076,8 @@
 			"name": "Anagennisi Karditsas",
 			"code": null,
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Anagennisi_Karditsa_F.C."
 		},
 		"venue": {
 			"api_football_id": 2731,
@@ -2100,7 +2135,8 @@
 			"name": "Apollon Pontou",
 			"code": "KAL",
 			"country": "Greece",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/Apollon_Kalamarias_F.C."
 		},
 		"venue": {
 			"api_football_id": 762,
@@ -2158,7 +2194,8 @@
 			"name": "Aiolikos",
 			"code": null,
 			"country": "Greece",
-			"founded": 1975
+			"founded": 1975,
+			"wiki": "https://en.wikipedia.org/wiki/Aiolikos_F.C."
 		},
 		"venue": {
 			"api_football_id": 10907,
@@ -2216,7 +2253,8 @@
 			"name": "Tilikratis",
 			"code": "TIL",
 			"country": "Greece",
-			"founded": 2014
+			"founded": 2014,
+			"wiki": "https://en.wikipedia.org/wiki/Tilikratis_F.C."
 		},
 		"venue": {
 			"api_football_id": 3833,
@@ -2274,7 +2312,8 @@
 			"name": "Ionikos",
 			"code": "ION",
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Ionikos_F.C."
 		},
 		"venue": {
 			"api_football_id": 5455,
@@ -2332,7 +2371,8 @@
 			"name": "Almopos",
 			"code": null,
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Almopos_Aridea_F.C."
 		},
 		"venue": {
 			"api_football_id": 7896,
@@ -2390,7 +2430,8 @@
 			"name": "Giouchtas",
 			"code": "GIO",
 			"country": "Greece",
-			"founded": 1957
+			"founded": 1957,
+			"wiki": "https://en.wikipedia.org/wiki/Giouchtas_F.C."
 		},
 		"venue": {
 			"api_football_id": 7927,
@@ -2448,7 +2489,8 @@
 			"name": "Kozani",
 			"code": "KOZ",
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Kozani_F.C."
 		},
 		"venue": {
 			"api_football_id": 10946,
@@ -2506,7 +2548,8 @@
 			"name": "Olympiakos Piraeus II",
 			"code": null,
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Olympiacos_F.C._B"
 		},
 		"venue": {
 			"api_football_id": 20350,
@@ -2564,7 +2607,8 @@
 			"name": "Panathinaikos II",
 			"code": null,
 			"country": "Greece",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Panathinaikos_F.C._B"
 		},
 		"venue": {
 			"api_football_id": 761,

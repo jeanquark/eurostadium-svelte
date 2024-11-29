@@ -5,7 +5,8 @@
 			"name": "Slavia Praha",
 			"code": "SLA",
 			"country": "Czech-Republic",
-			"founded": 1892
+			"founded": 1892,
+			"wiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague"
 		},
 		"venue": {
 			"api_football_id": 18856,
@@ -92,7 +93,8 @@
 			"name": "Plzen",
 			"code": "PLZ",
 			"country": "Czech-Republic",
-			"founded": 1911
+			"founded": 1911,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Viktoria_Plze%C5%88"
 		},
 		"venue": {
 			"api_football_id": 438,
@@ -171,7 +173,8 @@
 			"name": "Sparta Praha",
 			"code": "SPA",
 			"country": "Czech-Republic",
-			"founded": 1893
+			"founded": 1893,
+			"wiki": "https://en.wikipedia.org/wiki/AC_Sparta_Prague"
 		},
 		"venue": {
 			"api_football_id": 19513,
@@ -250,7 +253,8 @@
 			"name": "Mlada Boleslav",
 			"code": "MLA",
 			"country": "Czech-Republic",
-			"founded": 1902
+			"founded": 1902,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Mlad%C3%A1_Boleslav"
 		},
 		"venue": {
 			"api_football_id": 2494,
@@ -313,7 +317,8 @@
 			"name": "Slovan Liberec",
 			"code": "LIB",
 			"country": "Czech-Republic",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Slovan_Liberec"
 		},
 		"venue": {
 			"api_football_id": 2493,
@@ -384,7 +389,8 @@
 			"name": "FK Jablonec",
 			"code": "JAB",
 			"country": "Czech-Republic",
-			"founded": 1945
+			"founded": 1945,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Jablonec"
 		},
 		"venue": {
 			"api_football_id": 434,
@@ -447,7 +453,8 @@
 			"name": "Sigma Olomouc",
 			"code": "SIG",
 			"country": "Czech-Republic",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/SK_Sigma_Olomouc"
 		},
 		"venue": {
 			"api_football_id": 435,
@@ -518,7 +525,8 @@
 			"name": "Baník Ostrava",
 			"code": "OST",
 			"country": "Czech-Republic",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Ban%C3%ADk_Ostrava"
 		},
 		"venue": {
 			"api_football_id": 2495,
@@ -597,7 +605,8 @@
 			"name": "Bohemians 1905",
 			"code": "BOH",
 			"country": "Czech-Republic",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": "https://en.wikipedia.org/wiki/Bohemians_1905"
 		},
 		"venue": {
 			"api_football_id": 2496,
@@ -668,7 +677,8 @@
 			"name": "Dukla Praha",
 			"code": "DUK",
 			"country": "Czech-Republic",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Dukla_Prague"
 		},
 		"venue": {
 			"api_football_id": 2497,
@@ -731,7 +741,8 @@
 			"name": "Karviná",
 			"code": "KAR",
 			"country": "Czech-Republic",
-			"founded": 2003
+			"founded": 2003,
+			"wiki": "https://en.wikipedia.org/wiki/MFK_Karvin%C3%A1"
 		},
 		"venue": {
 			"api_football_id": 2498,
@@ -794,7 +805,8 @@
 			"name": "Slovácko",
 			"code": "SLO",
 			"country": "Czech-Republic",
-			"founded": 1927
+			"founded": 1927,
+			"wiki": "https://en.wikipedia.org/wiki/1._FC_Slov%C3%A1cko"
 		},
 		"venue": {
 			"api_football_id": 2501,
@@ -857,7 +869,8 @@
 			"name": "Teplice",
 			"code": "TEP",
 			"country": "Czech-Republic",
-			"founded": 1945
+			"founded": 1945,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Teplice"
 		},
 		"venue": {
 			"api_football_id": 10575,
@@ -928,7 +941,8 @@
 			"name": "Hradec Králové",
 			"code": "HRA",
 			"country": "Czech-Republic",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Hradec_Kr%C3%A1lov%C3%A9"
 		},
 		"venue": {
 			"api_football_id": 20749,
@@ -1007,7 +1021,8 @@
 			"name": "Pardubice",
 			"code": null,
 			"country": "Czech-Republic",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Pardubice"
 		},
 		"venue": {
 			"api_football_id": 20750,
@@ -1078,7 +1093,8 @@
 			"name": "České Budějovice",
 			"code": "CES",
 			"country": "Czech-Republic",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": "https://en.wikipedia.org/wiki/SK_Dynamo_%C4%8Cesk%C3%A9_Bud%C4%9Bjovice"
 		},
 		"venue": {
 			"api_football_id": 2517,
@@ -1133,7 +1149,8 @@
 			"name": "Zlin",
 			"code": "ZLI",
 			"country": "Czech-Republic",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Zl%C3%ADn"
 		},
 		"venue": {
 			"api_football_id": 2492,
@@ -1204,7 +1221,8 @@
 			"name": "Opava",
 			"code": "OPA",
 			"country": "Czech-Republic",
-			"founded": 1907
+			"founded": 1907,
+			"wiki": "https://en.wikipedia.org/wiki/SFC_Opava"
 		},
 		"venue": {
 			"api_football_id": 2499,
@@ -1259,7 +1277,8 @@
 			"name": "Chrudim",
 			"code": "CHR",
 			"country": "Czech-Republic",
-			"founded": 1899
+			"founded": 1899,
+			"wiki": "https://en.wikipedia.org/wiki/MFK_Chrudim"
 		},
 		"venue": {
 			"api_football_id": 2504,
@@ -1306,7 +1325,8 @@
 			"name": "Prostějov",
 			"code": "HAN",
 			"country": "Czech-Republic",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": "https://en.wikipedia.org/wiki/1._SK_Prost%C4%9Bjov"
 		},
 		"venue": {
 			"api_football_id": 5289,
@@ -1353,7 +1373,8 @@
 			"name": "Táborsko",
 			"code": "MAS",
 			"country": "Czech-Republic",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Silon_T%C3%A1borsko"
 		},
 		"venue": {
 			"api_football_id": 2508,
@@ -1408,7 +1429,8 @@
 			"name": "Varnsdorf",
 			"code": "VAR",
 			"country": "Czech-Republic",
-			"founded": 1938
+			"founded": 1938,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Varnsdorf"
 		},
 		"venue": {
 			"api_football_id": 2510,
@@ -1455,7 +1477,8 @@
 			"name": "Viktoria Žižkov",
 			"code": "ZIZ",
 			"country": "Czech-Republic",
-			"founded": 1903
+			"founded": 1903,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Viktoria_%C5%BDi%C5%BEkov"
 		},
 		"venue": {
 			"api_football_id": 2511,
@@ -1518,7 +1541,8 @@
 			"name": "Vlašim",
 			"code": "VLA",
 			"country": "Czech-Republic",
-			"founded": 1969
+			"founded": 1969,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Sellier_%26_Bellot_Vla%C5%A1im"
 		},
 		"venue": {
 			"api_football_id": 2512,
@@ -1565,7 +1589,8 @@
 			"name": "Vysočina Jihlava",
 			"code": "JIH",
 			"country": "Czech-Republic",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Vyso%C4%8Dina_Jihlava"
 		},
 		"venue": {
 			"api_football_id": 2513,
@@ -1620,7 +1645,8 @@
 			"name": "Zbrojovka Brno",
 			"code": "BRN",
 			"country": "Czech-Republic",
-			"founded": 1913
+			"founded": 1913,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Zbrojovka_Brno"
 		},
 		"venue": {
 			"api_football_id": 19226,
@@ -1683,7 +1709,8 @@
 			"name": "Líšeň",
 			"code": "LIS",
 			"country": "Czech-Republic",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/SK_L%C3%AD%C5%A1e%C5%88"
 		},
 		"venue": {
 			"api_football_id": 3252,
@@ -1738,7 +1765,8 @@
 			"name": "Vyškov",
 			"code": null,
 			"country": "Czech-Republic",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/MFK_Vy%C5%A1kov"
 		},
 		"venue": {
 			"api_football_id": 11958,
@@ -1801,7 +1829,8 @@
 			"name": "Slavia Praha II",
 			"code": null,
 			"country": "Czech-Republic",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague_B"
 		},
 		"venue": {
 			"api_football_id": 6154,
@@ -1840,7 +1869,8 @@
 			"name": "Sparta Praha II",
 			"code": "SPA",
 			"country": "Czech-Republic",
-			"founded": 1893
+			"founded": 1893,
+			"wiki": "https://en.wikipedia.org/wiki/AC_Sparta_Prague_B"
 		},
 		"venue": {
 			"api_football_id": 2511,
@@ -1903,7 +1933,8 @@
 			"name": "Baník Ostrava II",
 			"code": null,
 			"country": "Czech-Republic",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Ban%C3%ADk_Ostrava"
 		},
 		"venue": {
 			"api_football_id": 18760,
@@ -1942,7 +1973,8 @@
 			"name": "Sigma Olomouc II",
 			"code": null,
 			"country": "Czech-Republic",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/SK_Sigma_Olomouc"
 		},
 		"venue": {
 			"api_football_id": 435,
@@ -2013,7 +2045,8 @@
 			"name": "Příbram",
 			"code": "PRI",
 			"country": "Czech-Republic",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": "https://en.wikipedia.org/wiki/FK_P%C5%99%C3%ADbram"
 		},
 		"venue": {
 			"api_football_id": 10574,
@@ -2071,7 +2104,8 @@
 			"name": "Hanácká",
 			"code": "KRO",
 			"country": "Czech-Republic",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/SK_Han%C3%A1ck%C3%A1_Slavia_Krom%C4%9B%C5%99%C3%AD%C5%BE"
 		},
 		"venue": {
 			"api_football_id": 19955,
