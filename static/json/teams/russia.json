@@ -6,7 +6,7 @@
 			"code": "CSK",
 			"country": "Russia",
 			"founded": 1911,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/PFC_CSKA_Moscow"
 		},
 		"venue": {
 			"api_football_id": 1333,
@@ -78,7 +78,7 @@
 			"code": "SPA",
 			"country": "Russia",
 			"founded": 1922,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Spartak_Moscow"
 		},
 		"venue": {
 			"api_football_id": 20743,
@@ -150,7 +150,7 @@
 			"code": "ZEN",
 			"country": "Russia",
 			"founded": 1925,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Zenit_Saint_Petersburg"
 		},
 		"venue": {
 			"api_football_id": 20984,
@@ -222,7 +222,7 @@
 			"code": "LOK",
 			"country": "Russia",
 			"founded": 1923,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Lokomotiv_Moscow"
 		},
 		"venue": {
 			"api_football_id": 1327,
@@ -310,7 +310,7 @@
 			"code": "KRA",
 			"country": "Russia",
 			"founded": 2007,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Krasnodar"
 		},
 		"venue": {
 			"api_football_id": 1338,
@@ -382,7 +382,7 @@
 			"code": "ROS",
 			"country": "Russia",
 			"founded": 1930,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Rostov"
 		},
 		"venue": {
 			"api_football_id": 1339,
@@ -462,7 +462,7 @@
 			"code": "KRY",
 			"country": "Russia",
 			"founded": 1942,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/PFC_Krylia_Sovetov_Samara"
 		},
 		"venue": {
 			"api_football_id": 20983,
@@ -526,7 +526,7 @@
 			"code": "GAZ",
 			"country": "Russia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Orenburg"
 		},
 		"venue": {
 			"api_football_id": 1342,
@@ -590,7 +590,7 @@
 			"code": "RUB",
 			"country": "Russia",
 			"founded": 1958,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Rubin_Kazan"
 		},
 		"venue": {
 			"api_football_id": 19911,
@@ -662,7 +662,7 @@
 			"code": "TER",
 			"country": "Russia",
 			"founded": 1958,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Akhmat_Grozny"
 		},
 		"venue": {
 			"api_football_id": 1353,
@@ -726,7 +726,7 @@
 			"code": "DYN",
 			"country": "Russia",
 			"founded": 1923,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Dynamo_Moscow"
 		},
 		"venue": {
 			"api_football_id": 1334,
@@ -806,7 +806,7 @@
 			"code": "FAK",
 			"country": "Russia",
 			"founded": 1947,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Fakel_Voronezh"
 		},
 		"venue": {
 			"api_football_id": 1336,
@@ -870,7 +870,7 @@
 			"code": "KHI",
 			"country": "Russia",
 			"founded": 1997,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Khimki"
 		},
 		"venue": {
 			"api_football_id": 18629,
@@ -934,7 +934,7 @@
 			"code": null,
 			"country": "Russia",
 			"founded": 2015,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Pari_Nizhny_Novgorod"
 		},
 		"venue": {
 			"api_football_id": 2835,
@@ -1014,7 +1014,7 @@
 			"code": null,
 			"country": "Russia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Akron_Tolyatti"
 		},
 		"venue": {
 			"api_football_id": 20983,
@@ -1070,7 +1070,7 @@
 			"code": null,
 			"country": "Russia",
 			"founded": 2019,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Dynamo_Makhachkala"
 		},
 		"venue": {
 			"api_football_id": 20985,
@@ -1150,7 +1150,7 @@
 			"code": "ARS",
 			"country": "Russia",
 			"founded": 2008,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Arsenal_Tula"
 		},
 		"venue": {
 			"api_football_id": 1329,
@@ -1214,7 +1214,7 @@
 			"code": "UFA",
 			"country": "Russia",
 			"founded": 2009,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Ufa"
 		},
 		"venue": {
 			"api_football_id": 12043,
@@ -1278,7 +1278,7 @@
 			"code": "URA",
 			"country": "Russia",
 			"founded": 1930,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Ural_Yekaterinburg"
 		},
 		"venue": {
 			"api_football_id": 1355,
@@ -1358,7 +1358,7 @@
 			"code": "ENE",
 			"country": "Russia",
 			"founded": 1946,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_SKA-Khabarovsk"
 		},
 		"venue": {
 			"api_football_id": 1335,
@@ -1414,7 +1414,7 @@
 			"code": "YEN",
 			"country": "Russia",
 			"founded": 1937,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Yenisey_Krasnoyarsk"
 		},
 		"venue": {
 			"api_football_id": 1346,
@@ -1470,7 +1470,7 @@
 			"code": "SOK",
 			"country": "Russia",
 			"founded": 2005,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Sokol_Saratov"
 		},
 		"venue": {
 			"api_football_id": 2837,
@@ -1526,7 +1526,7 @@
 			"code": "SHI",
 			"country": "Russia",
 			"founded": 1957,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Shinnik_Yaroslavl"
 		},
 		"venue": {
 			"api_football_id": 1350,
@@ -1582,7 +1582,7 @@
 			"code": "TYU",
 			"country": "Russia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Tyumen"
 		},
 		"venue": {
 			"api_football_id": 1341,
@@ -1646,7 +1646,7 @@
 			"code": "NEF",
 			"country": "Russia",
 			"founded": 1991,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Neftekhimik_Nizhnekamsk"
 		},
 		"venue": {
 			"api_football_id": 2836,
@@ -1694,7 +1694,7 @@
 			"code": "BAL",
 			"country": "Russia",
 			"founded": 1954,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Baltika_Kaliningrad"
 		},
 		"venue": {
 			"api_football_id": 20188,
@@ -1766,7 +1766,7 @@
 			"code": "ROT",
 			"country": "Russia",
 			"founded": 1929,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Rotor_Volgograd"
 		},
 		"venue": {
 			"api_football_id": 1348,
@@ -1846,7 +1846,7 @@
 			"code": null,
 			"country": "Russia",
 			"founded": 2010,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/PFC_Sochi"
 		},
 		"venue": {
 			"api_football_id": 2834,
@@ -1910,7 +1910,7 @@
 			"code": null,
 			"country": "Russia",
 			"founded": 1997,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Chayka_Peschanokopskoye"
 		},
 		"venue": {
 			"api_football_id": 6429,
@@ -1950,7 +1950,7 @@
 			"code": "TOR",
 			"country": "Russia",
 			"founded": 1930,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Torpedo_Moscow"
 		},
 		"venue": {
 			"api_football_id": 11932,
@@ -1990,7 +1990,7 @@
 			"code": "ALA",
 			"country": "Russia",
 			"founded": 2011,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Alania_Vladikavkaz_(2019)"
 		},
 		"venue": {
 			"api_football_id": 4954,
@@ -2038,7 +2038,7 @@
 			"code": "CHE",
 			"country": "Russia",
 			"founded": 1907,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Chernomorets_Novorossiysk"
 		},
 		"venue": {
 			"api_football_id": 4958,
@@ -2086,7 +2086,7 @@
 			"code": "KAM",
 			"country": "Russia",
 			"founded": 1981,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_KAMAZ_Naberezhnye_Chelny"
 		},
 		"venue": {
 			"api_football_id": 4966,
@@ -2142,7 +2142,7 @@
 			"code": null,
 			"country": "Russia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Rodina_Moscow"
 		},
 		"venue": {
 			"api_football_id": 20759,
@@ -2214,7 +2214,7 @@
 			"code": "VOL",
 			"country": "Russia",
 			"founded": 1938,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Volgar_Astrakhan"
 		},
 		"venue": {
 			"api_football_id": 2832,
@@ -2281,7 +2281,7 @@
 			"code": null,
 			"country": "Russia",
 			"founded": 2018,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Leningradets_Leningrad_Oblast"
 		},
 		"venue": {
 			"api_football_id": 2839,
@@ -2340,7 +2340,7 @@
 			"code": null,
 			"country": "Russia",
 			"founded": 2018,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Kuban_Krasnodar_(2018)"
 		},
 		"venue": {
 			"api_football_id": 4986,

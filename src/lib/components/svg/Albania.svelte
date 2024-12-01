@@ -135,6 +135,7 @@
                 border: 2px solid red;
             }
         </style>
+        <!-- https://www.amcharts.com/svg-maps/ -->
         <!-- <amcharts:ammap projection="mercator" leftLongitude="19.266289" topLatitude="42.660316"
 		rightLongitude="21.056942" bottomLatitude="39.645057"></amcharts:ammap> -->
         <!-- All areas are listed in the line below. You can use this list in your script. -->

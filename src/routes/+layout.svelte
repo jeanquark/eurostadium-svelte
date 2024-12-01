@@ -1,7 +1,7 @@
 <script>
-    import { base } from "$app/paths";
+    import { base } from '$app/paths'
     import Header from './Header.svelte'
-	// import Logo from './components/Logo.svelte'
+    // import Logo from './components/Logo.svelte'
     import '../app.css'
 </script>
 
@@ -13,11 +13,13 @@
     <!-- <Header /> -->
 
     <header style="border: 2px solid green;">
-		<div class="d-flex justify-center align-center">
-			<h3 class="text-center my-2">Football stadiums across Europe</h3>
-        	<img src="{base}/images/logo_without_image.svg" width="200" alt="logo" class="text-center" />
-		</div>
-		<!-- <Logo /> -->
+        <!-- <div class="d-flex justify-center align-center"> -->
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <img src="{base}/images/logo_with_text-min.svg" width="100%" alt="logo" class="text-center" />
+            </div>
+        </div>
+        <!-- <Logo /> -->
     </header>
 
     <main class="main">
@@ -26,7 +28,6 @@
             <br /><br />Footer<br /><br />
         </footer>
     </main>
-
 </div>
 
 <style>
@@ -60,7 +61,7 @@
     }
     @media only screen and (max-width: 1199px) {
         .main {
-			min-height: 100vh;
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
             background-image: url('/images/background-stadiums-tablet-screen.svg');
@@ -68,7 +69,7 @@
     }
     @media only screen and (min-width: 1200px) {
         .main {
-			min-height: 100vh;
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
             background-image: url('/images/background-stadiums.svg');

@@ -5,7 +5,8 @@
 			"name": "Fehérvár FC",
 			"code": "VID",
 			"country": "Hungary",
-			"founded": 1941
+			"founded": 1941,
+			"wiki": "https://en.wikipedia.org/wiki/Feh%C3%A9rv%C3%A1r_FC"
 		},
 		"venue": {
 			"api_football_id": 798,
@@ -44,7 +45,8 @@
 			"name": "Ferencvarosi TC",
 			"code": "FER",
 			"country": "Hungary",
-			"founded": 1899
+			"founded": 1899,
+			"wiki": "https://en.wikipedia.org/wiki/Ferencv%C3%A1rosi_TC"
 		},
 		"venue": {
 			"api_football_id": 799,
@@ -123,7 +125,8 @@
 			"name": "Ujpest",
 			"code": "UJP",
 			"country": "Hungary",
-			"founded": 1885
+			"founded": 1885,
+			"wiki": "https://en.wikipedia.org/wiki/%C3%9Ajpest_FC"
 		},
 		"venue": {
 			"api_football_id": 814,
@@ -162,7 +165,8 @@
 			"name": "Paks",
 			"code": "PAK",
 			"country": "Hungary",
-			"founded": 1952
+			"founded": 1952,
+			"wiki": "https://en.wikipedia.org/wiki/Paksi_FC"
 		},
 		"venue": {
 			"api_football_id": 809,
@@ -201,7 +205,8 @@
 			"name": "Puskas Academy",
 			"code": "PUS",
 			"country": "Hungary",
-			"founded": 2007
+			"founded": 2007,
+			"wiki": "https://en.wikipedia.org/wiki/Pusk%C3%A1s_Akad%C3%A9mia_FC"
 		},
 		"venue": {
 			"api_football_id": 1764,
@@ -280,7 +285,8 @@
 			"name": "Debreceni VSC",
 			"code": "DEB",
 			"country": "Hungary",
-			"founded": 1902
+			"founded": 1902,
+			"wiki": "https://en.wikipedia.org/wiki/Debreceni_VSC"
 		},
 		"venue": {
 			"api_football_id": 795,
@@ -319,7 +325,8 @@
 			"name": "Diosgyori VTK",
 			"code": "DVT",
 			"country": "Hungary",
-			"founded": 1910
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/Di%C3%B3sgy%C5%91ri_VTK"
 		},
 		"venue": {
 			"api_football_id": 796,
@@ -358,7 +365,8 @@
 			"name": "MTK Budapest",
 			"code": "BUD",
 			"country": "Hungary",
-			"founded": 1888
+			"founded": 1888,
+			"wiki": "https://en.wikipedia.org/wiki/MTK_Budapest_FC"
 		},
 		"venue": {
 			"api_football_id": 802,
@@ -397,7 +405,8 @@
 			"name": "Gyori ETO FC",
 			"code": "GYO",
 			"country": "Hungary",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": "https://en.wikipedia.org/wiki/Gy%C5%91ri_ETO_FC"
 		},
 		"venue": {
 			"api_football_id": 801,
@@ -436,7 +445,8 @@
 			"name": "Nyiregyhaza",
 			"code": "NYI",
 			"country": "Hungary",
-			"founded": 1928
+			"founded": 1928,
+			"wiki": "https://en.wikipedia.org/wiki/Ny%C3%ADregyh%C3%A1za_Spartacus_FC"
 		},
 		"venue": {
 			"api_football_id": 1796,
@@ -475,7 +485,8 @@
 			"name": "Zalaegerszegi TE",
 			"code": "ZAL",
 			"country": "Hungary",
-			"founded": 1920
+			"founded": 1920,
+			"wiki": "https://en.wikipedia.org/wiki/Zalaegerszegi_TE"
 		},
 		"venue": {
 			"api_football_id": 818,
@@ -514,7 +525,8 @@
 			"name": "Kecskeméti TE",
 			"code": "KEC",
 			"country": "Hungary",
-			"founded": 1911
+			"founded": 1911,
+			"wiki": "https://en.wikipedia.org/wiki/Kecskem%C3%A9ti_TE"
 		},
 		"venue": {
 			"api_football_id": 3862,
@@ -553,7 +565,8 @@
 			"name": "Budapest Honved",
 			"code": "HON",
 			"country": "Hungary",
-			"founded": 1908
+			"founded": 1908,
+			"wiki": "https://en.wikipedia.org/wiki/Budapest_Honv%C3%A9d_FC"
 		},
 		"venue": {
 			"api_football_id": 11902,
@@ -592,7 +605,8 @@
 			"name": "Vasas",
 			"code": "VAS",
 			"country": "Hungary",
-			"founded": 1911
+			"founded": 1911,
+			"wiki": "https://en.wikipedia.org/wiki/Vasas_SC"
 		},
 		"venue": {
 			"api_football_id": 817,
@@ -631,7 +645,8 @@
 			"name": "Mezokovesd-zsory",
 			"code": "MEZ",
 			"country": "Hungary",
-			"founded": 1975
+			"founded": 1975,
+			"wiki": "https://en.wikipedia.org/wiki/Mez%C5%91k%C3%B6vesdi_SE"
 		},
 		"venue": {
 			"api_football_id": 805,
@@ -670,7 +685,8 @@
 			"name": "Kisvarda FC",
 			"code": "KIS",
 			"country": "Hungary",
-			"founded": 2003
+			"founded": 2003,
+			"wiki": "https://en.wikipedia.org/wiki/Kisv%C3%A1rda_FC"
 		},
 		"venue": {
 			"api_football_id": 816,
@@ -709,7 +725,8 @@
 			"name": "Gyirmot SE",
 			"code": "GYI",
 			"country": "Hungary",
-			"founded": 1993
+			"founded": 1993,
+			"wiki": "https://en.wikipedia.org/wiki/Gyirm%C3%B3t_FC_Gy%C5%91r"
 		},
 		"venue": {
 			"api_football_id": 800,
@@ -748,7 +765,8 @@
 			"name": "Budafoki LC",
 			"code": null,
 			"country": "Hungary",
-			"founded": 1912
+			"founded": 1912,
+			"wiki": "https://en.wikipedia.org/wiki/Budafoki_MTE"
 		},
 		"venue": {
 			"api_football_id": 1886,
@@ -787,7 +805,8 @@
 			"name": "Soroksar",
 			"code": "SOR",
 			"country": "Hungary",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": "https://en.wikipedia.org/wiki/Soroks%C3%A1r_SC"
 		},
 		"venue": {
 			"api_football_id": 811,
@@ -826,7 +845,8 @@
 			"name": "Bekescsaba 1912",
 			"code": "BEK",
 			"country": "Hungary",
-			"founded": 1912
+			"founded": 1912,
+			"wiki": "https://en.wikipedia.org/wiki/B%C3%A9k%C3%A9scsaba_1912_El%C5%91re"
 		},
 		"venue": {
 			"api_football_id": 792,
@@ -889,7 +909,8 @@
 			"name": "Csakvar",
 			"code": "CSA",
 			"country": "Hungary",
-			"founded": 1947
+			"founded": 1947,
+			"wiki": "https://en.wikipedia.org/wiki/Aqvital_FC_Cs%C3%A1kv%C3%A1r"
 		},
 		"venue": {
 			"api_football_id": 1737,
@@ -928,7 +949,8 @@
 			"name": "Kazincbarcikai",
 			"code": "KAZ",
 			"country": "Hungary",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Kazincbarcikai_SC"
 		},
 		"venue": {
 			"api_football_id": 11903,
@@ -967,7 +989,8 @@
 			"name": "Szeged 2011",
 			"code": "SZE",
 			"country": "Hungary",
-			"founded": 2011
+			"founded": 2011,
+			"wiki": "https://en.wikipedia.org/wiki/Kazincbarcikai_SC"
 		},
 		"venue": {
 			"api_football_id": 2742,
@@ -1006,7 +1029,8 @@
 			"name": "Kozarmisleny FC",
 			"code": "KOZ",
 			"country": "Hungary",
-			"founded": 1989
+			"founded": 1989,
+			"wiki": "https://en.wikipedia.org/wiki/Koz%C3%A1rmisleny_SE"
 		},
 		"venue": {
 			"api_football_id": 2746,
@@ -1045,7 +1069,8 @@
 			"name": "Ajka",
 			"code": "AJK",
 			"country": "Hungary",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Ajka"
 		},
 		"venue": {
 			"api_football_id": 3562,
@@ -1084,7 +1109,8 @@
 			"name": "BVSC",
 			"code": null,
 			"country": "Hungary",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Budapesti_VSC"
 		},
 		"venue": {
 			"api_football_id": 10566,
@@ -1123,7 +1149,8 @@
 			"name": "Szentlőrinc SE",
 			"code": null,
 			"country": "Hungary",
-			"founded": 1912
+			"founded": 1912,
+			"wiki": "https://en.wikipedia.org/wiki/Szentl%C5%91rinci_SE"
 		},
 		"venue": {
 			"api_football_id": 3881,
@@ -1186,7 +1213,8 @@
 			"name": "Tatabánya",
 			"code": "TAT",
 			"country": "Hungary",
-			"founded": 1910
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/Tatab%C3%A1nyai_SC"
 		},
 		"venue": {
 			"api_football_id": 793,
@@ -1233,7 +1261,8 @@
 			"name": "Szombathelyi Haladas",
 			"code": "HAL",
 			"country": "Hungary",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/Szombathelyi_Halad%C3%A1s"
 		},
 		"venue": {
 			"api_football_id": 812,
@@ -1267,7 +1296,8 @@
 			"name": "MTE 1904",
 			"code": null,
 			"country": "Hungary",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": "https://en.wikipedia.org/wiki/Mosonmagyar%C3%B3v%C3%A1ri_TE"
 		},
 		"venue": {
 			"api_football_id": 807,
@@ -1301,7 +1331,8 @@
 			"name": "Siofok",
 			"code": "SIO",
 			"country": "Hungary",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/BFC_Si%C3%B3fok"
 		},
 		"venue": {
 			"api_football_id": 810,
@@ -1335,7 +1366,8 @@
 			"name": "Tiszakecske FC",
 			"code": null,
 			"country": "Hungary",
-			"founded": 2015
+			"founded": 2015,
+			"wiki": "https://en.wikipedia.org/wiki/Tiszak%C3%A9cske_FC"
 		},
 		"venue": {
 			"api_football_id": 813,
@@ -1369,7 +1401,8 @@
 			"name": "Pécsi MFC",
 			"code": "PEC",
 			"country": "Hungary",
-			"founded": 1950
+			"founded": 1950,
+			"wiki": "https://en.wikipedia.org/wiki/P%C3%A9csi_MFC"
 		},
 		"venue": {
 			"api_football_id": 3873,
