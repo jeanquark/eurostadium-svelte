@@ -1,7 +1,8 @@
 <script>
     import { onMount } from "svelte";
-    import { supabase } from "../../../lib/supabase/supabaseClient";
-    import Account from "@components/auth/Login.svelte";
+    import { base } from "$app/paths";
+    import { supabase } from "@lib/supabase/supabaseClient";
+    import Account from "@components/auth/Account.svelte";
     let session = null;
 
     onMount(async () => {
@@ -16,6 +17,9 @@
 </script>
 
 <div class="">
+    <a href="{base}/">Home page</a>&nbsp;|&nbsp;
+    <a href="{base}/auth/login">Login</a>&nbsp;|&nbsp;
+    <a href="{base}/auth/register">Register</a><br />
     <Account {session} />
 </div>
 

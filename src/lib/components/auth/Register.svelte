@@ -14,6 +14,7 @@
             })
             if (error) throw error;
             console.log('Registration completed!')
+            alert('Registration completed!')
         } catch (error) {
             if (error instanceof Error) {
                 alert(error.message);

@@ -1,23 +1,43 @@
 <script lang="ts">
     import { onMount } from "svelte";
+    import { jwtDecode } from "jwt-decode";
     import type { AuthSession } from "@supabase/supabase-js";
-    import { supabase } from "../../../lib/supabase/supabaseClient";
+    import { supabase } from "@lib/supabase/supabaseClient";
 
-    export let session: AuthSession;
+    // export let session: AuthSession;
 
     let loading = false;
     let username: string | null = null;
     let website: string | null = null;
     let avatarUrl: string | null = null;
 
+    let session;
+
     onMount(() => {
-        getProfile();
+        // getProfile();
+        supabase.auth.getSession().then(({ data }) => {
+            console.log("data: ", data);
+            session = data.session;
+            // const { user } = session;
+            // console.log("user: ", user);
+        });
+
+        supabase.auth.onAuthStateChange((_event, _session) => {
+            session = _session;
+            const jwt: any = jwtDecode(session.access_token);
+            console.log("jwt: ", jwt);
+            const userRole = jwt.user_role;
+            console.log("userRole: ", userRole);
+        });
     });
 
     const getProfile = async () => {
         try {
             loading = true;
+            console.log("session: ", session);
+            return;
             const { user } = session;
+            console.log("user: ", user);
 
             const { data, error, status } = await supabase
                 .from("profiles")
@@ -69,7 +89,7 @@
 </script>
 
 <form on:submit|preventDefault={updateProfile} class="form-widget">
-    <div>Email: {session.user.email}</div>
+    <div>Email: {session?.user?.email}</div>
     <div>
         <label for="username">Name</label>
         <input id="username" type="text" bind:value={username} />

@@ -1,9 +1,13 @@
 <script lang="ts">
-    import { supabase } from "../../../lib/supabase/supabaseClient";
+    import { jwtDecode } from "jwt-decode";
+    import { supabase } from "@lib/supabase/supabaseClient";
+    import { onMount } from "svelte";
 
     let loading = false;
     let email = "";
     let password = "";
+
+    onMount(() => {});
 
     const handleLogin = async () => {
         try {
@@ -11,10 +15,24 @@
             const { data, error } = await supabase.auth.signInWithPassword({
                 email,
                 password,
-            })
+            });
             if (error) throw error;
-            console.log('Login completed!')
+            console.log("data: ", data);
+            console.log("Login completed!");
+
+            const { subscription } = supabase.auth.onAuthStateChange(
+                async (event: any, session: any) => {
+                    if (session) {
+                        const jwt: any = jwtDecode(session.access_token);
+                        console.log('jwt: ', jwt)
+                        const userRole = jwt.user_role;
+                        console.log('userRole: ', userRole);
+                    }
+                },
+            );
         } catch (error) {
+            console.log("error: ", error);
+            // alert(error)
             if (error instanceof Error) {
                 alert(error.message);
             }
