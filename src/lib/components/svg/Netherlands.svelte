@@ -235,11 +235,13 @@
             id="NL-ZH"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/63bb4a -->
         <g
             id="stadiums"
             data-country="netherlands"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#4a63bb,#bb4a63"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

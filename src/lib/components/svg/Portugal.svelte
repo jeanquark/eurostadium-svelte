@@ -305,11 +305,13 @@
             d="M 492.16228,500.07015 401.2618,834.9983"
             id="path3"
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/f9ee32 -->
         <g
             id="stadiums"
             data-country="portugal"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#32f9ee,#ee32f9"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

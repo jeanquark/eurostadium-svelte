@@ -347,11 +347,13 @@
             id="BG-27"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/f37a8b -->
         <g
             id="stadiums"
             data-country="bulgaria"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#8bf37a,#7a8bf3"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

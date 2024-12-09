@@ -200,11 +200,13 @@
             id="BY-VI"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/aa84bd -->
         <g
             id="stadiums"
             data-country="belarus"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#bdaa84,#84bdaa"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

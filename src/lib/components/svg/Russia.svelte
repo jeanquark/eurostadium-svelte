@@ -732,11 +732,13 @@
          id="RU-ZAB"
          style=""
       />
+      <!-- Triadic colors: -->
+      <!-- https://www.color-hex.com/color/6183c3 -->
       <g
          id="stadiums"
          data-country="russia"
          data-circle-radius={radius}
-         data-circle-colors="#a149be,#bea149"
+         data-circle-colors="#c36183,#83c361"
          on:mouseover={handleMouseOverCircle}
          on:mouseout={handleMouseOutCircle}
          on:focus={() => {}}

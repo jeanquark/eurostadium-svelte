@@ -249,11 +249,13 @@
             id="GR-69"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/f37163 -->
         <g
             id="stadiums"
             data-country="greece"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#63f371,#7163f3"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

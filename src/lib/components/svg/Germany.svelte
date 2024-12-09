@@ -1,36 +1,23 @@
 <script>
-    import { createEventDispatcher, onMount } from "svelte";
+    import { onMount } from "svelte";
     import panzoom from "@panzoom/panzoom";
-    import { stadiumStore } from "../../../store/stadium";
     import addStadiumsToSvgMap from "@utils/addStadiumsToSvgMap";
-    import filterStadiums from "@utils/filterStadiums";
-    const dispatch = createEventDispatcher();
 
-    export let countryObj;
-    // export let filter
-    export let stadiumsArray;
-    let radius = 10;
-    let stadiumObj;
-    // let stadiumObj2
-    // let clientX
-    // let abc
-    let panzoomRef;
-    let flag = 1;
-    // $: filterUpdate(filter)
-    $: updateStadiums(stadiumsArray);
+    let { clickOutsideCountry, stadiumHover, stadiumLeave, countryObj, stadiumsArray = $bindable() } = $props();
+    let radius = $state(10);
+    let stadiumObj = $state(null);
+    let panzoomRef = $state(null);
+    let flag = $state(1);
 
     onMount(() => {
         console.log("[Germany] onMount");
-        // const stadiums = $stadiumStore.stadiumsByCountry[country?.slug]
-        // console.log('stadiums: ', stadiums)
     });
 
     const initPanzoom = (node) => {
         // console.log("node: ", node);
         node.addEventListener("panzoompan", (event) => {
             console.log("panzoompan: ", event.detail);
-            // if (event.detail.x != 0 || event.detail.y != 0) {
-            if (event.detail.x > 0.5 || event.detail.y > 0.5) {
+            if (event.detail.x != 0 || event.detail.y != 0) {
                 flag = 0;
             }
         });
@@ -49,20 +36,14 @@
         });
 
         node.addEventListener("click", (event) => {
-            // console.log("click: ", event.detail);
-            // console.log('click flag: ', flag)
-            handleClick(event);
-            // return
-            // if (flag == 1) {
-            //     console.log('click')
-            //     console.log('destroy event listener')
-            //     // abc.destroy()
-            //     // node.removeEventListener('wheel', def)
-            //     handleClick(event)
-            // } else {
-            //     console.log('no click')
-            // }
-            // flag = 1
+            if (flag == 1) {
+                console.log("click");
+                console.log("destroy event listener");
+                handleClick(event);
+            } else {
+                console.log("no click");
+            }
+            flag = 1;
         });
         panzoomRef = panzoom(node, {
             isSvg: true,
@@ -73,11 +54,10 @@
             touchAction: "none",
             contain: "outside",
             panOnlyWhenZoomed: false,
-            // disablePan: false,
             handleStartEvent: (event) => {
                 event.preventDefault();
                 event.stopPropagation();
-            },
+            }
         });
         const zoom = (e) => {
             panzoomRef.zoomWithWheel(e);
@@ -87,15 +67,13 @@
 
     const handleClick = (e) => {
         console.log("[Germany] handleClick");
-        // console.log('e.target: ', e.target);
         if (e.target.classList.contains("stadium")) {
             console.log("Click on stadium");
         }
         if (e.target.classList.contains("rectangle")) {
             console.log("Click on rectangle");
             panzoomRef.destroy();
-            // node.removeEventListener('wheel', def)
-            dispatch("clickOutsideCountry");
+            clickOutsideCountry()
         }
     };
     const handleMouseOverCircle = (e) => {
@@ -107,52 +85,31 @@
         const stadiumId = parseInt(
             e.target.getAttribute("data-api-football-stadium-id"),
         );
-        // console.log("stadiumId: ", stadiumId)
-        // clientX = e.clientX
-        // console.log('clientX: ', clientX);
+        console.log("stadiumId: ", stadiumId);
         const data = {
-            id: e.target.id,
             stadiumId: stadiumId,
             clientX: e.clientX,
             clientY: e.clientY,
             rect: e.target.getBoundingClientRect(),
         };
-        // console.log('e.target: ', e.target)
-        // console.log('stadiums3: ', stadiums3);
         document.querySelectorAll(".stadium").forEach((element) => {
-            // console.log('element: ', element);
             element.classList.remove("hover");
         });
         e.target.classList.add("hover");
-        dispatch("stadiumHover", data);
+        stadiumHover(data)
     };
     const handleMouseOutCircle = (e) => {
         console.log("[Germany] handleMouseOutCircle e.target: ", e.target);
         if (!e.relatedTarget?.classList?.contains("tooltip")) {
             e.target.classList.remove("hover");
-            dispatch("stadiumLeave");
+            stadiumLeave()
         }
     };
-    const a = (node, stadiums) => {
-        // console.log('stadiumObj: ', stadiumObj)
-        // console.log('stadiumsArray: ', stadiumsArray)
-        // console.log('country: ', country)
+    const a = $derived((node, stadiums) => {
+        console.log('[a] stadiums: ', stadiums)
         stadiumObj = node;
         addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues);
-    };
-
-    // const filterUpdate = (filter) => {
-    //     console.log('[Germany] filterUpdate: ', filter)
-    // }
-    const updateStadiums = (stadiums) => {
-        console.log("[Germany] updateStadiums: ", stadiums);
-        // console.log('stadiums3: ', stadiums3);
-        // console.log('country.leagues: ', country.leagues);
-        // console.log('stadiumObj2: ', stadiumObj2);
-        if (stadiumObj) {
-            addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues);
-        }
-    };
+    });
 </script>
 
 <svg
@@ -322,17 +279,18 @@
             style=""
         />
     </g>
-    <!-- <g id="stadiums" data-country="germany" data-circle-radius="{radius}" data-circle-colors="#a149be,#bea149" on:mouseenter={handleMouseEnterCircle} on:mouseleave={handleMouseLeaveCircle} on:mouseover={handleMouseOverCircle} on:focus={() => {}} role="presentation" on:blur={() => {}} use:a={stadiums3} style=""> -->
+    <!-- Triadic colors: -->
+    <!-- https://www.color-hex.com/color/49bea1 -->
     <g
         id="stadiums"
         data-country="germany"
         data-circle-radius={radius}
         data-circle-colors="#a149be,#bea149"
-        on:mouseover={handleMouseOverCircle}
-        on:mouseout={handleMouseOutCircle}
-        on:focus={() => {}}
+        onmouseover={handleMouseOverCircle}
+        onmouseout={handleMouseOutCircle}
+        onfocus={() => {}}
         role="presentation"
-        on:blur={() => {}}
+        onblur={() => {}}
         use:a={stadiumsArray}
         style=""
     >

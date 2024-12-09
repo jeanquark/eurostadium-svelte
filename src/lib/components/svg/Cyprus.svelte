@@ -193,11 +193,13 @@
             id="CY-06"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/e6212a -->
         <g
             id="stadiums"
             data-country="cyprus"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#2ae621,#212ae6"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

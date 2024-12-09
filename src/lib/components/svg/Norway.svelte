@@ -284,11 +284,13 @@
             id="NO-07"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/06a3c6 -->
         <g
             id="stadiums"
             data-country="norway"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#c606a3,#a3c606"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

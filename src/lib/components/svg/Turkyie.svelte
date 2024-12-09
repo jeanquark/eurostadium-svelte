@@ -718,11 +718,13 @@
          id="TR-67"
          style=""
       />
+      <!-- Triadic colors: -->
+      <!-- https://www.color-hex.com/color/f05340 -->
       <g
          id="stadiums"
          data-country="turkey"
          data-circle-radius={radius}
-         data-circle-colors="#a149be,#bea149"
+         data-circle-colors="#40f053,#5340f0"
          on:mouseover={handleMouseOverCircle}
          on:mouseout={handleMouseOutCircle}
          on:focus={() => {}}

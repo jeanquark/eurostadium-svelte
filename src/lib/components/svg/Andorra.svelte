@@ -204,11 +204,13 @@
             id="AD-08"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/f5c32c -->
         <g
             id="stadiums"
             data-country="andorra"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#c32cf5,#2cf5c3"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

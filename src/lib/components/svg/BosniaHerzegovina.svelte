@@ -172,11 +172,13 @@
             id="BA-BRC"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/faa44d -->
         <g
             id="stadiums"
             data-country="bosnia_and_herzegovina"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#4dfaa4,#a44dfa"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

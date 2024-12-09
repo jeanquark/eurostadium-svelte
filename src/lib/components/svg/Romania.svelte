@@ -445,11 +445,13 @@
          class="land"
          style=""
       />
+      <!-- Triadic colors: -->
+      <!-- https://www.color-hex.com/color/f48da0 -->
       <g
          id="stadiums"
          data-country="romania"
          data-circle-radius={radius}
-         data-circle-colors="#a149be,#bea149"
+         data-circle-colors="#a0f48d,#8da0f4"
          on:mouseover={handleMouseOverCircle}
          on:mouseout={handleMouseOutCircle}
          on:focus={() => {}}

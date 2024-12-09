@@ -284,11 +284,13 @@
             id="FI-19"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/04b9e4 -->
         <g
             id="stadiums"
             data-country="finland"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#e404b9,#b9e404"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

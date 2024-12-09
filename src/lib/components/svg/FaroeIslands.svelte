@@ -193,11 +193,13 @@
             id="FO-VG"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/04a1c9 -->
         <g
             id="stadiums"
             data-country="faroe_islands"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#c904a1,#a1c904"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

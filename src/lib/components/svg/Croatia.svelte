@@ -298,11 +298,13 @@
             id="HR-21"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/f8934f -->
         <g
             id="stadiums"
             data-country="croatia"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea14"
+            data-circle-colors="#4ff893,#934ff8"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

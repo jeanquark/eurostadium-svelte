@@ -249,11 +249,13 @@
             id="CZ-VY"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/97d3b7 -->
         <g
             id="stadiums"
             data-country="czech_republic"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#b797d3,#d3b797"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

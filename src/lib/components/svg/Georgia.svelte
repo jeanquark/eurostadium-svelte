@@ -240,11 +240,13 @@
             id="GE-TB"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/c46a76 -->
         <g
             id="stadiums"
             data-country="georgia"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#76c46a,#6a76c4"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

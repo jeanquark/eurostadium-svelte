@@ -304,11 +304,13 @@
             id="ME-SLK"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/fcbdab -->
         <g
             id="stadiums"
             data-country="montenegro"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#abfcbd,#bdabfc"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

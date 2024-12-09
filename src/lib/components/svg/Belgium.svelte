@@ -228,11 +228,13 @@
             id="BE-VWV"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/83c442 -->
         <g
             id="stadiums"
             data-country="belgium"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#4283c4,#c44283"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

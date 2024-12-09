@@ -1,29 +1,33 @@
 <script>
     import { createEventDispatcher, onMount } from "svelte";
     import panzoom from "@panzoom/panzoom";
-    import { stadiumStore } from "../../../store/stadium";
+    import { stadiumStore } from "@store/stadium";
     import addStadiumsToSvgMap from "@utils/addStadiumsToSvgMap";
     import filterStadiums from "@utils/filterStadiums";
-    const dispatch = createEventDispatcher();
+    // const dispatch = createEventDispatcher();
 
-    export let countryObj;
+    // export let countryObj;
     // export let filter
-    export let stadiumsArray;
-    let radius = 10;
-    let stadiumObj;
+    // export let stadiumsArray;
+
+    let { clickOutsideCountry, stadiumHover, stadiumLeave, countryObj, stadiumsArray = $bindable() } = $props();
+    let radius = $state(10);
+    let stadiumObj = $state(null);
     // let stadiumObj2
     // let stadiumObj3
     // let clientX
     // let abc
-    let panzoomRef;
-    let flag = 1;
+    let panzoomRef = $state(null);
+    let flag = $state(1);
     // $: filter = console.log('update filter value')
     // $: filterUpdate(filter)
-    $: updateStadiums(stadiumsArray);
+    // $: updateStadiums(stadiumsArray);
+    // const updateStadiums = $derived(stadiumsArray);
     // $: stadiumsUpdate(stadiums2)
 
     onMount(() => {
         console.log("[Switzerland] onMount");
+        // console.log('stadiumsArray: ', stadiumsArray);
     });
 
     const initPanzoom = (node) => {
@@ -95,7 +99,8 @@
         if (e.target.classList.contains("rectangle")) {
             console.log("Click on rectangle");
             panzoomRef.destroy();
-            dispatch("clickOutsideCountry");
+            // dispatch("clickOutsideCountry");
+            clickOutsideCountry()
         }
     };
     const handleMouseOverCircle = (e) => {
@@ -128,7 +133,8 @@
             element.classList.remove("hover");
         });
         e.target.classList.add("hover");
-        dispatch("stadiumHover", data);
+        // dispatch("stadiumHover", data);
+        stadiumHover(data)
     };
     const handleMouseOutCircle = (e) => {
         console.log("[Switzerland] handleMouseOutCircle e.target: ", e.target);
@@ -137,22 +143,37 @@
         // console.log('abc: ', abc);
         if (!e.relatedTarget?.classList?.contains("tooltip")) {
             e.target.classList.remove("hover");
-            dispatch("stadiumLeave");
+            // dispatch("stadiumLeave");
+            stadiumLeave()
         }
     };
 
     // function a(stadiumObj, stadiums) {
-    const a = (node, stadiums) => {
+    // const a = (node, stadiums) => {
+    //     console.log('[a] stadiums: ', stadiums)
+    //     stadiumObj = node;
+    //     addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues);
+    // };
+    const a = $derived((node, stadiums) => {
+        console.log('[a] stadiums: ', stadiums)
         stadiumObj = node;
         addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues);
-    };
-    const updateStadiums = (stadiums) => {
-        console.log("[Switzerland] updateStadiums: ", stadiums);
-        if (stadiumObj) {
-            addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues);
-        }
-    };
+    });
+    // const updateStadiums = (stadiums) => {
+    //     console.log("[Switzerland] updateStadiums: ", stadiums);
+    //     if (stadiumObj) {
+    //         addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues);
+    //     }
+    // };
+    // $effect((stadiumsArray) => {
+    //     console.log('$effect', stadiumsArray)
+	// 	if (stadiumObj) {
+    //         // addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
+    //     }
+	// });
 </script>
+
+stadiumsArray: {stadiumsArray.length}<br />
 
 <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -178,10 +199,6 @@
             }
             #stadiums:focus {
                 outline: none;
-            }
-            .stadium:hover {
-                /* fill: #ffffff !important; */
-                /* cursor: pointer; */
             }
             .hover {
                 fill: #ffffff !important;
@@ -395,16 +412,18 @@
             style=""
         />
     </g>
+    <!-- Triadic colors: -->
+    <!-- https://www.color-hex.com/color/d6c456 -->
     <g
         id="stadiums"
         data-country="switzerland"
         data-circle-radius={radius}
-        data-circle-colors="#c456d6,#56d6c4"
-        on:mouseover={handleMouseOverCircle}
-        on:mouseout={handleMouseOutCircle}
-        on:focus={() => {}}
+        data-circle-colors="#56d6c4,#c456d6"
+        onmouseover={handleMouseOverCircle}
+        onmouseout={handleMouseOutCircle}
+        onfocus={() => {}}
         role="presentation"
-        on:blur={() => {}}
+        onblur={() => {}}
         use:a={stadiumsArray}
         style=""
     >

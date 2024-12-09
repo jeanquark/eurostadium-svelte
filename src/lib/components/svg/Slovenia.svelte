@@ -235,11 +235,13 @@
             id="SI-PM"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/f68026 -->
         <g
             id="stadiums"
             data-country="slovenia"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#26f680,#8026f6"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

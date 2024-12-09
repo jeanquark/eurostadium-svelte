@@ -298,11 +298,13 @@
             id="SE-X"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/f7b7b7 -->
         <g
             id="stadiums"
             data-country="sweden"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#b7f7b7,#b7b7f7"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

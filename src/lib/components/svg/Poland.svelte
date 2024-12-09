@@ -263,11 +263,13 @@
             id="PL-ZP"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/90c2c9 -->
         <g
             id="stadiums"
             data-country="poland"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#c990c2,#c2c990"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

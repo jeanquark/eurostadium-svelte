@@ -326,11 +326,13 @@
             id="RS-24"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/f8a48c -->
         <g
             id="stadiums"
             data-country="serbia"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#8cf8a4,#a48cf8"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

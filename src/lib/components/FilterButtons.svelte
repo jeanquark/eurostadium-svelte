@@ -1,16 +1,17 @@
 <script>
     import { createEventDispatcher, onMount } from "svelte";
-    import { stadiumStore } from "../../store/stadium";
-    export let country;
+    import { stadiumStore } from "@store/stadium";
+    // export let country;
 
-    const dispatch = createEventDispatcher();
+    // const dispatch = createEventDispatcher();
+    let { country, updateFilter, updateStadiums } = $props();
 
     onMount(() => {
         console.log('FilterButtons')
     });
 
-    let filterValue = "all";
-    let stadiums = [];
+    let filterValue = $state("all");
+    let stadiums = $state([]);
     // let country = {
     //     slug: "",
     //     name: "",
@@ -18,14 +19,32 @@
     //     leagues: [],
     // };
 
-    $: stadiumsAll = [
-        ...new Set(
+    // $: stadiumsAll = [
+    //     ...new Set(
+    //         $stadiumStore.stadiumsByCountry[country?.slug]?.map(
+    //             (el) => el.stadium.api_football_id,
+    //         ),
+    //     ),
+    // ].length;
+    const stadiumsAll = $derived([...new Set(
             $stadiumStore.stadiumsByCountry[country?.slug]?.map(
                 (el) => el.stadium.api_football_id,
             ),
-        ),
-    ].length;
-    $: stadiumsTopLeague = [
+        )].length
+    )
+
+    // $: stadiumsTopLeague = [
+    //     ...new Set(
+    //         $stadiumStore.stadiumsByCountry[country?.slug]
+    //             ?.filter(
+    //                 (el) =>
+    //                     el.leagues[0]?.api_football_id ==
+    //                     country.leagues[0]["api_football_id"],
+    //             )
+    //             .map((el) => el.stadium.api_football_id),
+    //     ),
+    // ].length;
+    const stadiumsTopLeague = $derived([
         ...new Set(
             $stadiumStore.stadiumsByCountry[country?.slug]
                 ?.filter(
@@ -34,9 +53,21 @@
                         country.leagues[0]["api_football_id"],
                 )
                 .map((el) => el.stadium.api_football_id),
-        ),
-    ].length;
-    $: stadiumsSecondLeague = [
+        )].length
+    )
+
+    // $: stadiumsSecondLeague = [
+    //     ...new Set(
+    //         $stadiumStore.stadiumsByCountry[country?.slug]
+    //             ?.filter(
+    //                 (el) =>
+    //                     el.leagues[0]?.api_football_id ==
+    //                     country.leagues[1]["api_football_id"],
+    //             )
+    //             .map((el) => el.stadium.api_football_id),
+    //     ),
+    // ].length;
+    const stadiumsSecondLeague = $derived([
         ...new Set(
             $stadiumStore.stadiumsByCountry[country?.slug]
                 ?.filter(
@@ -45,16 +76,36 @@
                         country.leagues[1]["api_football_id"],
                 )
                 .map((el) => el.stadium.api_football_id),
-        ),
-    ].length;
-    $: stadiumsSm = [
+        )].length
+    )
+
+    // $: stadiumsSm = [
+    //     ...new Set(
+    //         $stadiumStore.stadiumsByCountry[country?.slug]
+    //             ?.filter((el) => el.stadium.capacity < 20000)
+    //             .map((el) => el.stadium.api_football_id),
+    //     ),
+    // ].length;
+    const stadiumsSm = $derived([
         ...new Set(
             $stadiumStore.stadiumsByCountry[country?.slug]
                 ?.filter((el) => el.stadium.capacity < 20000)
                 .map((el) => el.stadium.api_football_id),
-        ),
-    ].length;
-    $: stadiumsMd = [
+        )].length
+    )
+
+    // $: stadiumsMd = [
+    //     ...new Set(
+    //         $stadiumStore.stadiumsByCountry[country?.slug]
+    //             ?.filter(
+    //                 (el) =>
+    //                     el.stadium.capacity >= 20000 &&
+    //                     el.stadium.capacity < 40000,
+    //             )
+    //             .map((el) => el.stadium.api_football_id),
+    //     ),
+    // ].length;
+    const stadiumsMd = $derived([
         ...new Set(
             $stadiumStore.stadiumsByCountry[country?.slug]
                 ?.filter(
@@ -63,9 +114,21 @@
                         el.stadium.capacity < 40000,
                 )
                 .map((el) => el.stadium.api_football_id),
-        ),
-    ].length;
-    $: stadiumsLg = [
+        )].length
+    )
+
+    // $: stadiumsLg = [
+    //     ...new Set(
+    //         $stadiumStore.stadiumsByCountry[country?.slug]
+    //             ?.filter(
+    //                 (el) =>
+    //                     el.stadium.capacity >= 40000 &&
+    //                     el.stadium.capacity < 60000,
+    //             )
+    //             .map((el) => el.stadium.api_football_id),
+    //     ),
+    // ].length;
+    const stadiumsLg = $derived([
         ...new Set(
             $stadiumStore.stadiumsByCountry[country?.slug]
                 ?.filter(
@@ -74,19 +137,29 @@
                         el.stadium.capacity < 60000,
                 )
                 .map((el) => el.stadium.api_football_id),
-        ),
-    ].length;
-    $: stadiumsXl = [
+        )].length
+    )
+
+    // $: stadiumsXl = [
+    //     ...new Set(
+    //         $stadiumStore.stadiumsByCountry[country?.slug]
+    //             ?.filter((el) => el.stadium.capacity >= 60000)
+    //             .map((el) => el.stadium.api_football_id),
+    //     ),
+    // ].length;
+    const stadiumsXl = $derived([
         ...new Set(
             $stadiumStore.stadiumsByCountry[country?.slug]
                 ?.filter((el) => el.stadium.capacity >= 60000)
                 .map((el) => el.stadium.api_football_id),
-        ),
-    ].length;
+        )].length
+    )
 
     const filterStadiums = (filter) => {
         console.log("filterStadiums: ", filter);
         console.log("country.leagues: ", country.leagues);
+
+        // filterValue = 'abc'
         // return
         // filterValue = filter;
         switch (filter) {
@@ -158,8 +231,14 @@
                 ];
                 break;
         }
-        dispatch("updateFilter", filter);
-        dispatch("updateStadiums", stadiums);
+        // console.log('filter: ', filter);
+        // console.log('stadiums: ', stadiums);
+        // return
+        // dispatch("updateFilter", filter);
+        updateFilter(filter)
+        // return
+        // dispatch("updateStadiums", stadiums);
+        updateStadiums(stadiums)
     };
 </script>
 
@@ -167,12 +246,13 @@
     <!-- country.slug: {country?.slug}<br /><br /> -->
     <!-- stadiums.length: {stadiums.length}<br /> -->
     <!-- $stadiumStore.stadiumsByCountry[country.slug]: {$stadiumStore.stadiumsByCountry[country?.slug]}<br /> -->
-    <!-- filterValue: {filterValue}<br /> -->
+    filterValue: {filterValue}<br />
+    stadiums.length: {stadiums.length}<br />
     <button
         class="btn btn-filter {filterValue == 'all' &&
             'active'}"
         id="btnAll"
-        on:click={() => {
+        onclick={() => {
             filterStadiums("all");
         }}
         >
@@ -183,7 +263,7 @@
             class="btn btn-filter {filterValue == 'top_league' &&
                 'active'}"
             id="btnTop" style="color: #FFF;"
-            on:click={() => {
+            onclick={() => {
                 filterStadiums("top_league");
             }}
             >
@@ -194,7 +274,7 @@
             class="btn btn-filter {filterValue == 'second_league' &&
                 'active'}"
             id="btnSecond"
-            on:click={() => {
+            onclick={() => {
                 filterStadiums("second_league");
             }}
             >
@@ -205,7 +285,7 @@
             class="btn btn-filter {filterValue == 'stadium_sm' &&
                 'active'}"
             id="btnSm"
-            on:click={() => {
+            onclick={() => {
                 filterStadiums("stadium_sm");
             }}
         >
@@ -216,7 +296,7 @@
             class="btn btn-filter {filterValue == 'stadium_md' &&
                 'active'}"
             id="btnMd"
-            on:click={() => {
+            onclick={() => {
                 filterStadiums("stadium_md");
             }}
             >
@@ -227,7 +307,7 @@
             class="btn btn-filter {filterValue == 'stadium_lg' &&
                 'active'}"
             id="btnLg"
-            on:click={() => {
+            onclick={() => {
                 filterStadiums("stadium_lg");
             }}
             >
@@ -238,7 +318,7 @@
             class="btn btn-filter {filterValue == 'stadium_xl' &&
                 'active'}"
             id="btnXl"
-            on:click={() => {
+            onclick={() => {
                 filterStadiums("stadium_xl");
             }}
             >

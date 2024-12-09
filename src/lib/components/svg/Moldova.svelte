@@ -410,11 +410,13 @@
          id="MD-UN"
          style=""
       />
+      <!-- Triadic colors: -->
+      <!-- https://www.color-hex.com/color/cd80b6 -->
       <g
          id="stadiums"
          data-country="moldova"
          data-circle-radius={radius}
-         data-circle-colors="#a149be,#bea149"
+         data-circle-colors="#b6cd80,#80b6cd"
          on:mouseover={handleMouseOverCircle}
          on:mouseout={handleMouseOutCircle}
          on:focus={() => {}}

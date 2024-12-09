@@ -431,11 +431,13 @@
          id="HU-ZE"
          style=""
       />
+      <!-- Triadic colors: -->
+      <!-- https://www.color-hex.com/color/d8a395 -->
       <g
          id="stadiums"
          data-country="hungary"
          data-circle-radius={radius}
-         data-circle-colors="#a149be,#bea149"
+         data-circle-colors="#95d8a3,#a395d8"
          on:mouseover={handleMouseOverCircle}
          on:mouseout={handleMouseOutCircle}
          on:focus={() => {}}

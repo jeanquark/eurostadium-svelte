@@ -526,11 +526,13 @@
          id="ES-ZA"
          style=""
       />
+      <!-- Triadic colors: -->
+      <!-- https://www.color-hex.com/color/fcd828 -->
       <g
          id="stadiums"
          data-country="spain"
          data-circle-radius={radius}
-         data-circle-colors="#a149be,#bea149"
+         data-circle-colors="#28fcd8,#d828fc"
          on:mouseover={handleMouseOverCircle}
          on:mouseout={handleMouseOutCircle}
          on:focus={() => {}}

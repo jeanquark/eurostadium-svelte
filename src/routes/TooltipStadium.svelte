@@ -11,15 +11,15 @@
     // export let left;
     // export let top;
     // export let tooltipWidth;
-    let { data, countrySlug, left, top, tooltipWidth = $bindable() } = $props()
+    let { data, countrySlug, left, top, tooltipWidth = $bindable(), tooltipClose, tooltipLeave } = $props()
 
-    const dispatch = createEventDispatcher()
+    // const dispatch = createEventDispatcher()
 
     onMount(async () => {
         try {
             console.log('[TooltipStadium] onMount')
             // items = data[0]['images']
-            console.log('data: ', data)
+            // console.log('data: ', data)
             // for (let i = 0; i < data[0]['images'].length; i++) {
             //     items2.push(data[0]['images'][i])
             // }
@@ -32,9 +32,9 @@
 
     // export let left
     // export let top
-    let isHovered = false
-    let x
-    let y
+    let isHovered = $state(false)
+    let x = $state(0)
+    let y = $state(0)
     // let tooltipWidth;
     let imageIndex = 0
     let items = [
@@ -128,11 +128,13 @@
     const handleMouseLeave = (e) => {
         console.log('[TooltipStadium] handleMouseLeave e.target:', e.target)
 
-        dispatch('tooltipLeave')
+        // dispatch('tooltipLeave')
+        tooltipLeave()
     }
     const handleTooltipClose = () => {
         console.log('handleTooltipClose')
-        dispatch('tooltipClose')
+        // dispatch('tooltipClose')
+        tooltipClose()
     }
     const handleOpenModal = () => {
         console.log('handleOpenModal')
@@ -194,12 +196,12 @@
             <!-- imageIndex: {imageIndex}<br /> -->
             <!-- items.length: {items.length}<br /> -->
             <!-- current: {current}<br /> -->
-            <!-- countrySlug: {countrySlug}<br /> -->
+            countrySlug: {countrySlug}<br />
             <!-- data: {data}<br /> -->
             <!-- tooltipWidth: {tooltipWidth}<br /> -->
             <!-- top: {top}<br /> -->
             <!-- left: {left}<br /> -->
-            <!-- data.images.length: {data?.images?.length}<br /> -->
+            data.images.length: {data?.images?.length}<br />
             <!-- loaded: {loaded}<br /> -->
             <div style="heigth: 300px; border: 2px dashed red;">
                 <!-- <Carousel bind:current {items} let:item bind:show>
@@ -230,7 +232,7 @@
                 </Carousel> -->
                 {#if browser}
                     <SvelteCarousel autoplay autoplayDuration={500} pauseOnFocus={true} bind:this={carousel} on:pageChange={onPageChange}>
-                        {#each data.images as image, imageIndex}
+                        {#each data?.images as image, imageIndex}
                             <div class="img-container" style="height: 300px; background: #FFF;">
                                 {#if loaded.includes(imageIndex)}
                                     {image.name}<br />
@@ -250,7 +252,7 @@
                 {/if}
             </div>
             <div class="d-flex justify-center">
-                {#each data.images as image, i}
+                {#each data?.images as image, i}
                     <!-- <span
                         role="button"
                         tabindex="0"

@@ -207,11 +207,13 @@
             id="SK-ZI"
             style=""
         />
+        <!-- Triadic colors: -->
+        <!-- https://www.color-hex.com/color/d49377 -->
         <g
             id="stadiums"
             data-country="slovakia"
             data-circle-radius={radius}
-            data-circle-colors="#a149be,#bea149"
+            data-circle-colors="#77d493,#9377d4"
             on:mouseover={handleMouseOverCircle}
             on:mouseout={handleMouseOutCircle}
             on:focus={() => {}}

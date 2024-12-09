@@ -688,11 +688,13 @@
          id="AZ-ZAR"
          style=""
       />
+      <!-- Triadic colors: -->
+      <!-- https://www.color-hex.com/color/aa6658 -->
       <g
          id="stadiums"
          data-country="azerbaijan"
          data-circle-radius={radius}
-         data-circle-colors="#a149be,#bea149"
+         data-circle-colors="#58aa66,#6658aa"
          on:mouseover={handleMouseOverCircle}
          on:mouseout={handleMouseOutCircle}
          on:focus={() => {}}

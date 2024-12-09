@@ -4,16 +4,18 @@
     import panzoom from "@panzoom/panzoom";
 
     // svelte-ignore unused-export-let
-    export let country
+    // export let country
     // svelte-ignore unused-export-let
-    export let filter
+    // export let filter
     // svelte-ignore unused-export-let
-    export let stadiums3
+    // export let stadiums3
+    let { country, filter, stadiums3, countryHover, countryClick, countryLeave } = $props();
 
-    const dispatch = createEventDispatcher();
+
+    // const dispatch = createEventDispatcher();
     // let instance
-    let panzoomRef;
-    let flag = 1;
+    let panzoomRef = $state(null);
+    let flag = $state(1);
 
     // on:click={handleClick}
     // on:mouseover={handleMouseOver}
@@ -96,7 +98,8 @@
         const country = e.target.getAttribute("data-country");
         // console.log("country: ", country);
         // return
-        dispatch("countryClick", e.target.id);
+        // dispatch("countryClick", e.target.id);
+        countryClick(e.target.id)
     };
 
     const handleMouseOver = (e) => {
@@ -123,10 +126,12 @@
             rect: e.target.getBoundingClientRect(),
         };
         // console.log('data: ', data);
-        dispatch("countryHover", data);
+        // dispatch("countryHover", data);
+        countryHover(data)
     };
     const handleMouseLeave = (e) => {
-        dispatch("countryLeave")
+        // dispatch("countryLeave")
+        countryLeave()
     }
 
     const handlePointerDown = (e) => {
@@ -747,10 +752,10 @@
 
             <g id="g982">
                 <path
-                    id="turkyie"
+                    id="turkiye"
                     class="country"
                     data-code="tr"
-                    data-country="Turkyie"
+                    data-country="Türkiye"
                     data-leagues="Süper Lig, 1. Lig"
                     data-leagues-id="203,204"
                     data-pop="86,400,000"

@@ -753,11 +753,13 @@
          id="MK-LKO"
          style=""
       />
+      <!-- Triadic colors: -->
+      <!-- https://www.color-hex.com/color/f59088 -->
       <g
          id="stadiums"
          data-country="macedonia"
          data-circle-radius={radius}
-         data-circle-colors="#a149be,#bea149"
+         data-circle-colors="#88f590,#9088f5"
          on:mouseover={handleMouseOverCircle}
          on:mouseout={handleMouseOutCircle}
          on:focus={() => {}}
