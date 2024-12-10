@@ -157,7 +157,7 @@
 
     const filterStadiums = (filter) => {
         console.log("filterStadiums: ", filter);
-        console.log("country.leagues: ", country.leagues);
+        // console.log("country.leagues: ", country.leagues);
 
         // filterValue = 'abc'
         // return
