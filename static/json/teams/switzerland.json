@@ -17,11 +17,7 @@
 			"surface": "grass",
 			"lat": 47.541389,
 			"lng": 7.62,
-			"x1": 366.7029029519353,
-			"x2": 366,
 			"x": 367,
-			"y1": 264.02857210180207,
-			"y2": 269,
 			"y": 269,
 			"wiki": "https://en.wikipedia.org/wiki/St._Jakob-Park"
 		},
@@ -119,11 +115,7 @@
 			"lat": 46.963056,
 			"lng2": 7.465,
 			"lng": 7.464722,
-			"x1": 332.5315935801129,
-			"x2": 333,
 			"x": 332,
-			"y1": 451.50299988767694,
-			"y2": 519,
 			"y": 456,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Wankdorf"
 		},
@@ -203,9 +195,7 @@
 			"surface": "grass",
 			"lat": 46.023753,
 			"lng": 8.961469,
-			"x1": 662.443239801677,
 			"x": 662,
-			"y1": 751.4891658941011,
 			"y": 756,
 			"wiki": "https://en.wikipedia.org/wiki/Cornaredo_Stadium"
 		},
@@ -277,9 +267,7 @@
 			"surface": "grass",
 			"lat": 46.233333,
 			"lng": 7.376389,
-			"x1": 312.99640716238645,
 			"x": 313,
-			"y1": 684.9825322226301,
 			"y": 690,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_de_Tourbillon"
 		},

@@ -106,7 +106,7 @@ CREATE TABLE images (
   api_football_venue_id INT NOT NULL,
   name VARCHAR(60) NOT NULL UNIQUE,
   -- slug VARCHAR(60),
-  source VARCHAR(511),
+  source TEXT,
   width SMALLINT,
   height SMALLINT,
   size INT,

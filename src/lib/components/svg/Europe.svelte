@@ -3,12 +3,6 @@
     import { browser } from "$app/environment";
     import panzoom from "@panzoom/panzoom";
 
-    // svelte-ignore unused-export-let
-    // export let country
-    // svelte-ignore unused-export-let
-    // export let filter
-    // svelte-ignore unused-export-let
-    // export let stadiums3
     let { country, filter, stadiums3, countryHover, countryClick, countryLeave } = $props();
 
 
@@ -22,8 +16,6 @@
     // on:mouseleave={handleMouseLeave}
     // on:focus={() => {}}
     // role="presentation"
-
-
 
     const initPanzoom = (node) => {
         // console.log("node: ", node);
@@ -143,7 +135,7 @@
 <!-- <svg id="map-europe" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190000 155000" width="190000" height="155000"> -->
 <!-- abc: {abc?.zoom}<br /> -->
 <svg
-    id="map-europe"
+    id="europe"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 190000 155000"
@@ -711,8 +703,8 @@
             id="circle7010"
         />
 
-        <g on:pointerdown={handlePointerDown} on:mouseover={handleMouseOver} on:mouseleave={handleMouseLeave}
-        on:focus={() => {}}
+        <g onpointerdown={handlePointerDown} onmouseover={handleMouseOver} onmouseleave={handleMouseLeave}
+        onfocus={() => {}}
         role="presentation">
             <path
                 id="iceland"

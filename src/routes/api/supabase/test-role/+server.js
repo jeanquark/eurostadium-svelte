@@ -3,7 +3,6 @@ import { promises as fs } from "fs";
 import { env } from '$env/dynamic/public';
 import { createServerClient } from '@supabase/ssr'
 import slugify from '@utils/slugify';
-import expressJWT from "express-jwt"
 import { supabase } from "@lib/supabase/supabaseClient";
 import { jwtDecode } from "jwt-decode";
 

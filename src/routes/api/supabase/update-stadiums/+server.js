@@ -43,8 +43,8 @@ export async function GET({ url }) {
                     .upsert(
                         {
                             api_football_id: countryTeams[i]['venue']['api_football_id'],
-                            name: countryTeams[i]['venue']['name'],
-                            address: countryTeams[i]['venue']['address'],
+                            name: countryTeams[i]['venue']['name'] ? countryTeams[i]['venue']['name'].substring(0,59) : '',
+                            address: countryTeams[i]['venue']['address'] ? countryTeams[i]['venue']['address'].substring(0,59) : '',
                             city: countryTeams[i]['venue']['city'],
                             capacity: countryTeams[i]['venue']['capacity'],
                             surface: countryTeams[i]['venue']['surface'],

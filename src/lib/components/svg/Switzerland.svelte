@@ -10,7 +10,8 @@
     // export let filter
     // export let stadiumsArray;
 
-    let { clickOutsideCountry, stadiumHover, stadiumLeave, countryObj, stadiumsArray = $bindable() } = $props()
+    // let { clickOutsideCountry, stadiumHover, stadiumLeave, countryObj, stadiumsArray = $bindable() } = $props()
+    let { clickOutsideCountry, stadiumHover, stadiumLeave, countryObj, stadiumsArray } = $props()
     let radius = $state(10)
     let stadiumObj = $state(null)
     // let stadiumObj2
@@ -148,22 +149,46 @@
 
     // function a(stadiumObj, stadiums) {
     // const a = (node, stadiums) => {
+    //     console.log('[a] node: ', node)
     //     console.log('[a] stadiums: ', stadiums)
     //     stadiumObj = node;
     //     addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues);
     // };
+    // const a = (node, stadiumsArray) => {
+    //     console.log('[a] node: ', node)
+    //     console.log('[a] stadiumsArray: ', stadiumsArray)
+    //     stadiumObj = node;
+    //     addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
+    // };
+
+    const a = (node) => {
+		// the node has been mounted in the DOM
+        console.log('[myaction] 1 node: ', node)
+        stadiumObj = node
+		$effect(() => {
+			// setup goes here
+            console.log('[myaction] 2 node: ')
+
+			return () => {
+                console.log('[myaction] 3')
+				// teardown goes here
+			};
+		});
+	}
     // const a = $derived((node, stadiums) => {
     //     console.log('[a] stadiums: ', stadiums)
     //     stadiumObj = node
     //     addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues)
     // })
-    const a = $derived((node, stadiumsArray) => {
-        console.log('[a] stadiums: ', stadiumsArray)
-        stadiumObj = node
-        addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues)
-    })
+    // const a = $derived((node, stadiumsArray) => {
+    //     console.log('[a] stadiums: ', stadiumsArray)
+    //     stadiumObj = node
+    //     addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues)
+    // })
     $effect(() => {
-		console.log('$effect stadiumsArray: ', stadiumsArray)
+		console.log('$effect')
+        // console.log('stadiumsArray: ', stadiumsArray);
+        console.log('stadiumObj: ', stadiumObj);
         addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues)
 	});
     // const updateStadiums = (stadiums) => {
@@ -180,7 +205,7 @@
     // });
 </script>
 
-stadiumsArray: {stadiumsArray.length}<br />
+<!-- stadiumsArray: {stadiumsArray.length}<br /> -->
 
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="map-switzerland" viewBox="0 0 1000 1000" width="100%" class="" use:initPanzoom>
     <defs id="defs4">
@@ -337,6 +362,6 @@ stadiumsArray: {stadiumsArray.length}<br />
     </g>
     <!-- Triadic colors: -->
     <!-- https://www.color-hex.com/color/d6c456 -->
-    <g id="stadiums" data-country="switzerland" data-circle-radius={radius} data-circle-colors="#56d6c4,#c456d6" onmouseover={handleMouseOverCircle} onmouseout={handleMouseOutCircle} onfocus={() => {}} role="presentation" onblur={() => {}} use:a={stadiumsArray} style=""> </g>
-    <!-- <g id="stadiums" data-country="switzerland" data-circle-radius={radius} data-circle-colors="#56d6c4,#c456d6" onmouseover={handleMouseOverCircle} onmouseout={handleMouseOutCircle} onfocus={() => {}} role="presentation" onblur={() => {}} style=""> </g> -->
+    <!-- <g id="stadiums" data-country="switzerland" data-circle-radius={radius} data-circle-colors="#56d6c4,#c456d6" onmouseover={handleMouseOverCircle} onmouseout={handleMouseOutCircle} onfocus={() => {}} role="presentation" onblur={() => {}} use:a={stadiumsArray} style=""> </g> -->
+    <g id="stadiums" data-country="switzerland" data-circle-radius={radius} data-circle-colors="#56d6c4,#c456d6" onmouseover={handleMouseOverCircle} onmouseout={handleMouseOutCircle} onfocus={() => {}} role="presentation" onblur={() => {}} style="" use:a> </g>
 </svg>
