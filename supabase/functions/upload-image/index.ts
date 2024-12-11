@@ -18,7 +18,11 @@ interface Image {
 	name: string,
 	status: number
 }
-
+interface AuthUser {
+	id: string,
+	role: string,
+	email: string
+}
 async function getImages(supabaseClient: SupabaseClient) {
 	const { data: images, error } = await supabaseClient.from('image_uploads').select('*')
 	if (error) throw error
@@ -29,7 +33,7 @@ async function getImages(supabaseClient: SupabaseClient) {
 	})
 }
 
-async function createImage(supabaseClient: SupabaseClient, image: File | null) {
+async function createImage(supabaseClient: SupabaseClient, image: File | null, user: AuthUser) {
 	console.log('createImage(): ', image);
 
 	if (!image) {
@@ -50,7 +54,7 @@ async function createImage(supabaseClient: SupabaseClient, image: File | null) {
 
 	const { data: data2, error: error2 } = await supabaseClient
 		.from('image_uploads')
-		.insert({ name: fileName })
+		.insert({ name: fileName, user_id: user.id })
 
 	if (error2) throw error2
 
@@ -77,14 +81,30 @@ Deno.serve(async (req) => {
 			// Supabase API ANON KEY - env var exported by default.
 			// Deno.env.get('SUPABASE_ANON_KEY') ?? '',
 			Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') ?? '',
+			// { global: { headers: { Authorization: req.headers.get('Authorization') } } }
 			// Create client with Auth context of the user that called the function.
 			// This way your row-level-security (RLS) policies are applied.
-			// {
-			// 	global: {
-			// 		headers: { Authorization: req.headers.get('Authorization')! },
-			// 	},
-			// }
+			{
+				global: {
+					headers: { Authorization: req.headers.get('Authorization')! },
+				},
+			}
 		)
+
+		// First get the token from the Authorization header
+		const token = req.headers.get('Authorization')?.replace('Bearer ', '')
+		console.log('token: ', token);
+
+		// Now we can get the session or user object
+		const { data: { user } } = await supabaseClient.auth.getUser(token)
+		console.log('user: ', user);
+
+		// Get the session or user object
+		// const authHeader = req.headers.get('Authorization')!
+		// const token = authHeader.replace('Bearer ', '')
+		// const { data } = await supabaseClient.auth.getUser(token)
+		// const user = data.user
+		// console.log('user: ', user);
 
 		// For more details on URLPattern, check https://developer.mozilla.org/en-US/docs/Web/API/URL_Pattern_API
 		const taskPattern = new URLPattern({ pathname: '/restful-tasks/:id' })
@@ -123,7 +143,7 @@ Deno.serve(async (req) => {
 			// return deleteTask(supabaseClient, id as string)
 			case method === 'POST':
 				// return getAllImages(supabaseClient)
-				return createImage(supabaseClient, image)
+				return createImage(supabaseClient, image, user)
 			case method === 'GET':
 				return getImages(supabaseClient)
 			// return getAllTasks(supabaseClient)

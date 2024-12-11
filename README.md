@@ -2,14 +2,6 @@
 
 Showcase football stadiums across Europe.
 
-## Calculate SVG Coord for stadiums
-
-Update country name on line 4 of file calculateSVGCoord.js. Then run
-
-```bash
-node calculateSVGCoord
-```
-
 ## Data management
 
 * Fetch all teams by country
@@ -43,6 +35,9 @@ node calculateSVGCoord
     Call `/api/supabase/set-images-public-url?country=[COUNTRY_SLUG]`
     It will update url field in supabase images table for each image stored in specified country folder of supabase storage.
 
+## Upload image
+
+Visit `/upload-image` and upload an image (you have to be logged in). It will be saved in `image_uploads` supabase storage.
 
 ## Developer
 

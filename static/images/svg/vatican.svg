@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- (c) ammap.com | SVG map of Vatican City -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="vatican.svg"
+   width="1000"
+   height="1000"
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:amcharts="http://amcharts.com/ammap">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="0.70916667"
+     inkscape:cx="433.60752"
+     inkscape:cy="505.52291"
+     inkscape:window-width="1920"
+     inkscape:window-height="1106"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1">
+    <sodipodi:guide
+       position="1108.3431,500"
+       orientation="0,1"
+       id="guide1"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="776.52762,886.59665"
+       orientation="0,-1"
+       id="guide2"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <style
+       type="text/css"
+       id="style1">
+			.land
+			{
+				fill: #CCCCCC;
+				fill-opacity: 1;
+				stroke:white;
+				stroke-opacity: 1;
+				stroke-width:0.5;
+			}
+		</style>
+    <amcharts:ammap
+       projection="mercator"
+       leftLongitude="12.445606"
+       topLatitude="41.907551"
+       rightLongitude="12.458452"
+       bottomLatitude="41.900111" />
+    <!-- All areas are listed in the line below. You can use this list in your script. -->
+    <!--{id:"VA"}-->
+  </defs>
+  <g
+     id="g1"
+     transform="matrix(1.6318209,0,0,1.6318209,0.91690948,-405.23564)">
+    <path
+       id="VA"
+       title="Vatican City  (Holy See)"
+       class="land"
+       d="m 473.758,317.509 12.315,73.975 92.571,29.931 -0.545,59.374 -2.364,35.039 -2.408,56.21 0.545,16.06 9.589,5.595 8.407,9.004 9.589,11.436 4.227,7.787 4.771,17.763 1.545,19.709 -0.272,5.839 -0.182,5.596 -1.954,10.95 -7.272,15.329 -14.769,16.546 -13.679,7.543 -7.635,2.676 -12.315,0.731 -14.451,-3.407 -12.407,-5.596 -5.68,-5.84 -5.772,-5.11 -15.587,4.623 -19.042,7.3 -32.447,12.409 -31.084,7.056 -11.36,4.38 -3.409,5.109 0.364,7.057 0.636,14.599 6.225,6.326 0.5,7.786 -2.953,7.543 -4.772,3.163 -9.497,-6.326 -46.172,-17.762 -0.454,10.706 -6.181,-0.487 -73.439,-10.949 -25.721,-4.38 -5.226,-10.219 -12.452,-5.109 -22.858,-2.677 -8.998,-4.38 -11.952,-2.434 -13.77,-1.946 -15.769,0.486 0.591,11.68 -24.45,5.11 -17.086,1.703 -4.318,-4.379 -6.181,-7.543 5.181,-5.111 5.772,-5.109 L 94.479,718.762 78.21,705.379 66.803,697.106 48.625,681.777 40.582,692.727 17.224,679.101 0,672.287 l 55.351,-33.335 20.223,-13.626 4.135,-2.92 6.635,-11.436 5.181,-17.277 3.908,-9.489 7.089,-9.003 9.999,-8.273 11.497,-12.166 10.452,-8.274 6.271,-9.49 4.136,-12.896 4.771,-29.2 4.363,-23.603 7.135,-5.111 10.452,-4.379 12.497,-5.84 15.179,-14.601 12.815,-18.493 9.135,-24.334 6.634,-18.494 45.717,-5.839 24.768,1.459 7.589,-1.459 33.856,-12.654 13.906,-4.381 7.089,11.924 29.539,-8.76 -1.409,-14.844 20.087,-6.327 z" />
+  </g>
+</svg>

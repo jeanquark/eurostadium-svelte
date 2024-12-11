@@ -351,6 +351,16 @@
         "xTranslate": 102.98155,
         "yTranslate": 0
     },
+    "monaco": {
+        "leftLongitude": "7.3991049",
+        "topLatitude": "43.7519029",
+        "rightLongitude": "7.4398113",
+        "bottomLatitude": "43.7247427",
+        "xMax": 818.502,
+        "yMax": 1000,
+        "xTranslate": 91.17345,
+        "yTranslate": 0
+    },
     "montenegro": {
         "leftLongitude": "18.438452",
         "topLatitude": "43.565072",
@@ -437,6 +447,16 @@
         "yMax": 621.441,
         "xTranslate": 0,
         "yTranslate": 189.67969
+    },
+    "san_marino": {
+        "leftLongitude": "12.400657",
+        "topLatitude": "43.995696",
+        "rightLongitude": "12.514129",
+        "bottomLatitude": "43.894648",
+        "xMax": 811.381,
+        "yMax": 1000,
+        "xTranslate": 93.85160,
+        "yTranslate": 0
     },
     "scotland": {
         "leftLongitude": "-7.66611111",
@@ -529,5 +549,15 @@
         "yMax": 665.292,
         "xTranslate": 0,
         "yTranslate": 168.17578
+    },
+    "vatican": {
+        "leftLongitude": "12.445606",
+        "topLatitude": "41.907551",
+        "rightLongitude": "12.458452",
+        "bottomLatitude": "41.900111",
+        "xMax": 1000,
+        "yMax": 775.313,
+        "xTranslate": 0,
+        "yTranslate": 113.40335
     }
 }
