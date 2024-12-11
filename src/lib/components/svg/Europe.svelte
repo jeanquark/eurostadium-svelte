@@ -32,7 +32,7 @@
             }
         });
         node.addEventListener("panzoomzoom", (event) => {
-            console.log("panzoomzoom: ", event.detail);
+            // console.log("panzoomzoom: ", event.detail);
         });
         
         // node.addEventListener("wheel", (e) => {

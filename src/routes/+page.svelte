@@ -70,7 +70,8 @@
             // fetchLeagues();
             await leagueStore.fetchLeagues()
         }
-        if (hasSmallScreen() && hasTouchSupport()) {
+        // if (hasSmallScreen() && hasTouchSupport()) {
+        if (hasSmallScreen()) {
             isMobileDevice = true
         }
         showComponent = true
@@ -511,7 +512,7 @@
         <a href="{base}/auth/register">Register</a>
         <br /><br />
         <button onclick={() => (showModal = true)}>Show modal</button>
-        <Modal bind:showModal>
+        <Modal bind:showModal data={selectedStadium}>
             <!-- <h2 slot="header">modal</h2> -->
             <!-- This is the modal content<br /> -->
             {#snippet header()}
