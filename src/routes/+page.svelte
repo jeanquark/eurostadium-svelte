@@ -512,33 +512,11 @@
         <a href="{base}/auth/register">Register</a>
         <br /><br />
         <button onclick={() => (showModal = true)}>Show modal</button>
-        <Modal bind:showModal data={selectedStadium}>
-            <!-- <h2 slot="header">modal</h2> -->
-            <!-- This is the modal content<br /> -->
-            {#snippet header()}
-                <h2>
-                    modal
-                    <small><em>adjective</em> mod·al \ˈmō-dəl\</small>
-                </h2>
-            {/snippet}
-            {#snippet content()}
-                42 Wallaby Way <br />
-                Sydney
-            {/snippet}
-            {#snippet children()}
-                <div class="row align-center">
-                    <div class="col-12 text-center relative">
-                        <h2>
-                            <span class="text-primary"><b>{stadiums[0]?.venue?.name}</b></span>,
-                            <span class="text-muted">{stadiums[0]?.venue?.city}</span>
-                        </h2>
-                        <h3 class="">
-                            {stadiums[0]?.stadium?.capacity}
-                        </h3>
-                    </div>
-                </div>
-            {/snippet}
+        {#if showModal}
+        <Modal bind:showModal data={selectedStadium} countrySlug={country.slug}>
+            {#snippet header()}{/snippet}
         </Modal>
+        {/if}
         <br /><br />
         <!-- $leagueStore.leagues.length: {$leagueStore.leagues?.length}<br /><br /> -->
         <!-- countryLeagues.length: {countryLeagues.length}<br /><br /> -->
@@ -561,6 +539,7 @@
         filterValue: {filterValue}<br />
         <!-- currentComponent: {currentComponent}<br /> -->
         stadiums.length: {stadiums.length}<br />
+        showStadiumTooltip: {showStadiumTooltip}<br />
 
         <button onclick={() => stadiumStore.toggleLoading()}>Toggle loading</button><br /><br />
         <div style="">
