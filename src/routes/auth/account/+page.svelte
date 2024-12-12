@@ -1,18 +1,23 @@
 <script>
     import { onMount } from "svelte";
     import { base } from "$app/paths";
-    import { supabase } from "@lib/supabase/supabaseClient";
+    // import { supabase } from "@lib/supabase/supabaseClient";
     import Account from "@components/auth/Account.svelte";
-    let session = null;
+    // let session = null;
+
+	let { data } = $props()
+    let { supabase, session } = data
+
 
     onMount(async () => {
-        supabase.auth.getSession().then(({ data }) => {
-            session = data.session;
-        });
+        console.log('[onMount] Account page')
+        // supabase.auth.getSession().then(({ data }) => {
+        //     session = data.session;
+        // });
 
-        supabase.auth.onAuthStateChange((_event, _session) => {
-            session = _session;
-        });
+        // supabase.auth.onAuthStateChange((_event, _session) => {
+        //     session = _session;
+        // });
     })
 </script>
 

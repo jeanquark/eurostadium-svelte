@@ -27,7 +27,7 @@
 
 <div class="row flex-center flex">
     <div class="col-6">
-        <h2 class="my-2">Register</h2>
+        <h2 class="text-center my-2">Register</h2>
         <form class="form-widget" on:submit|preventDefault={handleRegister}>
             <div>
                 <label for="emailRegister">Email</label>

@@ -1,11 +1,14 @@
 <script>
     import { base } from "$app/paths";
-    // import { invalidate } from '$app/navigation'
+    import { invalidate } from '$app/navigation'
     import { onMount } from "svelte";
     import Header from "./Header.svelte";
     // import Logo from './components/Logo.svelte'
     import "../app.css";
-    import { supabase } from '@lib/supabase/supabaseClient'
+    // import { supabase } from '@lib/supabase/supabaseClient'
+
+    let { children, data } = $props();
+    let { supabase, session } = data
 
     // export let data
 
@@ -34,6 +37,16 @@
     //         session = _session;
     //     });
     // });
+
+    onMount(() => {
+        const { data } = supabase.auth.onAuthStateChange((event, newSession) => {
+			if (newSession?.expires_at !== session?.expires_at) {
+				invalidate('supabase:auth')
+			}
+		})
+
+		return () => data.subscription.unsubscribe()
+    })
 </script>
 
 <svelte:head>
@@ -62,7 +75,8 @@
     </header>
 
     <main class="main">
-        <slot />
+        <!-- <slot /> -->
+        {@render children()}
         <footer>
             <br /><br />Footer<br /><br />
         </footer>

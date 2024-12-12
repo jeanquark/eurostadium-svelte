@@ -1,34 +1,36 @@
-<script lang="ts">
+<script>
     import { onMount } from "svelte";
     import { jwtDecode } from "jwt-decode";
-    import type { AuthSession } from "@supabase/supabase-js";
-    import { supabase } from "@lib/supabase/supabaseClient";
+    // import { supabase } from "@lib/supabase/supabaseClient";
 
     // export let session: AuthSession;
+	let { session } = $props()
 
     let loading = false;
-    let username: string | null = null;
-    let website: string | null = null;
-    let avatarUrl: string | null = null;
+    let username = null;
+    let website = null;
+    let avatarUrl = null;
 
-    let session;
+    // let session;
 
     onMount(() => {
         // getProfile();
-        supabase.auth.getSession().then(({ data }) => {
-            console.log("data: ", data);
-            session = data.session;
-            // const { user } = session;
-            // console.log("user: ", user);
-        });
+        console.log('[onMount] Account component')
+        // supabase.auth.getSession().then(({ data }) => {
+        //     console.log("data: ", data);
+        //     session = data.session;
+        //     // const { user } = session;
+        //     // console.log("user: ", user);
+        // });
 
-        supabase.auth.onAuthStateChange((_event, _session) => {
-            session = _session;
-            const jwt: any = jwtDecode(session.access_token);
-            console.log("jwt: ", jwt);
-            const userRole = jwt.user_role;
-            console.log("userRole: ", userRole);
-        });
+        // supabase.auth.onAuthStateChange((_event, _session) => {
+        //     session = _session;
+        //     console.log('session: ', session);
+        //     const jwt = jwtDecode(session.access_token);
+        //     console.log("jwt: ", jwt);
+        //     const userRole = jwt.user_role;
+        //     console.log("userRole: ", userRole);
+        // });
     });
 
     const getProfile = async () => {
@@ -87,6 +89,8 @@
         }
     };
 </script>
+
+<h2 class="text-center">Account</h2>
 
 <form on:submit|preventDefault={updateProfile} class="form-widget">
     <div>Email: {session?.user?.email}</div>

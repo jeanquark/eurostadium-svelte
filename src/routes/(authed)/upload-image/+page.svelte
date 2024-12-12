@@ -101,7 +101,8 @@
 <div class="container">
     <h2 class="text-center">Upload image</h2>
     <div class="text-center my-4">
-        <a href="{base}/">&larr;Home</a>
+        <a href="{base}/">&larr;Home</a>&nbsp;|&nbsp;
+        <a href="{base}/admin">Admin</a>
     </div>
     <form on:submit={handleSubmit}>
         <label>

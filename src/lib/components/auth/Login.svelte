@@ -1,11 +1,13 @@
-<script lang="ts">
+<script>
     import { jwtDecode } from "jwt-decode";
-    import { supabase } from "@lib/supabase/supabaseClient";
+    // import { supabase } from "@lib/supabase/supabaseClient";
     import { onMount } from "svelte";
 
-    let loading = false;
-    let email = "";
-    let password = "";
+	let { supabase, session } = $props()
+
+    let loading = $state(false);
+    let email = $state("");
+    let password = $state("");
 
     onMount(() => {});
 
@@ -21,12 +23,13 @@
             console.log("Login completed!");
 
             const { subscription } = supabase.auth.onAuthStateChange(
-                async (event: any, session: any) => {
+                async (event, session) => {
                     if (session) {
-                        const jwt: any = jwtDecode(session.access_token);
-                        console.log('jwt: ', jwt)
-                        const userRole = jwt.user_role;
-                        console.log('userRole: ', userRole);
+                        console.log('session: ', session);
+                        // const jwt = jwtDecode(session.access_token);
+                        // console.log('jwt: ', jwt)
+                        // const userRole = jwt.user_role;
+                        // console.log('userRole: ', userRole);
                     }
                 },
             );
