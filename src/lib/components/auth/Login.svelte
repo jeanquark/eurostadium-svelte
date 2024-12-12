@@ -1,10 +1,10 @@
 <script>
     import { jwtDecode } from "jwt-decode";
-    // import { supabase } from "@lib/supabase/supabaseClient";
+    import { supabase } from "@lib/supabase/supabaseClient";
     import { onMount } from "svelte";
     import { goto } from '$app/navigation';
 
-	let { supabase, session } = $props()
+	// let { supabase, session } = $props()
 
     let loading = $state(false);
     let email = $state("");

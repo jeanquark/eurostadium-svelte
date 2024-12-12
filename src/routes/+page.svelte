@@ -14,7 +14,7 @@
     import welcome from '$lib/images/svelte-welcome.webp'
     import welcome_fallback from '$lib/images/svelte-welcome.png'
     import { db } from '@lib/firebase/firebase'
-    // import { supabase } from '@lib/supabase/supabaseClient'
+    import { supabase } from '@lib/supabase/supabaseClient'
     import { collection, query, where, doc, getDocs, addDoc, updateDoc, deleteDoc } from 'firebase/firestore'
     import { counter } from '@store/count'
     import { countryStore } from '@store/country'
@@ -27,7 +27,7 @@
     // const dispatch = createEventDispatcher();
     // let { clickOutsideCountry } = $props();
 
-	let { supabase, session } = $props()
+	// let { supabase, session } = $props()
 
     let map = 'europe-with-russia.svg'
     let countryLeagues = $state([])

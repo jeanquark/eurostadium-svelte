@@ -2,16 +2,16 @@
     import { onMount } from "svelte";
     import { jwtDecode } from "jwt-decode";
     import { goto } from '$app/navigation';
-    // import { supabase } from "@lib/supabase/supabaseClient";
+    import { supabase } from "@lib/supabase/supabaseClient";
 
     // export let session: AuthSession;
-	// let { session } = $props()
-	let { supabase, session } = $props()
+	let { session } = $props()
+	// let { supabase, session } = $props()
 
-    let loading = false;
-    let username = null;
-    let website = null;
-    let avatarUrl = null;
+    let loading = $state(false);
+    let username = $state(null);
+    let website = $state(null);
+    let avatarUrl = $state(null);
 
     // let session;
 
@@ -107,7 +107,7 @@
 
 <h2 class="text-center">Account</h2>
 
-<form on:submit|preventDefault={updateProfile} class="form-widget">
+<form onsubmit={updateProfile} class="form-widget">
     <div>Email: {session?.user?.email}</div>
     <div>
         <label for="username">Name</label>
@@ -125,7 +125,7 @@
     <button
         type="button"
         class="button block"
-        on:click={() => logout()}
+        onclick={() => logout()}
     >
         Sign Out
     </button>

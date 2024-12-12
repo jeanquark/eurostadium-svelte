@@ -1,9 +1,9 @@
-<script lang="ts">
-    import { supabase } from "../../../lib/supabase/supabaseClient";
+<script>
+    import { supabase } from "@lib/supabase/supabaseClient";
 
-    let loading = false;
-    let email = "";
-    let password = "";
+    let loading = $state(false);
+    let email = $state("");
+    let password = $state("");
 
     const handleRegister = async () => {
         try {
@@ -28,7 +28,7 @@
 <div class="row flex-center flex">
     <div class="col-6">
         <h2 class="text-center my-2">Register</h2>
-        <form class="form-widget" on:submit|preventDefault={handleRegister}>
+        <form class="form-widget" onsubmit={handleRegister}>
             <div>
                 <label for="emailRegister">Email</label>
                 <input

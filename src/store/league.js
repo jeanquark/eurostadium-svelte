@@ -1,8 +1,5 @@
 import { writable } from 'svelte/store'
-import { supabase } from "../lib/supabase/supabaseClient";
-// let { supabase } = $props()
-// import data from '../routes/+layout.js'
-// const { supabase } = data 
+import { supabase } from "@lib/supabase/supabaseClient";
 
 const state = {
     leagues: [],

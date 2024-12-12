@@ -1,23 +1,24 @@
 <script>
     import { onMount } from "svelte";
     import { base } from "$app/paths";
-    // import { supabase } from "@lib/supabase/supabaseClient";
+    import { supabase } from "@lib/supabase/supabaseClient";
     import Account from "@components/auth/Account.svelte";
-    // let session = null;
+    import { goto } from '$app/navigation';
 
-	let { data } = $props()
-    let { supabase, session } = data
+    let session = $state(null);
+	// let { data } = $props()
+    // let { supabase, session } = data
 
 
     onMount(async () => {
         console.log('[onMount] Account page')
-        // supabase.auth.getSession().then(({ data }) => {
-        //     session = data.session;
-        // });
+        supabase.auth.getSession().then(({ data }) => {
+            session = data.session;
+        });
 
-        // supabase.auth.onAuthStateChange((_event, _session) => {
-        //     session = _session;
-        // });
+        supabase.auth.onAuthStateChange((_event, _session) => {
+            session = _session;
+        });
     })
 </script>
 
@@ -25,7 +26,9 @@
     <a href="{base}/">Home page</a>&nbsp;|&nbsp;
     <a href="{base}/auth/login">Login</a>&nbsp;|&nbsp;
     <a href="{base}/auth/register">Register</a><br />
-    <Account {supabase} {session} />
+    <button onclick="{() => goto('/')}">Hone</button>
+    <!-- <Account {supabase} {session} /> -->
+    <Account {session} />
 </div>
 
 <style>

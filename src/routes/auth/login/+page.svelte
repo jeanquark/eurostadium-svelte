@@ -1,9 +1,10 @@
 <script>
     import { base } from "$app/paths";
     import Login from "@components/auth/Login.svelte";
+    import { supabase } from "@lib/supabase/supabaseClient";
 
-	let { data } = $props()
-    let { supabase, session } = data
+	// let { data } = $props()
+    // let { supabase, session } = data
 
     let loading = $state(false);
     let email = $state("");
@@ -51,7 +52,7 @@
     <div class="row flex-center flex">
         <div class="col-6">
             <h2 class="my-2">Login</h2>
-            <form class="form-widget" on:submit|preventDefault={handleLogin}>
+            <form class="form-widget" onsubmit={handleLogin}>
                 <div>
                     <label for="emailLogin">Email</label>
                     <input

@@ -5,10 +5,11 @@
     import Header from "./Header.svelte";
     // import Logo from './components/Logo.svelte'
     import "../app.css";
-    // import { supabase } from '@lib/supabase/supabaseClient'
+    import { supabase } from '@lib/supabase/supabaseClient'
 
-    let { children, data } = $props();
-    let { supabase, session } = data
+    let { children } = $props();
+    // let { supabase, session } = data
+    let session = $state(null)
 
     // export let data
 
@@ -27,26 +28,26 @@
 
     // let session;
 
-    // onMount(() => {
-    //     supabase.auth.getSession().then(({ data }) => {
-    //         console.log('data: ', data);
-    //         session = data.session;
-    //     });
-
-    //     supabase.auth.onAuthStateChange((_event, _session) => {
-    //         session = _session;
-    //     });
-    // });
-
     onMount(() => {
-        const { data } = supabase.auth.onAuthStateChange((event, newSession) => {
-			if (newSession?.expires_at !== session?.expires_at) {
-				invalidate('supabase:auth')
-			}
-		})
+        supabase.auth.getSession().then(({ data }) => {
+            console.log('data: ', data);
+            session = data.session;
+        });
 
-		return () => data.subscription.unsubscribe()
-    })
+        supabase.auth.onAuthStateChange((_event, _session) => {
+            session = _session;
+        });
+    });
+
+    // onMount(() => {
+    //     const { data } = supabase.auth.onAuthStateChange((event, newSession) => {
+	// 		if (newSession?.expires_at !== session?.expires_at) {
+	// 			invalidate('supabase:auth')
+	// 		}
+	// 	})
+
+	// 	return () => data.subscription.unsubscribe()
+    // })
 </script>
 
 <svelte:head>
