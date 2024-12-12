@@ -25,7 +25,7 @@
     <a href="{base}/">Home page</a>&nbsp;|&nbsp;
     <a href="{base}/auth/login">Login</a>&nbsp;|&nbsp;
     <a href="{base}/auth/register">Register</a><br />
-    <Account {session} />
+    <Account {supabase} {session} />
 </div>
 
 <style>

@@ -2,6 +2,7 @@
     import { jwtDecode } from "jwt-decode";
     // import { supabase } from "@lib/supabase/supabaseClient";
     import { onMount } from "svelte";
+    import { goto } from '$app/navigation';
 
 	let { supabase, session } = $props()
 
@@ -21,6 +22,8 @@
             if (error) throw error;
             console.log("data: ", data);
             console.log("Login completed!");
+            alert('Login success!')
+            goto('/')
 
             const { subscription } = supabase.auth.onAuthStateChange(
                 async (event, session) => {

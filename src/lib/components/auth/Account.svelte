@@ -1,10 +1,12 @@
 <script>
     import { onMount } from "svelte";
     import { jwtDecode } from "jwt-decode";
+    import { goto } from '$app/navigation';
     // import { supabase } from "@lib/supabase/supabaseClient";
 
     // export let session: AuthSession;
-	let { session } = $props()
+	// let { session } = $props()
+	let { supabase, session } = $props()
 
     let loading = false;
     let username = null;
@@ -88,6 +90,19 @@
             loading = false;
         }
     };
+
+    const logout = async () => {
+        try {
+            const { error } = supabase.auth.signOut()
+            if (error) {
+                console.log('error: ', error);
+            }
+            alert('Logout success!')
+            goto('/')
+        } catch (error) {
+            console.log('error: ', error);
+        }
+    }
 </script>
 
 <h2 class="text-center">Account</h2>
@@ -110,7 +125,7 @@
     <button
         type="button"
         class="button block"
-        on:click={() => supabase.auth.signOut()}
+        on:click={() => logout()}
     >
         Sign Out
     </button>

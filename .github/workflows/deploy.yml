@@ -25,7 +25,12 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
+      - name: 'Create env file'
+        run: |
+          touch .env
+          echo PUBLIC_SUPABASE_URL=${{ secrets.SUPABASE_URL }} >> .env
+          echo PUBLIC_SUPABASE_ANON_KEY=${{ secrets.SUPABASE_ANON_KEY }} >> .env
+          cat .env
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
