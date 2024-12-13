@@ -51,7 +51,7 @@
 <div class="row flex-center flex">
     <div class="col-6">
         <h2 class="my-2">Login</h2>
-        <form class="form-widget" on:submit|preventDefault={handleLogin}>
+        <form class="form-widget" onsubmit={handleLogin}>
             <div>
                 <label for="emailLogin">Email</label>
                 <input

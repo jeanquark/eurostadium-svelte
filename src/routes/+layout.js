@@ -47,3 +47,6 @@
 
 //     return { supabase, session }
 // }
+
+export const prerender = true;
+console.log('+layout.js')

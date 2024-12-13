@@ -1,5 +1,5 @@
 <script>
-    import { createEventDispatcher, onMount } from 'svelte'
+    import { onMount } from 'svelte'
     import { base } from '$app/paths'
     import { dev } from '$app/environment'
     import Counter from './Counter.svelte'
@@ -20,9 +20,11 @@
     import { countryStore } from '@store/country'
     import { leagueStore } from '@store/league'
     import { stadiumStore } from '@store/stadium'
+    import { addToast } from "@store/toast";
     import camelize from '@utils/convertToCamelCase'
     import Carousel from '@components/Carousel.svelte'
     import FilterButtons from '@components/FilterButtons.svelte'
+    import Toasts from "@components/Toasts.svelte";
 
     // const dispatch = createEventDispatcher();
     // let { clickOutsideCountry } = $props();
@@ -148,6 +150,10 @@
 
     const displayMap = async (map) => {
         loadComponent(map)
+    }
+
+    const showNotification = () => {
+        console.log('showNotification')
     }
 
     function useTooltip() {}
@@ -511,7 +517,8 @@
         <br />
         <a href="{base}/about">About page</a>&nbsp;|&nbsp;<a href="{base}/upload-image">Upload image</a>&nbsp;|&nbsp;
         <a href="{base}/auth/login">Login</a>&nbsp;|&nbsp;
-        <a href="{base}/auth/register">Register</a>
+        <a href="{base}/auth/register">Register</a>&nbsp;|&nbsp;
+        <a href="{base}/auth/account">Account</a>
         <br /><br />
         <button onclick={() => (showModal = true)}>Show modal</button>
         {#if showModal}
@@ -520,6 +527,11 @@
         </Modal>
         {/if}
         <br /><br />
+        <div style="position: fixed; top: 20px; right: 20px;">
+            <Toasts />
+        </div>
+        <button onclick={() => addToast({ message: 'Ceci est un message', type: 'success', dismissible: true, timeout: 3000 })}>Show notification</button><br />
+
         <!-- $leagueStore.leagues.length: {$leagueStore.leagues?.length}<br /><br /> -->
         <!-- countryLeagues.length: {countryLeagues.length}<br /><br /> -->
         <!-- $leagueStore.data.length: {$leagueStore.data.length}<br /><br /> -->

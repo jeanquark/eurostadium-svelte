@@ -76,11 +76,20 @@
     </header>
 
     <main class="main">
-        <!-- <slot /> -->
         {@render children()}
-        <footer>
-            <br /><br />Footer<br /><br />
-        </footer>
+        <footer></footer>
+        <div class="row justify-content-center" style="background: #325bad; color: #fff; padding-top: 5px; padding-bottom: 10px;">
+            <div class="col-12">
+                <nav class="text-center">
+                    <a href="{base}/">Home</a> | 
+                    <a href="{base}/about/">About</a> |
+                    <a href="{base}/auth/login">Login</a> |
+                    <a href="{base}/auth/register">Register</a> |
+                    <a href="{base}/auth/account">Account</a> |
+                    <a href="{base}/upload-image">Upload image</a>
+                </nav>
+            </div>
+        </div>
     </main>
 </div>
 
@@ -144,6 +153,13 @@
         background-position: center center;
         background-size: cover;
         /* background-size: contain; */
+    }
+    nav a {
+        color: #fff;
+    }
+    nav a:hover {
+        text-decoration: none;
+        color: #ffcc00;
     }
     /* .app {
 		display: flex;

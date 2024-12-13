@@ -53,7 +53,7 @@
             {#if browser}
 			<!-- {#if data} -->
                 <SvelteCarousel autoplay autoplayDuration={500} pauseOnFocus={true} bind:this={carousel} on:pageChange={onPageChange}>
-                    {#each data.images as image, imageIndex}
+                    {#each data?.images as image, imageIndex}
                         <div class="img-container" style="height: 300px; background: #FFF;">
                             {#if loaded.includes(imageIndex)}
                                 {image.name}<br />
