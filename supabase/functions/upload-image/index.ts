@@ -61,27 +61,36 @@ Deno.serve(async (req) => {
 		return new Response('ok', { headers: corsHeaders })
 	}
 	try {
+		const abc = Deno.env.get('SUPABASE_URL')
+		console.log('SUPABASE_URL: ', abc);
+		const def = Deno.env.get('PUBLIC_SUPABASE_URL')
+		console.log('PUBLIC_SUPABASE_URL: ', def);
+
 		const supabaseClient = createClient(
-			Deno.env.get('PUBLIC_SUPABASE_URL') ?? '',
-			Deno.env.get('PUBLIC_SUPABASE_ANON_KEY') ?? '',
+			Deno.env.get('SUPABASE_URL') == 'http://kong:8000' ? Deno.env.get('PUBLIC_SUPABASE_URL') : Deno.env.get('SUPABASE_URL'),
+			Deno.env.get('SUPABASE_URL') == 'http://kong:8000' ? Deno.env.get('PUBLIC_SUPABASE_ANON_KEY') : Deno.env.get('SUPABASE_ANON_KEY'),
+			{
+				global: {
+					headers: { Authorization: `${req.headers.get('Authorization')}` }
+				},
+			}
 		)
 
-		// Get the session or user object
-		const authHeader = req.headers.get('Authorization')!
-		const token = authHeader.replace('Bearer ', '')
 		const {
 			data: { user }
-		} = await supabaseClient.auth.getUser(token)
+		} = await supabaseClient.auth.getUser()
+		console.log('user: ', user);
 
+		const { data, error } = await supabaseClient.from('countries').select('*')
+		if (error) throw error
+		console.log('data.length: ', data.length);
 		if (!user) {
-			return new Response(JSON.stringify({ error: 'No user found' }), {
+			return new Response(JSON.stringify({ error: 'No user found.' }), {
 				headers: { ...corsHeaders, 'Content-Type': 'application/json' },
 				status: 400,
 			})
 		}
 
-		// const { data, error } = await supabaseClient.from('countries').select('*')
-		// if (error) throw error
 
 		let image = null
 		if (method === 'POST' || method === 'PUT') {
@@ -104,7 +113,7 @@ Deno.serve(async (req) => {
 		return new Response(JSON.stringify({
 			user, message: "Success uploaded image!"
 		}), {
-			headers: { 'Content-Type': 'application/json' },
+			headers: { ...corsHeaders, 'Content-Type': 'application/json' },
 			status: 200,
 		})
 	} catch (error) {

@@ -1,14 +1,27 @@
 <script>
+    import { onMount } from "svelte"
     import { base } from "$app/paths";
     import { supabase } from "@lib/supabase/supabaseClient";
     // Stores the selected file and image preview URL
-    let selectedFile = null;
-    let previewUrl = "";
+    let selectedFile = $state(null);
+    let previewUrl = $state("");
+    let session = $state(null);
+
+    onMount(async () => {
+        supabase.auth.onAuthStateChange((_event, _session) => {
+            session = _session;
+            console.log("[onAuthStateChange] session: ", session);
+            console.log("session: ", session);
+            if (!session) {
+                goto("/auth/login");
+            }
+        });
+    })
 
     async function getImages(event) {
         try {
             const response = await fetch(
-                "https://ybfeookvrzkbcgobnzez.supabase.co/functions/v1/upload-image2",
+                "https://ybfeookvrzkbcgobnzez.supabase.co/functions/v1/upload-image",
             );
             console.log("response: ", response);
             const data = await response.json();
@@ -66,7 +79,7 @@
 
             // 2) Upload image through Edge function
             const response = await fetch(
-                "https://ybfeookvrzkbcgobnzez.supabase.co/functions/v1/upload-image2",
+                "https://ybfeookvrzkbcgobnzez.supabase.co/functions/v1/upload-image",
                 {
                     method: "POST",
                     headers: {
