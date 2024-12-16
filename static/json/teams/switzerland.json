@@ -820,7 +820,7 @@
 		"images": [
 			{
 				"name": "1547_001.jpg",
-				"source": "https://vssa.ch/media/uploads/organisations/20/headerimage/headerbild.jpg?c=16x5&w=1920",
+				"source": "https://www.pszeitung.ch/wp-content/uploads/2024/09/s.03-Stadion-Drohne-Gerber.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -853,6 +853,14 @@
 			{
 				"name": "1547_005.jpg",
 				"source": "https://cdn.unitycms.io/images/3LNC3F9cqhC92NU9sLljyC.jpg?op=ocroped&val=1200,630,1000,1000,0,0&sum=jwHxCIGs2YI",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1547_006.jpg",
+				"source": "https://www.wam-ing.ch/admin/data/files/project_image/image/400/4745.00_01.jpg?lm=1554193581",
 				"owner": "",
 				"width": 0,
 				"height": 0,

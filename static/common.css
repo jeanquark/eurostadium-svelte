@@ -16,12 +16,13 @@
 }
 
 /* .flex-row>* { */
-    /* flex: 1; allow children to grow when space available */
+/* flex: 1; allow children to grow when space available */
 /* } */
 
 .justify-center {
     justify-content: center;
 }
+
 .justify-content-center {
     justify-content: center;
 }

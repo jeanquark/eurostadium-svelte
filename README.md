@@ -2,42 +2,57 @@
 
 Showcase football stadiums across Europe.
 
-## Data management
+## Database seed
 
-* Fetch all teams by country
+- Get all countries
 
-    Call `/api/api-football/fetch-teams?season=[SEASON]&countryStartIndex=[COUNTRY_START_INDEX]&countryEndIndex=[COUNTRY_END_INDEX]`
-    It will update all teams for the active leagues in the specified countries json files.
+  Call `/api/supabase/update-countries`
 
-* Calculate x and y coordinates for each stadium (Svg map)
+- Get all leagues
 
-    Call `/api/calculate-svg-coord?country=[COUNTRY_SLUG]`
-    It will update x & y values for the specified country json file.
-    To update all countries, set value to 'all'
+  Call `/api/supabase/update-leagues`
 
-* Update stadiums
+- Fetch all teams by country
 
-    Call `/api/supabase/update-stadiums?country=[COUNTRY_SLUG]`
-    It will update supabase stadiums table with data retrieved from the specified country json file located at `/static/json/teams/[COUNTRY_SLUG].json`.
+  Call
+  `/api/api-football/fetch-teams?season=[SEASON]&countryStartIndex=[COUNTRY_START_INDEX]&countryEndIndex=[COUNTRY_END_INDEX]`
+  It will update all teams for the active leagues in the specified countries
+  json files.
 
-* Update teams (dependant on stadiums)
+- Calculate x and y coordinates for each stadium (Svg map)
 
-    Call `/api/supabase/update-teams?country=[COUNTRY_SLUG]`
-    It will update supabase teams table with data retrieved from the specified country json file located at `/static/json/teams/[COUNTRY_SLUG].json`.
+  Call `/api/calculate-svg-coord?country=[COUNTRY_SLUG]` It will update x & y
+  values for the specified country json file. To update all countries, set value
+  to 'all'
 
-* Update images (dependant on stadiums)
+- Update stadiums
 
-    Call `/api/supabase/update-images?country=[COUNTRY_SLUG]`
-    It will update supabase images table with data retrieved from the specified country json file located at `/static/json/teams/[COUNTRY_SLUG].json`.
+  Call `/api/supabase/update-stadiums?country=[COUNTRY_SLUG]` It will update
+  supabase stadiums table with data retrieved from the specified country json
+  file located at `/static/json/teams/[COUNTRY_SLUG].json`.
 
-* Update supabase storage url for each image
+- Update teams (dependant on stadiums)
 
-    Call `/api/supabase/set-images-public-url?country=[COUNTRY_SLUG]`
-    It will update url field in supabase images table for each image stored in specified country folder of supabase storage.
+  Call `/api/supabase/update-teams?country=[COUNTRY_SLUG]` It will update
+  supabase teams table with data retrieved from the specified country json file
+  located at `/static/json/teams/[COUNTRY_SLUG].json`.
+
+- Update images (dependant on stadiums)
+
+  Call `/api/supabase/update-images?country=[COUNTRY_SLUG]` It will update
+  supabase images table with data retrieved from the specified country json file
+  located at `/static/json/teams/[COUNTRY_SLUG].json`.
+
+- Update supabase storage url for each image
+
+  Call `/api/supabase/set-images-public-url?country=[COUNTRY_SLUG]` It will
+  update url field in supabase images table for each image stored in specified
+  country folder of supabase storage.
 
 ## Upload image
 
-Visit `/upload-image` and upload an image (you have to be logged in). It will be saved in `image_uploads` supabase storage.
+Visit `/upload-image` and upload an image (you have to be logged in). It will be
+saved in `image_uploads` supabase storage.
 
 ## Developer
 

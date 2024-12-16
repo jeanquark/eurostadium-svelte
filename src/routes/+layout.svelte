@@ -78,7 +78,7 @@
     <main class="main">
         {@render children()}
         <footer></footer>
-        <div class="row justify-content-center" style="background: #325bad; color: #fff; padding-top: 5px; padding-bottom: 10px;">
+        <div class="row justify-content-center text-white" style="background: #325bad; padding-top: 5px;">
             <div class="col-12">
                 <nav class="text-center">
                     <a href="{base}/">Home</a> | 
@@ -88,6 +88,11 @@
                     <a href="{base}/auth/account">Account</a> |
                     <a href="{base}/upload-image">Upload image</a>
                 </nav>
+            </div>
+            <div class="col-12 my-2">
+                <div class="text-center">
+                <a href="mailto:info@eurostadium.net" class="text-white">info@eurostadium.net</a>
+                </div>
             </div>
         </div>
     </main>

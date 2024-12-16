@@ -37,8 +37,8 @@ export async function GET({ url }) {
         if (error1) {
             throw error1
         }
-
-        // console.log('images: ', images);
+        console.log('images: ', images);
+        // return
 
         // 2) Create a signed URL
         // for (let i = 0; i < 5; i++) {
@@ -69,19 +69,17 @@ export async function GET({ url }) {
                     }
                 )
                 .eq('name', images[i]['name'])
-                
-                if (error3) {
-                    throw error3
-                }
 
-            console.log('data3: ', data3);
+            if (error3) {
+                throw error3
+            }
+            // console.log('data3: ', data3);
         }
-
 
         return json({
             success: true,
+            url,
             total_images: images.length,
-            url
         });
     } catch (error) {
         console.log('error: ', error);

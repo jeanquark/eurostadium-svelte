@@ -15,7 +15,7 @@
     let flag = $state(1);
 
     onMount(() => {
-        console.log("[Albania] onMount");
+        console.log("[San Marino] onMount");
     });
 
     const initPanzoom = (node) => {

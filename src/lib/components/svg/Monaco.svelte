@@ -67,7 +67,7 @@
     };
 
     const handleClick = (e) => {
-        console.log("[Albania] handleClick");
+        console.log("[Monaco] handleClick");
         // console.log('e.target: ', e.target);
         if (e.target.classList.contains("stadium")) {
             console.log("Click on stadium");

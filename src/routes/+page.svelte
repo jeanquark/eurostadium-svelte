@@ -278,9 +278,23 @@
         }
     }
     const countryClick = async (event) => {
-        console.log('countryClick')
+        console.log('countryClick event: ', event)
         // return
-        const countrySlug = event
+        let countrySlug = event
+        // switch (event) {
+        //     case 'andorra':
+        //         countrySlug = 'spain'
+        //         break;
+        //     case 'monaco':
+        //         countrySlug = 'france'
+        //         break;
+        //     case 'liechtenstein':
+        //         countrySlug = 'switzerland'
+        //         break;
+        //     default:
+        //         countrySlug = event
+        // }
+        // const countrySlug = event
         console.log('countrySlug: ', countrySlug)
         // return
         if (isMobileDevice) {
@@ -301,6 +315,7 @@
         stadiums = abc
 
         displayMap(camelize(countrySlug))
+        // displayMap(camelize('liechtenstein'))
         filterValue = 'all'
         showFilterButtons = true
     }

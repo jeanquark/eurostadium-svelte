@@ -27,7 +27,6 @@
 		"firebase": "^11.0.1",
 		"firebase-admin": "^12.7.0",
 		"jwt-decode": "^4.0.0",
-		"slugify": "^1.6.6",
-		"svelte-notifications": "^0.9.98"
+		"slugify": "^1.6.6"
 	}
 }
