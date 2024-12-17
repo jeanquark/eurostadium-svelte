@@ -310,6 +310,7 @@
             await stadiumStore.fetchStadiumsByCountrySlug(countrySlug)
         }
 
+        
         const abc = $stadiumStore.stadiumsByCountry[countrySlug]
         console.log('abc: ', abc)
         stadiums = abc
@@ -318,6 +319,30 @@
         // displayMap(camelize('liechtenstein'))
         filterValue = 'all'
         showFilterButtons = true
+
+        switch (event) {
+            case 'liechtenstein':
+                if (!$stadiumStore.stadiumsByCountry['switzerland']) {
+                    await stadiumStore.fetchStadiumsByCountrySlug('switzerland')
+                }
+                stadiums = $stadiumStore.stadiumsByCountry['switzerland']
+                showFilterButtons = false
+                break;
+            case 'andorra':
+                if (!$stadiumStore.stadiumsByCountry['spain']) {
+                    await stadiumStore.fetchStadiumsByCountrySlug('spain')
+                }
+                stadiums = $stadiumStore.stadiumsByCountry['spain']
+                showFilterButtons = false
+                break;
+            case 'moncaco':
+                if (!$stadiumStore.stadiumsByCountry['france']) {
+                    await stadiumStore.fetchStadiumsByCountrySlug('france')
+                }
+                stadiums = $stadiumStore.stadiumsByCountry['france']
+                showFilterButtons = false
+                break;
+        }
     }
     const countryLeave = () => {
         // console.log("countryLeave");
@@ -333,12 +358,11 @@
         // stadiums = $stadiumStore.stadiumsByCountry[country.slug]?.filter(
         //     (team) => team.id == stadiumId,
         // );
-        // console.log("stadiums: ", stadiums);
+        console.log("stadiums: ", stadiums);
         const abc = stadiums.find((el) => el.stadium.id == stadiumId)
         console.log('abc: ', abc)
         selectedStadium = stadiums.find((el) => el.stadium.id == stadiumId)
-
-        // console.log("selectedStadium: ", selectedStadium);
+        console.log("selectedStadium: ", selectedStadium);
         // teams = $stadiumStore.stadiums[country.slug]?.filter(
         //     (team) => team.venue.api_football_id == stadiumId,
         // );

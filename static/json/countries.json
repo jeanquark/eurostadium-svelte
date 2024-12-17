@@ -298,5 +298,29 @@
         "slug": "ukraine",
         "image": "ukraine.png",
         "index": 49
+    },
+    {
+        "name": "Andorra",
+        "slug": "andorra",
+        "image": "andorra.png",
+        "index": 50
+    },
+    {
+        "name": "Monaco",
+        "slug": "monaco",
+        "image": "monaco.png",
+        "index": 51
+    },
+    {
+        "name": "Liechtenstein",
+        "slug": "liechtenstein",
+        "image": "liechtenstein.png",
+        "index": 52
+    },
+    {
+        "name": "San Marino",
+        "slug": "san_marino",
+        "image": "san_marino.png",
+        "index": 53
     }
 ]

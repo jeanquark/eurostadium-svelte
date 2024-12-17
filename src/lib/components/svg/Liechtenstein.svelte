@@ -2,6 +2,8 @@
     import { onMount } from "svelte";
     import panzoom from "@panzoom/panzoom";
     import addStadiumsToSvgMap from "@utils/addStadiumsToSvgMap";
+    import { stadiumStore } from "@store/stadium";
+
     let {
         clickOutsideCountry,
         stadiumHover,
@@ -67,7 +69,7 @@
     };
 
     const handleClick = (e) => {
-        console.log("[Albania] handleClick");
+        console.log("[Liechtenstein] handleClick");
         // console.log('e.target: ', e.target);
         if (e.target.classList.contains("stadium")) {
             console.log("Click on stadium");
@@ -80,7 +82,10 @@
         }
     };
     const handleMouseOverCircle = (e) => {
-        console.log("[Albania] handleMouseOverCircle e.target: ", e.target);
+        console.log(
+            "[Liechtenstein] handleMouseOverCircle e.target: ",
+            e.target,
+        );
         if (e.target.classList.contains("stadium")) {
             console.log("Click on stadium");
         }
@@ -101,7 +106,10 @@
         stadiumHover(data);
     };
     const handleMouseOutCircle = (e) => {
-        console.log("[Albania] handleMouseOutCircle e.target: ", e.target);
+        console.log(
+            "[Liechtenstein] handleMouseOutCircle e.target: ",
+            e.target,
+        );
         if (!e.relatedTarget?.classList?.contains("tooltip")) {
             e.target.classList.remove("hover");
             stadiumLeave();
@@ -113,8 +121,33 @@
             return () => {};
         });
     };
-    $effect(() => {
-        addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
+    $effect(async () => {
+        // console.log("stadiumObj: ", stadiumObj);
+        // console.log("stadiumsArray: ", stadiumsArray);
+        // console.log("countryObj.leagues: ", countryObj.leagues);
+        // addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
+        // return;
+        const parentCountrySlug = "switzerland";
+        const stadiumApiFootballId = 1545;
+        if (!$stadiumStore.stadiumsByCountry[parentCountrySlug]) {
+            await stadiumStore.fetchStadiumsByCountrySlug(parentCountrySlug);
+        }
+        const countryStadiums = $stadiumStore.stadiumsByCountry[
+            parentCountrySlug
+        ].filter((el) => el.stadium.api_football_id == stadiumApiFootballId);
+        console.log("countryStadiums: ", countryStadiums);
+        if (countryStadiums.length > 0) {
+            const countryStadiumsArray = JSON.parse(
+                JSON.stringify(countryStadiums),
+            );
+            countryStadiumsArray[0]["stadium"]["x"] = 373;
+            countryStadiumsArray[0]["stadium"]["y"] = 587;
+            addStadiumsToSvgMap(
+                stadiumObj,
+                countryStadiumsArray,
+                countryObj.leagues,
+            );
+        }
     });
 </script>
 

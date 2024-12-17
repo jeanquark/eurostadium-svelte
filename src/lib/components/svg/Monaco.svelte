@@ -2,6 +2,8 @@
     import { onMount } from "svelte";
     import panzoom from "@panzoom/panzoom";
     import addStadiumsToSvgMap from "@utils/addStadiumsToSvgMap";
+    import { stadiumStore } from "@store/stadium";
+
     let {
         clickOutsideCountry,
         stadiumHover,
@@ -15,7 +17,7 @@
     let flag = $state(1);
 
     onMount(() => {
-        console.log("[Albania] onMount");
+        console.log("[Monaco] onMount");
     });
 
     const initPanzoom = (node) => {
@@ -67,7 +69,6 @@
     };
 
     const handleClick = (e) => {
-        console.log("[Monaco] handleClick");
         // console.log('e.target: ', e.target);
         if (e.target.classList.contains("stadium")) {
             console.log("Click on stadium");
@@ -80,7 +81,6 @@
         }
     };
     const handleMouseOverCircle = (e) => {
-        console.log("[Albania] handleMouseOverCircle e.target: ", e.target);
         if (e.target.classList.contains("stadium")) {
             console.log("Click on stadium");
         }
@@ -101,7 +101,6 @@
         stadiumHover(data);
     };
     const handleMouseOutCircle = (e) => {
-        console.log("[Albania] handleMouseOutCircle e.target: ", e.target);
         if (!e.relatedTarget?.classList?.contains("tooltip")) {
             e.target.classList.remove("hover");
             stadiumLeave();
@@ -113,8 +112,29 @@
             return () => {};
         });
     };
-    $effect(() => {
-        addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
+    $effect(async () => {
+        // addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
+        const parentCountrySlug = "france";
+        const stadiumApiFootballId = 20470;
+        if (!$stadiumStore.stadiumsByCountry[parentCountrySlug]) {
+            await stadiumStore.fetchStadiumsByCountrySlug(parentCountrySlug);
+        }
+        const countryStadiums = $stadiumStore.stadiumsByCountry[
+            parentCountrySlug
+        ].filter((el) => el.stadium.api_football_id == stadiumApiFootballId);
+        console.log("countryStadiums: ", countryStadiums);
+        if (countryStadiums.length > 0) {
+            const countryStadiumsArray = JSON.parse(
+                JSON.stringify(countryStadiums),
+            );
+            countryStadiumsArray[0]["stadium"]["x"] = 280;
+            countryStadiumsArray[0]["stadium"]["y"] = 910;
+            addStadiumsToSvgMap(
+                stadiumObj,
+                countryStadiumsArray,
+                countryObj.leagues,
+            );
+        }
     });
 </script>
 

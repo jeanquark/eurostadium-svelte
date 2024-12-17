@@ -12,7 +12,7 @@ Showcase football stadiums across Europe.
 
   Call `/api/supabase/update-leagues`
 
-- Fetch all teams by country
+- Fetch all teams by country (to be run once a year)
 
   Call
   `/api/api-football/fetch-teams?season=[SEASON]&countryStartIndex=[COUNTRY_START_INDEX]&countryEndIndex=[COUNTRY_END_INDEX]`

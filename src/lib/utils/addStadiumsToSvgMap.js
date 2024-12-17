@@ -9,7 +9,7 @@ export default function (stadiumObj, stadiums, leagues) {
         alert('No leagues to add stadiums to!')
         return
     }
-    console.log('stadiums: ', stadiums);
+    console.log('[addStadiumsToSvgMap] stadiums: ', stadiums);
     if (circleColors && circleColors.length == 2) {
         leagueColors[0] = circleColors[0]
         leagueColors[1] = circleColors[1]
