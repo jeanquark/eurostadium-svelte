@@ -278,7 +278,7 @@
                         {#each data?.images as image, imageIndex}
                             <div
                                 class="img-container"
-                                style="height: 300px; background: #FFF;"
+                                style="max-height: 300px; background: #FFF;"
                             >
                                 {#if loaded.includes(imageIndex)}
                                     {image.name}<br />
@@ -290,11 +290,11 @@
                                         height="100%"
                                         style=""
                                     /> -->
+                                    <!-- height="100%" -->
                                     <img
                                         src={image.url}
                                         alt="stadium"
-                                        height="100%"
-                                        style=""
+                                        style="position: relative; top: 50%; transform: translateY(-50%); max-height: 100%; max-width: 100%;"
                                     />
                                 {/if}
                             </div>

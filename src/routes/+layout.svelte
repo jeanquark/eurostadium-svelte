@@ -91,7 +91,7 @@
             </div>
             <div class="col-12 my-2">
                 <div class="text-center">
-                <a href="mailto:info@eurostadium.net" class="text-white">info@eurostadium.net</a>
+                <a href="mailto:info@eurostadium.net" class="" style="color: #ccc;">info@eurostadium.net</a>
                 </div>
             </div>
         </div>

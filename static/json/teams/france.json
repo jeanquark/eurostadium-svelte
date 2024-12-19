@@ -48,7 +48,7 @@
 			},
 			{
 				"name": "634_003.jpg",
-				"source": "https://daplast.com/wp-content/uploads/2018/06/Stade-Raymond-Kopa_Angers.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/fra/stade_raymond_kopa_angers/stade_raymond_kopa_angers08.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1760,7 +1760,7 @@
 			},
 			{
 				"name": "632_002.jpg",
-				"source": "https://pbs.twimg.com/media/Esu2xErWMAEcJtY.jpg:large",
+				"source": "https://gf38.fr/wp-content/uploads/2024/09/2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1972,6 +1972,30 @@
 				"width": 0,
 				"height": 0,
 				"size": 0
+			},
+			{
+				"name": "673_002.jpg",
+				"source": "https://france3-regions.francetvinfo.fr/image/sUahWVBks6JXeQemXFiwrDsTiHI/3846x2163/regions/2021/09/06/613607f14576b_img-2516-4-min-5444893.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "673_003.jpg",
+				"source": "https://s3.eu-west-3.amazonaws.com/s3.redstar.fr/wp-content/uploads/2023/06/12130255/Stade-Bauer-982.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "673_004.jpg",
+				"source": "https://www.fcsochaux.fr/upload/actuality/64e74e784f6d3585512273.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
 			}
 		],
 		"no": 26
@@ -2007,7 +2031,7 @@
 		"images": [
 			{
 				"name": "684_001.jpg",
-				"source": "https://www.estac.fr/wp-content/uploads/anciencontenus/en-bref/SDA-X-PARISFC.png",
+				"source": "https://parisfc.fr/wp-content/uploads/2023/07/63ad76be925a2963556202.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2661,6 +2685,30 @@
 			{
 				"name": "2106_001.jpg",
 				"source": "https://www.sofoot.com/convert/LzIwMjMvMDQvMjMxNDE1MzgvSU1HXzQwNTctc2NhbGVkLmpwZWc/image/le-stade-francis-turcan-de-martigues.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2106_002.jpg",
+				"source": "https://pbs.twimg.com/media/CleDZ2gWEAALxQF?format=jpg&name=large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2106_003.jpg",
+				"source": "https://www.sofoot.com/convert/LzIwMjMvMDQvMjMxNDE1MzgvSU1HXzQwNTctc2NhbGVkLmpwZWc/image/le-stade-francis-turcan-de-martigues.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2106_004.jpg",
+				"source": "https://pbs.twimg.com/media/Fl3vxs3XwAAzaTB?format=jpg&name=4096x4096",
 				"owner": "",
 				"width": 0,
 				"height": 0,
