@@ -77,6 +77,19 @@
     text-transform: uppercase;
 }
 
+.pill {
+    background-color: var(--color-theme-1);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
 /* Flexbox */
 .d-flex {
     display: flex;

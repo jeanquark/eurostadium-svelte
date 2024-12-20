@@ -2,9 +2,9 @@
     import { jwtDecode } from "jwt-decode";
     import { supabase } from "@lib/supabase/supabaseClient";
     import { onMount } from "svelte";
-    import { goto } from '$app/navigation';
+    import { goto } from "$app/navigation";
 
-	// let { supabase, session } = $props()
+    // let { supabase, session } = $props()
 
     let loading = $state(false);
     let email = $state("");
@@ -22,13 +22,13 @@
             if (error) throw error;
             console.log("data: ", data);
             console.log("Login completed!");
-            alert('Login success!')
-            goto('/')
+            alert("Login success!");
+            goto("/");
 
             const { subscription } = supabase.auth.onAuthStateChange(
                 async (event, session) => {
                     if (session) {
-                        console.log('session: ', session);
+                        console.log("session: ", session);
                         // const jwt = jwtDecode(session.access_token);
                         // console.log('jwt: ', jwt)
                         // const userRole = jwt.user_role;

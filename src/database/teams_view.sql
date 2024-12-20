@@ -15,6 +15,7 @@ create view teams_view as
     leagues.name as league_name,
     teams.id as team_id,
     teams.api_football_id as team_api_football_id,
+    teams.wiki as team_wiki,
     teams.name as team_name,
     countries.id as country_id,
     countries.name as country_name,

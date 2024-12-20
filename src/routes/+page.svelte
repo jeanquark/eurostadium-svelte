@@ -149,6 +149,9 @@
     }
 
     const displayMap = async (map) => {
+        if (map?.toLowerCase() == 'europe') {
+            showFilterButtons = false
+        }
         loadComponent(map)
     }
 
@@ -506,7 +509,7 @@
 
     const clickOutsideCountry = () => {
         displayMap('Europe')
-        showFilterButtons = false
+        // showFilterButtons = false
     }
 </script>
 
@@ -657,9 +660,9 @@
 
 <div class="row justify-content-center">
     {#if showFilterButtons}
-        <p class="my-1"><i>Hover over any stadium to display images..</i></p>
+        <p class="my-1"><i>Hover over any stadium to display images</i></p>
     {:else}
-        <p class="my-1"><i>Click on any country to load its map..</i></p>
+        <p class="my-1"><i>Click on any country to load its map</i></p>
     {/if}
 </div>
 
@@ -733,7 +736,7 @@
                 on:updateFilter={onUpdateFilter}
                 on:updateStadiums={onUpdateStadiums}
             /> -->
-            <FilterButtons {country} {updateFilter} {updateStadiums} />
+            <FilterButtons {country} {updateFilter} {updateStadiums} {displayMap}/>
         {/if}
     </div>
 </div>

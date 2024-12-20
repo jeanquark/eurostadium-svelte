@@ -39,10 +39,10 @@ export async function GET({ url }) {
 
         for (let i = 0; i < countryTeams.length; i++) {
             if (countryTeams[i] && countryTeams[i].team && countryTeams[i].team.api_football_id && countryTeams[i].venue.api_football_id) {
-            
+
                 const teamSlug = slugify(countryTeams[i]['team']['name'])
                 console.log('teamSlug: ', teamSlug);
-                
+
                 const { data, error: error3 } = await supabase
                     .from('teams')
                     .upsert(
@@ -54,6 +54,7 @@ export async function GET({ url }) {
                             image: `/images/teams/${countrySlug}/${countryTeams[i]['team']['api_football_id']}.png`,
                             api_football_league_id: countryTeams[i]['league']['api_football_id'] ? countryTeams[i]['league']['api_football_id'] : null,
                             api_football_venue_id: countryTeams[i]['venue']['api_football_id'],
+                            wiki: countryTeams[i]['team']['wiki'],
                             is_active: true
                         },
                         {

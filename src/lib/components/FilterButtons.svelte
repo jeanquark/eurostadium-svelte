@@ -1,159 +1,95 @@
 <script>
-    import { createEventDispatcher, onMount } from "svelte";
+    import { onMount } from "svelte";
+    import { base } from "$app/paths";
     import { stadiumStore } from "@store/stadium";
-    // export let country;
 
-    // const dispatch = createEventDispatcher();
-    let { country, updateFilter, updateStadiums } = $props();
+    let { country, updateFilter, updateStadiums, displayMap } = $props();
 
     onMount(() => {
-        console.log('FilterButtons')
+        console.log("FilterButtons");
     });
 
-    let filterValue = $state("all");
+    let filterValue = $state("top_league");
     let stadiums = $state([]);
-    // let country = {
-    //     slug: "",
-    //     name: "",
-    //     population: 0,
-    //     leagues: [],
-    // };
-
-    // $: stadiumsAll = [
-    //     ...new Set(
-    //         $stadiumStore.stadiumsByCountry[country?.slug]?.map(
-    //             (el) => el.stadium.api_football_id,
-    //         ),
-    //     ),
-    // ].length;
-    const stadiumsAll = $derived([...new Set(
-            $stadiumStore.stadiumsByCountry[country?.slug]?.map(
-                (el) => el.stadium.api_football_id,
+    const stadiumsAll = $derived(
+        [
+            ...new Set(
+                $stadiumStore.stadiumsByCountry[country?.slug]?.map(
+                    (el) => el.stadium.api_football_id,
+                ),
             ),
-        )].length
-    )
-
-    // $: stadiumsTopLeague = [
-    //     ...new Set(
-    //         $stadiumStore.stadiumsByCountry[country?.slug]
-    //             ?.filter(
-    //                 (el) =>
-    //                     el.leagues[0]?.api_football_id ==
-    //                     country.leagues[0]["api_football_id"],
-    //             )
-    //             .map((el) => el.stadium.api_football_id),
-    //     ),
-    // ].length;
-    const stadiumsTopLeague = $derived([
-        ...new Set(
-            $stadiumStore.stadiumsByCountry[country?.slug]
-                ?.filter(
-                    (el) =>
-                        el.leagues[0]?.api_football_id ==
-                        country.leagues[0]["api_football_id"],
-                )
-                .map((el) => el.stadium.api_football_id),
-        )].length
-    )
-
-    // $: stadiumsSecondLeague = [
-    //     ...new Set(
-    //         $stadiumStore.stadiumsByCountry[country?.slug]
-    //             ?.filter(
-    //                 (el) =>
-    //                     el.leagues[0]?.api_football_id ==
-    //                     country.leagues[1]["api_football_id"],
-    //             )
-    //             .map((el) => el.stadium.api_football_id),
-    //     ),
-    // ].length;
-    const stadiumsSecondLeague = $derived([
-        ...new Set(
-            $stadiumStore.stadiumsByCountry[country?.slug]
-                ?.filter(
-                    (el) =>
-                        el.leagues[0]?.api_football_id ==
-                        country.leagues[1]["api_football_id"],
-                )
-                .map((el) => el.stadium.api_football_id),
-        )].length
-    )
-
-    // $: stadiumsSm = [
-    //     ...new Set(
-    //         $stadiumStore.stadiumsByCountry[country?.slug]
-    //             ?.filter((el) => el.stadium.capacity < 20000)
-    //             .map((el) => el.stadium.api_football_id),
-    //     ),
-    // ].length;
-    const stadiumsSm = $derived([
-        ...new Set(
-            $stadiumStore.stadiumsByCountry[country?.slug]
-                ?.filter((el) => el.stadium.capacity < 20000)
-                .map((el) => el.stadium.api_football_id),
-        )].length
-    )
-
-    // $: stadiumsMd = [
-    //     ...new Set(
-    //         $stadiumStore.stadiumsByCountry[country?.slug]
-    //             ?.filter(
-    //                 (el) =>
-    //                     el.stadium.capacity >= 20000 &&
-    //                     el.stadium.capacity < 40000,
-    //             )
-    //             .map((el) => el.stadium.api_football_id),
-    //     ),
-    // ].length;
-    const stadiumsMd = $derived([
-        ...new Set(
-            $stadiumStore.stadiumsByCountry[country?.slug]
-                ?.filter(
-                    (el) =>
-                        el.stadium.capacity >= 20000 &&
-                        el.stadium.capacity < 40000,
-                )
-                .map((el) => el.stadium.api_football_id),
-        )].length
-    )
-
-    // $: stadiumsLg = [
-    //     ...new Set(
-    //         $stadiumStore.stadiumsByCountry[country?.slug]
-    //             ?.filter(
-    //                 (el) =>
-    //                     el.stadium.capacity >= 40000 &&
-    //                     el.stadium.capacity < 60000,
-    //             )
-    //             .map((el) => el.stadium.api_football_id),
-    //     ),
-    // ].length;
-    const stadiumsLg = $derived([
-        ...new Set(
-            $stadiumStore.stadiumsByCountry[country?.slug]
-                ?.filter(
-                    (el) =>
-                        el.stadium.capacity >= 40000 &&
-                        el.stadium.capacity < 60000,
-                )
-                .map((el) => el.stadium.api_football_id),
-        )].length
-    )
-
-    // $: stadiumsXl = [
-    //     ...new Set(
-    //         $stadiumStore.stadiumsByCountry[country?.slug]
-    //             ?.filter((el) => el.stadium.capacity >= 60000)
-    //             .map((el) => el.stadium.api_football_id),
-    //     ),
-    // ].length;
-    const stadiumsXl = $derived([
-        ...new Set(
-            $stadiumStore.stadiumsByCountry[country?.slug]
-                ?.filter((el) => el.stadium.capacity >= 60000)
-                .map((el) => el.stadium.api_football_id),
-        )].length
-    )
+        ].length,
+    );
+    const stadiumsTopLeague = $derived(
+        [
+            ...new Set(
+                $stadiumStore.stadiumsByCountry[country?.slug]
+                    ?.filter(
+                        (el) =>
+                            el.leagues[0]?.api_football_id ==
+                            country.leagues[0]["api_football_id"],
+                    )
+                    .map((el) => el.stadium.api_football_id),
+            ),
+        ].length,
+    );
+    const stadiumsSecondLeague = $derived(
+        [
+            ...new Set(
+                $stadiumStore.stadiumsByCountry[country?.slug]
+                    ?.filter(
+                        (el) =>
+                            el.leagues[0]?.api_football_id ==
+                            country.leagues[1]["api_football_id"],
+                    )
+                    .map((el) => el.stadium.api_football_id),
+            ),
+        ].length,
+    );
+    const stadiumsSm = $derived(
+        [
+            ...new Set(
+                $stadiumStore.stadiumsByCountry[country?.slug]
+                    ?.filter((el) => el.stadium.capacity < 20000)
+                    .map((el) => el.stadium.api_football_id),
+            ),
+        ].length,
+    );
+    const stadiumsMd = $derived(
+        [
+            ...new Set(
+                $stadiumStore.stadiumsByCountry[country?.slug]
+                    ?.filter(
+                        (el) =>
+                            el.stadium.capacity >= 20000 &&
+                            el.stadium.capacity < 40000,
+                    )
+                    .map((el) => el.stadium.api_football_id),
+            ),
+        ].length,
+    );
+    const stadiumsLg = $derived(
+        [
+            ...new Set(
+                $stadiumStore.stadiumsByCountry[country?.slug]
+                    ?.filter(
+                        (el) =>
+                            el.stadium.capacity >= 40000 &&
+                            el.stadium.capacity < 60000,
+                    )
+                    .map((el) => el.stadium.api_football_id),
+            ),
+        ].length,
+    );
+    const stadiumsXl = $derived(
+        [
+            ...new Set(
+                $stadiumStore.stadiumsByCountry[country?.slug]
+                    ?.filter((el) => el.stadium.capacity >= 60000)
+                    .map((el) => el.stadium.api_football_id),
+            ),
+        ].length,
+    );
 
     const filterStadiums = (filter) => {
         console.log("filterStadiums: ", filter);
@@ -169,7 +105,9 @@
                 break;
             case "top_league":
                 filterValue = "top_league";
-                stadiums = $stadiumStore.stadiumsByCountry[country?.slug].filter(
+                stadiums = $stadiumStore.stadiumsByCountry[
+                    country?.slug
+                ].filter(
                     (el) =>
                         el.leagues[0].api_football_id ==
                         country.leagues[0]["api_football_id"],
@@ -179,7 +117,9 @@
             // return abc1.length;
             case "second_league":
                 filterValue = "second_league";
-                stadiums = $stadiumStore.stadiumsByCountry[country?.slug].filter(
+                stadiums = $stadiumStore.stadiumsByCountry[
+                    country?.slug
+                ].filter(
                     (el) =>
                         el.leagues[0].api_football_id ==
                         country.leagues[1]["api_football_id"],
@@ -235,10 +175,10 @@
         // console.log('stadiums: ', stadiums);
         // return
         // dispatch("updateFilter", filter);
-        updateFilter(filter)
+        updateFilter(filter);
         // return
         // dispatch("updateStadiums", stadiums);
-        updateStadiums(stadiums)
+        updateStadiums(stadiums);
     };
 </script>
 
@@ -246,85 +186,81 @@
     <!-- country.slug: {country?.slug}<br /><br /> -->
     <!-- stadiums.length: {stadiums.length}<br /> -->
     <!-- $stadiumStore.stadiumsByCountry[country.slug]: {$stadiumStore.stadiumsByCountry[country?.slug]}<br /> -->
-    filterValue: {filterValue}<br />
-    stadiums.length: {stadiums.length}<br />
+    <!-- filterValue: {filterValue}<br /> -->
+    <!-- stadiums.length: {stadiums.length}<br /> -->
     <button
-        class="btn btn-filter {filterValue == 'all' &&
-            'active'}"
+        class="btn btn-filter {filterValue == 'all' && 'active'}"
         id="btnAll"
         onclick={() => {
             filterStadiums("all");
         }}
-        >
+    >
         <span style="vertical-align: middle;">All&nbsp;</span>
         <span class="pill">{stadiumsAll}</span>
     </button>
     <button
-            class="btn btn-filter {filterValue == 'top_league' &&
-                'active'}"
-            id="btnTop" style="color: #FFF;"
-            onclick={() => {
-                filterStadiums("top_league");
-            }}
-            >
-            <span style="vertical-align: middle;">1<sup>st</sup> League&nbsp;</span>
-            <span class="pill">{stadiumsTopLeague}</span>
-        </button>
-        <button
-            class="btn btn-filter {filterValue == 'second_league' &&
-                'active'}"
-            id="btnSecond"
-            onclick={() => {
-                filterStadiums("second_league");
-            }}
-            >
-            <span style="vertical-align: middle;">2<sup>nd</sup> League&nbsp;</span>
-            <span class="pill">{stadiumsSecondLeague}</span>
-        </button>
-        <button
-            class="btn btn-filter {filterValue == 'stadium_sm' &&
-                'active'}"
-            id="btnSm"
-            onclick={() => {
-                filterStadiums("stadium_sm");
-            }}
-        >
-            <span style="vertical-align: middle;">0 - 20k&nbsp;</span>
-            <span class="pill" style="">{stadiumsSm}</span>
-        </button>
-        <button
-            class="btn btn-filter {filterValue == 'stadium_md' &&
-                'active'}"
-            id="btnMd"
-            onclick={() => {
-                filterStadiums("stadium_md");
-            }}
-            >
-            <span style="vertical-align: middle;">20k - 40k&nbsp;</span>
-            <span class="pill">{stadiumsMd}</span>
-        </button>
-        <button
-            class="btn btn-filter {filterValue == 'stadium_lg' &&
-                'active'}"
-            id="btnLg"
-            onclick={() => {
-                filterStadiums("stadium_lg");
-            }}
-            >
-            <span style="vertical-align: middle;">40k - 60k&nbsp;</span>
-            <span class="pill">{stadiumsLg}</span>
-        </button>
-        <button
-            class="btn btn-filter {filterValue == 'stadium_xl' &&
-                'active'}"
-            id="btnXl"
-            onclick={() => {
-                filterStadiums("stadium_xl");
-            }}
-            >
-            <span style="vertical-align: middle;">60k+&nbsp;</span>
-            <span class="pill">{stadiumsXl}</span>
-        </button>
+        class="btn btn-filter {filterValue == 'top_league' && 'active'}"
+        id="btnTop"
+        style="color: #FFF;"
+        onclick={() => {
+            filterStadiums("top_league");
+        }}
+    >
+        <span style="vertical-align: middle;">1<sup>st</sup> League&nbsp;</span>
+        <span class="pill">{stadiumsTopLeague}</span>
+    </button>
+    <button
+        class="btn btn-filter {filterValue == 'second_league' && 'active'}"
+        id="btnSecond"
+        onclick={() => {
+            filterStadiums("second_league");
+        }}
+    >
+        <span style="vertical-align: middle;">2<sup>nd</sup> League&nbsp;</span>
+        <span class="pill">{stadiumsSecondLeague}</span>
+    </button>
+    <button
+        class="btn btn-filter {filterValue == 'stadium_sm' && 'active'}"
+        id="btnSm"
+        onclick={() => {
+            filterStadiums("stadium_sm");
+        }}
+    >
+        <span style="vertical-align: middle;">0 - 20k&nbsp;</span>
+        <span class="pill" style="">{stadiumsSm}</span>
+    </button>
+    <button
+        class="btn btn-filter {filterValue == 'stadium_md' && 'active'}"
+        id="btnMd"
+        onclick={() => {
+            filterStadiums("stadium_md");
+        }}
+    >
+        <span style="vertical-align: middle;">20k - 40k&nbsp;</span>
+        <span class="pill">{stadiumsMd}</span>
+    </button>
+    <button
+        class="btn btn-filter {filterValue == 'stadium_lg' && 'active'}"
+        id="btnLg"
+        onclick={() => {
+            filterStadiums("stadium_lg");
+        }}
+    >
+        <span style="vertical-align: middle;">40k - 60k&nbsp;</span>
+        <span class="pill">{stadiumsLg}</span>
+    </button>
+    <button
+        class="btn btn-filter {filterValue == 'stadium_xl' && 'active'}"
+        id="btnXl"
+        onclick={() => {
+            filterStadiums("stadium_xl");
+        }}
+    >
+        <span style="vertical-align: middle;">60k+&nbsp;</span>
+        <span class="pill">{stadiumsXl}</span>
+    </button>
+    <button onclick={() => displayMap("Europe")}>Back to Europe</button>
+    <!-- <a href="{base}/" class="my-2">&larr;Back</a> -->
     <!-- <div class="pill">All</div>
     <div class="pill">1st League</div>
     <div class="pill">2nd League</div>
@@ -355,7 +291,8 @@
         padding: 0.4em;
         border-radius: 0.4em;
         /* background: #325bad; */
-        background: url("/images/grass_01_blue2.jpg") no-repeat scroll 0 0 transparent !important;
+        background: url("/images/grass_01_blue2.jpg") no-repeat scroll 0 0
+            transparent !important;
         border: none;
         color: #ffffff;
         margin: 0.3em;
@@ -370,7 +307,7 @@
         background: #808080;
         border-radius: 8px;
         font-size: 9px;
-        line-height: 20px;
+        line-height: 10px;
         vertical-align: middle;
     }
 
@@ -396,9 +333,11 @@
         background: url("/images/grass_01.jpg") no-repeat scroll 0 0 transparent !important;
     }
     .grass-background-grey {
-        background: url("/images/grass_01_grey.jpg") no-repeat scroll 0 0 transparent !important;
+        background: url("/images/grass_01_grey.jpg") no-repeat scroll 0 0
+            transparent !important;
     }
     .grass-background-blue {
-        background: url("/images/grass_01_blue2.jpg") no-repeat scroll 0 0 transparent !important;
+        background: url("/images/grass_01_blue2.jpg") no-repeat scroll 0 0
+            transparent !important;
     }
-    </style>
+</style>

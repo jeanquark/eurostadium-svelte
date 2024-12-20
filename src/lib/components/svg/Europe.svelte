@@ -151,7 +151,8 @@
     <def id="def">
         <style type="text/css" id="style2">
             .country:hover {
-                fill: #ff0000 !important;
+                /* fill: #ff0000 !important; */
+                fill: #325bad !important;
                 cursor: pointer;
             }
         </style>

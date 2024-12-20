@@ -74,6 +74,7 @@
     // let carousel = $state(null);
     let loaded = $state([0, 1]);
     // let loaded = [0, 1];
+    let currentImageIndex = $state(0);
     let images = [
         {
             id: 1,
@@ -170,6 +171,7 @@
 
     const onPageChange = (event) => {
         console.log("onPageChange event: ", event);
+        currentImageIndex = event.detail;
         if (!loaded.includes(event.detail + 1)) {
             loaded.push(event.detail + 1);
             // console.log('loaded: ', loaded);
@@ -203,9 +205,9 @@
                 <span class="text-primary"><b>{data?.stadium?.name}</b></span>,
                 <span class="text-muted">{data?.stadium?.city}</span>
             </h2>
-            <h3 class="">
+            <span class="pill">
                 {formatNumber(data?.stadium?.capacity)}
-            </h3>
+            </span>
             <button
                 type="button"
                 onclick={handleTooltipClose}
@@ -302,74 +304,50 @@
                     </SvelteCarousel>
                 {/if}
             </div>
-            <div class="d-flex justify-center">
-                {#each data?.images as image, i}
-                    <!-- <span
-                        role="button"
-                        tabindex="0"
-                        on:keydown={() => {}}
-                        class="carousel-navigation-item"
-                        on:click={() => (current = i)}
-                    >
-                        <svg
-                            viewBox="0 0 512 512"
-                            width="12"
-                            version="1.1"
-                            id="ring"
-                        >
-                            <ellipse
-                                style="fill:#325bad;"
-                                id="outerRing"
-                                cx="256"
-                                cy="256"
-                                rx="256"
-                                ry="256"
-                            />
-                            <ellipse
-                                style="fill:#fff;"
-                                class={current == i && "active-item"}
-                                id="innerRing"
-                                cx="256"
-                                cy="256"
-                                rx="202"
-                                ry="202"
-                            />
-                        </svg>
-                    </span> -->
-                {/each}
-            </div>
         </div>
-        <!-- <div class="col-1 border-2" style="overflow: hidden;">
-            <button type="button" on:click={() => (imageIndex += 1)}
-                ><img
-                    src="{base}/images/angle-right-solid.svg"
-                    alt="right"
-                /></button
-            >
-        </div> -->
     </div>
     <div class="row justify-center my-2">
         <div>
-            <a href={data?.stadium?.wiki} target="_blank">
+            <a href={data?.stadium?.wiki} target="_blank" class="mr-2">
                 Wiki
                 <img
                     src="{base}/images/icons/external-link.svg"
                     width="10"
-                    alt="Wikipedia icon"
+                    alt="External link"
                 />
+            </a>|
+            <a
+                href={data?.images[currentImageIndex]?.src}
+                target="_blank"
+                class="ml-2"
+            >
+                Source
             </a>
-            <button onclick={() => getImageSource(1)}>Source</button>
+            <img
+                src="{base}/images/icons/external-link.svg"
+                width="10"
+                alt="External link"
+            />
+            <!-- carousel: {carousel?.currentPageIndex}<br /> -->
+            <!-- currentImageIndex: {currentImageIndex}<br /> -->
+            <!-- data.images[0].src: {data?.images[0].src} -->
+            <!-- <button onclick={() => getImageSource(1)}>source</button> -->
         </div>
     </div>
     <div class="row justify-center align-center">
         {#each data?.teams as team, i}
-            <div class="col-4 text-center" style="border: 2px solid purple;">
-                <h3 class="text-center">{team.name}</h3>
-                <img
-                    src="{base}/images/teams/{countrySlug}/{team.api_football_id}.png"
-                    width="40%"
-                    alt="Team logo"
-                />
+            <div
+                class="col-4 text-center team-logo"
+                style="border: 2px solid purple;"
+            >
+                <a href={team.wiki} target="_blank">
+                    <h3 class="text-center">{team.name}</h3>
+                    <img
+                        src="{base}/images/teams/{countrySlug}/{team.api_football_id}.png"
+                        width="30%"
+                        alt="Team logo"
+                    />
+                </a>
             </div>
         {/each}
     </div>
@@ -400,21 +378,29 @@
         position: absolute;
         top: 0;
         right: 0;
+        background: none;
+        border: none;
     }
     .tooltip-close-btn:hover {
-        color: orange;
         cursor: pointer;
     }
-    /* .tooltip .image:hover {
+    .team-logo:hover {
         cursor: pointer;
+        background: var(--color-theme-1);
     }
-    .carousel-navigation-item {
-        display: inline;
+    .team-logo:hover h3 {
+        color: white;
     }
-    .carousel-navigation-item:hover {
+    .pill {
+        background-color: var(--color-theme-1);
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
         cursor: pointer;
+        border-radius: 16px;
     }
-    .active-item {
-        fill: #325bad !important;
-    } */
 </style>

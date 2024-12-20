@@ -1,5 +1,6 @@
 <script>
     import { supabase } from "@lib/supabase/supabaseClient";
+    import { goto } from "$app/navigation";
 
     let loading = $state(false);
     let email = $state("");
@@ -11,10 +12,11 @@
             const { data, error } = await supabase.auth.signUp({
                 email,
                 password,
-            })
+            });
             if (error) throw error;
-            console.log('Registration completed!')
-            alert('Registration completed!')
+            console.log("Registration completed!");
+            alert("Registration completed!");
+            goto("/auth/login");
         } catch (error) {
             if (error instanceof Error) {
                 alert(error.message);

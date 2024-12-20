@@ -43,7 +43,7 @@ function createStadiumStore() {
         },
         async fetchStadiumsByCountrySlug(countrySlug) {
             console.log('[Store] fetchStadiumsByCountrySlug: ', countrySlug);
-            const { data, error } = await supabase.from('teams_view').select(`stadium_id, stadium_api_football_id, stadium_name, stadium_city, stadium_capacity, stadium_wiki, stadium_x, stadium_y, league_id, league_api_football_id, league_name, team_id, team_api_football_id, team_name, image_name, image_url, image_src`).eq('country_slug', countrySlug)
+            const { data, error } = await supabase.from('teams_view').select(`stadium_id, stadium_api_football_id, stadium_name, stadium_city, stadium_capacity, stadium_wiki, stadium_x, stadium_y, league_id, league_api_football_id, league_name, team_id, team_api_football_id, team_name, team_wiki, image_name, image_url, image_src`).eq('country_slug', countrySlug)
             // console.log('[stadiumStore] data: ', data)
             if (error) {
                 console.log('error: ', error)
@@ -75,7 +75,8 @@ function createStadiumStore() {
                             teams: [{
                                 id: item.team_id,
                                 api_football_id: item.team_api_football_id,
-                                name: item.team_name
+                                name: item.team_name,
+                                wiki: item.team_wiki
                             }],
                             images: [{
                                 name: item.image_name,
@@ -96,7 +97,8 @@ function createStadiumStore() {
                             collection.teams.push({
                                 id: item.team_id,
                                 api_football_id: item.team_api_football_id,
-                                name: item.team_name
+                                name: item.team_name,
+                                wiki: item.team_wiki
                             })
                         }
                         if (!collection.images.find((image) => image.name == item.image_name)) {
