@@ -6,6 +6,8 @@
     // import Logo from './components/Logo.svelte'
     import "../../app.css";
     import { supabase } from '@lib/supabase/supabaseClient'
+    import Toasts from "@components/Toasts.svelte";
+
 
     let { children } = $props();
     // let { supabase, session } = data
@@ -30,7 +32,7 @@
 
     onMount(() => {
         supabase.auth.getSession().then(({ data }) => {
-            console.log('data: ', data);
+            // console.log('data: ', data);
             session = data.session;
         });
 
@@ -38,16 +40,6 @@
             session = _session;
         });
     });
-
-    // onMount(() => {
-    //     const { data } = supabase.auth.onAuthStateChange((event, newSession) => {
-	// 		if (newSession?.expires_at !== session?.expires_at) {
-	// 			invalidate('supabase:auth')
-	// 		}
-	// 	})
-
-	// 	return () => data.subscription.unsubscribe()
-    // })
 </script>
 
 <svelte:head>
@@ -76,6 +68,9 @@
     </header>
 
     <main class="main">
+        <div style="position: fixed; top: 20px; right: 20px;">
+            <Toasts />
+        </div>
         {@render children()}
         <footer></footer>
         <div class="row justify-content-center text-white" style="background: #325bad; padding-top: 5px;">

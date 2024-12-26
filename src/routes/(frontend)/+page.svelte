@@ -24,7 +24,6 @@
     import camelize from '@utils/convertToCamelCase'
     import Carousel from '@components/Carousel.svelte'
     import FilterButtons from '@components/FilterButtons.svelte'
-    import Toasts from "@components/Toasts.svelte";
 
     // const dispatch = createEventDispatcher();
     // let { clickOutsideCountry } = $props();
@@ -565,7 +564,8 @@
         <a href="{base}/about">About page</a>&nbsp;|&nbsp;<a href="{base}/upload-image">Upload image</a>&nbsp;|&nbsp;
         <a href="{base}/auth/login">Login</a>&nbsp;|&nbsp;
         <a href="{base}/auth/register">Register</a>&nbsp;|&nbsp;
-        <a href="{base}/auth/account">Account</a>
+        <a href="{base}/auth/account">Account</a>&nbsp;|&nbsp;
+        <a href="{base}/admin">Admin</a>
         <br /><br />
         <button onclick={() => (showModal = true)}>Show modal</button>
         {#if showModal}
@@ -574,9 +574,6 @@
         </Modal>
         {/if}
         <br /><br />
-        <div style="position: fixed; top: 20px; right: 20px;">
-            <Toasts />
-        </div>
         <button onclick={() => addToast({ message: 'Ceci est un message', type: 'success', dismissible: true, timeout: 3000 })}>Show notification</button><br />
 
         <!-- $leagueStore.leagues.length: {$leagueStore.leagues?.length}<br /><br /> -->

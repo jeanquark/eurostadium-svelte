@@ -2,6 +2,8 @@
 
 Showcase football stadiums across Europe.
 
+![homepage](/static/images/homepage.jpg)
+
 ## Database seed
 
 - Get all countries
@@ -48,6 +50,12 @@ Showcase football stadiums across Europe.
   Call `/api/supabase/set-images-public-url?country=[COUNTRY_SLUG]` It will
   update url field in supabase images table for each image stored in specified
   country folder of supabase storage.
+
+## Custom Claims & Role-based Access Control (RBAC)
+
+Enable authentication hook to retrieve user role. More info
+[here](https://supabase.com/docs/guides/database/postgres/custom-claims-and-role-based-access-control-rbac?queryGroups=language&language=plpgsql).
+![enable_authentication_hook](/static/images/enable_authentication_hook.jpg)
 
 ## Upload image
 

@@ -1,7 +1,8 @@
 <script>
-    import { onMount } from "svelte"
+    import { onMount } from "svelte";
     import { base } from "$app/paths";
     import { supabase } from "@lib/supabase/supabaseClient";
+    import { goto } from "$app/navigation";
     // Stores the selected file and image preview URL
     let selectedFile = $state(null);
     let previewUrl = $state("");
@@ -10,13 +11,13 @@
     onMount(async () => {
         supabase.auth.onAuthStateChange((_event, _session) => {
             session = _session;
-            console.log("[onAuthStateChange] session: ", session);
-            console.log("session: ", session);
+            // console.log("[onAuthStateChange] session: ", session);
+            // console.log("session: ", session);
             if (!session) {
                 goto("/auth/login");
             }
         });
-    })
+    });
 
     async function getImages(event) {
         try {
@@ -52,14 +53,16 @@
 
         const formData = new FormData();
         formData.append("image", selectedFile);
-        console.log('formData.get(image): ', formData.get('image'));
+        console.log("formData.get(image): ", formData.get("image"));
         const fileName = `${Date.now()}-${selectedFile.name}`;
         // return
-        const image = formData.get('image')
+        const image = formData.get("image");
 
-        const { data: { session } } = await supabase.auth.getSession()
+        const {
+            data: { session },
+        } = await supabase.auth.getSession();
         // console.log('session: ', session);
-        const accessToken = session?.access_token
+        const accessToken = session?.access_token;
         // console.log('accessToken: ', accessToken);
         // return
 
@@ -83,7 +86,7 @@
                 {
                     method: "POST",
                     headers: {
-                        'Authorization': `Bearer ${accessToken}`
+                        Authorization: `Bearer ${accessToken}`,
                     },
                     body: formData,
                 },
@@ -91,7 +94,7 @@
 
             if (response.ok) {
                 alert("Image uploaded successfully!");
-                console.log('response: ', response);
+                console.log("response: ", response);
                 // Clear the form or handle success as needed
                 selectedFile = null;
                 previewUrl = "";
@@ -117,10 +120,14 @@
         <a href="{base}/">&larr;Home</a>&nbsp;|&nbsp;
         <a href="{base}/admin">Admin</a>
     </div>
-    <form on:submit={handleSubmit}>
+    <form onsubmit={() => handleSubmit}>
         <label>
             Select an image to upload:
-            <input type="file" accept="image/*" on:change={handleFileChange} />
+            <input
+                type="file"
+                accept="image/*"
+                onchange={() => handleFileChange}
+            />
         </label>
 
         {#if previewUrl}
@@ -130,7 +137,7 @@
         <button type="submit">Upload Image</button>
     </form>
     <br /><br />
-    <button on:click={() => getImages()}>Get images</button>
+    <button onclick={() => getImages()}>Get images</button>
 </div>
 
 <style>

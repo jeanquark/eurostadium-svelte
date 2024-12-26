@@ -14,6 +14,8 @@
         <SuccessIcon width="1.1em" />
     {:else if type === "error"}
         <ErrorIcon width="1.1em" />
+    {:else if type === "warning"}
+        <ErrorIcon width="1.1em" />
     {:else}
         <InfoIcon width="1.1em" />
     {/if}
@@ -43,6 +45,9 @@
     .error {
         background: IndianRed;
     }
+    .warning {
+        background: lightsalmon;
+    }
     .success {
         background: MediumSeaGreen;
     }
@@ -51,6 +56,7 @@
     }
     .text {
         margin-left: 1rem;
+        text-align: left;
     }
     button {
         color: white;
