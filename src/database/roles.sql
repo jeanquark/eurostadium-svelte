@@ -2,10 +2,10 @@
 --       Roles       --
 -----------------------
 -- Custom types
-DROP type IF EXISTS public.app_permission;
-DROP type IF EXISTS public.app_role;
-DROP table IF EXISTS public.user_roles;
-DROP table IF EXISTS public.role_permissions;
+DROP type IF EXISTS public.app_permission CASCADE;
+DROP type IF EXISTS public.app_role CASCADE;
+DROP table IF EXISTS public.user_roles CASCADE;
+DROP table IF EXISTS public.role_permissions CASCADE;
 
 create type public.app_permission as enum ('images.post', 'images.update', 'images.validate', 'images.delete', 'users.update', 'users.delete');
 create type public.app_role as enum ('user', 'moderator', 'admin');

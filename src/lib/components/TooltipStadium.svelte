@@ -4,7 +4,7 @@
     import { browser } from "$app/environment";
     import Carousel from "@components/Carousel.svelte";
     import SvelteCarousel from "svelte-carousel";
-    import { stadiumStore } from "../store/stadium";
+    import { stadiumStore } from "@store/stadium";
 
     // export let data;
     // export let countrySlug;

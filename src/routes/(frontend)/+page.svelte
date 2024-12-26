@@ -2,13 +2,13 @@
     import { onMount } from 'svelte'
     import { base } from '$app/paths'
     import { dev } from '$app/environment'
-    import Counter from './Counter.svelte'
-    import Tooltip from './Tooltip.svelte'
-    import TooltipCountry from './TooltipCountry.svelte'
-    import TooltipStadium from './TooltipStadium.svelte'
+    import Counter from '../Counter.svelte'
+    import Tooltip from '../Tooltip.svelte'
+    import TooltipCountry from '@lib/components/TooltipCountry.svelte'
+    import TooltipStadium from '@lib/components/TooltipStadium.svelte'
     import Modal from '@components/Modal.svelte'
-    import Circle from './Circle.svelte'
-    import Rectangle from './Rectangle.svelte'
+    import Circle from '../Circle.svelte'
+    import Rectangle from '../Rectangle.svelte'
     import Europe from '@components/svg/Europe.svelte'
     import Germany from '@components/svg/Germany.svelte'
     import welcome from '$lib/images/svelte-welcome.webp'
@@ -457,6 +457,11 @@
         // console.log('filterValue2: ', filterValue);
     }
 
+    const fetchImageUploads = async () => {
+        const abc = await supabase.from('image_uploads').select(`*`)
+        console.log('abc: ', abc);
+    }
+
     // Store
     // $: leagues = [];
     // leagueStore.subscribe((curr) => {
@@ -632,6 +637,8 @@
                 <br />
                 <button onclick={() => fetchCountries()}>Fetch country data</button>
             </div>
+            <br />
+            <button onclick={() => fetchImageUploads()}>Fetch image uploads</button>
 
             <!-- {#await import("./{component2}.svelte") then Module}
 			<Module.default subtitle="Subtilte as prop" />

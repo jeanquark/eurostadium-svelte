@@ -2,9 +2,9 @@
     import { base } from "$app/paths";
     import { invalidate } from '$app/navigation'
     import { onMount } from "svelte";
-    import Header from "./Header.svelte";
+    import Header from "../Header.svelte";
     // import Logo from './components/Logo.svelte'
-    import "../app.css";
+    import "../../app.css";
     import { supabase } from '@lib/supabase/supabaseClient'
 
     let { children } = $props();
@@ -86,7 +86,8 @@
                     <a href="{base}/auth/login">Login</a> |
                     <a href="{base}/auth/register">Register</a> |
                     <a href="{base}/auth/account">Account</a> |
-                    <a href="{base}/upload-image">Upload image</a>
+                    <a href="{base}/upload-image">Upload image</a> |
+                    <a href="{base}/admin">Admin</a>
                 </nav>
             </div>
             <div class="col-12 my-2">
