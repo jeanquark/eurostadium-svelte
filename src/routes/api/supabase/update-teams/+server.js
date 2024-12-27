@@ -4,9 +4,9 @@ import { env } from '$env/dynamic/public';
 import { createServerClient } from '@supabase/ssr'
 import slugify from '@utils/slugify';
 
-export async function GET({ url }) {
+export async function GET({ url, locals: { supabase } }) {
     try {
-        const countrySlug = url.searchParams.get('country')
+        const countrySlug = slugify(url.searchParams.get('country'))
         console.log('countrySlug: ', countrySlug)
 
         if (!countrySlug) {
@@ -15,18 +15,6 @@ export async function GET({ url }) {
                 message: 'Specify country in url params: "/api/supabase/update-stadiums?country=[COUNTRY_SLUG]"'
             });
         }
-
-        // 1) Set up Supabase DB
-        const supabase = createServerClient(env.PUBLIC_SUPABASE_URL, env.PUBLIC_SUPABASE_ANON_KEY, {
-            global: {
-                fetch,
-            },
-            cookies: {
-                getAll() {
-                    return null
-                }
-            }
-        })
 
         let rowsUpdated = 0
         let countryTeams = []
@@ -72,6 +60,7 @@ export async function GET({ url }) {
 
         return json({
             success: true,
+            country: countrySlug,
             total_rows_updated: rowsUpdated
         });
 

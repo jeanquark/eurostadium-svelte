@@ -283,6 +283,11 @@
         console.log('countryClick event: ', event)
         // return
         let countrySlug = event
+
+        if (countrySlug == 'europe') {
+            displayMap('Europe')
+            return
+        }
         // switch (event) {
         //     case 'andorra':
         //         countrySlug = 'spain'
@@ -313,13 +318,16 @@
         }
 
         
-        const abc = $stadiumStore.stadiumsByCountry[countrySlug]
+        const abc = $stadiumStore.stadiumsByCountry[countrySlug].filter((el) =>
+                        el.leagues[0].api_football_id ==
+                        country.leagues[0]["api_football_id"],
+                )
         console.log('abc: ', abc)
         stadiums = abc
 
         displayMap(camelize(countrySlug))
         // displayMap(camelize('liechtenstein'))
-        filterValue = 'all'
+        filterValue = 'top_league'
         showFilterButtons = true
 
         switch (event) {

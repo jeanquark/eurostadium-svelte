@@ -187,7 +187,6 @@
     <!-- stadiums.length: {stadiums.length}<br /> -->
     <!-- $stadiumStore.stadiumsByCountry[country.slug]: {$stadiumStore.stadiumsByCountry[country?.slug]}<br /> -->
     <!-- filterValue: {filterValue}<br /> -->
-    <!-- stadiums.length: {stadiums.length}<br /> -->
     <button
         class="btn btn-filter {filterValue == 'all' && 'active'}"
         id="btnAll"
@@ -259,7 +258,9 @@
         <span style="vertical-align: middle;">60k+&nbsp;</span>
         <span class="pill">{stadiumsXl}</span>
     </button>
-    <button onclick={() => displayMap("Europe")}>Back to Europe</button>
+    <button class="btn" onclick={() => displayMap("Europe")}
+        >&larr; Back to Europe</button
+    >
     <!-- <a href="{base}/" class="my-2">&larr;Back</a> -->
     <!-- <div class="pill">All</div>
     <div class="pill">1st League</div>
@@ -286,6 +287,19 @@
         padding: 15px 10px;
         height: 20px;
         line-height: 0px;
+    }
+    .btn {
+        padding: 0.4em;
+        border-radius: 0.4em;
+        background: none;
+        border: 2px solid var(--color-theme-1);
+        color: var(--color-theme-1);
+        margin: 0.3em;
+    }
+    .btn:hover {
+        cursor: pointer;
+        background: var(--color-theme-1);
+        color: #fff;
     }
     .btn-filter {
         padding: 0.4em;

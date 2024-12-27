@@ -3,9 +3,9 @@ import { json } from '@sveltejs/kit';
 import { env } from '$env/dynamic/public';
 import { createServerClient } from '@supabase/ssr'
 
-export async function GET({ url }) {
+export async function GET({ url, locals: { supabase } }) {
     try {
-        const countrySlug = url.searchParams.get('country')
+        const countrySlug = slugify(url.searchParams.get('country'))
         console.log('countrySlug: ', countrySlug)
 
         if (!countrySlug) {
@@ -15,16 +15,16 @@ export async function GET({ url }) {
             });
         }
 
-        const supabase = createServerClient(env.PUBLIC_SUPABASE_URL, env.PUBLIC_SUPABASE_ANON_KEY, {
-            global: {
-                fetch,
-            },
-            cookies: {
-                getAll() {
-                    return null
-                }
-            }
-        })
+        // const supabase = createServerClient(env.PUBLIC_SUPABASE_URL, env.PUBLIC_SUPABASE_ANON_KEY, {
+        //     global: {
+        //         fetch,
+        //     },
+        //     cookies: {
+        //         getAll() {
+        //             return null
+        //         }
+        //     }
+        // })
 
         // 1) Fetch images by country
         const { data: images, error: error1 } = await supabase.storage

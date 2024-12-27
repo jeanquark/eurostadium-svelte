@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION public.is_admin()
- RETURNS BOOLEAN
- LANGUAGE plpgsql
-AS $function$
+RETURNS BOOLEAN
+security definer
+AS $$
 DECLARE
   user_role public.app_role;
 BEGIN
@@ -17,7 +17,5 @@ BEGIN
     ELSE
       return false;
   END IF;
---   RETURN true;
 END;
-$function$
-;
+$$ LANGUAGE plpgsql;
