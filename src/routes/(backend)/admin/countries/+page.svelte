@@ -6,20 +6,19 @@
     import { jwtDecode } from "jwt-decode";
     import { addToast } from "@store/toast";
     import Toasts from "@components/Toasts.svelte";
-    import { userStore } from "@store/user";
+    import { countryStore } from "@store/country";
     import { counter } from "@store/count";
 
     onMount(async () => {
-        if ($userStore.users.length < 2) {
-            await userStore.fetchUsers();
+        if ($countryStore.countries.length < 2) {
+            await countryStore.fetchCountries();
         }
-        console.log("$userStore.users: ", $userStore.users);
     });
 
     let selectedUser = $state(null);
     let loading = $state(false);
 
-    const fetchUsers = async () => {
+    const fetchCountries = async () => {
         try {
             await userStore.fetchUsers();
         } catch (error) {
@@ -29,11 +28,10 @@
 </script>
 
 <div class="container">
-    <h2 class="text-center">Users</h2>
-    $userStore.users.length: {$userStore.users?.length}<br />
-    userStore.users.length: {userStore.users?.length}<br />
-    {#each $userStore.users as user, i}
-        {i} - {user.id}<br />
+    <h2 class="text-center">Countries</h2>
+    $countryStore.countries.length: {$countryStore.countries?.length}<br />
+    {#each $countryStore.countries as country, i}
+        {i} - {country.name}<br />
     {/each}
     <br /><br />
 </div>

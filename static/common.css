@@ -178,7 +178,7 @@
 .col-6 {
     /* flex: 50%; */
     flex-basis: 50%;
-    max-width: 500%;
+    max-width: 50%;
 }
 
 .col-4 {

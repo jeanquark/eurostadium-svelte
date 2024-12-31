@@ -21,7 +21,7 @@
                     dismissible: false,
                     timeout: 3000,
                 });
-                // goto("/auth/login");
+                goto("/auth/login");
                 return;
             }
             const jwt = jwtDecode(_session?.access_token);
@@ -35,7 +35,7 @@
                     dismissible: false,
                     timeout: 3000,
                 });
-                // goto("/");
+                goto("/");
             }
         });
     });
@@ -56,20 +56,37 @@
             <Toasts />
         </div>
         <div class="row">
-            <div class="col-2" style="border: 2px solid orange;">
+            <div
+                class="col-2"
+                style="background: #ccc; border: 2px solid orange;"
+            >
                 <ul>
-                    <li><a href="{base}/admin">Admin</a></li>
-                    <li><a href="{base}/admin/users">Users</a></li>
-                    <li><a href="{base}/admin/countries">Countries</a></li>
-                    <li><a href="{base}/admin/leagues">Leagues</a></li>
-                    <li><a href="{base}/admin/teams">Teams</a></li>
-                    <li><a href="{base}/admin/stadiums">Stadiums</a></li>
-                    <li><a href="{base}/admin/images">Images</a></li>
+                    <li class:active={$page.url.pathname == "/admin"}>
+                        <a href="{base}/admin">Admin</a>
+                    </li>
+                    <li class:active={$page.url.pathname == "/admin/users"}>
+                        <a href="{base}/admin/users">Users</a>
+                    </li>
+                    <li class:active={$page.url.pathname == "/admin/countries"}>
+                        <a href="{base}/admin/countries">Countries</a>
+                    </li>
+                    <li class:active={$page.url.pathname == "/admin/leagues"}>
+                        <a href="{base}/admin/leagues">Leagues</a>
+                    </li>
+                    <li class:active={$page.url.pathname == "/admin/teams"}>
+                        <a href="{base}/admin/teams">Teams</a>
+                    </li>
+                    <li class:active={$page.url.pathname == "/admin/stadiums"}>
+                        <a href="{base}/admin/stadiums">Stadiums</a>
+                    </li>
+                    <li class:active={$page.url.pathname == "/admin/images"}>
+                        <a href="{base}/admin/images">Images</a>
+                    </li>
                     <li><a href="{base}/">Home</a></li>
                 </ul>
             </div>
             <div class="col-10" style="border: 2px solid orangered;">
-                $page.path: {$page.url.pathname}<br />
+                $page.url.pathname: {$page.url.pathname}<br />
                 {@render children()}
             </div>
         </div>
@@ -85,9 +102,14 @@
     li a {
         display: block;
         text-decoration: none;
-        padding: 10px 0;
+        padding: 10px 5px;
     }
     li a:hover {
-        color: yellow;
+        background: orange;
+        border-radius: 0.5em;
+    }
+    li.active {
+        background: orange;
+        border-radius: 0.5em;
     }
 </style>

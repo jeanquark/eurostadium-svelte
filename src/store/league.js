@@ -33,7 +33,8 @@ function createLeagueStore() {
                 array.push(data[i])
             }
             // console.log('array: ', array);
-            this.leagues = array
+            // this.leagues = array
+            update((state) => ({ ...state, leagues: [...array] }))
 
             // 3) Or fetch from local json file
             // const array = []

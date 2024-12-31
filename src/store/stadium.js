@@ -41,6 +41,16 @@ function createStadiumStore() {
             // console.log('[stadiumStore] toggleLoading')
             update((state) => ({ ...state, loading: !state.loading }))
         },
+        async fetchStadiums() {
+            console.log('[Store] fetchStadiums()')
+            const { data, error } = await supabase.from("stadiums").select(`*`);
+            const array = []
+            for (let i = 0; i < data.length; i++) {
+                array.push(data[i])
+            }
+            console.log('array: ', array);
+            update((state) => ({ ...state, stadiums: [...array] }))
+        },
         async fetchStadiumsByCountrySlug(countrySlug) {
             console.log('[Store] fetchStadiumsByCountrySlug: ', countrySlug);
             const { data, error } = await supabase.from('teams_view').select(`stadium_id, stadium_api_football_id, stadium_name, stadium_city, stadium_capacity, stadium_wiki, stadium_x, stadium_y, league_id, league_api_football_id, league_name, team_id, team_api_football_id, team_name, team_wiki, image_name, image_url, image_src`).eq('country_slug', countrySlug)

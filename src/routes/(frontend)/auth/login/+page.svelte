@@ -1,9 +1,9 @@
 <script>
     import { onMount } from "svelte";
     import { base } from "$app/paths";
-    import Login from "@components/auth/Login.svelte";
     import { goto } from "$app/navigation";
     import { supabase } from "@lib/supabase/supabaseClient";
+    import Login from "@components/auth/Login.svelte";
     // import { getNotificationsContext } from "svelte-notifications";
 
     let session = $state(null);
@@ -25,7 +25,6 @@
                 goto("/");
             }
         });
-
     });
 
     const handleLogin = async () => {
@@ -69,10 +68,15 @@
     <a href="{base}/auth/account">Account</a><br />
     <!-- <Login {supabase} {session} /> -->
 
-    <div class="row flex-center flex">
-        <div class="col-6">
-            <h2 class="my-2">Login</h2>
-            <form class="form-widget" onsubmit={handleLogin}>
+    <div class="row">
+        <!-- <div class="col-6 border-1">col-6</div>
+        <div class="col-6 border-2">col-6</div> -->
+    </div>
+
+    <div class="row justify-center">
+        <div class="col-4 border-1" style="background: #f2f2f2;">
+            <Login />
+            <!-- <form class="" onsubmit={handleLogin}>
                 <div>
                     <label for="emailLogin">Email</label>
                     <input
@@ -103,7 +107,7 @@
                         <span>{loading ? "Loading" : "Login"}</span>
                     </button>
                 </div>
-            </form>
+            </form> -->
         </div>
     </div>
 </div>

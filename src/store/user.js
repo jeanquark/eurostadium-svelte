@@ -17,7 +17,7 @@ function createUserStore() {
                 array.push(data[i])
             }
             console.log('[Store] @user array: ', array);
-            this.users = array
+            update((state) => ({ ...state, users: [...array] }))
         }
     }
 

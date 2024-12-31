@@ -6,22 +6,21 @@
     import { jwtDecode } from "jwt-decode";
     import { addToast } from "@store/toast";
     import Toasts from "@components/Toasts.svelte";
-    import { userStore } from "@store/user";
+    import { imageStore } from "@store/image";
     import { counter } from "@store/count";
 
     onMount(async () => {
-        if ($userStore.users.length < 2) {
-            await userStore.fetchUsers();
+        if ($imageStore.images.length < 2) {
+            await imageStore.fetchImages();
         }
-        console.log("$userStore.users: ", $userStore.users);
     });
 
     let selectedUser = $state(null);
     let loading = $state(false);
 
-    const fetchUsers = async () => {
+    const fetchImages = async () => {
         try {
-            await userStore.fetchUsers();
+            await imageStore.fetchImages();
         } catch (error) {
             console.log("error: ", error);
         }
@@ -29,11 +28,10 @@
 </script>
 
 <div class="container">
-    <h2 class="text-center">Users</h2>
-    $userStore.users.length: {$userStore.users?.length}<br />
-    userStore.users.length: {userStore.users?.length}<br />
-    {#each $userStore.users as user, i}
-        {i} - {user.id}<br />
+    <h2 class="text-center">Images</h2>
+    $imageStore.images.length: {$imageStore.images?.length}<br />
+    {#each $imageStore.images as image, i}
+        {i} - {image.name}<br />
     {/each}
     <br /><br />
 </div>
