@@ -12,31 +12,31 @@
         if ($countryStore.countries.length < 2) {
             countryStore.fetchCountries();
         }
-        supabase.auth.onAuthStateChange((_event, _session) => {
-            console.log("[onAuthStateChange] session: ", _session);
-            if (!_session) {
-                addToast({
-                    message: "You are not authenticated.",
-                    type: "error",
-                    dismissible: false,
-                    timeout: 3000,
-                });
-                goto("/auth/login");
-            }
-            const jwt = jwtDecode(_session?.access_token);
-            // console.log("jwt: ", jwt);
-            const userRole = jwt.user_role;
-            console.log("userRole: ", userRole);
-            if (userRole != "admin") {
-                addToast({
-                    message: "You are not authenticated as an admin.",
-                    type: "warning",
-                    dismissible: false,
-                    timeout: 3000,
-                });
-                goto("/");
-            }
-        });
+        // supabase.auth.onAuthStateChange((_event, _session) => {
+        //     console.log("[onAuthStateChange] session: ", _session);
+        //     if (!_session) {
+        //         addToast({
+        //             message: "You are not authenticated.",
+        //             type: "error",
+        //             dismissible: false,
+        //             timeout: 3000,
+        //         });
+        //         goto("/auth/login");
+        //     }
+        //     const jwt = jwtDecode(_session?.access_token);
+        //     // console.log("jwt: ", jwt);
+        //     const userRole = jwt.user_role;
+        //     console.log("userRole: ", userRole);
+        //     if (userRole != "admin") {
+        //         addToast({
+        //             message: "You are not authenticated as an admin.",
+        //             type: "warning",
+        //             dismissible: false,
+        //             timeout: 3000,
+        //         });
+        //         goto("/");
+        //     }
+        // });
     });
 
     let selectedCountry = $state(null);
@@ -212,9 +212,6 @@
 </svelte:head>
 
 <div class="container">
-    <div style="position: fixed; top: 20px; right: 20px;">
-        <Toasts />
-    </div>
     <h2 class="text-center">Admin</h2>
     <div class="text-center my-4">
         <a href="{base}/">Home</a>
