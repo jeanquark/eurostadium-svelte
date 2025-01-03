@@ -28,4 +28,4 @@ function createImageStore() {
     }
 }
 
-export const countryStore = createCountryStore()
+export const imageStore = createImageStore()

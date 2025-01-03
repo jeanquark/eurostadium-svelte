@@ -1,44 +1,50 @@
 <script>
-    import { jwtDecode } from "jwt-decode";
-    import { supabase } from "@lib/supabase/supabaseClient";
-    import { onMount } from "svelte";
-    import { goto } from "$app/navigation";
-    import { addToast } from "@store/toast";
+    import { jwtDecode } from 'jwt-decode'
+    import { supabase } from '@lib/supabase/supabaseClient'
+    import { onMount } from 'svelte'
+    import { goto } from '$app/navigation'
+    import { addToast } from '@store/toast'
 
-    let loading = $state(false);
-    let email = $state("");
-    let password = $state("");
+    let loading = $state(false)
+    let email = $state('')
+    let password = $state('')
+    let passwordError = $state('')
+    let passwordShow = $state(false)
 
-    onMount(() => {});
+    onMount(() => {})
 
     const handleLogin = async () => {
         try {
-            console.log("handleLogin");
-            loading = true;
+            console.log('handleLogin')
+            loading = true
             const { data, error } = await supabase.auth.signInWithPassword({
                 email,
                 password,
-            });
-            if (error) throw error;
-            console.log("data: ", data);
-            console.log("Login completed!");
-            goto("/");
+            })
+            // console.log('error: ', error);
+            if (error) throw error
+            console.log('data: ', data)
+            console.log('Login completed!')
+            goto('/')
         } catch (error) {
-            console.log("error: ", error);
-            // alert(error)
-            addToast({
-                message: "An error occured.",
-                type: "error",
-                dismissible: false,
-                timeout: 3000,
-            });
-            if (error instanceof Error) {
-                // alert(error.message);
+            console.log('error: ', error)
+            // console.log("error.response: ", error.response);
+            // console.log("error.message: ", error.message);
+            // console.log("error.code: ", error.code);
+            if (error.code == 'invalid_credentials') {
+                passwordError = 'Wrong credentials'
+            } else {
+                addToast({
+                    message: 'An error occured.',
+                    type: 'error',
+                    dismissible: false,
+                    timeout: 3000,
+                })
             }
         } finally {
-            loading = false;
+            loading = false
         }
-    };
+    }
 </script>
 
 <div class="" style="">
@@ -49,40 +55,34 @@
                 <label for="emailLogin">Email</label>
             </div>
             <div class="col-8 px-2">
-                <input
-                    id="emailLogin"
-                    class="inputField"
-                    type="email"
-                    placeholder="Your email"
-                    required
-                    bind:value={email}
-                />
+                <input id="emailLogin" class="inputField" type="email" placeholder="Your email" required bind:value={email} />
             </div>
         </div>
         <div class="row justify-center align-center my-1">
             <div class="col-4 text-right px-2">
-                <label for="passwordLogin">Password</label>
+                <label for="passwordInput">Password</label>
             </div>
-            <div class="col-8 px-2">
-                <input
-                    id="passwordLogin"
-                    class="inputField"
-                    type="password"
-                    placeholder="Your password"
-                    required
-                    bind:value={password}
-                />
+            <div class="col-8 px-2 border-0">
+                passwordShow: {passwordShow}<br />
+                <div class="input-group">
+                    <input id="passwordInput" class="inputField" type={passwordShow ? 'password' : 'text'} placeholder="Your password" required bind:value={password} oninput={() => (passwordError = '')} />
+                    <button type="button" class="btn" onclick={(e) => {e.stopPropagation(); passwordShow = !passwordShow}}><img src={`/images/icons/${passwordShow ? 'eye-solid.svg' : 'eye-slash-solid.svg'}`} alt="eye-solid" /></button>
+                </div>
+                {#if (passwordError)}
+                <small class="help">{passwordError}</small>
+                {/if}
             </div>
         </div>
         <div class="row justify-center">
-            <div class="col-6 text-center">
-                <button
-                    type="submit"
-                    class=""
-                    aria-live="polite"
-                    disabled={loading}
-                >
-                    <span>{loading ? "Loading" : "Login"}</span>
+            <div class="col-12 text-center border-2">
+                <!-- <div style="display: flex; align-items: center;">
+                    <input type="password" placeholder="Password" style="flex: 1;" />
+                    <img src="/images/icons/eye-solid.svg" alt="eye-solid" class="icon" style="width: 20px; margin-left: -25px;" />
+                </div> -->
+
+                <button type="submit" class="" style="width: auto;" disabled={loading}>
+                    <!-- <span>{loading ? "Loading" : "Login"}</span> -->
+                    Login
                 </button>
             </div>
         </div>
@@ -90,19 +90,36 @@
 </div>
 
 <style>
-    input[type="text"],
-    input[type="email"],
-    input[type="password"] {
+    input[type='text'],
+    input[type='email'],
+    input[type='password'] {
         width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
+        padding: 12px 10px;
+        margin: 0px 0px;
         display: inline-block;
         border: 1px solid #ccc;
         border-radius: 4px;
         box-sizing: border-box;
     }
 
-    button[type="submit"] {
+    .input-group {
+        display: flex;
+        align-items: center;
+    }
+    .btn {
+        width: 20px;
+        margin-left: -25px;
+        cursor: pointer;
+        border: 1px solid red;
+        padding: 0;
+        background: transparent;
+    }
+    .btn img {
+        width: 100%;
+        vertical-align: middle;
+    }
+
+    button[type='submit'] {
         width: 100%;
         background-color: #4caf50;
         color: white;
@@ -113,7 +130,11 @@
         cursor: pointer;
     }
 
-    button[type="submit"]:hover {
+    button[type='submit']:hover {
         background-color: #45a049;
+    }
+    .help {
+        margin: 0px 10px;
+        color: IndianRed;
     }
 </style>

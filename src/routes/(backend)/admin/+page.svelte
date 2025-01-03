@@ -12,31 +12,6 @@
         if ($countryStore.countries.length < 2) {
             countryStore.fetchCountries();
         }
-        // supabase.auth.onAuthStateChange((_event, _session) => {
-        //     console.log("[onAuthStateChange] session: ", _session);
-        //     if (!_session) {
-        //         addToast({
-        //             message: "You are not authenticated.",
-        //             type: "error",
-        //             dismissible: false,
-        //             timeout: 3000,
-        //         });
-        //         goto("/auth/login");
-        //     }
-        //     const jwt = jwtDecode(_session?.access_token);
-        //     // console.log("jwt: ", jwt);
-        //     const userRole = jwt.user_role;
-        //     console.log("userRole: ", userRole);
-        //     if (userRole != "admin") {
-        //         addToast({
-        //             message: "You are not authenticated as an admin.",
-        //             type: "warning",
-        //             dismissible: false,
-        //             timeout: 3000,
-        //         });
-        //         goto("/");
-        //     }
-        // });
     });
 
     let selectedCountry = $state(null);
