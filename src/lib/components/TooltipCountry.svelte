@@ -22,8 +22,8 @@
                     alt="Country flag"
                     class="my-2"
                 />
-                <h3 class="text-center">{data.name}</h3>
-                <h5 class="text-center">Pop: {data.population}</h5>
+                <h3 class="text-center mb-3">{data.name}</h3>
+                <h5 class="text-center text-muted">Pop: {data.population}</h5>
             </div>
         </div>
         <div class="col-8">
@@ -50,11 +50,11 @@
         <div class="col-6">
             <div class="row align-center">
                 <div class="col-6 text-center" style="">
-                    <h4 class="">{data.leagues[0]?.name}</h4>
+                    <h4 class="text-black">{data.leagues[0]?.name}</h4>
                 </div>
                 {#if data.leagues[1]}
                     <div class="col-6 text-center" style="">
-                        <h4 class="">{data.leagues[1]?.name}</h4>
+                        <h4 class="text-black">{data.leagues[1]?.name}</h4>
                     </div>
                 {/if}
             </div>

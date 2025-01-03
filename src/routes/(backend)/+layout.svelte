@@ -25,10 +25,10 @@
                 return;
             }
             const jwt = jwtDecode(_session?.access_token);
-            // console.log("jwt: ", jwt);
-            const userRole = jwt.user_role;
-            console.log("userRole: ", userRole);
-            if (userRole != "admin") {
+            console.log("jwt: ", jwt);
+            const userRoles = jwt.user_roles;
+            console.log("userRoles: ", userRoles);
+            if (!userRoles.find((role) => role == "admin")) {
                 addToast({
                     message: "You are not authenticated as an admin.",
                     type: "warning",
@@ -39,6 +39,31 @@
             }
         });
     });
+
+    const handleLogout = () => {
+        try {
+            const { error } = supabase.auth.signOut();
+            if (error) {
+                console.log("error: ", error);
+                throw error;
+            }
+            addToast({
+                message: "Logout success.",
+                type: "success",
+                dismissible: false,
+                timeout: 3000,
+            });
+            goto("/");
+        } catch (error) {
+            console.log("error: ", error);
+            addToast({
+                message: "An error occured.",
+                type: "error",
+                dismissible: false,
+                timeout: 3000,
+            });
+        }
+    };
 </script>
 
 <svelte:head>
@@ -83,6 +108,9 @@
                         <a href="{base}/admin/images">Images</a>
                     </li>
                     <li><a href="{base}/">Home</a></li>
+                    <li>
+                        <button onclick={() => handleLogout()}>Logout</button>
+                    </li>
                 </ul>
             </div>
             <div class="col-10" style="border: 2px solid orangered;">

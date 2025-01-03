@@ -1,12 +1,13 @@
 <script>
     import { onMount } from "svelte";
     import { jwtDecode } from "jwt-decode";
-    import { goto } from '$app/navigation';
+    import { goto } from "$app/navigation";
     import { supabase } from "@lib/supabase/supabaseClient";
+    import { addToast } from "@store/toast";
 
     // export let session: AuthSession;
-	let { session } = $props()
-	// let { supabase, session } = $props()
+    let { session } = $props();
+    // let { supabase, session } = $props()
 
     let loading = $state(false);
     let username = $state(null);
@@ -17,7 +18,7 @@
 
     onMount(() => {
         // getProfile();
-        console.log('[onMount] Account component')
+        console.log("[onMount] Account component");
         // supabase.auth.getSession().then(({ data }) => {
         //     console.log("data: ", data);
         //     session = data.session;
@@ -93,16 +94,21 @@
 
     const logout = async () => {
         try {
-            const { error } = supabase.auth.signOut()
+            const { error } = supabase.auth.signOut();
             if (error) {
-                console.log('error: ', error);
+                console.log("error: ", error);
             }
-            alert('Logout success!')
-            goto('/')
+            addToast({
+                message: "Logout success.",
+                type: "success",
+                dismissible: false,
+                timeout: 3000,
+            });
+            goto("/");
         } catch (error) {
-            console.log('error: ', error);
+            console.log("error: ", error);
         }
-    }
+    };
 </script>
 
 <h2 class="text-center">Account</h2>
@@ -122,11 +128,7 @@
             {loading ? "Saving ..." : "Update profile"}
         </button>
     </div>
-    <button
-        type="button"
-        class="button block"
-        onclick={() => logout()}
-    >
+    <button type="button" class="button block" onclick={() => logout()}>
         Sign Out
     </button>
 </form>

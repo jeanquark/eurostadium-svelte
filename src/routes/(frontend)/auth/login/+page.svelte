@@ -4,6 +4,7 @@
     import { goto } from "$app/navigation";
     import { supabase } from "@lib/supabase/supabaseClient";
     import Login from "@components/auth/Login.svelte";
+    import { addToast } from "@store/toast";
     // import { getNotificationsContext } from "svelte-notifications";
 
     let session = $state(null);
@@ -20,8 +21,14 @@
         supabase.auth.onAuthStateChange((_event, _session) => {
             session = _session;
             console.log("[onAuthStateChange] session: ", session);
-            console.log("session: ", session);
+            // console.log("session: ", session);
             if (session) {
+                // addToast({
+                //     message: "You are authenticated.",
+                //     type: "info",
+                //     dismissible: false,
+                //     timeout: 3000,
+                // });
                 goto("/");
             }
         });

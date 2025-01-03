@@ -95,6 +95,10 @@
     display: flex;
 }
 
+.flex-1 {
+    flex: 1;
+}
+
 .flex-row {
     flex-direction: row;
 }
@@ -109,6 +113,18 @@
 
 .flex-grow {
     flex-grow: 1
+}
+
+.flex-start {
+    justify-content: start;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-end {
+    justify-content: end;
 }
 
 .d-inline-block {
