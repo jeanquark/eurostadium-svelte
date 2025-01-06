@@ -107,7 +107,7 @@
                     <li class:active={$page.url.pathname == "/admin/images"}>
                         <a href="{base}/admin/images">Images</a>
                     </li>
-                    <li><a href="{base}/">Home</a></li>
+                    <li><a href="{base}/">&larr;Home</a></li>
                     <li>
                         <button onclick={() => handleLogout()}>Logout</button>
                     </li>

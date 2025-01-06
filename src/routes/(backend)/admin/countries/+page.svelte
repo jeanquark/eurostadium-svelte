@@ -13,17 +13,37 @@
         if ($countryStore.countries.length < 2) {
             await countryStore.fetchCountries();
         }
-        items = $countryStore.countries.slice(
-            currentPage - 1,
-            currentPage * itemsPerPage,
-        );
+        // items = $countryStore.countries.slice(
+        //     currentPage - 1,
+        //     currentPage * itemsPerPage,
+        // );
     });
 
-    let selectedUser = $state(null);
     let itemsPerPage = $state("5");
     let currentPage = $state(1);
+    let sortBy = $state("id");
+    let sortOrder = $state("asc");
     let loading = $state(false);
-    let items = $state([]);
+    // let items = $state([]);
+
+    const items = $derived(
+        $countryStore.countries
+            .sort((a, b) => {
+                if (sortBy == "id") {
+                    return sortOrder == "asc"
+                        ? a["id"] - b["id"]
+                        : b["id"] - a["id"];
+                } else {
+                    return sortOrder == "asc"
+                        ? a[sortBy].localeCompare(b[sortBy])
+                        : b[sortBy].localeCompare(a[sortBy]);
+                }
+            })
+            .slice(
+                (currentPage - 1) * itemsPerPage,
+                currentPage * itemsPerPage,
+            ),
+    );
 
     const fetchCountries = async () => {
         try {
@@ -32,12 +52,20 @@
             console.log("error: ", error);
         }
     };
+
+    const sortColumn = (column) => {
+        console.log("sortColumn", column);
+        sortBy = column.toLowerCase();
+        sortOrder == "asc" ? (sortOrder = "desc") : (sortOrder = "asc");
+    };
 </script>
 
 <div class="container">
     itemsPerPage: {itemsPerPage}<br />
     currentPage: {currentPage}<br />
-    <h2 class="text-center">Countries</h2>
+    sortBy: {sortBy}<br />
+    sortOrder: {sortOrder}<br />
+    <h2 class="text-center my-2">Countries</h2>
     <div class="row justify-center">
         <div class="col-10">
             <table>
@@ -45,24 +73,42 @@
                     <tr>
                         <th>N°</th>
                         <th
-                            >ID <img
-                                src="/images/icons/arrow-down-short-wide-solid.svg"
-                                width="20"
-                                alt="sort ascending"
-                            /></th
+                            >ID
+                            <button
+                                class="btnSort"
+                                onclick={() => sortColumn("id")}
+                            >
+                                {#if sortBy == "id"}<img
+                                        src={`/images/icons/${sortOrder == "asc" ? "arrow-up-wide-short-solid.svg" : "arrow-down-short-wide-solid.svg"}`}
+                                        width="20"
+                                        alt="sort direction"
+                                    />{:else}<img
+                                        src={"/images/icons/arrow-up-wide-short-solid-grey.svg"}
+                                        width="20"
+                                        alt="sort direction"
+                                    />{/if}</button
+                            ></th
                         >
                         <th
-                            >Name <img
-                                src="/images/icons/arrow-up-wide-short-solid.svg"
-                                width="20"
-                                alt="sort descending"
-                            /></th
+                            >Name<button
+                                class="btnSort"
+                                onclick={() => sortColumn("name")}
+                                >{#if sortBy == "name"}<img
+                                        src={`/images/icons/${sortOrder == "asc" ? "arrow-up-wide-short-solid.svg" : "arrow-down-short-wide-solid.svg"}`}
+                                        width="20"
+                                        alt="sort direction"
+                                    />{:else}<img
+                                        src={"/images/icons/arrow-up-wide-short-solid-grey.svg"}
+                                        width="20"
+                                        alt="sort direction"
+                                    />{/if}</button
+                            ></th
                         >
                         <th>Image</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {#each $countryStore.countries.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage) as country, i}
+                    {#each items as country, i}
                         <tr>
                             <td>{i + 1}</td>
                             <td>{country.id} </td>
@@ -168,5 +214,12 @@
     }
     .btnPage.active {
         background: orange;
+    }
+    .btnSort {
+        background: none;
+        border: none;
+    }
+    .btnSort:hover {
+        cursor: pointer;
     }
 </style>
