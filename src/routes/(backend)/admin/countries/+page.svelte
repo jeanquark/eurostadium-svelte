@@ -8,6 +8,8 @@
     import Toasts from "@components/Toasts.svelte";
     import { countryStore } from "@store/country";
     import { counter } from "@store/count";
+    import SortAsc from "@components/icons/SortAsc.svelte";
+    import SortDesc from "@components/icons/SortDesc.svelte";
 
     onMount(async () => {
         if ($countryStore.countries.length < 2) {
@@ -78,7 +80,16 @@
                                 class="btnSort"
                                 onclick={() => sortColumn("id")}
                             >
-                                {#if sortBy == "id"}<img
+                                {#if sortBy == "id"}
+                                    {#if sortOrder == "asc"}
+                                        <SortAsc width="20" color="#FF0000" />
+                                    {:else}
+                                        <SortDesc width="20" color="#FF0000" />
+                                    {/if}
+                                {:else}
+                                    <SortAsc width="20" color="#ccc" />
+                                {/if}
+                                <!-- {#if sortBy == "id"}<img
                                         src={`/images/icons/${sortOrder == "asc" ? "arrow-up-wide-short-solid.svg" : "arrow-down-short-wide-solid.svg"}`}
                                         width="20"
                                         alt="sort direction"
@@ -87,22 +98,24 @@
                                         width="20"
                                         alt="sort direction"
                                     />{/if}</button
-                            ></th
+                            > -->
+                            </button></th
                         >
                         <th
                             >Name<button
                                 class="btnSort"
                                 onclick={() => sortColumn("name")}
-                                >{#if sortBy == "name"}<img
-                                        src={`/images/icons/${sortOrder == "asc" ? "arrow-up-wide-short-solid.svg" : "arrow-down-short-wide-solid.svg"}`}
-                                        width="20"
-                                        alt="sort direction"
-                                    />{:else}<img
-                                        src={"/images/icons/arrow-up-wide-short-solid-grey.svg"}
-                                        width="20"
-                                        alt="sort direction"
-                                    />{/if}</button
-                            ></th
+                            >
+                                {#if sortBy == "name"}
+                                    {#if sortOrder == "asc"}
+                                        <SortAsc width="20" color="#FF0000" />
+                                    {:else}
+                                        <SortDesc width="20" color="#FF0000" />
+                                    {/if}
+                                {:else}
+                                    <SortAsc width="20" color="#ccc" />
+                                {/if}
+                            </button></th
                         >
                         <th>Image</th>
                     </tr>
