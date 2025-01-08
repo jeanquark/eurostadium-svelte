@@ -2,6 +2,7 @@
     import { onMount } from "svelte";
     import TooltipCountry from "@lib/components/TooltipCountry.svelte";
     import TooltipStadium from "@lib/components/TooltipStadium.svelte";
+    import { page } from "$app/stores";
     import Europe from "@components/svg/Europe.svelte";
     import { db } from "@lib/firebase/firebase";
     import { supabase } from "@lib/supabase/supabaseClient";
@@ -45,6 +46,12 @@
     let isMobileDevice = $state(false);
     let CurrentComponent = $state(Europe);
 
+    let {
+        title = "Home | Eurostadium",
+        description = "Football stadiums across Europe",
+        image = "https://eurostadium.net/images/logo.png",
+    } = $props();
+
     onMount(async () => {
         if (hasTouchSupport() && hasSmallScreen()) {
             console.log("Mobile device detected");
@@ -70,13 +77,18 @@
     const displayMap = async (map) => {
         if (map?.toLowerCase() == "europe") {
             showFilterButtons = false;
+            console.log("reset zoom to 1");
+            // resetZoom();
         }
         loadComponent(map);
     };
 
     const countryHover = (event) => {
-        console.log("countryHover: ", event);
-        return
+        // console.log("countryHover: ", event);
+        if (!event.leagueIds) {
+            return;
+        }
+        // return
         if (isMobileDevice) {
             console.log("isMobileDevice");
             // return
@@ -118,7 +130,7 @@
         // console.log("country: ", country);
     };
     const countryClick = async (event) => {
-        console.log("countryClick event: ", event);
+        // console.log("countryClick event: ", event);
         // return
         let countrySlug = event;
 
@@ -302,16 +314,36 @@
 </script>
 
 <svelte:head>
-    <title>Eurostadium - Home</title>
-    <meta name="description" content="Football stadiums across Europe" />
+    <title>{title} | eurostadium.net</title>
+    <meta name="description" content={description} />
+    <meta property="og_site_name" content="eurostadium.net" />
+    <meta
+        property="og:url"
+        content="https://www.example.com{$page.url.pathname.toString()}"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="“example.com" />
+    <meta
+        property="twitter:url"
+        content="https://www.example.com{$page.url.pathname.toString()}"
+    />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+    {@html `  <script type="application/ld+json">{
+   "@context": "https://schema.org",
+   "@type": "Website",
+   "name": "${title} | example.com",
+   "url": "https//www.example.com${$page.url.pathname}",
+   "logo": ${image}  }</script>`}
 </svelte:head>
 
-<div class="row">
-    <div class="col-xs-12"></div>
-</div>
-
-
-<div class="row justify-content-center">
+<div class="row justify-content-center mt-2">
     {#if showFilterButtons}
         <p class="my-1"><i>Hover over any stadium to display images</i></p>
     {:else}
@@ -319,22 +351,16 @@
     {/if}
 </div>
 
-<div class="row justify-content-center">
-    <div class="col-4">
-        <!-- <Rectangle /> -->
-    </div>
-</div>
-
 <div
-    class="row my-0 py-0 border-4 justify-content-center"
+    class="row my-0 py-0 justify-content-center border-0"
     style="position: relative;"
 >
     <div
-        class="col-sm-1 col-md-2 col-lg-3 col-xl-3 border-1 hidden-sm-and-down"
+        class="col-sm-1 col-md-2 col-lg-3 col-xl- hidden-sm-and-down border-0"
         style=""
     ></div>
     <div
-        class="col-sm-10 col-md-8 col-lg-6 col-xl-6 border-2"
+        class="col-sm-10 col-md-8 col-lg-6 col-xl-6 border-primary"
         style="background: #FFF;"
     >
         {#if showCountryTooltip}
@@ -357,7 +383,7 @@
             />
         {/if}
 
-        <div id="svgWrapper" bind:this={svgMap} style="border: 1px solid red;">
+        <div id="svgWrapper" bind:this={svgMap}>
             <CurrentComponent
                 filter={filterValue}
                 countryObj={country}
@@ -372,7 +398,7 @@
         </div>
     </div>
     <div
-        class="col-sm-1 col-md-2 col-lg-3 col-xl-3 justify-center align-content border-3 d-xs-none hidden-sm-and-down"
+        class="col-sm-1 col-md-2 col-lg-3 col-xl-3 justify-center align-content d-xs-none hidden-sm-and-down border-0"
     >
         {#if showFilterButtons}
             <FilterButtons

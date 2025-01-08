@@ -758,6 +758,10 @@
 }
 
 /* borders */
+.border-primary {
+    border: 2px solid var(--color-theme-1);
+}
+
 .border-0 {
     border: none;
 }

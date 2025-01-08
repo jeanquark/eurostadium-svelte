@@ -291,7 +291,7 @@
     .btn {
         padding: 0.4em;
         border-radius: 0.4em;
-        background: none;
+        background: rgba(255, 255, 255, 0.3);
         border: 2px solid var(--color-theme-1);
         color: var(--color-theme-1);
         margin: 0.3em;

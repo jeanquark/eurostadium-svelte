@@ -1,44 +1,26 @@
 <script>
     import { base } from "$app/paths";
-    import { invalidate } from '$app/navigation'
     import { onMount } from "svelte";
-    import Header from "../Header.svelte";
-    // import Logo from './components/Logo.svelte'
     import "../../app.css";
-    import { supabase } from '@lib/supabase/supabaseClient'
+    import { supabase } from "@lib/supabase/supabaseClient";
     import Toasts from "@components/Toasts.svelte";
 
-
     let { children } = $props();
-    // let { supabase, session } = data
-    let session = $state(null)
-
-    // export let data
-
-    // let { supabase, session } = data
-    // $: ({ supabase, session } = data)
-
-    // onMount(() => {
-    // 	const { data } = supabase.auth.onAuthStateChange((event, newSession) => {
-    // 		if (newSession?.expires_at !== session?.expires_at) {
-    // 			invalidate('supabase:auth')
-    // 		}
-    // 	})
-
-    // 	return () => data.subscription.unsubscribe()
-    // })
-
-    // let session;
+    let session = $state(null);
 
     onMount(() => {
-        supabase.auth.getSession().then(({ data }) => {
-            // console.log('data: ', data);
-            session = data.session;
-        });
+        try {
+            supabase.auth.getSession().then(({ data }) => {
+                // console.log('data: ', data);
+                session = data.session;
+            });
 
-        supabase.auth.onAuthStateChange((_event, _session) => {
-            session = _session;
-        });
+            supabase.auth.onAuthStateChange((_event, _session) => {
+                session = _session;
+            });
+        } catch (error) {
+            console.log("error: ", error);
+        }
     });
 </script>
 
@@ -50,10 +32,7 @@
 </svelte:head>
 
 <div class="app">
-    <!-- <Header /> -->
-
-    <header style="border: 2px solid green;">
-        <!-- <div class="d-flex justify-center align-center"> -->
+    <header>
         <div class="row justify-content-center">
             <div class="col-4">
                 <img
@@ -64,7 +43,6 @@
                 />
             </div>
         </div>
-        <!-- <Logo /> -->
     </header>
 
     <main class="main">
@@ -73,10 +51,13 @@
         </div>
         {@render children()}
         <footer></footer>
-        <div class="row justify-content-center text-white" style="background: #325bad; padding-top: 5px;">
+        <div
+            class="row justify-content-center text-white"
+            style="background: #325bad; padding-top: 5px;"
+        >
             <div class="col-12">
                 <nav class="text-center">
-                    <a href="{base}/">Home</a> | 
+                    <a href="{base}/">Home</a> |
                     <a href="{base}/about/">About</a> |
                     <a href="{base}/auth/login">Login</a> |
                     <a href="{base}/auth/register">Register</a> |
@@ -87,7 +68,11 @@
             </div>
             <div class="col-12 my-2">
                 <div class="text-center">
-                <a href="mailto:info@eurostadium.net" class="" style="color: #ccc;">info@eurostadium.net</a>
+                    <a
+                        href="mailto:info@eurostadium.net"
+                        class=""
+                        style="color: #ccc;">info@eurostadium.net</a
+                    >
                 </div>
             </div>
         </div>
@@ -119,7 +104,6 @@
     }
     @media only screen and (max-width: 600px) {
         .main {
-            border: 2px dashed green;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -147,7 +131,6 @@
         width: 100%;
         /* height: 360px; */
         height: 200px;
-        border: 1px solid red;
         background-image: url("/images/footer.svg");
         background-repeat: no-repeat;
         /* background-position: 100% 100%; */
@@ -162,38 +145,4 @@
         text-decoration: none;
         color: #ffcc00;
     }
-    /* .app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	} */
 </style>
