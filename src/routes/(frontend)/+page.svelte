@@ -4,23 +4,10 @@
     import TooltipStadium from "@lib/components/TooltipStadium.svelte";
     import { page } from "$app/stores";
     import Europe from "@components/svg/Europe.svelte";
-    import { db } from "@lib/firebase/firebase";
-    import { supabase } from "@lib/supabase/supabaseClient";
-    import {
-        collection,
-        query,
-        where,
-        doc,
-        getDocs,
-        addDoc,
-        updateDoc,
-        deleteDoc,
-    } from "firebase/firestore";
-    import { countryStore } from "@store/country";
+    import FilterButtons from "@components/FilterButtons.svelte";
+    import camelize from "@utils/convertToCamelCase";
     import { leagueStore } from "@store/league";
     import { stadiumStore } from "@store/stadium";
-    import camelize from "@utils/convertToCamelCase";
-    import FilterButtons from "@components/FilterButtons.svelte";
 
     let countryLeagues = $state([]);
     let country = $state({
@@ -78,7 +65,7 @@
         if (map?.toLowerCase() == "europe") {
             showFilterButtons = false;
             console.log("reset zoom to 1");
-            // resetZoom();
+            // resetZoom3();
         }
         loadComponent(map);
     };
@@ -308,6 +295,7 @@
     };
 
     const clickOutsideCountry = () => {
+        console.log("clickOutsideCountry");
         displayMap("Europe");
         // showFilterButtons = false
     };

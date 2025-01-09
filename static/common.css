@@ -762,6 +762,10 @@
     border: 2px solid var(--color-theme-1);
 }
 
+.border-secondary {
+    border: 2px solid var(--color-theme-2);
+}
+
 .border-0 {
     border: none;
 }
