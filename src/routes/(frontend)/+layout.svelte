@@ -34,7 +34,7 @@
 <div class="app">
     <header>
         <div class="row justify-content-center">
-            <div class="col-4">
+            <div class="col-4 col-lg-6 col-md-8 col-sm-10 col-xs-12">
                 <img
                     src="{base}/images/logo_with_text-min.svg"
                     width="100%"

@@ -766,6 +766,14 @@
     border: 2px solid var(--color-theme-2);
 }
 
+.border-radius-08 {
+    border-radius: .8em;
+}
+
+.border-radius-1 {
+    border-radius: 1em;
+}
+
 .border-0 {
     border: none;
 }

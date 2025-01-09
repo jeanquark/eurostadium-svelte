@@ -348,7 +348,7 @@
         style=""
     ></div>
     <div
-        class="col-sm-10 col-md-8 col-lg-6 col-xl-6 border-primary"
+        class="col-sm-10 col-md-8 col-lg-6 col-xl-6 border-primary border-radius-1"
         style="background: #FFF;"
     >
         {#if showCountryTooltip}
@@ -371,7 +371,7 @@
             />
         {/if}
 
-        <div id="svgWrapper" bind:this={svgMap}>
+        <div id="svgWrapper" bind:this={svgMap} class="border-radius-08">
             <CurrentComponent
                 filter={filterValue}
                 countryObj={country}
