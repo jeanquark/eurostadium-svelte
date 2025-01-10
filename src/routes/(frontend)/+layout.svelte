@@ -56,7 +56,7 @@
             style="background: #325bad; padding-top: 5px;"
         >
             <div class="col-12">
-                <nav class="text-center">
+                <!-- <nav class="text-center">
                     <a href="{base}/">Home</a> |
                     <a href="{base}/about/">About</a> |
                     <a href="{base}/auth/login">Login</a> |
@@ -64,7 +64,7 @@
                     <a href="{base}/auth/account">Account</a> |
                     <a href="{base}/upload-image">Upload image</a> |
                     <a href="{base}/admin">Admin</a>
-                </nav>
+                </nav> -->
             </div>
             <div class="col-12 my-2">
                 <div class="text-center">
@@ -107,7 +107,16 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            background-image: url("/images/background-stadiums-mobile-screen.svg");
+            background-image: url("/images/svg/background-stadiums-mobile-screen-min.svg");
+        }
+        footer {
+            margin-top: auto;
+            width: 100%;
+            height: 200px;
+            background-image: url("/images/svg/footer-mobile-screen-min.svg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
         }
     }
     @media only screen and (max-width: 1199px) {
@@ -115,7 +124,16 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            background-image: url("/images/background-stadiums-tablet-screen.svg");
+            background-image: url("/images/svg/background-stadiums-tablet-screen-min.svg");
+        }
+        footer {
+            margin-top: auto;
+            width: 100%;
+            height: 200px;
+            background-image: url("/images/svg/footer-tablet-screen-min.svg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
         }
     }
     @media only screen and (min-width: 1200px) {
@@ -123,21 +141,19 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            background-image: url("/images/background-stadiums.svg");
+            background-image: url("/images/svg/background-stadiums-min.svg");
+        }
+        footer {
+            margin-top: auto;
+            width: 100%;
+            height: 200px;
+            background-image: url("/images/svg/footer-min.svg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
         }
     }
-    footer {
-        margin-top: auto;
-        width: 100%;
-        /* height: 360px; */
-        height: 200px;
-        background-image: url("/images/footer.svg");
-        background-repeat: no-repeat;
-        /* background-position: 100% 100%; */
-        background-position: center center;
-        background-size: cover;
-        /* background-size: contain; */
-    }
+
     nav a {
         color: #fff;
     }

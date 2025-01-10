@@ -35,7 +35,7 @@
     let CurrentComponent = $state(Europe);
 
     let {
-        title = "Home | Eurostadium",
+        title = "Home | eurostadium.net",
         description = "Football stadiums across Europe",
         image = "https://eurostadium.net/images/logo.png",
     } = $props();
@@ -298,14 +298,14 @@
     };
 
     const clickOutsideCountry = () => {
-        console.log("clickOutsideCountry");
+        // console.log("clickOutsideCountry");
         displayMap("Europe");
         // showFilterButtons = false
     };
 </script>
 
 <svelte:head>
-    <title>{title} | eurostadium.net</title>
+    <title>{title}</title>
     <meta name="description" content={description} />
     <meta property="og_site_name" content="eurostadium.net" />
     <meta
