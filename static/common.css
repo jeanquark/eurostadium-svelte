@@ -554,8 +554,8 @@
 }
 
 .my-0 {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .my-1 {
@@ -667,6 +667,10 @@
 }
 
 /* paddings */
+.pa-0 {
+    padding: 0;
+}
+
 .pa-1 {
     padding: .3em;
 }
@@ -685,6 +689,11 @@
 
 .pa-5 {
     padding: 2em;
+}
+
+.px-0 {
+    padding-left: 0em;
+    padding-right: 0em;
 }
 
 .px-1 {
@@ -712,6 +721,11 @@
     padding-right: 2em;
 }
 
+.py-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 .py-1 {
     padding-top: .3em;
     padding-bottom: .3em;
@@ -735,6 +749,10 @@
 .py-5 {
     padding-top: 2em;
     padding-bottom: 2em;
+}
+
+.pt-0 {
+    padding-top: 0px !important;
 }
 
 .pt-1 {

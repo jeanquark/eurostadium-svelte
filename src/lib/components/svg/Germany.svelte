@@ -1,116 +1,132 @@
 <script>
-    import { onMount } from 'svelte'
-    import panzoom from '@panzoom/panzoom'
-    import addStadiumsToSvgMap from '@utils/addStadiumsToSvgMap'
-    let { clickOutsideCountry, stadiumHover, stadiumLeave, countryObj, stadiumsArray } = $props()
-    let radius = $state(10)
-    let stadiumObj = $state(null)
-    let panzoomRef = $state(null)
-    let flag = $state(1)
+    import { onMount } from "svelte";
+    import panzoom from "@panzoom/panzoom";
+    import addStadiumsToSvgMap from "@utils/addStadiumsToSvgMap";
+    let {
+        clickOutsideCountry,
+        stadiumHover,
+        stadiumLeave,
+        countryObj,
+        stadiumsArray,
+    } = $props();
+    let radius = $state(12);
+    let stadiumObj = $state(null);
+    let panzoomRef = $state(null);
+    let flag = $state(1);
 
     onMount(() => {
-        console.log('[Germany] onMount')
-    })
+        console.log("[Germany] onMount");
+        if (hasSmallScreen()) {
+            radius = 15;
+        }
+    });
 
     const initPanzoom = (node) => {
-        node.addEventListener('panzoompan', (event) => {
-            console.log('panzoompan: ', event.detail)
+        node.addEventListener("panzoompan", (event) => {
+            // console.log("panzoompan: ", event.detail);
             if (event.detail.x != 0 || event.detail.y != 0) {
-                flag = 0
+                flag = 0;
             }
-        })
-        node.addEventListener('panzoomzoom', (event) => {
+        });
+        node.addEventListener("panzoomzoom", (event) => {
             // console.log('panzoomzoom scale: ', event.detail?.scale)
-            const scale = event.detail ? event.detail.scale : 10
-            const stadiumElement = document.getElementById('stadiums')
+            const scale = event.detail ? event.detail.scale : 10;
+            const stadiumElement = document.getElementById("stadiums");
             if (!stadiumElement) {
-                return
+                return;
             }
-            const stadiums = stadiumElement.children
+            const stadiums = stadiumElement.children;
             for (let i = 0; i < stadiums.length; i++) {
-                stadiums[i].setAttribute('r', radius / scale)
+                stadiums[i].setAttribute("r", radius / scale);
             }
-        })
+        });
 
-        node.addEventListener('click', (event) => {
+        node.addEventListener("click", (event) => {
             if (flag == 1) {
-                handleClick(event)
+                handleClick(event);
             } else {
-                console.log('no click')
+                console.log("no click");
             }
-            flag = 1
-        })
+            flag = 1;
+        });
         panzoomRef = panzoom(node, {
             isSvg: true,
-            cursor: 'normal',
+            cursor: "normal",
             disableZoom: false,
             maxScale: 8,
             minScale: 1,
-            touchAction: 'none',
-            contain: 'outside',
+            touchAction: "none",
+            contain: "outside",
             panOnlyWhenZoomed: false,
             handleStartEvent: (event) => {
-                event.preventDefault()
-                event.stopPropagation()
-            }
-        })
+                event.preventDefault();
+                event.stopPropagation();
+            },
+        });
         const zoom = (e) => {
-            panzoomRef.zoomWithWheel(e)
-        }
-        node.addEventListener('wheel', zoom)
-    }
+            panzoomRef.zoomWithWheel(e);
+        };
+        node.addEventListener("wheel", zoom);
+    };
 
     const handleClick = (e) => {
-        console.log('[Germany] handleClick')
+        console.log("[Germany] handleClick");
         // console.log('e.target: ', e.target);
-        if (e.target.classList.contains('stadium')) {
-            console.log('Click on stadium')
+        if (e.target.classList.contains("stadium")) {
+            console.log("Click on stadium");
         }
-        if (e.target.classList.contains('rectangle')) {
-            console.log('Click on rectangle')
-            panzoomRef.destroy()
+        if (e.target.classList.contains("rectangle")) {
+            console.log("Click on rectangle");
+            panzoomRef.destroy();
             // dispatch("clickOutsideCountry");
-            clickOutsideCountry()
+            clickOutsideCountry();
         }
-    }
+    };
     const handleMouseOverCircle = (e) => {
-        console.log('[Germany] handleMouseOverCircle e.target: ', e.target)
-        if (e.target.classList.contains('stadium')) {
-            console.log('Click on stadium')
+        console.log("[Germany] handleMouseOverCircle e.target: ", e.target);
+        if (e.target.classList.contains("stadium")) {
+            console.log("Click on stadium");
         }
-        const stadiumId = parseInt(e.target.getAttribute('data-api-football-stadium-id'))
+        const stadiumId = parseInt(
+            e.target.getAttribute("data-api-football-stadium-id"),
+        );
         // console.log('stadiumId: ', stadiumId)
         const data = {
             stadiumId: stadiumId,
             clientX: e.clientX,
             clientY: e.clientY,
             rect: e.target.getBoundingClientRect(),
-        }
-        document.querySelectorAll('.stadium').forEach((element) => {
-            element.classList.remove('hover')
-        })
-        e.target.classList.add('hover')
-        stadiumHover(data)
-    }
+        };
+        document.querySelectorAll(".stadium").forEach((element) => {
+            element.classList.remove("hover");
+        });
+        e.target.classList.add("hover");
+        stadiumHover(data);
+    };
     const handleMouseOutCircle = (e) => {
-        console.log('[Germany] handleMouseOutCircle e.target: ', e.target)
-        if (!e.relatedTarget?.classList?.contains('tooltip')) {
-            e.target.classList.remove('hover')
-            stadiumLeave()
+        console.log("[Germany] handleMouseOutCircle e.target: ", e.target);
+        if (!e.relatedTarget?.classList?.contains("tooltip")) {
+            e.target.classList.remove("hover");
+            stadiumLeave();
         }
-    }
+    };
     const a = (node) => {
         // console.log('[myaction] 1 node: ', node)
-        stadiumObj = node
-		$effect(() => {
-            console.log('[myaction] 2 node: ')
-			return () => {
-			};
-		});
-	}
+        stadiumObj = node;
+        $effect(() => {
+            console.log("[myaction] 2 node: ");
+            return () => {};
+        });
+    };
+
+    const hasSmallScreen = () => {
+        const minWidth = 1024;
+        window.innerWidth < minWidth || screen.width < minWidth;
+    };
+
     $effect(() => {
-        addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues)
-	});
+        addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
+    });
 </script>
 
 <svg

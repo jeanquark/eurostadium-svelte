@@ -171,7 +171,9 @@
 
     const onPageChange = (event) => {
         console.log("onPageChange event: ", event);
-        currentImageIndex = event.detail;
+        if (event.detail) {
+            currentImageIndex = event.detail;
+        }
         if (!loaded.includes(event.detail + 1)) {
             loaded.push(event.detail + 1);
             // console.log('loaded: ', loaded);
@@ -235,14 +237,14 @@
             <!-- imageIndex: {imageIndex}<br /> -->
             <!-- items.length: {items.length}<br /> -->
             <!-- current: {current}<br /> -->
-            countrySlug: {countrySlug}<br />
+            <!-- countrySlug: {countrySlug}<br /> -->
             <!-- data: {data}<br /> -->
             <!-- tooltipWidth: {tooltipWidth}<br /> -->
             <!-- top: {top}<br /> -->
             <!-- left: {left}<br /> -->
-            data.images.length: {data?.images?.length}<br />
+            <!-- data.images.length: {data?.images?.length}<br /> -->
             <!-- loaded: {loaded}<br /> -->
-            <div style="heigth: 300px; border: 2px dashed red;">
+            <div style="heigth: 300px;">
                 <!-- <Carousel bind:current {items} let:item bind:show>
                     <div
                         class="item"
@@ -271,7 +273,7 @@
                 </Carousel> -->
                 {#if browser}
                     <SvelteCarousel
-                        autoplay
+                        autoplay={false}
                         autoplayDuration={500}
                         pauseOnFocus={true}
                         bind:this={carousel}
@@ -283,16 +285,7 @@
                                 style="max-height: 300px; background: #FFF;"
                             >
                                 {#if loaded.includes(imageIndex)}
-                                    {image.name}<br />
-                                    <!-- {image.url}<br /> -->
-                                    <!-- <img
-                                        src={image.url}
-                                        alt="stadium"
-                                        width="100%"
-                                        height="100%"
-                                        style=""
-                                    /> -->
-                                    <!-- height="100%" -->
+                                    <!-- {image.name}<br /> -->
                                     <img
                                         src={image.url}
                                         alt="stadium"
@@ -336,10 +329,7 @@
     </div>
     <div class="row justify-center align-center">
         {#each data?.teams as team, i}
-            <div
-                class="col-4 text-center team-logo"
-                style="border: 2px solid purple;"
-            >
+            <div class="col-4 text-center team-logo" style="">
                 <a href={team.wiki} target="_blank">
                     <h3 class="text-center">{team.name}</h3>
                     <img
@@ -355,7 +345,7 @@
 
 <style>
     .img-container {
-        border: 2px dashed blue;
+        /* border: 2px dashed blue; */
         /* height: 300px; */
         /* max-height: 200px; */
         /* vertical-align: bottom; */
@@ -386,10 +376,9 @@
     }
     .team-logo:hover {
         cursor: pointer;
-        background: var(--color-theme-1);
     }
     .team-logo:hover h3 {
-        color: white;
+        /* color: white; */
     }
     .pill {
         background-color: var(--color-theme-1);

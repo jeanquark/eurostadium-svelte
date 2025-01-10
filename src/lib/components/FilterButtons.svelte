@@ -261,14 +261,6 @@
     <button class="btn" onclick={() => displayMap("Europe")}
         >&larr; Back to Europe</button
     >
-    <!-- <a href="{base}/" class="my-2">&larr;Back</a> -->
-    <!-- <div class="pill">All</div>
-    <div class="pill">1st League</div>
-    <div class="pill">2nd League</div>
-    <div class="pill">0 - 20k</div>
-    <div class="pill">20k - 40k</div>
-    <div class="pill">40k - 60k</div>
-    <div class="pill">+60k</div> -->
 </div>
 
 <style>
@@ -282,7 +274,6 @@
         color: #fff;
         border-radius: 0.5em;
         margin: 0.4em 0.2em;
-        /* padding: 0.3em 0.5em; */
         vertical-align: middle;
         padding: 15px 10px;
         height: 20px;

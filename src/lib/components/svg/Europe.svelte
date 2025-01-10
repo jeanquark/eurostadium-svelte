@@ -50,7 +50,7 @@
         });
 
         node.addEventListener("click", (event) => {
-            console.clear();
+            // console.clear();
             // console.log("click: ", event);
             // console.log('flag: ', flag);
 

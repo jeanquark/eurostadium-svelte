@@ -5,6 +5,7 @@
     import { page } from "$app/stores";
     import Europe from "@components/svg/Europe.svelte";
     import FilterButtons from "@components/FilterButtons.svelte";
+    import Modal from "@components/Modal.svelte";
     import camelize from "@utils/convertToCamelCase";
     import { leagueStore } from "@store/league";
     import { stadiumStore } from "@store/stadium";
@@ -62,6 +63,7 @@
     };
 
     const displayMap = async (map) => {
+        console.log("displayMap: ", map);
         if (map?.toLowerCase() == "europe") {
             showFilterButtons = false;
             console.log("reset zoom to 1");
@@ -185,6 +187,7 @@
     };
 
     const stadiumHover = (event) => {
+        console.clear();
         console.log("stadiumHover: ", event);
         // return
 
@@ -331,6 +334,14 @@
    "logo": ${image}  }</script>`}
 </svelte:head>
 
+<div class="row">
+    {#if showModal}
+        <Modal bind:showModal data={selectedStadium} countrySlug={country.slug}>
+            {#snippet header()}{/snippet}
+        </Modal>
+    {/if}
+</div>
+
 <div class="row justify-content-center mt-2">
     {#if showFilterButtons}
         <p class="my-1"><i>Hover over any stadium to display images</i></p>
@@ -402,7 +413,12 @@
 <div class="row hidden-md-and-up">
     <div class="col-12 py-2">
         {#if showFilterButtons}
-            <FilterButtons {country} {updateFilter} {updateStadiums} />
+            <FilterButtons
+                {country}
+                {updateFilter}
+                {updateStadiums}
+                {displayMap}
+            />
         {/if}
     </div>
 </div>
