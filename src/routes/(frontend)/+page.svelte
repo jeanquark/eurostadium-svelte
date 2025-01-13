@@ -6,6 +6,7 @@
     import Europe from "@components/svg/Europe.svelte";
     import FilterButtons from "@components/FilterButtons.svelte";
     import Modal from "@components/Modal.svelte";
+    import Statistics from "@components/Statistics.svelte";
     import camelize from "@utils/convertToCamelCase";
     import { leagueStore } from "@store/league";
     import { stadiumStore } from "@store/stadium";
@@ -334,6 +335,12 @@
    "logo": ${image}  }</script>`}
 </svelte:head>
 
+<div class="row justify-center">
+    <div class="col-sm-10 col-md-8 col-lg-6 col-xl-6 border-0">
+        <Statistics />
+    </div>
+</div>
+
 <div class="row">
     {#if showModal}
         <Modal bind:showModal data={selectedStadium} countrySlug={country.slug}>
@@ -355,7 +362,7 @@
     style="position: relative;"
 >
     <div
-        class="col-sm-1 col-md-2 col-lg-3 col-xl- hidden-sm-and-down border-0"
+        class="col-sm-1 col-md-2 col-lg-3 col-xl-3 hidden-sm-and-down border-0"
         style=""
     ></div>
     <div
