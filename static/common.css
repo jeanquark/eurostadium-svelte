@@ -776,6 +776,30 @@
     padding-top: 2em;
 }
 
+.pl-1 {
+    padding-left: .3em;
+}
+
+.pl-2 {
+    padding-left: .5em;
+}
+
+.pl-3 {
+    padding-left: 1em;
+}
+
+.pr-1 {
+    padding-right: .3em;
+}
+
+.pr-2 {
+    padding-right: .5em;
+}
+
+.pr-3 {
+    padding-right: 1em;
+}
+
 /* borders */
 .border-primary {
     border: 2px solid var(--color-theme-1);

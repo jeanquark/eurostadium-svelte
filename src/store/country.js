@@ -1,5 +1,5 @@
 import { writable } from "svelte/store";
-import { supabase } from "../lib/supabase/supabaseClient";
+import { supabase } from "@lib/supabase/supabaseClient";
 
 const state = {
     countries: [],
