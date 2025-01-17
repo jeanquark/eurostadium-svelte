@@ -3,6 +3,7 @@
     import { onMount } from "svelte";
     import "../../app.css";
     import { supabase } from "@lib/supabase/supabaseClient";
+    import { initGA } from "@lib/analytics.js";
     import Toasts from "@components/Toasts.svelte";
 
     let { children } = $props();
@@ -18,6 +19,7 @@
             supabase.auth.onAuthStateChange((_event, _session) => {
                 session = _session;
             });
+            initGA();
         } catch (error) {
             console.log("error: ", error);
         }
@@ -29,6 +31,11 @@
         href="https://fonts.googleapis.com/css?family=Gelasio"
         rel="stylesheet"
     />
+    <!-- Google tag (gtag.js) -->
+    <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-HPDK1Z6D0V"
+    ></script>
 </svelte:head>
 
 <div class="app">
@@ -152,13 +159,5 @@
             background-position: center center;
             background-size: cover;
         }
-    }
-
-    nav a {
-        color: #fff;
-    }
-    nav a:hover {
-        text-decoration: none;
-        color: #ffcc00;
     }
 </style>

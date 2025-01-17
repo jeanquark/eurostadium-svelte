@@ -351,9 +351,9 @@
 
 <div class="row justify-content-center mt-2">
     {#if showFilterButtons}
-        <p class="my-1"><i>Hover over any stadium to display images</i></p>
+        <p class="my-1"><i>Hover any stadium to display images</i></p>
     {:else}
-        <p class="my-1"><i>Click on any country to load its map</i></p>
+        <p class="my-1"><i>Click any country to load its map</i></p>
     {/if}
 </div>
 

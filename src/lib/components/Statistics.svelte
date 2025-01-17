@@ -136,9 +136,12 @@
 
 <style>
     .box {
-        background-color: rgba(193, 216, 210, 0.5);
+        background-color: rgba(255, 255, 255, 0.6);
         padding: 1em;
-        border: 2px solid #000;
+        border: 2px solid #ccc;
         border-radius: 0.5em;
+    }
+    .box h2 {
+        color: var(--color-theme-1);
     }
 </style>
