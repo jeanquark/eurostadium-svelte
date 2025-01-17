@@ -106,7 +106,7 @@
     <div class="col-sm-6 col-md-3 text-center px-2">
         <div class="box">
             <p>
-                <img src="/images/icons/league.svg" height="30" alt="League" />
+                <img src="/images/icons/trophy.svg" height="30" alt="League" />
             </p>
             <h2 class="my-2" id="league">{$leagueStore.leagues?.length}</h2>
             <p style="font-size: 1.3em;">leagues</p>
