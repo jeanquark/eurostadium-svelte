@@ -80,18 +80,68 @@
     };
 </script>
 
-<div class="row my-5" style="justify-content: space-between;">
-    <!-- <div class="col-12">
-        <button
-            type="button"
-            onclick={() =>
-                animate(document.getElementById("value"), 0, 100, 3000)}
-            >Animate</button
-        >
-        <div id="value" style="font: 800 40px system-ui;">0</div>
-    </div> -->
-    <div class="col-sm-6 col-md-3 text-center pr-2" style="">
-        <div class="box">
+<div class="hidden-md-and-up">
+    <div
+        style="display: flex;
+  flex-direction: row; overflow: auto;"
+    >
+        <div class="col-6 text-center border-0">
+            <div class="box mr-1">
+                <p>
+                    <img
+                        src="/images/icons/country.svg"
+                        height="30"
+                        alt="Country"
+                    />
+                </p>
+                <h2 class="my-2" id="country">50</h2>
+                <p style="font-size: 1.3em;">countries</p>
+            </div>
+        </div>
+        <div class="col-6 text-center border-0">
+            <div class="box mx-1">
+                <p>
+                    <img
+                        src="/images/icons/trophy.svg"
+                        height="30"
+                        alt="League"
+                    />
+                </p>
+                <h2 class="my-2" id="league">{$leagueStore.leagues?.length}</h2>
+                <p style="font-size: 1.3em;">leagues</p>
+            </div>
+        </div>
+        <div class="col-6 text-center border-0">
+            <div class="box mx-1">
+                <p>
+                    <img src="/images/icons/team.svg" height="30" alt="Team" />
+                </p>
+                <h2 class="my-2" id="team">697</h2>
+                <p style="font-size: 1.3em;">teams</p>
+            </div>
+        </div>
+        <div class="col-6 text-center border-0">
+            <div class="box ml-1">
+                <p>
+                    <img
+                        src="/images/icons/stadium.svg"
+                        height="30"
+                        alt="Stadium"
+                    />
+                </p>
+                <h2 class="my-2" id="stadium">690</h2>
+                <p style="font-size: 1.3em;">stadiums</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div
+    class="row hidden-sm-and-down my-5"
+    style="justify-content: space-between;"
+>
+    <div class="col-sm-6 col-md-3 text-center" style="">
+        <div class="box mr-2">
             <p>
                 <img
                     src="/images/icons/country.svg"
@@ -103,8 +153,8 @@
             <p style="font-size: 1.3em;">countries</p>
         </div>
     </div>
-    <div class="col-sm-6 col-md-3 text-center px-2">
-        <div class="box">
+    <div class="col-sm-6 col-md-3 text-center">
+        <div class="box mx-2">
             <p>
                 <img src="/images/icons/trophy.svg" height="30" alt="League" />
             </p>
@@ -112,15 +162,15 @@
             <p style="font-size: 1.3em;">leagues</p>
         </div>
     </div>
-    <div class="col-sm-6 col-md-3 text-center px-2">
-        <div class="box">
+    <div class="col-sm-6 col-md-3 text-center">
+        <div class="box mx-2">
             <p><img src="/images/icons/team.svg" height="30" alt="Team" /></p>
             <h2 class="my-2" id="team">697</h2>
             <p style="font-size: 1.3em;">teams</p>
         </div>
     </div>
-    <div class="col-sm-6 col-md-3 text-center pl-2">
-        <div class="box">
+    <div class="col-sm-6 col-md-3 text-center">
+        <div class="box ml-2">
             <p>
                 <img
                     src="/images/icons/stadium.svg"

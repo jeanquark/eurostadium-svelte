@@ -49,12 +49,12 @@ a11y_no_noninteractive_element_interactions -->
             <h2>
                 <span class="text-primary"><b>{data?.stadium?.name}</b></span>,
                 <span class="text-muted">{data?.stadium?.city}</span>
-                <button
+                <!-- <button
                     type="button"
                     class="close-btn"
                     onclick={() => dialog.close()}
                     ><CloseIcon width="1.5em" color="#B2B2B2" /></button
-                >
+                > -->
             </h2>
             <h3>
                 {formatNumber(data?.stadium?.capacity)}
@@ -130,7 +130,8 @@ a11y_no_noninteractive_element_interactions -->
             type="button"
             autofocus
             class="text-muted"
-            onclick={() => dialog.close()}>Close</button
+            onclick={() => dialog.close()}
+            ><CloseIcon width="1.5em" color="#B2B2B2" /></button
         >
     </div>
 </dialog>

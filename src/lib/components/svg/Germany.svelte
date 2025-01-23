@@ -11,13 +11,15 @@
     } = $props();
     let radius = $state(12);
     let stadiumObj = $state(null);
+    let stadiumObj2 = $state(null);
     let panzoomRef = $state(null);
     let flag = $state(1);
 
     onMount(() => {
         console.log("[Germany] onMount");
+        console.log("hasSmallScreen: ", hasSmallScreen());
         if (hasSmallScreen()) {
-            radius = 15;
+            radius = 20;
         }
     });
 
@@ -29,15 +31,28 @@
             }
         });
         node.addEventListener("panzoomzoom", (event) => {
-            // console.log('panzoomzoom scale: ', event.detail?.scale)
+            // console.log("panzoomzoom scale: ", event.detail?.scale);
             const scale = event.detail ? event.detail.scale : 10;
             const stadiumElement = document.getElementById("stadiums");
+            const stadiumElement2 = document.getElementById("stadiums2");
+            // console.log("stadiumElement: ", stadiumElement);
             if (!stadiumElement) {
                 return;
             }
             const stadiums = stadiumElement.children;
+            const stadiums2 = stadiumElement2.children;
+            // console.log("stadiumObj2: ", stadiumObj2);
+            // console.log("radius: ", radius);
+            // scale value goes from 1 to 8
             for (let i = 0; i < stadiums.length; i++) {
-                stadiums[i].setAttribute("r", radius / scale);
+                // stadiums[i].setAttribute("r", radius / (scale * 0.5));
+                stadiums[i].setAttribute("r", radius / (scale ^ (1 / 2)));
+            }
+            for (let i = 0; i < stadiums2.length; i++) {
+                stadiums2[i].setAttribute(
+                    "r",
+                    (radius * 2) / (scale ^ (1 / 2)),
+                );
             }
         });
 
@@ -110,22 +125,64 @@
             stadiumLeave();
         }
     };
+    const handleTouchStartCircle = (e) => {
+        console.log("[Germany] touchstart");
+        if (e.target.classList.contains("stadium")) {
+            console.log("Touch on stadium");
+        }
+        const stadiumId = parseInt(
+            e.target.getAttribute("data-api-football-stadium-id"),
+        );
+        // console.log("stadiumId: ", stadiumId);
+        const data = {
+            stadiumId: stadiumId,
+            clientX: e.clientX,
+            clientY: e.clientY,
+            rect: e.target.getBoundingClientRect(),
+        };
+        document.querySelectorAll(".stadium").forEach((element) => {
+            element.classList.remove("hover");
+        });
+        e.target.classList.add("hover");
+        stadiumHover(data);
+    };
+    const handleTouchEndCircle = (e) => {
+        console.log("[Germany] touchend");
+    };
     const a = (node) => {
-        // console.log('[myaction] 1 node: ', node)
+        console.log("[Germany] a node: ", node);
         stadiumObj = node;
         $effect(() => {
-            console.log("[myaction] 2 node: ");
+            console.log("[Germany] a $effect(): ");
+            return () => {};
+        });
+    };
+
+    const b = (node) => {
+        console.log("[Germany] b node: ", node);
+        stadiumObj2 = node;
+        $effect(() => {
+            console.log("[Germany] b $effect(): ");
             return () => {};
         });
     };
 
     const hasSmallScreen = () => {
         const minWidth = 1024;
-        window.innerWidth < minWidth || screen.width < minWidth;
+        // console.log("window.innerWidth: ", window.innerWidth);
+        // console.log("screen.width: ", screen.width);
+        if (window.innerWidth < minWidth || screen.width < minWidth) {
+            return true;
+        }
+        return false;
     };
 
     $effect(() => {
+        console.log("$effect");
         addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
+        if (hasSmallScreen()) {
+            addStadiumsToSvgMap(stadiumObj2, stadiumsArray, countryObj.leagues);
+        }
     });
 </script>
 
@@ -298,6 +355,19 @@
     <!-- Triadic colors: -->
     <!-- https://www.color-hex.com/color/49bea1 -->
     <g
+        id="stadiums2"
+        data-country="germany"
+        data-circle-radius={radius * 2}
+        data-circle-colors="#ff00001A,#ff00001A"
+        data-circle-stroke-width="0"
+        ontouchstart={handleTouchStartCircle}
+        ontouchend={handleTouchEndCircle}
+        onfocus={() => {}}
+        role="presentation"
+        onblur={() => {}}
+        use:b
+    ></g>
+    <g
         id="stadiums"
         data-country="germany"
         data-circle-radius={radius}
@@ -308,12 +378,12 @@
         role="presentation"
         onblur={() => {}}
         use:a
-    >
-        <!-- <g id="stadiums" class="test" data-country="germany" data-circle-radius="5" data-circle-colors="#a149be,#bea149" on:mouseenter={handleMouseEnterCircle} on:mouseleave={handleMouseLeaveCircle} on:mouseover={handleMouseOverCircle} on:mouseout={handleMouseOutCircle} on:focus={() => {}} role="presentation" on:blur={() => {}} style=""> -->
-        <!-- <circle cx="594.050751245482" cy="345.071962280227" r="5" fill="#FF0000" id="Berlin" data-api-football-venue-id="694" data-api-football-league-id="78" data-stadium="Olympiastadion Berlin" data-city="Berlin" data-capacity="70 000" class="stadium" />
+    ></g>
+    <!-- <g id="stadiums" class="test" data-country="germany" data-circle-radius="5" data-circle-colors="#a149be,#bea149" on:mouseenter={handleMouseEnterCircle} on:mouseleave={handleMouseLeaveCircle} on:mouseover={handleMouseOverCircle} on:mouseout={handleMouseOutCircle} on:focus={() => {}} role="presentation" on:blur={() => {}} style=""> -->
+    <!-- <circle cx="594.050751245482" cy="345.071962280227" r="5" fill="#FF0000" id="Berlin" data-api-football-venue-id="694" data-api-football-league-id="78" data-stadium="Olympiastadion Berlin" data-city="Berlin" data-capacity="70 000" class="stadium" />
         <circle cx="324.932077526176" cy="201.731868359359" r="5" fill="#FF0000" id="Hamburg" data-api-football-venue-id="175" data-api-football-league-id="79" data-stadium="Volksparkstadion" data-city="Hamburg" data-capacity="57030" class="stadium" />
         <circle cx="463.966937350449" cy="886.568278756359" r="5" fill="#FF0000" id="Munich" data-api-football-venue-id="20732" data-api-football-league-id="78" data-stadium="Allianz Arena" data-city="Munich" data-capacity="75 000" class="stadium" />
         <circle cx="239.469134552226" cy="271.770132353484" r="5" fill="#FF0000" id="Bremen" data-api-football-venue-id="162" data-api-football-league-id="78" data-stadium="wohninvest WESERSTADION" data-city="Bremen" data-capacity="42358" class="stadium" />
         <circle cx="158.301723792742" cy="910.304617779577" r="5" fill="#FF0000" id="Freiburg" data-api-football-venue-id="12717" data-api-football-league-id="78" data-stadium="Europa-Park Stadion" data-city="Freiburg im Breisgau" data-capacity="34700" class="stadium" /> -->
-    </g>
+    <!-- </g> -->
 </svg>

@@ -36,7 +36,7 @@
     let CurrentComponent = $state(Europe);
 
     let {
-        title = "Home | eurostadium.net",
+        title = "eurostadium.net",
         description = "Football stadiums across Europe",
         image = "https://eurostadium.net/images/logo.png",
     } = $props();
