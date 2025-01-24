@@ -197,7 +197,7 @@
         // stadiums = $stadiumStore.stadiumsByCountry[country.slug]?.filter(
         //     (team) => team.id == stadiumId,
         // );
-        console.log("stadiums: ", stadiums);
+        // console.log("stadiums: ", stadiums);
         const abc = stadiums.find((el) => el.stadium.id == stadiumId);
         console.log("abc: ", abc);
         selectedStadium = stadiums.find((el) => el.stadium.id == stadiumId);

@@ -43,27 +43,22 @@
 
         node.addEventListener("dblclick", (event) => {
             console.log("dblclick");
-            // console.log("event: ", event);
-            if (!event.target.getAttribute("data-country")) {
+            // console.log("event.target: ", event.target.getAttribute("data-country"));
+            // if (!event.target.getAttribute("data-country")) {
+            if (!event.target.classList.contains("country")) {
                 panzoomRef.reset();
             }
         });
 
         node.addEventListener("click", (event) => {
-            // console.clear();
-            // console.log("click: ", event);
-            // console.log('flag: ', flag);
-
-            // return
-            // console.log('click flag: ', flag)
             if (flag == 1) {
                 console.log("click 1");
-                if (event.target.getAttribute("data-country")) {
+                if (event.target.classList.contains("country")) {
                     panzoomRef.destroy();
                     node.removeEventListener("wheel", def);
+                    console.clear()
                     countryClick(event.target.id);
                 }
-                // handleClick(event);
             } else {
                 console.log("no click");
             }
@@ -146,8 +141,6 @@
     // export let onCountryHover = () => {}
 </script>
 
-<!-- <svg id="map-europe" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190000 155000" width="190000" height="155000"> -->
-<!-- abc: {abc?.zoom}<br /> -->
 <svg
     id="europe"
     version="1.1"

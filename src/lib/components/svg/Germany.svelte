@@ -57,7 +57,12 @@
         });
 
         node.addEventListener("click", (event) => {
-            if (flag == 1) {
+            // console.log("click", event)
+            // console.log("click.target", event.target)
+            // if (event.target.classList.contains("rectangle")) {
+            //     handleClick(event)
+            // }
+            if (flag == 1 && event.target.classList.contains("rectangle")) {
                 handleClick(event);
             } else {
                 console.log("no click");
