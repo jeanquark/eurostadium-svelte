@@ -62,7 +62,7 @@
             // if (event.target.classList.contains("rectangle")) {
             //     handleClick(event)
             // }
-            if (flag == 1 && event.target.classList.contains("rectangle")) {
+            if (event.target.classList.contains("rectangle")) {
                 handleClick(event);
             } else {
                 console.log("no click");
@@ -216,9 +216,9 @@
             #stadiums:focus {
                 outline: none;
             }
-            .hover {
+            /* .hover {
                 fill: #ffffff !important;
-            }
+            } */
             .test {
                 border: 2px solid red;
             }
@@ -364,6 +364,7 @@
         data-country="germany"
         data-circle-radius={radius * 2}
         data-circle-colors="#ff00001A,#ff00001A"
+        data-circle-stroke-color="none"
         data-circle-stroke-width="0"
         ontouchstart={handleTouchStartCircle}
         ontouchend={handleTouchEndCircle}
@@ -377,6 +378,8 @@
         data-country="germany"
         data-circle-radius={radius}
         data-circle-colors="#a149be,#bea149"
+        data-circle-stroke-color="#325bad"
+        data-circle-stroke-width="1"
         onmouseover={handleMouseOverCircle}
         onmouseout={handleMouseOutCircle}
         onfocus={() => {}}

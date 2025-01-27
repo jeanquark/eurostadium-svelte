@@ -4,7 +4,8 @@ export default function (stadiumObj, stadiums, leagues) {
     const circleRadius = stadiumObj.getAttribute('data-circle-radius') || 10
     let leagueColors = ['#FF0000', '#FFFF00']
     const circleColors = stadiumObj.getAttribute('data-circle-colors').split(',')
-    const strokeWidth = stadiumObj.getAttribute('data-circle-stoke-width')
+    const strokeWidth = stadiumObj.getAttribute('data-circle-stroke-width')
+    const strokeColor = stadiumObj.getAttribute('data-circle-stroke-color')
     // console.log('circleColors: ', circleColors);
     // console.log('leagues: ', leagues);
     if (leagues.length < 1) {
@@ -32,7 +33,7 @@ export default function (stadiumObj, stadiums, leagues) {
         let newElement = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
         newElement.setAttribute('r', circleRadius)
         newElement.setAttribute('fill', stadiums[i]['leagues'][0]['api_football_id'] == leagues[0]['api_football_id'] ? leagueColors[0] : leagueColors[1])
-        // newElement.setAttribute('stroke', '#000')
+        newElement.setAttribute('stroke', strokeColor)
         newElement.setAttribute('stroke-width', strokeWidth)
         newElement.setAttribute('data-leagues', stadiums[i]['leagues'])
         newElement.setAttribute('data-api-football-stadium-id', stadiums[i]['stadium']['id'])

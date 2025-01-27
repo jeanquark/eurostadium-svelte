@@ -51,18 +51,17 @@
         });
 
         node.addEventListener("click", (event) => {
-            if (flag == 1) {
+            if (event.target.classList.contains("country")) {
                 console.log("click 1");
-                if (event.target.classList.contains("country")) {
                     panzoomRef.destroy();
                     node.removeEventListener("wheel", def);
                     console.clear()
                     countryClick(event.target.id);
-                }
+                
             } else {
                 console.log("no click");
+                flag = 1;
             }
-            flag = 1;
         });
         panzoomRef = panzoom(node, {
             isSvg: true,
