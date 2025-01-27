@@ -377,9 +377,6 @@
     .team-logo:hover {
         cursor: pointer;
     }
-    .team-logo:hover h3 {
-        /* color: white; */
-    }
     .pill {
         background-color: var(--color-theme-1);
         border: none;

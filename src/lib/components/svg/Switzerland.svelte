@@ -1,16 +1,7 @@
 <script>
-    import { createEventDispatcher, onMount } from "svelte";
+    import { onMount } from "svelte";
     import panzoom from "@panzoom/panzoom";
-    import { stadiumStore } from "@store/stadium";
     import addStadiumsToSvgMap from "@utils/addStadiumsToSvgMap";
-    import filterStadiums from "@utils/filterStadiums";
-    // const dispatch = createEventDispatcher();
-
-    // export let countryObj;
-    // export let filter
-    // export let stadiumsArray;
-
-    // let { clickOutsideCountry, stadiumHover, stadiumLeave, countryObj, stadiumsArray = $bindable() } = $props()
     let {
         clickOutsideCountry,
         stadiumHover,
@@ -18,55 +9,48 @@
         countryObj,
         stadiumsArray,
     } = $props();
-    let radius = $state(10);
+    let radius = $state(12);
     let stadiumObj = $state(null);
-    // let stadiumObj2
-    // let stadiumObj3
-    // let clientX
-    // let abc
+    let stadiumObjLargeDisc = $state(null);
     let panzoomRef = $state(null);
     let flag = $state(1);
-    // $: filter = console.log('update filter value')
-    // $: filterUpdate(filter)
-    // $: updateStadiums(stadiumsArray);
-    // const updateStadiums = $derived(stadiumsArray);
-    // $: stadiumsUpdate(stadiums2)
 
     onMount(() => {
         console.log("[Switzerland] onMount");
-        // console.log('stadiumsArray: ', stadiumsArray);
+        if (hasSmallScreen()) {
+            radius = 20;
+        }
     });
 
     const initPanzoom = (node) => {
-        // console.log("node: ", node);
         node.addEventListener("panzoompan", (event) => {
-            console.log("panzoompan: ", event.detail);
             if (event.detail.x != 0 || event.detail.y != 0) {
                 flag = 0;
             }
         });
         node.addEventListener("panzoomzoom", (event) => {
-            console.log("panzoomzoom scale: ", event.detail?.scale);
             const scale = event.detail ? event.detail.scale : 10;
             const stadiumElement = document.getElementById("stadiums");
+            const stadiumElementLargeDisc =
+                document.getElementById("stadiumsLargeDisc");
             if (!stadiumElement) {
                 return;
             }
             const stadiums = stadiumElement.children;
-            // console.log('stadiums: ', stadiums);
+            const stadiumsLargeDisc = stadiumElementLargeDisc.children;
             for (let i = 0; i < stadiums.length; i++) {
-                stadiums[i].setAttribute("r", radius / scale);
+                stadiums[i].setAttribute("r", radius / (scale ^ (1 / 2)));
+            }
+            for (let i = 0; i < stadiumsLargeDisc.length; i++) {
+                stadiumsLargeDisc[i].setAttribute(
+                    "r",
+                    (radius * 2) / (scale ^ (1 / 2)),
+                );
             }
         });
 
         node.addEventListener("click", (event) => {
-            // console.log("click: ", event.detail);
-            // console.log('click flag: ', flag)
-            if (flag == 1) {
-                console.log("click");
-                console.log("destroy event listener");
-                // abc.destroy()
-                // node.removeEventListener('wheel', def)
+            if (event.target.classList.contains("rectangle")) {
                 handleClick(event);
             } else {
                 console.log("no click");
@@ -82,14 +66,10 @@
             touchAction: "none",
             contain: "outside",
             panOnlyWhenZoomed: false,
-            // disablePan: false,
             handleStartEvent: (event) => {
                 event.preventDefault();
                 event.stopPropagation();
             },
-            // destroy: () => {
-            //     console.log('destroy')
-            // }
         });
         const zoom = (e) => {
             panzoomRef.zoomWithWheel(e);
@@ -98,122 +78,92 @@
     };
 
     const handleClick = (e) => {
-        console.log("[Switzerland] handleClick");
-        // console.log('e.target: ', e.target);
         if (e.target.classList.contains("stadium")) {
             console.log("Click on stadium");
         }
         if (e.target.classList.contains("rectangle")) {
             console.log("Click on rectangle");
             panzoomRef.destroy();
-            // dispatch("clickOutsideCountry");
             clickOutsideCountry();
         }
     };
     const handleMouseOverCircle = (e) => {
-        // console.clear()
-        console.log("[Switzerland] handleMouseOverCircle e.target: ", e.target);
         if (e.target.classList.contains("stadium")) {
             console.log("Click on stadium");
         }
-        // return
-
-        // console.log('[Switzerland] handleMouseOverCircle e.relatedTarget: ', e.relatedTarget);
-        // return
         const stadiumId = parseInt(
             e.target.getAttribute("data-api-football-stadium-id"),
         );
-        console.log("stadiumId: ", stadiumId);
-        // clientX = e.clientX
-        // console.log('clientX: ', clientX);
         const data = {
-            // id: e.target.id,
             stadiumId: stadiumId,
             clientX: e.clientX,
             clientY: e.clientY,
             rect: e.target.getBoundingClientRect(),
         };
-        // console.log('e.target: ', e.target)
-        // console.log('stadiums3: ', stadiums3)
         document.querySelectorAll(".stadium").forEach((element) => {
-            // console.log('element: ', element);
             element.classList.remove("hover");
         });
         e.target.classList.add("hover");
-        // dispatch("stadiumHover", data);
         stadiumHover(data);
     };
     const handleMouseOutCircle = (e) => {
-        console.log("[Switzerland] handleMouseOutCircle e.target: ", e.target);
-        // console.log('[Switzerland] handleMouseOutCircle e.relatedTarget: ', e.relatedTarget);
-        // const abc = e.relatedTarget.classList.contains('tooltip')
-        // console.log('abc: ', abc);
         if (!e.relatedTarget?.classList?.contains("tooltip")) {
             e.target.classList.remove("hover");
-            // dispatch("stadiumLeave");
             stadiumLeave();
         }
     };
-
-    // function a(stadiumObj, stadiums) {
-    // const a = (node, stadiums) => {
-    //     console.log('[a] node: ', node)
-    //     console.log('[a] stadiums: ', stadiums)
-    //     stadiumObj = node;
-    //     addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues);
-    // };
-    // const a = (node, stadiumsArray) => {
-    //     console.log('[a] node: ', node)
-    //     console.log('[a] stadiumsArray: ', stadiumsArray)
-    //     stadiumObj = node;
-    //     addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
-    // };
-
+    const handleTouchStartCircle = (e) => {
+        if (e.target.classList.contains("stadium")) {
+            console.log("Touch on stadium");
+        }
+        const stadiumId = parseInt(
+            e.target.getAttribute("data-api-football-stadium-id"),
+        );
+        const data = {
+            stadiumId: stadiumId,
+            clientX: e.clientX,
+            clientY: e.clientY,
+            rect: e.target.getBoundingClientRect(),
+        };
+        document.querySelectorAll(".stadium").forEach((element) => {
+            element.classList.remove("hover");
+        });
+        e.target.classList.add("hover");
+        stadiumHover(data);
+    };
+    const handleTouchEndCircle = (e) => {};
     const a = (node) => {
-        // the node has been mounted in the DOM
-        console.log("[myaction] 1 node: ", node);
         stadiumObj = node;
         $effect(() => {
-            // setup goes here
-            console.log("[myaction] 2 node: ");
-
-            return () => {
-                console.log("[myaction] 3");
-                // teardown goes here
-            };
+            return () => {};
         });
     };
-    // const a = $derived((node, stadiums) => {
-    //     console.log('[a] stadiums: ', stadiums)
-    //     stadiumObj = node
-    //     addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues)
-    // })
-    // const a = $derived((node, stadiumsArray) => {
-    //     console.log('[a] stadiums: ', stadiumsArray)
-    //     stadiumObj = node
-    //     addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues)
-    // })
-    $effect(() => {
-        console.log("$effect");
-        console.log("stadiumsArray: ", stadiumsArray);
-        console.log("stadiumObj: ", stadiumObj);
-        addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
-    });
-    // const updateStadiums = (stadiums) => {
-    //     console.log("[Switzerland] updateStadiums: ", stadiums);
-    //     if (stadiumObj) {
-    //         addStadiumsToSvgMap(stadiumObj, stadiums, countryObj.leagues);
-    //     }
-    // };
-    // $effect((stadiumsArray) => {
-    //     console.log('$effect', stadiumsArray)
-    // 	if (stadiumObj) {
-    //         // addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
-    //     }
-    // });
-</script>
+    const b = (node) => {
+        stadiumObjLargeDisc = node;
+        $effect(() => {
+            return () => {};
+        });
+    };
 
-<!-- stadiumsArray: {stadiumsArray.length}<br /> -->
+    const hasSmallScreen = () => {
+        const minWidth = 1024;
+        if (window.innerWidth < minWidth || screen.width < minWidth) {
+            return true;
+        }
+        return false;
+    };
+
+    $effect(() => {
+        addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
+        if (hasSmallScreen()) {
+            addStadiumsToSvgMap(
+                stadiumObjLargeDisc,
+                stadiumsArray,
+                countryObj.leagues,
+            );
+        }
+    });
+</script>
 
 <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -239,9 +189,6 @@
             }
             #stadiums:focus {
                 outline: none;
-            }
-            .hover {
-                fill: #ffffff !important;
             }
             .test {
                 border: 2px solid red;
@@ -456,10 +403,26 @@
     <!-- https://www.color-hex.com/color/d6c456 -->
     <!-- <g id="stadiums" data-country="switzerland" data-circle-radius={radius} data-circle-colors="#56d6c4,#c456d6" onmouseover={handleMouseOverCircle} onmouseout={handleMouseOutCircle} onfocus={() => {}} role="presentation" onblur={() => {}} use:a={stadiumsArray} style=""> </g> -->
     <g
+        id="stadiumsLargeDisc"
+        data-country="switzerland"
+        data-circle-radius={radius * 2}
+        data-circle-colors="#ff00001A,#ff00001A"
+        data-circle-stroke-color="none"
+        data-circle-stroke-width="0"
+        ontouchstart={handleTouchStartCircle}
+        ontouchend={handleTouchEndCircle}
+        onfocus={() => {}}
+        role="presentation"
+        onblur={() => {}}
+        use:b
+    ></g>
+    <g
         id="stadiums"
         data-country="switzerland"
         data-circle-radius={radius}
         data-circle-colors="#56d6c4,#c456d6"
+        data-circle-stroke-color="#325bad"
+        data-circle-stroke-width="1"
         onmouseover={handleMouseOverCircle}
         onmouseout={handleMouseOutCircle}
         onfocus={() => {}}

@@ -56,11 +56,11 @@ a11y_no_noninteractive_element_interactions -->
                     ><CloseIcon width="1.5em" color="#B2B2B2" /></button
                 > -->
             </h2>
-            <h3>
+            <span class="pill">
                 {formatNumber(data?.stadium?.capacity)}
-            </h3>
+            </span>
         </div>
-        <div class="col-12">
+        <div class="col-12" style="">
             {#if browser}
                 <SvelteCarousel
                     autoplay={false}
@@ -72,7 +72,7 @@ a11y_no_noninteractive_element_interactions -->
                     {#each data?.images as image, imageIndex}
                         <div
                             class="img-container"
-                            style="max-height: 300px; background: #FFF;"
+                            style="max-height: 300px; background: none;"
                         >
                             {#if loaded.includes(imageIndex)}
                                 <!-- {image.name}<br /> -->
@@ -137,6 +137,9 @@ a11y_no_noninteractive_element_interactions -->
 </dialog>
 
 <style>
+    .img-container {
+        border: 1px solid #fff;
+    }
     dialog {
         /* max-width: 32em; */
         border-radius: 0.2em;
@@ -168,6 +171,21 @@ a11y_no_noninteractive_element_interactions -->
         display: block;
         background: transparent;
         border: none;
+    }
+    button:focus-visible {
+        outline: none !important;
+    }
+    .pill {
+        background-color: var(--color-theme-1);
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
     }
     .close-btn {
         position: absolute;

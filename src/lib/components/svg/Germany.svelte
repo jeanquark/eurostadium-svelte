@@ -11,7 +11,7 @@
     } = $props();
     let radius = $state(12);
     let stadiumObj = $state(null);
-    let stadiumObj2 = $state(null);
+    let stadiumObjLargeDisc = $state(null);
     let panzoomRef = $state(null);
     let flag = $state(1);
 
@@ -34,22 +34,23 @@
             // console.log("panzoomzoom scale: ", event.detail?.scale);
             const scale = event.detail ? event.detail.scale : 10;
             const stadiumElement = document.getElementById("stadiums");
-            const stadiumElement2 = document.getElementById("stadiums2");
+            const stadiumElementLargeDisc =
+                document.getElementById("stadiumsLargeDisc");
             // console.log("stadiumElement: ", stadiumElement);
             if (!stadiumElement) {
                 return;
             }
             const stadiums = stadiumElement.children;
-            const stadiums2 = stadiumElement2.children;
-            // console.log("stadiumObj2: ", stadiumObj2);
+            const stadiumsLargeDisc = stadiumElementLargeDisc.children;
+            // console.log("stadiumObjLargeDisc: ", stadiumObjLargeDisc);
             // console.log("radius: ", radius);
             // scale value goes from 1 to 8
             for (let i = 0; i < stadiums.length; i++) {
                 // stadiums[i].setAttribute("r", radius / (scale * 0.5));
                 stadiums[i].setAttribute("r", radius / (scale ^ (1 / 2)));
             }
-            for (let i = 0; i < stadiums2.length; i++) {
-                stadiums2[i].setAttribute(
+            for (let i = 0; i < stadiumsLargeDisc.length; i++) {
+                stadiumsLargeDisc[i].setAttribute(
                     "r",
                     (radius * 2) / (scale ^ (1 / 2)),
                 );
@@ -165,7 +166,7 @@
 
     const b = (node) => {
         console.log("[Germany] b node: ", node);
-        stadiumObj2 = node;
+        stadiumObjLargeDisc = node;
         $effect(() => {
             console.log("[Germany] b $effect(): ");
             return () => {};
@@ -186,7 +187,11 @@
         console.log("$effect");
         addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
         if (hasSmallScreen()) {
-            addStadiumsToSvgMap(stadiumObj2, stadiumsArray, countryObj.leagues);
+            addStadiumsToSvgMap(
+                stadiumObjLargeDisc,
+                stadiumsArray,
+                countryObj.leagues,
+            );
         }
     });
 </script>
@@ -360,7 +365,7 @@
     <!-- Triadic colors: -->
     <!-- https://www.color-hex.com/color/49bea1 -->
     <g
-        id="stadiums2"
+        id="stadiumsLargeDisc"
         data-country="germany"
         data-circle-radius={radius * 2}
         data-circle-colors="#ff00001A,#ff00001A"
