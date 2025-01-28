@@ -1,114 +1,168 @@
 <script>
-    import { onMount } from 'svelte'
-    import panzoom from '@panzoom/panzoom'
-    import addStadiumsToSvgMap from '@utils/addStadiumsToSvgMap'
-    let { clickOutsideCountry, stadiumHover, stadiumLeave, countryObj, stadiumsArray } = $props()
-    let radius = $state(10)
-    let stadiumObj = $state(null)
-    let panzoomRef = $state(null)
-    let flag = $state(1)
+    import { onMount } from "svelte";
+    import panzoom from "@panzoom/panzoom";
+    import addStadiumsToSvgMap from "@utils/addStadiumsToSvgMap";
+    let {
+        clickOutsideCountry,
+        stadiumHover,
+        stadiumLeave,
+        countryObj,
+        stadiumsArray,
+    } = $props();
+    let radius = $state(12);
+    let stadiumObj = $state(null);
+    let stadiumObjLargeDisc = $state(null);
+    let panzoomRef = $state(null);
+    let flag = $state(1);
 
     onMount(() => {
-        console.log('[Albania] onMount')
-    })
+        console.log("[Denmark] onMount");
+        if (hasSmallScreen()) {
+            radius = 20;
+        }
+    });
 
     const initPanzoom = (node) => {
-        node.addEventListener('panzoompan', (event) => {
-            console.log('panzoompan: ', event.detail)
+        node.addEventListener("panzoompan", (event) => {
             if (event.detail.x != 0 || event.detail.y != 0) {
-                flag = 0
+                flag = 0;
             }
-        })
-        node.addEventListener('panzoomzoom', (event) => {
-            // console.log('panzoomzoom scale: ', event.detail?.scale)
-            const scale = event.detail ? event.detail.scale : 10
-            const stadiumElement = document.getElementById('stadiums')
+        });
+        node.addEventListener("panzoomzoom", (event) => {
+            const scale = event.detail ? event.detail.scale : 10;
+            const stadiumElement = document.getElementById("stadiums");
+            const stadiumElementLargeDisc =
+                document.getElementById("stadiumsLargeDisc");
             if (!stadiumElement) {
-                return
+                return;
             }
-            const stadiums = stadiumElement.children
+            const stadiums = stadiumElement.children;
+            const stadiumsLargeDisc = stadiumElementLargeDisc.children;
             for (let i = 0; i < stadiums.length; i++) {
-                stadiums[i].setAttribute('r', radius / scale)
+                stadiums[i].setAttribute("r", radius / (scale ^ (1 / 2)));
             }
-        })
+            for (let i = 0; i < stadiumsLargeDisc.length; i++) {
+                stadiumsLargeDisc[i].setAttribute(
+                    "r",
+                    (radius * 2) / (scale ^ (1 / 2)),
+                );
+            }
+        });
 
-        node.addEventListener('click', (event) => {
-            if (flag == 1) {
-                handleClick(event)
+        node.addEventListener("click", (event) => {
+            if (event.target.classList.contains("rectangle")) {
+                handleClick(event);
             } else {
-                console.log('no click')
+                console.log("no click");
             }
-            flag = 1
-        })
+            flag = 1;
+        });
         panzoomRef = panzoom(node, {
             isSvg: true,
-            cursor: 'normal',
+            cursor: "normal",
             disableZoom: false,
             maxScale: 8,
             minScale: 1,
-            touchAction: 'none',
-            contain: 'outside',
+            touchAction: "none",
+            contain: "outside",
             panOnlyWhenZoomed: false,
             handleStartEvent: (event) => {
-                event.preventDefault()
-                event.stopPropagation()
-            }
-        })
+                event.preventDefault();
+                event.stopPropagation();
+            },
+        });
         const zoom = (e) => {
-            panzoomRef.zoomWithWheel(e)
-        }
-        node.addEventListener('wheel', zoom)
-    }
+            panzoomRef.zoomWithWheel(e);
+        };
+        node.addEventListener("wheel", zoom);
+    };
 
     const handleClick = (e) => {
-        console.log('[Albania] handleClick')
-        // console.log('e.target: ', e.target);
-        if (e.target.classList.contains('stadium')) {
-            console.log('Click on stadium')
+        if (e.target.classList.contains("stadium")) {
+            console.log("Click on stadium");
         }
-        if (e.target.classList.contains('rectangle')) {
-            console.log('Click on rectangle')
-            panzoomRef.destroy()
-            // dispatch("clickOutsideCountry");
-            clickOutsideCountry()
+        if (e.target.classList.contains("rectangle")) {
+            console.log("Click on rectangle");
+            panzoomRef.destroy();
+            clickOutsideCountry();
         }
-    }
+    };
     const handleMouseOverCircle = (e) => {
-        console.log('[Albania] handleMouseOverCircle e.target: ', e.target)
-        if (e.target.classList.contains('stadium')) {
-            console.log('Click on stadium')
+        if (e.target.classList.contains("stadium")) {
+            console.log("Click on stadium");
         }
-        const stadiumId = parseInt(e.target.getAttribute('data-api-football-stadium-id'))
-        // console.log('stadiumId: ', stadiumId)
+        const stadiumId = parseInt(
+            e.target.getAttribute("data-api-football-stadium-id"),
+        );
         const data = {
             stadiumId: stadiumId,
             clientX: e.clientX,
             clientY: e.clientY,
             rect: e.target.getBoundingClientRect(),
-        }
-        document.querySelectorAll('.stadium').forEach((element) => {
-            element.classList.remove('hover')
-        })
-        e.target.classList.add('hover')
-        stadiumHover(data)
-    }
+        };
+        document.querySelectorAll(".stadium").forEach((element) => {
+            element.classList.remove("hover");
+        });
+        e.target.classList.add("hover");
+        stadiumHover(data);
+    };
     const handleMouseOutCircle = (e) => {
-        console.log('[Albania] handleMouseOutCircle e.target: ', e.target)
-        if (!e.relatedTarget?.classList?.contains('tooltip')) {
-            e.target.classList.remove('hover')
-            stadiumLeave()
+        if (!e.relatedTarget?.classList?.contains("tooltip")) {
+            e.target.classList.remove("hover");
+            stadiumLeave();
         }
-    }
+    };
+    const handleTouchStartCircle = (e) => {
+        if (e.target.classList.contains("stadium")) {
+            console.log("Touch on stadium");
+        }
+        const stadiumId = parseInt(
+            e.target.getAttribute("data-api-football-stadium-id"),
+        );
+        const data = {
+            stadiumId: stadiumId,
+            clientX: e.clientX,
+            clientY: e.clientY,
+            rect: e.target.getBoundingClientRect(),
+        };
+        document.querySelectorAll(".stadium").forEach((element) => {
+            element.classList.remove("hover");
+        });
+        e.target.classList.add("hover");
+        stadiumHover(data);
+    };
+    const handleTouchEndCircle = (e) => {};
     const a = (node) => {
-        stadiumObj = node
-		$effect(() => {
-			return () => {
-			};
-		});
-	}
+        stadiumObj = node;
+        $effect(() => {
+            return () => {};
+        });
+    };
+    const b = (node) => {
+        stadiumObjLargeDisc = node;
+        $effect(() => {
+            return () => {};
+        });
+    };
+
+    const hasSmallScreen = () => {
+        const minWidth = 1024;
+        if (window.innerWidth < minWidth || screen.width < minWidth) {
+            return true;
+        }
+        return false;
+    };
+
     $effect(() => {
-        addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues)
-	});
+        addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
+        if (hasSmallScreen()) {
+            addStadiumsToSvgMap(
+                stadiumObjLargeDisc,
+                stadiumsArray,
+                countryObj.leagues,
+            );
+        }
+    });
 </script>
 
 <svg
@@ -135,9 +189,6 @@
             }
             #stadiums:focus {
                 outline: none;
-            }
-            .hover {
-                fill: #ffffff !important;
             }
             .test {
                 border: 2px solid red;
@@ -197,10 +248,26 @@
         <!-- Triadic colors: -->
         <!-- https://www.color-hex.com/color/07bada -->
         <g
+            id="stadiumsLargeDisc"
+            data-country="denmark"
+            data-circle-radius={radius * 2}
+            data-circle-colors="#ff00001A,#ff00001A"
+            data-circle-stroke-color="none"
+            data-circle-stroke-width="0"
+            ontouchstart={handleTouchStartCircle}
+            ontouchend={handleTouchEndCircle}
+            onfocus={() => {}}
+            role="presentation"
+            onblur={() => {}}
+            use:b
+        ></g>
+        <g
             id="stadiums"
             data-country="denmark"
             data-circle-radius={radius}
             data-circle-colors="#da07ba,#bada07"
+            data-circle-stroke-color="#325bad"
+            data-circle-stroke-width="1"
             onmouseover={handleMouseOverCircle}
             onmouseout={handleMouseOutCircle}
             onfocus={() => {}}

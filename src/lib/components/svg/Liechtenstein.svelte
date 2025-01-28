@@ -2,8 +2,6 @@
     import { onMount } from "svelte";
     import panzoom from "@panzoom/panzoom";
     import addStadiumsToSvgMap from "@utils/addStadiumsToSvgMap";
-    import { stadiumStore } from "@store/stadium";
-
     let {
         clickOutsideCountry,
         stadiumHover,
@@ -11,37 +9,48 @@
         countryObj,
         stadiumsArray,
     } = $props();
-    let radius = $state(10);
+    let radius = $state(12);
     let stadiumObj = $state(null);
+    let stadiumObjLargeDisc = $state(null);
     let panzoomRef = $state(null);
     let flag = $state(1);
 
     onMount(() => {
         console.log("[Liechtenstein] onMount");
+        if (hasSmallScreen()) {
+            radius = 20;
+        }
     });
 
     const initPanzoom = (node) => {
         node.addEventListener("panzoompan", (event) => {
-            console.log("panzoompan: ", event.detail);
             if (event.detail.x != 0 || event.detail.y != 0) {
                 flag = 0;
             }
         });
         node.addEventListener("panzoomzoom", (event) => {
-            // console.log('panzoomzoom scale: ', event.detail?.scale)
             const scale = event.detail ? event.detail.scale : 10;
             const stadiumElement = document.getElementById("stadiums");
+            const stadiumElementLargeDisc =
+                document.getElementById("stadiumsLargeDisc");
             if (!stadiumElement) {
                 return;
             }
             const stadiums = stadiumElement.children;
+            const stadiumsLargeDisc = stadiumElementLargeDisc.children;
             for (let i = 0; i < stadiums.length; i++) {
-                stadiums[i].setAttribute("r", radius / scale);
+                stadiums[i].setAttribute("r", radius / (scale ^ (1 / 2)));
+            }
+            for (let i = 0; i < stadiumsLargeDisc.length; i++) {
+                stadiumsLargeDisc[i].setAttribute(
+                    "r",
+                    (radius * 2) / (scale ^ (1 / 2)),
+                );
             }
         });
 
         node.addEventListener("click", (event) => {
-            if (flag == 1) {
+            if (event.target.classList.contains("rectangle")) {
                 handleClick(event);
             } else {
                 console.log("no click");
@@ -69,30 +78,22 @@
     };
 
     const handleClick = (e) => {
-        console.log("[Liechtenstein] handleClick");
-        // console.log('e.target: ', e.target);
         if (e.target.classList.contains("stadium")) {
             console.log("Click on stadium");
         }
         if (e.target.classList.contains("rectangle")) {
             console.log("Click on rectangle");
             panzoomRef.destroy();
-            // dispatch("clickOutsideCountry");
             clickOutsideCountry();
         }
     };
     const handleMouseOverCircle = (e) => {
-        console.log(
-            "[Liechtenstein] handleMouseOverCircle e.target: ",
-            e.target,
-        );
         if (e.target.classList.contains("stadium")) {
             console.log("Click on stadium");
         }
         const stadiumId = parseInt(
             e.target.getAttribute("data-api-football-stadium-id"),
         );
-        // console.log('stadiumId: ', stadiumId)
         const data = {
             stadiumId: stadiumId,
             clientX: e.clientX,
@@ -106,45 +107,58 @@
         stadiumHover(data);
     };
     const handleMouseOutCircle = (e) => {
-        console.log(
-            "[Liechtenstein] handleMouseOutCircle e.target: ",
-            e.target,
-        );
         if (!e.relatedTarget?.classList?.contains("tooltip")) {
             e.target.classList.remove("hover");
             stadiumLeave();
         }
     };
+    const handleTouchStartCircle = (e) => {
+        if (e.target.classList.contains("stadium")) {
+            console.log("Touch on stadium");
+        }
+        const stadiumId = parseInt(
+            e.target.getAttribute("data-api-football-stadium-id"),
+        );
+        const data = {
+            stadiumId: stadiumId,
+            clientX: e.clientX,
+            clientY: e.clientY,
+            rect: e.target.getBoundingClientRect(),
+        };
+        document.querySelectorAll(".stadium").forEach((element) => {
+            element.classList.remove("hover");
+        });
+        e.target.classList.add("hover");
+        stadiumHover(data);
+    };
+    const handleTouchEndCircle = (e) => {};
     const a = (node) => {
         stadiumObj = node;
         $effect(() => {
             return () => {};
         });
     };
-    $effect(async () => {
-        // console.log("stadiumObj: ", stadiumObj);
-        // console.log("stadiumsArray: ", stadiumsArray);
-        // console.log("countryObj.leagues: ", countryObj.leagues);
-        // addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
-        // return;
-        const parentCountrySlug = "switzerland";
-        const stadiumApiFootballId = 1545;
-        if (!$stadiumStore.stadiumsByCountry[parentCountrySlug]) {
-            await stadiumStore.fetchStadiumsByCountrySlug(parentCountrySlug);
+    const b = (node) => {
+        stadiumObjLargeDisc = node;
+        $effect(() => {
+            return () => {};
+        });
+    };
+
+    const hasSmallScreen = () => {
+        const minWidth = 1024;
+        if (window.innerWidth < minWidth || screen.width < minWidth) {
+            return true;
         }
-        const countryStadiums = $stadiumStore.stadiumsByCountry[
-            parentCountrySlug
-        ].filter((el) => el.stadium.api_football_id == stadiumApiFootballId);
-        console.log("countryStadiums: ", countryStadiums);
-        if (countryStadiums.length > 0) {
-            const countryStadiumsArray = JSON.parse(
-                JSON.stringify(countryStadiums),
-            );
-            countryStadiumsArray[0]["stadium"]["x"] = 373;
-            countryStadiumsArray[0]["stadium"]["y"] = 587;
+        return false;
+    };
+
+    $effect(() => {
+        addStadiumsToSvgMap(stadiumObj, stadiumsArray, countryObj.leagues);
+        if (hasSmallScreen()) {
             addStadiumsToSvgMap(
-                stadiumObj,
-                countryStadiumsArray,
+                stadiumObjLargeDisc,
+                stadiumsArray,
                 countryObj.leagues,
             );
         }
@@ -175,9 +189,6 @@
             }
             #stadiums:focus {
                 outline: none;
-            }
-            .hover {
-                fill: #ffffff !important;
             }
             .test {
                 border: 2px solid red;
@@ -284,10 +295,26 @@
         <!-- Triadic colors: -->
         <!-- https://www.color-hex.com/color/bd8240 -->
         <g
+            id="stadiumsLargeDisc"
+            data-country="liechtenstein"
+            data-circle-radius={radius * 2}
+            data-circle-colors="#ff00001A,#ff00001A"
+            data-circle-stroke-color="none"
+            data-circle-stroke-width="0"
+            ontouchstart={handleTouchStartCircle}
+            ontouchend={handleTouchEndCircle}
+            onfocus={() => {}}
+            role="presentation"
+            onblur={() => {}}
+            use:b
+        ></g>
+        <g
             id="stadiums"
             data-country="liechtenstein"
             data-circle-radius={radius}
             data-circle-colors="#40bd82,#8240bd"
+            data-circle-stroke-color="#325bad"
+            data-circle-stroke-width="1"
             onmouseover={handleMouseOverCircle}
             onmouseout={handleMouseOutCircle}
             onfocus={() => {}}
