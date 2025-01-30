@@ -5,7 +5,8 @@
 			"name": "Brann",
 			"code": "BRA",
 			"country": "Norway",
-			"founded": 1908
+			"founded": 1908,
+			"wiki": "https://en.wikipedia.org/wiki/SK_Brann"
 		},
 		"venue": {
 			"api_football_id": 1176,
@@ -68,7 +69,8 @@
 			"name": "Kristiansund BK",
 			"code": "KRI",
 			"country": "Norway",
-			"founded": 2003
+			"founded": 2003,
+			"wiki": "https://en.wikipedia.org/wiki/Kristiansund_BK"
 		},
 		"venue": {
 			"api_football_id": 19680,
@@ -131,7 +133,8 @@
 			"name": "Lillestrom",
 			"code": "LIL",
 			"country": "Norway",
-			"founded": 1917
+			"founded": 1917,
+			"wiki": "https://en.wikipedia.org/wiki/Lillestr%C3%B8m_SK"
 		},
 		"venue": {
 			"api_football_id": 1182,
@@ -194,7 +197,8 @@
 			"name": "Stromsgodset",
 			"code": "STR",
 			"country": "Norway",
-			"founded": 1907
+			"founded": 1907,
+			"wiki": "https://en.wikipedia.org/wiki/Str%C3%B8msgodset_Toppfotball"
 		},
 		"venue": {
 			"api_football_id": 1199,
@@ -257,7 +261,8 @@
 			"name": "Tromso",
 			"code": "TRO",
 			"country": "Norway",
-			"founded": 1920
+			"founded": 1920,
+			"wiki": "https://en.wikipedia.org/wiki/Troms%C3%B8_IL"
 		},
 		"venue": {
 			"api_football_id": 19681,
@@ -320,7 +325,8 @@
 			"name": "Bodo/Glimt",
 			"code": "BOD",
 			"country": "Norway",
-			"founded": 1916
+			"founded": 1916,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Bod%C3%B8/Glimt"
 		},
 		"venue": {
 			"api_football_id": 1175,
@@ -383,7 +389,8 @@
 			"name": "Haugesund",
 			"code": "HAU",
 			"country": "Norway",
-			"founded": 1993
+			"founded": 1993,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Haugesund"
 		},
 		"venue": {
 			"api_football_id": 12130,
@@ -446,7 +453,8 @@
 			"name": "Molde",
 			"code": "MOL",
 			"country": "Norway",
-			"founded": 1911
+			"founded": 1911,
+			"wiki": "https://en.wikipedia.org/wiki/Molde_FK"
 		},
 		"venue": {
 			"api_football_id": 1184,
@@ -509,7 +517,8 @@
 			"name": "ODD Ballklubb",
 			"code": "ODD",
 			"country": "Norway",
-			"founded": 1894
+			"founded": 1894,
+			"wiki": "https://en.wikipedia.org/wiki/Odds_BK"
 		},
 		"venue": {
 			"api_football_id": 1187,
@@ -572,7 +581,8 @@
 			"name": "Rosenborg",
 			"code": "ROS",
 			"country": "Norway",
-			"founded": 1917
+			"founded": 1917,
+			"wiki": "https://en.wikipedia.org/wiki/Rosenborg_BK"
 		},
 		"venue": {
 			"api_football_id": 1190,
@@ -635,7 +645,8 @@
 			"name": "Sandefjord",
 			"code": "SAN",
 			"country": "Norway",
-			"founded": 1998
+			"founded": 1998,
+			"wiki": "https://en.wikipedia.org/wiki/Sandefjord_Fotball"
 		},
 		"venue": {
 			"api_football_id": 20418,
@@ -698,7 +709,8 @@
 			"name": "Sarpsborg 08 FF",
 			"code": "SAR",
 			"country": "Norway",
-			"founded": 1928
+			"founded": 1928,
+			"wiki": "https://en.wikipedia.org/wiki/Sarpsborg_08_FF"
 		},
 		"venue": {
 			"api_football_id": 1193,
@@ -761,7 +773,8 @@
 			"name": "Viking",
 			"code": "VIK",
 			"country": "Norway",
-			"founded": 1899
+			"founded": 1899,
+			"wiki": "https://en.wikipedia.org/wiki/Viking_FK"
 		},
 		"venue": {
 			"api_football_id": 1204,
@@ -824,7 +837,8 @@
 			"name": "KFUM Oslo",
 			"code": "KFU",
 			"country": "Norway",
-			"founded": 1939
+			"founded": 1939,
+			"wiki": "https://en.wikipedia.org/wiki/KFUM-Kameratene_Oslo"
 		},
 		"venue": {
 			"api_football_id": 1179,
@@ -887,7 +901,8 @@
 			"name": "Fredrikstad",
 			"code": "FRE",
 			"country": "Norway",
-			"founded": 1903
+			"founded": 1903,
+			"wiki": "https://en.wikipedia.org/wiki/Fredrikstad_FK"
 		},
 		"venue": {
 			"api_football_id": 2792,
@@ -950,7 +965,8 @@
 			"name": "Ham-Kam",
 			"code": "HAM",
 			"country": "Norway",
-			"founded": 1918
+			"founded": 1918,
+			"wiki": "https://en.wikipedia.org/wiki/Hamarkameratene"
 		},
 		"venue": {
 			"api_football_id": 1177,
@@ -1009,11 +1025,76 @@
 	},
 	{
 		"team": {
+			"api_football_id": 7012,
+			"name": "Moss",
+			"code": "MOS",
+			"country": "Norway",
+			"founded": 1906,
+			"wiki": "https://en.wikipedia.org/wiki/Moss_FK"
+		},
+		"venue": {
+			"api_football_id": 5124,
+			"name": "Melløs Stadion",
+			"address": "Kallumvegen 6A, Melløs",
+			"city": "Moss",
+			"capacity": 9410,
+			"surface": "grass",
+			"lat": 59.420833,
+			"lng": 10.671389,
+			"x": 272,
+			"y": 912,
+			"wiki": "https://en.wikipedia.org/wiki/Mell%C3%B8s_Stadion"
+		},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5124_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5124_002.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5124_003.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5124_004.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 17
+	},
+	{
+		"team": {
 			"api_football_id": 322,
 			"name": "Ranheim",
 			"code": "RAN",
 			"country": "Norway",
-			"founded": 1901
+			"founded": 1901,
+			"wiki": "https://en.wikipedia.org/wiki/Ranheim_Fotball"
 		},
 		"venue": {
 			"api_football_id": 1188,
@@ -1068,7 +1149,7 @@
 				"size": 0
 			}
 		],
-		"no": 17
+		"no": 18
 	},
 	{
 		"team": {
@@ -1076,7 +1157,8 @@
 			"name": "Stabaek",
 			"code": "STA",
 			"country": "Norway",
-			"founded": 1912
+			"founded": 1912,
+			"wiki": "https://en.wikipedia.org/wiki/Stab%C3%A6k_Fotball"
 		},
 		"venue": {
 			"api_football_id": 1196,
@@ -1131,7 +1213,7 @@
 				"size": 0
 			}
 		],
-		"no": 18
+		"no": 19
 	},
 	{
 		"team": {
@@ -1139,7 +1221,8 @@
 			"name": "Valerenga",
 			"code": "VAL",
 			"country": "Norway",
-			"founded": 1913
+			"founded": 1913,
+			"wiki": "https://en.wikipedia.org/wiki/V%C3%A5lerenga_Fotball"
 		},
 		"venue": {
 			"api_football_id": 1203,
@@ -1194,7 +1277,7 @@
 				"size": 0
 			}
 		],
-		"no": 19
+		"no": 20
 	},
 	{
 		"team": {
@@ -1202,7 +1285,8 @@
 			"name": "Start",
 			"code": "STA",
 			"country": "Norway",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": "https://en.wikipedia.org/wiki/IK_Start"
 		},
 		"venue": {
 			"api_football_id": 1197,
@@ -1257,7 +1341,7 @@
 				"size": 0
 			}
 		],
-		"no": 20
+		"no": 21
 	},
 	{
 		"team": {
@@ -1265,7 +1349,8 @@
 			"name": "Aalesund",
 			"code": "AAL",
 			"country": "Norway",
-			"founded": 1914
+			"founded": 1914,
+			"wiki": "https://en.wikipedia.org/wiki/Aalesunds_FK"
 		},
 		"venue": {
 			"api_football_id": 1174,
@@ -1320,7 +1405,7 @@
 				"size": 0
 			}
 		],
-		"no": 21
+		"no": 22
 	},
 	{
 		"team": {
@@ -1328,7 +1413,8 @@
 			"name": "Sogndal",
 			"code": "SOG",
 			"country": "Norway",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/Sogndal_Fotball"
 		},
 		"venue": {
 			"api_football_id": 1195,
@@ -1383,7 +1469,7 @@
 				"size": 0
 			}
 		],
-		"no": 22
+		"no": 23
 	},
 	{
 		"team": {
@@ -1391,7 +1477,8 @@
 			"name": "Bryne",
 			"code": "BRY",
 			"country": "Norway",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/Bryne_FK"
 		},
 		"venue": {
 			"api_football_id": 2793,
@@ -1446,7 +1533,7 @@
 				"size": 0
 			}
 		],
-		"no": 23
+		"no": 24
 	},
 	{
 		"team": {
@@ -1454,7 +1541,8 @@
 			"name": "Kongsvinger",
 			"code": "ANA",
 			"country": "Norway",
-			"founded": 1892
+			"founded": 1892,
+			"wiki": "https://en.wikipedia.org/wiki/Kongsvinger_IL_Toppfotball"
 		},
 		"venue": {
 			"api_football_id": 1180,
@@ -1509,7 +1597,7 @@
 				"size": 0
 			}
 		],
-		"no": 24
+		"no": 25
 	},
 	{
 		"team": {
@@ -1517,7 +1605,8 @@
 			"name": "Levanger",
 			"code": "LEV",
 			"country": "Norway",
-			"founded": 1996
+			"founded": 1996,
+			"wiki": "https://en.wikipedia.org/wiki/Levanger_FK"
 		},
 		"venue": {
 			"api_football_id": 1952,
@@ -1548,7 +1637,7 @@
 				"size": 0
 			}
 		],
-		"no": 25
+		"no": 26
 	},
 	{
 		"team": {
@@ -1556,7 +1645,8 @@
 			"name": "Sandnes ULF",
 			"code": "SAN",
 			"country": "Norway",
-			"founded": 1911
+			"founded": 1911,
+			"wiki": "https://en.wikipedia.org/wiki/Sandnes_Ulf"
 		},
 		"venue": {
 			"api_football_id": 12682,
@@ -1611,7 +1701,7 @@
 				"size": 0
 			}
 		],
-		"no": 26
+		"no": 27
 	},
 	{
 		"team": {
@@ -1619,7 +1709,8 @@
 			"name": "Asane",
 			"code": "ASA",
 			"country": "Norway",
-			"founded": 1971
+			"founded": 1971,
+			"wiki": "https://en.wikipedia.org/wiki/%C3%85sane_Fotball"
 		},
 		"venue": {
 			"api_football_id": 12683,
@@ -1674,7 +1765,7 @@
 				"size": 0
 			}
 		],
-		"no": 27
+		"no": 28
 	},
 	{
 		"team": {
@@ -1682,7 +1773,8 @@
 			"name": "Mjondalen",
 			"code": "MJO",
 			"country": "Norway",
-			"founded": 1910
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/Mj%C3%B8ndalen_IF"
 		},
 		"venue": {
 			"api_football_id": 1183,
@@ -1737,7 +1829,7 @@
 				"size": 0
 			}
 		],
-		"no": 28
+		"no": 29
 	},
 	{
 		"team": {
@@ -1745,7 +1837,8 @@
 			"name": "Raufoss",
 			"code": "RAU",
 			"country": "Norway",
-			"founded": 1918
+			"founded": 1918,
+			"wiki": "https://en.wikipedia.org/wiki/Raufoss_IL"
 		},
 		"venue": {
 			"api_football_id": 1189,
@@ -1800,7 +1893,7 @@
 				"size": 0
 			}
 		],
-		"no": 29
+		"no": 30
 	},
 	{
 		"team": {
@@ -1808,7 +1901,8 @@
 			"name": "Egersund",
 			"code": "EGE",
 			"country": "Norway",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/Egersunds_IK"
 		},
 		"venue": {
 			"api_football_id": 5094,
@@ -1847,7 +1941,7 @@
 				"size": 0
 			}
 		],
-		"no": 30
+		"no": 31
 	},
 	{
 		"team": {
@@ -1855,7 +1949,8 @@
 			"name": "Lyn",
 			"code": "LYN",
 			"country": "Norway",
-			"founded": 1896
+			"founded": 1896,
+			"wiki": "https://en.wikipedia.org/wiki/Lyn_Fotball"
 		},
 		"venue": {
 			"api_football_id": 19421,
@@ -1910,69 +2005,6 @@
 				"size": 0
 			}
 		],
-		"no": 31
-	},
-	{
-		"team": {
-			"api_football_id": 7012,
-			"name": "Moss",
-			"code": "MOS",
-			"country": "Norway",
-			"founded": 1906
-		},
-		"venue": {
-			"api_football_id": 5124,
-			"name": "Melløs Stadion",
-			"address": "Kallumvegen 6A, Melløs",
-			"city": "Moss",
-			"capacity": 9410,
-			"surface": "grass",
-			"lat": 59.420833,
-			"lng": 10.671389,
-			"x": 272,
-			"y": 912,
-			"wiki": "https://en.wikipedia.org/wiki/Mell%C3%B8s_Stadion"
-		},
-		"league": {
-			"api_football_id": 104,
-			"name": "1. Division",
-			"country": "Norway",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "5124_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5124_002.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5124_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5124_004.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 32
 	},
 	{
@@ -1981,7 +2013,8 @@
 			"name": "hodd",
 			"code": "HOD",
 			"country": "Norway",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/IL_H%C3%B8dd"
 		},
 		"venue": {
 			"api_football_id": 2794,
@@ -2039,7 +2072,8 @@
 			"name": "jerv",
 			"code": "JER",
 			"country": "Norway",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Jerv"
 		},
 		"venue": {
 			"api_football_id": 1751,
@@ -2097,7 +2131,8 @@
 			"name": "Skeid",
 			"code": "SKE",
 			"country": "Norway",
-			"founded": 1915
+			"founded": 1915,
+			"wiki": "https://en.wikipedia.org/wiki/Skeid_Fotball"
 		},
 		"venue": {
 			"api_football_id": 1194,
