@@ -184,7 +184,7 @@
                 stroke-width: 0.5;
             }
             .rectangle:hover {
-                fill: #05adda;
+                fill: #bdbdbd;
                 cursor: pointer;
             }
             #stadiums:focus {

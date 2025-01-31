@@ -30,7 +30,7 @@
 		"images": [
 			{
 				"name": "1176_001.jpg",
-				"source": "",
+				"source": "https://i.f1g.fr/media/cms/orig/2021/08/17/e49bea2de6e55858525644763cbb1f75bd1be6a865402f50c3fa7bb03f6c4529.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -38,7 +38,7 @@
 			},
 			{
 				"name": "1176_002.jpg",
-				"source": "",
+				"source": "https://gfx.nrk.no/k8YmKyMCo_ryQZ6AYX2VmQjr2k-77I2UZCARbQDSt7JA.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -46,7 +46,7 @@
 			},
 			{
 				"name": "1176_003.jpg",
-				"source": "",
+				"source": "https://photos.watchmedier.dk/watchmedier/resize:fill:3840:0:0/plain/https://photos.watchmedier.dk/Images/15354679/ce9eex/ALTERNATES/schema-16_9/brann%2520stadion",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -54,7 +54,23 @@
 			},
 			{
 				"name": "1176_004.jpg",
-				"source": "",
+				"source": "https://g.acdn.no/obscura/API/dynamic/r1/ece5/tr_2000_2000_s_f/0000/berg/2022/4/7/13/IMG-7289.jpg?chk=0FB3C3",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1176_005.jpg",
+				"source": "https://www.brann.no/om-stadion/fakta-om-stadion/_/image/5a9fc4ae-1c9a-4c79-bd15-7314b3c9306c:6ce109d75b8c7a65e82bbe8bd612aa6906deb7f9/width-1100/SPV.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1176_006.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/5/59/Brann_stadium.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -94,7 +110,7 @@
 		"images": [
 			{
 				"name": "19680_001.jpg",
-				"source": "",
+				"source": "https://www.kristiansundbk.no/om-stadion/kristiansund-stadion/_/image/bbf0270f-61ab-4228-b00f-d1a0ee912de7:d05317ba25b2eecd445c5a6e0c232d46ef37f2e6/wide-1600-900/Nettsak%20BILDEStadion_drone1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -102,7 +118,7 @@
 			},
 			{
 				"name": "19680_002.jpg",
-				"source": "",
+				"source": "https://www.kristiansundbk.no/om-stadion/stadionomradet/_/image/f2f0dcb0-7fe7-4667-bcf7-3ba8176985d5:dfdb3d0f5cd54e189f95094ea6d7c88cf8c3f144/wide-1600-900/image00011.jpeg.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -110,7 +126,7 @@
 			},
 			{
 				"name": "19680_003.jpg",
-				"source": "",
+				"source": "https://www.kristiansundbk.no/nyheter/pressemelding-fra-kristiansund-ballklubb/_/image/d450f674-b718-4e0d-807b-cdcaf6f15552:423052129859c225d0f906b41f1347bb379a1971/wide-1600-900/stadion1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -118,7 +134,15 @@
 			},
 			{
 				"name": "19680_004.jpg",
-				"source": "",
+				"source": "https://www.kristiansundbk.no/nyheter/status-for-arbeidet-pa-nordmore-stadion/_/image/8f942c70-543c-47bc-b5cc-9851a5d84bb0:2a098bab8287bf8e3f6ebefd0a0236b40f3361a5/wide-1600-900/stadi.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19680_005.jpg",
+				"source": "https://www.kristiansundbk.no/nyheter/skifter-kunstgress-pa-nordmore-stadion/_/image/a817d8a7-af7b-4cd9-b6c7-7ea6429e8666:4c7447ad830b37973fb8c347ab5d1e20e596e0f2/wide-1600-900/stadion1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -158,7 +182,7 @@
 		"images": [
 			{
 				"name": "1182_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/Fa3EAclXwAAXpee.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -166,7 +190,7 @@
 			},
 			{
 				"name": "1182_002.jpg",
-				"source": "",
+				"source": "https://kenneth-jansen.com/arasen%20stadion.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -174,7 +198,7 @@
 			},
 			{
 				"name": "1182_003.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/%C3%85r%C3%A5sen_stadion.jpg/1200px-%C3%85r%C3%A5sen_stadion.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -182,7 +206,15 @@
 			},
 			{
 				"name": "1182_004.jpg",
-				"source": "",
+				"source": "https://stadiumdb.com/pictures/stadiums/nor/arasen_stadion/arasen_stadion11.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1182_005.jpg",
+				"source": "https://groundhopping.carlluis.de/storage/fotos/large/248/Arasen%20stadion-009-Haupttribuene.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -222,7 +254,7 @@
 		"images": [
 			{
 				"name": "1199_001.jpg",
-				"source": "",
+				"source": "https://g.acdn.no/obscura/API/dynamic/r1/ece5/tr_2000_2000_s_f/0000/dram/2024/11/15/12/Marienlyst%2Bstadion%2B%25282%2Bav%2B5%2529.jpg?chk=C4BE59",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -230,7 +262,7 @@
 			},
 			{
 				"name": "1199_002.jpg",
-				"source": "",
+				"source": "https://stadiumdb.com/pictures/stadiums/nor/marienlyst_stadion/marienlyst_stadion13.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -238,7 +270,7 @@
 			},
 			{
 				"name": "1199_003.jpg",
-				"source": "",
+				"source": "https://g.acdn.no/obscura/API/dynamic/r1/ece5/tr_2000_2000_s_f/0000/dram/2024/11/15/13/Marienlyst%2Bstadion%2B%25285%2Bav%2B5%2529.jpg?chk=2124D2",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -246,7 +278,7 @@
 			},
 			{
 				"name": "1199_004.jpg",
-				"source": "",
+				"source": "https://assets.simpleviewcms.com/simpleview/image/fetch/c_fill,h_1080,w_1920/f_jpg/q_65/https://media.newmindmedia.com/TellUs/image/%3Ffile%3DMarienlystStadion_1607425384.png&dh%3D450&dw%3D800&t%3D4",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -286,7 +318,7 @@
 		"images": [
 			{
 				"name": "19681_001.jpg",
-				"source": "",
+				"source": "https://gfx.nrk.no/MTwcI7nVUllhEL8H-0oXfwDcBkuStCx-lkdBJsmInQ8Q.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -294,7 +326,7 @@
 			},
 			{
 				"name": "19681_002.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/FsXbz6yXsAALQ7t.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -302,7 +334,7 @@
 			},
 			{
 				"name": "19681_003.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/West_Stand.JPG/1200px-West_Stand.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -310,7 +342,7 @@
 			},
 			{
 				"name": "19681_004.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/GNDEAItXoAA6vLD?format=jpg&name=4096x4096",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -350,7 +382,7 @@
 		"images": [
 			{
 				"name": "1175_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/Ec5LfjUWsAYkwuK.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -358,7 +390,7 @@
 			},
 			{
 				"name": "1175_002.jpg",
-				"source": "",
+				"source": "https://gfx.nrk.no/aybdjIrWW6h7GYuUMZUAJw1fohU3sET_rIjViK6B1rIA.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -366,7 +398,7 @@
 			},
 			{
 				"name": "1175_003.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/Fe9LoMlXEAA4wgg.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -374,7 +406,7 @@
 			},
 			{
 				"name": "1175_004.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/FgkupIlX0AE4USh.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -414,7 +446,7 @@
 		"images": [
 			{
 				"name": "12130_001.jpg",
-				"source": "",
+				"source": "https://sortitoutsi.b-cdn.net/uploads/media_2024/tGJAQLRDY8x5XMKzTbccDT1YSmv1HexHBTBOOnf9.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -422,7 +454,7 @@
 			},
 			{
 				"name": "12130_002.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/FeCvhigXwAMUxL1.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -430,7 +462,7 @@
 			},
 			{
 				"name": "12130_003.jpg",
-				"source": "",
+				"source": "https://www.aafk.no/nyheter/bortebilletter-haugesund/_/image/d9f37ae9-7924-4a86-b8f4-0d8c6a6a6b22:02852d419dd1d45dcb48283629242bd785bc373a/wide-1600-900/NTB_rTM8i7gIvIs.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -438,7 +470,15 @@
 			},
 			{
 				"name": "12130_004.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/Fu8Zn3yWcAADjAg.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12130_005.jpg",
+				"source": "https://akrehamn-vekst.no/wp-content/uploads/2021/08/Haugesund-Sparebank-Arena.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -478,7 +518,7 @@
 		"images": [
 			{
 				"name": "1184_001.jpg",
-				"source": "",
+				"source": "https://telegrafi.com/wp-content/uploads/2018/02/Aker-Stadion.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -486,7 +526,7 @@
 			},
 			{
 				"name": "1184_002.jpg",
-				"source": "",
+				"source": "https://www.footballticketnet.fr/theme/images/venues_cover/Buy-Aker_Stadion-Football-Tickets-FootballTicketNet-Cover.1726135284.png",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -494,7 +534,7 @@
 			},
 			{
 				"name": "1184_003.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/Dl2XrmSXoAE3tl-.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -502,7 +542,7 @@
 			},
 			{
 				"name": "1184_004.jpg",
-				"source": "",
+				"source": "https://www.info-stades.fr/uploads/stades/molde-aker-stadion-aerial-20582.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -542,7 +582,7 @@
 		"images": [
 			{
 				"name": "1187_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/6/60/Skagerak_Arena_2008.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -550,7 +590,7 @@
 			},
 			{
 				"name": "1187_002.jpg",
-				"source": "",
+				"source": "https://football-stadiums.ru/wp-content/uploads/2023/11/skagerak-arena-01.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -558,7 +598,7 @@
 			},
 			{
 				"name": "1187_003.jpg",
-				"source": "",
+				"source": "https://www.odd.no/nyheter/ny-treningskamp-pa-skagerak-arena/_/image/5a4540a7-547b-4ed7-bcb7-a242fc201ba1:62322610c8477ac89807c27f2e99a318b4811313/wide-1600-900/skagerak%20Arena%202021.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -566,7 +606,15 @@
 			},
 			{
 				"name": "1187_004.jpg",
-				"source": "",
+				"source": "https://g.acdn.no/obscura/API/dynamic/r1/ece5/tr_2000_2000_s_f/0000/teav/2021/5/21/10/08SPO_01-01-DSC_28ght07.jpg?chk=5BF126",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1187_005.jpg",
+				"source": "https://g.acdn.no/obscura/API/dynamic/r1/ece5/tr_2000_2000_s_f/0000/teav/2021/5/21/10/08SPO_01-01-DSC_28ght07.jpg?chk=5BF126",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -606,7 +654,7 @@
 		"images": [
 			{
 				"name": "1190_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/GSiZ2KUWUAANDiY?format=jpg&name=large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -614,7 +662,7 @@
 			},
 			{
 				"name": "1190_002.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/GUJstBlXAAAo467.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -622,7 +670,7 @@
 			},
 			{
 				"name": "1190_003.jpg",
-				"source": "",
+				"source": "https://cdn.shopify.com/s/files/1/0705/7352/3240/articles/Lerkandal_1000_1000.jpg?v=1691500269",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -630,7 +678,15 @@
 			},
 			{
 				"name": "1190_004.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/DkuGfT7WsAAWZuJ.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1190_005.jpg",
+				"source": "https://pbs.twimg.com/media/DkuGfT7WsAAWZuJ.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -670,7 +726,7 @@
 		"images": [
 			{
 				"name": "20418_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/F_EYghQWEAEl-ij.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -678,7 +734,7 @@
 			},
 			{
 				"name": "20418_002.jpg",
-				"source": "",
+				"source": "https://www.sandefjordfotball.no/om-stadion/veibeskrivelse-til-komplett-arena/_/image/05a39e9b-e64e-40d2-9d1d-bc8d9b5c8ffd:bb8a520abc1624557983013b9456c7a218b1c5c4/wide-1600-900/IMG_6457.JPG.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -686,7 +742,7 @@
 			},
 			{
 				"name": "20418_003.jpg",
-				"source": "",
+				"source": "https://kenneth-jansen.com/release%20arena.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -694,7 +750,7 @@
 			},
 			{
 				"name": "20418_004.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/GOB4w05X0AEbLZK.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -734,7 +790,7 @@
 		"images": [
 			{
 				"name": "1193_001.jpg",
-				"source": "",
+				"source": "https://g.acdn.no/obscura/API/dynamic/r1/ece5/tr_2000_2000_s_f/0000/sarp/2023/4/27/15/DJI_0009.jpeg?chk=DAC7CC",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -742,7 +798,7 @@
 			},
 			{
 				"name": "1193_002.jpg",
-				"source": "",
+				"source": "https://g.acdn.no/obscura/API/dynamic/r1/ece5/tr_2000_2000_s_f/0000/sarp/2020/4/1/16/Sstadion.jpg?chk=C98B75",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -750,15 +806,7 @@
 			},
 			{
 				"name": "1193_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1193_004.jpg",
-				"source": "",
+				"source": "https://cdn.blogg.no/content/uploads/sites/461/2024/11/12192546/20241105_190335-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -798,7 +846,7 @@
 		"images": [
 			{
 				"name": "1204_001.jpg",
-				"source": "",
+				"source": "https://www.polytan.fr/wp-content/uploads/2020/04/Titelbild.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -806,7 +854,7 @@
 			},
 			{
 				"name": "1204_002.jpg",
-				"source": "",
+				"source": "https://www.polytan.fr/wp-content/uploads/2020/03/SRbankArena12_1900x800.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -814,7 +862,7 @@
 			},
 			{
 				"name": "1204_003.jpg",
-				"source": "",
+				"source": "https://www.polytan.fr/wp-content/uploads/2020/03/SRbankArena21_1900x800.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -822,7 +870,7 @@
 			},
 			{
 				"name": "1204_004.jpg",
-				"source": "",
+				"source": "https://www.vikingfotball.no/nyheter/nm-finale-pa-sr-bank-arena/_/image/832e061a-6697-46f1-8a4b-ece9c2c990cc:7b287e9e8750a92f969513ff4afb920c9481844b/wide-1600-900/StadionNTB2021-2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -862,7 +910,7 @@
 		"images": [
 			{
 				"name": "1179_001.jpg",
-				"source": "",
+				"source": "https://www.kaaffa.no/om-stadion/kfum-arena/_/image/eab76ad3-9354-458a-bf66-bdaaa2902612:e063dbcf1219ff2e235eb4f10f61658e7b7f3670/wide-1170-810/DJI_0108x.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -870,7 +918,7 @@
 			},
 			{
 				"name": "1179_002.jpg",
-				"source": "",
+				"source": "https://www.kaaffa.no/om-stadion/_/image/aaceef82-5868-466b-b814-ce91b6bd50ca:61df65b83e46167ef0f8419e1c41dc481a628f59/wide-1600-900/DJI_0114xx.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -878,15 +926,7 @@
 			},
 			{
 				"name": "1179_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1179_004.jpg",
-				"source": "",
+				"source": "https://www.kaaffa.no/om-stadion/kfum-arena/_/image/2f557e47-c447-4aad-9e2a-7978ddf5e3e8:0f4aad8d9c591b832ff63ea368c1bdc7ebc2c4b1/wide-1170-810/DJI_0126.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -926,7 +966,7 @@
 		"images": [
 			{
 				"name": "2792_001.jpg",
-				"source": "",
+				"source": "https://g.acdn.no/obscura/API/dynamic/r1/ece5/tr_2000_2000_s_f/0000/fred/2017/11/14/15/1510671350596.jpg?chk=E57B78",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -934,7 +974,7 @@
 			},
 			{
 				"name": "2792_002.jpg",
-				"source": "",
+				"source": "https://www.fredrikstadfk.no/nyheter/lanserer-ny-kommersiell-satsning--apner-konseptbutikk/_/image/5e75e55a-a81b-48f9-9855-2cce6ac32f13:6c5562351db33ce621d0d5065d974bbc31210678/width-1100/0UE8Ojexen8.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -942,7 +982,7 @@
 			},
 			{
 				"name": "2792_003.jpg",
-				"source": "",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRaomdRc7iwYfa8bMjfzZ_ggCYG7UXSdSezTJ_dJqTvNVUz6XPbQn27jBp7doi0t_zJAQ-KElT70yp9SrJcYNLUHmP-q3WTaZrJboLofS3XChZBmxzj85uItsT5wM4a7JYBjjdXvCl20VQ/s1600/Fredrikstad+34.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -950,7 +990,7 @@
 			},
 			{
 				"name": "2792_004.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/GJb4hbzW8AARM_H?format=jpg&name=4096x4096",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -990,7 +1030,7 @@
 		"images": [
 			{
 				"name": "1177_001.jpg",
-				"source": "",
+				"source": "https://g.acdn.no/obscura/API/dynamic/r1/ece5/tr_2000_2000_s_f/0000/haar/2022/10/21/11/flyfoto-briskeby-17.jpg?chk=4EBEAA",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -998,7 +1038,7 @@
 			},
 			{
 				"name": "1177_002.jpg",
-				"source": "",
+				"source": "https://www.hamkam.no/nyheter/landskamper-pa-briskeby/_/image/e115116e-750e-494e-9173-e6e86edec184:afc35351adc8bfff3c388b05525001dd3229214a/wide-1600-900/Briskeby.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1006,7 +1046,7 @@
 			},
 			{
 				"name": "1177_003.jpg",
-				"source": "",
+				"source": "https://g.acdn.no/obscura/API/dynamic/r1/ece5/tr_2000_2000_s_f/0000/haar/2022/10/21/11/briskeby-7.jpg?chk=B2B178",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1014,7 +1054,7 @@
 			},
 			{
 				"name": "1177_004.jpg",
-				"source": "",
+				"source": "https://briskebystadion.com/wp-content/uploads/2024/10/briskeby3.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1054,7 +1094,7 @@
 		"images": [
 			{
 				"name": "5124_001.jpg",
-				"source": "",
+				"source": "https://www.dagsavisen.no/resizer/p2zO3UhmEYMKAB5ABml4oH_4vmk=/arc-photo-mentormedier/eu-central-1-prod/public/J7ELTQT5TBHGFJMKHVWINGRMYA.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1062,7 +1102,7 @@
 			},
 			{
 				"name": "5124_002.jpg",
-				"source": "",
+				"source": "https://www.mossfk.no/nyheter/velkommen-til-arsmote-i-moss-fk/_/image/2cbf8063-d4d2-49fe-9e40-378446f2a7e5:ccebfc3076e6371295d7f50777a3bce30175860a/wide-1600-900/Mell%C3%B8s%204.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1070,7 +1110,7 @@
 			},
 			{
 				"name": "5124_003.jpg",
-				"source": "",
+				"source": "https://www.mossfk.no/mellos-stadion/stadion-og-reaksjonsreglement/_/image/44f2700c-a87b-4404-9d82-e13a655fd7c7:743e22a359b583fab910c13cf05313f6d475c4d9/wide-1600-900/66118228_2902942193054802_2454558901832515584_n.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1078,7 +1118,7 @@
 			},
 			{
 				"name": "5124_004.jpg",
-				"source": "",
+				"source": "https://gfx.nrk.no/jqbhrsAlZkOFKGhVcHPe4gHr35KoVs6pjy7LrLZOftVw.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1118,7 +1158,7 @@
 		"images": [
 			{
 				"name": "1188_001.jpg",
-				"source": "",
+				"source": "https://static.wixstatic.com/media/2edd38_031d6cd67d9f45979fd7bf907c91a06a~mv2_d_3264_1840_s_2.jpg/v1/fill/w_1600%2Ch_901%2Cal_c%2Cq_90/file.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1126,7 +1166,7 @@
 			},
 			{
 				"name": "1188_002.jpg",
-				"source": "",
+				"source": "https://paabortebane.no/wp-content/uploads/2019/05/EXTRA-Arena.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1134,15 +1174,7 @@
 			},
 			{
 				"name": "1188_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1188_004.jpg",
-				"source": "",
+				"source": "https://www.ranheimfotball.no/nyheter/fast-plass-2017/_/image/7ddf24bb-2505-416b-8134-b02cfa9df0a9:5ee834fe15c4b2a1d2f57f5dadcfeeedbeee2c69/wide-1600-900/DSC_3364.JPG.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1182,7 +1214,7 @@
 		"images": [
 			{
 				"name": "1196_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Nadderud_stadion_IMG_6283.JPG/2560px-Nadderud_stadion_IMG_6283.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1190,7 +1222,7 @@
 			},
 			{
 				"name": "1196_002.jpg",
-				"source": "",
+				"source": "https://premium.vgc.no/v2/images/f9f12361-138d-45cc-9c89-d454c755e6e1?fit=crop&format=auto&h=1365&w=2048&s=bc61db93b3652281c21a1bd371419ba3b5f186c5",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1198,7 +1230,7 @@
 			},
 			{
 				"name": "1196_003.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Nadderud_stadion-main_stand.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1206,7 +1238,15 @@
 			},
 			{
 				"name": "1196_004.jpg",
-				"source": "",
+				"source": "https://www.stabak.no/nadderud-stadion/stadionreglement/_/image/35d45a0f-c4bd-4ecc-af76-fb2eb5e12eed:7a5a4c86ea1effc26c8edb78ecf7e7bad840a234/wide-1600-900/20181117-stb-nadderud-reglement.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1196_005.jpg",
+				"source": "https://i.eurosport.com/2023/05/30/3715502-75599968-2560-1440.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1246,7 +1286,7 @@
 		"images": [
 			{
 				"name": "1203_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/4/49/Intility_Arena_%28bilde05%29_%288._september_2018%29.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1254,7 +1294,7 @@
 			},
 			{
 				"name": "1203_002.jpg",
-				"source": "",
+				"source": "https://www.hent.no/wp-content/uploads/2021/06/1192_07.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1262,7 +1302,7 @@
 			},
 			{
 				"name": "1203_003.jpg",
-				"source": "",
+				"source": "https://www.rakennuslehti.fi/wp-content/uploads/2018/04/unisport_valerenga-e1524148042588-2048x1195.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1270,7 +1310,15 @@
 			},
 			{
 				"name": "1203_004.jpg",
-				"source": "",
+				"source": "https://www.vif-fotball.no/english-information/valerenga%20Kultur-%20og%20idrettspark/_/image/bc0ddcf8-4487-4a3b-822c-52f243b2cb8a:9f142d072897bffb6a569cc8a2e7c552992fa13d/wide-1600-900/TIFO%20(1).jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1203_005.jpg",
+				"source": "https://www.vif-fotball.no/english-information/media-information/_/image/285b3627-1675-4f31-9bf2-545fad643845:80a7717123e381ec9c93a50101579173e3c962ae/wide-1600-900/IMG_1259.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
