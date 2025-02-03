@@ -5,7 +5,8 @@
 			"name": "Vikingur Gota",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 2008
+			"founded": 2008,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 612,
@@ -44,7 +45,8 @@
 			"name": "B36 Torshavn",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1936
+			"founded": 1936,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 609,
@@ -83,7 +85,8 @@
 			"name": "NSI Runavik",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1957
+			"founded": 1957,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 611,
@@ -122,7 +125,8 @@
 			"name": "KI Klaksvik",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 610,
@@ -161,7 +165,8 @@
 			"name": "HB",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 609,
@@ -200,7 +205,8 @@
 			"name": "07 Vestur",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 2004
+			"founded": 2004,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3188,
@@ -239,7 +245,8 @@
 			"name": "EB / Streymur",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1993
+			"founded": 1993,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3191,
@@ -278,7 +285,8 @@
 			"name": "B68",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1962
+			"founded": 1962,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3194,
@@ -317,7 +325,8 @@
 			"name": "ÍF II",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1946
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3195,
@@ -356,7 +365,8 @@
 			"name": "Skála",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3196,
@@ -395,7 +405,8 @@
 			"name": "B71",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1970
+			"founded": 1970,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3190,
@@ -434,7 +445,8 @@
 			"name": "HB II",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 609,
@@ -473,11 +485,12 @@
 			"name": "KÍ II",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 610,
-			"name": "Injector Arena",
+			"api_football_id": 21585,
+			"name": "Við Djúpumýrar",
 			"address": "Gerigota",
 			"city": "Klaksvík, Borðoy",
 			"capacity": 4000,
@@ -512,7 +525,8 @@
 			"name": "NSÍ II",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1957
+			"founded": 1957,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 611,
@@ -551,7 +565,8 @@
 			"name": "Suduroy",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3193,
@@ -590,7 +605,8 @@
 			"name": "Víkingur II",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 2008
+			"founded": 2008,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 612,
@@ -629,7 +645,8 @@
 			"name": "AB",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1973
+			"founded": 1973,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3189,
@@ -668,7 +685,8 @@
 			"name": "B36 II",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1936
+			"founded": 1936,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 609,
@@ -707,7 +725,8 @@
 			"name": "TB",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1892
+			"founded": 1892,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3198,
@@ -746,7 +765,8 @@
 			"name": "Hoyvík",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1975
+			"founded": 1975,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 7104,

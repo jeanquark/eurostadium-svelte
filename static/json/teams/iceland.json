@@ -5,7 +5,8 @@
 			"name": "Fylkir",
 			"code": "FYL",
 			"country": "Iceland",
-			"founded": 1967
+			"founded": 1967,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 822,
@@ -44,7 +45,8 @@
 			"name": "FH hafnarfjordur",
 			"code": "HAF",
 			"country": "Iceland",
-			"founded": 1929
+			"founded": 1929,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 821,
@@ -83,7 +85,8 @@
 			"name": "KR Reykjavik",
 			"code": "REY",
 			"country": "Iceland",
-			"founded": 1899
+			"founded": 1899,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 10591,
@@ -122,7 +125,8 @@
 			"name": "KA Akureyri",
 			"code": "AKU",
 			"country": "Iceland",
-			"founded": 1928
+			"founded": 1928,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 827,
@@ -161,7 +165,8 @@
 			"name": "Valur Reykjavik",
 			"code": "VAL",
 			"country": "Iceland",
-			"founded": 1911
+			"founded": 1911,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 830,
@@ -200,7 +205,8 @@
 			"name": "Stjarnan",
 			"code": "STJ",
 			"country": "Iceland",
-			"founded": 1960
+			"founded": 1960,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 829,
@@ -239,7 +245,8 @@
 			"name": "Breidablik",
 			"code": "BRE",
 			"country": "Iceland",
-			"founded": 1950
+			"founded": 1950,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 820,
@@ -278,7 +285,8 @@
 			"name": "Vikingur Reykjavik",
 			"code": "VIK",
 			"country": "Iceland",
-			"founded": 1908
+			"founded": 1908,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 831,
@@ -317,7 +325,8 @@
 			"name": "IA Akranes",
 			"code": "AKR",
 			"country": "Iceland",
-			"founded": 1946
+			"founded": 1946,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 825,
@@ -356,7 +365,8 @@
 			"name": "HK Kopavogur",
 			"code": "KOP",
 			"country": "Iceland",
-			"founded": 1970
+			"founded": 1970,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 824,
@@ -395,7 +405,8 @@
 			"name": "Fram Reykjavik",
 			"code": "FRA",
 			"country": "Iceland",
-			"founded": 1908
+			"founded": 1908,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2319,
@@ -434,7 +445,8 @@
 			"name": "Vestri",
 			"code": null,
 			"country": "Iceland",
-			"founded": 2016
+			"founded": 2016,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3180,
@@ -473,7 +485,8 @@
 			"name": "IBV Vestmannaeyjar",
 			"code": "VES",
 			"country": "Iceland",
-			"founded": 1945
+			"founded": 1945,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 826,
@@ -512,7 +525,8 @@
 			"name": "Keflavik",
 			"code": "KEF",
 			"country": "Iceland",
-			"founded": 1929
+			"founded": 1929,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 19615,
@@ -551,7 +565,8 @@
 			"name": "Fjolnir",
 			"code": "FJO",
 			"country": "Iceland",
-			"founded": 1988
+			"founded": 1988,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1956,
@@ -590,7 +605,8 @@
 			"name": "Grindavik",
 			"code": "GRI",
 			"country": "Iceland",
-			"founded": 1935
+			"founded": 1935,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 823,
@@ -629,7 +645,8 @@
 			"name": "Throttur Reykjavik",
 			"code": "THR",
 			"country": "Iceland",
-			"founded": 1949
+			"founded": 1949,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2318,
@@ -668,7 +685,8 @@
 			"name": "Leiknir R.",
 			"code": "LEI",
 			"country": "Iceland",
-			"founded": 1973
+			"founded": 1973,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2320,
@@ -707,7 +725,8 @@
 			"name": "Thor Akureyri",
 			"code": "THO",
 			"country": "Iceland",
-			"founded": 1915
+			"founded": 1915,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 20542,
@@ -746,7 +765,8 @@
 			"name": "Grotta",
 			"code": "GRO",
 			"country": "Iceland",
-			"founded": 1967
+			"founded": 1967,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2314,
@@ -785,7 +805,8 @@
 			"name": "IR Reykjavik",
 			"code": null,
 			"country": "Iceland",
-			"founded": 1907
+			"founded": 1907,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2322,
@@ -824,7 +845,8 @@
 			"name": "Njardvik",
 			"code": "NJA",
 			"country": "Iceland",
-			"founded": 1944
+			"founded": 1944,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2317,
@@ -863,7 +885,8 @@
 			"name": "Afturelding",
 			"code": "ALF",
 			"country": "Iceland",
-			"founded": 1909
+			"founded": 1909,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 20543,
@@ -902,7 +925,8 @@
 			"name": "Dalvík / Reynir",
 			"code": "DAV",
 			"country": "Iceland",
-			"founded": 2006
+			"founded": 2006,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3187,

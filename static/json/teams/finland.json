@@ -5,7 +5,8 @@
 			"name": "Mariehamn",
 			"code": "MAR",
 			"country": "Finland",
-			"founded": 1935
+			"founded": 1935,
+			"wiki": "https://en.wikipedia.org/wiki/IFK_Mariehamn"
 		},
 		"venue": {
 			"api_football_id": 624,
@@ -29,7 +30,7 @@
 		"images": [
 			{
 				"name": "624_001.jpg",
-				"source": "",
+				"source": "https://fotboll.ifkmariehamn.com/sites/default/files/styles/page_main_image/public/media/image/DJI_0574_edited.jpg?h=41dc356f&itok=YOcNzFkK",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -37,7 +38,7 @@
 			},
 			{
 				"name": "624_002.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/9/92/Wikl%C3%B6f_Holding_Arena_4.7.2017.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -45,7 +46,7 @@
 			},
 			{
 				"name": "624_003.jpg",
-				"source": "",
+				"source": "https://images.citybreakcdn.com/image.aspx?ImageId=4011173",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -53,7 +54,7 @@
 			},
 			{
 				"name": "624_004.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/FfLlPkCXoAEZ9dC.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -68,7 +69,8 @@
 			"name": "HJK helsinki",
 			"code": "HJK",
 			"country": "Finland",
-			"founded": 1907
+			"founded": 1907,
+			"wiki": "https://en.wikipedia.org/wiki/Helsingin_Jalkapalloklubi"
 		},
 		"venue": {
 			"api_football_id": 615,
@@ -92,7 +94,7 @@
 		"images": [
 			{
 				"name": "615_001.jpg",
-				"source": "",
+				"source": "https://www.boltarena.fi/_next/image?url=https%3A%2F%2Fcontent.boltarena.fi%2Fmedia%2F2024%2F07%2FBolt-Arena-etelasta.jpg&w=3840&q=100",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -100,7 +102,7 @@
 			},
 			{
 				"name": "615_002.jpg",
-				"source": "",
+				"source": "https://www.stadiumguide.com/wp-content/uploads/bolt1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -108,7 +110,7 @@
 			},
 			{
 				"name": "615_003.jpg",
-				"source": "",
+				"source": "https://stadiumdb.com/pictures/stadiums/fin/finnair_stadium/finnair_stadium23.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -116,7 +118,23 @@
 			},
 			{
 				"name": "615_004.jpg",
-				"source": "",
+				"source": "https://files.venuu.se/attachments/000/136/739/3868a9a26bca86c2caa9723e29e4bd2a50916a77.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "615_005.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Finnair_Stadium_Helsinki.JPG/1200px-Finnair_Stadium_Helsinki.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "615_006.jpg",
+				"source": "https://football-stadiums.ru/wp-content/uploads/2024/01/bolt-arena-08.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -131,7 +149,8 @@
 			"name": "VPS",
 			"code": "VAA",
 			"country": "Finland",
-			"founded": 1924
+			"founded": 1924,
+			"wiki": "https://en.wikipedia.org/wiki/Vaasan_Palloseura"
 		},
 		"venue": {
 			"api_football_id": 19205,
@@ -155,7 +174,7 @@
 		"images": [
 			{
 				"name": "19205_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Elisa_Stadion.jpg/1200px-Elisa_Stadion.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -163,7 +182,7 @@
 			},
 			{
 				"name": "19205_002.jpg",
-				"source": "",
+				"source": "https://www.veikkausliiga.com/media/filer_public_thumbnails/filer_public/2e/14/2e1454ac-67d7-4fc6-a3a4-d2a2f7f4aca7/hietalahti_puukatsomo_230611.jpg__1175x725_q85_box-0%2C103%2C2130%2C1418_crop_detail_subsampling-2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -171,15 +190,7 @@
 			},
 			{
 				"name": "19205_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "19205_004.jpg",
-				"source": "",
+				"source": "https://digitekno.fi/images/referenssit/Lemonsoft_stadion/DT-SPORT_8600-FB_tulostaulu_Lemonsoft_areenalla_Vaasassa.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -194,7 +205,8 @@
 			"name": "SJK",
 			"code": "SJK",
 			"country": "Finland",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Sein%C3%A4joen_Jalkapallokerho"
 		},
 		"venue": {
 			"api_football_id": 629,
@@ -218,7 +230,7 @@
 		"images": [
 			{
 				"name": "629_001.jpg",
-				"source": "",
+				"source": "https://omaspstadion.fi/wp-content/uploads/2020/03/omasp_stadion_mahdollisuuksien_stadion_-3.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -226,7 +238,7 @@
 			},
 			{
 				"name": "629_002.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e5/OmaSp_Stadion_20180604.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -234,7 +246,7 @@
 			},
 			{
 				"name": "629_003.jpg",
-				"source": "",
+				"source": "https://stadiumdb.com/pictures/stadiums/fin/omasp_stadion/omasp_stadion05.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -242,7 +254,7 @@
 			},
 			{
 				"name": "629_004.jpg",
-				"source": "",
+				"source": "https://www.teknos.com/globalassets/teknos.com/industrial-coatings/showroom/gi/omasp_stadion_1920x1080.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -257,7 +269,8 @@
 			"name": "Ilves",
 			"code": "ILV",
 			"country": "Finland",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Ilves_(football)"
 		},
 		"venue": {
 			"api_football_id": 10606,
@@ -281,7 +294,7 @@
 		"images": [
 			{
 				"name": "10606_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Ratina_Stadium_4.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -289,7 +302,7 @@
 			},
 			{
 				"name": "10606_002.jpg",
-				"source": "",
+				"source": "https://cdn.matkasuomi.fi/2022/04/tampere_stadium_aerial_photo-1-1-scaled.jpg?w=1920",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -297,7 +310,7 @@
 			},
 			{
 				"name": "10606_003.jpg",
-				"source": "",
+				"source": "https://images.cdn.yle.fi/image/upload/ar_1.7777777777777777,c_fill,g_faces,h_431,w_767/dpr_2.0/q_auto:eco/f_auto/fl_lossy/13-3-9043526",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -305,7 +318,23 @@
 			},
 			{
 				"name": "10606_004.jpg",
-				"source": "",
+				"source": "https://cdn-datahub.visitfinland.com/images/2cf023d0-cf63-11ec-baab-1bce364ca529.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10606_005.jpg",
+				"source": "https://api.mtvuutiset.fi/graphql/caas/v1/media/7524946/data/eeffd61db5844666090cd15391c7cb2d/16-1-40684292.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10606_006.jpg",
+				"source": "https://photos.wikimapia.org/p/00/08/33/43/69_full.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -320,7 +349,8 @@
 			"name": "Inter Turku",
 			"code": "INT",
 			"country": "Finland",
-			"founded": 1990
+			"founded": 1990,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Inter_Turku"
 		},
 		"venue": {
 			"api_football_id": 618,
@@ -344,7 +374,7 @@
 		"images": [
 			{
 				"name": "618_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Veritas_Stadion_23.7.2015.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -352,7 +382,7 @@
 			},
 			{
 				"name": "618_002.jpg",
-				"source": "",
+				"source": "https://www.sweco.fi/wp-content/uploads/sites/7/2024/01/Veritas-jalkapallostadion_Turku.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -360,7 +390,7 @@
 			},
 			{
 				"name": "618_003.jpg",
-				"source": "",
+				"source": "https://fcinter.fi/_next/image?url=https%3A%2F%2Fcontent.fcinter.fi%2Fmedia%2F2024%2F04%2F68105fc6-345e-47c3-b676-282d6944a060.jpeg&w=3840&q=75",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -368,7 +398,15 @@
 			},
 			{
 				"name": "618_004.jpg",
-				"source": "",
+				"source": "https://www.turku.fi/sites/default/files/styles/top_carousel_breakpoints_theme_driveturku_smalldesktop_1x/public/thumbnails/image/veritas-stadion_ja_valaisinpylvaat.jpg?itok=mpFjSbJS",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "618_005.jpg",
+				"source": "https://veritasstadion.fi/wp-content/gallery/urheilustadion/TW_5D4_7515.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -383,7 +421,8 @@
 			"name": "KuPS",
 			"code": "KUP",
 			"country": "Finland",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/Kuopion_Palloseura"
 		},
 		"venue": {
 			"api_football_id": 12286,
@@ -407,7 +446,7 @@
 		"images": [
 			{
 				"name": "12286_001.jpg",
-				"source": "",
+				"source": "https://i.ytimg.com/vi/r1eClZZIaa4/maxresdefault.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -415,7 +454,7 @@
 			},
 			{
 				"name": "12286_002.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Savon_Sanomat_Areena_20.9.2016.jpg/1200px-Savon_Sanomat_Areena_20.9.2016.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -423,7 +462,7 @@
 			},
 			{
 				"name": "12286_003.jpg",
-				"source": "",
+				"source": "https://www.kuopio.fi/uploads/2023/03/moymaen-kentat8-raimop16092024.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -431,7 +470,7 @@
 			},
 			{
 				"name": "12286_004.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/GSxTEZxWwAAmiYk.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -446,7 +485,8 @@
 			"name": "Lahti",
 			"code": "LAH",
 			"country": "Finland",
-			"founded": 1996
+			"founded": 1996,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Lahti"
 		},
 		"venue": {
 			"api_football_id": 623,
@@ -470,7 +510,7 @@
 		"images": [
 			{
 				"name": "623_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/DWkcFZnXUAAC1mN.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -478,7 +518,7 @@
 			},
 			{
 				"name": "623_002.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Lahti_Stadium_2021.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -486,7 +526,7 @@
 			},
 			{
 				"name": "623_003.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lahden_Stadion_view.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -494,7 +534,7 @@
 			},
 			{
 				"name": "623_004.jpg",
-				"source": "",
+				"source": "https://football-stadiums.ru/wp-content/uploads/2023/03/lahden-stadion-12.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -509,7 +549,8 @@
 			"name": "FF Jaro",
 			"code": "JAR",
 			"country": "Finland",
-			"founded": 1965
+			"founded": 1965,
+			"wiki": "https://en.wikipedia.org/wiki/FF_Jaro"
 		},
 		"venue": {
 			"api_football_id": 619,
@@ -533,7 +574,7 @@
 		"images": [
 			{
 				"name": "619_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Pietarsaaren_keskuskentt%C3%A4_25.7.2014b.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -541,7 +582,7 @@
 			},
 			{
 				"name": "619_002.jpg",
-				"source": "",
+				"source": "https://www.saturday3.com/images/mg/jakobstad_9.04.17_26_.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -549,15 +590,7 @@
 			},
 			{
 				"name": "619_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "619_004.jpg",
-				"source": "",
+				"source": "https://images.cdn.yle.fi/image/upload/ar_1.5049019607843137,c_fill,g_faces,h_509,w_767/dpr_2.0/q_auto:eco/f_auto/fl_lossy/14-svyle-2932255768e7bd45ead",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -572,7 +605,8 @@
 			"name": "AC Oulu",
 			"code": "OUL",
 			"country": "Finland",
-			"founded": 2002
+			"founded": 2002,
+			"wiki": "https://en.wikipedia.org/wiki/AC_Oulu"
 		},
 		"venue": {
 			"api_football_id": 627,
@@ -596,7 +630,7 @@
 		"images": [
 			{
 				"name": "627_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Raatti_Stadium_20110617.jpg/1200px-Raatti_Stadium_20110617.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -604,7 +638,7 @@
 			},
 			{
 				"name": "627_002.jpg",
-				"source": "",
+				"source": "https://www.veikkausliiga.com/media/filer_public_thumbnails/filer_public/cb/72/cb72bce1-bc37-43ec-aa3a-ff8c50715d2c/raatin_stadion.jpg__1175x725_q85_box-0%2C354%2C1989%2C1581_crop_detail_subsampling-2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -612,15 +646,7 @@
 			},
 			{
 				"name": "627_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "627_004.jpg",
-				"source": "",
+				"source": "https://www.veikkausliiga.com/media/filer_public_thumbnails/filer_public/2f/b6/2fb656b9-0272-4706-bb77-3534c9e6dcfa/acoulu_yleisoa_220702_iitu_lehtonen.jpg__1175x725_q85_box-0%2C286%2C6000%2C3988_crop_detail_subsampling-2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -635,7 +661,8 @@
 			"name": "EIF",
 			"code": "EKE",
 			"country": "Finland",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": "https://en.wikipedia.org/wiki/Eken%C3%A4s_IF"
 		},
 		"venue": {
 			"api_football_id": 20731,
@@ -659,31 +686,7 @@
 		"images": [
 			{
 				"name": "20731_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20731_002.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20731_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20731_004.jpg",
-				"source": "",
+				"source": "https://www.raseborg.fi/wp-content/uploads/2024/07/original-CD53BE91-C281-48BA-A4BA-DE21601D478F.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -698,7 +701,8 @@
 			"name": "Haka",
 			"code": "HAK",
 			"country": "Finland",
-			"founded": 1934
+			"founded": 1934,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Haka"
 		},
 		"venue": {
 			"api_football_id": 614,
@@ -722,7 +726,31 @@
 		"images": [
 			{
 				"name": "614_001.jpg",
-				"source": "https://en.wikipedia.org/wiki/Tehtaan_kentt%C3%A4#/media/File:Tehtaan_kentt%C3%A4_valkeakoski_Finland.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/9/99/Tehtaan_kentt%C3%A4_2012.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "614_002.jpg",
+				"source": "https://waltikka.kuvat.fi/kuvat/Urheilupaikat%20-%20Sport%20Venues%20Valkeakoski/Tehtaan%20kentt%C3%A4%20-%20Football%20stadium/IMG_2598.JPG?img=img2048",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "614_003.jpg",
+				"source": "https://i.media.fi/incoming/2014/10/01/440026.jpg/alternates/FREE_1440/440026.jpg?gsid=7d35d73d-52ec-41da-b7b0-db13a7495252",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "614_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Tehtaan_kentt%C3%A4_valkeakoski_Finland.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -737,7 +765,8 @@
 			"name": "Gnistan",
 			"code": "GNI",
 			"country": "Finland",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/IF_Gnistan"
 		},
 		"venue": {
 			"api_football_id": 2698,
@@ -761,7 +790,7 @@
 		"images": [
 			{
 				"name": "2698_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Oulunkyl%C3%A4_Stadium_2024.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -769,7 +798,7 @@
 			},
 			{
 				"name": "2698_002.jpg",
-				"source": "",
+				"source": "https://redcarpetgroup.fi/wp-content/uploads/2024/06/20240602_Gnistan_068-scaled-uai-1920x1440.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -777,15 +806,7 @@
 			},
 			{
 				"name": "2698_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2698_004.jpg",
-				"source": "",
+				"source": "https://gnistan.fi/wp-content/uploads/2024/02/Gnistan-HIFK-4-0-miesten-Ykkonen-28.6.2023-11.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -800,7 +821,8 @@
 			"name": "Rops",
 			"code": "ROV",
 			"country": "Finland",
-			"founded": 1950
+			"founded": 1950,
+			"wiki": "https://en.wikipedia.org/wiki/Rovaniemen_Palloseura"
 		},
 		"venue": {
 			"api_football_id": 628,
@@ -824,7 +846,39 @@
 		"images": [
 			{
 				"name": "628_001.jpg",
-				"source": "https://rovalappi.fi/wp-content/uploads/2020/01/Rovaniemen_keskuskentta%CC%88-3.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Rovaniemen_keskuskentt%C3%A4_8.7.2016.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "628_002.jpg",
+				"source": "https://www.arkkitehtuurinfinlandia.fi/media/dsc_4890x-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "628_003.jpg",
+				"source": "https://www.arkkitehtuurinfinlandia.fi/media/dsc_4787-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "628_004.jpg",
+				"source": "https://images.cdn.yle.fi/image/upload/ar_1.7777777777777777,c_fill,g_faces,h_431,w_767/dpr_2.0/q_auto:eco/f_auto/fl_lossy/13-3-8083915",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "628_005.jpg",
+				"source": "https://www.veikkausliiga.com/media/filer_public_thumbnails/filer_public/55/71/55711d4b-30e6-4455-b975-8ee7cdc8d8d8/rovaniemi_stadion_2.jpg__1175x725_q85_box-0%2C95%2C2000%2C1329_crop_detail_subsampling-2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -839,7 +893,8 @@
 			"name": "JJK",
 			"code": "JJK",
 			"country": "Finland",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/JJK_Jyv%C3%A4skyl%C3%A4"
 		},
 		"venue": {
 			"api_football_id": 1939,
@@ -863,7 +918,7 @@
 		"images": [
 			{
 				"name": "1939_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/8/82/Harjun_stadion_18.7.2014b.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -871,7 +926,7 @@
 			},
 			{
 				"name": "1939_002.jpg",
-				"source": "",
+				"source": "https://stadiumdb.com/pictures/stadiums/fin/harjun_stadion/harjun_stadion07.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -879,7 +934,7 @@
 			},
 			{
 				"name": "1939_003.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Harju_stadium2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -887,7 +942,7 @@
 			},
 			{
 				"name": "1939_004.jpg",
-				"source": "",
+				"source": "https://i.media.fi/incoming/6kplno-2500329_.jpg/alternates/FREE_1440/2500329_.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -902,7 +957,8 @@
 			"name": "FC jazz",
 			"code": "JAZ",
 			"country": "Finland",
-			"founded": 1934
+			"founded": 1934,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Jazz"
 		},
 		"venue": {
 			"api_football_id": 625,
@@ -926,7 +982,31 @@
 		"images": [
 			{
 				"name": "625_001.jpg",
+				"source": "https://cms.pori.fi/uploads/sites/2/2022/09/stadion_kuvajanirantanen.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "625_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Porin_stadion_12.7.2013b.jpg/2560px-Porin_stadion_12.7.2013b.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "625_003.jpg",
 				"source": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Porin_Jalkapallostadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "625_004.jpg",
+				"source": "https://www.suomifutis.com/app/uploads/2022/08/t_porinstadion20040530.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -941,7 +1021,8 @@
 			"name": "Klubi-04",
 			"code": null,
 			"country": "Finland",
-			"founded": 2004
+			"founded": 2004,
+			"wiki": "https://en.wikipedia.org/wiki/Klubi_04"
 		},
 		"venue": {
 			"api_football_id": 615,
@@ -965,7 +1046,47 @@
 		"images": [
 			{
 				"name": "615_001.jpg",
-				"source": "https://en.wikipedia.org/wiki/Bolt_Arena#/media/File:Finnair_Stadium_Helsinki.JPG",
+				"source": "https://www.boltarena.fi/_next/image?url=https%3A%2F%2Fcontent.boltarena.fi%2Fmedia%2F2024%2F07%2FBolt-Arena-etelasta.jpg&w=3840&q=100",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "615_002.jpg",
+				"source": "https://www.stadiumguide.com/wp-content/uploads/bolt1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "615_003.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/fin/finnair_stadium/finnair_stadium23.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "615_004.jpg",
+				"source": "https://files.venuu.se/attachments/000/136/739/3868a9a26bca86c2caa9723e29e4bd2a50916a77.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "615_005.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Finnair_Stadium_Helsinki.JPG/1200px-Finnair_Stadium_Helsinki.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "615_006.jpg",
+				"source": "https://football-stadiums.ru/wp-content/uploads/2024/01/bolt-arena-08.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -980,7 +1101,8 @@
 			"name": "EPS",
 			"code": null,
 			"country": "Finland",
-			"founded": 1970
+			"founded": 1970,
+			"wiki": "https://en.wikipedia.org/wiki/Espoon_Palloseura"
 		},
 		"venue": {
 			"api_football_id": 6359,
@@ -1004,7 +1126,7 @@
 		"images": [
 			{
 				"name": "6359_001.jpg",
-				"source": "https://c1.staticflickr.com/5/4391/35792657244_282d371f41_b.jpg",
+				"source": "https://c1.staticflickr.com/5/4327/36087618186_c66a6f19b3_b.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1019,7 +1141,8 @@
 			"name": "OLS",
 			"code": "OUL",
 			"country": "Finland",
-			"founded": 1880
+			"founded": 1880,
+			"wiki": "https://en.wikipedia.org/wiki/Oulun_Luistinseura"
 		},
 		"venue": {
 			"api_football_id": 2699,
@@ -1043,7 +1166,7 @@
 		"images": [
 			{
 				"name": "2699_001.jpg",
-				"source": "https://www.europlan-online.de/files/5de130d50c6f461d135dcc48b9b478dc.JPG",
+				"source": "https://www.yleisurheilu.fi/wp-content/uploads/2024/08/Raatti-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1058,7 +1181,8 @@
 			"name": "VIFK",
 			"code": "VIF",
 			"country": "Finland",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Vasa_IFK"
 		},
 		"venue": {
 			"api_football_id": 19205,
@@ -1082,7 +1206,23 @@
 		"images": [
 			{
 				"name": "19205_001.jpg",
-				"source": "https://en.wikipedia.org/wiki/Hietalahti_Stadium#/media/File:Elisa_Stadion.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Elisa_Stadion.jpg/1200px-Elisa_Stadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19205_002.jpg",
+				"source": "https://www.veikkausliiga.com/media/filer_public_thumbnails/filer_public/2e/14/2e1454ac-67d7-4fc6-a3a4-d2a2f7f4aca7/hietalahti_puukatsomo_230611.jpg__1175x725_q85_box-0%2C103%2C2130%2C1418_crop_detail_subsampling-2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19205_003.jpg",
+				"source": "https://digitekno.fi/images/referenssit/Lemonsoft_stadion/DT-SPORT_8600-FB_tulostaulu_Lemonsoft_areenalla_Vaasassa.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1097,7 +1237,8 @@
 			"name": "Vaajakoski",
 			"code": null,
 			"country": "Finland",
-			"founded": 1993
+			"founded": 1993,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Vaajakoski"
 		},
 		"venue": {
 			"api_football_id": 6370,
@@ -1110,7 +1251,7 @@
 			"lng": 25.87034,
 			"x": 514,
 			"y": 795,
-			"wiki": ""
+			"wiki": "https://fi.wikipedia.org/wiki/Vaajakosken_liikuntapuisto"
 		},
 		"league": {
 			"api_football_id": 245,
@@ -1126,6 +1267,14 @@
 				"width": 0,
 				"height": 0,
 				"size": 0
+			},
+			{
+				"name": "6370_002.jpg",
+				"source": "https://www.fcvaajakoski.com/wp-content/uploads/2021/09/E-hk48bXoAI1JTB.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
 			}
 		],
 		"no": 21
@@ -1136,7 +1285,8 @@
 			"name": "PKKU",
 			"code": "KES",
 			"country": "Finland",
-			"founded": 2005
+			"founded": 2005,
+			"wiki": "https://en.wikipedia.org/wiki/Pallokerho_Keski-Uusimaa"
 		},
 		"venue": {
 			"api_football_id": 6372,
@@ -1175,7 +1325,8 @@
 			"name": "KPV-j",
 			"code": null,
 			"country": "Finland",
-			"founded": 1930
+			"founded": 1930,
+			"wiki": "https://en.wikipedia.org/wiki/Kokkolan_Palloveikot"
 		},
 		"venue": {
 			"api_football_id": 620,
@@ -1188,7 +1339,7 @@
 			"lng": 23.12241,
 			"x": 402,
 			"y": 653,
-			"wiki": ""
+			"wiki": "https://fi.wikipedia.org/wiki/Kokkolan_keskuskentt%C3%A4"
 		},
 		"league": {
 			"api_football_id": 245,
@@ -1199,7 +1350,7 @@
 		"images": [
 			{
 				"name": "620_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/5/57/Kokkolan_keskuskentt%C3%A4_17.6.2017.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1207,7 +1358,7 @@
 			},
 			{
 				"name": "620_002.jpg",
-				"source": "",
+				"source": "https://images.cdn.yle.fi/image/upload/f_jpg,c_fill,w_1920,h_1080,q_auto/v1730181430/39-6920175ef17f01b75c8.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1215,7 +1366,7 @@
 			},
 			{
 				"name": "620_003.jpg",
-				"source": "",
+				"source": "https://images.cdn.yle.fi/image/upload/c_crop,h_2268,w_4032,x_0,y_0/ar_1.7777777777777777,c_fill,g_faces,h_431,w_767/dpr_2.0/q_auto:eco/f_auto/fl_lossy/v1592885131/39-6920195ef17f0250288",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1223,7 +1374,7 @@
 			},
 			{
 				"name": "620_004.jpg",
-				"source": "",
+				"source": "https://images.cdn.yle.fi/image/upload/ar_1.501123,c_fill,g_faces,h_510,w_767/dpr_2.0/q_auto:eco/f_auto/fl_lossy/39-869910617147d04dd9b",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1238,7 +1389,8 @@
 			"name": "Atlantis",
 			"code": "ATL",
 			"country": "Finland",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Atlantis_FC"
 		},
 		"venue": {
 			"api_football_id": 7304,
@@ -1262,7 +1414,15 @@
 		"images": [
 			{
 				"name": "7304_001.jpg",
-				"source": "https://fi.wikipedia.org/wiki/Pukinm%C3%A4en_liikuntapuisto#/media/Tiedosto:Pukinm%C3%A4en_urheilupuisto.jpg",
+				"source": "https://liikunta.content.api.hel.fi/uploads/sites/2/2022/10/71498e43-pukinmaen_liikuntapuisto_yleiskuva_8-2022_kuva_aki_rask.jpg-muokattu.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "7304_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Pukinm%C3%A4en_urheilupuisto.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1277,7 +1437,8 @@
 			"name": "KuPS Akatemia",
 			"code": null,
 			"country": "Finland",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Kuopion_Palloseura"
 		},
 		"venue": {
 			"api_football_id": 12286,
@@ -1301,7 +1462,23 @@
 		"images": [
 			{
 				"name": "12286_001.jpg",
-				"source": "https://en.wikipedia.org/wiki/Kuopio_Football_Stadium#/media/File:Savon_Sanomat_Areena_20.9.2016.jpg",
+				"source": "https://pbs.twimg.com/media/GSxTEZxWwAAmiYk.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12286_002.jpg",
+				"source": "https://www.kuopio.fi/uploads/2023/03/moymaen-kentat8-raimop16092024.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12286_003.jpg",
+				"source": "https://pbs.twimg.com/media/GR5cIZEbcAAFiZQ.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1312,69 +1489,12 @@
 	},
 	{
 		"team": {
-			"api_football_id": 1169,
-			"name": "Honka",
-			"code": "HON",
-			"country": "Finland",
-			"founded": 1957
-		},
-		"venue": {
-			"api_football_id": 616,
-			"name": "Tapiolan Urheilupuisto",
-			"address": "Urheilupuistontie 2",
-			"city": "Esbo",
-			"capacity": 5500,
-			"surface": "grass",
-			"lat": 60.179111,
-			"lng": 24.781306,
-			"x": 470,
-			"y": 970,
-			"wiki": "https://en.wikipedia.org/wiki/Tapiolan_urheilupuisto"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "616_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "616_002.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "616_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "616_004.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 26
-	},
-	{
-		"team": {
 			"api_football_id": 2076,
 			"name": "Kooteepee",
 			"code": "KTP",
 			"country": "Finland",
-			"founded": 1927
+			"founded": 1927,
+			"wiki": "https://en.wikipedia.org/wiki/Kotkan_Ty%C3%B6v%C3%A4en_Palloilijat"
 		},
 		"venue": {
 			"api_football_id": 8432,
@@ -1393,7 +1513,7 @@
 		"images": [
 			{
 				"name": "8432_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Arto_Tolsa_Areena_18.7.2018.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1401,7 +1521,7 @@
 			},
 			{
 				"name": "8432_002.jpg",
-				"source": "",
+				"source": "https://images.cdn.yle.fi/image/upload/c_crop,h_3510,w_6240,x_0,y_380/ar_1.7777777777777777,c_fill,g_faces,h_431,w_767/dpr_2.0/q_auto:eco/f_auto/fl_lossy/v1633502160/39-863072615d42982acea",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1409,7 +1529,7 @@
 			},
 			{
 				"name": "8432_003.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Arto_Tolsa_-areena_1.jpg/1200px-Arto_Tolsa_-areena_1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1417,7 +1537,50 @@
 			},
 			{
 				"name": "8432_004.jpg",
-				"source": "",
+				"source": "https://sportti.org/site/assets/files/13772/kuva6.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 1169,
+			"name": "Honka",
+			"code": "HON",
+			"country": "Finland",
+			"founded": 1957,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Honka"
+		},
+		"venue": {
+			"api_football_id": 616,
+			"name": "Tapiolan Urheilupuisto",
+			"address": "Urheilupuistontie 2",
+			"city": "Esbo",
+			"capacity": 5500,
+			"surface": "grass",
+			"lat": 60.179111,
+			"lng": 24.781306,
+			"x": 470,
+			"y": 970,
+			"wiki": "https://en.wikipedia.org/wiki/Tapiolan_urheilupuisto"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "616_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tapiolan_urheilupuisto_7.6.2013.JPG/1200px-Tapiolan_urheilupuisto_7.6.2013.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "616_002.jpg",
+				"source": "https://static.espoo.fi/cdn/ff/YRBIlWqWotzBK6y8_ntxxV7wLshPSKXaqoutKK5fg1Y/1688457644/public/2023-07/Tapiolan%20urheilupuisto.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1432,7 +1595,8 @@
 			"name": "haka",
 			"code": "HAK",
 			"country": "Finland",
-			"founded": 1934
+			"founded": 1934,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Haka"
 		},
 		"venue": {
 			"api_football_id": 614,
@@ -1451,7 +1615,7 @@
 		"images": [
 			{
 				"name": "614_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/9/99/Tehtaan_kentt%C3%A4_2012.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1459,7 +1623,7 @@
 			},
 			{
 				"name": "614_002.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Tehtaan_kentt%C3%A4_valkeakoski_Finland.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1467,7 +1631,7 @@
 			},
 			{
 				"name": "614_003.jpg",
-				"source": "",
+				"source": "https://fchaka.fi/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-02-at-09.08.37-768x1024.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1475,7 +1639,7 @@
 			},
 			{
 				"name": "614_004.jpg",
-				"source": "",
+				"source": "https://waltikka.kuvat.fi/kuvat/Urheilupaikat%20-%20Sport%20Venues%20Valkeakoski/Tehtaan%20kentt%C3%A4%20-%20Football%20stadium/IMG_0815.JPG?img=img2048",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1490,7 +1654,8 @@
 			"name": "Turku PS",
 			"code": "TPS",
 			"country": "Finland",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/Turun_Palloseura"
 		},
 		"venue": {
 			"api_football_id": 618,
@@ -1509,7 +1674,7 @@
 		"images": [
 			{
 				"name": "618_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Veritas_Stadion_23.7.2015.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1517,7 +1682,7 @@
 			},
 			{
 				"name": "618_002.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Veritas_Stadion_13.5.2004.jpg/1280px-Veritas_Stadion_13.5.2004.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1525,7 +1690,7 @@
 			},
 			{
 				"name": "618_003.jpg",
-				"source": "",
+				"source": "https://www.sweco.fi/wp-content/uploads/sites/7/2024/01/Veritas-jalkapallostadion_Turku.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1533,7 +1698,7 @@
 			},
 			{
 				"name": "618_004.jpg",
-				"source": "",
+				"source": "https://fcinter.fi/_next/image?url=https%3A%2F%2Fcontent.fcinter.fi%2Fmedia%2F2024%2F04%2F68105fc6-345e-47c3-b676-282d6944a060.jpeg&w=3840&q=75",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1548,7 +1713,8 @@
 			"name": "HIFK Elsinki",
 			"code": "HIF",
 			"country": "Finland",
-			"founded": 1897
+			"founded": 1897,
+			"wiki": "https://en.wikipedia.org/wiki/HIFK_Fotboll"
 		},
 		"venue": {
 			"api_football_id": 615,
@@ -1567,7 +1733,7 @@
 		"images": [
 			{
 				"name": "615_001.jpg",
-				"source": "",
+				"source": "https://www.boltarena.fi/_next/image?url=https%3A%2F%2Fcontent.boltarena.fi%2Fmedia%2F2024%2F07%2FBolt-Arena-etelasta.jpg&w=3840&q=100",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1575,7 +1741,7 @@
 			},
 			{
 				"name": "615_002.jpg",
-				"source": "",
+				"source": "https://www.stadiumguide.com/wp-content/uploads/bolt1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1583,7 +1749,7 @@
 			},
 			{
 				"name": "615_003.jpg",
-				"source": "",
+				"source": "https://stadiumdb.com/pictures/stadiums/fin/finnair_stadium/finnair_stadium23.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1591,7 +1757,23 @@
 			},
 			{
 				"name": "615_004.jpg",
-				"source": "",
+				"source": "https://files.venuu.se/attachments/000/136/739/3868a9a26bca86c2caa9723e29e4bd2a50916a77.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "615_005.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Finnair_Stadium_Helsinki.JPG/1200px-Finnair_Stadium_Helsinki.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "615_006.jpg",
+				"source": "https://football-stadiums.ru/wp-content/uploads/2024/01/bolt-arena-08.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1606,7 +1788,8 @@
 			"name": "JäPS",
 			"code": "JAP",
 			"country": "Finland",
-			"founded": 1947
+			"founded": 1947,
+			"wiki": "https://en.wikipedia.org/wiki/J%C3%A4rvenp%C3%A4%C3%A4n_Palloseura"
 		},
 		"venue": {
 			"api_football_id": 6351,
@@ -1619,13 +1802,13 @@
 			"lng": 25.095043,
 			"x": 482,
 			"y": 946,
-			"wiki": ""
+			"wiki": "https://fi.wikipedia.org/wiki/J%C3%A4rvenp%C3%A4%C3%A4n_keskuskentt%C3%A4"
 		},
 		"league": {},
 		"images": [
 			{
 				"name": "6351_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/GRvHgExWoAAE-6g?format=jpg&name=large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1633,7 +1816,7 @@
 			},
 			{
 				"name": "6351_002.jpg",
-				"source": "",
+				"source": "https://i.media.fi/incoming/jvhxwu/9439583.jpg/alternates/FREE_1440/9439583.jpg?gsid=db278d6e-05d6-4321-bc79-4327869689ae",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1641,7 +1824,7 @@
 			},
 			{
 				"name": "6351_003.jpg",
-				"source": "",
+				"source": "https://www.jarvenpaa.fi/files/e118e85948cf72d479f79c6648d0d67514cb546a/keskuskentta-katsomo-1024x768.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1649,7 +1832,7 @@
 			},
 			{
 				"name": "6351_004.jpg",
-				"source": "",
+				"source": "https://www.finnstadion.fi/wp-content/uploads/2019/09/Nopan-Metalli-Kokkolan-katsomo083.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1664,7 +1847,8 @@
 			"name": "MP",
 			"code": null,
 			"country": "Finland",
-			"founded": 1929
+			"founded": 1929,
+			"wiki": "https://en.wikipedia.org/wiki/Mikkelin_Palloilijat"
 		},
 		"venue": {
 			"api_football_id": 6353,
@@ -1683,7 +1867,7 @@
 		"images": [
 			{
 				"name": "6353_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Mikkelin_urheilupuisto_2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1691,7 +1875,7 @@
 			},
 			{
 				"name": "6353_002.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Mikkelin_urheilupuisto_1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1699,15 +1883,7 @@
 			},
 			{
 				"name": "6353_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "6353_004.jpg",
-				"source": "",
+				"source": "https://i.media.fi/incoming/owr93i/7805857.jpg/alternates/FREE_1440/7805857.jpg?gsid=344b31cc-167c-43bd-b68e-7ba1f09537b6",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1722,7 +1898,8 @@
 			"name": "KäPa",
 			"code": "KAP",
 			"country": "Finland",
-			"founded": 1956
+			"founded": 1956,
+			"wiki": "https://en.wikipedia.org/wiki/K%C3%A4pyl%C3%A4n_Pallo"
 		},
 		"venue": {
 			"api_football_id": 12695,
@@ -1741,31 +1918,7 @@
 		"images": [
 			{
 				"name": "12695_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12695_002.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12695_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12695_004.jpg",
-				"source": "",
+				"source": "https://www.seinajoki.fi/wp-content/uploads/2022/06/kertunlaakson-tekonurmi-2-1024x768.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1780,7 +1933,8 @@
 			"name": "SalPa",
 			"code": "SAL",
 			"country": "Finland",
-			"founded": 1956
+			"founded": 1956,
+			"wiki": "https://en.wikipedia.org/wiki/Salon_Palloilijat"
 		},
 		"venue": {
 			"api_football_id": 6365,
@@ -1799,7 +1953,7 @@
 		"images": [
 			{
 				"name": "6365_001.jpg",
-				"source": "",
+				"source": "https://images.cdn.yle.fi/image/upload/c_crop,h_2268,w_4028,x_0,y_756/ar_1.7777777777777777,c_fill,g_faces,h_431,w_767/dpr_2.0/q_auto:eco/f_auto/fl_lossy/v1674471419/39-106276163ce671567159",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1807,23 +1961,7 @@
 			},
 			{
 				"name": "6365_002.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "6365_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "6365_004.jpg",
-				"source": "",
+				"source": "https://salo.fi/wp-content/uploads/2023/10/Urheilupuisto_1_Tatulta_web-e1698131911953.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1838,7 +1976,8 @@
 			"name": "SJK Akatemia",
 			"code": null,
 			"country": "Finland",
-			"founded": 2012
+			"founded": 2012,
+			"wiki": "https://en.wikipedia.org/wiki/SJK_Akatemia"
 		},
 		"venue": {
 			"api_football_id": 629,
@@ -1857,7 +1996,7 @@
 		"images": [
 			{
 				"name": "629_001.jpg",
-				"source": "",
+				"source": "https://omaspstadion.fi/wp-content/uploads/2020/03/omasp_stadion_mahdollisuuksien_stadion_-3.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1865,7 +2004,7 @@
 			},
 			{
 				"name": "629_002.jpg",
-				"source": "",
+				"source": "https://www.teknos.com/globalassets/teknos.com/industrial-coatings/showroom/gi/omasp_stadion_1920x1080.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1873,7 +2012,7 @@
 			},
 			{
 				"name": "629_003.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e5/OmaSp_Stadion_20180604.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1881,7 +2020,39 @@
 			},
 			{
 				"name": "629_004.jpg",
-				"source": "",
+				"source": "https://explorefinlandpodcast.com/wp-content/uploads/2019/07/seinajoki-omasp-stadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "629_005.jpg",
+				"source": "https://images.squarespace-cdn.com/content/v1/6229fb309fa99740585939ad/1667994640880-OFHTOJ1JR3U8AE3J78E2/229_180710_alaseina%CC%88joenkatu_15_005_web.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "629_006.jpg",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/41/6a/5d/caption.jpg?w=1200&h=-1&s=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "629_007.jpg",
+				"source": "https://i.ytimg.com/vi/b19g4pRgp6g/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "629_008.jpg",
+				"source": "https://www.veikkausliiga.com/media/filer_public_thumbnails/filer_public/2e/5e/2e5e5928-43ca-4129-a92c-3ad59293dce0/omaspstadion_160618.jpg__1175x725_q85_box-0%2C0%2C4992%2C3080_crop_detail_subsampling-2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
