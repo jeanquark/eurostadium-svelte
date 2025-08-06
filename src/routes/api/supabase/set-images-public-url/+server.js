@@ -2,8 +2,10 @@ import { json } from '@sveltejs/kit';
 // import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public'
 import { env } from '$env/dynamic/public';
 import { createServerClient } from '@supabase/ssr'
+import slugify from 'slugify';
 
 export async function GET({ url, locals: { supabase } }) {
+// export async function GET({ url }) {
     try {
         const countrySlug = slugify(url.searchParams.get('country'))
         console.log('countrySlug: ', countrySlug)
@@ -15,6 +17,7 @@ export async function GET({ url, locals: { supabase } }) {
             });
         }
 
+        // 1) Update Supabase DB
         // const supabase = createServerClient(env.PUBLIC_SUPABASE_URL, env.PUBLIC_SUPABASE_ANON_KEY, {
         //     global: {
         //         fetch,
@@ -25,6 +28,8 @@ export async function GET({ url, locals: { supabase } }) {
         //         }
         //     }
         // })
+
+        let rowsUpdated = 0;
 
         // 1) Fetch images by country
         const { data: images, error: error1 } = await supabase.storage
@@ -69,17 +74,19 @@ export async function GET({ url, locals: { supabase } }) {
                     }
                 )
                 .eq('name', images[i]['name'])
-
+            
+                rowsUpdated++
             if (error3) {
                 throw error3
             }
-            // console.log('data3: ', data3);
+            console.log('data3: ', data3);
         }
 
         return json({
             success: true,
             url,
             total_images: images.length,
+            total_rows_updated: rowsUpdated
         });
     } catch (error) {
         console.log('error: ', error);

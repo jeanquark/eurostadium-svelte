@@ -4,6 +4,15 @@ Showcase football stadiums across Europe.
 
 ![homepage](/static/images/homepage.jpg)
 
+## Local development
+
+Application built with Svelte 2.8
+
+To run development server
+```bash
+npm run dev
+```
+
 ## Database seed
 
 - Get all countries
@@ -21,7 +30,7 @@ Showcase football stadiums across Europe.
   It will update all teams for the active leagues in the specified countries
   json files.
 
-- Calculate x and y coordinates for each stadium (Svg map)
+- Calculate x and y coordinates for each stadium (SVG map)
 
   Call `/api/calculate-svg-coord?country=[COUNTRY_SLUG]` It will update x & y
   values for the specified country json file. To update all countries, set value
@@ -59,7 +68,7 @@ Enable authentication hook to retrieve user role. More info
 
 ## Upload image
 
-Visit `/upload-image` and upload an image (you have to be logged in). It will be
+Visit `/upload-image` and upload an image (you need to be logged in). It will be
 saved in `image_uploads` supabase storage.
 
 ## Developer
