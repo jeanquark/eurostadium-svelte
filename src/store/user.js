@@ -13,6 +13,11 @@ function createUserStore() {
             console.log('[Store] fetchUsers()')
             const { data, error } = await supabase.from("users").select(`*`);
             const array = []
+            // const { data: data2, error: error2 } = await supabase.from("auth.users").select(`*`);
+
+            const response = await fetch('/api/supabase/fetch-users')
+            console.log('[Store] response: ', response);
+
             for (let i = 0; i < data.length; i++) {
                 array.push(data[i])
             }

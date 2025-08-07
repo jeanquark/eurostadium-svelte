@@ -4,6 +4,15 @@ Showcase football stadiums across Europe.
 
 ![homepage](/static/images/homepage.jpg)
 
+## Local development
+
+Application built with Sveltekit v.2.8 and Supabase
+
+To run Vite development server:
+```bash
+npm run dev
+```
+
 ## Database seed
 
 - Get all countries
@@ -51,11 +60,17 @@ Showcase football stadiums across Europe.
   update url field in supabase images table for each image stored in specified
   country folder of supabase storage.
 
-## Custom Claims & Role-based Access Control (RBAC)
+## Connect to the website's admin console
 
-Enable authentication hook to retrieve user role. More info
-[here](https://supabase.com/docs/guides/database/postgres/custom-claims-and-role-based-access-control-rbac?queryGroups=language&language=plpgsql).
-![enable_authentication_hook](/static/images/enable_authentication_hook.jpg)
+- From the `database` folder, run sql trigger "create_user" and functions "auth_hooks" and "is_admin".
+
+- Set up Custom Claims & Role-based Access Control (RBAC):
+
+  Enable authentication hook to retrieve user role. More info
+  [here](https://supabase.com/docs/guides/database/postgres/custom-claims-and-role-based-access-control-rbac?queryGroups=language&language=plpgsql).
+ ![enable_authentication_hook](/static/images/enable_authentication_hook.jpg)
+
+- Register/login user on page `/auth/login` (needs signup confirmation by email).
 
 ## Upload image
 

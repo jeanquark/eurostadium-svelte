@@ -27,6 +27,14 @@
             const jwt = jwtDecode(_session?.access_token);
             console.log("jwt: ", jwt);
             const userRoles = jwt.user_roles;
+            if (!userRoles) {
+                addToast({
+                    message: "No role found in JWT.",
+                    type: "error",
+                    dismissible: false,
+                    timeout: 3000,
+                });
+            }
             console.log("userRoles: ", userRoles);
             if (!userRoles.find((role) => role == "admin")) {
                 addToast({

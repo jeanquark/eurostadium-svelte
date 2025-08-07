@@ -2,6 +2,7 @@ import { json } from '@sveltejs/kit';
 // import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public'
 import { env } from '$env/dynamic/public';
 import { createServerClient } from '@supabase/ssr'
+import slugify from 'slugify';
 
 export async function GET({ url, locals: { supabase } }) {
     try {

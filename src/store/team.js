@@ -13,6 +13,7 @@ function createTeamStore() {
             console.log('[Store] fetchTeams()')
             const { data, error } = await supabase.from("teams").select(`*`);
             console.log("data2: ", data);
+
             const array = []
             for (let i = 0; i < data.length; i++) {
                 array.push(data[i])

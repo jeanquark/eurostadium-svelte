@@ -8,12 +8,19 @@
     import Toasts from "@components/Toasts.svelte";
     import { userStore } from "@store/user";
     import { counter } from "@store/count";
+    import dayjs from 'dayjs'
+    import relativeTime from 'dayjs/plugin/relativeTime'
+    dayjs.extend(relativeTime)
 
     onMount(async () => {
-        if ($userStore.users.length < 2) {
-            await userStore.fetchUsers();
+        try {
+            if ($userStore.users.length < 2) {
+                await userStore.fetchUsers();
+            }
+            console.log("$userStore.users: ", $userStore.users);
+        } catch (error) {
+            console.log("error: ", error);
         }
-        console.log("$userStore.users: ", $userStore.users);
     });
 
     let selectedUser = $state(null);
@@ -32,11 +39,36 @@
     <h2 class="text-center">Users</h2>
     $userStore.users.length: {$userStore.users?.length}<br />
     userStore.users.length: {userStore.users?.length}<br />
-    {#each $userStore.users as user, i}
-        {i} - {user.id}<br />
-    {/each}
     <br /><br />
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Created at</th>
+                <th>Last update</th>
+            </tr>
+        </thead>
+        <tbody>
+            {#each $userStore.users as user, index}
+                <tr>
+                    <td>{user.id}</td>
+                    <td>{user.email}</td>
+                    <td>{user.role}</td>
+                    <td>{dayjs(user.inserted_at).format('ddd DD MMM YYYY')}</td>
+                    <td>{dayjs(user.updated_at).fromNow()}</td>
+                </tr>
+            {/each}
+        </tbody>
+    </table>
 </div>
 
 <style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
 </style>
