@@ -6,9 +6,9 @@ Showcase football stadiums across Europe.
 
 ## Local development
 
-Application built with Sveltekit v.2.8 and Supabase
+Application built with Svelte 2.8
 
-To run Vite development server:
+To run development server
 ```bash
 npm run dev
 ```
@@ -30,7 +30,7 @@ npm run dev
   It will update all teams for the active leagues in the specified countries
   json files.
 
-- Calculate x and y coordinates for each stadium (Svg map)
+- Calculate x and y coordinates for each stadium (SVG map)
 
   Call `/api/calculate-svg-coord?country=[COUNTRY_SLUG]` It will update x & y
   values for the specified country json file. To update all countries, set value
@@ -74,7 +74,7 @@ npm run dev
 
 ## Upload image
 
-Visit `/upload-image` and upload an image (you have to be logged in). It will be
+Visit `/upload-image` and upload an image (you need to be logged in). It will be
 saved in `image_uploads` supabase storage.
 
 ## Developer

@@ -18,7 +18,7 @@ const config = {
 		}),
 		paths: {
 			// base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
-			base: ''
+			// base: ''
 		},
 		alias: {
 			// these are the aliases and paths to them
