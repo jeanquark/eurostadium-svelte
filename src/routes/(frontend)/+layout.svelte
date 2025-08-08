@@ -1,6 +1,7 @@
 <script>
     import { base } from "$app/paths";
     import { onMount } from "svelte";
+    import { PUBLIC_APP_ENV } from '$env/static/public';
     import "../../app.css";
     import { supabase } from "@lib/supabase/supabaseClient";
     import { initGA } from "@lib/analytics.js";
@@ -8,6 +9,7 @@
 
     let { children } = $props();
     let session = $state(null);
+    const isDev = PUBLIC_APP_ENV === 'development';
 
     onMount(() => {
         try {
@@ -80,6 +82,10 @@
                         class=""
                         style="color: #ccc;">info@eurostadium.net</a
                     >
+                    {#if isDev}
+                    <a href="auth/login" style="color: #ccc;">Login</a> |
+                    <a href="admin" style="color: #ccc;">Admin</a>
+                    {/if}
                 </div>
             </div>
         </div>

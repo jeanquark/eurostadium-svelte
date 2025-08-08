@@ -6,16 +6,20 @@
     import { jwtDecode } from "jwt-decode";
     import { addToast } from "@store/toast";
     import Toasts from "@components/Toasts.svelte";
+    import { countryStore } from "@store/country";
+    import { leagueStore } from "@store/league";
     import { stadiumStore } from "@store/stadium";
     import { counter } from "@store/count";
+    import dayjs from '$lib/utils/day'
 
     onMount(async () => {
-        if ($stadiumStore.stadiums.length < 2) {
-            await stadiumStore.fetchStadiums();
+        if ($countryStore.countries.length < 2) {
+            await countryStore.fetchCountries();
         }
     });
 
-    let selectedUser = $state(null);
+    let selectedCountry = $state(null);
+    let selectedLeague = $state(null);
     let loading = $state(false);
 
     const fetchStadiums = async () => {
@@ -25,15 +29,96 @@
             console.log("error: ", error);
         }
     };
+
+    const selectCountry = (value) => {
+        try {
+            console.log("selectCountry value: ", value);
+            selectedCountry = value;
+            leagueStore.fetchLeaguesByCountryId(selectedCountry.id);
+        } catch (error) {
+            console.log("error: ", error);
+        }
+    };
+    const selectLeague = (value) => {
+        try {
+            console.log("selectLeague value: ", value);
+            selectedLeague = value;
+            stadiumStore.fetchStadiumsByLeagueId(selectedLeague.id);
+        } catch (error) {
+            console.log("error: ", error);
+        }
+    };
 </script>
 
 <div class="container">
     <h2 class="text-center">Stadiums</h2>
+    selectedCountry: {selectedCountry ? selectedCountry.name : "None"}<br />
+    selectedLeague: {selectedLeague ? selectedLeague.name : "None"}<br />
     $stadiumStore.stadiums.length: {$stadiumStore.stadiums?.length}<br />
-    {#each $stadiumStore.stadiums as stadium, i}
+    $leagueStore.leaguesByCountryId.length: {$leagueStore.leaguesByCountryId
+        ?.length}<br />
+    <!-- {#each $stadiumStore.stadiums as stadium, i}
         {i} - {stadium.name}<br />
-    {/each}
+    {/each} -->
     <br /><br />
+    
+    <h3 class="my-2">Select country</h3>
+    {#each $countryStore.countries as country, index}
+        <button
+            class="btn ma-1"
+            onclick={() => {
+                selectCountry(country);
+            }}>{country.name}</button
+        >
+    {/each}
+
+    <h3 class="my-2">Select league</h3>
+    {#each $leagueStore.leaguesByCountryId as league, index}
+        <button
+            class="btn ma-1"
+            onclick={() => {
+                selectLeague(league);
+            }}>{league.name}</button
+        >
+    {/each}
+
+    <br /><br />
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>Capacity</th>
+                <th>Nb. d'images</th>
+                <th>Images</th>
+                <th>Created at</th>
+                <th>Last update</th>
+            </tr>
+        </thead>
+        <tbody>
+            {#each $stadiumStore.stadiumsByLeagueId[selectedLeague?.id] as stadium, index}
+                <tr>
+                    <td>{stadium.id}</td>
+                    <td>{stadium.name}</td>
+                    <td>{stadium.city}</td>
+                    <td>{stadium.capacity}</td>
+                    <td>{stadium.images.length}</td>
+                    <td>
+                        {#each stadium.images as image, i} 
+                            <img src="{image.url}" alt="{image.name}" width="50" />
+                        {/each}</td>
+                    <td
+                        >{dayjs(stadium.inserted_at).format(
+                            "ddd DD MMM YYYY"
+                        )}</td
+                    >
+                    <td>{dayjs(stadium.updated_at).fromNow()}</td>
+                </tr>
+            {/each}
+        </tbody>
+    </table>
 </div>
 
 <style>

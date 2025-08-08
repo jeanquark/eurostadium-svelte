@@ -5,6 +5,7 @@ const state = {
     loading: false,
     stadiums: [],
     stadiumsByCountry: {},
+    stadiumsByLeagueId: {},
     stadiumsByCountry2: {
         switzerland: [
             {
@@ -162,6 +163,66 @@ function createStadiumStore() {
             })
 
             // console.log('state.stadiumsByCountry 2: ', state.stadiumsByCountry)
+        },
+        async fetchStadiumsByLeagueId(leagueId) {
+            console.log('[StadiumStore] fetchStadiumsByLeagueId: ', leagueId)
+
+            // const { data, error } = await supabase.from('teams_view').select(`stadium_id, stadium_api_football_id, stadium_name, stadium_city, stadium_capacity, stadium_wiki, stadium_x, stadium_y, league_id, league_api_football_id, league_name, team_id, team_api_football_id, team_name, team_wiki, image_name, image_url, image_src`).eq('league_id', leagueId)
+            const { data, error } = await supabase.from('teams_view').select(`id:stadium_id, api_football_id:stadium_api_football_id, name:stadium_name, city:stadium_city, capacity:stadium_capacity, league_id, league_api_football_id, league_name, team_id, team_api_football_id, team_name, image_name, image_url`).eq('league_id', leagueId)
+            // console.log('[StadiumStore] data: ', data)
+            console.log('data: ', data);
+
+            // 1. Group by stadium_name and collect images
+            const groupedByStadium = data.reduce((acc, current) => {
+                const existing = acc.find(stadium => stadium.id === current.id);
+
+                if (existing) {
+                    if (!existing.images.some(image => image.name === current.image_name)) {
+                        existing.images.push({
+                            name: current.image_name,
+                            url: current.image_url
+                        });
+                    }
+                } else {
+                    acc.push({
+                        id: current.id,
+                        name: current.name,
+                        city: current.city,
+                        capacity: current.capacity,
+                        league_id: current.league_id,
+                        league_api_football_id: current.league_api_football_id,
+                        league_name: current.league_name,
+                        team_id: current.team_id,
+                        team_api_football_id: current.team_api_football_id,
+                        team_name: current.team_name,
+                        images: [{
+                            name: current.image_name,
+                            url: current.image_url
+                        }]
+                    });
+                }
+
+                return acc;
+            }, []);
+
+            console.log('groupedByStadium: ', groupedByStadium);
+
+            // 2. Sort by capacity in descending order
+            const sortedStadiums = groupedByStadium.sort((a, b) =>
+                b.capacity - a.capacity
+            );
+
+
+            if (error) {
+                console.log('error: ', error)
+                return
+            }
+
+            update((state) => {
+                let entry = { ...state }
+                entry.stadiumsByLeagueId[leagueId] = sortedStadiums
+                return entry
+            })
         },
         async fetchStadiumsByCountry2(country) {
             console.log('[StadiumStore] fetchStadiumsByCountry() country: ', country)

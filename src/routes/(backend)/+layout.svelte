@@ -25,7 +25,7 @@
                 return;
             }
             const jwt = jwtDecode(_session?.access_token);
-            console.log("jwt: ", jwt);
+            // console.log("jwt: ", jwt);
             const userRoles = jwt.user_roles;
             if (!userRoles) {
                 addToast({
@@ -35,7 +35,7 @@
                     timeout: 3000,
                 });
             }
-            console.log("userRoles: ", userRoles);
+            // console.log("userRoles: ", userRoles);
             if (!userRoles.find((role) => role == "admin")) {
                 addToast({
                     message: "You are not authenticated as an admin.",
@@ -100,21 +100,21 @@
                     <li class:active={$page.url.pathname == "/admin/users"}>
                         <a href="{base}/admin/users">Users</a>
                     </li>
-                    <li class:active={$page.url.pathname == "/admin/countries"}>
+                    <!-- <li class:active={$page.url.pathname == "/admin/countries"}>
                         <a href="{base}/admin/countries">Countries</a>
-                    </li>
-                    <li class:active={$page.url.pathname == "/admin/leagues"}>
+                    </li> -->
+                    <!-- <li class:active={$page.url.pathname == "/admin/leagues"}>
                         <a href="{base}/admin/leagues">Leagues</a>
-                    </li>
-                    <li class:active={$page.url.pathname == "/admin/teams"}>
+                    </li> -->
+                    <!-- <li class:active={$page.url.pathname == "/admin/teams"}>
                         <a href="{base}/admin/teams">Teams</a>
-                    </li>
+                    </li> -->
                     <li class:active={$page.url.pathname == "/admin/stadiums"}>
                         <a href="{base}/admin/stadiums">Stadiums</a>
                     </li>
-                    <li class:active={$page.url.pathname == "/admin/images"}>
+                    <!-- <li class:active={$page.url.pathname == "/admin/images"}>
                         <a href="{base}/admin/images">Images</a>
-                    </li>
+                    </li> -->
                     <li><a href="{base}/">&larr;Home</a></li>
                     <li>
                         <button onclick={() => handleLogout()}>Logout</button>

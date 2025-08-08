@@ -32,7 +32,9 @@ export const handle = async ({ event, resolve }) => {
         } = await event.locals.supabase.auth.getSession()
         console.log('[hooks.server] session: ', session);
         if (!session) {
-            return { session: null, user: null }
+            // return { session: null, user: null }
+            session = null
+            user = null
         }
 
         const {
@@ -42,12 +44,13 @@ export const handle = async ({ event, resolve }) => {
         console.log('[hooks.server] user: ', user);
         if (error) {
             // JWT validation has failed
-            return { session: null, user: null }
+            // return { session: null, user: null }
+            session = null
+            user = null
         }
 
         return { session, user }
     }
-
 
     return resolve(event, {
         filterSerializedResponseHeaders(name) {

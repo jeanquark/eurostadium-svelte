@@ -3,6 +3,7 @@ import { supabase } from "@lib/supabase/supabaseClient";
 
 const state = {
     leagues: [],
+    leaguesByCountryId: [],
 }
 
 function createLeagueStore() {
@@ -45,6 +46,23 @@ function createLeagueStore() {
             // }
             // this.leagues = array
         },
+
+        async fetchLeaguesByCountryId (countryId) {
+            console.log('[Store] fetchLeaguesByCountry()');
+            const { data, error } = await supabase
+                .from("leagues")
+                .select(`id, api_football_id, name, slug, image`)
+                .eq('country_id', countryId);
+            if (error) {
+                console.log('error: ', error);
+                throw error
+            }
+            const array = []
+            for (let i = 0; i < data.length; i++) {
+                array.push(data[i])
+            }
+            update((state) => ({ ...state, leaguesByCountryId: [...array] }))
+        }
     }
 
     return {

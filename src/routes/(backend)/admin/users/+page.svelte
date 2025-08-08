@@ -8,9 +8,8 @@
     import Toasts from "@components/Toasts.svelte";
     import { userStore } from "@store/user";
     import { counter } from "@store/count";
-    import dayjs from 'dayjs'
-    import relativeTime from 'dayjs/plugin/relativeTime'
-    dayjs.extend(relativeTime)
+    import dayjs from '$lib/utils/day'
+
 
     onMount(async () => {
         try {
@@ -46,7 +45,7 @@
             <tr>
                 <th>ID</th>
                 <th>Email</th>
-                <th>Role</th>
+                <th>Roles</th>
                 <th>Created at</th>
                 <th>Last update</th>
             </tr>
@@ -56,7 +55,7 @@
                 <tr>
                     <td>{user.id}</td>
                     <td>{user.email}</td>
-                    <td>{user.role}</td>
+                    <td>{#each user.roles as role}<span>{role} </span>{/each}</td>
                     <td>{dayjs(user.inserted_at).format('ddd DD MMM YYYY')}</td>
                     <td>{dayjs(user.updated_at).fromNow()}</td>
                 </tr>
