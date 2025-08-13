@@ -1,131 +1,342 @@
 <script>
-    import { base } from '$app/paths'
-    import { supabase } from '@lib/supabase/supabaseClient'
-    import { onMount } from 'svelte'
-    import { goto } from '$app/navigation'
-    import { jwtDecode } from 'jwt-decode'
-    import { addToast } from '@store/toast'
-    import Toasts from '@components/Toasts.svelte'
-    import { countryStore } from '@store/country'
-    import { leagueStore } from '@store/league'
-    import { stadiumStore } from '@store/stadium'
-    import { counter } from '@store/count'
-    import dayjs from '$lib/utils/day'
-    // import { Link } from '$lib/navigation';
+    import { base } from "$app/paths";
+    import { supabase } from "@lib/supabase/supabaseClient";
+    import { onMount } from "svelte";
+    import { goto } from "$app/navigation";
+    import { page } from "$app/stores";
+    import { jwtDecode } from "jwt-decode";
+    import Toasts from "@components/Toasts.svelte";
+    import { addToast } from "@store/toast";
+    import { countryStore } from "@store/country";
+    import { leagueStore } from "@store/league";
+    import { stadiumStore } from "@store/stadium";
+    import { counter } from "@store/count";
+    import dayjs from "$lib/utils/day";
+    import slugify from "@utils/slugify";
 
     onMount(async () => {
         if ($countryStore.countries.length < 2) {
-            await countryStore.fetchCountries()
+            await countryStore.fetchCountries();
         }
-    })
+    });
 
-    let selectedCountry = $state(null)
-    let selectedLeague = $state(null)
-    let loading = $state(false)
+    // let selectedCountry = $state(null);
+    // let selectedLeague = $state(null);
+    let loading = $state(false);
 
-    const fetchStadiums = async () => {
+    const selectCountry = (country) => {
         try {
-            await stadiumStore.fetchUsers()
+            console.log("selectCountry league: ", country);
+            // selectedCountry = country;
+            countryStore.setCountry(country);
+            leagueStore.fetchLeaguesByCountryId(country.id);
         } catch (error) {
-            console.log('error: ', error)
+            console.log("error: ", error);
         }
-    }
+    };
+    const selectLeague = (league) => {
+        try {
+            console.log("selectLeague value: ", league);
+            // selectedLeague = league;
+            leagueStore.setLeague(league);
+            stadiumStore.fetchStadiumsByLeagueId(league.id);
+        } catch (error) {
+            console.log("error: ", error);
+        }
+    };
+    const fetchLeagueTeams = async () => {
+        try {
+            console.log("fetchLeagueTeams");
+            const season = 2025;
 
-    const selectCountry = (value) => {
-        try {
-            console.log('selectCountry value: ', value)
-            selectedCountry = value
-            // countryStore.country = value
-            // countryStore.set({
-            //     country: value})
-            countryStore.setCountry(value)
-            leagueStore.fetchLeaguesByCountryId(selectedCountry.id)
+            // 1) Retrieve country start and end index from countries.json
+            const response1 = await fetch("/json/countries.json");
+            const countriesJSONFile = await response1.json();
+            const country = countriesJSONFile.find(
+                (c) => c.name === $countryStore.country?.name
+            );
+            console.log("country: ", country);
+            if (!country) {
+                console.error("Country not found in countries.json");
+                return;
+            }
+            // return
+            const countryStartIndex = country.index; // Replace with actual start index
+            const countryEndIndex = country.index; // Replace with actual end index
+
+            if (countryEndIndex - countryStartIndex > 5) {
+                addToast({
+                    type: "error",
+                    message: `Country "${country.name}" has too many teams to fetch at once. Please select a smaller range.`,
+                });
+                return;
+            }
+
+            // 2) Fetch teams by country from API Football and update static/json/teams/[COUNTRY_NAME].json file
+            const baseUrl = $page.url.origin;
+            // console.log('baseUrl: ', baseUrl);
+            const response = await fetch(
+                `${baseUrl}/api/api-football/fetch-teams?season=${season}&countryStartIndex=${countryStartIndex}&countryEndIndex=${countryEndIndex}`
+            );
+            // console.log("response: ", response);
+            const data = await response.json();
+            // console.log("data: ", data);
+            addToast({
+                type: "success",
+                message: `Fetched teams for country "${country.name}" and season "${season}" from API Football`,
+            });
+
+            // 3) Insert teams in DB if not already exists
+            const response2 = await fetch(`/json/teams/${country.slug}.json`);
+            // console.log("response2: ", response2);
+            const teamsJSONFile = await response2.json();
+            // console.log("teamsJSONFile: ", teamsJSONFile);
+
+            for (let i = 0; i < teamsJSONFile.length; i++) {
+                const teamJSONData = teamsJSONFile[i];
+                console.log("teamJSONData: ", teamJSONData);
+
+                const { data: existingTeam, error: error1 } = await supabase
+                    .from("teams")
+                    .select("*")
+                    .eq("api_football_id", teamJSONData.team.api_football_id)
+                    .single();
+                console.log("existingTeam: ", existingTeam);
+
+                if (!existingTeam) {
+                    console.warn(
+                        `Team "${teamJSONData.team.name}" not found in DB, insert it.`
+                    );
+
+                    // 3.1) First insert venue if it doesn't exist
+                    const { data: existingVenue, error: error2 } =
+                        await supabase
+                            .from("stadiums")
+                            .select("*")
+                            .eq("api_football_id", teamJSONData.venue.api_football_id)
+                            .single();
+                    console.log("existingVenue: ", existingVenue);
+                    if (!existingVenue) {
+                        console.warn(
+                            `Venue "${teamJSONData.venue.name}" not found in DB, insert it.`
+                        );
+
+                        const { data: insertedVenue, error: insertVenueError } =
+                            await supabase
+                                .from("stadiums")
+                                .insert({
+                                    api_football_id:
+                                        teamJSONData.venue.api_football_id,
+                                    name: teamJSONData.venue.name,
+                                    city: teamJSONData.venue.city,
+                                    capacity: teamJSONData.venue.capacity,
+                                    wiki: teamJSONData.venue.wiki,
+                                    surface: teamJSONData.venue.surface,
+                                    lat: teamJSONData.venue.lat,
+                                    lng: teamJSONData.venue.lng,
+                                    x: teamJSONData.venue.x,
+                                    y: teamJSONData.venue.y,
+                                    is_active: true
+                                })
+                                .select();
+                        if (insertVenueError) {
+                            console.error("Insert venue error: ", insertVenueError);
+                        } else {
+                            console.log("Inserted venue: ", insertedVenue);
+                        }
+                    }
+
+                    // 3.2) Then insert team
+                    const { data: insertedData, error: insertError } =
+                        await supabase
+                            .from("teams")
+                            .insert({
+                                api_football_id:
+                                    teamJSONData.team.api_football_id,
+                                api_football_venue_id:
+                                    teamJSONData.venue.api_football_id,
+                                api_football_league_id:
+                                    teamJSONData.league.api_football_id,
+                                name: teamJSONData.team.name,
+                                slug: slugify(teamJSONData.team.name),
+                                code: teamJSONData.team.code,
+                                founded: teamJSONData.team.founded,
+                                wiki: teamJSONData.team.wiki,
+                                is_active: true,
+                            })
+                            .select();
+                    if (insertError) {
+                        console.error("Insert error: ", insertError);
+                    } else {
+                        console.log("Inserted team: ", insertedData);
+                    }
+                } else {
+                    console.log(
+                        `Team "${teamJSONData.team.name}" already exists in DB, simply update league id.`
+                    );
+
+                    const { data: updatedData, error: updateError } =
+                        await supabase
+                            .from("teams")
+                            .update(
+                                {
+                                    api_football_league_id:
+                                        teamJSONData.league.api_football_id,
+                                    updated_at: new Date().toISOString()
+                                }
+                            )
+                            .eq('api_football_id', teamJSONData.team.api_football_id)
+                            .select();
+                    if (updateError) {
+                        console.error("Update error: ", updateError);
+                    } else {
+                        console.log("Update team: ", updatedData);
+                    }
+                }
+            }
+
+            // 2) Update team league ID
         } catch (error) {
-            console.log('error: ', error)
+            console.log("error: ", error);
         }
-    }
-    const selectLeague = (value) => {
-        try {
-            console.log('selectLeague value: ', value)
-            selectedLeague = value
-            leagueStore.setLeague(value)
-            stadiumStore.fetchStadiumsByLeagueId(selectedLeague.id)
-        } catch (error) {
-            console.log('error: ', error)
-        }
-    }
+    };
 </script>
 
 <div class="container">
     <h2 class="text-center">Stadiums</h2>
-    selectedCountry: {selectedCountry ? selectedCountry.name : 'None'}<br />
-    selectedLeague: {selectedLeague ? selectedLeague.name : 'None'}<br />
-    $stadiumStore.stadiums.length: {$stadiumStore.stadiums?.length}<br />
-    $leagueStore.leaguesByCountryId.length: {$leagueStore.leaguesByCountryId?.length}<br />
-    <p>CountryStore.country.id: {$countryStore.country?.id}</p>
-    <p>LeagueStore.league: {$leagueStore.league?.name}</p>
+    <!-- selectedCountry: {selectedCountry ? selectedCountry.name : "None"}<br /> -->
+    <!-- selectedLeague: {selectedLeague ? selectedLeague.name : "None"}<br /> -->
+    <!-- $stadiumStore.stadiums.length: {$stadiumStore.stadiums?.length}<br /> -->
+    <!-- $leagueStore.leaguesByCountryId.length: {$leagueStore.leaguesByCountryId?.length}<br /> -->
+    <!-- <p>CountryStore.country.id: {$countryStore.country?.id}</p> -->
+    <!-- <p>LeagueStore.league: {$leagueStore.league?.name}</p> -->
     <br /><br />
 
-    <h3 class="my-2">Select country</h3>
+    <h3 class="my-2">Select a country</h3>
     {#each $countryStore.countries as country, index}
         <button
-            class="btn btn-filter {$countryStore.country?.id === country.id && 'active'}"
+            class="btn btn-filter {$countryStore.country?.id === country.id &&
+                'active'}"
             onclick={() => {
-                selectCountry(country)
+                selectCountry(country);
             }}>{country.name}</button
         >
     {/each}
 
-    <h3 class="my-2">Select league</h3>
+    <h3 class="my-2">Select a league</h3>
     {#each $leagueStore.leaguesByCountryId as league, index}
         <button
             class="btn ma-1 {$leagueStore.league?.id === league.id && 'active'}"
             onclick={() => {
-                selectLeague(league)
+                selectLeague(league);
             }}>{league.name}</button
         >
     {/each}
+    <button class="btn btn-primary" size="small" onclick={fetchLeagueTeams}>
+        Fetch league teams for "{$countryStore.country?.name}" from API Football
+    </button>
 
     <br /><br />
 
-    <table>
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>City</th>
-                <th>Capacity</th>
-                <th>Nb. d'images</th>
-                <th>Images</th>
-                <th>Created at</th>
-                <th>Last update</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- {#each $stadiumStore.stadiumsByLeagueId[selectedLeague?.id] as stadium, index} -->
-            {#each $stadiumStore.stadiumsByLeagueId[$leagueStore.league?.id] as stadium, index}
-                <tr>
-                    <td>{stadium.id}</td>
-                    <td><a href="/admin/stadiums/{stadium.id}">{stadium.name}</a></td>
-                    <td>{stadium.city}</td>
-                    <td>{stadium.capacity}</td>
-                    <td>{stadium.images.length}</td>
-                    <td>
-                        {#each stadium.images as image, i}
-                            <img src={image.url} alt={image.name} width="50" />
-                        {/each}</td
-                    >
-                    <td>{dayjs(stadium.inserted_at).format('ddd DD MMM YYYY')}</td>
-                    <td>{dayjs(stadium.updated_at).fromNow()}</td>
-                </tr>
-            {/each}
-        </tbody>
-    </table>
+    <div class="row">
+        <div class="col-12">
+            <div class="responsive-table-container">
+                <table class="full-data-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>City</th>
+                            <th>Capacity</th>
+                            <th>Nb. d'images</th>
+                            <th>Images</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {#each $stadiumStore.stadiumsByLeagueId[$leagueStore.league?.id] as stadium, index}
+                            <tr>
+                                <td>{index + 1}</td>
+                                <td>{stadium.id}</td>
+                                <td
+                                    ><a href="/admin/stadiums/{stadium.id}"
+                                        >{stadium.name}</a
+                                    ></td
+                                >
+                                <td>{stadium.city}</td>
+                                <td>{stadium.capacity}</td>
+                                <td>{stadium.images.length}</td>
+                                <td>
+                                    {#each stadium.images as image, i}
+                                        <img
+                                            src={image.url}
+                                            alt={image.name}
+                                            height="50"
+                                            class="px-1"
+                                        />
+                                    {/each}</td
+                                >
+                            </tr>
+                        {/each}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </div>
 
 <style>
     .btn.active {
         background-color: #007bff;
         color: white;
+    }
+    .responsive-table-container {
+        width: 100%;
+        overflow-x: auto;
+        margin: 20px 0;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    }
+
+    .full-data-table {
+        width: auto; /* Changed from 100% to auto */
+        min-width: 100%; /* Ensures table is at least as wide as container */
+        border-collapse: collapse;
+    }
+
+    .full-data-table th,
+    .full-data-table td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        height: 50px; /* Fixed row height */
+        vertical-align: middle;
+        white-space: nowrap; /* Keeps content on one line */
+        /* Removed overflow: hidden and text-overflow: ellipsis */
+    }
+
+    .full-data-table th {
+        background-color: #f8f9fa;
+        position: sticky;
+        top: 0;
+        font-weight: bold;
+    }
+
+    .full-data-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .full-data-table tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .full-data-table th,
+        .full-data-table td {
+            padding: 8px 10px;
+            height: 40px;
+        }
     }
 </style>

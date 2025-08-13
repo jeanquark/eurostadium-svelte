@@ -140,6 +140,7 @@ export async function GET({ url }) {
             }
         }
 
+        // console.log('teamsArray: ', teamsArray);
         if (teamsArray.length > 0) {
             const data2 = await fs.writeFile(file, JSON.stringify(teamsArray, null, "\t"), 'utf8');
             filesUpdated++
@@ -148,6 +149,6 @@ export async function GET({ url }) {
 
     return json({
         success: true,
-        number_of_files_updated: filesUpdated
+        number_of_files_updated: filesUpdated,
     })
 }

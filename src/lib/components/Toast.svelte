@@ -27,7 +27,7 @@
 
     {#if dismissible}
         <button class="close" onclick={() => {dismiss()}}>
-            <CloseIcon width="0.8em" />
+            <CloseIcon width="0.8em" color="#fff" />
         </button>
     {/if}
 </article>

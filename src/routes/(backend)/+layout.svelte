@@ -85,7 +85,7 @@
 
 <div class="app">
     <main class="main">
-        <div style="position: fixed; top: 20px; right: 20px;">
+        <div style="position: fixed; top: 20px; right: 20px; z-index: 1000;">
             <Toasts />
         </div>
         <div class="row">

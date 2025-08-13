@@ -28,7 +28,7 @@ npm run dev
   Call
   `/api/api-football/fetch-teams?season=[SEASON]&countryStartIndex=[COUNTRY_START_INDEX]&countryEndIndex=[COUNTRY_END_INDEX]`
   It will update all teams for the active leagues in the specified countries
-  json files.
+  json files (refer to `/static/json/countries.json` file).
 
 - Calculate x and y coordinates for each stadium (SVG map)
 
