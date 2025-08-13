@@ -2,6 +2,7 @@ import { writable } from 'svelte/store'
 import { supabase } from "@lib/supabase/supabaseClient";
 
 const state = {
+    league: null,
     leagues: [],
     leaguesByCountryId: [],
 }
@@ -62,6 +63,11 @@ function createLeagueStore() {
                 array.push(data[i])
             }
             update((state) => ({ ...state, leaguesByCountryId: [...array] }))
+        },
+        
+        setLeague: (league) => {
+            console.log('[Store] setLeague()')
+            update((state) => ({ ...state, league: league }))
         }
     }
 

@@ -95,10 +95,10 @@
             >
                 <ul>
                     <li class:active={$page.url.pathname == "/admin"}>
-                        <a href="{base}/admin">Admin</a>
+                        <a href="/admin">Admin</a>
                     </li>
                     <li class:active={$page.url.pathname == "/admin/users"}>
-                        <a href="{base}/admin/users">Users</a>
+                        <a href="/admin/users">Users</a>
                     </li>
                     <!-- <li class:active={$page.url.pathname == "/admin/countries"}>
                         <a href="{base}/admin/countries">Countries</a>
@@ -110,7 +110,7 @@
                         <a href="{base}/admin/teams">Teams</a>
                     </li> -->
                     <li class:active={$page.url.pathname == "/admin/stadiums"}>
-                        <a href="{base}/admin/stadiums">Stadiums</a>
+                        <a href="/admin/stadiums">Stadiums</a>
                     </li>
                     <!-- <li class:active={$page.url.pathname == "/admin/images"}>
                         <a href="{base}/admin/images">Images</a>
