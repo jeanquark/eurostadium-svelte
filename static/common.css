@@ -865,17 +865,17 @@
     border: 2px solid lightgreen;
 }
 
-.btn {
+/* .btn {
     padding: 0.4em;
     border-radius: 0.4em;
     background: rgba(255, 255, 255, 0.3);
     border: 2px solid var(--color-theme-1);
     color: var(--color-theme-1);
     margin: 0.3em;
-}
+} */
 
-.btn:hover {
+/* .btn:hover {
     cursor: pointer;
-    background: var(--color-theme-1);
+    border: var(--color-theme-1);
     color: #fff;
-}
+} */

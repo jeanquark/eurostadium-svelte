@@ -97,6 +97,9 @@
                     <li class:active={$page.url.pathname == "/admin"}>
                         <a href="/admin">Admin</a>
                     </li>
+                    <li class:active={$page.url.pathname == "/admin/stadiums"}>
+                        <a href="/admin/stadiums">Stadiums</a>
+                    </li>
                     <li class:active={$page.url.pathname == "/admin/users"}>
                         <a href="/admin/users">Users</a>
                     </li>
@@ -109,9 +112,6 @@
                     <!-- <li class:active={$page.url.pathname == "/admin/teams"}>
                         <a href="{base}/admin/teams">Teams</a>
                     </li> -->
-                    <li class:active={$page.url.pathname == "/admin/stadiums"}>
-                        <a href="/admin/stadiums">Stadiums</a>
-                    </li>
                     <!-- <li class:active={$page.url.pathname == "/admin/images"}>
                         <a href="{base}/admin/images">Images</a>
                     </li> -->
