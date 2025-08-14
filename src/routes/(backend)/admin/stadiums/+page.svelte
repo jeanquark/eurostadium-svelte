@@ -89,14 +89,24 @@
             // console.log("data: ", data);
             addToast({
                 type: "success",
-                message: `Fetched teams for country "${country.name}" and season "${season}" from API Football`,
+                message: `Updated teams for country "${country.name}" and season "${season}" from API Football in json file.`,
             });
+        } catch (error) {
+            console.log("error: ", error);
+        }
+    };
 
-            // 3) Fetch teams from static/json/teams/[country].json file
-            const response2 = await fetch(`/json/teams/${country.slug}.json`);
+    const updateTeams = async () => {
+        try {
+            console.log("updateTeams");
+            const countrySlug = slugify($countryStore.country?.name);
+
+            // 1) Fetch teams from static/json/teams/[country].json file
+            const response2 = await fetch(`/json/teams/${countrySlug}.json`);
             // console.log("response2: ", response2);
             const teamsJSONFile = await response2.json();
-            // console.log("teamsJSONFile: ", teamsJSONFile);
+            console.log("teamsJSONFile: ", teamsJSONFile);
+            // return
 
             for (let i = 0; i < teamsJSONFile.length; i++) {
                 const teamJSONData = teamsJSONFile[i];
@@ -109,13 +119,17 @@
                     .single();
                 console.log("existingTeam: ", existingTeam);
 
-                // 3) If team does not exist, insert it
+                // 2) If team does not exist, insert it
                 if (!existingTeam) {
                     console.warn(
                         `Team "${teamJSONData.team.name}" not found in DB, insert it.`
                     );
+                    addToast({
+                        type: "warning",
+                        message: `Team "${teamJSONData.team.name}" not found in DB, insert it`,
+                    });
 
-                    // 3.1) First insert venue if it doesn't exist
+                    // 2.1) First insert venue if it doesn't exist
                     const { data: existingVenue, error: error2 } =
                         await supabase
                             .from("stadiums")
@@ -159,7 +173,7 @@
                         }
                     }
 
-                    // 3.2) Then insert team
+                    // 2.2) Insert team
                     const { data: insertedData, error: insertError } =
                         await supabase
                             .from("teams")
@@ -210,6 +224,10 @@
                     }
                 }
             }
+            addToast({
+                type: "success",
+                message: `Updated teams for country "${$countryStore.country?.name}"`,
+            });
         } catch (error) {
             console.log("error: ", error);
         }
@@ -297,13 +315,13 @@
                 ><br />
                 <button
                     class="btn btn-outline-primary btn-sm"
-                    onclick={fetchLeagueTeams}
+                    onclick={updateTeams}
                 >
                     Update teams
                 </button>
                 <small>
                     <i
-                        >This will update teams in Supabase for {$countryStore.country?.name} and provide each of them with their current league ID.</i
+                        >This will update teams in Supabase DB for {$countryStore.country?.name} and provide each of them with their current league ID.</i
                     ></small
                 ><br />
                 <button
@@ -314,7 +332,7 @@
                 </button>
                 <small>
                     <i
-                        >This will update the image url field in Supabase images
+                        >This will update the image url field in Supabase DB images
                         table for each image stored in {$countryStore.country
                             ?.name}
                         folder of Supabase storage</i
