@@ -301,7 +301,7 @@
                 </h4>
 
                 <button
-                    class="btn btn-outline-primary btn-sm"
+                    class="btn btn-outline-primary btn-sm ma-1"
                     onclick={fetchLeagueTeams}
                 >
                     Fetch teams
@@ -314,7 +314,7 @@
                     ></small
                 ><br />
                 <button
-                    class="btn btn-outline-primary btn-sm"
+                    class="btn btn-outline-primary btn-sm ma-1"
                     onclick={updateTeams}
                 >
                     Update teams
@@ -325,7 +325,7 @@
                     ></small
                 ><br />
                 <button
-                    class="btn btn-outline-primary btn-sm"
+                    class="btn btn-outline-primary btn-sm ma-1"
                     onclick={updateStorageUrl}
                 >
                     Update storage url

@@ -8,6 +8,9 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
+		"@fortawesome/fontawesome-svg-core": "^6.7.2",
+		"@fortawesome/free-solid-svg-icons": "^7.0.0",
+		"@fortawesome/svelte-fontawesome": "^0.2.3",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-static": "^3.0.6",
 		"@sveltejs/kit": "^2.8.1",
@@ -21,6 +24,7 @@
 	"dependencies": {
 		"@fontsource/fira-mono": "^5.1.0",
 		"@fontsource/nunito": "^5.1.0",
+		"@fortawesome/fontawesome-free": "^7.0.0",
 		"@panzoom/panzoom": "^4.5.1",
 		"@supabase/ssr": "^0.5.2",
 		"@supabase/supabase-js": "^2.46.1",

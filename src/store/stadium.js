@@ -195,10 +195,10 @@ function createStadiumStore() {
                         team_id: current.team_id,
                         team_api_football_id: current.team_api_football_id,
                         team_name: current.team_name,
-                        images: [{
+                        images: current.image_name ? [{
                             name: current.image_name,
                             url: current.image_url
-                        }]
+                        }] : []
                     });
                 }
 

@@ -47,11 +47,13 @@ export const handle = async ({ event, resolve }) => {
             return { session, user }
         }
 
-        return resolve(event, {
+        const response = await resolve(event, {
             filterSerializedResponseHeaders(name) {
                 return name === 'content-range' || name === 'x-supabase-api-version'
             },
         })
+
+        return response;
     } catch (error) {
         console.log('error: ', error);
     }

@@ -192,7 +192,7 @@
         <a href="{base}/">Home</a>
     </div>
     <div class="row justify-center my-2">
-        <div class="col-10">
+        <div class="col-12">
             selectedCountry.name: {selectedCountry?.name}<br />
             {#if selectedCountry}
                 <select bind:value={selectedCountry}>
@@ -210,12 +210,12 @@
     </div>
 
     <div class="row justify-center">
-        <div class="col-10">
+        <div class="col-12">
             <hr />
         </div>
     </div>
     <div class="row justify-center my-2">
-        <div class="col-10">
+        <div class="col-12">
             {#if loading}
                 <h3 class="text-center">loading...</h3>
             {/if}
