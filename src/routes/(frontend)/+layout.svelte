@@ -83,8 +83,8 @@
                         style="color: #ccc;">info@eurostadium.net</a
                     >
                     {#if isDev}
-                    <a href="auth/login" style="color: #ccc;">Login</a> |
-                    <a href="admin" style="color: #ccc;">Admin</a>
+                    <a href="/auth/login" style="color: #ccc;">Login</a> |
+                    <a href="/admin" style="color: #ccc;">Admin</a>
                     {/if}
                 </div>
             </div>

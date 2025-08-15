@@ -12,6 +12,11 @@
     // import '@lib/fontawesome.js';
     import { fade } from 'svelte/transition'
     // import '@fortawesome/fontawesome-free/css/all.css'
+    import '../../styles/sidebar.css'
+    // import '@lib/../styles/sidebar.css'
+    // import '@src/styles/sidebar.css'
+    // import '@styles/sidebar.css'
+    import '../../styles/table.css'
 
     let { children } = $props()
 
@@ -53,6 +58,7 @@
     })
 
     let collapsed = $state(false);
+    const isActive = (href) => $page.url.pathname === href;
 
     // Optional: Add localStorage persistence
     if (typeof window !== 'undefined') {
@@ -132,7 +138,7 @@
         </div>
 
         <ul class="sidebar-menu">
-            <li>
+            <li class:active={isActive('/admin')}>
                 <a href="/admin">
                     <!-- <i class="fas fa-home"></i> -->
                     <img
@@ -144,7 +150,7 @@
                     <span class="menu-text" in:fade out:fade>Admin</span>
                 </a>
             </li>
-            <li>
+            <li class:active={isActive('/admin/stadiums')}>
                 <a href="/admin/stadiums">
                     <!-- <i class="fas fa-futbol"></i> -->
                     <img
@@ -156,7 +162,7 @@
                     <span class="menu-text" in:fade out:fade>Stadiums</span>
                 </a>
             </li>
-            <li>
+            <li class:active={isActive('/admin/users')}>
                 <a href="/admin/users">
                     <!-- <i class="fas fa-users"></i> -->
                     <img
@@ -181,7 +187,7 @@
                 </a>
             </li>
             <li>
-                <a href="#" onclick={handleLogout}>
+                <button onclick={handleLogout}>
                     <!-- <i class="fas fa-right-from-bracket"></i> -->
                     <img
                         src="/images/icons/right-from-bracket.svg"
@@ -190,12 +196,12 @@
                         class="mr-2"
                     />
                     <span class="menu-text" in:fade out:fade>Logout</span>
-                </a>
+                </button>
             </li>
         </ul>
     </aside>
 
-    <main class="main-content border-1">
+    <main class="main-content border-0">
         <div style="position: fixed; top: 20px; right: 20px; z-index: 1000;">
             <Toasts />
         </div>
@@ -227,24 +233,6 @@
 </div>
 
 <style scoped>
-    /* ul {
-        list-style-type: none;
-        padding: 20px 20px;
-    }
-
-    li a {
-        display: block;
-        text-decoration: none;
-        padding: 10px 5px;
-    }
-    li a:hover {
-        background: orange;
-        border-radius: 0.5em;
-    }
-    li.active {
-        background: orange;
-        border-radius: 0.5em;
-    } */
     :global(:root) {
         --sidebar-width: 250px;
         --sidebar-collapsed-width: 80px;
@@ -255,103 +243,8 @@
         min-height: 100vh;
     }
 
-    .sidebar {
-        width: var(--sidebar-width);
-        height: 100vh;
-        background: #2c3e50;
-        color: white;
-        overflow: hidden;
-        position: fixed;
-        transition: width var(--transition-time) ease;
-    }
-
-    .sidebar.collapsed {
-        width: var(--sidebar-collapsed-width);
-    }
-
-    .sidebar-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .sidebar-title {
-        white-space: nowrap;
-    }
-
-    .toggle-btn {
-        background: none;
-        border: none;
-        color: white;
-        font-size: 1.5rem;
-        cursor: pointer;
-        transition: transform var(--transition-time) ease;
-    }
-
-    .sidebar.collapsed .toggle-btn {
-        transform: rotate(180deg);
-    }
-
-    .sidebar-menu {
-        list-style: none;
-        padding: 20px 0;
-    }
-
-    .sidebar-menu li a {
-        display: flex;
-        align-items: center;
-        padding: 15px 20px;
-        color: white;
-        text-decoration: none;
-        transition: background-color 0.2s;
-    }
-
-    .sidebar-menu li a:hover {
+    .active {
         background-color: #34495e;
     }
 
-    .sidebar-menu li a i {
-        font-size: 1.2rem;
-        margin-right: 15px;
-        min-width: 20px;
-    }
-
-    .menu-text {
-        white-space: nowrap;
-    }
-
-    .main-content {
-        margin-left: var(--sidebar-width);
-        padding: 20px;
-        flex: 1;
-        transition: margin-left var(--transition-time) ease;
-    }
-
-    .sidebar.collapsed ~ .main-content {
-        margin-left: var(--sidebar-collapsed-width);
-    }
-
-    .sidebar.collapsed .menu-text {
-        display: none;
-    }
-
-    .sidebar.collapsed .sidebar-menu li a::after {
-        content: attr(data-tooltip);
-        position: absolute;
-        left: 100%;
-        top: 0;
-        background: #34495e;
-        color: white;
-        padding: 15px 20px;
-        white-space: nowrap;
-        opacity: 0;
-        transition: opacity 0.2s;
-        pointer-events: none;
-    }
-
-    .sidebar.collapsed .sidebar-menu li:hover a::after {
-        opacity: 1;
-    }
 </style>

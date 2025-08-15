@@ -1,6 +1,8 @@
 <script>
     import { browser } from "$app/environment";
     import panzoom from "@panzoom/panzoom";
+    // import { panzoom } from '@panzoom/panzoom';
+    // import * as panzoom from '@panzoom/panzoom';
 
     let { countryHover, countryClick, countryLeave } = $props();
 

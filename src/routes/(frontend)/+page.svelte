@@ -3,13 +3,15 @@
     import TooltipCountry from "@lib/components/TooltipCountry.svelte";
     import TooltipStadium from "@lib/components/TooltipStadium.svelte";
     import { page } from "$app/stores";
-    import Europe from "@components/svg/Europe.svelte";
+    // import Europe from "@components/svg/Europe.svelte";
     import FilterButtons from "@components/FilterButtons.svelte";
     import Modal from "@components/Modal.svelte";
     import Statistics from "@components/Statistics.svelte";
     import camelize from "@utils/convertToCamelCase";
     import { leagueStore } from "@store/league";
     import { stadiumStore } from "@store/stadium";
+    import { faTruckLoading } from "@fortawesome/free-solid-svg-icons";
+    import sleep from "@lib/utils/sleep";
 
     let countryLeagues = $state([]);
     let country = $state({
@@ -27,13 +29,14 @@
     let showFilterButtons = $state(false);
     let showComponent = $state(false);
     let filterValue = $state("all");
-    let svgMap;
+    let svgMap = $state(null);
     let showModal = $state(false);
     let tooltipCountryWidth = $state(0);
     let tooltipStadiumWidth = $state(0);
     let mouseOverTooltip = $state(false);
     let isMobileDevice = $state(false);
-    let CurrentComponent = $state(Europe);
+    // let CurrentComponent = $state(Europe);
+    let CurrentComponent = $state(null);
 
     let {
         title = "eurostadium.net",
@@ -47,19 +50,22 @@
         } else {
             console.log("Desktop device detected");
         }
-        if ($leagueStore.leagues.length < 2) {
-            await leagueStore.fetchLeagues();
-        }
         if (hasSmallScreen()) {
             isMobileDevice = true;
         }
+        await sleep(2000)
+        await loadComponent("Europe");
         showComponent = true;
+        if ($leagueStore.leagues.length < 2) {
+            await leagueStore.fetchLeagues();
+        }
     });
 
     const loadComponent = async (map) => {
         console.log("loadComponent map: ", map);
-        const module = await import(`@components/svg/${map}.svelte`);
-        CurrentComponent = module.default;
+        // await sleep(2000); // Simulate loading delay
+            const module = await import(`@components/svg/${map}.svelte`);
+            CurrentComponent = module.default;
         showStadiumTooltip = false;
     };
 
@@ -389,6 +395,7 @@
             />
         {/if}
 
+        {#if CurrentComponent}
         <div id="svgWrapper" bind:this={svgMap} class="border-radius-08">
             <CurrentComponent
                 filter={filterValue}
@@ -402,6 +409,9 @@
                 {clickOutsideCountry}
             />
         </div>
+        {:else}
+            loading map...
+        {/if}
     </div>
     <div
         class="col-sm-1 col-md-2 col-lg-3 col-xl-3 justify-center align-content d-xs-none hidden-sm-and-down border-0"

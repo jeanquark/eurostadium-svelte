@@ -55,6 +55,8 @@ export async function GET({ request }) {
                 lastname: publicData?.lastname,
                 username: publicData?.username,
                 roles: roles || [],
+                inserted_at: user.created_at,
+                updated_at: user.updated_at,
             }
         })
         console.log('merged: ', merged);

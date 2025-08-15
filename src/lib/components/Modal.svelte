@@ -187,7 +187,7 @@ a11y_no_noninteractive_element_interactions -->
         cursor: pointer;
         border-radius: 16px;
     }
-    .close-btn {
+    /* .close-btn {
         position: absolute;
         top: 0;
         right: 0;
@@ -196,5 +196,5 @@ a11y_no_noninteractive_element_interactions -->
     }
     .close-btn:hover {
         cursor: pointer;
-    }
+    } */
 </style>

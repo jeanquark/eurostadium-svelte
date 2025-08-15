@@ -40,34 +40,42 @@
     userStore.users.length: {userStore.users?.length}<br />
     <br /><br />
 
-    <table>
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Email</th>
-                <th>Roles</th>
-                <th>Created at</th>
-                <th>Last update</th>
-            </tr>
-        </thead>
-        <tbody>
-            {#each $userStore.users as user, index}
-                <tr>
-                    <td>{user.id}</td>
-                    <td>{user.email}</td>
-                    <td>{#each user.roles as role}<span>{role} </span>{/each}</td>
-                    <td>{dayjs(user.inserted_at).format('ddd DD MMM YYYY')}</td>
-                    <td>{dayjs(user.updated_at).fromNow()}</td>
-                </tr>
-            {/each}
-        </tbody>
-    </table>
+    <div class="row">
+        <div class="col-12">
+            <div class="responsive-table-container">
+                <table class="full-data-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>ID</th>
+                            <th>Email</th>
+                            <th>Roles</th>
+                            <th>Created at</th>
+                            <th>Last update</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {#each $userStore.users as user, index}
+                            <tr>
+                                <td>{index + 1}</td>
+                                <td>{user.id}</td>
+                                <td>{user.email}</td>
+                                <td>
+                                    {#each user.roles as role}
+                                        <span>{role} </span>
+                                    {/each}
+                                </td>
+                                <td>{dayjs(user.inserted_at).format('ddd DD MMM YYYY')}</td>
+                                <td>{dayjs(user.updated_at).fromNow()}</td>
+                            </tr>
+                        {/each}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </div>
 
-<style>
-    table,
-    th,
-    td {
-        border: 1px solid black;
-    }
+<style scoped>
+    
 </style>

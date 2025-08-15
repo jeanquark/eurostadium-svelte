@@ -8,7 +8,7 @@ export async function GET({ request }) {
         const db = admin.firestore()
         const country = 'germany'
 
-        const { default: data } = await import(`../../../../../static/json/teams/${country}.json`, { assert: { type: "json" } })
+        const { default: data } = await import(`./../../../../../static/json/teams/${country}.json`, { assert: { type: "json" } })
 
         console.log('data: ', data)
         // return json(data);
