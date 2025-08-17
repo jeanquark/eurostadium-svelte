@@ -57,8 +57,8 @@
         })
     })
 
-    let collapsed = $state(false);
-    const isActive = (href) => $page.url.pathname === href;
+    let collapsed = $state(false)
+    const isActive = (href) => $page.url.pathname === href
 
     // Optional: Add localStorage persistence
     if (typeof window !== 'undefined') {
@@ -117,21 +117,13 @@
                     <!-- <FontAwesomeIcon icon="bars" /> -->
                     <!-- <Fa icon={faUser} /> -->
                     <!-- <i class="fas fa-bars"></i> -->
-                    <img
-                        src="/images/icons/bars.svg"
-                        height="30"
-                        alt="Menu"
-                    />
+                    <img src="/images/icons/bars.svg" height="30" alt="Menu" />
                     <!-- expand -->
                 {:else}
                     <!-- <FontAwesomeIcon icon="times" /> -->
                     <!-- <Fa icon={faUser} /> -->
                     <!-- <i class="fas fa-times"></i> -->
-                    <img
-                        src="/images/icons/times.svg"
-                        height="30"
-                        alt="Close"
-                    />
+                    <img src="/images/icons/times.svg" height="30" alt="Close" />
                     <!-- collapse -->
                 {/if}
             </button>
@@ -141,62 +133,36 @@
             <li class:active={isActive('/admin')}>
                 <a href="/admin">
                     <!-- <i class="fas fa-home"></i> -->
-                    <img
-                        src="/images/icons/gauge.svg"
-                        height="30"
-                        alt="Gauge"
-                        class="mr-2"
-                    />
+                    <img src="/images/icons/gauge.svg" height="30" alt="Gauge" class="mr-2" />
                     <span class="menu-text" in:fade out:fade>Admin</span>
                 </a>
             </li>
             <li class:active={isActive('/admin/stadiums')}>
                 <a href="/admin/stadiums">
                     <!-- <i class="fas fa-futbol"></i> -->
-                    <img
-                        src="/images/icons/futbol.svg"
-                        height="30"
-                        alt="Futbol"
-                        class="mr-2"
-                    />
+                    <img src="/images/icons/futbol.svg" height="30" alt="Futbol" class="mr-2" />
                     <span class="menu-text" in:fade out:fade>Stadiums</span>
                 </a>
             </li>
             <li class:active={isActive('/admin/users')}>
                 <a href="/admin/users">
                     <!-- <i class="fas fa-users"></i> -->
-                    <img
-                        src="/images/icons/users.svg"
-                        height="30"
-                        alt="Users"
-                        class="mr-2"
-                    />
+                    <img src="/images/icons/users.svg" height="30" alt="Users" class="mr-2" />
                     <span class="menu-text" in:fade out:fade>Users</span>
                 </a>
             </li>
             <li>
                 <a href="/">
                     <!-- <i class="fas fa-home"></i> -->
-                    <img
-                        src="/images/icons/home.svg"
-                        height="30"
-                        alt="Home"
-                        class="mr-2"
-                    />
+                    <img src="/images/icons/home.svg" height="30" alt="Home" class="mr-2" />
                     <span class="menu-text" in:fade out:fade>Home</span>
                 </a>
             </li>
             <li>
-                <button onclick={handleLogout}>
-                    <!-- <i class="fas fa-right-from-bracket"></i> -->
-                    <img
-                        src="/images/icons/right-from-bracket.svg"
-                        height="30"
-                        alt="Logout"
-                        class="mr-2"
-                    />
+                <a href="/" onclick={handleLogout}>
+                    <img src="/images/icons/right-from-bracket.svg" height="30" alt="Logout" class="mr-2" />
                     <span class="menu-text" in:fade out:fade>Logout</span>
-                </button>
+                </a>
             </li>
         </ul>
     </aside>
@@ -246,5 +212,4 @@
     .active {
         background-color: #34495e;
     }
-
 </style>

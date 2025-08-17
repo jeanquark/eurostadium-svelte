@@ -60,6 +60,53 @@ npm run dev
   update url field in supabase images table for each image stored in specified
   country folder of supabase storage.
 
+## Supabase RLS (Row Level Security)
+```sql
+-- Enable RLS on teams table
+ALTER TABLE public.teams ENABLE ROW LEVEL SECURITY;
+
+-- Policy for admin insert
+CREATE POLICY "Admins can insert teams" ON public.teams
+FOR INSERT TO authenticated
+WITH CHECK ('admin' = ANY((auth.jwt() ->> 'user_roles')::text[]));
+
+--Policy for admin update
+CREATE POLICY "Admins can update teams" ON public.teams
+FOR UPDATE TO authenticated
+USING ('admin' = ANY((auth.jwt() ->> 'user_roles')::text[]))
+WITH CHECK ('admin' = ANY((auth.jwt() ->> 'user_roles')::text[]));
+
+
+-- Enable RLS on stadiums table
+ALTER TABLE public.stadiums ENABLE ROW LEVEL SECURITY;
+
+-- Policy for admin insert
+CREATE POLICY "Admins can insert stadiums" ON public.stadiums
+FOR INSERT TO authenticated
+WITH CHECK ('admin' = ANY((auth.jwt() ->> 'user_roles')::text[]));
+
+--Policy for admin update
+CREATE POLICY "Admins can update stadiums" ON public.stadiums
+FOR UPDATE TO authenticated
+USING ('admin' = ANY((auth.jwt() ->> 'user_roles')::text[]))
+WITH CHECK ('admin' = ANY((auth.jwt() ->> 'user_roles')::text[]));
+
+
+-- Enable RLS on images table
+ALTER TABLE public.images ENABLE ROW LEVEL SECURITY;
+
+-- Policy for admin insert
+CREATE POLICY "Admins can insert images" ON public.images
+FOR INSERT TO authenticated
+WITH CHECK ('admin' = ANY((auth.jwt() ->> 'user_roles')::text[]));
+
+--Policy for admin update
+CREATE POLICY "Admins can update images" ON public.images
+FOR UPDATE TO authenticated
+USING ('admin' = ANY((auth.jwt() ->> 'user_roles')::text[]))
+WITH CHECK ('admin' = ANY((auth.jwt() ->> 'user_roles')::text[]));
+```
+
 ## Connect to the website's admin console
 
 - From the `database` folder, run sql trigger "create_user" and functions "auth_hooks" and "is_admin".

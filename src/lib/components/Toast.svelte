@@ -11,18 +11,19 @@
 
 <article class={type} role="alert" transition:fade>
     {#if type === "success"}
-        <SuccessIcon width="1.1em" />
+        <SuccessIcon width="30px" />
     {:else if type === "error"}
-        <ErrorIcon width="1.1em" />
-    {:else if type === "warning"}
-        <ErrorIcon width="1.1em" />
+        <ErrorIcon width="30px" />
+    {:else if type === "warning" || 'type' === "warn" }
+        <ErrorIcon width="30px" />
     {:else}
-        <InfoIcon width="1.1em" />
+        <InfoIcon width="30px" />
     {/if}
 
     <div class="text">
-        <!-- <slot /> -->
-        {@render children()}
+         <p>
+            {@render children()}
+         </p>
     </div>
 
     {#if dismissible}

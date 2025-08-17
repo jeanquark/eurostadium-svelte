@@ -1,6 +1,5 @@
 <script>
     import Toast from "./Toast.svelte";
-
     import { dismissToast, toasts } from "@store/toast";
     // import { toastStore } from "@store/toast";
 </script>

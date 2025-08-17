@@ -2,9 +2,17 @@ import { json } from '@sveltejs/kit';
 // import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public'
 import { env } from '$env/dynamic/public';
 import { createServerClient } from '@supabase/ssr'
+import { createClient } from '@supabase/supabase-js'
+import { SUPABASE_SERVICE_ROLE_KEY } from '$env/static/private'
 import slugify from 'slugify';
 
-export async function GET({ url, locals: { supabase } }) {
+const supabase = createClient(
+    env.PUBLIC_SUPABASE_URL,
+    SUPABASE_SERVICE_ROLE_KEY
+)
+
+// export async function GET({ url, locals: { supabase } }) {
+export async function GET({ url, }) {
 // export async function GET({ url }) {
     try {
         const countrySlug = slugify(url.searchParams.get('country'))

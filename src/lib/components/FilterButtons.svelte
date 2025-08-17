@@ -334,7 +334,7 @@
         color: #666666;
         cursor: not-allowed;
     }
-    .grass-background {
+    /* .grass-background {
         background: url("/images/grass_01.jpg") no-repeat scroll 0 0 transparent !important;
     }
     .grass-background-grey {
@@ -344,5 +344,5 @@
     .grass-background-blue {
         background: url("/images/grass_01_blue2.jpg") no-repeat scroll 0 0
             transparent !important;
-    }
+    } */
 </style>

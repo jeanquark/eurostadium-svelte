@@ -10,10 +10,7 @@
     --dark-text: #212529;
 
     /* Transition */
-    --btn-transition: color 0.15s ease-in-out,
-        background-color 0.15s ease-in-out,
-        border-color 0.15s ease-in-out,
-        box-shadow 0.15s ease-in-out;
+    --btn-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 /* Base button */
@@ -155,9 +152,10 @@
 }
 
 /* Focus & active states */
-.btn:focus, .btn:active {
+.btn:focus,
+.btn:active {
     outline: none;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .btn:active {
@@ -191,4 +189,38 @@
 .btn-block {
     display: block;
     width: 100%;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+/* Loading state */
+.loading {
+    position: relative;
+    padding-left: 30px !important;
+}
+
+.loading::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: translateY(-50%) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-50%) rotate(360deg);
+    }
 }

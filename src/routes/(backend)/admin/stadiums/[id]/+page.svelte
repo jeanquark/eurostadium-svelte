@@ -44,6 +44,7 @@
             <p class="text-center">{stadiumImages[0]?.team_name}</p>
             <p class="text-center">{stadiumImages[0]?.league_name}</p>
             <p class="text-center">{stadiumImages[0]?.country_name}</p>
+            <p class="text-center">API Football ID: {stadiumImages[0]?.stadium_api_football_id}</p>
         </div>
     </div>
     <div class="row justify-start align-center">

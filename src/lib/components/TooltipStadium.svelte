@@ -331,7 +331,7 @@
         {#each data?.teams as team, i}
             <div class="col-4 text-center team-logo" style="">
                 <a href={team.wiki} target="_blank">
-                    <h3 class="text-center">{team.name}</h3>
+                    <h3 class="text-center my-2">{team.name}</h3>
                     <img
                         src="{base}/images/teams/{countrySlug}/{team.api_football_id}.png"
                         width="30%"

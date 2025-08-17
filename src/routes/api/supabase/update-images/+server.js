@@ -2,12 +2,23 @@ import { json } from '@sveltejs/kit';
 import { promises as fs } from "fs";
 import { env } from '$env/dynamic/public';
 import { createServerClient } from '@supabase/ssr'
+import { createClient } from '@supabase/supabase-js'
+import { SUPABASE_SERVICE_ROLE_KEY } from '$env/static/private'
 import slugify from '@utils/slugify';
 
-export async function GET({ url, locals: { supabase } }) {
+const supabase = createClient(
+    env.PUBLIC_SUPABASE_URL,
+    SUPABASE_SERVICE_ROLE_KEY
+)
+
+export async function GET(event) {
     try {
+        console.log('GET request received in /api/supabase/update-images/+server.js, event:', event);
+        const { url } = event;
         const countrySlug = slugify(url.searchParams.get('country'))
         console.log('countrySlug: ', countrySlug)
+
+        // protectApiRoute(event, ['admin']);
 
         if (!countrySlug) {
             return json({
@@ -15,18 +26,6 @@ export async function GET({ url, locals: { supabase } }) {
                 message: 'Specify country in url params: "/api/supabase/update-images?country=[COUNTRY_SLUG]"'
             });
         }
-
-        // // 1) Set up Supabase DB
-        // const supabase = createServerClient(env.PUBLIC_SUPABASE_URL, env.PUBLIC_SUPABASE_ANON_KEY, {
-        //     global: {
-        //         fetch,
-        //     },
-        //     cookies: {
-        //         getAll() {
-        //             return null
-        //         }
-        //     }
-        // })
 
         let rowsUpdated = 0
         let countryTeams = []

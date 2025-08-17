@@ -72,6 +72,9 @@
 .text-muted {
     color: #808080;
 }
+.text-error {
+    color: red;
+}
 
 .text-uppercase {
     text-transform: uppercase;
