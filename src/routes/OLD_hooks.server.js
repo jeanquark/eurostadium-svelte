@@ -4,7 +4,7 @@ import { createServerClient } from '@supabase/ssr'
 
 export const handle = async ({ event, resolve }) => {
     try {
-        console.log('[hooks.server.js]')
+        console.log('[OLD_hooks.server.js]')
         event.locals.supabase = createServerClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY, {
             cookies: {
                 getAll: () => event.cookies.getAll(),

@@ -7,14 +7,22 @@ import { supabase } from "@lib/supabase/supabaseClient";
 import { jwtDecode } from "jwt-decode";
 
 
-export async function GET({ request }) {
+// export async function GET({ request }) {
+// export async function GET({ locals: { supabase } }) {
+export async function GET(event) {
     // export async function GET({ locals: { safeGetSession }, cookies }) {
     try {
         console.log('/api/supabase/test-role')
         // console.log('locals: ', locals);
-
+        // console.log('event: ', event);
+        console.log('event.locals.user: ', event.locals.user);
         // const { session } = await safeGetSession()
         // console.log('session: ', session);
+
+        return json({
+            success: true,
+            // access_token
+        });
 
         const supabase = createServerClient(env.PUBLIC_SUPABASE_URL, env.PUBLIC_SUPABASE_ANON_KEY, {
             global: {
