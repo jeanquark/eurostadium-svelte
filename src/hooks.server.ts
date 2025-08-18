@@ -4,6 +4,7 @@ import { sequence } from '@sveltejs/kit/hooks'
 
 import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public'
 
+
 const supabase: Handle = async ({ event, resolve }) => {
     console.log('[hooks.server.ts]')
     /**
@@ -26,7 +27,20 @@ const supabase: Handle = async ({ event, resolve }) => {
             },
         },
     })
+
+    // const supabase = createServerClient(
+	// 	PUBLIC_SUPABASE_URL,
+	// 	PUBLIC_SUPABASE_ANON_KEY,
+	// 	{
+	// 		cookies: {
+	// 			get: (name) => event.cookies.get(name),
+	// 			set: (name, value, options) => event.cookies.set(name, value, options),
+	// 			remove: (name, options) => event.cookies.delete(name, options),
+	// 		},
+	// 	}
+	// );
     // console.log('event.locals: ', event.locals);
+    // console.log('[hooks.server.ts] event.locals: ', event.locals);
 
     /**
      * Unlike `supabase.auth.getSession()`, which returns the session _without_
@@ -38,6 +52,11 @@ const supabase: Handle = async ({ event, resolve }) => {
             data: { session },
         } = await event.locals.supabase.auth.getSession()
         // console.log('[hooks.server.ts] session: ', session);
+        event.locals.session = session;
+	    event.locals.user = session?.user;
+        console.log('[hooks.server.ts] session: ', session);
+        // console.log('[hooks.server.ts] user: ', event.locals.user);
+
         if (!session) {
             return { session: null, user: null }
         }
@@ -46,7 +65,7 @@ const supabase: Handle = async ({ event, resolve }) => {
             data: { user },
             error,
         } = await event.locals.supabase.auth.getUser()
-        // console.log('[hooks.server.ts] user: ', user);
+        console.log('[hooks.server.ts] user: ', user);
         if (error) {
             // JWT validation has failed
             return { session: null, user: null }

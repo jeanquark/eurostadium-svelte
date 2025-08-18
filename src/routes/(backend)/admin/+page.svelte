@@ -1,29 +1,31 @@
 <script>
-    import { base } from "$app/paths";
-    import { supabase } from "@lib/supabase/supabaseClient";
-    import { onMount } from "svelte";
-    import { goto } from "$app/navigation";
-    import { jwtDecode } from "jwt-decode";
-    import { addToast } from "@store/toast";
-    import Toasts from "@components/Toasts.svelte";
-    import { countryStore } from "@store/country";
+    import { base } from '$app/paths'
+    import { supabase } from '@lib/supabase/supabaseClient'
+    import { onMount } from 'svelte'
+    import { goto } from '$app/navigation'
+    import { jwtDecode } from 'jwt-decode'
+    import { addToast } from '@store/toast'
+    import Toasts from '@components/Toasts.svelte'
+    import { countryStore } from '@store/country'
+    import { createClient } from '@supabase/supabase-js'
+    import { PUBLIC_SUPABASE_ANON_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public'
 
     onMount(async () => {
-        if ($countryStore.countries.length < 2) {
-            countryStore.fetchCountries();
-        }
-    });
+        // if ($countryStore.countries.length < 2) {
+        //     countryStore.fetchCountries();
+        // }
+    })
 
-    let selectedCountry = $state(null);
-    let loading = $state(false);
+    let selectedCountry = $state(null)
+    let loading = $state(false)
 
     const testAPIRoute = async () => {
         try {
-            const response = await fetch(`/api/supabase/test-role`);
-            const data = await response.json();
-            console.log("data: ", data);
+            const response = await fetch(`/api/supabase/test-role`)
+            const data = await response.json()
+            console.log('data: ', data)
         } catch (error) {
-            console.log("error: ", error);
+            console.log('error: ', error)
         }
     }
 </script>
@@ -49,8 +51,7 @@
         </div>
     </div>
     <div class="row justify-center my-2">
-        <div class="col-12">
-        </div>
+        <div class="col-12"></div>
     </div>
 </div>
 
