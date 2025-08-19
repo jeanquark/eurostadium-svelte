@@ -103,3 +103,11 @@ to supabase_auth_admin;
 revoke all
   on table public.user_roles
   from authenticated, anon, public;
+
+
+-- In config.toml file set up the following 3 lines:
+-- [auth.hook.<hook_name>]
+-- enabled = true
+-- uri = "pg-functions://[database_name]/public/[hook_name]"
+
+-- More info, see: https://supabase.com/docs/guides/auth/auth-hooks?queryGroups=language&language=sql
