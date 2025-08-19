@@ -52,14 +52,24 @@ const supabase: Handle = async ({ event, resolve }) => {
             data: { session },
         } = await event.locals.supabase.auth.getSession()
         // console.log('[hooks.server.ts] session: ', session);
-        event.locals.session = session;
-	    event.locals.user = session?.user;
-        console.log('[hooks.server.ts] session: ', session);
+        // event.locals.session = session;
+        // event.locals.user = session?.user;
         // console.log('[hooks.server.ts] user: ', event.locals.user);
 
+        console.log('[hooks.server.ts] session: ', session);
         if (!session) {
             return { session: null, user: null }
         }
+        console.log('[hooks.server.ts] session: ', session);
+        console.log('[hooks.server.ts] session.access_token: ', session.access_token);
+
+        const userRoles = session.access_token ?
+            JSON.parse(atob(session.access_token.split('.')[1])).user_roles : [];
+            console.log('[hooks.server.ts] userRoles: ', userRoles);
+        const userRole = session.access_token ?
+            JSON.parse(atob(session.access_token.split('.')[1])).user_role : "";
+        console.log('[hooks.server.ts] userRole: ', userRole);
+
 
         const {
             data: { user },

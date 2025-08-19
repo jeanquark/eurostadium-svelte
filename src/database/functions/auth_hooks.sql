@@ -85,16 +85,17 @@ as $$
   end;
 $$;
 
-grant usage on schema public to supabase_auth_admin;
 
 grant execute
   on function public.custom_access_token_hook
   to supabase_auth_admin;
 
+grant usage on schema public to supabase_auth_admin;
+
 revoke execute
   on function public.custom_access_token_hook
   from authenticated, anon, public;
-
+  
 grant all
   on table public.user_roles
 to supabase_auth_admin;
@@ -102,8 +103,3 @@ to supabase_auth_admin;
 revoke all
   on table public.user_roles
   from authenticated, anon, public;
-
-create policy "Allow auth admin to read user roles" ON public.user_roles
-as permissive for select
-to supabase_auth_admin
-using (true)
