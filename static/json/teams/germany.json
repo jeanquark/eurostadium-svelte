@@ -2030,7 +2030,7 @@
 			"code": "DRE",
 			"country": "Germany",
 			"founded": 1953,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Dynamo_Dresden"
 		},
 		"venue": {
 			"api_football_id": 707,
@@ -2039,11 +2039,11 @@
 			"city": "Dresden",
 			"capacity": 32066,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
-			"wiki": ""
+			"lat": 51.040278,
+			"lng": 13.747778,
+			"x": 766,
+			"y": 537,
+			"wiki": "https://en.wikipedia.org/wiki/Rudolf-Harbig-Stadion"
 		},
 		"league": {
 			"api_football_id": 79,
@@ -2198,7 +2198,7 @@
 			"code": "ARM",
 			"country": "Germany",
 			"founded": 1905,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Arminia_Bielefeld"
 		},
 		"venue": {
 			"api_football_id": 697,
@@ -2207,11 +2207,11 @@
 			"city": "Bielefeld",
 			"capacity": 27300,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
-			"wiki": ""
+			"lat": 52.031944,
+			"lng": 8.516667,
+			"x": 345,
+			"y": 408,
+			"wiki": "https://en.wikipedia.org/wiki/Bielefelder_Alm"
 		},
 		"league": {
 			"api_football_id": 79,
@@ -2591,11 +2591,11 @@
 			"city": "Münster",
 			"capacity": 18050,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": -341,
-			"y": 5320,
-			"wiki": ""
+			"lat": 51.929722,
+			"lng": 7.624722,
+			"x": 273,
+			"y": 422,
+			"wiki": "https://en.wikipedia.org/wiki/Preu%C3%9Fenstadion"
 		},
 		"league": {
 			"api_football_id": 79,

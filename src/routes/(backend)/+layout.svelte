@@ -1,42 +1,40 @@
 <script>
-    import { onMount } from 'svelte'
-    import { jwtDecode } from 'jwt-decode'
-    import { goto } from '$app/navigation'
-    import { base } from '$app/paths'
-    import { supabase } from '@lib/supabase/supabaseClient'
-    import '../../app.css'
-    import Toasts from '@components/Toasts.svelte'
-    import { addToast } from '@store/toast'
-    import { page } from '$app/stores'
+    import { onMount } from "svelte";
+    import { jwtDecode } from "jwt-decode";
+    import { goto } from "$app/navigation";
+    import { base } from "$app/paths";
+    import { supabase } from "@lib/supabase/supabaseClient";
+    import "../../app.css";
+    import Toasts from "@components/Toasts.svelte";
+    import { addToast } from "@store/toast";
+    import { page } from "$app/stores";
     // import Sidebar from '@components/Sidebar.svelte'
     // import '@lib/fontawesome.js';
-    import { fade } from 'svelte/transition'
+    import { fade } from "svelte/transition";
     // import '@fortawesome/fontawesome-free/css/all.css'
-    import '../../styles/sidebar.css'
-    // import '@lib/../styles/sidebar.css'
-    // import '@src/styles/sidebar.css'
-    // import '@styles/sidebar.css'
-    import '../../styles/table.css'
+    import "../../styles/sidebar.css";
+    import "../../styles/table.css";
+    import "../../styles/buttons.css";
 
-    let { children } = $props()
+    let { children } = $props();
 
     onMount(() => {
         supabase.auth.onAuthStateChange((_event, _session) => {
-            console.log('[onAuthStateChange] session: ', _session)
+            console.log("[onAuthStateChange] session: ", _session);
             if (!_session) {
                 addToast({
-                    message: 'You are not authenticated.',
-                    type: 'error',
+                    message: "You are not authenticated.",
+                    type: "error",
                     dismissible: false,
                     timeout: 3000,
-                })
-                goto('/auth/login')
-                return
+                });
+                goto("/auth/login");
+                return;
             }
-            const jwt = jwtDecode(_session?.access_token)
+            const jwt = jwtDecode(_session?.access_token);
             // console.log("jwt: ", jwt);
-            const userRoles = jwt.user_roles
-            console.log('[/admin/+layout.svelte] userRoles: ', userRoles);
+            const userRoles = jwt.user_roles;
+            console.log("[/admin/+layout.svelte] userRoles: ", userRoles);
             // if (!userRoles) {
             //     addToast({
             //         message: 'No role found in JWT.',
@@ -55,54 +53,57 @@
             //     })
             //     goto('/')
             // }
-        })
-    })
+        });
+    });
 
-    let collapsed = $state(false)
-    const isActive = (href) => $page.url.pathname === href
+    let collapsed = $state(false);
+    const isActive = (href) => $page.url.pathname === href;
 
     // Optional: Add localStorage persistence
-    if (typeof window !== 'undefined') {
-        const savedState = localStorage.getItem('sidebarCollapsed')
-        if (savedState) collapsed = savedState === 'true'
+    if (typeof window !== "undefined") {
+        const savedState = localStorage.getItem("sidebarCollapsed");
+        if (savedState) collapsed = savedState === "true";
     }
 
     const toggleSidebar = () => {
-        collapsed = !collapsed
-        if (typeof window !== 'undefined') {
-            localStorage.setItem('sidebarCollapsed', collapsed)
+        collapsed = !collapsed;
+        if (typeof window !== "undefined") {
+            localStorage.setItem("sidebarCollapsed", collapsed);
         }
-    }
+    };
     const handleLogout = () => {
         try {
-            const { error } = supabase.auth.signOut()
+            const { error } = supabase.auth.signOut();
             if (error) {
-                console.log('error: ', error)
-                throw error
+                console.log("error: ", error);
+                throw error;
             }
             addToast({
-                message: 'Logout success.',
-                type: 'success',
+                message: "Logout success.",
+                type: "success",
                 dismissible: false,
                 timeout: 3000,
-            })
-            goto('/')
+            });
+            goto("/");
         } catch (error) {
-            console.log('error: ', error)
+            console.log("error: ", error);
             addToast({
-                message: 'An error occured.',
-                type: 'error',
+                message: "An error occured.",
+                type: "error",
                 dismissible: false,
                 timeout: 3000,
-            })
+            });
         }
-    }
+    };
 </script>
 
 <svelte:head>
     <title>Eurostadium - Admin</title>
     <meta name="robots" content="noindex" />
-    <link href="https://fonts.googleapis.com/css?family=Gelasio" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Gelasio"
+        rel="stylesheet"
+    />
 </svelte:head>
 
 <div class="app">
@@ -124,51 +125,80 @@
                     <!-- <FontAwesomeIcon icon="times" /> -->
                     <!-- <Fa icon={faUser} /> -->
                     <!-- <i class="fas fa-times"></i> -->
-                    <img src="/images/icons/times.svg" height="30" alt="Close" />
+                    <img
+                        src="/images/icons/times.svg"
+                        height="30"
+                        alt="Close"
+                    />
                     <!-- collapse -->
                 {/if}
             </button>
         </div>
 
         <ul class="sidebar-menu">
-            <li class:active={isActive('/admin')}>
+            <li class:active={isActive("/admin")}>
                 <a href="/admin">
                     <!-- <i class="fas fa-home"></i> -->
-                    <img src="/images/icons/gauge.svg" height="30" alt="Gauge" class="mr-2" />
+                    <img
+                        src="/images/icons/gauge.svg"
+                        height="30"
+                        alt="Gauge"
+                        class="mr-2"
+                    />
                     <span class="menu-text" in:fade out:fade>Admin</span>
                 </a>
             </li>
-            <li class:active={isActive('/admin/stadiums')}>
+            <li class:active={isActive("/admin/stadiums")}>
                 <a href="/admin/stadiums">
                     <!-- <i class="fas fa-futbol"></i> -->
-                    <img src="/images/icons/futbol.svg" height="30" alt="Futbol" class="mr-2" />
+                    <img
+                        src="/images/icons/futbol.svg"
+                        height="30"
+                        alt="Futbol"
+                        class="mr-2"
+                    />
                     <span class="menu-text" in:fade out:fade>Stadiums</span>
                 </a>
             </li>
-            <li class:active={isActive('/admin/users')}>
+            <li class:active={isActive("/admin/users")}>
                 <a href="/admin/users">
                     <!-- <i class="fas fa-users"></i> -->
-                    <img src="/images/icons/users.svg" height="30" alt="Users" class="mr-2" />
+                    <img
+                        src="/images/icons/users.svg"
+                        height="30"
+                        alt="Users"
+                        class="mr-2"
+                    />
                     <span class="menu-text" in:fade out:fade>Users</span>
                 </a>
             </li>
             <li>
                 <a href="/">
                     <!-- <i class="fas fa-home"></i> -->
-                    <img src="/images/icons/home.svg" height="30" alt="Home" class="mr-2" />
+                    <img
+                        src="/images/icons/home.svg"
+                        height="30"
+                        alt="Home"
+                        class="mr-2"
+                    />
                     <span class="menu-text" in:fade out:fade>Home</span>
                 </a>
             </li>
             <li>
                 <a href="/" onclick={handleLogout}>
-                    <img src="/images/icons/right-from-bracket.svg" height="30" alt="Logout" class="mr-2" />
+                    <img
+                        src="/images/icons/right-from-bracket.svg"
+                        height="30"
+                        alt="Logout"
+                        class="mr-2"
+                    />
                     <span class="menu-text" in:fade out:fade>Logout</span>
                 </a>
             </li>
         </ul>
     </aside>
 
-    <main class="main-content border-0">
+    <main class="main-content border-0" style="">
         <div style="position: fixed; top: 20px; right: 20px; z-index: 1000;">
             <Toasts />
         </div>
@@ -208,6 +238,10 @@
     .app {
         display: flex;
         min-height: 100vh;
+    }
+    .main-content {
+        max-width: 100%;
+        overflow: auto;
     }
 
     .active {

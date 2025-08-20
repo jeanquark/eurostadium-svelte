@@ -16,26 +16,12 @@ export async function GET(event) {
         // console.log('locals: ', locals);
         // console.log('event: ', event);
         console.log('event.locals.user: ', event.locals.user);
+        console.log('event.request: ', event.request);
+        const authUser = event.locals.user;
         // const { session } = await safeGetSession()
         // console.log('session: ', session);
 
-        return json({
-            success: true,
-            // access_token
-        });
-
-        const supabase = createServerClient(env.PUBLIC_SUPABASE_URL, env.PUBLIC_SUPABASE_ANON_KEY, {
-            global: {
-                fetch,
-            },
-            cookies: {
-                getAll() {
-                    return null
-                }
-            }
-        })
-
-        const authHeader = request.headers.get('Authorization');
+        const authHeader = event.request.headers.get('Authorization');
         console.log('authHeader: ', authHeader);
 
         if (!authHeader) {
@@ -46,36 +32,13 @@ export async function GET(event) {
 
         const decoded = jwtDecode(token);
         console.log('decoded: ', decoded);
-        const user_role = decoded.user_role
-        console.log('auth_role: ', user_role);
-
-        const { data: { user }, error } = await supabase.auth.getUser(token);
-        console.log('user: ', user);
-        console.log('error: ', error);
-
-        if (error || !user) {
-            return new Response(JSON.stringify({ error: 'Unauthorized' }), { status: 401 });
-        }
-
-        // console.log('locals: ', locals);
-        // const { safeGetSession } = locals
-        // console.log('safeGetSession: ', safeGetSession);
-
-        // const { session, user } = await safeGetSession()
-        // console.log('session: ', session);
-        // console.log('user: ', user);
-
-
-        // return {
-        //     session,
-        //     user,
-        //     cookies: cookies.getAll(),
-        // }
 
         return json({
             success: true,
-            // access_token
+            authUser
         });
+
+
 
     } catch (error) {
         console.log('error: ', error);

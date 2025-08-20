@@ -105,7 +105,7 @@ revoke all
   from authenticated, anon, public;
 
 
--- In config.toml file set up the following 3 lines:
+-- In /supabase/config.toml file set up the following 3 lines:
 -- [auth.hook.<hook_name>]
 -- enabled = true
 -- uri = "pg-functions://[database_name]/public/[hook_name]"

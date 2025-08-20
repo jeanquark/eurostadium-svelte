@@ -21,7 +21,7 @@
     {/if}
 
     <div class="text">
-         <p>
+         <p style="text-align: left; margin: 0; line-height: 1.5; font-size: 0.9rem;">
             {@render children()}
          </p>
     </div>

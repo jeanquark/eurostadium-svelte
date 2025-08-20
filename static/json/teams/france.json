@@ -1858,7 +1858,7 @@
 			"code": "NAN",
 			"country": "France",
 			"founded": 1967,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/AS_Nancy_Lorraine"
 		},
 		"venue": {
 			"api_football_id": 661,
@@ -1867,11 +1867,11 @@
 			"city": "Tomblaine",
 			"capacity": 20087,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
-			"wiki": ""
+			"lat": 48.6955,
+			"lng": 6.210687,
+			"x": 766,
+			"y": 268,
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Marcel_Picot"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -2311,7 +2311,7 @@
 			"code": null,
 			"country": "France",
 			"founded": 1985,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Le_Mans_FC"
 		},
 		"venue": {
 			"api_football_id": 19206,
@@ -2320,11 +2320,11 @@
 			"city": "Le Mans",
 			"capacity": 25064,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
-			"wiki": ""
+			"lat": 47.959,
+			"lng": 0.2234,
+			"x": 349,
+			"y": 346,
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Marie-Marvingt"
 		},
 		"league": {
 			"api_football_id": 62,
@@ -2391,7 +2391,7 @@
 			"code": "BOU",
 			"country": "France",
 			"founded": 1898,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/US_Boulogne"
 		},
 		"venue": {
 			"api_football_id": 639,
@@ -2400,11 +2400,11 @@
 			"city": "Boulogne-sur-Mer",
 			"capacity": 15242,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
-			"wiki": ""
+			"lat": 50.723742,
+			"lng": 1.619411,
+			"x": 446,
+			"y": 50,
+			"wiki": "https://en.wikipedia.org/wiki/Stade_de_la_Lib%C3%A9ration"
 		},
 		"league": {
 			"api_football_id": 62,

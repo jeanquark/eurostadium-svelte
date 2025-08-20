@@ -1,6 +1,7 @@
 /* Table */
 .responsive-table-container {
     width: 100%;
+    /* width: 400px; */
     overflow-x: auto;
     margin: 20px 0;
     border: 1px solid #ddd;
@@ -10,7 +11,8 @@
 }
 
 .full-data-table {
-    width: auto;
+    /* width: auto; */
+    width: 100%;
     /* Changed from 100% to auto */
     min-width: 100%;
     /* Ensures table is at least as wide as container */
@@ -53,4 +55,39 @@
         padding: 8px 10px;
         height: 40px;
     }
+}
+
+
+
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 1rem 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    min-width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    white-space: nowrap;
+    /* Prevent text wrapping */
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+/* Optional: Add shadow when scrolled */
+.table-container.scrolled {
+    box-shadow: inset -5px 0 10px -5px rgba(0, 0, 0, 0.1);
 }

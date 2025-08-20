@@ -66,9 +66,10 @@ const supabase: Handle = async ({ event, resolve }) => {
         const userRoles = session.access_token ?
             JSON.parse(atob(session.access_token.split('.')[1])).user_roles : [];
             console.log('[hooks.server.ts] userRoles: ', userRoles);
-        const userRole = session.access_token ?
-            JSON.parse(atob(session.access_token.split('.')[1])).user_role : "";
-        console.log('[hooks.server.ts] userRole: ', userRole);
+
+        if ((event.url.pathname.startsWith('/admin') || event.url.pathname.startsWith('/api')) && !userRoles.includes('admin')) {
+            throw redirect(303, '/');
+        }
 
 
         const {
