@@ -72,6 +72,7 @@
 .text-muted {
     color: #808080;
 }
+
 .text-error {
     color: red;
 }
@@ -201,6 +202,11 @@
     max-width: 50%;
 }
 
+.col-5 {
+    flex-basis: 41.65%;
+    max-width: 41.65%;
+}
+
 .col-4 {
     /* flex: 33.33%; */
     flex-basis: 33.33%;
@@ -263,6 +269,11 @@
         max-width: 50%;
     }
 
+    .col-xl-5 {
+        flex-basis: 41.65%;
+        max-width: 41.65%;
+    }
+
     .col-xl-4 {
         flex-basis: 33.33%;
         max-width: 33.33%;
@@ -321,6 +332,11 @@
         max-width: 50%;
     }
 
+    .col-lg-5 {
+        flex-basis: 41.65%;
+        max-width: 41.65%;
+    }
+
     .col-lg-4 {
         flex-basis: 33.33%;
         max-width: 33.33%;
@@ -377,6 +393,11 @@
     .col-md-6 {
         flex-basis: 50%;
         max-width: 50%;
+    }
+
+    .col-md-5 {
+        flex-basis: 41.65%;
+        max-width: 41.65%;
     }
 
     .col-md-4 {
@@ -444,6 +465,11 @@
         max-width: 50%;
     }
 
+    .col-sm-5 {
+        flex-basis: 41.65%;
+        max-width: 41.65%;
+    }
+
     .col-sm-4 {
         flex-basis: 33.33%;
         max-width: 33.33%;
@@ -504,6 +530,11 @@
     .col-xs-6 {
         flex-basis: 50%;
         max-width: 50%;
+    }
+
+    .col-xs-5 {
+        flex-basis: 41.65%;
+        max-width: 41.65%;
     }
 
     .col-xs-4 {
@@ -814,6 +845,13 @@
 .pl-3 {
     padding-left: 1em;
 }
+.pl-4 {
+    padding-left: 1.5em;
+}
+
+.pl-5 {
+    padding-left: 2em;
+}
 
 .pr-1 {
     padding-right: .3em;
@@ -825,6 +863,14 @@
 
 .pr-3 {
     padding-right: 1em;
+}
+
+.pr-4 {
+    padding-right: 1.5em;
+}
+
+.pr-5 {
+    padding-right: 2em;
 }
 
 /* borders */

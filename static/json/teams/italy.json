@@ -81,6 +81,86 @@
 	},
 	{
 		"team": {
+			"api_football_id": 488,
+			"name": "Sassuolo",
+			"code": "SAS",
+			"country": "Italy",
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio"
+		},
+		"venue": {
+			"api_football_id": 935,
+			"name": "MAPEI Stadium - Città del Tricolore",
+			"address": "Piazza Azzuri d&apos;Italia, 1",
+			"city": "Reggio Emilia",
+			"capacity": 23717,
+			"surface": "grass",
+			"lat": 44.714722,
+			"lng": 10.649722,
+			"x": 376,
+			"y": 220,
+			"wiki": "https://en.wikipedia.org/wiki/Mapei_Stadium_%E2%80%93_Citt%C3%A0_del_Tricolore"
+		},
+		"league": {
+			"api_football_id": 135,
+			"name": "Serie A",
+			"country": "Italy",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "935_001.jpg",
+				"source": "https://www.footballticketnet.fr/theme/images/venues_cover/Buy-MAPEI_Stadium_-_Citta_del_Tricolore-Football-Tickets-FootballTicketNet-Cover.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "935_002.jpg",
+				"source": "https://cdnmedia.mapei.com/images/projects-images/brat2-jpg.tmb-mapeiprjco.jpg?Culture=en&sfvrsn=f9ef826a_1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "935_003.jpg",
+				"source": "https://www.dz-e.com/wp-content/uploads/2023/08/%C2%A9Luca-Gilli_MAPEI_3238.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "935_004.jpg",
+				"source": "https://en.atalanta.it/_next/image?url=https%3A%2F%2Fimages.atalanta.it%2Fimage%2Fprivate%2Ft_ratio3_4-size60%2Fprd%2Fgrjcsqkxn1ksycunzqzl&w=1280&q=75",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "935_005.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/0/03/Reggio_Emilia%2C_Stadio_Giglio%2C_2010_%28cropped%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "935_006.jpg",
+				"source": "https://www.sassuolocalcio.it/wp-content/uploads/2023/02/FIL1999_Vinardi.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 2
+	},
+	{
+		"team": {
 			"api_football_id": 489,
 			"name": "AC Milan",
 			"code": "MIL",
@@ -173,7 +253,7 @@
 				"size": 0
 			}
 		],
-		"no": 2
+		"no": 3
 	},
 	{
 		"team": {
@@ -245,7 +325,7 @@
 				"size": 0
 			}
 		],
-		"no": 3
+		"no": 4
 	},
 	{
 		"team": {
@@ -325,7 +405,7 @@
 				"size": 0
 			}
 		],
-		"no": 4
+		"no": 5
 	},
 	{
 		"team": {
@@ -405,7 +485,7 @@
 				"size": 0
 			}
 		],
-		"no": 5
+		"no": 6
 	},
 	{
 		"team": {
@@ -493,7 +573,7 @@
 				"size": 0
 			}
 		],
-		"no": 6
+		"no": 7
 	},
 	{
 		"team": {
@@ -573,7 +653,7 @@
 				"size": 0
 			}
 		],
-		"no": 7
+		"no": 8
 	},
 	{
 		"team": {
@@ -653,7 +733,7 @@
 				"size": 0
 			}
 		],
-		"no": 8
+		"no": 9
 	},
 	{
 		"team": {
@@ -717,7 +797,7 @@
 				"size": 0
 			}
 		],
-		"no": 9
+		"no": 10
 	},
 	{
 		"team": {
@@ -797,7 +877,7 @@
 				"size": 0
 			}
 		],
-		"no": 10
+		"no": 11
 	},
 	{
 		"team": {
@@ -877,7 +957,7 @@
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 12
 	},
 	{
 		"team": {
@@ -949,7 +1029,7 @@
 				"size": 0
 			}
 		],
-		"no": 12
+		"no": 13
 	},
 	{
 		"team": {
@@ -1029,7 +1109,7 @@
 				"size": 0
 			}
 		],
-		"no": 13
+		"no": 14
 	},
 	{
 		"team": {
@@ -1125,101 +1205,29 @@
 				"size": 0
 			}
 		],
-		"no": 14
-	},
-	{
-		"team": {
-			"api_football_id": 511,
-			"name": "Empoli",
-			"code": "EMP",
-			"country": "Italy",
-			"founded": 1920,
-			"wiki": "https://en.wikipedia.org/wiki/Empoli_FC"
-		},
-		"venue": {
-			"api_football_id": 20109,
-			"name": "Stadio Carlo Castellani – Computer Gross Arena",
-			"address": "Viale delle Olimpiadi",
-			"city": "Empoli",
-			"capacity": 16284,
-			"surface": "grass",
-			"lat": 43.726389,
-			"lng": 10.955,
-			"x": 395,
-			"y": 309,
-			"wiki": "https://en.wikipedia.org/wiki/Stadio_Carlo_Castellani"
-		},
-		"league": {
-			"api_football_id": 135,
-			"name": "Serie A",
-			"country": "Italy",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "20109_001.jpg",
-				"source": "https://empolifc.com/wp-content/uploads/PartitaEmpoliCittadellaHD13-Copia-2.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20109_002.jpg",
-				"source": "https://met.cittametropolitana.fi.it/public/images/20240802152415730.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20109_003.jpg",
-				"source": "https://i0.wp.com/nelquotidiano.news/wp-content/uploads/2024/10/1-47.jpg?fit=1024%2C768&ssl=1",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20109_004.jpg",
-				"source": "https://www.calcionews24.com/wp-content/uploads/2023/04/Empoli_MAT_5828-e1689618776126.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20109_005.jpg",
-				"source": "https://www.empolichannel.it/wp-content/uploads/2023/09/maratona_stadio_castellani.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 15
 	},
 	{
 		"team": {
-			"api_football_id": 517,
-			"name": "Venezia",
-			"code": "VEN",
+			"api_football_id": 520,
+			"name": "Cremonese",
+			"code": "CRE",
 			"country": "Italy",
-			"founded": 1907,
-			"wiki": "https://en.wikipedia.org/wiki/Venezia_FC"
+			"founded": 1903,
+			"wiki": "https://en.wikipedia.org/wiki/US_Cremonese"
 		},
 		"venue": {
-			"api_football_id": 948,
-			"name": "Stadio Pierluigi Penzo",
-			"address": "Isola di Sant&apos;Elena",
-			"city": "Venezia",
-			"capacity": 11150,
+			"api_football_id": 894,
+			"name": "Stadio Giovanni Zini",
+			"address": "Via Persico, 19",
+			"city": "Cremona",
+			"capacity": 20034,
 			"surface": "grass",
-			"lat": 45.427761,
-			"lng": 12.363731,
-			"x": 487,
-			"y": 155,
-			"wiki": "https://en.wikipedia.org/wiki/Stadio_Pier_Luigi_Penzo"
+			"lat": 45.140278,
+			"lng": 10.034722,
+			"x": 336,
+			"y": 181,
+			"wiki": "https://en.wikipedia.org/wiki/Stadio_Giovanni_Zini"
 		},
 		"league": {
 			"api_football_id": 135,
@@ -1229,40 +1237,40 @@
 		},
 		"images": [
 			{
-				"name": "948_001.jpg",
-				"source": "https://i.ytimg.com/vi/8w2D6NuWRfI/maxresdefault.jpg",
+				"name": "894_001.jpg",
+				"source": "https://www.ostadium.com/galleries/Cremonese-5-scaled-big.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "948_002.jpg",
-				"source": "https://omsi.it/wp-content/uploads/2020/08/PenzoSTADIUM_VENEZIA2-scaled.jpg",
+				"name": "894_002.jpg",
+				"source": "https://pbs.twimg.com/ext_tw_video_thumb/1571441831598067712/pu/img/4WP6ytR-eRyDsg9b.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "948_003.jpg",
-				"source": "https://www.aecilluminazione.fr/wp-content/uploads/2021/07/AEC-Illuminaizone-Stadio-Penzo-Venezia-FC-1000x1000.jpg",
+				"name": "894_003.jpg",
+				"source": "https://omsi.it/wp-content/uploads/2023/04/Silver_ziniStadium.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "948_004.jpg",
-				"source": "https://omsi.it/wp-content/uploads/2020/08/PenzoSTADIUM_VENEZIA-scaled.jpg",
+				"name": "894_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Stadio_Zini_2019_09_21.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "948_005.jpg",
-				"source": "https://cdn.sanity.io/images/uis005ew/production/19dae3cece153ab0a6c48faec52512968e5cfe0f-3615x2712.jpg",
+				"name": "894_005.jpg",
+				"source": "https://www.calcioefinanza.it/wp-content/uploads/2022/05/us-cremonese-v-venezia-serie-b.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1345,6 +1353,70 @@
 	},
 	{
 		"team": {
+			"api_football_id": 801,
+			"name": "Pisa",
+			"code": "PIS",
+			"country": "Italy",
+			"founded": 1909,
+			"wiki": "https://en.wikipedia.org/wiki/Pisa_SC"
+		},
+		"venue": {
+			"api_football_id": 925,
+			"name": "Arena Garibaldi - Stadio Romeo Anconetani",
+			"address": "Via di Gello, 25",
+			"city": "Pisa",
+			"capacity": 17500,
+			"surface": "grass",
+			"lat": 43.725278,
+			"lng": 10.4,
+			"x": 360,
+			"y": 309,
+			"wiki": "https://en.wikipedia.org/wiki/Arena_Garibaldi_%E2%80%93_Stadio_Romeo_Anconetani"
+		},
+		"league": {
+			"api_football_id": 135,
+			"name": "Serie A",
+			"country": "Italy",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "925_001.jpg",
+				"source": "https://viaggioconstile.it/wp-content/uploads/2020/06/Transfer-Privato-Stadio-Arena-Garibaldi-Pisa.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "925_002.jpg",
+				"source": "https://www.sestaporta.news/wp-content/uploads/2024/01/caricatefotostadiocurva.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "925_003.jpg",
+				"source": "https://www.parlandodisport.it/wp-content/uploads/2024/02/stadio-pisa.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "925_004.jpg",
+				"source": "https://pbs.twimg.com/media/ELTBIq5XsAA8x8-.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 18
+	},
+	{
+		"team": {
 			"api_football_id": 867,
 			"name": "Lecce",
 			"code": "LEC",
@@ -1421,7 +1493,7 @@
 				"size": 0
 			}
 		],
-		"no": 18
+		"no": 19
 	},
 	{
 		"team": {
@@ -1501,167 +1573,7 @@
 				"size": 0
 			}
 		],
-		"no": 19
-	},
-	{
-		"team": {
-			"api_football_id": 1579,
-			"name": "Monza",
-			"code": "MON",
-			"country": "Italy",
-			"founded": 1912,
-			"wiki": "https://en.wikipedia.org/wiki/AC_Monza"
-		},
-		"venue": {
-			"api_football_id": 12086,
-			"name": "U-Power Stadium",
-			"address": "Via Franco Tognini",
-			"city": "Monza",
-			"capacity": 18568,
-			"surface": "grass",
-			"lat": 45.582778,
-			"lng": 9.308056,
-			"x": 289,
-			"y": 141,
-			"wiki": "https://en.wikipedia.org/wiki/Stadio_Brianteo"
-		},
-		"league": {
-			"api_football_id": 135,
-			"name": "Serie A",
-			"country": "Italy",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "12086_001.jpg",
-				"source": "https://www.schiavispa.it/wp-content/uploads/2023/11/schiavi-stadio-brianteo-u-power-3-1200x675.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12086_002.jpg",
-				"source": "https://th-italia.com/wp-content/uploads/2021/08/B0043469.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12086_003.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Stadio_Brianteo_2024.jpg/1200px-Stadio_Brianteo_2024.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12086_004.jpg",
-				"source": "https://www.ilcittadinomb.it/wp-content/uploads/2022/08/stadio-3-1.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12086_005.jpg",
-				"source": "https://jpius.it/wp-content/uploads/2024/01/DJI_0037_transformed.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12086_006.jpg",
-				"source": "https://jpius.it/wp-content/uploads/2024/01/DJI_0007_transformed.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 20
-	},
-	{
-		"team": {
-			"api_football_id": 488,
-			"name": "Sassuolo",
-			"code": "SAS",
-			"country": "Italy",
-			"founded": 1922,
-			"wiki": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio"
-		},
-		"venue": {
-			"api_football_id": 935,
-			"name": "MAPEI Stadium - Città del Tricolore",
-			"address": "Piazza Azzuri d&apos;Italia, 1",
-			"city": "Reggio Emilia",
-			"capacity": 23717,
-			"surface": "grass",
-			"lat": 44.714722,
-			"lng": 10.649722,
-			"x": 376,
-			"y": 220,
-			"wiki": "https://en.wikipedia.org/wiki/Mapei_Stadium_%E2%80%93_Citt%C3%A0_del_Tricolore"
-		},
-		"league": {
-			"api_football_id": 136,
-			"name": "Serie B",
-			"country": "Italy",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "935_001.jpg",
-				"source": "https://www.footballticketnet.fr/theme/images/venues_cover/Buy-MAPEI_Stadium_-_Citta_del_Tricolore-Football-Tickets-FootballTicketNet-Cover.png",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "935_002.jpg",
-				"source": "https://cdnmedia.mapei.com/images/projects-images/brat2-jpg.tmb-mapeiprjco.jpg?Culture=en&sfvrsn=f9ef826a_1",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "935_003.jpg",
-				"source": "https://www.dz-e.com/wp-content/uploads/2023/08/%C2%A9Luca-Gilli_MAPEI_3238.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "935_004.jpg",
-				"source": "https://en.atalanta.it/_next/image?url=https%3A%2F%2Fimages.atalanta.it%2Fimage%2Fprivate%2Ft_ratio3_4-size60%2Fprd%2Fgrjcsqkxn1ksycunzqzl&w=1280&q=75",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "935_005.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/0/03/Reggio_Emilia%2C_Stadio_Giglio%2C_2010_%28cropped%29.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "935_006.jpg",
-				"source": "https://www.sassuolocalcio.it/wp-content/uploads/2023/02/FIL1999_Vinardi.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 21
 	},
 	{
 		"team": {
@@ -1749,7 +1661,7 @@
 				"size": 0
 			}
 		],
-		"no": 22
+		"no": 21
 	},
 	{
 		"team": {
@@ -1837,7 +1749,7 @@
 				"size": 0
 			}
 		],
-		"no": 23
+		"no": 22
 	},
 	{
 		"team": {
@@ -1893,29 +1805,29 @@
 				"size": 0
 			}
 		],
-		"no": 24
+		"no": 23
 	},
 	{
 		"team": {
-			"api_football_id": 510,
-			"name": "Cittadella",
-			"code": "CIT",
+			"api_football_id": 511,
+			"name": "Empoli",
+			"code": "EMP",
 			"country": "Italy",
-			"founded": 1973,
-			"wiki": "https://en.wikipedia.org/wiki/AS_Cittadella"
+			"founded": 1920,
+			"wiki": "https://en.wikipedia.org/wiki/Empoli_FC"
 		},
 		"venue": {
-			"api_football_id": 891,
-			"name": "Stadio Pier Cesare Tombolato",
-			"address": "Viale dello Sport, 7",
-			"city": "Cittadella",
-			"capacity": 7623,
+			"api_football_id": 20109,
+			"name": "Stadio Carlo Castellani – Computer Gross Arena",
+			"address": "Viale delle Olimpiadi",
+			"city": "Empoli",
+			"capacity": 16284,
 			"surface": "grass",
-			"lat": 45.642778,
-			"lng": 11.781111,
-			"x": 449,
-			"y": 135,
-			"wiki": "https://en.wikipedia.org/wiki/Stadio_Pier_Cesare_Tombolato"
+			"lat": 43.726389,
+			"lng": 10.955,
+			"x": 395,
+			"y": 309,
+			"wiki": "https://en.wikipedia.org/wiki/Stadio_Carlo_Castellani"
 		},
 		"league": {
 			"api_football_id": 136,
@@ -1925,47 +1837,47 @@
 		},
 		"images": [
 			{
-				"name": "891_001.jpg",
-				"source": "https://www.comune.cittadella.pd.it/wp-content/uploads/2024/02/stadio-tombolato-cittadella-calcio.jpg",
+				"name": "20109_001.jpg",
+				"source": "https://empolifc.com/wp-content/uploads/PartitaEmpoliCittadellaHD13-Copia-2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "891_002.jpg",
-				"source": "https://wips.plug.it/cips/sport.virgilio.it/img/stadi/3475.jpg",
+				"name": "20109_002.jpg",
+				"source": "https://met.cittametropolitana.fi.it/public/images/20240802152415730.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "891_003.jpg",
-				"source": "https://footballhost.com/cdn/shop/collections/CITTADELLA.jpg?v=1667344845",
+				"name": "20109_003.jpg",
+				"source": "https://i0.wp.com/nelquotidiano.news/wp-content/uploads/2024/10/1-47.jpg?fit=1024%2C768&ssl=1",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "891_004.jpg",
-				"source": "https://pbs.twimg.com/media/F2dlMa8XUAkQ3Z4.jpg:large",
+				"name": "20109_004.jpg",
+				"source": "https://www.calcionews24.com/wp-content/uploads/2023/04/Empoli_MAT_5828-e1689618776126.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "891_005.jpg",
-				"source": "https://www.syncronia.com/sites/default/files/old/sn-uploads/projects/project-picvggxvifrjd58201318143.jpg",
+				"name": "20109_005.jpg",
+				"source": "https://www.empolichannel.it/wp-content/uploads/2023/09/maratona_stadio_castellani.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 25
+		"no": 24
 	},
 	{
 		"team": {
@@ -2037,87 +1949,7 @@
 				"size": 0
 			}
 		],
-		"no": 26
-	},
-	{
-		"team": {
-			"api_football_id": 514,
-			"name": "Salernitana",
-			"code": "SAL",
-			"country": "Italy",
-			"founded": 2011,
-			"wiki": "https://en.wikipedia.org/wiki/US_Salernitana_1919"
-		},
-		"venue": {
-			"api_football_id": 933,
-			"name": "Stadio Arechi",
-			"address": "Via Salvador Allende",
-			"city": "Salerno",
-			"capacity": 37245,
-			"surface": "grass",
-			"lat": 40.645,
-			"lng": 14.823889,
-			"x": 646,
-			"y": 577,
-			"wiki": "https://en.wikipedia.org/wiki/Stadio_Arechi"
-		},
-		"league": {
-			"api_football_id": 136,
-			"name": "Serie B",
-			"country": "Italy",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "933_001.jpg",
-				"source": "https://salernitana.b-cdn.net/wp-content/uploads/2023/06/stadioArechi-alto.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "933_002.jpg",
-				"source": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/44/43/34/stadio-arechi.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "933_003.jpg",
-				"source": "https://omsi.it/wp-content/uploads/2020/08/Rialzo_ArechiStadium_Salerno3-scaled.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "933_004.jpg",
-				"source": "https://omsi.it/wp-content/uploads/2020/08/M2009_ArechiStadium_Salerno_Italy1.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "933_005.jpg",
-				"source": "https://www.infocilento.it/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-31-at-08.31.38.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "933_006.jpg",
-				"source": "https://salernitana.b-cdn.net/wp-content/uploads/2023/06/stadio-slide-01.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 27
+		"no": 25
 	},
 	{
 		"team": {
@@ -2189,29 +2021,29 @@
 				"size": 0
 			}
 		],
-		"no": 28
+		"no": 26
 	},
 	{
 		"team": {
-			"api_football_id": 518,
-			"name": "Brescia",
-			"code": "BRE",
+			"api_football_id": 517,
+			"name": "Venezia",
+			"code": "VEN",
 			"country": "Italy",
-			"founded": 1911,
-			"wiki": "https://en.wikipedia.org/wiki/Brescia_Calcio"
+			"founded": 1907,
+			"wiki": "https://en.wikipedia.org/wiki/Venezia_FC"
 		},
 		"venue": {
-			"api_football_id": 882,
-			"name": "Stadio Mario Rigamonti",
-			"address": "Via Giovanni Novagani, 8",
-			"city": "Brescia",
-			"capacity": 27547,
+			"api_football_id": 948,
+			"name": "Stadio Pierluigi Penzo",
+			"address": "Isola di Sant&apos;Elena",
+			"city": "Venezia",
+			"capacity": 11150,
 			"surface": "grass",
-			"lat": 45.570556,
-			"lng": 10.236944,
-			"x": 349,
-			"y": 142,
-			"wiki": "https://en.wikipedia.org/wiki/Stadio_Mario_Rigamonti"
+			"lat": 45.427761,
+			"lng": 12.363731,
+			"x": 487,
+			"y": 155,
+			"wiki": "https://en.wikipedia.org/wiki/Stadio_Pier_Luigi_Penzo"
 		},
 		"league": {
 			"api_football_id": 136,
@@ -2221,127 +2053,47 @@
 		},
 		"images": [
 			{
-				"name": "882_001.jpg",
-				"source": "https://bresciacalcio.it/wp-content/uploads/2022/03/bsfc_stadio_3.jpg",
+				"name": "948_001.jpg",
+				"source": "https://i.ytimg.com/vi/8w2D6NuWRfI/maxresdefault.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "882_002.jpg",
-				"source": "https://bresciacalcio.it/wp-content/uploads/2022/03/bsfc_stadio_1.jpg",
+				"name": "948_002.jpg",
+				"source": "https://omsi.it/wp-content/uploads/2020/08/PenzoSTADIUM_VENEZIA2-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "882_003.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/8/83/The_Mario_Rigamonti_stadium_in_2020.jpg",
+				"name": "948_003.jpg",
+				"source": "https://www.aecilluminazione.fr/wp-content/uploads/2021/07/AEC-Illuminaizone-Stadio-Penzo-Venezia-FC-1000x1000.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "882_004.jpg",
-				"source": "https://omsi.it/wp-content/uploads/2020/08/M2013_Rigamonti_stadium_seats_Brescia1.jpg",
+				"name": "948_004.jpg",
+				"source": "https://omsi.it/wp-content/uploads/2020/08/PenzoSTADIUM_VENEZIA-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "882_005.jpg",
-				"source": "https://omsi.it/wp-content/uploads/2020/08/M2013_Rigamonti_stadium_seats_Brescia.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "882_006.jpg",
-				"source": "https://www.tifosipalermo.it/wp-content/uploads/2024/03/rigamonti-ceppi-Stadio-2665.jpg",
+				"name": "948_005.jpg",
+				"source": "https://cdn.sanity.io/images/uis005ew/production/19dae3cece153ab0a6c48faec52512968e5cfe0f-3615x2712.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 29
-	},
-	{
-		"team": {
-			"api_football_id": 520,
-			"name": "Cremonese",
-			"code": "CRE",
-			"country": "Italy",
-			"founded": 1903,
-			"wiki": "https://en.wikipedia.org/wiki/US_Cremonese"
-		},
-		"venue": {
-			"api_football_id": 894,
-			"name": "Stadio Giovanni Zini",
-			"address": "Via Persico, 19",
-			"city": "Cremona",
-			"capacity": 20034,
-			"surface": "grass",
-			"lat": 45.140278,
-			"lng": 10.034722,
-			"x": 336,
-			"y": 181,
-			"wiki": "https://en.wikipedia.org/wiki/Stadio_Giovanni_Zini"
-		},
-		"league": {
-			"api_football_id": 136,
-			"name": "Serie B",
-			"country": "Italy",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "894_001.jpg",
-				"source": "https://www.ostadium.com/galleries/Cremonese-5-scaled-big.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "894_002.jpg",
-				"source": "https://pbs.twimg.com/ext_tw_video_thumb/1571441831598067712/pu/img/4WP6ytR-eRyDsg9b.jpg:large",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "894_003.jpg",
-				"source": "https://omsi.it/wp-content/uploads/2023/04/Silver_ziniStadium.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "894_004.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Stadio_Zini_2019_09_21.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "894_005.jpg",
-				"source": "https://www.calcioefinanza.it/wp-content/uploads/2022/05/us-cremonese-v-venezia-serie-b.webp",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 30
+		"no": 27
 	},
 	{
 		"team": {
@@ -2429,29 +2181,29 @@
 				"size": 0
 			}
 		],
-		"no": 31
+		"no": 28
 	},
 	{
 		"team": {
-			"api_football_id": 801,
-			"name": "Pisa",
-			"code": "PIS",
+			"api_football_id": 525,
+			"name": "Pescara",
+			"code": "PES",
 			"country": "Italy",
-			"founded": 1909,
-			"wiki": "https://en.wikipedia.org/wiki/Pisa_SC"
+			"founded": 1936,
+			"wiki": "https://en.wikipedia.org/wiki/Delfino_Pescara_1936"
 		},
 		"venue": {
-			"api_football_id": 925,
-			"name": "Arena Garibaldi - Stadio Romeo Anconetani",
-			"address": "Via di Gello, 25",
-			"city": "Pisa",
-			"capacity": 17500,
+			"api_football_id": 923,
+			"name": "Stadio Adriatico-Giovanni Cornacchia",
+			"address": "Via Pepe",
+			"city": "Pescara",
+			"capacity": 20476,
 			"surface": "grass",
-			"lat": 43.725278,
-			"lng": 10.4,
-			"x": 360,
-			"y": 309,
-			"wiki": "https://en.wikipedia.org/wiki/Arena_Garibaldi_%E2%80%93_Stadio_Romeo_Anconetani"
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": "https://en.wikipedia.org/wiki/Stadio_Adriatico_%E2%80%93_Giovanni_Cornacchia"
 		},
 		"league": {
 			"api_football_id": 136,
@@ -2461,39 +2213,191 @@
 		},
 		"images": [
 			{
-				"name": "925_001.jpg",
-				"source": "https://viaggioconstile.it/wp-content/uploads/2020/06/Transfer-Privato-Stadio-Arena-Garibaldi-Pisa.jpg",
+				"name": "923_001.jpg",
+				"source": "https://images.centro.atexcloud.io/view/acePublic/alias/contentid/1f2ctzo0zc3obv4yr15/0/foto.webp?f=16:9",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "925_002.jpg",
-				"source": "https://www.sestaporta.news/wp-content/uploads/2024/01/caricatefotostadiocurva.jpg",
+				"name": "923_002.jpg",
+				"source": "https://icdn.cultofcalcio.com/wp-content/uploads/2020/06/adriatico.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "925_003.jpg",
-				"source": "https://www.parlandodisport.it/wp-content/uploads/2024/02/stadio-pisa.jpeg",
+				"name": "923_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Pescara_2010-by-RaBoe-004.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "925_004.jpg",
-				"source": "https://pbs.twimg.com/media/ELTBIq5XsAA8x8-.jpg:large",
+				"name": "923_004.jpg",
+				"source": "https://www.fidal.it/upload/images/new-TOPNEWS/pescara2018%20%281%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "923_005.jpg",
+				"source": "https://images.centro.atexcloud.io/view/acePublic/alias/contentid/1egul1j492tjpfvav8a/0/a_web.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 32
+		"no": 29
+	},
+	{
+		"team": {
+			"api_football_id": 527,
+			"name": "Virtus Entella",
+			"code": "ENT",
+			"country": "Italy",
+			"founded": 1914,
+			"wiki": "https://en.wikipedia.org/wiki/Virtus_Entella"
+		},
+		"venue": {
+			"api_football_id": 872,
+			"name": "Stadio Comunale Chiavari",
+			"address": "Via Aldo Gastaldi, 22",
+			"city": "Chiavari",
+			"capacity": 6113,
+			"surface": "artificial turf",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": "https://en.wikipedia.org/wiki/Stadio_Comunale_(Chiavari)"
+		},
+		"league": {
+			"api_football_id": 136,
+			"name": "Serie B",
+			"country": "Italy",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "872_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Stadio_Chiavari.jpg/1200px-Stadio_Chiavari.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "872_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Stadio_Comunale_di_Chiavari_%28Tribuna%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "872_003.jpg",
+				"source": "https://www.primocanale.it/materialiarchivio/immagininews/20210330131249-Generico2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "872_004.jpg",
+				"source": "https://www.entella.it/wp-content/uploads/2023/11/brbrbrbbrb-e1660311927529.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "872_005.jpg",
+				"source": "https://cdn.charitystars.com/data/products/110661/1-pend-653bbba09e90e-20231027114807.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 528,
+			"name": "Avellino",
+			"code": "AVE",
+			"country": "Italy",
+			"founded": 1912,
+			"wiki": "https://en.wikipedia.org/wiki/US_Avellino_1912"
+		},
+		"venue": {
+			"api_football_id": 2756,
+			"name": "Stadio Partenio-Adriano Lombardi",
+			"address": "Contrada Zoccolari, 1",
+			"city": "Avellino",
+			"capacity": 26308,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": "https://en.wikipedia.org/wiki/Stadio_Partenio-Adriano_Lombardi"
+		},
+		"league": {
+			"api_football_id": 136,
+			"name": "Serie B",
+			"country": "Italy",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2756_001.jpg",
+				"source": "https://www.telenostra.tv/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-08-at-11.54.27.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2756_002.jpg",
+				"source": "https://www.sportavellino.it/wp-content/uploads/2018/02/20180210_140632_hdr-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2756_003.jpg",
+				"source": "https://cdnmedia.mapei.com/images/projects-images/en-c1103254-9095-4cd0-afbe-329e0d07347d.jpg.tmb-mapeiprjco.jpg?Culture=en&sfvrsn=971dc1b3_9",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2756_004.jpg",
+				"source": "https://pbs.twimg.com/media/Go9sXBXXYAEhk4l?format=jpg&name=large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2756_005.jpg",
+				"source": "https://www.orticalab.it/sites/ortica/local/cache-vignettes/L2000xH1500/arton119587-b35fb.jpg?1746027775",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 31
 	},
 	{
 		"team": {
@@ -2559,6 +2463,78 @@
 			{
 				"name": "908_005.jpg",
 				"source": "https://www.stabianews.it/wp-content/uploads/2019/07/sediolini2stadio-950x600.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 32
+	},
+	{
+		"team": {
+			"api_football_id": 870,
+			"name": "Padova",
+			"code": "PAD",
+			"country": "Italy",
+			"founded": 2014,
+			"wiki": "https://en.wikipedia.org/wiki/Stadio_Partenio-Adriano_Lombardi"
+		},
+		"venue": {
+			"api_football_id": 2764,
+			"name": "Stadio Comunale Euganeo",
+			"address": "Via Nereo Rocco, 60",
+			"city": "Padova",
+			"capacity": 32420,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": "https://en.wikipedia.org/wiki/Stadio_Euganeo"
+		},
+		"league": {
+			"api_football_id": 136,
+			"name": "Serie B",
+			"country": "Italy",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2764_001.jpg",
+				"source": "https://www.veneziepost.it/wp-content/uploads/2023/04/1190x744-1170x731.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2764_002.jpg",
+				"source": "https://www.padovaoggi.it/~media/horizontal-hi/16682423752622/nuova-curva-sud-euganeo-2.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2764_003.jpg",
+				"source": "https://www.gedistatic.it/content/gnn/img/mattinopadova/2024/06/20/092801489-9fcf7246-1e51-4b14-aaad-b1857f33e64a.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2764_004.jpg",
+				"source": "https://www.padova24ore.it/wp-content/uploads/2011/06/stadio%20001.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2764_005.jpg",
+				"source": "https://www.radioclodia.it/wp-content/uploads/2018/09/stadio-euganeo-1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2793,6 +2769,86 @@
 	},
 	{
 		"team": {
+			"api_football_id": 1579,
+			"name": "Monza",
+			"code": "MON",
+			"country": "Italy",
+			"founded": 1912,
+			"wiki": "https://en.wikipedia.org/wiki/AC_Monza"
+		},
+		"venue": {
+			"api_football_id": 12086,
+			"name": "U-Power Stadium",
+			"address": "Via Franco Tognini",
+			"city": "Monza",
+			"capacity": 18568,
+			"surface": "grass",
+			"lat": 45.582778,
+			"lng": 9.308056,
+			"x": 289,
+			"y": 141,
+			"wiki": "https://en.wikipedia.org/wiki/Stadio_Brianteo"
+		},
+		"league": {
+			"api_football_id": 136,
+			"name": "Serie B",
+			"country": "Italy",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "12086_001.jpg",
+				"source": "https://www.schiavispa.it/wp-content/uploads/2023/11/schiavi-stadio-brianteo-u-power-3-1200x675.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12086_002.jpg",
+				"source": "https://th-italia.com/wp-content/uploads/2021/08/B0043469.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12086_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Stadio_Brianteo_2024.jpg/1200px-Stadio_Brianteo_2024.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12086_004.jpg",
+				"source": "https://www.ilcittadinomb.it/wp-content/uploads/2022/08/stadio-3-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12086_005.jpg",
+				"source": "https://jpius.it/wp-content/uploads/2024/01/DJI_0037_transformed.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12086_006.jpg",
+				"source": "https://jpius.it/wp-content/uploads/2024/01/DJI_0007_transformed.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 37
+	},
+	{
+		"team": {
 			"api_football_id": 1581,
 			"name": "Carrarese",
 			"code": "CAR",
@@ -2837,7 +2893,7 @@
 				"size": 0
 			}
 		],
-		"no": 37
+		"no": 38
 	},
 	{
 		"team": {
@@ -2901,7 +2957,7 @@
 				"size": 0
 			}
 		],
-		"no": 38
+		"no": 39
 	},
 	{
 		"team": {
@@ -2965,7 +3021,224 @@
 				"size": 0
 			}
 		],
-		"no": 39
+		"no": 40
+	},
+	{
+		"team": {
+			"api_football_id": 510,
+			"name": "Cittadella",
+			"code": "CIT",
+			"country": "Italy",
+			"founded": 1973,
+			"wiki": "https://en.wikipedia.org/wiki/AS_Cittadella"
+		},
+		"venue": {
+			"api_football_id": 891,
+			"name": "Stadio Pier Cesare Tombolato",
+			"address": "Viale dello Sport, 7",
+			"city": "Cittadella",
+			"capacity": 7623,
+			"surface": "grass",
+			"lat": 45.642778,
+			"lng": 11.781111,
+			"x": 449,
+			"y": 135,
+			"wiki": "https://en.wikipedia.org/wiki/Stadio_Pier_Cesare_Tombolato"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "891_001.jpg",
+				"source": "https://www.comune.cittadella.pd.it/wp-content/uploads/2024/02/stadio-tombolato-cittadella-calcio.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "891_002.jpg",
+				"source": "https://wips.plug.it/cips/sport.virgilio.it/img/stadi/3475.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "891_003.jpg",
+				"source": "https://footballhost.com/cdn/shop/collections/CITTADELLA.jpg?v=1667344845",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "891_004.jpg",
+				"source": "https://pbs.twimg.com/media/F2dlMa8XUAkQ3Z4.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "891_005.jpg",
+				"source": "https://www.syncronia.com/sites/default/files/old/sn-uploads/projects/project-picvggxvifrjd58201318143.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 41
+	},
+	{
+		"team": {
+			"api_football_id": 514,
+			"name": "Salernitana",
+			"code": "SAL",
+			"country": "Italy",
+			"founded": 2011,
+			"wiki": "https://en.wikipedia.org/wiki/US_Salernitana_1919"
+		},
+		"venue": {
+			"api_football_id": 933,
+			"name": "Stadio Arechi",
+			"address": "Via Salvador Allende",
+			"city": "Salerno",
+			"capacity": 37245,
+			"surface": "grass",
+			"lat": 40.645,
+			"lng": 14.823889,
+			"x": 646,
+			"y": 577,
+			"wiki": "https://en.wikipedia.org/wiki/Stadio_Arechi"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "933_001.jpg",
+				"source": "https://salernitana.b-cdn.net/wp-content/uploads/2023/06/stadioArechi-alto.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "933_002.jpg",
+				"source": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/44/43/34/stadio-arechi.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "933_003.jpg",
+				"source": "https://omsi.it/wp-content/uploads/2020/08/Rialzo_ArechiStadium_Salerno3-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "933_004.jpg",
+				"source": "https://omsi.it/wp-content/uploads/2020/08/M2009_ArechiStadium_Salerno_Italy1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "933_005.jpg",
+				"source": "https://www.infocilento.it/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-31-at-08.31.38.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "933_006.jpg",
+				"source": "https://salernitana.b-cdn.net/wp-content/uploads/2023/06/stadio-slide-01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 42
+	},
+	{
+		"team": {
+			"api_football_id": 518,
+			"name": "Brescia",
+			"code": "BRE",
+			"country": "Italy",
+			"founded": 1911,
+			"wiki": "https://en.wikipedia.org/wiki/Brescia_Calcio"
+		},
+		"venue": {
+			"api_football_id": 882,
+			"name": "Stadio Mario Rigamonti",
+			"address": "Via Giovanni Novagani, 8",
+			"city": "Brescia",
+			"capacity": 27547,
+			"surface": "grass",
+			"lat": 45.570556,
+			"lng": 10.236944,
+			"x": 349,
+			"y": 142,
+			"wiki": "https://en.wikipedia.org/wiki/Stadio_Mario_Rigamonti"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "882_001.jpg",
+				"source": "https://bresciacalcio.it/wp-content/uploads/2022/03/bsfc_stadio_3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "882_002.jpg",
+				"source": "https://bresciacalcio.it/wp-content/uploads/2022/03/bsfc_stadio_1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "882_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/8/83/The_Mario_Rigamonti_stadium_in_2020.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "882_004.jpg",
+				"source": "https://omsi.it/wp-content/uploads/2020/08/M2013_Rigamonti_stadium_seats_Brescia1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "882_005.jpg",
+				"source": "https://omsi.it/wp-content/uploads/2020/08/M2013_Rigamonti_stadium_seats_Brescia.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "882_006.jpg",
+				"source": "https://www.tifosipalermo.it/wp-content/uploads/2024/03/rigamonti-ceppi-Stadio-2665.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 43
 	},
 	{
 		"team": {
@@ -2989,12 +3262,7 @@
 			"y": 690,
 			"wiki": "https://en.wikipedia.org/wiki/Stadio_San_Vito-Gigi_Marulla"
 		},
-		"league": {
-			"api_football_id": 136,
-			"name": "Serie B",
-			"country": "Italy",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "893_001.jpg",
@@ -3029,7 +3297,7 @@
 				"size": 0
 			}
 		],
-		"no": 40
+		"no": 44
 	},
 	{
 		"team": {
@@ -3096,7 +3364,7 @@
 				"size": 0
 			}
 		],
-		"no": 41
+		"no": 45
 	},
 	{
 		"team": {
@@ -3163,7 +3431,7 @@
 				"size": 0
 			}
 		],
-		"no": 42
+		"no": 46
 	},
 	{
 		"team": {
@@ -3230,7 +3498,7 @@
 				"size": 0
 			}
 		],
-		"no": 43
+		"no": 47
 	},
 	{
 		"team": {
@@ -3287,8 +3555,16 @@
 				"width": 0,
 				"height": 0,
 				"size": 0
+			},
+			{
+				"name": "2764_005.jpg",
+				"source": "https://www.radioclodia.it/wp-content/uploads/2018/09/stadio-euganeo-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
 			}
 		],
-		"no": 44
+		"no": 48
 	}
 ]

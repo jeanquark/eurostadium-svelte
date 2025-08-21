@@ -60,8 +60,8 @@ const supabase: Handle = async ({ event, resolve }) => {
         if (!session) {
             return { session: null, user: null }
         }
-        console.log('[hooks.server.ts] session: ', session);
-        console.log('[hooks.server.ts] session.access_token: ', session.access_token);
+        // console.log('[hooks.server.ts] session: ', session);
+        // console.log('[hooks.server.ts] session.access_token: ', session.access_token);
 
         const userRoles = session.access_token ?
             JSON.parse(atob(session.access_token.split('.')[1])).user_roles : [];
@@ -76,7 +76,7 @@ const supabase: Handle = async ({ event, resolve }) => {
             data: { user },
             error,
         } = await event.locals.supabase.auth.getUser()
-        console.log('[hooks.server.ts] user: ', user);
+        // console.log('[hooks.server.ts] user: ', user);
         if (error) {
             // JWT validation has failed
             return { session: null, user: null }

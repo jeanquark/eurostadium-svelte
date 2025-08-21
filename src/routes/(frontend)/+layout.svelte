@@ -42,14 +42,20 @@
 
 <div class="app">
     <header>
-        <div class="row justify-content-center">
-            <div class="col-4 col-lg-6 col-md-8 col-sm-10 col-xs-12">
+        <div class="row justify-content-center align-center my-2">
+            <div class="col-5 col-lg-5 border-1">
+                <h2 class="text-right pr-3">eurostadium.net</h2>
+            </div>
+            <div class="col-2 col-lg-2 border-2">
                 <img
-                    src="{base}/images/logo_with_text_centered-min.svg"
+                    src="{base}/images/logo-min.svg"
                     width="100%"
                     alt="logo"
                     class="text-center"
                 />
+            </div>
+            <div class="col-5 col-lg-5 border-3">
+                <h2 class="text-left pl-3">Football stadium <br />across Europe</h2>
             </div>
         </div>
     </header>

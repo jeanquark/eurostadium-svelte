@@ -31,7 +31,7 @@
                 dismissible: true,
                 timeout: 3000,
             });
-            goto("/");
+            goto("/admin");
         } catch (error) {
             console.log("error: ", error);
             // console.log("error.response: ", error.response);

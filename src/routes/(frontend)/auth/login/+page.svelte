@@ -23,13 +23,13 @@
             console.log("[onAuthStateChange] session: ", session);
             // console.log("session: ", session);
             if (session) {
-                // addToast({
-                //     message: "You are authenticated.",
-                //     type: "info",
-                //     dismissible: false,
-                //     timeout: 3000,
-                // });
-                goto("/");
+                addToast({
+                    message: "You are authenticated!",
+                    type: "info",
+                    dismissible: false,
+                    timeout: 3000,
+                });
+                // goto("/admin");
             }
         });
     });

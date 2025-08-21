@@ -459,8 +459,8 @@
                 <small>
                     <i
                         >This will update the image url field in Supabase DB
-                        images table for each image stored in {$countryStore
-                            .country?.name}
+                        images table for each image stored in {slugify($countryStore
+                            .country?.name)}
                         folder of Supabase storage (long process).</i
                     ></small
                 >
