@@ -17,9 +17,7 @@
 			"surface": "grass",
 			"lat": 38.7527,
 			"lng": -9.1847,
-			"x1": 243.2,
 			"x": 555,
-			"y1": 113.5,
 			"y": 663,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_da_Luz"
 		},
@@ -115,9 +113,7 @@
 			"surface": "grass",
 			"lat": 41.1618,
 			"lng": -8.5839,
-			"x1": 248.5,
 			"x": 645,
-			"y1": 33.2,
 			"y": 197,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Drag%C3%A3o"
 		},
@@ -349,25 +345,25 @@
 	},
 	{
 		"team": {
-			"api_football_id": 222,
-			"name": "Boavista",
-			"code": null,
+			"api_football_id": 218,
+			"name": "Tondela",
+			"code": "TON",
 			"country": "Portugal",
-			"founded": 1903,
-			"wiki": "https://en.wikipedia.org/wiki/Boavista_F.C."
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/C.D._Tondela"
 		},
 		"venue": {
-			"api_football_id": 1267,
-			"name": "Estádio do Bessa Século XXI",
-			"address": "Rua O Primeiro de Janeiro, Boavista",
-			"city": "Porto",
-			"capacity": 28263,
+			"api_football_id": 1271,
+			"name": "Estádio João Cardoso",
+			"address": "Rua Doutor Eurico José Gouveia",
+			"city": "Tondela",
+			"capacity": 7500,
 			"surface": "grass",
-			"lat": 41.162222,
-			"lng": -8.642778,
-			"x": 636,
-			"y": 197,
-			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Bessa"
+			"lat": 40.512041,
+			"lng": -8.082825,
+			"x": 720,
+			"y": 325,
+			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Jo%C3%A3o_Cardoso"
 		},
 		"league": {
 			"api_football_id": 94,
@@ -377,48 +373,40 @@
 		},
 		"images": [
 			{
-				"name": "1267_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/1/11/Pitch_view_from_the_Estadio_do_Bessa_in_2018.jpg",
+				"name": "1271_001.jpg",
+				"source": "https://www.jornaldocentro.pt/wp-content/uploads/2024/08/2706241514515380dbbbe6657a79069525fe2f12dbc9fffc5b8f.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1267_002.jpg",
-				"source": "https://www.santosfootballplanet.nl/uploads/_contentImageSlider/38450392_BSR_AGENCY.jpg?v=1688592755",
+				"name": "1271_002.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/por/estadio_joao_cardoso/estadio_joao_cardoso01.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1267_003.jpg",
-				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjedGnTD-CtAKOJhT38PHtiKCPaVuY9dIDX8Ex-KHsYzFRlKAulEU4yt9D4-0nUhYRmaw25m-Ehjhg1zpe6rXcNQsOPfxoeQbGYtGvNFnxcGn6le65DraCIrixHrcMNxH060nY4rzGjqqDh/s9600/Est%25C3%25A1dio_do_Bessa_S%25C3%25A9culo_XXI_004.jpg",
+				"name": "1271_003.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/por/estadio_joao_cardoso/estadio_joao_cardoso04.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1267_004.jpg",
-				"source": "https://pbs.twimg.com/media/F2x76TtW8AE1WgV?format=jpg&name=4096x4096",
+				"name": "1271_004.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/por/estadio_joao_cardoso/estadio_joao_cardoso07.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1267_005.jpg",
-				"source": "https://etcetaljornal.pt/j/wp-content/uploads/2020/07/estadio-do-bessa-sec-xxi.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1267_006.jpg",
-				"source": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/a0/4b/e8/in.jpg",
+				"name": "1271_005.jpg",
+				"source": "https://maisguimaraes.pt/wp-content/uploads/2020/11/Estadio-do-Tondela-1-1024x923.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -525,9 +513,7 @@
 			"surface": "grass",
 			"lat": 32.670625,
 			"lng": -16.883525,
-			"x1": 350,
 			"x": 238,
-			"y1": 684,
 			"y": 713,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_da_Madeira"
 		},
@@ -655,9 +641,7 @@
 			"surface": "grass",
 			"lat": 37.763708,
 			"lng": -25.622589,
-			"x1": 526,
 			"x": 474,
-			"y1": 407,
 			"y": 288,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_de_S%C3%A3o_Miguel_(Ponta_Delgada)"
 		},
@@ -849,70 +833,6 @@
 	},
 	{
 		"team": {
-			"api_football_id": 231,
-			"name": "Farense",
-			"code": "FAR",
-			"country": "Portugal",
-			"founded": 1910,
-			"wiki": "https://en.wikipedia.org/wiki/S.C._Farense"
-		},
-		"venue": {
-			"api_football_id": 1290,
-			"name": "Estádio de São Lúis",
-			"address": "Rua do Sporting Club Farense",
-			"city": "Faro",
-			"capacity": 12000,
-			"surface": "grass",
-			"lat": 37.022778,
-			"lng": -7.928611,
-			"x": 743,
-			"y": 988,
-			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_de_S%C3%A3o_Lu%C3%ADs"
-		},
-		"league": {
-			"api_football_id": 94,
-			"name": "Primeira Liga",
-			"country": "Portugal",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "1290_001.jpg",
-				"source": "https://photos1.blogger.com/x/blogger/3268/643/1600/231018/sluis2.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1290_002.jpg",
-				"source": "https://fairplay.pt/wp-content/uploads/2020/06/capa.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1290_003.jpg",
-				"source": "https://cdn.record.pt/images/2023-04/img_1200x900$2023_04_20_19_43_28_2120587.png",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1290_004.jpg",
-				"source": "https://1.bp.blogspot.com/_NJVQF7oex64/TP4aVEL71lI/AAAAAAAAANU/0Se8QBg3s3I/s1600/IMG_4868.JPG",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 12
-	},
-	{
-		"team": {
 			"api_football_id": 240,
 			"name": "Arouca",
 			"code": "ARO",
@@ -973,7 +893,7 @@
 				"size": 0
 			}
 		],
-		"no": 13
+		"no": 12
 	},
 	{
 		"team": {
@@ -1037,7 +957,7 @@
 				"size": 0
 			}
 		],
-		"no": 14
+		"no": 13
 	},
 	{
 		"team": {
@@ -1101,7 +1021,7 @@
 				"size": 0
 			}
 		],
-		"no": 15
+		"no": 14
 	},
 	{
 		"team": {
@@ -1175,6 +1095,70 @@
 			{
 				"name": "1262_006.jpg",
 				"source": "https://images.squarespace-cdn.com/content/v1/6050ca671d9aee7833fa0749/2ecdac00-7d6d-41c8-9799-f209c8f0b951/332902738_3577552752488560_7464599490217506792_n.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 4724,
+			"name": "Alverca",
+			"code": null,
+			"country": "Portugal",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/F.C._Alverca"
+		},
+		"venue": {
+			"api_football_id": 3572,
+			"name": "Complexo Desportivo FC Alverca",
+			"address": "R. César Augusto Gonçalves Ferreira 16",
+			"city": "Alverca do Ribatejo",
+			"capacity": 7705,
+			"surface": "grass",
+			"lat": 38.897927,
+			"lng": -9.034942,
+			"x": 578,
+			"y": 636,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3572_001.jpg",
+				"source": "https://fcalvercafutebolsad.pt/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-20-at-17.57.24.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3572_002.jpg",
+				"source": "https://fcalvercafutebolsad.pt/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-20-at-17.57.16-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3572_003.jpg",
+				"source": "https://fcalvercafutebolsad.pt/wp-content/uploads/2023/03/IMG_6707-1-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3572_004.jpg",
+				"source": "https://fcalvercafutebolsad.pt/wp-content/uploads/2019/07/Estadio-Alverca-1-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1409,9 +1393,7 @@
 			"surface": "grass",
 			"lat": 32.645561,
 			"lng": -16.928331,
-			"x1": 346,
 			"x": 233,
-			"y1": 234,
 			"y": 714,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Mar%C3%ADtimo"
 		},
@@ -1539,78 +1521,6 @@
 	},
 	{
 		"team": {
-			"api_football_id": 218,
-			"name": "Tondela",
-			"code": "TON",
-			"country": "Portugal",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/C.D._Tondela"
-		},
-		"venue": {
-			"api_football_id": 1271,
-			"name": "Estádio João Cardoso",
-			"address": "Rua Doutor Eurico José Gouveia",
-			"city": "Tondela",
-			"capacity": 7500,
-			"surface": "grass",
-			"lat": 40.512041,
-			"lng": -8.082825,
-			"x": 720,
-			"y": 325,
-			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Jo%C3%A3o_Cardoso"
-		},
-		"league": {
-			"api_football_id": 95,
-			"name": "Segunda Liga",
-			"country": "Portugal",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "1271_001.jpg",
-				"source": "https://www.jornaldocentro.pt/wp-content/uploads/2024/08/2706241514515380dbbbe6657a79069525fe2f12dbc9fffc5b8f.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1271_002.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/por/estadio_joao_cardoso/estadio_joao_cardoso01.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1271_003.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/por/estadio_joao_cardoso/estadio_joao_cardoso04.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1271_004.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/por/estadio_joao_cardoso/estadio_joao_cardoso07.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1271_005.jpg",
-				"source": "https://maisguimaraes.pt/wp-content/uploads/2020/11/Estadio-do-Tondela-1-1024x923.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 22
-	},
-	{
-		"team": {
 			"api_football_id": 223,
 			"name": "Chaves",
 			"code": "CHA",
@@ -1671,7 +1581,7 @@
 				"size": 0
 			}
 		],
-		"no": 23
+		"no": 22
 	},
 	{
 		"team": {
@@ -1721,6 +1631,70 @@
 			{
 				"name": "1266_003.jpg",
 				"source": "https://media.slbenfica.pt/-/media/benficadp/images/departamento-de-comunicacao/epoca_2018_2019/futebol/caixa-futebol-campus/genericas/campo-1-caixa-futebol-campus-new.jpg?v=637012257800000000",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 231,
+			"name": "Farense",
+			"code": "FAR",
+			"country": "Portugal",
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/S.C._Farense"
+		},
+		"venue": {
+			"api_football_id": 1290,
+			"name": "Estádio de São Lúis",
+			"address": "Rua do Sporting Club Farense",
+			"city": "Faro",
+			"capacity": 12000,
+			"surface": "grass",
+			"lat": 37.022778,
+			"lng": -7.928611,
+			"x": 743,
+			"y": 988,
+			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_de_S%C3%A3o_Lu%C3%ADs"
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1290_001.jpg",
+				"source": "https://photos1.blogger.com/x/blogger/3268/643/1600/231018/sluis2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1290_002.jpg",
+				"source": "https://fairplay.pt/wp-content/uploads/2020/06/capa.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1290_003.jpg",
+				"source": "https://cdn.record.pt/images/2023-04/img_1200x900$2023_04_20_19_43_28_2120587.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1290_004.jpg",
+				"source": "https://1.bp.blogspot.com/_NJVQF7oex64/TP4aVEL71lI/AAAAAAAAANU/0Se8QBg3s3I/s1600/IMG_4868.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2083,24 +2057,24 @@
 	},
 	{
 		"team": {
-			"api_football_id": 245,
-			"name": "Mafra",
-			"code": "MAF",
+			"api_football_id": 761,
+			"name": "Sporting CP B",
+			"code": "SPO",
 			"country": "Portugal",
-			"founded": 1965,
-			"wiki": "https://en.wikipedia.org/wiki/C.D._Mafra"
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Sporting_CP_B"
 		},
 		"venue": {
-			"api_football_id": 1270,
-			"name": "Estádio Municipal de Mafra",
-			"address": "Av. Dr. Francisco Sá Carneiro",
-			"city": "Mafra",
-			"capacity": 2900,
+			"api_football_id": 2812,
+			"name": "CGD Stadium Aurélio Pereira",
+			"address": "Estrada Municipal Malhada de Meias, Barroca d´Alva",
+			"city": "Alcochete",
+			"capacity": 3000,
 			"surface": "grass",
-			"lat": 38.940802,
-			"lng": -9.341495,
-			"x": 532,
-			"y": 628,
+			"lat": 38.729685,
+			"lng": -8.848824,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {
@@ -2111,24 +2085,32 @@
 		},
 		"images": [
 			{
-				"name": "1270_001.jpg",
-				"source": "https://www.dragaoautentico.pt/media/estadio_do_parque_desportivo_mafra__34_.jpeg",
+				"name": "2812_001.jpg",
+				"source": "https://pbs.twimg.com/media/FQKVQnvWYAIgXeE?format=jpg&name=4096x4096",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1270_002.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Est%C3%A1dio_Municipal_de_Mafra.jpg/1200px-Est%C3%A1dio_Municipal_de_Mafra.jpg",
+				"name": "2812_002.jpg",
+				"source": "https://pbs.twimg.com/media/GdThTeAXAAA8VfU?format=jpg&name=large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1270_003.jpg",
-				"source": "https://www.cm-mafra.pt/cmmafra/uploads/event/image/1790/estadio_parque_desportivo_2015.JPG",
+				"name": "2812_003.jpg",
+				"source": "https://pbs.twimg.com/media/GX11RP5XUAAtweq.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2812_004.jpg",
+				"source": "https://media.slbenfica.pt/-/media/benficadp/images/departamento-de-comunicacao/epoca_2017_2018/futebol/equipa-b/ii-liga/sporting-b-benfica-b/sporting-b-benfica-b-new.jpg?v=636600863540000000",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -2291,70 +2273,6 @@
 	},
 	{
 		"team": {
-			"api_football_id": 4724,
-			"name": "Alverca",
-			"code": null,
-			"country": "Portugal",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/F.C._Alverca"
-		},
-		"venue": {
-			"api_football_id": 3572,
-			"name": "Complexo Desportivo FC Alverca",
-			"address": "R. César Augusto Gonçalves Ferreira 16",
-			"city": "Alverca do Ribatejo",
-			"capacity": 7705,
-			"surface": "grass",
-			"lat": 38.897927,
-			"lng": -9.034942,
-			"x": 578,
-			"y": 636,
-			"wiki": ""
-		},
-		"league": {
-			"api_football_id": 95,
-			"name": "Segunda Liga",
-			"country": "Portugal",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "3572_001.jpg",
-				"source": "https://fcalvercafutebolsad.pt/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-20-at-17.57.24.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3572_002.jpg",
-				"source": "https://fcalvercafutebolsad.pt/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-20-at-17.57.16-1.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3572_003.jpg",
-				"source": "https://fcalvercafutebolsad.pt/wp-content/uploads/2023/03/IMG_6707-1-scaled.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3572_004.jpg",
-				"source": "https://fcalvercafutebolsad.pt/wp-content/uploads/2019/07/Estadio-Alverca-1-scaled.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 34
-	},
-	{
-		"team": {
 			"api_football_id": 4744,
 			"name": "Felgueiras 1932",
 			"code": null,
@@ -2407,7 +2325,7 @@
 				"size": 0
 			}
 		],
-		"no": 35
+		"no": 34
 	},
 	{
 		"team": {
@@ -2471,7 +2389,197 @@
 				"size": 0
 			}
 		],
+		"no": 35
+	},
+	{
+		"team": {
+			"api_football_id": 6358,
+			"name": "Lusitânia Lourosa",
+			"code": null,
+			"country": "Portugal",
+			"founded": 1924,
+			"wiki": "https://en.wikipedia.org/wiki/Lusit%C3%A2nia_F.C."
+		},
+		"venue": {
+			"api_football_id": 4700,
+			"name": "Estádio do Lusitânia FC",
+			"address": "R. do Lusitânia 318",
+			"city": "Lourosa",
+			"capacity": 11000,
+			"surface": "grass",
+			"lat": 40.987881,
+			"lng": -8.543601,
+			"x": 651,
+			"y": 231,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "4700_001.jpg",
+				"source": "https://sportal365images.com/process/smp-images-production/abola.pt/23032024/03258915-5f56-4029-a70a-14233b21f42b.jpg?operations=fit(1920:)",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4700_002.jpg",
+				"source": "https://radioaltominho.pt/wp-content/uploads/2023/05/IMG-20230507-WA0000.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4700_003.jpg",
+				"source": "https://www.jornaln.pt/wp-content/uploads/2023/07/lourosa.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4700_004.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi96hyQDAYBZ0IgQm124SvxQdTOWwk2IcQyTi5qZxI_crFsCJx0OytrYUmVwFo_rO7xyf62gE73J4UFNIqSc2Q47xyTrPIEs1KVsQcYzyKon-B4TlzAGO8y_wexmoT48Tm-BspI8JpeHok/s1600/DSC03445.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 36
+	},
+	{
+		"team": {
+			"api_football_id": 222,
+			"name": "Boavista",
+			"code": null,
+			"country": "Portugal",
+			"founded": 1903,
+			"wiki": "https://en.wikipedia.org/wiki/Boavista_F.C."
+		},
+		"venue": {
+			"api_football_id": 1267,
+			"name": "Estádio do Bessa Século XXI",
+			"address": "Rua O Primeiro de Janeiro, Boavista",
+			"city": "Porto",
+			"capacity": 28263,
+			"surface": "grass",
+			"lat": 41.162222,
+			"lng": -8.642778,
+			"x": 636,
+			"y": 197,
+			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Bessa"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "1267_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/1/11/Pitch_view_from_the_Estadio_do_Bessa_in_2018.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1267_002.jpg",
+				"source": "https://www.santosfootballplanet.nl/uploads/_contentImageSlider/38450392_BSR_AGENCY.jpg?v=1688592755",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1267_003.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjedGnTD-CtAKOJhT38PHtiKCPaVuY9dIDX8Ex-KHsYzFRlKAulEU4yt9D4-0nUhYRmaw25m-Ehjhg1zpe6rXcNQsOPfxoeQbGYtGvNFnxcGn6le65DraCIrixHrcMNxH060nY4rzGjqqDh/s9600/Est%25C3%25A1dio_do_Bessa_S%25C3%25A9culo_XXI_004.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1267_004.jpg",
+				"source": "https://pbs.twimg.com/media/F2x76TtW8AE1WgV?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1267_005.jpg",
+				"source": "https://etcetaljornal.pt/j/wp-content/uploads/2020/07/estadio-do-bessa-sec-xxi.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1267_006.jpg",
+				"source": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/a0/4b/e8/in.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 37
+	},
+	{
+		"team": {
+			"api_football_id": 245,
+			"name": "Mafra",
+			"code": "MAF",
+			"country": "Portugal",
+			"founded": 1965,
+			"wiki": "https://en.wikipedia.org/wiki/C.D._Mafra"
+		},
+		"venue": {
+			"api_football_id": 1270,
+			"name": "Estádio Municipal de Mafra",
+			"address": "Av. Dr. Francisco Sá Carneiro",
+			"city": "Mafra",
+			"capacity": 2900,
+			"surface": "grass",
+			"lat": 38.940802,
+			"lng": -9.341495,
+			"x": 532,
+			"y": 628,
+			"wiki": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "1270_001.jpg",
+				"source": "https://www.dragaoautentico.pt/media/estadio_do_parque_desportivo_mafra__34_.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1270_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Est%C3%A1dio_Municipal_de_Mafra.jpg/1200px-Est%C3%A1dio_Municipal_de_Mafra.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1270_003.jpg",
+				"source": "https://www.cm-mafra.pt/cmmafra/uploads/event/image/1790/estadio_parque_desportivo_2015.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 38
 	},
 	{
 		"team": {
@@ -2522,66 +2630,7 @@
 				"size": 0
 			}
 		],
-		"no": 37
-	},
-	{
-		"team": {
-			"api_football_id": 6358,
-			"name": "Lusitânia Lourosa",
-			"code": null,
-			"country": "Portugal",
-			"founded": 1924,
-			"wiki": "https://en.wikipedia.org/wiki/Lusit%C3%A2nia_F.C."
-		},
-		"venue": {
-			"api_football_id": 4700,
-			"name": "Estádio do Lusitânia FC",
-			"address": "R. do Lusitânia 318",
-			"city": "Lourosa",
-			"capacity": 11000,
-			"surface": "grass",
-			"lat": 40.987881,
-			"lng": -8.543601,
-			"x": 651,
-			"y": 231,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "4700_001.jpg",
-				"source": "https://sportal365images.com/process/smp-images-production/abola.pt/23032024/03258915-5f56-4029-a70a-14233b21f42b.jpg?operations=fit(1920:)",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4700_002.jpg",
-				"source": "https://radioaltominho.pt/wp-content/uploads/2023/05/IMG-20230507-WA0000.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4700_003.jpg",
-				"source": "https://www.jornaln.pt/wp-content/uploads/2023/07/lourosa.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4700_004.jpg",
-				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi96hyQDAYBZ0IgQm124SvxQdTOWwk2IcQyTi5qZxI_crFsCJx0OytrYUmVwFo_rO7xyf62gE73J4UFNIqSc2Q47xyTrPIEs1KVsQcYzyKon-B4TlzAGO8y_wexmoT48Tm-BspI8JpeHok/s1600/DSC03445.JPG",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 38
+		"no": 39
 	},
 	{
 		"team": {
@@ -2656,6 +2705,6 @@
 				"size": 0
 			}
 		],
-		"no": 39
+		"no": 40
 	}
 ]

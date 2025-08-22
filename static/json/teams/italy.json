@@ -2199,8 +2199,8 @@
 			"city": "Pescara",
 			"capacity": 20476,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 42.455,
+			"lng": 14.23,
 			"x": 0,
 			"y": 0,
 			"wiki": "https://en.wikipedia.org/wiki/Stadio_Adriatico_%E2%80%93_Giovanni_Cornacchia"
@@ -2271,8 +2271,8 @@
 			"city": "Chiavari",
 			"capacity": 6113,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 44.315556,
+			"lng": 9.337222,
 			"x": 0,
 			"y": 0,
 			"wiki": "https://en.wikipedia.org/wiki/Stadio_Comunale_(Chiavari)"
@@ -2343,8 +2343,8 @@
 			"city": "Avellino",
 			"capacity": 26308,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 40.926944,
+			"lng": 14.7925,
 			"x": 0,
 			"y": 0,
 			"wiki": "https://en.wikipedia.org/wiki/Stadio_Partenio-Adriano_Lombardi"
@@ -2478,7 +2478,7 @@
 			"code": "PAD",
 			"country": "Italy",
 			"founded": 2014,
-			"wiki": "https://en.wikipedia.org/wiki/Stadio_Partenio-Adriano_Lombardi"
+			"wiki": "https://en.wikipedia.org/wiki/Calcio_Padova"
 		},
 		"venue": {
 			"api_football_id": 2764,
@@ -2487,8 +2487,8 @@
 			"city": "Padova",
 			"capacity": 32420,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 45.432222,
+			"lng": 11.858333,
 			"x": 0,
 			"y": 0,
 			"wiki": "https://en.wikipedia.org/wiki/Stadio_Euganeo"

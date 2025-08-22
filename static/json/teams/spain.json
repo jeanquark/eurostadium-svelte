@@ -2533,7 +2533,7 @@
 			"code": "CUL",
 			"country": "Spain",
 			"founded": 1923,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Cultural_y_Deportiva_Leonesa"
 		},
 		"venue": {
 			"api_football_id": 2916,
@@ -2542,11 +2542,11 @@
 			"city": "León",
 			"capacity": 13451,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 42.587482,
+			"lng": -5.576699,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Reino_de_Le%C3%B3n"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -2554,7 +2554,40 @@
 			"country": "Spain",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "2916_001.jpg",
+				"source": "https://s2.ppllstatics.com/leonoticias/www/multimedia/202105/20/media/cortadas/reinodeleon-kjpG-U140438106506KvC-1248x770@Leonoticias.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2916_002.jpg",
+				"source": "https://estadiosdb.com/pictures/stadiums/esp/estadio_reino_de_leon/estadio_reino_de_leon07.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2916_003.jpg",
+				"source": "https://imagenes.lavozdealmeria.com/files/og_thumbnail/uploads/2025/08/07/6894878d4c471.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2916_004.jpg",
+				"source": "https://espanaestadios.com/wp-content/uploads/2018/08/cultural-leonesa181023a.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 32
 	},
 	{
@@ -3196,7 +3229,7 @@
 			"code": "RSO",
 			"country": "Spain",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Real_Sociedad_B"
 		},
 		"venue": {
 			"api_football_id": 20313,
@@ -3205,11 +3238,11 @@
 			"city": "Donostia-San Sebastián",
 			"capacity": 1500,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.258333,
+			"lng": -2.025278,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Zubieta_Facilities"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -3217,7 +3250,40 @@
 			"country": "Spain",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "20313_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/6/66/Donostia-San_Sebasti%C3%A1n_Zubieta_Facilities_2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20313_002.jpg",
+				"source": "https://www.mundodeportivo.com/files/og_thumbnail/uploads/2020/05/29/60e7adf50dec4.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20313_003.jpg",
+				"source": "https://s3.ppllstatics.com/diariovasco/real-sociedad/multimedia/2023/07/20/GRADA-ZUBETA-ktDB-U20082115029407B-1200x840@Diario%20Vasco.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20313_004.jpg",
+				"source": "https://cadenaser.com/resizer/v2/R4I3FTBOWJOXPLWT6N6EXUQVJE.jpg?auth=2db73943e327b018cf7a7c1013a76acf18d43aafdc647ef3adc994b897fe648f&quality=70&width=1200&height=900&smart=true",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 41
 	},
 	{
@@ -3227,7 +3293,7 @@
 			"code": null,
 			"country": "Spain",
 			"founded": 1956,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/AD_Ceuta_FC"
 		},
 		"venue": {
 			"api_football_id": 3969,
@@ -3236,11 +3302,11 @@
 			"city": "Ceuta",
 			"capacity": 7000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 35.8854,
+			"lng": -5.3279,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Estadio_Alfonso_Murube"
 		},
 		"league": {
 			"api_football_id": 141,
@@ -3248,7 +3314,48 @@
 			"country": "Spain",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "3969_001.jpg",
+				"source": "https://www.estadiodeportivo.com/imagenes/5315ad35-1f0d-4e05-a16c-0c9cf2dd2e15_1280x725.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3969_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/2/2a/6092c97fa861df960efb2efd_Estadio-Murube-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3969_003.jpg",
+				"source": "https://espanaestadios.com/wp-content/uploads/2018/12/ceuta180325a.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3969_004.jpg",
+				"source": "https://image.ondacero.es/clipping/cmsimages01/2022/10/13/8839F5BA-51F1-4C40-9668-262F7F4C02F3/ceuta-vuelve-murube_103.jpg?crop=1200,900,x0,y0&width=1200&height=900&optimize=low&format=webply",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3969_005.jpg",
+				"source": "https://estadiosdb.com/pictures/stadiums/esp/estadio_municipal_alfonso_murube/estadio_municipal_alfonso_murube06.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 42
 	},
 	{

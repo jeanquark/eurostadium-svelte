@@ -55,7 +55,7 @@
                 />
             </div>
             <div class="col-5 col-lg-5 border-3">
-                <h2 class="text-left pl-3">Football stadium <br />across Europe</h2>
+                <h2 class="text-left pl-3">Football stadiums <br />across Europe</h2>
             </div>
         </div>
     </header>

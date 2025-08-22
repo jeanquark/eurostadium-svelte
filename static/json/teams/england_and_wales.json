@@ -3222,7 +3222,7 @@
 			"code": "CHA",
 			"country": "England",
 			"founded": 1905,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Charlton_Athletic_F.C."
 		},
 		"venue": {
 			"api_football_id": 518,
@@ -3231,11 +3231,11 @@
 			"city": "London",
 			"capacity": 27111,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 51.486389,
+			"lng": 0.036389,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/The_Valley_(stadium)"
 		},
 		"league": {
 			"api_football_id": 40,
@@ -3534,7 +3534,7 @@
 			"code": "WRE",
 			"country": "Wales",
 			"founded": 1872,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Wrexham_A.F.C."
 		},
 		"venue": {
 			"api_football_id": 19926,
@@ -3543,11 +3543,11 @@
 			"city": "Wrecsam",
 			"capacity": 19118,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 53.051944,
+			"lng": -3.003611,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Racecourse_Ground"
 		},
 		"league": {
 			"api_football_id": 40,
