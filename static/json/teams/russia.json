@@ -801,25 +801,25 @@
 	},
 	{
 		"team": {
-			"api_football_id": 1993,
-			"name": "Fakel",
-			"code": "FAK",
+			"api_football_id": 2006,
+			"name": "Baltika",
+			"code": "BAL",
 			"country": "Russia",
-			"founded": 1947,
-			"wiki": "https://en.wikipedia.org/wiki/FC_Fakel_Voronezh"
+			"founded": 1954,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Baltika_Kaliningrad"
 		},
 		"venue": {
-			"api_football_id": 1336,
-			"name": "Central'nyi Stadion Profsoyuzov",
-			"address": "ul. Studencheskaya 17",
-			"city": "Voronezh",
-			"capacity": 31793,
+			"api_football_id": 20188,
+			"name": "Rostec Arena",
+			"address": "ul. Solnechnyy bul",
+			"city": "Kaliningrad",
+			"capacity": 35212,
 			"surface": "grass",
-			"lat": 51.672778,
-			"lng": 39.204167,
-			"x": 114,
-			"y": 721,
-			"wiki": "https://en.wikipedia.org/wiki/Tsentralnyi_Profsoyuz_Stadion_(Voronezh)"
+			"lat": 54.698056,
+			"lng": 20.533889,
+			"x": 4,
+			"y": 691,
+			"wiki": "https://en.wikipedia.org/wiki/Kaliningrad_Stadium"
 		},
 		"league": {
 			"api_football_id": 235,
@@ -829,32 +829,40 @@
 		},
 		"images": [
 			{
-				"name": "1336_001.jpg",
-				"source": "https://sport-arenas.ru/images/panorama/europe/russia/tsentralnyi-profsoyuz-stadion-panorama_01.jpg",
+				"name": "20188_001.jpg",
+				"source": "https://cdn.pbilet.com/origin/12084036-b075-4e9f-b322-52787afc1ad7.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1336_002.jpg",
-				"source": "https://riavrn.ru/media/archive/image/2023/12/rDep_Zxow5p4bQptTgNAv1aObJVVODKd.jpg",
+				"name": "20188_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Ser-Swi_%281%29.jpg/1200px-Ser-Swi_%281%29.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1336_003.jpg",
-				"source": "https://tv-gubernia.ru/wp-content/uploads/2023/12/6rShoy7Fm2E.jpg",
+				"name": "20188_003.jpg",
+				"source": "https://www.rostec.edu.za/images/joomlart/videos/item-6.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1336_004.jpg",
-				"source": "https://photosota.club/uploads/posts/2023-07/1688252361_photosota-club-p-stadion-fakel-3.jpg",
+				"name": "20188_004.jpg",
+				"source": "https://moresports.network/wp-content/uploads/2018/06/Kaliningrad_Stadium_April-37.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20188_005.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Kaliningrad_stadium_-_2018-04-07.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -862,70 +870,6 @@
 			}
 		],
 		"no": 12
-	},
-	{
-		"team": {
-			"api_football_id": 1994,
-			"name": "Khimki",
-			"code": "KHI",
-			"country": "Russia",
-			"founded": 1997,
-			"wiki": "https://en.wikipedia.org/wiki/FC_Khimki"
-		},
-		"venue": {
-			"api_football_id": 18629,
-			"name": "Arena Khimki",
-			"address": "ul. Kirova, dom 24",
-			"city": "Khimki",
-			"capacity": 18636,
-			"surface": "grass",
-			"lat": 55.8853,
-			"lng": 37.4542,
-			"x": 104,
-			"y": 679,
-			"wiki": "https://en.wikipedia.org/wiki/Arena_Khimki"
-		},
-		"league": {
-			"api_football_id": 235,
-			"name": "Premier League",
-			"country": "Russia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "18629_001.jpg",
-				"source": "https://estadiosfc.com/wp-content/uploads/2023/08/ARENA-JIMKI.webp",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "18629_002.jpg",
-				"source": "https://football-stadiums.ru/wp-content/uploads/2017/08/arena-khimki-13.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "18629_003.jpg",
-				"source": "https://football-stadiums.ru/wp-content/uploads/2017/08/arena-khimki-12.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "18629_004.jpg",
-				"source": "https://football-stadiums.ru/wp-content/uploads/2017/08/arena-khimki-14.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 13
 	},
 	{
 		"team": {
@@ -999,6 +943,70 @@
 			{
 				"name": "2835_006.jpg",
 				"source": "https://asset.indosport.com/article/image/q/80/236615/in_your_pocket-169.jpg?w=750&h=423",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 2012,
+			"name": "FC Sochi",
+			"code": null,
+			"country": "Russia",
+			"founded": 2010,
+			"wiki": "https://en.wikipedia.org/wiki/PFC_Sochi"
+		},
+		"venue": {
+			"api_football_id": 2834,
+			"name": "Olimpiyskiy Stadion Fisht",
+			"address": "Olimpiyskiy prospekt 15",
+			"city": "Sochi",
+			"capacity": 48000,
+			"surface": "grass",
+			"lat": 43.402267,
+			"lng": 39.956111,
+			"x": 118,
+			"y": 793,
+			"wiki": "https://en.wikipedia.org/wiki/Fisht_Olympic_Stadium"
+		},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2834_001.jpg",
+				"source": "https://www.yuga.ru/media/1f/c0/zns_4575-2__pbagrhv.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2834_002.jpg",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c4/9d/f2/caption.jpg?w=1200&h=1200&s=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2834_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Sochi_adler_aerial_view_2018_23.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2834_004.jpg",
+				"source": "https://media-cdn.tripadvisor.com/media/photo-m/1280/13/a0/5b/e1/caption.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1465,6 +1473,70 @@
 	},
 	{
 		"team": {
+			"api_football_id": 1993,
+			"name": "Fakel",
+			"code": "FAK",
+			"country": "Russia",
+			"founded": 1947,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Fakel_Voronezh"
+		},
+		"venue": {
+			"api_football_id": 1336,
+			"name": "Central'nyi Stadion Profsoyuzov",
+			"address": "ul. Studencheskaya 17",
+			"city": "Voronezh",
+			"capacity": 31793,
+			"surface": "grass",
+			"lat": 51.672778,
+			"lng": 39.204167,
+			"x": 114,
+			"y": 721,
+			"wiki": "https://en.wikipedia.org/wiki/Tsentralnyi_Profsoyuz_Stadion_(Voronezh)"
+		},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1336_001.jpg",
+				"source": "https://sport-arenas.ru/images/panorama/europe/russia/tsentralnyi-profsoyuz-stadion-panorama_01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1336_002.jpg",
+				"source": "https://riavrn.ru/media/archive/image/2023/12/rDep_Zxow5p4bQptTgNAv1aObJVVODKd.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1336_003.jpg",
+				"source": "https://tv-gubernia.ru/wp-content/uploads/2023/12/6rShoy7Fm2E.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1336_004.jpg",
+				"source": "https://photosota.club/uploads/posts/2023-07/1688252361_photosota-club-p-stadion-fakel-3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 22
+	},
+	{
+		"team": {
 			"api_football_id": 1995,
 			"name": "FK Sokol Saratov",
 			"code": "SOK",
@@ -1517,7 +1589,7 @@
 				"size": 0
 			}
 		],
-		"no": 22
+		"no": 23
 	},
 	{
 		"team": {
@@ -1573,70 +1645,6 @@
 				"size": 0
 			}
 		],
-		"no": 23
-	},
-	{
-		"team": {
-			"api_football_id": 2000,
-			"name": "Tyumen",
-			"code": "TYU",
-			"country": "Russia",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/FC_Tyumen"
-		},
-		"venue": {
-			"api_football_id": 1341,
-			"name": "Stadion Geolog",
-			"address": "ul. Komunny 22",
-			"city": "Tyumen&apos;",
-			"capacity": 13057,
-			"surface": "grass",
-			"lat": 57.1617,
-			"lng": 65.5139,
-			"x": 268,
-			"y": 666,
-			"wiki": "https://en.wikipedia.org/wiki/Geolog_Stadium"
-		},
-		"league": {
-			"api_football_id": 236,
-			"name": "First League",
-			"country": "Russia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "1341_001.jpg",
-				"source": "https://avatars.mds.yandex.net/get-altay/2056672/2a0000016d95bb03249d392fea6cb4893bef/XL",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1341_002.jpg",
-				"source": "https://avatars.mds.yandex.net/get-altay/4200646/2a000001753c98b5e9a2d684ba896e9a8a36/XL",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1341_003.jpg",
-				"source": "https://farm7.static.flickr.com/6024/6007976912_9c4ae60cc9_b.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1341_004.jpg",
-				"source": "https://farm7.static.flickr.com/6007/6007976046_4c8d05ebc1_b.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 24
 	},
 	{
@@ -1686,78 +1694,6 @@
 			}
 		],
 		"no": 25
-	},
-	{
-		"team": {
-			"api_football_id": 2006,
-			"name": "Baltika",
-			"code": "BAL",
-			"country": "Russia",
-			"founded": 1954,
-			"wiki": "https://en.wikipedia.org/wiki/FC_Baltika_Kaliningrad"
-		},
-		"venue": {
-			"api_football_id": 20188,
-			"name": "Rostec Arena",
-			"address": "ul. Solnechnyy bul",
-			"city": "Kaliningrad",
-			"capacity": 35212,
-			"surface": "grass",
-			"lat": 54.698056,
-			"lng": 20.533889,
-			"x": 4,
-			"y": 691,
-			"wiki": "https://en.wikipedia.org/wiki/Kaliningrad_Stadium"
-		},
-		"league": {
-			"api_football_id": 236,
-			"name": "First League",
-			"country": "Russia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "20188_001.jpg",
-				"source": "https://cdn.pbilet.com/origin/12084036-b075-4e9f-b322-52787afc1ad7.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20188_002.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Ser-Swi_%281%29.jpg/1200px-Ser-Swi_%281%29.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20188_003.jpg",
-				"source": "https://www.rostec.edu.za/images/joomlart/videos/item-6.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20188_004.jpg",
-				"source": "https://moresports.network/wp-content/uploads/2018/06/Kaliningrad_Stadium_April-37.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20188_005.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Kaliningrad_stadium_-_2018-04-07.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 26
 	},
 	{
 		"team": {
@@ -1837,71 +1773,7 @@
 				"size": 0
 			}
 		],
-		"no": 27
-	},
-	{
-		"team": {
-			"api_football_id": 2012,
-			"name": "FC Sochi",
-			"code": null,
-			"country": "Russia",
-			"founded": 2010,
-			"wiki": "https://en.wikipedia.org/wiki/PFC_Sochi"
-		},
-		"venue": {
-			"api_football_id": 2834,
-			"name": "Olimpiyskiy Stadion Fisht",
-			"address": "Olimpiyskiy prospekt 15",
-			"city": "Sochi",
-			"capacity": 48000,
-			"surface": "grass",
-			"lat": 43.402267,
-			"lng": 39.956111,
-			"x": 118,
-			"y": 793,
-			"wiki": "https://en.wikipedia.org/wiki/Fisht_Olympic_Stadium"
-		},
-		"league": {
-			"api_football_id": 236,
-			"name": "First League",
-			"country": "Russia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2834_001.jpg",
-				"source": "https://www.yuga.ru/media/1f/c0/zns_4575-2__pbagrhv.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2834_002.jpg",
-				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c4/9d/f2/caption.jpg?w=1200&h=1200&s=1",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2834_003.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Sochi_adler_aerial_view_2018_23.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2834_004.jpg",
-				"source": "https://media-cdn.tripadvisor.com/media/photo-m/1280/13/a0/5b/e1/caption.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 28
+		"no": 26
 	},
 	{
 		"team": {
@@ -1941,7 +1813,7 @@
 				"size": 0
 			}
 		],
-		"no": 29
+		"no": 27
 	},
 	{
 		"team": {
@@ -1981,29 +1853,29 @@
 				"size": 0
 			}
 		],
-		"no": 30
+		"no": 28
 	},
 	{
 		"team": {
-			"api_football_id": 6787,
-			"name": "Alaniya Vladikavkaz",
-			"code": "ALA",
+			"api_football_id": 6790,
+			"name": "Chelyabinsk",
+			"code": "CHE",
 			"country": "Russia",
-			"founded": 2011,
-			"wiki": "https://en.wikipedia.org/wiki/FC_Alania_Vladikavkaz_(2019)"
+			"founded": 1977,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Chelyabinsk"
 		},
 		"venue": {
-			"api_football_id": 4954,
-			"name": "Respublikanskiy stadion Spartak",
-			"address": "ul. Shmulevicha 6",
-			"city": "Vladikavkaz",
-			"capacity": 32464,
-			"surface": "grass",
-			"lat": 43.023056,
-			"lng": 44.695,
-			"x": 146,
-			"y": 796,
-			"wiki": "https://en.wikipedia.org/wiki/Republican_Spartak_Stadium"
+			"api_football_id": 4957,
+			"name": "Stadion Central'nyj",
+			"address": "ul. Kommuny 98",
+			"city": "Chelyabinsk",
+			"capacity": 15500,
+			"surface": "artificial turf",
+			"lat": 55.166193,
+			"lng": 61.376039,
+			"x": 0,
+			"y": 0,
+			"wiki": "https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%28%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD,_%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%29"
 		},
 		"league": {
 			"api_football_id": 236,
@@ -2013,23 +1885,39 @@
 		},
 		"images": [
 			{
-				"name": "4954_001.jpg",
-				"source": "https://superfan.ru/upload/iblock/995/t0wpj2npqd16bbuy9a6muncc5kstiljk.jpg",
+				"name": "4957_001.jpg",
+				"source": "https://i.ytimg.com/vi/CIPnPzyaJC8/maxresdefault.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "4954_002.jpg",
-				"source": "https://superfan.ru/upload/iblock/a25/82gpjbvpnviclfveap0p4pkaszr97drv.jpg",
+				"name": "4957_002.jpg",
+				"source": "https://assets-a1.kompasiana.com/items/album/2022/08/27/whatsapp-image-2022-08-27-at-23-47-08-630a4aaa08a8b53d8a0e5262.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4957_003.jpg",
+				"source": "https://media-1obl-ru.storage.yandexcloud.net/resize_cache/1738771/83132dad08c79bfbcc1d891fdcdbb658/iblock/974/9742a5d2a11b45cae492c38448cc319c/d62398fe2614b1a0adae501c25c1500e.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4957_004.jpg",
+				"source": "https://www.redwhite.ru/upload/iblock/ac2/100_1047.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 31
+		"no": 29
 	},
 	{
 		"team": {
@@ -2077,7 +1965,7 @@
 				"size": 0
 			}
 		],
-		"no": 32
+		"no": 30
 	},
 	{
 		"team": {
@@ -2133,7 +2021,7 @@
 				"size": 0
 			}
 		],
-		"no": 33
+		"no": 31
 	},
 	{
 		"team": {
@@ -2205,7 +2093,256 @@
 				"size": 0
 			}
 		],
+		"no": 32
+	},
+	{
+		"team": {
+			"api_football_id": 6834,
+			"name": "Volga Ulyanovsk",
+			"code": "VOL",
+			"country": "Russia",
+			"founded": 1947,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Volga_Ulyanovsk"
+		},
+		"venue": {
+			"api_football_id": 20128,
+			"name": "Stadion Trud",
+			"address": "ul. Engel&apos;sa 23",
+			"city": "Ulyanovsk",
+			"capacity": 15000,
+			"surface": "grass",
+			"lat": 54.3181,
+			"lng": 48.3943,
+			"x": 0,
+			"y": 0,
+			"wiki": "https://en.wikipedia.org/wiki/Trud_Stadium_(Ulyanovsk)"
+		},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20128_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/1650622509_43-sportishka-com-p-stadion-trud-voronezh-krasivo-foto-47_%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F-2.jpg/1200px-1650622509_43-sportishka-com-p-stadion-trud-voronezh-krasivo-foto-47_%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F-2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20128_002.jpg",
+				"source": "https://pinkov.ru/upload/iblock/c24/f12bxlrc9y8tio4nn8hi4gvn7qvs0y24.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 33
+	},
+	{
+		"team": {
+			"api_football_id": 19449,
+			"name": "Spartak Kostroma",
+			"code": null,
+			"country": "Russia",
+			"founded": 1959,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Spartak_Kostroma"
+		},
+		"venue": {
+			"api_football_id": 18776,
+			"name": "Stadion Urozhaj",
+			"address": "Uchebnyy Gorodok, 37",
+			"city": "Karavaevo",
+			"capacity": 4200,
+			"surface": "artificial turf",
+			"lat": 57.736939,
+			"lng": 41.057592,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19449_001.jpg",
+				"source": "https://avatars.mds.yandex.net/get-altay/240733/2a0000015c1bdc36b14b55d7a3f1915d5288/orig",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 34
+	},
+	{
+		"team": {
+			"api_football_id": 1994,
+			"name": "Khimki",
+			"code": "KHI",
+			"country": "Russia",
+			"founded": 1997,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Khimki"
+		},
+		"venue": {
+			"api_football_id": 18629,
+			"name": "Arena Khimki",
+			"address": "ul. Kirova, dom 24",
+			"city": "Khimki",
+			"capacity": 18636,
+			"surface": "grass",
+			"lat": 55.8853,
+			"lng": 37.4542,
+			"x": 104,
+			"y": 679,
+			"wiki": "https://en.wikipedia.org/wiki/Arena_Khimki"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "18629_001.jpg",
+				"source": "https://estadiosfc.com/wp-content/uploads/2023/08/ARENA-JIMKI.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18629_002.jpg",
+				"source": "https://football-stadiums.ru/wp-content/uploads/2017/08/arena-khimki-13.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18629_003.jpg",
+				"source": "https://football-stadiums.ru/wp-content/uploads/2017/08/arena-khimki-12.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18629_004.jpg",
+				"source": "https://football-stadiums.ru/wp-content/uploads/2017/08/arena-khimki-14.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 35
+	},
+	{
+		"team": {
+			"api_football_id": 2000,
+			"name": "Tyumen",
+			"code": "TYU",
+			"country": "Russia",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Tyumen"
+		},
+		"venue": {
+			"api_football_id": 1341,
+			"name": "Stadion Geolog",
+			"address": "ul. Komunny 22",
+			"city": "Tyumen&apos;",
+			"capacity": 13057,
+			"surface": "grass",
+			"lat": 57.1617,
+			"lng": 65.5139,
+			"x": 268,
+			"y": 666,
+			"wiki": "https://en.wikipedia.org/wiki/Geolog_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "1341_001.jpg",
+				"source": "https://avatars.mds.yandex.net/get-altay/2056672/2a0000016d95bb03249d392fea6cb4893bef/XL",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1341_002.jpg",
+				"source": "https://avatars.mds.yandex.net/get-altay/4200646/2a000001753c98b5e9a2d684ba896e9a8a36/XL",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1341_003.jpg",
+				"source": "https://farm7.static.flickr.com/6024/6007976912_9c4ae60cc9_b.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1341_004.jpg",
+				"source": "https://farm7.static.flickr.com/6007/6007976046_4c8d05ebc1_b.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 36
+	},
+	{
+		"team": {
+			"api_football_id": 6787,
+			"name": "Alaniya Vladikavkaz",
+			"code": "ALA",
+			"country": "Russia",
+			"founded": 2011,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Alania_Vladikavkaz_(2019)"
+		},
+		"venue": {
+			"api_football_id": 4954,
+			"name": "Respublikanskiy stadion Spartak",
+			"address": "ul. Shmulevicha 6",
+			"city": "Vladikavkaz",
+			"capacity": 32464,
+			"surface": "grass",
+			"lat": 43.023056,
+			"lng": 44.695,
+			"x": 146,
+			"y": 796,
+			"wiki": "https://en.wikipedia.org/wiki/Republican_Spartak_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "4954_001.jpg",
+				"source": "https://superfan.ru/upload/iblock/995/t0wpj2npqd16bbuy9a6muncc5kstiljk.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4954_002.jpg",
+				"source": "https://superfan.ru/upload/iblock/a25/82gpjbvpnviclfveap0p4pkaszr97drv.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 37
 	},
 	{
 		"team": {
@@ -2272,7 +2409,7 @@
 				"size": 0
 			}
 		],
-		"no": 35
+		"no": 38
 	},
 	{
 		"team": {
@@ -2331,7 +2468,7 @@
 				"size": 0
 			}
 		],
-		"no": 36
+		"no": 39
 	},
 	{
 		"team": {
@@ -2390,6 +2527,6 @@
 				"size": 0
 			}
 		],
-		"no": 37
+		"no": 40
 	}
 ]

@@ -4,7 +4,7 @@
 			"api_football_id": 549,
 			"name": "Besiktas",
 			"code": "BES",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1903,
 			"wiki": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K."
 		},
@@ -76,7 +76,7 @@
 			"api_football_id": 564,
 			"name": "Istanbul Basaksehir",
 			"code": "IST",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1990,
 			"wiki": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K."
 		},
@@ -148,7 +148,7 @@
 			"api_football_id": 607,
 			"name": "Konyaspor",
 			"code": "KON",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1981,
 			"wiki": "https://en.wikipedia.org/wiki/Konyaspor"
 		},
@@ -220,7 +220,7 @@
 			"api_football_id": 611,
 			"name": "Fenerbahce",
 			"code": "FEN",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1907,
 			"wiki": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)"
 		},
@@ -300,7 +300,7 @@
 			"api_football_id": 645,
 			"name": "Galatasaray",
 			"code": "GAL",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1905,
 			"wiki": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)"
 		},
@@ -372,7 +372,7 @@
 			"api_football_id": 994,
 			"name": "Goztepe",
 			"code": "GOZ",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1925,
 			"wiki": "https://en.wikipedia.org/wiki/G%C3%B6ztepe_S.K."
 		},
@@ -436,7 +436,7 @@
 			"api_football_id": 996,
 			"name": "Alanyaspor",
 			"code": "ALA",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1948,
 			"wiki": "https://en.wikipedia.org/wiki/Alanyaspor"
 		},
@@ -497,10 +497,74 @@
 	},
 	{
 		"team": {
+			"api_football_id": 997,
+			"name": "Genclerbirligi",
+			"code": "GEN",
+			"country": "Turkey",
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/Gen%C3%A7lerbirli%C4%9Fi_S.K."
+		},
+		"venue": {
+			"api_football_id": 2378,
+			"name": "Eryaman Stadyumu",
+			"address": "Devlet Mah., 232. Sk. No:7, Tunahan Mahallesi, Etimesgut",
+			"city": "Ankara",
+			"capacity": 20560,
+			"surface": "grass",
+			"lat": 39.980278,
+			"lng": 32.613889,
+			"x": 363,
+			"y": 435,
+			"wiki": "https://en.wikipedia.org/wiki/Eryaman_Stadium"
+		},
+		"league": {
+			"api_football_id": 203,
+			"name": "Süper Lig",
+			"country": "Türkiye",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2378_001.jpg",
+				"source": "https://karabukbilisim.com.tr/wp-content/uploads/2023/04/eryaman.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2378_002.jpg",
+				"source": "https://image.fanatik.com.tr/i/fanatik/75/1200x695/6281bb2045d2a05158764173.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2378_003.jpg",
+				"source": "https://pbs.twimg.com/media/FxXqNNeWwAEOXZn?format=jpg&name=large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2378_004.jpg",
+				"source": "https://imageprod.passo.com.tr/venue/25082022183524-5.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 8
+	},
+	{
+		"team": {
 			"api_football_id": 998,
 			"name": "Trabzonspor",
 			"code": "TRA",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1967,
 			"wiki": "https://en.wikipedia.org/wiki/Trabzonspor"
 		},
@@ -565,14 +629,14 @@
 				"size": 0
 			}
 		],
-		"no": 8
+		"no": 9
 	},
 	{
 		"team": {
 			"api_football_id": 1001,
 			"name": "Kayserispor",
 			"code": "KAY",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1966,
 			"wiki": "https://en.wikipedia.org/wiki/Kayserispor"
 		},
@@ -637,70 +701,6 @@
 				"size": 0
 			}
 		],
-		"no": 9
-	},
-	{
-		"team": {
-			"api_football_id": 1002,
-			"name": "Sivasspor",
-			"code": "SIV",
-			"country": "Türkiye",
-			"founded": 1967,
-			"wiki": "https://en.wikipedia.org/wiki/Sivasspor"
-		},
-		"venue": {
-			"api_football_id": 20425,
-			"name": "BG Group 4 Eylül Stadyumu",
-			"address": "Muhsin Yazıcıoğlu Bulvarı",
-			"city": "Sivas",
-			"capacity": 27532,
-			"surface": "grass",
-			"lat": 39.728333,
-			"lng": 36.983889,
-			"x": 591,
-			"y": 452,
-			"wiki": "https://en.wikipedia.org/wiki/New_Sivas_4_Eyl%C3%BCl_Stadium"
-		},
-		"league": {
-			"api_football_id": 203,
-			"name": "Süper Lig",
-			"country": "Türkiye",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "20425_001.jpg",
-				"source": "https://imageprod.passo.com.tr/venue/25082022174934-1.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20425_002.jpg",
-				"source": "https://imageprod.passo.com.tr/venue/25082022174935-4.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20425_003.jpg",
-				"source": "https://i.ytimg.com/vi/vTWJZEIrjhg/maxresdefault.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20425_004.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/7/72/4eylul2.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 10
 	},
 	{
@@ -708,7 +708,7 @@
 			"api_football_id": 1004,
 			"name": "Kasimpasa",
 			"code": "KAS",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1921,
 			"wiki": "https://en.wikipedia.org/wiki/Kas%C4%B1mpa%C5%9Fa_S.K."
 		},
@@ -772,7 +772,7 @@
 			"api_football_id": 1005,
 			"name": "Antalyaspor",
 			"code": "ANT",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1966,
 			"wiki": "https://en.wikipedia.org/wiki/Antalyaspor"
 		},
@@ -836,7 +836,7 @@
 			"api_football_id": 1007,
 			"name": "Rizespor",
 			"code": "RIZ",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1953,
 			"wiki": "https://en.wikipedia.org/wiki/%C3%87aykur_Rizespor"
 		},
@@ -897,74 +897,10 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3563,
-			"name": "Adana Demirspor",
-			"code": "ADA",
-			"country": "Türkiye",
-			"founded": 1941,
-			"wiki": "https://en.wikipedia.org/wiki/Adana_Demirspor"
-		},
-		"venue": {
-			"api_football_id": 11924,
-			"name": "Yeni Adana Stadyumu",
-			"address": "Çarkıpare, Sarıçam",
-			"city": "Adana",
-			"capacity": 33543,
-			"surface": "grass",
-			"lat": 37.063333,
-			"lng": 35.375,
-			"x": 507,
-			"y": 629,
-			"wiki": "https://en.wikipedia.org/wiki/New_Adana_Stadium"
-		},
-		"league": {
-			"api_football_id": 203,
-			"name": "Süper Lig",
-			"country": "Türkiye",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "11924_001.jpg",
-				"source": "https://wowturkey.net/dosyalar/737af3374e82a2865ed2bd955054996c-jpg.2384/",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11924_002.jpg",
-				"source": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1522000/adana-stat-aa-1523315.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11924_003.jpg",
-				"source": "https://image.fanatik.com.tr/i/fanatik/75/0x0/6281bd8445d2a05158766642.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11924_004.jpg",
-				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpC_fXWJ51ag5ZLwpOgio7bTPWJo2Bl_vzGJLP12mQd0IL0c4KEnmeW94WFJTFalU4oKWg_octB6-CZKqGRr5KuPJYNkfSbNV9_fCHMlceApWmB0purCetbFtyt3f85CP4FR3Te2NYVQ/s00/Yeni+Adana+Stad%25C4%25B1.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 14
-	},
-	{
-		"team": {
 			"api_football_id": 3573,
 			"name": "Gazişehir Gaziantep",
 			"code": "GAZ",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1988,
 			"wiki": "https://en.wikipedia.org/wiki/Gaziantep_F.K."
 		},
@@ -1029,126 +965,14 @@
 				"size": 0
 			}
 		],
-		"no": 15
-	},
-	{
-		"team": {
-			"api_football_id": 3575,
-			"name": "Hatayspor",
-			"code": "HAT",
-			"country": "Türkiye",
-			"founded": 1967,
-			"wiki": "https://en.wikipedia.org/wiki/Hatayspor"
-		},
-		"venue": {
-			"api_football_id": 8392,
-			"name": "Mersin Stadyumu",
-			"address": "Haraparası, Süreyya Halefoğlu Cd. No:64",
-			"city": "Mersin",
-			"capacity": 25534,
-			"surface": "grass",
-			"lat": 36.820556,
-			"lng": 34.538611,
-			"x": 463,
-			"y": 645,
-			"wiki": "https://en.wikipedia.org/wiki/Mersin_Stadium"
-		},
-		"league": {
-			"api_football_id": 203,
-			"name": "Süper Lig",
-			"country": "Türkiye",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "8392_001.jpg",
-				"source": "https://pbs.twimg.com/media/GDZHIV5XMAAmbVY.jpg:large",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "8392_002.jpg",
-				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6bQ8_DfpA2hVYyxrMxCqsOORjLPU30d4tPQ8eumWjIxMGmAqviz1Mw7gqYdIYp9UpjqtHPnloPrQou1mU802frxzqduuM4hTJyjxBolqBt9AqHr88R1XQ9S-0AF__us8Z15RL6k7HkxE/s1600/3.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "8392_003.jpg",
-				"source": "https://imageprod.passo.com.tr/venue/28022023103114-3.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "8392_004.jpg",
-				"source": "https://pbs.twimg.com/media/GCM78d9W0AEQgot.jpg:large",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 16
-	},
-	{
-		"team": {
-			"api_football_id": 3583,
-			"name": "BB Bodrumspor",
-			"code": null,
-			"country": "Türkiye",
-			"founded": 1931,
-			"wiki": "https://en.wikipedia.org/wiki/Bodrum_F.K."
-		},
-		"venue": {
-			"api_football_id": 2385,
-			"name": "Bodrum İlçe Stadı",
-			"address": "Marsmabedi Caddesi",
-			"city": "Bodrum",
-			"capacity": 3000,
-			"surface": "grass",
-			"lat": 37.040556,
-			"lng": 27.431667,
-			"x": 92,
-			"y": 631,
-			"wiki": "https://de.wikipedia.org/wiki/Bodrum_%C4%B0l%C3%A7e_Stadyumu"
-		},
-		"league": {
-			"api_football_id": 203,
-			"name": "Süper Lig",
-			"country": "Türkiye",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2385_001.jpg",
-				"source": "https://spor264.com.tr/sites/597/uploads/2022/01/26/60bf86c5ae298bfafb1e17fd-1643179031.jpg?",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2385_002.jpg",
-				"source": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2024/8/bodrum-stadi-1jpg-JMKO4a23q0ulAAewZcZQSQ.jpg?w=900&h=900&mode=crop&scale=both",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 17
+		"no": 14
 	},
 	{
 		"team": {
 			"api_football_id": 3588,
 			"name": "Eyüpspor",
 			"code": "EYU",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1919,
 			"wiki": "https://en.wikipedia.org/wiki/Ey%C3%BCpspor"
 		},
@@ -1189,14 +1013,94 @@
 				"size": 0
 			}
 		],
-		"no": 18
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 3589,
+			"name": "Fatih Karagümrük",
+			"code": "KAR",
+			"country": "Turkey",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Fatih_Karag%C3%BCmr%C3%BCk_S.K."
+		},
+		"venue": {
+			"api_football_id": 1968,
+			"name": "Atatürk Olimpiyat Stadı",
+			"address": "Atatürk Olimpiyat Stadı Otoparkı, İkitelli",
+			"city": "İstanbul",
+			"capacity": 76092,
+			"surface": "grass",
+			"lat": 41.074444,
+			"lng": 28.765833,
+			"x": 162,
+			"y": 360,
+			"wiki": "https://en.wikipedia.org/wiki/Atat%C3%BCrk_Olympic_Stadium"
+		},
+		"league": {
+			"api_football_id": 203,
+			"name": "Süper Lig",
+			"country": "Türkiye",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1968_001.jpg",
+				"source": "https://www.santiye.com.tr/medya/1686387561olimpiyat3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1968_002.jpg",
+				"source": "https://yuzuncuyilgalerisi.eba.gov.tr/uploads/themes/65c39370c9f31.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1968_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Istanbul_Atat%C3%BCrk_Olympic_Stadium_1.jpg/1200px-Istanbul_Atat%C3%BCrk_Olympic_Stadium_1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1968_004.jpg",
+				"source": "https://image.fanatik.com.tr/i/fanatik/75/0x0/6281bd2f45d2a05158766088.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1968_005.jpg",
+				"source": "https://imagedelivery.net/qIvImu8MgTZD-kGvW-i83w/472eea97-61cd-48e2-8e28-605a915b1100/public",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1968_006.jpg",
+				"source": "https://www.santiye.com.tr/medya/1686387567olimpiyat10.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 16
 	},
 	{
 		"team": {
 			"api_football_id": 3603,
 			"name": "Samsunspor",
 			"code": "SAM",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1965,
 			"wiki": "https://en.wikipedia.org/wiki/Samsunspor"
 		},
@@ -1261,142 +1165,142 @@
 				"size": 0
 			}
 		],
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 7411,
+			"name": "Kocaelispor",
+			"code": "KOC",
+			"country": "Turkey",
+			"founded": 1966,
+			"wiki": "https://en.wikipedia.org/wiki/Kocaelispor"
+		},
+		"venue": {
+			"api_football_id": 20309,
+			"name": "Yıldız Entegre Kocaeli Stadyumu",
+			"address": "Turnaoğlu Caddesi",
+			"city": "Kocaeli",
+			"capacity": 35000,
+			"surface": "grass",
+			"lat": 40.774722,
+			"lng": 30.0175,
+			"x": 227,
+			"y": 381,
+			"wiki": "https://en.wikipedia.org/wiki/Kocaeli_Stadium"
+		},
+		"league": {
+			"api_football_id": 203,
+			"name": "Süper Lig",
+			"country": "Türkiye",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20309_001.jpg",
+				"source": "https://pbs.twimg.com/media/GAVKyatWkAAd8QO.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20309_002.jpg",
+				"source": "https://static.daktilo.com/sites/535/uploads/2024/07/30/kapilarini-aciyor-1723515899.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20309_003.jpg",
+				"source": "https://imageprod.passo.com.tr/venue/03112022135308-kocaeli_arena.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20309_004.jpg",
+				"source": "https://static.daktilo.com/sites/296/uploads/2024/10/09/whatsapp-image-2024-10-09-at-1725381693.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 1002,
+			"name": "Sivasspor",
+			"code": "SIV",
+			"country": "Turkey",
+			"founded": 1967,
+			"wiki": "https://en.wikipedia.org/wiki/Sivasspor"
+		},
+		"venue": {
+			"api_football_id": 20425,
+			"name": "BG Group 4 Eylül Stadyumu",
+			"address": "Muhsin Yazıcıoğlu Bulvarı",
+			"city": "Sivas",
+			"capacity": 27532,
+			"surface": "grass",
+			"lat": 39.728333,
+			"lng": 36.983889,
+			"x": 591,
+			"y": 452,
+			"wiki": "https://en.wikipedia.org/wiki/New_Sivas_4_Eyl%C3%BCl_Stadium"
+		},
+		"league": {
+			"api_football_id": 204,
+			"name": "1. Lig",
+			"country": "Türkiye",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20425_001.jpg",
+				"source": "https://imageprod.passo.com.tr/venue/25082022174934-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20425_002.jpg",
+				"source": "https://imageprod.passo.com.tr/venue/25082022174935-4.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20425_003.jpg",
+				"source": "https://i.ytimg.com/vi/vTWJZEIrjhg/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20425_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/7/72/4eylul2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 19
-	},
-	{
-		"team": {
-			"api_football_id": 997,
-			"name": "Genclerbirligi",
-			"code": "GEN",
-			"country": "Türkiye",
-			"founded": 1923,
-			"wiki": "https://en.wikipedia.org/wiki/Gen%C3%A7lerbirli%C4%9Fi_S.K."
-		},
-		"venue": {
-			"api_football_id": 2378,
-			"name": "Eryaman Stadyumu",
-			"address": "Devlet Mah., 232. Sk. No:7, Tunahan Mahallesi, Etimesgut",
-			"city": "Ankara",
-			"capacity": 20560,
-			"surface": "grass",
-			"lat": 39.980278,
-			"lng": 32.613889,
-			"x": 363,
-			"y": 435,
-			"wiki": "https://en.wikipedia.org/wiki/Eryaman_Stadium"
-		},
-		"league": {
-			"api_football_id": 204,
-			"name": "1. Lig",
-			"country": "Türkiye",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2378_001.jpg",
-				"source": "https://karabukbilisim.com.tr/wp-content/uploads/2023/04/eryaman.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2378_002.jpg",
-				"source": "https://image.fanatik.com.tr/i/fanatik/75/1200x695/6281bb2045d2a05158764173.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2378_003.jpg",
-				"source": "https://pbs.twimg.com/media/FxXqNNeWwAEOXZn?format=jpg&name=large",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2378_004.jpg",
-				"source": "https://imageprod.passo.com.tr/venue/25082022183524-5.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 20
-	},
-	{
-		"team": {
-			"api_football_id": 999,
-			"name": "Yeni Malatyaspor",
-			"code": "MAL",
-			"country": "Türkiye",
-			"founded": 1986,
-			"wiki": "https://en.wikipedia.org/wiki/Yeni_Malatyaspor"
-		},
-		"venue": {
-			"api_football_id": 1588,
-			"name": "Yeni Malatya Stadyumu",
-			"address": "Bulgurlu Mahallesi",
-			"city": "Malatya",
-			"capacity": 27044,
-			"surface": "grass",
-			"lat": 38.337222,
-			"lng": 38.445833,
-			"x": 667,
-			"y": 546,
-			"wiki": "https://en.wikipedia.org/wiki/New_Malatya_Stadium"
-		},
-		"league": {
-			"api_football_id": 204,
-			"name": "1. Lig",
-			"country": "Türkiye",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "1588_001.jpg",
-				"source": "https://stadiumdb.com/img/news/2018/01/25mala3.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1588_002.jpg",
-				"source": "https://i.sondakika23.com/c/80/1280x720/s/dosya/haber/2017-08-29-inonu-stadi-devre-disi-malatya-stadyumu-bu-kez-acilacak.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1588_003.jpg",
-				"source": "https://i.malatyanethaber.com.tr/c/100/1682x1262/s/dosya/haber/galeriler/1220x686/62f6d019-29d3-4d7c-b293-2aaee8281a0e_1732014990_7xwcZm.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1588_004.jpg",
-				"source": "https://pbs.twimg.com/ext_tw_video_thumb/1815881645498494976/pu/img/U1TaI10qbFw_2YwN.jpg:large",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 21
 	},
 	{
 		"team": {
 			"api_football_id": 1009,
 			"name": "Erzurum BB",
 			"code": "ERZ",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 2005,
 			"wiki": "https://en.wikipedia.org/wiki/Erzurumspor_F.K."
 		},
@@ -1445,80 +1349,16 @@
 				"size": 0
 			}
 		],
-		"no": 22
+		"no": 20
 	},
 	{
 		"team": {
-			"api_football_id": 1010,
-			"name": "Ankaragucu",
-			"code": "ANK",
-			"country": "Türkiye",
-			"founded": 1910,
-			"wiki": "https://en.wikipedia.org/wiki/MKE_Ankarag%C3%BCc%C3%BC"
-		},
-		"venue": {
-			"api_football_id": 2378,
-			"name": "Eryaman Stadyumu",
-			"address": "Devlet Mah., 232. Sk. No:7, Tunahan Mahallesi, Etimesgut",
-			"city": "Ankara",
-			"capacity": 20560,
-			"surface": "grass",
-			"lat": 39.980278,
-			"lng": 32.613889,
-			"x": 363,
-			"y": 435,
-			"wiki": "https://en.wikipedia.org/wiki/Eryaman_Stadium"
-		},
-		"league": {
-			"api_football_id": 204,
-			"name": "1. Lig",
-			"country": "Türkiye",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2378_001.jpg",
-				"source": "https://karabukbilisim.com.tr/wp-content/uploads/2023/04/eryaman.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2378_002.jpg",
-				"source": "https://image.fanatik.com.tr/i/fanatik/75/1200x695/6281bb2045d2a05158764173.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2378_003.jpg",
-				"source": "https://pbs.twimg.com/media/FxXqNNeWwAEOXZn?format=jpg&name=large",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2378_004.jpg",
-				"source": "https://imageprod.passo.com.tr/venue/25082022183524-5.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 23
-	},
-	{
-		"team": {
-			"api_football_id": 3564,
-			"name": "Adanaspor",
+			"api_football_id": 3563,
+			"name": "Adana Demirspor",
 			"code": "ADA",
-			"country": "Türkiye",
-			"founded": 1954,
-			"wiki": "https://en.wikipedia.org/wiki/Adanaspor"
+			"country": "Turkey",
+			"founded": 1941,
+			"wiki": "https://en.wikipedia.org/wiki/Adana_Demirspor"
 		},
 		"venue": {
 			"api_football_id": 11924,
@@ -1573,14 +1413,14 @@
 				"size": 0
 			}
 		],
-		"no": 24
+		"no": 21
 	},
 	{
 		"team": {
 			"api_football_id": 3569,
 			"name": "Boluspor",
 			"code": "BOL",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1965,
 			"wiki": "https://en.wikipedia.org/wiki/Boluspor"
 		},
@@ -1637,14 +1477,78 @@
 				"size": 0
 			}
 		],
-		"no": 25
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 3575,
+			"name": "Hatayspor",
+			"code": "HAT",
+			"country": "Turkey",
+			"founded": 1967,
+			"wiki": "https://en.wikipedia.org/wiki/Hatayspor"
+		},
+		"venue": {
+			"api_football_id": 8392,
+			"name": "Mersin Stadyumu",
+			"address": "Haraparası, Süreyya Halefoğlu Cd. No:64",
+			"city": "Mersin",
+			"capacity": 25534,
+			"surface": "grass",
+			"lat": 36.820556,
+			"lng": 34.538611,
+			"x": 463,
+			"y": 645,
+			"wiki": "https://en.wikipedia.org/wiki/Mersin_Stadium"
+		},
+		"league": {
+			"api_football_id": 204,
+			"name": "1. Lig",
+			"country": "Türkiye",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "8392_001.jpg",
+				"source": "https://pbs.twimg.com/media/GDZHIV5XMAAmbVY.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "8392_002.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6bQ8_DfpA2hVYyxrMxCqsOORjLPU30d4tPQ8eumWjIxMGmAqviz1Mw7gqYdIYp9UpjqtHPnloPrQou1mU802frxzqduuM4hTJyjxBolqBt9AqHr88R1XQ9S-0AF__us8Z15RL6k7HkxE/s1600/3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "8392_003.jpg",
+				"source": "https://imageprod.passo.com.tr/venue/28022023103114-3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "8392_004.jpg",
+				"source": "https://pbs.twimg.com/media/GCM78d9W0AEQgot.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 23
 	},
 	{
 		"team": {
 			"api_football_id": 3577,
 			"name": "Ümraniyespor",
 			"code": "UMR",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1938,
 			"wiki": "https://en.wikipedia.org/wiki/%C3%9Cmraniyespor"
 		},
@@ -1693,14 +1597,14 @@
 				"size": 0
 			}
 		],
-		"no": 26
+		"no": 24
 	},
 	{
 		"team": {
 			"api_football_id": 3578,
 			"name": "İstanbulspor",
 			"code": "IST",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1926,
 			"wiki": "https://en.wikipedia.org/wiki/%C4%B0stanbulspor"
 		},
@@ -1749,14 +1653,14 @@
 				"size": 0
 			}
 		],
-		"no": 27
+		"no": 25
 	},
 	{
 		"team": {
 			"api_football_id": 3579,
 			"name": "Amed",
 			"code": "DIY",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1990,
 			"wiki": "https://en.wikipedia.org/wiki/Amed_S.F.K."
 		},
@@ -1789,14 +1693,62 @@
 				"size": 0
 			}
 		],
-		"no": 28
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 3583,
+			"name": "BB Bodrumspor",
+			"code": null,
+			"country": "Turkey",
+			"founded": 1931,
+			"wiki": "https://en.wikipedia.org/wiki/Bodrum_F.K."
+		},
+		"venue": {
+			"api_football_id": 2385,
+			"name": "Bodrum İlçe Stadı",
+			"address": "Marsmabedi Caddesi",
+			"city": "Bodrum",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 37.040556,
+			"lng": 27.431667,
+			"x": 92,
+			"y": 631,
+			"wiki": "https://de.wikipedia.org/wiki/Bodrum_%C4%B0l%C3%A7e_Stadyumu"
+		},
+		"league": {
+			"api_football_id": 204,
+			"name": "1. Lig",
+			"country": "Türkiye",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2385_001.jpg",
+				"source": "https://spor264.com.tr/sites/597/uploads/2022/01/26/60bf86c5ae298bfafb1e17fd-1643179031.jpg?",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2385_002.jpg",
+				"source": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2024/8/bodrum-stadi-1jpg-JMKO4a23q0ulAAewZcZQSQ.jpg?w=900&h=900&mode=crop&scale=both",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 27
 	},
 	{
 		"team": {
 			"api_football_id": 3584,
 			"name": "Bandırmaspor",
 			"code": "BAN",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1965,
 			"wiki": "https://en.wikipedia.org/wiki/Band%C4%B1rmaspor"
 		},
@@ -1837,94 +1789,14 @@
 				"size": 0
 			}
 		],
-		"no": 29
-	},
-	{
-		"team": {
-			"api_football_id": 3589,
-			"name": "Fatih Karagümrük",
-			"code": "KAR",
-			"country": "Türkiye",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/Fatih_Karag%C3%BCmr%C3%BCk_S.K."
-		},
-		"venue": {
-			"api_football_id": 1968,
-			"name": "Atatürk Olimpiyat Stadı",
-			"address": "Atatürk Olimpiyat Stadı Otoparkı, İkitelli",
-			"city": "İstanbul",
-			"capacity": 76092,
-			"surface": "grass",
-			"lat": 41.074444,
-			"lng": 28.765833,
-			"x": 162,
-			"y": 360,
-			"wiki": "https://en.wikipedia.org/wiki/Atat%C3%BCrk_Olympic_Stadium"
-		},
-		"league": {
-			"api_football_id": 204,
-			"name": "1. Lig",
-			"country": "Türkiye",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "1968_001.jpg",
-				"source": "https://www.santiye.com.tr/medya/1686387561olimpiyat3.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1968_002.jpg",
-				"source": "https://yuzuncuyilgalerisi.eba.gov.tr/uploads/themes/65c39370c9f31.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1968_003.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Istanbul_Atat%C3%BCrk_Olympic_Stadium_1.jpg/1200px-Istanbul_Atat%C3%BCrk_Olympic_Stadium_1.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1968_004.jpg",
-				"source": "https://image.fanatik.com.tr/i/fanatik/75/0x0/6281bd2f45d2a05158766088.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1968_005.jpg",
-				"source": "https://imagedelivery.net/qIvImu8MgTZD-kGvW-i83w/472eea97-61cd-48e2-8e28-605a915b1100/public",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1968_006.jpg",
-				"source": "https://www.santiye.com.tr/medya/1686387567olimpiyat10.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 30
+		"no": 28
 	},
 	{
 		"team": {
 			"api_football_id": 3595,
 			"name": "Keçiörengücü",
 			"code": "KEC",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1945,
 			"wiki": "https://en.wikipedia.org/wiki/Ankara_Ke%C3%A7i%C3%B6reng%C3%BCc%C3%BC_S.K."
 		},
@@ -1965,14 +1837,14 @@
 				"size": 0
 			}
 		],
-		"no": 31
+		"no": 29
 	},
 	{
 		"team": {
 			"api_football_id": 3597,
 			"name": "Manisa BBSK",
 			"code": null,
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1994,
 			"wiki": "https://en.wikipedia.org/wiki/Manisa_F.K."
 		},
@@ -2013,14 +1885,14 @@
 				"size": 0
 			}
 		],
-		"no": 32
+		"no": 30
 	},
 	{
 		"team": {
 			"api_football_id": 3601,
 			"name": "Pendikspor",
 			"code": "PEN",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1950,
 			"wiki": "https://en.wikipedia.org/wiki/Pendikspor"
 		},
@@ -2069,14 +1941,14 @@
 				"size": 0
 			}
 		],
-		"no": 33
+		"no": 31
 	},
 	{
 		"team": {
 			"api_football_id": 3602,
 			"name": "Sakaryaspor",
 			"code": "SAK",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1965,
 			"wiki": "https://en.wikipedia.org/wiki/Sakaryaspor"
 		},
@@ -2133,29 +2005,29 @@
 				"size": 0
 			}
 		],
-		"no": 34
+		"no": 32
 	},
 	{
 		"team": {
-			"api_football_id": 3613,
-			"name": "Şanlıurfaspor",
-			"code": "SAN",
-			"country": "Türkiye",
-			"founded": 1969,
-			"wiki": "https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfaspor"
+			"api_football_id": 3605,
+			"name": "Sarıyer",
+			"code": "SAR",
+			"country": "Turkey",
+			"founded": 1940,
+			"wiki": "https://en.wikipedia.org/wiki/Sar%C4%B1yer_S.K."
 		},
 		"venue": {
-			"api_football_id": 20477,
-			"name": "Şanlıurfa 11 Nisan Stadyumu",
-			"address": "Mevlana Caddesi",
-			"city": "Şanlıurfa",
-			"capacity": 28965,
+			"api_football_id": 4795,
+			"name": "Maltepe Hasan Polat Stadı",
+			"address": "Istasyon Caddesi / Yalı Mah. Şehit Nedim Özpolat Sokak, Maltepe",
+			"city": "İstanbul",
+			"capacity": 4600,
 			"surface": "grass",
-			"lat": 37.147778,
-			"lng": 38.806667,
-			"x": 686,
-			"y": 624,
-			"wiki": "https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfa_11_Nisan_Stadium"
+			"lat": 41.1725,
+			"lng": 29.0503,
+			"x": 0,
+			"y": 0,
+			"wiki": "https://en.wikipedia.org/wiki/Yusuf_Ziya_%C3%96ni%C5%9F_Stadium"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -2165,46 +2037,102 @@
 		},
 		"images": [
 			{
-				"name": "20477_001.jpg",
-				"source": "https://static.daktilo.com/sites/1278/uploads/2023/11/21/0.jpeg",
+				"name": "3605_001.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/tur/maltepe_stadyumu/maltepe_stadyumu05.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20477_002.jpg",
-				"source": "https://andirinpostasi.net/wp-content/uploads/2024/04/11-nisan-stadyumundaki-hazirliklarin-sonuna-gelindi_66114e2405f2b-scaled.jpg",
+				"name": "3605_002.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/tur/maltepe_stadyumu/maltepe_stadyumu02.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20477_003.jpg",
-				"source": "https://pbs.twimg.com/media/GHrgwAhWUAAqnfB.jpg:large",
+				"name": "3605_003.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/tur/maltepe_stadyumu/maltepe_stadyumu01.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "20477_004.jpg",
-				"source": "https://urfanatikcom.teimg.com/crop/1280x720/urfanatik-com/sites/2024/09/02/11-nisan-stadyumu.webp",
+				"name": "3605_004.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/tur/maltepe_stadyumu/maltepe_stadyumu03.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 35
+		"no": 33
+	},
+	{
+		"team": {
+			"api_football_id": 6342,
+			"name": "Van BB",
+			"code": "VAN",
+			"country": "Turkey",
+			"founded": 1982,
+			"wiki": "https://en.wikipedia.org/wiki/Vanspor_F.K."
+		},
+		"venue": {
+			"api_football_id": 4689,
+			"name": "Atatürk Şehir Stadyumu",
+			"address": "Ipek Yolu Caddesi",
+			"city": "Van",
+			"capacity": 11500,
+			"surface": "grass",
+			"lat": 38.496111,
+			"lng": 43.373056,
+			"x": 0,
+			"y": 0,
+			"wiki": "https://tr.wikipedia.org/wiki/Van_Atat%C3%BCrk_Stadyumu"
+		},
+		"league": {
+			"api_football_id": 204,
+			"name": "1. Lig",
+			"country": "Türkiye",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "4689_001.jpg",
+				"source": "https://pbs.twimg.com/media/EEgP37wXsAAwLbJ.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4689_002.jpg",
+				"source": "https://pbs.twimg.com/media/GYEvFyEW4AEKyEA.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4689_003.jpg",
+				"source": "https://gundemvancom.teimg.com/crop/1280x720/gundemvan-com/uploads/2025/07/stad-2.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 34
 	},
 	{
 		"team": {
 			"api_football_id": 6343,
 			"name": "Yeni Çorumspor",
 			"code": "COR",
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1997,
 			"wiki": "https://en.wikipedia.org/wiki/%C3%87orum_F.K."
 		},
@@ -2261,14 +2189,14 @@
 				"size": 0
 			}
 		],
-		"no": 36
+		"no": 35
 	},
 	{
 		"team": {
 			"api_football_id": 7402,
 			"name": "Erokspor",
 			"code": null,
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 1959,
 			"wiki": "https://en.wikipedia.org/wiki/Esenler_Erokspor"
 		},
@@ -2309,29 +2237,29 @@
 				"size": 0
 			}
 		],
-		"no": 37
+		"no": 36
 	},
 	{
 		"team": {
-			"api_football_id": 7411,
-			"name": "Kocaelispor",
-			"code": "KOC",
-			"country": "Türkiye",
-			"founded": 1966,
-			"wiki": "https://en.wikipedia.org/wiki/Kocaelispor"
+			"api_football_id": 7421,
+			"name": "Serik Belediyespor",
+			"code": null,
+			"country": "Turkey",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Serikspor"
 		},
 		"venue": {
-			"api_football_id": 20309,
-			"name": "Yıldız Entegre Kocaeli Stadyumu",
-			"address": "Turnaoğlu Caddesi",
-			"city": "Kocaeli",
-			"capacity": 35000,
+			"api_football_id": 5405,
+			"name": "İsmail Ogan Stadyumu",
+			"address": "4177 Sokak, Akçaalan",
+			"city": "Serik",
+			"capacity": 3000,
 			"surface": "grass",
-			"lat": 40.774722,
-			"lng": 30.0175,
-			"x": 227,
-			"y": 381,
-			"wiki": "https://en.wikipedia.org/wiki/Kocaeli_Stadium"
+			"lat": 36.902285,
+			"lng": 31.116690,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 204,
@@ -2341,46 +2269,22 @@
 		},
 		"images": [
 			{
-				"name": "20309_001.jpg",
-				"source": "https://pbs.twimg.com/media/GAVKyatWkAAd8QO.jpg:large",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20309_002.jpg",
-				"source": "https://static.daktilo.com/sites/535/uploads/2024/07/30/kapilarini-aciyor-1723515899.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20309_003.jpg",
-				"source": "https://imageprod.passo.com.tr/venue/03112022135308-kocaeli_arena.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20309_004.jpg",
-				"source": "https://static.daktilo.com/sites/296/uploads/2024/10/09/whatsapp-image-2024-10-09-at-1725381693.webp",
+				"name": "5405_001.jpg",
+				"source": "https://pbs.twimg.com/media/GeR3lGvWUAAAOuW?format=jpg&name=large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 38
+		"no": 37
 	},
 	{
 		"team": {
 			"api_football_id": 17259,
 			"name": "76 Iğdır Belediyespor",
 			"code": null,
-			"country": "Türkiye",
+			"country": "Turkey",
 			"founded": 2016,
 			"wiki": "https://en.wikipedia.org/wiki/I%C4%9Fd%C4%B1r_F.K."
 		},
@@ -2395,7 +2299,7 @@
 			"lng": 0,
 			"x": -1340,
 			"y": 2710,
-			"wiki": ""
+			"wiki": "https://de.wikipedia.org/wiki/I%C4%9Fd%C4%B1r_%C5%9Eehir_Stadyumu"
 		},
 		"league": {
 			"api_football_id": 204,
@@ -2404,7 +2308,243 @@
 			"api_football_country_id": 0
 		},
 		"images": [],
+		"no": 38
+	},
+	{
+		"team": {
+			"api_football_id": 999,
+			"name": "Yeni Malatyaspor",
+			"code": "MAL",
+			"country": "Türkiye",
+			"founded": 1986,
+			"wiki": "https://en.wikipedia.org/wiki/Yeni_Malatyaspor"
+		},
+		"venue": {
+			"api_football_id": 1588,
+			"name": "Yeni Malatya Stadyumu",
+			"address": "Bulgurlu Mahallesi",
+			"city": "Malatya",
+			"capacity": 27044,
+			"surface": "grass",
+			"lat": 38.337222,
+			"lng": 38.445833,
+			"x": 667,
+			"y": 546,
+			"wiki": "https://en.wikipedia.org/wiki/New_Malatya_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "1588_001.jpg",
+				"source": "https://stadiumdb.com/img/news/2018/01/25mala3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1588_002.jpg",
+				"source": "https://i.sondakika23.com/c/80/1280x720/s/dosya/haber/2017-08-29-inonu-stadi-devre-disi-malatya-stadyumu-bu-kez-acilacak.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1588_003.jpg",
+				"source": "https://i.malatyanethaber.com.tr/c/100/1682x1262/s/dosya/haber/galeriler/1220x686/62f6d019-29d3-4d7c-b293-2aaee8281a0e_1732014990_7xwcZm.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1588_004.jpg",
+				"source": "https://pbs.twimg.com/ext_tw_video_thumb/1815881645498494976/pu/img/U1TaI10qbFw_2YwN.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 39
+	},
+	{
+		"team": {
+			"api_football_id": 1010,
+			"name": "Ankaragucu",
+			"code": "ANK",
+			"country": "Türkiye",
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/MKE_Ankarag%C3%BCc%C3%BC"
+		},
+		"venue": {
+			"api_football_id": 2378,
+			"name": "Eryaman Stadyumu",
+			"address": "Devlet Mah., 232. Sk. No:7, Tunahan Mahallesi, Etimesgut",
+			"city": "Ankara",
+			"capacity": 20560,
+			"surface": "grass",
+			"lat": 39.980278,
+			"lng": 32.613889,
+			"x": 363,
+			"y": 435,
+			"wiki": "https://en.wikipedia.org/wiki/Eryaman_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "2378_001.jpg",
+				"source": "https://karabukbilisim.com.tr/wp-content/uploads/2023/04/eryaman.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2378_002.jpg",
+				"source": "https://image.fanatik.com.tr/i/fanatik/75/1200x695/6281bb2045d2a05158764173.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2378_003.jpg",
+				"source": "https://pbs.twimg.com/media/FxXqNNeWwAEOXZn?format=jpg&name=large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2378_004.jpg",
+				"source": "https://imageprod.passo.com.tr/venue/25082022183524-5.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 40
+	},
+	{
+		"team": {
+			"api_football_id": 3564,
+			"name": "Adanaspor",
+			"code": "ADA",
+			"country": "Türkiye",
+			"founded": 1954,
+			"wiki": "https://en.wikipedia.org/wiki/Adanaspor"
+		},
+		"venue": {
+			"api_football_id": 11924,
+			"name": "Yeni Adana Stadyumu",
+			"address": "Çarkıpare, Sarıçam",
+			"city": "Adana",
+			"capacity": 33543,
+			"surface": "grass",
+			"lat": 37.063333,
+			"lng": 35.375,
+			"x": 507,
+			"y": 629,
+			"wiki": "https://en.wikipedia.org/wiki/New_Adana_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "11924_001.jpg",
+				"source": "https://wowturkey.net/dosyalar/737af3374e82a2865ed2bd955054996c-jpg.2384/",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11924_002.jpg",
+				"source": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1522000/adana-stat-aa-1523315.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11924_003.jpg",
+				"source": "https://image.fanatik.com.tr/i/fanatik/75/0x0/6281bd8445d2a05158766642.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11924_004.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpC_fXWJ51ag5ZLwpOgio7bTPWJo2Bl_vzGJLP12mQd0IL0c4KEnmeW94WFJTFalU4oKWg_octB6-CZKqGRr5KuPJYNkfSbNV9_fCHMlceApWmB0purCetbFtyt3f85CP4FR3Te2NYVQ/s00/Yeni+Adana+Stad%25C4%25B1.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 41
+	},
+	{
+		"team": {
+			"api_football_id": 3613,
+			"name": "Şanlıurfaspor",
+			"code": "SAN",
+			"country": "Türkiye",
+			"founded": 1969,
+			"wiki": "https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfaspor"
+		},
+		"venue": {
+			"api_football_id": 20477,
+			"name": "Şanlıurfa 11 Nisan Stadyumu",
+			"address": "Mevlana Caddesi",
+			"city": "Şanlıurfa",
+			"capacity": 28965,
+			"surface": "grass",
+			"lat": 37.147778,
+			"lng": 38.806667,
+			"x": 686,
+			"y": 624,
+			"wiki": "https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfa_11_Nisan_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "20477_001.jpg",
+				"source": "https://static.daktilo.com/sites/1278/uploads/2023/11/21/0.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20477_002.jpg",
+				"source": "https://andirinpostasi.net/wp-content/uploads/2024/04/11-nisan-stadyumundaki-hazirliklarin-sonuna-gelindi_66114e2405f2b-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20477_003.jpg",
+				"source": "https://pbs.twimg.com/media/GHrgwAhWUAAqnfB.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20477_004.jpg",
+				"source": "https://urfanatikcom.teimg.com/crop/1280x720/urfanatik-com/sites/2024/09/02/11-nisan-stadyumu.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 42
 	},
 	{
 		"team": {
@@ -2463,7 +2603,7 @@
 				"size": 0
 			}
 		],
-		"no": 40
+		"no": 43
 	},
 	{
 		"team": {
@@ -2522,7 +2662,7 @@
 				"size": 0
 			}
 		],
-		"no": 41
+		"no": 44
 	},
 	{
 		"team": {
@@ -2565,6 +2705,6 @@
 				"size": 0
 			}
 		],
-		"no": 42
+		"no": 45
 	}
 ]

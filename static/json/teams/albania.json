@@ -5,7 +5,8 @@
 			"name": "Skenderbeu Korce",
 			"code": "SKE",
 			"country": "Albania",
-			"founded": 1909
+			"founded": 1909,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Sk%C3%ABnderbeu_Kor%C3%A7%C3%AB"
 		},
 		"venue": {
 			"api_football_id": 2155,
@@ -31,7 +32,15 @@
 		"images": [
 			{
 				"name": "2155_001.jpg",
-				"source": "",
+				"source": "https://www.tipsbetting.co.uk/wp-content/uploads/2017/10/Skenderbeu-Stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2155_002.jpg",
+				"source": "https://live.staticflickr.com/8310/7982356755_2d35137c15_b.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -46,7 +55,8 @@
 			"name": "Tirana",
 			"code": "TIR",
 			"country": "Albania",
-			"founded": 1920
+			"founded": 1920,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Tirana"
 		},
 		"venue": {
 			"api_football_id": 4,
@@ -72,7 +82,31 @@
 		"images": [
 			{
 				"name": "4_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Selman_St%C3%ABrmasi_Stadium_%2810%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4_002.jpg",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/81/08/35/caption.jpg?w=1200&h=1200&s=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4_003.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/alb/stadiumi_selman_stermasi/stadiumi_selman_stermasi01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4_004.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/alb/stadiumi_selman_stermasi/stadiumi_selman_stermasi03.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -87,7 +121,8 @@
 			"name": "Partizani",
 			"code": "PAR",
 			"country": "Albania",
-			"founded": 1946
+			"founded": 1946,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Partizani_Tirana"
 		},
 		"venue": {
 			"api_football_id": 19776,
@@ -111,7 +146,7 @@
 		"images": [
 			{
 				"name": "19776_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Partizani_Complex.jpg/1200px-Partizani_Complex.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -126,7 +161,8 @@
 			"name": "Laci",
 			"code": "LAC",
 			"country": "Albania",
-			"founded": 1965
+			"founded": 1965,
+			"wiki": "https://en.wikipedia.org/wiki/KF_La%C3%A7i"
 		},
 		"venue": {
 			"api_football_id": 3,
@@ -150,7 +186,7 @@
 		"images": [
 			{
 				"name": "3_001.jpg",
-				"source": "",
+				"source": "https://activeplanet.com/en/assets/active_cyprus/files/manager_files/sport_objects/14623/lacistadium1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -165,7 +201,8 @@
 			"name": "Teuta Durrës",
 			"code": "TEU",
 			"country": "Albania",
-			"founded": 1925
+			"founded": 1925,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Teuta"
 		},
 		"venue": {
 			"api_football_id": 2159,
@@ -189,7 +226,23 @@
 		"images": [
 			{
 				"name": "2159_001.jpg",
-				"source": "",
+				"source": "https://fshf.org/wp-content/uploads/2022/03/EB6A6989-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2159_002.jpg",
+				"source": "https://pbs.twimg.com/media/Gr534ggXkAAWHDb?format=jpg&name=large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2159_003.jpg",
+				"source": "https://pbs.twimg.com/media/GFb2mMgWIAA_WFW.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -204,7 +257,8 @@
 			"name": "Bylis",
 			"code": "BYL",
 			"country": "Albania",
-			"founded": 1972
+			"founded": 1972,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Bylis"
 		},
 		"venue": {
 			"api_football_id": 2164,
@@ -228,7 +282,15 @@
 		"images": [
 			{
 				"name": "2164_001.jpg",
-				"source": "",
+				"source": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s5b1bb767ef4b489f/image/i6898a8e4c61b4f48/version/1714465692/image.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2164_002.jpg",
+				"source": "https://www.shkodrasport.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-29-at-3.06.16-PM.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -243,7 +305,8 @@
 			"name": "Dinamo Tirana",
 			"code": "DIN",
 			"country": "Albania",
-			"founded": 1950
+			"founded": 1950,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Dinamo_City"
 		},
 		"venue": {
 			"api_football_id": 2,
@@ -267,7 +330,31 @@
 		"images": [
 			{
 				"name": "2_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/CHY9cUEUAAA4QyO.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2_002.jpg",
+				"source": "https://activeplanet.com/en/assets/active_cyprus/files/manager_files/sport_objects/14615/elbasanarena3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2_003.jpg",
+				"source": "https://fshf.org/wp-content/uploads/2014/10/0X1E0483.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2_004.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg03yxizIaagc3qMy4jsc0ofxNnSBqZhc6hIZnRg2LJWXZpnwHG4ntvy4eHkxWXbLgoLWth6hyN8HH5TiAe-fgFXdouHnJEsGVrtdCv1UaGmeIOc9TGhZSqkC_imINqezAqAWuYvxaXAL8/s1600/Elbasan+Arena2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -282,7 +369,8 @@
 			"name": "Egnatia Rrogozhinë",
 			"code": null,
 			"country": "Albania",
-			"founded": 1964
+			"founded": 1964,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Egnatia_Rrogozhin%C3%AB"
 		},
 		"venue": {
 			"api_football_id": 12601,
@@ -306,7 +394,23 @@
 		"images": [
 			{
 				"name": "12601_001.jpg",
-				"source": "",
+				"source": "https://fshf.org/wp-content/uploads/2025/04/DJI_0190_Original-scaled.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12601_002.jpg",
+				"source": "https://fshf.org/wp-content/uploads/2025/04/DJI_0195_Original-scaled.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12601_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Egnatia_Arena_2025_Field.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -321,7 +425,8 @@
 			"name": "Vllaznia Shkodër",
 			"code": "VLL",
 			"country": "Albania",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Vllaznia_Shkod%C3%ABr"
 		},
 		"venue": {
 			"api_football_id": 1966,
@@ -345,7 +450,31 @@
 		"images": [
 			{
 				"name": "1966_001.jpg",
-				"source": "",
+				"source": "https://fshf.org/wp-content/uploads/2016/09/inagurimi.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1966_002.jpg",
+				"source": "https://gazetasi.al/wp-content/uploads/2019/03/loro-borici-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1966_003.jpg",
+				"source": "https://imgur.com/WRpTuh4",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1966_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/5/58/Loro-Borici-Stadion.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -360,7 +489,8 @@
 			"name": "AF Elbasani",
 			"code": null,
 			"country": "Albania",
-			"founded": 2021
+			"founded": 2021,
+			"wiki": "https://en.wikipedia.org/wiki/AF_Elbasani"
 		},
 		"venue": {
 			"api_football_id": 2,
@@ -384,7 +514,31 @@
 		"images": [
 			{
 				"name": "2_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/CHY9cUEUAAA4QyO.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2_002.jpg",
+				"source": "https://activeplanet.com/en/assets/active_cyprus/files/manager_files/sport_objects/14615/elbasanarena3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2_003.jpg",
+				"source": "https://fshf.org/wp-content/uploads/2014/10/0X1E0483.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2_004.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg03yxizIaagc3qMy4jsc0ofxNnSBqZhc6hIZnRg2LJWXZpnwHG4ntvy4eHkxWXbLgoLWth6hyN8HH5TiAe-fgFXdouHnJEsGVrtdCv1UaGmeIOc9TGhZSqkC_imINqezAqAWuYvxaXAL8/s1600/Elbasan+Arena2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -399,7 +553,8 @@
 			"name": "FK Kukesi",
 			"code": "KUK",
 			"country": "Albania",
-			"founded": 1930
+			"founded": 1930,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Kuk%C3%ABsi"
 		},
 		"venue": {
 			"api_football_id": 19194,
@@ -423,7 +578,31 @@
 		"images": [
 			{
 				"name": "19194_001.jpg",
-				"source": "",
+				"source": "https://fshf.org/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-18-at-16.35.52.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19194_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Kuk%C3%ABs_Arena_2023.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19194_003.jpg",
+				"source": "https://fshf.org/wp-content/uploads/2022/04/F3EA3D6D-B189-4A47-8C78-F39C9A29FAC9.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19194_004.jpg",
+				"source": "https://activeplanet.com/en/assets/active_cyprus/files/manager_files/sport_objects/14609/kukesarena6.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -438,7 +617,8 @@
 			"name": "Flamurtari",
 			"code": "FLA",
 			"country": "Albania",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/Flamurtari_FC"
 		},
 		"venue": {
 			"api_football_id": 2156,
@@ -462,7 +642,23 @@
 		"images": [
 			{
 				"name": "2156_001.jpg",
-				"source": "",
+				"source": "https://vagabundler.com/wp-content/uploads/2019/11/DSC00476-Copy-2000x1200.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2156_002.jpg",
+				"source": "https://telegrafi.com/wp-content/uploads/2023/09/Flamurtari.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2156_003.jpg",
+				"source": "https://stadiumdb.com/img/news/2018/10/30alba3.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -477,7 +673,8 @@
 			"name": "Kastrioti Krujë",
 			"code": "KAS",
 			"country": "Albania",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/KS_Kastrioti"
 		},
 		"venue": {
 			"api_football_id": 2158,
@@ -501,7 +698,15 @@
 		"images": [
 			{
 				"name": "2158_001.jpg",
-				"source": "",
+				"source": "https://www.panorama.com.al/sport/wp-content/uploads/2023/05/stadiumi-kastrioti.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2158_002.jpg",
+				"source": "https://pbs.twimg.com/media/F-pV5hjXEAACARS.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -516,7 +721,8 @@
 			"name": "Apolonia Fier",
 			"code": "APO",
 			"country": "Albania",
-			"founded": 1925
+			"founded": 1925,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Apolonia_Fier"
 		},
 		"venue": {
 			"api_football_id": 2160,
@@ -540,7 +746,15 @@
 		"images": [
 			{
 				"name": "2160_001.jpg",
-				"source": "",
+				"source": "https://www.hellasod.gr/uploads/photos/D1366/2019/12/img-20191021-074946_7205.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2160_002.jpg",
+				"source": "https://soylugrup.com/wp-content/uploads/2021/01/WhatsApp-Image-2020-12-28-at-18.55.37-3.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -555,7 +769,8 @@
 			"name": "Besa Kavajë",
 			"code": "BES",
 			"country": "Albania",
-			"founded": 1925
+			"founded": 1925,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Besa_Kavaj%C3%AB"
 		},
 		"venue": {
 			"api_football_id": 12390,
@@ -579,7 +794,23 @@
 		"images": [
 			{
 				"name": "12390_001.jpg",
-				"source": "",
+				"source": "https://fshf.org/wp-content/uploads/2025/04/stadiumi-i-luzit.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12390_002.jpg",
+				"source": "https://fshf.org/wp-content/uploads/2023/02/stadiumi_luzi_2008_investimi_fshf_fusha_shkurt_2023_3-2048x1364.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12390_003.jpg",
+				"source": "https://fshf.org/wp-content/uploads/2023/02/stadiumi_luzi_2008_investimi_fshf_fusha_shkurt_2023_1-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -594,7 +825,8 @@
 			"name": "Burreli",
 			"code": "BUR",
 			"country": "Albania",
-			"founded": 1952
+			"founded": 1952,
+			"wiki": "https://en.wikipedia.org/wiki/KS_Burreli"
 		},
 		"venue": {
 			"api_football_id": 2163,
@@ -618,7 +850,15 @@
 		"images": [
 			{
 				"name": "2163_001.jpg",
-				"source": "",
+				"source": "https://bashkiamat.gov.al/wp-content/uploads/2019/08/68690445_510570113092232_6788086053438750720_n.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2163_002.jpg",
+				"source": "https://r2.thesportsdb.com/images/media/venue/thumb/gs70uz1720716811.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -633,7 +873,8 @@
 			"name": "Erzeni Shijak",
 			"code": null,
 			"country": "Albania",
-			"founded": 1931
+			"founded": 1931,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Erzeni_Shijak"
 		},
 		"venue": {
 			"api_football_id": 2167,
@@ -657,7 +898,15 @@
 		"images": [
 			{
 				"name": "2167_001.jpg",
-				"source": "",
+				"source": "https://i.ytimg.com/vi/fj62BjvUH98/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2167_002.jpg",
+				"source": "https://fshf.org/wp-content/uploads/2025/04/tofik-jashari-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -672,7 +921,8 @@
 			"name": "Korabi Peshkopi",
 			"code": null,
 			"country": "Albania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Korabi_Peshkopi"
 		},
 		"venue": {
 			"api_football_id": 2168,
@@ -696,7 +946,7 @@
 		"images": [
 			{
 				"name": "2168_001.jpg",
-				"source": "",
+				"source": "https://sportiim.al/wp-content/uploads/2021/12/korabi-1-bore.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -711,7 +961,8 @@
 			"name": "Lushnja",
 			"code": "LUS",
 			"country": "Albania",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/KS_Lushnja"
 		},
 		"venue": {
 			"api_football_id": 2169,
@@ -735,7 +986,23 @@
 		"images": [
 			{
 				"name": "2169_001.jpg",
-				"source": "",
+				"source": "https://fshf.org/wp-content/uploads/2025/05/Roza-Haxhiu.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2169_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Stadiumi_Lushnjes_%E2%80%9CA.Roza_Haxhiu%E2%80%9D.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2169_003.jpg",
+				"source": "https://pbs.twimg.com/media/GZbcZOjWEAAS6iL.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -750,7 +1017,8 @@
 			"name": "Pogradeci",
 			"code": "POG",
 			"country": "Albania",
-			"founded": 1930
+			"founded": 1930,
+			"wiki": "https://en.wikipedia.org/wiki/KS_Pogradeci"
 		},
 		"venue": {
 			"api_football_id": 2171,
@@ -774,7 +1042,15 @@
 		"images": [
 			{
 				"name": "2171_001.jpg",
-				"source": "",
+				"source": "https://www.stadionautist.nl/sites/stadionautist.cinnamontest.nl/files/styles/volle_breedte/public/images/Gjorgji%20Ky%C3%A7yku%20Stadium%20-%20KS%20Pogradeci%20%2820%29.JPG?itok=mk-Inefl",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2171_002.jpg",
+				"source": "https://www.stadionautist.nl/sites/stadionautist.cinnamontest.nl/files/styles/volle_breedte/public/images/Gjorgji%20Ky%C3%A7yku%20Stadium%20-%20KS%20Pogradeci%20%284%29.JPG?itok=ZJDQzDOl",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -789,7 +1065,8 @@
 			"name": "Vora",
 			"code": null,
 			"country": "Albania",
-			"founded": 2011
+			"founded": 2011,
+			"wiki": "https://en.wikipedia.org/wiki/Vora_FK"
 		},
 		"venue": {
 			"api_football_id": 20286,
@@ -813,7 +1090,7 @@
 		"images": [
 			{
 				"name": "20286_001.jpg",
-				"source": "",
+				"source": "https://fshf.org/wp-content/uploads/2022/11/DJI_0034-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -828,7 +1105,8 @@
 			"name": "Valbona",
 			"code": null,
 			"country": "Albania",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Valbona"
 		},
 		"venue": {
 			"api_football_id": 20288,
@@ -852,15 +1130,7 @@
 		"images": [
 			{
 				"name": "20288_001.jpg",
-				"source": "https://www.panorama.com.al/sport/wp-content/uploads/2019/07/Stadiumi.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20288_002.jpg",
-				"source": "https://www.panorama.com.al/sport/wp-content/uploads/2019/07/Stadiumi-Tropoje.jpg",
+				"source": "https://static.wikia.nocookie.net/dxs/images/5/5c/Stadiumi_i_Kf_Kuksi.JPG/revision/latest?cb=20231230221842",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -875,7 +1145,8 @@
 			"name": "Iliria Fushë-Krujë",
 			"code": "ILI",
 			"country": "Albania",
-			"founded": 1991
+			"founded": 1991,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Iliria_Fush%C3%AB-Kruj%C3%AB"
 		},
 		"venue": {
 			"api_football_id": 2158,
@@ -894,7 +1165,15 @@
 		"images": [
 			{
 				"name": "2158_001.jpg",
-				"source": "",
+				"source": "https://www.panorama.com.al/sport/wp-content/uploads/2023/05/stadiumi-kastrioti.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2158_002.jpg",
+				"source": "https://pbs.twimg.com/media/F-pV5hjXEAACARS.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -909,7 +1188,8 @@
 			"name": "Tomori Berat",
 			"code": "BER",
 			"country": "Albania",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Tomori_Berat"
 		},
 		"venue": {
 			"api_football_id": 2173,
@@ -928,7 +1208,15 @@
 		"images": [
 			{
 				"name": "2173_001.jpg",
-				"source": "",
+				"source": "https://albanopedia.com/wp-content/uploads/2020/06/tomorri-stadiumi.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2173_002.jpg",
+				"source": "https://www.europlan-online.de/files/493efa24ae9d05480d9513228858c642.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -943,7 +1231,8 @@
 			"name": "Luzi 2008",
 			"code": null,
 			"country": "Albania",
-			"founded": 2008
+			"founded": 2008,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Luzi_i_Vog%C3%ABl_2008"
 		},
 		"venue": {
 			"api_football_id": 12390,
@@ -962,7 +1251,23 @@
 		"images": [
 			{
 				"name": "12390_001.jpg",
-				"source": "",
+				"source": "https://fshf.org/wp-content/uploads/2025/04/stadiumi-i-luzit.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12390_002.jpg",
+				"source": "https://fshf.org/wp-content/uploads/2023/02/stadiumi_luzi_2008_investimi_fshf_fusha_shkurt_2023_3-2048x1364.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12390_003.jpg",
+				"source": "https://fshf.org/wp-content/uploads/2023/02/stadiumi_luzi_2008_investimi_fshf_fusha_shkurt_2023_1-scaled.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -977,7 +1282,8 @@
 			"name": "Luftëtari",
 			"code": null,
 			"country": "Albania",
-			"founded": 2020
+			"founded": 2020,
+			"wiki": "https://en.wikipedia.org/wiki/Luft%C3%ABtari_FC"
 		},
 		"venue": {
 			"api_football_id": 1,
@@ -996,7 +1302,23 @@
 		"images": [
 			{
 				"name": "1_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Gjirokaster_view_from_the_city_castle.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1_002.jpg",
+				"source": "https://pbs.twimg.com/media/FaOEeRJX0AEusM5.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Gjirokastra_Stadium%2C_September_2022_03.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
