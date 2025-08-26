@@ -42,9 +42,9 @@
 
 <div class="app">
     <header>
-        <div class="row justify-content-center align-center my-2">
+        <div class="row justify-content-center align-center my-2" style="overflow-x: hidden;">
             <div class="col-5 col-lg-5 border-1">
-                <h2 class="text-right pr-3">eurostadium.net</h2>
+                <h2 class="text-right pr-3 slide-from-left">eurostadium.net</h2>
             </div>
             <div class="col-2 col-lg-2 border-2">
                 <img
@@ -55,7 +55,7 @@
                 />
             </div>
             <div class="col-5 col-lg-5 border-3">
-                <h2 class="text-left pl-3">Football stadiums <br />across Europe</h2>
+                <h2 class="text-left pl-3 slide-from-right">Football stadiums <br />across Europe</h2>
             </div>
         </div>
     </header>
@@ -120,6 +120,30 @@
         min-height: 100vh;
         margin: 0;
         position: relative;
+    }
+    .slide-from-left {
+        -webkit-animation: slide-from-left 1.5s ease-in-out;
+        animation: slide-from-left 1.5s ease-in-out;
+    }
+    .slide-from-right {
+        -webkit-animation: slide-from-right 1.5s ease-in-out;
+        animation: slide-from-right 1.5s ease-in-out;
+    }
+    @keyframes slide-from-left {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+    @keyframes slide-from-right {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(0);
+        }
     }
     @media only screen and (max-width: 600px) {
         .main {

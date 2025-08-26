@@ -95,11 +95,13 @@
     >
         <div class="col-6 text-center border-0">
             <div class="box mr-1">
-                <p>
-                    <img src="/images/icons/country.svg" height="30" alt="Country" />
-                </p>
-                <h2 class="my-2" id="country-sm">0</h2>
-                <p style="font-size: 1.3em;">countries</p>
+                <a href="/countries">
+                    <p>
+                        <img src="/images/icons/country.svg" height="30" alt="Country" />
+                    </p>
+                    <h2 class="my-2" id="country-sm">0</h2>
+                    <p style="font-size: 1.3em;">countries</p>
+                </a>
             </div>
         </div>
         <div class="col-6 text-center border-0">
@@ -135,13 +137,13 @@
 <div class="row hidden-sm-and-down my-5" style="justify-content: space-between;">
     <div class="col-sm-6 col-md-3 text-center" style="">
         <div class="box mr-2">
-            <p>
-                <img src="/images/icons/country.svg" height="30" alt="Country" />
-            </p>
-            <h2 class="my-2" id="country">0</h2>
-            <p style="font-size: 1.3em;">countries</p>
-            <!-- <button on:click={startCount}>Start Count</button>
-            <h1>{Math.round($count)}</h1> -->
+            <a href="/countries">
+                <p>
+                    <img src="/images/icons/country.svg" height="30" alt="Country" />
+                </p>
+                <h2 class="my-2" id="country">50</h2>
+                <p style="font-size: 1.3em;">countries</p>
+            </a>
         </div>
     </div>
     <div class="col-sm-6 col-md-3 text-center">
@@ -167,6 +169,14 @@
             </p>
             <h2 class="my-2" id="stadium">690</h2>
             <p style="font-size: 1.3em;">stadiums</p>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3 text-center">
+        <div class="counter">
+            <div class="counter-icon">🚀</div>
+            <div class="modern-counter" style="--value: 1250;"></div>
+            <div class="fallback-counter" style="--value-text: '1250';"></div>
+            <div class="counter-title">Projects Completed</div>
         </div>
     </div>
 </div>

@@ -20,12 +20,7 @@
 			"y": 709,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_pod_Bijelim_Brijegom"
 		},
-		"league": {
-			"api_football_id": 315,
-			"name": "Premijer Liga",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "202_001.jpg",
@@ -59,12 +54,7 @@
 			"y": 697,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Pecara"
 		},
-		"league": {
-			"api_football_id": 315,
-			"name": "Premijer Liga",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "200_001.jpg",
@@ -98,12 +88,7 @@
 			"y": 532,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Grbavica"
 		},
-		"league": {
-			"api_football_id": 315,
-			"name": "Premijer Liga",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2185_001.jpg",
@@ -137,12 +122,7 @@
 			"y": 523,
 			"wiki": "https://en.wikipedia.org/wiki/Ko%C5%A1evo_City_Stadium"
 		},
-		"league": {
-			"api_football_id": 315,
-			"name": "Premijer Liga",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "199_001.jpg",
@@ -176,12 +156,7 @@
 			"y": 808,
 			"wiki": "https://en.wikipedia.org/wiki/Stadium_Perica-Pero_Pavlovi%C4%87"
 		},
-		"league": {
-			"api_football_id": 315,
-			"name": "Premijer Liga",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19942_001.jpg",
@@ -215,12 +190,7 @@
 			"y": 209,
 			"wiki": "https://en.wikipedia.org/wiki/Bijeljina_City_Stadium"
 		},
-		"league": {
-			"api_football_id": 315,
-			"name": "Premijer Liga",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2183_001.jpg",
@@ -254,12 +224,7 @@
 			"y": 285,
 			"wiki": "https://en.wikipedia.org/wiki/Tu%C5%A1anj_City_Stadium"
 		},
-		"league": {
-			"api_football_id": 315,
-			"name": "Premijer Liga",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2184_001.jpg",
@@ -293,12 +258,7 @@
 			"y": 201,
 			"wiki": "https://en.wikipedia.org/wiki/Banja_Luka_City_Stadium"
 		},
-		"league": {
-			"api_football_id": 315,
-			"name": "Premijer Liga",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2187_001.jpg",
@@ -332,12 +292,7 @@
 			"y": 599,
 			"wiki": "https://en.wikipedia.org/wiki/Konjic_City_Stadium"
 		},
-		"league": {
-			"api_football_id": 315,
-			"name": "Premijer Liga",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2190_001.jpg",
@@ -371,12 +326,7 @@
 			"y": 697,
 			"wiki": "https://hr.wikipedia.org/wiki/Stadion_Ro%C4%91eni"
 		},
-		"league": {
-			"api_football_id": 315,
-			"name": "Premijer Liga",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2200_001.jpg",
@@ -410,12 +360,7 @@
 			"y": 217,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 315,
-			"name": "Premijer Liga",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "6060_001.jpg",
@@ -449,12 +394,7 @@
 			"y": 665,
 			"wiki": "https://en.wikipedia.org/wiki/Mokri_Dolac_Stadium"
 		},
-		"league": {
-			"api_football_id": 315,
-			"name": "Premijer Liga",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "10571_001.jpg",
@@ -488,12 +428,7 @@
 			"y": 285,
 			"wiki": "https://en.wikipedia.org/wiki/Tu%C5%A1anj_City_Stadium"
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2184_001.jpg",
@@ -527,12 +462,7 @@
 			"y": 405,
 			"wiki": "https://en.wikipedia.org/wiki/Bilino_Polje_Stadium"
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2186_001.jpg",
@@ -566,12 +496,7 @@
 			"y": 594,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2189_001.jpg",
@@ -605,12 +530,7 @@
 			"y": 262,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2199_001.jpg",
@@ -644,12 +564,7 @@
 			"y": 161,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Banja_Ilid%C5%BEa_(Grada%C4%8Dac)"
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2201_001.jpg",
@@ -683,12 +598,7 @@
 			"y": 230,
 			"wiki": "https://bs.wikipedia.org/wiki/Stadion_Luke_(Gra%C4%8Danica)"
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "3270_001.jpg",
@@ -722,12 +632,7 @@
 			"y": 283,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "3280_001.jpg",
@@ -761,12 +666,7 @@
 			"y": 398,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Pirota"
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "3282_001.jpg",
@@ -800,12 +700,7 @@
 			"y": 331,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "5462_001.jpg",
@@ -839,12 +734,7 @@
 			"y": 190,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_pod_Bori%C4%87ima"
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "5463_001.jpg",
@@ -878,12 +768,7 @@
 			"y": 541,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "5464_001.jpg",
@@ -917,12 +802,7 @@
 			"y": 285,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19871_001.jpg",
@@ -956,12 +836,7 @@
 			"y": 227,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "12152_001.jpg",
@@ -995,12 +870,7 @@
 			"y": 579,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19872_001.jpg",
@@ -1034,12 +904,7 @@
 			"y": 432,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19873_001.jpg",
@@ -1073,12 +938,7 @@
 			"y": 200,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 316,
-			"name": "1st League - FBiH",
-			"country": "Bosnia and Herzegovina",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "20781_001.jpg",

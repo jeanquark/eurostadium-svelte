@@ -20,12 +20,7 @@
 			"y": 327,
 			"wiki": "https://en.wikipedia.org/wiki/Huvepharma_Arena"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "10547_001.jpg",
@@ -59,12 +54,7 @@
 			"y": 654,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Hristo_Botev_(Blagoevgrad)"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19922_001.jpg",
@@ -98,12 +88,7 @@
 			"y": 508,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Georgi_Asparuhov"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "297_001.jpg",
@@ -137,12 +122,7 @@
 			"y": 397,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Ticha"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "286_001.jpg",
@@ -176,12 +156,7 @@
 			"y": 513,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Balgarska_Armia"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "288_001.jpg",
@@ -215,12 +190,7 @@
 			"y": 514,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Aleksandar_Shalamanov"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "18616_001.jpg",
@@ -254,12 +224,7 @@
 			"y": 511,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Septemvri_(Sofia)"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "304_001.jpg",
@@ -293,12 +258,7 @@
 			"y": 567,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Beroe"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "283_001.jpg",
@@ -332,12 +292,7 @@
 			"y": 631,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Lokomotiv_(Plovdiv)"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "298_001.jpg",
@@ -371,12 +326,7 @@
 			"y": 400,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Hristo_Botev_(Vratsa)"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "285_001.jpg",
@@ -410,12 +360,7 @@
 			"y": 501,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Lokomotiv_(Sofia)"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1883_001.jpg",
@@ -449,12 +394,7 @@
 			"y": 533,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Bistritsa"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "296_001.jpg",
@@ -488,12 +428,7 @@
 			"y": 737,
 			"wiki": "https://en.wikipedia.org/wiki/Arena_Arda"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "291_001.jpg",
@@ -527,12 +462,7 @@
 			"y": 615,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Georgi_Benkovski"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "3511_001.jpg",
@@ -566,12 +496,7 @@
 			"y": 396,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Spartak_(Varna)"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "3512_001.jpg",
@@ -605,12 +530,7 @@
 			"y": 637,
 			"wiki": "https://en.wikipedia.org/wiki/Nikola_Shterev_-_Starika_Sports_Complex"
 		},
-		"league": {
-			"api_football_id": 172,
-			"name": "First League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19902_001.jpg",
@@ -644,12 +564,7 @@
 			"y": 258,
 			"wiki": "https://en.wikipedia.org/wiki/Gradski_stadion_(Ruse)"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1736_001.jpg",
@@ -683,12 +598,7 @@
 			"y": 427,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Ivaylo"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "290_001.jpg",
@@ -722,12 +632,7 @@
 			"y": 332,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1847_001.jpg",
@@ -761,12 +666,7 @@
 			"y": 516,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Nesebar"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "301_001.jpg",
@@ -800,12 +700,7 @@
 			"y": 528,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "18964_001.jpg",
@@ -839,12 +734,7 @@
 			"y": 354,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Pleven"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2669_001.jpg",
@@ -878,12 +768,7 @@
 			"y": 413,
 			"wiki": "https://en.wikipedia.org/wiki/Gradski_stadion_(Lovech)"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "299_001.jpg",
@@ -917,12 +802,7 @@
 			"y": 417,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Lokomotiv_(Gorna_Oryahovitsa)"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "293_001.jpg",
@@ -956,12 +836,7 @@
 			"y": 544,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "295_001.jpg",
@@ -995,12 +870,7 @@
 			"y": 357,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Ogosta"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "300_001.jpg",
@@ -1034,12 +904,7 @@
 			"y": 322,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Druzhba_(Dobrich)"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "289_001.jpg",
@@ -1073,12 +938,7 @@
 			"y": 630,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Hristo_Botev_(Plovdiv)"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "303_001.jpg",
@@ -1112,12 +972,7 @@
 			"y": 529,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Minyor"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4714_001.jpg",
@@ -1151,12 +1006,7 @@
 			"y": 474,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Hristo_Botev_(Gabrovo)"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "6084_001.jpg",
@@ -1190,12 +1040,7 @@
 			"y": 790,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Tsar_Samuil"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "12285_001.jpg",
@@ -1229,12 +1074,7 @@
 			"y": 601,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Bonchuk"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "6098_001.jpg",
@@ -1268,12 +1108,7 @@
 			"y": 452,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Chavdar_Tsvetkov"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "6105_001.jpg",
@@ -1307,12 +1142,7 @@
 			"y": 637,
 			"wiki": "https://en.wikipedia.org/wiki/Nikola_Shterev_-_Starika_Sports_Complex"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19902_001.jpg",
@@ -1346,12 +1176,7 @@
 			"y": 523,
 			"wiki": "https://en.wikipedia.org/wiki/Arena_Tsarsko_Selo"
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1882_001.jpg",
@@ -1385,12 +1210,7 @@
 			"y": 364,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 173,
-			"name": "Second League",
-			"country": "Bulgaria",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "20253_001.jpg",
