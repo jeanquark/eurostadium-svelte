@@ -734,7 +734,7 @@
 		"images": [
 			{
 				"name": "5648_001.jpg",
-				"source": "",
+				"source": "https://avatars.mds.yandex.net/get-altay/6145759/2a00000182fd449c415ab5215358459f577a/orig",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -774,7 +774,7 @@
 		"images": [
 			{
 				"name": "11595_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/EastStand1.JPG/1200px-EastStand1.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -814,7 +814,7 @@
 		"images": [
 			{
 				"name": "2595_001.jpg",
-				"source": "",
+				"source": "https://pictures.by.trbna.com/image/29b58d4c-ba9a-4c3c-b4ab-2d8370222ae6?width=1260&quality=70",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -854,7 +854,7 @@
 		"images": [
 			{
 				"name": "2203_001.jpg",
-				"source": "",
+				"source": "https://www.europlan-online.de/files/779762c470f83e90287b6d4959113fa8.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -894,7 +894,15 @@
 		"images": [
 			{
 				"name": "8650_001.jpg",
-				"source": "",
+				"source": "https://www.europlan-online.de/files/29eb5e8024e37da2825416b2ddd56e6d.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "8650_002.jpg",
+				"source": "https://www.europlan-online.de/files/f846806c8cdfbc4645c809420862fb46.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -934,7 +942,15 @@
 		"images": [
 			{
 				"name": "2206_001.jpg",
-				"source": "",
+				"source": "https://www.europlan-online.de/files/b6eedaccb663f4ae64a57af6917a2c26.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2206_002.jpg",
+				"source": "https://www.europlan-online.de/files/1772d6a3d405ad4330e9b915e0d85ebd.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -974,7 +990,7 @@
 		"images": [
 			{
 				"name": "2207_001.jpg",
-				"source": "",
+				"source": "https://photos.wikimapia.org/p/00/05/77/19/73_full.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1014,7 +1030,7 @@
 		"images": [
 			{
 				"name": "2208_001.jpg",
-				"source": "",
+				"source": "https://www.europlan-online.de/files/9c9b646f8dbfe7947d7bf37aa923251c.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1054,7 +1070,7 @@
 		"images": [
 			{
 				"name": "2209_001.jpg",
-				"source": "",
+				"source": "https://www.europlan-online.de/files/29f14176cbea2a8b80edf4b502365541.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1094,7 +1110,7 @@
 		"images": [
 			{
 				"name": "2211_001.jpg",
-				"source": "",
+				"source": "https://www.rowdie.co.uk/wp-content/uploads/2024/07/2211.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1134,7 +1150,7 @@
 		"images": [
 			{
 				"name": "3268_001.jpg",
-				"source": "",
+				"source": "https://www.europlan-online.de/files/8710658c154bb7beecb60696a2b3d0dc.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1205,7 +1221,7 @@
 		"images": [
 			{
 				"name": "170_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Torpedo_stadium_Zhodino_west_stand_03.jpg/1200px-Torpedo_stadium_Zhodino_west_stand_03.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1245,7 +1261,7 @@
 		"images": [
 			{
 				"name": "117_001.jpg",
-				"source": "",
+				"source": "https://www.europlan-online.de/files/7c13b96906a9de9c759b1f68a23f2b7d.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1285,7 +1301,7 @@
 		"images": [
 			{
 				"name": "8300_001.jpg",
-				"source": "",
+				"source": "https://www.europlan-online.de/files/fd459a58f524eba6c9081dc421c1385d.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1472,16 +1488,7 @@
 			"wiki": "https://en.wikipedia.org/wiki/Stroitel_Stadium_(Soligorsk)"
 		},
 		"league": {},
-		"images": [
-			{
-				"name": "167_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 35
 	},
 	{
@@ -1507,16 +1514,7 @@
 			"wiki": ""
 		},
 		"league": {},
-		"images": [
-			{
-				"name": "172_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 36
 	},
 	{

@@ -6,7 +6,7 @@
 			"code": "RIJ",
 			"country": "Croatia",
 			"founded": 1946,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/HNK_Rijeka"
 		},
 		"venue": {
 			"api_football_id": 423,
@@ -46,7 +46,7 @@
 			"code": "HAJ",
 			"country": "Croatia",
 			"founded": 1911,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/HNK_Hajduk_Split"
 		},
 		"venue": {
 			"api_football_id": 413,
@@ -86,7 +86,7 @@
 			"code": "OSI",
 			"country": "Croatia",
 			"founded": 1947,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Osijek"
 		},
 		"venue": {
 			"api_football_id": 20730,
@@ -126,7 +126,7 @@
 			"code": "ZAG",
 			"country": "Croatia",
 			"founded": 1911,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/GNK_Dinamo_Zagreb"
 		},
 		"venue": {
 			"api_football_id": 412,
@@ -166,7 +166,7 @@
 			"code": "IST",
 			"country": "Croatia",
 			"founded": 1964,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Istra_1961"
 		},
 		"venue": {
 			"api_football_id": 416,
@@ -206,7 +206,7 @@
 			"code": "ZAG",
 			"country": "Croatia",
 			"founded": 1914,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Lokomotiva_Zagreb"
 		},
 		"venue": {
 			"api_football_id": 417,
@@ -246,7 +246,7 @@
 			"code": "BEL",
 			"country": "Croatia",
 			"founded": 1912,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Slaven_Belupo"
 		},
 		"venue": {
 			"api_football_id": 426,
@@ -286,7 +286,7 @@
 			"code": null,
 			"country": "Croatia",
 			"founded": 2009,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/HNK_Gorica"
 		},
 		"venue": {
 			"api_football_id": 421,
@@ -326,7 +326,7 @@
 			"code": null,
 			"country": "Croatia",
 			"founded": 1932,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Vara%C5%BEdin_(2012)"
 		},
 		"venue": {
 			"api_football_id": 428,
@@ -366,7 +366,7 @@
 			"code": null,
 			"country": "Croatia",
 			"founded": 1991,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/HNK_Vukovar_1991"
 		},
 		"venue": {
 			"api_football_id": 2678,
@@ -406,7 +406,7 @@
 			"code": null,
 			"country": "Croatia",
 			"founded": 1957,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Rude%C5%A1"
 		},
 		"venue": {
 			"api_football_id": 417,
@@ -446,7 +446,7 @@
 			"code": "CIB",
 			"country": "Croatia",
 			"founded": 1919,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/HNK_Cibalia"
 		},
 		"venue": {
 			"api_football_id": 2678,
@@ -486,7 +486,7 @@
 			"code": null,
 			"country": "Croatia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Dugopolje"
 		},
 		"venue": {
 			"api_football_id": 420,
@@ -526,7 +526,7 @@
 			"code": null,
 			"country": "Croatia",
 			"founded": 1945,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Croatia_Sesvete"
 		},
 		"venue": {
 			"api_football_id": 1694,
@@ -566,7 +566,7 @@
 			"code": null,
 			"country": "Croatia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_BSK_Bijelo_Brdo"
 		},
 		"venue": {
 			"api_football_id": 1716,
@@ -606,7 +606,7 @@
 			"code": null,
 			"country": "Croatia",
 			"founded": 1997,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Hrvace"
 		},
 		"venue": {
 			"api_football_id": 4615,
@@ -637,7 +637,7 @@
 			"code": null,
 			"country": "Croatia",
 			"founded": 1911,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Opatija"
 		},
 		"venue": {
 			"api_football_id": 19233,
@@ -677,7 +677,7 @@
 			"code": null,
 			"country": "Croatia",
 			"founded": 1974,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Croatia_Zmijavci"
 		},
 		"venue": {
 			"api_football_id": 4626,
@@ -717,7 +717,7 @@
 			"code": null,
 			"country": "Croatia",
 			"founded": 1945,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Dubrava"
 		},
 		"venue": {
 			"api_football_id": 414,
@@ -757,7 +757,7 @@
 			"code": null,
 			"country": "Croatia",
 			"founded": 2015,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/HNK_Orijent"
 		},
 		"venue": {
 			"api_football_id": 4628,
@@ -797,7 +797,7 @@
 			"code": null,
 			"country": "Croatia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Jarun_Zagreb"
 		},
 		"venue": {
 			"api_football_id": 415,
@@ -837,7 +837,7 @@
 			"code": null,
 			"country": "Croatia",
 			"founded": 2012,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Karlovac_1919"
 		},
 		"venue": {
 			"api_football_id": 10630,
@@ -867,7 +867,8 @@
 			"name": "Sibenik",
 			"code": null,
 			"country": "Croatia",
-			"founded": 1929
+			"founded": 1929,
+			"wiki": "https://en.wikipedia.org/wiki/HNK_%C5%A0ibenik"
 		},
 		"venue": {
 			"api_football_id": 425,
@@ -901,7 +902,8 @@
 			"name": "Zrinski Jurjevac",
 			"code": null,
 			"country": "Croatia",
-			"founded": 1937
+			"founded": 1937,
+			"wiki": "https://en.wikipedia.org/wiki/NK_Zrinski_Osje%C4%8Dko_1664"
 		},
 		"venue": {
 			"api_football_id": 422,
@@ -935,7 +937,8 @@
 			"name": "Solin",
 			"code": null,
 			"country": "Croatia",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/NK_Solin"
 		},
 		"venue": {
 			"api_football_id": 4615,
@@ -969,7 +972,8 @@
 			"name": "Kustosija",
 			"code": null,
 			"country": "Croatia",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/NK_Kusto%C5%A1ija"
 		},
 		"venue": {
 			"api_football_id": 1800,

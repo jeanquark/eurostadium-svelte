@@ -6,7 +6,7 @@
 			"code": "LUD",
 			"country": "Bulgaria",
 			"founded": 1945,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/PFC_Ludogorets_Razgrad"
 		},
 		"venue": {
 			"api_football_id": 10547,
@@ -46,7 +46,7 @@
 			"code": "BOT",
 			"country": "Bulgaria",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Botev_Plovdiv"
 		},
 		"venue": {
 			"api_football_id": 19922,
@@ -86,7 +86,7 @@
 			"code": "LEV",
 			"country": "Bulgaria",
 			"founded": 1914,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/PFC_Levski_Sofia"
 		},
 		"venue": {
 			"api_football_id": 297,
@@ -126,7 +126,7 @@
 			"code": "CHE",
 			"country": "Bulgaria",
 			"founded": 1945,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/PFC_Cherno_More_Varna"
 		},
 		"venue": {
 			"api_football_id": 286,
@@ -166,7 +166,7 @@
 			"code": "CSK",
 			"country": "Bulgaria",
 			"founded": 1948,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/PFC_CSKA_Sofia"
 		},
 		"venue": {
 			"api_football_id": 288,
@@ -206,7 +206,7 @@
 			"code": "SLA",
 			"country": "Bulgaria",
 			"founded": 1913,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/PFC_Slavia_Sofia"
 		},
 		"venue": {
 			"api_football_id": 18616,
@@ -246,7 +246,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 1944,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/PFC_Septemvri_Sofia"
 		},
 		"venue": {
 			"api_football_id": 304,
@@ -286,7 +286,7 @@
 			"code": "BER",
 			"country": "Bulgaria",
 			"founded": 1916,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/PFC_Beroe_Stara_Zagora"
 		},
 		"venue": {
 			"api_football_id": 283,
@@ -326,7 +326,7 @@
 			"code": "PLO",
 			"country": "Bulgaria",
 			"founded": 1936,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/PFC_Lokomotiv_Plovdiv"
 		},
 		"venue": {
 			"api_football_id": 298,
@@ -366,7 +366,7 @@
 			"code": "VRA",
 			"country": "Bulgaria",
 			"founded": 1921,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/POFC_Botev_Vratsa"
 		},
 		"venue": {
 			"api_football_id": 285,
@@ -406,7 +406,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 2015,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Lokomotiv_1929_Sofia"
 		},
 		"venue": {
 			"api_football_id": 1883,
@@ -446,7 +446,7 @@
 			"code": "MON",
 			"country": "Bulgaria",
 			"founded": 1947,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Montana"
 		},
 		"venue": {
 			"api_football_id": 300,
@@ -486,7 +486,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 2016,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_CSKA_1948_Sofia"
 		},
 		"venue": {
 			"api_football_id": 296,
@@ -526,7 +526,7 @@
 			"code": "DOB",
 			"country": "Bulgaria",
 			"founded": 1919,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Dobrudzha_Dobrich"
 		},
 		"venue": {
 			"api_football_id": 289,
@@ -566,7 +566,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 1924,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Arda_Kardzhali"
 		},
 		"venue": {
 			"api_football_id": 291,
@@ -606,7 +606,7 @@
 			"code": "SPA",
 			"country": "Bulgaria",
 			"founded": 1918,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Spartak_Varna"
 		},
 		"venue": {
 			"api_football_id": 3512,
@@ -646,7 +646,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 2010,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Dunav_Ruse"
 		},
 		"venue": {
 			"api_football_id": 1736,
@@ -686,7 +686,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 2013,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/SFC_Etar_Veliko_Tarnovo"
 		},
 		"venue": {
 			"api_football_id": 290,
@@ -726,7 +726,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 2015,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/PFC_Ludogorets_Razgrad"
 		},
 		"venue": {
 			"api_football_id": 1847,
@@ -766,7 +766,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/PFC_CSKA_Sofia"
 		},
 		"venue": {
 			"api_football_id": 18964,
@@ -806,7 +806,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 2013,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/OFC_Spartak_Pleven"
 		},
 		"venue": {
 			"api_football_id": 2669,
@@ -846,7 +846,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Lokomotiv_Gorna_Oryahovitsa"
 		},
 		"venue": {
 			"api_football_id": 293,
@@ -886,7 +886,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 1931,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/OFC_Pirin_Blagoevgrad"
 		},
 		"venue": {
 			"api_football_id": 303,
@@ -926,7 +926,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 2015,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Hebar_Pazardzhik"
 		},
 		"venue": {
 			"api_football_id": 3511,
@@ -966,7 +966,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Sevlievo"
 		},
 		"venue": {
 			"api_football_id": 3805,
@@ -997,7 +997,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 1925,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/OFC_Vihren_Sandanski"
 		},
 		"venue": {
 			"api_football_id": 3806,
@@ -1028,7 +1028,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 2013,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Minyor_Pernik"
 		},
 		"venue": {
 			"api_football_id": 4714,
@@ -1068,7 +1068,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 1919,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Yantra_Gabrovo"
 		},
 		"venue": {
 			"api_football_id": 6084,
@@ -1108,7 +1108,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 2015,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Chernomorets_1919_Burgas"
 		},
 		"venue": {
 			"api_football_id": 11660,
@@ -1148,7 +1148,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/OFC_Belasitsa_Petrich"
 		},
 		"venue": {
 			"api_football_id": 12285,
@@ -1188,7 +1188,7 @@
 			"code": "MAR",
 			"country": "Bulgaria",
 			"founded": 1947,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Marek_Dupnitsa"
 		},
 		"venue": {
 			"api_football_id": 6098,
@@ -1228,7 +1228,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": 1924,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Sportist_Svoge"
 		},
 		"venue": {
 			"api_football_id": 6105,
@@ -1268,7 +1268,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Krumovgrad"
 		},
 		"venue": {
 			"api_football_id": 19902,
@@ -1308,7 +1308,7 @@
 			"code": null,
 			"country": "Bulgaria",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Fratria"
 		},
 		"venue": {
 			"api_football_id": 20253,
