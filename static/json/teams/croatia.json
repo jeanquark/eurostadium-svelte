@@ -5,7 +5,8 @@
 			"name": "HNK Rijeka",
 			"code": "RIJ",
 			"country": "Croatia",
-			"founded": 1946
+			"founded": 1946,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 423,
@@ -44,7 +45,8 @@
 			"name": "HNK Hajduk Split",
 			"code": "HAJ",
 			"country": "Croatia",
-			"founded": 1911
+			"founded": 1911,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 413,
@@ -83,7 +85,8 @@
 			"name": "NK Osijek",
 			"code": "OSI",
 			"country": "Croatia",
-			"founded": 1947
+			"founded": 1947,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 20730,
@@ -122,7 +125,8 @@
 			"name": "Dinamo Zagreb",
 			"code": "ZAG",
 			"country": "Croatia",
-			"founded": 1911
+			"founded": 1911,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 412,
@@ -161,7 +165,8 @@
 			"name": "Istra 1961",
 			"code": "IST",
 			"country": "Croatia",
-			"founded": 1964
+			"founded": 1964,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 416,
@@ -200,7 +205,8 @@
 			"name": "NK Lokomotiva Zagreb",
 			"code": "ZAG",
 			"country": "Croatia",
-			"founded": 1914
+			"founded": 1914,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 417,
@@ -239,7 +245,8 @@
 			"name": "NK Slaven Belupo",
 			"code": "BEL",
 			"country": "Croatia",
-			"founded": 1912
+			"founded": 1912,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 426,
@@ -278,7 +285,8 @@
 			"name": "HNK Gorica",
 			"code": null,
 			"country": "Croatia",
-			"founded": 2009
+			"founded": 2009,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 421,
@@ -313,50 +321,12 @@
 	},
 	{
 		"team": {
-			"api_football_id": 1475,
-			"name": "Sibenik",
-			"code": null,
-			"country": "Croatia",
-			"founded": 1929
-		},
-		"venue": {
-			"api_football_id": 425,
-			"name": "Stadion Šubićevac",
-			"address": "Josipa bana Jelačića bb",
-			"city": "Šibenik",
-			"capacity": 8500,
-			"surface": "grass",
-			"lat": 43.743553,
-			"lng": 15.896058,
-			"x": 407,
-			"y": 681,
-			"wiki": "https://en.wikipedia.org/wiki/Stadion_%C5%A0ubi%C4%87evac"
-		},
-		"league": {
-			"api_football_id": 210,
-			"name": "HNL",
-			"country": "Croatia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "425_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 9
-	},
-	{
-		"team": {
 			"api_football_id": 1483,
 			"name": "NK Varazdin",
 			"code": null,
 			"country": "Croatia",
-			"founded": 1932
+			"founded": 1932,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 428,
@@ -387,6 +357,46 @@
 				"size": 0
 			}
 		],
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 5730,
+			"name": "Vukovar",
+			"code": null,
+			"country": "Croatia",
+			"founded": 1991,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 2678,
+			"name": "Stadion Cibalia",
+			"address": "Hansa Dietricha Genschera 10b",
+			"city": "Vinkovci",
+			"capacity": 9958,
+			"surface": "grass",
+			"lat": 45.380246,
+			"lng": 18.965396,
+			"x": 926,
+			"y": 293,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 210,
+			"name": "HNL",
+			"country": "Croatia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "4250_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 10
 	},
 	{
@@ -395,7 +405,8 @@
 			"name": "Rudes",
 			"code": null,
 			"country": "Croatia",
-			"founded": 1957
+			"founded": 1957,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 417,
@@ -434,7 +445,8 @@
 			"name": "HNK Cibalia",
 			"code": "CIB",
 			"country": "Croatia",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2678,
@@ -473,7 +485,8 @@
 			"name": "Dugopolje",
 			"code": null,
 			"country": "Croatia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 420,
@@ -512,7 +525,8 @@
 			"name": "Sesvete",
 			"code": null,
 			"country": "Croatia",
-			"founded": 1945
+			"founded": 1945,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1694,
@@ -551,7 +565,8 @@
 			"name": "Bsk Bijelo Brdo",
 			"code": null,
 			"country": "Croatia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1716,
@@ -586,23 +601,24 @@
 	},
 	{
 		"team": {
-			"api_football_id": 5730,
-			"name": "Vukovar",
+			"api_football_id": 6241,
+			"name": "Hrvace",
 			"code": null,
 			"country": "Croatia",
-			"founded": 1991
+			"founded": 1997,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 4250,
-			"name": "Stadion u Borovom Naselju",
-			"address": "Sportska bb, Borovo Naselje",
-			"city": "Vukovar",
-			"capacity": 3550,
+			"api_football_id": 4615,
+			"name": "Gradski stadion",
+			"address": "Panj",
+			"city": "Hrvace",
+			"capacity": 3075,
 			"surface": "grass",
-			"lat": 45.380246,
-			"lng": 18.965396,
-			"x": 926,
-			"y": 293,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {
@@ -611,16 +627,7 @@
 			"country": "Croatia",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "4250_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 16
 	},
 	{
@@ -629,7 +636,8 @@
 			"name": "Opatija",
 			"code": null,
 			"country": "Croatia",
-			"founded": 1911
+			"founded": 1911,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 19233,
@@ -668,7 +676,8 @@
 			"name": "Croatia Zmijavci",
 			"code": null,
 			"country": "Croatia",
-			"founded": 1974
+			"founded": 1974,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 4626,
@@ -707,7 +716,8 @@
 			"name": "Dubrava Zagreb",
 			"code": null,
 			"country": "Croatia",
-			"founded": 1945
+			"founded": 1945,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 414,
@@ -746,7 +756,8 @@
 			"name": "Orijent 1919",
 			"code": null,
 			"country": "Croatia",
-			"founded": 2015
+			"founded": 2015,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 4628,
@@ -785,7 +796,8 @@
 			"name": "Jarun",
 			"code": null,
 			"country": "Croatia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 415,
@@ -820,6 +832,71 @@
 	},
 	{
 		"team": {
+			"api_football_id": 15295,
+			"name": "Karlovac 1919",
+			"code": null,
+			"country": "Croatia",
+			"founded": 2012,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 10630,
+			"name": "Stadion Branko Čavlović-Čavlek",
+			"address": "Mekušanska cesta",
+			"city": "Karlovac",
+			"capacity": 8000,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 211,
+			"name": "First NL",
+			"country": "Croatia",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 1475,
+			"name": "Sibenik",
+			"code": null,
+			"country": "Croatia",
+			"founded": 1929
+		},
+		"venue": {
+			"api_football_id": 425,
+			"name": "Stadion Šubićevac",
+			"address": "Josipa bana Jelačića bb",
+			"city": "Šibenik",
+			"capacity": 8500,
+			"surface": "grass",
+			"lat": 43.743553,
+			"lng": 15.896058,
+			"x": 407,
+			"y": 681,
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_%C5%A0ubi%C4%87evac"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "425_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 23
+	},
+	{
+		"team": {
 			"api_football_id": 8615,
 			"name": "Zrinski Jurjevac",
 			"code": null,
@@ -839,12 +916,7 @@
 			"y": 810,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 211,
-			"name": "First NL",
-			"country": "Croatia",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "6151_001.jpg",
@@ -855,7 +927,7 @@
 				"size": 0
 			}
 		],
-		"no": 22
+		"no": 24
 	},
 	{
 		"team": {
@@ -889,7 +961,7 @@
 				"size": 0
 			}
 		],
-		"no": 23
+		"no": 25
 	},
 	{
 		"team": {
@@ -923,6 +995,6 @@
 				"size": 0
 			}
 		],
-		"no": 24
+		"no": 26
 	}
 ]

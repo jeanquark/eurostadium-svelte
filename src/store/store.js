@@ -5,7 +5,7 @@ import { auth } from "../lib/firebase/firebase"
 export const authStore = writable({
     user: null,
     loading: true,
-    data: {}
+    data: {},
 })
 
 export const authHandlers = {

@@ -5,7 +5,8 @@
 			"name": "Zrinjski",
 			"code": "ZRI",
 			"country": "Bosnia",
-			"founded": 1905
+			"founded": 1905,
+			"wiki": "https://en.wikipedia.org/wiki/H%C5%A0K_Zrinjski_Mostar"
 		},
 		"venue": {
 			"api_football_id": 202,
@@ -20,11 +21,56 @@
 			"y": 709,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_pod_Bijelim_Brijegom"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 315,
+			"name": "Premijer Liga",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "202_001.jpg",
-				"source": "",
+				"source": "https://hskzrinjski.ba/wp-content/uploads/2024/03/Stadion-HSK-Zrinjski-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "202_002.jpg",
+				"source": "https://hskzrinjski.ba/wp-content/uploads/2024/03/Zrinjski3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "202_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Stadion_H%C5%A0K_Zrinjski.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "202_004.jpg",
+				"source": "https://cdn.tomislavcity.com/wp-content/uploads/2023/01/stadion-pod-bijelim-brijegom.jpg?x53932",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "202_005.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/bih/stadion_pod_bijelim_brijegom/stadion_pod_bijelim_brijegom07.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "202_006.jpg",
+				"source": "https://estadiosdb.com/pictures/stadiums/bih/stadion_pod_bijelim_brijegom/stadion_pod_bijelim_brijegom11.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -39,7 +85,8 @@
 			"name": "Siroki Brijeg",
 			"code": "SIR",
 			"country": "Bosnia",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": "https://en.wikipedia.org/wiki/NK_%C5%A0iroki_Brijeg"
 		},
 		"venue": {
 			"api_football_id": 200,
@@ -54,11 +101,24 @@
 			"y": 697,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Pecara"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 315,
+			"name": "Premijer Liga",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "200_001.jpg",
-				"source": "",
+				"source": "https://www.nfsbih.ba/images/0A-WU-17-2022/siroki-brijeg-fotogalerija/DJI_0134.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "200_002.jpg",
+				"source": "https://www.nfsbih.ba/images/0A-WU-17-2022/siroki-brijeg-fotogalerija/DJI_0154.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -73,7 +133,8 @@
 			"name": "Zeljeznicar Sarajevo",
 			"code": "ZEL",
 			"country": "Bosnia",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/FK_%C5%BDeljezni%C4%8Dar_Sarajevo"
 		},
 		"venue": {
 			"api_football_id": 201,
@@ -88,11 +149,48 @@
 			"y": 532,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Grbavica"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 315,
+			"name": "Premijer Liga",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2185_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/FJDcxGlXEAMj_fE.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2185_002.jpg",
+				"source": "https://www.greentechsod.bg/uploads/photos/D1366/2018/08/nakis_fb1(3)_8104.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2185_003.jpg",
+				"source": "https://sarajevo.travel/assets/photos/texts/original/stadion-grbavica-simbol-iskrene-ljubavi-1493295671.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2185_004.jpg",
+				"source": "https://sarajevo.travel/assets/photos/places/original/grbavica-stadium-1406367348.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2185_005.jpg",
+				"source": "https://www.greentechsod.bg/uploads/photos/D1366/2018/08/nakis_fb1(2)_9304.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -107,7 +205,8 @@
 			"name": "FK Sarajevo",
 			"code": "SAR",
 			"country": "Bosnia",
-			"founded": 1946
+			"founded": 1946,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Sarajevo"
 		},
 		"venue": {
 			"api_football_id": 199,
@@ -122,11 +221,48 @@
 			"y": 523,
 			"wiki": "https://en.wikipedia.org/wiki/Ko%C5%A1evo_City_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 315,
+			"name": "Premijer Liga",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "199_001.jpg",
-				"source": "",
+				"source": "https://activeplanet.com/en/assets/active_cyprus/files/manager_files/sport_objects/14700/kosevocitystadium6.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "199_002.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHB2vh_aA1vXE_OPNuoSU_-2JG-Bx8gMelPPExZrNTyIH-LZOdyAY1pVBZPvCHkoGdfRMJeGB3yZ7GRdQOQ-PXMdpcatrlq19NTD9Sfn23qewMwMe2i2eiz2A5qNhPIC3hIsSVK-UL4ho/s1600/DSCF7604%255B1%255D.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "199_003.jpg",
+				"source": "https://life.ba/storage/2022/08/kosevo.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "199_004.jpg",
+				"source": "https://static.klix.ba/media/images/vijesti/170704054.2_xxl.jpg?v=1730635845",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "199_005.jpg",
+				"source": "https://www.footballticketnet.com/theme/images/venues_cover/Buy-Asim_Ferhatovic_Hase_Stadium-Football-Tickets-FootballTicketNet-Cover.png",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -137,45 +273,12 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3356,
-			"name": "GOŠK Gabela",
-			"code": null,
-			"country": "Bosnia",
-			"founded": 1919
-		},
-		"venue": {
-			"api_football_id": 19942,
-			"name": "Stadion Perica-Pero Pavlović",
-			"address": "Put Metkovića 15",
-			"city": "Gabela",
-			"capacity": 5000,
-			"surface": "grass",
-			"lat": 43.061667,
-			"lng": 17.682778,
-			"x": 503,
-			"y": 808,
-			"wiki": "https://en.wikipedia.org/wiki/Stadium_Perica-Pero_Pavlovi%C4%87"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "19942_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 5
-	},
-	{
-		"team": {
 			"api_football_id": 3359,
 			"name": "Radnik Bijeljina",
 			"code": "RAD",
 			"country": "Bosnia",
-			"founded": 1945
+			"founded": 1945,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Radnik_Bijeljina"
 		},
 		"venue": {
 			"api_football_id": 2183,
@@ -190,52 +293,39 @@
 			"y": 209,
 			"wiki": "https://en.wikipedia.org/wiki/Bijeljina_City_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 315,
+			"name": "Premijer Liga",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2183_001.jpg",
-				"source": "",
+				"source": "https://www.semberija.info/UcitaneSlike/Emir/Emir2/f10/F11/f12/f13/f14/f15/Gradski_stadion_bijeljina.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
-			}
-		],
-		"no": 6
-	},
-	{
-		"team": {
-			"api_football_id": 3360,
-			"name": "Sloboda Tuzla",
-			"code": null,
-			"country": "Bosnia",
-			"founded": 1919
-		},
-		"venue": {
-			"api_football_id": 2184,
-			"name": "Stadion Tušanj",
-			"address": "Trg Stara tržnica br. 10",
-			"city": "Tuzla",
-			"capacity": 8444,
-			"surface": "grass",
-			"lat": 44.54172,
-			"lng": 18.661528,
-			"x": 754,
-			"y": 285,
-			"wiki": "https://en.wikipedia.org/wiki/Tu%C5%A1anj_City_Stadium"
-		},
-		"league": {},
-		"images": [
+			},
 			{
-				"name": "2184_001.jpg",
-				"source": "",
+				"name": "2183_002.jpg",
+				"source": "https://static.mondo.ba/Picture/396527/jpeg/7.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2183_003.jpg",
+				"source": "https://infobijeljina.com/uploads/fcbf412c-ce5e-43d6-a4cb-892160c2152a.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 7
+		"no": 5
 	},
 	{
 		"team": {
@@ -243,7 +333,8 @@
 			"name": "Borac Banja Luka",
 			"code": "BOR",
 			"country": "Bosnia",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Borac_Banja_Luka"
 		},
 		"venue": {
 			"api_football_id": 2187,
@@ -258,52 +349,95 @@
 			"y": 201,
 			"wiki": "https://en.wikipedia.org/wiki/Banja_Luka_City_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 315,
+			"name": "Premijer Liga",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2187_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/1/1c/StadionBanjaLuka.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2187_002.jpg",
+				"source": "https://stadiumdb.com/pic-buildings/bih/stadion_gradski_banja_luka/stadion_gradski_banja_luka044.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 8
+		"no": 6
 	},
 	{
 		"team": {
-			"api_football_id": 3367,
-			"name": "Igman Konjic",
-			"code": null,
+			"api_football_id": 3377,
+			"name": "Rudar Prijedor",
+			"code": "RUD",
 			"country": "Bosnia",
-			"founded": 1920
+			"founded": 1968,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Rudar_Prijedor"
 		},
 		"venue": {
-			"api_football_id": 2190,
+			"api_football_id": 2196,
 			"name": "Gradski Stadion",
-			"address": "Drecelj",
-			"city": "Konjic",
-			"capacity": 5000,
+			"address": "Majora Milana Tepića 10",
+			"city": "Prijedor",
+			"capacity": 3540,
 			"surface": "grass",
-			"lat": 43.658621,
-			"lng": 17.949823,
-			"x": 572,
-			"y": 599,
-			"wiki": "https://en.wikipedia.org/wiki/Konjic_City_Stadium"
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 315,
+			"name": "Premijer Liga",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
-				"name": "2190_001.jpg",
-				"source": "",
+				"name": "2196_001.jpg",
+				"source": "https://pravdabl.com/wp-content/uploads/2022/03/stadion-rudar.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2196_002.jpg",
+				"source": "https://sportsport.ba/assets/pictures/article/389/big_1597040360-neodgovorni-pojedinci-divljali-na-stadionu-bh-kluba-bicemo-primorani-zakljucati-stadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2196_003.jpg",
+				"source": "https://zigpd.com/wp-content/uploads/2018/03/is1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2196_004.jpg",
+				"source": "https://zigpd.com/wp-content/uploads/2018/03/is2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 9
+		"no": 7
 	},
 	{
 		"team": {
@@ -311,7 +445,8 @@
 			"name": "Velež",
 			"code": "VEL",
 			"country": "Bosnia",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Vele%C5%BE_Mostar"
 		},
 		"venue": {
 			"api_football_id": 2200,
@@ -326,18 +461,47 @@
 			"y": 697,
 			"wiki": "https://hr.wikipedia.org/wiki/Stadion_Ro%C4%91eni"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 315,
+			"name": "Premijer Liga",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2200_001.jpg",
-				"source": "",
+				"source": "https://i.ytimg.com/vi/bP-7Twot1O8/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2200_002.jpg",
+				"source": "https://i.ytimg.com/vi/471JqVWl1Dc/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2200_003.jpg",
+				"source": "https://tvarenasport.ba/wp-content/uploads/2024/05/velez-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2200_004.jpg",
+				"source": "https://i.ytimg.com/vi/-I4wVEEtd4E/maxresdefault.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 10
+		"no": 8
 	},
 	{
 		"team": {
@@ -345,7 +509,8 @@
 			"name": "Sloga Doboj",
 			"code": null,
 			"country": "Bosnia",
-			"founded": 1946
+			"founded": 1946,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Sloga_Doboj"
 		},
 		"venue": {
 			"api_football_id": 6060,
@@ -360,18 +525,47 @@
 			"y": 217,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 315,
+			"name": "Premijer Liga",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "6060_001.jpg",
-				"source": "",
+				"source": "https://olovka.info/wp-content/uploads/2023/03/fk-sloga-luke.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "6060_002.jpg",
+				"source": "https://scsport.ba/wp-content/uploads/2024/12/sloga-stad.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "6060_003.jpg",
+				"source": "https://static.mondo.ba/Picture/738362/jpeg/sloga8.jpg?ts=2024-07-26T13:31:24",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "6060_004.jpg",
+				"source": "https://meridiansport.ba/wp-content/uploads/2022/06/luke-doboj.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 9
 	},
 	{
 		"team": {
@@ -379,7 +573,8 @@
 			"name": "Posušje",
 			"code": null,
 			"country": "Bosnia",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/H%C5%A0K_Posu%C5%A1je"
 		},
 		"venue": {
 			"api_football_id": 10571,
@@ -394,26 +589,112 @@
 			"y": 665,
 			"wiki": "https://en.wikipedia.org/wiki/Mokri_Dolac_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 315,
+			"name": "Premijer Liga",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "10571_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/0/04/Mokri-dolac08802.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10571_002.jpg",
+				"source": "https://abcportal.info/wp-content/uploads/2025/03/mokri-dolac-stadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10571_003.jpg",
+				"source": "https://i.ytimg.com/vi/_P9o3s5ggFo/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgWihLMA8=&rs=AOn4CLDHdHzjQJxVYr8E-3NGUrAZRv8-Yg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10571_004.jpg",
+				"source": "https://www.oslobodjenje.ba/media/2025/03/02/1150435/W-1150435-1235.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 12
+		"no": 10
 	},
 	{
 		"team": {
-			"api_football_id": 3361,
-			"name": "Tuzla City",
+			"api_football_id": 3356,
+			"name": "GOŠK Gabela",
 			"code": null,
 			"country": "Bosnia",
-			"founded": 1955
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/NK_GO%C5%A0K_Gabela"
+		},
+		"venue": {
+			"api_football_id": 19942,
+			"name": "Stadion Perica-Pero Pavlović",
+			"address": "Put Metkovića 15",
+			"city": "Gabela",
+			"capacity": 5000,
+			"surface": "grass",
+			"lat": 43.061667,
+			"lng": 17.682778,
+			"x": 503,
+			"y": 808,
+			"wiki": "https://en.wikipedia.org/wiki/Stadium_Perica-Pero_Pavlovi%C4%87"
+		},
+		"league": {
+			"api_football_id": 316,
+			"name": "1st League - FBiH",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19942_001.jpg",
+				"source": "https://korner365.com/wp-content/uploads/2025/01/Gabela.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19942_002.jpg",
+				"source": "https://sportsport.ba/assets/pictures/article/922/1643831720-u-gabeli-za-vikend-praznik-nogometa.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19942_003.jpg",
+				"source": "https://i.ytimg.com/vi/45WDRqgbJeY/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 3360,
+			"name": "Sloboda Tuzla",
+			"code": null,
+			"country": "Bosnia",
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Sloboda_Tuzla"
 		},
 		"venue": {
 			"api_football_id": 2184,
@@ -428,11 +709,104 @@
 			"y": 285,
 			"wiki": "https://en.wikipedia.org/wiki/Tu%C5%A1anj_City_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 316,
+			"name": "1st League - FBiH",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2184_001.jpg",
-				"source": "",
+				"source": "https://valtertuzlanski.ba/wp-content/uploads/2021/11/stadion-tusanj.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2184_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/c/c2/TZstadium.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2184_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/2/25/Tuzla_-_Tu%C5%A1anj_Stadium_17_%282019%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2184_004.jpg",
+				"source": "https://stadiontusanj.ba/wp-content/uploads/2023/09/stadion-tu%C5%A1anj-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 12
+	},
+	{
+		"team": {
+			"api_football_id": 3361,
+			"name": "Tuzla City",
+			"code": null,
+			"country": "Bosnia",
+			"founded": 1955,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Tuzla_City"
+		},
+		"venue": {
+			"api_football_id": 2184,
+			"name": "Stadion Tušanj",
+			"address": "Trg Stara tržnica br. 10",
+			"city": "Tuzla",
+			"capacity": 8444,
+			"surface": "grass",
+			"lat": 44.54172,
+			"lng": 18.661528,
+			"x": 754,
+			"y": 285,
+			"wiki": "https://en.wikipedia.org/wiki/Tu%C5%A1anj_City_Stadium"
+		},
+		"league": {
+			"api_football_id": 316,
+			"name": "1st League - FBiH",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2184_001.jpg",
+				"source": "https://valtertuzlanski.ba/wp-content/uploads/2021/11/stadion-tusanj.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2184_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/c/c2/TZstadium.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2184_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/2/25/Tuzla_-_Tu%C5%A1anj_Stadium_17_%282019%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2184_004.jpg",
+				"source": "https://stadiontusanj.ba/wp-content/uploads/2023/09/stadion-tu%C5%A1anj-1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -447,7 +821,8 @@
 			"name": "Čelik",
 			"code": "ZEN",
 			"country": "Bosnia",
-			"founded": 1945
+			"founded": 1945,
+			"wiki": "https://en.wikipedia.org/wiki/NK_%C4%8Celik_Zenica"
 		},
 		"venue": {
 			"api_football_id": 2186,
@@ -462,11 +837,40 @@
 			"y": 405,
 			"wiki": "https://en.wikipedia.org/wiki/Bilino_Polje_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 316,
+			"name": "1st League - FBiH",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2186_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Bilino_Polje_Stadium_%28wide_angle%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2186_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bilino_Polje_stadium%2C_BiH-Poland%2C_2020.09.07_2.jpg/1200px-Bilino_Polje_stadium%2C_BiH-Poland%2C_2020.09.07_2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2186_003.jpg",
+				"source": "https://zenica.ba/wp-content/uploads/2023/10/DJI_0012-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2186_004.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/bih/stadion_bilino_polje/stadion_bilino_polje08.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -477,11 +881,492 @@
 	},
 	{
 		"team": {
+			"api_football_id": 3367,
+			"name": "Igman Konjic",
+			"code": null,
+			"country": "Bosnia",
+			"founded": 1920,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Igman_Konjic"
+		},
+		"venue": {
+			"api_football_id": 2190,
+			"name": "Gradski Stadion",
+			"address": "Drecelj",
+			"city": "Konjic",
+			"capacity": 5000,
+			"surface": "grass",
+			"lat": 43.658621,
+			"lng": 17.949823,
+			"x": 572,
+			"y": 599,
+			"wiki": "https://en.wikipedia.org/wiki/Konjic_City_Stadium"
+		},
+		"league": {
+			"api_football_id": 316,
+			"name": "1st League - FBiH",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2190_001.jpg",
+				"source": "https://viteskiportal.com/wp-content/uploads/2024/04/post_image-629.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2190_002.jpg",
+				"source": "https://www.novikonjic.ba/wp-content/uploads/2024/06/448487516_861826415965400_3142774326641419745_n.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 3380,
+			"name": "TOŠK Tešanj",
+			"code": null,
+			"country": "Bosnia",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/NK_TO%C5%A0K_Te%C5%A1anj"
+		},
+		"venue": {
+			"api_football_id": 2199,
+			"name": "Stadion Luke Tešanj",
+			"address": "Patriotske lige 1",
+			"city": "Tešanj",
+			"capacity": 7000,
+			"surface": "grass",
+			"lat": 44.605526,
+			"lng": 17.982879,
+			"x": 580,
+			"y": 262,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 316,
+			"name": "1st League - FBiH",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2199_001.jpg",
+				"source": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s5b1bb767ef4b489f/image/if8d9c010b38b7879/version/1715028836/image.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2199_002.jpg",
+				"source": "https://static.klix.ba/media/images/vijesti/170708060.4_xxl.jpg?v=1730635845",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 4278,
+			"name": "Bratstvo Gračanica",
+			"code": "BRA",
+			"country": "Bosnia",
+			"founded": 1945,
+			"wiki": "https://en.wikipedia.org/wiki/NK_Bratstvo_Gra%C4%8Danica"
+		},
+		"venue": {
+			"api_football_id": 3270,
+			"name": "Gradski stadion Luke",
+			"address": "Patriotske lige bb",
+			"city": "Gračanica",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 44.694458,
+			"lng": 18.297518,
+			"x": 660,
+			"y": 230,
+			"wiki": "https://bs.wikipedia.org/wiki/Stadion_Luke_(Gra%C4%8Danica)"
+		},
+		"league": {
+			"api_football_id": 316,
+			"name": "1st League - FBiH",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3270_001.jpg",
+				"source": "https://www.visoko-rtv.ba/wp-content/uploads/2020/09/gradski-stadion-luke-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3270_002.jpg",
+				"source": "https://visocani.ba/wp-content/uploads/2022/04/07AE29B0-3804-4CCF-B737-A1CC4E911D29-2048x1536-1.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3270_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Vele%C5%BE_supporters_in_Visoko.jpg/1200px-Vele%C5%BE_supporters_in_Visoko.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 4288,
+			"name": "Vitez",
+			"code": "NKV",
+			"country": "Bosnia",
+			"founded": 1947,
+			"wiki": "https://en.wikipedia.org/wiki/NK_Vitez"
+		},
+		"venue": {
+			"api_football_id": 3276,
+			"name": "Gradski Stadion",
+			"address": "Srednjobosanska",
+			"city": "Vitez",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 44.154031,
+			"lng": 17.788344,
+			"x": 0,
+			"y": 0,
+			"wiki": "https://en.wikipedia.org/wiki/Vitez_City_Stadium"
+		},
+		"league": {
+			"api_football_id": 316,
+			"name": "1st League - FBiH",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3276_001.jpg",
+				"source": "https://srpskainfo.com/wp-content/uploads/2022/08/stadion-Viteza.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 4297,
+			"name": "Travnik",
+			"code": "TRA",
+			"country": "Bosnia",
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/NK_Travnik"
+		},
+		"venue": {
+			"api_football_id": 3282,
+			"name": "Stadion Pirota",
+			"address": "Bosanska bb",
+			"city": "Travnik",
+			"capacity": 3200,
+			"surface": "grass",
+			"lat": 44.224705,
+			"lng": 17.645403,
+			"x": 494,
+			"y": 398,
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_Pirota"
+		},
+		"league": {
+			"api_football_id": 316,
+			"name": "1st League - FBiH",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3282_001.jpg",
+				"source": "https://sportsport.ba/assets/pictures/article/773/stadion-pirota.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3282_002.jpg",
+				"source": "https://i.ytimg.com/vi/MRVjllyw2_M/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3282_003.jpg",
+				"source": "https://sportbc.ba/wp-content/uploads/2025/08/ograda-pirota-webp.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 7528,
+			"name": "Budućnost Banovići",
+			"code": null,
+			"country": "Bosnia",
+			"founded": 1947,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Budu%C4%87nost_Banovi%C4%87i"
+		},
+		"venue": {
+			"api_football_id": 5462,
+			"name": "Gradski Stadion",
+			"address": "Branilaca Banovića 10",
+			"city": "Banovići",
+			"capacity": 4600,
+			"surface": "grass",
+			"lat": 44.413958,
+			"lng": 18.535047,
+			"x": 721,
+			"y": 331,
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_FK_Budu%C4%87nost"
+		},
+		"league": {
+			"api_football_id": 316,
+			"name": "1st League - FBiH",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5462_001.jpg",
+				"source": "https://gdjeizaci.ba/wp-content/uploads/2023/03/stadion-fk-buducnost-4.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5462_002.jpg",
+				"source": "https://gdjeizaci.ba/wp-content/uploads/2023/03/stadion-fk-buducnost-3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 7529,
+			"name": "Jedinstvo Bihać",
+			"code": null,
+			"country": "Bosnia",
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/NK_Jedinstvo_Biha%C4%87"
+		},
+		"venue": {
+			"api_football_id": 5463,
+			"name": "Stadion Pod Borićima",
+			"address": "Aleja bb",
+			"city": "Bihać",
+			"capacity": 7500,
+			"surface": "grass",
+			"lat": 44.806667,
+			"lng": 15.863889,
+			"x": 38,
+			"y": 190,
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_pod_Bori%C4%87ima"
+		},
+		"league": {
+			"api_football_id": 316,
+			"name": "1st League - FBiH",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5463_001.jpg",
+				"source": "https://i.ytimg.com/vi/RaXzRW7pUa0/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGFkgZShJMA8=&rs=AOn4CLAviYCgNc4iWonYl8w4CnFsB_NAjw",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5463_002.jpg",
+				"source": "https://www.nkj.ba/files/posts/64cb412201d492.74618988.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 7531,
+			"name": "Radnik Hadžići",
+			"code": null,
+			"country": "Bosnia",
+			"founded": 1948,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Radnik_Had%C5%BEi%C4%87i"
+		},
+		"venue": {
+			"api_football_id": 5464,
+			"name": "Gradski stadion",
+			"address": "Anđelka Lažetića bb",
+			"city": "Hadžići",
+			"capacity": 1500,
+			"surface": "grass",
+			"lat": 43.821719,
+			"lng": 18.195861,
+			"x": 634,
+			"y": 541,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 316,
+			"name": "1st League - FBiH",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5464_001.jpg",
+				"source": "https://static.klix.ba/media/images/vijesti/og_191128038.jpg?v=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 17372,
+			"name": "Tomislav",
+			"code": null,
+			"country": "Bosnia",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/HNK_Tomislav"
+		},
+		"venue": {
+			"api_football_id": 19872,
+			"name": "Stadion Tomislavgrad",
+			"address": null,
+			"city": "Tomislavgrad",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 43.715035,
+			"lng": 17.235814,
+			"x": 389,
+			"y": 579,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 316,
+			"name": "1st League - FBiH",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19872_001.jpg",
+				"source": "https://www.austriansoccerboard.at/uploads/monthly_2025_08/DSC08019.JPG.28d9a3009e54dcb11944acd77fe67457.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19872_002.jpg",
+				"source": "https://rtgportal.info/wp-content/uploads/2024/08/hnk-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 17901,
+			"name": "Stupčanica Olovo",
+			"code": null,
+			"country": "Bosnia",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/NK_Stup%C4%8Danica_Olovo"
+		},
+		"venue": {
+			"api_football_id": 19873,
+			"name": "Gradski stadion Olovo",
+			"address": null,
+			"city": "Olovo",
+			"capacity": 1300,
+			"surface": "grass",
+			"lat": 44.129373,
+			"lng": 18.587184,
+			"x": 735,
+			"y": 432,
+			"wiki": "https://en.wikipedia.org/wiki/Danac_Stadium"
+		},
+		"league": {
+			"api_football_id": 316,
+			"name": "1st League - FBiH",
+			"country": "Bosnia and Herzegovina",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19873_001.jpg",
+				"source": "https://i.ytimg.com/vi/sjCP4G4B7UU/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFYgZSgoMA8=&rs=AOn4CLBqwTkhGsR7443NnQJfeTwszUowhQ",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19873_002.jpg",
+				"source": "https://www.zenicablog.com/wp-content/uploads/2019/06/Stadion-u-Olovu.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 24
+	},
+	{
+		"team": {
 			"api_football_id": 3366,
 			"name": "Goražde",
 			"code": null,
 			"country": "Bosnia",
-			"founded": 1960
+			"founded": 1960,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Gora%C5%BEde"
 		},
 		"venue": {
 			"api_football_id": 2189,
@@ -507,41 +1392,7 @@
 				"size": 0
 			}
 		],
-		"no": 15
-	},
-	{
-		"team": {
-			"api_football_id": 3380,
-			"name": "TOŠK Tešanj",
-			"code": null,
-			"country": "Bosnia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 2199,
-			"name": "Stadion Luke Tešanj",
-			"address": "Patriotske lige 1",
-			"city": "Tešanj",
-			"capacity": 7000,
-			"surface": "grass",
-			"lat": 44.605526,
-			"lng": 17.982879,
-			"x": 580,
-			"y": 262,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "2199_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 16
+		"no": 25
 	},
 	{
 		"team": {
@@ -549,7 +1400,8 @@
 			"name": "Zvijezda Gradačac",
 			"code": "ZVI",
 			"country": "Bosnia",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": "https://en.wikipedia.org/wiki/NK_Zvijezda_Grada%C4%8Dac"
 		},
 		"venue": {
 			"api_football_id": 2201,
@@ -575,41 +1427,7 @@
 				"size": 0
 			}
 		],
-		"no": 17
-	},
-	{
-		"team": {
-			"api_football_id": 4278,
-			"name": "Bratstvo Gračanica",
-			"code": "BRA",
-			"country": "Bosnia",
-			"founded": 1945
-		},
-		"venue": {
-			"api_football_id": 3270,
-			"name": "Gradski stadion Luke",
-			"address": "Patriotske lige bb",
-			"city": "Gračanica",
-			"capacity": 3000,
-			"surface": "grass",
-			"lat": 44.694458,
-			"lng": 18.297518,
-			"x": 660,
-			"y": 230,
-			"wiki": "https://bs.wikipedia.org/wiki/Stadion_Luke_(Gra%C4%8Danica)"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3270_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 18
+		"no": 26
 	},
 	{
 		"team": {
@@ -617,7 +1435,8 @@
 			"name": "Radnički Lukavac",
 			"code": null,
 			"country": "Bosnia",
-			"founded": null
+			"founded": null,
+			"wiki": "https://bs.wikipedia.org/wiki/FK_Radni%C4%8Dki_Lukavac"
 		},
 		"venue": {
 			"api_football_id": 3280,
@@ -643,143 +1462,7 @@
 				"size": 0
 			}
 		],
-		"no": 19
-	},
-	{
-		"team": {
-			"api_football_id": 4297,
-			"name": "Travnik",
-			"code": "TRA",
-			"country": "Bosnia",
-			"founded": 1922
-		},
-		"venue": {
-			"api_football_id": 3282,
-			"name": "Stadion Pirota",
-			"address": "Bosanska bb",
-			"city": "Travnik",
-			"capacity": 3200,
-			"surface": "grass",
-			"lat": 44.224705,
-			"lng": 17.645403,
-			"x": 494,
-			"y": 398,
-			"wiki": "https://en.wikipedia.org/wiki/Stadion_Pirota"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3282_001.jpg",
-				"source": "https://bs.wikipedia.org/wiki/Stadion_Pirota#/media/Datoteka:Stadion_Pirota.JPG",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 20
-	},
-	{
-		"team": {
-			"api_football_id": 7528,
-			"name": "Budućnost Banovići",
-			"code": null,
-			"country": "Bosnia",
-			"founded": 1947
-		},
-		"venue": {
-			"api_football_id": 5462,
-			"name": "Gradski Stadion",
-			"address": "Branilaca Banovića 10",
-			"city": "Banovići",
-			"capacity": 4600,
-			"surface": "grass",
-			"lat": 44.413958,
-			"lng": 18.535047,
-			"x": 721,
-			"y": 331,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "5462_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 21
-	},
-	{
-		"team": {
-			"api_football_id": 7529,
-			"name": "Jedinstvo Bihać",
-			"code": null,
-			"country": "Bosnia",
-			"founded": 1919
-		},
-		"venue": {
-			"api_football_id": 5463,
-			"name": "Stadion Pod Borićima",
-			"address": "Aleja bb",
-			"city": "Bihać",
-			"capacity": 7500,
-			"surface": "grass",
-			"lat": 44.806667,
-			"lng": 15.863889,
-			"x": 38,
-			"y": 190,
-			"wiki": "https://en.wikipedia.org/wiki/Stadion_pod_Bori%C4%87ima"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "5463_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 22
-	},
-	{
-		"team": {
-			"api_football_id": 7531,
-			"name": "Radnik Hadžići",
-			"code": null,
-			"country": "Bosnia",
-			"founded": 1948
-		},
-		"venue": {
-			"api_football_id": 5464,
-			"name": "Gradski stadion",
-			"address": "Anđelka Lažetića bb",
-			"city": "Hadžići",
-			"capacity": 1500,
-			"surface": "grass",
-			"lat": 43.821719,
-			"lng": 18.195861,
-			"x": 634,
-			"y": 541,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "5464_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 23
+		"no": 27
 	},
 	{
 		"team": {
@@ -787,7 +1470,8 @@
 			"name": "Vis Kosova",
 			"code": null,
 			"country": "Bosnia",
-			"founded": 1975
+			"founded": 1975,
+			"wiki": "https://en.wikipedia.org/wiki/BFK_Vis_Simm-Bau"
 		},
 		"venue": {
 			"api_football_id": 19871,
@@ -813,7 +1497,7 @@
 				"size": 0
 			}
 		],
-		"no": 24
+		"no": 28
 	},
 	{
 		"team": {
@@ -821,7 +1505,8 @@
 			"name": "Gradina",
 			"code": null,
 			"country": "Bosnia",
-			"founded": 1963
+			"founded": 1963,
+			"wiki": "https://en.wikipedia.org/wiki/OFK_Gradina"
 		},
 		"venue": {
 			"api_football_id": 12152,
@@ -847,75 +1532,7 @@
 				"size": 0
 			}
 		],
-		"no": 25
-	},
-	{
-		"team": {
-			"api_football_id": 17372,
-			"name": "Tomislav",
-			"code": null,
-			"country": "Bosnia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 19872,
-			"name": "Stadion Tomislavgrad",
-			"address": null,
-			"city": "Tomislavgrad",
-			"capacity": 3000,
-			"surface": "grass",
-			"lat": 43.715035,
-			"lng": 17.235814,
-			"x": 389,
-			"y": 579,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "19872_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 26
-	},
-	{
-		"team": {
-			"api_football_id": 17901,
-			"name": "Stupčanica Olovo",
-			"code": null,
-			"country": "Bosnia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 19873,
-			"name": "Gradski stadion Olovo",
-			"address": null,
-			"city": "Olovo",
-			"capacity": 1300,
-			"surface": "grass",
-			"lat": 44.129373,
-			"lng": 18.587184,
-			"x": 735,
-			"y": 432,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "19873_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 27
+		"no": 29
 	},
 	{
 		"team": {
@@ -923,7 +1540,8 @@
 			"name": "Gornji Rahić",
 			"code": null,
 			"country": "Bosnia",
-			"founded": 1936
+			"founded": 1936,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 20781,
@@ -949,7 +1567,7 @@
 				"size": 0
 			}
 		],
-		"no": 28
+		"no": 30
 	},
 	{
 		"team": {
@@ -957,7 +1575,8 @@
 			"name": "Zvijezda 09",
 			"code": null,
 			"country": "Bosnia",
-			"founded": 2009
+			"founded": 2009,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Zvijezda_09"
 		},
 		"venue": {
 			"api_football_id": 2185,
@@ -983,7 +1602,7 @@
 				"size": 0
 			}
 		],
-		"no": 29
+		"no": 31
 	},
 	{
 		"team": {
@@ -991,7 +1610,8 @@
 			"name": "Mladost Doboj Kakanj",
 			"code": null,
 			"country": "Bosnia",
-			"founded": 1959
+			"founded": 1959,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Mladost_Doboj_Kakanj"
 		},
 		"venue": {
 			"api_football_id": 2182,
@@ -1017,7 +1637,7 @@
 				"size": 0
 			}
 		],
-		"no": 30
+		"no": 32
 	},
 	{
 		"team": {
@@ -1025,7 +1645,8 @@
 			"name": "Rudar Kakanj",
 			"code": null,
 			"country": "Bosnia",
-			"founded": 1920
+			"founded": 1920,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Rudar_Kakanj"
 		},
 		"venue": {
 			"api_football_id": 2195,
@@ -1051,6 +1672,6 @@
 				"size": 0
 			}
 		],
-		"no": 31
+		"no": 33
 	}
 ]

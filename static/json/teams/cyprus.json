@@ -5,7 +5,8 @@
 			"name": "Apollon Limassol",
 			"code": "APO",
 			"country": "Cyprus",
-			"founded": 1954
+			"founded": 1954,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 19616,
@@ -44,7 +45,8 @@
 			"name": "AEK Larnaca",
 			"code": "LAR",
 			"country": "Cyprus",
-			"founded": 1994
+			"founded": 1994,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 430,
@@ -83,7 +85,8 @@
 			"name": "Apoel Nicosia",
 			"code": "APO",
 			"country": "Cyprus",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 432,
@@ -122,7 +125,8 @@
 			"name": "Anorthosis",
 			"code": "ANO",
 			"country": "Cyprus",
-			"founded": 1911
+			"founded": 1911,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 431,
@@ -161,7 +165,8 @@
 			"name": "AEL",
 			"code": "LIM",
 			"country": "Cyprus",
-			"founded": 1930
+			"founded": 1930,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 19616,
@@ -200,7 +205,8 @@
 			"name": "Enosis",
 			"code": "PAR",
 			"country": "Cyprus",
-			"founded": 1936
+			"founded": 1936,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2214,
@@ -235,50 +241,12 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3401,
-			"name": "Nea Salamis",
-			"code": "SAL",
-			"country": "Cyprus",
-			"founded": 1948
-		},
-		"venue": {
-			"api_football_id": 20190,
-			"name": "Stadio Vitex Ammochostos Epistrofi",
-			"address": "Alexandros Raggavis 4",
-			"city": "Larnaca",
-			"capacity": 5500,
-			"surface": "grass",
-			"lat": 34.929722,
-			"lng": 33.613056,
-			"x": 579,
-			"y": 607,
-			"wiki": "https://en.wikipedia.org/wiki/Ammochostos_Stadium"
-		},
-		"league": {
-			"api_football_id": 318,
-			"name": "1. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "20190_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 7
-	},
-	{
-		"team": {
 			"api_football_id": 3402,
 			"name": "Omonia Nicosia",
 			"code": "OMO",
 			"country": "Cyprus",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 432,
@@ -309,7 +277,7 @@
 				"size": 0
 			}
 		],
-		"no": 8
+		"no": 7
 	},
 	{
 		"team": {
@@ -317,7 +285,8 @@
 			"name": "Pafos",
 			"code": "PAP",
 			"country": "Cyprus",
-			"founded": 2014
+			"founded": 2014,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 7134,
@@ -348,6 +317,46 @@
 				"size": 0
 			}
 		],
+		"no": 8
+	},
+	{
+		"team": {
+			"api_football_id": 3406,
+			"name": "Akritas",
+			"code": null,
+			"country": "Cyprus",
+			"founded": 1971,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 2217,
+			"name": "Koinotiko Stadio Chlorakas",
+			"address": "Leoforos Elentherias",
+			"city": "Chloraka",
+			"capacity": 3500,
+			"surface": "grass",
+			"lat": 34.7924,
+			"lng": 32.4126,
+			"x": 61,
+			"y": 679,
+			"wiki": "https://en.wikipedia.org/wiki/Chloraka_Municipal_Stadium"
+		},
+		"league": {
+			"api_football_id": 318,
+			"name": "1. Division",
+			"country": "Cyprus",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2217_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 9
 	},
 	{
@@ -356,7 +365,8 @@
 			"name": "Aris",
 			"code": "ARI",
 			"country": "Cyprus",
-			"founded": 1930
+			"founded": 1930,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 19616,
@@ -395,7 +405,8 @@
 			"name": "Ethnikos Achna",
 			"code": "ETH",
 			"country": "Cyprus",
-			"founded": 1968
+			"founded": 1968,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2222,
@@ -430,24 +441,25 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3413,
-			"name": "Karmiotissa",
-			"code": "KAR",
+			"api_football_id": 3415,
+			"name": "Olympiakos",
+			"code": "OLY",
 			"country": "Cyprus",
-			"founded": 1979
+			"founded": 1931,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 2223,
-			"name": "Dimotiko Stadio Pano Polemidias",
-			"address": null,
-			"city": "Pano Polemidia",
-			"capacity": 1500,
-			"surface": "artificial turf",
-			"lat": 34.702019,
-			"lng": 32.988743,
-			"x": 309,
-			"y": 726,
-			"wiki": ""
+			"api_football_id": 2213,
+			"name": "Makareio Stadio",
+			"address": "Stadiou, Makedonitissa",
+			"city": "Lefkosía",
+			"capacity": 16000,
+			"surface": "grass",
+			"lat": 35.146111,
+			"lng": 33.314444,
+			"x": 450,
+			"y": 493,
+			"wiki": "https://en.wikipedia.org/wiki/Makario_Stadium"
 		},
 		"league": {
 			"api_football_id": 318,
@@ -457,7 +469,7 @@
 		},
 		"images": [
 			{
-				"name": "2223_001.jpg",
+				"name": "2213_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -473,7 +485,8 @@
 			"name": "Omonia Aradippou",
 			"code": "OMO",
 			"country": "Cyprus",
-			"founded": 1929
+			"founded": 1929,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2215,
@@ -508,6 +521,114 @@
 	},
 	{
 		"team": {
+			"api_football_id": 3424,
+			"name": "Digenis Ypsonas",
+			"code": null,
+			"country": "Cyprus",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 19078,
+			"name": "Gipedo Stelios Chari",
+			"address": null,
+			"city": "Ypsonas",
+			"capacity": 1000,
+			"surface": "grass",
+			"lat": 34.679135,
+			"lng": 32.955103,
+			"x": 295,
+			"y": 738,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 318,
+			"name": "1. Division",
+			"country": "Cyprus",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19078_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 3401,
+			"name": "Nea Salamis",
+			"code": "SAL",
+			"country": "Cyprus",
+			"founded": 1948
+		},
+		"venue": {
+			"api_football_id": 20190,
+			"name": "Stadio Vitex Ammochostos Epistrofi",
+			"address": "Alexandros Raggavis 4",
+			"city": "Larnaca",
+			"capacity": 5500,
+			"surface": "grass",
+			"lat": 34.929722,
+			"lng": 33.613056,
+			"x": 579,
+			"y": 607,
+			"wiki": "https://en.wikipedia.org/wiki/Ammochostos_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "20190_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 3413,
+			"name": "Karmiotissa",
+			"code": "KAR",
+			"country": "Cyprus",
+			"founded": 1979
+		},
+		"venue": {
+			"api_football_id": 2223,
+			"name": "Dimotiko Stadio Pano Polemidias",
+			"address": null,
+			"city": "Pano Polemidia",
+			"capacity": 1500,
+			"surface": "artificial turf",
+			"lat": 34.702019,
+			"lng": 32.988743,
+			"x": 309,
+			"y": 726,
+			"wiki": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "2223_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 16
+	},
+	{
+		"team": {
 			"api_football_id": 14126,
 			"name": "Omonia 29is Maiou",
 			"code": null,
@@ -527,12 +648,7 @@
 			"y": 493,
 			"wiki": "https://en.wikipedia.org/wiki/Makario_Stadium"
 		},
-		"league": {
-			"api_football_id": 318,
-			"name": "1. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2213_001.jpg",
@@ -543,7 +659,7 @@
 				"size": 0
 			}
 		],
-		"no": 14
+		"no": 17
 	},
 	{
 		"team": {
@@ -566,12 +682,7 @@
 			"y": 502,
 			"wiki": "https://en.wikipedia.org/wiki/Katokopia_Stadium"
 		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "20303_001.jpg",
@@ -582,7 +693,7 @@
 				"size": 0
 			}
 		],
-		"no": 15
+		"no": 18
 	},
 	{
 		"team": {
@@ -605,12 +716,7 @@
 			"y": 708,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19790_001.jpg",
@@ -621,7 +727,7 @@
 				"size": 0
 			}
 		],
-		"no": 16
+		"no": 19
 	},
 	{
 		"team": {
@@ -644,12 +750,7 @@
 			"y": 609,
 			"wiki": "https://en.wikipedia.org/wiki/AEK_Arena_%E2%80%93_Georgios_Karapatakis"
 		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "430_001.jpg",
@@ -660,46 +761,7 @@
 				"size": 0
 			}
 		],
-		"no": 17
-	},
-	{
-		"team": {
-			"api_football_id": 3406,
-			"name": "Akritas",
-			"code": null,
-			"country": "Cyprus",
-			"founded": 1971
-		},
-		"venue": {
-			"api_football_id": 2217,
-			"name": "Koinotiko Stadio Chlorakas",
-			"address": "Leoforos Elentherias",
-			"city": "Chloraka",
-			"capacity": 3500,
-			"surface": "grass",
-			"lat": 34.7924,
-			"lng": 32.4126,
-			"x": 61,
-			"y": 679,
-			"wiki": "https://en.wikipedia.org/wiki/Chloraka_Municipal_Stadium"
-		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2217_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 18
+		"no": 20
 	},
 	{
 		"team": {
@@ -722,12 +784,7 @@
 			"y": 542,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2218_001.jpg",
@@ -738,7 +795,7 @@
 				"size": 0
 			}
 		],
-		"no": 19
+		"no": 21
 	},
 	{
 		"team": {
@@ -761,12 +818,7 @@
 			"y": 574,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2219_001.jpg",
@@ -777,7 +829,7 @@
 				"size": 0
 			}
 		],
-		"no": 20
+		"no": 22
 	},
 	{
 		"team": {
@@ -800,12 +852,7 @@
 			"y": 560,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2224_001.jpg",
@@ -816,46 +863,7 @@
 				"size": 0
 			}
 		],
-		"no": 21
-	},
-	{
-		"team": {
-			"api_football_id": 3415,
-			"name": "Olympiakos",
-			"code": "OLY",
-			"country": "Cyprus",
-			"founded": 1931
-		},
-		"venue": {
-			"api_football_id": 2213,
-			"name": "Makareio Stadio",
-			"address": "Stadiou, Makedonitissa",
-			"city": "Lefkosía",
-			"capacity": 16000,
-			"surface": "grass",
-			"lat": 35.146111,
-			"lng": 33.314444,
-			"x": 450,
-			"y": 493,
-			"wiki": "https://en.wikipedia.org/wiki/Makario_Stadium"
-		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2213_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 22
+		"no": 23
 	},
 	{
 		"team": {
@@ -878,12 +886,7 @@
 			"y": 538,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2226_001.jpg",
@@ -894,7 +897,7 @@
 				"size": 0
 			}
 		],
-		"no": 23
+		"no": 24
 	},
 	{
 		"team": {
@@ -917,12 +920,7 @@
 			"y": 500,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2227_001.jpg",
@@ -933,7 +931,7 @@
 				"size": 0
 			}
 		],
-		"no": 24
+		"no": 25
 	},
 	{
 		"team": {
@@ -956,54 +954,10 @@
 			"y": 493,
 			"wiki": "https://en.wikipedia.org/wiki/Makario_Stadium"
 		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2213_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 25
-	},
-	{
-		"team": {
-			"api_football_id": 3424,
-			"name": "Digenis Ypsonas",
-			"code": null,
-			"country": "Cyprus",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 19078,
-			"name": "Gipedo Stelios Chari",
-			"address": null,
-			"city": "Ypsonas",
-			"capacity": 1000,
-			"surface": "grass",
-			"lat": 34.679135,
-			"lng": 32.955103,
-			"x": 295,
-			"y": 738,
-			"wiki": ""
-		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "19078_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1034,12 +988,7 @@
 			"y": 556,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2234_001.jpg",
@@ -1073,12 +1022,7 @@
 			"y": 636,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2238_001.jpg",
@@ -1112,12 +1056,7 @@
 			"y": 558,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2225_001.jpg",
@@ -1151,12 +1090,7 @@
 			"y": 649,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 319,
-			"name": "2. Division",
-			"country": "Cyprus",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "20149_001.jpg",
