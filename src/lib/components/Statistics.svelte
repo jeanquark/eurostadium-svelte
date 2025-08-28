@@ -3,8 +3,11 @@
     import { leagueStore } from "@store/league";
     import { supabase } from "@lib/supabase/supabaseClient";
     import { hasAnimationPlayed } from "@store/animation";
+    import Country from "./icons/Country.svelte";
 
     $: startAnimation = !$hasAnimationPlayed;
+
+    let iconColor = "#000";
 
     onMount(() => {
         // // 1) Countries
@@ -99,9 +102,7 @@
 </script>
 
 <div class="hidden-md-and-up">
-    <div
-        style="display: flex; flex-direction: row; overflow: auto;"
-    >
+    <div style="display: flex; flex-direction: row; overflow: auto;">
         <div class="col-6 text-center border-0">
             <div class="box mr-1">
                 <a href="/countries">
@@ -162,13 +163,9 @@
     <div class="col-sm-6 col-md-3 text-center" style="">
         <div class="box mr-2">
             <a href="/countries">
-                <p>
-                    <img
-                        src="/images/icons/country.svg"
-                        height="30"
-                        alt="Country"
-                    />
-                </p>
+                <span style="display: flex; justify-content: center;">
+                    <Country color="{iconColor}" />
+                </span>
                 <h2 class="my-2" id="country">50</h2>
                 <p style="font-size: 1.3em;">countries</p>
             </a>
@@ -212,7 +209,26 @@
         border: 2px solid #ccc;
         border-radius: 0.5em;
     }
+    .box p {
+        color: #000;
+    }
     .box h2 {
         color: var(--color-theme-1);
+    }
+
+    .box a {
+        text-decoration: none;
+    }
+
+    .box:hover {
+        background-image: url("/images/grass_01.jpg");
+        background-size: cover;
+        background-position: center;
+        transition: background-image 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .box:hover h2,
+    .box:hover p {
+        color: #fff;
     }
 </style>
