@@ -6,7 +6,7 @@
 			"code": "APO",
 			"country": "Cyprus",
 			"founded": 1954,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Apollon_Limassol_FC"
 		},
 		"venue": {
 			"api_football_id": 19616,
@@ -46,7 +46,7 @@
 			"code": "LAR",
 			"country": "Cyprus",
 			"founded": 1994,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/AEK_Larnaca_FC"
 		},
 		"venue": {
 			"api_football_id": 430,
@@ -86,7 +86,7 @@
 			"code": "APO",
 			"country": "Cyprus",
 			"founded": 1926,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/APOEL_Nicosia"
 		},
 		"venue": {
 			"api_football_id": 432,
@@ -126,7 +126,7 @@
 			"code": "ANO",
 			"country": "Cyprus",
 			"founded": 1911,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Anorthosis_Famagusta_FC"
 		},
 		"venue": {
 			"api_football_id": 431,
@@ -166,7 +166,7 @@
 			"code": "LIM",
 			"country": "Cyprus",
 			"founded": 1930,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/AEL_Limassol"
 		},
 		"venue": {
 			"api_football_id": 19616,
@@ -206,7 +206,7 @@
 			"code": "PAR",
 			"country": "Cyprus",
 			"founded": 1936,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Enosis_Neon_Paralimni_FC"
 		},
 		"venue": {
 			"api_football_id": 2214,
@@ -246,7 +246,7 @@
 			"code": "OMO",
 			"country": "Cyprus",
 			"founded": 1948,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/AC_Omonia"
 		},
 		"venue": {
 			"api_football_id": 432,
@@ -286,7 +286,7 @@
 			"code": "PAP",
 			"country": "Cyprus",
 			"founded": 2014,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Pafos_FC"
 		},
 		"venue": {
 			"api_football_id": 7134,
@@ -326,7 +326,7 @@
 			"code": null,
 			"country": "Cyprus",
 			"founded": 1971,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Akritas_Chlorakas"
 		},
 		"venue": {
 			"api_football_id": 2217,
@@ -366,7 +366,7 @@
 			"code": "ARI",
 			"country": "Cyprus",
 			"founded": 1930,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Aris_Limassol_FC"
 		},
 		"venue": {
 			"api_football_id": 19616,
@@ -406,7 +406,7 @@
 			"code": "ETH",
 			"country": "Cyprus",
 			"founded": 1968,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Ethnikos_Achna_FC"
 		},
 		"venue": {
 			"api_football_id": 2222,
@@ -446,7 +446,7 @@
 			"code": "OLY",
 			"country": "Cyprus",
 			"founded": 1931,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Olympiakos_Nicosia"
 		},
 		"venue": {
 			"api_football_id": 2213,
@@ -486,7 +486,7 @@
 			"code": "OMO",
 			"country": "Cyprus",
 			"founded": 1929,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Omonia_Aradippou"
 		},
 		"venue": {
 			"api_football_id": 2215,
@@ -526,7 +526,7 @@
 			"code": null,
 			"country": "Cyprus",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Krasava_ENY_Ypsonas_FC"
 		},
 		"venue": {
 			"api_football_id": 19078,
@@ -565,7 +565,8 @@
 			"name": "Nea Salamis",
 			"code": "SAL",
 			"country": "Cyprus",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": "https://en.wikipedia.org/wiki/Nea_Salamis_Famagusta"
 		},
 		"venue": {
 			"api_football_id": 20190,
@@ -599,7 +600,8 @@
 			"name": "Karmiotissa",
 			"code": "KAR",
 			"country": "Cyprus",
-			"founded": 1979
+			"founded": 1979,
+			"wiki": "https://en.wikipedia.org/wiki/Karmiotissa_FC"
 		},
 		"venue": {
 			"api_football_id": 2223,
@@ -633,7 +635,8 @@
 			"name": "Omonia 29is Maiou",
 			"code": null,
 			"country": "Cyprus",
-			"founded": 2018
+			"founded": 2018,
+			"wiki": "https://en.wikipedia.org/wiki/PAC_Omonia_29M"
 		},
 		"venue": {
 			"api_football_id": 2213,
@@ -667,7 +670,8 @@
 			"name": "Doxa",
 			"code": "DOX",
 			"country": "Cyprus",
-			"founded": 1954
+			"founded": 1954,
+			"wiki": "https://en.wikipedia.org/wiki/Doxa_Katokopias_FC"
 		},
 		"venue": {
 			"api_football_id": 20303,
@@ -701,7 +705,8 @@
 			"name": "AE Zakakiou",
 			"code": "ZAK",
 			"country": "Cyprus",
-			"founded": 1956
+			"founded": 1956,
+			"wiki": "https://en.wikipedia.org/wiki/AEZ_Zakakiou"
 		},
 		"venue": {
 			"api_football_id": 19790,
@@ -714,7 +719,7 @@
 			"lng": 33.160754,
 			"x": 384,
 			"y": 708,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Ammochostos_Stadium"
 		},
 		"league": {},
 		"images": [
@@ -735,7 +740,8 @@
 			"name": "ASIL Lysi",
 			"code": null,
 			"country": "Cyprus",
-			"founded": 1932
+			"founded": 1932,
+			"wiki": "https://en.wikipedia.org/wiki/ASIL_Lysi"
 		},
 		"venue": {
 			"api_football_id": 430,
@@ -769,7 +775,8 @@
 			"name": "Anagennisi Deryneia",
 			"code": "ANA",
 			"country": "Cyprus",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Anagennisi_Deryneia_FC"
 		},
 		"venue": {
 			"api_football_id": 2218,
@@ -803,7 +810,8 @@
 			"name": "Ayia Napa",
 			"code": "AYI",
 			"country": "Cyprus",
-			"founded": 1990
+			"founded": 1990,
+			"wiki": "https://en.wikipedia.org/wiki/Ayia_Napa_FC"
 		},
 		"venue": {
 			"api_football_id": 2219,
@@ -837,7 +845,8 @@
 			"name": "MEAP Nisou",
 			"code": null,
 			"country": "Cyprus",
-			"founded": 1980
+			"founded": 1980,
+			"wiki": "https://en.wikipedia.org/wiki/MEAP_Nisou"
 		},
 		"venue": {
 			"api_football_id": 2224,
@@ -871,7 +880,8 @@
 			"name": "Othellos",
 			"code": "OTH",
 			"country": "Cyprus",
-			"founded": 1933
+			"founded": 1933,
+			"wiki": "https://en.wikipedia.org/wiki/Othellos_Athienou_FC"
 		},
 		"venue": {
 			"api_football_id": 2226,
@@ -884,7 +894,7 @@
 			"lng": 33.532742,
 			"x": 544,
 			"y": 538,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Ammochostos_Stadium"
 		},
 		"league": {},
 		"images": [
@@ -905,7 +915,8 @@
 			"name": "PAEEK",
 			"code": "PAE",
 			"country": "Cyprus",
-			"founded": 1953
+			"founded": 1953,
+			"wiki": "https://en.wikipedia.org/wiki/PAEEK_Kyrenia"
 		},
 		"venue": {
 			"api_football_id": 2227,
@@ -939,7 +950,8 @@
 			"name": "Digenis Morphou",
 			"code": null,
 			"country": "Cyprus",
-			"founded": 1931
+			"founded": 1931,
+			"wiki": "https://en.wikipedia.org/wiki/Digenis_Akritas_Morphou_FC"
 		},
 		"venue": {
 			"api_football_id": 2213,
@@ -973,7 +985,8 @@
 			"name": "Halkanoras",
 			"code": "HAL",
 			"country": "Cyprus",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": "https://en.wikipedia.org/wiki/Chalkanoras_Idaliou"
 		},
 		"venue": {
 			"api_football_id": 2234,
@@ -1007,7 +1020,8 @@
 			"name": "Peyia",
 			"code": null,
 			"country": "Cyprus",
-			"founded": 2014
+			"founded": 2014,
+			"wiki": "https://en.wikipedia.org/wiki/Peyia_2014"
 		},
 		"venue": {
 			"api_football_id": 2238,
@@ -1041,7 +1055,8 @@
 			"name": "Ahironas / Onisilos",
 			"code": null,
 			"country": "Cyprus",
-			"founded": 2022
+			"founded": 2022,
+			"wiki": "https://en.wikipedia.org/wiki/Achyronas-Onisilos_FC"
 		},
 		"venue": {
 			"api_football_id": 2225,
@@ -1075,7 +1090,8 @@
 			"name": "Spartakos Kitiou",
 			"code": null,
 			"country": "Cyprus",
-			"founded": 1958
+			"founded": 1958,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 20149,
@@ -1109,7 +1125,8 @@
 			"name": "Ermis",
 			"code": "ERM",
 			"country": "Cyprus",
-			"founded": 1958
+			"founded": 1958,
+			"wiki": "https://en.wikipedia.org/wiki/Ermis_Aradippou_FC"
 		},
 		"venue": {
 			"api_football_id": 2215,
@@ -1143,7 +1160,8 @@
 			"name": "ENAD",
 			"code": null,
 			"country": "Cyprus",
-			"founded": 1994
+			"founded": 1994,
+			"wiki": "https://en.wikipedia.org/wiki/ENAD_Polis_Chrysochous_FC"
 		},
 		"venue": {
 			"api_football_id": 2231,
@@ -1177,7 +1195,8 @@
 			"name": "Xylotympou",
 			"code": null,
 			"country": "Cyprus",
-			"founded": 2006
+			"founded": 2006,
+			"wiki": "https://en.wikipedia.org/wiki/Podosfairikos_Omilos_Xylotymbou_2006"
 		},
 		"venue": {
 			"api_football_id": 2222,
