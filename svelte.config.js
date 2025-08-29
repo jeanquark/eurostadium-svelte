@@ -25,7 +25,8 @@ const config = {
 			'@components': path.resolve('./src/lib/components'),
 			'@lib': path.resolve('./src/lib'),
 			'@utils': path.resolve('./src/lib/utils'),
-			'@store': path.resolve('./src/store')
+			'@store': path.resolve('./src/store'),
+			'@styles': path.resolve('./src/styles')
 		}
 		// prerender: {
 		// 	handleHttpError: 'fail'
