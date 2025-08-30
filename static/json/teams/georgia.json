@@ -1,50 +1,12 @@
 [
 	{
 		"team": {
-			"api_football_id": 581,
-			"name": "Samtredia",
-			"code": null,
-			"country": "Georgia",
-			"founded": 1936
-		},
-		"venue": {
-			"api_football_id": 692,
-			"name": "Stadioni Erosi Manjgaladze",
-			"address": "85 Ketskhoveli Str.",
-			"city": "Samtredia",
-			"capacity": 5000,
-			"surface": "artificial turf",
-			"lat": 42.1608,
-			"lng": 42.3306,
-			"x": 346,
-			"y": 536,
-			"wiki": "https://en.wikipedia.org/wiki/Erosi_Manjgaladze_Stadium"
-		},
-		"league": {
-			"api_football_id": 327,
-			"name": "Erovnuli Liga",
-			"country": "Georgia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "692_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 1
-	},
-	{
-		"team": {
 			"api_football_id": 685,
 			"name": "Torpedo Kutaisi",
 			"code": "TOR",
 			"country": "Georgia",
-			"founded": 1946
+			"founded": 1946,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 693,
@@ -75,7 +37,7 @@
 				"size": 0
 			}
 		],
-		"no": 2
+		"no": 1
 	},
 	{
 		"team": {
@@ -83,7 +45,8 @@
 			"name": "Dinamo Batumi",
 			"code": "DIN",
 			"country": "Georgia",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2300,
@@ -114,7 +77,7 @@
 				"size": 0
 			}
 		],
-		"no": 3
+		"no": 2
 	},
 	{
 		"team": {
@@ -122,7 +85,8 @@
 			"name": "Dinamo Tbilisi",
 			"code": "DIN",
 			"country": "Georgia",
-			"founded": 1925
+			"founded": 1925,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 691,
@@ -153,7 +117,7 @@
 				"size": 0
 			}
 		],
-		"no": 4
+		"no": 3
 	},
 	{
 		"team": {
@@ -161,7 +125,8 @@
 			"name": "Dila",
 			"code": "DIL",
 			"country": "Georgia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2301,
@@ -192,7 +157,7 @@
 				"size": 0
 			}
 		],
-		"no": 5
+		"no": 4
 	},
 	{
 		"team": {
@@ -200,7 +165,8 @@
 			"name": "Saburtalo",
 			"code": null,
 			"country": "Georgia",
-			"founded": 1999
+			"founded": 1999,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2302,
@@ -231,7 +197,7 @@
 				"size": 0
 			}
 		],
-		"no": 6
+		"no": 5
 	},
 	{
 		"team": {
@@ -239,7 +205,8 @@
 			"name": "Gagra",
 			"code": null,
 			"country": "Georgia",
-			"founded": 2004
+			"founded": 2004,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2306,
@@ -270,7 +237,7 @@
 				"size": 0
 			}
 		],
-		"no": 7
+		"no": 6
 	},
 	{
 		"team": {
@@ -278,7 +245,8 @@
 			"name": "Kolkheti Poti",
 			"code": "KOL",
 			"country": "Georgia",
-			"founded": 1913
+			"founded": 1913,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2308,
@@ -309,7 +277,7 @@
 				"size": 0
 			}
 		],
-		"no": 8
+		"no": 7
 	},
 	{
 		"team": {
@@ -317,7 +285,8 @@
 			"name": "Telavi",
 			"code": null,
 			"country": "Georgia",
-			"founded": 2016
+			"founded": 2016,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2310,
@@ -348,7 +317,7 @@
 				"size": 0
 			}
 		],
-		"no": 9
+		"no": 8
 	},
 	{
 		"team": {
@@ -356,7 +325,8 @@
 			"name": "Samgurali",
 			"code": null,
 			"country": "Georgia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 7054,
@@ -387,7 +357,87 @@
 				"size": 0
 			}
 		],
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 14860,
+			"name": "Gareji",
+			"code": null,
+			"country": "Georgia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": -5963,
+			"y": 7456,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 327,
+			"name": "Erovnuli Liga",
+			"country": "Georgia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 581,
+			"name": "Samtredia",
+			"code": null,
+			"country": "Georgia",
+			"founded": 1936,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 692,
+			"name": "Stadioni Erosi Manjgaladze",
+			"address": "85 Ketskhoveli Str.",
+			"city": "Samtredia",
+			"capacity": 5000,
+			"surface": "artificial turf",
+			"lat": 42.1608,
+			"lng": 42.3306,
+			"x": 346,
+			"y": 536,
+			"wiki": "https://en.wikipedia.org/wiki/Erosi_Manjgaladze_Stadium"
+		},
+		"league": {
+			"api_football_id": 326,
+			"name": "Erovnuli Liga 2",
+			"country": "Georgia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "692_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 11
 	},
 	{
 		"team": {
@@ -395,7 +445,8 @@
 			"name": "Lokomotivi Tbilisi",
 			"code": null,
 			"country": "Georgia",
-			"founded": 1936
+			"founded": 1936,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2302,
@@ -426,7 +477,7 @@
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 12
 	},
 	{
 		"team": {
@@ -434,7 +485,8 @@
 			"name": "Rustavi",
 			"code": null,
 			"country": "Georgia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2303,
@@ -465,7 +517,7 @@
 				"size": 0
 			}
 		],
-		"no": 12
+		"no": 13
 	},
 	{
 		"team": {
@@ -473,7 +525,8 @@
 			"name": "Sioni",
 			"code": "SIO",
 			"country": "Georgia",
-			"founded": 1936
+			"founded": 1936,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2304,
@@ -504,66 +557,28 @@
 				"size": 0
 			}
 		],
-		"no": 13
-	},
-	{
-		"team": {
-			"api_football_id": 3504,
-			"name": "WIT Georgia",
-			"code": "GEO",
-			"country": "Georgia",
-			"founded": 1997
-		},
-		"venue": {
-			"api_football_id": 2305,
-			"name": "Stadioni Mtskheta Parki",
-			"address": null,
-			"city": "Mtskheta",
-			"capacity": 2000,
-			"surface": "artificial turf",
-			"lat": 41.847286,
-			"lng": 44.721492,
-			"x": 702,
-			"y": 598,
-			"wiki": "https://en.wikipedia.org/wiki/Mtskheta_Park"
-		},
-		"league": {
-			"api_football_id": 326,
-			"name": "Erovnuli Liga 2",
-			"country": "Georgia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2305_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 14
 	},
 	{
 		"team": {
-			"api_football_id": 10015,
-			"name": "Aragvi Dusheti",
-			"code": null,
+			"api_football_id": 10016,
+			"name": "Merani Martvili",
+			"code": "MER",
 			"country": "Georgia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 7053,
-			"name": "Tsentraluri Stadioni",
-			"address": null,
-			"city": "Dusheti",
+			"api_football_id": 7054,
+			"name": "Stadioni Murtaz Khurtsilava",
+			"address": "Merani",
+			"city": "Martvili",
 			"capacity": 2000,
 			"surface": "grass",
-			"lat": 42.083361,
-			"lng": 44.695998,
-			"x": 698,
-			"y": 551,
+			"lat": 42.419956,
+			"lng": 42.374825,
+			"x": 352,
+			"y": 484,
 			"wiki": ""
 		},
 		"league": {
@@ -574,8 +589,8 @@
 		},
 		"images": [
 			{
-				"name": "7053_001.jpg",
-				"source": "https://www.europlan-online.de/files/e3d6a57e401bf99d2af16f4864a6afc9.jpg",
+				"name": "7054_001.jpg",
+				"source": "",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -586,23 +601,24 @@
 	},
 	{
 		"team": {
-			"api_football_id": 13853,
-			"name": "Kolkheti Khobi",
-			"code": "KHO",
+			"api_football_id": 13847,
+			"name": "Meshakhte",
+			"code": null,
 			"country": "Georgia",
-			"founded": 1936
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 8572,
-			"name": "Tsentraluri Stadioni",
+			"api_football_id": 8566,
+			"name": "Stadioni Vladimer Bochorishvili",
 			"address": null,
-			"city": "Khobi",
-			"capacity": 12000,
+			"city": "Tkibuli",
+			"capacity": 6000,
 			"surface": "grass",
-			"lat": 42.320015,
-			"lng": 41.904607,
-			"x": 282,
-			"y": 504,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {
@@ -611,16 +627,7 @@
 			"country": "Georgia",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "8572_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 16
 	},
 	{
@@ -629,7 +636,8 @@
 			"name": "Dinamo Tbilisi II",
 			"code": null,
 			"country": "Georgia",
-			"founded": 1925
+			"founded": 1925,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 8582,
@@ -664,11 +672,12 @@
 	},
 	{
 		"team": {
-			"api_football_id": 14860,
-			"name": "Gareji",
+			"api_football_id": 14863,
+			"name": "Saburtalo II",
 			"code": null,
 			"country": "Georgia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": null,
@@ -679,8 +688,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -5963,
-			"y": 7456,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {
@@ -689,16 +698,7 @@
 			"country": "Georgia",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 18
 	},
 	{
@@ -707,7 +707,8 @@
 			"name": "Spaeri",
 			"code": null,
 			"country": "Georgia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": null,
@@ -742,6 +743,139 @@
 	},
 	{
 		"team": {
+			"api_football_id": 18973,
+			"name": "Gonio",
+			"code": null,
+			"country": "Georgia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 326,
+			"name": "Erovnuli Liga 2",
+			"country": "Georgia",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 3504,
+			"name": "WIT Georgia",
+			"code": "GEO",
+			"country": "Georgia",
+			"founded": 1997
+		},
+		"venue": {
+			"api_football_id": 2305,
+			"name": "Stadioni Mtskheta Parki",
+			"address": null,
+			"city": "Mtskheta",
+			"capacity": 2000,
+			"surface": "artificial turf",
+			"lat": 41.847286,
+			"lng": 44.721492,
+			"x": 702,
+			"y": 598,
+			"wiki": "https://en.wikipedia.org/wiki/Mtskheta_Park"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "2305_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 10015,
+			"name": "Aragvi Dusheti",
+			"code": null,
+			"country": "Georgia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 7053,
+			"name": "Tsentraluri Stadioni",
+			"address": null,
+			"city": "Dusheti",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 42.083361,
+			"lng": 44.695998,
+			"x": 698,
+			"y": 551,
+			"wiki": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "7053_001.jpg",
+				"source": "https://www.europlan-online.de/files/e3d6a57e401bf99d2af16f4864a6afc9.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 13853,
+			"name": "Kolkheti Khobi",
+			"code": "KHO",
+			"country": "Georgia",
+			"founded": 1936
+		},
+		"venue": {
+			"api_football_id": 8572,
+			"name": "Tsentraluri Stadioni",
+			"address": null,
+			"city": "Khobi",
+			"capacity": 12000,
+			"surface": "grass",
+			"lat": 42.320015,
+			"lng": 41.904607,
+			"x": 282,
+			"y": 504,
+			"wiki": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "8572_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 23
+	},
+	{
+		"team": {
 			"api_football_id": 16516,
 			"name": "Shturmi",
 			"code": null,
@@ -761,14 +895,9 @@
 			"y": 7456,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 326,
-			"name": "Erovnuli Liga 2",
-			"country": "Georgia",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [],
-		"no": 20
+		"no": 24
 	},
 	{
 		"team": {
@@ -802,7 +931,7 @@
 				"size": 0
 			}
 		],
-		"no": 21
+		"no": 25
 	},
 	{
 		"team": {
@@ -836,40 +965,6 @@
 				"size": 0
 			}
 		],
-		"no": 22
-	},
-	{
-		"team": {
-			"api_football_id": 10016,
-			"name": "Merani Martvili",
-			"code": "MER",
-			"country": "Georgia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 7054,
-			"name": "Stadioni Murtaz Khurtsilava",
-			"address": "Merani",
-			"city": "Martvili",
-			"capacity": 2000,
-			"surface": "grass",
-			"lat": 42.419956,
-			"lng": 42.374825,
-			"x": 352,
-			"y": 484,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "7054_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 23
+		"no": 26
 	}
 ]

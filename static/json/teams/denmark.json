@@ -433,25 +433,25 @@
 	},
 	{
 		"team": {
-			"api_football_id": 402,
-			"name": "Aalborg",
-			"code": "AAL",
+			"api_football_id": 405,
+			"name": "Odense",
+			"code": "ODE",
 			"country": "Denmark",
-			"founded": 1885,
-			"wiki": "https://en.wikipedia.org/wiki/AaB_Fodbold"
+			"founded": 1889,
+			"wiki": "https://en.wikipedia.org/wiki/Odense_Boldklub"
 		},
 		"venue": {
-			"api_football_id": 440,
-			"name": "Aalborg Portland Park",
-			"address": "Harald Jensens Vej 9",
-			"city": "Aalborg",
-			"capacity": 13797,
+			"api_football_id": 456,
+			"name": "Nature Energy Park",
+			"address": "Højstrupvej 7B",
+			"city": "Odense",
+			"capacity": 15790,
 			"surface": "grass",
-			"lat": 57.0515,
-			"lng": 9.8991,
-			"x": 258,
-			"y": 279,
-			"wiki": "https://en.wikipedia.org/wiki/Aalborg_Stadium"
+			"lat": 55.397771,
+			"lng": 10.350055,
+			"x": 321,
+			"y": 698,
+			"wiki": "https://en.wikipedia.org/wiki/Odense_Stadium"
 		},
 		"league": {
 			"api_football_id": 119,
@@ -461,32 +461,32 @@
 		},
 		"images": [
 			{
-				"name": "440_001.jpg",
-				"source": "https://pbs.twimg.com/media/E7DzTR4XMAg2ons.jpg:large",
+				"name": "456_001.jpg",
+				"source": "https://liveculture.dk/wp-content/uploads/2024/01/21973_Nature-Energy-Park_171.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "440_002.jpg",
-				"source": "https://migogaalborg.dk/wp-content/uploads/2020/07/Aalborg_Portland_Park2-scaled.jpeg",
+				"name": "456_002.jpg",
+				"source": "https://campo.dk/wp-content/uploads/2023/07/20211017-170435-l-1920x1279we.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "440_003.jpg",
-				"source": "https://campo.dk/wp-content/uploads/2023/11/superligakampen-aab-ob-pa-aalborg-portland-park-soendag.jpg",
+				"name": "456_003.jpg",
+				"source": "https://estadiosfc.com/wp-content/uploads/2023/09/Odense-stadion.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "440_004.jpg",
-				"source": "https://www.aalborgportland.dk/wp-content/uploads/2023/07/Aalborg-Portland-Park-med-fans-1140x757.png",
+				"name": "456_004.jpg",
+				"source": "https://media.licdn.com/dms/image/v2/D4D22AQFEH8WDS97nBQ/feedshare-shrink_800/feedshare-shrink_800/0/1721475515392?e=2147483647&v=beta&t=C1ArF5Cw_sI1PGltUDenNsRKwM4tEqEMiEENHXJwqyQ",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -641,25 +641,25 @@
 	},
 	{
 		"team": {
-			"api_football_id": 625,
-			"name": "Lyngby",
-			"code": "LYN",
+			"api_football_id": 2061,
+			"name": "FC Fredericia",
+			"code": "FRE",
 			"country": "Denmark",
-			"founded": 1921,
-			"wiki": "https://en.wikipedia.org/wiki/Lyngby_Boldklub"
+			"founded": 1991,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Fredericia"
 		},
 		"venue": {
-			"api_football_id": 452,
-			"name": "Lyngby Stadion",
-			"address": "Lundtoftevej 53",
-			"city": "Lyngby",
-			"capacity": 10100,
+			"api_football_id": 446,
+			"name": "Monjasa Park",
+			"address": "Vestre Ringvej 102",
+			"city": "Fredericia",
+			"capacity": 4000,
 			"surface": "grass",
-			"lat": 55.78134,
-			"lng": 12.505628,
-			"x": 626,
-			"y": 603,
-			"wiki": "https://en.wikipedia.org/wiki/Lyngby_Stadium"
+			"lat": 55.57825,
+			"lng": 9.7286,
+			"x": 233,
+			"y": 654,
+			"wiki": "https://en.wikipedia.org/wiki/Fredericia_Stadium"
 		},
 		"league": {
 			"api_football_id": 119,
@@ -669,32 +669,24 @@
 		},
 		"images": [
 			{
-				"name": "452_001.jpg",
-				"source": "https://www.cfmoller.com/imgintra/img-79168-w1244-h700-tD.jpg",
+				"name": "446_001.jpg",
+				"source": "https://www.f-i-c.dk/sites/fic.subsites.fredericia.dk/files/monjasa_park.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "452_002.jpg",
-				"source": "https://i.ytimg.com/vi/TTSO4ra_IPk/maxresdefault.jpg",
+				"name": "446_002.jpg",
+				"source": "https://dkel.nu/media/1573/monjasa-park_0009.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "452_003.jpg",
-				"source": "https://smooth-storage.aptoma.no/users/sndk/images/106323295.jpg?t[quality]=85&accessToken=ad1a2ea5fa17a631edc1b2bc3b86781ce4f24338a2880679b078af4578fd0710",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "452_004.jpg",
-				"source": "https://www.hoffmann.dk/wp-content/uploads/2023/10/hoffmann.projekter.lyngbystadion2-scaled.jpeg",
+				"name": "446_003.jpg",
+				"source": "https://f.nordiskemedier.dk/23g30gn3c0iweivb.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -841,25 +833,25 @@
 	},
 	{
 		"team": {
-			"api_football_id": 399,
-			"name": "Vendsyssel FF",
-			"code": "VEN",
+			"api_football_id": 402,
+			"name": "Aalborg",
+			"code": "AAL",
 			"country": "Denmark",
-			"founded": 1886,
-			"wiki": "https://en.wikipedia.org/wiki/Vendsyssel_FF"
+			"founded": 1885,
+			"wiki": "https://en.wikipedia.org/wiki/AaB_Fodbold"
 		},
 		"venue": {
-			"api_football_id": 448,
-			"name": "Nord Energi Arena",
-			"address": "Tørholmsvej 10",
-			"city": "Hjørring",
-			"capacity": 7500,
+			"api_football_id": 440,
+			"name": "Aalborg Portland Park",
+			"address": "Harald Jensens Vej 9",
+			"city": "Aalborg",
+			"capacity": 13797,
 			"surface": "grass",
-			"lat": 57.457661,
-			"lng": 9.998506,
-			"x": 272,
-			"y": 173,
-			"wiki": "https://en.wikipedia.org/wiki/Hj%C3%B8rring_Stadium"
+			"lat": 57.0515,
+			"lng": 9.8991,
+			"x": 258,
+			"y": 279,
+			"wiki": "https://en.wikipedia.org/wiki/Aalborg_Stadium"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -869,24 +861,32 @@
 		},
 		"images": [
 			{
-				"name": "448_001.jpg",
-				"source": "https://www.info-stades.fr/uploads/stades/aalborg-stadion-27535.jpg",
+				"name": "440_001.jpg",
+				"source": "https://pbs.twimg.com/media/E7DzTR4XMAg2ons.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "448_002.jpg",
-				"source": "https://vendsysselff.dk/wp-content/uploads/2022/08/Print-0091-1920x500.jpg",
+				"name": "440_002.jpg",
+				"source": "https://migogaalborg.dk/wp-content/uploads/2020/07/Aalborg_Portland_Park2-scaled.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "448_003.jpg",
-				"source": "https://pbs.twimg.com/media/GNytNpDWgAEexnn.jpg:large",
+				"name": "440_003.jpg",
+				"source": "https://campo.dk/wp-content/uploads/2023/11/superligakampen-aab-ob-pa-aalborg-portland-park-soendag.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "440_004.jpg",
+				"source": "https://www.aalborgportland.dk/wp-content/uploads/2023/07/Aalborg-Portland-Park-med-fans-1140x757.png",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1025,70 +1025,6 @@
 	},
 	{
 		"team": {
-			"api_football_id": 405,
-			"name": "Odense",
-			"code": "ODE",
-			"country": "Denmark",
-			"founded": 1889,
-			"wiki": "https://en.wikipedia.org/wiki/Odense_Boldklub"
-		},
-		"venue": {
-			"api_football_id": 456,
-			"name": "Nature Energy Park",
-			"address": "Højstrupvej 7B",
-			"city": "Odense",
-			"capacity": 15790,
-			"surface": "grass",
-			"lat": 55.397771,
-			"lng": 10.350055,
-			"x": 321,
-			"y": 698,
-			"wiki": "https://en.wikipedia.org/wiki/Odense_Stadium"
-		},
-		"league": {
-			"api_football_id": 120,
-			"name": "1. Division",
-			"country": "Denmark",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "456_001.jpg",
-				"source": "https://liveculture.dk/wp-content/uploads/2024/01/21973_Nature-Energy-Park_171.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "456_002.jpg",
-				"source": "https://campo.dk/wp-content/uploads/2023/07/20211017-170435-l-1920x1279we.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "456_003.jpg",
-				"source": "https://estadiosfc.com/wp-content/uploads/2023/09/Odense-stadion.webp",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "456_004.jpg",
-				"source": "https://media.licdn.com/dms/image/v2/D4D22AQFEH8WDS97nBQ/feedshare-shrink_800/feedshare-shrink_800/0/1721475515392?e=2147483647&v=beta&t=C1ArF5Cw_sI1PGltUDenNsRKwM4tEqEMiEENHXJwqyQ",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 16
-	},
-	{
-		"team": {
 			"api_football_id": 408,
 			"name": "Hobro",
 			"code": "HOB",
@@ -1141,29 +1077,29 @@
 				"size": 0
 			}
 		],
-		"no": 17
+		"no": 16
 	},
 	{
 		"team": {
-			"api_football_id": 2061,
-			"name": "FC Fredericia",
-			"code": "FRE",
+			"api_football_id": 625,
+			"name": "Lyngby",
+			"code": "LYN",
 			"country": "Denmark",
-			"founded": 1991,
-			"wiki": "https://en.wikipedia.org/wiki/FC_Fredericia"
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/Lyngby_Boldklub"
 		},
 		"venue": {
-			"api_football_id": 446,
-			"name": "Monjasa Park",
-			"address": "Vestre Ringvej 102",
-			"city": "Fredericia",
-			"capacity": 4000,
+			"api_football_id": 452,
+			"name": "Lyngby Stadion",
+			"address": "Lundtoftevej 53",
+			"city": "Lyngby",
+			"capacity": 10100,
 			"surface": "grass",
-			"lat": 55.57825,
-			"lng": 9.7286,
-			"x": 233,
-			"y": 654,
-			"wiki": "https://en.wikipedia.org/wiki/Fredericia_Stadium"
+			"lat": 55.78134,
+			"lng": 12.505628,
+			"x": 626,
+			"y": 603,
+			"wiki": "https://en.wikipedia.org/wiki/Lyngby_Stadium"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -1173,31 +1109,39 @@
 		},
 		"images": [
 			{
-				"name": "446_001.jpg",
-				"source": "https://www.f-i-c.dk/sites/fic.subsites.fredericia.dk/files/monjasa_park.jpg",
+				"name": "452_001.jpg",
+				"source": "https://www.cfmoller.com/imgintra/img-79168-w1244-h700-tD.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "446_002.jpg",
-				"source": "https://dkel.nu/media/1573/monjasa-park_0009.jpg",
+				"name": "452_002.jpg",
+				"source": "https://i.ytimg.com/vi/TTSO4ra_IPk/maxresdefault.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "446_003.jpg",
-				"source": "https://f.nordiskemedier.dk/23g30gn3c0iweivb.jpg",
+				"name": "452_003.jpg",
+				"source": "https://smooth-storage.aptoma.no/users/sndk/images/106323295.jpg?t[quality]=85&accessToken=ad1a2ea5fa17a631edc1b2bc3b86781ce4f24338a2880679b078af4578fd0710",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "452_004.jpg",
+				"source": "https://www.hoffmann.dk/wp-content/uploads/2023/10/hoffmann.projekter.lyngbystadion2-scaled.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 18
+		"no": 17
 	},
 	{
 		"team": {
@@ -1253,47 +1197,7 @@
 				"size": 0
 			}
 		],
-		"no": 19
-	},
-	{
-		"team": {
-			"api_football_id": 2067,
-			"name": "Roskilde",
-			"code": "ROS",
-			"country": "Denmark",
-			"founded": 2004,
-			"wiki": "https://en.wikipedia.org/wiki/FC_Roskilde"
-		},
-		"venue": {
-			"api_football_id": 458,
-			"name": "Roskilde Idrætspark",
-			"address": "Rådmandshaven 6",
-			"city": "Roskilde",
-			"capacity": 6000,
-			"surface": "grass",
-			"lat": 55.636838,
-			"lng": 12.072474,
-			"x": 564,
-			"y": 639,
-			"wiki": "https://en.wikipedia.org/wiki/Roskilde_Idr%C3%A6tspark"
-		},
-		"league": {
-			"api_football_id": 120,
-			"name": "1. Division",
-			"country": "Denmark",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "458_001.jpg",
-				"source": "https://smooth-storage.aptoma.no/users/sndk/images/105334217.jpg?t[quality]=85&accessToken=2030c2b3007ebe608e0bea191f60a4a6bb4bb5a6deb37c8e7a43114969e6c478",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 20
+		"no": 18
 	},
 	{
 		"team": {
@@ -1357,7 +1261,7 @@
 				"size": 0
 			}
 		],
-		"no": 21
+		"no": 19
 	},
 	{
 		"team": {
@@ -1413,7 +1317,38 @@
 				"size": 0
 			}
 		],
-		"no": 22
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 6004,
+			"name": "Aarhus Fremad",
+			"code": "AAR",
+			"country": "Denmark",
+			"founded": 1887,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 4468,
+			"name": "Riisvangen Stadion",
+			"address": "Hans Egedes Vej 21, Risskov",
+			"city": "Århus",
+			"capacity": 5000,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 120,
+			"name": "1. Division",
+			"country": "Denmark",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 21
 	},
 	{
 		"team": {
@@ -1425,12 +1360,12 @@
 			"wiki": "https://en.wikipedia.org/wiki/Boldklubben_af_1893"
 		},
 		"venue": {
-			"api_football_id": 4471,
-			"name": "Østerbro Stadion",
-			"address": "Gunnar Nu Hansens Plads 7",
+			"api_football_id": 442,
+			"name": "Sundby Idrætspark",
+			"address": "Englandsvej 61",
 			"city": "København",
-			"capacity": 7000,
-			"surface": "grass",
+			"capacity": 7200,
+			"surface": "artificial turf",
 			"lat": 55.704126,
 			"lng": 12.57485,
 			"x": 635,
@@ -1469,7 +1404,7 @@
 				"size": 0
 			}
 		],
-		"no": 23
+		"no": 22
 	},
 	{
 		"team": {
@@ -1481,12 +1416,12 @@
 			"wiki": "https://en.wikipedia.org/wiki/Hiller%C3%B8d_Fodbold"
 		},
 		"venue": {
-			"api_football_id": 4481,
-			"name": "Hillerød Stadion",
-			"address": "Selskovvej 76",
-			"city": "Hillerød",
-			"capacity": 5000,
-			"surface": "grass",
+			"api_football_id": 454,
+			"name": "Right to Dream Park",
+			"address": "Idrætsvænget 2",
+			"city": "Farum",
+			"capacity": 10300,
+			"surface": "artificial turf",
 			"lat": 55.945237,
 			"lng": 12.295911,
 			"x": 596,
@@ -1517,7 +1452,124 @@
 				"size": 0
 			}
 		],
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 6042,
+			"name": "Middelfart",
+			"code": "MID",
+			"country": "Denmark",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 4495,
+			"name": "Middelfart Stadion",
+			"address": "Adlerhusvej 3",
+			"city": "Middelfart",
+			"capacity": 4000,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 120,
+			"name": "1. Division",
+			"country": "Denmark",
+			"api_football_country_id": 0
+		},
+		"images": [],
 		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 399,
+			"name": "Vendsyssel FF",
+			"code": "VEN",
+			"country": "Denmark",
+			"founded": 1886,
+			"wiki": "https://en.wikipedia.org/wiki/Vendsyssel_FF"
+		},
+		"venue": {
+			"api_football_id": 448,
+			"name": "Nord Energi Arena",
+			"address": "Tørholmsvej 10",
+			"city": "Hjørring",
+			"capacity": 7500,
+			"surface": "grass",
+			"lat": 57.457661,
+			"lng": 9.998506,
+			"x": 272,
+			"y": 173,
+			"wiki": "https://en.wikipedia.org/wiki/Hj%C3%B8rring_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "448_001.jpg",
+				"source": "https://www.info-stades.fr/uploads/stades/aalborg-stadion-27535.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "448_002.jpg",
+				"source": "https://vendsysselff.dk/wp-content/uploads/2022/08/Print-0091-1920x500.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "448_003.jpg",
+				"source": "https://pbs.twimg.com/media/GNytNpDWgAEexnn.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 2067,
+			"name": "Roskilde",
+			"code": "ROS",
+			"country": "Denmark",
+			"founded": 2004,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Roskilde"
+		},
+		"venue": {
+			"api_football_id": 458,
+			"name": "Roskilde Idrætspark",
+			"address": "Rådmandshaven 6",
+			"city": "Roskilde",
+			"capacity": 6000,
+			"surface": "grass",
+			"lat": 55.636838,
+			"lng": 12.072474,
+			"x": 564,
+			"y": 639,
+			"wiki": "https://en.wikipedia.org/wiki/Roskilde_Idr%C3%A6tspark"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "458_001.jpg",
+				"source": "https://smooth-storage.aptoma.no/users/sndk/images/105334217.jpg?t[quality]=85&accessToken=2030c2b3007ebe608e0bea191f60a4a6bb4bb5a6deb37c8e7a43114969e6c478",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 26
 	},
 	{
 		"team": {
@@ -1568,7 +1620,7 @@
 				"size": 0
 			}
 		],
-		"no": 25
+		"no": 27
 	},
 	{
 		"team": {
@@ -1611,6 +1663,6 @@
 				"size": 0
 			}
 		],
-		"no": 26
+		"no": 28
 	}
 ]

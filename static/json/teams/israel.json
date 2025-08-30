@@ -5,7 +5,8 @@
 			"name": "Hapoel Beer Sheva",
 			"code": "HAP",
 			"country": "Israel",
-			"founded": 1949
+			"founded": 1949,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 867,
@@ -44,7 +45,8 @@
 			"name": "Maccabi Tel Aviv",
 			"code": "MAC",
 			"country": "Israel",
-			"founded": 1906
+			"founded": 1906,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 10592,
@@ -83,7 +85,8 @@
 			"name": "Beitar Jerusalem",
 			"code": "BEI",
 			"country": "Israel",
-			"founded": 1936
+			"founded": 1936,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 866,
@@ -122,7 +125,8 @@
 			"name": "Hapoel Haifa",
 			"code": "HAP",
 			"country": "Israel",
-			"founded": 1924
+			"founded": 1924,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 868,
@@ -161,7 +165,8 @@
 			"name": "Maccabi Haifa",
 			"code": "MAC",
 			"country": "Israel",
-			"founded": 1913
+			"founded": 1913,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 868,
@@ -200,7 +205,8 @@
 			"name": "Bnei Sakhnin",
 			"code": "BNE",
 			"country": "Israel",
-			"founded": 1991
+			"founded": 1991,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3402,
@@ -239,7 +245,8 @@
 			"name": "Hapoel Katamon",
 			"code": "HAP",
 			"country": "Israel",
-			"founded": 2007
+			"founded": 2007,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 866,
@@ -274,11 +281,12 @@
 	},
 	{
 		"team": {
-			"api_football_id": 4495,
-			"name": "Maccabi Petah Tikva",
-			"code": "MAC",
+			"api_football_id": 4488,
+			"name": "Hapoel Petah Tikva",
+			"code": "HAP",
 			"country": "Israel",
-			"founded": 1912
+			"founded": 1934,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3408,
@@ -313,24 +321,25 @@
 	},
 	{
 		"team": {
-			"api_football_id": 4500,
-			"name": "Hapoel Hadera",
-			"code": null,
+			"api_football_id": 4501,
+			"name": "Hapoel Tel Aviv",
+			"code": "HAP",
 			"country": "Israel",
-			"founded": null
+			"founded": 1926,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 11941,
-			"name": "Netanya Stadium",
-			"address": "HaMehkar Street",
-			"city": "Netanya",
-			"capacity": 13610,
+			"api_football_id": 10592,
+			"name": "Bloomfield Stadium",
+			"address": "Ha-Tkuma Street",
+			"city": "Tel-Aviv",
+			"capacity": 29400,
 			"surface": "grass",
-			"lat": 32.294333,
-			"lng": 34.864575,
-			"x": 452,
-			"y": 294,
-			"wiki": "https://en.wikipedia.org/wiki/Netanya_Stadium"
+			"lat": 32.051728,
+			"lng": 34.761439,
+			"x": 430,
+			"y": 356,
+			"wiki": "https://en.wikipedia.org/wiki/Bloomfield_Stadium"
 		},
 		"league": {
 			"api_football_id": 383,
@@ -340,7 +349,7 @@
 		},
 		"images": [
 			{
-				"name": "11941_001.jpg",
+				"name": "10592_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -356,7 +365,8 @@
 			"name": "Maccabi Netanya",
 			"code": "MAC",
 			"country": "Israel",
-			"founded": 1934
+			"founded": 1934,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 11941,
@@ -395,7 +405,8 @@
 			"name": "Ashdod",
 			"code": "MOA",
 			"country": "Israel",
-			"founded": 1999
+			"founded": 1999,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3419,
@@ -434,7 +445,8 @@
 			"name": "Ironi Kiryat Shmona",
 			"code": "SHM",
 			"country": "Israel",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3420,
@@ -473,7 +485,8 @@
 			"name": "Ironi Tiberias",
 			"code": "IRO",
 			"country": "Israel",
-			"founded": 2006
+			"founded": 2006,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 4578,
@@ -512,7 +525,8 @@
 			"name": "Maccabi Bnei Raina",
 			"code": null,
 			"country": "Israel",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3407,
@@ -551,7 +565,8 @@
 			"name": "Hapoel Acre",
 			"code": "HAP",
 			"country": "Israel",
-			"founded": 1946
+			"founded": 1946,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3403,
@@ -590,7 +605,8 @@
 			"name": "Hapoel Afula",
 			"code": "HAP",
 			"country": "Israel",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3404,
@@ -629,7 +645,8 @@
 			"name": "Hapoel Nazareth Illit",
 			"code": "HAP",
 			"country": "Israel",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3407,
@@ -664,50 +681,12 @@
 	},
 	{
 		"team": {
-			"api_football_id": 4488,
-			"name": "Hapoel Petah Tikva",
-			"code": "HAP",
-			"country": "Israel",
-			"founded": 1934
-		},
-		"venue": {
-			"api_football_id": 3408,
-			"name": "HaMoshava Stadium",
-			"address": "Em Hamoshavot Road 12",
-			"city": "Petach-Tikva",
-			"capacity": 12500,
-			"surface": "grass",
-			"lat": 32.104197,
-			"lng": 34.865078,
-			"x": 453,
-			"y": 343,
-			"wiki": "https://en.wikipedia.org/wiki/HaMoshava_Stadium"
-		},
-		"league": {
-			"api_football_id": 382,
-			"name": "Liga Leumit",
-			"country": "Israel",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "3408_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 18
-	},
-	{
-		"team": {
 			"api_football_id": 4489,
 			"name": "Hapoel Ramat Gan",
 			"code": "HAP",
 			"country": "Israel",
-			"founded": 1927
+			"founded": 1927,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2610,
@@ -738,7 +717,7 @@
 				"size": 0
 			}
 		],
-		"no": 19
+		"no": 18
 	},
 	{
 		"team": {
@@ -746,7 +725,8 @@
 			"name": "Hapoel Ramat HaSharon",
 			"code": "IRO",
 			"country": "Israel",
-			"founded": 1957
+			"founded": 1957,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3409,
@@ -777,7 +757,7 @@
 				"size": 0
 			}
 		],
-		"no": 20
+		"no": 19
 	},
 	{
 		"team": {
@@ -785,7 +765,8 @@
 			"name": "Hapoel Rishon LeZion",
 			"code": "HAP",
 			"country": "Israel",
-			"founded": 1940
+			"founded": 1940,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3410,
@@ -816,46 +797,7 @@
 				"size": 0
 			}
 		],
-		"no": 21
-	},
-	{
-		"team": {
-			"api_football_id": 4492,
-			"name": "Hapoel Umm al-Fahm",
-			"code": null,
-			"country": "Israel",
-			"founded": 1963
-		},
-		"venue": {
-			"api_football_id": 10590,
-			"name": "HaShalom Stadium",
-			"address": null,
-			"city": "Umm al-Fahm",
-			"capacity": 7000,
-			"surface": "grass",
-			"lat": 32.5332,
-			"lng": 35.1558,
-			"x": 516,
-			"y": 233,
-			"wiki": "https://en.wikipedia.org/wiki/HaShalom_Stadium"
-		},
-		"league": {
-			"api_football_id": 382,
-			"name": "Liga Leumit",
-			"country": "Israel",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "10590_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 22
+		"no": 20
 	},
 	{
 		"team": {
@@ -863,7 +805,8 @@
 			"name": "Kafr Qasim",
 			"code": "KFA",
 			"country": "Israel",
-			"founded": 2002
+			"founded": 2002,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3412,
@@ -894,7 +837,47 @@
 				"size": 0
 			}
 		],
-		"no": 23
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 4495,
+			"name": "Maccabi Petah Tikva",
+			"code": "MAC",
+			"country": "Israel",
+			"founded": 1912,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3408,
+			"name": "HaMoshava Stadium",
+			"address": "Em Hamoshavot Road 12",
+			"city": "Petach-Tikva",
+			"capacity": 12500,
+			"surface": "grass",
+			"lat": 32.104197,
+			"lng": 34.865078,
+			"x": 453,
+			"y": 343,
+			"wiki": "https://en.wikipedia.org/wiki/HaMoshava_Stadium"
+		},
+		"league": {
+			"api_football_id": 382,
+			"name": "Liga Leumit",
+			"country": "Israel",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3408_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 22
 	},
 	{
 		"team": {
@@ -902,7 +885,8 @@
 			"name": "Hapoel Kfar Saba",
 			"code": "HAP",
 			"country": "Israel",
-			"founded": 1928
+			"founded": 1928,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 4540,
@@ -933,28 +917,29 @@
 				"size": 0
 			}
 		],
-		"no": 24
+		"no": 23
 	},
 	{
 		"team": {
-			"api_football_id": 4501,
-			"name": "Hapoel Tel Aviv",
-			"code": "HAP",
+			"api_football_id": 4500,
+			"name": "Hapoel Hadera",
+			"code": null,
 			"country": "Israel",
-			"founded": 1926
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 10592,
-			"name": "Bloomfield Stadium",
-			"address": "Ha-Tkuma Street",
-			"city": "Tel-Aviv",
-			"capacity": 29400,
+			"api_football_id": 11941,
+			"name": "Netanya Stadium",
+			"address": "HaMehkar Street",
+			"city": "Netanya",
+			"capacity": 13610,
 			"surface": "grass",
-			"lat": 32.051728,
-			"lng": 34.761439,
-			"x": 430,
-			"y": 356,
-			"wiki": "https://en.wikipedia.org/wiki/Bloomfield_Stadium"
+			"lat": 32.294333,
+			"lng": 34.864575,
+			"x": 452,
+			"y": 294,
+			"wiki": "https://en.wikipedia.org/wiki/Netanya_Stadium"
 		},
 		"league": {
 			"api_football_id": 382,
@@ -964,7 +949,7 @@
 		},
 		"images": [
 			{
-				"name": "10592_001.jpg",
+				"name": "11941_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -972,7 +957,7 @@
 				"size": 0
 			}
 		],
-		"no": 25
+		"no": 24
 	},
 	{
 		"team": {
@@ -980,7 +965,8 @@
 			"name": "Maccabi Herzliya",
 			"code": "MAC",
 			"country": "Israel",
-			"founded": 1932
+			"founded": 1932,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3417,
@@ -1011,7 +997,7 @@
 				"size": 0
 			}
 		],
-		"no": 26
+		"no": 25
 	},
 	{
 		"team": {
@@ -1019,7 +1005,8 @@
 			"name": "Bnei Yehuda",
 			"code": "BNE",
 			"country": "Israel",
-			"founded": 1936
+			"founded": 1936,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 10592,
@@ -1050,7 +1037,7 @@
 				"size": 0
 			}
 		],
-		"no": 27
+		"no": 26
 	},
 	{
 		"team": {
@@ -1058,7 +1045,8 @@
 			"name": "Hapoel Ra'anana",
 			"code": "HAP",
 			"country": "Israel",
-			"founded": 1972
+			"founded": 1972,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2610,
@@ -1089,7 +1077,7 @@
 				"size": 0
 			}
 		],
-		"no": 28
+		"no": 27
 	},
 	{
 		"team": {
@@ -1097,7 +1085,8 @@
 			"name": "Hapoel Kfar Shalem",
 			"code": null,
 			"country": "Israel",
-			"founded": 1958
+			"founded": 1958,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 4561,
@@ -1128,6 +1117,37 @@
 				"size": 0
 			}
 		],
+		"no": 28
+	},
+	{
+		"team": {
+			"api_football_id": 6179,
+			"name": "Ironi Modi'in",
+			"code": null,
+			"country": "Israel",
+			"founded": 2009,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 4576,
+			"name": "Modi'in Municipal Stadium",
+			"address": "Emek HaEla Street",
+			"city": "Modi&apos;in Makabim-Re&apos;ut",
+			"capacity": 2000,
+			"surface": "artificial turf",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 382,
+			"name": "Liga Leumit",
+			"country": "Israel",
+			"api_football_country_id": 0
+		},
+		"images": [],
 		"no": 29
 	},
 	{
@@ -1136,7 +1156,8 @@
 			"name": "Maccabi Kabilio Jaffa",
 			"code": null,
 			"country": "Israel",
-			"founded": 2007
+			"founded": 2007,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3401,
@@ -1171,6 +1192,71 @@
 	},
 	{
 		"team": {
+			"api_football_id": 20105,
+			"name": "Kiryat Yam SC",
+			"code": null,
+			"country": "Israel",
+			"founded": 2008,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 21198,
+			"name": "Kiryat Yam Synthetic",
+			"address": "Pinchas Lavon 1",
+			"city": "Kiryat Yam",
+			"capacity": 1000,
+			"surface": "artificial turf",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 382,
+			"name": "Liga Leumit",
+			"country": "Israel",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 31
+	},
+	{
+		"team": {
+			"api_football_id": 4492,
+			"name": "Hapoel Umm al-Fahm",
+			"code": null,
+			"country": "Israel",
+			"founded": 1963
+		},
+		"venue": {
+			"api_football_id": 10590,
+			"name": "HaShalom Stadium",
+			"address": null,
+			"city": "Umm al-Fahm",
+			"capacity": 7000,
+			"surface": "grass",
+			"lat": 32.5332,
+			"lng": 35.1558,
+			"x": 516,
+			"y": 233,
+			"wiki": "https://en.wikipedia.org/wiki/HaShalom_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "10590_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 32
+	},
+	{
+		"team": {
 			"api_football_id": 4499,
 			"name": "Sektzia Nes Tziona",
 			"code": "SEK",
@@ -1201,7 +1287,7 @@
 				"size": 0
 			}
 		],
-		"no": 31
+		"no": 33
 	},
 	{
 		"team": {
@@ -1235,7 +1321,7 @@
 				"size": 0
 			}
 		],
-		"no": 32
+		"no": 34
 	},
 	{
 		"team": {
@@ -1269,6 +1355,6 @@
 				"size": 0
 			}
 		],
-		"no": 33
+		"no": 35
 	}
 ]

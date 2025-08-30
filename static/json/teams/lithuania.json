@@ -20,12 +20,7 @@
 			"y": 588,
 			"wiki": "https://en.wikipedia.org/wiki/Darius_and_Gir%C4%97nas_Stadium"
 		},
-		"league": {
-			"api_football_id": 362,
-			"name": "A Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2612_001.jpg",
@@ -59,12 +54,7 @@
 			"y": 682,
 			"wiki": "https://en.wikipedia.org/wiki/S%C5%ABduva_Stadium"
 		},
-		"league": {
-			"api_football_id": 362,
-			"name": "A Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19446_001.jpg",
@@ -98,12 +88,7 @@
 			"y": 344,
 			"wiki": "https://en.wikipedia.org/wiki/Garg%C5%BEdai_Stadium"
 		},
-		"league": {
-			"api_football_id": 362,
-			"name": "A Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2642_001.jpg",
@@ -137,12 +122,7 @@
 			"y": 682,
 			"wiki": "https://en.wikipedia.org/wiki/S%C5%ABduva_Stadium"
 		},
-		"league": {
-			"api_football_id": 362,
-			"name": "A Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19446_001.jpg",
@@ -176,12 +156,7 @@
 			"y": 262,
 			"wiki": "https://lt.wikipedia.org/wiki/Tel%C5%A1i%C5%B3_miesto_centrinis_stadionas"
 		},
-		"league": {
-			"api_football_id": 362,
-			"name": "A Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2644_001.jpg",
@@ -215,12 +190,7 @@
 			"y": 585,
 			"wiki": "https://lt.wikipedia.org/wiki/LFF_Kauno_treniruo%C4%8Di%C5%B3_centras"
 		},
-		"league": {
-			"api_football_id": 362,
-			"name": "A Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "12604_001.jpg",
@@ -254,12 +224,7 @@
 			"y": 286,
 			"wiki": "https://lt.wikipedia.org/wiki/Gytari%C5%B3_stadionas"
 		},
-		"league": {
-			"api_football_id": 362,
-			"name": "A Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "18559_001.jpg",
@@ -293,12 +258,7 @@
 			"y": 588,
 			"wiki": "https://en.wikipedia.org/wiki/Darius_and_Gir%C4%97nas_Stadium"
 		},
-		"league": {
-			"api_football_id": 362,
-			"name": "A Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2612_001.jpg",
@@ -332,12 +292,7 @@
 			"y": 343,
 			"wiki": "https://lt.wikipedia.org/wiki/Panev%C4%97%C5%BEio_%C5%BDemynos_progimnazijos_stadionas"
 		},
-		"league": {
-			"api_football_id": 362,
-			"name": "A Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19449_001.jpg",
@@ -371,12 +326,7 @@
 			"y": 546,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 362,
-			"name": "A Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19583_001.jpg",
@@ -410,12 +360,7 @@
 			"y": 655,
 			"wiki": "https://en.wikipedia.org/wiki/LFF_Stadium"
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1030_001.jpg",
@@ -449,12 +394,7 @@
 			"y": 168,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [],
 		"no": 12
 	},
@@ -479,12 +419,7 @@
 			"y": 647,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "18556_001.jpg",
@@ -518,12 +453,7 @@
 			"y": 289,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19575_001.jpg",
@@ -557,12 +487,7 @@
 			"y": 468,
 			"wiki": "https://en.wikipedia.org/wiki/K%C4%97dainiai_Stadium"
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2648_001.jpg",
@@ -596,12 +521,7 @@
 			"y": 343,
 			"wiki": "https://lt.wikipedia.org/wiki/Panev%C4%97%C5%BEio_%C5%BDemynos_progimnazijos_stadionas"
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19449_001.jpg",
@@ -635,12 +555,7 @@
 			"y": 480,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [],
 		"no": 17
 	},
@@ -665,12 +580,7 @@
 			"y": 588,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19448_001.jpg",
@@ -704,12 +614,7 @@
 			"y": 343,
 			"wiki": "https://lt.wikipedia.org/wiki/Panev%C4%97%C5%BEio_%C5%BDemynos_progimnazijos_stadionas"
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19449_001.jpg",
@@ -743,12 +648,7 @@
 			"y": 282,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "11573_001.jpg",
@@ -782,12 +682,7 @@
 			"y": 340,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "18557_001.jpg",
@@ -821,12 +716,7 @@
 			"y": 344,
 			"wiki": "https://en.wikipedia.org/wiki/Garg%C5%BEdai_Stadium"
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2642_001.jpg",
@@ -860,12 +750,7 @@
 			"y": 612,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19581_001.jpg",
@@ -899,12 +784,7 @@
 			"y": 585,
 			"wiki": "https://lt.wikipedia.org/wiki/LFF_Kauno_treniruo%C4%8Di%C5%B3_centras"
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "12604_001.jpg",
@@ -938,12 +818,7 @@
 			"y": 286,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "18559_001.jpg",
@@ -977,12 +852,7 @@
 			"y": 11784,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 361,
-			"name": "I Lyga",
-			"country": "Lithuania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [],
 		"no": 26
 	},
