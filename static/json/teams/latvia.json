@@ -6,7 +6,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": 2014,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Liep%C4%81ja"
 		},
 		"venue": {
 			"api_football_id": 1820,
@@ -46,7 +46,7 @@
 			"code": "AUD",
 			"country": "Latvia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Auda"
 		},
 		"venue": {
 			"api_football_id": 19576,
@@ -86,7 +86,7 @@
 			"code": "GRO",
 			"country": "Latvia",
 			"founded": 2009,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Grobi%C5%86a"
 		},
 		"venue": {
 			"api_football_id": 3164,
@@ -126,7 +126,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/SK_Super_Nova"
 		},
 		"venue": {
 			"api_football_id": 11512,
@@ -166,7 +166,7 @@
 			"code": "TUK",
 			"country": "Latvia",
 			"founded": 2000,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Tukums_2000"
 		},
 		"venue": {
 			"api_football_id": 1024,
@@ -206,7 +206,7 @@
 			"code": "BFC",
 			"country": "Latvia",
 			"founded": 2009,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/BFC_Daugavpils"
 		},
 		"venue": {
 			"api_football_id": 3169,
@@ -246,7 +246,7 @@
 			"code": "MET",
 			"country": "Latvia",
 			"founded": 2006,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Metta"
 		},
 		"venue": {
 			"api_football_id": 11513,
@@ -286,7 +286,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": 2005,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/R%C4%ABgas_FS"
 		},
 		"venue": {
 			"api_football_id": 19577,
@@ -326,7 +326,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": 2015,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Riga_FC"
 		},
 		"venue": {
 			"api_football_id": 2611,
@@ -366,7 +366,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": 2022,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FS_Jelgava"
 		},
 		"venue": {
 			"api_football_id": 19582,
@@ -406,7 +406,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/JDFS_Alberts"
 		},
 		"venue": {
 			"api_football_id": 8652,
@@ -446,7 +446,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/R%C4%93zeknes_FA/BJSS"
 		},
 		"venue": {
 			"api_football_id": 8653,
@@ -486,7 +486,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Smiltene/BJSS"
 		},
 		"venue": {
 			"api_football_id": 3167,
@@ -646,7 +646,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Riga_FC"
 		},
 		"venue": {
 			"api_football_id": 19576,
@@ -686,7 +686,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_RFS"
 		},
 		"venue": {
 			"api_football_id": 21675,
@@ -726,7 +726,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Tukums_2000"
 		},
 		"venue": {
 			"api_football_id": 1024,
@@ -766,7 +766,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Aug%C5%A1daugavas_NSS"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -797,7 +797,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": 2022,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Ogre"
 		},
 		"venue": {
 			"api_football_id": 21383,
@@ -828,7 +828,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": 2021,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Ventspils"
 		},
 		"venue": {
 			"api_football_id": 19698,
@@ -868,7 +868,7 @@
 			"code": null,
 			"country": "Latvia",
 			"founded": 2024,
-			"wiki": ""
+			"wiki": "https://fr.wikipedia.org/wiki/Leevon_PPK"
 		},
 		"venue": {
 			"api_football_id": 21676,
@@ -929,7 +929,8 @@
 			"name": "Valmiera / BSS",
 			"code": "VAL",
 			"country": "Latvia",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Valmiera_FC"
 		},
 		"venue": {
 			"api_football_id": 3174,
@@ -963,7 +964,8 @@
 			"name": "Valmiera II",
 			"code": null,
 			"country": "Latvia",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Valmiera_FC"
 		},
 		"venue": {
 			"api_football_id": 3174,
@@ -997,7 +999,8 @@
 			"name": "Saldus SS/Leevon",
 			"code": null,
 			"country": "Latvia",
-			"founded": null
+			"founded": null,
+			"wiki": "https://fr.wikipedia.org/wiki/Leevon_PPK"
 		},
 		"venue": {
 			"api_football_id": 3175,
@@ -1031,7 +1034,8 @@
 			"name": "Dinamo Rīga",
 			"code": "DIN",
 			"country": "Latvia",
-			"founded": 2005
+			"founded": 2005,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Dinamo-R%C4%ABnu%C5%BEi/LASD"
 		},
 		"venue": {
 			"api_football_id": 1022,
@@ -1065,7 +1069,8 @@
 			"name": "Beitar",
 			"code": null,
 			"country": "Latvia",
-			"founded": 2008
+			"founded": 2008,
+			"wiki": "https://lv.wikipedia.org/wiki/FK_Beitar"
 		},
 		"venue": {
 			"api_football_id": 7699,

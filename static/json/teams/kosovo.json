@@ -6,7 +6,7 @@
 			"code": null,
 			"country": "Kosovo",
 			"founded": 1922,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Prishtina"
 		},
 		"venue": {
 			"api_football_id": 1813,
@@ -46,7 +46,7 @@
 			"code": null,
 			"country": "Kosovo",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Ballkani"
 		},
 		"venue": {
 			"api_football_id": 8093,
@@ -86,7 +86,7 @@
 			"code": null,
 			"country": "Kosovo",
 			"founded": 1995,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/SC_Gjilani"
 		},
 		"venue": {
 			"api_football_id": 20315,
@@ -126,7 +126,7 @@
 			"code": null,
 			"country": "Kosovo",
 			"founded": 1947,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Drita"
 		},
 		"venue": {
 			"api_football_id": 20315,
@@ -166,7 +166,7 @@
 			"code": null,
 			"country": "Kosovo",
 			"founded": 1958,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/KF_Drenica"
 		},
 		"venue": {
 			"api_football_id": 11083,
@@ -197,7 +197,7 @@
 			"code": null,
 			"country": "Kosovo",
 			"founded": 1958,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/KF_Dukagjini"
 		},
 		"venue": {
 			"api_football_id": 12659,
@@ -237,7 +237,7 @@
 			"code": null,
 			"country": "Kosovo",
 			"founded": 1923,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Ferizaj"
 		},
 		"venue": {
 			"api_football_id": 19336,
@@ -277,7 +277,7 @@
 			"code": null,
 			"country": "Kosovo",
 			"founded": 1932,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/KF_Llapi"
 		},
 		"venue": {
 			"api_football_id": 11084,
@@ -317,7 +317,7 @@
 			"code": null,
 			"country": "Kosovo",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/KF_Malisheva"
 		},
 		"venue": {
 			"api_football_id": 12497,
@@ -357,7 +357,7 @@
 			"code": null,
 			"country": "Kosovo",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/KF_Prishtina_e_Re"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -396,7 +396,8 @@
 			"name": "Feronikeli",
 			"code": null,
 			"country": "Kosovo",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Feronikeli_74"
 		},
 		"venue": {
 			"api_football_id": 3160,
@@ -430,7 +431,8 @@
 			"name": "Suhareka",
 			"code": null,
 			"country": "Kosovo",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Suhareka"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -441,8 +443,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -9746,
-			"y": 23835,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {},
@@ -455,7 +457,8 @@
 			"name": "Liria Prizren",
 			"code": null,
 			"country": "Kosovo",
-			"founded": 1930
+			"founded": 1930,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Liria_Prizren"
 		},
 		"venue": {
 			"api_football_id": 20438,
@@ -489,7 +492,8 @@
 			"name": "Fushë Kosova",
 			"code": null,
 			"country": "Kosovo",
-			"founded": 1972
+			"founded": 1972,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Fush%C3%AB_Kosova"
 		},
 		"venue": {
 			"api_football_id": 20145,
