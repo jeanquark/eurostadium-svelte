@@ -6,7 +6,7 @@
 			"code": "TOR",
 			"country": "Georgia",
 			"founded": 1946,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Torpedo_Kutaisi"
 		},
 		"venue": {
 			"api_football_id": 693,
@@ -30,7 +30,31 @@
 		"images": [
 			{
 				"name": "693_001.jpg",
-				"source": "",
+				"source": "https://sortitoutsi.b-cdn.net/uploads/media_2023/95fXKGxibyjox2dNUxVqfYUmvVDd1IaBLRWaivui.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "693_002.jpg",
+				"source": "https://torpedo.ge/_ipx/_/images/shengelia-arena/9.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "693_003.jpg",
+				"source": "https://torpedo.ge/_ipx/_/images/shengelia-arena/6.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "693_004.jpg",
+				"source": "https://torpedo.ge/_ipx/_/images/shengelia-arena/2.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -46,7 +70,7 @@
 			"code": "DIN",
 			"country": "Georgia",
 			"founded": 1923,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Dinamo_Batumi"
 		},
 		"venue": {
 			"api_football_id": 2300,
@@ -70,7 +94,15 @@
 		"images": [
 			{
 				"name": "2300_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Chele_Arena_in_Kobuleti%2CGeorgia.jpg/1200px-Chele_Arena_in_Kobuleti%2CGeorgia.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2300_002.jpg",
+				"source": "https://ajaratimes.ge/wp-content/uploads/2024/02/%E1%83%A9%E1%83%94%E1%83%9A%E1%83%94-%E1%83%90%E1%83%A0%E1%83%94%E1%83%9C%E1%83%90_ajaratimes.ge_.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -86,7 +118,7 @@
 			"code": "DIN",
 			"country": "Georgia",
 			"founded": 1925,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Dinamo_Tbilisi"
 		},
 		"venue": {
 			"api_football_id": 691,
@@ -110,12 +142,53 @@
 		"images": [
 			{
 				"name": "691_001.jpg",
-				"source": "",
+				"source": "https://gff.ge/sites/default/files/inline-images/Screenshot%202022-10-11%20at%2015.28.41_0.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "691_002.jpg",
+				"source": "https://www.stadiumguide.com/wp-content/uploads/paichadze18.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "691_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/38/Boris_Paichadze_Dinamo_Arena%2C_Samtredia_-_Qaraba%C4%9F.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "691_004.jpg",
+				"source": "https://cdn.pbilet.com/origin/ee644cd5-7fdc-4f63-a5c7-af4f8f216fe2.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "691_005.jpg",
+				"source": "https://www.dagi.ge/img/gallery/4_1670938060.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "691_006.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/geo/stadion_boris_paichadze/stadion_boris_paichadze15.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
+			
 		],
 		"no": 3
 	},
@@ -126,7 +199,7 @@
 			"code": "DIL",
 			"country": "Georgia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Dila_Gori"
 		},
 		"venue": {
 			"api_football_id": 2301,
@@ -150,7 +223,7 @@
 		"images": [
 			{
 				"name": "2301_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Stadium_of_Tengiz_Burjanadze.JPG/1024px-Stadium_of_Tengiz_Burjanadze.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -166,7 +239,7 @@
 			"code": null,
 			"country": "Georgia",
 			"founded": 1999,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Iberia_1999"
 		},
 		"venue": {
 			"api_football_id": 2302,
@@ -190,7 +263,15 @@
 		"images": [
 			{
 				"name": "2302_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Mikhain_Meskhi_Stadium_2024.jpg/1200px-Mikhain_Meskhi_Stadium_2024.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2302_002.jpg",
+				"source": "https://i.ytimg.com/vi/D5cZL_8P-w4/maxresdefault.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -206,7 +287,7 @@
 			"code": null,
 			"country": "Georgia",
 			"founded": 2004,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Gagra"
 		},
 		"venue": {
 			"api_football_id": 2306,
@@ -230,7 +311,15 @@
 		"images": [
 			{
 				"name": "2306_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/DEiPWt0WsAAApaR?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2306_002.jpg",
+				"source": "https://pbs.twimg.com/media/DEiPZQIXoAAvQxa?format=jpg&name=4096x4096",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -246,7 +335,7 @@
 			"code": "KOL",
 			"country": "Georgia",
 			"founded": 1913,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Kolkheti-1913_Poti"
 		},
 		"venue": {
 			"api_football_id": 2308,
@@ -270,7 +359,7 @@
 		"images": [
 			{
 				"name": "2308_001.jpg",
-				"source": "",
+				"source": "https://www.europlan-online.de/files/e2fab58c94fade1446e0146d605c1271.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -286,7 +375,7 @@
 			"code": null,
 			"country": "Georgia",
 			"founded": 2016,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Telavi"
 		},
 		"venue": {
 			"api_football_id": 2310,
@@ -310,7 +399,7 @@
 		"images": [
 			{
 				"name": "2310_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Telavi_Municipal_Stadium.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -326,7 +415,7 @@
 			"code": null,
 			"country": "Georgia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Samgurali_Tskaltubo"
 		},
 		"venue": {
 			"api_football_id": 7054,
@@ -350,7 +439,7 @@
 		"images": [
 			{
 				"name": "7054_001.jpg",
-				"source": "",
+				"source": "https://www.europlan-online.de/files/03f6f8a759e061c6170720b8c8928f20.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -366,7 +455,7 @@
 			"code": null,
 			"country": "Georgia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Gareji_Sagarejo"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -377,8 +466,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -5963,
-			"y": 7456,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {
@@ -387,16 +476,7 @@
 			"country": "Georgia",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 10
 	},
 	{
@@ -406,7 +486,7 @@
 			"code": null,
 			"country": "Georgia",
 			"founded": 1936,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Samtredia"
 		},
 		"venue": {
 			"api_football_id": 692,
@@ -430,7 +510,7 @@
 		"images": [
 			{
 				"name": "692_001.jpg",
-				"source": "",
+				"source": "https://cdn.georgiantravelguide.com/storage/files/erosi-manjgaladzis-sakhelobis-stadioni-erosi-manjgaladze-stadium.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -446,7 +526,7 @@
 			"code": null,
 			"country": "Georgia",
 			"founded": 1936,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Locomotive_Tbilisi"
 		},
 		"venue": {
 			"api_football_id": 2302,
@@ -470,7 +550,15 @@
 		"images": [
 			{
 				"name": "2302_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Mikhain_Meskhi_Stadium_2024.jpg/1200px-Mikhain_Meskhi_Stadium_2024.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2302_002.jpg",
+				"source": "https://i.ytimg.com/vi/D5cZL_8P-w4/maxresdefault.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -486,7 +574,7 @@
 			"code": null,
 			"country": "Georgia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Metalurgi_Rustavi"
 		},
 		"venue": {
 			"api_football_id": 2303,
@@ -510,7 +598,7 @@
 		"images": [
 			{
 				"name": "2303_001.jpg",
-				"source": "https://www.europlan-online.de/files/ff866619f775a679b8988c1e352295ab.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Poladi_Stadium.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -526,7 +614,7 @@
 			"code": "SIO",
 			"country": "Georgia",
 			"founded": 1936,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Sioni_Bolnisi"
 		},
 		"venue": {
 			"api_football_id": 2304,
@@ -550,7 +638,7 @@
 		"images": [
 			{
 				"name": "2304_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/2/23/Tamaz_Stepania_Stadium_in_Bolnisi%2C_Georgia.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -566,7 +654,7 @@
 			"code": "MER",
 			"country": "Georgia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Merani_Martvili"
 		},
 		"venue": {
 			"api_football_id": 7054,
@@ -590,7 +678,7 @@
 		"images": [
 			{
 				"name": "7054_001.jpg",
-				"source": "",
+				"source": "https://www.europlan-online.de/files/03f6f8a759e061c6170720b8c8928f20.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -606,7 +694,7 @@
 			"code": null,
 			"country": "Georgia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Meshakhte_Tkibuli"
 		},
 		"venue": {
 			"api_football_id": 8566,
@@ -627,7 +715,24 @@
 			"country": "Georgia",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "8566_001.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/geo/stadioni_vladimer_bochorishvili/stadioni_vladimer_bochorishvili01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "8566_002.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/geo/stadioni_vladimer_bochorishvili/stadioni_vladimer_bochorishvili04.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 16
 	},
 	{
@@ -637,7 +742,7 @@
 			"code": null,
 			"country": "Georgia",
 			"founded": 1925,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Dinamo_Tbilisi"
 		},
 		"venue": {
 			"api_football_id": 8582,
@@ -661,7 +766,7 @@
 		"images": [
 			{
 				"name": "8582_001.jpg",
-				"source": "",
+				"source": "https://www.rowdie.co.uk/wp-content/uploads/2024/08/8582.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -677,7 +782,7 @@
 			"code": null,
 			"country": "Georgia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Iberia_1999"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -708,7 +813,7 @@
 			"code": null,
 			"country": "Georgia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Spaeri"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -719,8 +824,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -5963,
-			"y": 7456,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {
@@ -729,16 +834,7 @@
 			"country": "Georgia",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 19
 	},
 	{
@@ -748,7 +844,7 @@
 			"code": null,
 			"country": "Georgia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Gonio"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -812,7 +908,8 @@
 			"name": "Aragvi Dusheti",
 			"code": null,
 			"country": "Georgia",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Aragvi_Dusheti"
 		},
 		"venue": {
 			"api_football_id": 7053,
@@ -846,7 +943,8 @@
 			"name": "Kolkheti Khobi",
 			"code": "KHO",
 			"country": "Georgia",
-			"founded": 1936
+			"founded": 1936,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Kolkheti_Khobi"
 		},
 		"venue": {
 			"api_football_id": 8572,
@@ -880,7 +978,8 @@
 			"name": "Shturmi",
 			"code": null,
 			"country": "Georgia",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/SFC_Shturmi"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -905,7 +1004,8 @@
 			"name": "Shukura",
 			"code": "SHU",
 			"country": "Georgia",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Shukura_Kobuleti"
 		},
 		"venue": {
 			"api_football_id": 2300,
@@ -939,7 +1039,8 @@
 			"name": "Merani Tbilisi",
 			"code": null,
 			"country": "Georgia",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Merani_Tbilisi"
 		},
 		"venue": {
 			"api_football_id": 2309,

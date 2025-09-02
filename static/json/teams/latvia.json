@@ -5,7 +5,8 @@
 			"name": "FK Liepaja",
 			"code": null,
 			"country": "Latvia",
-			"founded": 2014
+			"founded": 2014,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1820,
@@ -20,7 +21,12 @@
 			"y": 486,
 			"wiki": "https://en.wikipedia.org/wiki/Daugava_Stadium_(Riga)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 365,
+			"name": "Virsliga",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1820_001.jpg",
@@ -39,7 +45,8 @@
 			"name": "Auda",
 			"code": "AUD",
 			"country": "Latvia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 19576,
@@ -54,7 +61,12 @@
 			"y": 474,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 365,
+			"name": "Virsliga",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19576_001.jpg",
@@ -73,7 +85,8 @@
 			"name": "Grobiņa",
 			"code": "GRO",
 			"country": "Latvia",
-			"founded": 2009
+			"founded": 2009,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3164,
@@ -88,7 +101,12 @@
 			"y": 590,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 365,
+			"name": "Virsliga",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3164_001.jpg",
@@ -103,11 +121,52 @@
 	},
 	{
 		"team": {
+			"api_football_id": 4143,
+			"name": "Super Nova",
+			"code": null,
+			"country": "Latvia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 11512,
+			"name": "Slokas Stadionā",
+			"address": "Skolas ielā 3, Sloka",
+			"city": "Jūrmala",
+			"capacity": 2800,
+			"surface": "grass",
+			"lat": 56.949591,
+			"lng": 23.610199,
+			"x": 368,
+			"y": 487,
+			"wiki": "https://en.wikipedia.org/wiki/Sloka_Stadium"
+		},
+		"league": {
+			"api_football_id": 365,
+			"name": "Virsliga",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "11512_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 4
+	},
+	{
+		"team": {
 			"api_football_id": 4144,
 			"name": "Tukums",
 			"code": "TUK",
 			"country": "Latvia",
-			"founded": 2000
+			"founded": 2000,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1024,
@@ -122,7 +181,12 @@
 			"y": 487,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 365,
+			"name": "Virsliga",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1024_001.jpg",
@@ -133,7 +197,7 @@
 				"size": 0
 			}
 		],
-		"no": 4
+		"no": 5
 	},
 	{
 		"team": {
@@ -141,7 +205,8 @@
 			"name": "BFC Daugavpils",
 			"code": "BFC",
 			"country": "Latvia",
-			"founded": 2009
+			"founded": 2009,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3169,
@@ -156,7 +221,12 @@
 			"y": 754,
 			"wiki": "https://en.wikipedia.org/wiki/Celtnieks_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 365,
+			"name": "Virsliga",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3169_001.jpg",
@@ -167,7 +237,691 @@
 				"size": 0
 			}
 		],
-		"no": 5
+		"no": 6
+	},
+	{
+		"team": {
+			"api_football_id": 4159,
+			"name": "Metta / LU",
+			"code": "MET",
+			"country": "Latvia",
+			"founded": 2006,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 11513,
+			"name": "Daugavas Stadionā",
+			"address": "Augšiela 1",
+			"city": "Riga",
+			"capacity": 10461,
+			"surface": "grass",
+			"lat": 56.96643,
+			"lng": 24.118364,
+			"x": 438,
+			"y": 483,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 365,
+			"name": "Virsliga",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3177_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 7
+	},
+	{
+		"team": {
+			"api_football_id": 4160,
+			"name": "Rīgas FS",
+			"code": null,
+			"country": "Latvia",
+			"founded": 2005,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 19577,
+			"name": "LNK Sporta Parks",
+			"address": "Lejupes iela 5, Zemgales priekšpilsēta",
+			"city": "Riga",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 56.908,
+			"lng": 24.155,
+			"x": 443,
+			"y": 498,
+			"wiki": "https://en.wikipedia.org/wiki/LNK_Sporta_Parks"
+		},
+		"league": {
+			"api_football_id": 365,
+			"name": "Virsliga",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19577_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 8
+	},
+	{
+		"team": {
+			"api_football_id": 10124,
+			"name": "Riga",
+			"code": null,
+			"country": "Latvia",
+			"founded": 2015,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 2611,
+			"name": "Stadions Skonto",
+			"address": "Emīla Melngaiļa 1a",
+			"city": "Riga",
+			"capacity": 8207,
+			"surface": "grass",
+			"lat": 56.961372,
+			"lng": 24.116408,
+			"x": 437,
+			"y": 484,
+			"wiki": "https://en.wikipedia.org/wiki/Skonto_Stadium"
+		},
+		"league": {
+			"api_football_id": 365,
+			"name": "Virsliga",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2611_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 18834,
+			"name": "FS Jelgava",
+			"code": null,
+			"country": "Latvia",
+			"founded": 2022,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 19582,
+			"name": "Zemgales Olimpiskā centra",
+			"address": "Akmeņu iela",
+			"city": "Jelgava",
+			"capacity": 2560,
+			"surface": "grass",
+			"lat": 56.6608,
+			"lng": 23.7558,
+			"x": 388,
+			"y": 560,
+			"wiki": "https://en.wikipedia.org/wiki/Zemgale_Olympic_Center"
+		},
+		"league": {
+			"api_football_id": 365,
+			"name": "Virsliga",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19582_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 4139,
+			"name": "JDFS Alberts",
+			"code": null,
+			"country": "Latvia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 8652,
+			"name": "Upesciems pilsētas stadions",
+			"address": null,
+			"city": "Upesciems",
+			"capacity": 1000,
+			"surface": "grass",
+			"lat": 56.980959,
+			"lng": 24.339192,
+			"x": 468,
+			"y": 480,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "8652_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 4141,
+			"name": "Rēzekne FA",
+			"code": null,
+			"country": "Latvia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 8653,
+			"name": "Sporta Aģentūras Stadions",
+			"address": "18. novembra ielā 39",
+			"city": "Rezekne",
+			"capacity": 978,
+			"surface": "grass",
+			"lat": 56.509776,
+			"lng": 27.340755,
+			"x": 877,
+			"y": 597,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "8653_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 12
+	},
+	{
+		"team": {
+			"api_football_id": 4142,
+			"name": "Smiltene",
+			"code": null,
+			"country": "Latvia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3167,
+			"name": "Tepera stadions",
+			"address": "Piels iela 2",
+			"city": "Smiltene",
+			"capacity": 1000,
+			"surface": "artificial turf",
+			"lat": 57.430763,
+			"lng": 25.921527,
+			"x": 683,
+			"y": 366,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3167_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 4152,
+			"name": "Progress / AFA Olaine",
+			"code": null,
+			"country": "Latvia",
+			"founded": 2013,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3168,
+			"name": "Olaines stadions",
+			"address": "Zeiferta ielā 4",
+			"city": "Olaine",
+			"capacity": 2500,
+			"surface": "artificial turf",
+			"lat": 56.788807,
+			"lng": 23.943825,
+			"x": 414,
+			"y": 528,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3168_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 14366,
+			"name": "Mārupe",
+			"code": null,
+			"country": "Latvia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 21382,
+			"name": "Jaunmārupes stadions",
+			"address": "Īvju iela 5/7",
+			"city": "Jaunmārupe",
+			"capacity": 1500,
+			"surface": "artificial turf",
+			"lat": 56.87837,
+			"lng": 23.937024,
+			"x": 413,
+			"y": 505,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "21382_001.jpg",
+				"source": "https://www.marupe.lv/sites/default/files/styles/photo_gallery_view_full/public/2019-08/Jaunmarupes_stadions.jpg?itok=KjfWc-fj",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 16835,
+			"name": "Skanste",
+			"code": null,
+			"country": "Latvia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3177,
+			"name": "Hanzas vidusskolas laukums",
+			"address": "Grostonas 5",
+			"city": "Riga",
+			"capacity": 2000,
+			"surface": "artificial turf",
+			"lat": 56.96643,
+			"lng": 24.118364,
+			"x": 438,
+			"y": 483,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3177_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 18835,
+			"name": "Riga FC II",
+			"code": null,
+			"country": "Latvia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 19576,
+			"name": "Mežaparks Sports Village",
+			"address": "Ezermalas iela 30, Ziemeļu rajons",
+			"city": "Riga",
+			"capacity": 1500,
+			"surface": "grass",
+			"lat": 57.004355,
+			"lng": 24.175346,
+			"x": 445,
+			"y": 474,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19576_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 18836,
+			"name": "Rīgas FS II",
+			"code": null,
+			"country": "Latvia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 21675,
+			"name": "LNK Sporta Parks (dabīgais)",
+			"address": "Lejupes iela 5, Zemgales priekšpilsēta",
+			"city": "Riga",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 56.908049,
+			"lng": 24.15526,
+			"x": 443,
+			"y": 498,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19577_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 18837,
+			"name": "Tukums II",
+			"code": null,
+			"country": "Latvia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 1024,
+			"name": "Tukuma mākslīgā laukumā stadions",
+			"address": null,
+			"city": "Tukums",
+			"capacity": 1000,
+			"surface": "artificial turf",
+			"lat": 56.965098,
+			"lng": 23.139428,
+			"x": 304,
+			"y": 484,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1024_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 18935,
+			"name": "Augšdaugava",
+			"code": null,
+			"country": "Latvia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 18936,
+			"name": "Ogre United",
+			"code": null,
+			"country": "Latvia",
+			"founded": 2022,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 21383,
+			"name": "Ogres pilsētas ģimnāzija",
+			"address": "Meža prospekts 14",
+			"city": "Ogre",
+			"capacity": 3000,
+			"surface": "artificial turf",
+			"lat": 56.822839,
+			"lng": 24.60511,
+			"x": 504,
+			"y": 519,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 21202,
+			"name": "JFK Ventspils",
+			"code": null,
+			"country": "Latvia",
+			"founded": 2021,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 19698,
+			"name": "OC Ventspils rezerves laukums",
+			"address": "Kuldīgas iela",
+			"city": "Ventspils",
+			"capacity": 1000,
+			"surface": "grass",
+			"lat": 57.387986,
+			"lng": 21.572101,
+			"x": 90,
+			"y": 376,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19698_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 23266,
+			"name": "Leevon / PPK",
+			"code": null,
+			"country": "Latvia",
+			"founded": 2024,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 21676,
+			"name": "LNK Sporta Parks (mākslīgais)",
+			"address": "Lejupes iela 5, Zemgales priekšpilsēta",
+			"city": "Riga",
+			"capacity": 1500,
+			"surface": "artificial turf",
+			"lat": 56.908039,
+			"lng": 24.155205,
+			"x": 443,
+			"y": 498,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 25785,
+			"name": "Riga Mariners",
+			"code": null,
+			"country": "Latvia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 364,
+			"name": "First League",
+			"country": "Latvia",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 24
 	},
 	{
 		"team": {
@@ -201,483 +955,7 @@
 				"size": 0
 			}
 		],
-		"no": 6
-	},
-	{
-		"team": {
-			"api_football_id": 4159,
-			"name": "Metta / LU",
-			"code": "MET",
-			"country": "Latvia",
-			"founded": 2006
-		},
-		"venue": {
-			"api_football_id": 11513,
-			"name": "Daugavas Stadionā",
-			"address": "Augšiela 1",
-			"city": "Riga",
-			"capacity": 10461,
-			"surface": "grass",
-			"lat": 56.96643,
-			"lng": 24.118364,
-			"x": 438,
-			"y": 483,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3177_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 7
-	},
-	{
-		"team": {
-			"api_football_id": 4160,
-			"name": "Rīgas FS",
-			"code": null,
-			"country": "Latvia",
-			"founded": 2005
-		},
-		"venue": {
-			"api_football_id": 19577,
-			"name": "LNK Sporta Parks",
-			"address": "Lejupes iela 5, Zemgales priekšpilsēta",
-			"city": "Riga",
-			"capacity": 3000,
-			"surface": "grass",
-			"lat": 56.908,
-			"lng": 24.155,
-			"x": 443,
-			"y": 498,
-			"wiki": "https://en.wikipedia.org/wiki/LNK_Sporta_Parks"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "19577_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 8
-	},
-	{
-		"team": {
-			"api_football_id": 10124,
-			"name": "Riga",
-			"code": null,
-			"country": "Latvia",
-			"founded": 2015
-		},
-		"venue": {
-			"api_football_id": 2611,
-			"name": "Stadions Skonto",
-			"address": "Emīla Melngaiļa 1a",
-			"city": "Riga",
-			"capacity": 8207,
-			"surface": "grass",
-			"lat": 56.961372,
-			"lng": 24.116408,
-			"x": 437,
-			"y": 484,
-			"wiki": "https://en.wikipedia.org/wiki/Skonto_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "2611_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 9
-	},
-	{
-		"team": {
-			"api_football_id": 18834,
-			"name": "FS Jelgava",
-			"code": null,
-			"country": "Latvia",
-			"founded": 2022
-		},
-		"venue": {
-			"api_football_id": 19582,
-			"name": "Zemgales Olimpiskā centra",
-			"address": "Akmeņu iela",
-			"city": "Jelgava",
-			"capacity": 2560,
-			"surface": "grass",
-			"lat": 56.6608,
-			"lng": 23.7558,
-			"x": 388,
-			"y": 560,
-			"wiki": "https://en.wikipedia.org/wiki/Zemgale_Olympic_Center"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "19582_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 10
-	},
-	{
-		"team": {
-			"api_football_id": 4139,
-			"name": "JDFS Alberts",
-			"code": null,
-			"country": "Latvia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 8652,
-			"name": "Upesciems pilsētas stadions",
-			"address": null,
-			"city": "Upesciems",
-			"capacity": 1000,
-			"surface": "grass",
-			"lat": 56.980959,
-			"lng": 24.339192,
-			"x": 468,
-			"y": 480,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "8652_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 11
-	},
-	{
-		"team": {
-			"api_football_id": 4141,
-			"name": "Rēzekne FA",
-			"code": null,
-			"country": "Latvia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 8653,
-			"name": "Sporta Aģentūras Stadions",
-			"address": "18. novembra ielā 39",
-			"city": "Rezekne",
-			"capacity": 978,
-			"surface": "grass",
-			"lat": 56.509776,
-			"lng": 27.340755,
-			"x": 877,
-			"y": 597,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "8653_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 12
-	},
-	{
-		"team": {
-			"api_football_id": 4142,
-			"name": "Smiltene",
-			"code": null,
-			"country": "Latvia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 3167,
-			"name": "Tepera stadions",
-			"address": "Piels iela 2",
-			"city": "Smiltene",
-			"capacity": 1000,
-			"surface": "artificial turf",
-			"lat": 57.430763,
-			"lng": 25.921527,
-			"x": 683,
-			"y": 366,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3167_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 13
-	},
-	{
-		"team": {
-			"api_football_id": 4143,
-			"name": "Super Nova",
-			"code": null,
-			"country": "Latvia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 11512,
-			"name": "Slokas Stadionā",
-			"address": "Skolas ielā 3, Sloka",
-			"city": "Jūrmala",
-			"capacity": 2800,
-			"surface": "grass",
-			"lat": 56.949591,
-			"lng": 23.610199,
-			"x": 368,
-			"y": 487,
-			"wiki": "https://en.wikipedia.org/wiki/Sloka_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "11512_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 14
-	},
-	{
-		"team": {
-			"api_football_id": 4152,
-			"name": "Progress / AFA Olaine",
-			"code": null,
-			"country": "Latvia",
-			"founded": 2013
-		},
-		"venue": {
-			"api_football_id": 3168,
-			"name": "Olaines stadions",
-			"address": "Zeiferta ielā 4",
-			"city": "Olaine",
-			"capacity": 2500,
-			"surface": "artificial turf",
-			"lat": 56.788807,
-			"lng": 23.943825,
-			"x": 414,
-			"y": 528,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3168_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 15
-	},
-	{
-		"team": {
-			"api_football_id": 14366,
-			"name": "Mārupe",
-			"code": null,
-			"country": "Latvia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 21382,
-			"name": "Jaunmārupes stadions",
-			"address": "Īvju iela 5/7",
-			"city": "Jaunmārupe",
-			"capacity": 1500,
-			"surface": "artificial turf",
-			"lat": 56.87837,
-			"lng": 23.937024,
-			"x": 413,
-			"y": 505,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "21382_001.jpg",
-				"source": "https://www.marupe.lv/sites/default/files/styles/photo_gallery_view_full/public/2019-08/Jaunmarupes_stadions.jpg?itok=KjfWc-fj",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 16
-	},
-	{
-		"team": {
-			"api_football_id": 16835,
-			"name": "Skanste",
-			"code": null,
-			"country": "Latvia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 3177,
-			"name": "Hanzas vidusskolas laukums",
-			"address": "Grostonas 5",
-			"city": "Riga",
-			"capacity": 2000,
-			"surface": "artificial turf",
-			"lat": 56.96643,
-			"lng": 24.118364,
-			"x": 438,
-			"y": 483,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3177_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 17
-	},
-	{
-		"team": {
-			"api_football_id": 18835,
-			"name": "Riga FC II",
-			"code": null,
-			"country": "Latvia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 19576,
-			"name": "Mežaparks Sports Village",
-			"address": "Ezermalas iela 30, Ziemeļu rajons",
-			"city": "Riga",
-			"capacity": 1500,
-			"surface": "grass",
-			"lat": 57.004355,
-			"lng": 24.175346,
-			"x": 445,
-			"y": 474,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "19576_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 18
-	},
-	{
-		"team": {
-			"api_football_id": 18836,
-			"name": "Rīgas FS II",
-			"code": null,
-			"country": "Latvia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 19577,
-			"name": "LNK Sporta Parks",
-			"address": "Lejupes iela 5, Zemgales priekšpilsēta",
-			"city": "Riga",
-			"capacity": 3000,
-			"surface": "grass",
-			"lat": 56.908049,
-			"lng": 24.15526,
-			"x": 443,
-			"y": 498,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "19577_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 19
-	},
-	{
-		"team": {
-			"api_football_id": 18837,
-			"name": "Tukums II",
-			"code": null,
-			"country": "Latvia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 1024,
-			"name": "Tukuma mākslīgā laukumā stadions",
-			"address": null,
-			"city": "Tukums",
-			"capacity": 1000,
-			"surface": "artificial turf",
-			"lat": 56.965098,
-			"lng": 23.139428,
-			"x": 304,
-			"y": 484,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "1024_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 20
+		"no": 25
 	},
 	{
 		"team": {
@@ -711,91 +989,7 @@
 				"size": 0
 			}
 		],
-		"no": 21
-	},
-	{
-		"team": {
-			"api_football_id": 18936,
-			"name": "Ogre United",
-			"code": null,
-			"country": "Latvia",
-			"founded": 2022
-		},
-		"venue": {
-			"api_football_id": 21383,
-			"name": "Ogres pilsētas ģimnāzija",
-			"address": "Meža prospekts 14",
-			"city": "Ogre",
-			"capacity": 3000,
-			"surface": "artificial turf",
-			"lat": 56.822839,
-			"lng": 24.60511,
-			"x": 504,
-			"y": 519,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [],
-		"no": 22
-	},
-	{
-		"team": {
-			"api_football_id": 21202,
-			"name": "JFK Ventspils",
-			"code": null,
-			"country": "Latvia",
-			"founded": 2021
-		},
-		"venue": {
-			"api_football_id": 19698,
-			"name": "OC Ventspils rezerves laukums",
-			"address": "Kuldīgas iela",
-			"city": "Ventspils",
-			"capacity": 1000,
-			"surface": "grass",
-			"lat": 57.387986,
-			"lng": 21.572101,
-			"x": 90,
-			"y": 376,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "19698_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 23
-	},
-	{
-		"team": {
-			"api_football_id": 23266,
-			"name": "Leevon / PPK",
-			"code": null,
-			"country": "Latvia",
-			"founded": 2024
-		},
-		"venue": {
-			"api_football_id": 21384,
-			"name": "LNK Sporta Parks 2",
-			"address": "Lejupes iela 5, Zemgales priekšpilsēta",
-			"city": "Riga",
-			"capacity": 1500,
-			"surface": "artificial turf",
-			"lat": 56.908039,
-			"lng": 24.155205,
-			"x": 443,
-			"y": 498,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [],
-		"no": 24
+		"no": 26
 	},
 	{
 		"team": {
@@ -829,7 +1023,7 @@
 				"size": 0
 			}
 		],
-		"no": 25
+		"no": 27
 	},
 	{
 		"team": {
@@ -863,7 +1057,7 @@
 				"size": 0
 			}
 		],
-		"no": 26
+		"no": 28
 	},
 	{
 		"team": {
@@ -897,6 +1091,6 @@
 				"size": 0
 			}
 		],
-		"no": 27
+		"no": 29
 	}
 ]

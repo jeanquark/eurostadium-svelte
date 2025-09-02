@@ -6,7 +6,7 @@
 			"code": "AST",
 			"country": "Kazakhstan",
 			"founded": 2009,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Astana"
 		},
 		"venue": {
 			"api_football_id": 20740,
@@ -30,7 +30,7 @@
 		"images": [
 			{
 				"name": "20740_001.jpg",
-				"source": "",
+				"source": "https://en.orda.kz/uploads/posts/2025-06/sizes/1440x810/1750321861_photo_2025-06-19_12-34-11.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -46,7 +46,7 @@
 			"code": "KAI",
 			"country": "Kazakhstan",
 			"founded": 1952,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Kairat"
 		},
 		"venue": {
 			"api_football_id": 20741,
@@ -70,7 +70,15 @@
 		"images": [
 			{
 				"name": "20741_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Kazakhstan_P9240988_08_%2839408856325%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20741_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Central_stadium_Almaty-1.jpg/1200px-Central_stadium_Almaty-1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -86,7 +94,7 @@
 			"code": "ORD",
 			"country": "Kazakhstan",
 			"founded": 1998,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Ordabasy"
 		},
 		"venue": {
 			"api_football_id": 3203,
@@ -109,8 +117,16 @@
 		},
 		"images": [
 			{
-				"name": "3203_001.jpg",
-				"source": "",
+				"name": "3203_001",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/0/02/%D0%A1%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8_%D0%9C%D1%83%D0%BD%D0%B0%D0%B9%D1%82%D0%BF%D0%B0%D1%81%D0%BE%D0%B2%D0%B0.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3203_002",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/6/60/Kazhymukan-Munaitpasov-_Stadium-Shymkent-Kazakhstan.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -126,7 +142,7 @@
 			"code": "TOB",
 			"country": "Kazakhstan",
 			"founded": 1967,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Tobol"
 		},
 		"venue": {
 			"api_football_id": 20742,
@@ -150,7 +166,7 @@
 		"images": [
 			{
 				"name": "20742_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/3b/%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_%D0%B3._%D0%9A%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%B0%D0%B9.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -166,7 +182,7 @@
 			"code": null,
 			"country": "Kazakhstan",
 			"founded": 1968,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Kyzylzhar"
 		},
 		"venue": {
 			"api_football_id": 3444,
@@ -190,7 +206,7 @@
 		"images": [
 			{
 				"name": "3444_001.jpg",
-				"source": "",
+				"source": "https://www.europlan-online.de/files/182618f7cf7fcc04910cc2043b4031ef.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -206,7 +222,7 @@
 			"code": null,
 			"country": "Kazakhstan",
 			"founded": 1968,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Okzhetpes"
 		},
 		"venue": {
 			"api_football_id": 3448,
@@ -230,7 +246,7 @@
 		"images": [
 			{
 				"name": "3448_001.jpg",
-				"source": "",
+				"source": "https://avatars.mds.yandex.net/get-altay/11421909/2a000001921537597303ecbd9f34f4fa721b/orig",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -246,7 +262,7 @@
 			"code": "ZHE",
 			"country": "Kazakhstan",
 			"founded": 1981,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Zhetysu"
 		},
 		"venue": {
 			"api_football_id": 21681,
@@ -270,7 +286,7 @@
 		"images": [
 			{
 				"name": "3447_001.jpg",
-				"source": "",
+				"source": "https://secure.cache.images.core.optasports.com/soccer/venues/600x450/3668.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -286,7 +302,7 @@
 			"code": "KAI",
 			"country": "Kazakhstan",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Kaisar"
 		},
 		"venue": {
 			"api_football_id": 3440,
@@ -299,7 +315,7 @@
 			"lng": 65.50337,
 			"x": 466,
 			"y": 633,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Gani_Muratbayev_Stadium"
 		},
 		"league": {
 			"api_football_id": 389,
@@ -310,7 +326,7 @@
 		"images": [
 			{
 				"name": "3440_001.jpg",
-				"source": "",
+				"source": "https://football-fun-live.com/uploads/stadiums/small-image/sim-stadium-stadion-im-gani-muratbaeva.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -326,7 +342,7 @@
 			"code": "AKT",
 			"country": "Kazakhstan",
 			"founded": 1967,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Aktobe"
 		},
 		"venue": {
 			"api_football_id": 20754,
@@ -350,7 +366,15 @@
 		"images": [
 			{
 				"name": "20754_001.jpg",
-				"source": "",
+				"source": "https://dalanews.kz/uploads/images/20240127155626791.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20754_002.jpg",
+				"source": "https://www.thefa.com/-/media/www-thefa-com/images/news/england/2016/sep/central-stadium-aktobe-kazakhstan.ashx?as=0&dmc=0&thn=0",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -366,7 +390,7 @@
 			"code": "ATY",
 			"country": "Kazakhstan",
 			"founded": 1980,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Atyrau"
 		},
 		"venue": {
 			"api_football_id": 3451,
@@ -379,7 +403,7 @@
 			"lng": 51.908638,
 			"x": 133,
 			"y": 553,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Munaishy_Stadium"
 		},
 		"league": {
 			"api_football_id": 389,
@@ -387,16 +411,7 @@
 			"country": "Kazakhstan",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "3451_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 10
 	},
 	{
@@ -406,7 +421,7 @@
 			"code": null,
 			"country": "Kazakhstan",
 			"founded": 2021,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Zhenis"
 		},
 		"venue": {
 			"api_football_id": 3453,
@@ -430,7 +445,23 @@
 		"images": [
 			{
 				"name": "3453_001.jpg",
-				"source": "",
+				"source": "https://kff.kz/uploads/images/2020/05/18/5ec2b86da177f.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3453_002.jpg",
+				"source": "https://kff.kz/uploads/images/2020/05/18/5ec2bb1c44cd0.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3453_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Shakhtyor_Stadium_%28Karagandy%29_2013-05-22_18.11.25.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -446,7 +477,7 @@
 			"code": null,
 			"country": "Kazakhstan",
 			"founded": 2022,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Ulytau"
 		},
 		"venue": {
 			"api_football_id": 21682,
@@ -467,7 +498,24 @@
 			"country": "Kazakhstan",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "21682_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/%D0%A1%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_%C2%AB%D0%9C%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D1%83%D1%80%D0%B3%C2%BB_%28%D0%B3._%D0%96%D0%B5%D0%B7%D0%BA%D0%B0%D0%B7%D0%B3%D0%B0%D0%BD%29.jpg/1200px-%D0%A1%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_%C2%AB%D0%9C%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D1%83%D1%80%D0%B3%C2%BB_%28%D0%B3._%D0%96%D0%B5%D0%B7%D0%BA%D0%B0%D0%B7%D0%B3%D0%B0%D0%BD%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "21682_002.jpg",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/d6/6d/d7/getlstd-property-photo.jpg?w=1400&h=1400&s=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 12
 	},
 	{
@@ -477,7 +525,7 @@
 			"code": null,
 			"country": "Kazakhstan",
 			"founded": 2023,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Yelimay"
 		},
 		"venue": {
 			"api_football_id": 3436,
@@ -501,7 +549,7 @@
 		"images": [
 			{
 				"name": "3436_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/0/09/Spartak_Semej_Stadion.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -517,7 +565,7 @@
 			"code": null,
 			"country": "Kazakhstan",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Turan"
 		},
 		"venue": {
 			"api_football_id": 3203,
@@ -540,8 +588,16 @@
 		},
 		"images": [
 			{
-				"name": "",
-				"source": "",
+				"name": "3203_001",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/0/02/%D0%A1%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8_%D0%9C%D1%83%D0%BD%D0%B0%D0%B9%D1%82%D0%BF%D0%B0%D1%81%D0%BE%D0%B2%D0%B0.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3203_002",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/6/60/Kazhymukan-Munaitpasov-_Stadium-Shymkent-Kazakhstan.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -557,7 +613,7 @@
 			"code": null,
 			"country": "Kazakhstan",
 			"founded": 2016,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Altai"
 		},
 		"venue": {
 			"api_football_id": 3436,
@@ -581,7 +637,7 @@
 		"images": [
 			{
 				"name": "3436_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/0/09/Spartak_Semej_Stadion.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -618,16 +674,7 @@
 			"country": "Kazakhstan",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "3437_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 16
 	},
 	{
@@ -658,16 +705,7 @@
 			"country": "Kazakhstan",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "3438_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 17
 	},
 	{
@@ -677,7 +715,7 @@
 			"code": null,
 			"country": "Kazakhstan",
 			"founded": 1979,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Ekibastuz"
 		},
 		"venue": {
 			"api_football_id": 3442,
@@ -701,7 +739,7 @@
 		"images": [
 			{
 				"name": "3442_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/2/24/Shahter_Stadium.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -717,7 +755,7 @@
 			"code": "KAS",
 			"country": "Kazakhstan",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Caspiy"
 		},
 		"venue": {
 			"api_football_id": 3443,
@@ -741,7 +779,7 @@
 		"images": [
 			{
 				"name": "3443_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e4/%D0%96%D0%B0%D1%81_%D0%9A%D0%B0%D0%BD%D0%B0%D1%82.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -757,7 +795,7 @@
 			"code": null,
 			"country": "Kazakhstan",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Kairat-Zhastar"
 		},
 		"venue": {
 			"api_football_id": 3446,
@@ -781,7 +819,15 @@
 		"images": [
 			{
 				"name": "3446_001.jpg",
-				"source": "",
+				"source": "https://www.sportandtravel.de/wp-content/uploads/2019/06/66107664_2474394042591923_3414649465909280768_o.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3446_002.jpg",
+				"source": "https://www.sportandtravel.de/wp-content/uploads/2019/06/65511428_2474393745925286_6978571215975743488_o.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -797,7 +843,7 @@
 			"code": "TAR",
 			"country": "Kazakhstan",
 			"founded": 1961,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Taraz"
 		},
 		"venue": {
 			"api_football_id": 20661,
@@ -810,7 +856,7 @@
 			"lng": 71.382334,
 			"x": 610,
 			"y": 698,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Taraz_Central_Stadium"
 		},
 		"league": {
 			"api_football_id": 388,
@@ -821,7 +867,7 @@
 		"images": [
 			{
 				"name": "20661_001.jpg",
-				"source": "",
+				"source": "https://avatars.mds.yandex.net/get-altay/10703420/2a0000018a757ba68d4a4205bdbdbba90d1c/orig",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -837,7 +883,7 @@
 			"code": "IRT",
 			"country": "Kazakhstan",
 			"founded": 1965,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Irtysh_Pavlodar"
 		},
 		"venue": {
 			"api_football_id": 3452,
@@ -846,11 +892,11 @@
 			"city": "Pavlodar",
 			"capacity": 15000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 52.276383,
+			"lng": 76.949712,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Pavlodar_Central_Stadium"
 		},
 		"league": {
 			"api_football_id": 388,
@@ -858,7 +904,24 @@
 			"country": "Kazakhstan",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "3452_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/36/Centralny_stadium_Pavlodar.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3452_002.jpg",
+				"source": "https://sortitoutsidospaces.b-cdn.net/media/VN4962kpdtoIXfPwnxv3nNTgb2Aa2zu54ng4xkj6.jpg?width=800&height=600",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 22
 	},
 	{
@@ -868,7 +931,7 @@
 			"code": "SHA",
 			"country": "Kazakhstan",
 			"founded": 1958,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Shakhter_Karagandy"
 		},
 		"venue": {
 			"api_football_id": 3453,
@@ -892,7 +955,23 @@
 		"images": [
 			{
 				"name": "3453_001.jpg",
-				"source": "",
+				"source": "https://kff.kz/uploads/images/2020/05/18/5ec2b86da177f.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3453_002.jpg",
+				"source": "https://kff.kz/uploads/images/2020/05/18/5ec2bb1c44cd0.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3453_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Shakhtyor_Stadium_%28Karagandy%29_2013-05-22_18.11.25.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -908,7 +987,7 @@
 			"code": null,
 			"country": "Kazakhstan",
 			"founded": 2021,
-			"wiki": ""
+			"wiki": "https://ru.wikipedia.org/wiki/SD_Family"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -919,8 +998,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -1139,
-			"y": 1861,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {
@@ -939,7 +1018,7 @@
 			"code": null,
 			"country": "Kazakhstan",
 			"founded": 2021,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Turkestan"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -950,8 +1029,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -1139,
-			"y": 1861,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {
@@ -960,16 +1039,7 @@
 			"country": "Kazakhstan",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 25
 	},
 	{
@@ -990,8 +1060,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -1139,
-			"y": 1861,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {
@@ -1000,16 +1070,7 @@
 			"country": "Kazakhstan",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 26
 	},
 	{
@@ -1061,8 +1122,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -1139,
-			"y": 1861,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {
@@ -1080,7 +1141,8 @@
 			"name": "FK Aksu",
 			"code": null,
 			"country": "Kazakhstan",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Aksu"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -1091,21 +1153,12 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -1139,
-			"y": 1861,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 29
 	},
 	{
@@ -1114,7 +1167,8 @@
 			"name": "Akzhayik",
 			"code": "AKZ",
 			"country": "Kazakhstan",
-			"founded": 1968
+			"founded": 1968,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Akzhayik"
 		},
 		"venue": {
 			"api_football_id": 3439,
@@ -1127,19 +1181,10 @@
 			"lng": 51.351077,
 			"x": 119,
 			"y": 399,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Petr_Atoyan_Stadium"
 		},
 		"league": {},
-		"images": [
-			{
-				"name": "3439_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 30
 	},
 	{
@@ -1166,8 +1211,16 @@
 		"league": {},
 		"images": [
 			{
-				"name": "3203_001.jpg",
-				"source": "",
+				"name": "3203_001",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/0/02/%D0%A1%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8_%D0%9C%D1%83%D0%BD%D0%B0%D0%B9%D1%82%D0%BF%D0%B0%D1%81%D0%BE%D0%B2%D0%B0.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3203_002",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/6/60/Kazhymukan-Munaitpasov-_Stadium-Shymkent-Kazakhstan.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,

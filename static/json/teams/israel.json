@@ -6,7 +6,7 @@
 			"code": "HAP",
 			"country": "Israel",
 			"founded": 1949,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Be%27er_Sheva_F.C."
 		},
 		"venue": {
 			"api_football_id": 867,
@@ -30,7 +30,31 @@
 		"images": [
 			{
 				"name": "867_001.jpg",
-				"source": "",
+				"source": "https://football-stadiums.ru/wp-content/uploads/2023/05/turner-stadium-01.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "867_002.jpg",
+				"source": "https://football-stadiums.ru/wp-content/uploads/2023/05/turner-stadium-15.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "867_003.jpg",
+				"source": "https://www.olympiacos.org/wp-content/uploads/2016/08/04/turner_stadium_03.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "867_004.jpg",
+				"source": "https://www.stadiumguide.com/wp-content/gallery/turnerstadium/turnerstadium2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -46,7 +70,7 @@
 			"code": "MAC",
 			"country": "Israel",
 			"founded": 1906,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Maccabi_Tel_Aviv_F.C."
 		},
 		"venue": {
 			"api_football_id": 10592,
@@ -70,7 +94,47 @@
 		"images": [
 			{
 				"name": "10592_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Bloomfield_Stadium%2C_January_2022_-_42.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_002.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/isr/bloomfield_stadium/bloomfield_stadium20.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_003.jpg",
+				"source": "https://data2.nssmag.com/images/galleries/29243/cover%281%29.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_004.jpg",
+				"source": "https://www.sportpalace.co.il/wp-content/uploads/2015/07/1600X800_8325.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_005.jpg",
+				"source": "https://www.beinharimtours.com/wwwroot/uploads/places/320/1aa7b07e-3395-4552-b2f4-813a8f8376a0.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_006.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Bloomfield_Stadium%2C_January_2022_-_29.jpg/2560px-Bloomfield_Stadium%2C_January_2022_-_29.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -86,7 +150,7 @@
 			"code": "BEI",
 			"country": "Israel",
 			"founded": 1936,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Beitar_Jerusalem_F.C."
 		},
 		"venue": {
 			"api_football_id": 866,
@@ -110,7 +174,39 @@
 		"images": [
 			{
 				"name": "866_001.jpg",
-				"source": "",
+				"source": "https://img.vavel.com/b/Teddi%20Malcha%20Stadium2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "866_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/9/99/Teddy_Kollek_Stadium_-_Inside.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "866_003.jpg",
+				"source": "https://www.jerusalemshots.com/b/uploaded6/0302022650_1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "866_004.jpg",
+				"source": "https://www.jerusalemshots.com/b/uploaded6/0302022652_2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "866_005.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Teddy_stadium%2C_Jerusalem.JPG/1200px-Teddy_stadium%2C_Jerusalem.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -126,7 +222,7 @@
 			"code": "HAP",
 			"country": "Israel",
 			"founded": 1924,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Haifa_F.C."
 		},
 		"venue": {
 			"api_football_id": 868,
@@ -150,7 +246,63 @@
 		"images": [
 			{
 				"name": "868_001.jpg",
-				"source": "",
+				"source": "https://media.timeout.com/images/103938819/image.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "868_002.jpg",
+				"source": "https://pbs.twimg.com/media/DTBo03IWAAE8TCH.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "868_003.jpg",
+				"source": "https://pbs.twimg.com/media/FY7OAxpXkAEB0KK.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "868_004.jpg",
+				"source": "https://architizer-prod.imgix.net/media/1495694752950Photo_2.jpg?w=1680&q=60&auto=format,compress&cs=strip",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "868_005.jpg",
+				"source": "https://images.mnstatic.com/a4/3b/a43bdd4145b4a352b400220710cdb5ad.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "868_006.jpg",
+				"source": "https://www.hec.co.il/SiteEng/Pictures/20210428143450.441.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "868_007.jpg",
+				"source": "https://www.palram.com/fr/wp-content/uploads/sites/12/2018/06/SUNTUF_Sami_Ofer_Stadium_Haifa__slider-1920x657-1-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "868_008.jpg",
+				"source": "https://static.vecteezy.com/system/resources/previews/011/063/851/large_2x/sammy-ofer-stadium-in-haifa-football-field-free-photo.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -166,7 +318,7 @@
 			"code": "MAC",
 			"country": "Israel",
 			"founded": 1913,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Maccabi_Haifa_F.C."
 		},
 		"venue": {
 			"api_football_id": 868,
@@ -190,7 +342,63 @@
 		"images": [
 			{
 				"name": "868_001.jpg",
-				"source": "",
+				"source": "https://media.timeout.com/images/103938819/image.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "868_002.jpg",
+				"source": "https://pbs.twimg.com/media/DTBo03IWAAE8TCH.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "868_003.jpg",
+				"source": "https://pbs.twimg.com/media/FY7OAxpXkAEB0KK.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "868_004.jpg",
+				"source": "https://architizer-prod.imgix.net/media/1495694752950Photo_2.jpg?w=1680&q=60&auto=format,compress&cs=strip",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "868_005.jpg",
+				"source": "https://images.mnstatic.com/a4/3b/a43bdd4145b4a352b400220710cdb5ad.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "868_006.jpg",
+				"source": "https://www.hec.co.il/SiteEng/Pictures/20210428143450.441.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "868_007.jpg",
+				"source": "https://www.palram.com/fr/wp-content/uploads/sites/12/2018/06/SUNTUF_Sami_Ofer_Stadium_Haifa__slider-1920x657-1-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "868_008.jpg",
+				"source": "https://static.vecteezy.com/system/resources/previews/011/063/851/large_2x/sammy-ofer-stadium-in-haifa-football-field-free-photo.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -206,7 +414,7 @@
 			"code": "BNE",
 			"country": "Israel",
 			"founded": 1991,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Bnei_Sakhnin_F.C."
 		},
 		"venue": {
 			"api_football_id": 3402,
@@ -230,7 +438,15 @@
 		"images": [
 			{
 				"name": "3402_001.jpg",
-				"source": "",
+				"source": "https://static.maccabi-tlv.co.il/wp-content/uploads/2016/02/MTA_4611741103c4c37dd8e870316e4d3574.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3402_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Doha_Stadium01.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -246,7 +462,7 @@
 			"code": "HAP",
 			"country": "Israel",
 			"founded": 2007,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Katamon_Jerusalem_F.C."
 		},
 		"venue": {
 			"api_football_id": 866,
@@ -270,7 +486,39 @@
 		"images": [
 			{
 				"name": "866_001.jpg",
-				"source": "",
+				"source": "https://img.vavel.com/b/Teddi%20Malcha%20Stadium2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "866_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/9/99/Teddy_Kollek_Stadium_-_Inside.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "866_003.jpg",
+				"source": "https://www.jerusalemshots.com/b/uploaded6/0302022650_1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "866_004.jpg",
+				"source": "https://www.jerusalemshots.com/b/uploaded6/0302022652_2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "866_005.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Teddy_stadium%2C_Jerusalem.JPG/1200px-Teddy_stadium%2C_Jerusalem.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -286,7 +534,7 @@
 			"code": "HAP",
 			"country": "Israel",
 			"founded": 1934,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Petah_Tikva_F.C."
 		},
 		"venue": {
 			"api_football_id": 3408,
@@ -310,7 +558,31 @@
 		"images": [
 			{
 				"name": "3408_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YUVAL_CHEN_061121SIXT_03134.jpg/1200px-YUVAL_CHEN_061121SIXT_03134.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3408_002.jpg",
+				"source": "https://www.gab-arch.co.il/wp-content/uploads/2024/03/100.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3408_003.jpg",
+				"source": "https://pbs.twimg.com/media/EDJlvxvXoAskE_2?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3408_004.jpg",
+				"source": "https://res.cloudinary.com/globes/image/upload/t_desktop_article_content_header_800%2A392/v1613319921/old/1150509.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -326,7 +598,7 @@
 			"code": "HAP",
 			"country": "Israel",
 			"founded": 1926,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Tel_Aviv_F.C."
 		},
 		"venue": {
 			"api_football_id": 10592,
@@ -350,7 +622,47 @@
 		"images": [
 			{
 				"name": "10592_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Bloomfield_Stadium%2C_January_2022_-_42.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_002.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/isr/bloomfield_stadium/bloomfield_stadium20.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_003.jpg",
+				"source": "https://data2.nssmag.com/images/galleries/29243/cover%281%29.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_004.jpg",
+				"source": "https://www.sportpalace.co.il/wp-content/uploads/2015/07/1600X800_8325.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_005.jpg",
+				"source": "https://www.beinharimtours.com/wwwroot/uploads/places/320/1aa7b07e-3395-4552-b2f4-813a8f8376a0.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_006.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Bloomfield_Stadium%2C_January_2022_-_29.jpg/2560px-Bloomfield_Stadium%2C_January_2022_-_29.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -366,7 +678,7 @@
 			"code": "MAC",
 			"country": "Israel",
 			"founded": 1934,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Maccabi_Netanya_F.C."
 		},
 		"venue": {
 			"api_football_id": 11941,
@@ -390,7 +702,31 @@
 		"images": [
 			{
 				"name": "11941_001.jpg",
-				"source": "",
+				"source": "https://img.uefa.com/imgml/stadium/uw/250001472.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11941_002.jpg",
+				"source": "https://barrabi.com/wp-content/uploads/2021/12/DJI_0118-scaled.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11941_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/WikiAir_IL-13-05_A18.JPG/1200px-WikiAir_IL-13-05_A18.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11941_004.jpg",
+				"source": "https://football-stadiums.ru/wp-content/uploads/2023/05/netanya-stadium-10.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -406,7 +742,7 @@
 			"code": "MOA",
 			"country": "Israel",
 			"founded": 1999,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/F.C._Ashdod"
 		},
 		"venue": {
 			"api_football_id": 3419,
@@ -430,7 +766,31 @@
 		"images": [
 			{
 				"name": "3419_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Yod_alef1.JPG/1200px-Yod_alef1.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3419_002.jpg",
+				"source": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/620768",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3419_003.jpg",
+				"source": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/112258006.jpg?k=899b6f1a837992c45f88d61ea256a3da4854ddf7112e30482f97319717930e41&o=&hp=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3419_004.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxiChGsdBEp9AGKal4kgobSg3KP0XvdfFAhSopP47_jewno7Uv7uS1Bas5tFcPLoFjjZl5TJqiAQI1lUqHYQvmqJs-ZzVeyVsbjznVLDl_sITuxS_Qnij1GbRZJRtABSkxRzdva8NK_J39/s1600/Sala_Stadium.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -446,7 +806,7 @@
 			"code": "SHM",
 			"country": "Israel",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Ironi_Kiryat_Shmona_F.C."
 		},
 		"venue": {
 			"api_football_id": 3420,
@@ -470,7 +830,15 @@
 		"images": [
 			{
 				"name": "3420_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Kiryat_Shemona_stadium.jpg/2560px-Kiryat_Shemona_stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3420_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Kiryat_Shmona_Municipal_Stadium3.jpg/1200px-Kiryat_Shmona_Municipal_Stadium3.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -486,7 +854,7 @@
 			"code": "IRO",
 			"country": "Israel",
 			"founded": 2006,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Ironi_Tiberias_F.C."
 		},
 		"venue": {
 			"api_football_id": 4578,
@@ -510,7 +878,7 @@
 		"images": [
 			{
 				"name": "4578_001.jpg",
-				"source": "",
+				"source": "https://www.skyscrapercity.com/attachments/1712549423841-png.7021238/",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -526,7 +894,7 @@
 			"code": null,
 			"country": "Israel",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Maccabi_Bnei_Reineh_F.C."
 		},
 		"venue": {
 			"api_football_id": 3407,
@@ -550,7 +918,15 @@
 		"images": [
 			{
 				"name": "3407_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Green_Stadium01.jpg/1280px-Green_Stadium01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3407_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%92%D7%A8%D7%99%D7%9F.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -566,7 +942,7 @@
 			"code": "HAP",
 			"country": "Israel",
 			"founded": 1946,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Acre_F.C."
 		},
 		"venue": {
 			"api_football_id": 3403,
@@ -590,7 +966,7 @@
 		"images": [
 			{
 				"name": "3403_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/4/47/Acre_Municipal_Stadium_%2811_April%2C2015%29.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -606,7 +982,7 @@
 			"code": "HAP",
 			"country": "Israel",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Afula_F.C."
 		},
 		"venue": {
 			"api_football_id": 3404,
@@ -630,7 +1006,15 @@
 		"images": [
 			{
 				"name": "3404_001.jpg",
-				"source": "",
+				"source": "https://afulanet.co.il/images/newsphoto/WhatsApp%20Image%202017-07-30%20at%2014.42.08(1).jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3404_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Afula_Municipal_Stadium_%282%29.jpg/1200px-Afula_Municipal_Stadium_%282%29.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -646,7 +1030,7 @@
 			"code": "HAP",
 			"country": "Israel",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Nof_HaGalil_F.C."
 		},
 		"venue": {
 			"api_football_id": 3407,
@@ -670,7 +1054,15 @@
 		"images": [
 			{
 				"name": "3407_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Green_Stadium01.jpg/1280px-Green_Stadium01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3407_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%92%D7%A8%D7%99%D7%9F.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -686,7 +1078,7 @@
 			"code": "HAP",
 			"country": "Israel",
 			"founded": 1927,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Ramat_Gan_Givatayim_F.C."
 		},
 		"venue": {
 			"api_football_id": 2610,
@@ -710,7 +1102,31 @@
 		"images": [
 			{
 				"name": "2610_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Ramat_Gan_Ramat_Gan_Stadium_3.jpg/1200px-Ramat_Gan_Ramat_Gan_Stadium_3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2610_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ramat_Gan_Ramat_Gan_Stadium_4.jpg/1200px-Ramat_Gan_Ramat_Gan_Stadium_4.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2610_003.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/isr/ramat_gan_stadium/ramat_gan_stadium15.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2610_004.jpg",
+				"source": "https://www.stadiumguide.com/wp-content/uploads/ramatgan_top.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -726,7 +1142,7 @@
 			"code": "IRO",
 			"country": "Israel",
 			"founded": 1957,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Nir_Ramat_HaSharon_F.C."
 		},
 		"venue": {
 			"api_football_id": 3409,
@@ -750,7 +1166,7 @@
 		"images": [
 			{
 				"name": "3409_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Estadio_Yankel_Rosenthal.jpg/2560px-Estadio_Yankel_Rosenthal.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -766,7 +1182,7 @@
 			"code": "HAP",
 			"country": "Israel",
 			"founded": 1940,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Rishon_LeZion_F.C."
 		},
 		"venue": {
 			"api_football_id": 3410,
@@ -790,7 +1206,23 @@
 		"images": [
 			{
 				"name": "3410_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Haberfeld_Stadium18.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3410_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Haberfeld_Stadium01.jpg/1200px-Haberfeld_Stadium01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3410_003.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpWQTbtw7ycioNNADhZ44IgYDbS4-A-Ja9k5vFB-5Y68N6lMeIyfWP7fmGZsx57Gj3keVytr0OiaxDOBO8n6Mhji4b6D0qUJ_Ovkp-MXbMPNk8M-A8O-YuAER4rLLcNlM5JcH7SIBPELWN/s1600/IMG_20190322_140405.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -806,7 +1238,7 @@
 			"code": "KFA",
 			"country": "Israel",
 			"founded": 2002,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/F.C._Kafr_Qasim"
 		},
 		"venue": {
 			"api_football_id": 3412,
@@ -830,7 +1262,7 @@
 		"images": [
 			{
 				"name": "3412_001.jpg",
-				"source": "",
+				"source": "https://static-cdn.toi-media.com/www/uploads/2023/11/400722201_18394510864039882_3059821543969702620_n.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -846,7 +1278,7 @@
 			"code": "MAC",
 			"country": "Israel",
 			"founded": 1912,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Maccabi_Petah_Tikva_F.C."
 		},
 		"venue": {
 			"api_football_id": 3408,
@@ -870,7 +1302,31 @@
 		"images": [
 			{
 				"name": "3408_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YUVAL_CHEN_061121SIXT_03134.jpg/1200px-YUVAL_CHEN_061121SIXT_03134.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3408_002.jpg",
+				"source": "https://www.gab-arch.co.il/wp-content/uploads/2024/03/100.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3408_003.jpg",
+				"source": "https://pbs.twimg.com/media/EDJlvxvXoAskE_2?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3408_004.jpg",
+				"source": "https://res.cloudinary.com/globes/image/upload/t_desktop_article_content_header_800%2A392/v1613319921/old/1150509.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -886,7 +1342,7 @@
 			"code": "HAP",
 			"country": "Israel",
 			"founded": 1928,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Kfar_Saba_F.C."
 		},
 		"venue": {
 			"api_football_id": 4540,
@@ -910,7 +1366,15 @@
 		"images": [
 			{
 				"name": "4540_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Levita_Stadium9.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4540_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Levita_Stadium6.jpg/1024px-Levita_Stadium6.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -926,7 +1390,7 @@
 			"code": null,
 			"country": "Israel",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Hadera_F.C."
 		},
 		"venue": {
 			"api_football_id": 11941,
@@ -950,7 +1414,31 @@
 		"images": [
 			{
 				"name": "11941_001.jpg",
-				"source": "",
+				"source": "https://img.uefa.com/imgml/stadium/uw/250001472.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11941_002.jpg",
+				"source": "https://barrabi.com/wp-content/uploads/2021/12/DJI_0118-scaled.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11941_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/WikiAir_IL-13-05_A18.JPG/1200px-WikiAir_IL-13-05_A18.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11941_004.jpg",
+				"source": "https://football-stadiums.ru/wp-content/uploads/2023/05/netanya-stadium-10.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -966,7 +1454,7 @@
 			"code": "MAC",
 			"country": "Israel",
 			"founded": 1932,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Maccabi_Herzliya_F.C."
 		},
 		"venue": {
 			"api_football_id": 3417,
@@ -990,7 +1478,15 @@
 		"images": [
 			{
 				"name": "3417_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Herzliya_Toto_Stadium.jpg/1200px-Herzliya_Toto_Stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3417_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Herzliya_Stadium.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1006,7 +1502,7 @@
 			"code": "BNE",
 			"country": "Israel",
 			"founded": 1936,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Bnei_Yehuda_Tel_Aviv_F.C."
 		},
 		"venue": {
 			"api_football_id": 10592,
@@ -1030,7 +1526,47 @@
 		"images": [
 			{
 				"name": "10592_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Bloomfield_Stadium%2C_January_2022_-_42.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_002.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/isr/bloomfield_stadium/bloomfield_stadium20.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_003.jpg",
+				"source": "https://data2.nssmag.com/images/galleries/29243/cover%281%29.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_004.jpg",
+				"source": "https://www.sportpalace.co.il/wp-content/uploads/2015/07/1600X800_8325.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_005.jpg",
+				"source": "https://www.beinharimtours.com/wwwroot/uploads/places/320/1aa7b07e-3395-4552-b2f4-813a8f8376a0.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10592_006.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Bloomfield_Stadium%2C_January_2022_-_29.jpg/2560px-Bloomfield_Stadium%2C_January_2022_-_29.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1046,7 +1582,7 @@
 			"code": "HAP",
 			"country": "Israel",
 			"founded": 1972,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Ra%27anana_A.F.C."
 		},
 		"venue": {
 			"api_football_id": 2610,
@@ -1070,7 +1606,31 @@
 		"images": [
 			{
 				"name": "2610_001.jpg",
-				"source": "https://en.wikipedia.org/wiki/Ramat_Gan_Stadium#/media/File:Ramat_Gan_Ramat_Gan_Stadium_3.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Ramat_Gan_Ramat_Gan_Stadium_3.jpg/1200px-Ramat_Gan_Ramat_Gan_Stadium_3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2610_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ramat_Gan_Ramat_Gan_Stadium_4.jpg/1200px-Ramat_Gan_Ramat_Gan_Stadium_4.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2610_003.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/isr/ramat_gan_stadium/ramat_gan_stadium15.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2610_004.jpg",
+				"source": "https://www.stadiumguide.com/wp-content/uploads/ramatgan_top.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1086,7 +1646,7 @@
 			"code": null,
 			"country": "Israel",
 			"founded": 1958,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Kfar_Shalem_F.C."
 		},
 		"venue": {
 			"api_football_id": 4561,
@@ -1110,7 +1670,7 @@
 		"images": [
 			{
 				"name": "4561_001.jpg",
-				"source": "https://en.wikipedia.org/wiki/Hatikva_Neighborhood_Stadium#/media/File:Hatikva_Neighborhood_Stadium19.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/31/Hatikva_Neighborhood_Stadium19.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1126,7 +1686,7 @@
 			"code": null,
 			"country": "Israel",
 			"founded": 2009,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Ironi_Modi%27in_F.C."
 		},
 		"venue": {
 			"api_football_id": 4576,
@@ -1147,7 +1707,16 @@
 			"country": "Israel",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "4576_001.jpg",
+				"source": "https://www.europlan-online.de/files/1a5dca8cffc08c1aa45f25628f96fd26.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 29
 	},
 	{
@@ -1157,7 +1726,7 @@
 			"code": null,
 			"country": "Israel",
 			"founded": 2007,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Maccabi_Jaffa_F.C."
 		},
 		"venue": {
 			"api_football_id": 3401,
@@ -1181,7 +1750,7 @@
 		"images": [
 			{
 				"name": "3401_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Ramla_Municipal_Stadium%2C_2021_05.jpg/1200px-Ramla_Municipal_Stadium%2C_2021_05.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1197,7 +1766,7 @@
 			"code": null,
 			"country": "Israel",
 			"founded": 2008,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/F.C._Kiryat_Yam"
 		},
 		"venue": {
 			"api_football_id": 21198,
@@ -1218,7 +1787,16 @@
 			"country": "Israel",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "21198_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/5/53/Bat_Yam_Stadium_01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 31
 	},
 	{
@@ -1227,7 +1805,8 @@
 			"name": "Hapoel Umm al-Fahm",
 			"code": null,
 			"country": "Israel",
-			"founded": 1963
+			"founded": 1963,
+			"wiki": "https://en.wikipedia.org/wiki/Hapoel_Umm_al-Fahm_F.C."
 		},
 		"venue": {
 			"api_football_id": 10590,
@@ -1261,7 +1840,8 @@
 			"name": "Sektzia Nes Tziona",
 			"code": "SEK",
 			"country": "Israel",
-			"founded": 1956
+			"founded": 1956,
+			"wiki": "https://en.wikipedia.org/wiki/Sektzia_Ness_Ziona_F.C."
 		},
 		"venue": {
 			"api_football_id": 3408,
@@ -1280,7 +1860,31 @@
 		"images": [
 			{
 				"name": "3408_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YUVAL_CHEN_061121SIXT_03134.jpg/1200px-YUVAL_CHEN_061121SIXT_03134.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3408_002.jpg",
+				"source": "https://www.gab-arch.co.il/wp-content/uploads/2024/03/100.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3408_003.jpg",
+				"source": "https://pbs.twimg.com/media/EDJlvxvXoAskE_2?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3408_004.jpg",
+				"source": "https://res.cloudinary.com/globes/image/upload/t_desktop_article_content_header_800%2A392/v1613319921/old/1150509.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1295,7 +1899,8 @@
 			"name": "Tira",
 			"code": null,
 			"country": "Israel",
-			"founded": 2005
+			"founded": 2005,
+			"wiki": "https://en.wikipedia.org/wiki/F.C._Tira"
 		},
 		"venue": {
 			"api_football_id": 4591,
@@ -1329,7 +1934,8 @@
 			"name": "Ihud Bnei Shfaram",
 			"code": null,
 			"country": "Israel",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Ihud_Bnei_Shefa-%27Amr_F.C."
 		},
 		"venue": {
 			"api_football_id": null,
