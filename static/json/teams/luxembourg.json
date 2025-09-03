@@ -6,7 +6,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": 1991,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/F91_Dudelange"
 		},
 		"venue": {
 			"api_football_id": 1033,
@@ -29,7 +29,7 @@
 		},
 		"images": [
 			{
-				"name": "1033_01.jpg",
+				"name": "1033_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -46,7 +46,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": 1919,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Progr%C3%A8s_Niederkorn"
 		},
 		"venue": {
 			"api_football_id": 1039,
@@ -69,7 +69,7 @@
 		},
 		"images": [
 			{
-				"name": "1039_01.jpg",
+				"name": "1039_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -86,7 +86,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": 2003,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Differdange_03"
 		},
 		"venue": {
 			"api_football_id": 1031,
@@ -109,7 +109,7 @@
 		},
 		"images": [
 			{
-				"name": "1031_01.jpg",
+				"name": "1031_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -126,7 +126,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Jeunesse_Canach"
 		},
 		"venue": {
 			"api_football_id": 2780,
@@ -147,7 +147,16 @@
 			"country": "Luxembourg",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "2780_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 4
 	},
 	{
@@ -157,7 +166,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Racing_FC_Union_Luxembourg"
 		},
 		"venue": {
 			"api_football_id": 11049,
@@ -180,7 +189,7 @@
 		},
 		"images": [
 			{
-				"name": "11049_01.jpg",
+				"name": "11049_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -197,7 +206,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": 1910,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Union_Titus_P%C3%A9tange"
 		},
 		"venue": {
 			"api_football_id": 1038,
@@ -220,7 +229,7 @@
 		},
 		"images": [
 			{
-				"name": "1038_01.jpg",
+				"name": "1038_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -237,7 +246,7 @@
 			"code": "JEU",
 			"country": "Luxembourg",
 			"founded": 1907,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Jeunesse_Esch"
 		},
 		"venue": {
 			"api_football_id": 1037,
@@ -260,7 +269,7 @@
 		},
 		"images": [
 			{
-				"name": "1037_01.jpg",
+				"name": "1037_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -277,7 +286,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": 1997,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/UN_K%C3%A4erj%C3%A9ng_97"
 		},
 		"venue": {
 			"api_football_id": 2781,
@@ -300,7 +309,7 @@
 		},
 		"images": [
 			{
-				"name": "2781_01.jpg",
+				"name": "2781_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -317,7 +326,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": 1922,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_UNA_Strassen"
 		},
 		"venue": {
 			"api_football_id": 1034,
@@ -340,7 +349,7 @@
 		},
 		"images": [
 			{
-				"name": "1034_01.jpg",
+				"name": "1034_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -357,7 +366,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/US_Mondorf-les-Bains"
 		},
 		"venue": {
 			"api_football_id": 1043,
@@ -380,7 +389,7 @@
 		},
 		"images": [
 			{
-				"name": "1043_01.jpg",
+				"name": "1043_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -397,7 +406,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Victoria_Rosport"
 		},
 		"venue": {
 			"api_football_id": 1035,
@@ -420,7 +429,7 @@
 		},
 		"images": [
 			{
-				"name": "1035_01.jpg",
+				"name": "1035_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -437,7 +446,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Rodange_91"
 		},
 		"venue": {
 			"api_football_id": 2778,
@@ -477,7 +486,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": 1946,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/US_Hostert"
 		},
 		"venue": {
 			"api_football_id": 1042,
@@ -500,7 +509,7 @@
 		},
 		"images": [
 			{
-				"name": "1042_01.jpg",
+				"name": "1042_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -517,7 +526,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": 1916,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Swift_Hesperange"
 		},
 		"venue": {
 			"api_football_id": 7726,
@@ -540,7 +549,7 @@
 		},
 		"images": [
 			{
-				"name": "7726_01.jpg",
+				"name": "7726_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -557,7 +566,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": 1945,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Atert_Bissen"
 		},
 		"venue": {
 			"api_football_id": 20349,
@@ -578,7 +587,16 @@
 			"country": "Luxembourg",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "20349_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 15
 	},
 	{
@@ -588,7 +606,7 @@
 			"code": null,
 			"country": "Luxembourg",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Mamer_32"
 		},
 		"venue": {
 			"api_football_id": 11212,
@@ -609,7 +627,16 @@
 			"country": "Luxembourg",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "11212_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 16
 	},
 	{
@@ -618,7 +645,8 @@
 			"name": "Fola Esch",
 			"code": null,
 			"country": "Luxembourg",
-			"founded": 1906
+			"founded": 1906,
+			"wiki": "https://en.wikipedia.org/wiki/CS_Fola_Esch"
 		},
 		"venue": {
 			"api_football_id": 1036,
@@ -652,7 +680,8 @@
 			"name": "Bettembourg",
 			"code": null,
 			"country": "Luxembourg",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/SC_Bettembourg"
 		},
 		"venue": {
 			"api_football_id": 11235,
@@ -686,7 +715,8 @@
 			"name": "Wiltz",
 			"code": null,
 			"country": "Luxembourg",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Wiltz_71"
 		},
 		"venue": {
 			"api_football_id": 7725,
@@ -720,7 +750,8 @@
 			"name": "Mondercange",
 			"code": null,
 			"country": "Luxembourg",
-			"founded": 1933
+			"founded": 1933,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Mondercange"
 		},
 		"venue": {
 			"api_football_id": 11215,
@@ -754,7 +785,8 @@
 			"name": "US Rumelange",
 			"code": null,
 			"country": "Luxembourg",
-			"founded": 1907
+			"founded": 1907,
+			"wiki": "https://en.wikipedia.org/wiki/US_Rumelange"
 		},
 		"venue": {
 			"api_football_id": 1041,
@@ -788,7 +820,8 @@
 			"name": "Marisca Mersch",
 			"code": null,
 			"country": "Luxembourg",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Marisca_Mersch"
 		},
 		"venue": {
 			"api_football_id": 11213,
@@ -822,7 +855,8 @@
 			"name": "Schifflange",
 			"code": null,
 			"country": "Luxembourg",
-			"founded": 1995
+			"founded": 1995,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Schifflange_95"
 		},
 		"venue": {
 			"api_football_id": 11224,
