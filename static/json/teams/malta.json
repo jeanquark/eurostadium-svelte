@@ -1,29 +1,35 @@
 [
 	{
 		"team": {
-			"api_football_id": 696,
-			"name": "Balzan FC",
-			"code": "BAL",
+			"api_football_id": 659,
+			"name": "Valletta FC",
+			"code": "VAL",
 			"country": "Malta",
-			"founded": null
+			"founded": 1944,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 1065,
-			"name": "Victor Tedesco Stadium",
-			"address": "Triq Mile End",
-			"city": "Hamrun",
-			"capacity": 6000,
+			"api_football_id": 1067,
+			"name": "MFA Centenary Stadium",
+			"address": "Villagg Tas-Snajja&apos;",
+			"city": "Ta&apos;Qali",
+			"capacity": 2000,
 			"surface": "artificial turf",
-			"lat": 35.887373,
-			"lng": 14.492521,
-			"x": 787,
-			"y": 678,
-			"wiki": "https://en.wikipedia.org/wiki/Victor_Tedesco_Stadium"
+			"lat": 35.896667,
+			"lng": 14.415556,
+			"x": 591,
+			"y": 649,
+			"wiki": "https://en.wikipedia.org/wiki/Centenary_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 393,
+			"name": "Premier League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
-				"name": "1065_001.jpg",
+				"name": "1067_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -39,7 +45,8 @@
 			"name": "Gzira United",
 			"code": "GIZ",
 			"country": "Malta",
-			"founded": 1947
+			"founded": 1947,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1067,
@@ -54,7 +61,12 @@
 			"y": 649,
 			"wiki": "https://en.wikipedia.org/wiki/Centenary_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 393,
+			"name": "Premier League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1067_001.jpg",
@@ -73,7 +85,8 @@
 			"name": "Birkirkara",
 			"code": "BIR",
 			"country": "Malta",
-			"founded": 1950
+			"founded": 1950,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1066,
@@ -88,7 +101,12 @@
 			"y": 653,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 393,
+			"name": "Premier League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1066_001.jpg",
@@ -107,7 +125,8 @@
 			"name": "Hibernians",
 			"code": "HIB",
 			"country": "Malta",
-			"founded": 1922
+			"founded": 1922,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 12090,
@@ -122,7 +141,12 @@
 			"y": 691,
 			"wiki": "https://en.wikipedia.org/wiki/Tony_Bezzina_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 393,
+			"name": "Premier League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "12090_001.jpg",
@@ -141,7 +165,8 @@
 			"name": "Naxxar Lions",
 			"code": "NAX",
 			"country": "Malta",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1067,
@@ -156,7 +181,12 @@
 			"y": 649,
 			"wiki": "https://en.wikipedia.org/wiki/Centenary_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 393,
+			"name": "Premier League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1067_001.jpg",
@@ -171,45 +201,12 @@
 	},
 	{
 		"team": {
-			"api_football_id": 4620,
-			"name": "Melita",
-			"code": "MEL",
-			"country": "Malta",
-			"founded": 1933
-		},
-		"venue": {
-			"api_football_id": 3482,
-			"name": "Gianni Bencini Ground",
-			"address": "Suffolk Road",
-			"city": "Pembroke",
-			"capacity": 400,
-			"surface": "artificial turf",
-			"lat": 35.93098,
-			"lng": 14.473785,
-			"x": 739,
-			"y": 541,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3482_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 6
-	},
-	{
-		"team": {
 			"api_football_id": 4622,
 			"name": "Zabbar St. Patrick",
 			"code": null,
 			"country": "Malta",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3484,
@@ -224,7 +221,12 @@
 			"y": 703,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 393,
+			"name": "Premier League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3484_001.jpg",
@@ -235,7 +237,7 @@
 				"size": 0
 			}
 		],
-		"no": 7
+		"no": 6
 	},
 	{
 		"team": {
@@ -243,7 +245,8 @@
 			"name": "Floriana",
 			"code": "FLO",
 			"country": "Malta",
-			"founded": 1894
+			"founded": 1894,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 11541,
@@ -258,7 +261,12 @@
 			"y": 656,
 			"wiki": "https://en.wikipedia.org/wiki/Independence_Arena_(Floriana)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 393,
+			"name": "Premier League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "11541_001.jpg",
@@ -269,7 +277,7 @@
 				"size": 0
 			}
 		],
-		"no": 8
+		"no": 7
 	},
 	{
 		"team": {
@@ -277,7 +285,8 @@
 			"name": "Hamrun Spartans",
 			"code": "HAM",
 			"country": "Malta",
-			"founded": 1907
+			"founded": 1907,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1065,
@@ -292,7 +301,12 @@
 			"y": 678,
 			"wiki": "https://en.wikipedia.org/wiki/Victor_Tedesco_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 393,
+			"name": "Premier League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1065_001.jpg",
@@ -303,7 +317,7 @@
 				"size": 0
 			}
 		],
-		"no": 9
+		"no": 8
 	},
 	{
 		"team": {
@@ -311,7 +325,8 @@
 			"name": "Mosta",
 			"code": "MOS",
 			"country": "Malta",
-			"founded": 1935
+			"founded": 1935,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3486,
@@ -326,7 +341,12 @@
 			"y": 623,
 			"wiki": "https://en.wikipedia.org/wiki/Charles_Abela_Memorial_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 393,
+			"name": "Premier League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3486_001.jpg",
@@ -337,7 +357,7 @@
 				"size": 0
 			}
 		],
-		"no": 10
+		"no": 9
 	},
 	{
 		"team": {
@@ -345,7 +365,8 @@
 			"name": "Sliema Wanderers",
 			"code": "SLI",
 			"country": "Malta",
-			"founded": 1909
+			"founded": 1909,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 12090,
@@ -360,10 +381,55 @@
 			"y": 691,
 			"wiki": "https://en.wikipedia.org/wiki/Tony_Bezzina_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 393,
+			"name": "Premier League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "12090_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 4629,
+			"name": "Tarxien Rainbows",
+			"code": "TAR",
+			"country": "Malta",
+			"founded": 1944,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3488,
+			"name": "Tony Cassar Sports Ground",
+			"address": "Triq San Frangisk and Triq Pietro Gagliardi",
+			"city": "Tarxien",
+			"capacity": 1000,
+			"surface": "artificial turf",
+			"lat": 35.868552,
+			"lng": 14.512859,
+			"x": 838,
+			"y": 736,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 393,
+			"name": "Premier League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3488_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -379,7 +445,8 @@
 			"name": "Marsaxlokk",
 			"code": null,
 			"country": "Malta",
-			"founded": 1949
+			"founded": 1949,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 11542,
@@ -394,7 +461,12 @@
 			"y": 837,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 393,
+			"name": "Premier League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "11542_001.jpg",
@@ -409,29 +481,35 @@
 	},
 	{
 		"team": {
-			"api_football_id": 659,
-			"name": "Valletta FC",
-			"code": "VAL",
+			"api_football_id": 696,
+			"name": "Balzan FC",
+			"code": "BAL",
 			"country": "Malta",
-			"founded": 1944
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 1067,
-			"name": "MFA Centenary Stadium",
-			"address": "Villagg Tas-Snajja&apos;",
-			"city": "Ta&apos;Qali",
-			"capacity": 2000,
+			"api_football_id": 1065,
+			"name": "Victor Tedesco Stadium",
+			"address": "Triq Mile End",
+			"city": "Hamrun",
+			"capacity": 6000,
 			"surface": "artificial turf",
-			"lat": 35.896667,
-			"lng": 14.415556,
-			"x": 591,
-			"y": 649,
-			"wiki": "https://en.wikipedia.org/wiki/Centenary_Stadium"
+			"lat": 35.887373,
+			"lng": 14.492521,
+			"x": 787,
+			"y": 678,
+			"wiki": "https://en.wikipedia.org/wiki/Victor_Tedesco_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
-				"name": "1067_001.jpg",
+				"name": "1065_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -447,7 +525,8 @@
 			"name": "Santa Lucía",
 			"code": null,
 			"country": "Malta",
-			"founded": 1974
+			"founded": 1974,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2451,
@@ -462,7 +541,12 @@
 			"y": 564,
 			"wiki": "https://en.wikipedia.org/wiki/Luxol_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2451_001.jpg",
@@ -481,7 +565,8 @@
 			"name": "Fgura United",
 			"code": null,
 			"country": "Malta",
-			"founded": 1971
+			"founded": 1971,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1065,
@@ -496,7 +581,12 @@
 			"y": 678,
 			"wiki": "https://en.wikipedia.org/wiki/Victor_Tedesco_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1065_001.jpg",
@@ -508,6 +598,499 @@
 			}
 		],
 		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 4607,
+			"name": "Pietà Hotspurs",
+			"code": "PIE",
+			"country": "Malta",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 1065,
+			"name": "Victor Tedesco Stadium",
+			"address": "Triq Mile End",
+			"city": "Hamrun",
+			"capacity": 6000,
+			"surface": "artificial turf",
+			"lat": 35.887373,
+			"lng": 14.492521,
+			"x": 787,
+			"y": 678,
+			"wiki": "https://en.wikipedia.org/wiki/Victor_Tedesco_Stadium"
+		},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1065_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 4610,
+			"name": "St. Andrews",
+			"code": null,
+			"country": "Malta",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 2451,
+			"name": "Luxol Sports Ground",
+			"address": "Triq Arnhem",
+			"city": "Pembroke",
+			"capacity": 800,
+			"surface": "artificial turf",
+			"lat": 35.923889,
+			"lng": 14.475278,
+			"x": 743,
+			"y": 564,
+			"wiki": "https://en.wikipedia.org/wiki/Luxol_Stadium"
+		},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2451_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 4612,
+			"name": "Swieqi United",
+			"code": null,
+			"country": "Malta",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 2451,
+			"name": "Luxol Sports Ground",
+			"address": "Triq Arnhem",
+			"city": "Pembroke",
+			"capacity": 800,
+			"surface": "artificial turf",
+			"lat": 35.923889,
+			"lng": 14.475278,
+			"x": 743,
+			"y": 564,
+			"wiki": "https://en.wikipedia.org/wiki/Luxol_Stadium"
+		},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2451_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 4613,
+			"name": "Vittoriosa Stars",
+			"code": "VIT",
+			"country": "Malta",
+			"founded": 1906,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3477,
+			"name": "Fortini Ground",
+			"address": "Triq San Dwardu",
+			"city": "Birgu",
+			"capacity": 1000,
+			"surface": "sand pitch",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 4614,
+			"name": "Zebbug Rangers",
+			"code": null,
+			"country": "Malta",
+			"founded": 1943,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3478,
+			"name": "Zebbug Ground",
+			"address": null,
+			"city": "Città Rohan",
+			"capacity": 1000,
+			"surface": "artificial turf",
+			"lat": 35.874936,
+			"lng": 14.442469,
+			"x": 659,
+			"y": 716,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3478_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 4616,
+			"name": "Gudja United",
+			"code": "GUD",
+			"country": "Malta",
+			"founded": 1945,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 11540,
+			"name": "Gudja United Football Ground",
+			"address": "Triq Hal-Tarxien",
+			"city": "Gudja",
+			"capacity": 1000,
+			"surface": "artificial turf",
+			"lat": 35.85147,
+			"lng": 14.505987,
+			"x": 821,
+			"y": 790,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "11540_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 4617,
+			"name": "Marsa",
+			"code": null,
+			"country": "Malta",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 2451,
+			"name": "Luxol Sports Ground",
+			"address": "Triq Arnhem",
+			"city": "Pembroke",
+			"capacity": 800,
+			"surface": "artificial turf",
+			"lat": 35.923889,
+			"lng": 14.475278,
+			"x": 743,
+			"y": 564,
+			"wiki": "https://en.wikipedia.org/wiki/Luxol_Stadium"
+		},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2451_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 4619,
+			"name": "Sirens",
+			"code": null,
+			"country": "Malta",
+			"founded": 1968,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3481,
+			"name": "Sirens Stadium",
+			"address": "Triq il-Wileġ",
+			"city": "St. Paul&apos;s Bay",
+			"capacity": 1500,
+			"surface": "artificial turf",
+			"lat": 35.9453,
+			"lng": 14.4148,
+			"x": 589,
+			"y": 497,
+			"wiki": "https://en.wikipedia.org/wiki/Sirens_Stadium"
+		},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3481_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 4620,
+			"name": "Melita",
+			"code": "MEL",
+			"country": "Malta",
+			"founded": 1933,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3482,
+			"name": "Gianni Bencini Ground",
+			"address": "Suffolk Road",
+			"city": "Pembroke",
+			"capacity": 400,
+			"surface": "artificial turf",
+			"lat": 35.93098,
+			"lng": 14.473785,
+			"x": 739,
+			"y": 541,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3482_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 16533,
+			"name": "Birzebbuga",
+			"code": "ZEB",
+			"country": "Malta",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 1067,
+			"name": "MFA Centenary Stadium",
+			"address": "Villagg Tas-Snajja&apos;",
+			"city": "Ta&apos;Qali",
+			"capacity": 2000,
+			"surface": "artificial turf",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 16545,
+			"name": "Zurrieq",
+			"code": "ZUR",
+			"country": "Malta",
+			"founded": 1949,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 11545,
+			"name": "Zurrieq Ground",
+			"address": "Triq il-Kbira",
+			"city": "Zurrieq",
+			"capacity": 1000,
+			"surface": "artificial turf",
+			"lat": 35.840445,
+			"lng": 14.475771,
+			"x": 744,
+			"y": 824,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "11545_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 17710,
+			"name": "Mgarr United",
+			"code": null,
+			"country": "Malta",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 1067,
+			"name": "MFA Centenary Stadium",
+			"address": "Villagg Tas-Snajja&apos;",
+			"city": "Ta&apos;Qali",
+			"capacity": 2000,
+			"surface": "artificial turf",
+			"lat": 35.896667,
+			"lng": 14.415556,
+			"x": 591,
+			"y": 649,
+			"wiki": "https://en.wikipedia.org/wiki/Centenary_Stadium"
+		},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1067_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 19696,
+			"name": "Mtarfa",
+			"code": null,
+			"country": "Malta",
+			"founded": 2006,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": -36028,
+			"y": 98055,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 392,
+			"name": "Challenge League",
+			"country": "Malta",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 28
 	},
 	{
 		"team": {
@@ -541,245 +1124,7 @@
 				"size": 0
 			}
 		],
-		"no": 16
-	},
-	{
-		"team": {
-			"api_football_id": 4607,
-			"name": "Pietà Hotspurs",
-			"code": "PIE",
-			"country": "Malta",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 1065,
-			"name": "Victor Tedesco Stadium",
-			"address": "Triq Mile End",
-			"city": "Hamrun",
-			"capacity": 6000,
-			"surface": "artificial turf",
-			"lat": 35.887373,
-			"lng": 14.492521,
-			"x": 787,
-			"y": 678,
-			"wiki": "https://en.wikipedia.org/wiki/Victor_Tedesco_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "1065_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 17
-	},
-	{
-		"team": {
-			"api_football_id": 4610,
-			"name": "St. Andrews",
-			"code": null,
-			"country": "Malta",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 2451,
-			"name": "Luxol Sports Ground",
-			"address": "Triq Arnhem",
-			"city": "Pembroke",
-			"capacity": 800,
-			"surface": "artificial turf",
-			"lat": 35.923889,
-			"lng": 14.475278,
-			"x": 743,
-			"y": 564,
-			"wiki": "https://en.wikipedia.org/wiki/Luxol_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "2451_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 18
-	},
-	{
-		"team": {
-			"api_football_id": 4612,
-			"name": "Swieqi United",
-			"code": null,
-			"country": "Malta",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 2451,
-			"name": "Luxol Sports Ground",
-			"address": "Triq Arnhem",
-			"city": "Pembroke",
-			"capacity": 800,
-			"surface": "artificial turf",
-			"lat": 35.923889,
-			"lng": 14.475278,
-			"x": 743,
-			"y": 564,
-			"wiki": "https://en.wikipedia.org/wiki/Luxol_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "2451_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 19
-	},
-	{
-		"team": {
-			"api_football_id": 4614,
-			"name": "Zebbug Rangers",
-			"code": null,
-			"country": "Malta",
-			"founded": 1943
-		},
-		"venue": {
-			"api_football_id": 3478,
-			"name": "Zebbug Ground",
-			"address": null,
-			"city": "Città Rohan",
-			"capacity": 1000,
-			"surface": "artificial turf",
-			"lat": 35.874936,
-			"lng": 14.442469,
-			"x": 659,
-			"y": 716,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3478_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 20
-	},
-	{
-		"team": {
-			"api_football_id": 4616,
-			"name": "Gudja United",
-			"code": "GUD",
-			"country": "Malta",
-			"founded": 1945
-		},
-		"venue": {
-			"api_football_id": 11540,
-			"name": "Gudja United Football Ground",
-			"address": "Triq Hal-Tarxien",
-			"city": "Gudja",
-			"capacity": 1000,
-			"surface": "artificial turf",
-			"lat": 35.85147,
-			"lng": 14.505987,
-			"x": 821,
-			"y": 790,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "11540_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 21
-	},
-	{
-		"team": {
-			"api_football_id": 4617,
-			"name": "Marsa",
-			"code": null,
-			"country": "Malta",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 2451,
-			"name": "Luxol Sports Ground",
-			"address": "Triq Arnhem",
-			"city": "Pembroke",
-			"capacity": 800,
-			"surface": "artificial turf",
-			"lat": 35.923889,
-			"lng": 14.475278,
-			"x": 743,
-			"y": 564,
-			"wiki": "https://en.wikipedia.org/wiki/Luxol_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "2451_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 22
-	},
-	{
-		"team": {
-			"api_football_id": 4619,
-			"name": "Sirens",
-			"code": null,
-			"country": "Malta",
-			"founded": 1968
-		},
-		"venue": {
-			"api_football_id": 3481,
-			"name": "Sirens Stadium",
-			"address": "Triq il-Wileġ",
-			"city": "St. Paul&apos;s Bay",
-			"capacity": 1500,
-			"surface": "artificial turf",
-			"lat": 35.9453,
-			"lng": 14.4148,
-			"x": 589,
-			"y": 497,
-			"wiki": "https://en.wikipedia.org/wiki/Sirens_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3481_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 23
+		"no": 29
 	},
 	{
 		"team": {
@@ -813,134 +1158,7 @@
 				"size": 0
 			}
 		],
-		"no": 24
-	},
-	{
-		"team": {
-			"api_football_id": 4629,
-			"name": "Tarxien Rainbows",
-			"code": "TAR",
-			"country": "Malta",
-			"founded": 1944
-		},
-		"venue": {
-			"api_football_id": 3488,
-			"name": "Tony Cassar Sports Ground",
-			"address": "Triq San Frangisk and Triq Pietro Gagliardi",
-			"city": "Tarxien",
-			"capacity": 1000,
-			"surface": "artificial turf",
-			"lat": 35.868552,
-			"lng": 14.512859,
-			"x": 838,
-			"y": 736,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3488_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 25
-	},
-	{
-		"team": {
-			"api_football_id": 16545,
-			"name": "Zurrieq",
-			"code": "ZUR",
-			"country": "Malta",
-			"founded": 1949
-		},
-		"venue": {
-			"api_football_id": 11545,
-			"name": "Zurrieq Ground",
-			"address": "Triq il-Kbira",
-			"city": "Zurrieq",
-			"capacity": 1000,
-			"surface": "artificial turf",
-			"lat": 35.840445,
-			"lng": 14.475771,
-			"x": 744,
-			"y": 824,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "11545_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 26
-	},
-	{
-		"team": {
-			"api_football_id": 17710,
-			"name": "Mgarr United",
-			"code": null,
-			"country": "Malta",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 1067,
-			"name": "MFA Centenary Stadium",
-			"address": "Villagg Tas-Snajja&apos;",
-			"city": "Ta&apos;Qali",
-			"capacity": 2000,
-			"surface": "artificial turf",
-			"lat": 35.896667,
-			"lng": 14.415556,
-			"x": 591,
-			"y": 649,
-			"wiki": "https://en.wikipedia.org/wiki/Centenary_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "1067_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 27
-	},
-	{
-		"team": {
-			"api_football_id": 19696,
-			"name": "Mtarfa",
-			"code": null,
-			"country": "Malta",
-			"founded": 2006
-		},
-		"venue": {
-			"api_football_id": null,
-			"name": null,
-			"address": null,
-			"city": null,
-			"capacity": null,
-			"surface": null,
-			"lat": 0,
-			"lng": 0,
-			"x": -36028,
-			"y": 98055,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [],
-		"no": 28
+		"no": 30
 	},
 	{
 		"team": {
@@ -974,7 +1192,7 @@
 				"size": 0
 			}
 		],
-		"no": 29
+		"no": 31
 	},
 	{
 		"team": {
@@ -1008,7 +1226,7 @@
 				"size": 0
 			}
 		],
-		"no": 30
+		"no": 32
 	},
 	{
 		"team": {
@@ -1042,7 +1260,7 @@
 				"size": 0
 			}
 		],
-		"no": 31
+		"no": 33
 	},
 	{
 		"team": {
@@ -1076,6 +1294,6 @@
 				"size": 0
 			}
 		],
-		"no": 32
+		"no": 34
 	}
 ]

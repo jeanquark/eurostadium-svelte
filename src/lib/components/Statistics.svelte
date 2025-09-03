@@ -4,6 +4,9 @@
     import { supabase } from "@lib/supabase/supabaseClient";
     import { hasAnimationPlayed } from "@store/animation";
     import Country from "./icons/Country.svelte";
+    import League from "./icons/League.svelte";
+    import Team from "./icons/Team.svelte";
+    import Stadium from "./icons/Stadium.svelte";
 
     $: startAnimation = !$hasAnimationPlayed;
 
@@ -173,31 +176,48 @@
     </div>
     <div class="col-sm-6 col-md-3 text-center">
         <div class="box mx-2">
-            <p>
+            <!-- <p>
                 <img src="/images/icons/trophy.svg" height="30" alt="League" />
-            </p>
-            <h2 class="my-2" id="league">{$leagueStore.leagues?.length}</h2>
-            <p style="font-size: 1.3em;">leagues</p>
+            </p> -->
+            <a href="/leagues">
+                <span style="display: flex; justify-content: center;">
+                    <League color="{iconColor}" />
+                </span>
+                <h2 class="my-2" id="league">{$leagueStore.leagues?.length}</h2>
+                <p style="font-size: 1.3em;">leagues</p>
+            </a>
         </div>
     </div>
     <div class="col-sm-6 col-md-3 text-center">
         <div class="box mx-2">
-            <p><img src="/images/icons/team.svg" height="30" alt="Team" /></p>
-            <h2 class="my-2" id="team">697</h2>
+            <!-- <p><img src="/images/icons/team.svg" height="30" alt="Team" /></p> -->
+            <a href="/countries">
+                <span style="display: flex; justify-content: center;">
+                    <Team color="{iconColor}" />
+                </span>
+                <h2 class="my-2" id="team">697</h2>
             <p style="font-size: 1.3em;">teams</p>
+            </a>
+            
         </div>
     </div>
     <div class="col-sm-6 col-md-3 text-center">
         <div class="box ml-2">
-            <p>
+            <!-- <p>
                 <img
                     src="/images/icons/stadium.svg"
                     height="30"
                     alt="Stadium"
                 />
-            </p>
-            <h2 class="my-2" id="stadium">690</h2>
+            </p> -->
+            <a href="/countries">
+                <span style="display: flex; justify-content: center;">
+                    <Stadium color="{iconColor}" />
+                </span>
+                <h2 class="my-2" id="stadium">690</h2>
             <p style="font-size: 1.3em;">stadiums</p>
+            </a>
+            
         </div>
     </div>
 </div>

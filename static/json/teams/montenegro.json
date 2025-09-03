@@ -5,7 +5,8 @@
 			"name": "Buducnost Podgorica",
 			"code": "BUD",
 			"country": "Montenegro",
-			"founded": 1925
+			"founded": 1925,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1095,
@@ -44,7 +45,8 @@
 			"name": "Sutjeska",
 			"code": "SUT",
 			"country": "Montenegro",
-			"founded": 1927
+			"founded": 1927,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1098,
@@ -83,7 +85,8 @@
 			"name": "Mornar",
 			"code": "MOR",
 			"country": "Montenegro",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2522,
@@ -122,7 +125,8 @@
 			"name": "Petrovac",
 			"code": "PET",
 			"country": "Montenegro",
-			"founded": 1969
+			"founded": 1969,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 18680,
@@ -161,7 +165,8 @@
 			"name": "Arsenal Tivat",
 			"code": "TIV",
 			"country": "Montenegro",
-			"founded": 1914
+			"founded": 1914,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2524,
@@ -200,7 +205,8 @@
 			"name": "Bokelj",
 			"code": "BOK",
 			"country": "Montenegro",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2526,
@@ -239,7 +245,8 @@
 			"name": "Dečić",
 			"code": "DEC",
 			"country": "Montenegro",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2527,
@@ -278,7 +285,8 @@
 			"name": "Jedinstvo",
 			"code": "JED",
 			"country": "Montenegro",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2529,
@@ -317,7 +325,8 @@
 			"name": "Jezero",
 			"code": "JEZ",
 			"country": "Montenegro",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2530,
@@ -352,6 +361,46 @@
 	},
 	{
 		"team": {
+			"api_football_id": 16749,
+			"name": "Mladost DG",
+			"code": null,
+			"country": "Montenegro",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 2532,
+			"name": "DG Arena",
+			"address": "ul. Zla­ti Ra­i­če­vić bb, Donja Gorica",
+			"city": "Podgorica",
+			"capacity": 1200,
+			"surface": "artificial turf",
+			"lat": 42.41175,
+			"lng": 19.217361,
+			"x": 419,
+			"y": 675,
+			"wiki": "https://en.wikipedia.org/wiki/DG_Arena"
+		},
+		"league": {
+			"api_football_id": 355,
+			"name": "First League",
+			"country": "Montenegro",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2532_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 10
+	},
+	{
+		"team": {
 			"api_football_id": 3751,
 			"name": "Otrant-Olympic",
 			"code": null,
@@ -371,12 +420,7 @@
 			"y": 964,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Olympic"
 		},
-		"league": {
-			"api_football_id": 355,
-			"name": "First League",
-			"country": "Montenegro",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2533_001.jpg",
@@ -387,7 +431,7 @@
 				"size": 0
 			}
 		],
-		"no": 10
+		"no": 11
 	},
 	{
 		"team": {
@@ -410,12 +454,7 @@
 			"y": 120,
 			"wiki": "https://en.wikipedia.org/wiki/Gradski_stadion_(Pljevlja)"
 		},
-		"league": {
-			"api_football_id": 356,
-			"name": "Second League",
-			"country": "Montenegro",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1097_001.jpg",
@@ -426,7 +465,7 @@
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 12
 	},
 	{
 		"team": {
@@ -449,12 +488,7 @@
 			"y": 702,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Donja_Sutvara"
 		},
-		"league": {
-			"api_football_id": 356,
-			"name": "Second League",
-			"country": "Montenegro",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2519_001.jpg",
@@ -465,7 +499,7 @@
 				"size": 0
 			}
 		],
-		"no": 12
+		"no": 13
 	},
 	{
 		"team": {
@@ -488,12 +522,7 @@
 			"y": 592,
 			"wiki": "https://en.wikipedia.org/wiki/Bra%C4%87a_Vela%C5%A1evi%C4%87_Stadium"
 		},
-		"league": {
-			"api_football_id": 356,
-			"name": "Second League",
-			"country": "Montenegro",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2520_001.jpg",
@@ -504,7 +533,7 @@
 				"size": 0
 			}
 		],
-		"no": 13
+		"no": 14
 	},
 	{
 		"team": {
@@ -527,12 +556,7 @@
 			"y": 686,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Sveti_Petar_Cetinjski"
 		},
-		"league": {
-			"api_football_id": 356,
-			"name": "Second League",
-			"country": "Montenegro",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2521_001.jpg",
@@ -543,7 +567,7 @@
 				"size": 0
 			}
 		],
-		"no": 14
+		"no": 15
 	},
 	{
 		"team": {
@@ -566,12 +590,7 @@
 			"y": 652,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Solila"
 		},
-		"league": {
-			"api_football_id": 356,
-			"name": "Second League",
-			"country": "Montenegro",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2528_001.jpg",
@@ -582,7 +601,7 @@
 				"size": 0
 			}
 		],
-		"no": 15
+		"no": 16
 	},
 	{
 		"team": {
@@ -605,12 +624,7 @@
 			"y": 644,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Zlatica"
 		},
-		"league": {
-			"api_football_id": 356,
-			"name": "Second League",
-			"country": "Montenegro",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19784_001.jpg",
@@ -621,7 +635,7 @@
 				"size": 0
 			}
 		],
-		"no": 16
+		"no": 17
 	},
 	{
 		"team": {
@@ -644,12 +658,7 @@
 			"y": 675,
 			"wiki": "https://en.wikipedia.org/wiki/DG_Arena"
 		},
-		"league": {
-			"api_football_id": 356,
-			"name": "Second League",
-			"country": "Montenegro",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2532_001.jpg",
@@ -660,7 +669,7 @@
 				"size": 0
 			}
 		],
-		"no": 17
+		"no": 18
 	},
 	{
 		"team": {
@@ -683,55 +692,11 @@
 			"y": 428,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 356,
-			"name": "Second League",
-			"country": "Montenegro",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4612_001.jpg",
 				"source": "https://www.europlan-online.de/files/e1f8492faeaaa2afcb15d4d7f7255d1a.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 18
-	},
-	{
-		"team": {
-			"api_football_id": 16749,
-			"name": "Mladost DG",
-			"code": null,
-			"country": "Montenegro",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 2532,
-			"name": "DG Arena",
-			"address": "ul. Zla­ti Ra­i­če­vić bb, Donja Gorica",
-			"city": "Podgorica",
-			"capacity": 1200,
-			"surface": "artificial turf",
-			"lat": 42.41175,
-			"lng": 19.217361,
-			"x": 419,
-			"y": 675,
-			"wiki": "https://en.wikipedia.org/wiki/DG_Arena"
-		},
-		"league": {
-			"api_football_id": 356,
-			"name": "Second League",
-			"country": "Montenegro",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2532_001.jpg",
-				"source": "",
 				"owner": "",
 				"width": 0,
 				"height": 0,

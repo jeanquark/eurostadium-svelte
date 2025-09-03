@@ -29,8 +29,48 @@
 		},
 		"images": [
 			{
-				"name": "1813_01.jpg",
-				"source": "",
+				"name": "1813_001.jpg",
+				"source": "https://prishtinalive.com/wp-content/uploads/2025/06/Stadiumi-Fadil-Vokrri.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1813_002.jpg",
+				"source": "https://editorial.uefa.com/resources/0249-0f8e6368fcb6-163334d687b9-1000/fadil_vokrri_stadium_prishtina_kosovo.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1813_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Fadil_Vokrri_Stadium_2024.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1813_004.jpg",
+				"source": "https://insajderi.org/wp-content/uploads/2024/03/434472879_910749597513069_8710069078662417151_n.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1813_005.jpg",
+				"source": "https://pbs.twimg.com/media/GxK1rRdXsAAFinT?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1813_006.jpg",
+				"source": "https://pbs.twimg.com/media/FywPPrfWYAEUGaP.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -69,8 +109,8 @@
 		},
 		"images": [
 			{
-				"name": "8093_01.jpg",
-				"source": "",
+				"name": "8093_001.jpg",
+				"source": "https://lajmi.net/wp-content/uploads/2025/09/540499298_1380423750749972_4852827723582126934_n.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -109,8 +149,8 @@
 		},
 		"images": [
 			{
-				"name": "20315_01.jpg",
-				"source": "",
+				"name": "20315_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Stadiumi_i_Qytetit_n%C3%AB_Gjilan.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -149,8 +189,8 @@
 		},
 		"images": [
 			{
-				"name": "20315_01.jpg",
-				"source": "",
+				"name": "20315_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Stadiumi_i_Qytetit_n%C3%AB_Gjilan.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -187,7 +227,16 @@
 			"country": "Kosovo",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "11083_001.jpg",
+				"source": "https://i.ytimg.com/vi/sHeXZ_iWFnY/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 5
 	},
 	{
@@ -220,8 +269,8 @@
 		},
 		"images": [
 			{
-				"name": "12659_01.jpg",
-				"source": "",
+				"name": "12659_001.jpg",
+				"source": "https://www.botasot.info/media/botasot.info/images/2022/June/21/auto_11655830341.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -261,7 +310,7 @@
 		"images": [
 			{
 				"name": "19336_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Stadiumi_i_Qytetit_n%C3%AB_Gjilan.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -300,8 +349,32 @@
 		},
 		"images": [
 			{
-				"name": "11084_01.jpg",
-				"source": "",
+				"name": "11084_001.jpg",
+				"source": "https://pbs.twimg.com/media/GSmzJs6WgAA-pww?format=jpg&name=large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11084_002.jpg",
+				"source": "https://pbs.twimg.com/media/GKLe4hzXUAAbZuB.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11084_003.jpg",
+				"source": "https://pbs.twimg.com/media/GvBAUbCWsAIxX9B.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11084_004.jpg",
+				"source": "https://pbs.twimg.com/media/F-me5teXkAI8S1o.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -340,8 +413,16 @@
 		},
 		"images": [
 			{
-				"name": "12497_01.jpg",
-				"source": "",
+				"name": "12497_001.jpg",
+				"source": "https://pbs.twimg.com/media/GTwWgYBW4AAZQ72?format=jpg&name=large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12497_002.jpg",
+				"source": "https://demokracia.com/wp-content/uploads/2023/09/IMG_3959.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -368,8 +449,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -9746,
-			"y": 23835,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {
@@ -378,16 +459,7 @@
 			"country": "Kosovo",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 10
 	},
 	{
@@ -415,8 +487,8 @@
 		"league": {},
 		"images": [
 			{
-				"name": "3160_01.jpg",
-				"source": "",
+				"name": "3160_001.jpg",
+				"source": "https://resources.koha.net/images/2025/July/03/48404f66-0f52-48fc-8935-0b2264c9dbf6.webp?q=90&w=860&h=550&r=fill",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -476,8 +548,8 @@
 		"league": {},
 		"images": [
 			{
-				"name": "20438_01.jpg",
-				"source": "",
+				"name": "20438_001.jpg",
+				"source": "https://telegrafi.com/wp-content/uploads/2023/08/367434366_823747316133040_8583168454356640757_n.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -511,8 +583,8 @@
 		"league": {},
 		"images": [
 			{
-				"name": "20145_01.jpg",
-				"source": "",
+				"name": "20145_001.jpg",
+				"source": "https://indrkt.wordpress.com/wp-content/uploads/2020/03/89065761_652716795482363_84211513966985216_n.jpg?w=1024",
 				"owner": "",
 				"width": 0,
 				"height": 0,

@@ -6,7 +6,7 @@
 			"code": "ZAL",
 			"country": "Lithuania",
 			"founded": 1947,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Kauno_%C5%BDalgiris"
 		},
 		"venue": {
 			"api_football_id": 2612,
@@ -46,7 +46,7 @@
 			"code": "SUD",
 			"country": "Lithuania",
 			"founded": 1930,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_S%C5%ABduva"
 		},
 		"venue": {
 			"api_football_id": 21777,
@@ -86,7 +86,7 @@
 			"code": "TRA",
 			"country": "Lithuania",
 			"founded": 2005,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Riteriai"
 		},
 		"venue": {
 			"api_football_id": 21778,
@@ -126,7 +126,7 @@
 			"code": "BAN",
 			"country": "Lithuania",
 			"founded": 1966,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Banga_Garg%C5%BEdai"
 		},
 		"venue": {
 			"api_football_id": 2642,
@@ -166,7 +166,7 @@
 			"code": "DAI",
 			"country": "Lithuania",
 			"founded": 1968,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/DFK_Dainava"
 		},
 		"venue": {
 			"api_football_id": 21777,
@@ -206,7 +206,7 @@
 			"code": null,
 			"country": "Lithuania",
 			"founded": 2014,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_D%C5%BEiugas_Tel%C5%A1iai"
 		},
 		"venue": {
 			"api_football_id": 2644,
@@ -246,7 +246,7 @@
 			"code": "HEG",
 			"country": "Lithuania",
 			"founded": 2009,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Hegelmann"
 		},
 		"venue": {
 			"api_football_id": 12604,
@@ -286,7 +286,7 @@
 			"code": "SIA",
 			"country": "Lithuania",
 			"founded": 2007,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FA_%C5%A0iauliai"
 		},
 		"venue": {
 			"api_football_id": 18559,
@@ -326,7 +326,7 @@
 			"code": "SPY",
 			"country": "Lithuania",
 			"founded": 2005,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Kauno_%C5%BDalgiris"
 		},
 		"venue": {
 			"api_football_id": 2612,
@@ -366,7 +366,7 @@
 			"code": null,
 			"country": "Lithuania",
 			"founded": 2015,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Panev%C4%97%C5%BEys"
 		},
 		"venue": {
 			"api_football_id": 19449,
@@ -406,7 +406,7 @@
 			"code": null,
 			"country": "Lithuania",
 			"founded": 2012,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Ma%C5%BEeikiai"
 		},
 		"venue": {
 			"api_football_id": 18555,
@@ -437,7 +437,7 @@
 			"code": null,
 			"country": "Lithuania",
 			"founded": 2007,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Baltijos_Futbolo_Akademija"
 		},
 		"venue": {
 			"api_football_id": 18556,
@@ -477,7 +477,7 @@
 			"code": "JON",
 			"country": "Lithuania",
 			"founded": 1991,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Jonava"
 		},
 		"venue": {
 			"api_football_id": 19639,
@@ -517,7 +517,7 @@
 			"code": null,
 			"country": "Lithuania",
 			"founded": 1931,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Minija_Kretinga"
 		},
 		"venue": {
 			"api_football_id": 19575,
@@ -557,7 +557,7 @@
 			"code": "NEV",
 			"country": "Lithuania",
 			"founded": 1962,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Nev%C4%97%C5%BEis"
 		},
 		"venue": {
 			"api_football_id": 2648,
@@ -597,7 +597,7 @@
 			"code": null,
 			"country": "Lithuania",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_%C5%BDalgiris"
 		},
 		"venue": {
 			"api_football_id": 1030,
@@ -637,7 +637,7 @@
 			"code": "EKR",
 			"country": "Lithuania",
 			"founded": 1964,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Ekranas"
 		},
 		"venue": {
 			"api_football_id": 19449,
@@ -677,7 +677,7 @@
 			"code": "TAU",
 			"country": "Lithuania",
 			"founded": 1942,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Tauras_Taurag%C4%97"
 		},
 		"venue": {
 			"api_football_id": 7714,
@@ -708,7 +708,7 @@
 			"code": null,
 			"country": "Lithuania",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Kauno_%C5%BDalgiris"
 		},
 		"venue": {
 			"api_football_id": 19448,
@@ -748,7 +748,7 @@
 			"code": null,
 			"country": "Lithuania",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://fr.wikipedia.org/wiki/FK_Panev%C4%97%C5%BEys"
 		},
 		"venue": {
 			"api_football_id": 19449,
@@ -788,7 +788,7 @@
 			"code": null,
 			"country": "Lithuania",
 			"founded": 1942,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Babrungas_Plung%C4%97"
 		},
 		"venue": {
 			"api_football_id": 21738,
@@ -828,7 +828,7 @@
 			"code": null,
 			"country": "Lithuania",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Nept%C5%ABnas"
 		},
 		"venue": {
 			"api_football_id": 18557,
@@ -868,7 +868,7 @@
 			"code": null,
 			"country": "Lithuania",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Be1"
 		},
 		"venue": {
 			"api_football_id": 19639,
@@ -908,7 +908,7 @@
 			"code": null,
 			"country": "Lithuania",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FA_%C5%A0iauliai"
 		},
 		"venue": {
 			"api_football_id": 18559,
@@ -948,7 +948,7 @@
 			"code": null,
 			"country": "Lithuania",
 			"founded": 2022,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_TransINVEST"
 		},
 		"venue": {
 			"api_football_id": 19583,
@@ -988,7 +988,7 @@
 			"code": null,
 			"country": "Lithuania",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Hegelmann"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -999,8 +999,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -3565,
-			"y": 11784,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {

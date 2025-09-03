@@ -5,7 +5,8 @@
 			"name": "Vardar Skopje",
 			"code": "VAR",
 			"country": "Macedonia",
-			"founded": 1947
+			"founded": 1947,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1045,
@@ -20,7 +21,12 @@
 			"y": 289,
 			"wiki": "https://en.wikipedia.org/wiki/To%C5%A1e_Proeski_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 371,
+			"name": "First League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1045_01.jpg",
@@ -39,7 +45,8 @@
 			"name": "Shkendija",
 			"code": "SKE",
 			"country": "Macedonia",
-			"founded": 1979
+			"founded": 1979,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1046,
@@ -54,7 +61,12 @@
 			"y": 282,
 			"wiki": "https://en.wikipedia.org/wiki/Ecolog_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 371,
+			"name": "First League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1046_01.jpg",
@@ -73,7 +85,8 @@
 			"name": "FK Rabotnicki",
 			"code": "RAB",
 			"country": "Macedonia",
-			"founded": 1937
+			"founded": 1937,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1045,
@@ -88,7 +101,12 @@
 			"y": 289,
 			"wiki": "https://en.wikipedia.org/wiki/To%C5%A1e_Proeski_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 371,
+			"name": "First League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1045_01.jpg",
@@ -107,11 +125,12 @@
 			"name": "Pelister",
 			"code": "PEL",
 			"country": "Macedonia",
-			"founded": 1945
+			"founded": 1945,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 3312,
-			"name": "Stadion pod Tumbe Kafe",
+			"api_football_id": 22345,
+			"name": "Stadion Petar Miloševski",
 			"address": "ul. Gradski Stadion bb",
 			"city": "Bitola",
 			"capacity": 9907,
@@ -122,7 +141,12 @@
 			"y": 804,
 			"wiki": "https://en.wikipedia.org/wiki/Petar_Milo%C5%A1evski_Football_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 371,
+			"name": "First League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3312_001.jpg",
@@ -141,7 +165,8 @@
 			"name": "Shkupi 1927",
 			"code": "SHK",
 			"country": "Macedonia",
-			"founded": 2014
+			"founded": 2014,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1801,
@@ -156,7 +181,12 @@
 			"y": 283,
 			"wiki": "https://en.wikipedia.org/wiki/%C4%8Cair_Stadium_(North_Macedonia)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 371,
+			"name": "First League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1801_01.jpg",
@@ -175,7 +205,8 @@
 			"name": "Akademija Pandev",
 			"code": null,
 			"country": "Macedonia",
-			"founded": 2010
+			"founded": 2010,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 11283,
@@ -190,7 +221,12 @@
 			"y": 581,
 			"wiki": "https://de.wikipedia.org/wiki/Stadion_Blagoj_Istatov"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 371,
+			"name": "First League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "11283_01.jpg",
@@ -205,11 +241,52 @@
 	},
 	{
 		"team": {
+			"api_football_id": 4196,
+			"name": "Makedonija GjP",
+			"code": "MAK",
+			"country": "Macedonia",
+			"founded": 1982,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3200,
+			"name": "Stadion Gorče Petrov",
+			"address": "Mile Kozar bb",
+			"city": "Skopje",
+			"capacity": 2570,
+			"surface": "grass",
+			"lat": 42.002222,
+			"lng": 21.36,
+			"x": 355,
+			"y": 290,
+			"wiki": "https://en.wikipedia.org/wiki/Gjor%C4%8De_Petrov_Stadium"
+		},
+		"league": {
+			"api_football_id": 371,
+			"name": "First League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3200_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 7
+	},
+	{
+		"team": {
 			"api_football_id": 4331,
 			"name": "Sileks",
 			"code": "SIL",
 			"country": "Macedonia",
-			"founded": 1965
+			"founded": 1965,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3311,
@@ -224,7 +301,12 @@
 			"y": 249,
 			"wiki": "https://en.wikipedia.org/wiki/Gradski_Stadion_Kratovo"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 371,
+			"name": "First League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3311_01.jpg",
@@ -235,7 +317,762 @@
 				"size": 0
 			}
 		],
-		"no": 7
+		"no": 8
+	},
+	{
+		"team": {
+			"api_football_id": 4346,
+			"name": "Struga",
+			"code": null,
+			"country": "Macedonia",
+			"founded": 2015,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3323,
+			"name": "Gradska Plaža Stadium",
+			"address": null,
+			"city": "Struga",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 41.172778,
+			"lng": 20.684167,
+			"x": 90,
+			"y": 723,
+			"wiki": "https://en.wikipedia.org/wiki/Gradska_Pla%C5%BEa_Stadium"
+		},
+		"league": {
+			"api_football_id": 371,
+			"name": "First League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3323_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 4348,
+			"name": "Tikveš",
+			"code": null,
+			"country": "Macedonia",
+			"founded": 1930,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3324,
+			"name": "Gradski Stadion",
+			"address": "Disanska 2",
+			"city": "Kavadarci",
+			"capacity": 5000,
+			"surface": "grass",
+			"lat": 41.435111,
+			"lng": 22.023361,
+			"x": 615,
+			"y": 587,
+			"wiki": "https://en.wikipedia.org/wiki/Gradski_Stadion_Kavadarci"
+		},
+		"league": {
+			"api_football_id": 371,
+			"name": "First League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3324_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 19753,
+			"name": "Aresimi",
+			"code": null,
+			"country": "Macedonia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 20779,
+			"name": "Igralište Golema Rečica",
+			"address": "Macedonia 41, Golema Rečica",
+			"city": "Tetovo",
+			"capacity": 1000,
+			"surface": "grass",
+			"lat": 41.976791,
+			"lng": 20.940969,
+			"x": 190,
+			"y": 304,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 371,
+			"name": "First League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20779_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/SRCBiljaniniIzvori_stadium.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 22153,
+			"name": "Bashkimi Kumanovo",
+			"code": null,
+			"country": "Macedonia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 22347,
+			"name": "Stadion FK Bashkimi",
+			"address": "ul. 11 Oktomvri 89",
+			"city": "Kumanovo",
+			"capacity": 7000,
+			"surface": "grass",
+			"lat": 42.142099,
+			"lng": 21.709974,
+			"x": 492,
+			"y": 217,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Bashkimi_Stadium"
+		},
+		"league": {
+			"api_football_id": 371,
+			"name": "First League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "21124_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/KF_Bashkimi.jpg/1199px-KF_Bashkimi.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 12
+	},
+	{
+		"team": {
+			"api_football_id": 4328,
+			"name": "Belasica",
+			"code": "BEL",
+			"country": "Macedonia",
+			"founded": 1922,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 11283,
+			"name": "Stadion Blagoj Istatov",
+			"address": "Cvetan Dimov bb",
+			"city": "Strumica",
+			"capacity": 9200,
+			"surface": "grass",
+			"lat": 41.4462,
+			"lng": 22.637708,
+			"x": 855,
+			"y": 581,
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_Blagoj_Istatov"
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "11283_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/fd/%D0%A1%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_%D0%9C%D0%BB%D0%B0%D0%B4%D0%BE%D1%81%D1%82_%D0%A1%D1%82%D1%80%D1%83%D0%BC%D0%B8%D1%86%D0%B0.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 4329,
+			"name": "Pobeda",
+			"code": "POB",
+			"country": "Macedonia",
+			"founded": 2010,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3310,
+			"name": "Stadion Goce Delčev",
+			"address": "Aleksandar Makedonski bb 153",
+			"city": "Prilep",
+			"capacity": 15000,
+			"surface": "grass",
+			"lat": 41.343611,
+			"lng": 21.561944,
+			"x": 434,
+			"y": 635,
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_Goce_Del%C4%8Dev"
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3310_001.jpg",
+				"source": "https://lh5.googleusercontent.com/proxy/q6Y5W-vzQYKlc4CwRPwzRo2EqnpIMQ8tP4LwvU6qMNtBiCmxxiBRYqCA0lkmK1rDy61JDaWPS1L53XnZr_-0l0rTbvi4M3B8lge2k8UA6Gpqn1IKb-Sr1Ow2QuSAT8fdPK2f9XgtK1xKhqnhHOAlxPXa3-ghE9MTyqV4HMjgEg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 4332,
+			"name": "Skopje",
+			"code": "SKO",
+			"country": "Macedonia",
+			"founded": 1960,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3313,
+			"name": "Stadion Železarnica",
+			"address": "ul. Jane Lukroski 6",
+			"city": "Skopje",
+			"capacity": 4000,
+			"surface": "grass",
+			"lat": 42.006667,
+			"lng": 21.461111,
+			"x": 394,
+			"y": 288,
+			"wiki": "https://en.wikipedia.org/wiki/%C5%BDelezarnica_Stadium"
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3313_001.jpg",
+				"source": "https://www.europlan-online.de/files/297968255652e85a40030c517ef2d1de.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 4333,
+			"name": "Bregalnica Štip",
+			"code": "BRE",
+			"country": "Macedonia",
+			"founded": 1921,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3314,
+			"name": "Gradski Stadion",
+			"address": "Partizanska bb",
+			"city": "Štip",
+			"capacity": 10000,
+			"surface": "grass",
+			"lat": 41.737617,
+			"lng": 22.208358,
+			"x": 687,
+			"y": 429,
+			"wiki": "https://en.wikipedia.org/wiki/Gradski_stadion_%C5%A0tip"
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3314_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 4340,
+			"name": "Kozuv Gevgelija",
+			"code": null,
+			"country": "Macedonia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3318,
+			"name": "Stadion FK Kožuf",
+			"address": "Solunska",
+			"city": "Gevgelija",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 41.136683,
+			"lng": 22.50116,
+			"x": 802,
+			"y": 742,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3318_001.jpg",
+				"source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxmAc9ZZ4UoaF_B0yl8Xj3npBjTBiijYpopQ&s",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 4345,
+			"name": "Sasa",
+			"code": null,
+			"country": "Macedonia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3322,
+			"name": "Gradski stadion",
+			"address": null,
+			"city": "Makedonska Kamenica",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 42.017461,
+			"lng": 22.589348,
+			"x": 837,
+			"y": 282,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3322_001.jpg",
+				"source": "https://makedonskakamenica.gov.mk/wp-content/uploads/2021/02/242cbcd67e4b072ab2fef818a76f5be5.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 4347,
+			"name": "Teteks",
+			"code": "TET",
+			"country": "Macedonia",
+			"founded": 1953,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 11938,
+			"name": "Stadion AMS",
+			"address": "ul. Butik Emona",
+			"city": "Tetovo",
+			"capacity": 1000,
+			"surface": "artificial turf",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 4349,
+			"name": "Vardar Negotino",
+			"code": "NEG",
+			"country": "Macedonia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3325,
+			"name": "Cvaj Arena",
+			"address": "ul. Marshal Tito",
+			"city": "Negotino",
+			"capacity": 1500,
+			"surface": "grass",
+			"lat": 41.482304,
+			"lng": 22.085785,
+			"x": 639,
+			"y": 563,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3325_001.jpg",
+				"source": "https://macedonianfootball.com/wp-content/uploads/2024/09/Cvaj-stadium-Negotino.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 4353,
+			"name": "Novaci",
+			"code": "NOV",
+			"country": "Macedonia",
+			"founded": 1956,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3327,
+			"name": "Stadion Metallurg",
+			"address": null,
+			"city": "Novatsi",
+			"capacity": 1500,
+			"surface": "grass",
+			"lat": 41.04267,
+			"lng": 21.450126,
+			"x": 390,
+			"y": 791,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3327_001.jpg",
+				"source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnKsmOxLU1WrOgGISlv5a5_jfQYrk3yzM1fg&s",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 4354,
+			"name": "Osogovo",
+			"code": null,
+			"country": "Macedonia",
+			"founded": 1924,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3328,
+			"name": "Stadion Nikola Mantov",
+			"address": null,
+			"city": "Kočani",
+			"capacity": 4350,
+			"surface": "grass",
+			"lat": 41.908528,
+			"lng": 22.406278,
+			"x": 765,
+			"y": 340,
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_Nikola_Mantov"
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "372_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Stadion_nikola_mantov1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 6290,
+			"name": "Ohrid",
+			"code": null,
+			"country": "Macedonia",
+			"founded": 1921,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 4658,
+			"name": "Stadion Biljanini Izvori",
+			"address": "SRC Biljanini Izvori",
+			"city": "Ohrid",
+			"capacity": 18000,
+			"surface": "grass",
+			"lat": 41.1051,
+			"lng": 20.8123,
+			"x": 140,
+			"y": 759,
+			"wiki": "https://en.wikipedia.org/wiki/SRC_Biljanini_Izvori"
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "4658_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/SRCBiljaniniIzvori_stadium.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 14274,
+			"name": "Sloga Vinica",
+			"code": null,
+			"country": "Bosnia",
+			"founded": 1934,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 19754,
+			"name": "Detonit Plachkovica",
+			"code": null,
+			"country": "Macedonia",
+			"founded": 2022,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3321,
+			"name": "Gradski stadion",
+			"address": null,
+			"city": "Radoviš (Radovish)",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 1.641512,
+			"lng": 22.464046,
+			"x": 787,
+			"y": 17759,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3321_01.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 24781,
+			"name": "Shkëndija Haraçinë",
+			"code": null,
+			"country": "Macedonia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 22348,
+			"name": "Hasanbeg Arena",
+			"address": "Tomas Mincer, Chento",
+			"city": "Skopje",
+			"capacity": 1000,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 26389,
+			"name": "Golemo Konjari",
+			"code": null,
+			"country": "Macedonia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 26390,
+			"name": "FK Prespa Resen",
+			"code": null,
+			"country": "Macedonia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 372,
+			"name": "Second League",
+			"country": "Macedonia",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 28
 	},
 	{
 		"team": {
@@ -269,75 +1106,7 @@
 				"size": 0
 			}
 		],
-		"no": 8
-	},
-	{
-		"team": {
-			"api_football_id": 4346,
-			"name": "Struga",
-			"code": null,
-			"country": "Macedonia",
-			"founded": 2015
-		},
-		"venue": {
-			"api_football_id": 3323,
-			"name": "Gradska Plaža Stadium",
-			"address": null,
-			"city": "Struga",
-			"capacity": 2000,
-			"surface": "grass",
-			"lat": 41.172778,
-			"lng": 20.684167,
-			"x": 90,
-			"y": 723,
-			"wiki": "https://en.wikipedia.org/wiki/Gradska_Pla%C5%BEa_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3323_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 9
-	},
-	{
-		"team": {
-			"api_football_id": 4348,
-			"name": "Tikveš",
-			"code": null,
-			"country": "Macedonia",
-			"founded": 1930
-		},
-		"venue": {
-			"api_football_id": 3324,
-			"name": "Gradski Stadion",
-			"address": "Disanska 2",
-			"city": "Kavadarci",
-			"capacity": 5000,
-			"surface": "grass",
-			"lat": 41.435111,
-			"lng": 22.023361,
-			"x": 615,
-			"y": 587,
-			"wiki": "https://en.wikipedia.org/wiki/Gradski_Stadion_Kavadarci"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3324_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 10
+		"no": 29
 	},
 	{
 		"team": {
@@ -371,7 +1140,7 @@
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 30
 	},
 	{
 		"team": {
@@ -405,177 +1174,7 @@
 				"size": 0
 			}
 		],
-		"no": 12
-	},
-	{
-		"team": {
-			"api_football_id": 4196,
-			"name": "Makedonija GjP",
-			"code": "MAK",
-			"country": "Macedonia",
-			"founded": 1982
-		},
-		"venue": {
-			"api_football_id": 3200,
-			"name": "Stadion Gorče Petrov",
-			"address": "Mile Kozar bb",
-			"city": "Skopje",
-			"capacity": 2570,
-			"surface": "grass",
-			"lat": 42.002222,
-			"lng": 21.36,
-			"x": 355,
-			"y": 290,
-			"wiki": "https://en.wikipedia.org/wiki/Gjor%C4%8De_Petrov_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3200_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 13
-	},
-	{
-		"team": {
-			"api_football_id": 4328,
-			"name": "Belasica",
-			"code": "BEL",
-			"country": "Macedonia",
-			"founded": 1922
-		},
-		"venue": {
-			"api_football_id": 11283,
-			"name": "Stadion Blagoj Istatov",
-			"address": "Cvetan Dimov bb",
-			"city": "Strumica",
-			"capacity": 9200,
-			"surface": "grass",
-			"lat": 41.4462,
-			"lng": 22.637708,
-			"x": 855,
-			"y": 581,
-			"wiki": "https://en.wikipedia.org/wiki/Stadion_Blagoj_Istatov"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "11283_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/f/fd/%D0%A1%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_%D0%9C%D0%BB%D0%B0%D0%B4%D0%BE%D1%81%D1%82_%D0%A1%D1%82%D1%80%D1%83%D0%BC%D0%B8%D1%86%D0%B0.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 14
-	},
-	{
-		"team": {
-			"api_football_id": 4329,
-			"name": "Pobeda",
-			"code": "POB",
-			"country": "Macedonia",
-			"founded": 2010
-		},
-		"venue": {
-			"api_football_id": 3310,
-			"name": "Stadion Goce Delčev",
-			"address": "Aleksandar Makedonski bb 153",
-			"city": "Prilep",
-			"capacity": 15000,
-			"surface": "grass",
-			"lat": 41.343611,
-			"lng": 21.561944,
-			"x": 434,
-			"y": 635,
-			"wiki": "https://en.wikipedia.org/wiki/Stadion_Goce_Del%C4%8Dev"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3310_001.jpg",
-				"source": "https://lh5.googleusercontent.com/proxy/q6Y5W-vzQYKlc4CwRPwzRo2EqnpIMQ8tP4LwvU6qMNtBiCmxxiBRYqCA0lkmK1rDy61JDaWPS1L53XnZr_-0l0rTbvi4M3B8lge2k8UA6Gpqn1IKb-Sr1Ow2QuSAT8fdPK2f9XgtK1xKhqnhHOAlxPXa3-ghE9MTyqV4HMjgEg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 15
-	},
-	{
-		"team": {
-			"api_football_id": 4332,
-			"name": "Skopje",
-			"code": "SKO",
-			"country": "Macedonia",
-			"founded": 1960
-		},
-		"venue": {
-			"api_football_id": 3313,
-			"name": "Stadion Železarnica",
-			"address": "ul. Jane Lukroski 6",
-			"city": "Skopje",
-			"capacity": 4000,
-			"surface": "grass",
-			"lat": 42.006667,
-			"lng": 21.461111,
-			"x": 394,
-			"y": 288,
-			"wiki": "https://en.wikipedia.org/wiki/%C5%BDelezarnica_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3313_001.jpg",
-				"source": "https://www.europlan-online.de/files/297968255652e85a40030c517ef2d1de.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 16
-	},
-	{
-		"team": {
-			"api_football_id": 4333,
-			"name": "Bregalnica Štip",
-			"code": "BRE",
-			"country": "Macedonia",
-			"founded": 1921
-		},
-		"venue": {
-			"api_football_id": 3314,
-			"name": "Gradski Stadion",
-			"address": "Partizanska bb",
-			"city": "Štip",
-			"capacity": 10000,
-			"surface": "grass",
-			"lat": 41.737617,
-			"lng": 22.208358,
-			"x": 687,
-			"y": 429,
-			"wiki": "https://en.wikipedia.org/wiki/Gradski_stadion_%C5%A0tip"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3314_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 17
+		"no": 31
 	},
 	{
 		"team": {
@@ -600,313 +1199,7 @@
 		},
 		"league": {},
 		"images": [],
-		"no": 18
-	},
-	{
-		"team": {
-			"api_football_id": 4340,
-			"name": "Kozuv Gevgelija",
-			"code": null,
-			"country": "Macedonia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 3318,
-			"name": "Stadion FK Kožuf",
-			"address": "Solunska",
-			"city": "Gevgelija",
-			"capacity": 2000,
-			"surface": "grass",
-			"lat": 41.136683,
-			"lng": 22.50116,
-			"x": 802,
-			"y": 742,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3318_001.jpg",
-				"source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxmAc9ZZ4UoaF_B0yl8Xj3npBjTBiijYpopQ&s",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 19
-	},
-	{
-		"team": {
-			"api_football_id": 4345,
-			"name": "Sasa",
-			"code": null,
-			"country": "Macedonia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 3322,
-			"name": "Gradski stadion",
-			"address": null,
-			"city": "Makedonska Kamenica",
-			"capacity": 2000,
-			"surface": "grass",
-			"lat": 42.017461,
-			"lng": 22.589348,
-			"x": 837,
-			"y": 282,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3322_001.jpg",
-				"source": "https://makedonskakamenica.gov.mk/wp-content/uploads/2021/02/242cbcd67e4b072ab2fef818a76f5be5.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 20
-	},
-	{
-		"team": {
-			"api_football_id": 4349,
-			"name": "Vardar Negotino",
-			"code": "NEG",
-			"country": "Macedonia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 3325,
-			"name": "Cvaj Arena",
-			"address": "ul. Marshal Tito",
-			"city": "Negotino",
-			"capacity": 1500,
-			"surface": "grass",
-			"lat": 41.482304,
-			"lng": 22.085785,
-			"x": 639,
-			"y": 563,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3325_001.jpg",
-				"source": "https://macedonianfootball.com/wp-content/uploads/2024/09/Cvaj-stadium-Negotino.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 21
-	},
-	{
-		"team": {
-			"api_football_id": 4353,
-			"name": "Novaci",
-			"code": "NOV",
-			"country": "Macedonia",
-			"founded": 1956
-		},
-		"venue": {
-			"api_football_id": 3327,
-			"name": "Stadion Metallurg",
-			"address": null,
-			"city": "Novatsi",
-			"capacity": 1500,
-			"surface": "grass",
-			"lat": 41.04267,
-			"lng": 21.450126,
-			"x": 390,
-			"y": 791,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3327_001.jpg",
-				"source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnKsmOxLU1WrOgGISlv5a5_jfQYrk3yzM1fg&s",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 22
-	},
-	{
-		"team": {
-			"api_football_id": 4354,
-			"name": "Osogovo",
-			"code": null,
-			"country": "Macedonia",
-			"founded": 1924
-		},
-		"venue": {
-			"api_football_id": 3328,
-			"name": "Stadion Nikola Mantov",
-			"address": null,
-			"city": "Kočani",
-			"capacity": 4350,
-			"surface": "grass",
-			"lat": 41.908528,
-			"lng": 22.406278,
-			"x": 765,
-			"y": 340,
-			"wiki": "https://en.wikipedia.org/wiki/Stadion_Nikola_Mantov"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "372_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Stadion_nikola_mantov1.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 23
-	},
-	{
-		"team": {
-			"api_football_id": 6290,
-			"name": "Ohrid",
-			"code": null,
-			"country": "Macedonia",
-			"founded": 1921
-		},
-		"venue": {
-			"api_football_id": 4658,
-			"name": "Stadion Biljanini Izvori",
-			"address": "SRC Biljanini Izvori",
-			"city": "Ohrid",
-			"capacity": 18000,
-			"surface": "grass",
-			"lat": 41.1051,
-			"lng": 20.8123,
-			"x": 140,
-			"y": 759,
-			"wiki": "https://en.wikipedia.org/wiki/SRC_Biljanini_Izvori"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "4658_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/SRCBiljaniniIzvori_stadium.png",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 24
-	},
-	{
-		"team": {
-			"api_football_id": 19753,
-			"name": "Aresimi",
-			"code": null,
-			"country": "Macedonia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 20779,
-			"name": "Igralište Golema Rečica",
-			"address": "Macedonia 41, Golema Rečica",
-			"city": "Tetovo",
-			"capacity": 1000,
-			"surface": "grass",
-			"lat": 41.976791,
-			"lng": 20.940969,
-			"x": 190,
-			"y": 304,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "20779_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/SRCBiljaniniIzvori_stadium.png",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 25
-	},
-	{
-		"team": {
-			"api_football_id": 19754,
-			"name": "Detonit Plachkovica",
-			"code": null,
-			"country": "Macedonia",
-			"founded": 2022
-		},
-		"venue": {
-			"api_football_id": 3321,
-			"name": "Gradski stadion",
-			"address": null,
-			"city": "Radovish",
-			"capacity": 2000,
-			"surface": "grass",
-			"lat": 1.641512,
-			"lng": 22.464046,
-			"x": 787,
-			"y": 17759,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3321_01.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 26
-	},
-	{
-		"team": {
-			"api_football_id": 22153,
-			"name": "Bashkimi Kumanovo",
-			"code": null,
-			"country": "Macedonia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 21124,
-			"name": "Milano Arena",
-			"address": "ul. 11 Oktomvri 89",
-			"city": "Kumanovo",
-			"capacity": 7000,
-			"surface": "grass",
-			"lat": 42.142099,
-			"lng": 21.709974,
-			"x": 492,
-			"y": 217,
-			"wiki": "https://en.wikipedia.org/wiki/KF_Bashkimi_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "21124_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/KF_Bashkimi.jpg/1199px-KF_Bashkimi.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 27
+		"no": 32
 	},
 	{
 		"team": {
@@ -931,6 +1224,6 @@
 		},
 		"league": {},
 		"images": [],
-		"no": 28
+		"no": 33
 	}
 ]

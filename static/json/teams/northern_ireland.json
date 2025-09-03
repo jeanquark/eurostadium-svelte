@@ -21,12 +21,7 @@
 			"y": 560,
 			"wiki": "https://en.wikipedia.org/wiki/Windsor_Park"
 		},
-		"league": {
-			"api_football_id": 408,
-			"name": "Premiership",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1971_001.jpg",
@@ -101,12 +96,7 @@
 			"y": 380,
 			"wiki": "https://en.wikipedia.org/wiki/Ballymena_Showgrounds"
 		},
-		"league": {
-			"api_football_id": 408,
-			"name": "Premiership",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2933_001.jpg",
@@ -181,12 +171,7 @@
 			"y": 215,
 			"wiki": "https://en.wikipedia.org/wiki/The_Showgrounds_(Coleraine)"
 		},
-		"league": {
-			"api_football_id": 408,
-			"name": "Premiership",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1170_001.jpg",
@@ -245,12 +230,7 @@
 			"y": 534,
 			"wiki": "https://en.wikipedia.org/wiki/Seaview_(football_ground)"
 		},
-		"league": {
-			"api_football_id": 408,
-			"name": "Premiership",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1171_001.jpg",
@@ -309,12 +289,7 @@
 			"y": 537,
 			"wiki": "https://en.wikipedia.org/wiki/Solitude_(football_ground)"
 		},
-		"league": {
-			"api_football_id": 408,
-			"name": "Premiership",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1169_001.jpg",
@@ -381,12 +356,7 @@
 			"y": 640,
 			"wiki": "https://en.wikipedia.org/wiki/Mourneview_Park"
 		},
-		"league": {
-			"api_football_id": 408,
-			"name": "Premiership",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1173_001.jpg",
@@ -453,12 +423,7 @@
 			"y": 669,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 408,
-			"name": "Premiership",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4037_001.jpg",
@@ -501,12 +466,7 @@
 			"y": 665,
 			"wiki": "https://en.wikipedia.org/wiki/Shamrock_Park"
 		},
-		"league": {
-			"api_football_id": 408,
-			"name": "Premiership",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4040_001.jpg",
@@ -565,12 +525,7 @@
 			"y": 474,
 			"wiki": "https://en.wikipedia.org/wiki/Taylors_Avenue"
 		},
-		"league": {
-			"api_football_id": 408,
-			"name": "Premiership",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "12606_001.jpg",
@@ -629,12 +584,7 @@
 			"y": 618,
 			"wiki": "https://en.wikipedia.org/wiki/Stangmore_Park"
 		},
-		"league": {
-			"api_football_id": 408,
-			"name": "Premiership",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4043_001.jpg",
@@ -685,12 +635,7 @@
 			"y": 547,
 			"wiki": "https://en.wikipedia.org/wiki/The_Oval_(Belfast)"
 		},
-		"league": {
-			"api_football_id": 408,
-			"name": "Premiership",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "18636_001.jpg",
@@ -733,12 +678,7 @@
 			"y": 393,
 			"wiki": "https://en.wikipedia.org/wiki/Inver_Park"
 		},
-		"league": {
-			"api_football_id": 408,
-			"name": "Premiership",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4045_001.jpg",
@@ -797,12 +737,7 @@
 			"y": 517,
 			"wiki": "https://en.wikipedia.org/wiki/Clandeboye_Park"
 		},
-		"league": {
-			"api_football_id": 407,
-			"name": "Championship",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4030_001.jpg",
@@ -845,12 +780,7 @@
 			"y": 664,
 			"wiki": "https://en.wikipedia.org/wiki/Ferney_Park"
 		},
-		"league": {
-			"api_football_id": 407,
-			"name": "Championship",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4031_001.jpg",
@@ -885,12 +815,7 @@
 			"y": 455,
 			"wiki": "https://en.wikipedia.org/wiki/Dixon_Park"
 		},
-		"league": {
-			"api_football_id": 407,
-			"name": "Championship",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4032_001.jpg",
@@ -949,12 +874,7 @@
 			"y": 549,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 407,
-			"name": "Championship",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4034_001.jpg",
@@ -997,12 +917,7 @@
 			"y": 541,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 407,
-			"name": "Championship",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4035_001.jpg",
@@ -1053,12 +968,7 @@
 			"y": 827,
 			"wiki": "https://en.wikipedia.org/wiki/The_Showgrounds_(Newry)"
 		},
-		"league": {
-			"api_football_id": 407,
-			"name": "Championship",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4038_001.jpg",
@@ -1109,12 +1019,7 @@
 			"y": 304,
 			"wiki": "https://en.wikipedia.org/wiki/Ryan_McBride_Brandywell_Stadium"
 		},
-		"league": {
-			"api_football_id": 407,
-			"name": "Championship",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1172_001.jpg",
@@ -1181,12 +1086,7 @@
 			"y": 667,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 407,
-			"name": "Championship",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "12467_001.jpg",
@@ -1221,12 +1121,7 @@
 			"y": 711,
 			"wiki": "https://en.wikipedia.org/wiki/Holm_Park"
 		},
-		"league": {
-			"api_football_id": 407,
-			"name": "Championship",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "7427_001.jpg",
@@ -1277,12 +1172,7 @@
 			"y": 517,
 			"wiki": "https://en.wikipedia.org/wiki/Clandeboye_Park"
 		},
-		"league": {
-			"api_football_id": 407,
-			"name": "Championship",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4030_001.jpg",
@@ -1325,12 +1215,7 @@
 			"y": 0,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 407,
-			"name": "Championship",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "7430_001.jpg",
@@ -1373,12 +1258,7 @@
 			"y": 393,
 			"wiki": "https://en.wikipedia.org/wiki/Inver_Park"
 		},
-		"league": {
-			"api_football_id": 407,
-			"name": "Championship",
-			"country": "Northern Ireland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4045_001.jpg",
