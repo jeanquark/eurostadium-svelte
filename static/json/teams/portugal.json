@@ -21,7 +21,12 @@
 			"y": 663,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_da_Luz"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1265_001.jpg",
@@ -112,7 +117,12 @@
 			"y": 197,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Drag%C3%A3o"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1286_001.jpg",
@@ -203,7 +213,12 @@
 			"y": 155,
 			"wiki": "https://en.wikipedia.org/wiki/Parque_de_Jogos_Comendador_Joaquim_de_Almeida_Freitas"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1280_001.jpg",
@@ -270,7 +285,12 @@
 			"y": 118,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_de_Braga"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1291_001.jpg",
@@ -345,7 +365,12 @@
 			"y": 325,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Jo%C3%A3o_Cardoso"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1271_001.jpg",
@@ -412,7 +437,12 @@
 			"y": 141,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_D._Afonso_Henriques"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1295_001.jpg",
@@ -487,7 +517,12 @@
 			"y": 713,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_da_Madeira"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1281_001.jpg",
@@ -546,7 +581,12 @@
 			"y": 158,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_dos_Arcos"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1288_001.jpg",
@@ -605,7 +645,12 @@
 			"y": 288,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_de_S%C3%A3o_Miguel_(Ponta_Delgada)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1289_001.jpg",
@@ -664,7 +709,12 @@
 			"y": 662,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Jos%C3%A9_Alvalade"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1293_001.jpg",
@@ -739,7 +789,12 @@
 			"y": 670,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Ant%C3%B3nio_Coimbra_da_Mota"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1274_001.jpg",
@@ -798,7 +853,12 @@
 			"y": 242,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_de_Arouca"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1275_001.jpg",
@@ -857,7 +917,12 @@
 			"y": 150,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_22_de_Junho"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1276_001.jpg",
@@ -916,7 +981,12 @@
 			"y": 120,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Cidade_de_Barcelos"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2811_001.jpg",
@@ -975,7 +1045,12 @@
 			"y": 672,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Nacional"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1262_001.jpg",
@@ -1050,7 +1125,12 @@
 			"y": 636,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3572_001.jpg",
@@ -1109,7 +1189,12 @@
 			"y": 663,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Jos%C3%A9_Gomes"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19187_001.jpg",
@@ -1176,7 +1261,12 @@
 			"y": 157,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_CD_Aves"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 94,
+			"name": "Primeira Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1272_001.jpg",

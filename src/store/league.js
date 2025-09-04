@@ -5,6 +5,12 @@ const state = {
     league: null,
     leagues: [],
     leaguesByCountryId: [],
+    paginatedLeagues: {
+        data: [],
+        totalCount: 0,
+        currentPage: 1,
+        totalPages: 0
+    },
 }
 
 function createLeagueStore() {
@@ -46,6 +52,33 @@ function createLeagueStore() {
             //     array.push(data[i])
             // }
             // this.leagues = array
+        },
+
+        async fetchPaginatedLeagues(page = 1, pageSize = 10, sortBy = 'id', sortOrder = 'asc') {
+            console.log('[Store] fetchPaginatedLeagues()', page, pageSize, sortBy, sortOrder)
+            // const { data, error } = await supabase.from("countries").select(`id, name, image`);
+            const from = (page - 1) * pageSize
+            const to = from + pageSize - 1
+
+            const { data, error, count } = await supabase
+                .from('leagues')
+                .select('*, country:countries (id, name)', { count: 'exact' })
+                // .order('id', { ascending: true })
+                .order(sortBy, { ascending: sortOrder === 'asc' })
+                .range(from, to)
+            console.log("[Store] fetchPaginatedLeagues() data: ", data);
+            if (error) {
+                console.log('error: ', error);
+            }
+
+            update((state) => ({
+                ...state, paginatedLeagues: {
+                    data,
+                    totalCount: count,
+                    currentPage: page,
+                    totalPages: Math.ceil(count / pageSize)
+                }
+            }))
         },
 
         async fetchLeaguesByCountryId (countryId) {

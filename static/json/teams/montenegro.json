@@ -401,45 +401,12 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3751,
-			"name": "Otrant-Olympic",
-			"code": null,
-			"country": "Montenegro",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 2533,
-			"name": "Stadion Olympic",
-			"address": "Velika Plaža bb",
-			"city": "Ulcinj",
-			"capacity": 1500,
-			"surface": "grass",
-			"lat": 41.9125,
-			"lng": 19.243889,
-			"x": 430,
-			"y": 964,
-			"wiki": "https://en.wikipedia.org/wiki/Stadion_Olympic"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "2533_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 11
-	},
-	{
-		"team": {
 			"api_football_id": 2258,
 			"name": "Rudar",
 			"code": "RUD",
 			"country": "Montenegro",
-			"founded": 1920
+			"founded": 1920,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1097,
@@ -454,7 +421,12 @@
 			"y": 120,
 			"wiki": "https://en.wikipedia.org/wiki/Gradski_stadion_(Pljevlja)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 356,
+			"name": "Second League",
+			"country": "Montenegro",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1097_001.jpg",
@@ -465,7 +437,7 @@
 				"size": 0
 			}
 		],
-		"no": 12
+		"no": 11
 	},
 	{
 		"team": {
@@ -473,7 +445,8 @@
 			"name": "Grbalj",
 			"code": "GRB",
 			"country": "Montenegro",
-			"founded": 1970
+			"founded": 1970,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2519,
@@ -488,7 +461,12 @@
 			"y": 702,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Donja_Sutvara"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 356,
+			"name": "Second League",
+			"country": "Montenegro",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2519_001.jpg",
@@ -499,7 +477,7 @@
 				"size": 0
 			}
 		],
-		"no": 13
+		"no": 12
 	},
 	{
 		"team": {
@@ -507,7 +485,8 @@
 			"name": "Iskra",
 			"code": null,
 			"country": "Montenegro",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2520,
@@ -522,7 +501,12 @@
 			"y": 592,
 			"wiki": "https://en.wikipedia.org/wiki/Bra%C4%87a_Vela%C5%A1evi%C4%87_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 356,
+			"name": "Second League",
+			"country": "Montenegro",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2520_001.jpg",
@@ -533,7 +517,7 @@
 				"size": 0
 			}
 		],
-		"no": 14
+		"no": 13
 	},
 	{
 		"team": {
@@ -541,7 +525,8 @@
 			"name": "Lovćen",
 			"code": "LOV",
 			"country": "Montenegro",
-			"founded": 1913
+			"founded": 1913,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2521,
@@ -556,10 +541,55 @@
 			"y": 686,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Sveti_Petar_Cetinjski"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 356,
+			"name": "Second League",
+			"country": "Montenegro",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2521_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 3743,
+			"name": "Berane",
+			"code": "BER",
+			"country": "Montenegro",
+			"founded": 1920,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 2525,
+			"name": "Gradski Stadion",
+			"address": "Teodroa-Đeda Vojvodića bb",
+			"city": "Berane",
+			"capacity": 10000,
+			"surface": "grass",
+			"lat": 42.843324,
+			"lng": 19.866268,
+			"x": 698,
+			"y": 424,
+			"wiki": "https://en.wikipedia.org/wiki/Berane_City_Stadium"
+		},
+		"league": {
+			"api_football_id": 356,
+			"name": "Second League",
+			"country": "Montenegro",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2525_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -575,7 +605,8 @@
 			"name": "Igalo",
 			"code": "IGA",
 			"country": "Montenegro",
-			"founded": 1929
+			"founded": 1929,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2528,
@@ -590,7 +621,12 @@
 			"y": 652,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Solila"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 356,
+			"name": "Second League",
+			"country": "Montenegro",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2528_001.jpg",
@@ -609,7 +645,8 @@
 			"name": "Kom",
 			"code": "KOM",
 			"country": "Montenegro",
-			"founded": 1958
+			"founded": 1958,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 19784,
@@ -624,7 +661,12 @@
 			"y": 644,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Zlatica"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 356,
+			"name": "Second League",
+			"country": "Montenegro",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19784_001.jpg",
@@ -643,7 +685,8 @@
 			"name": "Mladost Lješkopolje",
 			"code": null,
 			"country": "Montenegro",
-			"founded": 2014
+			"founded": 2014,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2532,
@@ -658,7 +701,12 @@
 			"y": 675,
 			"wiki": "https://en.wikipedia.org/wiki/DG_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 356,
+			"name": "Second League",
+			"country": "Montenegro",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2532_001.jpg",
@@ -670,6 +718,86 @@
 			}
 		],
 		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 3751,
+			"name": "Otrant-Olympic",
+			"code": null,
+			"country": "Montenegro",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 2533,
+			"name": "Stadion Olympic",
+			"address": "Velika Plaža bb",
+			"city": "Ulcinj",
+			"capacity": 1500,
+			"surface": "grass",
+			"lat": 41.9125,
+			"lng": 19.243889,
+			"x": 430,
+			"y": 964,
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_Olympic"
+		},
+		"league": {
+			"api_football_id": 356,
+			"name": "Second League",
+			"country": "Montenegro",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2533_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 21530,
+			"name": "Internacional Podgorica",
+			"code": null,
+			"country": "Montenegro",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 42.393386,
+			"lng": 19.194119,
+			"x": 409,
+			"y": 686,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 356,
+			"name": "Second League",
+			"country": "Montenegro",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 20
 	},
 	{
 		"team": {
@@ -697,74 +825,6 @@
 			{
 				"name": "4612_001.jpg",
 				"source": "https://www.europlan-online.de/files/e1f8492faeaaa2afcb15d4d7f7255d1a.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 19
-	},
-	{
-		"team": {
-			"api_football_id": 3743,
-			"name": "Berane",
-			"code": "BER",
-			"country": "Montenegro",
-			"founded": 1920
-		},
-		"venue": {
-			"api_football_id": 2525,
-			"name": "Gradski Stadion",
-			"address": "Teodroa-Đeda Vojvodića bb",
-			"city": "Berane",
-			"capacity": 10000,
-			"surface": "grass",
-			"lat": 42.843324,
-			"lng": 19.866268,
-			"x": 698,
-			"y": 424,
-			"wiki": "https://en.wikipedia.org/wiki/Berane_City_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "2525_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 20
-	},
-	{
-		"team": {
-			"api_football_id": 21530,
-			"name": "Internacional Podgorica",
-			"code": null,
-			"country": "Montenegro",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": null,
-			"name": "Stadion Donji Kokoti",
-			"address": null,
-			"city": null,
-			"capacity": null,
-			"surface": null,
-			"lat": 42.393386,
-			"lng": 19.194119,
-			"x": 409,
-			"y": 686,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "",
-				"source": "",
 				"owner": "",
 				"width": 0,
 				"height": 0,

@@ -6,7 +6,7 @@
 			"code": "VAR",
 			"country": "Macedonia",
 			"founded": 1947,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Vardar"
 		},
 		"venue": {
 			"api_football_id": 1045,
@@ -46,7 +46,7 @@
 			"code": "SKE",
 			"country": "Macedonia",
 			"founded": 1979,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/KF_Shk%C3%ABndija"
 		},
 		"venue": {
 			"api_football_id": 1046,
@@ -86,7 +86,7 @@
 			"code": "RAB",
 			"country": "Macedonia",
 			"founded": 1937,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Rabotnichki"
 		},
 		"venue": {
 			"api_football_id": 1045,
@@ -126,7 +126,7 @@
 			"code": "PEL",
 			"country": "Macedonia",
 			"founded": 1945,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Pelister"
 		},
 		"venue": {
 			"api_football_id": 22345,
@@ -166,7 +166,7 @@
 			"code": "SHK",
 			"country": "Macedonia",
 			"founded": 2014,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/KF_Shkupi"
 		},
 		"venue": {
 			"api_football_id": 1801,
@@ -206,7 +206,7 @@
 			"code": null,
 			"country": "Macedonia",
 			"founded": 2010,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_AP_Brera_Strumica"
 		},
 		"venue": {
 			"api_football_id": 11283,
@@ -246,7 +246,7 @@
 			"code": "MAK",
 			"country": "Macedonia",
 			"founded": 1982,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Makedonija_G.P."
 		},
 		"venue": {
 			"api_football_id": 3200,
@@ -286,7 +286,7 @@
 			"code": "SIL",
 			"country": "Macedonia",
 			"founded": 1965,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Sileks"
 		},
 		"venue": {
 			"api_football_id": 3311,
@@ -326,7 +326,7 @@
 			"code": null,
 			"country": "Macedonia",
 			"founded": 2015,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Struga"
 		},
 		"venue": {
 			"api_football_id": 3323,
@@ -366,7 +366,7 @@
 			"code": null,
 			"country": "Macedonia",
 			"founded": 1930,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/GFK_Tikvesh"
 		},
 		"venue": {
 			"api_football_id": 3324,
@@ -406,7 +406,7 @@
 			"code": null,
 			"country": "Macedonia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/KF_Arsimi"
 		},
 		"venue": {
 			"api_football_id": 20779,
@@ -446,7 +446,7 @@
 			"code": null,
 			"country": "Macedonia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/KF_Bashkimi_(1947%E2%80%932008)"
 		},
 		"venue": {
 			"api_football_id": 22347,
@@ -486,7 +486,7 @@
 			"code": "BEL",
 			"country": "Macedonia",
 			"founded": 1922,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Belasica"
 		},
 		"venue": {
 			"api_football_id": 11283,
@@ -526,7 +526,7 @@
 			"code": "POB",
 			"country": "Macedonia",
 			"founded": 2010,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Pobeda_(2010)"
 		},
 		"venue": {
 			"api_football_id": 3310,
@@ -566,7 +566,7 @@
 			"code": "SKO",
 			"country": "Macedonia",
 			"founded": 1960,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Skopje"
 		},
 		"venue": {
 			"api_football_id": 3313,
@@ -606,7 +606,7 @@
 			"code": "BRE",
 			"country": "Macedonia",
 			"founded": 1921,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Bregalnica_%C5%A0tip"
 		},
 		"venue": {
 			"api_football_id": 3314,
@@ -646,7 +646,7 @@
 			"code": null,
 			"country": "Macedonia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Kozhuf"
 		},
 		"venue": {
 			"api_football_id": 3318,
@@ -686,7 +686,7 @@
 			"code": null,
 			"country": "Macedonia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Sasa"
 		},
 		"venue": {
 			"api_football_id": 3322,
@@ -726,7 +726,7 @@
 			"code": "TET",
 			"country": "Macedonia",
 			"founded": 1953,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Teteks"
 		},
 		"venue": {
 			"api_football_id": 11938,
@@ -757,7 +757,7 @@
 			"code": "NEG",
 			"country": "Macedonia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Vardar_Negotino"
 		},
 		"venue": {
 			"api_football_id": 3325,
@@ -797,7 +797,7 @@
 			"code": "NOV",
 			"country": "Macedonia",
 			"founded": 1956,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Novaci"
 		},
 		"venue": {
 			"api_football_id": 3327,
@@ -837,7 +837,7 @@
 			"code": null,
 			"country": "Macedonia",
 			"founded": 1924,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Osogovo"
 		},
 		"venue": {
 			"api_football_id": 3328,
@@ -877,7 +877,7 @@
 			"code": null,
 			"country": "Macedonia",
 			"founded": 1921,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Ohrid"
 		},
 		"venue": {
 			"api_football_id": 4658,
@@ -917,7 +917,7 @@
 			"code": null,
 			"country": "Bosnia",
 			"founded": 1934,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Sloga_1934_Vinica"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -948,7 +948,7 @@
 			"code": null,
 			"country": "Macedonia",
 			"founded": 2022,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Detonit_Plachkovica"
 		},
 		"venue": {
 			"api_football_id": 3321,
@@ -988,7 +988,7 @@
 			"code": null,
 			"country": "Macedonia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/KF_Shk%C3%ABndija_Hara%C3%A7in%C3%AB"
 		},
 		"venue": {
 			"api_football_id": 22348,
@@ -1019,7 +1019,7 @@
 			"code": null,
 			"country": "Macedonia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Golemo_Konjari"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -1050,7 +1050,7 @@
 			"code": null,
 			"country": "Macedonia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Prespa"
 		},
 		"venue": {
 			"api_football_id": null,
@@ -1080,7 +1080,8 @@
 			"name": "KF Gostivari",
 			"code": "GOS",
 			"country": "Macedonia",
-			"founded": 1998
+			"founded": 1998,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Gostivari"
 		},
 		"venue": {
 			"api_football_id": 3316,
@@ -1114,7 +1115,8 @@
 			"name": "Besa Dobërdoll",
 			"code": null,
 			"country": "Macedonia",
-			"founded": 1976
+			"founded": 1976,
+			"wiki": "https://en.wikipedia.org/wiki/KF_Besa_Dob%C3%ABrdoll"
 		},
 		"venue": {
 			"api_football_id": 12705,
@@ -1148,7 +1150,8 @@
 			"name": "Voska Sport",
 			"code": null,
 			"country": "Macedonia",
-			"founded": 2019
+			"founded": 2019,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Voska_Sport"
 		},
 		"venue": {
 			"api_football_id": 4658,
@@ -1182,7 +1185,8 @@
 			"name": "Borec",
 			"code": "BOR",
 			"country": "Macedonia",
-			"founded": 1926
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Borec"
 		},
 		"venue": {
 			"api_football_id": 3315,
@@ -1207,7 +1211,8 @@
 			"name": "Vardarski",
 			"code": null,
 			"country": "Macedonia",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Vardarski"
 		},
 		"venue": {
 			"api_football_id": null,

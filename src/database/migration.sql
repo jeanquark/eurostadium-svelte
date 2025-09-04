@@ -18,6 +18,7 @@ CREATE TABLE countries (
   wiki VARCHAR(255),
   is_active BOOLEAN DEFAULT FALSE,
   display_order SMALLINT,
+  uefa_ranking SMALLINT,
   inserted_at timestamp with time zone DEFAULT timezone('utc'::text, now()) NOT NULL,
   updated_at timestamp with time zone DEFAULT timezone('utc'::text, now()) NOT NULL
 );

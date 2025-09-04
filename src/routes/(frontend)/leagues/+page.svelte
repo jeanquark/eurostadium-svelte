@@ -1,19 +1,20 @@
 <script>
     import { base } from "$app/paths";
-    import { countryStore } from "@store/country.js";
+    import { leagueStore } from "@store/league.js";
     import { onMount } from "svelte";
     import "@styles/table.css";
     import Pagination from "@components/Pagination.svelte";
     import Search from "@components/Search.svelte";
     import SortAsc from "@components/icons/SortAsc.svelte";
     import SortDesc from "@components/icons/SortDesc.svelte";
+	import slugify from "@lib/utils/slugify";
 
     onMount(async () => {
         try {
-            if ($countryStore.countries.length < 2) {
-                await countryStore.fetchCountries();
+            if ($leagueStore.leagues.length < 2) {
+                await leagueStore.fetchLeagues();
             }
-            await countryStore.fetchPaginatedCountries();
+            await leagueStore.fetchPaginatedLeagues();
         } catch (error) {
             console.log("error: ", error);
         }
@@ -23,7 +24,7 @@
     let itemsPerPage = 10;
     let sortBy = "name";
     let sortOrder = "asc";
-    $: totalPages = $countryStore.paginatedCountries?.totalPages;
+    $: totalPages = $leagueStore.paginatedLeagues?.totalPages;
 
     const sortTable = async (column) => {
         if (sortBy === column) {
@@ -32,36 +33,36 @@
             sortBy = column;
             sortOrder = "asc";
         }
-		await countryStore.fetchPaginatedCountries(currentPage, itemsPerPage, sortBy, sortOrder);
+		await leagueStore.fetchPaginatedLeagues(currentPage, itemsPerPage, sortBy, sortOrder);
     }
 
     const onPageChange = async (page) => {
         console.log("onPageChange page: ", page);
         currentPage = page;
         // update your table data here
-        await countryStore.fetchPaginatedCountries(page, itemsPerPage, sortBy, sortOrder);
+        await leagueStore.fetchPaginatedLeagues(page, itemsPerPage, sortBy, sortOrder);
     };
 
     const onSearch = async (searchTerm) => {
         console.log("onSearch searchTerm: ", searchTerm);
-        await countryStore.fetchCountryByName(searchTerm);
+        // await leagueStore.fetchLeagueByName(searchTerm);
     };
 </script>
 
 <svelte:head>
-    <title>Countries</title>
+    <title>Leagues</title>
     <meta name="description" content="Countries" />
 </svelte:head>
 
 <div class="row">
     <div class="col-12 text-center">
-        countryStore.countries.length: {$countryStore.countries.length}<br />
-        countryStore.paginatedCountries.data.length: {$countryStore
-            .paginatedCountries?.data?.length}<br />
-        countryStore.paginatedCountries.totalCount: {$countryStore
-            .paginatedCountries?.totalCount}<br />
+        leagueStore.leagues.length: {$leagueStore.leagues.length}<br />
+        leagueStore.paginatedCountries.data.length: {$leagueStore
+            .paginatedLeagues?.data?.length}<br />
+        leagueStore.paginatedCountries.totalCount: {$leagueStore
+            .paginatedLeagues?.totalCount}<br />
 			sortOrder: {sortOrder}<br />
-        <h2 class="text-center">Countries page</h2>
+        <h2 class="text-center">Leagues page</h2>
         <br />
         <a href="{base}/">Home page</a>
         <br />
@@ -94,27 +95,27 @@
                         </th>
                         <th>Flag</th>
                         <th>Wiki</th>
-                        <th>First league</th>
-                        <th>Second league</th>
+						<th>Country</th>
+                        <th>Teams</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {#each $countryStore.paginatedCountries.data as country, index}
+                    {#each $leagueStore.paginatedLeagues?.data as league, index}
                         <tr>
                             <td>{index + 1}</td>
-                            <td>{country.id}</td>
-                            <td>{country.name}</td>
+                            <td>{league.id}</td>
+                            <td>{league.name}</td>
                             <td>
                                 <img
-                                    src="/images/flags/{country.image}"
-                                    alt={country.name}
+                                    src="/images/leagues/switzerland/207.png"
+                                    alt={league.name}
                                     height="30"
                                     class="px-1"
                                 /></td
                             >
-                            <td>{country.wiki}</td>
-                            <td>{country.leagues[0]?.name}</td>
-                            <td>{country.leagues[1]?.name}</td>
+                            <td>{league.wiki}</td>
+							<td>{league.country?.name}</td>
+                            <td></td>
                         </tr>
                     {/each}
                 </tbody>

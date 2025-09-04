@@ -21,7 +21,12 @@
 			"y": 321,
 			"wiki": "https://en.wikipedia.org/wiki/Bia%C5%82ystok_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1249_001.jpg",
@@ -104,7 +109,12 @@
 			"y": 466,
 			"wiki": "https://en.wikipedia.org/wiki/Polish_Army_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1253_001.jpg",
@@ -163,7 +173,12 @@
 			"y": 772,
 			"wiki": "https://en.wikipedia.org/wiki/Arena_Zabrze"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "18625_001.jpg",
@@ -222,7 +237,12 @@
 			"y": 411,
 			"wiki": "https://en.wikipedia.org/wiki/Kazimierz_G%C3%B3rski_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19930_001.jpg",
@@ -281,7 +301,12 @@
 			"y": 105,
 			"wiki": "https://en.wikipedia.org/wiki/Gda%C5%84sk_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "18627_001.jpg",
@@ -356,7 +381,12 @@
 			"y": 88,
 			"wiki": "https://en.wikipedia.org/wiki/Gdynia_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1246_001.jpg",
@@ -415,7 +445,12 @@
 			"y": 596,
 			"wiki": "https://en.wikipedia.org/wiki/Lubin_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1260_001.jpg",
@@ -482,7 +517,12 @@
 			"y": 684,
 			"wiki": "https://en.wikipedia.org/wiki/Kielce_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1250_001.jpg",
@@ -541,7 +581,12 @@
 			"y": 438,
 			"wiki": "https://en.wikipedia.org/wiki/Pozna%C5%84_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "20110_001.jpg",
@@ -616,7 +661,12 @@
 			"y": 266,
 			"wiki": "https://en.wikipedia.org/wiki/Florian_Krygier_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1256_001.jpg",
@@ -675,7 +725,12 @@
 			"y": 771,
 			"wiki": "https://en.wikipedia.org/wiki/Piotr_Wieczorek_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1255_001.jpg",
@@ -734,7 +789,12 @@
 			"y": 809,
 			"wiki": "https://en.wikipedia.org/wiki/J%C3%B3zef_Pi%C5%82sudski_Cracovia_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1247_001.jpg",
@@ -801,7 +861,12 @@
 			"y": 775,
 			"wiki": "https://en.wikipedia.org/wiki/GKS_Katowice_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2285_001.jpg",
@@ -852,7 +917,12 @@
 			"y": 794,
 			"wiki": "https://en.wikipedia.org/wiki/Nieciecza_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "18632_001.jpg",
@@ -911,7 +981,12 @@
 			"y": 697,
 			"wiki": "https://en.wikipedia.org/wiki/Rak%C3%B3w_Municipal_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "18633_001.jpg",
@@ -970,7 +1045,12 @@
 			"y": 599,
 			"wiki": "https://en.wikipedia.org/wiki/Czachor_Brothers_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "20753_001.jpg",
@@ -1037,7 +1117,12 @@
 			"y": 540,
 			"wiki": "https://en.wikipedia.org/wiki/Widzew_%C5%81%C3%B3d%C5%BA_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "5080_001.jpg",
@@ -1096,7 +1181,12 @@
 			"y": 625,
 			"wiki": "https://en.wikipedia.org/wiki/Arena_Lublin"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 106,
+			"name": "Ekstraklasa",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "11992_001.jpg",
@@ -1163,7 +1253,12 @@
 			"y": 630,
 			"wiki": "https://fr.wikipedia.org/wiki/Stade_municipal_de_Legnica"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1254_001.jpg",
@@ -1214,7 +1309,12 @@
 			"y": 640,
 			"wiki": "https://en.wikipedia.org/wiki/Wroc%C5%82aw_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "18628_001.jpg",
@@ -1289,7 +1389,12 @@
 			"y": 808,
 			"wiki": "https://en.wikipedia.org/wiki/Henryk_Reyman_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1258_001.jpg",
@@ -1356,7 +1461,12 @@
 			"y": 558,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2284_001.jpg",
@@ -1407,7 +1517,12 @@
 			"y": 713,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2289_001.jpg",
@@ -1450,7 +1565,12 @@
 			"y": 809,
 			"wiki": "https://en.wikipedia.org/wiki/J%C3%B3zef_Pi%C5%82sudski_Cracovia_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1247_001.jpg",
@@ -1517,7 +1637,12 @@
 			"y": 772,
 			"wiki": "https://en.wikipedia.org/wiki/Mielec_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "18634_001.jpg",
@@ -1576,7 +1701,12 @@
 			"y": 799,
 			"wiki": "https://en.wikipedia.org/wiki/Tychy_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2296_001.jpg",
@@ -1643,7 +1773,12 @@
 			"y": 541,
 			"wiki": "https://en.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Kr%C3%B3l_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "12602_001.jpg",
@@ -1726,7 +1861,12 @@
 			"y": 614,
 			"wiki": "https://en.wikipedia.org/wiki/%C5%81%C4%99czna_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19952_001.jpg",
@@ -1777,7 +1917,12 @@
 			"y": 473,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "5065_001.jpg",
@@ -1820,7 +1965,12 @@
 			"y": 773,
 			"wiki": "https://en.wikipedia.org/wiki/Silesian_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "20760_001.jpg",
@@ -1887,7 +2037,12 @@
 			"y": 815,
 			"wiki": "https://en.wikipedia.org/wiki/Stal_Rzesz%C3%B3w_Municipal_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "5075_001.jpg",
@@ -1946,7 +2101,12 @@
 			"y": 475,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "5082_001.jpg",
@@ -2005,7 +2165,12 @@
 			"y": 0,
 			"wiki": "https://en.wikipedia.org/wiki/Edward_Szymkowiak_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "20481_001.jpg",
@@ -2064,7 +2229,12 @@
 			"y": 0,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "5082_001.jpg",
@@ -2123,7 +2293,12 @@
 			"y": 461,
 			"wiki": "https://en.wikipedia.org/wiki/Kazimierz_Sosnkowski_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "11332_001.jpg",
@@ -2174,7 +2349,12 @@
 			"y": 0,
 			"wiki": "https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Sports_Park"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 107,
+			"name": "I Liga",
+			"country": "Poland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19931_001.jpg",

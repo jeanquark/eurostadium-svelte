@@ -21,7 +21,12 @@
 			"y": 852,
 			"wiki": "https://en.wikipedia.org/wiki/Brann_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1176_001.jpg",
@@ -96,7 +101,12 @@
 			"y": 667,
 			"wiki": "https://en.wikipedia.org/wiki/Kristiansund_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19680_001.jpg",
@@ -163,7 +173,12 @@
 			"y": 892,
 			"wiki": "https://en.wikipedia.org/wiki/Marienlyst_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1199_001.jpg",
@@ -222,7 +237,12 @@
 			"y": 146,
 			"wiki": "https://en.wikipedia.org/wiki/Romssa_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19681_001.jpg",
@@ -281,7 +301,12 @@
 			"y": 881,
 			"wiki": "https://en.wikipedia.org/wiki/Intility_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1203_001.jpg",
@@ -348,7 +373,12 @@
 			"y": 351,
 			"wiki": "https://en.wikipedia.org/wiki/Aspmyra_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1175_001.jpg",
@@ -407,7 +437,12 @@
 			"y": 912,
 			"wiki": "https://en.wikipedia.org/wiki/Haugesund_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "12130_001.jpg",
@@ -474,7 +509,12 @@
 			"y": 694,
 			"wiki": "https://en.wikipedia.org/wiki/Aker_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1184_001.jpg",
@@ -533,7 +573,12 @@
 			"y": 646,
 			"wiki": "https://en.wikipedia.org/wiki/Lerkendal_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1190_001.jpg",
@@ -600,7 +645,12 @@
 			"y": 929,
 			"wiki": "https://en.wikipedia.org/wiki/Sandefjord_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "20418_001.jpg",
@@ -659,7 +709,12 @@
 			"y": 920,
 			"wiki": "https://en.wikipedia.org/wiki/Sarpsborg_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1193_001.jpg",
@@ -698,8 +753,8 @@
 			"wiki": "https://en.wikipedia.org/wiki/Viking_FK"
 		},
 		"venue": {
-			"api_football_id": 1204,
-			"name": "SR-Bank Arena",
+			"api_football_id": 21732,
+			"name": "Lyse Arena",
 			"address": "Gamle Jåttåvågen 3, Jåttåvågen",
 			"city": "Stavanger",
 			"capacity": 16508,
@@ -710,7 +765,12 @@
 			"y": 943,
 			"wiki": "https://en.wikipedia.org/wiki/Viking_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1204_001.jpg",
@@ -769,7 +829,12 @@
 			"y": 955,
 			"wiki": "https://en.wikipedia.org/wiki/Bryne_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2793_001.jpg",
@@ -820,7 +885,12 @@
 			"y": 882,
 			"wiki": "https://en.wikipedia.org/wiki/KFUM_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1179_001.jpg",
@@ -871,7 +941,12 @@
 			"y": 925,
 			"wiki": "https://en.wikipedia.org/wiki/Fredrikstad_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2792_001.jpg",
@@ -930,7 +1005,12 @@
 			"y": 824,
 			"wiki": "https://en.wikipedia.org/wiki/Briskeby_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 103,
+			"name": "Eliteserien",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1177_001.jpg",
@@ -989,7 +1069,12 @@
 			"y": 878,
 			"wiki": "https://en.wikipedia.org/wiki/%C3%85r%C3%A5sen_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1182_001.jpg",
@@ -1056,7 +1141,12 @@
 			"y": 645,
 			"wiki": "https://en.wikipedia.org/wiki/EXTRA_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1188_001.jpg",
@@ -1107,7 +1197,12 @@
 			"y": 880,
 			"wiki": "https://en.wikipedia.org/wiki/Nadderud_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1196_001.jpg",
@@ -1174,7 +1269,12 @@
 			"y": 925,
 			"wiki": "https://en.wikipedia.org/wiki/Skagerak_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1187_001.jpg",
@@ -1241,7 +1341,12 @@
 			"y": 990,
 			"wiki": "https://en.wikipedia.org/wiki/S%C3%B8r_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1197_001.jpg",
@@ -1316,7 +1421,12 @@
 			"y": 712,
 			"wiki": "https://en.wikipedia.org/wiki/Color_Line_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1174_001.jpg",
@@ -1375,7 +1485,12 @@
 			"y": 796,
 			"wiki": "https://en.wikipedia.org/wiki/Fosshaugane_Campus"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1195_001.jpg",
@@ -1434,7 +1549,12 @@
 			"y": 863,
 			"wiki": "https://en.wikipedia.org/wiki/Gjemselund_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1180_001.jpg",
@@ -1485,7 +1605,12 @@
 			"y": 845,
 			"wiki": "https://en.wikipedia.org/wiki/%C3%85sane_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "12683_001.jpg",
@@ -1544,7 +1669,12 @@
 			"y": 721,
 			"wiki": "https://en.wikipedia.org/wiki/Nye_H%C3%B8ddvoll"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2794_001.jpg",
@@ -1603,7 +1733,12 @@
 			"y": 891,
 			"wiki": "https://en.wikipedia.org/wiki/Consto_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1183_001.jpg",
@@ -1646,7 +1781,12 @@
 			"y": 829,
 			"wiki": "https://en.wikipedia.org/wiki/Nammo_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1189_001.jpg",
@@ -1689,7 +1829,12 @@
 			"y": 879,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1194_001.jpg",
@@ -1732,7 +1877,12 @@
 			"y": 972,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "5094_001.jpg",
@@ -1775,7 +1925,12 @@
 			"y": 880,
 			"wiki": "https://en.wikipedia.org/wiki/Bislett_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19421_001.jpg",
@@ -1834,7 +1989,12 @@
 			"y": 912,
 			"wiki": "https://en.wikipedia.org/wiki/Mell%C3%B8s_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 104,
+			"name": "1. Division",
+			"country": "Norway",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "5124_001.jpg",

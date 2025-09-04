@@ -21,7 +21,12 @@
 			"y": 379,
 			"wiki": "https://en.wikipedia.org/wiki/MAC%C2%B3PARK_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1160_001.jpg",
@@ -104,7 +109,12 @@
 			"y": 451,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1117_001.jpg",
@@ -179,7 +189,12 @@
 			"y": 593,
 			"wiki": "https://en.wikipedia.org/wiki/Van_Donge_%26_De_Roo_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2901_001.jpg",
@@ -238,7 +253,12 @@
 			"y": 760,
 			"wiki": "https://en.wikipedia.org/wiki/Philips_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1143_001.jpg",
@@ -321,7 +341,12 @@
 			"y": 344,
 			"wiki": "https://en.wikipedia.org/wiki/AFAS_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1119_001.jpg",
@@ -388,7 +413,12 @@
 			"y": 130,
 			"wiki": "https://en.wikipedia.org/wiki/Euroborg"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "12276_001.jpg",
@@ -463,7 +493,12 @@
 			"y": 706,
 			"wiki": "https://en.wikipedia.org/wiki/Rat_Verlegh_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1139_001.jpg",
@@ -522,7 +557,12 @@
 			"y": 917,
 			"wiki": "https://en.wikipedia.org/wiki/Fortuna_Sittard_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1129_001.jpg",
@@ -589,7 +629,12 @@
 			"y": 443,
 			"wiki": "https://en.wikipedia.org/wiki/Erve_Asito"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "11906_001.jpg",
@@ -672,7 +717,12 @@
 			"y": 535,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Galgenwaard"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1154_001.jpg",
@@ -763,7 +813,12 @@
 			"y": 601,
 			"wiki": "https://en.wikipedia.org/wiki/De_Kuip"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1128_001.jpg",
@@ -854,7 +909,12 @@
 			"y": 220,
 			"wiki": "https://en.wikipedia.org/wiki/Abe_Lenstra_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1132_001.jpg",
@@ -929,7 +989,12 @@
 			"y": 471,
 			"wiki": "https://en.wikipedia.org/wiki/De_Adelaarshorst"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1130_001.jpg",
@@ -988,7 +1053,12 @@
 			"y": 626,
 			"wiki": "https://en.wikipedia.org/wiki/Goffertstadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1140_001.jpg",
@@ -1047,7 +1117,12 @@
 			"y": 479,
 			"wiki": "https://en.wikipedia.org/wiki/De_Grolsch_Veste"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1153_001.jpg",
@@ -1122,7 +1197,12 @@
 			"y": 387,
 			"wiki": "https://en.wikipedia.org/wiki/Kras_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1156_001.jpg",
@@ -1189,7 +1269,12 @@
 			"y": 592,
 			"wiki": "https://en.wikipedia.org/wiki/Sparta_Stadion_Het_Kasteel"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "10505_001.jpg",
@@ -1264,7 +1349,12 @@
 			"y": 401,
 			"wiki": "https://en.wikipedia.org/wiki/Sportpark_Schoonenberg"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 88,
+			"name": "Eredivisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "20187_001.jpg",
@@ -1315,7 +1405,12 @@
 			"y": 724,
 			"wiki": "https://en.wikipedia.org/wiki/Koning_Willem_II_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1159_001.jpg",
@@ -1382,7 +1477,12 @@
 			"y": 541,
 			"wiki": "https://en.wikipedia.org/wiki/ADO_Den_Haag_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19212_001.jpg",
@@ -1449,7 +1549,12 @@
 			"y": 579,
 			"wiki": "https://en.wikipedia.org/wiki/De_Vijverberg"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1121_001.jpg",
@@ -1508,7 +1613,12 @@
 			"y": 576,
 			"wiki": "https://en.wikipedia.org/wiki/GelreDome"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1155_001.jpg",
@@ -1567,7 +1677,12 @@
 			"y": 791,
 			"wiki": "https://en.wikipedia.org/wiki/De_Koel"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1158_001.jpg",
@@ -1634,7 +1749,12 @@
 			"y": 286,
 			"wiki": "https://en.wikipedia.org/wiki/De_Oude_Meerdijk"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "10504_001.jpg",
@@ -1693,7 +1813,12 @@
 			"y": 633,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Krommedijk"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "20517_001.jpg",
@@ -1744,7 +1869,12 @@
 			"y": 753,
 			"wiki": "https://en.wikipedia.org/wiki/De_Herdgang"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "12681_001.jpg",
@@ -1795,7 +1925,12 @@
 			"y": 963,
 			"wiki": "https://en.wikipedia.org/wiki/De_Geusselt"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1138_001.jpg",
@@ -1846,7 +1981,12 @@
 			"y": 963,
 			"wiki": "https://en.wikipedia.org/wiki/Parkstad_Limburg_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1146_001.jpg",
@@ -1905,7 +2045,12 @@
 			"y": 674,
 			"wiki": "https://en.wikipedia.org/wiki/Mandemakers_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1144_001.jpg",
@@ -1964,7 +2109,12 @@
 			"y": 395,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1136_001.jpg",
@@ -2007,7 +2157,12 @@
 			"y": 423,
 			"wiki": "https://en.wikipedia.org/wiki/Yanmar_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1141_001.jpg",
@@ -2058,7 +2213,12 @@
 			"y": 130,
 			"wiki": "https://en.wikipedia.org/wiki/Cambuur_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "12680_001.jpg",
@@ -2125,7 +2285,12 @@
 			"y": 669,
 			"wiki": "https://en.wikipedia.org/wiki/De_Vliert"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1122_001.jpg",
@@ -2200,7 +2365,12 @@
 			"y": 770,
 			"wiki": "https://en.wikipedia.org/wiki/Jan_Louwers_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1126_001.jpg",
@@ -2267,7 +2437,12 @@
 			"y": 650,
 			"wiki": "https://en.wikipedia.org/wiki/Frans_Heesen_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1142_001.jpg",
@@ -2326,7 +2501,12 @@
 			"y": 744,
 			"wiki": "https://en.wikipedia.org/wiki/GS_Staalwerken_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19214_001.jpg",
@@ -2393,7 +2573,12 @@
 			"y": 452,
 			"wiki": "https://en.wikipedia.org/wiki/Sportpark_De_Toekomst"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1135_001.jpg",
@@ -2452,7 +2637,12 @@
 			"y": 537,
 			"wiki": "https://en.wikipedia.org/wiki/Sportcomplex_Zoudenbalch"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 89,
+			"name": "Eerste Divisie",
+			"country": "Netherlands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "12600_001.jpg",

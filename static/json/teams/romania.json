@@ -21,12 +21,7 @@
 			"y": 733,
 			"wiki": "https://en.wikipedia.org/wiki/Arena_Na%C8%9Bional%C4%83"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1326_001.jpg",
@@ -109,12 +104,7 @@
 			"y": 752,
 			"wiki": "https://en.wikipedia.org/wiki/Ion_Oblemenco_Stadium"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "12282_001.jpg",
@@ -173,12 +163,7 @@
 			"y": 729,
 			"wiki": "https://en.wikipedia.org/wiki/Arcul_de_Triumf_Stadium_(2021)"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19612_001.jpg",
@@ -237,12 +222,7 @@
 			"y": 380,
 			"wiki": "https://en.wikipedia.org/wiki/Dr._Constantin_R%C4%83dulescu_Stadium"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1311_001.jpg",
@@ -309,12 +289,7 @@
 			"y": 532,
 			"wiki": "https://en.wikipedia.org/wiki/Sibiu_Municipal_Stadium"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1894_001.jpg",
@@ -381,12 +356,7 @@
 			"y": 229,
 			"wiki": "https://en.wikipedia.org/wiki/Boto%C8%99ani_Municipal_Stadium"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1309_001.jpg",
@@ -437,12 +407,7 @@
 			"y": 317,
 			"wiki": "https://en.wikipedia.org/wiki/Emil_Alexandrescu_Stadium"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1322_001.jpg",
@@ -501,12 +466,7 @@
 			"y": 517,
 			"wiki": "https://en.wikipedia.org/wiki/Sepsi_Arena_Stadium"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "12593_001.jpg",
@@ -573,12 +533,7 @@
 			"y": 470,
 			"wiki": "https://en.wikipedia.org/wiki/Francisc_von_Neuman_Stadium"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "11931_001.jpg",
@@ -637,12 +592,7 @@
 			"y": 759,
 			"wiki": "https://en.wikipedia.org/wiki/Central_Stadium_(Gheorghe_Hagi_Academy)"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1324_001.jpg",
@@ -701,12 +651,7 @@
 			"y": 659,
 			"wiki": "https://en.wikipedia.org/wiki/Ilie_Oan%C4%83_Stadium"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1312_001.jpg",
@@ -773,12 +718,7 @@
 			"y": 382,
 			"wiki": "https://en.wikipedia.org/wiki/Cluj_Arena"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1913_001.jpg",
@@ -837,12 +777,7 @@
 			"y": 731,
 			"wiki": "https://en.wikipedia.org/wiki/Rapid-Giule%C8%99ti_Stadium"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19516_001.jpg",
@@ -901,12 +836,7 @@
 			"y": 628,
 			"wiki": "https://en.wikipedia.org/wiki/Buz%C4%83u_Municipal_Stadium_(Cr%C3%A2ng_Stadium)"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4608_001.jpg",
@@ -965,12 +895,7 @@
 			"y": 585,
 			"wiki": "https://en.wikipedia.org/wiki/O%C8%9Belul_Stadium_(1982)"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "5026_001.jpg",
@@ -1029,12 +954,7 @@
 			"y": 715,
 			"wiki": "https://en.wikipedia.org/wiki/May_1_Stadium_(Slobozia)"
 		},
-		"league": {
-			"api_football_id": 283,
-			"name": "Liga I",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "5044_001.jpg",
@@ -1093,12 +1013,7 @@
 			"y": 724,
 			"wiki": "https://en.wikipedia.org/wiki/Anghel_Iord%C4%83nescu_Stadium"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1315_001.jpg",
@@ -1141,12 +1056,7 @@
 			"y": 730,
 			"wiki": "https://en.wikipedia.org/wiki/Concordia_Stadium_(Chiajna)"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1313_001.jpg",
@@ -1197,12 +1107,7 @@
 			"y": 660,
 			"wiki": "https://en.wikipedia.org/wiki/Eugen_Popescu_Stadium"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "20111_001.jpg",
@@ -1261,12 +1166,7 @@
 			"y": 656,
 			"wiki": "https://en.wikipedia.org/wiki/Or%C4%83%C8%99enesc_Stadium_(Mioveni)"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1317_001.jpg",
@@ -1309,12 +1209,7 @@
 			"y": 656,
 			"wiki": "https://en.wikipedia.org/wiki/Or%C4%83%C8%99enesc_Stadium_(Mioveni)"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1317_001.jpg",
@@ -1357,12 +1252,7 @@
 			"y": 643,
 			"wiki": "https://en.wikipedia.org/wiki/Constantina_Di%C8%9B%C4%83-Tomescu_Stadium"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19422_001.jpg",
@@ -1421,12 +1311,7 @@
 			"y": 742,
 			"wiki": "https://en.wikipedia.org/wiki/Clinceni_Stadium"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "20116_001.jpg",
@@ -1469,12 +1354,7 @@
 			"y": 719,
 			"wiki": "https://en.wikipedia.org/wiki/Stadionul_Comunal_(Afuma%C8%9Bi)"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2823_001.jpg",
@@ -1509,12 +1389,7 @@
 			"y": 608,
 			"wiki": "https://en.wikipedia.org/wiki/Mircea_Chivu_Stadium"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4606_001.jpg",
@@ -1573,12 +1448,7 @@
 			"y": 443,
 			"wiki": "https://en.wikipedia.org/wiki/Miercurea_Ciuc_Municipal_Stadium"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "4607_001.jpg",
@@ -1629,12 +1499,7 @@
 			"y": 355,
 			"wiki": "https://en.wikipedia.org/wiki/Ceahl%C4%83ul_Municipal_Stadium"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "5004_001.jpg",
@@ -1693,12 +1558,7 @@
 			"y": 548,
 			"wiki": "https://en.wikipedia.org/wiki/Milcovul_Stadium"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "5010_001.jpg",
@@ -1733,12 +1593,7 @@
 			"y": 628,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "5017_001.jpg",
@@ -1773,12 +1628,7 @@
 			"y": 735,
 			"wiki": "https://en.wikipedia.org/wiki/May_1_Stadium_(Slatina)"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "5032_001.jpg",
@@ -1837,12 +1687,7 @@
 			"y": 752,
 			"wiki": "https://en.wikipedia.org/wiki/Ion_Oblemenco_Stadium"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "12282_001.jpg",
@@ -1901,12 +1746,7 @@
 			"y": 543,
 			"wiki": ""
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "5050_001.jpg",
@@ -1941,12 +1781,7 @@
 			"y": 737,
 			"wiki": "https://en.wikipedia.org/wiki/Steaua_Stadium_(2021)"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "12042_001.jpg",
@@ -2021,12 +1856,7 @@
 			"y": 530,
 			"wiki": "https://en.wikipedia.org/wiki/%C8%98tefan_Dobay_Stadium"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "5436_001.jpg",
@@ -2077,12 +1907,7 @@
 			"y": 323,
 			"wiki": "https://en.wikipedia.org/wiki/Unirea_Stadium_(Dej)"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "5445_001.jpg",
@@ -2117,12 +1942,7 @@
 			"y": 335,
 			"wiki": "https://en.wikipedia.org/wiki/Iuliu_Bodola_Stadium"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "11407_001.jpg",
@@ -2181,12 +2001,7 @@
 			"y": 535,
 			"wiki": "https://en.wikipedia.org/wiki/Michael_Klein_Stadium_(1960)"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "5013_001.jpg",
@@ -2245,12 +2060,7 @@
 			"y": 610,
 			"wiki": "https://en.wikipedia.org/wiki/Muscelul_Stadium"
 		},
-		"league": {
-			"api_football_id": 284,
-			"name": "Liga II",
-			"country": "Romania",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19434_001.jpg",

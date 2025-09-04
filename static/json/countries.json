@@ -3,324 +3,392 @@
         "name": "Albania",
         "slug": "albania",
         "image": "albania.png",
-        "index": 0
+        "index": 0,
+        "uefa_ranking": 44
     },
     {
         "name": "Armenia",
         "slug": "armenia",
         "image": "armenia.png",
-        "index": 1
+        "index": 1,
+        "uefa_ranking": 35
     },
     {
         "name": "Austria",
         "slug": "austria",
         "image": "austria.png",
-        "index": 2
+        "index": 2,
+        "uefa_ranking": 15
     },
     {
         "name": "Azerbaijan",
         "slug": "azerbaijan",
         "image": "azerbaijan.png",
-        "index": 3
+        "index": 3,
+        "uefa_ranking": 26
     },
     {
         "name": "Belarus",
         "slug": "belarus",
         "image": "belarus.png",
-        "index": 4
+        "index": 4,
+        "uefa_ranking": 48
     },
     {
         "name": "Belgium",
         "slug": "belgium",
         "image": "belgium.png",
-        "index": 5
+        "index": 5,
+        "uefa_ranking": 8
     },
     {
         "name": "Bosnia and Herzegovina",
         "slug": "bosnia_and_herzegovina",
         "image": "bosnia_and_herzegovina.png",
-        "index": 6
+        "index": 6,
+        "uefa_ranking": 39
     },
     {
         "name": "Bulgaria",
         "slug": "bulgaria",
         "image": "bulgaria.png",
-        "index": 7
+        "index": 7,
+        "uefa_ranking": 29
     },
     {
         "name": "Croatia",
         "slug": "croatia",
         "image": "croatia.png",
-        "index": 8
+        "index": 8,
+        "uefa_ranking": 22
     },
     {
         "name": "Cyprus",
         "slug": "cyprus",
         "image": "cyprus.png",
-        "index": 9
+        "index": 9,
+        "uefa_ranking": 17
     },
     {
         "name": "Czech Republic",
         "slug": "czech_republic",
         "image": "czech_republic.png",
-        "index": 10
+        "index": 10,
+        "uefa_ranking": 10
     },
     {
         "name": "Denmark",
         "slug": "denmark",
         "image": "denmark.png",
-        "index": 11
+        "index": 11,
+        "uefa_ranking": 14
     },
     {
         "name": "England and Wales",
         "slug": "england_and_wales",
         "image": "england_and_wales.png",
-        "index": 12
+        "index": 12,
+        "uefa_ranking": 1
     },
     {
         "name": "Estonia",
         "slug": "estonia",
         "image": "estonia.png",
-        "index": 13
+        "index": 13,
+        "uefa_ranking": 43
     },
     {
         "name": "Faroe-Islands",
         "slug": "faroe_islands",
         "image": "faroe_islands.png",
-        "index": 14
+        "index": 14,
+        "uefa_ranking": 40
     },
     {
         "name": "Finland",
         "slug": "finland",
         "image": "finland.png",
-        "index": 15
+        "index": 15,
+        "uefa_ranking": 37
     },
     {
         "name": "France",
         "slug": "france",
         "image": "france.png",
-        "index": 16
+        "index": 16,
+        "uefa_ranking": 5
     },
     {
         "name": "Georgia",
         "slug": "georgia",
         "image": "georgia.png",
-        "index": 17
+        "index": 17,
+        "uefa_ranking": 52
     },
     {
         "name": "Germany",
         "slug": "germany",
         "image": "germany.png",
-        "index": 18
+        "index": 18,
+        "uefa_ranking": 4
     },
     {
         "name": "Greece",
         "slug": "greece",
         "image": "greece.png",
-        "index": 19
+        "index": 19,
+        "uefa_ranking": 11
     },
     {
         "name": "Hungary",
         "slug": "hungary",
         "image": "hungary.png",
-        "index": 20
+        "index": 20,
+        "uefa_ranking": 23
     },
     {
         "name": "Iceland",
         "slug": "iceland",
         "image": "iceland.png",
-        "index": 21
+        "index": 21,
+        "uefa_ranking": 32
     },
     {
         "name": "Ireland",
         "slug": "ireland",
         "image": "ireland.png",
-        "index": 22
+        "index": 22,
+        "uefa_ranking": 31
     },
     {
         "name": "Israel",
         "slug": "israel",
         "image": "israel.png",
-        "index": 23
+        "index": 23,
+        "uefa_ranking": 20
     },
     {
         "name": "Italy",
         "slug": "italy",
         "image": "italy.png",
-        "index": 24
+        "index": 24,
+        "uefa_ranking": 2
     },
     {
         "name": "Kazakhstan",
         "slug": "kazakhstan",
         "image": "kazakhstan.png",
-        "index": 25
+        "index": 25,
+        "uefa_ranking": 34
     },
     {
         "name": "Kosovo",
         "slug": "kosovo",
         "image": "kosovo.png",
-        "index": 26
+        "index": 26,
+        "uefa_ranking": 38
     },
     {
         "name": "Latvia",
         "slug": "latvia",
         "image": "latvia.png",
-        "index": 27
+        "index": 27,
+        "uefa_ranking": 36
     },
     {
         "name": "Lithuania",
         "slug": "lithuania",
         "image": "lithuania.png",
-        "index": 28
+        "index": 28,
+        "uefa_ranking": 45
     },
     {
         "name": "Luxembourg",
         "slug": "luxembourg",
         "image": "luxembourg.png",
-        "index": 29
+        "index": 29,
+        "uefa_ranking": 49
     },
     {
         "name": "Macedonia",
         "slug": "macedonia",
         "image": "macedonia.png",
-        "index": 30
+        "index": 30,
+        "uefa_ranking": 51
     },
     {
         "name": "Malta",
         "slug": "malta",
         "image": "malta.png",
-        "index": 31
+        "index": 31,
+        "uefa_ranking": 41
     },
     {
         "name": "Moldova",
         "slug": "moldova",
         "image": "moldova.png",
-        "index": 32
+        "index": 32,
+        "uefa_ranking": 33
     },
     {
         "name": "Montenegro",
         "slug": "montenegro",
         "image": "montenegro.png",
-        "index": 33
+        "index": 33,
+        "uefa_ranking": 50
     },
     {
         "name": "Netherlands",
         "slug": "netherlands",
         "image": "netherlands.png",
-        "index": 34
+        "index": 34,
+        "uefa_ranking": 6
     },
     {
         "name": "Northern Ireland",
         "slug": "northern_ireland",
         "image": "northern_ireland.png",
-        "index": 35
+        "index": 35,
+        "uefa_ranking": 46
     },
     {
         "name": "Norway",
         "slug": "norway",
         "image": "norway.png",
-        "index": 36
+        "index": 36,
+        "uefa_ranking": 12
     },
     {
         "name": "Poland",
         "slug": "poland",
         "image": "poland.png",
-        "index": 37
+        "index": 37,
+        "uefa_ranking": 13
     },
     {
         "name": "Portugal",
         "slug": "portugal",
         "image": "portugal.png",
-        "index": 38
+        "index": 38,
+        "uefa_ranking": 7
     },
     {
         "name": "Romania",
         "slug": "romania",
         "image": "romania.png",
-        "index": 39
+        "index": 39,
+        "uefa_ranking": 21
     },
     {
         "name": "Russia",
         "slug": "russia",
         "image": "russia.png",
-        "index": 40
+        "index": 40,
+        "uefa_ranking": 30
     },
     {
         "name": "Scotland",
         "slug": "scotland",
         "image": "scotland.png",
-        "index": 41
+        "index": 41,
+        "uefa_ranking": 18
     },
     {
         "name": "Serbia",
         "slug": "serbia",
         "image": "serbia.png",
-        "index": 42
+        "index": 42,
+        "uefa_ranking": 24
     },
     {
         "name": "Slovakia",
         "slug": "slovakia",
         "image": "slovakia.png",
-        "index": 43
+        "index": 43,
+        "uefa_ranking": 25
     },
     {
         "name": "Slovenia",
         "slug": "slovenia",
         "image": "slovenia.png",
-        "index": 44
+        "index": 44,
+        "uefa_ranking": 27
     },
     {
         "name": "Spain",
         "slug": "spain",
         "image": "spain.png",
-        "index": 45
+        "index": 45,
+        "uefa_ranking": 3
     },
     {
         "name": "Sweden",
         "slug": "sweden",
         "image": "sweden.png",
-        "index": 46
+        "index": 46,
+        "uefa_ranking": 19
     },
     {
         "name": "Switzerland",
         "slug": "switzerland",
         "image": "switzerland.png",
-        "index": 47
+        "index": 47,
+        "uefa_ranking": 16
     },
     {
         "name": "Türkiye",
         "slug": "turkiye",
         "image": "turkiye.png",
-        "index": 48
+        "index": 48,
+        "uefa_ranking": 9
     },
     {
         "name": "Ukraine",
         "slug": "ukraine",
         "image": "ukraine.png",
-        "index": 49
+        "index": 49,
+        "uefa_ranking": 28
     },
     {
         "name": "Andorra",
         "slug": "andorra",
         "image": "andorra.png",
-        "index": 50
+        "index": 50,
+        "uefa_ranking": 47
     },
     {
         "name": "Monaco",
         "slug": "monaco",
         "image": "monaco.png",
-        "index": 51
+        "index": 51,
+        "uefa_ranking": -1
     },
     {
         "name": "Liechtenstein",
         "slug": "liechtenstein",
         "image": "liechtenstein.png",
-        "index": 52
+        "index": 52,
+        "uefa_ranking": 42
     },
     {
         "name": "San Marino",
         "slug": "san_marino",
         "image": "san_marino.png",
-        "index": 53
+        "index": 53,
+        "uefa_ranking": 55
+    },
+    {
+        "name": "Gibraltar",
+        "slug": "gibraltar",
+        "image": "gibraltar.png",
+        "index": 54,
+        "uefa_ranking": 54
+    },
+    {
+        "name": "Wales",
+        "slug": "wales",
+        "image": "wales.png",
+        "index": 55,
+        "uefa_ranking": 53
     }
 ]
