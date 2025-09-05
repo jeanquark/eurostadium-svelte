@@ -5,7 +5,8 @@
 			"name": "Maribor",
 			"code": "MAR",
 			"country": "Slovenia",
-			"founded": 1960
+			"founded": 1960,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1441,
@@ -44,7 +45,8 @@
 			"name": "NK Domzale",
 			"code": "DOM",
 			"country": "Slovenia",
-			"founded": 1921
+			"founded": 1921,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1440,
@@ -83,7 +85,8 @@
 			"name": "Olimpija Ljubljana",
 			"code": "LJU",
 			"country": "Slovenia",
-			"founded": 1911
+			"founded": 1911,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1442,
@@ -122,7 +125,8 @@
 			"name": "Mura",
 			"code": null,
 			"country": "Slovenia",
-			"founded": 2012
+			"founded": 2012,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3201,
@@ -157,11 +161,52 @@
 	},
 	{
 		"team": {
+			"api_football_id": 4358,
+			"name": "Aluminij",
+			"code": "ALU",
+			"country": "Slovenia",
+			"founded": 1946,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3330,
+			"name": "Športni Park Aluminij",
+			"address": "Kajuhova 16",
+			"city": "Kidričevo",
+			"capacity": 2600,
+			"surface": "grass",
+			"lat": 46.407778,
+			"lng": 15.789722,
+			"x": 750,
+			"y": 387,
+			"wiki": "https://en.wikipedia.org/wiki/Aluminij_Sports_Park"
+		},
+		"league": {
+			"api_football_id": 373,
+			"name": "1. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3330_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 5
+	},
+	{
+		"team": {
 			"api_football_id": 4359,
 			"name": "Bravo",
 			"code": null,
 			"country": "Slovenia",
-			"founded": 2006
+			"founded": 2006,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 11939,
@@ -192,7 +237,7 @@
 				"size": 0
 			}
 		],
-		"no": 5
+		"no": 6
 	},
 	{
 		"team": {
@@ -200,7 +245,8 @@
 			"name": "Celje",
 			"code": "CEL",
 			"country": "Slovenia",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3332,
@@ -231,7 +277,7 @@
 				"size": 0
 			}
 		],
-		"no": 6
+		"no": 7
 	},
 	{
 		"team": {
@@ -239,7 +285,8 @@
 			"name": "Koper",
 			"code": "KOP",
 			"country": "Slovenia",
-			"founded": 1920
+			"founded": 1920,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3346,
@@ -270,45 +317,6 @@
 				"size": 0
 			}
 		],
-		"no": 7
-	},
-	{
-		"team": {
-			"api_football_id": 4376,
-			"name": "Nafta",
-			"code": null,
-			"country": "Slovenia",
-			"founded": 1903
-		},
-		"venue": {
-			"api_football_id": 3348,
-			"name": "Športni park Lendava",
-			"address": "Kolodvorska ul. 7",
-			"city": "Lendava",
-			"capacity": 3020,
-			"surface": "grass",
-			"lat": 46.559444,
-			"lng": 16.450556,
-			"x": 955,
-			"y": 319,
-			"wiki": "https://en.wikipedia.org/wiki/Lendava_Sports_Park"
-		},
-		"league": {
-			"api_football_id": 373,
-			"name": "1. SNL",
-			"country": "Slovenia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "3348_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 8
 	},
 	{
@@ -317,7 +325,8 @@
 			"name": "Radomlje",
 			"code": "RAD",
 			"country": "Slovenia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1440,
@@ -356,7 +365,8 @@
 			"name": "Primorje",
 			"code": null,
 			"country": "Slovenia",
-			"founded": 2011
+			"founded": 2011,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 18694,
@@ -391,50 +401,12 @@
 	},
 	{
 		"team": {
-			"api_football_id": 4358,
-			"name": "Aluminij",
-			"code": "ALU",
-			"country": "Slovenia",
-			"founded": 1946
-		},
-		"venue": {
-			"api_football_id": 3330,
-			"name": "Športni Park Aluminij",
-			"address": "Kajuhova 16",
-			"city": "Kidričevo",
-			"capacity": 2600,
-			"surface": "grass",
-			"lat": 46.407778,
-			"lng": 15.789722,
-			"x": 750,
-			"y": 387,
-			"wiki": "https://en.wikipedia.org/wiki/Aluminij_Sports_Park"
-		},
-		"league": {
-			"api_football_id": 374,
-			"name": "2. SNL",
-			"country": "Slovenia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "3330_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 11
-	},
-	{
-		"team": {
 			"api_football_id": 4361,
 			"name": "Rudar",
 			"code": "VEL",
 			"country": "Slovenia",
-			"founded": 1948
+			"founded": 1948,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3333,
@@ -465,7 +437,7 @@
 				"size": 0
 			}
 		],
-		"no": 12
+		"no": 11
 	},
 	{
 		"team": {
@@ -473,7 +445,8 @@
 			"name": "Tabor Sežana",
 			"code": null,
 			"country": "Slovenia",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3334,
@@ -504,7 +477,7 @@
 				"size": 0
 			}
 		],
-		"no": 13
+		"no": 12
 	},
 	{
 		"team": {
@@ -512,7 +485,8 @@
 			"name": "Triglav",
 			"code": "TRI",
 			"country": "Slovenia",
-			"founded": 1920
+			"founded": 1920,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3335,
@@ -543,7 +517,7 @@
 				"size": 0
 			}
 		],
-		"no": 14
+		"no": 13
 	},
 	{
 		"team": {
@@ -551,7 +525,8 @@
 			"name": "Gorica",
 			"code": "GOR",
 			"country": "Slovenia",
-			"founded": 1947
+			"founded": 1947,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3336,
@@ -582,6 +557,37 @@
 				"size": 0
 			}
 		],
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 4365,
+			"name": "Krško",
+			"code": "KRS",
+			"country": "Slovenia",
+			"founded": 1922,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 3337,
+			"name": "Štadion Matije Gubca",
+			"address": "Cesta Krških žrtev 130a",
+			"city": "Krško",
+			"capacity": 13728,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"images": [],
 		"no": 15
 	},
 	{
@@ -590,7 +596,8 @@
 			"name": "Beltinci",
 			"code": null,
 			"country": "Slovenia",
-			"founded": 2007
+			"founded": 2007,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3338,
@@ -629,7 +636,8 @@
 			"name": "Bilje",
 			"code": null,
 			"country": "Slovenia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3339,
@@ -668,7 +676,8 @@
 			"name": "Dekani",
 			"code": null,
 			"country": "Slovenia",
-			"founded": 1938
+			"founded": 1938,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3342,
@@ -707,7 +716,8 @@
 			"name": "Krka",
 			"code": "KRK",
 			"country": "Slovenia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3347,
@@ -742,24 +752,25 @@
 	},
 	{
 		"team": {
-			"api_football_id": 4377,
-			"name": "NŠ Drava",
+			"api_football_id": 4376,
+			"name": "Nafta",
 			"code": null,
 			"country": "Slovenia",
-			"founded": 2004
+			"founded": 1903,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 3349,
-			"name": "Mestni Štadion",
-			"address": "Čučkova ul. 7",
-			"city": "Ptuj",
-			"capacity": 3200,
+			"api_football_id": 3348,
+			"name": "Športni park Lendava",
+			"address": "Kolodvorska ul. 7",
+			"city": "Lendava",
+			"capacity": 3020,
 			"surface": "grass",
-			"lat": 46.41672,
-			"lng": 15.87561,
-			"x": 777,
-			"y": 383,
-			"wiki": "https://en.wikipedia.org/wiki/Ptuj_City_Stadium"
+			"lat": 46.559444,
+			"lng": 16.450556,
+			"x": 955,
+			"y": 319,
+			"wiki": "https://en.wikipedia.org/wiki/Lendava_Sports_Park"
 		},
 		"league": {
 			"api_football_id": 374,
@@ -769,16 +780,8 @@
 		},
 		"images": [
 			{
-				"name": "3349_001.jpg",
-				"source": "https://sport-ptuj.si/assets/Uploads/Mestni-stadion.JPG",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3349_002.jpg",
-				"source": "https://stadioni.org/media/images/ptuj/mestni-stadion-ptuj/mestni-stadion-ptuj-glavno_02.jpg",
+				"name": "3348_001.jpg",
+				"source": "",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -793,7 +796,8 @@
 			"name": "Ilirija",
 			"code": null,
 			"country": "Slovenia",
-			"founded": 1911
+			"founded": 1911,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3352,
@@ -832,7 +836,8 @@
 			"name": "Bistrica",
 			"code": null,
 			"country": "Slovenia",
-			"founded": 1958
+			"founded": 1958,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 4906,
@@ -867,50 +872,12 @@
 	},
 	{
 		"team": {
-			"api_football_id": 6724,
-			"name": "Tolmin",
-			"code": null,
-			"country": "Slovenia",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 4911,
-			"name": "Stadion Na Brajdi",
-			"address": "Ulica padlih borcev 1D",
-			"city": "Tolmin",
-			"capacity": 3000,
-			"surface": "grass",
-			"lat": 46.180497,
-			"lng": 13.733021,
-			"x": 112,
-			"y": 489,
-			"wiki": ""
-		},
-		"league": {
-			"api_football_id": 374,
-			"name": "2. SNL",
-			"country": "Slovenia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "4911_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 23
-	},
-	{
-		"team": {
 			"api_football_id": 12744,
 			"name": "Brinje-Grosuplje",
 			"code": null,
 			"country": "Slovenia",
-			"founded": 2003
+			"founded": 2003,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 8102,
@@ -941,7 +908,7 @@
 				"size": 0
 			}
 		],
-		"no": 24
+		"no": 23
 	},
 	{
 		"team": {
@@ -949,7 +916,8 @@
 			"name": "Dravinja",
 			"code": null,
 			"country": "Slovenia",
-			"founded": 1934
+			"founded": 1934,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 11410,
@@ -980,6 +948,37 @@
 				"size": 0
 			}
 		],
+		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 19244,
+			"name": "Jesenice",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 1912,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 18725,
+			"name": "Igrišče NK Jesenice",
+			"address": "Ledarska ulica 4",
+			"city": "Jesenice",
+			"capacity": 1500,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 374,
+			"name": "2. SNL",
+			"country": "Slovenia",
+			"api_football_country_id": 0
+		},
+		"images": [],
 		"no": 25
 	},
 	{
@@ -988,7 +987,8 @@
 			"name": "Slovan Ljubljana",
 			"code": null,
 			"country": "Slovenia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 19132,
@@ -1031,6 +1031,82 @@
 	},
 	{
 		"team": {
+			"api_football_id": 4377,
+			"name": "NŠ Drava",
+			"code": null,
+			"country": "Slovenia",
+			"founded": 2004
+		},
+		"venue": {
+			"api_football_id": 3349,
+			"name": "Mestni Štadion",
+			"address": "Čučkova ul. 7",
+			"city": "Ptuj",
+			"capacity": 3200,
+			"surface": "grass",
+			"lat": 46.41672,
+			"lng": 15.87561,
+			"x": 777,
+			"y": 383,
+			"wiki": "https://en.wikipedia.org/wiki/Ptuj_City_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "3349_001.jpg",
+				"source": "https://sport-ptuj.si/assets/Uploads/Mestni-stadion.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3349_002.jpg",
+				"source": "https://stadioni.org/media/images/ptuj/mestni-stadion-ptuj/mestni-stadion-ptuj-glavno_02.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 6724,
+			"name": "Tolmin",
+			"code": null,
+			"country": "Slovenia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 4911,
+			"name": "Stadion Na Brajdi",
+			"address": "Ulica padlih borcev 1D",
+			"city": "Tolmin",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 46.180497,
+			"lng": 13.733021,
+			"x": 112,
+			"y": 489,
+			"wiki": ""
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "4911_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 28
+	},
+	{
+		"team": {
 			"api_football_id": 4379,
 			"name": "Rogaška",
 			"code": null,
@@ -1061,7 +1137,7 @@
 				"size": 0
 			}
 		],
-		"no": 27
+		"no": 29
 	},
 	{
 		"team": {
@@ -1095,6 +1171,6 @@
 				"size": 0
 			}
 		],
-		"no": 28
+		"no": 30
 	}
 ]

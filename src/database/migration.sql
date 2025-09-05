@@ -51,6 +51,7 @@ CREATE TABLE leagues (
   display_order SMALLINT,
   type VARCHAR(255),
   nb_teams SMALLINT,
+  national_level SMALLINT,
   wiki VARCHAR(255),
   inserted_at timestamp with time zone DEFAULT timezone('utc'::text, now()) NOT NULL,
   updated_at timestamp with time zone DEFAULT timezone('utc'::text, now()) NOT NULL,

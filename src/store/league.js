@@ -54,7 +54,7 @@ function createLeagueStore() {
             // this.leagues = array
         },
 
-        async fetchPaginatedLeagues(page = 1, pageSize = 10, sortBy = 'id', sortOrder = 'asc') {
+        async fetchPaginatedLeagues(page = 1, pageSize = 10, sortBy = 'country(uefa_ranking)', sortOrder = 'asc') {
             console.log('[Store] fetchPaginatedLeagues()', page, pageSize, sortBy, sortOrder)
             // const { data, error } = await supabase.from("countries").select(`id, name, image`);
             const from = (page - 1) * pageSize
@@ -62,8 +62,7 @@ function createLeagueStore() {
 
             const { data, error, count } = await supabase
                 .from('leagues')
-                .select('*, country:countries (id, name)', { count: 'exact' })
-                // .order('id', { ascending: true })
+                .select('*, country:countries (id, name, uefa_ranking)', { count: 'exact' })
                 .order(sortBy, { ascending: sortOrder === 'asc' })
                 .range(from, to)
             console.log("[Store] fetchPaginatedLeagues() data: ", data);

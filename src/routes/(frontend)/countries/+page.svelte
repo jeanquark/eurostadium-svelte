@@ -65,6 +65,10 @@
         <br />
         <a href="{base}/">Home page</a>
         <br />
+        <a href="{base}/leagues">Leagues</a>
+        <br />
+        <a href="{base}/teams">Teams</a>
+        <br />
         <br />
     </div>
 </div>
@@ -93,6 +97,7 @@
                             </button>
                         </th>
                         <th>Flag</th>
+                        <th>UEFA ranking</th>
                         <th>Wiki</th>
                         <th>First league</th>
                         <th>Second league</th>
@@ -112,6 +117,7 @@
                                     class="px-1"
                                 /></td
                             >
+                            <td>{country.uefa_ranking}</td>
                             <td>{country.wiki}</td>
                             <td>{country.leagues[0]?.name}</td>
                             <td>{country.leagues[1]?.name}</td>

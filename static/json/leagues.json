@@ -5,7 +5,8 @@
         "api_football_id": 140,
         "country": "Spain",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/La_Liga"
+        "wiki": "https://en.wikipedia.org/wiki/La_Liga",
+        "national_level": 1
     },
     {
         "name": "Segunda Division",
@@ -13,7 +14,8 @@
         "api_football_id": 141,
         "country": "Spain",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Segunda_Divisi%C3%B3n"
+        "wiki": "https://en.wikipedia.org/wiki/Segunda_Divisi%C3%B3n",
+        "national_level": 2
     },
     {
         "name": "Bundesliga",
@@ -21,7 +23,8 @@
         "api_football_id": 78,
         "country": "Germany",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Bundesliga"
+        "wiki": "https://en.wikipedia.org/wiki/Bundesliga",
+        "national_level": 1
     },
     {
         "name": "2. Bundesliga",
@@ -29,7 +32,8 @@
         "api_football_id": 79,
         "country": "Germany",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/2._Bundesliga"
+        "wiki": "https://en.wikipedia.org/wiki/2._Bundesliga",
+        "national_level": 2
     },
     {
         "name": "Ligue 1",
@@ -37,7 +41,8 @@
         "api_football_id": 61,
         "country": "France",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Ligue_1"
+        "wiki": "https://en.wikipedia.org/wiki/Ligue_1",
+        "national_level": 1
     },
     {
         "name": "Ligue 2",
@@ -45,7 +50,8 @@
         "api_football_id": 62,
         "country": "France",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Ligue_2"
+        "wiki": "https://en.wikipedia.org/wiki/Ligue_2",
+        "national_level": 2
     },
     {
         "name": "Super League",
@@ -53,7 +59,8 @@
         "api_football_id": 207,
         "country": "Switzerland",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Swiss_Super_League"
+        "wiki": "https://en.wikipedia.org/wiki/Swiss_Super_League",
+        "national_level": 1
     },
     {
         "name": "Challenge League",
@@ -61,7 +68,8 @@
         "api_football_id": 208,
         "country": "Switzerland",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Swiss_Challenge_League"
+        "wiki": "https://en.wikipedia.org/wiki/Swiss_Challenge_League",
+        "national_level": 2
     },
     {
         "name": "Bundesliga",
@@ -69,7 +77,8 @@
         "api_football_id": 218,
         "country": "Austria",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Austrian_Football_Bundesliga"
+        "wiki": "https://en.wikipedia.org/wiki/Austrian_Football_Bundesliga",
+        "national_level": 1
     },
     {
         "name": "2. Liga",
@@ -77,7 +86,8 @@
         "api_football_id": 219,
         "country": "Austria",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/2._Liga_(Austria)"
+        "wiki": "https://en.wikipedia.org/wiki/2._Liga_(Austria)",
+        "national_level": 2
     },
     {
         "name": "Primeira Liga",
@@ -85,7 +95,8 @@
         "api_football_id": 94,
         "country": "Portugal",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Primeira_Liga"
+        "wiki": "https://en.wikipedia.org/wiki/Primeira_Liga",
+        "national_level": 1
     },
     {
         "name": "Segunda Liga",
@@ -93,7 +104,8 @@
         "api_football_id": 95,
         "country": "Portugal",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Liga_Portugal_2"
+        "wiki": "https://en.wikipedia.org/wiki/Liga_Portugal_2",
+        "national_level": 2
     },
     {
         "name": "Eredivisie",
@@ -101,7 +113,8 @@
         "api_football_id": 88,
         "country": "Netherlands",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Eredivisie"
+        "wiki": "https://en.wikipedia.org/wiki/Eredivisie",
+        "national_level": 1
     },
     {
         "name": "Eerste Divisie",
@@ -109,7 +122,8 @@
         "api_football_id": 89,
         "country": "Netherlands",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Eerste_Divisie"
+        "wiki": "https://en.wikipedia.org/wiki/Eerste_Divisie",
+        "national_level": 2
     },
     {
         "name": "Jupiler Pro League",
@@ -117,7 +131,8 @@
         "api_football_id": 144,
         "country": "Belgium",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Belgian_Pro_League"
+        "wiki": "https://en.wikipedia.org/wiki/Belgian_Pro_League",
+        "national_level": 1
     },
     {
         "name": "Challenger Pro League",
@@ -125,7 +140,8 @@
         "api_football_id": 145,
         "country": "Belgium",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Challenger_Pro_League"
+        "wiki": "https://en.wikipedia.org/wiki/Challenger_Pro_League",
+        "national_level": 2
     },
     {
         "name": "Meistaradeildin",
@@ -133,7 +149,8 @@
         "api_football_id": 367,
         "country": "Faroe-Islands",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Faroe_Islands_Premier_League"
+        "wiki": "https://en.wikipedia.org/wiki/Faroe_Islands_Premier_League",
+        "national_level": 1
     },
     {
         "name": "1. Deild",
@@ -141,7 +158,8 @@
         "api_football_id": 366,
         "country": "Faroe-Islands",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/1._deild"
+        "wiki": "https://en.wikipedia.org/wiki/1._deild",
+        "national_level": 2
     },
     {
         "name": "Superliga",
@@ -149,7 +167,8 @@
         "api_football_id": 119,
         "country": "Denmark",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Danish_Superliga"
+        "wiki": "https://en.wikipedia.org/wiki/Danish_Superliga",
+        "national_level": 1
     },
     {
         "name": "1. Division",
@@ -157,7 +176,8 @@
         "api_football_id": 120,
         "country": "Denmark",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Danish_1st_Division"
+        "wiki": "https://en.wikipedia.org/wiki/Danish_1st_Division",
+        "national_level": 2
     },
     {
         "name": "Eliteserien",
@@ -165,7 +185,8 @@
         "api_football_id": 103,
         "country": "Norway",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Eliteserien"
+        "wiki": "https://en.wikipedia.org/wiki/Eliteserien",
+        "national_level": 1
     },
     {
         "name": "1. Division",
@@ -173,7 +194,8 @@
         "api_football_id": 104,
         "country": "Norway",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Norwegian_First_Division"
+        "wiki": "https://en.wikipedia.org/wiki/Norwegian_First_Division",
+        "national_level": 2
     },
     {
         "name": "Allsvenskan",
@@ -181,7 +203,8 @@
         "api_football_id": 113,
         "country": "Sweden",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Allsvenskan"
+        "wiki": "https://en.wikipedia.org/wiki/Allsvenskan",
+        "national_level": 1
     },
     {
         "name": "Superettan",
@@ -189,7 +212,8 @@
         "api_football_id": 114,
         "country": "Sweden",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Superettan"
+        "wiki": "https://en.wikipedia.org/wiki/Superettan",
+        "national_level": 2
     },
     {
         "name": "Veikkausliiga",
@@ -197,7 +221,8 @@
         "api_football_id": 244,
         "country": "Finland",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Veikkausliiga"
+        "wiki": "https://en.wikipedia.org/wiki/Veikkausliiga",
+        "national_level": 1
     },
     {
         "name": "Ykkönen",
@@ -205,7 +230,8 @@
         "api_football_id": 245,
         "country": "Finland",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Ykk%C3%B6sliiga"
+        "wiki": "https://en.wikipedia.org/wiki/Ykk%C3%B6sliiga",
+        "national_level": 2
     },
     {
         "name": "Ekstraklasa",
@@ -213,7 +239,8 @@
         "api_football_id": 106,
         "country": "Poland",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Ekstraklasa"
+        "wiki": "https://en.wikipedia.org/wiki/Ekstraklasa",
+        "national_level": 1
     },
     {
         "name": "I Liga",
@@ -221,7 +248,8 @@
         "api_football_id": 107,
         "country": "Poland",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/I_liga"
+        "wiki": "https://en.wikipedia.org/wiki/I_liga",
+        "national_level": 2
     },
     {
         "name": "Premier League",
@@ -229,7 +257,8 @@
         "api_football_id": 116,
         "country": "Belarus",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Belarusian_Premier_League"
+        "wiki": "https://en.wikipedia.org/wiki/Belarusian_Premier_League",
+        "national_level": 1
     },
     {
         "name": "First League",
@@ -237,7 +266,8 @@
         "api_football_id": 117,
         "country": "Belarus",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Belarusian_First_League"
+        "wiki": "https://en.wikipedia.org/wiki/Belarusian_First_League",
+        "national_level": 2
     },
     {
         "name": "A Lyga",
@@ -245,7 +275,8 @@
         "api_football_id": 362,
         "country": "Lithuania",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/A_Lyga"
+        "wiki": "https://en.wikipedia.org/wiki/A_Lyga",
+        "national_level": 1
     },
     {
         "name": "I Lyga",
@@ -253,7 +284,8 @@
         "api_football_id": 361,
         "country": "Lithuania",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/I_Lyga"
+        "wiki": "https://en.wikipedia.org/wiki/I_Lyga",
+        "national_level": 2
     },
     {
         "name": "Virsliga",
@@ -261,7 +293,8 @@
         "api_football_id": 365,
         "country": "Latvia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Latvian_Higher_League"
+        "wiki": "https://en.wikipedia.org/wiki/Latvian_Higher_League",
+        "national_level": 1
     },
     {
         "name": "First League",
@@ -269,7 +302,8 @@
         "api_football_id": 364,
         "country": "Latvia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Latvian_First_League"
+        "wiki": "https://en.wikipedia.org/wiki/Latvian_First_League",
+        "national_level": 2
     },
     {
         "name": "Meistriliiga",
@@ -277,7 +311,8 @@
         "api_football_id": 329,
         "country": "Estonia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Meistriliiga"
+        "wiki": "https://en.wikipedia.org/wiki/Meistriliiga",
+        "national_level": 1
     },
     {
         "name": "Esiliiga A",
@@ -285,7 +320,8 @@
         "api_football_id": 328,
         "country": "Estonia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Esiliiga"
+        "wiki": "https://en.wikipedia.org/wiki/Esiliiga",
+        "national_level": 2
     },
     {
         "name": "HNL",
@@ -293,7 +329,8 @@
         "api_football_id": 210,
         "country": "Croatia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Croatian_Football_League"
+        "wiki": "https://en.wikipedia.org/wiki/Croatian_Football_League",
+        "national_level": 1
     },
     {
         "name": "First NL",
@@ -301,7 +338,8 @@
         "api_football_id": 211,
         "country": "Croatia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/First_Football_League_(Croatia)"
+        "wiki": "https://en.wikipedia.org/wiki/First_Football_League_(Croatia)",
+        "national_level": 2
     },
     {
         "name": "Super Liga",
@@ -309,7 +347,8 @@
         "api_football_id": 286,
         "country": "Serbia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Serbian_SuperLiga"
+        "wiki": "https://en.wikipedia.org/wiki/Serbian_SuperLiga",
+        "national_level": 1
     },
     {
         "name": "Prva Liga",
@@ -317,7 +356,8 @@
         "api_football_id": 287,
         "country": "Serbia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Serbian_First_League"
+        "wiki": "https://en.wikipedia.org/wiki/Serbian_First_League",
+        "national_level": 2
     },
     {
         "name": "Premijer Liga",
@@ -325,7 +365,8 @@
         "api_football_id": 315,
         "country": "Bosnia and Herzegovina",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Premier_League_of_Bosnia_and_Herzegovina"
+        "wiki": "https://en.wikipedia.org/wiki/Premier_League_of_Bosnia_and_Herzegovina",
+        "national_level": 1
     },
     {
         "name": "1st League - FBiH",
@@ -333,7 +374,8 @@
         "api_football_id": 316,
         "country": "Bosnia and Herzegovina",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/First_League_of_the_Federation_of_Bosnia_and_Herzegovina"
+        "wiki": "https://en.wikipedia.org/wiki/First_League_of_the_Federation_of_Bosnia_and_Herzegovina",
+        "national_level": 2
     },
     {
         "name": "First League",
@@ -341,7 +383,8 @@
         "api_football_id": 355,
         "country": "Montenegro",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Montenegrin_First_League"
+        "wiki": "https://en.wikipedia.org/wiki/Montenegrin_First_League",
+        "national_level": 1
     },
     {
         "name": "Second League",
@@ -349,7 +392,8 @@
         "api_football_id": 356,
         "country": "Montenegro",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Montenegrin_Second_League"
+        "wiki": "https://en.wikipedia.org/wiki/Montenegrin_Second_League",
+        "national_level": 2
     },
     {
         "name": "Superliga",
@@ -357,7 +401,8 @@
         "api_football_id": 310,
         "country": "Albania",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Kategoria_Superiore"
+        "wiki": "https://en.wikipedia.org/wiki/Kategoria_Superiore",
+        "national_level": 1
     },
     {
         "name": "1st Division",
@@ -365,7 +410,8 @@
         "api_football_id": 311,
         "country": "Albania",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Kategoria_e_Par%C3%AB"
+        "wiki": "https://en.wikipedia.org/wiki/Kategoria_e_Par%C3%AB",
+        "national_level": 2
     },
     {
         "name": "Superliga",
@@ -373,7 +419,8 @@
         "api_football_id": 664,
         "country": "Kosovo",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Football_Superleague_of_Kosovo"
+        "wiki": "https://en.wikipedia.org/wiki/Football_Superleague_of_Kosovo",
+        "national_level": 1
     },
     {
         "name": "First League",
@@ -381,7 +428,8 @@
         "api_football_id": 371,
         "country": "Macedonia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Macedonian_First_Football_League"
+        "wiki": "https://en.wikipedia.org/wiki/Macedonian_First_Football_League",
+        "national_level": 1
     },
     {
         "name": "Second League",
@@ -389,7 +437,8 @@
         "api_football_id": 372,
         "country": "Macedonia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Macedonian_Second_Football_League"
+        "wiki": "https://en.wikipedia.org/wiki/Macedonian_Second_Football_League",
+        "national_level": 2
     },
     {
         "name": "Erovnuli Liga",
@@ -397,7 +446,8 @@
         "api_football_id": 327,
         "country": "Georgia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Erovnuli_Liga"
+        "wiki": "https://en.wikipedia.org/wiki/Erovnuli_Liga",
+        "national_level": 1
     },
     {
         "name": "Erovnuli Liga 2",
@@ -405,7 +455,8 @@
         "api_football_id": 326,
         "country": "Georgia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Erovnuli_Liga_2"
+        "wiki": "https://en.wikipedia.org/wiki/Erovnuli_Liga_2",
+        "national_level": 2
     },
     {
         "name": "Premier League",
@@ -413,7 +464,8 @@
         "api_football_id": 342,
         "country": "Armenia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Armenian_Premier_League"
+        "wiki": "https://en.wikipedia.org/wiki/Armenian_Premier_League",
+        "national_level": 1
     },
     {
         "name": "First League",
@@ -421,7 +473,8 @@
         "api_football_id": 343,
         "country": "Armenia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Armenian_First_League"
+        "wiki": "https://en.wikipedia.org/wiki/Armenian_First_League",
+        "national_level": 2
     },
     {
         "name": "Premyer Liqa",
@@ -429,7 +482,8 @@
         "api_football_id": 419,
         "country": "Azerbaijan",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Azerbaijan_Premier_League"
+        "wiki": "https://en.wikipedia.org/wiki/Azerbaijan_Premier_League",
+        "national_level": 1
     },
     {
         "name": "Birinci Dasta",
@@ -437,7 +491,8 @@
         "api_football_id": 418,
         "country": "Azerbaijan",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Azerbaijan_First_League"
+        "wiki": "https://en.wikipedia.org/wiki/Azerbaijan_First_League",
+        "national_level": 2
     },
     {
         "name": "Premier League",
@@ -445,7 +500,8 @@
         "api_football_id": 389,
         "country": "Kazakhstan",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Kazakhstan_Premier_League"
+        "wiki": "https://en.wikipedia.org/wiki/Kazakhstan_Premier_League",
+        "national_level": 1
     },
     {
         "name": "1. Division",
@@ -453,7 +509,8 @@
         "api_football_id": 388,
         "country": "Kazakhstan",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Kazakhstan_First_League"
+        "wiki": "https://en.wikipedia.org/wiki/Kazakhstan_First_League",
+        "national_level": 2
     },
     {
         "name": "Premier League",
@@ -461,7 +518,8 @@
         "api_football_id": 235,
         "country": "Russia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Russian_Premier_League"
+        "wiki": "https://en.wikipedia.org/wiki/Russian_Premier_League",
+        "national_level": 1
     },
     {
         "name": "First League",
@@ -469,7 +527,8 @@
         "api_football_id": 236,
         "country": "Russia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Russian_First_League"
+        "wiki": "https://en.wikipedia.org/wiki/Russian_First_League",
+        "national_level": 2
     },
     {
         "name": "Liga I",
@@ -477,7 +536,8 @@
         "api_football_id": 283,
         "country": "Romania",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Liga_I"
+        "wiki": "https://en.wikipedia.org/wiki/Liga_I",
+        "national_level": 1
     },
     {
         "name": "Liga II",
@@ -485,7 +545,8 @@
         "api_football_id": 284,
         "country": "Romania",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Liga_II"
+        "wiki": "https://en.wikipedia.org/wiki/Liga_II",
+        "national_level": 2
     },
     {
         "name": "Super Liga",
@@ -493,7 +554,8 @@
         "api_football_id": 394,
         "country": "Moldova",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Moldovan_Super_Liga"
+        "wiki": "https://en.wikipedia.org/wiki/Moldovan_Super_Liga",
+        "national_level": 1
     },
     {
         "name": "Liga 1",
@@ -501,7 +563,8 @@
         "api_football_id": 395,
         "country": "Moldova",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Moldovan_Liga_1"
+        "wiki": "https://en.wikipedia.org/wiki/Moldovan_Liga_1",
+        "national_level": 2
     },
     {
         "name": "First League",
@@ -509,7 +572,8 @@
         "api_football_id": 172,
         "country": "Bulgaria",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/First_Professional_Football_League_(Bulgaria)"
+        "wiki": "https://en.wikipedia.org/wiki/First_Professional_Football_League_(Bulgaria)",
+        "national_level": 1
     },
     {
         "name": "Second League",
@@ -517,7 +581,8 @@
         "api_football_id": 173,
         "country": "Bulgaria",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Second_Professional_Football_League_(Bulgaria)"
+        "wiki": "https://en.wikipedia.org/wiki/Second_Professional_Football_League_(Bulgaria)",
+        "national_level": 2
     },
     {
         "name": "Premier League",
@@ -525,7 +590,8 @@
         "api_football_id": 333,
         "country": "Ukraine",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Ukrainian_Premier_League"
+        "wiki": "https://en.wikipedia.org/wiki/Ukrainian_Premier_League",
+        "national_level": 1
     },
     {
         "name": "Persha Liga",
@@ -533,7 +599,8 @@
         "api_football_id": 334,
         "country": "Ukraine",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Ukrainian_First_League"
+        "wiki": "https://en.wikipedia.org/wiki/Ukrainian_First_League",
+        "national_level": 2
     },
     {
         "name": "Super League 1",
@@ -541,7 +608,8 @@
         "api_football_id": 197,
         "country": "Greece",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Super_League_Greece"
+        "wiki": "https://en.wikipedia.org/wiki/Super_League_Greece",
+        "national_level": 1
     },
     {
         "name": "Super League 2",
@@ -549,7 +617,8 @@
         "api_football_id": 494,
         "country": "Greece",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Super_League_Greece_2"
+        "wiki": "https://en.wikipedia.org/wiki/Super_League_Greece_2",
+        "national_level": 2
     },
     {
         "name": "1. Division",
@@ -557,7 +626,8 @@
         "api_football_id": 318,
         "country": "Cyprus",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Cypriot_First_Division"
+        "wiki": "https://en.wikipedia.org/wiki/Cypriot_First_Division",
+        "national_level": 1
     },
     {
         "name": "2. Division",
@@ -565,7 +635,8 @@
         "api_football_id": 319,
         "country": "Cyprus",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Cypriot_Second_Division"
+        "wiki": "https://en.wikipedia.org/wiki/Cypriot_Second_Division",
+        "national_level": 2
     },
     {
         "name": "Süper Lig",
@@ -573,7 +644,8 @@
         "api_football_id": 203,
         "country": "Türkiye",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/S%C3%BCper_Lig"
+        "wiki": "https://en.wikipedia.org/wiki/S%C3%BCper_Lig",
+        "national_level": 1
     },
     {
         "name": "1. Lig",
@@ -581,7 +653,8 @@
         "api_football_id": 204,
         "country": "Türkiye",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/TFF_First_League"
+        "wiki": "https://en.wikipedia.org/wiki/TFF_First_League",
+        "national_level": 2
     },
     {
         "name": "Premier League",
@@ -589,7 +662,8 @@
         "api_football_id": 393,
         "country": "Malta",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Maltese_Premier_League"
+        "wiki": "https://en.wikipedia.org/wiki/Maltese_Premier_League",
+        "national_level": 1
     },
     {
         "name": "Challenge League",
@@ -597,7 +671,8 @@
         "api_football_id": 392,
         "country": "Malta",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Maltese_Challenge_League"
+        "wiki": "https://en.wikipedia.org/wiki/Maltese_Challenge_League",
+        "national_level": 2
     },
     {
         "name": "Ligat Ha'al",
@@ -605,7 +680,8 @@
         "api_football_id": 383,
         "country": "Israel",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Israeli_Premier_League"
+        "wiki": "https://en.wikipedia.org/wiki/Israeli_Premier_League",
+        "national_level": 1
     },
     {
         "name": "Liga Leumit",
@@ -613,7 +689,8 @@
         "api_football_id": 382,
         "country": "Israel",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Liga_Leumit"
+        "wiki": "https://en.wikipedia.org/wiki/Liga_Leumit",
+        "national_level": 2
     },
     {
         "name": "Czech Liga",
@@ -621,7 +698,8 @@
         "api_football_id": 345,
         "country": "Czech Republic",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Czech_First_League"
+        "wiki": "https://en.wikipedia.org/wiki/Czech_First_League",
+        "national_level": 1
     },
     {
         "name": "FNL",
@@ -629,7 +707,8 @@
         "api_football_id": 346,
         "country": "Czech Republic",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Czech_National_Football_League"
+        "wiki": "https://en.wikipedia.org/wiki/Czech_National_Football_League",
+        "national_level": 2
     },
     {
         "name": "Super Liga",
@@ -637,7 +716,8 @@
         "api_football_id": 332,
         "country": "Slovakia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Slovak_First_Football_League"
+        "wiki": "https://en.wikipedia.org/wiki/Slovak_First_Football_League",
+        "national_level": 1
     },
     {
         "name": "2. liga",
@@ -645,7 +725,8 @@
         "api_football_id": 506,
         "country": "Slovakia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/2._Liga_(Slovakia)"
+        "wiki": "https://en.wikipedia.org/wiki/2._Liga_(Slovakia)",
+        "national_level": 2
     },
     {
         "name": "1. SNL",
@@ -653,7 +734,8 @@
         "api_football_id": 373,
         "country": "Slovenia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Slovenian_PrvaLiga"
+        "wiki": "https://en.wikipedia.org/wiki/Slovenian_PrvaLiga",
+        "national_level": 1
     },
     {
         "name": "2. SNL",
@@ -661,7 +743,8 @@
         "api_football_id": 374,
         "country": "Slovenia",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Slovenian_Second_League"
+        "wiki": "https://en.wikipedia.org/wiki/Slovenian_Second_League",
+        "national_level": 2
     },
     {
         "name": "NB I",
@@ -669,7 +752,8 @@
         "api_football_id": 271,
         "country": "Hungary",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Nemzeti_Bajnoks%C3%A1g_I"
+        "wiki": "https://en.wikipedia.org/wiki/Nemzeti_Bajnoks%C3%A1g_I",
+        "national_level": 1
     },
     {
         "name": "NB II",
@@ -677,7 +761,8 @@
         "api_football_id": 272,
         "country": "Hungary",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Nemzeti_Bajnoks%C3%A1g_II"
+        "wiki": "https://en.wikipedia.org/wiki/Nemzeti_Bajnoks%C3%A1g_II",
+        "national_level": 2
     },
     {
         "name": "Úrvalsdeild",
@@ -685,7 +770,8 @@
         "api_football_id": 164,
         "country": "Iceland",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Besta_deild_karla"
+        "wiki": "https://en.wikipedia.org/wiki/Besta_deild_karla",
+        "national_level": 1
     },
     {
         "name": "1. Deild",
@@ -693,7 +779,8 @@
         "api_football_id": 165,
         "country": "Iceland",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/1._deild_karla_(football)"
+        "wiki": "https://en.wikipedia.org/wiki/1._deild_karla_(football)",
+        "national_level": 2
     },
     {
         "name": "Serie A",
@@ -701,7 +788,8 @@
         "api_football_id": 135,
         "country": "Italy",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Serie_A"
+        "wiki": "https://en.wikipedia.org/wiki/Serie_A",
+        "national_level": 1
     },
     {
         "name": "Serie B",
@@ -709,7 +797,8 @@
         "api_football_id": 136,
         "country": "Italy",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Serie_B"
+        "wiki": "https://en.wikipedia.org/wiki/Serie_B",
+        "national_level": 2
     },
     {
         "name": "Premier Division",
@@ -717,7 +806,8 @@
         "api_football_id": 357,
         "country": "Ireland",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/League_of_Ireland_Premier_Division"
+        "wiki": "https://en.wikipedia.org/wiki/League_of_Ireland_Premier_Division",
+        "national_level": 1
     },
     {
         "name": "First Division",
@@ -725,7 +815,8 @@
         "api_football_id": 358,
         "country": "Ireland",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/League_of_Ireland_First_Division"
+        "wiki": "https://en.wikipedia.org/wiki/League_of_Ireland_First_Division",
+        "national_level": 2
     },
     {
         "name": "Premiership",
@@ -733,7 +824,8 @@
         "api_football_id": 408,
         "country": "Northern Ireland",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Northern_Ireland_Football_League"
+        "wiki": "https://en.wikipedia.org/wiki/Northern_Ireland_Football_League",
+        "national_level": 1
     },
     {
         "name": "Championship",
@@ -741,7 +833,8 @@
         "api_football_id": 407,
         "country": "Northern Ireland",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/NIFL_Championship"
+        "wiki": "https://en.wikipedia.org/wiki/NIFL_Championship",
+        "national_level": 2
     },
     {
         "name": "Premiership",
@@ -749,7 +842,8 @@
         "api_football_id": 179,
         "country": "Scotland",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+        "wiki": "https://en.wikipedia.org/wiki/Scottish_Premiership",
+        "national_level": 1
     },
     {
         "name": "Championship",
@@ -757,7 +851,8 @@
         "api_football_id": 180,
         "country": "Scotland",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Scottish_Championship"
+        "wiki": "https://en.wikipedia.org/wiki/Scottish_Championship",
+        "national_level": 2
     },
     {
         "name": "Premier League",
@@ -765,7 +860,8 @@
         "api_football_id": 39,
         "country": "England and Wales",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Premier_League"
+        "wiki": "https://en.wikipedia.org/wiki/Premier_League",
+        "national_level": 1
     },
     {
         "name": "Championship",
@@ -773,7 +869,8 @@
         "api_football_id": 40,
         "country": "England and Wales",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/EFL_Championship"
+        "wiki": "https://en.wikipedia.org/wiki/EFL_Championship",
+        "national_level": 2
     },
     {
         "name": "National Division",
@@ -781,7 +878,8 @@
         "api_football_id": 261,
         "country": "Luxembourg",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Luxembourg_National_Division"
+        "wiki": "https://en.wikipedia.org/wiki/Luxembourg_National_Division",
+        "national_level": 1
     },
     {
         "name": "Campionato",
@@ -789,6 +887,7 @@
         "api_football_id": 404,
         "country": "San Marino",
         "api_football_country_id": 0,
-        "wiki": "https://en.wikipedia.org/wiki/Campionato_Sammarinese_di_Calcio"
+        "wiki": "https://en.wikipedia.org/wiki/Campionato_Sammarinese_di_Calcio",
+        "national_level": 1
     }
 ]

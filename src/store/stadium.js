@@ -226,44 +226,78 @@ function createStadiumStore() {
                 return entry
             })
         },
-        async fetchStadiumsByCountry2(country) {
-            console.log('[StadiumStore] fetchStadiumsByCountry() country: ', country)
-            const { data, error } = await supabase.from('stadiums').select(`id, name, capacity, x, y, images (id, name, api_football_venue_id, user_id)`).eq('country_id', 1)
-            console.log('data2: ', data)
-            console.log('error: ', error)
-            const array = []
-            for (let i = 0; i < data.length; i++) {
-                array.push(data[i])
+
+        async fetchPaginatedStadiums(page = 1, pageSize = 20, sortBy = 'id', sortOrder = 'asc') {
+            console.log('[Store] fetchPaginatedStadiums()', page, pageSize, sortBy, sortOrder)
+            // const { data, error } = await supabase.from("countries").select(`id, name, image`);
+            const from = (page - 1) * pageSize
+            const to = from + pageSize - 1
+
+            const { data, error, count } = await supabase
+                .from('stadiums')
+                .select('*, teams (id, name), images (*), country: teams (leagues(countries(id, name, image)))', { count: 'exact' })
+                .order(sortBy, { ascending: sortOrder === 'asc' })
+                .range(from, to)
+            // const { data, error, count } = await supabase
+            //     .from('teams_view')
+            //     .select('*', { count: 'exact' })
+            //     .eq('country_name', 'Switzerland')
+            //     // .group('team_id')
+            //     // .order(sortBy, { ascending: sortOrder === 'asc' })
+            //     .range(from, to)
+            console.log("data2: ", data);
+            if (error) {
+                console.log('error: ', error);
             }
-            console.log('array: ', array)
-            // this.stadiums = array
+
+            update((state) => ({
+                ...state, paginatedStadiums: {
+                    data,
+                    totalCount: count,
+                    currentPage: page,
+                    totalPages: Math.ceil(count / pageSize)
+                }
+            }))
         },
-        async fetchStadiumsByCountry3(country) {
-            console.log('[StadiumStore] fetchStadiumsByCountry country: ', country)
 
-            // // 1) Fetch from Firestore
-            // const stadiumsRef = collection(db, `countries/${country}/stadiums`)
-            // const q = query(stadiumsRef, orderBy('venue.capacity', 'asc'))
-            // const querySnapshot = await getDocs(q)
+        // async fetchStadiumsByCountry2(country) {
+        //     console.log('[StadiumStore] fetchStadiumsByCountry() country: ', country)
+        //     const { data, error } = await supabase.from('stadiums').select(`id, name, capacity, x, y, images (id, name, api_football_venue_id, user_id)`).eq('country_id', 1)
+        //     console.log('data2: ', data)
+        //     console.log('error: ', error)
+        //     const array = []
+        //     for (let i = 0; i < data.length; i++) {
+        //         array.push(data[i])
+        //     }
+        //     console.log('array: ', array)
+        //     // this.stadiums = array
+        // },
+        // async fetchStadiumsByCountry3(country) {
+        //     console.log('[StadiumStore] fetchStadiumsByCountry country: ', country)
 
-            // console.log('[Firebase call] StadiumStore querySnapshot: ', querySnapshot)
-            // const array = []
-            // querySnapshot.forEach((doc) => {
-            //     array.push(doc.data())
-            // })
+        //     // // 1) Fetch from Firestore
+        //     // const stadiumsRef = collection(db, `countries/${country}/stadiums`)
+        //     // const q = query(stadiumsRef, orderBy('venue.capacity', 'asc'))
+        //     // const querySnapshot = await getDocs(q)
 
-            // 2) Or fetch from local json file
-            const array = []
-            const response = await fetch(`json/teams/${country}.json`)
-            const data = await response.json()
-            for (let i = 0; i < data.length; i++) {
-                array.push(data[i])
-            }
-            console.log('data: ', data)
-            console.log('array: ', array)
+        //     // console.log('[Firebase call] StadiumStore querySnapshot: ', querySnapshot)
+        //     // const array = []
+        //     // querySnapshot.forEach((doc) => {
+        //     //     array.push(doc.data())
+        //     // })
 
-            this.setStadiums({ [country]: array })
-        },
+        //     // 2) Or fetch from local json file
+        //     const array = []
+        //     const response = await fetch(`json/teams/${country}.json`)
+        //     const data = await response.json()
+        //     for (let i = 0; i < data.length; i++) {
+        //         array.push(data[i])
+        //     }
+        //     console.log('data: ', data)
+        //     console.log('array: ', array)
+
+        //     this.setStadiums({ [country]: array })
+        // },
         setStadiums(entry) {
             const key = Object.keys(entry)[0]
             const value = Object.values(entry)[0]

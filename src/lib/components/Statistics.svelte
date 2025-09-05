@@ -210,7 +210,7 @@
                     alt="Stadium"
                 />
             </p> -->
-            <a href="/countries">
+            <a href="/stadiums">
                 <span style="display: flex; justify-content: center;">
                     <Stadium color="{iconColor}" />
                 </span>

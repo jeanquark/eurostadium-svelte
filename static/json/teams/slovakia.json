@@ -5,7 +5,8 @@
 			"name": "AS Trencin",
 			"code": "TRE",
 			"country": "Slovakia",
-			"founded": 1943
+			"founded": 1943,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1439,
@@ -44,7 +45,8 @@
 			"name": "Slovan Bratislava",
 			"code": "SLO",
 			"country": "Slovakia",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 11914,
@@ -83,7 +85,8 @@
 			"name": "Spartak Trnava",
 			"code": "TRN",
 			"country": "Slovakia",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 11602,
@@ -122,7 +125,8 @@
 			"name": "Dunajska Streda",
 			"code": "STR",
 			"country": "Slovakia",
-			"founded": 1904
+			"founded": 1904,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 1436,
@@ -161,7 +165,8 @@
 			"name": "Podbrezová",
 			"code": "POD",
 			"country": "Slovakia",
-			"founded": 1920
+			"founded": 1920,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2353,
@@ -200,7 +205,8 @@
 			"name": "Ružomberok",
 			"code": "RUZ",
 			"country": "Slovakia",
-			"founded": 1906
+			"founded": 1906,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2354,
@@ -239,7 +245,8 @@
 			"name": "Zemplín Michalovce",
 			"code": "MIC",
 			"country": "Slovakia",
-			"founded": 1911
+			"founded": 1911,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2357,
@@ -278,7 +285,8 @@
 			"name": "Žilina",
 			"code": "ZIL",
 			"country": "Slovakia",
-			"founded": 1908
+			"founded": 1908,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2359,
@@ -313,50 +321,12 @@
 	},
 	{
 		"team": {
-			"api_football_id": 10533,
-			"name": "Dukla Banská Bystrica",
-			"code": null,
-			"country": "Slovakia",
-			"founded": 2017
-		},
-		"venue": {
-			"api_football_id": 7233,
-			"name": "Štadión SNP Štiavničky",
-			"address": "Na Štiavničkách Hutná 3",
-			"city": "Banská Bystrica",
-			"capacity": 9881,
-			"surface": "grass",
-			"lat": 48.731947,
-			"lng": 19.131503,
-			"x": 401,
-			"y": 487,
-			"wiki": "https://en.wikipedia.org/wiki/N%C3%A1rodn%C3%BD_Atletick%C3%BD_%C5%A0tadi%C3%B3n"
-		},
-		"league": {
-			"api_football_id": 332,
-			"name": "Super Liga",
-			"country": "Slovakia",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "7233_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 9
-	},
-	{
-		"team": {
 			"api_football_id": 10534,
 			"name": "FK Košice",
 			"code": null,
 			"country": "Slovakia",
-			"founded": 2018
+			"founded": 2018,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 18644,
@@ -387,7 +357,7 @@
 				"size": 0
 			}
 		],
-		"no": 10
+		"no": 9
 	},
 	{
 		"team": {
@@ -395,7 +365,8 @@
 			"name": "Komárno",
 			"code": null,
 			"country": "Slovakia",
-			"founded": 1900
+			"founded": 1900,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 12114,
@@ -426,7 +397,7 @@
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 10
 	},
 	{
 		"team": {
@@ -434,7 +405,8 @@
 			"name": "Skalica",
 			"code": "SKA",
 			"country": "Slovakia",
-			"founded": 1920
+			"founded": 1920,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 7241,
@@ -465,6 +437,46 @@
 				"size": 0
 			}
 		],
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 10550,
+			"name": "Tatran Prešov",
+			"code": "PRE",
+			"country": "Slovakia",
+			"founded": 1898,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 12117,
+			"name": "Futbalový štadión MŠK TESLA Stropkov",
+			"address": "Matice slovenskej",
+			"city": "Stropkov",
+			"capacity": 2954,
+			"surface": "grass",
+			"lat": 49.198019,
+			"lng": 21.649679,
+			"x": 840,
+			"y": 363,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 332,
+			"name": "Super Liga",
+			"country": "Slovakia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "12117_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 12
 	},
 	{
@@ -473,7 +485,8 @@
 			"name": "Zlaté Moravce",
 			"code": "MOR",
 			"country": "Slovakia",
-			"founded": 1995
+			"founded": 1995,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 11923,
@@ -512,7 +525,8 @@
 			"name": "Pohronie",
 			"code": "POH",
 			"country": "Slovakia",
-			"founded": 2012
+			"founded": 2012,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 3161,
@@ -547,11 +561,52 @@
 	},
 	{
 		"team": {
+			"api_football_id": 10533,
+			"name": "Dukla Banská Bystrica",
+			"code": null,
+			"country": "Slovakia",
+			"founded": 2017,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 7233,
+			"name": "Štadión SNP Štiavničky",
+			"address": "Na Štiavničkách Hutná 3",
+			"city": "Banská Bystrica",
+			"capacity": 9881,
+			"surface": "grass",
+			"lat": 48.731947,
+			"lng": 19.131503,
+			"x": 401,
+			"y": 487,
+			"wiki": "https://en.wikipedia.org/wiki/N%C3%A1rodn%C3%BD_Atletick%C3%BD_%C5%A0tadi%C3%B3n"
+		},
+		"league": {
+			"api_football_id": 506,
+			"name": "2. liga",
+			"country": "Slovakia",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "7233_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
+	},
+	{
+		"team": {
 			"api_football_id": 10536,
 			"name": "Liptovský Mikuláš",
 			"code": "MIK",
 			"country": "Slovakia",
-			"founded": 1934
+			"founded": 1934,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 7236,
@@ -582,7 +637,7 @@
 				"size": 0
 			}
 		],
-		"no": 15
+		"no": 16
 	},
 	{
 		"team": {
@@ -590,7 +645,8 @@
 			"name": "Petržalka",
 			"code": null,
 			"country": "Slovakia",
-			"founded": 2014
+			"founded": 2014,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 7238,
@@ -621,7 +677,7 @@
 				"size": 0
 			}
 		],
-		"no": 16
+		"no": 17
 	},
 	{
 		"team": {
@@ -629,7 +685,8 @@
 			"name": "Púchov",
 			"code": "PUC",
 			"country": "Slovakia",
-			"founded": 1920
+			"founded": 1920,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 7240,
@@ -660,7 +717,7 @@
 				"size": 0
 			}
 		],
-		"no": 17
+		"no": 18
 	},
 	{
 		"team": {
@@ -668,7 +725,8 @@
 			"name": "Slovan Bratislava II",
 			"code": null,
 			"country": "Slovakia",
-			"founded": 1919
+			"founded": 1919,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 7243,
@@ -699,7 +757,7 @@
 				"size": 0
 			}
 		],
-		"no": 18
+		"no": 19
 	},
 	{
 		"team": {
@@ -707,7 +765,8 @@
 			"name": "Šamorín",
 			"code": "SAM",
 			"country": "Slovakia",
-			"founded": 1914
+			"founded": 1914,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 7244,
@@ -738,7 +797,7 @@
 				"size": 0
 			}
 		],
-		"no": 19
+		"no": 20
 	},
 	{
 		"team": {
@@ -746,7 +805,8 @@
 			"name": "Žilina II",
 			"code": null,
 			"country": "Slovakia",
-			"founded": 1908
+			"founded": 1908,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 2359,
@@ -777,27 +837,28 @@
 				"size": 0
 			}
 		],
-		"no": 20
+		"no": 21
 	},
 	{
 		"team": {
-			"api_football_id": 10550,
-			"name": "Tatran Prešov",
-			"code": "PRE",
+			"api_football_id": 10547,
+			"name": "Inter Bratislava",
+			"code": null,
 			"country": "Slovakia",
-			"founded": 1898
+			"founded": 1940,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 12117,
-			"name": "Futbalový štadión MŠK TESLA Stropkov",
-			"address": "Matice slovenskej",
-			"city": "Stropkov",
-			"capacity": 2954,
+			"api_football_id": 11638,
+			"name": "Športový areál OFK",
+			"address": "Športová 740",
+			"city": "Dunajská Lužná",
+			"capacity": 1500,
 			"surface": "grass",
-			"lat": 49.198019,
-			"lng": 21.649679,
-			"x": 840,
-			"y": 363,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {
@@ -806,17 +867,8 @@
 			"country": "Slovakia",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "12117_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 21
+		"images": [],
+		"no": 22
 	},
 	{
 		"team": {
@@ -824,7 +876,8 @@
 			"name": "Lokomotíva Zvolen",
 			"code": null,
 			"country": "Slovakia",
-			"founded": 1902
+			"founded": 1902,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 7249,
@@ -855,7 +908,7 @@
 				"size": 0
 			}
 		],
-		"no": 22
+		"no": 23
 	},
 	{
 		"team": {
@@ -863,7 +916,8 @@
 			"name": "Malženice",
 			"code": null,
 			"country": "Slovakia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 12112,
@@ -894,7 +948,7 @@
 				"size": 0
 			}
 		],
-		"no": 23
+		"no": 24
 	},
 	{
 		"team": {
@@ -902,7 +956,8 @@
 			"name": "Považská Bystrica",
 			"code": null,
 			"country": "Slovakia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 18869,
@@ -933,28 +988,29 @@
 				"size": 0
 			}
 		],
-		"no": 24
+		"no": 25
 	},
 	{
 		"team": {
-			"api_football_id": 14068,
-			"name": "Humenné",
-			"code": "HUM",
+			"api_football_id": 14074,
+			"name": "Slávia TU Košice",
+			"code": null,
 			"country": "Slovakia",
-			"founded": null
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 11982,
-			"name": "Chemlonský štadión",
-			"address": "Chemlonská 1",
-			"city": "Humenné",
-			"capacity": 14750,
+			"api_football_id": 12120,
+			"name": "Štadión TU Watsonova",
+			"address": "Watsonova 4/A, Sever",
+			"city": "Košice",
+			"capacity": 1000,
 			"surface": "grass",
-			"lat": 48.92947,
-			"lng": 21.90511,
-			"x": 884,
-			"y": 435,
-			"wiki": "https://en.wikipedia.org/wiki/%C5%A0tadi%C3%B3n_Humenn%C3%A9"
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
 		},
 		"league": {
 			"api_football_id": 506,
@@ -962,17 +1018,39 @@
 			"country": "Slovakia",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "11982_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 25
+		"images": [],
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 14942,
+			"name": "Baník Lehota p.Vtáčnikom",
+			"code": null,
+			"country": "Slovakia",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 20567,
+			"name": "Futbalový štadión OFK Baník",
+			"address": "Banícka 2",
+			"city": "Lehota pod Vtáčnikom",
+			"capacity": 1800,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 506,
+			"name": "2. liga",
+			"country": "Slovakia",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 27
 	},
 	{
 		"team": {
@@ -980,7 +1058,8 @@
 			"name": "Stará Ľubovňa",
 			"code": null,
 			"country": "Slovakia",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": ""
 		},
 		"venue": {
 			"api_football_id": 18759,
@@ -1019,7 +1098,41 @@
 				"size": 0
 			}
 		],
-		"no": 26
+		"no": 28
+	},
+	{
+		"team": {
+			"api_football_id": 14068,
+			"name": "Humenné",
+			"code": "HUM",
+			"country": "Slovakia",
+			"founded": null
+		},
+		"venue": {
+			"api_football_id": 11982,
+			"name": "Chemlonský štadión",
+			"address": "Chemlonská 1",
+			"city": "Humenné",
+			"capacity": 14750,
+			"surface": "grass",
+			"lat": 48.92947,
+			"lng": 21.90511,
+			"x": 884,
+			"y": 435,
+			"wiki": "https://en.wikipedia.org/wiki/%C5%A0tadi%C3%B3n_Humenn%C3%A9"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "11982_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 29
 	},
 	{
 		"team": {
@@ -1053,7 +1166,7 @@
 				"size": 0
 			}
 		],
-		"no": 27
+		"no": 30
 	},
 	{
 		"team": {
@@ -1087,7 +1200,7 @@
 				"size": 0
 			}
 		],
-		"no": 28
+		"no": 31
 	},
 	{
 		"team": {
@@ -1121,7 +1234,7 @@
 				"size": 0
 			}
 		],
-		"no": 29
+		"no": 32
 	},
 	{
 		"team": {
@@ -1155,6 +1268,6 @@
 				"size": 0
 			}
 		],
-		"no": 30
+		"no": 33
 	}
 ]

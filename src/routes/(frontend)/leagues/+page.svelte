@@ -66,6 +66,9 @@
         <br />
         <a href="{base}/">Home page</a>
         <br />
+        <a href="{base}/countries">Countries</a>
+        <br />
+        <a href="{base}/teams">Teams</a>
         <br />
     </div>
 </div>
@@ -93,7 +96,7 @@
                                 {/if}
                             </button>
                         </th>
-                        <th>Flag</th>
+                        <th>Image</th>
                         <th>Wiki</th>
 						<th>Country</th>
                         <th>Teams</th>
@@ -107,7 +110,7 @@
                             <td>{league.name}</td>
                             <td>
                                 <img
-                                    src="/images/leagues/switzerland/207.png"
+                                    src="{league.image}"
                                     alt={league.name}
                                     height="30"
                                     class="px-1"

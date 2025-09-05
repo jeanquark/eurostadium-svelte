@@ -30,7 +30,7 @@ function createCountryStore() {
             update((state) => ({ ...state, countries: [...array] }))
         },
 
-        async fetchPaginatedCountries(page = 1, pageSize = 10, sortBy = 'name', sortOrder = 'asc') {
+        async fetchPaginatedCountries(page = 1, pageSize = 10, sortBy = 'uefa_ranking', sortOrder = 'asc') {
             console.log('[Store] fetchPaginatedCountries()', page, pageSize, sortBy, sortOrder)
             // const { data, error } = await supabase.from("countries").select(`id, name, image`);
             const from = (page - 1) * pageSize
