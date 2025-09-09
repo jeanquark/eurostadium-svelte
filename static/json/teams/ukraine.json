@@ -5,7 +5,8 @@
 			"name": "Shakhtar Donetsk",
 			"code": "SHA",
 			"country": "Ukraine",
-			"founded": 1936
+			"founded": 1936,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Shakhtar_Donetsk"
 		},
 		"venue": {
 			"api_football_id": 20114,
@@ -29,7 +30,47 @@
 		"images": [
 			{
 				"name": "20114_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kyiv_NSC_Olimpiyskyi_5.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20114_002.jpg",
+				"source": "https://pbs.twimg.com/media/CsYrmT4WgAA0s73?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20114_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Kyiv_NSC_Olimpiyskyi_7.jpg/1200px-Kyiv_NSC_Olimpiyskyi_7.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20114_004.jpg",
+				"source": "https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2020/10/20/2918575-59965468-2560-1440.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20114_005.jpg",
+				"source": "https://staticfanpage.akamaized.net/wp-content/uploads/sites/27/2021/03/stadio-olimpico-kiev-1200x675.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20114_006.jpg",
+				"source": "https://inside-ua.com/files/originals/nsk-olimpiiskyi-3.webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -44,7 +85,8 @@
 			"name": "Dynamo Kyiv",
 			"code": "DIN",
 			"country": "Ukraine",
-			"founded": 1927
+			"founded": 1927,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Dynamo_Kyiv"
 		},
 		"venue": {
 			"api_football_id": 20113,
@@ -68,7 +110,47 @@
 		"images": [
 			{
 				"name": "20113_001.jpg",
-				"source": "",
+				"source": "https://img1.advisor.travel/1314x680px-Lobanovsky_Dynamo_Stadium_26.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20113_002.jpg",
+				"source": "https://fcdynamo.com/img/img/content/pages/9/stadion6-dynamo-23-09-20211.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20113_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/2/27/Lobanovsky_Dynamo_Stadium2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20113_004.jpg",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/cf/fd/f4/photo7jpg.jpg?w=1200&h=-1&s=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20113_005.jpg",
+				"source": "https://pbs.twimg.com/media/EuLhcytXEAIZOnv.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20113_006.jpg",
+				"source": "https://pbs.twimg.com/media/EuLhcyoXAAM2Ebw.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -83,15 +165,16 @@
 			"name": "Zorya Luhansk",
 			"code": "ZOR",
 			"country": "Ukraine",
-			"founded": 1923
+			"founded": 1923,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Zorya_Luhansk"
 		},
 		"venue": {
-			"api_football_id": 20196,
-			"name": "Stadion Livyi Bereh",
-			"address": "vul. Sportyvna 8, Mlynovo",
-			"city": "Kiev",
-			"capacity": 4700,
-			"surface": "artificial turf",
+			"api_football_id": 22335,
+			"name": "Stadion Dynamo im. Valeriy Lobanovskyi",
+			"address": "vul. Hrushevskoho 3",
+			"city": "Kyiv",
+			"capacity": 16873,
+			"surface": "grass",
 			"lat": 50.069148,
 			"lng": 31.450783,
 			"x": 515,
@@ -106,8 +189,48 @@
 		},
 		"images": [
 			{
-				"name": "20196_001.jpg",
-				"source": "",
+				"name": "22335_001.jpg",
+				"source": "https://img1.advisor.travel/1314x680px-Lobanovsky_Dynamo_Stadium_26.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "22335_002.jpg",
+				"source": "https://fcdynamo.com/img/img/content/pages/9/stadion6-dynamo-23-09-20211.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "22335_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/2/27/Lobanovsky_Dynamo_Stadium2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "22335_004.jpg",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/cf/fd/f4/photo7jpg.jpg?w=1200&h=-1&s=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "22335_005.jpg",
+				"source": "https://pbs.twimg.com/media/EuLhcytXEAIZOnv.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "22335_006.jpg",
+				"source": "https://pbs.twimg.com/media/EuLhcyoXAAM2Ebw.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -118,89 +241,12 @@
 	},
 	{
 		"team": {
-			"api_football_id": 1121,
-			"name": "Vorskla Poltava",
-			"code": "VOR",
-			"country": "Ukraine",
-			"founded": 1955
-		},
-		"venue": {
-			"api_football_id": 20115,
-			"name": "Stadion Vorskla im. Oleksiya Butovskoho",
-			"address": "pl. Maydan Nezalezhnosti 16",
-			"city": "Poltava",
-			"capacity": 24795,
-			"surface": "grass",
-			"lat": 49.594833,
-			"lng": 34.549444,
-			"x": 687,
-			"y": 412,
-			"wiki": "https://en.wikipedia.org/wiki/Oleksiy_Butovsky_Vorskla_Stadium"
-		},
-		"league": {
-			"api_football_id": 333,
-			"name": "Premier League",
-			"country": "Ukraine",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "20115_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 4
-	},
-	{
-		"team": {
-			"api_football_id": 3615,
-			"name": "Chornomorets",
-			"code": "ODE",
-			"country": "Ukraine",
-			"founded": 1936
-		},
-		"venue": {
-			"api_football_id": 2418,
-			"name": "Stadion Chornomorets",
-			"address": "vul. Marazliivska",
-			"city": "Odessa",
-			"capacity": 34164,
-			"surface": "grass",
-			"lat": 46.480333,
-			"lng": 30.755417,
-			"x": 477,
-			"y": 669,
-			"wiki": "https://en.wikipedia.org/wiki/Chornomorets_Stadium"
-		},
-		"league": {
-			"api_football_id": 333,
-			"name": "Premier League",
-			"country": "Ukraine",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "2418_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 5
-	},
-	{
-		"team": {
 			"api_football_id": 3617,
 			"name": "Karpaty",
 			"code": "KAR",
 			"country": "Ukraine",
-			"founded": 1963
+			"founded": 1963,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Karpaty_Lviv"
 		},
 		"venue": {
 			"api_football_id": 20119,
@@ -224,14 +270,38 @@
 		"images": [
 			{
 				"name": "20119_001.jpg",
-				"source": "",
+				"source": "https://womensfootball.com.ua/wp-content/uploads/2020/08/stadion-ukraina-lviv.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20119_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Lviv_Ukraina_Stadium12.jpg/1200px-Lviv_Ukraina_Stadium12.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20119_003.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/ukr/stadion_ukraina/stadion_ukraina13.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20119_004.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/ukr/stadion_ukraina/stadion_ukraina14.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 6
+		"no": 4
 	},
 	{
 		"team": {
@@ -239,7 +309,8 @@
 			"name": "Oleksandria",
 			"code": "OLE",
 			"country": "Ukraine",
-			"founded": 1991
+			"founded": 1991,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Oleksandriya"
 		},
 		"venue": {
 			"api_football_id": 20747,
@@ -263,53 +334,38 @@
 		"images": [
 			{
 				"name": "20747_001.jpg",
-				"source": "",
+				"source": "https://upl.ua/glide/uploads/2003/GZwCQryv5RZysJTKa8NVd86II7RD6BpY.jpg?w=1024&h=1024&fit=contain&s=6c3c7794aa432d3057f9d8d77fa25704",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
-			}
-		],
-		"no": 7
-	},
-	{
-		"team": {
-			"api_football_id": 3625,
-			"name": "Inhulets",
-			"code": null,
-			"country": "Ukraine",
-			"founded": 2013
-		},
-		"venue": {
-			"api_football_id": 19774,
-			"name": "Stadion Inhulets",
-			"address": "28301",
-			"city": "Petrove",
-			"capacity": 1900,
-			"surface": "grass",
-			"lat": 48.341,
-			"lng": 33.265194,
-			"x": 615,
-			"y": 517,
-			"wiki": "https://en.wikipedia.org/wiki/Inhulets_Stadium"
-		},
-		"league": {
-			"api_football_id": 333,
-			"name": "Premier League",
-			"country": "Ukraine",
-			"api_football_country_id": 0
-		},
-		"images": [
+			},
 			{
-				"name": "19774_001.jpg",
-				"source": "",
+				"name": "20747_002.jpg",
+				"source": "https://upl.ua/glide/uploads/2003/3j8JpiJ1Gd3KE8Z7Z7xvAc_cLz3-MYGD.jpg?w=1024&h=1024&fit=contain&s=42f872673cfbb1ba15e7f2e62ef875b6",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20747_003.jpg",
+				"source": "https://upl.ua/glide/uploads/2003/vREzoQmRVnq137BLnLddubtLSqHz6bgd.jpg?w=1024&h=1024&fit=contain&s=c0c613b8966889e1a0f4923e5f67d696",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20747_004.jpg",
+				"source": "https://pfl.ua/uploads/2003/8_M96KiJcbKistD9xNNWqRwKEPApy6Xv.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 8
+		"no": 5
 	},
 	{
 		"team": {
@@ -317,7 +373,8 @@
 			"name": "Kolos Kovalivka",
 			"code": null,
 			"country": "Ukraine",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Kolos_Kovalivka"
 		},
 		"venue": {
 			"api_football_id": 20120,
@@ -341,14 +398,38 @@
 		"images": [
 			{
 				"name": "20120_001.jpg",
-				"source": "",
+				"source": "https://koloskovalivka.com/uploads/news/newsitem/2021/09/02/4-0-9-0-9-9.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20120_002.jpg",
+				"source": "https://koloskovalivka.com/uploads/pages/infrastructureitemphoto/2021/04/15/_ras1850.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20120_003.jpg",
+				"source": "https://koloskovalivka.com/uploads/pages/infrastructureitemphoto/2021/04/08/photo_2020-10-04_14-38-39.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20120_004.jpg",
+				"source": "https://www.fundermax.com/Referenzen/Stadium%20SK%20Kolos/1702/image-thumb__1702__lightbox/Fundermax%20Fassade%20Stadium%20IC%20Kolos%20aus%20Max%20Compact%20Exterior%20in%20den%20Dekoren%200427%20und%200923%203.png",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 9
+		"no": 6
 	},
 	{
 		"team": {
@@ -356,15 +437,16 @@
 			"name": "Metalist 1925 Kharkiv",
 			"code": null,
 			"country": "Ukraine",
-			"founded": 2016
+			"founded": 2016,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Metalist_1925_Kharkiv"
 		},
 		"venue": {
-			"api_football_id": 20196,
-			"name": "Stadion Livyi Bereh",
-			"address": "vul. Sportyvna 8, Mlynovo",
-			"city": "Kyiv",
-			"capacity": 4700,
-			"surface": "artificial turf",
+			"api_football_id": 20121,
+			"name": "Stadion Metalist",
+			"address": "vul. Plechanivska 65",
+			"city": "Kharkiv",
+			"capacity": 41307,
+			"surface": "grass",
 			"lat": 50.069148,
 			"lng": 31.450783,
 			"x": 515,
@@ -379,15 +461,55 @@
 		},
 		"images": [
 			{
-				"name": "20196_001.jpg",
-				"source": "",
+				"name": "20121_001.jpg",
+				"source": "https://shakhtar.com/-/media/fcsd/club/infrastructure/metalist/metalistpagestadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20121_002.jpg",
+				"source": "https://shakhtar.com/en/club/infrastructure/~/media/7519e22e2ff545ad92a7509b0f5e4dc0.ashx",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20121_003.jpg",
+				"source": "https://www.stadiumguide.com/wp-content/uploads/metalist_top.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20121_004.jpg",
+				"source": "https://www.mecreeled.com/wp-content/uploads/2022/11/18met2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20121_005.jpg",
+				"source": "https://pbs.twimg.com/media/ExAdHFVXMAEjdxo.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20121_006.jpg",
+				"source": "https://thekharkivtimes.com/wp-content/uploads/2016/09/metalist7.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 10
+		"no": 7
 	},
 	{
 		"team": {
@@ -395,13 +517,14 @@
 			"name": "Obolon'-Brovar",
 			"code": null,
 			"country": "Ukraine",
-			"founded": 2013
+			"founded": 2013,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Obolon_Kyiv"
 		},
 		"venue": {
-			"api_football_id": 20122,
+			"api_football_id": 22339,
 			"name": "Obolon Arena",
 			"address": "vul. Pivnichna 26",
-			"city": "Kiev",
+			"city": "Kyiv",
 			"capacity": 5103,
 			"surface": "grass",
 			"lat": 50.527056,
@@ -419,14 +542,54 @@
 		"images": [
 			{
 				"name": "20122_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Kyiv_Obolon_Arena_2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20122_002.jpg",
+				"source": "https://upl.ua/glide/uploads/1802/hoIfKpEiw90-xRi-iKWOdIX_I-J4W-N1.jpg?w=1024&h=1024&fit=contain&s=937e233c62b26bce1d9042deaf232742",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20122_003.jpg",
+				"source": "https://lh6.googleusercontent.com/proxy/fM8qfSE0TLxrzowJpk3809jLM3t583lujDgvOWu2FcBe7Re4CByTVeaXI8nmTjkFIwGWE86WYO5VbMXHRB0HoQi2088c_LlCuz729teXaZ8qNSjXX1BTy9v0GYdq-Wroq9FZPEyRVZA",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20122_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Kyiv_Obolon_Arena_6.jpg/1024px-Kyiv_Obolon_Arena_6.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20122_005.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Kyiv_Obolon_Arena_5.jpg/1024px-Kyiv_Obolon_Arena_5.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20122_006.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/ukr/obolon_arena/obolon_arena13.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 8
 	},
 	{
 		"team": {
@@ -434,7 +597,8 @@
 			"name": "Ruh Lviv",
 			"code": null,
 			"country": "Ukraine",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Rukh_Lviv"
 		},
 		"venue": {
 			"api_football_id": 20124,
@@ -458,53 +622,54 @@
 		"images": [
 			{
 				"name": "20124_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/E7jV1zVWYAM8DGm.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
-			}
-		],
-		"no": 12
-	},
-	{
-		"team": {
-			"api_football_id": 4658,
-			"name": "Minai",
-			"code": null,
-			"country": "Ukraine",
-			"founded": 2015
-		},
-		"venue": {
-			"api_football_id": 3510,
-			"name": "Stadion Mynai",
-			"address": "Ploshcha Narodna 78",
-			"city": "Mynai",
-			"capacity": 1312,
-			"surface": "grass",
-			"lat": 48.590078,
-			"lng": 22.258165,
-			"x": 7,
-			"y": 496,
-			"wiki": ""
-		},
-		"league": {
-			"api_football_id": 333,
-			"name": "Premier League",
-			"country": "Ukraine",
-			"api_football_country_id": 0
-		},
-		"images": [
+			},
 			{
-				"name": "3510_001.jpg",
-				"source": "",
+				"name": "20124_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/en/8/8b/Lviv_Arena_Lviv_15.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20124_003.jpg",
+				"source": "https://www.xtragrass-hybrid-turf.com/wp-content/uploads/2012/01/XG-Lviv-Arena.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20124_004.jpg",
+				"source": "https://pbs.twimg.com/media/FqDW4UiWwAAdi1g.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20124_005.jpg",
+				"source": "https://www.lvivconvention.com.ua/wp-content/uploads/2014/11/arena_lviv-55-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20124_006.jpg",
+				"source": "https://i.pinimg.com/originals/25/5c/fb/255cfbbdc664be3a67a9b48e9123e3a1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 13
+		"no": 9
 	},
 	{
 		"team": {
@@ -512,14 +677,15 @@
 			"name": "Kryvbas KR",
 			"code": null,
 			"country": "Ukraine",
-			"founded": 2001
+			"founded": 2001,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Kryvbas_Kryvyi_Rih"
 		},
 		"venue": {
-			"api_football_id": 11947,
-			"name": "Stadion SK Hirnyk",
-			"address": "vul. Svitlohirs&apos;ka",
-			"city": "Krivoj Rog",
-			"capacity": 2500,
+			"api_football_id": 22336,
+			"name": "Stadion Hirnyk",
+			"address": "vul. Kolonkivska 1",
+			"city": "Kryvyi Rih",
+			"capacity": 3219,
 			"surface": "grass",
 			"lat": 47.957915,
 			"lng": 33.406944,
@@ -536,14 +702,22 @@
 		"images": [
 			{
 				"name": "11947_001.jpg",
-				"source": "",
+				"source": "https://fckryvbas.com/storage/2023-10/d4s-0943-1696280843bD7ZL.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11947_002.jpg",
+				"source": "https://pbs.twimg.com/media/GopUBCfWkAA5LNN?format=jpg&name=large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 14
+		"no": 10
 	},
 	{
 		"team": {
@@ -551,7 +725,8 @@
 			"name": "Polessya",
 			"code": null,
 			"country": "Ukraine",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Polissya_Zhytomyr"
 		},
 		"venue": {
 			"api_football_id": 11948,
@@ -575,14 +750,22 @@
 		"images": [
 			{
 				"name": "11948_001.jpg",
-				"source": "",
+				"source": "https://avatars.mds.yandex.net/get-altay/1938795/2a000001761360db6db6d28ad24e93955dd1/orig",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11948_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/ee/210328_%D0%B2%D1%83%D0%BB._%D0%A4%D0%B5%D1%89%D0%B5%D0%BD%D0%BA%D0%B0-%D0%A7%D0%BE%D0%BF%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE%2C_18_%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%BC%D1%96%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%81%D1%82%D0%B0%D0%B4%D1%96%D0%BE%D0%BD_%C2%AB%D0%9F%D0%BE%D0%BB%D1%96%D1%81%D1%81%D1%8F%C2%BB_%28%D0%96%D0%B8%D1%82%D0%BE%D0%BC%D0%B8%D1%80%29.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 15
+		"no": 11
 	},
 	{
 		"team": {
@@ -590,14 +773,15 @@
 			"name": "Veres Rivne",
 			"code": null,
 			"country": "Ukraine",
-			"founded": 2018
+			"founded": 2018,
+			"wiki": "https://en.wikipedia.org/wiki/NK_Veres_Rivne"
 		},
 		"venue": {
 			"api_football_id": 20308,
 			"name": "Stadion Avanhard",
-			"address": "vul. Zamkova 34",
-			"city": "Rivne",
-			"capacity": 13000,
+			"address": "pr. Peremohy 7-A",
+			"city": "Lutsk",
+			"capacity": 12080,
 			"surface": "grass",
 			"lat": 50.616111,
 			"lng": 26.240833,
@@ -614,14 +798,38 @@
 		"images": [
 			{
 				"name": "20308_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Avangard_Stadium%2C_Uzhhorod.jpg/1200px-Avangard_Stadium%2C_Uzhhorod.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20308_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Avangard_Stadium%2C_Lutsk1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20308_003.jpg",
+				"source": "https://www.stadiumguide.com/wp-content/gallery/avanhard/avanhard4.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20308_004.jpg",
+				"source": "https://www.stadiumguide.com/wp-content/uploads/avanhard_top.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 16
+		"no": 12
 	},
 	{
 		"team": {
@@ -629,14 +837,15 @@
 			"name": "Epitsentr Dunayivtsi",
 			"code": null,
 			"country": "Ukraine",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Epitsentr_Kamianets-Podilskyi"
 		},
 		"venue": {
-			"api_football_id": 20140,
-			"name": "Stadion im. H.A. Tonkocheieva",
-			"address": "pr. Hrushevskoho 29",
-			"city": "Kamianets-Podilskyi",
-			"capacity": 5000,
+			"api_football_id": 20125,
+			"name": "Ternopilskyi miskyi stadion im. Romana Shukhevycha",
+			"address": "vul. Stepana Bandery 15",
+			"city": "Ternopil",
+			"capacity": 15150,
 			"surface": "grass",
 			"lat": 48.683191,
 			"lng": 26.585138,
@@ -653,14 +862,30 @@
 		"images": [
 			{
 				"name": "20140_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Kamianets-Podilskyi_Tonkocheiev_Stadium_1.jpg/1200px-Kamianets-Podilskyi_Tonkocheiev_Stadium_1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20140_002.jpg",
+				"source": "https://upl.ua/glide/uploads/2307/58ffx0SUWdZgZ6C7o-RWp0cm3ZC3FFJ3.jpg?w=1024&h=1024&fit=contain&s=2b69905651a7c7c8221f10b33cec2f9a",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20140_003.jpg",
+				"source": "https://upl.ua/glide/uploads/2307/zQG5RmpZ-cvB5G3OFQ0VMbb-ikxZ1Una.jpg?w=1024&h=1024&fit=contain&s=8c91e91443d53587e1ce75ee9c8d965e",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 17
+		"no": 13
 	},
 	{
 		"team": {
@@ -668,7 +893,8 @@
 			"name": "LNZ Cherkasy",
 			"code": null,
 			"country": "Ukraine",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_LNZ_Cherkasy"
 		},
 		"venue": {
 			"api_football_id": 12063,
@@ -692,7 +918,287 @@
 		"images": [
 			{
 				"name": "12063_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/GMK0AQEXEAAr2Rs.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12063_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/5/52/%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%81%D1%82%D0%B0%D0%B4%D1%96%D0%BE%D0%BD_%28%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D0%B8%295.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12063_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Cherkasy_Central_Stadium2.jpg/1200px-Cherkasy_Central_Stadium2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12063_004.jpg",
+				"source": "https://f.discover.ua/location/915/Uv64f.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 17165,
+			"name": "SK Poltava",
+			"code": null,
+			"country": "Ukraine",
+			"founded": 2011,
+			"wiki": "https://en.wikipedia.org/wiki/SC_Poltava"
+		},
+		"venue": {
+			"api_football_id": 22341,
+			"name": "Stadion Zirka im. Stanislava Berezkina",
+			"address": "vul. Haharina 1-A",
+			"city": "Kropyvnytskyi",
+			"capacity": 13305,
+			"surface": "grass",
+			"lat": 49.624611,
+			"lng": 34.533028,
+			"x": 686,
+			"y": 409,
+			"wiki": "https://en.wikipedia.org/wiki/Molodizhnyi_Stadium"
+		},
+		"league": {
+			"api_football_id": 333,
+			"name": "Premier League",
+			"country": "Ukraine",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20004_001.jpg",
+				"source": "https://f.mixsport.pro/photo/6383/gQYaD.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20004_002.jpg",
+				"source": "https://fanday.net/img/news/img60ffabd90c154.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 21953,
+			"name": "Kudrivka",
+			"code": null,
+			"country": "Ukraine",
+			"founded": 1982,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Kudrivka"
+		},
+		"venue": {
+			"api_football_id": 22339,
+			"name": "Obolon Arena",
+			"address": "vul. Pivnichna 26",
+			"city": "Kyiv",
+			"capacity": 5103,
+			"surface": "grass",
+			"lat": 50.527062,
+			"lng": 30.507591,
+			"x": 0,
+			"y": 0,
+			"wiki": "https://en.wikipedia.org/wiki/Obolon_Arena"
+		},
+		"league": {
+			"api_football_id": 333,
+			"name": "Premier League",
+			"country": "Ukraine",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "22339_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Kyiv_Obolon_Arena_6.jpg/1024px-Kyiv_Obolon_Arena_6.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "22339_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Kyiv_Obolon_Arena_8.jpg/1200px-Kyiv_Obolon_Arena_8.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "22339_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kyiv_Obolon_Arena_1.jpg/1200px-Kyiv_Obolon_Arena_1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "22339_004.jpg",
+				"source": "https://lh6.googleusercontent.com/proxy/fM8qfSE0TLxrzowJpk3809jLM3t583lujDgvOWu2FcBe7Re4CByTVeaXI8nmTjkFIwGWE86WYO5VbMXHRB0HoQi2088c_LlCuz729teXaZ8qNSjXX1BTy9v0GYdq-Wroq9FZPEyRVZA",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "22339_005.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/ukr/obolon_arena/obolon_arena09.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "22339_006.jpg",
+				"source": "https://pbs.twimg.com/media/GnNS3baWgAAL3Ow.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 1121,
+			"name": "Vorskla Poltava",
+			"code": "VOR",
+			"country": "Ukraine",
+			"founded": 1955,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Vorskla_Poltava"
+		},
+		"venue": {
+			"api_football_id": 20115,
+			"name": "Stadion Vorskla im. Oleksiya Butovskoho",
+			"address": "pl. Maydan Nezalezhnosti 16",
+			"city": "Poltava",
+			"capacity": 24795,
+			"surface": "grass",
+			"lat": 49.594833,
+			"lng": 34.549444,
+			"x": 687,
+			"y": 412,
+			"wiki": "https://en.wikipedia.org/wiki/Oleksiy_Butovsky_Vorskla_Stadium"
+		},
+		"league": {
+			"api_football_id": 334,
+			"name": "Persha Liga",
+			"country": "Ukraine",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20115_001.jpg",
+				"source": "https://vorskla.com.ua/images/2017/09/12/002_1140.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20115_002.jpg",
+				"source": "https://i.ytimg.com/vi/WbPe1WYHhjw/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 3615,
+			"name": "Chornomorets",
+			"code": "ODE",
+			"country": "Ukraine",
+			"founded": 1936,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Chornomorets_Odesa"
+		},
+		"venue": {
+			"api_football_id": 2418,
+			"name": "Stadion Chornomorets",
+			"address": "vul. Marazliivska",
+			"city": "Odesa",
+			"capacity": 34164,
+			"surface": "grass",
+			"lat": 46.480333,
+			"lng": 30.755417,
+			"x": 477,
+			"y": 669,
+			"wiki": "https://en.wikipedia.org/wiki/Chornomorets_Stadium"
+		},
+		"league": {
+			"api_football_id": 334,
+			"name": "Persha Liga",
+			"country": "Ukraine",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2418_001.jpg",
+				"source": "https://pbs.twimg.com/media/D0qAN8qW0AEmrQY.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2418_002.jpg",
+				"source": "https://www.luoghiparlanti.it/wp-content/uploads/2023/11/ODESA-NATIONAL-ECONOMIC-UNIVERSITY_STADIUM-%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D1%96%D1%8F-%D0%AF%D0%BA%D0%BE%D0%B2%D0%BB%D1%94%D0%B2%D0%B0-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2418_003.jpg",
+				"source": "https://static.kyivpost.com/storage/2023/01/10/7f5b52e6ae4ef25bce6d0e8d0923a761.jpg?w=3840&f=webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2418_004.jpg",
+				"source": "https://www.info-stades.fr/uploads/stades/odessa-stadium-aerial-69624.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2418_005.jpg",
+				"source": "https://img.sportarena.com/2022/11/316863707_1873370412999309_2073733217637520613_n.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2418_006.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Odesa_Chornomorets_Stadium_4.jpg/1200px-Odesa_Chornomorets_Stadium_4.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -703,57 +1209,19 @@
 	},
 	{
 		"team": {
-			"api_football_id": 17162,
-			"name": "Livyi Bereh",
-			"code": null,
-			"country": "Ukraine",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 20196,
-			"name": "Stadion Livyi Bereh",
-			"address": "vul. Sportyvna 8, Mlynovo",
-			"city": "Kiev",
-			"capacity": 4700,
-			"surface": "artificial turf",
-			"lat": 50.069148,
-			"lng": 31.450783,
-			"x": 515,
-			"y": 371,
-			"wiki": ""
-		},
-		"league": {
-			"api_football_id": 333,
-			"name": "Premier League",
-			"country": "Ukraine",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "20196_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 19
-	},
-	{
-		"team": {
 			"api_football_id": 3620,
 			"name": "Ahrobiznes Volochysk",
 			"code": null,
 			"country": "Ukraine",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Ahrobiznes_Volochysk"
 		},
 		"venue": {
 			"api_football_id": 20191,
 			"name": "Stadion Yunist",
 			"address": "vul. Lysenka 2",
 			"city": "Volochysk",
-			"capacity": 4000,
+			"capacity": 2700,
 			"surface": "grass",
 			"lat": 49.539803,
 			"lng": 26.209913,
@@ -770,7 +1238,71 @@
 		"images": [
 			{
 				"name": "20191_001.jpg",
-				"source": "",
+				"source": "https://i.ytimg.com/vi/9Q4_Hmti8v4/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20191_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Chernihiv_Yunist_Stadium_3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20191_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Chernihiv_Yunist_Stadium_2.jpg/2560px-Chernihiv_Yunist_Stadium_2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 3625,
+			"name": "Inhulets",
+			"code": null,
+			"country": "Ukraine",
+			"founded": 2013,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Inhulets_Petrove"
+		},
+		"venue": {
+			"api_football_id": 19774,
+			"name": "Stadion Inhulets",
+			"address": "vul. Zlagody, 11A",
+			"city": "Petrove",
+			"capacity": 1900,
+			"surface": "grass",
+			"lat": 48.341,
+			"lng": 33.265194,
+			"x": 615,
+			"y": 517,
+			"wiki": "https://en.wikipedia.org/wiki/Inhulets_Stadium"
+		},
+		"league": {
+			"api_football_id": 334,
+			"name": "Persha Liga",
+			"country": "Ukraine",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19774_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Volodymyrivka_Oleksandr_Povorozniuk_Stadium_1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19774_002.jpg",
+				"source": "https://sortitoutsidospaces.b-cdn.net/media/p2fx0ubRPVXA8h7JYx5LjRyF4W2cMFNtJkX27YXX.jpg?width=800&height=600",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -781,50 +1313,12 @@
 	},
 	{
 		"team": {
-			"api_football_id": 3628,
-			"name": "Metalist 1925 Kharkiv",
-			"code": null,
-			"country": "Ukraine",
-			"founded": 2016
-		},
-		"venue": {
-			"api_football_id": 20196,
-			"name": "Stadion Livyi Bereh",
-			"address": "vul. Sportyvna 8, Mlynovo",
-			"city": "Kyiv",
-			"capacity": 4700,
-			"surface": "artificial turf",
-			"lat": 50.069148,
-			"lng": 31.450783,
-			"x": 515,
-			"y": 371,
-			"wiki": ""
-		},
-		"league": {
-			"api_football_id": 334,
-			"name": "Persha Liga",
-			"country": "Ukraine",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "20196_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 21
-	},
-	{
-		"team": {
 			"api_football_id": 3631,
 			"name": "Prykarpattia",
 			"code": null,
 			"country": "Ukraine",
-			"founded": 1998
+			"founded": 1998,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Prykarpattia_Ivano-Frankivsk_(1998)"
 		},
 		"venue": {
 			"api_football_id": 20123,
@@ -837,7 +1331,7 @@
 			"lng": 24.696117,
 			"x": 141,
 			"y": 470,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/MCS_Rukh"
 		},
 		"league": {
 			"api_football_id": 334,
@@ -848,53 +1342,22 @@
 		"images": [
 			{
 				"name": "20123_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/8/8c/MCS_Rukh2.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
-			}
-		],
-		"no": 22
-	},
-	{
-		"team": {
-			"api_football_id": 4657,
-			"name": "Kremin'",
-			"code": null,
-			"country": "Ukraine",
-			"founded": 1959
-		},
-		"venue": {
-			"api_football_id": 3509,
-			"name": "Kremin'-Arena im. Olega Babaeva",
-			"address": "vul. Chkalova 6-A",
-			"city": "Kremenchuk",
-			"capacity": 2200,
-			"surface": "artificial turf",
-			"lat": 49.077247,
-			"lng": 33.428628,
-			"x": 625,
-			"y": 455,
-			"wiki": "https://en.wikipedia.org/wiki/Kremin-Arena"
-		},
-		"league": {
-			"api_football_id": 334,
-			"name": "Persha Liga",
-			"country": "Ukraine",
-			"api_football_country_id": 0
-		},
-		"images": [
+			},
 			{
-				"name": "3509_001.jpg",
-				"source": "",
+				"name": "20123_002.jpg",
+				"source": "https://fc.if.ua/assets/images/ckfinder/images/stadion-Ruh.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 23
+		"no": 21
 	},
 	{
 		"team": {
@@ -902,7 +1365,8 @@
 			"name": "Minai",
 			"code": null,
 			"country": "Ukraine",
-			"founded": 2015
+			"founded": 2015,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Mynai"
 		},
 		"venue": {
 			"api_football_id": 3510,
@@ -926,14 +1390,14 @@
 		"images": [
 			{
 				"name": "3510_001.jpg",
-				"source": "",
+				"source": "https://pictures.ua.tribuna.com/image/bea11f0c-fc1b-4afe-b583-bd3f6bed6a43?width=1920&quality=70",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 24
+		"no": 22
 	},
 	{
 		"team": {
@@ -941,7 +1405,8 @@
 			"name": "Metalurh Zaporizhya",
 			"code": "MET",
 			"country": "Ukraine",
-			"founded": 2009
+			"founded": 2009,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Metalurh_Zaporizhzhia"
 		},
 		"venue": {
 			"api_football_id": 1597,
@@ -965,14 +1430,38 @@
 		"images": [
 			{
 				"name": "1597_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/ETJNIL3WAAAabZR.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1597_002.jpg",
+				"source": "https://pbs.twimg.com/media/DlTc9ZIXgAAqz6C.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1597_003.jpg",
+				"source": "https://sport-arenas.ru/images/phocagallery/Europe/ukraine/slavutych-arena-zaporizhia/thumbs/phoca_thumb_l_slavutych-arena-zaporizhia-03.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1597_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Zaporizhia_Slavutych-Arena_9.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 25
+		"no": 23
 	},
 	{
 		"team": {
@@ -980,7 +1469,8 @@
 			"name": "Bukovyna",
 			"code": "BUK",
 			"country": "Ukraine",
-			"founded": 1952
+			"founded": 1952,
+			"wiki": "https://en.wikipedia.org/wiki/FSC_Bukovyna_Chernivtsi"
 		},
 		"venue": {
 			"api_football_id": 4761,
@@ -1004,53 +1494,54 @@
 		"images": [
 			{
 				"name": "4761_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bukovyna_Stadium_2.JPG",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
-			}
-		],
-		"no": 26
-	},
-	{
-		"team": {
-			"api_football_id": 6487,
-			"name": "Dinaz Vyshhorod",
-			"code": null,
-			"country": "Ukraine",
-			"founded": 1999
-		},
-		"venue": {
-			"api_football_id": 12061,
-			"name": "Stadion Dinaz",
-			"address": "ul. Fastova",
-			"city": "Demydiv",
-			"capacity": 2000,
-			"surface": "grass",
-			"lat": 50.725639,
-			"lng": 30.332194,
-			"x": 453,
-			"y": 314,
-			"wiki": "https://en.wikipedia.org/wiki/Dinaz_Stadium"
-		},
-		"league": {
-			"api_football_id": 334,
-			"name": "Persha Liga",
-			"country": "Ukraine",
-			"api_football_country_id": 0
-		},
-		"images": [
+			},
 			{
-				"name": "12061_001.jpg",
-				"source": "",
+				"name": "4761_002.jpg",
+				"source": "https://upl.ua/glide/uploads/2307/cAA6hXthqtm-KXMnwOh79D-SHRYGEICU.jpg?w=1024&h=1024&fit=contain&s=91e1b9807f83e884551b0fbfb47ca305",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4761_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Bukovyna_Stadium_4.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4761_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Bukovyna_Stadium_1.JPG/2560px-Bukovyna_Stadium_1.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4761_005.jpg",
+				"source": "https://luxor.cv.ua/images/Bukov.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4761_006.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/8/84/Bukovyna_Stadium_11.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 27
+		"no": 24
 	},
 	{
 		"team": {
@@ -1058,7 +1549,8 @@
 			"name": "Nyva Ternopil",
 			"code": "NYV",
 			"country": "Ukraine",
-			"founded": 2016
+			"founded": 2016,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Nyva_Ternopil"
 		},
 		"venue": {
 			"api_football_id": 20125,
@@ -1082,14 +1574,30 @@
 		"images": [
 			{
 				"name": "20125_001.jpg",
-				"source": "",
+				"source": "https://estadiosdb.com/pictures/stadiums/ukr/tsentralnyj_ternopil/tsentralnyj_ternopil03.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20125_002.jpg",
+				"source": "https://estadiosdb.com/pictures/stadiums/ukr/tsentralnyj_ternopil/tsentralnyj_ternopil05.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20125_003.jpg",
+				"source": "https://estadiosdb.com/pictures/stadiums/ukr/tsentralnyj_ternopil/tsentralnyj_ternopil06.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 28
+		"no": 25
 	},
 	{
 		"team": {
@@ -1097,7 +1605,8 @@
 			"name": "Podillya Khmelnytskyi",
 			"code": null,
 			"country": "Ukraine",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Podillya_Khmelnytskyi"
 		},
 		"venue": {
 			"api_football_id": 20126,
@@ -1121,14 +1630,38 @@
 		"images": [
 			{
 				"name": "20126_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/d/de/Khmelnytskyi_Podillya_Stadium_1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20126_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/2/22/%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%C2%AB%D0%9F%D0%BE%D0%B4%D1%96%D0%BB%D0%BB%D1%8F%C2%BB_%D0%B7_%D0%B2%D1%96%D0%BA%D0%BD%D0%B0_%D0%B3%D0%BE%D1%82%D0%B5%D0%BB%D1%8E_%D0%9F%D0%BE%D0%B4%D1%96%D0%BB%D0%BB%D1%8F_%D0%B2_%D0%A5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%BE%D0%BC%D1%83.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20126_003.jpg",
+				"source": "https://sortitoutsidospaces.b-cdn.net/media/3IisThnfURCvh0JYsbthhUnte7DhC3EfwaZWPQsZ.jpg?width=800&height=600",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20126_004.jpg",
+				"source": "https://womensfootball.com.ua/wp-content/uploads/2021/09/stadion-podillya-khmelnyckyj.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 29
+		"no": 26
 	},
 	{
 		"team": {
@@ -1136,7 +1669,8 @@
 			"name": "Viktoriya Mykolaivka",
 			"code": null,
 			"country": "Ukraine",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Viktoriya_Sumy"
 		},
 		"venue": {
 			"api_football_id": 20771,
@@ -1160,35 +1694,60 @@
 		"images": [
 			{
 				"name": "20771_001.jpg",
-				"source": "",
+				"source": "https://ukrfootball.ua/wp-content/uploads/UPL/Persha-Druga-Liga/stadion-sumy-yuvileinyi.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20771_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Yuvileinyi_Stadium%2C_Sumy_%282021-07-01%29_02.jpg/1024px-Yuvileinyi_Stadium%2C_Sumy_%282021-07-01%29_02.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20771_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Yuvileinyi_Stadium%2C_Sumy_%282021-07-01%29_06.jpg/1024px-Yuvileinyi_Stadium%2C_Sumy_%282021-07-01%29_06.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20771_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Yuvileiny_Stadium_%28Sumy%29.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 30
+		"no": 27
 	},
 	{
 		"team": {
-			"api_football_id": 14434,
-			"name": "Epitsentr Dunayivtsi",
+			"api_football_id": 14433,
+			"name": "Chernihiv",
 			"code": null,
 			"country": "Ukraine",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Chernihiv"
 		},
 		"venue": {
-			"api_football_id": 20140,
-			"name": "Stadion im. H.A. Tonkocheieva",
-			"address": "pr. Hrushevskoho 29",
-			"city": "Kamianets-Podilskyi",
-			"capacity": 5000,
-			"surface": "grass",
-			"lat": 48.683191,
-			"lng": 26.585138,
-			"x": 246,
-			"y": 489,
-			"wiki": "https://en.wikipedia.org/wiki/Tonkocheyev_Stadium"
+			"api_football_id": 20194,
+			"name": "Stadion Yunist",
+			"address": "pr. Peremohy 110",
+			"city": "Chernihiv",
+			"capacity": 3000,
+			"surface": "artificial turf",
+			"lat": 51.500556,
+			"lng": 31.303056,
+			"x": 507,
+			"y": 246,
+			"wiki": "https://en.wikipedia.org/wiki/Yunist_Stadium_(Chernihiv)"
 		},
 		"league": {
 			"api_football_id": 334,
@@ -1198,15 +1757,23 @@
 		},
 		"images": [
 			{
-				"name": "20140_001.jpg",
-				"source": "",
+				"name": "20194_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Chernihiv_Yunist_Stadium_3.jpg/1200px-Chernihiv_Yunist_Stadium_3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20194_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Chernihiv_Yunist_Stadium_2.jpg/2560px-Chernihiv_Yunist_Stadium_2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 31
+		"no": 28
 	},
 	{
 		"team": {
@@ -1214,7 +1781,8 @@
 			"name": "Metal Kharkiv",
 			"code": null,
 			"country": "Ukraine",
-			"founded": 2020
+			"founded": 2020,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Metalist_Kharkiv"
 		},
 		"venue": {
 			"api_football_id": 10795,
@@ -1238,14 +1806,38 @@
 		"images": [
 			{
 				"name": "10795_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Avangard_Stadium%2C_Uzhhorod.jpg/1200px-Avangard_Stadium%2C_Uzhhorod.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10795_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Uzhhorod_Avanhard_Stadium_6.jpg/1200px-Uzhhorod_Avanhard_Stadium_6.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10795_003.jpg",
+				"source": "https://f.mixsport.pro/photo/22831/Rsp2V.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10795_004.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/ukr/awangard_uzhorod/awangard_uzhorod03.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 32
+		"no": 29
 	},
 	{
 		"team": {
@@ -1253,14 +1845,15 @@
 			"name": "Yarud Mariupol'",
 			"code": null,
 			"country": "Ukraine",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FSC_Mariupol"
 		},
 		"venue": {
-			"api_football_id": 20316,
-			"name": "Stadion Kolos",
-			"address": "vul. Stadionna",
-			"city": "Boryspil",
-			"capacity": 5654,
+			"api_football_id": 22338,
+			"name": "Stadion SKIF",
+			"address": "vul. Cheremshyny 17",
+			"city": "Lviv",
+			"capacity": 3742,
 			"surface": "grass",
 			"lat": 50.354083,
 			"lng": 30.952167,
@@ -1277,7 +1870,207 @@
 		"images": [
 			{
 				"name": "20316_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/8/80/%D0%A1%D1%82%D0%B0%D0%B4%D1%96%D0%BE%D0%BD_%D0%A1%D0%9A%D0%86%D0%A4_%28%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%2C_%D0%B2%D0%B5%D1%80%D0%B5%D1%81%D0%B5%D0%BD%D1%8C_2012%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20316_002.jpg",
+				"source": "https://fcfeniks.org.ua/wp-content/uploads/2025/07/stadion-skif.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20316_003.jpg",
+				"source": "https://www.fclviv.com.ua/wp-content/uploads/IMG_4517-1024x682.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 17162,
+			"name": "Livyi Bereh",
+			"code": null,
+			"country": "Ukraine",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Livyi_Bereh_Kyiv"
+		},
+		"venue": {
+			"api_football_id": 20196,
+			"name": "Stadion Livyi Bereh",
+			"address": "vul. Sportyvna 8, Mlynovo",
+			"city": "Kyiv",
+			"capacity": 4700,
+			"surface": "artificial turf",
+			"lat": 50.069148,
+			"lng": 31.450783,
+			"x": 515,
+			"y": 371,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 334,
+			"name": "Persha Liga",
+			"country": "Ukraine",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20196_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Arena_Livyi_Bereh.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20196_002.jpg",
+				"source": "https://pbs.twimg.com/media/GLccWaOWcAAiG1C.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20196_003.jpg",
+				"source": "https://pbs.twimg.com/media/F9r8GJHWgAELHre.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20196_004.jpg",
+				"source": "https://estadiosdb.com/pictures/stadiums/ukr/arena_livyi_bereh/arena_livyi_bereh11.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20196_005.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/ukr/arena_livyi_bereh/arena_livyi_bereh04.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20196_006.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/ukr/arena_livyi_bereh/arena_livyi_bereh03.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 31
+	},
+	{
+		"team": {
+			"api_football_id": 21957,
+			"name": "UCSA",
+			"code": null,
+			"country": "Ukraine",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_UCSA_Tarasivka"
+		},
+		"venue": {
+			"api_football_id": 21083,
+			"name": "Stadion NTK im. B. M. Bannikova",
+			"address": "per. Laboratornyj 7b",
+			"city": "Kyiv",
+			"capacity": 1945,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 334,
+			"name": "Persha Liga",
+			"country": "Ukraine",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "21083_001.jpg",
+				"source": "https://womensfootball.com.ua/wp-content/uploads/2021/05/ntk-im.-v.-bannikova-kyiv.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "21083_002.jpg",
+				"source": "https://komandaonline.com/media/k2/items/cache/5125272250e1ec89ebd07a44830b204f_XL.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "21083_003.jpg",
+				"source": "https://stadiums.at.ua/_nw/233/39312013.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "21083_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Kyiv_Bannikov_Stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 32
+	},
+	{
+		"team": {
+			"api_football_id": 24568,
+			"name": "Probiy Horodenka",
+			"code": null,
+			"country": "Ukraine",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 22340,
+			"name": "Probiy-Arena",
+			"address": "vul. T.Shevchnko 10",
+			"city": "Horodenka",
+			"capacity": 2500,
+			"surface": "grass",
+			"lat": 48.659167,
+			"lng": 25.507222,
+			"x": 0,
+			"y": 0,
+			"wiki": "https://en.wikipedia.org/wiki/Probiy_Arena"
+		},
+		"league": {
+			"api_football_id": 334,
+			"name": "Persha Liga",
+			"country": "Ukraine",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "22340_001.jpg",
+				"source": "https://nkprobiy.if.ua/wp-content/uploads/2025/08/probiy_arena-1024x683.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1288,34 +2081,30 @@
 	},
 	{
 		"team": {
-			"api_football_id": 17165,
-			"name": "SK Poltava",
+			"api_football_id": 4657,
+			"name": "Kremin'",
 			"code": null,
 			"country": "Ukraine",
-			"founded": 2011
+			"founded": 1959,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Kremin_Kremenchuk"
 		},
 		"venue": {
-			"api_football_id": 20004,
-			"name": "Stadion Molodizhnyy",
-			"address": "Zin&apos;kivs&apos;ka vul., 57",
-			"city": "Poltava",
-			"capacity": 1000,
+			"api_football_id": 3509,
+			"name": "Kremin'-Arena im. Olega Babaeva",
+			"address": "vul. Chkalova 6-A",
+			"city": "Kremenchuk",
+			"capacity": 2200,
 			"surface": "artificial turf",
-			"lat": 49.624611,
-			"lng": 34.533028,
-			"x": 686,
-			"y": 409,
-			"wiki": "https://en.wikipedia.org/wiki/Molodizhnyi_Stadium"
+			"lat": 49.077247,
+			"lng": 33.428628,
+			"x": 625,
+			"y": 455,
+			"wiki": "https://en.wikipedia.org/wiki/Kremin-Arena"
 		},
-		"league": {
-			"api_football_id": 334,
-			"name": "Persha Liga",
-			"country": "Ukraine",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
-				"name": "20004_001.jpg",
+				"name": "3509_001.jpg",
 				"source": "",
 				"owner": "",
 				"width": 0,
@@ -1327,11 +2116,47 @@
 	},
 	{
 		"team": {
+			"api_football_id": 6487,
+			"name": "Dinaz Vyshhorod",
+			"code": null,
+			"country": "Ukraine",
+			"founded": 1999,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Dinaz_Vyshhorod"
+		},
+		"venue": {
+			"api_football_id": 12061,
+			"name": "Stadion Dinaz",
+			"address": "ul. Fastova",
+			"city": "Demydiv",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 50.725639,
+			"lng": 30.332194,
+			"x": 453,
+			"y": 314,
+			"wiki": "https://en.wikipedia.org/wiki/Dinaz_Stadium"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "12061_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 35
+	},
+	{
+		"team": {
 			"api_football_id": 21203,
 			"name": "Khust City",
 			"code": null,
 			"country": "Ukraine",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Khust"
 		},
 		"venue": {
 			"api_football_id": 19984,
@@ -1346,12 +2171,7 @@
 			"y": 531,
 			"wiki": "https://en.wikipedia.org/wiki/Karpaty_Stadium"
 		},
-		"league": {
-			"api_football_id": 334,
-			"name": "Persha Liga",
-			"country": "Ukraine",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19984_001.jpg",
@@ -1362,76 +2182,7 @@
 				"size": 0
 			}
 		],
-		"no": 35
-	},
-	{
-		"team": {
-			"api_football_id": 21953,
-			"name": "Kudrivka",
-			"code": null,
-			"country": "Ukraine",
-			"founded": 1982
-		},
-		"venue": {
-			"api_football_id": null,
-			"name": null,
-			"address": null,
-			"city": null,
-			"capacity": null,
-			"surface": null,
-			"lat": 0,
-			"lng": 0,
-			"x": -1225,
-			"y": 3571,
-			"wiki": ""
-		},
-		"league": {
-			"api_football_id": 334,
-			"name": "Persha Liga",
-			"country": "Ukraine",
-			"api_football_country_id": 0
-		},
-		"images": [],
 		"no": 36
-	},
-	{
-		"team": {
-			"api_football_id": 21957,
-			"name": "UCSA",
-			"code": null,
-			"country": "Ukraine",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": null,
-			"name": null,
-			"address": null,
-			"city": null,
-			"capacity": null,
-			"surface": null,
-			"lat": 0,
-			"lng": 0,
-			"x": -1225,
-			"y": 3571,
-			"wiki": ""
-		},
-		"league": {
-			"api_football_id": 334,
-			"name": "Persha Liga",
-			"country": "Ukraine",
-			"api_football_country_id": 0
-		},
-		"images": [
-			{
-				"name": "",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 37
 	},
 	{
 		"team": {
@@ -1439,7 +2190,8 @@
 			"name": "Dnipro-1",
 			"code": null,
 			"country": "Ukraine",
-			"founded": 2017
+			"founded": 2017,
+			"wiki": "https://en.wikipedia.org/wiki/SC_Dnipro-1"
 		},
 		"venue": {
 			"api_football_id": 20748,
@@ -1465,7 +2217,7 @@
 				"size": 0
 			}
 		],
-		"no": 38
+		"no": 37
 	},
 	{
 		"team": {
@@ -1473,7 +2225,8 @@
 			"name": "Hirnyk-Sport",
 			"code": null,
 			"country": "Ukraine",
-			"founded": 1989
+			"founded": 1989,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Hirnyk-Sport_Horishni_Plavni"
 		},
 		"venue": {
 			"api_football_id": 20192,
@@ -1499,41 +2252,7 @@
 				"size": 0
 			}
 		],
-		"no": 39
-	},
-	{
-		"team": {
-			"api_football_id": 14433,
-			"name": "Chernihiv",
-			"code": null,
-			"country": "Ukraine",
-			"founded": null
-		},
-		"venue": {
-			"api_football_id": 20194,
-			"name": "Stadion Yunist",
-			"address": "pr. Peremohy 110",
-			"city": "Chernihiv",
-			"capacity": 3000,
-			"surface": "artificial turf",
-			"lat": 51.500556,
-			"lng": 31.303056,
-			"x": 507,
-			"y": 246,
-			"wiki": "https://en.wikipedia.org/wiki/Yunist_Stadium_(Chernihiv)"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "20194_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 40
+		"no": 38
 	},
 	{
 		"team": {
@@ -1541,7 +2260,8 @@
 			"name": "Nyva Buzova",
 			"code": null,
 			"country": "Ukraine",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Nyva_Buzova"
 		},
 		"venue": {
 			"api_football_id": 19985,
@@ -1567,7 +2287,7 @@
 				"size": 0
 			}
 		],
-		"no": 41
+		"no": 39
 	},
 	{
 		"team": {
@@ -1575,7 +2295,8 @@
 			"name": "Zvyahel",
 			"code": null,
 			"country": "Ukraine",
-			"founded": 2007
+			"founded": 2007,
+			"wiki": "https://en.wikipedia.org/wiki/PFC_Zviahel"
 		},
 		"venue": {
 			"api_football_id": 19658,
@@ -1601,6 +2322,6 @@
 				"size": 0
 			}
 		],
-		"no": 42
+		"no": 40
 	}
 ]

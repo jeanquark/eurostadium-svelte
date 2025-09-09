@@ -21,12 +21,7 @@
 			"y": 818,
 			"wiki": "https://en.wikipedia.org/wiki/Celtic_Park"
 		},
-		"league": {
-			"api_football_id": 179,
-			"name": "Premiership",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1386_001.jpg",
@@ -117,12 +112,7 @@
 			"y": 801,
 			"wiki": "https://en.wikipedia.org/wiki/Easter_Road"
 		},
-		"league": {
-			"api_football_id": 179,
-			"name": "Premiership",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1394_001.jpg",
@@ -197,12 +187,7 @@
 			"y": 855,
 			"wiki": "https://en.wikipedia.org/wiki/Rugby_Park"
 		},
-		"league": {
-			"api_football_id": 179,
-			"name": "Premiership",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19215_001.jpg",
@@ -269,12 +254,7 @@
 			"y": 818,
 			"wiki": "https://en.wikipedia.org/wiki/St_Mirren_Park"
 		},
-		"league": {
-			"api_football_id": 179,
-			"name": "Premiership",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "11913_001.jpg",
@@ -341,12 +321,7 @@
 			"y": 615,
 			"wiki": "https://en.wikipedia.org/wiki/Pittodrie_Stadium"
 		},
-		"league": {
-			"api_football_id": 179,
-			"name": "Premiership",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1383_001.jpg",
@@ -421,12 +396,7 @@
 			"y": 722,
 			"wiki": "https://en.wikipedia.org/wiki/Dens_Park"
 		},
-		"league": {
-			"api_football_id": 179,
-			"name": "Premiership",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "20420_001.jpg",
@@ -493,12 +463,7 @@
 			"y": 804,
 			"wiki": "https://en.wikipedia.org/wiki/Tynecastle_Park"
 		},
-		"league": {
-			"api_football_id": 179,
-			"name": "Premiership",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1393_001.jpg",
@@ -565,12 +530,7 @@
 			"y": 812,
 			"wiki": "https://en.wikipedia.org/wiki/Almondvale_Stadium"
 		},
-		"league": {
-			"api_football_id": 179,
-			"name": "Premiership",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1397_001.jpg",
@@ -637,12 +597,7 @@
 			"y": 828,
 			"wiki": "https://en.wikipedia.org/wiki/Fir_Park"
 		},
-		"league": {
-			"api_football_id": 179,
-			"name": "Premiership",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1398_001.jpg",
@@ -709,12 +664,7 @@
 			"y": 817,
 			"wiki": "https://en.wikipedia.org/wiki/Ibrox_Stadium"
 		},
-		"league": {
-			"api_football_id": 179,
-			"name": "Premiership",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1401_001.jpg",
@@ -805,12 +755,7 @@
 			"y": 722,
 			"wiki": "https://en.wikipedia.org/wiki/Tannadice_Park"
 		},
-		"league": {
-			"api_football_id": 179,
-			"name": "Premiership",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1388_001.jpg",
@@ -877,12 +822,7 @@
 			"y": 794,
 			"wiki": "https://en.wikipedia.org/wiki/Falkirk_Stadium"
 		},
-		"league": {
-			"api_football_id": 179,
-			"name": "Premiership",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1390_001.jpg",
@@ -949,12 +889,7 @@
 			"y": 732,
 			"wiki": "https://en.wikipedia.org/wiki/McDiarmid_Park"
 		},
-		"league": {
-			"api_football_id": 180,
-			"name": "Championship",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1403_001.jpg",
@@ -1013,12 +948,7 @@
 			"y": 813,
 			"wiki": "https://en.wikipedia.org/wiki/Firhill_Stadium"
 		},
-		"league": {
-			"api_football_id": 180,
-			"name": "Championship",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19938_001.jpg",
@@ -1077,12 +1007,7 @@
 			"y": 545,
 			"wiki": "https://en.wikipedia.org/wiki/Victoria_Park,_Dingwall"
 		},
-		"league": {
-			"api_football_id": 180,
-			"name": "Championship",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1402_001.jpg",
@@ -1141,12 +1066,7 @@
 			"y": 804,
 			"wiki": "https://en.wikipedia.org/wiki/Cappielow"
 		},
-		"league": {
-			"api_football_id": 180,
-			"name": "Championship",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1391_001.jpg",
@@ -1213,12 +1133,7 @@
 			"y": 779,
 			"wiki": "https://en.wikipedia.org/wiki/Stark%27s_Park"
 		},
-		"league": {
-			"api_football_id": 180,
-			"name": "Championship",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2907_001.jpg",
@@ -1293,12 +1208,7 @@
 			"y": 779,
 			"wiki": "https://en.wikipedia.org/wiki/Stark%27s_Park"
 		},
-		"league": {
-			"api_football_id": 180,
-			"name": "Championship",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "1385_001.jpg",
@@ -1357,12 +1267,7 @@
 			"y": 783,
 			"wiki": "https://en.wikipedia.org/wiki/East_End_Park"
 		},
-		"league": {
-			"api_football_id": 180,
-			"name": "Championship",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19936_001.jpg",
@@ -1421,12 +1326,7 @@
 			"y": 710,
 			"wiki": "https://en.wikipedia.org/wiki/Gayfield_Park"
 		},
-		"league": {
-			"api_football_id": 180,
-			"name": "Championship",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "3244_001.jpg",
@@ -1485,12 +1385,7 @@
 			"y": 816,
 			"wiki": "https://en.wikipedia.org/wiki/Excelsior_Stadium"
 		},
-		"league": {
-			"api_football_id": 180,
-			"name": "Championship",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "19749_001.jpg",
@@ -1557,12 +1452,7 @@
 			"y": 821,
 			"wiki": "https://en.wikipedia.org/wiki/Hampden_Park"
 		},
-		"league": {
-			"api_football_id": 180,
-			"name": "Championship",
-			"country": "Scotland",
-			"api_football_country_id": 0
-		},
+		"league": {},
 		"images": [
 			{
 				"name": "2617_001.jpg",

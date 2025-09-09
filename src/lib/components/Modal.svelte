@@ -16,6 +16,7 @@
 
     const formatNumber = (number) => {
         if (number) {
+            return new Intl.NumberFormat().format(number);
             return number
                 .toString()
                 .replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
@@ -47,8 +48,8 @@ a11y_no_noninteractive_element_interactions -->
         <hr />
         <div class="col-12 text-center relative">
             <h2>
-                <span class="text-primary"><b>{data?.stadium?.name}</b></span>,
-                <span class="text-muted">{data?.stadium?.city}</span>
+                <span class="text-primary"><b>{data?.stadium?.name || data.stadium_name}</b></span>,
+                <span class="text-muted">{data?.stadium?.city || data.stadium_city}</span>
                 <!-- <button
                     type="button"
                     class="close-btn"
@@ -57,10 +58,10 @@ a11y_no_noninteractive_element_interactions -->
                 > -->
             </h2>
             <span class="pill">
-                {formatNumber(data?.stadium?.capacity)}
+                {formatNumber(data?.stadium?.capacity || data.stadium_capacity)}
             </span>
         </div>
-        <div class="col-12" style="">
+        <div class="col-12 text-center" style="">
             {#if browser}
                 <SvelteCarousel
                     autoplay={false}
@@ -91,7 +92,7 @@ a11y_no_noninteractive_element_interactions -->
     </div>
     <div class="row align-center mt-0 pt-0" style="padding-top: 0;">
         <div class="col-4 px-5 border-0" style="">
-            <a href={data?.stadium?.wiki} target="_blank">
+            <a href={data?.stadium?.wiki || data.stadium_wiki} target="_blank">
                 Wiki
                 <img
                     src="{base}/images/icons/external-link.svg"
@@ -113,9 +114,14 @@ a11y_no_noninteractive_element_interactions -->
                 <div class="text-center" style="">
                     <a href={team.wiki} target="_blank">
                         <h3>{team.name}</h3>
-                        <img
+                        <!-- <img
                             src="{base}/images/teams/{countrySlug}/{team.api_football_id}.png"
                             width="50%"
+                            alt="Team logo"
+                        /> -->
+                        <img
+                            src="{team.image}"
+                            width="25%"
                             alt="Team logo"
                         />
                     </a>
@@ -142,6 +148,7 @@ a11y_no_noninteractive_element_interactions -->
     }
     dialog {
         /* max-width: 32em; */
+        max-width: 600px;
         border-radius: 0.2em;
         border: none;
         padding: 0;

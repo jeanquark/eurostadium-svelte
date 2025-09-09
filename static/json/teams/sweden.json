@@ -21,7 +21,12 @@
 			"y": 756,
 			"wiki": "https://en.wikipedia.org/wiki/Tele2_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1506_001.jpg",
@@ -96,7 +101,12 @@
 			"y": 756,
 			"wiki": "https://en.wikipedia.org/wiki/Tele2_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1506_001.jpg",
@@ -171,7 +181,12 @@
 			"y": 857,
 			"wiki": "https://en.wikipedia.org/wiki/Gamla_Ullevi"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1509_001.jpg",
@@ -238,7 +253,12 @@
 			"y": 856,
 			"wiki": "https://en.wikipedia.org/wiki/Bravida_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1511_001.jpg",
@@ -297,7 +317,12 @@
 			"y": 719,
 			"wiki": "https://en.wikipedia.org/wiki/Studenternas_IP"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1524_001.jpg",
@@ -356,7 +381,12 @@
 			"y": 751,
 			"wiki": "https://en.wikipedia.org/wiki/Grimsta_IP"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1503_001.jpg",
@@ -415,7 +445,12 @@
 			"y": 855,
 			"wiki": "https://en.wikipedia.org/wiki/Bor%C3%A5s_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1507_001.jpg",
@@ -462,81 +497,6 @@
 	},
 	{
 		"team": {
-			"api_football_id": 374,
-			"name": "Kalmar FF",
-			"code": "KAL",
-			"country": "Sweden",
-			"founded": 1910,
-			"wiki": "https://en.wikipedia.org/wiki/Kalmar_FF"
-		},
-		"venue": {
-			"api_football_id": 1517,
-			"name": "Guldfågeln Arena",
-			"address": "Trångsundsvägen, Bilen",
-			"city": "Kalmar",
-			"capacity": 12182,
-			"surface": "grass",
-			"lat": 56.69123,
-			"lng": 16.31493,
-			"x": 455,
-			"y": 919,
-			"wiki": "https://en.wikipedia.org/wiki/Guldf%C3%A5geln_Arena"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "1517_001.jpg",
-				"source": "https://www.mff.se/app/uploads/2019/08/BB190706SM003-1.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1517_002.jpg",
-				"source": "https://static-cdn.sr.se/images/86/1624176_1200_675.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1517_003.jpg",
-				"source": "https://images.aftonbladet-cdn.se/v2/images/330fadef-bd30-450a-b49d-2c38b18277c7?fit=crop&format=auto&h=1267&q=50&w=1900&s=fa38fc83d1265649455970bb22210146404bf0a0",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1517_004.jpg",
-				"source": "https://metrotherm-se.fra1.cdn.digitaloceanspaces.com/uploads/2021/11/gfa-scaled.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1517_005.jpg",
-				"source": "https://kalmarff.se/app/uploads/2021/06/BB210412SM013.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1517_006.jpg",
-				"source": "https://www.svtstatic.se/image-news/992/1:1/0.16/0.4/23e7615dcf2d8d4fb95c02713b8a8cf61f495b5b0b9dc2b82dc3807ce9e54d9f",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 8
-	},
-	{
-		"team": {
 			"api_football_id": 375,
 			"name": "Malmo FF",
 			"code": "MAL",
@@ -557,7 +517,12 @@
 			"y": 986,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion,_Malm%C3%B6"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1518_001.jpg",
@@ -616,7 +581,7 @@
 				"size": 0
 			}
 		],
-		"no": 9
+		"no": 8
 	},
 	{
 		"team": {
@@ -640,7 +605,12 @@
 			"y": 751,
 			"wiki": "https://en.wikipedia.org/wiki/Strawberry_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1501_001.jpg",
@@ -707,7 +677,7 @@
 				"size": 0
 			}
 		],
-		"no": 10
+		"no": 9
 	},
 	{
 		"team": {
@@ -731,7 +701,12 @@
 			"y": 802,
 			"wiki": "https://en.wikipedia.org/wiki/Nya_Parken"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "11553_001.jpg",
@@ -774,7 +749,7 @@
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 10
 	},
 	{
 		"team": {
@@ -798,7 +773,12 @@
 			"y": 920,
 			"wiki": "https://en.wikipedia.org/wiki/%C3%96rjans_Vall"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1512_001.jpg",
@@ -833,7 +813,7 @@
 				"size": 0
 			}
 		],
-		"no": 12
+		"no": 11
 	},
 	{
 		"team": {
@@ -857,7 +837,12 @@
 			"y": 889,
 			"wiki": "https://en.wikipedia.org/wiki/Finnvedsvallen"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1937_001.jpg",
@@ -876,7 +861,7 @@
 				"size": 0
 			}
 		],
-		"no": 13
+		"no": 12
 	},
 	{
 		"team": {
@@ -900,7 +885,12 @@
 			"y": 857,
 			"wiki": "https://en.wikipedia.org/wiki/Gamla_Ullevi"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1509_001.jpg",
@@ -943,7 +933,135 @@
 				"size": 0
 			}
 		],
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 2172,
+			"name": "Degerfors IF",
+			"code": "DEG",
+			"country": "Sweden",
+			"founded": 1907,
+			"wiki": "https://en.wikipedia.org/wiki/Degerfors_IF"
+		},
+		"venue": {
+			"api_football_id": 1505,
+			"name": "Stora Valla",
+			"address": "Stora Vallavägen 1",
+			"city": "Degerfors",
+			"capacity": 12500,
+			"surface": "grass",
+			"lat": 59.238333,
+			"lng": 14.443056,
+			"x": 392,
+			"y": 759,
+			"wiki": "https://en.wikipedia.org/wiki/Stora_Valla"
+		},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1505_001.jpg",
+				"source": "https://images.squarespace-cdn.com/content/v1/63bff941d9b1226c1347f70a/587c8504-81b7-4ae8-aeb2-b9e64ab834a9/240718+BS+Stora+Valla31.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1505_002.jpg",
+				"source": "https://imengine.public.nwt.infomaker.io/image.php?type=preview&uuid=7cca9399-13c3-50ee-8672-28a98f84612d&function=cropresize&crop_w=0.8&crop_h=0.999999&x=0.06125&y=0.000001&width=3200&height=1800",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1505_003.jpg",
+				"source": "https://ifkgoteborg.se/wp-content/uploads/2022/10/StoraValla.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1505_004.jpg",
+				"source": "https://images.squarespace-cdn.com/content/v1/63bff941d9b1226c1347f70a/cede9c94-1b85-4383-b8f8-2dab37eac219/240718+BS+Stora+Valla21.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 2174,
+			"name": "Osters IF",
+			"code": "OST",
+			"country": "Sweden",
+			"founded": 1930,
+			"wiki": "https://en.wikipedia.org/wiki/%C3%96sters_IF"
+		},
+		"venue": {
+			"api_football_id": 11916,
+			"name": "Visma Arena",
+			"address": "Bollgatan 1",
+			"city": "Växjö",
+			"capacity": 12173,
+			"surface": "grass",
+			"lat": 56.879722,
+			"lng": 14.776389,
+			"x": 403,
+			"y": 908,
+			"wiki": "https://en.wikipedia.org/wiki/Visma_Arena"
+		},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "11916_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/9/9d/MSH_Arena_pano_20120727.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11916_002.jpg",
+				"source": "https://d1da7yrcucvk6m.cloudfront.net/sites/246/media/1168207_original_Visma_Arena_U23.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11916_003.jpg",
+				"source": "https://www.degerforsif.se/wp-content/uploads/2024/03/Visma-arena-exterior.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11916_004.jpg",
+				"source": "https://arkitektbyrandesign.se/wp-content/uploads/2019/10/Myresjohus_Arena_14.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
 	},
 	{
 		"team": {
@@ -967,7 +1085,12 @@
 			"y": 960,
 			"wiki": "https://en.wikipedia.org/wiki/Strandvallen"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 113,
+			"name": "Allsvenskan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1519_001.jpg",
@@ -988,57 +1111,6 @@
 			{
 				"name": "1519_003.jpg",
 				"source": "https://ifkgoteborg.se/wp-content/uploads/2021/10/strandvallen.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 15
-	},
-	{
-		"team": {
-			"api_football_id": 2241,
-			"name": "Vasteras SK FK",
-			"code": "VAS",
-			"country": "Sweden",
-			"founded": 1904,
-			"wiki": "https://en.wikipedia.org/wiki/V%C3%A4ster%C3%A5s_SK_Fotboll"
-		},
-		"venue": {
-			"api_football_id": 19703,
-			"name": "Hitachi Energy Arena",
-			"address": "PONTUS WIDÉNS VÄG 5",
-			"city": "Västerås",
-			"capacity": 8900,
-			"surface": "artificial turf",
-			"lat": 59.627535,
-			"lng": 16.530669,
-			"x": 463,
-			"y": 734,
-			"wiki": "https://en.wikipedia.org/wiki/Hitachi_Energy_Arena"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "19703_001.jpg",
-				"source": "https://static.bonniernews.se/ba/4749a623-b5f6-4679-ac26-661e96772fac.jpeg?width=1400&format=pjpg&auto=webp",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "19703_002.jpg",
-				"source": "https://static.bonniernews.se/ba/4abb56ff-c13d-4f6b-88bf-81bd2d56f288.jpeg?width=1400&format=pjpg&auto=webp",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "19703_003.jpg",
-				"source": "https://static.bonniernews.se/ba/8c7188b0-aa48-4b6b-be15-85a4a7d0798b.jpeg?width=1400&format=pjpg&auto=webp",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1069,7 +1141,12 @@
 			"y": 758,
 			"wiki": "https://en.wikipedia.org/wiki/Eyravallen"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1521_001.jpg",
@@ -1128,7 +1205,12 @@
 			"y": 997,
 			"wiki": "https://en.wikipedia.org/wiki/V%C3%A5ngavallen"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1526_001.jpg",
@@ -1179,7 +1261,12 @@
 			"y": 544,
 			"wiki": "https://en.wikipedia.org/wiki/Idrottsparken_(Sundsvall)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1510_001.jpg",
@@ -1226,6 +1313,86 @@
 	},
 	{
 		"team": {
+			"api_football_id": 374,
+			"name": "Kalmar FF",
+			"code": "KAL",
+			"country": "Sweden",
+			"founded": 1910,
+			"wiki": "https://en.wikipedia.org/wiki/Kalmar_FF"
+		},
+		"venue": {
+			"api_football_id": 1517,
+			"name": "Guldfågeln Arena",
+			"address": "Trångsundsvägen, Bilen",
+			"city": "Kalmar",
+			"capacity": 12182,
+			"surface": "grass",
+			"lat": 56.69123,
+			"lng": 16.31493,
+			"x": 455,
+			"y": 919,
+			"wiki": "https://en.wikipedia.org/wiki/Guldf%C3%A5geln_Arena"
+		},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1517_001.jpg",
+				"source": "https://www.mff.se/app/uploads/2019/08/BB190706SM003-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1517_002.jpg",
+				"source": "https://static-cdn.sr.se/images/86/1624176_1200_675.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1517_003.jpg",
+				"source": "https://images.aftonbladet-cdn.se/v2/images/330fadef-bd30-450a-b49d-2c38b18277c7?fit=crop&format=auto&h=1267&q=50&w=1900&s=fa38fc83d1265649455970bb22210146404bf0a0",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1517_004.jpg",
+				"source": "https://metrotherm-se.fra1.cdn.digitaloceanspaces.com/uploads/2021/11/gfa-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1517_005.jpg",
+				"source": "https://kalmarff.se/app/uploads/2021/06/BB210412SM013.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1517_006.jpg",
+				"source": "https://www.svtstatic.se/image-news/992/1:1/0.16/0.4/23e7615dcf2d8d4fb95c02713b8a8cf61f495b5b0b9dc2b82dc3807ce9e54d9f",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 20
+	},
+	{
+		"team": {
 			"api_football_id": 376,
 			"name": "Ostersunds FK",
 			"code": "OST",
@@ -1246,7 +1413,12 @@
 			"y": 485,
 			"wiki": "https://en.wikipedia.org/wiki/J%C3%A4mtkraft_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1523_001.jpg",
@@ -1289,7 +1461,7 @@
 				"size": 0
 			}
 		],
-		"no": 20
+		"no": 21
 	},
 	{
 		"team": {
@@ -1313,7 +1485,12 @@
 			"y": 958,
 			"wiki": "https://en.wikipedia.org/wiki/Olympia_(Helsingborg)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1513_001.jpg",
@@ -1364,7 +1541,526 @@
 				"size": 0
 			}
 		],
-		"no": 21
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 812,
+			"name": "Falkenbergs FF",
+			"code": "FAL",
+			"country": "Sweden",
+			"founded": 1928,
+			"wiki": "falkenbergs FF"
+		},
+		"venue": {
+			"api_football_id": 1508,
+			"name": "Falcon Alkoholfri Arena",
+			"address": "Kristineslättsallén",
+			"city": "Falkenberg",
+			"capacity": 6214,
+			"surface": "grass",
+			"lat": 56.894,
+			"lng": 12.5115,
+			"x": 327,
+			"y": 907,
+			"wiki": "https://en.wikipedia.org/wiki/Falcon_Alkoholfri_Arena"
+		},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1508_001.jpg",
+				"source": "https://imengine.public.nwt.infomaker.io/image.php?type=preview&uuid=e4a39222-0ee8-5da4-9241-55d883bba583&function=cropresize&crop_w=0.999999&crop_h=0.8442776735459663&x=0.000001&y=0.12570356472795496&width=6000&height=3375",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1508_002.jpg",
+				"source": "https://www.hn.se/images/article/44e8e988-7173-464f-83c4-1a1700b19750/images/0ATlfUHzn5bnhuQR4uNlvJ6Z-V-8-REGULAR.jpg?width=1920&quality=75",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1508_003.jpg",
+				"source": "https://vinbergsmek.se/wp-content/uploads/2017/04/Ra%CC%88cken-Falcon-Alkoholfri-Arena-5-1024x768.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 2166,
+			"name": "Orgryte IS",
+			"code": "ORG",
+			"country": "Sweden",
+			"founded": 1887,
+			"wiki": "https://en.wikipedia.org/wiki/%C3%96rgryte_IS"
+		},
+		"venue": {
+			"api_football_id": 1509,
+			"name": "Gamla Ullevi",
+			"address": "Ullevigatan 5",
+			"city": "Göteborg",
+			"capacity": 18800,
+			"surface": "grass",
+			"lat": 57.70623,
+			"lng": 11.98014,
+			"x": 309,
+			"y": 857,
+			"wiki": "https://en.wikipedia.org/wiki/Gamla_Ullevi"
+		},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1509_001.jpg",
+				"source": "https://www.higab.se/app/uploads/2015/11/GamlaUlleviE12HgkvalitetRekommenderas.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1509_002.jpg",
+				"source": "https://elfsborg.se/wp-content/uploads/2022/09/BB220412CS004-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1509_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Goteborg_Gamla_Ullevi_SWE-ICE_02.jpg/1200px-Goteborg_Gamla_Ullevi_SWE-ICE_002.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1509_004.jpg",
+				"source": "https://www.gp.se/images/article/39fdb2b8-2c17-458e-8f6f-3bb4ef83bbce/images/1jbbsCsuBkmBjerlUV87rAOrwcXw-REGULAR.jpg?width=3840&quality=75",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1509_005.jpg",
+				"source": "https://mail.elfsborg.se/wp-content/uploads/2024/05/BB240522FA005-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 2171,
+			"name": "Varbergs BoIS FC",
+			"code": "VAR",
+			"country": "Sweden",
+			"founded": 1925,
+			"wiki": "https://en.wikipedia.org/wiki/Varbergs_BoIS"
+		},
+		"venue": {
+			"api_football_id": 10496,
+			"name": "Varberg Energi Arena",
+			"address": "Kattegattsvägen 20",
+			"city": "Varberg",
+			"capacity": 5000,
+			"surface": "grass",
+			"lat": 57.09836,
+			"lng": 12.26547,
+			"x": 318,
+			"y": 895,
+			"wiki": "https://en.wikipedia.org/wiki/P%C3%A5skbergsvallen"
+		},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "10496_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Varberg_Energi_Arena_%C3%B6versikt.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10496_002.jpg",
+				"source": "https://www.mff.se/app/uploads/2020/10/201003-varberg-energi-arena-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10496_003.jpg",
+				"source": "https://pbs.twimg.com/media/E5DvwaoWUAQmeRR?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10496_004.jpg",
+				"source": "https://ifkgoteborg.se/wp-content/uploads/2022/08/varberg_energi_arena.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 2175,
+			"name": "IK brage",
+			"code": "BRA",
+			"country": "Sweden",
+			"founded": 1925,
+			"wiki": "https://en.wikipedia.org/wiki/IK_Brage"
+		},
+		"venue": {
+			"api_football_id": 18631,
+			"name": "Borlänge Energi Arena Domnarvsvallen",
+			"address": "Stenhålsgatan",
+			"city": "Borlänge",
+			"capacity": 6500,
+			"surface": "artificial turf",
+			"lat": 60.495,
+			"lng": 15.433889,
+			"x": 426,
+			"y": 676,
+			"wiki": "https://en.wikipedia.org/wiki/Domnarvsvallen"
+		},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "18631_001.jpg",
+				"source": "https://www.ccgrass.com/ru/wp-content/uploads/2024/02/Borlange-Energi-Arena-Sweden.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18631_002.jpg",
+				"source": "https://static.bonniernews.se/ba/5ed85980-dd51-41f3-9e24-e47177d5a6db.jpeg?width=1400&format=pjpg&auto=webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 2176,
+			"name": "Landskrona BoIS",
+			"code": "LAN",
+			"country": "Sweden",
+			"founded": 1915,
+			"wiki": "https://en.wikipedia.org/wiki/Landskrona_BoIS"
+		},
+		"venue": {
+			"api_football_id": 1936,
+			"name": "Landskrona Idrottsplats",
+			"address": "Idrottsvägen 11",
+			"city": "Landskrona",
+			"capacity": 11500,
+			"surface": "grass",
+			"lat": 55.889934,
+			"lng": 12.83761,
+			"x": 338,
+			"y": 967,
+			"wiki": "https://en.wikipedia.org/wiki/Landskrona_IP"
+		},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1936_001.jpg",
+				"source": "https://static.bonniernews.se/ba/f7fac773-a83a-49fe-803c-78c555b40ba2.jpeg?crop=6000%2C3375%2Cx0%2Cy313&width=1400&format=pjpg&auto=webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1936_002.jpg",
+				"source": "https://landskronabois.se/wp-content/uploads/2017/08/img-1656.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1936_003.jpg",
+				"source": "https://static.bonniernews.se/ba/6b88afc6-ec0b-4d52-a583-ac5439800d05.jpeg?crop=3992%2C2246%2Cx0%2Cy208&width=1400&format=pjpg&auto=webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 2241,
+			"name": "Vasteras SK FK",
+			"code": "VAS",
+			"country": "Sweden",
+			"founded": 1904,
+			"wiki": "https://en.wikipedia.org/wiki/V%C3%A4ster%C3%A5s_SK_Fotboll"
+		},
+		"venue": {
+			"api_football_id": 19703,
+			"name": "Hitachi Energy Arena",
+			"address": "PONTUS WIDÉNS VÄG 5",
+			"city": "Västerås",
+			"capacity": 8900,
+			"surface": "artificial turf",
+			"lat": 59.627535,
+			"lng": 16.530669,
+			"x": 463,
+			"y": 734,
+			"wiki": "https://en.wikipedia.org/wiki/Hitachi_Energy_Arena"
+		},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19703_001.jpg",
+				"source": "https://static.bonniernews.se/ba/4749a623-b5f6-4679-ac26-661e96772fac.jpeg?width=1400&format=pjpg&auto=webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19703_002.jpg",
+				"source": "https://static.bonniernews.se/ba/4abb56ff-c13d-4f6b-88bf-81bd2d56f288.jpeg?width=1400&format=pjpg&auto=webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19703_003.jpg",
+				"source": "https://static.bonniernews.se/ba/8c7188b0-aa48-4b6b-be15-85a4a7d0798b.jpeg?width=1400&format=pjpg&auto=webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 28
+	},
+	{
+		"team": {
+			"api_football_id": 6697,
+			"name": "Sandviken",
+			"code": "SAN",
+			"country": "Sweden",
+			"founded": 1918,
+			"wiki": "https://en.wikipedia.org/wiki/Sandvikens_IF"
+		},
+		"venue": {
+			"api_football_id": 4893,
+			"name": "Arena Jernvallen",
+			"address": "Sätragatan 21",
+			"city": "Sandviken",
+			"capacity": 4783,
+			"surface": "artificial turf",
+			"lat": 60.608889,
+			"lng": 16.773056,
+			"x": 471,
+			"y": 668,
+			"wiki": "https://en.wikipedia.org/wiki/Jernvallen"
+		},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "4893_001.jpg",
+				"source": "https://static.bonniernews.se/ba/f7fac773-a83a-49fe-803c-78c555b40ba2.jpeg?crop=6000%2C3375%2Cx0%2Cy313&width=1400&format=pjpg&auto=webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4893_002.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/swe/jernvallen/jernvallen02.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 29
+	},
+	{
+		"team": {
+			"api_football_id": 6705,
+			"name": "Umeå FC",
+			"code": "UME",
+			"country": "Sweden",
+			"founded": 1987,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 4900,
+			"name": "Umeå Energi Arena SOL",
+			"address": "Gammliavägen 5, Haga",
+			"city": "Umeå",
+			"capacity": 14000,
+			"surface": "artificial turf",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 6706,
+			"name": "Utsikten",
+			"code": "UTS",
+			"country": "Sweden",
+			"founded": 1935,
+			"wiki": "https://en.wikipedia.org/wiki/Utsiktens_BK"
+		},
+		"venue": {
+			"api_football_id": 4861,
+			"name": "Ruddalens IP 1",
+			"address": "Musikvägen",
+			"city": "Västra Frölunda",
+			"capacity": 5000,
+			"surface": "artificial turf",
+			"lat": 57.663889,
+			"lng": 11.909444,
+			"x": 306,
+			"y": 860,
+			"wiki": "https://en.wikipedia.org/wiki/Ruddalens_IP"
+		},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "4861_001.jpg",
+				"source": "https://s3.eu-north-1.amazonaws.com/gbg.serviceguiden/61e0a347cfc4d247ccaa2ed1_62023d6823d71011c049fdc8_large.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4861_002.jpg",
+				"source": "https://www.gp.se/images/article/6c6c4b7c-ea54-4631-85ab-750bff73ae84/images/0uw-DUcv45AYnInvPgSkqP-PtTxQ-WIDE.jpg?width=3840&quality=75",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 31
+	},
+	{
+		"team": {
+			"api_football_id": 11674,
+			"name": "Oddevold",
+			"code": "ODD",
+			"country": "Sweden",
+			"founded": 1932,
+			"wiki": "https://en.wikipedia.org/wiki/IK_Oddevold"
+		},
+		"venue": {
+			"api_football_id": 20480,
+			"name": "Fridhemsvallen",
+			"address": "Kamratgården Svanevägen 2A",
+			"city": "Uddevalla",
+			"capacity": 2500,
+			"surface": "artificial turf",
+			"lat": 58.380943,
+			"lng": 11.936906,
+			"x": 307,
+			"y": 814,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 114,
+			"name": "Superettan",
+			"country": "Sweden",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20480_001.jpg",
+				"source": "https://www.bohuslaningen.se/images/article/ff80c148-8a7b-4551-bf96-76e84cd99d74/images/0SXF20pajESdMM6FPeuRa-2xdmRc-REGULAR.jpg?width=1920&quality=75",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 32
 	},
 	{
 		"team": {
@@ -1415,388 +2111,7 @@
 				"size": 0
 			}
 		],
-		"no": 22
-	},
-	{
-		"team": {
-			"api_football_id": 2166,
-			"name": "Orgryte IS",
-			"code": "ORG",
-			"country": "Sweden",
-			"founded": 1887,
-			"wiki": "https://en.wikipedia.org/wiki/%C3%96rgryte_IS"
-		},
-		"venue": {
-			"api_football_id": 1509,
-			"name": "Gamla Ullevi",
-			"address": "Ullevigatan 5",
-			"city": "Göteborg",
-			"capacity": 18800,
-			"surface": "grass",
-			"lat": 57.70623,
-			"lng": 11.98014,
-			"x": 309,
-			"y": 857,
-			"wiki": "https://en.wikipedia.org/wiki/Gamla_Ullevi"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "1509_001.jpg",
-				"source": "https://www.higab.se/app/uploads/2015/11/GamlaUlleviE12HgkvalitetRekommenderas.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1509_002.jpg",
-				"source": "https://elfsborg.se/wp-content/uploads/2022/09/BB220412CS004-scaled.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1509_003.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Goteborg_Gamla_Ullevi_SWE-ICE_02.jpg/1200px-Goteborg_Gamla_Ullevi_SWE-ICE_002.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1509_004.jpg",
-				"source": "https://www.gp.se/images/article/39fdb2b8-2c17-458e-8f6f-3bb4ef83bbce/images/1jbbsCsuBkmBjerlUV87rAOrwcXw-REGULAR.jpg?width=3840&quality=75",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1509_005.jpg",
-				"source": "https://mail.elfsborg.se/wp-content/uploads/2024/05/BB240522FA005-scaled.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 23
-	},
-	{
-		"team": {
-			"api_football_id": 2171,
-			"name": "Varbergs BoIS FC",
-			"code": "VAR",
-			"country": "Sweden",
-			"founded": 1925,
-			"wiki": "https://en.wikipedia.org/wiki/Varbergs_BoIS"
-		},
-		"venue": {
-			"api_football_id": 10496,
-			"name": "Varberg Energi Arena",
-			"address": "Kattegattsvägen 20",
-			"city": "Varberg",
-			"capacity": 5000,
-			"surface": "grass",
-			"lat": 57.09836,
-			"lng": 12.26547,
-			"x": 318,
-			"y": 895,
-			"wiki": "https://en.wikipedia.org/wiki/P%C3%A5skbergsvallen"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "10496_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Varberg_Energi_Arena_%C3%B6versikt.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "10496_002.jpg",
-				"source": "https://www.mff.se/app/uploads/2020/10/201003-varberg-energi-arena-scaled.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "10496_003.jpg",
-				"source": "https://pbs.twimg.com/media/E5DvwaoWUAQmeRR?format=jpg&name=4096x4096",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "10496_004.jpg",
-				"source": "https://ifkgoteborg.se/wp-content/uploads/2022/08/varberg_energi_arena.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 24
-	},
-	{
-		"team": {
-			"api_football_id": 2172,
-			"name": "Degerfors IF",
-			"code": "DEG",
-			"country": "Sweden",
-			"founded": 1907,
-			"wiki": "https://en.wikipedia.org/wiki/Degerfors_IF"
-		},
-		"venue": {
-			"api_football_id": 1505,
-			"name": "Stora Valla",
-			"address": "Stora Vallavägen 1",
-			"city": "Degerfors",
-			"capacity": 12500,
-			"surface": "grass",
-			"lat": 59.238333,
-			"lng": 14.443056,
-			"x": 392,
-			"y": 759,
-			"wiki": "https://en.wikipedia.org/wiki/Stora_Valla"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "1505_001.jpg",
-				"source": "https://images.squarespace-cdn.com/content/v1/63bff941d9b1226c1347f70a/587c8504-81b7-4ae8-aeb2-b9e64ab834a9/240718+BS+Stora+Valla31.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1505_002.jpg",
-				"source": "https://imengine.public.nwt.infomaker.io/image.php?type=preview&uuid=7cca9399-13c3-50ee-8672-28a98f84612d&function=cropresize&crop_w=0.8&crop_h=0.999999&x=0.06125&y=0.000001&width=3200&height=1800",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1505_003.jpg",
-				"source": "https://ifkgoteborg.se/wp-content/uploads/2022/10/StoraValla.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1505_004.jpg",
-				"source": "https://images.squarespace-cdn.com/content/v1/63bff941d9b1226c1347f70a/cede9c94-1b85-4383-b8f8-2dab37eac219/240718+BS+Stora+Valla21.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 25
-	},
-	{
-		"team": {
-			"api_football_id": 2174,
-			"name": "Osters IF",
-			"code": "OST",
-			"country": "Sweden",
-			"founded": 1930,
-			"wiki": "https://en.wikipedia.org/wiki/%C3%96sters_IF"
-		},
-		"venue": {
-			"api_football_id": 11916,
-			"name": "Visma Arena",
-			"address": "Bollgatan 1",
-			"city": "Växjö",
-			"capacity": 12173,
-			"surface": "grass",
-			"lat": 56.879722,
-			"lng": 14.776389,
-			"x": 403,
-			"y": 908,
-			"wiki": "https://en.wikipedia.org/wiki/Visma_Arena"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "11916_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/9/9d/MSH_Arena_pano_20120727.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11916_002.jpg",
-				"source": "https://d1da7yrcucvk6m.cloudfront.net/sites/246/media/1168207_original_Visma_Arena_U23.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11916_003.jpg",
-				"source": "https://www.degerforsif.se/wp-content/uploads/2024/03/Visma-arena-exterior.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11916_004.jpg",
-				"source": "https://arkitektbyrandesign.se/wp-content/uploads/2019/10/Myresjohus_Arena_14.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 26
-	},
-	{
-		"team": {
-			"api_football_id": 2175,
-			"name": "IK brage",
-			"code": "BRA",
-			"country": "Sweden",
-			"founded": 1925,
-			"wiki": "https://en.wikipedia.org/wiki/IK_Brage"
-		},
-		"venue": {
-			"api_football_id": 18631,
-			"name": "Borlänge Energi Arena Domnarvsvallen",
-			"address": "Stenhålsgatan",
-			"city": "Borlänge",
-			"capacity": 6500,
-			"surface": "artificial turf",
-			"lat": 60.495,
-			"lng": 15.433889,
-			"x": 426,
-			"y": 676,
-			"wiki": "https://en.wikipedia.org/wiki/Domnarvsvallen"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "18631_001.jpg",
-				"source": "https://www.ccgrass.com/ru/wp-content/uploads/2024/02/Borlange-Energi-Arena-Sweden.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "18631_002.jpg",
-				"source": "https://static.bonniernews.se/ba/5ed85980-dd51-41f3-9e24-e47177d5a6db.jpeg?width=1400&format=pjpg&auto=webp",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 27
-	},
-	{
-		"team": {
-			"api_football_id": 2176,
-			"name": "Landskrona BoIS",
-			"code": "LAN",
-			"country": "Sweden",
-			"founded": 1915,
-			"wiki": "https://en.wikipedia.org/wiki/Landskrona_BoIS"
-		},
-		"venue": {
-			"api_football_id": 1936,
-			"name": "Landskrona Idrottsplats",
-			"address": "Idrottsvägen 11",
-			"city": "Landskrona",
-			"capacity": 11500,
-			"surface": "grass",
-			"lat": 55.889934,
-			"lng": 12.83761,
-			"x": 338,
-			"y": 967,
-			"wiki": "https://en.wikipedia.org/wiki/Landskrona_IP"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "1936_001.jpg",
-				"source": "https://static.bonniernews.se/ba/f7fac773-a83a-49fe-803c-78c555b40ba2.jpeg?crop=6000%2C3375%2Cx0%2Cy313&width=1400&format=pjpg&auto=webp",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1936_002.jpg",
-				"source": "https://landskronabois.se/wp-content/uploads/2017/08/img-1656.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1936_003.jpg",
-				"source": "https://static.bonniernews.se/ba/6b88afc6-ec0b-4d52-a583-ac5439800d05.jpeg?crop=3992%2C2246%2Cx0%2Cy208&width=1400&format=pjpg&auto=webp",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 28
-	},
-	{
-		"team": {
-			"api_football_id": 6697,
-			"name": "Sandviken",
-			"code": "SAN",
-			"country": "Sweden",
-			"founded": 1918,
-			"wiki": "https://en.wikipedia.org/wiki/Sandvikens_IF"
-		},
-		"venue": {
-			"api_football_id": 4893,
-			"name": "Arena Jernvallen",
-			"address": "Sätragatan 21",
-			"city": "Sandviken",
-			"capacity": 4783,
-			"surface": "artificial turf",
-			"lat": 60.608889,
-			"lng": 16.773056,
-			"x": 471,
-			"y": 668,
-			"wiki": "https://en.wikipedia.org/wiki/Jernvallen"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "4893_001.jpg",
-				"source": "https://static.bonniernews.se/ba/f7fac773-a83a-49fe-803c-78c555b40ba2.jpeg?crop=6000%2C3375%2Cx0%2Cy313&width=1400&format=pjpg&auto=webp",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4893_002.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/swe/jernvallen/jernvallen02.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 29
+		"no": 33
 	},
 	{
 		"team": {
@@ -1839,85 +2154,7 @@
 				"size": 0
 			}
 		],
-		"no": 30
-	},
-	{
-		"team": {
-			"api_football_id": 6706,
-			"name": "Utsikten",
-			"code": "UTS",
-			"country": "Sweden",
-			"founded": 1935,
-			"wiki": "https://en.wikipedia.org/wiki/Utsiktens_BK"
-		},
-		"venue": {
-			"api_football_id": 4861,
-			"name": "Ruddalens IP 1",
-			"address": "Musikvägen",
-			"city": "Västra Frölunda",
-			"capacity": 5000,
-			"surface": "artificial turf",
-			"lat": 57.663889,
-			"lng": 11.909444,
-			"x": 306,
-			"y": 860,
-			"wiki": "https://en.wikipedia.org/wiki/Ruddalens_IP"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "4861_001.jpg",
-				"source": "https://s3.eu-north-1.amazonaws.com/gbg.serviceguiden/61e0a347cfc4d247ccaa2ed1_62023d6823d71011c049fdc8_large.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4861_002.jpg",
-				"source": "https://www.gp.se/images/article/6c6c4b7c-ea54-4631-85ab-750bff73ae84/images/0uw-DUcv45AYnInvPgSkqP-PtTxQ-WIDE.jpg?width=3840&quality=75",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 31
-	},
-	{
-		"team": {
-			"api_football_id": 11674,
-			"name": "Oddevold",
-			"code": "ODD",
-			"country": "Sweden",
-			"founded": 1932,
-			"wiki": "https://en.wikipedia.org/wiki/IK_Oddevold"
-		},
-		"venue": {
-			"api_football_id": 20480,
-			"name": "Fridhemsvallen",
-			"address": "Kamratgården Svanevägen 2A",
-			"city": "Uddevalla",
-			"capacity": 2500,
-			"surface": "artificial turf",
-			"lat": 58.380943,
-			"lng": 11.936906,
-			"x": 307,
-			"y": 814,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "20480_001.jpg",
-				"source": "https://www.bohuslaningen.se/images/article/ff80c148-8a7b-4551-bf96-76e84cd99d74/images/0SXF20pajESdMM6FPeuRa-2xdmRc-REGULAR.jpg?width=1920&quality=75",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 32
+		"no": 34
 	},
 	{
 		"team": {
@@ -1978,7 +2215,7 @@
 				"size": 0
 			}
 		],
-		"no": 33
+		"no": 35
 	},
 	{
 		"team": {
@@ -2039,60 +2276,7 @@
 				"size": 0
 			}
 		],
-		"no": 34
-	},
-	{
-		"team": {
-			"api_football_id": 812,
-			"name": "falkenbergs FF",
-			"code": "FAL",
-			"country": "Sweden",
-			"founded": 1928,
-			"wiki": "falkenbergs FF"
-		},
-		"venue": {
-			"api_football_id": 1508,
-			"name": "Falcon Alkoholfri Arena",
-			"address": "Kristineslättsallén",
-			"city": "Falkenberg",
-			"capacity": 6214,
-			"surface": "grass",
-			"lat": 56.894,
-			"lng": 12.5115,
-			"x": 327,
-			"x1": 800,
-			"y": 907,
-			"y1": 700,
-			"wiki": "https://en.wikipedia.org/wiki/Falcon_Alkoholfri_Arena"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "1508_001.jpg",
-				"source": "https://imengine.public.nwt.infomaker.io/image.php?type=preview&uuid=e4a39222-0ee8-5da4-9241-55d883bba583&function=cropresize&crop_w=0.999999&crop_h=0.8442776735459663&x=0.000001&y=0.12570356472795496&width=6000&height=3375",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1508_002.jpg",
-				"source": "https://www.hn.se/images/article/44e8e988-7173-464f-83c4-1a1700b19750/images/0ATlfUHzn5bnhuQR4uNlvJ6Z-V-8-REGULAR.jpg?width=1920&quality=75",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1508_003.jpg",
-				"source": "https://vinbergsmek.se/wp-content/uploads/2017/04/Ra%CC%88cken-Falcon-Alkoholfri-Arena-5-1024x768.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 35
+		"no": 36
 	},
 	{
 		"team": {
@@ -2145,6 +2329,6 @@
 				"size": 0
 			}
 		],
-		"no": 36
+		"no": 37
 	}
 ]

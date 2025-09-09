@@ -21,7 +21,12 @@
 			"y": 269,
 			"wiki": "https://en.wikipedia.org/wiki/St._Jakob-Park"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 207,
+			"name": "Super League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1530_001.jpg",
@@ -112,7 +117,12 @@
 			"y": 456,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Wankdorf"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 207,
+			"name": "Super League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "10500_001.jpg",
@@ -187,7 +197,12 @@
 			"y": 756,
 			"wiki": "https://en.wikipedia.org/wiki/Cornaredo_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 207,
+			"name": "Super League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19807_001.jpg",
@@ -254,7 +269,12 @@
 			"y": 690,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_de_Tourbillon"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 207,
+			"name": "Super League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1542_001.jpg",
@@ -337,7 +357,12 @@
 			"y": 434,
 			"wiki": "https://en.wikipedia.org/wiki/Swissporarena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 207,
+			"name": "Super League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1537_001.jpg",
@@ -420,7 +445,12 @@
 			"y": 321,
 			"wiki": "https://en.wikipedia.org/wiki/Letzigrund"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 207,
+			"name": "Super League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1533_001.jpg",
@@ -503,7 +533,7 @@
 			"name": "kybunpark",
 			"address": "Zürcher Strasse 464",
 			"city": "St. Gallen",
-			"capacity": 20660,
+			"capacity": 20029,
 			"surface": "grass",
 			"lat": 47.408296,
 			"lng": 9.305116,
@@ -511,7 +541,12 @@
 			"y": 312,
 			"wiki": "https://en.wikipedia.org/wiki/Kybunpark"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 207,
+			"name": "Super League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1543_001.jpg",
@@ -586,7 +621,12 @@
 			"y": 527,
 			"wiki": "https://en.wikipedia.org/wiki/Stockhorn_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 207,
+			"name": "Super League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1544_001.jpg",
@@ -661,7 +701,12 @@
 			"y": 321,
 			"wiki": "https://en.wikipedia.org/wiki/Letzigrund"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 207,
+			"name": "Super League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1533_001.jpg",
@@ -752,7 +797,12 @@
 			"y": 591,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_de_la_Tuili%C3%A8re"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 207,
+			"name": "Super League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "11917_001.jpg",
@@ -827,7 +877,12 @@
 			"y": 282,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Sch%C3%BCtzenwiese"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 207,
+			"name": "Super League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1547_001.jpg",
@@ -902,7 +957,12 @@
 			"y": 708,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_de_Gen%C3%A8ve"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 207,
+			"name": "Super League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1541_001.jpg",
@@ -993,7 +1053,12 @@
 			"y": 399,
 			"wiki": "https://en.wikipedia.org/wiki/Rheinpark_Stadion"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 208,
+			"name": "Challenge League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1545_001.jpg",
@@ -1052,7 +1117,7 @@
 			"name": "Stade de la Maladière",
 			"address": "Rue de la Pierre-à-Mazel 10, Maladière",
 			"city": "Neuchâtel",
-			"capacity": 12500,
+			"capacity": 11997,
 			"surface": "artificial turf",
 			"lat": 46.995443,
 			"lng": 6.944625,
@@ -1060,7 +1125,12 @@
 			"y": 446,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_de_la_Maladi%C3%A8re"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 208,
+			"name": "Challenge League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1538_001.jpg",
@@ -1151,7 +1221,12 @@
 			"y": 320,
 			"wiki": "https://en.wikipedia.org/wiki/Stadion_Br%C3%BCgglifeld"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 208,
+			"name": "Challenge League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1531_001.jpg",
@@ -1226,7 +1301,12 @@
 			"y": 296,
 			"wiki": "https://en.wikipedia.org/wiki/Lidl_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 208,
+			"name": "Challenge League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19218_001.jpg",
@@ -1293,7 +1373,12 @@
 			"y": 373,
 			"wiki": "https://de.wikipedia.org/wiki/Stadion_Gr%C3%BCnfeld"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 208,
+			"name": "Challenge League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1539_001.jpg",
@@ -1344,7 +1429,12 @@
 			"y": 594,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Olympique_de_la_Pontaise"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 208,
+			"name": "Challenge League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1535_001.jpg",
@@ -1391,11 +1481,11 @@
 			"wiki": "https://en.wikipedia.org/wiki/AC_Bellinzona"
 		},
 		"venue": {
-			"api_football_id": 4830,
-			"name": "Stadio Comunale",
+			"api_football_id": 22266,
+			"name": "Stadio Comunale Bellinzona",
 			"address": "Piazzale Stadio",
 			"city": "Bellinzona",
-			"capacity": 7025,
+			"capacity": 5000,
 			"surface": "grass",
 			"lat": 46.198082,
 			"lng": 9.022304,
@@ -1403,7 +1493,12 @@
 			"y": 701,
 			"wiki": "https://en.wikipedia.org/wiki/Stadio_Comunale_Bellinzona"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 208,
+			"name": "Challenge League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "4830_001.jpg",
@@ -1462,7 +1557,12 @@
 			"y": 646,
 			"wiki": "https://en.wikipedia.org/wiki/Colovray_Sports_Centre"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 208,
+			"name": "Challenge League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3264_001.jpg",
@@ -1521,7 +1621,12 @@
 			"y": 514,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Municipal_(Yverdon)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 208,
+			"name": "Challenge League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "4859_001.jpg",
@@ -1588,7 +1693,12 @@
 			"y": 705,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_de_la_Fontenette"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 208,
+			"name": "Challenge League",
+			"country": "Switzerland",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "4860_001.jpg",

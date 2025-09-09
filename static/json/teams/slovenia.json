@@ -6,7 +6,7 @@
 			"code": "MAR",
 			"country": "Slovenia",
 			"founded": 1960,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Maribor"
 		},
 		"venue": {
 			"api_football_id": 1441,
@@ -30,7 +30,47 @@
 		"images": [
 			{
 				"name": "1441_001.jpg",
-				"source": "",
+				"source": "https://www.makro5.si/gradnje/ljudski-vrt/gallery/main.7d24997e17f4671693995dd8b2dd06fe.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1441_002.jpg",
+				"source": "https://siol.net/media/img/0b/b0/5cdea582ab515f863dea-slovenija-trening-nogomet-ljudski-vrt.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1441_003.jpg",
+				"source": "https://iasstorage.vecer.com/data/Resources/00/00/00/00/00/00/30/51/05/22/30510522q71394AF6947AAE0FB1BA2F01F7AD1228_1200.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1441_004.jpg",
+				"source": "https://images.mindtrip.ai/attractions/bb7c/defb/9e87/3398/c57d/b03f/5c97/ba4f",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1441_005.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ljudski_vrt_2015.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1441_006.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQDSQzyXcBe16ymyJqV08moHKG-wrVNv0embQU3yfpB_A06ZQk5SfzHBCi7IB6H0jSk7q3XhENBWv8rfhDzEcuzS08Q2kiHCUM62NJ-JbclhP0UdGJhOKWCDRGGd3sgBx9otU6dM4hGNYI/s9600/Stadion_Ljudski_Vrt_06.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -46,7 +86,7 @@
 			"code": "DOM",
 			"country": "Slovenia",
 			"founded": 1921,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Dom%C5%BEale"
 		},
 		"venue": {
 			"api_football_id": 1440,
@@ -70,7 +110,23 @@
 		"images": [
 			{
 				"name": "1440_001.jpg",
-				"source": "",
+				"source": "https://editorial.uefa.com/resources/0252-0ce2b332d862-70535df38157-1000/sportni_park.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1440_002.jpg",
+				"source": "https://en.wikipedia.org/wiki/Dom%C5%BEale_Sports_Park#/media/File:Domzale_Stadium_2014.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1440_003.jpg",
+				"source": "https://secure.cache.images.core.optasports.com/soccer/venues/600x450/693.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -86,7 +142,7 @@
 			"code": "LJU",
 			"country": "Slovenia",
 			"founded": 1911,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Olimpija_Ljubljana"
 		},
 		"venue": {
 			"api_football_id": 1442,
@@ -110,7 +166,63 @@
 		"images": [
 			{
 				"name": "1442_001.jpg",
-				"source": "",
+				"source": "https://cdn.mojastoritev.si/images/8ada130b7d777eb058252ff5e1aa14ae.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1442_002.jpg",
+				"source": "https://static.wikia.nocookie.net/the-football-database/images/5/57/Stozice_Stadium_Ljubljana.jpg/revision/latest?cb=20161030114219",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1442_003.jpg",
+				"source": "https://www.ljubljana.si/assets/Uploads/_resampled/ScaleWidthWyIxMzAwIl0/Center-Stozice-12-MB.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1442_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Sto%C5%BEice_%2831523159192%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1442_005.jpg",
+				"source": "https://www.eventim.si/obj/media/SI-eventim/galery/Prizorisca%20-%20venues%20gallery/Stadion%20Stozice/Galerija6-min-1-1200x900.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1442_006.jpg",
+				"source": "https://www.eventim.si/obj/media/SI-eventim/galery/Prizorisca%20-%20venues%20gallery/Stadion%20Stozice/Galerija2-min-3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1442_007.jpg",
+				"source": "https://siol.net/media/img/d5/84/069ec224ab63ec8abbd7-stozice-trava.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1442_008.jpg",
+				"source": "https://cdn.loquis.com/prod/loquis/pictures/cfa73923-c026-486e-8e15-7744a33bd039.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -126,7 +238,7 @@
 			"code": null,
 			"country": "Slovenia",
 			"founded": 2012,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/N%C5%A0_Mura"
 		},
 		"venue": {
 			"api_football_id": 3201,
@@ -150,7 +262,15 @@
 		"images": [
 			{
 				"name": "3201_001.jpg",
-				"source": "",
+				"source": "https://www.stadioni.org/media/images/murska-sobota/mestni-stadion-fazanerija/mestni-stadion-fazanerija-glavno_01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3201_002.jpg",
+				"source": "https://cdn.kme.si/public/images-cache/1200xX/2024/09/16/71f8cfef7536e0810d3c98b8735452ff/6841ba1d4d2ef/71f8cfef7536e0810d3c98b8735452ff.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -166,7 +286,7 @@
 			"code": "ALU",
 			"country": "Slovenia",
 			"founded": 1946,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Aluminij"
 		},
 		"venue": {
 			"api_football_id": 3330,
@@ -190,7 +310,23 @@
 		"images": [
 			{
 				"name": "3330_001.jpg",
-				"source": "",
+				"source": "https://nkaluminij.net/wp-content/uploads/2019/08/sportni_park_aluminij.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3330_002.jpg",
+				"source": "https://nkaluminij.net/wp-content/uploads/2019/08/sportni_park_aluminij2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3330_003.jpg",
+				"source": "https://img.mojaobcina.si/img/1/D_MAX_500/7248_1506450291_ge8r8309.1.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -206,7 +342,7 @@
 			"code": null,
 			"country": "Slovenia",
 			"founded": 2006,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Bravo"
 		},
 		"venue": {
 			"api_football_id": 11939,
@@ -230,7 +366,31 @@
 		"images": [
 			{
 				"name": "11939_001.jpg",
-				"source": "",
+				"source": "https://www.sport-ljubljana.si/wp-content/uploads/2022/09/DJI_0487.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11939_002.jpg",
+				"source": "https://www.sport-ljubljana.si/wp-content/uploads/2022/09/DJI_0483-1200x675.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11939_003.jpg",
+				"source": "https://www.sport-ljubljana.si/wp-content/uploads/2022/09/DJI_0484-1200x675.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11939_004.jpg",
+				"source": "https://www.sport-ljubljana.si/wp-content/uploads/2022/09/Galerija2-min-15-1200x900.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -246,7 +406,7 @@
 			"code": "CEL",
 			"country": "Slovenia",
 			"founded": 1919,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Celje"
 		},
 		"venue": {
 			"api_football_id": 3332,
@@ -270,7 +430,47 @@
 		"images": [
 			{
 				"name": "3332_001.jpg",
-				"source": "",
+				"source": "https://cdn.mojastoritev.si/images/1ff5e061ed8fe267c231591786deb10d.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3332_002.jpg",
+				"source": "https://site1.sitexo.com/cache/documents/59cb7eb976998a0a30d257ce/RD2_2268_-_Rok_Dezelak_RD2.si.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3332_003.jpg",
+				"source": "https://site1.sitexo.com/cache/documents/59cb7eb976998a0a30d257ce/53694941912_f0d3d61ef7_k.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3332_004.jpg",
+				"source": "https://liberoguide.com/wp-content/uploads/2024/08/NKCelje3-copy-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3332_005.jpg",
+				"source": "https://site1.sitexo.com/cache/documents/59cb7eb976998a0a30d257ce/12.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3332_006.jpg",
+				"source": "https://pbs.twimg.com/media/GUZO6plWwAAqvMZ?format=jpg&name=large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -286,7 +486,7 @@
 			"code": "KOP",
 			"country": "Slovenia",
 			"founded": 1920,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Koper"
 		},
 		"venue": {
 			"api_football_id": 3346,
@@ -310,7 +510,15 @@
 		"images": [
 			{
 				"name": "3346_001.jpg",
-				"source": "",
+				"source": "https://www.gov.si/assets/ministrstva/MKRR/Simbolicne/oop-Bonifika.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3346_002.jpg",
+				"source": "https://www.nk-koper.si/wp-content/uploads/2019/03/Stadion-Bonifika-1920-glava.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -326,7 +534,7 @@
 			"code": "RAD",
 			"country": "Slovenia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Radomlje"
 		},
 		"venue": {
 			"api_football_id": 1440,
@@ -350,7 +558,23 @@
 		"images": [
 			{
 				"name": "1440_001.jpg",
-				"source": "",
+				"source": "https://editorial.uefa.com/resources/0252-0ce2b332d862-70535df38157-1000/sportni_park.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1440_002.jpg",
+				"source": "https://en.wikipedia.org/wiki/Dom%C5%BEale_Sports_Park#/media/File:Domzale_Stadium_2014.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1440_003.jpg",
+				"source": "https://secure.cache.images.core.optasports.com/soccer/venues/600x450/693.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -366,7 +590,7 @@
 			"code": null,
 			"country": "Slovenia",
 			"founded": 2011,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/ND_Primorje"
 		},
 		"venue": {
 			"api_football_id": 18694,
@@ -390,7 +614,15 @@
 		"images": [
 			{
 				"name": "18694_001.jpg",
-				"source": "",
+				"source": "https://www.zs-ajdovscina.si/mma/zavod_za_sport0042_(small)/2013032915110815/mid/contentSide/",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18694_002.jpg",
+				"source": "https://www.zs-ajdovscina.si/mma/zavod_za_sport0037_(small)/2013032915110876/mid/contentSide/",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -406,7 +638,7 @@
 			"code": "VEL",
 			"country": "Slovenia",
 			"founded": 1948,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Rudar_Pljevlja"
 		},
 		"venue": {
 			"api_football_id": 3333,
@@ -430,7 +662,7 @@
 		"images": [
 			{
 				"name": "3333_001.jpg",
-				"source": "",
+				"source": "https://cdn.mojastoritev.si/images/b93aa48235e82e58f4d3a47c7b6bc162.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -446,7 +678,7 @@
 			"code": null,
 			"country": "Slovenia",
 			"founded": 1923,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Tabor_Se%C5%BEana"
 		},
 		"venue": {
 			"api_football_id": 3334,
@@ -470,7 +702,31 @@
 		"images": [
 			{
 				"name": "3334_001.jpg",
-				"source": "",
+				"source": "https://wordpress-disanoprod.disano.it/wp-upload/2023/07/Sezana-3-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3334_002.jpg",
+				"source": "https://static.primorske.si/foto/highres/srednja/812013_059-stadion02.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3334_003.jpg",
+				"source": "https://static.primorske.si/foto/highres/srednja/879203_223-stadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3334_004.jpg",
+				"source": "https://static.primorske.si/foto/highres/Srednja/160-stadion.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -486,7 +742,7 @@
 			"code": "TRI",
 			"country": "Slovenia",
 			"founded": 1920,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Triglav_Kranj"
 		},
 		"venue": {
 			"api_football_id": 3335,
@@ -510,7 +766,7 @@
 		"images": [
 			{
 				"name": "3335_001.jpg",
-				"source": "",
+				"source": "https://pbs.twimg.com/media/GvpROsGWQAAWEfl.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -526,7 +782,7 @@
 			"code": "GOR",
 			"country": "Slovenia",
 			"founded": 1947,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/ND_Gorica"
 		},
 		"venue": {
 			"api_football_id": 3336,
@@ -550,7 +806,31 @@
 		"images": [
 			{
 				"name": "3336_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Nova_Gorica_Stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3336_002.jpg",
+				"source": "https://www.vipavskadolina.si/files/12071/cache/c_prw/_mgl5535_manjsa_c_prw.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3336_003.jpg",
+				"source": "https://www.sz-ng.si/sites/default/files/styles/carpediem_style_1600x900_16_9/public/2024-09/javni-zavod-za-sport-nova-gorica-atletski-stadion-412.jpg.webp?itok=HQmYkdCU",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3336_004.jpg",
+				"source": "https://www.sz-ng.si/sites/default/files/styles/carpediem_style_1600x900_16_9/public/2024-09/javni-zavod-za-sport-nova-gorica-atletski-stadion-414.jpg.webp?itok=X9-W1Y0X",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -566,7 +846,7 @@
 			"code": "KRS",
 			"country": "Slovenia",
 			"founded": 1922,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Kr%C5%A1ko_Posavje"
 		},
 		"venue": {
 			"api_football_id": 3337,
@@ -575,11 +855,11 @@
 			"city": "Krško",
 			"capacity": 13728,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 45.948611,
+			"lng": 15.488056,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Matija_Gubec_Stadium"
 		},
 		"league": {
 			"api_football_id": 374,
@@ -587,7 +867,24 @@
 			"country": "Slovenia",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "3337_001.jpg",
+				"source": "https://speedwaykrsko.si/wp-content/uploads/2023/01/IMG_20230123_205849.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3337_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Matija_Gubec_Stadium_05.jpg/1200px-Matija_Gubec_Stadium_05.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 15
 	},
 	{
@@ -597,7 +894,7 @@
 			"code": null,
 			"country": "Slovenia",
 			"founded": 2007,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/ND_Beltinci"
 		},
 		"venue": {
 			"api_football_id": 3338,
@@ -621,7 +918,7 @@
 		"images": [
 			{
 				"name": "3338_001.jpg",
-				"source": "",
+				"source": "https://ndbeltinci.net/media/cache/article_thumb_big/upload/articles/stadion.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -637,7 +934,7 @@
 			"code": null,
 			"country": "Slovenia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/ND_Bilje"
 		},
 		"venue": {
 			"api_football_id": 3339,
@@ -661,7 +958,7 @@
 		"images": [
 			{
 				"name": "3339_001.jpg",
-				"source": "",
+				"source": "https://stadioni.org/media/images/bilje/v-dolinci/v-dolinci-glavno_03.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -677,7 +974,7 @@
 			"code": null,
 			"country": "Slovenia",
 			"founded": 1938,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Dekani"
 		},
 		"venue": {
 			"api_football_id": 3342,
@@ -701,7 +998,15 @@
 		"images": [
 			{
 				"name": "3342_001.jpg",
-				"source": "",
+				"source": "https://stadioni.org/media/images/dekani/igrisce-ivan-gregoric/igrisce-ivan-gregoric-glavno_01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3342_002.jpg",
+				"source": "https://stadioni.org/media/images/dekani/igrisce-ivan-gregoric/igrisce-ivan-gregoric-glavno_02.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -717,7 +1022,7 @@
 			"code": "KRK",
 			"country": "Slovenia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Krka"
 		},
 		"venue": {
 			"api_football_id": 3347,
@@ -741,7 +1046,23 @@
 		"images": [
 			{
 				"name": "3347_001.jpg",
-				"source": "",
+				"source": "https://www.jrl.si/en/wp-content/uploads/2022/07/JRL_reference_stadionnkkrka.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3347_002.jpg",
+				"source": "https://www.lgb.si/assets6572/wp-content/uploads/2019/01/LGB-projekt-Portoval-Novo-Mesto-hero.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3347_003.jpg",
+				"source": "https://mestnik.si/wp-content/uploads/2023/08/Stadion-Portoval-1024x682.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -757,7 +1078,7 @@
 			"code": null,
 			"country": "Slovenia",
 			"founded": 1903,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Nafta_1903"
 		},
 		"venue": {
 			"api_football_id": 3348,
@@ -781,7 +1102,31 @@
 		"images": [
 			{
 				"name": "3348_001.jpg",
-				"source": "",
+				"source": "https://editorial.uefa.com/resources/0252-0ce2e10c67fe-045856f9cacd-1000/sportni_park_nk_nafta_lendava_.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3348_002.jpg",
+				"source": "https://www.lendava.si/Datoteke/Slike/Novice/1082588/l_1082588_1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3348_003.jpg",
+				"source": "https://www.nafta1903.si/wp-content/uploads/2024/08/web-lendava3-scaled.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3348_004.jpg",
+				"source": "https://siol.net/media/img/d3/30/27874187385af026e15c-nogomet-splosna-sportni-park-lendava.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -797,7 +1142,7 @@
 			"code": null,
 			"country": "Slovenia",
 			"founded": 1911,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/ND_Ilirija_1911"
 		},
 		"venue": {
 			"api_football_id": 3352,
@@ -821,7 +1166,15 @@
 		"images": [
 			{
 				"name": "3352_001.jpg",
-				"source": "",
+				"source": "https://stadioni.org/media/images/ljubljana/sportni-park-ilirija/sportni-park-ilirija-glavno_03.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3352_002.jpg",
+				"source": "https://stadioni.org/media/images/ljubljana/sportni-park-ilirija/sportni-park-ilirija-glavno_01.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -837,7 +1190,7 @@
 			"code": null,
 			"country": "Slovenia",
 			"founded": 1958,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Bistrica"
 		},
 		"venue": {
 			"api_football_id": 4906,
@@ -861,7 +1214,7 @@
 		"images": [
 			{
 				"name": "4906_001.jpg",
-				"source": "",
+				"source": "https://www.sportnicentri.si/files/home-slike/thumb/slovenska-bistrica-sportni-park.w1920h625c.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -877,7 +1230,7 @@
 			"code": null,
 			"country": "Slovenia",
 			"founded": 2003,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Brinje_Grosuplje"
 		},
 		"venue": {
 			"api_football_id": 8102,
@@ -901,7 +1254,23 @@
 		"images": [
 			{
 				"name": "8102_001.jpg",
-				"source": "",
+				"source": "https://www.nogometniklub-brinje.si/images/razno/Stadion/foto/Stadion_03.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "8102_002.jpg",
+				"source": "https://www.nogometniklub-brinje.si/images/razno/Stadion/foto/Stadion_05.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "8102_003.jpg",
+				"source": "https://www.nogometniklub-brinje.si/images/razno/Stadion/foto/Stadion_02.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -917,7 +1286,7 @@
 			"code": null,
 			"country": "Slovenia",
 			"founded": 1934,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/ND_Dravinja"
 		},
 		"venue": {
 			"api_football_id": 11410,
@@ -941,7 +1310,15 @@
 		"images": [
 			{
 				"name": "11410_001.jpg",
-				"source": "",
+				"source": "https://tickonjice.si/wp-content/uploads/2023/05/Obcuti_SRC-Dobrava-FOTO-Aleksander-Marguc-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11410_002.jpg",
+				"source": "https://www.sport-konjice.si/wp-content/uploads/2019/08/%C5%A0portni-objekti-%C5%A0PORTVKONJICAH-%C5%A0RC-Dobrava-Slovenske-Konjice-igri%C5%A1%C4%8De-za-nogomet-tribune.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -957,7 +1334,7 @@
 			"code": null,
 			"country": "Slovenia",
 			"founded": 1912,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/NK_Jesenice"
 		},
 		"venue": {
 			"api_football_id": 18725,
@@ -966,8 +1343,8 @@
 			"city": "Jesenice",
 			"capacity": 1500,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 46.433001,
+			"lng": 14.051785,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -978,7 +1355,16 @@
 			"country": "Slovenia",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "18725_001.jpg",
+				"source": "https://www.europlan-online.de/files/ff1bf76d2da9964c0318298952949945.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 25
 	},
 	{
@@ -988,7 +1374,7 @@
 			"code": null,
 			"country": "Slovenia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/ND_Slovan"
 		},
 		"venue": {
 			"api_football_id": 19132,
@@ -1035,7 +1421,8 @@
 			"name": "NŠ Drava",
 			"code": null,
 			"country": "Slovenia",
-			"founded": 2004
+			"founded": 2004,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Drava_Ptuj"
 		},
 		"venue": {
 			"api_football_id": 3349,
@@ -1054,15 +1441,7 @@
 		"images": [
 			{
 				"name": "3349_001.jpg",
-				"source": "https://sport-ptuj.si/assets/Uploads/Mestni-stadion.JPG",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3349_002.jpg",
-				"source": "https://stadioni.org/media/images/ptuj/mestni-stadion-ptuj/mestni-stadion-ptuj-glavno_02.jpg",
+				"source": "",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1077,7 +1456,8 @@
 			"name": "Tolmin",
 			"code": null,
 			"country": "Slovenia",
-			"founded": null
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/NK_Tolmin"
 		},
 		"venue": {
 			"api_football_id": 4911,
@@ -1111,7 +1491,8 @@
 			"name": "Rogaška",
 			"code": null,
 			"country": "Slovenia",
-			"founded": 1999
+			"founded": 1999,
+			"wiki": "https://en.wikipedia.org/wiki/NK_Roga%C5%A1ka"
 		},
 		"venue": {
 			"api_football_id": 3351,
@@ -1145,7 +1526,8 @@
 			"name": "Fužinar",
 			"code": null,
 			"country": "Slovenia",
-			"founded": 1937
+			"founded": 1937,
+			"wiki": "https://en.wikipedia.org/wiki/NK_Fu%C5%BEinar"
 		},
 		"venue": {
 			"api_football_id": 11940,
