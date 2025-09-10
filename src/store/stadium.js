@@ -227,24 +227,33 @@ function createStadiumStore() {
             })
         },
 
-        async fetchPaginatedStadiums(page = 1, pageSize = 20, sortBy = 'id', sortOrder = 'asc') {
-            console.log('[Store] fetchPaginatedStadiums()', page, pageSize, sortBy, sortOrder)
+        async fetchPaginatedStadiums(page = 1, pageSize = 10, sortBy = 'id', sortOrder = 'asc', countryName = 'Switzerland') {
+            console.log('[Store] fetchPaginatedStadiums()', page, pageSize, sortBy, sortOrder, countryName)
             // const { data, error } = await supabase.from("countries").select(`id, name, image`);
             const from = (page - 1) * pageSize
             const to = from + pageSize - 1
 
             const { data, error, count } = await supabase
-                .from('stadiums')
-                .select('*, teams (id, name), images (*), country: teams (leagues(countries(id, name, image)))', { count: 'exact' })
-                .order(sortBy, { ascending: sortOrder === 'asc' })
-                .range(from, to)
+                .from('stadiums_with_images_view')
+                // .select('*, teams (id, name), images (*), country: teams (leagues(countries(id, name, image)))', { count: 'exact' })
+                .select('*', { count: 'exact' })
+                // .select('*')
+                // .eq('teams[0].league.country.name', 'Switzerland')
+                // .eq('teams.id', 1)
+                // .like('teams.id', 1)
+                // .contains('teams', [{ league: { country: { name: 'Switzerland' } } }])
+                // .filter('teams', 'cs', `[{"league": {"country": {"name": "Spain"}}}]`)
+                // .filter('teams', '@>', `[{"league": {"country": {"name": "Spain"}}}]`)
+                // .eq('teams->league->country->>name', 'Switzerland');
+                // .order(sortBy, { ascending: sortOrder === 'asc' })
+                // .range(from, to)
             // const { data, error, count } = await supabase
             //     .from('teams_view')
             //     .select('*', { count: 'exact' })
-            //     .eq('country_name', 'Switzerland')
-            //     // .group('team_id')
-            //     // .order(sortBy, { ascending: sortOrder === 'asc' })
-            //     .range(from, to)
+                .eq('country_name', countryName)
+                // .group('team_id')
+                .order(sortBy, { ascending: sortOrder === 'asc' })
+                .range(from, to)
             console.log("data2: ", data);
             if (error) {
                 console.log('error: ', error);

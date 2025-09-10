@@ -1,51 +1,77 @@
 <script>
-    import { base } from "$app/paths";
-    import { stadiumStore } from "@store/stadium.js";
-    import { onMount } from "svelte";
-    import "@styles/table.css";
-    import Pagination from "@components/Pagination.svelte";
-    import Search from "@components/Search.svelte";
-    import SortAsc from "@components/icons/SortAsc.svelte";
-    import SortDesc from "@components/icons/SortDesc.svelte";
+    import { base } from '$app/paths'
+    import { onMount } from 'svelte'
+    import '@styles/table.css'
+    import Pagination from '@components/Pagination.svelte'
+    import Search from '@components/Search.svelte'
+    import SortAsc from '@components/icons/SortAsc.svelte'
+    import SortDesc from '@components/icons/SortDesc.svelte'
+    import { countryStore } from '@store/country.js'
+    import { stadiumStore } from '@store/stadium.js'
+    import Modal from '@components/Modal.svelte'
 
     onMount(async () => {
         try {
-            if ($stadiumStore.stadiums.length < 2) {
-                // await stadiumStore.fetchStadiums();
+            if ($countryStore.countries.length < 2) {
+                await countryStore.fetchCountries()
             }
-            await stadiumStore.fetchPaginatedStadiums();
+            // selectedCountry = $countryStore.countries[Math.floor(Math.random() * 54)] || null
+            selectedCountry = $countryStore.countries[51]
+            await stadiumStore.fetchPaginatedStadiums()
+            totalPages = $stadiumStore.paginatedStadiums?.totalPages || 1
         } catch (error) {
-            console.log("error: ", error);
+            console.log('error: ', error)
         }
-    });
+    })
 
-    let currentPage = 1;
-    let itemsPerPage = 10;
-    let sortBy = "name";
-    let sortOrder = "asc";
-    $: totalPages = $stadiumStore.paginatedStadiums?.totalPages;
+    let currentPage = $state(1)
+    let itemsPerPage = $state(10)
+    let sortBy = $state('id')
+    let sortOrder = $state('asc')
+    let showModal = $state(false)
+    let selectedCountry = $state(null)
+    let selectedStadium = $state(null)
+    let totalPages = $state(1)
+    let tooltipText = 'Select country'
+    // $: totalPages = $stadiumStore.paginatedStadiums?.totalPages;
+    // let totalPages = $state($stadiumStore.paginatedStadiums?.totalPages)
+    // $derived: totalPages = stadiumStore.paginatedStadiums?.totalPages
 
     const sortTable = async (column) => {
         if (sortBy === column) {
-            sortOrder = sortOrder === "asc" ? "desc" : "asc";
+            sortOrder = sortOrder === 'asc' ? 'desc' : 'asc'
         } else {
-            sortBy = column;
-            sortOrder = "asc";
+            sortBy = column
+            sortOrder = 'asc'
         }
-		await stadiumStore.fetchPaginatedstadiums(currentPage, itemsPerPage, sortBy, sortOrder);
+        await stadiumStore.fetchPaginatedstadiums(currentPage, itemsPerPage, sortBy, sortOrder)
+    }
+
+    const selectCountry = async (country) => {
+        console.log('selectCountry country: ', country)
+        selectedCountry = country
+        if (country && country.name) {
+            // await countryStore.fetchCountryBySlug(country.slug)
+            // await stadiumStore.fetchPaginatedStadiums(1, itemsPerPage, sortBy, sortOrder)
+            await stadiumStore.fetchPaginatedStadiums(1, itemsPerPage, sortBy, sortOrder, country.name)
+        }
     }
 
     const onPageChange = async (page) => {
-        console.log("onPageChange page: ", page);
-        currentPage = page;
+        console.log('onPageChange page: ', page)
+        currentPage = page
         // update your table data here
-        await stadiumStore.fetchPaginatedStadiums(page, itemsPerPage, sortBy, sortOrder);
-    };
+        await stadiumStore.fetchPaginatedStadiums(page, itemsPerPage, sortBy, sortOrder, selectedCountry?.name)
+    }
 
-    const onSearch = async (searchTerm) => {
-        console.log("onSearch searchTerm: ", searchTerm);
-        await stadiumStore.fetchCountryByName(searchTerm);
-    };
+    const openModal = (stadium) => {
+        console.log('openModal stadium: ', stadium)
+        selectedStadium = stadium
+        // selectedStadium = {
+        //     data: ...stadium
+        // }
+        showModal = true
+    }
 </script>
 
 <svelte:head>
@@ -56,11 +82,12 @@
 <div class="row">
     <div class="col-12 text-center">
         stadiumStore.stadiums.length: {$stadiumStore.stadiums.length}<br />
-        stadiumStore.paginatedStadiums.data.length: {$stadiumStore
-            .paginatedStadiums?.data?.length}<br />
-        stadiumStore.paginatedStadiums.totalCount: {$stadiumStore
-            .paginatedStadiums?.totalCount}<br />
-			sortOrder: {sortOrder}<br />
+        stadiumStore.paginatedStadiums.data.length: {$stadiumStore.paginatedStadiums?.data?.length}<br />
+        stadiumStore.paginatedStadiums.totalCount: {$stadiumStore.paginatedStadiums?.totalCount}<br />
+        <!-- $stadiumStore.paginatedStadiums?.totalPages: {$stadiumStore.paginatedStadiums?.totalPages}<br /> -->
+        selectedCountry.name: {selectedCountry?.name}<br />
+        sortOrder: {sortOrder}<br />
+        countryStore.countries.length: {$countryStore.countries.length}<br />
         <h2 class="text-center">Stadiums page</h2>
         <br />
         <a href="{base}/">Home page</a>
@@ -72,40 +99,95 @@
         <br />
     </div>
 </div>
-<div class="row justify-center" style="">
-    <div class="col-8" style="">
+<div class="row justify-center">
+    <div class="col-8 text-start">
+        <h3 class="text-center my-2">Pick a country</h3>
+        {#each $countryStore.countries.sort((a, b) => a.name.localeCompare(b.name)) as country, index}
+            <!-- {country.name} ({country.id}) &nbsp; &nbsp; -->
+            <!-- :class="{selectedCountry?.id === country.id ? 'active' : ''}" -->
+            <!-- title="{country.name}" -->
+            <div class="tooltip">
+                <button type="button" class={`flag-btn mx-1 ${selectedCountry?.id === country.id ? 'active' : ''}`} onclick={() => selectCountry(country)} aria-label={`Select ${country.name}`} style="background: none; padding: 0;">
+                    <img src="{base}/images/flags/{country.image || `${base}/no-image.png`}" alt={country.name} height="30" />
+                </button>
+                <span class="tooltiptext">{country.name}</span>
+            </div>
+        {/each}
+    </div>
+</div>
+<div class="row justify-center">
+    <div class="col-12">
+        {#if showModal}
+            <Modal bind:showModal data={selectedStadium}>
+                {#snippet header()}{/snippet}
+            </Modal>
+        {/if}
+    </div>
+</div>
+<div class="row justify-center my-2" style="">
+    <div class="col-8" style="background: #f8f9fa; padding: 0px; border-radius: 8px;">
+        {#if selectedCountry !== null}
+            <h2 class="text-center my-2">Stadiums in {selectedCountry?.name}</h2>
+        {/if}
         <div class="responsive-table-container" style="">
-            <Search {onSearch} />
             <table class="full-data-table" style="">
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>ID</th>
+                        <!-- <th>ID</th> -->
                         <th>
                             Name
-                            <button
-                                class="sort-icon"
-                                on:click={() => sortTable("name")}
-                            >
-                                {#if sortBy === "name" && sortOrder === "asc"}
+                            <button class="sort-icon" onclick={() => sortTable('name')}>
+                                {#if sortBy === 'name' && sortOrder === 'asc'}
                                     <SortAsc />
-                                {:else if sortBy === "name" && sortOrder === "desc"}
+                                {:else if sortBy === 'name' && sortOrder === 'desc'}
                                     <SortDesc />
                                 {:else}
                                     <SortAsc />
                                 {/if}
                             </button>
                         </th>
-						<th>Images</th>
+                        <th>City</th>
+                        <th>Capacity</th>
+                        <th>Teams</th>
+                        <th>Wiki</th>
+                        <th>Images</th>
                     </tr>
                 </thead>
                 <tbody>
                     {#each $stadiumStore.paginatedStadiums?.data as stadium, index}
                         <tr>
-                            <td>{index + 1}</td>
-                            <td>{stadium.id}</td>
-                            <td>{stadium.name}</td>
-							<td></td>
+                            <td>{(currentPage - 1) * itemsPerPage + index + 1}</td>
+                            <!-- <td>{stadium.id}</td> -->
+                            <td>{stadium.stadium_name}</td>
+                            <td>{stadium.stadium_city}</td>
+                            <td>{new Intl.NumberFormat().format(stadium.stadium_capacity)}</td>
+                            <td>
+                                {#each stadium.teams as team, teamIndex}
+                                    <!-- {team.name}{teamIndex < stadium.teams.length - 1 ? ', ' : ''} -->
+                                    <div class="tooltip">
+                                        <img src={team.image || `${base}/images/no-image.png`} alt={team.name} height="50" class="px-1" />
+                                        <span class="tooltiptext">{team.name}</span>
+                                    </div>
+                                {/each}
+                            </td>
+                            <td>
+                                <a href={stadium.stadium_wiki} target="_blank">
+                                    <img src="{base}/images/icons/external-link.svg" width="20" alt="External link icon" style="opacity: 0.5;" />
+                                </a>
+                            </td>
+                            <td style="">
+                                <!-- {#each stadium.images as image}
+                                    <img src={image.url || `${base}/no-image.png`} alt={stadium.name} height="50" class="px-1" />
+                                {/each} -->
+                                <div style="display: flex;
+  align-items: center;">
+                                <button type="button" class={`img-btn`} onclick={() => openModal(stadium)} aria-label={stadium.images[0]?.name} style="background: none; border:none; padding: 0;">
+                                    <img src={stadium.images[0]?.url || `${base}/images/no-image.png`} alt={stadium.images[0]?.name} height="50" class="px-1" />
+                                </button>
+                                <span style="">({stadium.images.length})</span>
+                                </div>
+                            </td>
                         </tr>
                     {/each}
                 </tbody>
@@ -119,3 +201,65 @@
     <div class="col-4">col-4</div>
     <div class="col-4">col-4</div>
 </div>
+
+<style scoped>
+    .flag-btn {
+        opacity: 0.3;
+        border: none;
+        box-sizing: border-box;
+    }
+    .flag-btn:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
+    .flag-btn.active {
+        opacity: 1;
+        /* border: 4px solid red; */
+    }
+    .img-btn {
+        border: none;
+        box-sizing: border-box;
+    }
+    .img-btn:hover {
+        cursor: pointer;
+    }
+
+    .tooltip {
+        position: relative;
+        display: inline-block;
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        /* width: 120px; */
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        padding: 5px 5px;
+        border-radius: 6px;
+        position: absolute;
+        position: absolute;
+        top: -50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .tooltip .tooltiptext::after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }
+</style>

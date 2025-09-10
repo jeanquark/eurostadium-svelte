@@ -18,8 +18,8 @@ function createCountryStore() {
     const methods = {
         async fetchCountries() {
             // console.log('[Store] fetchCountries()')
-            const { data, error } = await supabase.from("countries").select(`id, name, image, leagues (id, name, image, api_football_id)`);
-            // console.log("data2: ", data);
+            const { data, error } = await supabase.from("countries").select(`id, name, image, uefa_ranking, leagues (id, name, image, api_football_id)`);
+            console.log("data2: ", data);
             // console.log('error: ', error);
             const array = []
             for (let i = 0; i < data.length; i++) {

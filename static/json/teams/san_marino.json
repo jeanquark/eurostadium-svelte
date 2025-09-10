@@ -6,7 +6,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/SS_Folgore_Falciano_Calcio"
 		},
 		"venue": {
 			"api_football_id": 1358,
@@ -15,8 +15,8 @@
 			"city": "Falciano",
 			"capacity": 500,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.981394,
+			"lng": 12.504781,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -27,7 +27,16 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "1358_001.jpg",
+				"source": "https://www.fsgc.sm/cdn/stadiums/campo-sportivo-di-falciano/3/1920x1080.jpg?v=1748436082",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 1
 	},
 	{
@@ -37,7 +46,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": 1956,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/SP_Tre_Penne"
 		},
 		"venue": {
 			"api_football_id": 2932,
@@ -46,11 +55,11 @@
 			"city": "Città di San Marino",
 			"capacity": 600,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.929550,
+			"lng": 12.442765,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://it.wikipedia.org/wiki/Campo_sportivo_di_Fonte_dell%27Ovo"
 		},
 		"league": {
 			"api_football_id": 404,
@@ -58,7 +67,24 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "700_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/4/44/Stadio_Fonte_dell%27Ovo_%28Tribuna%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "700_002.jpg",
+				"source": "https://www.saturday3.com/images/mg/san_marino_montecchio_15.11_8_.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 2
 	},
 	{
@@ -68,7 +94,7 @@
 			"code": "FIO",
 			"country": "San-Marino",
 			"founded": 1967,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/SP_La_Fiorita"
 		},
 		"venue": {
 			"api_football_id": 20185,
@@ -77,8 +103,8 @@
 			"city": "Montegiardino",
 			"capacity": 500,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.914896,
+			"lng": 12.482076,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -89,7 +115,16 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "20185_001.jpg",
+				"source": "https://www.fsgc.sm/cdn/stadiums/stadio-di-montegiardino/2/1920x1080.jpg?v=1748436061",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 3
 	},
 	{
@@ -99,7 +134,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": 1949,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Tre_Fiori_FC"
 		},
 		"venue": {
 			"api_football_id": 1360,
@@ -108,8 +143,8 @@
 			"city": "Fiorentino",
 			"capacity": 700,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.908678,
+			"lng": 12.447948,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -120,7 +155,24 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "1360_001.jpg",
+				"source": "https://paabortebane.no/wp-content/uploads/2023/04/Bilde-02.04.2023-15-05-10-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1360_002.jpg",
+				"source": "https://live.staticflickr.com/7568/15874028931_a2bb333960_h.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 4
 	},
 	{
@@ -130,7 +182,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/SP_Cailungo"
 		},
 		"venue": {
 			"api_football_id": 4006,
@@ -139,8 +191,8 @@
 			"city": "Borgo Maggiore",
 			"capacity": 200,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.9351,
+			"lng": 12.4518,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -151,7 +203,32 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "4006_001.jpg",
+				"source": "https://www.saturday3.com/images/mg/san_marino_borgo_maggiore_15.11.2014_6_.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4006_002.jpg",
+				"source": "https://www.saturday3.com/images/mg/san_marino_borgo_maggiore_15.11.2014_5_.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4006_003.jpg",
+				"source": "https://www.saturday3.com/images/mg/san_marino_borgo_maggiore_15.11.2014_2_.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 5
 	},
 	{
@@ -161,7 +238,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/S.S._Cosmos"
 		},
 		"venue": {
 			"api_football_id": 2616,
@@ -170,11 +247,11 @@
 			"city": "Serravalle",
 			"capacity": 5115,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.971279,
+			"lng": 12.477112,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/San_Marino_Stadium"
 		},
 		"league": {
 			"api_football_id": 404,
@@ -182,7 +259,56 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "2616_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/9/91/Stadio_Olimpico_%28Serravalle%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2616_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Stadio_Olimpico_di_Serravalle_%28inside%29.jpg/2560px-Stadio_Olimpico_di_Serravalle_%28inside%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2616_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Stadio_Olimpico_Serravalle_%28settembre_2011%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2616_004.jpg",
+				"source": "https://pbs.twimg.com/media/FFdBWjdVcAocyWU?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2616_005.jpg",
+				"source": "https://pbs.twimg.com/media/FFdE2eqUYAQLfR2?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2616_006.jpg",
+				"source": "https://pbs.twimg.com/media/GWo2BtEWMAA8tIz.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 6
 	},
 	{
@@ -192,7 +318,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Domagnano"
 		},
 		"venue": {
 			"api_football_id": 4007,
@@ -201,8 +327,8 @@
 			"city": "Domagnano",
 			"capacity": 1000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.945310,
+			"lng": 12.466108,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -213,7 +339,16 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "4007_001.jpg",
+				"source": "https://www.fsgc.sm/cdn/stadiums/stadio-di-domagnano/5/1920x1080.jpg?v=1748435991",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 7
 	},
 	{
@@ -223,7 +358,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/SC_Faetano"
 		},
 		"venue": {
 			"api_football_id": 19065,
@@ -232,8 +367,8 @@
 			"city": "Faetano",
 			"capacity": 500,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.926204,
+			"lng": 12.497915,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -244,7 +379,16 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "19065_001.jpg",
+				"source": "https://www.fsgc.sm/cdn/stadiums/stadio-di-faetano/4/1920x1080.jpg?v=1748436020",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 8
 	},
 	{
@@ -254,7 +398,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Fiorentino"
 		},
 		"venue": {
 			"api_football_id": 1360,
@@ -263,8 +407,8 @@
 			"city": "Fiorentino",
 			"capacity": 700,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.908678,
+			"lng": 12.447948,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -275,7 +419,24 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "1360_001.jpg",
+				"source": "https://paabortebane.no/wp-content/uploads/2023/04/Bilde-02.04.2023-15-05-10-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1360_002.jpg",
+				"source": "https://live.staticflickr.com/7568/15874028931_a2bb333960_h.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 9
 	},
 	{
@@ -285,7 +446,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": 2000,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/AC_Juvenes/Dogana"
 		},
 		"venue": {
 			"api_football_id": 2616,
@@ -294,8 +455,8 @@
 			"city": "Serravalle",
 			"capacity": 5115,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.971279,
+			"lng": 12.477112,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -306,7 +467,56 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "2616_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/9/91/Stadio_Olimpico_%28Serravalle%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2616_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Stadio_Olimpico_di_Serravalle_%28inside%29.jpg/2560px-Stadio_Olimpico_di_Serravalle_%28inside%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2616_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Stadio_Olimpico_Serravalle_%28settembre_2011%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2616_004.jpg",
+				"source": "https://pbs.twimg.com/media/FFdBWjdVcAocyWU?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2616_005.jpg",
+				"source": "https://pbs.twimg.com/media/FFdE2eqUYAQLfR2?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2616_006.jpg",
+				"source": "https://pbs.twimg.com/media/GWo2BtEWMAA8tIz.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 10
 	},
 	{
@@ -316,7 +526,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": 1928,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/AC_Libertas"
 		},
 		"venue": {
 			"api_football_id": 4006,
@@ -325,11 +535,11 @@
 			"city": "Borgo Maggiore",
 			"capacity": 200,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.9351,
+			"lng": 12.4518,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://it.wikipedia.org/wiki/Campo_sportivo_di_Borgo_Maggiore"
 		},
 		"league": {
 			"api_football_id": 404,
@@ -337,7 +547,32 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "4006_001.jpg",
+				"source": "https://www.saturday3.com/images/mg/san_marino_borgo_maggiore_15.11.2014_6_.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4006_002.jpg",
+				"source": "https://www.saturday3.com/images/mg/san_marino_borgo_maggiore_15.11.2014_5_.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4006_003.jpg",
+				"source": "https://www.saturday3.com/images/mg/san_marino_borgo_maggiore_15.11.2014_2_.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 11
 	},
 	{
@@ -347,7 +582,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/SS_Murata"
 		},
 		"venue": {
 			"api_football_id": 2932,
@@ -356,8 +591,8 @@
 			"city": "Città di San Marino",
 			"capacity": 600,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.929551,
+			"lng": 12.442779,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -368,7 +603,32 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "2932_001.jpg",
+				"source": "https://www.saturday3.com/images/mg/san_marino_montecchio_15.11_8_.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2932_002.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4JLqgtsb0zMV9Eq4Akd6wTIUwJuPGdsMPVZ5s169EUET7CLwQb1y-8JVtG3PnadWiTH4Ng08mS5S-UILFRFe06u9JdknfMZCZ-cHX3tLtdpsqt_eqUPXB24NeQdC8t7ZeJDbkBz64Vb7WmdoEeQ8vOdBpVoCgm1PDs3HzQsn_Z614cKJQY3coD4-L/s5524/Fonte%20Ovo%20(258).JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2932_003.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjleUoVwG8e1CoMgTpQkMc63iwyaCqWkxRDOUUonaJ4arjy7_KUlY7RqOyPvvH95TDHvpNogN0Hb5RwhfINYhHTmrzl_WCvTi4EOUP5QhH_y3ipRaJWMze52SSVP1t3zgXSRt4aCEb_Hug0OWUwIcglJv21qhMxKTSkS084xfi6GBJLC8IpTtnCzNhm/s5568/Fonte%20Ovo%20(76).JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 12
 	},
 	{
@@ -378,7 +638,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/SS_Pennarossa"
 		},
 		"venue": {
 			"api_football_id": 4010,
@@ -387,8 +647,8 @@
 			"city": "Chiesanuova",
 			"capacity": 1000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.903485,
+			"lng": 12.424100,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -399,7 +659,16 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "4010_001.jpg",
+				"source": "https://www.radionuova.com/wp-content/uploads/2023/08/Campo-sportivo-nuovo-per-impianto-Sandro-Ultimi-Chiesanuova.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 13
 	},
 	{
@@ -409,7 +678,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/AS_San_Giovanni"
 		},
 		"venue": {
 			"api_football_id": 4006,
@@ -418,8 +687,8 @@
 			"city": "Borgo Maggiore",
 			"capacity": 200,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.9351,
+			"lng": 12.4518,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -430,7 +699,32 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "4006_001.jpg",
+				"source": "https://www.saturday3.com/images/mg/san_marino_borgo_maggiore_15.11.2014_6_.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4006_002.jpg",
+				"source": "https://www.saturday3.com/images/mg/san_marino_borgo_maggiore_15.11.2014_5_.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4006_003.jpg",
+				"source": "https://www.saturday3.com/images/mg/san_marino_borgo_maggiore_15.11.2014_2_.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 14
 	},
 	{
@@ -440,7 +734,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/AC_Virtus"
 		},
 		"venue": {
 			"api_football_id": 4011,
@@ -449,8 +743,8 @@
 			"city": "Acquaviva",
 			"capacity": 1500,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.946892,
+			"lng": 12.409962,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -461,7 +755,24 @@
 			"country": "San Marino",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "4011_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Stadio_Giammaria.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4011_002.jpg",
+				"source": "https://www.sporteimpianti.it/wp-content/uploads/2021/02/1611850338803_web.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 15
 	},
 	{
@@ -471,7 +782,7 @@
 			"code": null,
 			"country": "San-Marino",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/San_Marino_Academy"
 		},
 		"venue": {
 			"api_football_id": null,
