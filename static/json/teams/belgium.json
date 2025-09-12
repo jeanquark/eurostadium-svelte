@@ -1569,8 +1569,8 @@
 			"surface": "grass",
 			"lat": 50.408524,
 			"lng": 4.456877,
-			"x": 0,
-			"y": 0,
+			"x": 495,
+			"y": 541,
 			"wiki": "https://fr.wikipedia.org/wiki/Stade_de_la_Neuville"
 		},
 		"league": {
@@ -2025,8 +2025,8 @@
 			"surface": "grass",
 			"lat": 51.089506,
 			"lng": 3.765621,
-			"x": 0,
-			"y": 0,
+			"x": 316,
+			"y": 263,
 			"wiki": ""
 		},
 		"league": {
@@ -2175,8 +2175,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -658,
-			"y": 15654,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {},

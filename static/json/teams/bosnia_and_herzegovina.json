@@ -391,11 +391,11 @@
 			"city": "Prijedor",
 			"capacity": 3540,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 44.981908,
+			"lng": 16.708017,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Gradski_stadion_(Prijedor)"
 		},
 		"league": {
 			"api_football_id": 315,
@@ -1049,8 +1049,8 @@
 			"surface": "grass",
 			"lat": 44.154031,
 			"lng": 17.788344,
-			"x": 0,
-			"y": 0,
+			"x": 530,
+			"y": 423,
 			"wiki": "https://en.wikipedia.org/wiki/Vitez_City_Stadium"
 		},
 		"league": {

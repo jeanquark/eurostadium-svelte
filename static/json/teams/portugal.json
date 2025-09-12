@@ -1325,7 +1325,12 @@
 			"y": 244,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Marcolino_de_Castro"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1277_001.jpg",
@@ -1392,7 +1397,12 @@
 			"y": 714,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Mar%C3%ADtimo"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1279_001.jpg",
@@ -1467,7 +1477,12 @@
 			"y": 967,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_de_Portim%C3%A3o"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1285_001.jpg",
@@ -1526,7 +1541,12 @@
 			"y": 81,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_Eng._Manuel_Branco_Teixeira"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1273_001.jpg",
@@ -1585,7 +1605,12 @@
 			"y": 685,
 			"wiki": "https://en.wikipedia.org/wiki/Benfica_Campus"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1266_001.jpg",
@@ -1636,7 +1661,12 @@
 			"y": 988,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_de_S%C3%A3o_Lu%C3%ADs"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1290_001.jpg",
@@ -1695,7 +1725,12 @@
 			"y": 260,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Carlos_Os%C3%B3rio"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "10959_001.jpg",
@@ -1738,7 +1773,12 @@
 			"y": 176,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_da_Mata_Real"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1283_001.jpg",
@@ -1797,7 +1837,12 @@
 			"y": 187,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_25_de_Abril"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1284_001.jpg",
@@ -1848,7 +1893,12 @@
 			"y": 296,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Fontelo"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1264_001.jpg",
@@ -1915,7 +1965,12 @@
 			"y": 216,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_Jorge_Sampaio"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1287_001.jpg",
@@ -1966,7 +2021,12 @@
 			"y": 193,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Mar"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1278_001.jpg",
@@ -2017,7 +2077,12 @@
 			"y": 0,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2812_001.jpg",
@@ -2076,7 +2141,12 @@
 			"y": 153,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2817_001.jpg",
@@ -2143,7 +2213,12 @@
 			"y": 473,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Dr._Magalh%C3%A3es_Pessoa"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3514_001.jpg",
@@ -2218,7 +2293,12 @@
 			"y": 159,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3590_001.jpg",
@@ -2269,7 +2349,12 @@
 			"y": 598,
 			"wiki": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Manuel_Marques"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3638_001.jpg",
@@ -2328,7 +2413,12 @@
 			"y": 231,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 95,
+			"name": "Segunda Liga",
+			"country": "Portugal",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "4700_001.jpg",

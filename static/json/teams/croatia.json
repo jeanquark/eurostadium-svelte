@@ -1303,11 +1303,11 @@
 			"city": "Karlovac",
 			"capacity": 8000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 45.484423,
+			"lng": 15.564008,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_Branko_%C4%8Cavlovi%C4%87-%C4%8Cavlek"
 		},
 		"league": {
 			"api_football_id": 211,
@@ -1318,7 +1318,15 @@
 		"images": [
 			{
 				"name": "10630_001.jpg",
-				"source": "",
+				"source": "https://en.wikipedia.org/wiki/Stadion_Branko_%C4%8Cavlovi%C4%87-%C4%8Cavlek#/media/File:Stadium_Branko_Cavlovic_Cavlek.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10630_002.jpg",
+				"source": "https://travelcroatia.live/wp-content/uploads/2021/11/125924473_1233553120378392_9079331482883664405_n.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,

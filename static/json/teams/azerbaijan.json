@@ -601,10 +601,66 @@
 	},
 	{
 		"team": {
+			"api_football_id": 4199,
+			"name": "Səbail",
+			"code": null,
+			"country": "Azerbaijan",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Sabail_FK"
+		},
+		"venue": {
+			"api_football_id": 12459,
+			"name": "ASCO Arena",
+			"address": "Bayıl",
+			"city": "Baku",
+			"capacity": 6000,
+			"surface": "artificial turf",
+			"lat": 40.332124,
+			"lng": 49.817686,
+			"x": 864,
+			"y": 461,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 418,
+			"name": "Birinci Dasta",
+			"country": "Azerbaijan",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "12459_001.jpg",
+				"source": "https://www.football-plus.az/uploads/posts/2022-08/1659692219_asco.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12459_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/6/63/Bay%C4%B1l_Arena%2C_May_2022.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12459_003.jpg",
+				"source": "https://avatars.mds.yandex.net/get-altay/8128315/042f5e7e64e1e981414248ab477042c7.jpg/orig",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 13
+	},
+	{
+		"team": {
 			"api_football_id": 5492,
 			"name": "MOIK",
 			"code": "MOI",
-			"country": "Azerbaidjan",
+			"country": "Azerbaijan",
 			"founded": null,
 			"wiki": "https://en.wikipedia.org/wiki/MOIK_Baku"
 		},
@@ -621,7 +677,12 @@
 			"y": 435,
 			"wiki": "https://en.wikipedia.org/wiki/Bine_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 418,
+			"name": "Birinci Dasta",
+			"country": "Azerbaijan",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "4174_001.jpg",
@@ -632,7 +693,306 @@
 				"size": 0
 			}
 		],
-		"no": 13
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 5500,
+			"name": "Zaqatala",
+			"code": null,
+			"country": "Azerbaijan",
+			"founded": 2010,
+			"wiki": "https://en.wikipedia.org/wiki/Zagatala_PFK"
+		},
+		"venue": {
+			"api_football_id": 4132,
+			"name": "Şəhər stadionu",
+			"address": "2 Sülh küçəsi",
+			"city": "Zaqatala",
+			"capacity": 3500,
+			"surface": "artificial turf",
+			"lat": 41.639444,
+			"lng": 46.652778,
+			"x": 323,
+			"y": 166,
+			"wiki": "https://en.wikipedia.org/wiki/Zaqatala_City_Stadium"
+		},
+		"league": {
+			"api_football_id": 418,
+			"name": "Birinci Dasta",
+			"country": "Azerbaijan",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "4132_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/a/af/Stadioon-_Zagatala_Merkezi_Stadionu_-_panoramio.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4132_002.jpg",
+				"source": "https://zaqatala.arenahotels.az/img/b85b93490e64bea7.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 5573,
+			"name": "Energetik",
+			"code": null,
+			"country": "Azerbaijan",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Energetik_FK"
+		},
+		"venue": {
+			"api_football_id": 4176,
+			"name": "Yaşar Məmmədzadə adına şəhər stadionu",
+			"address": null,
+			"city": "Mingəçevir",
+			"capacity": 16000,
+			"surface": "grass",
+			"lat": 40.762974,
+			"lng": 47.042621,
+			"x": 390,
+			"y": 364,
+			"wiki": "https://az.wikipedia.org/wiki/Ya%C5%9Far_M%C9%99mm%C9%99dzad%C9%99_ad%C4%B1na_stadion"
+		},
+		"league": {
+			"api_football_id": 418,
+			"name": "Birinci Dasta",
+			"country": "Azerbaijan",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "4176_001.jpg",
+				"source": "https://www.rekord.az/storage/uploads/4/372410617-1476766426471119-7071873608140827383-n.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4176_002.jpg",
+				"source": "https://www.rekord.az/storage/uploads/4/372416237-246952117776684-2568303254189824048-n.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 5576,
+			"name": "Şahdağ",
+			"code": "SAH",
+			"country": "Azerbaijan",
+			"founded": 1992,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 4178,
+			"name": "Şövkət Orduxanov adına stadionu",
+			"address": "135 Haydar Əliyev",
+			"city": "Gusar",
+			"capacity": 6000,
+			"surface": "grass",
+			"lat": 41.419264,
+			"lng": 48.420433,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 418,
+			"name": "Birinci Dasta",
+			"country": "Azerbaijan",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "4178_001.jpg",
+				"source": "https://teleqraf.az/storage/2025/07/22/whatsapp_image_2025-07-22_at_12.14.22.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4178_002.jpg",
+				"source": "https://images.oxu.az/2025/03/11/n7H6Sjx57NkikeqB6D79T5TlW3BgwYYoMRukVzsP:1200.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 22280,
+			"name": "Difai Ağsu",
+			"code": null,
+			"country": "Azerbaijan",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/A%C4%9Fsu_FK"
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 418,
+			"name": "Birinci Dasta",
+			"country": "Azerbaijan",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 22788,
+			"name": "Baku Sportinq",
+			"code": null,
+			"country": "Azerbaijan",
+			"founded": 2018,
+			"wiki": "https://az.wikipedia.org/wiki/Baku_Sportinq_FK"
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 418,
+			"name": "Birinci Dasta",
+			"country": "Azerbaijan",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 22789,
+			"name": "Cəbrayıl",
+			"code": null,
+			"country": "Azerbaijan",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Jabrayil_FK"
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 418,
+			"name": "Birinci Dasta",
+			"country": "Azerbaijan",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 25273,
+			"name": "Şimal",
+			"code": null,
+			"country": "Azerbaijan",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 418,
+			"name": "Birinci Dasta",
+			"country": "Azerbaijan",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 25318,
+			"name": "Safa Baku",
+			"code": null,
+			"country": "Azerbaijan",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 418,
+			"name": "Birinci Dasta",
+			"country": "Azerbaijan",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 22
 	},
 	{
 		"team": {
@@ -667,222 +1027,7 @@
 				"size": 0
 			}
 		],
-		"no": 14
-	},
-	{
-		"team": {
-			"api_football_id": 5500,
-			"name": "Zaqatala",
-			"code": null,
-			"country": "Azerbaidjan",
-			"founded": 2010,
-			"wiki": "https://en.wikipedia.org/wiki/Zagatala_PFK"
-		},
-		"venue": {
-			"api_football_id": 4132,
-			"name": "Şəhər stadionu",
-			"address": "2 Sülh küçəsi",
-			"city": "Zaqatala",
-			"capacity": 3500,
-			"surface": "artificial turf",
-			"lat": 41.639444,
-			"lng": 46.652778,
-			"x": 323,
-			"y": 166,
-			"wiki": "https://en.wikipedia.org/wiki/Zaqatala_City_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "4132_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/a/af/Stadioon-_Zagatala_Merkezi_Stadionu_-_panoramio.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4132_002.jpg",
-				"source": "https://zaqatala.arenahotels.az/img/b85b93490e64bea7.webp",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 15
-	},
-	{
-		"team": {
-			"api_football_id": 5573,
-			"name": "Energetik",
-			"code": null,
-			"country": "Azerbaidjan",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/Energetik_FK"
-		},
-		"venue": {
-			"api_football_id": 4176,
-			"name": "Yaşar Məmmədzadə adına şəhər stadionu",
-			"address": null,
-			"city": "Mingəçevir",
-			"capacity": 16000,
-			"surface": "grass",
-			"lat": 40.762974,
-			"lng": 47.042621,
-			"x": 390,
-			"y": 364,
-			"wiki": "https://az.wikipedia.org/wiki/Ya%C5%9Far_M%C9%99mm%C9%99dzad%C9%99_ad%C4%B1na_stadion"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "4176_001.jpg",
-				"source": "https://www.rekord.az/storage/uploads/4/372410617-1476766426471119-7071873608140827383-n.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4176_002.jpg",
-				"source": "https://www.rekord.az/storage/uploads/4/372416237-246952117776684-2568303254189824048-n.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 16
-	},
-	{
-		"team": {
-			"api_football_id": 22280,
-			"name": "Difai Ağsu",
-			"code": null,
-			"country": "Azerbaidjan",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/A%C4%9Fsu_FK"
-		},
-		"venue": {
-			"api_football_id": null,
-			"name": null,
-			"address": null,
-			"city": null,
-			"capacity": null,
-			"surface": null,
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [],
-		"no": 17
-	},
-	{
-		"team": {
-			"api_football_id": 22788,
-			"name": "Baku Sportinq",
-			"code": null,
-			"country": "Azerbaidjan",
-			"founded": 2018,
-			"wiki": "https://az.wikipedia.org/wiki/Baku_Sportinq_FK"
-		},
-		"venue": {
-			"api_football_id": null,
-			"name": null,
-			"address": null,
-			"city": null,
-			"capacity": null,
-			"surface": null,
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [],
-		"no": 18
-	},
-	{
-		"team": {
-			"api_football_id": 22789,
-			"name": "Cəbrayıl",
-			"code": null,
-			"country": "Azerbaidjan",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/Jabrayil_FK"
-		},
-		"venue": {
-			"api_football_id": null,
-			"name": null,
-			"address": null,
-			"city": null,
-			"capacity": null,
-			"surface": null,
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [],
-		"no": 19
-	},
-	{
-		"team": {
-			"api_football_id": 4199,
-			"name": "Səbail",
-			"code": null,
-			"country": "Azerbaidjan",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/Sabail_FK"
-		},
-		"venue": {
-			"api_football_id": 12459,
-			"name": "ASCO Arena",
-			"address": "Bayıl",
-			"city": "Baku",
-			"capacity": 6000,
-			"surface": "artificial turf",
-			"lat": 40.332124,
-			"lng": 49.817686,
-			"x": 864,
-			"y": 461,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "12459_001.jpg",
-				"source": "https://www.football-plus.az/uploads/posts/2022-08/1659692219_asco.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12459_002.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/6/63/Bay%C4%B1l_Arena%2C_May_2022.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12459_003.jpg",
-				"source": "https://avatars.mds.yandex.net/get-altay/8128315/042f5e7e64e1e981414248ab477042c7.jpg/orig",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 20
+		"no": 23
 	},
 	{
 		"team": {
@@ -908,7 +1053,7 @@
 		},
 		"league": {},
 		"images": [],
-		"no": 21
+		"no": 24
 	},
 	{
 		"team": {
@@ -934,6 +1079,6 @@
 		},
 		"league": {},
 		"images": [],
-		"no": 22
+		"no": 25
 	}
 ]

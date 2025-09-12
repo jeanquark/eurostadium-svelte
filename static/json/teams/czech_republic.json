@@ -1679,11 +1679,11 @@
 			"city": "Ústí nad Labem",
 			"capacity": 4000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
-			"wiki": ""
+			"lat": 50.675769,
+			"lng": 14.016416,
+			"x": 284,
+			"y": 303,
+			"wiki": "https://en.wikipedia.org/wiki/M%C4%9Bstsk%C3%BD_stadion_(%C3%9Ast%C3%AD_nad_Labem)"
 		},
 		"league": {
 			"api_football_id": 346,
@@ -1691,7 +1691,24 @@
 			"country": "Czech Republic",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "2516_001.jpg",
+				"source": "https://www.gdesign-cz.eu/galerie/projekty/2/26.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2516_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/UstinadLabem_Mestskystadion.JPG/1200px-UstinadLabem_Mestskystadion.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 26
 	},
 	{
@@ -1753,7 +1770,7 @@
 	{
 		"team": {
 			"api_football_id": 4257,
-			"name": "Líšeň",
+			"name": "Artis",
 			"code": "LIS",
 			"country": "Czech-Republic",
 			"founded": null,

@@ -858,7 +858,7 @@
         "name": "Premier League",
         "slug": "premier_league",
         "api_football_id": 39,
-        "country": "England and Wales",
+        "country": "England",
         "api_football_country_id": 0,
         "wiki": "https://en.wikipedia.org/wiki/Premier_League",
         "national_level": 1
@@ -867,7 +867,7 @@
         "name": "Championship",
         "slug": "championship",
         "api_football_id": 40,
-        "country": "England and Wales",
+        "country": "England",
         "api_football_country_id": 0,
         "wiki": "https://en.wikipedia.org/wiki/EFL_Championship",
         "national_level": 2

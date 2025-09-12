@@ -1391,11 +1391,11 @@
 			"city": "Sevlievo",
 			"capacity": 8816,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
-			"wiki": ""
+			"lat": 43.024105,
+			"lng": 25.111319,
+			"x": 440,
+			"y": 439,
+			"wiki": "https://en.wikipedia.org/wiki/Stadion_Rakovski"
 		},
 		"league": {
 			"api_football_id": 173,
@@ -1439,10 +1439,10 @@
 			"city": "Sandanski",
 			"capacity": 6000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"lat": 41.573777,
+			"lng": 23.283931,
+			"x": 148,
+			"y": 751,
 			"wiki": ""
 		},
 		"league": {

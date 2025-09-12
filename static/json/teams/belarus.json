@@ -1206,11 +1206,11 @@
 			"city": "Minsk",
 			"capacity": 5200,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 53.869764,
+			"lng": 27.658325,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Torpedo_Stadium_%28Minsk%29"
 		},
 		"league": {
 			"api_football_id": 117,
@@ -1221,7 +1221,15 @@
 		"images": [
 			{
 				"name": "170_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Torpedo_stadium_Zhodino_west_stand_03.jpg/1200px-Torpedo_stadium_Zhodino_west_stand_03.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/34/Tarpeda_%28Torpedo%29_stadium_in_Minsk_2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "170_002.jpg",
+				"source": "https://fcminsk.by/wp-content/uploads/2020/06/torpedo.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,

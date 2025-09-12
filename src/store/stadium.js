@@ -164,53 +164,57 @@ function createStadiumStore() {
 
             // console.log('state.stadiumsByCountry 2: ', state.stadiumsByCountry)
         },
-        async fetchStadiumsByLeagueId(leagueId) {
-            console.log('[StadiumStore] fetchStadiumsByLeagueId: ', leagueId)
+        async fetchStadiumsByApiFootballLeagueId(apiFootballLeagueId) {
+            console.log('[StadiumStore] fetchStadiumsByApiFootballLeagueId: ', apiFootballLeagueId)
 
             // const { data, error } = await supabase.from('teams_view').select(`stadium_id, stadium_api_football_id, stadium_name, stadium_city, stadium_capacity, stadium_wiki, stadium_x, stadium_y, league_id, league_api_football_id, league_name, team_id, team_api_football_id, team_name, team_wiki, image_name, image_url, image_src`).eq('league_id', leagueId)
-            const { data, error } = await supabase.from('teams_view').select(`id:stadium_id, api_football_id:stadium_api_football_id, name:stadium_name, city:stadium_city, capacity:stadium_capacity, league_id, league_api_football_id, league_name, team_id, team_api_football_id, team_name, image_name, image_url, stadium_x, stadium_y`).eq('league_id', leagueId)
+            // const { data, error } = await supabase.from('teams_view').select(`id:stadium_id, api_football_id:stadium_api_football_id, name:stadium_name, city:stadium_city, capacity:stadium_capacity, league_id, league_api_football_id, league_name, team_id, team_api_football_id, team_name, image_name, image_url, stadium_x, stadium_y`).eq('league_id', leagueId)
+
+
+            const { data, error } = await supabase.from('stadiums_with_images_view').select(`*`).eq('api_football_league_id', apiFootballLeagueId)
             // console.log('[StadiumStore] data: ', data)
             console.log('data: ', data);
 
             // 1. Group by stadium_name and collect images
-            const groupedByStadium = data.reduce((acc, current) => {
-                const existing = acc.find(stadium => stadium.id === current.id);
+            // const groupedByStadium = data.reduce((acc, current) => {
+            //     const existing = acc.find(stadium => stadium.id === current.id);
 
-                if (existing) {
-                    if (!existing.images.some(image => image.name === current.image_name)) {
-                        existing.images.push({
-                            name: current.image_name,
-                            url: current.image_url
-                        });
-                    }
-                } else {
-                    acc.push({
-                        id: current.id,
-                        name: current.name,
-                        city: current.city,
-                        capacity: current.capacity,
-                        league_id: current.league_id,
-                        league_api_football_id: current.league_api_football_id,
-                        league_name: current.league_name,
-                        team_id: current.team_id,
-                        team_api_football_id: current.team_api_football_id,
-                        team_name: current.team_name,
-                        x: current.stadium_x,
-                        y: current.stadium_y,
-                        images: current.image_name ? [{
-                            name: current.image_name,
-                            url: current.image_url
-                        }] : []
-                    });
-                }
+            //     if (existing) {
+            //         if (!existing.images.some(image => image.name === current.image_name)) {
+            //             existing.images.push({
+            //                 name: current.image_name,
+            //                 url: current.image_url
+            //             });
+            //         }
+            //     } else {
+            //         acc.push({
+            //             id: current.id,
+            //             name: current.name,
+            //             city: current.city,
+            //             capacity: current.capacity,
+            //             league_id: current.league_id,
+            //             league_api_football_id: current.league_api_football_id,
+            //             league_name: current.league_name,
+            //             team_id: current.team_id,
+            //             team_api_football_id: current.team_api_football_id,
+            //             team_name: current.team_name,
+            //             x: current.stadium_x,
+            //             y: current.stadium_y,
+            //             images: current.image_name ? [{
+            //                 name: current.image_name,
+            //                 url: current.image_url
+            //             }] : []
+            //         });
+            //     }
 
-                return acc;
-            }, []);
+            //     return acc;
+            // }, []);
 
-            console.log('groupedByStadium: ', groupedByStadium);
+            // console.log('groupedByStadium: ', groupedByStadium);
 
             // 2. Sort by capacity in descending order
-            const sortedStadiums = groupedByStadium.sort((a, b) =>
+            // const sortedStadiums = groupedByStadium.sort((a, b) =>
+            const sortedStadiums = data.sort((a, b) =>
                 b.capacity - a.capacity
             );
 
@@ -222,7 +226,7 @@ function createStadiumStore() {
 
             update((state) => {
                 let entry = { ...state }
-                entry.stadiumsByLeagueId[leagueId] = sortedStadiums
+                entry.stadiumsByLeagueId[apiFootballLeagueId] = sortedStadiums
                 return entry
             })
         },
@@ -318,6 +322,9 @@ function createStadiumStore() {
                 return x
             })
         },
+        clearStadiums() {
+            update((state) => ({ ...state, stadiums: [], stadiumsByLeagueId: {} }))
+        }
     }
 
     return {

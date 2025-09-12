@@ -390,7 +390,15 @@
 		"images": [
 			{
 				"name": "20559_001.jpg",
-				"source": "https://www.thesportsdb.com/images/media/venue/thumb/v8scsf1751320445.jpg",
+				"source": "https://www.findin.am/wp-content/uploads/2023/02/Armavir-City-Stadium-Findin-Gal-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20559_002.jpg",
+				"source": "https://www.findin.am/wp-content/uploads/2023/02/Armavir-City-Stadium-Findin-Feature.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -927,10 +935,10 @@
 			"city": "Yerevan",
 			"capacity": 1188,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"lat": 40.143587,
+			"lng": 44.48493,
+			"x": 324,
+			"y": 475,
 			"wiki": ""
 		},
 		"league": {
@@ -939,7 +947,16 @@
 			"country": "Armenia",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "21934_001.jpg",
+				"source": "https://cdn.pbilet.com/origin/5a334cec-4710-4068-97ef-53e478519db9.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 20
 	},
 	{
@@ -958,10 +975,10 @@
 			"city": "Vagharshapat (Ejmiatsin)",
 			"capacity": 1000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"lat": 40.148337,
+			"lng": 44.298014,
+			"x": 265,
+			"y": 473,
 			"wiki": ""
 		},
 		"league": {
@@ -970,7 +987,16 @@
 			"country": "Armenia",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "21935_001.jpg",
+				"source": "https://fip.am/wp-content/uploads/2019/10/%D4%B3%D5%B5%D5%B8%D6%82%D5%B4%D6%80%D5%AB%D5%AB-%D5%A1%D5%AF%D5%A1%D5%A4%D5%A5%D5%B4%D5%AB%D5%A1-1024x681.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 21
 	},
 	{
@@ -989,11 +1015,11 @@
 			"city": "Vanadzor",
 			"capacity": 6000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
-			"wiki": ""
+			"lat": 40.797222,
+			"lng": 44.493889,
+			"x": 327,
+			"y": 224,
+			"wiki": "https://en.wikipedia.org/wiki/Vanadzor_City_Stadium"
 		},
 		"league": {
 			"api_football_id": 343,
@@ -1001,7 +1027,16 @@
 			"country": "Armenia",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "2478_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/0/07/Vanadzor_City_Stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 22
 	},
 	{
@@ -1020,11 +1055,11 @@
 			"city": "Armavir",
 			"capacity": 3300,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
-			"wiki": ""
+			"lat": 40.164722,
+			"lng": 44.045278,
+			"x": 186,
+			"y": 467,
+			"wiki": "https://en.wikipedia.org/wiki/Armavir_City_Stadium"
 		},
 		"league": {
 			"api_football_id": 343,
@@ -1032,7 +1067,24 @@
 			"country": "Armenia",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "20559_001.jpg",
+				"source": "https://www.findin.am/wp-content/uploads/2023/02/Armavir-City-Stadium-Findin-Gal-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20559_002.jpg",
+				"source": "https://www.findin.am/wp-content/uploads/2023/02/Armavir-City-Stadium-Findin-Feature.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 23
 	},
 	{
@@ -1242,8 +1294,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -13671,
-			"y": 13299,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {},

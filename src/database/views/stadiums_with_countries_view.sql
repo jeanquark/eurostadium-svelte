@@ -212,12 +212,15 @@ SELECT
   s.capacity AS stadium_capacity,
   s.city AS stadium_city,
   s.wiki AS stadium_wiki,
+  s.x AS stadium_x,
+  s.y AS stadium_y,
   -- Subquery to get the aggregated images for this stadium
   (
     SELECT COALESCE(json_agg(
       json_build_object(
         'name', img.name,
-        'url', img.url
+        'url', img.url,
+        'src', img.source
       )
     ), '[]'::json)
     FROM images img
@@ -229,7 +232,8 @@ SELECT
       json_build_object(
         'id', t.id,
         'name', t.name,
-        'image', t.image
+        'image', t.image,
+        'wiki', t.wiki
         -- 'league', json_build_object(
         --   'id', l.id,
         --   'name', l.name,
@@ -249,6 +253,7 @@ SELECT
     WHERE t.api_football_venue_id = s.api_football_id
   ) AS teams,
   leagues.name AS league_name,
+  leagues.api_football_id AS api_football_league_id,
   countries.name AS country_name
 FROM stadiums s
 LEFT JOIN teams ON teams.api_football_venue_id = s.api_football_id

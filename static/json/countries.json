@@ -84,9 +84,9 @@
         "uefa_ranking": 14
     },
     {
-        "name": "England and Wales",
-        "slug": "england_and_wales",
-        "image": "england_and_wales.png",
+        "name": "England",
+        "slug": "england",
+        "image": "england.png",
         "index": 12,
         "uefa_ranking": 1
     },

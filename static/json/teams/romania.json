@@ -21,7 +21,12 @@
 			"y": 733,
 			"wiki": "https://en.wikipedia.org/wiki/Arena_Na%C8%9Bional%C4%83"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1326_001.jpg",
@@ -104,7 +109,12 @@
 			"y": 752,
 			"wiki": "https://en.wikipedia.org/wiki/Ion_Oblemenco_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "12282_001.jpg",
@@ -163,7 +173,12 @@
 			"y": 729,
 			"wiki": "https://en.wikipedia.org/wiki/Arcul_de_Triumf_Stadium_(2021)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19612_001.jpg",
@@ -222,7 +237,12 @@
 			"y": 380,
 			"wiki": "https://en.wikipedia.org/wiki/Dr._Constantin_R%C4%83dulescu_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1311_001.jpg",
@@ -289,7 +309,12 @@
 			"y": 532,
 			"wiki": "https://en.wikipedia.org/wiki/Sibiu_Municipal_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1894_001.jpg",
@@ -356,7 +381,12 @@
 			"y": 229,
 			"wiki": "https://en.wikipedia.org/wiki/Boto%C8%99ani_Municipal_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1309_001.jpg",
@@ -387,132 +417,6 @@
 	},
 	{
 		"team": {
-			"api_football_id": 2583,
-			"name": "Politehnica Iasi",
-			"code": "CSM",
-			"country": "Romania",
-			"founded": 2010,
-			"wiki": "https://en.wikipedia.org/wiki/FC_Politehnica_Ia%C8%99i_(2010)"
-		},
-		"venue": {
-			"api_football_id": 1322,
-			"name": "Stadionul Emil Alexandrescu",
-			"address": "Aleea Grigore Ghica Voda, nr. 12-24",
-			"city": "Iaşi",
-			"capacity": 13000,
-			"surface": "grass",
-			"lat": 47.184589,
-			"lng": 27.561389,
-			"x": 772,
-			"y": 317,
-			"wiki": "https://en.wikipedia.org/wiki/Emil_Alexandrescu_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "1322_001.jpg",
-				"source": "https://media.ziaruldeiasi.ro/2024/04/stadion_copou.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1322_002.jpg",
-				"source": "https://media.ziaruldeiasi.ro/2024/01/321860_213748_stiri_stadion.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1322_003.jpg",
-				"source": "https://www.politehnicaiasi.ro/uploads/new-49ccf4440ba1334384433c61a389fda8.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1322_004.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/rou/stadionul_emil_alexandrescu/stadionul_emil_alexandrescu02.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 7
-	},
-	{
-		"team": {
-			"api_football_id": 2585,
-			"name": "Sepsi OSK Sfantu Gheorghe",
-			"code": null,
-			"country": "Romania",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/Sepsi_OSK_Sf%C3%A2ntu_Gheorghe"
-		},
-		"venue": {
-			"api_football_id": 12593,
-			"name": "Arena Sepsi OSK",
-			"address": "Str. Lunca Oltului 106",
-			"city": "Sfântu Gheorghe",
-			"capacity": 8400,
-			"surface": "grass",
-			"lat": 45.883611,
-			"lng": 25.806278,
-			"x": 587,
-			"y": 517,
-			"wiki": "https://en.wikipedia.org/wiki/Sepsi_Arena_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "12593_001.jpg",
-				"source": "https://gepberszinpad.com/uploads/gallery/520_big.jpg?v1732266101",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12593_002.jpg",
-				"source": "https://sepsiosk.ro/images/com_osgallery/gal-101/original/5511c3ec570e8ac8af2d11a618265db7-resize086F955A-7E47-DB87-4430-7E7DBA2BBAB7.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12593_003.jpg",
-				"source": "https://sepsiosk.ro/images/com_osgallery/gal-101/original/7aca2b9173f0c4c4c9c1331047a1fb72-resizeBB5C9F1B-ABFB-1D2E-FB89-D2CFCD174E6E.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12593_004.jpg",
-				"source": "https://gepberszinpad.com/sporttech/projects/images/sepsi-osk-stadion-design-and-construction-of-heated-subs-benches-with-sport-seats-audience-seat-installation-543_big.jpg?v1",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12593_005.jpg",
-				"source": "https://lpf.ro/files/stire/615c471a7f0c3sepsi.JPG",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 8
-	},
-	{
-		"team": {
 			"api_football_id": 2589,
 			"name": "Uta Arad",
 			"code": "ARA",
@@ -533,7 +437,12 @@
 			"y": 470,
 			"wiki": "https://en.wikipedia.org/wiki/Francisc_von_Neuman_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "11931_001.jpg",
@@ -568,7 +477,55 @@
 				"size": 0
 			}
 		],
-		"no": 9
+		"no": 7
+	},
+	{
+		"team": {
+			"api_football_id": 2592,
+			"name": "Arges Pitesti",
+			"code": "ARG",
+			"country": "Romania",
+			"founded": 2010,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Arge%C8%99_Pite%C8%99ti"
+		},
+		"venue": {
+			"api_football_id": 1317,
+			"name": "Stadionul Orăşenesc",
+			"address": "Str. Stadionului",
+			"city": "Mioveni",
+			"capacity": 10000,
+			"surface": "grass",
+			"lat": 44.960278,
+			"lng": 24.940556,
+			"x": 495,
+			"y": 656,
+			"wiki": "https://en.wikipedia.org/wiki/Or%C4%83%C8%99enesc_Stadium_(Mioveni)"
+		},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1317_001.jpg",
+				"source": "https://gazetademioveni.ro/wp-content/uploads/2015/02/stadionul-orasenesc-mioveni13.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1317_002.jpg",
+				"source": "https://cacheimg.gsp.ro/autocrop/smp-images-production/gsp.ro/05072022/c716975b-0603-42c3-b199-a924d132630c.jpg?width=1200&height=0",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 8
 	},
 	{
 		"team": {
@@ -592,7 +549,12 @@
 			"y": 759,
 			"wiki": "https://en.wikipedia.org/wiki/Central_Stadium_(Gheorghe_Hagi_Academy)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1324_001.jpg",
@@ -627,7 +589,7 @@
 				"size": 0
 			}
 		],
-		"no": 10
+		"no": 9
 	},
 	{
 		"team": {
@@ -651,7 +613,12 @@
 			"y": 659,
 			"wiki": "https://en.wikipedia.org/wiki/Ilie_Oan%C4%83_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1312_001.jpg",
@@ -694,7 +661,7 @@
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 10
 	},
 	{
 		"team": {
@@ -718,7 +685,12 @@
 			"y": 382,
 			"wiki": "https://en.wikipedia.org/wiki/Cluj_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1913_001.jpg",
@@ -753,7 +725,111 @@
 				"size": 0
 			}
 		],
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 2604,
+			"name": "Metaloglobus",
+			"code": null,
+			"country": "Romania",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Metaloglobus_Bucure%C8%99ti"
+		},
+		"venue": {
+			"api_football_id": 20116,
+			"name": "Clinceni - Arena 1",
+			"address": "Str. Principală, nr. 107a",
+			"city": "Clinceni",
+			"capacity": 4000,
+			"surface": "grass",
+			"lat": 44.377778,
+			"lng": 25.940833,
+			"x": 601,
+			"y": 742,
+			"wiki": "https://en.wikipedia.org/wiki/Clinceni_Stadium"
+		},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20116_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Stadion_Clinceni.jpg/1200px-Stadion_Clinceni.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20116_002.jpg",
+				"source": "https://buletin.de/bucuresti/wp-content/uploads/277742720_1032092470737231_1778715066096432816_n.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 12
+	},
+	{
+		"team": {
+			"api_football_id": 6230,
+			"name": "Csikszereda",
+			"code": null,
+			"country": "Romania",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/FK_Cs%C3%ADkszereda_Miercurea_Ciuc"
+		},
+		"venue": {
+			"api_football_id": 4607,
+			"name": "Stadionul Municipal",
+			"address": "Str. Stadion nr. 3",
+			"city": "Miercurea Ciuc",
+			"capacity": 4000,
+			"surface": "grass",
+			"lat": 46.366944,
+			"lng": 25.802917,
+			"x": 586,
+			"y": 443,
+			"wiki": "https://en.wikipedia.org/wiki/Miercurea_Ciuc_Municipal_Stadium"
+		},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "4607_001.jpg",
+				"source": "https://liga2.prosport.ro/wp-content/uploads/2021/02/stadion-miercurea-ciuc-fk-csikszereda.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4607_002.jpg",
+				"source": "https://liga2.prosport.ro/wp-content/uploads/2023/05/stadion-municipal-miercurea-ciuc-refacere-gazon-10.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4607_003.jpg",
+				"source": "https://cvmi.cname.ro/_/afk-csikszereda-miercurea-ciuc-ar-putea-juca-sfertul-de-finala-din-cupa-romaniei-la-sf.-gheorghe/mediaPool/u2q2EeY.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 13
 	},
 	{
 		"team": {
@@ -777,7 +853,12 @@
 			"y": 731,
 			"wiki": "https://en.wikipedia.org/wiki/Rapid-Giule%C8%99ti_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19516_001.jpg",
@@ -812,65 +893,6 @@
 				"size": 0
 			}
 		],
-		"no": 13
-	},
-	{
-		"team": {
-			"api_football_id": 6232,
-			"name": "SCM Gloria Buzău",
-			"code": null,
-			"country": "Romania",
-			"founded": 2016,
-			"wiki": "https://en.wikipedia.org/wiki/FC_Gloria_Buz%C4%83u"
-		},
-		"venue": {
-			"api_football_id": 4608,
-			"name": "Stadionul Gloria",
-			"address": "Bulevardul Stadionului, nr. 1",
-			"city": "Buzău",
-			"capacity": 13400,
-			"surface": "grass",
-			"lat": 45.146028,
-			"lng": 26.803333,
-			"x": 692,
-			"y": 628,
-			"wiki": "https://en.wikipedia.org/wiki/Buz%C4%83u_Municipal_Stadium_(Cr%C3%A2ng_Stadium)"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "4608_001.jpg",
-				"source": "https://sansanews.ro/wp-content/uploads/2021/05/gloria-stadion-buzau.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4608_002.jpg",
-				"source": "https://cdn.adh.reperio.news/image-a/acf82118-cdce-49bd-bf62-b8f32185ef0a/index.jpeg?p=f%3Dpng%26w%3D1400%26r%3Dcontain",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4608_003.jpg",
-				"source": "https://opiniabuzau.ro/wp-content/uploads/2021/07/stadionul_gloriei_buzau-178676652.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4608_004.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/rou/stadionul_municipal_buzau/stadionul_municipal_buzau01.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
 		"no": 14
 	},
 	{
@@ -895,7 +917,12 @@
 			"y": 585,
 			"wiki": "https://en.wikipedia.org/wiki/O%C8%9Belul_Stadium_(1982)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "5026_001.jpg",
@@ -954,7 +981,12 @@
 			"y": 715,
 			"wiki": "https://en.wikipedia.org/wiki/May_1_Stadium_(Slobozia)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 283,
+			"name": "Liga I",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "5044_001.jpg",
@@ -1013,7 +1045,12 @@
 			"y": 724,
 			"wiki": "https://en.wikipedia.org/wiki/Anghel_Iord%C4%83nescu_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1315_001.jpg",
@@ -1056,7 +1093,12 @@
 			"y": 730,
 			"wiki": "https://en.wikipedia.org/wiki/Concordia_Stadium_(Chiajna)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1313_001.jpg",
@@ -1087,6 +1129,142 @@
 	},
 	{
 		"team": {
+			"api_football_id": 2583,
+			"name": "Politehnica Iasi",
+			"code": "CSM",
+			"country": "Romania",
+			"founded": 2010,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Politehnica_Ia%C8%99i_(2010)"
+		},
+		"venue": {
+			"api_football_id": 1322,
+			"name": "Stadionul Emil Alexandrescu",
+			"address": "Aleea Grigore Ghica Voda, nr. 12-24",
+			"city": "Iaşi",
+			"capacity": 13000,
+			"surface": "grass",
+			"lat": 47.184589,
+			"lng": 27.561389,
+			"x": 772,
+			"y": 317,
+			"wiki": "https://en.wikipedia.org/wiki/Emil_Alexandrescu_Stadium"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1322_001.jpg",
+				"source": "https://media.ziaruldeiasi.ro/2024/04/stadion_copou.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1322_002.jpg",
+				"source": "https://media.ziaruldeiasi.ro/2024/01/321860_213748_stiri_stadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1322_003.jpg",
+				"source": "https://www.politehnicaiasi.ro/uploads/new-49ccf4440ba1334384433c61a389fda8.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1322_004.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/rou/stadionul_emil_alexandrescu/stadionul_emil_alexandrescu02.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 2585,
+			"name": "Sepsi OSK Sfantu Gheorghe",
+			"code": null,
+			"country": "Romania",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Sepsi_OSK_Sf%C3%A2ntu_Gheorghe"
+		},
+		"venue": {
+			"api_football_id": 12593,
+			"name": "Arena Sepsi OSK",
+			"address": "Str. Lunca Oltului 106",
+			"city": "Sfântu Gheorghe",
+			"capacity": 8400,
+			"surface": "grass",
+			"lat": 45.883611,
+			"lng": 25.806278,
+			"x": 587,
+			"y": 517,
+			"wiki": "https://en.wikipedia.org/wiki/Sepsi_Arena_Stadium"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "12593_001.jpg",
+				"source": "https://gepberszinpad.com/uploads/gallery/520_big.jpg?v1732266101",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12593_002.jpg",
+				"source": "https://sepsiosk.ro/images/com_osgallery/gal-101/original/5511c3ec570e8ac8af2d11a618265db7-resize086F955A-7E47-DB87-4430-7E7DBA2BBAB7.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12593_003.jpg",
+				"source": "https://sepsiosk.ro/images/com_osgallery/gal-101/original/7aca2b9173f0c4c4c9c1331047a1fb72-resizeBB5C9F1B-ABFB-1D2E-FB89-D2CFCD174E6E.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12593_004.jpg",
+				"source": "https://gepberszinpad.com/sporttech/projects/images/sepsi-osk-stadion-design-and-construction-of-heated-subs-benches-with-sport-seats-audience-seat-installation-543_big.jpg?v1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12593_005.jpg",
+				"source": "https://lpf.ro/files/stire/615c471a7f0c3sepsi.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 20
+	},
+	{
+		"team": {
 			"api_football_id": 2586,
 			"name": "Chindia Targoviste",
 			"code": "TAR",
@@ -1107,7 +1285,12 @@
 			"y": 660,
 			"wiki": "https://en.wikipedia.org/wiki/Eugen_Popescu_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "20111_001.jpg",
@@ -1142,50 +1325,901 @@
 				"size": 0
 			}
 		],
-		"no": 19
+		"no": 21
 	},
 	{
 		"team": {
-			"api_football_id": 2592,
-			"name": "Arges Pitesti",
-			"code": "ARG",
+			"api_football_id": 2590,
+			"name": "ASA Targu Mures",
+			"code": "TAR",
 			"country": "Romania",
-			"founded": 2010,
-			"wiki": "https://en.wikipedia.org/wiki/FC_Arge%C8%99_Pite%C8%99ti"
+			"founded": 2008,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 1317,
-			"name": "Stadionul Orăşenesc",
-			"address": "Str. Stadionului",
-			"city": "Mioveni",
-			"capacity": 10000,
+			"api_football_id": 2820,
+			"name": "Stadionul Trans-Sil",
+			"address": "Str. Insulei",
+			"city": "Târgu Mureş",
+			"capacity": 8000,
 			"surface": "grass",
-			"lat": 44.960278,
-			"lng": 24.940556,
-			"x": 495,
-			"y": 656,
-			"wiki": "https://en.wikipedia.org/wiki/Or%C4%83%C8%99enesc_Stadium_(Mioveni)"
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 2608,
+			"name": "CS Afumati",
+			"code": null,
+			"country": "Romania",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/CS_Afuma%C8%9Bi"
+		},
+		"venue": {
+			"api_football_id": 2823,
+			"name": "Stadionul Afumaţi",
+			"address": null,
+			"city": "Afumaţi",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 44.533056,
+			"lng": 26.259861,
+			"x": 635,
+			"y": 719,
+			"wiki": "https://en.wikipedia.org/wiki/Stadionul_Comunal_(Afuma%C8%9Bi)"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
-				"name": "1317_001.jpg",
-				"source": "https://gazetademioveni.ro/wp-content/uploads/2015/02/stadionul-orasenesc-mioveni13.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1317_002.jpg",
-				"source": "https://cacheimg.gsp.ro/autocrop/smp-images-production/gsp.ro/05072022/c716975b-0603-42c3-b199-a924d132630c.jpg?width=1200&height=0",
+				"name": "2823_001.jpg",
+				"source": "https://ilfovsport.ro/wp-content/uploads/2024/08/Neagu.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 20
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 6229,
+			"name": "CSM Reşiţa",
+			"code": null,
+			"country": "Romania",
+			"founded": 2009,
+			"wiki": "https://en.wikipedia.org/wiki/CSM_Re%C8%99i%C8%9Ba"
+		},
+		"venue": {
+			"api_football_id": 4606,
+			"name": "Stadionul Mircea Chivu",
+			"address": "Str. Valea Domanului, nr. 1",
+			"city": "Reşiţa",
+			"capacity": 12500,
+			"surface": "grass",
+			"lat": 45.281667,
+			"lng": 21.889722,
+			"x": 172,
+			"y": 608,
+			"wiki": "https://en.wikipedia.org/wiki/Mircea_Chivu_Stadium"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "4606_001.jpg",
+				"source": "https://cacheimg.gsp.ro/autocrop/smp-images-production/gsp.ro/18052021/1621338430566.jpg?width=1200&height=0",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4606_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/1/14/Re%C5%9Dico%2C_stadiono_Mircea_Chivu%2C_1.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4606_003.jpg",
+				"source": "https://i0.wp.com/www.radiotimisoara.ro/wp-content/uploads/2024/03/fotbal-CSM-Resita-Gloria-Buzau-mar-2024.jpeg?fit=1597%2C995&ssl=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4606_004.jpg",
+				"source": "https://resita.ro/wp-content/uploads/2020/07/WhatsApp-Image-2020-07-29-at-11.20.40.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 6852,
+			"name": "Ceahlăul Piatra Neamţ",
+			"code": "CEA",
+			"country": "Romania",
+			"founded": 1919,
+			"wiki": "https://en.wikipedia.org/wiki/CSM_Ceahl%C4%83ul_Piatra_Neam%C8%9B"
+		},
+		"venue": {
+			"api_football_id": 5004,
+			"name": "Stadionul Municipal Ceahlăul",
+			"address": "Strada Eroilor, nr. 18",
+			"city": "Piatra Neamţ",
+			"capacity": 17500,
+			"surface": "grass",
+			"lat": 46.938525,
+			"lng": 26.355742,
+			"x": 645,
+			"y": 355,
+			"wiki": "https://en.wikipedia.org/wiki/Ceahl%C4%83ul_Municipal_Stadium"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5004_001.jpg",
+				"source": "https://mesagerulneamt.ro/wp-content/uploads/2011/06/Stadionul-CEAHLAUL.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5004_002.jpg",
+				"source": "https://neamt365.ro/wp-content/uploads/2023/06/stadionul-Ceahlaul.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5004_003.jpg",
+				"source": "https://www.ziarpiatraneamt.ro/wp-content/uploads/2023/05/tribuna-neautorizata.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5004_004.jpg",
+				"source": "https://sportmoldova.ro/wp-content/uploads/2015/07/cpn.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 6875,
+			"name": "Metalul Buzău",
+			"code": null,
+			"country": "Romania",
+			"founded": 1954,
+			"wiki": "https://en.wikipedia.org/wiki/AFC_Metalul_Buz%C4%83u"
+		},
+		"venue": {
+			"api_football_id": 5017,
+			"name": "Teren Sintetic Cornel Negoescu",
+			"address": "Bulevardul Stadionului, nr. 1",
+			"city": "Buzău",
+			"capacity": 3000,
+			"surface": "artificial turf",
+			"lat": 45.145974,
+			"lng": 26.803352,
+			"x": 692,
+			"y": 628,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5017_001.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4LIqB45_DhV9jfxj8Lw1GWW9o4h6VUkNnCPTAOQsu2xoCJ1cfMx7JlBBR7qKfg5993Z2FOgGOOqthCTLL1nZPEm-HI4ISBDdj8oPQP45wWIfjx_gRW1BlZ-_CAcDHOkg5W0Z-gxZ56zFW/s1600/stad+cornel+negoescu2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 6898,
+			"name": "Slatina",
+			"code": null,
+			"country": "Romania",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/CSM_Slatina_(football)"
+		},
+		"venue": {
+			"api_football_id": 5032,
+			"name": "Stadionul 1 Mai",
+			"address": "Str. Gheorghe Poboran",
+			"city": "Slatina",
+			"capacity": 14059,
+			"surface": "grass",
+			"lat": 44.423194,
+			"lng": 24.35,
+			"x": 433,
+			"y": 735,
+			"wiki": "https://en.wikipedia.org/wiki/May_1_Stadium_(Slatina)"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5032_001.jpg",
+				"source": "https://fotbalolt.wordpress.com/wp-content/uploads/2012/11/alro-sibiu3.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5032_002.jpg",
+				"source": "https://i0.wp.com/www.radiooltenia.ro/wp-content/uploads/2021/05/1-mai-stadion.jpg?fit=1024%2C768&ssl=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5032_003.jpg",
+				"source": "https://www.gazetanoua.ro/imagini/62815-30.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5032_004.jpg",
+				"source": "https://slatinabuzz.ro/wp-content/uploads/2018/09/D6A3D988-4345-441F-81D2-D9E93E75C23C.jpeg.webp",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 6908,
+			"name": "Tunari",
+			"code": null,
+			"country": "Romania",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/CS_Tunari"
+		},
+		"venue": {
+			"api_football_id": 20431,
+			"name": "Centrul de Fotbal Buftea Teren Natural",
+			"address": "Str. Domna Ghica",
+			"city": "Buftea",
+			"capacity": 600,
+			"surface": "grass",
+			"lat": 44.551944,
+			"lng": 26.142222,
+			"x": 622,
+			"y": 716,
+			"wiki": "https://en.wikipedia.org/wiki/Tunari_Stadium"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5038_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/en/4/40/Stadionul_comunal_Tunari_-_General_view.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5038_002.jpg",
+				"source": "https://cacheimg.gsp.ro/autocrop/smp-images-production/gsp.ro/12082024/c460bb2e-e673-451a-8d63-df3d6f0b5347.jpg?width=848&height=0",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 28
+	},
+	{
+		"team": {
+			"api_football_id": 6927,
+			"name": "Viitorul Şelimbăr",
+			"code": null,
+			"country": "Romania",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/CSC_1599_%C8%98elimb%C4%83r"
+		},
+		"venue": {
+			"api_football_id": 5050,
+			"name": "Stadionul Măgura",
+			"address": "DJ 106C",
+			"city": "Cisnădie",
+			"capacity": 5000,
+			"surface": "grass",
+			"lat": 45.710266,
+			"lng": 24.153314,
+			"x": 412,
+			"y": 543,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5050_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadionul_M%C4%83gura_%28%C8%98imleu_Silvaniei%29_2nd_stand.jpg/1200px-Stadionul_M%C4%83gura_%28%C8%98imleu_Silvaniei%29_2nd_stand.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 29
+	},
+	{
+		"team": {
+			"api_football_id": 7466,
+			"name": "CSA Steaua Bucureşti",
+			"code": null,
+			"country": "Romania",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/CSA_Steaua_Bucure%C8%99ti"
+		},
+		"venue": {
+			"api_football_id": 12042,
+			"name": "Stadionul Steaua",
+			"address": "Bulevardul Ghencea, nr. 35, Sector 6",
+			"city": "București",
+			"capacity": 31254,
+			"surface": "grass",
+			"lat": 44.412778,
+			"lng": 26.040556,
+			"x": 611,
+			"y": 737,
+			"wiki": "https://en.wikipedia.org/wiki/Steaua_Stadium_(2021)"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "12042_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/1/10/Stadionul_Steaua%2C_5_July_2023.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12042_002.jpg",
+				"source": "https://www.uar-bna.ro/f/bna2021/ver/Steaua_mariusvasile%20%20(6).jpg-d2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12042_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Romania_bucharest_Steaua_Stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12042_004.jpg",
+				"source": "https://liga2.prosport.ro/wp-content/uploads/2021/12/stadion-steaua-18-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12042_005.jpg",
+				"source": "https://www.hellasod.gr/uploads/photos/D1366/2021/09/anakataskeuigipedousteauastobouk_8786.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "12042_006.jpg",
+				"source": "https://as.ro/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-07-at-15.03.25.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 7469,
+			"name": "Dumbrăviţa",
+			"code": null,
+			"country": "Romania",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/CSC_Dumbr%C4%83vi%C8%9Ba"
+		},
+		"venue": {
+			"api_football_id": 5436,
+			"name": "Stadionul Ştefan Dobay",
+			"address": "Str. Mihai Eminescu 44",
+			"city": "Dumbrăvița",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 45.799167,
+			"lng": 21.249778,
+			"x": 104,
+			"y": 530,
+			"wiki": "https://en.wikipedia.org/wiki/%C8%98tefan_Dobay_Stadium"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5436_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/7/79/Stadionul_%C8%98tefan_Dobay.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5436_002.jpg",
+				"source": "https://dumbravitatv.ro/wp-content/uploads/2023/06/stadion_iunie-1280x640.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5436_003.jpg",
+				"source": "https://www.ziuadevest.ro/wp-content/uploads/2024/08/f.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 31
+	},
+	{
+		"team": {
+			"api_football_id": 16279,
+			"name": "CSM Satu Mare",
+			"code": null,
+			"country": "Romania",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 2821,
+			"name": "Stadionul Daniel Prodan",
+			"address": "Str. Arenei",
+			"city": "Satu Mare",
+			"capacity": 17200,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 32
+	},
+	{
+		"team": {
+			"api_football_id": 19170,
+			"name": "CS Dinamo București",
+			"code": null,
+			"country": "Romania",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 1319,
+			"name": "Stadionul Ştefan cel Mare",
+			"address": "Şoseaua Ştefan cel Mare, nr. 7-9, Sector 1",
+			"city": "Bucureşti",
+			"capacity": 15167,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 33
+	},
+	{
+		"team": {
+			"api_football_id": 20033,
+			"name": "Bihor Oradea",
+			"code": null,
+			"country": "Romania",
+			"founded": 1958,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Bihor_Oradea_(2022)"
+		},
+		"venue": {
+			"api_football_id": 11407,
+			"name": "Stadionul Iuliu Bodola",
+			"address": "Strada Republicii, nr. 3-5",
+			"city": "Oradea",
+			"capacity": 25250,
+			"surface": "grass",
+			"lat": 47.071944,
+			"lng": 21.93,
+			"x": 176,
+			"y": 335,
+			"wiki": "https://en.wikipedia.org/wiki/Iuliu_Bodola_Stadium"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "11407_001.jpg",
+				"source": "https://anaulmanu.com/wp-content/uploads/2023/05/oradea-1024x1024.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11407_002.jpg",
+				"source": "https://oradeaindirect.ro/wp-content/uploads/2024/03/fc-bihor-3.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11407_003.jpg",
+				"source": "https://media.prosport.ro/70Ep14KxpqaJIT4cDrJWl9xbLxw=/1280x720/smart/filters:contrast(5):format(webp):quality(80)/https%3A%2F%2Fwww.prosport.ro%2Fwp-content%2Fuploads%2F2008%2F04%2F2573562%2F1-stadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "11407_004.jpg",
+				"source": "https://www.bihon.ro/wp-content/uploads/2023/09/5378468fcb6.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 34
+	},
+	{
+		"team": {
+			"api_football_id": 20034,
+			"name": "Corvinul Hunedoara",
+			"code": null,
+			"country": "Romania",
+			"founded": 1921,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Corvinul_Hunedoara"
+		},
+		"venue": {
+			"api_football_id": 5013,
+			"name": "Stadionul Michael Klein",
+			"address": "Str. Mihai Viteazu, nr. 10",
+			"city": "Hunedoara",
+			"capacity": 16500,
+			"surface": "grass",
+			"lat": 45.761639,
+			"lng": 22.912972,
+			"x": 280,
+			"y": 535,
+			"wiki": "https://en.wikipedia.org/wiki/Michael_Klein_Stadium_(1960)"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5013_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Michael_Klein_Stadium_%281960%29.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5013_002.jpg",
+				"source": "https://servuspress.ro/wp-content/uploads/2024/09/459386695_928376936000721_5369971973151588344_n.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5013_003.jpg",
+				"source": "https://servuspress.ro/wp-content/uploads/2024/09/459173314_928376859334062_8138036981586382661_n.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5013_004.jpg",
+				"source": "https://stadiony.net/pictures/stadiums/rou/stadionul_michael_klein/stadionul_michael_klein05.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 35
+	},
+	{
+		"team": {
+			"api_football_id": 20831,
+			"name": "Muscelul Câmpulung Elite",
+			"code": null,
+			"country": "Romania",
+			"founded": 2022,
+			"wiki": "https://en.wikipedia.org/wiki/AFC_C%C3%A2mpulung_Muscel"
+		},
+		"venue": {
+			"api_football_id": 19434,
+			"name": "Stadionul Muscelul",
+			"address": "Bulevardul Ion Mihalache",
+			"city": "Câmpulung Muscel",
+			"capacity": 6000,
+			"surface": "grass",
+			"lat": 45.265917,
+			"lng": 25.047972,
+			"x": 506,
+			"y": 610,
+			"wiki": "https://en.wikipedia.org/wiki/Muscelul_Stadium"
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19434_001.jpg",
+				"source": "https://evenimentulmuscelean.ro/wp-content/uploads/2022/07/2680-Av-960x720.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19434_002.jpg",
+				"source": "https://evenimentulmuscelean.ro/wp-content/uploads/2022/07/2679-Ag.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19434_003.jpg",
+				"source": "https://www.ziaruldinmuscel.ro/wp-content/uploads/2022/07/Stadionul-de-la-Campulung-este-ca-dupa-razboi..-5.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 36
+	},
+	{
+		"team": {
+			"api_football_id": 22000,
+			"name": "FC Bacau",
+			"code": null,
+			"country": "Romania",
+			"founded": 2023,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 19735,
+			"name": "Baza Sportivă FC Bacău",
+			"address": "DJ207G",
+			"city": "Ruși-Ciutea",
+			"capacity": 1000,
+			"surface": "artificial turf",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 37
+	},
+	{
+		"team": {
+			"api_football_id": 22824,
+			"name": "Gloria Bistriţa",
+			"code": null,
+			"country": "Romania",
+			"founded": 2018,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 5040,
+			"name": "Stadionul Jean Pădureanu",
+			"address": "Strada Parcului, nr. 3",
+			"city": "Bistriţa",
+			"capacity": 7967,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 284,
+			"name": "Liga II",
+			"country": "Romania",
+			"api_football_country_id": 0
+		},
+		"images": [],
+		"no": 38
+	},
+	{
+		"team": {
+			"api_football_id": 6232,
+			"name": "SCM Gloria Buzău",
+			"code": null,
+			"country": "Romania",
+			"founded": 2016,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Gloria_Buz%C4%83u"
+		},
+		"venue": {
+			"api_football_id": 4608,
+			"name": "Stadionul Gloria",
+			"address": "Bulevardul Stadionului, nr. 1",
+			"city": "Buzău",
+			"capacity": 13400,
+			"surface": "grass",
+			"lat": 45.146028,
+			"lng": 26.803333,
+			"x": 692,
+			"y": 628,
+			"wiki": "https://en.wikipedia.org/wiki/Buz%C4%83u_Municipal_Stadium_(Cr%C3%A2ng_Stadium)"
+		},
+		"league": {},
+		"images": [
+			{
+				"name": "4608_001.jpg",
+				"source": "https://sansanews.ro/wp-content/uploads/2021/05/gloria-stadion-buzau.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4608_002.jpg",
+				"source": "https://cdn.adh.reperio.news/image-a/acf82118-cdce-49bd-bf62-b8f32185ef0a/index.jpeg?p=f%3Dpng%26w%3D1400%26r%3Dcontain",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4608_003.jpg",
+				"source": "https://opiniabuzau.ro/wp-content/uploads/2021/07/stadionul_gloriei_buzau-178676652.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4608_004.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/rou/stadionul_municipal_buzau/stadionul_municipal_buzau01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 39
 	},
 	{
 		"team": {
@@ -1228,7 +2262,7 @@
 				"size": 0
 			}
 		],
-		"no": 21
+		"no": 40
 	},
 	{
 		"team": {
@@ -1287,254 +2321,7 @@
 				"size": 0
 			}
 		],
-		"no": 22
-	},
-	{
-		"team": {
-			"api_football_id": 2604,
-			"name": "Metaloglobus",
-			"code": null,
-			"country": "Romania",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/FC_Metaloglobus_Bucure%C8%99ti"
-		},
-		"venue": {
-			"api_football_id": 20116,
-			"name": "Clinceni - Arena 1",
-			"address": "Str. Principală, nr. 107a",
-			"city": "Clinceni",
-			"capacity": 4000,
-			"surface": "grass",
-			"lat": 44.377778,
-			"lng": 25.940833,
-			"x": 601,
-			"y": 742,
-			"wiki": "https://en.wikipedia.org/wiki/Clinceni_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "20116_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Stadion_Clinceni.jpg/1200px-Stadion_Clinceni.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20116_002.jpg",
-				"source": "https://buletin.de/bucuresti/wp-content/uploads/277742720_1032092470737231_1778715066096432816_n.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 23
-	},
-	{
-		"team": {
-			"api_football_id": 2608,
-			"name": "CS Afumati",
-			"code": null,
-			"country": "Romania",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/CS_Afuma%C8%9Bi"
-		},
-		"venue": {
-			"api_football_id": 2823,
-			"name": "Stadionul Afumaţi",
-			"address": null,
-			"city": "Afumaţi",
-			"capacity": 3000,
-			"surface": "grass",
-			"lat": 44.533056,
-			"lng": 26.259861,
-			"x": 635,
-			"y": 719,
-			"wiki": "https://en.wikipedia.org/wiki/Stadionul_Comunal_(Afuma%C8%9Bi)"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "2823_001.jpg",
-				"source": "https://ilfovsport.ro/wp-content/uploads/2024/08/Neagu.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 24
-	},
-	{
-		"team": {
-			"api_football_id": 6229,
-			"name": "CSM Reşiţa",
-			"code": null,
-			"country": "Romania",
-			"founded": 2009,
-			"wiki": "https://en.wikipedia.org/wiki/CSM_Re%C8%99i%C8%9Ba"
-		},
-		"venue": {
-			"api_football_id": 4606,
-			"name": "Stadionul Mircea Chivu",
-			"address": "Str. Valea Domanului, nr. 1",
-			"city": "Reşiţa",
-			"capacity": 12500,
-			"surface": "grass",
-			"lat": 45.281667,
-			"lng": 21.889722,
-			"x": 172,
-			"y": 608,
-			"wiki": "https://en.wikipedia.org/wiki/Mircea_Chivu_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "4606_001.jpg",
-				"source": "https://cacheimg.gsp.ro/autocrop/smp-images-production/gsp.ro/18052021/1621338430566.jpg?width=1200&height=0",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4606_002.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/1/14/Re%C5%9Dico%2C_stadiono_Mircea_Chivu%2C_1.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4606_003.jpg",
-				"source": "https://i0.wp.com/www.radiotimisoara.ro/wp-content/uploads/2024/03/fotbal-CSM-Resita-Gloria-Buzau-mar-2024.jpeg?fit=1597%2C995&ssl=1",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4606_004.jpg",
-				"source": "https://resita.ro/wp-content/uploads/2020/07/WhatsApp-Image-2020-07-29-at-11.20.40.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 25
-	},
-	{
-		"team": {
-			"api_football_id": 6230,
-			"name": "Csikszereda",
-			"code": null,
-			"country": "Romania",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/FK_Cs%C3%ADkszereda_Miercurea_Ciuc"
-		},
-		"venue": {
-			"api_football_id": 4607,
-			"name": "Stadionul Municipal",
-			"address": "Str. Stadion nr. 3",
-			"city": "Miercurea Ciuc",
-			"capacity": 4000,
-			"surface": "grass",
-			"lat": 46.366944,
-			"lng": 25.802917,
-			"x": 586,
-			"y": 443,
-			"wiki": "https://en.wikipedia.org/wiki/Miercurea_Ciuc_Municipal_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "4607_001.jpg",
-				"source": "https://liga2.prosport.ro/wp-content/uploads/2021/02/stadion-miercurea-ciuc-fk-csikszereda.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4607_002.jpg",
-				"source": "https://liga2.prosport.ro/wp-content/uploads/2023/05/stadion-municipal-miercurea-ciuc-refacere-gazon-10.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "4607_003.jpg",
-				"source": "https://cvmi.cname.ro/_/afk-csikszereda-miercurea-ciuc-ar-putea-juca-sfertul-de-finala-din-cupa-romaniei-la-sf.-gheorghe/mediaPool/u2q2EeY.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 26
-	},
-	{
-		"team": {
-			"api_football_id": 6852,
-			"name": "Ceahlăul Piatra Neamţ",
-			"code": "CEA",
-			"country": "Romania",
-			"founded": 1919,
-			"wiki": "https://en.wikipedia.org/wiki/CSM_Ceahl%C4%83ul_Piatra_Neam%C8%9B"
-		},
-		"venue": {
-			"api_football_id": 5004,
-			"name": "Stadionul Municipal Ceahlăul",
-			"address": "Strada Eroilor, nr. 18",
-			"city": "Piatra Neamţ",
-			"capacity": 17500,
-			"surface": "grass",
-			"lat": 46.938525,
-			"lng": 26.355742,
-			"x": 645,
-			"y": 355,
-			"wiki": "https://en.wikipedia.org/wiki/Ceahl%C4%83ul_Municipal_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "5004_001.jpg",
-				"source": "https://mesagerulneamt.ro/wp-content/uploads/2011/06/Stadionul-CEAHLAUL.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5004_002.jpg",
-				"source": "https://neamt365.ro/wp-content/uploads/2023/06/stadionul-Ceahlaul.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5004_003.jpg",
-				"source": "https://www.ziarpiatraneamt.ro/wp-content/uploads/2023/05/tribuna-neautorizata.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5004_004.jpg",
-				"source": "https://sportmoldova.ro/wp-content/uploads/2015/07/cpn.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 27
+		"no": 41
 	},
 	{
 		"team": {
@@ -1569,101 +2356,7 @@
 				"size": 0
 			}
 		],
-		"no": 28
-	},
-	{
-		"team": {
-			"api_football_id": 6875,
-			"name": "Metalul Buzău",
-			"code": null,
-			"country": "Romania",
-			"founded": 1954,
-			"wiki": "https://en.wikipedia.org/wiki/AFC_Metalul_Buz%C4%83u"
-		},
-		"venue": {
-			"api_football_id": 5017,
-			"name": "Teren Sintetic Cornel Negoescu",
-			"address": "Bulevardul Stadionului, nr. 1",
-			"city": "Buzău",
-			"capacity": 3000,
-			"surface": "artificial turf",
-			"lat": 45.145974,
-			"lng": 26.803352,
-			"x": 692,
-			"y": 628,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "5017_001.jpg",
-				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4LIqB45_DhV9jfxj8Lw1GWW9o4h6VUkNnCPTAOQsu2xoCJ1cfMx7JlBBR7qKfg5993Z2FOgGOOqthCTLL1nZPEm-HI4ISBDdj8oPQP45wWIfjx_gRW1BlZ-_CAcDHOkg5W0Z-gxZ56zFW/s1600/stad+cornel+negoescu2.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 29
-	},
-	{
-		"team": {
-			"api_football_id": 6898,
-			"name": "Slatina",
-			"code": null,
-			"country": "Romania",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/CSM_Slatina_(football)"
-		},
-		"venue": {
-			"api_football_id": 5032,
-			"name": "Stadionul 1 Mai",
-			"address": "Str. Gheorghe Poboran",
-			"city": "Slatina",
-			"capacity": 14059,
-			"surface": "grass",
-			"lat": 44.423194,
-			"lng": 24.35,
-			"x": 433,
-			"y": 735,
-			"wiki": "https://en.wikipedia.org/wiki/May_1_Stadium_(Slatina)"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "5032_001.jpg",
-				"source": "https://fotbalolt.wordpress.com/wp-content/uploads/2012/11/alro-sibiu3.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5032_002.jpg",
-				"source": "https://i0.wp.com/www.radiooltenia.ro/wp-content/uploads/2021/05/1-mai-stadion.jpg?fit=1024%2C768&ssl=1",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5032_003.jpg",
-				"source": "https://www.gazetanoua.ro/imagini/62815-30.webp",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5032_004.jpg",
-				"source": "https://slatinabuzz.ro/wp-content/uploads/2018/09/D6A3D988-4345-441F-81D2-D9E93E75C23C.jpeg.webp",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 30
+		"no": 42
 	},
 	{
 		"team": {
@@ -1722,168 +2415,7 @@
 				"size": 0
 			}
 		],
-		"no": 31
-	},
-	{
-		"team": {
-			"api_football_id": 6927,
-			"name": "Viitorul Şelimbăr",
-			"code": null,
-			"country": "Romania",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/CSC_1599_%C8%98elimb%C4%83r"
-		},
-		"venue": {
-			"api_football_id": 5050,
-			"name": "Stadionul Măgura",
-			"address": "DJ 106C",
-			"city": "Cisnădie",
-			"capacity": 5000,
-			"surface": "grass",
-			"lat": 45.710266,
-			"lng": 24.153314,
-			"x": 412,
-			"y": 543,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "5050_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadionul_M%C4%83gura_%28%C8%98imleu_Silvaniei%29_2nd_stand.jpg/1200px-Stadionul_M%C4%83gura_%28%C8%98imleu_Silvaniei%29_2nd_stand.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 32
-	},
-	{
-		"team": {
-			"api_football_id": 7466,
-			"name": "CSA Steaua Bucureşti",
-			"code": null,
-			"country": "Romania",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/CSA_Steaua_Bucure%C8%99ti"
-		},
-		"venue": {
-			"api_football_id": 12042,
-			"name": "Stadionul Steaua",
-			"address": "Bulevardul Ghencea, nr. 35, Sector 6",
-			"city": "București",
-			"capacity": 31254,
-			"surface": "grass",
-			"lat": 44.412778,
-			"lng": 26.040556,
-			"x": 611,
-			"y": 737,
-			"wiki": "https://en.wikipedia.org/wiki/Steaua_Stadium_(2021)"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "12042_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/1/10/Stadionul_Steaua%2C_5_July_2023.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12042_002.jpg",
-				"source": "https://www.uar-bna.ro/f/bna2021/ver/Steaua_mariusvasile%20%20(6).jpg-d2.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12042_003.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Romania_bucharest_Steaua_Stadium.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12042_004.jpg",
-				"source": "https://liga2.prosport.ro/wp-content/uploads/2021/12/stadion-steaua-18-1.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12042_005.jpg",
-				"source": "https://www.hellasod.gr/uploads/photos/D1366/2021/09/anakataskeuigipedousteauastobouk_8786.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "12042_006.jpg",
-				"source": "https://as.ro/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-07-at-15.03.25.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 33
-	},
-	{
-		"team": {
-			"api_football_id": 7469,
-			"name": "Dumbrăviţa",
-			"code": null,
-			"country": "Romania",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/CSC_Dumbr%C4%83vi%C8%9Ba"
-		},
-		"venue": {
-			"api_football_id": 5436,
-			"name": "Stadionul Ştefan Dobay",
-			"address": "Str. Mihai Eminescu 44",
-			"city": "Dumbrăvița",
-			"capacity": 3000,
-			"surface": "grass",
-			"lat": 45.799167,
-			"lng": 21.249778,
-			"x": 104,
-			"y": 530,
-			"wiki": "https://en.wikipedia.org/wiki/%C8%98tefan_Dobay_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "5436_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/7/79/Stadionul_%C8%98tefan_Dobay.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5436_002.jpg",
-				"source": "https://dumbravitatv.ro/wp-content/uploads/2023/06/stadion_iunie-1280x640.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5436_003.jpg",
-				"source": "https://www.ziuadevest.ro/wp-content/uploads/2024/08/f.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 34
+		"no": 43
 	},
 	{
 		"team": {
@@ -1918,176 +2450,7 @@
 				"size": 0
 			}
 		],
-		"no": 35
-	},
-	{
-		"team": {
-			"api_football_id": 20033,
-			"name": "Bihor Oradea",
-			"code": null,
-			"country": "Romania",
-			"founded": 1958,
-			"wiki": "https://en.wikipedia.org/wiki/FC_Bihor_Oradea_(2022)"
-		},
-		"venue": {
-			"api_football_id": 11407,
-			"name": "Stadionul Iuliu Bodola",
-			"address": "Strada Republicii, nr. 3-5",
-			"city": "Oradea",
-			"capacity": 25250,
-			"surface": "grass",
-			"lat": 47.071944,
-			"lng": 21.93,
-			"x": 176,
-			"y": 335,
-			"wiki": "https://en.wikipedia.org/wiki/Iuliu_Bodola_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "11407_001.jpg",
-				"source": "https://anaulmanu.com/wp-content/uploads/2023/05/oradea-1024x1024.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11407_002.jpg",
-				"source": "https://oradeaindirect.ro/wp-content/uploads/2024/03/fc-bihor-3.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11407_003.jpg",
-				"source": "https://media.prosport.ro/70Ep14KxpqaJIT4cDrJWl9xbLxw=/1280x720/smart/filters:contrast(5):format(webp):quality(80)/https%3A%2F%2Fwww.prosport.ro%2Fwp-content%2Fuploads%2F2008%2F04%2F2573562%2F1-stadion.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "11407_004.jpg",
-				"source": "https://www.bihon.ro/wp-content/uploads/2023/09/5378468fcb6.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 36
-	},
-	{
-		"team": {
-			"api_football_id": 20034,
-			"name": "Corvinul Hunedoara",
-			"code": null,
-			"country": "Romania",
-			"founded": 1921,
-			"wiki": "https://en.wikipedia.org/wiki/FC_Corvinul_Hunedoara"
-		},
-		"venue": {
-			"api_football_id": 5013,
-			"name": "Stadionul Michael Klein",
-			"address": "Str. Mihai Viteazu, nr. 10",
-			"city": "Hunedoara",
-			"capacity": 16500,
-			"surface": "grass",
-			"lat": 45.761639,
-			"lng": 22.912972,
-			"x": 280,
-			"y": 535,
-			"wiki": "https://en.wikipedia.org/wiki/Michael_Klein_Stadium_(1960)"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "5013_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Michael_Klein_Stadium_%281960%29.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5013_002.jpg",
-				"source": "https://servuspress.ro/wp-content/uploads/2024/09/459386695_928376936000721_5369971973151588344_n.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5013_003.jpg",
-				"source": "https://servuspress.ro/wp-content/uploads/2024/09/459173314_928376859334062_8138036981586382661_n.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5013_004.jpg",
-				"source": "https://stadiony.net/pictures/stadiums/rou/stadionul_michael_klein/stadionul_michael_klein05.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 37
-	},
-	{
-		"team": {
-			"api_football_id": 20831,
-			"name": "Muscelul Câmpulung Elite",
-			"code": null,
-			"country": "Romania",
-			"founded": 2022,
-			"wiki": "https://en.wikipedia.org/wiki/AFC_C%C3%A2mpulung_Muscel"
-		},
-		"venue": {
-			"api_football_id": 19434,
-			"name": "Stadionul Muscelul",
-			"address": "Bulevardul Ion Mihalache",
-			"city": "Câmpulung Muscel",
-			"capacity": 6000,
-			"surface": "grass",
-			"lat": 45.265917,
-			"lng": 25.047972,
-			"x": 506,
-			"y": 610,
-			"wiki": "https://en.wikipedia.org/wiki/Muscelul_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "19434_001.jpg",
-				"source": "https://evenimentulmuscelean.ro/wp-content/uploads/2022/07/2680-Av-960x720.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "19434_002.jpg",
-				"source": "https://evenimentulmuscelean.ro/wp-content/uploads/2022/07/2679-Ag.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "19434_003.jpg",
-				"source": "https://www.ziaruldinmuscel.ro/wp-content/uploads/2022/07/Stadionul-de-la-Campulung-este-ca-dupa-razboi..-5.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 38
+		"no": 44
 	},
 	{
 		"team": {
@@ -2146,7 +2509,7 @@
 				"size": 0
 			}
 		],
-		"no": 39
+		"no": 45
 	},
 	{
 		"team": {
@@ -2181,50 +2544,7 @@
 				"size": 0
 			}
 		],
-		"no": 40
-	},
-	{
-		"team": {
-			"api_football_id": 6908,
-			"name": "Tunari",
-			"code": null,
-			"country": "Romania",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/CS_Tunari"
-		},
-		"venue": {
-			"api_football_id": 5038,
-			"name": "Stadionul Tunari",
-			"address": "Str. Domna Ghica",
-			"city": "Tunari",
-			"capacity": 1000,
-			"surface": "grass",
-			"lat": 44.551944,
-			"lng": 26.142222,
-			"x": 622,
-			"y": 716,
-			"wiki": "https://en.wikipedia.org/wiki/Tunari_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "5038_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/en/4/40/Stadionul_comunal_Tunari_-_General_view.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5038_002.jpg",
-				"source": "https://cacheimg.gsp.ro/autocrop/smp-images-production/gsp.ro/12082024/c460bb2e-e673-451a-8d63-df3d6f0b5347.jpg?width=848&height=0",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 41
+		"no": 46
 	},
 	{
 		"team": {
@@ -2267,6 +2587,6 @@
 				"size": 0
 			}
 		],
-		"no": 42
+		"no": 47
 	}
 ]

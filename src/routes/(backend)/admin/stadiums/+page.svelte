@@ -2,15 +2,12 @@
     import { base } from "$app/paths";
     import { supabase } from "@lib/supabase/supabaseClient";
     import { onMount } from "svelte";
-    import { goto } from "$app/navigation";
     import { page } from "$app/stores";
-    import { jwtDecode } from "jwt-decode";
     import Toasts from "@components/Toasts.svelte";
     import { addToast } from "@store/toast";
     import { countryStore } from "@store/country";
     import { leagueStore } from "@store/league";
     import { stadiumStore } from "@store/stadium";
-    import { counter } from "@store/count";
     import dayjs from "$lib/utils/day";
     import slugify from "@utils/slugify";
 
@@ -39,6 +36,9 @@
             }
             countryStore.setCountry(country);
             leagueStore.fetchLeaguesByCountryId(country.id);
+            // stadiumStore.stadiumsByLeagueId = {};
+            leagueStore.setLeague(null);
+            stadiumStore.clearStadiums();
         } catch (error) {
             console.log("error: ", error);
         }
@@ -51,7 +51,10 @@
                 return;
             }
             leagueStore.setLeague(league);
-            stadiumStore.fetchStadiumsByLeagueId(league.id);
+            // stadiumStore.fetchStadiumsByLeagueId(league.id);
+            stadiumStore.fetchStadiumsByApiFootballLeagueId(
+                league.api_football_id
+            );
         } catch (error) {
             console.log("error: ", error);
         }
@@ -93,7 +96,7 @@
             );
             // console.log("response: ", response);
             const data = await response.json();
-            // console.log("data: ", data);
+            console.log("data: ", data);
             addToast({
                 type: "success",
                 message: `Updated teams for country "${country.name}" and season "${season}" with data from API Football. Check /teams/(${slugify(country.name)}).json.`,
@@ -105,16 +108,16 @@
         }
     };
 
-    const updateTeams = async () => {
+    const updateStadiums = async () => {
         try {
-            console.log("updateTeams");
-            loadingUpdateTeams = true;
+            console.log("updateStadiums");
+            loadingUpdateStadiums = true;
             const countrySlug = slugify($countryStore.country?.name);
 
             // 1) Fetch teams from static/json/teams/[country].json file
-            const response2 = await fetch(`/json/teams/${countrySlug}.json`);
-            // console.log("response2: ", response2);
-            const teamsJSONFile = await response2.json();
+            const response = await fetch(`/json/teams/${countrySlug}.json`);
+            // console.log("response: ", response);
+            const teamsJSONFile = await response.json();
             console.log("teamsJSONFile: ", teamsJSONFile);
             // return
 
@@ -122,31 +125,12 @@
                 const teamJSONData = teamsJSONFile[i];
                 console.log("teamJSONData: ", teamJSONData);
 
-                // 1) Check if venue exists in DB
-                const { data: existingVenue, error: errorVenue } =
+                const { data: insertedVenue, error: insertVenueError } =
                     await supabase
                         .from("stadiums")
-                        .select("*")
-                        .eq(
-                            "api_football_id",
-                            teamJSONData.venue.api_football_id
-                        )
-                        .single();
-                console.log("existingVenue: ", existingVenue);
-                if (!existingVenue) {
-                    console.warn(
-                        `Venue "${teamJSONData.venue.name}" not found in DB, insert it.`
-                    );
-                    addToast({
-                        type: "info",
-                        message: `Stadium "${teamJSONData.venue.name}" not found in DB, it will now be inserted.`,
-                    });
-
-                    // 1.1) Insert venue
-                    const { data: insertedVenue, error: insertVenueError } =
-                        await supabase
-                            .from("stadiums")
-                            .insert({
+                        .upsert(
+                            {
+                                // id: existingVenue.id,
                                 api_football_id:
                                     teamJSONData.venue.api_football_id,
                                 name: teamJSONData.venue.name,
@@ -159,39 +143,51 @@
                                 x: teamJSONData.venue.x,
                                 y: teamJSONData.venue.y,
                                 is_active: true,
-                            })
-                            .select();
-                    if (insertVenueError) {
-                        console.error("Insert venue error: ", insertVenueError);
-                    } else {
-                        console.log("Inserted venue: ", insertedVenue);
-                        addToast({
-                            type: "success",
-                            message: `Stadium "${teamJSONData.venue.name}" was inserted successfully.`,
-                        });
-                    }
-                }
-
-                // 2) Check if team exists in DB
-                const { data: existingTeam, error: error1 } = await supabase
-                    .from("teams")
-                    .select("*")
-                    .eq("api_football_id", teamJSONData.team.api_football_id)
-                    .single();
-                console.log("existingTeam: ", existingTeam);
-
-                if (!existingTeam) {
-                    // console.warn(`Team "${teamJSONData.team.name}" not found in DB, insert it.`)
+                            },
+                            { onConflict: "api_football_id" }
+                        )
+                        .select();
+                if (insertVenueError) {
+                    console.error("Insert venue error: ", insertVenueError);
+                } else {
+                    console.log("Inserted venue: ", insertedVenue);
                     addToast({
-                        type: "info",
-                        message: `Team "${teamJSONData.team.name}" not found in DB, it will now be inserted.`,
+                        type: "success",
+                        message: `Stadium "${teamJSONData.venue.name}" was inserted successfully.`,
                     });
+                }
+                // }
+            }
+        } catch (error) {
+            console.log("error: ", error);
+        } finally {
+            loadingUpdateStadiums = false;
+        }
+    };
 
-                    // 2.1) Insert team
-                    const { data: insertedData, error: insertStadiumError } =
-                        await supabase
-                            .from("teams")
-                            .insert({
+    const updateTeams = async () => {
+        try {
+            console.log("updateTeams");
+            loadingUpdateTeams = true;
+            const countrySlug = slugify($countryStore.country?.name);
+
+            // 1) Fetch teams from static/json/teams/[country].json file
+            const response = await fetch(`/json/teams/${countrySlug}.json`);
+            // console.log("response: ", response);
+            const teamsJSONFile = await response.json();
+            console.log("teamsJSONFile: ", teamsJSONFile);
+            // return
+
+            for (let i = 0; i < teamsJSONFile.length; i++) {
+                const teamJSONData = teamsJSONFile[i];
+                console.log("teamJSONData: ", teamJSONData);
+
+                const { data: upsertedData, error: upsertTeamError } =
+                    await supabase
+                        .from("teams")
+                        .upsert(
+                            {
+                                // id: existingTeam.id,
                                 api_football_id:
                                     teamJSONData.team.api_football_id,
                                 api_football_venue_id:
@@ -200,46 +196,24 @@
                                     teamJSONData.league.api_football_id,
                                 name: teamJSONData.team.name,
                                 slug: slugify(teamJSONData.team.name),
+                                image: `/images/teams/${countrySlug}/${teamJSONData.team.api_football_id}.png`,
                                 code: teamJSONData.team.code,
                                 founded: teamJSONData.team.founded,
                                 wiki: teamJSONData.team.wiki,
                                 is_active: true,
-                            })
-                            .select();
-                    if (insertStadiumError) {
-                        console.error("Insert error: ", insertStadiumError);
-                    } else {
-                        console.log("Inserted team: ", insertedData);
-                        addToast({
-                            type: "success",
-                            message: `Team "${teamJSONData.team.name}" was inserted successfully.`,
-                        });
-                    }
+                            },
+                            { onConflict: "api_football_id" }
+                        )
+                        // .onConflict('api_football_id')
+                        .select();
+                if (upsertTeamError) {
+                    console.error("Upsert error: ", upsertTeamError);
                 } else {
-                    // 2.2) If team already exists, update league ID
-                    console.log(
-                        `Team "${teamJSONData.team.name}" already exists in DB, simply update league id.`
-                    );
-                    const leagueId =
-                        teamJSONData.league.api_football_id || null;
-
-                    const { data: updatedData, error: updateError } =
-                        await supabase
-                            .from("teams")
-                            .update({
-                                api_football_league_id: leagueId,
-                                updated_at: new Date().toISOString(),
-                            })
-                            .eq(
-                                "api_football_id",
-                                teamJSONData.team.api_football_id
-                            )
-                            .select();
-                    if (updateError) {
-                        console.error("Update error: ", updateError);
-                    } else {
-                        console.log("Update team: ", updatedData);
-                    }
+                    console.log("Upserted team: ", upsertedData);
+                    addToast({
+                        type: "success",
+                        message: `Team "${teamJSONData.team.name}" was inserted successfully.`,
+                    });
                 }
             }
             addToast({
@@ -253,73 +227,63 @@
         }
     };
 
-    const calculateSVGCoordinates = async () => {
-        try {
-            console.log("calculateSVGCoordinates");
-            loadingUpdateCoordinates = true;
-            const baseUrl = $page.url.origin;
-            const countrySlug = slugify($countryStore.country?.name);
-            console.log("countrySlug: ", countrySlug);
-            // return;
-
-            const response = await fetch(
-                `${baseUrl}/api/calculate-svg-coord?country=${countrySlug}`
-            );
-            const data = await response.json();
-            console.log("data: ", data);
-            addToast({
-                type: "success",
-                message: `Updated stadiums x & y coord for country "${$countryStore.country?.name}"`,
-            });
-        } catch (error) {
-            console.log("error: ", error);
-        } finally {
-            loadingUpdateCoordinates = false;
-        }
-    };
-
-    const updateStadiums = async () => {
-        try {
-            console.log("updateStadiums");
-            loadingUpdateStadiums = true;
-            const baseUrl = $page.url.origin;
-            const countrySlug = slugify($countryStore.country?.name);
-            console.log("countrySlug: ", countrySlug);
-            // return;
-
-            const response = await fetch(
-                `${baseUrl}/api/supabase/update-stadiums?country=${countrySlug}`
-            );
-            const data = await response.json();
-            console.log("data: ", data);
-            addToast({
-                type: "success",
-                message: `Updated stadiums for country "${$countryStore.country?.name}"`,
-            });
-        } catch (error) {
-            console.log("error: ", error);
-        } finally {
-            loadingUpdateStadiums = false;
-        }
-    };
 
     const updateImages = async () => {
         try {
             console.log("updateImages");
             loadingUpdateImages = true;
-            const baseUrl = $page.url.origin;
             const countrySlug = slugify($countryStore.country?.name);
-            console.log("countrySlug: ", countrySlug);
 
-            const response = await fetch(
-                `${baseUrl}/api/supabase/update-images?country=${countrySlug}`
-            );
-            const data = await response.json();
-            console.log("data: ", data);
-            addToast({
-                type: "success",
-                message: `Updated images for country "${$countryStore.country?.name}"`,
-            });
+            // 1) Fetch teams from static/json/teams/[country].json file
+            const response = await fetch(`/json/teams/${countrySlug}.json`);
+            // console.log("response: ", response);
+            const teamsJSONFile = await response.json();
+            console.log("teamsJSONFile: ", teamsJSONFile);
+
+            for (let i = 0; i < teamsJSONFile.length; i++) {
+                let imagesCount = 0;
+                for (let j = 0; j < teamsJSONFile[i].images.length; j++) {
+                    const { data: upsertedData, error: upsertImageError } =
+                        await supabase
+                            .from("images")
+                            .upsert(
+                                {
+                                    api_football_venue_id:
+                                        teamsJSONFile[i]["venue"][
+                                            "api_football_id"
+                                        ],
+                                    name: teamsJSONFile[i]["images"][j]["name"],
+                                    source: teamsJSONFile[i]["images"][j][
+                                        "source"
+                                    ],
+                                    width: 0,
+                                    height: 0,
+                                    display_order: teamsJSONFile[i]["images"][j][
+                                        "display_order"
+                                    ]
+                                        ? teamsJSONFile[i]["images"][j][
+                                              "display_order"
+                                          ]
+                                        : j + 1,
+                                    is_active: true,
+                                },
+                                {
+                                    onConflict: "name",
+                                }
+                            )
+                            .select();
+                    if (upsertImageError) {
+                        console.error("Upsert error: ", upsertImageError);
+                    } else {
+                        imagesCount++;
+                        console.log("Upserted image: ", upsertedData);
+                    }
+                }
+                addToast({
+                    type: "success",
+                    message: `${imagesCount} images for stadium "${teamsJSONFile[i].team?.name}" were inserted.`,
+                });
+            }
         } catch (error) {
             console.log("error: ", error);
         } finally {
@@ -351,6 +315,31 @@
             loadingUpdateStorageUrl = false;
         }
     };
+
+    const calculateSVGCoordinates = async () => {
+        try {
+            console.log("calculateSVGCoordinates");
+            loadingUpdateCoordinates = true;
+            const baseUrl = $page.url.origin;
+            const countrySlug = slugify($countryStore.country?.name);
+            console.log("countrySlug: ", countrySlug);
+            // return;
+
+            const response = await fetch(
+                `${baseUrl}/api/calculate-svg-coord?country=${countrySlug}`
+            );
+            const data = await response.json();
+            console.log("data: ", data);
+            addToast({
+                type: "success",
+                message: `Updated stadiums x & y coord for country "${$countryStore.country?.name}"`,
+            });
+        } catch (error) {
+            console.log("error: ", error);
+        } finally {
+            loadingUpdateCoordinates = false;
+        }
+    };
 </script>
 
 <div class="container">
@@ -362,7 +351,7 @@
     <!-- <p>CountryStore.country.id: {$countryStore.country?.id}</p> -->
     <!-- <p>LeagueStore.league: {$leagueStore.league?.name}</p> -->
     <!-- loadingFetchLeagueTeams: {loadingFetchLeagueTeams}<br /> -->
-    <br /><br />
+    <!-- <br /><br /> -->
 
     <div class="row my-2">
         <div class="col-12">
@@ -414,6 +403,18 @@
                     ></small
                 ><br />
                 <button
+                    class={`btn btn-outline-primary btn-sm ma-1 ${loadingUpdateStadiums ? "loading disabled" : ""}`}
+                    onclick={updateStadiums}
+                >
+                    Update stadiums
+                </button>
+                <small>
+                    <i
+                        >This will update stadiums in Supabase DB for {$countryStore
+                            .country?.name} (long process).</i
+                    ></small
+                ><br />
+                <button
                     class={`btn btn-outline-primary btn-sm ma-1 ${loadingUpdateTeams ? "loading disabled" : ""}`}
                     onclick={updateTeams}
                 >
@@ -424,18 +425,6 @@
                         >This will update teams in Supabase DB for {$countryStore
                             .country?.name} and provide each of them with their current
                         league ID (long process).</i
-                    ></small
-                ><br />
-                <button
-                    class={`btn btn-outline-primary btn-sm ma-1 ${loadingUpdateStadiums ? "loading disabled" : ""}`}
-                    onclick={updateStadiums}
-                >
-                    Update stadiums
-                </button>
-                <small>
-                    <i
-                        >This will update data in Supabase DB stadiums table for
-                        country {$countryStore.country?.name}.</i
                     ></small
                 ><br />
                 <button
@@ -459,14 +448,15 @@
                 <small>
                     <i
                         >This will update the image url field in Supabase DB
-                        images table for each image stored in {slugify($countryStore
-                            .country?.name)}
+                        images table for each image stored in {slugify(
+                            $countryStore.country?.name
+                        )}
                         folder of Supabase storage (long process).</i
                     ></small
                 >
             </div>
             <div class="col-12">
-                <h3 class="my-2">Select a league</h3>
+                <h3 class="my-2">Select a league for {$countryStore.country?.name}</h3>
                 {#each $leagueStore.leaguesByCountryId as league, index}
                     <button
                         class="btn btn-outline-primary btn-sm ma-1 {$leagueStore
@@ -480,7 +470,7 @@
         </div>
     {/if}
 
-    <br /><br />
+    <h3 class="text-left">Teams</h3>
 
     <div class="row" style="">
         <div class="col-12" style="">
@@ -495,24 +485,30 @@
                             <th>Capacity</th>
                             <th>X coord</th>
                             <th>Y coord</th>
+                            <th>Teams</th>
                             <th>Nb. d'images</th>
                             <th>Images</th>
                         </tr>
                     </thead>
                     <tbody>
-                        {#each $stadiumStore.stadiumsByLeagueId[$leagueStore.league?.id] as stadium, index}
+                        {#each $stadiumStore.stadiumsByLeagueId[$leagueStore.league?.api_football_id] as stadium, index}
                             <tr>
                                 <td>{index + 1}</td>
                                 <td>{stadium.id}</td>
                                 <td
                                     ><a href="/admin/stadiums/{stadium.id}"
-                                        >{stadium.name}</a
+                                        >{stadium.stadium_name}</a
                                     ></td
                                 >
-                                <td>{stadium.city}</td>
-                                <td>{stadium.capacity}</td>
-                                <td>{stadium.x}</td>
-                                <td>{stadium.y}</td>
+                                <td>{stadium.stadium_city}</td>
+                                <td>{stadium.stadium_capacity}</td>
+                                <td>{stadium.stadium_x}</td>
+                                <td>{stadium.stadium_y}</td>
+                                <td>
+                                    {#each stadium.teams as team, teamIndex}
+                                        {team.name}{teamIndex < stadium.teams.length - 1 ? ", " : ""}
+                                    {/each}
+                                </td>
                                 <td
                                     ><span
                                         class={stadium.images.length < 1
@@ -522,8 +518,14 @@
                                 >
                                 <td>
                                     {#each stadium.images as image, i}
-                                        <img
+                                        <!-- <img
                                             src={image.url}
+                                            alt={image.name}
+                                            height="50"
+                                            class="px-1"
+                                        /> -->
+                                        <img
+                                            src={`/images/stadiums/${slugify($countryStore.country?.name)}/${image.name}`}
                                             alt={image.name}
                                             height="50"
                                             class="px-1"
