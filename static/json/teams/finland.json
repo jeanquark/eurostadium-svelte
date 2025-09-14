@@ -1087,11 +1087,11 @@
 			"city": "Tampere",
 			"capacity": 5000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 61.495694,
+			"lng": 23.743139,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://fi.wikipedia.org/wiki/Pyynikin_urheilukentt%C3%A4"
 		},
 		"league": {
 			"api_football_id": 245,
@@ -1099,7 +1099,40 @@
 			"country": "Finland",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "6366_001.jpg",
+				"source": "https://cdn-datahub.visitfinland.com/images/b171f290-c5ff-11ec-aa5f-df77bb4864a3.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "6366_002.jpg",
+				"source": "https://www.tampere.fi/sites/default/files/styles/og_image/public/2024-10/Pyynikin_kentta_ilma_2500px.jpg?h=0dcbdcff&itok=vLuqiTbj",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "6366_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/8/89/Pyynikin_urheilukentt%C3%A4.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "6366_004.jpg",
+				"source": "https://tjeldnet.wordpress.com/wp-content/uploads/2016/10/161015_pyynikin-urheilukentta.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 18
 	},
 	{
@@ -1310,8 +1343,8 @@
 			"city": "Åbo",
 			"capacity": 1000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 60.443465,
+			"lng": 22.288173,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -1322,7 +1355,24 @@
 			"country": "Finland",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "18464_001.jpg",
+				"source": "https://www.turku.fi/sites/default/files/styles/og_image/public/image/kupittaan-nurmikentat-9.jpg?h=60f9f39d&itok=qvROpBxl",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18464_002.jpg",
+				"source": "https://www.kuntec.fi/media/kupittaa2_tekonurmi_kuntec_2019.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 23
 	},
 	{

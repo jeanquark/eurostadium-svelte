@@ -2025,8 +2025,8 @@
 			"surface": "grass",
 			"lat": 41.1725,
 			"lng": 29.0503,
-			"x": 0,
-			"y": 0,
+			"x": 177,
+			"y": 354,
 			"wiki": "https://en.wikipedia.org/wiki/Yusuf_Ziya_%C3%96ni%C5%9F_Stadium"
 		},
 		"league": {
@@ -2089,8 +2089,8 @@
 			"surface": "grass",
 			"lat": 38.496111,
 			"lng": 43.373056,
-			"x": 0,
-			"y": 0,
+			"x": 924,
+			"y": 535,
 			"wiki": "https://tr.wikipedia.org/wiki/Van_Atat%C3%BCrk_Stadyumu"
 		},
 		"league": {
@@ -2257,8 +2257,8 @@
 			"surface": "grass",
 			"lat": 36.902285,
 			"lng": 31.11669,
-			"x": 0,
-			"y": 0,
+			"x": 285,
+			"y": 640,
 			"wiki": ""
 		},
 		"league": {
@@ -2297,8 +2297,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -1340,
-			"y": 2710,
+			"x": 0,
+			"y": 0,
 			"wiki": "https://de.wikipedia.org/wiki/I%C4%9Fd%C4%B1r_%C5%9Eehir_Stadyumu"
 		},
 		"league": {

@@ -1329,8 +1329,8 @@
 			"surface": "grass",
 			"lat": 48.08089,
 			"lng": 17.263335,
-			"x": 0,
-			"y": 0,
+			"x": 75,
+			"y": 657,
 			"wiki": "https://en.wikipedia.org/wiki/NTC_Dunajsk%C3%A1_Lu%C5%BEn%C3%A1"
 		},
 		"league": {
@@ -1519,10 +1519,10 @@
 			"city": "Košice",
 			"capacity": 1000,
 			"surface": "grass",
-			"lat": 48.734710,
+			"lat": 48.73471,
 			"lng": 21.243012,
-			"x": 0,
-			"y": 0,
+			"x": 769,
+			"y": 486,
 			"wiki": ""
 		},
 		"league": {
@@ -1569,8 +1569,8 @@
 			"surface": "grass",
 			"lat": 48.699289,
 			"lng": 18.595912,
-			"x": 0,
-			"y": 0,
+			"x": 307,
+			"y": 495,
 			"wiki": ""
 		},
 		"league": {

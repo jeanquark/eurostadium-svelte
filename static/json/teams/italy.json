@@ -2201,8 +2201,8 @@
 			"surface": "grass",
 			"lat": 42.455,
 			"lng": 14.23,
-			"x": 0,
-			"y": 0,
+			"x": 608,
+			"y": 421,
 			"wiki": "https://en.wikipedia.org/wiki/Stadio_Adriatico_%E2%80%93_Giovanni_Cornacchia"
 		},
 		"league": {
@@ -2273,8 +2273,8 @@
 			"surface": "artificial turf",
 			"lat": 44.315556,
 			"lng": 9.337222,
-			"x": 0,
-			"y": 0,
+			"x": 291,
+			"y": 256,
 			"wiki": "https://en.wikipedia.org/wiki/Stadio_Comunale_(Chiavari)"
 		},
 		"league": {
@@ -2345,8 +2345,8 @@
 			"surface": "grass",
 			"lat": 40.926944,
 			"lng": 14.7925,
-			"x": 0,
-			"y": 0,
+			"x": 644,
+			"y": 553,
 			"wiki": "https://en.wikipedia.org/wiki/Stadio_Partenio-Adriano_Lombardi"
 		},
 		"league": {
@@ -2489,8 +2489,8 @@
 			"surface": "grass",
 			"lat": 45.432222,
 			"lng": 11.858333,
-			"x": 0,
-			"y": 0,
+			"x": 454,
+			"y": 154,
 			"wiki": "https://en.wikipedia.org/wiki/Stadio_Euganeo"
 		},
 		"league": {

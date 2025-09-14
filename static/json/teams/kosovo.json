@@ -215,11 +215,11 @@
 			"city": "Srbica",
 			"capacity": 3000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 42.905,
+			"lng": 21.194722,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Bajram_Aliu_Stadium"
 		},
 		"league": {
 			"api_football_id": 664,

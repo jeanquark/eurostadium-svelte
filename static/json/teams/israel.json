@@ -1695,8 +1695,8 @@
 			"city": "Modi&apos;in Makabim-Re&apos;ut",
 			"capacity": 2000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 31.917337,
+			"lng": 34.976661,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -1775,8 +1775,8 @@
 			"city": "Kiryat Yam",
 			"capacity": 1000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 32.854861,
+			"lng": 35.075314,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -1946,8 +1946,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -7140,
-			"y": 7690,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {},

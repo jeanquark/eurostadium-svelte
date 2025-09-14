@@ -1319,8 +1319,8 @@
 			"city": "Novi Sad",
 			"capacity": 2000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 45.238243,
+			"lng": 19.846901,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -1331,7 +1331,24 @@
 			"country": "Serbia",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "20090_001.jpg",
+				"source": "https://i0.wp.com/au-stade.fr/wp-content/uploads/2022/03/IMG_20220226_144400-min-scaled.jpg?resize=810%2C608&ssl=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20090_002.jpg",
+				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8biPACs_9HymIGf2h-FC5uWiPOBbIuc-MXbhk6NFwBdTJVWGTgwBWnTa6lGMAGInFgGnmE6y5Bjzp8dh1MrbFjkjUkYkmN4p0luEAwUVAtWTxizK1r7eyXlu4wMUm3cv7yqAN9Q9zQYUV/s1600/DSC00712.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 23
 	},
 	{
@@ -1526,11 +1543,11 @@
 			"city": "Loznica",
 			"capacity": 8030,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 44.539212,
+			"lng": 19.230742,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Lagator_Stadium"
 		},
 		"league": {
 			"api_football_id": 287,
@@ -1538,7 +1555,56 @@
 			"country": "Serbia",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "7855_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/1/15/Wide_angle_view_of_Lagator_Stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "7855_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/View_on_main_stand_of_the_Lagator_stadium.jpg/1200px-View_on_main_stand_of_the_Lagator_stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "7855_003.jpg",
+				"source": "https://firestopsistem.rs/wp-content/uploads/2023/06/stadion-legator-share.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "7855_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/1/18/View_on_northern_stand_from_southern_stand_of_Lagator_Stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "7855_005.jpg",
+				"source": "https://i.ytimg.com/vi/HPdK48_9n70/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEUgZShHMA8=&rs=AOn4CLA9MrQYl7ABNm_oK-UJZ2-1G80TzQ",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "7855_006.jpg",
+				"source": "https://estadiosdb.com/pictures/stadiums/ser/fudbalski_stadion_lagator/fudbalski_stadion_lagator11.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 27
 	},
 	{
@@ -1597,8 +1663,8 @@
 			"city": "Stepojevac",
 			"capacity": 1200,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 44.511728,
+			"lng": 20.290649,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -1609,7 +1675,32 @@
 			"country": "Serbia",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "7879_001.jpg",
+				"source": "https://www.facebook.com/photo/?fbid=715074715302242&set=a.715074665302247.1073741884.336460679830316",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "7879_002.jpg",
+				"source": "https://www.facebook.com/photo/?fbid=715074698635577&set=a.715074665302247.1073741884.336460679830316",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "7879_003.jpg",
+				"source": "https://www.facebook.com/photo/?fbid=715074691968911&set=a.715074665302247.1073741884.336460679830316",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 29
 	},
 	{
@@ -1668,11 +1759,11 @@
 			"city": "Priboj",
 			"capacity": 4000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 43.565056,
+			"lng": 19.534740,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Priboj_City_Stadium"
 		},
 		"league": {
 			"api_football_id": 287,
@@ -1680,7 +1771,40 @@
 			"country": "Serbia",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "18999_001.jpg",
+				"source": "https://zoomue.rs/wp-content/uploads/2023/04/FK-FAP-stadion.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18999_002.jpg",
+				"source": "https://xdn.tf.rs/2024/09/04/atletski-meeting-priboj9-830x553.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18999_003.jpg",
+				"source": "https://www.maxbetsport.rs/wp-content/uploads/2025/07/Stadion-FAP.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "18999_004.jpg",
+				"source": "https://i.ytimg.com/vi/gHhU7GBs17s/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 31
 	},
 	{
@@ -1699,8 +1823,8 @@
 			"city": "Vranje",
 			"capacity": 5000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 42.548146,
+			"lng": 21.912669,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -1711,7 +1835,24 @@
 			"country": "Serbia",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "1412_001.jpg",
+				"source": "https://vranjskaplustv.rs/wp-content/uploads/2025/03/Dinamo-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1412_002.jpg",
+				"source": "https://www.vranjenews.rs/sites/default/files/tema_dana/2018_02_14/dinamo_tribine_23.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 32
 	},
 	{
@@ -1920,8 +2061,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -3311,
-			"y": 9477,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {},

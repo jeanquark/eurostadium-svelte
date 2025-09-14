@@ -825,6 +825,1062 @@
 	},
 	{
 		"team": {
+			"api_football_id": 622,
+			"name": "Panionios",
+			"code": "PAN",
+			"country": "Greece",
+			"founded": 1890,
+			"wiki": "https://en.wikipedia.org/wiki/Panionios_F.C."
+		},
+		"venue": {
+			"api_football_id": 779,
+			"name": "Stadio Néas Smírnis",
+			"address": "1 Ioannou Chrisostomou, Néa Smírni",
+			"city": "Athens",
+			"capacity": 11756,
+			"surface": "grass",
+			"lat": 37.943033,
+			"lng": 23.709225,
+			"x": 423,
+			"y": 551,
+			"wiki": "https://en.wikipedia.org/wiki/Nea_Smyrni_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "779_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/3/3a/%CE%A0%CE%91%CE%9D%CE%99%CE%A9%CE%9D%CE%99%CE%9F%CE%A3_001.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "779_002.jpg",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/4c/3f/b1/img-20180310-160727-largejpg.jpg?w=1200&h=-1&s=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 950,
+			"name": "PAS Giannina",
+			"code": "GIA",
+			"country": "Greece",
+			"founded": 1966,
+			"wiki": "https://en.wikipedia.org/wiki/PAS_Giannina_F.C."
+		},
+		"venue": {
+			"api_football_id": 781,
+			"name": "Stadio Zosimades",
+			"address": "18 Fotis Tzavella",
+			"city": "Ioannina",
+			"capacity": 7652,
+			"surface": "grass",
+			"lat": 39.667647,
+			"lng": 20.848669,
+			"x": 144,
+			"y": 336,
+			"wiki": "https://es.wikipedia.org/wiki/Estadio_Zosimades"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "781_001.jpg",
+				"source": "https://www.fosonline.gr/media/news/2021/01/29/126181/main/zosimades-pas-giannina-afieroma.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "781_002.jpg",
+				"source": "https://footballtripper.com/wp-content/uploads/Zosimades-Stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "781_003.jpg",
+				"source": "https://monobala.gr/wp-content/uploads/2024/03/zosimades.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 16
+	},
+	{
+		"team": {
+			"api_football_id": 2094,
+			"name": "Anagennisi Karditsas",
+			"code": null,
+			"country": "Greece",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Anagennisi_Karditsa_F.C."
+		},
+		"venue": {
+			"api_football_id": 2731,
+			"name": "Stadio Karditsas",
+			"address": "Leoforos Dimokratias",
+			"city": "Karditsa",
+			"capacity": 4600,
+			"surface": "grass",
+			"lat": 39.362552,
+			"lng": 21.935127,
+			"x": 250,
+			"y": 374,
+			"wiki": "https://en.wikipedia.org/wiki/Municipal_Stadium_of_Karditsa"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2731_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2731_002.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2731_003.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2731_004.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 2095,
+			"name": "Kallithea",
+			"code": "KAL",
+			"country": "Greece",
+			"founded": 1966,
+			"wiki": "https://en.wikipedia.org/wiki/Athens_Kallithea_F.C."
+		},
+		"venue": {
+			"api_football_id": 2732,
+			"name": "Stadio Kallitheas Grigóris Lamprákis",
+			"address": "Odos Psiloreiti, Kallithea",
+			"city": "Athens",
+			"capacity": 4250,
+			"surface": "grass",
+			"lat": 37.9601,
+			"lng": 23.7151,
+			"x": 424,
+			"y": 549,
+			"wiki": "https://en.wikipedia.org/wiki/Grigoris_Lamprakis_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "2732_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Dimotiko_Stadio_Kallitheas_-_Grigoris_Lambrakis.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 18
+	},
+	{
+		"team": {
+			"api_football_id": 2096,
+			"name": "Kissamikos",
+			"code": "KIS",
+			"country": "Greece",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/PGS_Kissamikos"
+		},
+		"venue": {
+			"api_football_id": 782,
+			"name": "Dimotiko Stadio Perivolion",
+			"address": "Eleftherias",
+			"city": "Perivolia",
+			"capacity": 4527,
+			"surface": "grass",
+			"lat": 35.48726,
+			"lng": 24.000509,
+			"x": 452,
+			"y": 850,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "782_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Perivolia_Municipal_Stadium.jpg/1200px-Perivolia_Municipal_Stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "782_002.jpg",
+				"source": "https://www.europlan-online.de/files/00d0d4e19f4ba9165a52576f9c9bc99f.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "782_003.jpg",
+				"source": "https://www.europlan-online.de/files/d8824782c4c2ad146cd590ddd26bf5a9.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 19
+	},
+	{
+		"team": {
+			"api_football_id": 5046,
+			"name": "Kalamata",
+			"code": "KAL",
+			"country": "Greece",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Kalamata_F.C."
+		},
+		"venue": {
+			"api_football_id": 3817,
+			"name": "Gipedo Messiniakos",
+			"address": null,
+			"city": "Kalamata",
+			"capacity": 5613,
+			"surface": "grass",
+			"lat": 37.04137,
+			"lng": 22.120933,
+			"x": 268,
+			"y": 662,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3817_001.jpg",
+				"source": "https://www.tharrosnews.gr/wp-content/uploads/2021/04/GIPEDO-MESSS-1024x513.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3817_002.jpg",
+				"source": "https://www.europlan-online.de/files/c23bbc5b09e1e92057829dac42ef4a4e.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 20
+	},
+	{
+		"team": {
+			"api_football_id": 5049,
+			"name": "Kavala",
+			"code": "KAV",
+			"country": "Greece",
+			"founded": 1965,
+			"wiki": "https://en.wikipedia.org/wiki/Kavala_F.C."
+		},
+		"venue": {
+			"api_football_id": 3820,
+			"name": "Dimotiko Stadio Anthi Karagianni",
+			"address": "Amerikanikou Erythrou Stavrou",
+			"city": "Kavala",
+			"capacity": 12500,
+			"surface": "grass",
+			"lat": 40.946944,
+			"lng": 24.436111,
+			"x": 494,
+			"y": 173,
+			"wiki": "https://en.wikipedia.org/wiki/Anthi_Karagianni_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3820_001.jpg",
+				"source": "https://www.kavalapoint.gr/wp-content/uploads/2024/08/Anthi-Karagianni-Drone.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3820_002.jpg",
+				"source": "https://www.europlan-online.de/files/3beadac549e816e42414cb1732f2dfa7.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 21
+	},
+	{
+		"team": {
+			"api_football_id": 5056,
+			"name": "Niki Volos",
+			"code": "NIK",
+			"country": "Greece",
+			"founded": 1924,
+			"wiki": "https://en.wikipedia.org/wiki/Niki_Volos_F.C."
+		},
+		"venue": {
+			"api_football_id": 1918,
+			"name": "Panthessaliko Stadio",
+			"address": "Odos Stadiou",
+			"city": "Volos",
+			"capacity": 22700,
+			"surface": "grass",
+			"lat": 39.3875,
+			"lng": 22.931111,
+			"x": 347,
+			"y": 371,
+			"wiki": "https://en.wikipedia.org/wiki/Panthessaliko_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "1918_001.jpg",
+				"source": "https://www.volosfc.com/wp-content/uploads/2021/07/panthessalikopanorama.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1918_002.jpg",
+				"source": "https://kingsport.gr/wp-content/uploads/2023/05/panthessaliko-stadio-volos.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1918_003.jpg",
+				"source": "https://www.newsit.gr/wp-content/uploads/2018n/03/4121298.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1918_004.jpg",
+				"source": "https://www.intrakat.gr/wp-content/uploads/2010/04/PANTHESSALIKO-STADIO-VOLOU-0003.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 22
+	},
+	{
+		"team": {
+			"api_football_id": 6315,
+			"name": "Panargiakos",
+			"code": "APO",
+			"country": "Greece",
+			"founded": 1926,
+			"wiki": "https://en.wikipedia.org/wiki/Panargiakos_F.C."
+		},
+		"venue": {
+			"api_football_id": 4674,
+			"name": "Dimotiko Athlitiko Kentro Argous-Mykinon",
+			"address": "Stadiou 48",
+			"city": "Argos",
+			"capacity": 7000,
+			"surface": "grass",
+			"lat": 37.628602,
+			"lng": 22.714688,
+			"x": 326,
+			"y": 590,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "4674_001.jpg",
+				"source": "https://photos.wikimapia.org/p/00/04/37/62/64_big.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 23
+	},
+	{
+		"team": {
+			"api_football_id": 7511,
+			"name": "Egaleo",
+			"code": "EGA",
+			"country": "Greece",
+			"founded": 1931,
+			"wiki": "https://en.wikipedia.org/wiki/Egaleo_F.C."
+		},
+		"venue": {
+			"api_football_id": 5453,
+			"name": "Stadio Stavros Mavrothalassitis",
+			"address": "Thivon &amp; Korai",
+			"city": "Athens",
+			"capacity": 8217,
+			"surface": "grass",
+			"lat": 37.987169,
+			"lng": 23.676011,
+			"x": 420,
+			"y": 546,
+			"wiki": "https://en.wikipedia.org/wiki/Stavros_Mavrothalassitis_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "5453_001.jpg",
+				"source": "https://www.kgrgroup.gr/assets/Uploads/5-egaleo2.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5453_002.jpg",
+				"source": "https://www.europlan-online.de/files/ba1aa00a3044935bf4f9e7a3a2b04e71.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5453_003.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/gre/stadio_stavros_mavrothalasstasitis/stadio_stavros_mavrothalasstasitis34.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5453_004.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/gre/stadio_stavros_mavrothalasstasitis/stadio_stavros_mavrothalasstasitis26.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 24
+	},
+	{
+		"team": {
+			"api_football_id": 12367,
+			"name": "Nestos Chrisoupolis",
+			"code": "CHR",
+			"country": "Greece",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 7894,
+			"name": "Dimotiko Stadio Chrysoupolis",
+			"address": null,
+			"city": "Chrysoupoli",
+			"capacity": 8000,
+			"surface": "grass",
+			"lat": 40.990760,
+			"lng": 24.688714,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "7894_001.jpg",
+				"source": "https://media.fezza.net/library/t/3/6/109/9e/9e722dbc6265c94a71eccec06e460093.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "7894_002.jpg",
+				"source": "https://media.fezza.net/gallery/o/5/103/DSC05236.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 25
+	},
+	{
+		"team": {
+			"api_football_id": 12372,
+			"name": "Makedonikos Neapolis",
+			"code": null,
+			"country": "Greece",
+			"founded": 1928,
+			"wiki": "https://en.wikipedia.org/wiki/Makedonikos_F.C."
+		},
+		"venue": {
+			"api_football_id": 7898,
+			"name": "Gipedo Neas Efkarpias Makedonikou",
+			"address": "27 Eleftheriou Venizelou, Neapoli-Polichni",
+			"city": "Thessaloníki",
+			"capacity": 8100,
+			"surface": "grass",
+			"lat": 40.677778,
+			"lng": 22.950278,
+			"x": 349,
+			"y": 207,
+			"wiki": "https://en.wikipedia.org/wiki/Makedonikos_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "7898_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Makedonikos_Stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "7898_002.jpg",
+				"source": "https://www.europlan-online.de/files/cd19686c6b4c5f87af712a790ea84568.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 26
+	},
+	{
+		"team": {
+			"api_football_id": 12403,
+			"name": "Marko",
+			"code": null,
+			"country": "Greece",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 7919,
+			"name": "Ethniko Stadio Markopoulou",
+			"address": "Leof. Souniou 61",
+			"city": "Markopoulo Mesogeas",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 37.872056,
+			"lng": 23.932333,
+			"x": 0,
+			"y": 0,
+			"wiki": "https://en.wikipedia.org/wiki/Municipal_Stadium_of_Markopoulo"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "7919_001.jpg",
+				"source": "https://www.markopoulo.gr/wp-content/uploads/2023/03/IMG_2506.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 27
+	},
+	{
+		"team": {
+			"api_football_id": 15235,
+			"name": "Ilioupoli",
+			"code": null,
+			"country": "Greece",
+			"founded": 1953,
+			"wiki": "https://en.wikipedia.org/wiki/GS_Ilioupolis"
+		},
+		"venue": {
+			"api_football_id": 10915,
+			"name": "Stadio Ilioupolis",
+			"address": "Charilaou Trikoupi, Ilioupoli",
+			"city": "Athens",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 37.930688,
+			"lng": 23.746332,
+			"x": 427,
+			"y": 553,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "10915_001.jpg",
+				"source": "https://ilioupolinews.gr/wp-content/uploads/2022/10/gipedo.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "10915_002.jpg",
+				"source": "https://www.europlan-online.de/files/0229cd862c114d890f58209202336ed1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 28
+	},
+	{
+		"team": {
+			"api_football_id": 17991,
+			"name": "Iraklis 1908",
+			"code": null,
+			"country": "Greece",
+			"founded": 2021,
+			"wiki": "https://en.wikipedia.org/wiki/Iraklis_F.C._(Thessaloniki)"
+		},
+		"venue": {
+			"api_football_id": 769,
+			"name": "Kaftanzoglio Stadio",
+			"address": "Aghiou Dimitriou",
+			"city": "Thessaloníki",
+			"capacity": 27770,
+			"surface": "grass",
+			"lat": 40.625497,
+			"lng": 22.967003,
+			"x": 351,
+			"y": 214,
+			"wiki": "https://en.wikipedia.org/wiki/Kaftanzoglio_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "769_001.jpg",
+				"source": "https://i.ytimg.com/vi/a1mpBGWlrZQ/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFkgYChlMA8=&rs=AOn4CLBacgpV-vLU1mkGGPIWIud3wfvN5w",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "769_002.jpg",
+				"source": "https://bonflaneur.com/wp-content/uploads/2020/07/1107-4.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "769_003.jpg",
+				"source": "https://www.info-stades.fr/uploads/stades/thessaloniki-kaftanzoglio-stadium7.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "769_004.jpg",
+				"source": "https://asbuild.com.gr/wp-content/uploads/2019/05/IMG_2611_n.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 29
+	},
+	{
+		"team": {
+			"api_football_id": 18017,
+			"name": "Olympiakos Piraeus II",
+			"code": null,
+			"country": "Greece",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Olympiacos_F.C._B"
+		},
+		"venue": {
+			"api_football_id": 20350,
+			"name": "Proponitiko Kentro Reti",
+			"address": "Legaki 9-11, Agios Ioannis Rentis",
+			"city": "Athens",
+			"capacity": 3000,
+			"surface": "grass",
+			"lat": 37.970802,
+			"lng": 23.683007,
+			"x": 421,
+			"y": 548,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "20350_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20350_002.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20350_003.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "20350_004.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 30
+	},
+	{
+		"team": {
+			"api_football_id": 18018,
+			"name": "PAOK II",
+			"code": null,
+			"country": "Greece",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/PAOK_B"
+		},
+		"venue": {
+			"api_football_id": 7898,
+			"name": "Gipedo Neas Efkarpias Makedonikou",
+			"address": "27 Eleftheriou Venizelou, Neapoli-Polichni",
+			"city": "Thessaloníki",
+			"capacity": 8100,
+			"surface": "grass",
+			"lat": 40.613889,
+			"lng": 22.9725,
+			"x": 351,
+			"y": 215,
+			"wiki": "https://en.wikipedia.org/wiki/Toumba_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "780_001.jpg",
+				"source": "https://pbs.twimg.com/media/FMXb_YeWUAUG4D5?format=jpg&name=4096x4096",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "780_002.jpg",
+				"source": "https://pbs.twimg.com/media/FMXb_WqWUAUGGZg.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "780_003.jpg",
+				"source": "https://i2-prod.irishmirror.ie/incoming/article30805795.ece/ALTERNATES/s1200d/0_PAOK-stadium.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "780_004.jpg",
+				"source": "https://www.paokfc.gr/wp-content/uploads/2017/01/VER_2425.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "780_005.jpg",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/42/4f/f7/caption.jpg?w=1200&h=-1&s=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "780_006.jpg",
+				"source": "https://stadiumdb.com/img/news/2022/07/05Pao01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 31
+	},
+	{
+		"team": {
+			"api_football_id": 20683,
+			"name": "Kampaniakos Chalastra",
+			"code": null,
+			"country": "Greece",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Kampaniakos_F.C."
+		},
+		"venue": {
+			"api_football_id": 19333,
+			"name": "Gipedo Chalastras",
+			"address": "Karamanli 76",
+			"city": "Chalastra",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 40.630269,
+			"lng": 22.741193,
+			"x": 329,
+			"y": 213,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "19333_001.jpg",
+				"source": "https://assets.voria.gr/cdn/ff/WPoyuU2-VWg7l0k75gl-8DnuGG4HD_HiKjWkPDKJJrg/1700580305/public/2023-11/gipedo-chalastras.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19333_002.jpg",
+				"source": "https://ditika.gr/wp-content/uploads/2023/11/%CE%9A%CE%B1%CE%BC%CF%80%CE%B1%CE%BD%CE%B9%CE%B1%CE%BA%CF%8C%CF%82-%CE%B3%CE%AE%CF%80%CE%B5%CE%B4%CE%BF.png",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 32
+	},
+	{
+		"team": {
+			"api_football_id": 22244,
+			"name": "Ellas Syros",
+			"code": null,
+			"country": "Greece",
+			"founded": 1929,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 21236,
+			"name": "Dimotikó Gípedo Podosfaírou Áno Sýrou",
+			"address": null,
+			"city": "Ermoupoli",
+			"capacity": 1500,
+			"surface": "artificial turf",
+			"lat": 37.453314,
+			"lng": 24.937442,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "21236_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Municipal_Stadium_of_Ano_Syros_%282%29.JPG/1200px-Municipal_Stadium_of_Ano_Syros_%282%29.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 33
+	},
+	{
+		"team": {
+			"api_football_id": 25017,
+			"name": "Asteras Tripolis II",
+			"code": null,
+			"country": "Greece",
+			"founded": null,
+			"wiki": "https://en.wikipedia.org/wiki/Asteras_Tripolis_F.C."
+		},
+		"venue": {
+			"api_football_id": null,
+			"name": null,
+			"address": null,
+			"city": null,
+			"capacity": null,
+			"surface": null,
+			"lat": 37.5025,
+			"lng": 22.388611,
+			"x": 294,
+			"y": 606,
+			"wiki": "https://en.wikipedia.org/wiki/Theodoros_Kolokotronis_Stadium"
+		},
+		"league": {
+			"api_football_id": 494,
+			"name": "Super League 2",
+			"country": "Greece",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "766_001.jpg",
+				"source": "https://static.ostadium.com/galleries/theodoros-kolokotronis-stadium-illus.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "766_002.jpg",
+				"source": "https://static.maccabi-tlv.co.il/wp-content/uploads/2014/08/MTA__1408528688_4-840x426.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 34
+	},
+	{
+		"team": {
 			"api_football_id": 956,
 			"name": "Lamia",
 			"code": "LAM",
@@ -872,187 +1928,7 @@
 				"size": 0
 			}
 		],
-		"no": 15
-	},
-	{
-		"team": {
-			"api_football_id": 2095,
-			"name": "Kallithea",
-			"code": "KAL",
-			"country": "Greece",
-			"founded": 1966,
-			"wiki": "https://en.wikipedia.org/wiki/Athens_Kallithea_F.C."
-		},
-		"venue": {
-			"api_football_id": 2732,
-			"name": "Stadio Kallitheas Grigóris Lamprákis",
-			"address": "Odos Psiloreiti, Kallithea",
-			"city": "Athens",
-			"capacity": 4250,
-			"surface": "grass",
-			"lat": 37.9601,
-			"lng": 23.7151,
-			"x": 424,
-			"y": 549,
-			"wiki": "https://en.wikipedia.org/wiki/Grigoris_Lamprakis_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "2732_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Dimotiko_Stadio_Kallitheas_-_Grigoris_Lambrakis.JPG",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 16
-	},
-	{
-		"team": {
-			"api_football_id": 622,
-			"name": "Panionios",
-			"code": "PAN",
-			"country": "Greece",
-			"founded": 1890,
-			"wiki": "https://en.wikipedia.org/wiki/Panionios_F.C."
-		},
-		"venue": {
-			"api_football_id": 779,
-			"name": "Stadio Néas Smírnis",
-			"address": "1 Ioannou Chrisostomou, Néa Smírni",
-			"city": "Athens",
-			"capacity": 11756,
-			"surface": "grass",
-			"lat": 37.943033,
-			"lng": 23.709225,
-			"x": 423,
-			"y": 551,
-			"wiki": "https://en.wikipedia.org/wiki/Nea_Smyrni_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "779_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/3/3a/%CE%A0%CE%91%CE%9D%CE%99%CE%A9%CE%9D%CE%99%CE%9F%CE%A3_001.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "779_002.jpg",
-				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/4c/3f/b1/img-20180310-160727-largejpg.jpg?w=1200&h=-1&s=1",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 17
-	},
-	{
-		"team": {
-			"api_football_id": 950,
-			"name": "PAS Giannina",
-			"code": "GIA",
-			"country": "Greece",
-			"founded": 1966,
-			"wiki": "https://en.wikipedia.org/wiki/PAS_Giannina_F.C."
-		},
-		"venue": {
-			"api_football_id": 781,
-			"name": "Stadio Zosimades",
-			"address": "18 Fotis Tzavella",
-			"city": "Ioannina",
-			"capacity": 7652,
-			"surface": "grass",
-			"lat": 39.667647,
-			"lng": 20.848669,
-			"x": 144,
-			"y": 336,
-			"wiki": "https://es.wikipedia.org/wiki/Estadio_Zosimades"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "781_001.jpg",
-				"source": "https://www.fosonline.gr/media/news/2021/01/29/126181/main/zosimades-pas-giannina-afieroma.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "781_002.jpg",
-				"source": "https://footballtripper.com/wp-content/uploads/Zosimades-Stadium.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "781_003.jpg",
-				"source": "https://monobala.gr/wp-content/uploads/2024/03/zosimades.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 18
-	},
-	{
-		"team": {
-			"api_football_id": 2096,
-			"name": "Kissamikos",
-			"code": "KIS",
-			"country": "Greece",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/PGS_Kissamikos"
-		},
-		"venue": {
-			"api_football_id": 782,
-			"name": "Dimotiko Stadio Perivolion",
-			"address": "Eleftherias",
-			"city": "Perivolia",
-			"capacity": 4527,
-			"surface": "grass",
-			"lat": 35.48726,
-			"lng": 24.000509,
-			"x": 452,
-			"y": 850,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "782_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Perivolia_Municipal_Stadium.jpg/1200px-Perivolia_Municipal_Stadium.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "782_002.jpg",
-				"source": "https://www.europlan-online.de/files/00d0d4e19f4ba9165a52576f9c9bc99f.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "782_003.jpg",
-				"source": "https://www.europlan-online.de/files/d8824782c4c2ad146cd590ddd26bf5a9.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 19
+		"no": 35
 	},
 	{
 		"team": {
@@ -1111,7 +1987,7 @@
 				"size": 0
 			}
 		],
-		"no": 20
+		"no": 36
 	},
 	{
 		"team": {
@@ -1154,187 +2030,7 @@
 				"size": 0
 			}
 		],
-		"no": 21
-	},
-	{
-		"team": {
-			"api_football_id": 5046,
-			"name": "Kalamata",
-			"code": "KAL",
-			"country": "Greece",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/Kalamata_F.C."
-		},
-		"venue": {
-			"api_football_id": 3817,
-			"name": "Gipedo Messiniakos",
-			"address": null,
-			"city": "Kalamata",
-			"capacity": 5613,
-			"surface": "grass",
-			"lat": 37.04137,
-			"lng": 22.120933,
-			"x": 268,
-			"y": 662,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3817_001.jpg",
-				"source": "https://www.tharrosnews.gr/wp-content/uploads/2021/04/GIPEDO-MESSS-1024x513.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3817_002.jpg",
-				"source": "https://www.europlan-online.de/files/c23bbc5b09e1e92057829dac42ef4a4e.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 22
-	},
-	{
-		"team": {
-			"api_football_id": 5049,
-			"name": "Kavala",
-			"code": "KAV",
-			"country": "Greece",
-			"founded": 1965,
-			"wiki": "https://en.wikipedia.org/wiki/Kavala_F.C."
-		},
-		"venue": {
-			"api_football_id": 3820,
-			"name": "Dimotiko Stadio Anthi Karagianni",
-			"address": "Amerikanikou Erythrou Stavrou",
-			"city": "Kavala",
-			"capacity": 12500,
-			"surface": "grass",
-			"lat": 40.946944,
-			"lng": 24.436111,
-			"x": 494,
-			"y": 173,
-			"wiki": "https://en.wikipedia.org/wiki/Anthi_Karagianni_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3820_001.jpg",
-				"source": "https://www.kavalapoint.gr/wp-content/uploads/2024/08/Anthi-Karagianni-Drone.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3820_002.jpg",
-				"source": "https://www.europlan-online.de/files/3beadac549e816e42414cb1732f2dfa7.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 23
-	},
-	{
-		"team": {
-			"api_football_id": 5056,
-			"name": "Niki Volos",
-			"code": "NIK",
-			"country": "Greece",
-			"founded": 1924,
-			"wiki": "https://en.wikipedia.org/wiki/Niki_Volos_F.C."
-		},
-		"venue": {
-			"api_football_id": 1918,
-			"name": "Panthessaliko Stadio",
-			"address": "Odos Stadiou",
-			"city": "Volos",
-			"capacity": 22700,
-			"surface": "grass",
-			"lat": 39.3875,
-			"lng": 22.931111,
-			"x": 347,
-			"y": 371,
-			"wiki": "https://en.wikipedia.org/wiki/Panthessaliko_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "1918_001.jpg",
-				"source": "https://www.volosfc.com/wp-content/uploads/2021/07/panthessalikopanorama.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1918_002.jpg",
-				"source": "https://kingsport.gr/wp-content/uploads/2023/05/panthessaliko-stadio-volos.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1918_003.jpg",
-				"source": "https://www.newsit.gr/wp-content/uploads/2018n/03/4121298.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "1918_004.jpg",
-				"source": "https://www.intrakat.gr/wp-content/uploads/2010/04/PANTHESSALIKO-STADIO-VOLOU-0003.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 24
-	},
-	{
-		"team": {
-			"api_football_id": 6315,
-			"name": "Panargiakos",
-			"code": "APO",
-			"country": "Greece",
-			"founded": 1926,
-			"wiki": "https://en.wikipedia.org/wiki/Panargiakos_F.C."
-		},
-		"venue": {
-			"api_football_id": 4674,
-			"name": "Dimotiko Athlitiko Kentro Argous-Mykinon",
-			"address": "Stadiou 48",
-			"city": "Argos",
-			"capacity": 7000,
-			"surface": "grass",
-			"lat": 37.628602,
-			"lng": 22.714688,
-			"x": 326,
-			"y": 590,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "4674_001.jpg",
-				"source": "https://photos.wikimapia.org/p/00/04/37/62/64_big.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 25
+		"no": 37
 	},
 	{
 		"team": {
@@ -1377,211 +2073,7 @@
 				"size": 0
 			}
 		],
-		"no": 26
-	},
-	{
-		"team": {
-			"api_football_id": 7511,
-			"name": "Egaleo",
-			"code": "EGA",
-			"country": "Greece",
-			"founded": 1931,
-			"wiki": "https://en.wikipedia.org/wiki/Egaleo_F.C."
-		},
-		"venue": {
-			"api_football_id": 5453,
-			"name": "Stadio Stavros Mavrothalassitis",
-			"address": "Thivon &amp; Korai",
-			"city": "Athens",
-			"capacity": 8217,
-			"surface": "grass",
-			"lat": 37.987169,
-			"lng": 23.676011,
-			"x": 420,
-			"y": 546,
-			"wiki": "https://en.wikipedia.org/wiki/Stavros_Mavrothalassitis_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "5453_001.jpg",
-				"source": "https://www.kgrgroup.gr/assets/Uploads/5-egaleo2.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5453_002.jpg",
-				"source": "https://www.europlan-online.de/files/ba1aa00a3044935bf4f9e7a3a2b04e71.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5453_003.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/gre/stadio_stavros_mavrothalasstasitis/stadio_stavros_mavrothalasstasitis34.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "5453_004.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/gre/stadio_stavros_mavrothalasstasitis/stadio_stavros_mavrothalasstasitis26.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 27
-	},
-	{
-		"team": {
-			"api_football_id": 12372,
-			"name": "Makedonikos Neapolis",
-			"code": null,
-			"country": "Greece",
-			"founded": 1928,
-			"wiki": "https://en.wikipedia.org/wiki/Makedonikos_F.C."
-		},
-		"venue": {
-			"api_football_id": 7898,
-			"name": "Gipedo Neas Efkarpias Makedonikou",
-			"address": "27 Eleftheriou Venizelou, Neapoli-Polichni",
-			"city": "Thessaloníki",
-			"capacity": 8100,
-			"surface": "grass",
-			"lat": 40.677778,
-			"lng": 22.950278,
-			"x": 349,
-			"y": 207,
-			"wiki": "https://en.wikipedia.org/wiki/Makedonikos_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "7898_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Makedonikos_Stadium.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "7898_002.jpg",
-				"source": "https://www.europlan-online.de/files/cd19686c6b4c5f87af712a790ea84568.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 28
-	},
-	{
-		"team": {
-			"api_football_id": 15235,
-			"name": "Ilioupoli",
-			"code": null,
-			"country": "Greece",
-			"founded": 1953,
-			"wiki": "https://en.wikipedia.org/wiki/GS_Ilioupolis"
-		},
-		"venue": {
-			"api_football_id": 10915,
-			"name": "Stadio Ilioupolis",
-			"address": "Charilaou Trikoupi, Ilioupoli",
-			"city": "Athens",
-			"capacity": 3000,
-			"surface": "grass",
-			"lat": 37.930688,
-			"lng": 23.746332,
-			"x": 427,
-			"y": 553,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "10915_001.jpg",
-				"source": "https://ilioupolinews.gr/wp-content/uploads/2022/10/gipedo.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "10915_002.jpg",
-				"source": "https://www.europlan-online.de/files/0229cd862c114d890f58209202336ed1.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 29
-	},
-	{
-		"team": {
-			"api_football_id": 17991,
-			"name": "Iraklis 1908",
-			"code": null,
-			"country": "Greece",
-			"founded": 2021,
-			"wiki": "https://en.wikipedia.org/wiki/Iraklis_F.C._(Thessaloniki)"
-		},
-		"venue": {
-			"api_football_id": 769,
-			"name": "Kaftanzoglio Stadio",
-			"address": "Aghiou Dimitriou",
-			"city": "Thessaloníki",
-			"capacity": 27770,
-			"surface": "grass",
-			"lat": 40.625497,
-			"lng": 22.967003,
-			"x": 351,
-			"y": 214,
-			"wiki": "https://en.wikipedia.org/wiki/Kaftanzoglio_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "769_001.jpg",
-				"source": "https://i.ytimg.com/vi/a1mpBGWlrZQ/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFkgYChlMA8=&rs=AOn4CLBacgpV-vLU1mkGGPIWIud3wfvN5w",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "769_002.jpg",
-				"source": "https://bonflaneur.com/wp-content/uploads/2020/07/1107-4.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "769_003.jpg",
-				"source": "https://www.info-stades.fr/uploads/stades/thessaloniki-kaftanzoglio-stadium7.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "769_004.jpg",
-				"source": "https://asbuild.com.gr/wp-content/uploads/2019/05/IMG_2611_n.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 30
+		"no": 38
 	},
 	{
 		"team": {
@@ -1656,227 +2148,7 @@
 				"size": 0
 			}
 		],
-		"no": 31
-	},
-	{
-		"team": {
-			"api_football_id": 18018,
-			"name": "PAOK II",
-			"code": null,
-			"country": "Greece",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/PAOK_B"
-		},
-		"venue": {
-			"api_football_id": 780,
-			"name": "Stadio Toumbas",
-			"address": "Plateia Mikras Asias",
-			"city": "Thessaloníki",
-			"capacity": 28803,
-			"surface": "grass",
-			"lat": 40.613889,
-			"lng": 22.9725,
-			"x": 351,
-			"y": 215,
-			"wiki": "https://en.wikipedia.org/wiki/Toumba_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "780_001.jpg",
-				"source": "https://pbs.twimg.com/media/FMXb_YeWUAUG4D5?format=jpg&name=4096x4096",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "780_002.jpg",
-				"source": "https://pbs.twimg.com/media/FMXb_WqWUAUGGZg.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "780_003.jpg",
-				"source": "https://i2-prod.irishmirror.ie/incoming/article30805795.ece/ALTERNATES/s1200d/0_PAOK-stadium.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "780_004.jpg",
-				"source": "https://www.paokfc.gr/wp-content/uploads/2017/01/VER_2425.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "780_005.jpg",
-				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/42/4f/f7/caption.jpg?w=1200&h=-1&s=1",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "780_006.jpg",
-				"source": "https://stadiumdb.com/img/news/2022/07/05Pao01.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 32
-	},
-	{
-		"team": {
-			"api_football_id": 20683,
-			"name": "Kampaniakos Chalastra",
-			"code": null,
-			"country": "Greece",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/Kampaniakos_F.C."
-		},
-		"venue": {
-			"api_football_id": 19333,
-			"name": "Gipedo Chalastras",
-			"address": "Karamanli 76",
-			"city": "Chalastra",
-			"capacity": 2000,
-			"surface": "grass",
-			"lat": 40.630269,
-			"lng": 22.741193,
-			"x": 329,
-			"y": 213,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "19333_001.jpg",
-				"source": "https://assets.voria.gr/cdn/ff/WPoyuU2-VWg7l0k75gl-8DnuGG4HD_HiKjWkPDKJJrg/1700580305/public/2023-11/gipedo-chalastras.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "19333_002.jpg",
-				"source": "https://ditika.gr/wp-content/uploads/2023/11/%CE%9A%CE%B1%CE%BC%CF%80%CE%B1%CE%BD%CE%B9%CE%B1%CE%BA%CF%8C%CF%82-%CE%B3%CE%AE%CF%80%CE%B5%CE%B4%CE%BF.png",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 33
-	},
-	{
-		"team": {
-			"api_football_id": 25017,
-			"name": "Asteras Tripolis II",
-			"code": null,
-			"country": null,
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/Asteras_Tripolis_F.C."
-		},
-		"venue": {
-			"api_football_id": 766,
-			"name": "Stadio Theodoros Kolokotronis",
-			"address": "Liagora",
-			"city": "Tripoli",
-			"capacity": 7717,
-			"surface": "grass",
-			"lat": 37.5025,
-			"lng": 22.388611,
-			"x": 294,
-			"y": 606,
-			"wiki": "https://en.wikipedia.org/wiki/Theodoros_Kolokotronis_Stadium"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "766_001.jpg",
-				"source": "https://static.ostadium.com/galleries/theodoros-kolokotronis-stadium-illus.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "766_002.jpg",
-				"source": "https://static.maccabi-tlv.co.il/wp-content/uploads/2014/08/MTA__1408528688_4-840x426.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 34
-	},
-	{
-		"team": {
-			"api_football_id": 2094,
-			"name": "Anagennisi Karditsas",
-			"code": null,
-			"country": "Greece",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/Anagennisi_Karditsa_F.C."
-		},
-		"venue": {
-			"api_football_id": 2731,
-			"name": "Stadio Karditsas",
-			"address": "Leoforos Dimokratias",
-			"city": "Karditsa",
-			"capacity": 4600,
-			"surface": "grass",
-			"lat": 39.362552,
-			"lng": 21.935127,
-			"x": 250,
-			"y": 374,
-			"wiki": "https://en.wikipedia.org/wiki/Municipal_Stadium_of_Karditsa"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "2731_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2731_002.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2731_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "2731_004.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 35
+		"no": 39
 	},
 	{
 		"team": {
@@ -1935,7 +2207,7 @@
 				"size": 0
 			}
 		],
-		"no": 36
+		"no": 40
 	},
 	{
 		"team": {
@@ -1994,7 +2266,7 @@
 				"size": 0
 			}
 		],
-		"no": 37
+		"no": 41
 	},
 	{
 		"team": {
@@ -2053,7 +2325,7 @@
 				"size": 0
 			}
 		],
-		"no": 38
+		"no": 42
 	},
 	{
 		"team": {
@@ -2112,7 +2384,7 @@
 				"size": 0
 			}
 		],
-		"no": 39
+		"no": 43
 	},
 	{
 		"team": {
@@ -2171,7 +2443,7 @@
 				"size": 0
 			}
 		],
-		"no": 40
+		"no": 44
 	},
 	{
 		"team": {
@@ -2230,7 +2502,7 @@
 				"size": 0
 			}
 		],
-		"no": 41
+		"no": 45
 	},
 	{
 		"team": {
@@ -2289,66 +2561,7 @@
 				"size": 0
 			}
 		],
-		"no": 42
-	},
-	{
-		"team": {
-			"api_football_id": 18017,
-			"name": "Olympiakos Piraeus II",
-			"code": null,
-			"country": "Greece",
-			"founded": null,
-			"wiki": "https://en.wikipedia.org/wiki/Olympiacos_F.C._B"
-		},
-		"venue": {
-			"api_football_id": 20350,
-			"name": "Proponitiko Kentro Reti",
-			"address": "Legaki 9-11, Agios Ioannis Rentis",
-			"city": "Athens",
-			"capacity": 3000,
-			"surface": "grass",
-			"lat": 37.970802,
-			"lng": 23.683007,
-			"x": 421,
-			"y": 548,
-			"wiki": ""
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "20350_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20350_002.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20350_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20350_004.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 43
+		"no": 46
 	},
 	{
 		"team": {
@@ -2407,6 +2620,6 @@
 				"size": 0
 			}
 		],
-		"no": 44
+		"no": 47
 	}
 ]

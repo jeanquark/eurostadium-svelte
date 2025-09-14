@@ -2544,8 +2544,8 @@
 			"surface": "grass",
 			"lat": 42.587482,
 			"lng": -5.576699,
-			"x": 0,
-			"y": 0,
+			"x": 299,
+			"y": 108,
 			"wiki": "https://en.wikipedia.org/wiki/Estadio_Reino_de_Le%C3%B3n"
 		},
 		"league": {
@@ -3240,8 +3240,8 @@
 			"surface": "grass",
 			"lat": 43.258333,
 			"lng": -2.025278,
-			"x": 0,
-			"y": 0,
+			"x": 532,
+			"y": 48,
 			"wiki": "https://en.wikipedia.org/wiki/Zubieta_Facilities"
 		},
 		"league": {
@@ -3304,8 +3304,8 @@
 			"surface": "artificial turf",
 			"lat": 35.8854,
 			"lng": -5.3279,
-			"x": 0,
-			"y": 0,
+			"x": 135,
+			"y": 856,
 			"wiki": "https://en.wikipedia.org/wiki/Estadio_Alfonso_Murube"
 		},
 		"league": {

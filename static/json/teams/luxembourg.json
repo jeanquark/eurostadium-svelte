@@ -207,11 +207,11 @@
 			"city": "Canach",
 			"capacity": 1000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 49.6101,
+			"lng": 6.3347,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Stade_Fernand_Weber"
 		},
 		"league": {
 			"api_football_id": 261,
@@ -223,6 +223,14 @@
 			{
 				"name": "2780_001.jpg",
 				"source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqnHmt6p1gyJp5RsVhLjyCyEfSgl9fH8KWJKi2ko2ut1X89P5w34sGrWY74wRR_NjzTL9ovt909qFn4v1ShJxy5V3txFYTl7FGrgLCR3OzOUG8AOB-oPrsvVWYBgWRFvsrrkuBr_5-oB74nysPh0uYR9qCsfFuc0NQU8BXDbCey4gD-9eR6CwrpDcMrRyV/s5528/2.JPG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2780_002.jpg",
+				"source": "https://en.wikipedia.org/wiki/Stade_Fernand_Weber#/media/File:Stade_Rue_de_Lenningen.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -751,10 +759,10 @@
 			"city": "Bissen",
 			"capacity": 1521,
 			"surface": "artificial turf",
-			"lat": 49.787250,
+			"lat": 49.78725,
 			"lng": 6.081479,
-			"x": 0,
-			"y": 0,
+			"x": 455,
+			"y": 540,
 			"wiki": ""
 		},
 		"league": {
@@ -793,8 +801,8 @@
 			"surface": "grass",
 			"lat": 49.6243,
 			"lng": 6.0248,
-			"x": 0,
-			"y": 0,
+			"x": 405,
+			"y": 761,
 			"wiki": "https://en.wikipedia.org/wiki/Stade_Fran%C3%A7ois_Trausch"
 		},
 		"league": {

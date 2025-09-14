@@ -1335,11 +1335,11 @@
 			"city": "Århus",
 			"capacity": 5000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 56.17882,
+			"lng": 10.21099,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Riisvangen_Stadium"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -1347,7 +1347,32 @@
 			"country": "Denmark",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "4468_001.jpg",
+				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2021/02/Riisvangen-Stadion-Aarhus-Fremad-e.jpg?media=1735041034",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4468_002.jpg",
+				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2021/02/Riisvangen-Stadion-Aarhus-Fremad-f.jpg?media=1735041034",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4468_003.jpg",
+				"source": "https://pbs.twimg.com/media/Fg59-cxWAAEeX8Y?format=jpg&name=large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 21
 	},
 	{
@@ -1470,11 +1495,11 @@
 			"city": "Middelfart",
 			"capacity": 4000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 55.503983,
+			"lng": 9.714978,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Middelfart_Stadium"
 		},
 		"league": {
 			"api_football_id": 120,
@@ -1482,7 +1507,24 @@
 			"country": "Denmark",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "4495_001.jpg",
+				"source": "https://hotelmelfarhus.dk/wp-content/uploads/2025/03/MB_11.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4495_002.jpg",
+				"source": "https://images.jfmedier.dk/images/0/02/020/0201f6ed-5a01-4e12-a07b-14a1c2d90467_1_90_0_0_5000_2812_1440_810_eb3036cb.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 24
 	},
 	{

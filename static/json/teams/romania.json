@@ -1343,11 +1343,11 @@
 			"city": "Târgu Mureş",
 			"capacity": 8000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 46.549611,
+			"lng": 24.545833,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Trans-Sil_Stadium"
 		},
 		"league": {
 			"api_football_id": 284,
@@ -1355,7 +1355,40 @@
 			"country": "Romania",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "2820_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Stadionul_Trans-sil.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2820_002.jpg",
+				"source": "https://footballtripper.com/wp-content/uploads/stadional-trans-sil.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2820_003.jpg",
+				"source": "https://live.staticflickr.com/1865/29890249557_7667c5665e_h.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "2820_004.jpg",
+				"source": "https://live.staticflickr.com/1849/30955604798_cf902ba87e_h.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 22
 	},
 	{
@@ -1870,11 +1903,11 @@
 			"city": "Satu Mare",
 			"capacity": 17200,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 47.799611,
+			"lng": 22.891028,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Daniel_Prodan_Stadium"
 		},
 		"league": {
 			"api_football_id": 284,
@@ -1882,7 +1915,16 @@
 			"country": "Romania",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "2821_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Stadion_Olimpia-Daniel_Prodan.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 32
 	},
 	{
@@ -1901,11 +1943,11 @@
 			"city": "Bucureşti",
 			"capacity": 15167,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 44.455083,
+			"lng": 26.102444,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Dinamo_Stadium_(1951)"
 		},
 		"league": {
 			"api_football_id": 284,
@@ -1913,7 +1955,40 @@
 			"country": "Romania",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "1319_001.jpg",
+				"source": "https://cacheimg.gsp.ro/autocrop/smp-images-production/gsp.ro/30122022/564a36ed-223e-4aac-a1ba-11c2ed98af5d.jpg?width=848&height=0",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1319_002.jpg",
+				"source": "https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2022/10/19/3475488-70856928-2560-1440.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1319_003.jpg",
+				"source": "https://mediacdn.libertatea.ro/unsafe/1200x664/smart/filters:format(webp):contrast(8):quality(75)/https://static4.libertatea.ro/wp-content/uploads/2015/03/Dinamo_Stadium_2006.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "1319_004.jpg",
+				"source": "https://i0.1616.ro/media/541/2981/36186/19116051/1/stadion-stefan-cel-mare.jpg?width=1200",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 33
 	},
 	{
@@ -2116,8 +2191,8 @@
 			"city": "Ruși-Ciutea",
 			"capacity": 1000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 46.521626,
+			"lng": 26.953868,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -2128,7 +2203,24 @@
 			"country": "Romania",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "19735_001.jpg",
+				"source": "https://fcbacau.ro/wp-content/uploads/2025/01/Baza-Sportiva-FC-Bacau-6-e1737663482664.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "19735_002.jpg",
+				"source": "https://fcbacau.ro/wp-content/uploads/2025/01/Stadion-FC-Bacau-e1737663646188.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 37
 	},
 	{
@@ -2147,11 +2239,11 @@
 			"city": "Bistriţa",
 			"capacity": 7967,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 47.130833,
+			"lng": 24.502778,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Jean_P%C4%83dureanu_Stadium"
 		},
 		"league": {
 			"api_football_id": 284,
@@ -2159,7 +2251,40 @@
 			"country": "Romania",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "5040_001.jpg",
+				"source": "https://ziardebistrita.ro/wp-content/uploads/2020/07/FB_IMG_1594878066074.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5040_002.jpg",
+				"source": "https://timponline.ro/wp-content/uploads/2021/08/stadion-gloria-aug-21.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5040_003.jpg",
+				"source": "https://www.sportulbistritean.ro/wp-content/uploads/2022/03/stad.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "5040_004.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stadionul_Jean_Padureanu.jpg/1100px-Stadionul_Jean_Padureanu.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 38
 	},
 	{

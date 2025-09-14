@@ -480,7 +480,7 @@
                         <tr>
                             <th>#</th>
                             <th>ID</th>
-                            <th>Name</th>
+                            <th>Stadium name</th>
                             <th>City</th>
                             <th>Capacity</th>
                             <th>X coord</th>

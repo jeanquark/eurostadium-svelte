@@ -855,8 +855,8 @@
 			"city": "Tetovo",
 			"capacity": 1000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 42.009839,
+			"lng": 20.981992,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -867,16 +867,7 @@
 			"country": "Macedonia",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "4347_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 19
 	},
 	{
@@ -1067,8 +1058,7 @@
 			"country": "Macedonia",
 			"api_football_country_id": 0
 		},
-		"images": [
-		],
+		"images": [],
 		"no": 24
 	},
 	{
@@ -1127,8 +1117,8 @@
 			"city": "Skopje",
 			"capacity": 1000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 42.015301,
+			"lng": 21.513182,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -1142,7 +1132,7 @@
 		"images": [
 			{
 				"name": "22348_001.jpg",
-				"source": "",
+				"source": "https://sportskamreza.mk/wp-content/uploads/2025/04/Hasanbeg-Arena-Fortuna-april-2025-2.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,

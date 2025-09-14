@@ -486,10 +486,10 @@
 			"city": "Zhezqazghan",
 			"capacity": 5000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
-			"x": -1139,
-			"y": 1861,
+			"lat": 47.801059,
+			"lng": 67.716935,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {
@@ -576,8 +576,8 @@
 			"surface": "grass",
 			"lat": 0,
 			"lng": 0,
-			"x": -1139,
-			"y": 1861,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {
@@ -894,8 +894,8 @@
 			"surface": "artificial turf",
 			"lat": 52.276383,
 			"lng": 76.949712,
-			"x": 0,
-			"y": 0,
+			"x": 746,
+			"y": 357,
 			"wiki": "https://en.wikipedia.org/wiki/Pavlodar_Central_Stadium"
 		},
 		"league": {
@@ -1280,8 +1280,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -1139,
-			"y": 1861,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {},
@@ -1339,8 +1339,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -1139,
-			"y": 1861,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {},
@@ -1373,8 +1373,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -1139,
-			"y": 1861,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {},

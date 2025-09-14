@@ -1017,8 +1017,8 @@
 			"surface": "grass",
 			"lat": 50.527062,
 			"lng": 30.507591,
-			"x": 0,
-			"y": 0,
+			"x": 463,
+			"y": 332,
 			"wiki": "https://en.wikipedia.org/wiki/Obolon_Arena"
 		},
 		"league": {
@@ -1991,11 +1991,11 @@
 			"city": "Kyiv",
 			"capacity": 1945,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 50.429028,
+			"lng": 30.525278,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Bannikov_Stadium"
 		},
 		"league": {
 			"api_football_id": 334,
@@ -2057,8 +2057,8 @@
 			"surface": "grass",
 			"lat": 48.659167,
 			"lng": 25.507222,
-			"x": 0,
-			"y": 0,
+			"x": 186,
+			"y": 491,
 			"wiki": "https://en.wikipedia.org/wiki/Probiy_Arena"
 		},
 		"league": {

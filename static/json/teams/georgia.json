@@ -188,7 +188,6 @@
 				"height": 0,
 				"size": 0
 			}
-			
 		],
 		"no": 3
 	},
@@ -703,11 +702,11 @@
 			"city": "Tkibuli",
 			"capacity": 6000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 42.354650,
+			"lng": 42.994307,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Vladimer_Bochorishvili_Stadium"
 		},
 		"league": {
 			"api_football_id": 326,
@@ -990,8 +989,8 @@
 			"surface": null,
 			"lat": 0,
 			"lng": 0,
-			"x": -5963,
-			"y": 7456,
+			"x": 0,
+			"y": 0,
 			"wiki": ""
 		},
 		"league": {},

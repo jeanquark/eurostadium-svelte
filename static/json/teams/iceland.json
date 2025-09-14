@@ -1143,8 +1143,8 @@
 			"city": "Húsavík",
 			"capacity": 3000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 66.050698,
+			"lng": -17.343708,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -1155,7 +1155,24 @@
 			"country": "Iceland",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "21598_001.jpg",
+				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2018/04/Husavikurv%C3%B6llur-V%C3%B6lsungur-i.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "21598_002.jpg",
+				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2018/04/Husavikurv%C3%B6llur-V%C3%B6lsungur-g.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 24
 	},
 	{

@@ -448,8 +448,8 @@
 			"surface": "grass",
 			"lat": 46.817417,
 			"lng": 29.476444,
-			"x": 435,
-			"y": 176,
+			"x": 740,
+			"y": 560,
 			"wiki": "https://en.wikipedia.org/wiki/Dinamo_Stadium_(Bender)"
 		},
 		"league": {
@@ -502,8 +502,8 @@
 			"city": "Sireți",
 			"capacity": 1000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 47.134028,
+			"lng": 28.708077,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -886,8 +886,8 @@
 			"city": "Chişinău",
 			"capacity": 2142,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 46.981756,
+			"lng": 28.868673,
 			"x": 0,
 			"y": 0,
 			"wiki": ""

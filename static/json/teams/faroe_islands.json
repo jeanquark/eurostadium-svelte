@@ -21,7 +21,12 @@
 			"y": 203,
 			"wiki": "https://en.wikipedia.org/wiki/Sarpuger%C3%B0i"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 367,
+			"name": "Meistaradeildin",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "612_001.jpg",
@@ -80,7 +85,12 @@
 			"y": 383,
 			"wiki": "https://en.wikipedia.org/wiki/Gundadalur"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 367,
+			"name": "Meistaradeildin",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "609_001.jpg",
@@ -147,7 +157,12 @@
 			"y": 297,
 			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_L%C3%B8kin"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 367,
+			"name": "Meistaradeildin",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "611_001.jpg",
@@ -198,7 +213,12 @@
 			"y": 177,
 			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_Dj%C3%BApum%C3%BDrar"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 367,
+			"name": "Meistaradeildin",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "610_001.jpg",
@@ -249,7 +269,12 @@
 			"y": 383,
 			"wiki": "https://en.wikipedia.org/wiki/Gundadalur"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 367,
+			"name": "Meistaradeildin",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "609_001.jpg",
@@ -316,7 +341,12 @@
 			"y": 331,
 			"wiki": "https://en.wikipedia.org/wiki/%C3%81_Dungasandi"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 367,
+			"name": "Meistaradeildin",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3188_001.jpg",
@@ -367,7 +397,12 @@
 			"y": 208,
 			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_Marg%C3%A1ir"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 367,
+			"name": "Meistaradeildin",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3191_001.jpg",
@@ -406,6 +441,70 @@
 	},
 	{
 		"team": {
+			"api_football_id": 4182,
+			"name": "Suduroy",
+			"code": null,
+			"country": "Faroe-Islands",
+			"founded": 1905,
+			"wiki": "https://en.wikipedia.org/wiki/FC_Su%C3%B0uroy"
+		},
+		"venue": {
+			"api_football_id": 3193,
+			"name": "Vesturi á Eiðinum",
+			"address": null,
+			"city": "Vágur, Suðuroy",
+			"capacity": 3000,
+			"surface": "artificial turf",
+			"lat": 61.465833,
+			"lng": -6.836389,
+			"x": 563,
+			"y": 930,
+			"wiki": "https://en.wikipedia.org/wiki/%C3%81_Ei%C3%B0inum"
+		},
+		"league": {
+			"api_football_id": 367,
+			"name": "Meistaradeildin",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3193_001.jpg",
+				"source": "https://www.nordicstadiums.com/wp-content/uploads/2019/04/Vesturi-%C3%A1-Ei%C3%B0inum-FC-Su%C3%B0uroy-a.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3193_002.jpg",
+				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2019/04/Vesturi-%C3%A1-Ei%C3%B0inum-FC-Su%C3%B0uroy-b.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3193_003.jpg",
+				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2019/04/Vesturi-%C3%A1-Ei%C3%B0inum-FC-Su%C3%B0uroy-n.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3193_004.jpg",
+				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2019/04/Vesturi-%C3%A1-Ei%C3%B0inum-FC-Su%C3%B0uroy-g.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 8
+	},
+	{
+		"team": {
 			"api_football_id": 4186,
 			"name": "B68",
 			"code": null,
@@ -426,7 +525,12 @@
 			"y": 303,
 			"wiki": "https://en.wikipedia.org/wiki/Svangaskar%C3%B0"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 367,
+			"name": "Meistaradeildin",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3194_001.jpg",
@@ -437,7 +541,439 @@
 				"size": 0
 			}
 		],
-		"no": 8
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 4192,
+			"name": "TB",
+			"code": null,
+			"country": "Faroe-Islands",
+			"founded": 1892,
+			"wiki": "https://en.wikipedia.org/wiki/Tv%C3%B8royrar_B%C3%B3ltfelag"
+		},
+		"venue": {
+			"api_football_id": 3198,
+			"name": "Við Stórá Stadium",
+			"address": "14 Lynggøta",
+			"city": "Trongisvágur",
+			"capacity": 1000,
+			"surface": "artificial turf",
+			"lat": 61.5623,
+			"lng": -6.8518,
+			"x": 556,
+			"y": 836,
+			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_St%C3%B3r%C3%A1"
+		},
+		"league": {
+			"api_football_id": 367,
+			"name": "Meistaradeildin",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3198_001.jpg",
+				"source": "https://www.in.fo/fileadmin/user_upload/Vid_Stora_Tvoroyri_02-02-2022_001-1600x900.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3198_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Vi%C3%B0_St%C3%B3r%C3%A1_Stadium_2017.jpg/1200px-Vi%C3%B0_St%C3%B3r%C3%A1_Stadium_2017.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3198_003.jpg",
+				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2018/11/Vi%C3%B0-St%C3%B3r%C3%A1-Stadion-TBFCSRoyn-d.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3198_004.jpg",
+				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2018/11/Vi%C3%B0-St%C3%B3r%C3%A1-Stadion-TBFCSRoyn-j.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 4176,
+			"name": "B71",
+			"code": null,
+			"country": "Faroe-Islands",
+			"founded": 1970,
+			"wiki": "https://en.wikipedia.org/wiki/B71_Sandoy"
+		},
+		"venue": {
+			"api_football_id": 3190,
+			"name": "inni í Dal",
+			"address": "Skopunarvegur",
+			"city": "Sandur, Sandoy",
+			"capacity": 350,
+			"surface": "artificial turf",
+			"lat": 61.86,
+			"lng": -6.828889,
+			"x": 567,
+			"y": 542,
+			"wiki": "https://en.wikipedia.org/wiki/Inni_%C3%AD_Dal"
+		},
+		"league": {
+			"api_football_id": 366,
+			"name": "1. Deild",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3190_001.jpg",
+				"source": "https://i.ytimg.com/vi/ip4shr82v7o/maxresdefault.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3190_002.jpg",
+				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2018/10/Inni-i-Dal-B71-Sandoy-22a.jpg?media=1735041034",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 4180,
+			"name": "KÍ II",
+			"code": null,
+			"country": "Faroe-Islands",
+			"founded": 1905,
+			"wiki": "https://en.wikipedia.org/wiki/Klaksv%C3%ADkar_%C3%8Dtr%C3%B3ttarfelag_II"
+		},
+		"venue": {
+			"api_football_id": 21585,
+			"name": "Við Djúpumýrar",
+			"address": "Gerigota",
+			"city": "Klaksvík, Borðoy",
+			"capacity": 4000,
+			"surface": "artificial turf",
+			"lat": 62.225246,
+			"lng": -6.579201,
+			"x": 684,
+			"y": 177,
+			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_Dj%C3%BApum%C3%BDrar"
+		},
+		"league": {
+			"api_football_id": 366,
+			"name": "1. Deild",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "610_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Vi%C3%B0_Dj%C3%BApum%C3%BDrar%2C_Klaksv%C3%ADk.jpg/1200px-Vi%C3%B0_Dj%C3%BApum%C3%BDrar%2C_Klaksv%C3%ADk.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "610_002.jpg",
+				"source": "https://www.fm1.fo/wp-content/uploads/2024/07/Vid-Djupumyrar-nyggjur-vollur-Klaksvikar-kommun.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "610_003.jpg",
+				"source": "https://cdn.mff.se/2024/08/BB230726EW002-scaled-1.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "610_004.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/fro/vid_djupumyrar/vid_djupumyrar10.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 12
+	},
+	{
+		"team": {
+			"api_football_id": 4181,
+			"name": "NSÍ II",
+			"code": null,
+			"country": "Faroe-Islands",
+			"founded": 1957,
+			"wiki": "https://lt.wikipedia.org/wiki/NS%C3%8D_Runav%C3%ADk"
+		},
+		"venue": {
+			"api_football_id": 611,
+			"name": "við Løkin",
+			"address": null,
+			"city": "Runavík, Eysturoy",
+			"capacity": 2000,
+			"surface": "artificial turf",
+			"lat": 62.105833,
+			"lng": -6.723333,
+			"x": 616,
+			"y": 297,
+			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_L%C3%B8kin"
+		},
+		"league": {
+			"api_football_id": 366,
+			"name": "1. Deild",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "611_001.jpg",
+				"source": "https://www.fsf.fo/wp-content/uploads/2022/02/Runavik_Vid_Lokin_12-02-2022-1600x900.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "611_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Vi%C3%B0_L%C3%B8kin_NS%C3%8D_Runav%C3%ADk_IMG_20210802_132639899_HDR.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "611_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Vi%C3%B0_L%C3%B8kin.jpg/2560px-Vi%C3%B0_L%C3%B8kin.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 13
+	},
+	{
+		"team": {
+			"api_football_id": 4183,
+			"name": "Víkingur II",
+			"code": null,
+			"country": "Faroe-Islands",
+			"founded": 2008,
+			"wiki": "https://en.wikipedia.org/wiki/V%C3%ADkingur_G%C3%B8ta"
+		},
+		"venue": {
+			"api_football_id": 612,
+			"name": "Sarpugerði",
+			"address": null,
+			"city": "Norðragøta, Eysturoy",
+			"capacity": 3000,
+			"surface": "artificial turf",
+			"lat": 62.1995,
+			"lng": -6.7457,
+			"x": 606,
+			"y": 203,
+			"wiki": "https://en.wikipedia.org/wiki/Sarpuger%C3%B0i"
+		},
+		"league": {
+			"api_football_id": 366,
+			"name": "1. Deild",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "612_001.jpg",
+				"source": "https://in.fo/fileadmin/user_upload/Gotu_Sarpugerdi_12-02-2022-1600x900.jpeg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "612_002.jpg",
+				"source": "https://pbs.twimg.com/media/FqPMiSGXsAA3BN0.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "612_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/7/75/Serpuger%C3%B0i.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "612_004.jpg",
+				"source": "https://www.eysturkommuna.fo/wp-content/uploads/2019/06/454cc6bb-sarpuger%C3%B0i-juni-2019-1600x1066.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 14
+	},
+	{
+		"team": {
+			"api_football_id": 4184,
+			"name": "AB",
+			"code": null,
+			"country": "Faroe-Islands",
+			"founded": 1973,
+			"wiki": "https://en.wikipedia.org/wiki/Argja_B%C3%B3ltfelag"
+		},
+		"venue": {
+			"api_football_id": 3189,
+			"name": "Skansi Arena",
+			"address": "Tradargøta",
+			"city": "Argir, Streymoy",
+			"capacity": 2000,
+			"surface": "artificial turf",
+			"lat": 61.995,
+			"lng": -6.802778,
+			"x": 579,
+			"y": 407,
+			"wiki": "https://en.wikipedia.org/wiki/Inni_%C3%AD_Vika"
+		},
+		"league": {
+			"api_football_id": 366,
+			"name": "1. Deild",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3189_001.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/fro/inni_i_vika/inni_i_vika02.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3189_002.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/fro/inni_i_vika/inni_i_vika05.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3189_003.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Skansi_Arena_Argja_Boltfelag_IMG_20210808_115709246.jpg/1280px-Skansi_Arena_Argja_Boltfelag_IMG_20210808_115709246.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3189_004.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/fro/inni_i_vika/inni_i_vika06.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 15
+	},
+	{
+		"team": {
+			"api_football_id": 4185,
+			"name": "B36 II",
+			"code": null,
+			"country": "Faroe-Islands",
+			"founded": 1936,
+			"wiki": "https://en.wikipedia.org/wiki/B36_T%C3%B3rshavn"
+		},
+		"venue": {
+			"api_football_id": 609,
+			"name": "Gundadalur",
+			"address": "Gundadalsvegur",
+			"city": "Tórshavn, Streymoy",
+			"capacity": 5000,
+			"surface": "artificial turf",
+			"lat": 62.019349,
+			"lng": -6.781139,
+			"x": 589,
+			"y": 383,
+			"wiki": "https://en.wikipedia.org/wiki/Gundadalur"
+		},
+		"league": {
+			"api_football_id": 366,
+			"name": "1. Deild",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "609_001.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/fro/gundadalur/gundadalur15.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "609_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gundadalur_Stadium%2C_Torshavn_01.jpg/1280px-Gundadalur_Stadium%2C_Torshavn_01.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "609_003.jpg",
+				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/fd/af/d8/photo0jpg.jpg?w=1200&h=-1&s=1",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "609_004.jpg",
+				"source": "https://www.filmshusid.fo/wp-content/uploads/2022/01/DSC00480-scaled.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "609_005.jpg",
+				"source": "https://stadiumdb.com/pictures/stadiums/fro/gundadalur/gundadalur18.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 16
 	},
 	{
 		"team": {
@@ -461,7 +997,12 @@
 			"y": 157,
 			"wiki": "https://en.wikipedia.org/wiki/%C3%8D_Fl%C3%B8tuger%C3%B0i"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 366,
+			"name": "1. Deild",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3195_001.jpg",
@@ -488,7 +1029,71 @@
 				"size": 0
 			}
 		],
-		"no": 9
+		"no": 17
+	},
+	{
+		"team": {
+			"api_football_id": 4190,
+			"name": "EB / Streymur II",
+			"code": null,
+			"country": "Faroe-Islands",
+			"founded": null,
+			"wiki": "https://lt.wikipedia.org/wiki/EB/Streymur"
+		},
+		"venue": {
+			"api_football_id": 3191,
+			"name": "Við Margáir",
+			"address": "Frammi í Dal",
+			"city": "Streymnes, Streymoy",
+			"capacity": 2000,
+			"surface": "artificial turf",
+			"lat": 62.1941,
+			"lng": -7.0431,
+			"x": 466,
+			"y": 208,
+			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_Marg%C3%A1ir"
+		},
+		"league": {
+			"api_football_id": 366,
+			"name": "1. Deild",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
+		"images": [
+			{
+				"name": "3191_001.jpg",
+				"source": "https://cdn-ac.knassar.fo/media/2020/06/21/gallery-thumbnail/2ec56d2579304aac6a81c4304a9406079ca5d648.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3191_002.jpg",
+				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2018/10/Vi%C3%B0-Marg%C3%A1ir-EBStreymur-a-1.jpg?media=1735041034",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3191_003.jpg",
+				"source": "https://www.in.fo/fileadmin/user_upload/2020_04_25_Margair.PNG",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3191_004.jpg",
+				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2018/10/Vi%C3%B0-Marg%C3%A1ir-EBStreymur-m.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
+		"no": 18
 	},
 	{
 		"team": {
@@ -512,7 +1117,12 @@
 			"y": 242,
 			"wiki": "https://en.wikipedia.org/wiki/Undir_M%C3%BDruhjalla"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 366,
+			"name": "1. Deild",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "3196_001.jpg",
@@ -547,50 +1157,63 @@
 				"size": 0
 			}
 		],
-		"no": 10
+		"no": 19
 	},
 	{
 		"team": {
-			"api_football_id": 4176,
-			"name": "B71",
+			"api_football_id": 18445,
+			"name": "07 Vestur II",
 			"code": null,
 			"country": "Faroe-Islands",
-			"founded": 1970,
-			"wiki": "https://en.wikipedia.org/wiki/B71_Sandoy"
+			"founded": null,
+			"wiki": ""
 		},
 		"venue": {
-			"api_football_id": 3190,
-			"name": "inni í Dal",
-			"address": "Skopunarvegur",
-			"city": "Sandur, Sandoy",
-			"capacity": 350,
+			"api_football_id": 3188,
+			"name": "á Dungasandi",
+			"address": "Heimasands vegur",
+			"city": "Sørvágur, Vágar",
+			"capacity": 500,
 			"surface": "artificial turf",
-			"lat": 61.86,
-			"lng": -6.828889,
-			"x": 567,
-			"y": 542,
-			"wiki": "https://en.wikipedia.org/wiki/Inni_%C3%AD_Dal"
+			"lat": 62.071583,
+			"lng": -7.310361,
+			"x": 0,
+			"y": 0,
+			"wiki": "https://en.wikipedia.org/wiki/%C3%81_Dungasandi"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 366,
+			"name": "1. Deild",
+			"country": "Faroe-Islands",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
-				"name": "3190_001.jpg",
-				"source": "https://i.ytimg.com/vi/ip4shr82v7o/maxresdefault.jpg",
+				"name": "3188_001.jpg",
+				"source": "https://pbs.twimg.com/media/FQF1irLXsAYqZws?format=jpg&name=large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "3190_002.jpg",
-				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2018/10/Inni-i-Dal-B71-Sandoy-22a.jpg?media=1735041034",
+				"name": "3188_002.jpg",
+				"source": "https://pbs.twimg.com/media/FQF1infWYAcLQdQ.jpg:large",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "3188_003.jpg",
+				"source": "https://pbs.twimg.com/media/F9hVVKAXYAAXUqh.jpg:large",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			}
 		],
-		"no": 11
+		"no": 20
 	},
 	{
 		"team": {
@@ -657,420 +1280,7 @@
 				"size": 0
 			}
 		],
-		"no": 12
-	},
-	{
-		"team": {
-			"api_football_id": 4180,
-			"name": "KÍ II",
-			"code": null,
-			"country": "Faroe-Islands",
-			"founded": 1905,
-			"wiki": "https://en.wikipedia.org/wiki/Klaksv%C3%ADkar_%C3%8Dtr%C3%B3ttarfelag_II"
-		},
-		"venue": {
-			"api_football_id": 21585,
-			"name": "Við Djúpumýrar",
-			"address": "Gerigota",
-			"city": "Klaksvík, Borðoy",
-			"capacity": 4000,
-			"surface": "artificial turf",
-			"lat": 62.225246,
-			"lng": -6.579201,
-			"x": 684,
-			"y": 177,
-			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_Dj%C3%BApum%C3%BDrar"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "610_001.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Vi%C3%B0_Dj%C3%BApum%C3%BDrar%2C_Klaksv%C3%ADk.jpg/1200px-Vi%C3%B0_Dj%C3%BApum%C3%BDrar%2C_Klaksv%C3%ADk.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "610_002.jpg",
-				"source": "https://www.fm1.fo/wp-content/uploads/2024/07/Vid-Djupumyrar-nyggjur-vollur-Klaksvikar-kommun.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "610_003.jpg",
-				"source": "https://cdn.mff.se/2024/08/BB230726EW002-scaled-1.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "610_004.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/fro/vid_djupumyrar/vid_djupumyrar10.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 13
-	},
-	{
-		"team": {
-			"api_football_id": 4181,
-			"name": "NSÍ II",
-			"code": null,
-			"country": "Faroe-Islands",
-			"founded": 1957,
-			"wiki": "https://lt.wikipedia.org/wiki/NS%C3%8D_Runav%C3%ADk"
-		},
-		"venue": {
-			"api_football_id": 611,
-			"name": "við Løkin",
-			"address": null,
-			"city": "Runavík, Eysturoy",
-			"capacity": 2000,
-			"surface": "artificial turf",
-			"lat": 62.105833,
-			"lng": -6.723333,
-			"x": 616,
-			"y": 297,
-			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_L%C3%B8kin"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "611_001.jpg",
-				"source": "https://www.fsf.fo/wp-content/uploads/2022/02/Runavik_Vid_Lokin_12-02-2022-1600x900.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "611_002.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Vi%C3%B0_L%C3%B8kin_NS%C3%8D_Runav%C3%ADk_IMG_20210802_132639899_HDR.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "611_003.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Vi%C3%B0_L%C3%B8kin.jpg/2560px-Vi%C3%B0_L%C3%B8kin.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 14
-	},
-	{
-		"team": {
-			"api_football_id": 4182,
-			"name": "Suduroy",
-			"code": null,
-			"country": "Faroe-Islands",
-			"founded": 1905,
-			"wiki": "https://en.wikipedia.org/wiki/FC_Su%C3%B0uroy"
-		},
-		"venue": {
-			"api_football_id": 3193,
-			"name": "Vesturi á Eiðinum",
-			"address": null,
-			"city": "Vágur, Suðuroy",
-			"capacity": 3000,
-			"surface": "artificial turf",
-			"lat": 61.465833,
-			"lng": -6.836389,
-			"x": 563,
-			"y": 930,
-			"wiki": "https://en.wikipedia.org/wiki/%C3%81_Ei%C3%B0inum"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3193_001.jpg",
-				"source": "https://www.nordicstadiums.com/wp-content/uploads/2019/04/Vesturi-%C3%A1-Ei%C3%B0inum-FC-Su%C3%B0uroy-a.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3193_002.jpg",
-				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2019/04/Vesturi-%C3%A1-Ei%C3%B0inum-FC-Su%C3%B0uroy-b.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3193_003.jpg",
-				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2019/04/Vesturi-%C3%A1-Ei%C3%B0inum-FC-Su%C3%B0uroy-n.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3193_004.jpg",
-				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2019/04/Vesturi-%C3%A1-Ei%C3%B0inum-FC-Su%C3%B0uroy-g.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 15
-	},
-	{
-		"team": {
-			"api_football_id": 4183,
-			"name": "Víkingur II",
-			"code": null,
-			"country": "Faroe-Islands",
-			"founded": 2008,
-			"wiki": "https://en.wikipedia.org/wiki/V%C3%ADkingur_G%C3%B8ta"
-		},
-		"venue": {
-			"api_football_id": 612,
-			"name": "Sarpugerði",
-			"address": null,
-			"city": "Norðragøta, Eysturoy",
-			"capacity": 3000,
-			"surface": "artificial turf",
-			"lat": 62.1995,
-			"lng": -6.7457,
-			"x": 606,
-			"y": 203,
-			"wiki": "https://en.wikipedia.org/wiki/Sarpuger%C3%B0i"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "612_001.jpg",
-				"source": "https://in.fo/fileadmin/user_upload/Gotu_Sarpugerdi_12-02-2022-1600x900.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "612_002.jpg",
-				"source": "https://pbs.twimg.com/media/FqPMiSGXsAA3BN0.jpg:large",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "612_003.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/7/75/Serpuger%C3%B0i.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "612_004.jpg",
-				"source": "https://www.eysturkommuna.fo/wp-content/uploads/2019/06/454cc6bb-sarpuger%C3%B0i-juni-2019-1600x1066.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 16
-	},
-	{
-		"team": {
-			"api_football_id": 4184,
-			"name": "AB",
-			"code": null,
-			"country": "Faroe-Islands",
-			"founded": 1973,
-			"wiki": "https://en.wikipedia.org/wiki/Argja_B%C3%B3ltfelag"
-		},
-		"venue": {
-			"api_football_id": 3189,
-			"name": "Skansi Arena",
-			"address": "Tradargøta",
-			"city": "Argir, Streymoy",
-			"capacity": 2000,
-			"surface": "artificial turf",
-			"lat": 61.995,
-			"lng": -6.802778,
-			"x": 579,
-			"y": 407,
-			"wiki": "https://en.wikipedia.org/wiki/Inni_%C3%AD_Vika"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3189_001.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/fro/inni_i_vika/inni_i_vika02.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3189_002.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/fro/inni_i_vika/inni_i_vika05.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3189_003.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Skansi_Arena_Argja_Boltfelag_IMG_20210808_115709246.jpg/1280px-Skansi_Arena_Argja_Boltfelag_IMG_20210808_115709246.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3189_004.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/fro/inni_i_vika/inni_i_vika06.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 17
-	},
-	{
-		"team": {
-			"api_football_id": 4185,
-			"name": "B36 II",
-			"code": null,
-			"country": "Faroe-Islands",
-			"founded": 1936,
-			"wiki": "https://en.wikipedia.org/wiki/B36_T%C3%B3rshavn"
-		},
-		"venue": {
-			"api_football_id": 609,
-			"name": "Gundadalur",
-			"address": "Gundadalsvegur",
-			"city": "Tórshavn, Streymoy",
-			"capacity": 5000,
-			"surface": "artificial turf",
-			"lat": 62.019349,
-			"lng": -6.781139,
-			"x": 589,
-			"y": 383,
-			"wiki": "https://en.wikipedia.org/wiki/Gundadalur"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "609_001.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/fro/gundadalur/gundadalur15.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "609_002.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gundadalur_Stadium%2C_Torshavn_01.jpg/1280px-Gundadalur_Stadium%2C_Torshavn_01.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "609_003.jpg",
-				"source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/fd/af/d8/photo0jpg.jpg?w=1200&h=-1&s=1",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "609_004.jpg",
-				"source": "https://www.filmshusid.fo/wp-content/uploads/2022/01/DSC00480-scaled.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "609_005.jpg",
-				"source": "https://stadiumdb.com/pictures/stadiums/fro/gundadalur/gundadalur18.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 18
-	},
-	{
-		"team": {
-			"api_football_id": 4192,
-			"name": "TB",
-			"code": null,
-			"country": "Faroe-Islands",
-			"founded": 1892,
-			"wiki": "https://en.wikipedia.org/wiki/Tv%C3%B8royrar_B%C3%B3ltfelag"
-		},
-		"venue": {
-			"api_football_id": 3198,
-			"name": "Við Stórá Stadium",
-			"address": "14 Lynggøta",
-			"city": "Trongisvágur",
-			"capacity": 1000,
-			"surface": "artificial turf",
-			"lat": 61.5623,
-			"lng": -6.8518,
-			"x": 556,
-			"y": 836,
-			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_St%C3%B3r%C3%A1"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3198_001.jpg",
-				"source": "https://www.in.fo/fileadmin/user_upload/Vid_Stora_Tvoroyri_02-02-2022_001-1600x900.jpeg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3198_002.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Vi%C3%B0_St%C3%B3r%C3%A1_Stadium_2017.jpg/1200px-Vi%C3%B0_St%C3%B3r%C3%A1_Stadium_2017.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3198_003.jpg",
-				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2018/11/Vi%C3%B0-St%C3%B3r%C3%A1-Stadion-TBFCSRoyn-d.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3198_004.jpg",
-				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2018/11/Vi%C3%B0-St%C3%B3r%C3%A1-Stadion-TBFCSRoyn-j.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 19
+		"no": 21
 	},
 	{
 		"team": {
@@ -1121,66 +1331,7 @@
 				"size": 0
 			}
 		],
-		"no": 20
-	},
-	{
-		"team": {
-			"api_football_id": 4190,
-			"name": "EB / Streymur II",
-			"code": null,
-			"country": "Faroe-Islands",
-			"founded": null,
-			"wiki": "https://lt.wikipedia.org/wiki/EB/Streymur"
-		},
-		"venue": {
-			"api_football_id": 3191,
-			"name": "Við Margáir",
-			"address": "Frammi í Dal",
-			"city": "Streymnes, Streymoy",
-			"capacity": 2000,
-			"surface": "artificial turf",
-			"lat": 62.1941,
-			"lng": -7.0431,
-			"x": 466,
-			"y": 208,
-			"wiki": "https://en.wikipedia.org/wiki/Vi%C3%B0_Marg%C3%A1ir"
-		},
-		"league": {},
-		"images": [
-			{
-				"name": "3191_001.jpg",
-				"source": "https://cdn-ac.knassar.fo/media/2020/06/21/gallery-thumbnail/2ec56d2579304aac6a81c4304a9406079ca5d648.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3191_002.jpg",
-				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2018/10/Vi%C3%B0-Marg%C3%A1ir-EBStreymur-a-1.jpg?media=1735041034",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3191_003.jpg",
-				"source": "https://www.in.fo/fileadmin/user_upload/2020_04_25_Margair.PNG",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "3191_004.jpg",
-				"source": "https://usercontent.one/wp/www.nordicstadiums.com/wp-content/uploads/2018/10/Vi%C3%B0-Marg%C3%A1ir-EBStreymur-m.jpg",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
-		"no": 21
+		"no": 22
 	},
 	{
 		"team": {
@@ -1215,6 +1366,6 @@
 				"size": 0
 			}
 		],
-		"no": 22
+		"no": 23
 	}
 ]

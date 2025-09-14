@@ -21,7 +21,12 @@
 			"y": 680,
 			"wiki": "https://en.wikipedia.org/wiki/VEB_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1333_001.jpg",
@@ -88,7 +93,12 @@
 			"y": 680,
 			"wiki": "https://en.wikipedia.org/wiki/Lukoil_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "20743_001.jpg",
@@ -155,7 +165,12 @@
 			"y": 634,
 			"wiki": "https://en.wikipedia.org/wiki/Krestovsky_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1356_001.jpg",
@@ -222,7 +237,12 @@
 			"y": 680,
 			"wiki": "https://en.wikipedia.org/wiki/Lokomotiv_Stadium_(Moscow)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1327_001.jpg",
@@ -305,7 +325,12 @@
 			"y": 780,
 			"wiki": "https://en.wikipedia.org/wiki/Krasnodar_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1338_001.jpg",
@@ -372,7 +397,12 @@
 			"y": 761,
 			"wiki": "https://en.wikipedia.org/wiki/Rostov_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1339_001.jpg",
@@ -447,7 +477,12 @@
 			"y": 706,
 			"wiki": "https://en.wikipedia.org/wiki/Solidarnost_Samara_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "11911_001.jpg",
@@ -506,7 +541,12 @@
 			"y": 720,
 			"wiki": "https://en.wikipedia.org/wiki/Gazovik_Stadium_(Orenburg)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1342_001.jpg",
@@ -565,7 +605,12 @@
 			"y": 680,
 			"wiki": "https://en.wikipedia.org/wiki/Ak_Bars_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19911_001.jpg",
@@ -632,7 +677,12 @@
 			"y": 794,
 			"wiki": "https://en.wikipedia.org/wiki/Akhmat-Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1353_001.jpg",
@@ -691,7 +741,12 @@
 			"y": 680,
 			"wiki": "https://en.wikipedia.org/wiki/VTB_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1334_001.jpg",
@@ -766,7 +821,12 @@
 			"y": 691,
 			"wiki": "https://en.wikipedia.org/wiki/Kaliningrad_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "20188_001.jpg",
@@ -833,7 +893,12 @@
 			"y": 675,
 			"wiki": "https://en.wikipedia.org/wiki/Nizhny_Novgorod_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2835_001.jpg",
@@ -908,7 +973,12 @@
 			"y": 793,
 			"wiki": "https://en.wikipedia.org/wiki/Fisht_Olympic_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2834_001.jpg",
@@ -967,7 +1037,12 @@
 			"y": 704,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "11949_001.jpg",
@@ -1018,7 +1093,12 @@
 			"y": 797,
 			"wiki": "https://en.wikipedia.org/wiki/Anzhi_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 235,
+			"name": "Premier League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1328_001.jpg",
@@ -1093,7 +1173,12 @@
 			"y": 697,
 			"wiki": "https://en.wikipedia.org/wiki/Arsenal_Stadium_(Tula)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1329_001.jpg",
@@ -1152,7 +1237,12 @@
 			"y": 690,
 			"wiki": "https://en.wikipedia.org/wiki/Neftyanik_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "12043_001.jpg",
@@ -1211,7 +1301,12 @@
 			"y": 669,
 			"wiki": "https://en.wikipedia.org/wiki/Central_Stadium_(Yekaterinburg)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1355_001.jpg",
@@ -1286,7 +1381,12 @@
 			"y": 750,
 			"wiki": "https://en.wikipedia.org/wiki/Lenin_Stadium_(Khabarovsk)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1335_001.jpg",
@@ -1337,7 +1437,12 @@
 			"y": 678,
 			"wiki": "https://en.wikipedia.org/wiki/Central_Stadium_(Krasnoyarsk)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1346_001.jpg",
@@ -1388,7 +1493,12 @@
 			"y": 721,
 			"wiki": "https://en.wikipedia.org/wiki/Tsentralnyi_Profsoyuz_Stadion_(Voronezh)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1336_001.jpg",
@@ -1447,7 +1557,12 @@
 			"y": 722,
 			"wiki": "https://en.wikipedia.org/wiki/Lokomotiv_Stadium_(Saratov)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2837_001.jpg",
@@ -1498,7 +1613,12 @@
 			"y": 661,
 			"wiki": "https://en.wikipedia.org/wiki/Shinnik_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1350_001.jpg",
@@ -1549,7 +1669,12 @@
 			"y": 682,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "2836_001.jpg",
@@ -1592,7 +1717,12 @@
 			"y": 748,
 			"wiki": "https://en.wikipedia.org/wiki/Volgograd_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "1348_001.jpg",
@@ -1667,7 +1797,12 @@
 			"y": 770,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "6429_001.jpg",
@@ -1702,7 +1837,12 @@
 			"y": 680,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "11932_001.jpg",
@@ -1733,11 +1873,16 @@
 			"surface": "artificial turf",
 			"lat": 55.166193,
 			"lng": 61.376039,
-			"x": 0,
-			"y": 0,
+			"x": 244,
+			"y": 687,
 			"wiki": "https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%28%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD,_%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%29"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "4957_001.jpg",
@@ -1796,7 +1941,12 @@
 			"y": 782,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "4958_001.jpg",
@@ -1839,7 +1989,12 @@
 			"y": 681,
 			"wiki": "https://en.wikipedia.org/wiki/KAMAZ_Stadium"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "4966_001.jpg",
@@ -1890,7 +2045,12 @@
 			"y": 680,
 			"wiki": "https://en.wikipedia.org/wiki/Sapsan_Arena"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "20759_001.jpg",
@@ -1953,11 +2113,16 @@
 			"surface": "grass",
 			"lat": 54.3181,
 			"lng": 48.3943,
-			"x": 0,
-			"y": 0,
+			"x": 168,
+			"y": 695,
 			"wiki": "https://en.wikipedia.org/wiki/Trud_Stadium_(Ulyanovsk)"
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "20128_001.jpg",
@@ -1996,11 +2161,16 @@
 			"surface": "artificial turf",
 			"lat": 57.736939,
 			"lng": 41.057592,
-			"x": 0,
-			"y": 0,
+			"x": 125,
+			"y": 659,
 			"wiki": ""
 		},
-		"league": {},
+		"league": {
+			"api_football_id": 236,
+			"name": "First League",
+			"country": "Russia",
+			"api_football_country_id": 0
+		},
 		"images": [
 			{
 				"name": "19449_001.jpg",

@@ -24,7 +24,7 @@ export default function (countrySlug) {
     console.log('lng_max: ', lng_max)
 
     // Some stadiums in Spain and Portugal should not have their x & y coordinates updated because they are on an island:
-    const exclude = [1481 /*Las Palmas*/, 1496 /*Tenerife*/, 21117 /*Maritimo*/, 1281 /*Nacional*/, 1289 /*Santa Clara*/]
+    const exclude = [1481 /*Las Palmas*/, 1496 /*Tenerife*/, 21117 /*Maritimo*/, 1281 /*Nacional*/, 1289 /*Santa Clara*/, 3969 /*Ceuta*/]
 
     for (let i = 0; i < teams.length; i++) {
         let obj = {}
@@ -46,6 +46,7 @@ export default function (countrySlug) {
             const latRad = (teams[i]['venue']['lat'] * Math.PI) / 180
             const mercN = Math.log(Math.tan(Math.PI / 4 + latRad / 2))
             obj['venue']['y'] = y_max / 2 - (x_max * mercN) / (2 * Math.PI)
+
         }
         // obj['venue']['x'] = x_translate + parseFloat((((teams[i]['venue']['lng'] - lng_min) * x_max) / (lng_max - lng_min)).toFixed(1))
         // obj['venue']['y'] = y_translate + parseFloat((((lat_max - teams[i]['venue']['lat']) * y_max) / (lat_max - lat_min)).toFixed(1))

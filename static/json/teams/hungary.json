@@ -1711,8 +1711,8 @@
 			"city": "Tiszafüred",
 			"capacity": 1000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 47.615634,
+			"lng": 20.756185,
 			"x": 0,
 			"y": 0,
 			"wiki": ""
@@ -1723,7 +1723,16 @@
 			"country": "Hungary",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "10567_001.jpg",
+				"source": "https://www.magyarfutball.hu/data/grounds/3/383/ground_383_002.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 28
 	},
 	{

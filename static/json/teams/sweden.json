@@ -1959,11 +1959,11 @@
 			"city": "Umeå",
 			"capacity": 14000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 63.83,
+			"lng": 20.285833,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Gammliavallen"
 		},
 		"league": {
 			"api_football_id": 114,
@@ -1971,7 +1971,56 @@
 			"country": "Sweden",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "4900_001.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/T3Arena.jpg/1200px-T3Arena.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4900_002.jpg",
+				"source": "https://vkmedia.imgix.net/YlpItQJt9fzn8MqZrh9U9cyaRGI.jpg?auto=format,compress&w=1280&h=720&crop=faces,edges&fit=crop",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4900_003.jpg",
+				"source": "https://usercontent.one/wp/www.matsragnarsson.se/wp-content/uploads/2019/03/GOPR0240-1440x720.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4900_004.jpg",
+				"source": "https://audiotecnord.se/wp-content/uploads/2019/07/20190514_142910-e1561984683846.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4900_005.jpg",
+				"source": "https://pbs.twimg.com/media/CRnBwJHUEAAbGC5.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "4900_006.jpg",
+				"source": "https://www.gp.se/images/article/e05f501f-ff15-5a04-a271-4da0b60768f3/images/0WXS3HX28T41wtxyBkTsDQZ0Dg90-WIDE.jpg?width=3840&quality=75",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 30
 	},
 	{

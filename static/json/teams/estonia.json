@@ -855,11 +855,11 @@
 			"city": "Tartu",
 			"capacity": 1000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 58.349939,
+			"lng": 26.725758,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Sepa_Jalgpallikeskus"
 		},
 		"league": {
 			"api_football_id": 328,
@@ -903,11 +903,11 @@
 			"city": "Tallinn",
 			"capacity": 2730,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 59.385456,
+			"lng": 24.659603,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Hiiu_Stadium"
 		},
 		"league": {
 			"api_football_id": 328,
