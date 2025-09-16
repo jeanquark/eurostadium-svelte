@@ -95,6 +95,9 @@
                 `${baseUrl}/api/api-football/fetch-teams?season=${season}&countryStartIndex=${countryStartIndex}&countryEndIndex=${countryEndIndex}`
             );
             // console.log("response: ", response);
+            if (!response.ok) {
+                throw new Error(`Could not fetch teams for ${country.name} from API Football.`);
+            }
             const data = await response.json();
             console.log("data: ", data);
             addToast({
@@ -103,6 +106,10 @@
             });
         } catch (error) {
             console.log("error: ", error);
+            addToast({
+                type: "error",
+                message: error,
+            });
         } finally {
             loadingFetchLeagueTeams = false;
         }

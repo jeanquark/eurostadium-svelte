@@ -845,6 +845,7 @@
 .pl-3 {
     padding-left: 1em;
 }
+
 .pl-4 {
     padding-left: 1.5em;
 }
@@ -880,6 +881,18 @@
 
 .border-secondary {
     border: 2px solid var(--color-theme-2);
+}
+
+.border-radius-02 {
+    border-radius: .2em;
+}
+
+.border-radius-04 {
+    border-radius: .4em;
+}
+
+.border-radius-06 {
+    border-radius: .6em;
 }
 
 .border-radius-08 {

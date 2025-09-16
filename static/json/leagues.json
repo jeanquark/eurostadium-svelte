@@ -889,5 +889,14 @@
         "api_football_country_id": 0,
         "wiki": "https://en.wikipedia.org/wiki/Campionato_Sammarinese_di_Calcio",
         "national_level": 1
+    },
+    {
+        "name": "Premier League",
+        "slug": "premier_league",
+        "api_football_id": 110,
+        "country": "Wales",
+        "api_football_country_id": 0,
+        "wiki": "https://en.wikipedia.org/wiki/Cymru_Premier",
+        "national_level": 1
     }
 ]

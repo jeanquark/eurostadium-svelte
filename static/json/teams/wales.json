@@ -1,0 +1,482 @@
+[
+	{
+		"team": {
+			"api_football_id": 352,
+			"name": "Bala Town",
+			"code": "BAL",
+			"country": "Wales",
+			"founded": 1880,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 1669,
+			"name": "Maes Tegid",
+			"address": "Castle Street / Heol Y Castell",
+			"city": "Bala, Gwynedd",
+			"capacity": 3004,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 110,
+			"name": "Premier League",
+			"country": "Wales",
+			"api_football_country_id": 0
+		},
+		"images": [
+            {
+                "name": "1669_001.jpg",
+                "source": "",
+                "owner": "",
+                "width": 0,
+                "height": 0,
+                "size": 0
+            }
+        ],
+		"no": 1
+	},
+	{
+		"team": {
+			"api_football_id": 353,
+			"name": "Cardiff MET",
+			"code": "CAR",
+			"country": "Wales",
+			"founded": null,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 1686,
+			"name": "Cyncoed Campus Artificial Pitch",
+			"address": "Cyncoed Road",
+			"city": "Caerdydd",
+			"capacity": 1500,
+			"surface": "artificial turf",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 110,
+			"name": "Premier League",
+			"country": "Wales",
+			"api_football_country_id": 0
+		},
+		"images": [
+            {
+                "name": "1686_001.jpg",
+                "source": "",
+                "owner": "",
+                "width": 0,
+                "height": 0,
+                "size": 0
+            }
+        ],
+		"no": 2
+	},
+	{
+		"team": {
+			"api_football_id": 354,
+			"name": "The New Saints",
+			"code": "TNS",
+			"country": "Wales",
+			"founded": 1959,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 1684,
+			"name": "Park Hall Stadium",
+			"address": "Burma Road",
+			"city": "Oswestry / Croesoswallt, Shropshire",
+			"capacity": 2000,
+			"surface": "artificial turf",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 110,
+			"name": "Premier League",
+			"country": "Wales",
+			"api_football_country_id": 0
+		},
+		"images": [
+            {
+                "name": "1684_001.jpg",
+                "source": "",
+                "owner": "",
+                "width": 0,
+                "height": 0,
+                "size": 0
+            }
+        ],
+		"no": 3
+	},
+	{
+		"team": {
+			"api_football_id": 355,
+			"name": "llanelli AFC",
+			"code": null,
+			"country": "Wales",
+			"founded": 2013,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 1857,
+			"name": "Stebonheath Park",
+			"address": "Penallt Road",
+			"city": "Llanelli, Carmarthenshire",
+			"capacity": 3700,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 110,
+			"name": "Premier League",
+			"country": "Wales",
+			"api_football_country_id": 0
+		},
+		"images": [
+            {
+                "name": "1857_001.jpg",
+                "source": "",
+                "owner": "",
+                "width": 0,
+                "height": 0,
+                "size": 0
+            }
+        ],
+		"no": 4
+	},
+	{
+		"team": {
+			"api_football_id": 356,
+			"name": "Caernarfon Town",
+			"code": null,
+			"country": "Wales",
+			"founded": 1876,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 1672,
+			"name": "The Oval",
+			"address": "Marcus Street / Stryd Y Marcus",
+			"city": "Caernarfon, Gwynedd",
+			"capacity": 3500,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 110,
+			"name": "Premier League",
+			"country": "Wales",
+			"api_football_country_id": 0
+		},
+		"images": [
+            {
+                "name": "1672_001.jpg",
+                "source": "",
+                "owner": "",
+                "width": 0,
+                "height": 0,
+                "size": 0
+            }
+        ],
+		"no": 5
+	},
+	{
+		"team": {
+			"api_football_id": 357,
+			"name": "GAP Connah S Quay FC",
+			"code": "CON",
+			"country": "Wales",
+			"founded": 1946,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 4198,
+			"name": "Essity Stadium",
+			"address": "Marsh Lane",
+			"city": "Y Fflint / Flint, Flintshire",
+			"capacity": 1164,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 110,
+			"name": "Premier League",
+			"country": "Wales",
+			"api_football_country_id": 0
+		},
+		"images": [
+            {
+                "name": "4198_001.jpg",
+                "source": "",
+                "owner": "",
+                "width": 0,
+                "height": 0,
+                "size": 0
+            }
+        ],
+		"no": 6
+	},
+	{
+		"team": {
+			"api_football_id": 361,
+			"name": "Barry Town",
+			"code": "BAR",
+			"country": "Wales",
+			"founded": 1912,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 1670,
+			"name": "Jenner Park",
+			"address": "Barry Road",
+			"city": "Barry / Y Barri, Vale of Glamorgan",
+			"capacity": 3500,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 110,
+			"name": "Premier League",
+			"country": "Wales",
+			"api_football_country_id": 0
+		},
+		"images": [
+            {
+                "name": "1670_001.jpg",
+                "source": "",
+                "owner": "",
+                "width": 0,
+                "height": 0,
+                "size": 0
+            }
+        ],
+		"no": 7
+	},
+	{
+		"team": {
+			"api_football_id": 2191,
+			"name": "Penybont",
+			"code": "PEN",
+			"country": "Wales",
+			"founded": 2013,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 11921,
+			"name": "SDM Glass Stadium",
+			"address": "Llangewydd Road",
+			"city": "Bridgend, Bridgend County Borough",
+			"capacity": 1200,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 110,
+			"name": "Premier League",
+			"country": "Wales",
+			"api_football_country_id": 0
+		},
+		"images": [
+            {
+                "name": "11921_001.jpg",
+                "source": "",
+                "owner": "",
+                "width": 0,
+                "height": 0,
+                "size": 0
+            }
+        ],
+		"no": 8
+	},
+	{
+		"team": {
+			"api_football_id": 2194,
+			"name": "Haverfordwest County AFC",
+			"code": "HAV",
+			"country": "Wales",
+			"founded": 1899,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 1678,
+			"name": "New Bridge Meadow Stadium",
+			"address": "Clarbeston Road, Bridge Meadow Lane",
+			"city": "Hwlffordd / Haverfordwest, Pembrokeshie",
+			"capacity": 3500,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 110,
+			"name": "Premier League",
+			"country": "Wales",
+			"api_football_country_id": 0
+		},
+		"images": [
+            {
+                "name": "1678_001.jpg",
+                "source": "",
+                "owner": "",
+                "width": 0,
+                "height": 0,
+                "size": 0
+            }
+        ],
+		"no": 9
+	},
+	{
+		"team": {
+			"api_football_id": 2201,
+			"name": "Briton Ferry",
+			"code": null,
+			"country": "Wales",
+			"founded": 1926,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 1671,
+			"name": "Old Road",
+			"address": "Old Road",
+			"city": "Briton Ferry",
+			"capacity": 2000,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 110,
+			"name": "Premier League",
+			"country": "Wales",
+			"api_football_country_id": 0
+		},
+		"images": [
+            {
+                "name": "1671_001.jpg",
+                "source": "",
+                "owner": "",
+                "width": 0,
+                "height": 0,
+                "size": 0
+            }
+        ],
+		"no": 10
+	},
+	{
+		"team": {
+			"api_football_id": 5611,
+			"name": "Colwyn Bay",
+			"code": "COL",
+			"country": "Wales",
+			"founded": 1881,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 19231,
+			"name": "Four Crosses Construction Arena",
+			"address": "Llanelian Road, Old Colwyn",
+			"city": "Bae Colwyn, Conwy",
+			"capacity": 2500,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 110,
+			"name": "Premier League",
+			"country": "Wales",
+			"api_football_country_id": 0
+		},
+		"images": [
+            {
+                "name": "19231_001.jpg",
+                "source": "",
+                "owner": "",
+                "width": 0,
+                "height": 0,
+                "size": 0
+            }
+        ],
+		"no": 11
+	},
+	{
+		"team": {
+			"api_football_id": 5614,
+			"name": "Flint Town United",
+			"code": null,
+			"country": "Wales",
+			"founded": 1886,
+			"wiki": ""
+		},
+		"venue": {
+			"api_football_id": 4198,
+			"name": "Essity Stadium",
+			"address": "Marsh Lane",
+			"city": "Y Fflint / Flint, Flintshire",
+			"capacity": 1164,
+			"surface": "grass",
+			"lat": 0,
+			"lng": 0,
+			"x": 0,
+			"y": 0,
+			"wiki": ""
+		},
+		"league": {
+			"api_football_id": 110,
+			"name": "Premier League",
+			"country": "Wales",
+			"api_football_country_id": 0
+		},
+		"images": [
+            {
+                "name": "4198_001.jpg",
+                "source": "",
+                "owner": "",
+                "width": 0,
+                "height": 0,
+                "size": 0
+            }
+        ],
+		"no": 12
+	}
+]

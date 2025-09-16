@@ -8,11 +8,11 @@
     }
 </script>
 
-<div class="pagination">
+<div class="pagination my-2">
     totalPages: {totalPages}<br />
     currentPage: {currentPage}<br />
     {#if currentPage > 1}
-        <button on:click={() => handlePageChange(currentPage - 1)}>Prev</button>
+        <button class="page-button" on:click={() => handlePageChange(currentPage - 1)}>Prev</button>
     {/if}
 
     {#each Array(totalPages) as _, page}
@@ -25,7 +25,7 @@
     {/each}
 
     {#if currentPage < totalPages}
-        <button on:click={() => handlePageChange(currentPage + 1)}>Next</button>
+        <button class="page-button" on:click={() => handlePageChange(currentPage + 1)}>Next</button>
     {/if}
 </div>
 
@@ -45,7 +45,7 @@
     }
 
     .active {
-        background-color: #007bff;
+        background-color: #325bad;
         color: #fff;
     }
 </style>

@@ -4,6 +4,7 @@ import { supabase } from '@lib/supabase/supabaseClient'
 const state = {
     loading: false,
     stadiums: [],
+    paginatedStadiums: [],
     stadiumsByCountry: {},
     stadiumsByLeagueId: {},
     stadiumsByCountry2: {
@@ -231,7 +232,7 @@ function createStadiumStore() {
             })
         },
 
-        async fetchPaginatedStadiums(page = 1, pageSize = 10, sortBy = 'id', sortOrder = 'asc', countryName = 'Switzerland') {
+        async fetchPaginatedStadiums(page = 1, pageSize = 10, sortBy = 'id', sortOrder = 'asc', countryName = 'England') {
             console.log('[Store] fetchPaginatedStadiums()', page, pageSize, sortBy, sortOrder, countryName)
             // const { data, error } = await supabase.from("countries").select(`id, name, image`);
             const from = (page - 1) * pageSize
@@ -263,8 +264,8 @@ function createStadiumStore() {
                 console.log('error: ', error);
             }
 
-            const groupedByStadium = [...new Set(data.map(obj => JSON.stringify(obj)))].map(obj => JSON.parse(obj));
-            console.log('groupedByStadium: ', groupedByStadium);
+            // const groupedByStadium = [...new Set(data.map(obj => JSON.stringify(obj)))].map(obj => JSON.parse(obj));
+            // console.log('groupedByStadium: ', groupedByStadium);
 
             update((state) => ({
                 ...state, paginatedStadiums: {
@@ -275,16 +276,16 @@ function createStadiumStore() {
                 }
             }))
 
-            const { data: data2, error: error2 } = await supabase.rpc('get_unique_stadiums', {
-                page_number: page,
-                page_size: pageSize,
-                country_name2: "Switzerland"
-            })
-            if (error2) {
-                console.error('Error calling RPC:', error2)
-                return []
-            }
-            console.log('data2: ', data2);
+            // const { data: data2, error: error2 } = await supabase.rpc('get_unique_stadiums', {
+            //     page_number: page,
+            //     page_size: pageSize,
+            //     country_name2: "Switzerland"
+            // })
+            // if (error2) {
+            //     console.error('Error calling RPC:', error2)
+            //     return []
+            // }
+            // console.log('data2: ', data2);
         },
 
         // async fetchStadiumsByCountry2(country) {
