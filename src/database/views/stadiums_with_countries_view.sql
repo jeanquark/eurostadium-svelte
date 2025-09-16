@@ -212,6 +212,7 @@ SELECT
   s.capacity AS stadium_capacity,
   s.city AS stadium_city,
   s.wiki AS stadium_wiki,
+  s.api_football_id AS api_football_venue_id,
   s.x AS stadium_x,
   s.y AS stadium_y,
   -- Subquery to get the aggregated images for this stadium

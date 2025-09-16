@@ -15,8 +15,15 @@
             if ($countryStore.countries.length < 2) {
                 await countryStore.fetchCountries()
             }
+            console.log('$countryStore.countries: ', $countryStore.countries)
             // selectedCountry = $countryStore.countries[Math.floor(Math.random() * 54)] || null
             selectedCountry = $countryStore.countries[51]
+            console.log('$countryStore.countries.length: ', $countryStore.countries.length)
+            const uefa_ranking = generateRandomExponential(1, $countryStore.countries.length)
+            console.log('uefa_ranking: ', uefa_ranking)
+            const selectedCountry2 = $countryStore.countries.find((c) => c.uefa_ranking === uefa_ranking)
+            console.log('selectedCountry2: ', selectedCountry2)
+
             await stadiumStore.fetchPaginatedStadiums()
             totalPages = $stadiumStore.paginatedStadiums?.totalPages || 1
         } catch (error) {
@@ -72,6 +79,20 @@
         // }
         showModal = true
     }
+
+    const generateRandomExponential = (min = 1, max = 54) => {
+        const random = Math.random()
+        const scaled = (1 - Math.sqrt(random)) * (max - min + 1) + min
+        console.log('random number: ', Math.floor(scaled))
+        return Math.floor(scaled)
+    }
+    const generateRandomExponential2 = (min = 1, max = 54) => {
+        const random = Math.random()
+        // Uses reciprocal to strongly favor smaller numbers
+        const scaled = (1 / (random + 0.01) - 1) / (1 / 0.01 - 1) // Normalized
+        console.log('random number: ', Math.floor(scaled * (max - min + 1)) + min)
+        return Math.floor(scaled * (max - min + 1)) + min
+    }
 </script>
 
 <svelte:head>
@@ -110,7 +131,7 @@
                 <button type="button" class={`flag-btn mx-1 ${selectedCountry?.id === country.id ? 'active' : ''}`} onclick={() => selectCountry(country)} aria-label={`Select ${country.name}`} style="background: none; padding: 0;">
                     <img src="{base}/images/flags/{country.image || `${base}/no-image.png`}" alt={country.name} height="30" />
                 </button>
-                <span class="tooltiptext">{country.name}</span>
+                <span class="tooltiptext">{country.name} - {index}</span>
             </div>
         {/each}
     </div>
@@ -126,6 +147,7 @@
 </div>
 <div class="row justify-center my-2" style="">
     <div class="col-8" style="background: #f8f9fa; padding: 0px; border-radius: 8px;">
+        <button onclick={() => generateRandomExponential()}>Generate random exponential</button>
         {#if selectedCountry !== null}
             <h2 class="text-center my-2">Stadiums in {selectedCountry?.name}</h2>
         {/if}
@@ -148,9 +170,19 @@
                             </button>
                         </th>
                         <th>City</th>
-                        <th>Capacity</th>
+                        <th
+                            >Capacity
+                            <button class="sort-icon" onclick={() => sortTable('name')}>
+                                {#if sortBy === 'name' && sortOrder === 'asc'}
+                                    <SortAsc />
+                                {:else if sortBy === 'name' && sortOrder === 'desc'}
+                                    <SortDesc />
+                                {:else}
+                                    <SortAsc />
+                                {/if}
+                            </button>
+                        </th>
                         <th>Teams</th>
-                        <th>Wiki</th>
                         <th>Images</th>
                     </tr>
                 </thead>
@@ -159,33 +191,33 @@
                         <tr>
                             <td>{(currentPage - 1) * itemsPerPage + index + 1}</td>
                             <!-- <td>{stadium.id}</td> -->
-                            <td>{stadium.stadium_name}</td>
+                            <td>
+                                <a href={stadium.stadium_wiki} target="_blank">
+                                    {stadium.stadium_name}
+                                </a>
+                            </td>
                             <td>{stadium.stadium_city}</td>
                             <td>{new Intl.NumberFormat().format(stadium.stadium_capacity)}</td>
                             <td>
                                 {#each stadium.teams as team, teamIndex}
                                     <!-- {team.name}{teamIndex < stadium.teams.length - 1 ? ', ' : ''} -->
                                     <div class="tooltip">
-                                        <img src={team.image || `${base}/images/no-image.png`} alt={team.name} height="50" class="px-1" />
+                                        <a href={team.wiki} target="_blank">
+                                            <img src={team.image || `${base}/images/no-image.png`} alt={team.name} height="50" class="px-1" />
+                                        </a>
                                         <span class="tooltiptext">{team.name}</span>
                                     </div>
                                 {/each}
-                            </td>
-                            <td>
-                                <a href={stadium.stadium_wiki} target="_blank">
-                                    <img src="{base}/images/icons/external-link.svg" width="20" alt="External link icon" style="opacity: 0.5;" />
-                                </a>
                             </td>
                             <td style="">
                                 <!-- {#each stadium.images as image}
                                     <img src={image.url || `${base}/no-image.png`} alt={stadium.name} height="50" class="px-1" />
                                 {/each} -->
-                                <div style="display: flex;
-  align-items: center;">
-                                <button type="button" class={`img-btn`} onclick={() => openModal(stadium)} aria-label={stadium.images[0]?.name} style="background: none; border:none; padding: 0;">
-                                    <img src={stadium.images[0]?.url || `${base}/images/no-image.png`} alt={stadium.images[0]?.name} height="50" class="px-1" />
-                                </button>
-                                <span style="">({stadium.images.length})</span>
+                                <div style="display: flex; align-items: center;">
+                                    <button type="button" class={`img-btn`} onclick={() => openModal(stadium)} aria-label={stadium.images[0]?.name} style="background: none; border:none; padding: 0;">
+                                        <img src={stadium.images[0]?.url || `${base}/images/no-image.png`} alt={stadium.images[0]?.name} height="50" class="px-1" />
+                                    </button>
+                                    <span style="">({stadium.images.length})</span>
                                 </div>
                             </td>
                         </tr>

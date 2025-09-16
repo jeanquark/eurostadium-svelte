@@ -1,16 +1,25 @@
 <script>
-    import { onMount } from "svelte";
-    import { leagueStore } from "@store/league";
-    import { supabase } from "@lib/supabase/supabaseClient";
-    import { hasAnimationPlayed } from "@store/animation";
-    import Country from "./icons/Country.svelte";
-    import League from "./icons/League.svelte";
-    import Team from "./icons/Team.svelte";
-    import Stadium from "./icons/Stadium.svelte";
+    import { onMount } from 'svelte'
+    import { leagueStore } from '@store/league'
+    import { supabase } from '@lib/supabase/supabaseClient'
+    import { hasAnimationPlayed } from '@store/animation'
+    import Country from './icons/Country.svelte'
+    import League from './icons/League.svelte'
+    import Team from './icons/Team.svelte'
+    import Stadium from './icons/Stadium.svelte'
 
-    $: startAnimation = !$hasAnimationPlayed;
+    $: startAnimation = !$hasAnimationPlayed
 
-    let iconColor = "#000";
+    let iconColor = {
+        country: '#000',
+        league: '#000',
+        team: '#000',
+        stadium: '#000',
+    }
+    // let iconColorCountry = '#000'
+    // let iconColorStadium = '#000'
+    // let iconColorLeague = '#000'
+    // let iconColorTeam = '#000'
 
     onMount(() => {
         // // 1) Countries
@@ -53,55 +62,52 @@
         // console.log("count3: ", count3);
 
         if (startAnimation) {
-            const mediaQuery = window.matchMedia("(max-width: 768px)");
-            console.log("mediaQuery: ", mediaQuery);
-            let country, league, team, stadium;
+            const mediaQuery = window.matchMedia('(max-width: 768px)')
+            console.log('mediaQuery: ', mediaQuery)
+            let country, league, team, stadium
 
             if (mediaQuery.matches) {
-                country = document.getElementById("country-sm");
-                league = document.getElementById("league-sm");
-                team = document.getElementById("team-sm");
-                stadium = document.getElementById("stadium-sm");
+                country = document.getElementById('country-sm')
+                league = document.getElementById('league-sm')
+                team = document.getElementById('team-sm')
+                stadium = document.getElementById('stadium-sm')
             } else {
-                country = document.getElementById("country");
-                league = document.getElementById("league");
-                team = document.getElementById("team");
-                stadium = document.getElementById("stadium");
+                country = document.getElementById('country')
+                league = document.getElementById('league')
+                team = document.getElementById('team')
+                stadium = document.getElementById('stadium')
             }
 
-            animate(country, 0, 50, 2000);
-            animate(league, 0, 39, 2000);
-            animate(team, 0, 697, 2000);
-            animate(stadium, 0, 667, 2000);
+            animate(country, 0, 50, 2000)
+            animate(league, 0, 39, 2000)
+            animate(team, 0, 697, 2000)
+            animate(stadium, 0, 667, 2000)
 
-            $hasAnimationPlayed = true;
+            $hasAnimationPlayed = true
         }
-    });
+    })
     const animate = (obj, start, end, duration) => {
-        console.log("animate");
+        console.log('animate')
         // const obj = document.getElementById("value");
         // console.log("obj: ", obj);
-        let startTimestamp = null;
+        let startTimestamp = null
 
         const inOutQuad = (n) => {
-            n *= 2;
-            if (n < 1) return 0.5 * n * n;
-            return -0.5 * (--n * (n - 2) - 1);
-        };
+            n *= 2
+            if (n < 1) return 0.5 * n * n
+            return -0.5 * (--n * (n - 2) - 1)
+        }
         const step = (timestamp) => {
-            if (!startTimestamp) startTimestamp = timestamp;
-            const progress = Math.min(
-                (timestamp - startTimestamp) / duration,
-                1
-            );
-            const progress2 = inOutQuad(progress);
-            obj.innerHTML = Math.floor(progress2 * (end - start) + start);
+            if (!startTimestamp) startTimestamp = timestamp
+            const progress = Math.min((timestamp - startTimestamp) / duration, 1)
+            const progress2 = inOutQuad(progress)
+            obj.innerHTML = Math.floor(progress2 * (end - start) + start)
             if (progress2 < 1) {
-                window.requestAnimationFrame(step);
+                window.requestAnimationFrame(step)
             }
-        };
-        window.requestAnimationFrame(step);
-    };
+        }
+        window.requestAnimationFrame(step)
+    }
 </script>
 
 <div class="hidden-md-and-up">
@@ -110,11 +116,7 @@
             <div class="box mr-1">
                 <a href="/countries">
                     <p>
-                        <img
-                            src="/images/icons/country.svg"
-                            height="30"
-                            alt="Country"
-                        />
+                        <img src="/images/icons/country.svg" height="30" alt="Country" />
                     </p>
                     <h2 class="my-2" id="country-sm">0</h2>
                     <p style="font-size: 1.3em;">countries</p>
@@ -124,11 +126,7 @@
         <div class="col-6 text-center border-0">
             <div class="box mx-1">
                 <p>
-                    <img
-                        src="/images/icons/trophy.svg"
-                        height="30"
-                        alt="League"
-                    />
+                    <img src="/images/icons/trophy.svg" height="30" alt="League" />
                 </p>
                 <h2 class="my-2" id="league-sm">0</h2>
                 <p style="font-size: 1.3em;">leagues</p>
@@ -146,11 +144,7 @@
         <div class="col-6 text-center border-0">
             <div class="box ml-1">
                 <p>
-                    <img
-                        src="/images/icons/stadium.svg"
-                        height="30"
-                        alt="Stadium"
-                    />
+                    <img src="/images/icons/stadium.svg" height="30" alt="Stadium" />
                 </p>
                 <h2 class="my-2" id="stadium-sm">0</h2>
                 <p style="font-size: 1.3em;">stadiums</p>
@@ -159,15 +153,12 @@
     </div>
 </div>
 
-<div
-    class="row hidden-sm-and-down my-5"
-    style="justify-content: space-between;"
->
+<div class="row hidden-sm-and-down my-5" style="justify-content: space-between;">
     <div class="col-sm-6 col-md-3 text-center" style="">
-        <div class="box mr-2">
+        <div class="box mr-2" onmouseover={() => (iconColor.country = '#fff')} onmouseleave={() => (iconColor.country = '#000')} onfocus={() => (iconColor.country = '#fff')} onblur={() => (iconColor.country = '#000')} role="button" tabindex="0">
             <a href="/countries">
                 <span style="display: flex; justify-content: center;">
-                    <Country color="{iconColor}" />
+                    <Country color={iconColor.country} />
                 </span>
                 <h2 class="my-2" id="country">50</h2>
                 <p style="font-size: 1.3em;">countries</p>
@@ -175,13 +166,10 @@
         </div>
     </div>
     <div class="col-sm-6 col-md-3 text-center">
-        <div class="box mx-2">
-            <!-- <p>
-                <img src="/images/icons/trophy.svg" height="30" alt="League" />
-            </p> -->
+        <div class="box mx-2" onmouseover={() => (iconColor.league = '#fff')} onmouseleave={() => (iconColor.league = '#000')} onfocus={() => (iconColor.league = '#fff')} onblur={() => (iconColor.league = '#000')} role="button" tabindex="0">
             <a href="/leagues">
                 <span style="display: flex; justify-content: center;">
-                    <League color="{iconColor}" />
+                    <League color={iconColor.league} />
                 </span>
                 <h2 class="my-2" id="league">{$leagueStore.leagues?.length}</h2>
                 <p style="font-size: 1.3em;">leagues</p>
@@ -189,40 +177,30 @@
         </div>
     </div>
     <div class="col-sm-6 col-md-3 text-center">
-        <div class="box mx-2">
-            <!-- <p><img src="/images/icons/team.svg" height="30" alt="Team" /></p> -->
+        <div class="box mx-2" onmouseover={() => (iconColor.team = '#fff')} onmouseleave={() => (iconColor.team = '#000')} onfocus={() => (iconColor.team = '#fff')} onblur={() => (iconColor.team = '#000')} role="button" tabindex="0">
             <a href="/countries">
                 <span style="display: flex; justify-content: center;">
-                    <Team color="{iconColor}" />
+                    <Team color={iconColor.team} />
                 </span>
                 <h2 class="my-2" id="team">697</h2>
-            <p style="font-size: 1.3em;">teams</p>
+                <p style="font-size: 1.3em;">teams</p>
             </a>
-            
         </div>
     </div>
     <div class="col-sm-6 col-md-3 text-center">
-        <div class="box ml-2">
-            <!-- <p>
-                <img
-                    src="/images/icons/stadium.svg"
-                    height="30"
-                    alt="Stadium"
-                />
-            </p> -->
+        <div class="box ml-2" onmouseover={() => (iconColor.stadium = '#fff')} onmouseleave={() => (iconColor.stadium = '#000')} onfocus={() => (iconColor.stadium = '#fff')} onblur={() => (iconColor.stadium = '#000')} role="button" tabindex="0">
             <a href="/stadiums">
                 <span style="display: flex; justify-content: center;">
-                    <Stadium color="{iconColor}" />
+                    <Stadium color={iconColor.stadium} />
                 </span>
                 <h2 class="my-2" id="stadium">690</h2>
-            <p style="font-size: 1.3em;">stadiums</p>
+                <p style="font-size: 1.3em;">stadiums</p>
             </a>
-            
         </div>
     </div>
 </div>
 
-<style>
+<style scoped>
     .box {
         background-color: rgba(255, 255, 255, 0.6);
         padding: 1em;
@@ -241,7 +219,7 @@
     }
 
     .box:hover {
-        background-image: url("/images/grass_01.jpg");
+        background-image: url('/images/grass_01.jpg');
         background-size: cover;
         background-position: center;
         transition: background-image 0.3s ease-in-out;

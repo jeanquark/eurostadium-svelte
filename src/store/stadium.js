@@ -263,6 +263,9 @@ function createStadiumStore() {
                 console.log('error: ', error);
             }
 
+            const groupedByStadium = [...new Set(data.map(obj => JSON.stringify(obj)))].map(obj => JSON.parse(obj));
+            console.log('groupedByStadium: ', groupedByStadium);
+
             update((state) => ({
                 ...state, paginatedStadiums: {
                     data,
@@ -271,6 +274,17 @@ function createStadiumStore() {
                     totalPages: Math.ceil(count / pageSize)
                 }
             }))
+
+            const { data: data2, error: error2 } = await supabase.rpc('get_unique_stadiums', {
+                page_number: page,
+                page_size: pageSize,
+                country_name2: "Switzerland"
+            })
+            if (error2) {
+                console.error('Error calling RPC:', error2)
+                return []
+            }
+            console.log('data2: ', data2);
         },
 
         // async fetchStadiumsByCountry2(country) {

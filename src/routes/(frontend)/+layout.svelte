@@ -1,43 +1,37 @@
 <script>
-    import { base } from "$app/paths";
-    import { onMount } from "svelte";
-    import { PUBLIC_APP_ENV } from '$env/static/public';
-    import "../../app.css";
-    import { supabase } from "@lib/supabase/supabaseClient";
-    import { initGA } from "@lib/analytics.js";
-    import Toasts from "@components/Toasts.svelte";
+    import { base } from '$app/paths'
+    import { onMount } from 'svelte'
+    import { PUBLIC_APP_ENV } from '$env/static/public'
+    import '../../app.css'
+    import { supabase } from '@lib/supabase/supabaseClient'
+    import { initGA } from '@lib/analytics.js'
+    import Toasts from '@components/Toasts.svelte'
 
-    let { children } = $props();
-    let session = $state(null);
-    const isDev = PUBLIC_APP_ENV === 'development';
+    let { children } = $props()
+    let session = $state(null)
+    const isDev = PUBLIC_APP_ENV === 'development'
 
     onMount(() => {
         try {
             supabase.auth.getSession().then(({ data }) => {
                 // console.log('data: ', data);
-                session = data.session;
-            });
+                session = data.session
+            })
 
             supabase.auth.onAuthStateChange((_event, _session) => {
-                session = _session;
-            });
-            initGA();
+                session = _session
+            })
+            initGA()
         } catch (error) {
-            console.log("error: ", error);
+            console.log('error: ', error)
         }
-    });
+    })
 </script>
 
 <svelte:head>
-    <link
-        href="https://fonts.googleapis.com/css?family=Gelasio"
-        rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Gelasio" rel="stylesheet" />
     <!-- Google tag (gtag.js) -->
-    <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-HPDK1Z6D0V"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HPDK1Z6D0V"></script>
 </svelte:head>
 
 <div class="app">
@@ -47,12 +41,7 @@
                 <h2 class="text-right pr-3 slide-from-left">eurostadium.net</h2>
             </div>
             <div class="col-2 col-lg-2 border-2">
-                <img
-                    src="{base}/images/logo-min.svg"
-                    width="100%"
-                    alt="logo"
-                    class="text-center"
-                />
+                <img src="{base}/images/logo-min.svg" width="100%" alt="logo" class="text-center pulse" />
             </div>
             <div class="col-5 col-lg-5 border-3">
                 <h2 class="text-left pl-3 slide-from-right">Football stadiums <br />across Europe</h2>
@@ -66,10 +55,7 @@
         </div>
         {@render children()}
         <footer></footer>
-        <div
-            class="row justify-content-center text-white"
-            style="background: #325bad; padding-top: 5px;"
-        >
+        <div class="row justify-content-center text-white" style="background: #325bad; padding-top: 5px;">
             <div class="col-12">
                 <!-- <nav class="text-center">
                     <a href="{base}/">Home</a> |
@@ -83,14 +69,10 @@
             </div>
             <div class="col-12 my-2">
                 <div class="text-center">
-                    <a
-                        href="mailto:info@eurostadium.net"
-                        class=""
-                        style="color: #ccc;">info@eurostadium.net</a
-                    >
+                    <a href="mailto:info@eurostadium.net" class="" style="color: #ccc;">info@eurostadium.net</a>
                     {#if isDev}
-                    <a href="/auth/login" style="color: #ccc;">Login</a> |
-                    <a href="/admin" style="color: #ccc;">Admin</a>
+                        <a href="/auth/login" style="color: #ccc;">Login</a> |
+                        <a href="/admin" style="color: #ccc;">Admin</a>
                     {/if}
                 </div>
             </div>
@@ -100,17 +82,14 @@
 
 <style>
     @font-face {
-        font-family: "Gelasio";
+        font-family: 'Gelasio';
         font-style: normal;
         font-weight: 400;
         src:
-            local("Gelasio Regular"),
-            local("Gelasio-Regular"),
-            url(https://fonts.gstatic.com/s/gelasio/v1/cIf9MaFfvUQxTTqS9C6hYQ.woff2)
-                format("woff2");
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
-            U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-            U+2212, U+2215, U+FEFF, U+FFFD;
+            local('Gelasio Regular'),
+            local('Gelasio-Regular'),
+            url(https://fonts.gstatic.com/s/gelasio/v1/cIf9MaFfvUQxTTqS9C6hYQ.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
     }
 
     /* h1 {
@@ -150,13 +129,13 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            background-image: url("/images/svg/background-stadiums-mobile-screen-min.svg");
+            background-image: url('/images/svg/background-stadiums-mobile-screen-min.svg');
         }
         footer {
             margin-top: auto;
             width: 100%;
             height: 200px;
-            background-image: url("/images/svg/footer-mobile-screen-min.svg");
+            background-image: url('/images/svg/footer-mobile-screen-min.svg');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
@@ -167,13 +146,13 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            background-image: url("/images/svg/background-stadiums-tablet-screen-min.svg");
+            background-image: url('/images/svg/background-stadiums-tablet-screen-min.svg');
         }
         footer {
             margin-top: auto;
             width: 100%;
             height: 200px;
-            background-image: url("/images/svg/footer-tablet-screen-min.svg");
+            background-image: url('/images/svg/footer-tablet-screen-min.svg');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
@@ -184,16 +163,42 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            background-image: url("/images/svg/background-stadiums-min.svg");
+            background-image: url('/images/svg/background-stadiums-min.svg');
         }
         footer {
             margin-top: auto;
             width: 100%;
             height: 200px;
-            background-image: url("/images/svg/footer-min.svg");
+            background-image: url('/images/svg/footer-min.svg');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
+        }
+    }
+
+    .pulse {
+        /* animation: pulse 2s infinite; */
+        animation: opacityAnimation 4s ease-in-out;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    @keyframes opacityAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
         }
     }
 </style>

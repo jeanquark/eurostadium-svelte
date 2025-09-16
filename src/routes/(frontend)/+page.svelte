@@ -50,7 +50,7 @@
         if (hasSmallScreen()) {
             isMobileDevice = true
         }
-        await sleep(3000)
+        // await sleep(3000)
         await loadComponent('Europe')
         showComponent = true
         if ($leagueStore.leagues.length < 2) {
