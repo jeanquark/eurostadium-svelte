@@ -6,7 +6,7 @@
 			"code": "BAL",
 			"country": "Wales",
 			"founded": 1880,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Bala_Town_F.C."
 		},
 		"venue": {
 			"api_football_id": 1669,
@@ -15,11 +15,11 @@
 			"city": "Bala, Gwynedd",
 			"capacity": 3004,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 52.912222,
+			"lng": -3.601389,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Maes_Tegid"
 		},
 		"league": {
 			"api_football_id": 110,
@@ -46,7 +46,7 @@
 			"code": "CAR",
 			"country": "Wales",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Cardiff_Metropolitan_University_F.C."
 		},
 		"venue": {
 			"api_football_id": 1686,
@@ -86,7 +86,7 @@
 			"code": "TNS",
 			"country": "Wales",
 			"founded": 1959,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/The_New_Saints_F.C."
 		},
 		"venue": {
 			"api_football_id": 1684,
@@ -95,11 +95,11 @@
 			"city": "Oswestry / Croesoswallt, Shropshire",
 			"capacity": 2000,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
+			"lat": 52.875869,
+			"lng": -3.026306,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Park_Hall_(Oswestry)"
 		},
 		"league": {
 			"api_football_id": 110,
@@ -126,7 +126,7 @@
 			"code": null,
 			"country": "Wales",
 			"founded": 2013,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Llanelli_Town_A.F.C."
 		},
 		"venue": {
 			"api_football_id": 1857,
@@ -135,11 +135,11 @@
 			"city": "Llanelli, Carmarthenshire",
 			"capacity": 3700,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 51.6839,
+			"lng": -4.1476,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Stebonheath_Park"
 		},
 		"league": {
 			"api_football_id": 110,
@@ -166,7 +166,7 @@
 			"code": null,
 			"country": "Wales",
 			"founded": 1876,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Caernarfon_Town_F.C."
 		},
 		"venue": {
 			"api_football_id": 1672,
@@ -175,11 +175,11 @@
 			"city": "Caernarfon, Gwynedd",
 			"capacity": 3500,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 53.134722,
+			"lng": -4.2675,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/The_Oval,_Caernarfon"
 		},
 		"league": {
 			"api_football_id": 110,
@@ -206,7 +206,7 @@
 			"code": "CON",
 			"country": "Wales",
 			"founded": 1946,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Connah%27s_Quay_Nomads_F.C."
 		},
 		"venue": {
 			"api_football_id": 4198,
@@ -215,11 +215,11 @@
 			"city": "Y Fflint / Flint, Flintshire",
 			"capacity": 1164,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 53.249167,
+			"lng": -3.125778,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Cae-y-Castell"
 		},
 		"league": {
 			"api_football_id": 110,
@@ -246,7 +246,7 @@
 			"code": "BAR",
 			"country": "Wales",
 			"founded": 1912,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Barry_Town_United_F.C."
 		},
 		"venue": {
 			"api_football_id": 1670,
@@ -255,11 +255,11 @@
 			"city": "Barry / Y Barri, Vale of Glamorgan",
 			"capacity": 3500,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 51.410833,
+			"lng": -3.265278,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Jenner_Park_Stadium"
 		},
 		"league": {
 			"api_football_id": 110,
@@ -286,7 +286,7 @@
 			"code": "PEN",
 			"country": "Wales",
 			"founded": 2013,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Penybont_F.C."
 		},
 		"venue": {
 			"api_football_id": 11921,
@@ -326,7 +326,7 @@
 			"code": "HAV",
 			"country": "Wales",
 			"founded": 1899,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Haverfordwest_County_A.F.C."
 		},
 		"venue": {
 			"api_football_id": 1678,
@@ -335,11 +335,11 @@
 			"city": "Hwlffordd / Haverfordwest, Pembrokeshie",
 			"capacity": 3500,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 51.809,
+			"lng": -4.967,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Bridge_Meadow_Stadium"
 		},
 		"league": {
 			"api_football_id": 110,
@@ -366,7 +366,7 @@
 			"code": null,
 			"country": "Wales",
 			"founded": 1926,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Briton_Ferry_Llansawel_A.F.C."
 		},
 		"venue": {
 			"api_football_id": 1671,
@@ -406,7 +406,7 @@
 			"code": "COL",
 			"country": "Wales",
 			"founded": 1881,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Colwyn_Bay_F.C."
 		},
 		"venue": {
 			"api_football_id": 19231,
@@ -415,11 +415,11 @@
 			"city": "Bae Colwyn, Conwy",
 			"capacity": 2500,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 53.2822,
+			"lng": -3.6997,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Llanelian_Road"
 		},
 		"league": {
 			"api_football_id": 110,
@@ -446,7 +446,7 @@
 			"code": null,
 			"country": "Wales",
 			"founded": 1886,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Flint_Town_United_F.C."
 		},
 		"venue": {
 			"api_football_id": 4198,
@@ -455,11 +455,11 @@
 			"city": "Y Fflint / Flint, Flintshire",
 			"capacity": 1164,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
+			"lat": 53.249167,
+			"lng": -3.125778,
 			"x": 0,
 			"y": 0,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Cae-y-Castell"
 		},
 		"league": {
 			"api_football_id": 110,
