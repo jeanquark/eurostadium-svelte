@@ -160,10 +160,9 @@
                     console.log("Inserted venue: ", insertedVenue);
                     addToast({
                         type: "success",
-                        message: `Stadium "${teamJSONData.venue.name}" was inserted successfully.`,
+                        message: `Stadium "${teamJSONData.venue.name}" was upserted successfully.`,
                     });
                 }
-                // }
             }
         } catch (error) {
             console.log("error: ", error);
@@ -219,7 +218,7 @@
                     console.log("Upserted team: ", upsertedData);
                     addToast({
                         type: "success",
-                        message: `Team "${teamJSONData.team.name}" was inserted successfully.`,
+                        message: `Team "${teamJSONData.team.name}" was upserted successfully.`,
                     });
                 }
             }
@@ -288,7 +287,7 @@
                 }
                 addToast({
                     type: "success",
-                    message: `${imagesCount} images for stadium "${teamsJSONFile[i].team?.name}" were inserted.`,
+                    message: `${imagesCount} images for stadium "${teamsJSONFile[i].team?.name}" were upserted successfully.`,
                 });
             }
         } catch (error) {

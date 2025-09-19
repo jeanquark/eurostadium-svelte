@@ -45,29 +45,6 @@
             <a href="{base}/admin/stadiums" class="">&larr; Back to Stadiums</a>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12">
-            <!-- <h2 class="text-center">{stadiumImages[0]?.stadium_name}</h2>
-            <h3 class="text-center">{stadiumImages[0]?.stadium_city}</h3>
-            <h4 class="text-center">{stadiumImages[0]?.stadium_capacity}</h4>
-            <p class="text-center"><a class="text-center" href="{stadiumImages[0]?.stadium_wiki}" target="_blank">wiki</a></p>
-            <p class="text-center">{stadiumImages[0]?.team_name}</p>
-            <p class="text-center">{stadiumImages[0]?.league_name}</p>
-            <p class="text-center">{stadiumImages[0]?.country_name}</p>
-            <p class="text-center">API Football ID: {stadiumImages[0]?.stadium_api_football_id}</p>
-            <p class="text-center">X: {stadiumImages[0]?.stadium_x}</p>
-            <p class="text-center">Y: {stadiumImages[0]?.stadium_y}</p> -->
-        </div>
-    </div>
-    <div class="row justify-start align-center">
-        <!-- {#each stadiumImages as image, index}
-        <div class="col-4 pa-3">
-            <img src="{image.image_url}" width="100%" alt="Stadium Image {index + 1}" class="img-fluid mb-3" />
-            <small><a href="{image.image_url}" target="_blank">View Image</a></small>
-            <small><a href="{image.image_src}" target="_blank">Source</a></small>
-        </div>
-        {/each} -->
-    </div>
 
     <div class="row">
         <div class="col-12">
@@ -78,6 +55,14 @@
         <div class="col-12">
             <table class="table table-striped">
                 <tbody>
+                    <tr>
+                        <th>ID</th>
+                        <td>{stadiumData?.id}</td>
+                    </tr>
+                    <tr>
+                        <th>API Football Venue ID</th>
+                        <td>{stadiumData?.api_football_venue_id}</td>
+                    </tr>
                     <tr>
                         <th>City</th>
                         <td>{stadiumData?.stadium_city}</td>

@@ -142,13 +142,13 @@
         "yTranslate": 0
     },
     "wales": {
-        "leftLongitude": -6.445734,
-        "topLatitude": 55.810708,
-        "rightLongitude": 1.761915,
-        "bottomLatitude": 49.164425,
-        "xMax": 745.616,
+        "leftLongitude": -5.351535,
+        "topLatitude": 53.430032,
+        "rightLongitude": -2.650676,
+        "bottomLatitude": 51.380342,
+        "xMax": 797.578,
         "yMax": 1000,
-        "xTranslate": 128.11111,
+        "xTranslate": 101.20313,
         "yTranslate": 0
     },
     "england_and_wales": {

@@ -859,16 +859,7 @@
 			"country": "Cyprus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "20303_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 15
 	},
 	{
@@ -899,16 +890,7 @@
 			"country": "Cyprus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "20190_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 16
 	},
 	{
@@ -939,16 +921,7 @@
 			"country": "Cyprus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "19790_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 17
 	},
 	{
@@ -979,16 +952,7 @@
 			"country": "Cyprus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "430_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 18
 	},
 	{
@@ -1019,16 +983,7 @@
 			"country": "Cyprus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "2219_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 19
 	},
 	{
@@ -1059,16 +1014,7 @@
 			"country": "Cyprus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "2223_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 20
 	},
 	{
@@ -1099,16 +1045,7 @@
 			"country": "Cyprus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "2224_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 21
 	},
 	{
@@ -1139,16 +1076,7 @@
 			"country": "Cyprus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "2227_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 22
 	},
 	{
@@ -1169,8 +1097,8 @@
 			"surface": "grass",
 			"lat": 34.690787,
 			"lng": 32.992671,
-			"x": 0,
-			"y": 0,
+			"x": 311,
+			"y": 732,
 			"wiki": ""
 		},
 		"league": {
@@ -1219,16 +1147,7 @@
 			"country": "Cyprus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "2213_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 24
 	},
 	{
@@ -1249,8 +1168,8 @@
 			"surface": "grass",
 			"lat": 35.113427,
 			"lng": 33.391055,
-			"x": 0,
-			"y": 0,
+			"x": 483,
+			"y": 511,
 			"wiki": ""
 		},
 		"league": {
@@ -1320,8 +1239,8 @@
 			"surface": "grass",
 			"lat": 35.132749,
 			"lng": 33.318033,
-			"x": 0,
-			"y": 0,
+			"x": 451,
+			"y": 500,
 			"wiki": ""
 		},
 		"league": {
@@ -1361,16 +1280,7 @@
 			"country": "Cyprus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "2213_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 28
 	},
 	{
@@ -1401,16 +1311,7 @@
 			"country": "Cyprus",
 			"api_football_country_id": 0
 		},
-		"images": [
-			{
-				"name": "2225_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 29
 	},
 	{
@@ -1511,16 +1412,7 @@
 			"wiki": "https://en.wikipedia.org/wiki/Ammochostos_Stadium"
 		},
 		"league": {},
-		"images": [
-			{
-				"name": "2226_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 32
 	},
 	{
@@ -1546,16 +1438,7 @@
 			"wiki": ""
 		},
 		"league": {},
-		"images": [
-			{
-				"name": "2238_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 33
 	},
 	{
@@ -1581,16 +1464,7 @@
 			"wiki": ""
 		},
 		"league": {},
-		"images": [
-			{
-				"name": "2215_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 34
 	},
 	{
@@ -1616,16 +1490,7 @@
 			"wiki": ""
 		},
 		"league": {},
-		"images": [
-			{
-				"name": "2231_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 35
 	},
 	{
@@ -1651,16 +1516,7 @@
 			"wiki": "https://en.wikipedia.org/wiki/Dasaki_Stadium"
 		},
 		"league": {},
-		"images": [
-			{
-				"name": "2222_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
-		],
+		"images": [],
 		"no": 36
 	}
 ]

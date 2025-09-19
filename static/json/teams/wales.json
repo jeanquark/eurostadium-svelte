@@ -17,8 +17,8 @@
 			"surface": "grass",
 			"lat": 52.912222,
 			"lng": -3.601389,
-			"x": 0,
-			"y": 0,
+			"x": 618,
+			"y": 257,
 			"wiki": "https://en.wikipedia.org/wiki/Maes_Tegid"
 		},
 		"league": {
@@ -28,15 +28,15 @@
 			"api_football_country_id": 0
 		},
 		"images": [
-            {
-                "name": "1669_001.jpg",
-                "source": "",
-                "owner": "",
-                "width": 0,
-                "height": 0,
-                "size": 0
-            }
-        ],
+			{
+				"name": "1669_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 1
 	},
 	{
@@ -55,10 +55,10 @@
 			"city": "Caerdydd",
 			"capacity": 1500,
 			"surface": "artificial turf",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"lat": 51.511832,
+			"lng": -3.159745,
+			"x": 748,
+			"y": 937,
 			"wiki": ""
 		},
 		"league": {
@@ -68,15 +68,15 @@
 			"api_football_country_id": 0
 		},
 		"images": [
-            {
-                "name": "1686_001.jpg",
-                "source": "",
-                "owner": "",
-                "width": 0,
-                "height": 0,
-                "size": 0
-            }
-        ],
+			{
+				"name": "1686_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 2
 	},
 	{
@@ -97,8 +97,8 @@
 			"surface": "artificial turf",
 			"lat": 52.875869,
 			"lng": -3.026306,
-			"x": 0,
-			"y": 0,
+			"x": 788,
+			"y": 275,
 			"wiki": "https://en.wikipedia.org/wiki/Park_Hall_(Oswestry)"
 		},
 		"league": {
@@ -108,15 +108,15 @@
 			"api_football_country_id": 0
 		},
 		"images": [
-            {
-                "name": "1684_001.jpg",
-                "source": "",
-                "owner": "",
-                "width": 0,
-                "height": 0,
-                "size": 0
-            }
-        ],
+			{
+				"name": "1684_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 3
 	},
 	{
@@ -137,8 +137,8 @@
 			"surface": "grass",
 			"lat": 51.6839,
 			"lng": -4.1476,
-			"x": 0,
-			"y": 0,
+			"x": 457,
+			"y": 855,
 			"wiki": "https://en.wikipedia.org/wiki/Stebonheath_Park"
 		},
 		"league": {
@@ -148,15 +148,15 @@
 			"api_football_country_id": 0
 		},
 		"images": [
-            {
-                "name": "1857_001.jpg",
-                "source": "",
-                "owner": "",
-                "width": 0,
-                "height": 0,
-                "size": 0
-            }
-        ],
+			{
+				"name": "1857_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 4
 	},
 	{
@@ -177,8 +177,8 @@
 			"surface": "grass",
 			"lat": 53.134722,
 			"lng": -4.2675,
-			"x": 0,
-			"y": 0,
+			"x": 421,
+			"y": 147,
 			"wiki": "https://en.wikipedia.org/wiki/The_Oval,_Caernarfon"
 		},
 		"league": {
@@ -188,15 +188,15 @@
 			"api_football_country_id": 0
 		},
 		"images": [
-            {
-                "name": "1672_001.jpg",
-                "source": "",
-                "owner": "",
-                "width": 0,
-                "height": 0,
-                "size": 0
-            }
-        ],
+			{
+				"name": "1672_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 5
 	},
 	{
@@ -217,8 +217,8 @@
 			"surface": "grass",
 			"lat": 53.249167,
 			"lng": -3.125778,
-			"x": 0,
-			"y": 0,
+			"x": 758,
+			"y": 90,
 			"wiki": "https://en.wikipedia.org/wiki/Cae-y-Castell"
 		},
 		"league": {
@@ -228,15 +228,15 @@
 			"api_football_country_id": 0
 		},
 		"images": [
-            {
-                "name": "4198_001.jpg",
-                "source": "",
-                "owner": "",
-                "width": 0,
-                "height": 0,
-                "size": 0
-            }
-        ],
+			{
+				"name": "4198_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 6
 	},
 	{
@@ -257,8 +257,8 @@
 			"surface": "grass",
 			"lat": 51.410833,
 			"lng": -3.265278,
-			"x": 0,
-			"y": 0,
+			"x": 717,
+			"y": 985,
 			"wiki": "https://en.wikipedia.org/wiki/Jenner_Park_Stadium"
 		},
 		"league": {
@@ -268,15 +268,15 @@
 			"api_football_country_id": 0
 		},
 		"images": [
-            {
-                "name": "1670_001.jpg",
-                "source": "",
-                "owner": "",
-                "width": 0,
-                "height": 0,
-                "size": 0
-            }
-        ],
+			{
+				"name": "1670_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 7
 	},
 	{
@@ -295,10 +295,10 @@
 			"city": "Bridgend, Bridgend County Borough",
 			"capacity": 1200,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"lat": 51.511975,
+			"lng": -3.608947,
+			"x": 616,
+			"y": 937,
 			"wiki": ""
 		},
 		"league": {
@@ -308,15 +308,15 @@
 			"api_football_country_id": 0
 		},
 		"images": [
-            {
-                "name": "11921_001.jpg",
-                "source": "",
-                "owner": "",
-                "width": 0,
-                "height": 0,
-                "size": 0
-            }
-        ],
+			{
+				"name": "11921_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 8
 	},
 	{
@@ -337,8 +337,8 @@
 			"surface": "grass",
 			"lat": 51.809,
 			"lng": -4.967,
-			"x": 0,
-			"y": 0,
+			"x": 215,
+			"y": 795,
 			"wiki": "https://en.wikipedia.org/wiki/Bridge_Meadow_Stadium"
 		},
 		"league": {
@@ -348,15 +348,15 @@
 			"api_football_country_id": 0
 		},
 		"images": [
-            {
-                "name": "1678_001.jpg",
-                "source": "",
-                "owner": "",
-                "width": 0,
-                "height": 0,
-                "size": 0
-            }
-        ],
+			{
+				"name": "1678_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 9
 	},
 	{
@@ -375,10 +375,10 @@
 			"city": "Briton Ferry",
 			"capacity": 2000,
 			"surface": "grass",
-			"lat": 0,
-			"lng": 0,
-			"x": 0,
-			"y": 0,
+			"lat": 51.642173,
+			"lng": -3.813634,
+			"x": 555,
+			"y": 875,
 			"wiki": ""
 		},
 		"league": {
@@ -388,15 +388,15 @@
 			"api_football_country_id": 0
 		},
 		"images": [
-            {
-                "name": "1671_001.jpg",
-                "source": "",
-                "owner": "",
-                "width": 0,
-                "height": 0,
-                "size": 0
-            }
-        ],
+			{
+				"name": "1671_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 10
 	},
 	{
@@ -417,8 +417,8 @@
 			"surface": "grass",
 			"lat": 53.2822,
 			"lng": -3.6997,
-			"x": 0,
-			"y": 0,
+			"x": 589,
+			"y": 74,
 			"wiki": "https://en.wikipedia.org/wiki/Llanelian_Road"
 		},
 		"league": {
@@ -428,15 +428,15 @@
 			"api_football_country_id": 0
 		},
 		"images": [
-            {
-                "name": "19231_001.jpg",
-                "source": "",
-                "owner": "",
-                "width": 0,
-                "height": 0,
-                "size": 0
-            }
-        ],
+			{
+				"name": "19231_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 11
 	},
 	{
@@ -457,8 +457,8 @@
 			"surface": "grass",
 			"lat": 53.249167,
 			"lng": -3.125778,
-			"x": 0,
-			"y": 0,
+			"x": 758,
+			"y": 90,
 			"wiki": "https://en.wikipedia.org/wiki/Cae-y-Castell"
 		},
 		"league": {
@@ -468,15 +468,15 @@
 			"api_football_country_id": 0
 		},
 		"images": [
-            {
-                "name": "4198_001.jpg",
-                "source": "",
-                "owner": "",
-                "width": 0,
-                "height": 0,
-                "size": 0
-            }
-        ],
+			{
+				"name": "4198_001.jpg",
+				"source": "",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 12
 	}
 ]

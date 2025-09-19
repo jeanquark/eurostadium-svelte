@@ -958,7 +958,7 @@
 		"images": [
 			{
 				"name": "2731_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/6/64/Karditsa_Stadium.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -966,7 +966,7 @@
 			},
 			{
 				"name": "2731_002.jpg",
-				"source": "",
+				"source": "https://www.mikriliga.com/wp-content/uploads/2022/09/xlootapitas-Stadio-Karditsas.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -974,7 +974,7 @@
 			},
 			{
 				"name": "2731_003.jpg",
-				"source": "",
+				"source": "https://neosagon.gr/wp-content/uploads/2022/05/Stadio-piso-dio.jpeg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -982,7 +982,7 @@
 			},
 			{
 				"name": "2731_004.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Municipal_Stadium_of_Karditsa_%28aerial%29.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1630,31 +1630,7 @@
 		"images": [
 			{
 				"name": "20350_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20350_002.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20350_003.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			},
-			{
-				"name": "20350_004.jpg",
-				"source": "",
+				"source": "https://www.iefimerida.gr/sites/default/files/styles/medium_article_image/public/2019-11/olympiacos-proponitiko-kentro-renti-21-11-2019.jpg?itok=vo0CrVgC",
 				"owner": "",
 				"width": 0,
 				"height": 0,
