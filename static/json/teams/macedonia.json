@@ -750,7 +750,7 @@
 		"images": [
 			{
 				"name": "3314_001.jpg",
-				"source": "",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/f/f0/%D0%93%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B8_%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_%D0%A8%D1%82%D0%B8%D0%BF_07.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
@@ -1090,14 +1090,6 @@
 			"api_football_country_id": 0
 		},
 		"images": [
-			{
-				"name": "3321_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
 		],
 		"no": 25
 	},
@@ -1227,14 +1219,6 @@
 		},
 		"league": {},
 		"images": [
-			{
-				"name": "3316_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
 		],
 		"no": 29
 	},
@@ -1297,14 +1281,6 @@
 		},
 		"league": {},
 		"images": [
-			{
-				"name": "4658_001.jpg",
-				"source": "",
-				"owner": "",
-				"width": 0,
-				"height": 0,
-				"size": 0
-			}
 		],
 		"no": 31
 	},

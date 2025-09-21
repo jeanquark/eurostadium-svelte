@@ -411,7 +411,16 @@
 			"country": "Kazakhstan",
 			"api_football_country_id": 0
 		},
-		"images": [],
+		"images": [
+			{
+				"name": "3451_001.jpg",
+				"source": "https://avatars.mds.yandex.net/get-altay/13929277/2a00000191bc6435ad24a57e4e2ac318282f/XL",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			}
+		],
 		"no": 10
 	},
 	{

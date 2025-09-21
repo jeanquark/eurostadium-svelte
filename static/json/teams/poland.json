@@ -1563,7 +1563,7 @@
 			"lng": 19.919722,
 			"x": 578,
 			"y": 809,
-			"wiki": "https://en.wikipedia.org/wiki/J%C3%B3zef_Pi%C5%82sudski_Cracovia_Stadium"
+			"wiki": "https://pl.wikipedia.org/wiki/Stadion_Miejski_w_Niepo%C5%82omicach"
 		},
 		"league": {
 			"api_football_id": 107,
@@ -1573,40 +1573,48 @@
 		},
 		"images": [
 			{
-				"name": "1247_001.jpg",
-				"source": "https://stadiony.net/pictures/stadiums/pol/stadion_cracovii/stadion_cracovii30.jpg",
+				"name": "22308_001.jpg",
+				"source": "https://www.puszcza-niepolomice.pl/wp-content/uploads/2018/04/puszcza-swiatlo-banner.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1247_002.jpg",
-				"source": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Stade_J%C3%B3zef_Pi%C5%82sudski.jpg",
+				"name": "22308_002.jpg",
+				"source": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Stadion_Miejski_Niepo%C5%82omice_May_2017.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1247_003.jpg",
-				"source": "https://cdn.galleries.smcloud.net/t/galleries/gf-5ZXf-QY25-8H7q_stadion-cracovii-cracovia-1248x1040.jpg",
+				"name": "22308_003.jpg",
+				"source": "https://stadiony.net/pictures/stadiums/pol/stadion_puszczy_niepolomice/stadion_puszczy_niepolomice06.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1247_004.jpg",
-				"source": "https://stadiony.net/img/news/2024/04/52Kra03.jpg",
+				"name": "22308_004.jpg",
+				"source": "https://stadiony.net/pictures/stadiums/pol/stadion_puszczy_niepolomice/stadion_puszczy_niepolomice02.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
 				"size": 0
 			},
 			{
-				"name": "1247_005.jpg",
-				"source": "https://pbs.twimg.com/media/GVG-gyoXUAA-jdb.jpg",
+				"name": "22308_005.jpg",
+				"source": "https://estadiosdb.com/pictures/stadiums/pol/stadion_puszczy_niepolomice/stadion_puszczy_niepolomice10.jpg",
+				"owner": "",
+				"width": 0,
+				"height": 0,
+				"size": 0
+			},
+			{
+				"name": "22308_006.jpg",
+				"source": "https://d-art.ppstatic.pl/kadry/k/r/1/40/96/67bd8c8d01748_o_full.jpg",
 				"owner": "",
 				"width": 0,
 				"height": 0,
