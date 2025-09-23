@@ -96,6 +96,31 @@ function createLeagueStore() {
             }
             update((state) => ({ ...state, leaguesByCountryId: [...array] }))
         },
+
+        async fetchLeaguesByName(searchTerm, page = 1, pageSize = 10) {
+            const from = (page - 1) * pageSize
+            const to = from + pageSize - 1
+
+            const { data, error, count } = await supabase
+                .from("leagues")
+                .select("*", { count: 'exact' })
+                .ilike("name", `%${searchTerm}%`)
+                .order("name")
+                .range(from, to);
+
+            if (error) {
+                console.error("Error fetching data:", error);
+                return [];
+            }
+            update((state) => ({
+                ...state, paginatedLeagues: {
+                    data,
+                    totalCount: count,
+                    currentPage: page,
+                    totalPages: Math.ceil(count / pageSize)
+                }
+            }))
+        },
         
         setLeague: (league) => {
             console.log('[Store] setLeague()')

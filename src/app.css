@@ -12,6 +12,7 @@
 	--color-bg-2: hsl(224, 44%, 95%);
 	--color-theme-1: #325bad;
 	--color-theme-2: #4075a6;
+	--color-theme-1-accent: #284887;
 	--color-text: rgba(0, 0, 0, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
@@ -21,7 +22,7 @@
 }
 
 * {
-    font-family: 'Fira Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-family: 'Fira Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
 body {
@@ -30,12 +31,10 @@ body {
 	background-attachment: fixed;
 	background-color: var(--color-bg-1);
 	background-size: 100vw 100vh;
-	background-image: radial-gradient(
-		50% 50% at 50% 50%,
-		rgba(255, 255, 255, 0.75) 0%,
-		rgba(255, 255, 255, 0) 100%
-	),
-	linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
+	background-image: radial-gradient(50% 50% at 50% 50%,
+			rgba(255, 255, 255, 0.75) 0%,
+			rgba(255, 255, 255, 0) 100%),
+		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
 }
 
 a {
@@ -45,6 +44,40 @@ a {
 
 a:hover {
 	text-decoration: underline;
+	cursor: pointer;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: var(--color-theme-1);
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: var(--color-theme-2);
+}
+
+.primary-button {
+	/* background: #1a2a6c; */
+	background: var(--color-theme-1);
+	color: white;
+	border: none;
+	border-radius: 8px;
+	padding: 15px 20px;
+	cursor: pointer;
+	font-weight: 600;
+	transition: all 0.3s;
+}
+
+.primary-button:hover {
+	/* background: #2a3a9c; */
+	text-decoration: none;
+	background: var(--color-theme-1-accent);
+	transform: translateY(-2px);
 }
 
 /* h1,

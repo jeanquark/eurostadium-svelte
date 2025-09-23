@@ -10,9 +10,9 @@
 
     onMount(async () => {
         try {
-            if ($countryStore.countries.length < 2) {
-                await countryStore.fetchCountries();
-            }
+            // if ($countryStore.countries.length < 2) {
+            //     await countryStore.fetchCountries();
+            // }
             await countryStore.fetchPaginatedCountries();
         } catch (error) {
             console.log("error: ", error);
@@ -32,14 +32,24 @@
             sortBy = column;
             sortOrder = "asc";
         }
-		await countryStore.fetchPaginatedCountries(currentPage, itemsPerPage, sortBy, sortOrder);
-    }
+        await countryStore.fetchPaginatedCountries(
+            currentPage,
+            itemsPerPage,
+            sortBy,
+            sortOrder
+        );
+    };
 
     const onPageChange = async (page) => {
         console.log("onPageChange page: ", page);
         currentPage = page;
         // update your table data here
-        await countryStore.fetchPaginatedCountries(page, itemsPerPage, sortBy, sortOrder);
+        await countryStore.fetchPaginatedCountries(
+            page,
+            itemsPerPage,
+            sortBy,
+            sortOrder
+        );
     };
 
     const onSearch = async (searchTerm) => {
@@ -50,12 +60,12 @@
 
 <svelte:head>
     <title>Countries</title>
-    <meta name="description" content="Countries" />
+    <meta name="description" content="Display countries" />
 </svelte:head>
 
 <div class="row">
-    <div class="col-12 text-center">
-        countryStore.countries.length: {$countryStore.countries.length}<br />
+    <div class="col-12 text-center my-5">
+        <!-- countryStore.countries.length: {$countryStore.countries.length}<br />
         countryStore.paginatedCountries.data.length: {$countryStore
             .paginatedCountries?.data?.length}<br />
         countryStore.paginatedCountries.totalCount: {$countryStore
@@ -69,18 +79,19 @@
         <br />
         <a href="{base}/teams">Teams</a>
         <br />
-        <br />
+        <br /> -->
+        <a href="{base}/" class="primary-button">Home page</a>
     </div>
 </div>
 <div class="row justify-center" style="">
     <div class="col-8" style="">
+        <h2 class="text-center">Countries</h2>
         <div class="responsive-table-container" style="">
-            <Search {onSearch} />
+            <Search {onSearch} searchTable="country" />
             <table class="full-data-table" style="">
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>ID</th>
                         <th>
                             Name
                             <button
@@ -98,31 +109,44 @@
                         </th>
                         <th>Flag</th>
                         <th>UEFA ranking</th>
-                        <th>Wiki</th>
                         <th>First league</th>
                         <th>Second league</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {#each $countryStore.paginatedCountries.data as country, index}
+                    {#if $countryStore.paginatedCountries?.data.length < 1}
                         <tr>
-                            <td>{index + 1}</td>
-                            <td>{country.id}</td>
-                            <td>{country.name}</td>
-                            <td>
-                                <img
-                                    src="/images/flags/{country.image}"
-                                    alt={country.name}
-                                    height="30"
-                                    class="px-1"
-                                /></td
+                            <td colspan="6" style="text-align: center;"
+                                >No data</td
                             >
-                            <td>{country.uefa_ranking}</td>
-                            <td>{country.wiki}</td>
-                            <td>{country.leagues[0]?.name}</td>
-                            <td>{country.leagues[1]?.name}</td>
                         </tr>
-                    {/each}
+                    {:else}
+                        {#each $countryStore.paginatedCountries.data as country, index}
+                            <tr>
+                                <td>{index + 1}</td>
+                                <td>{country.name}</td>
+                                <td>
+                                    <img
+                                        src="/images/flags/{country.image}"
+                                        alt={country.name}
+                                        height="30"
+                                        class="px-1"
+                                    /></td
+                                >
+                                <td>{country.uefa_ranking}</td>
+                                <td
+                                    ><a href="/leagues?id={country.leagues[0]?.id}"
+                                        >{country.leagues[0]?.name}</a
+                                    ></td
+                                >
+                                <td
+                                    ><a href="/leagues?id={country.leagues[1]?.id}"
+                                        >{country.leagues[1]?.name}</a
+                                    ></td
+                                >
+                            </tr>
+                        {/each}
+                    {/if}
                 </tbody>
             </table>
             <Pagination {totalPages} {currentPage} {onPageChange} />
@@ -134,3 +158,14 @@
     <div class="col-4">col-4</div>
     <div class="col-4">col-4</div>
 </div>
+
+<style scoped>
+    .sort-icon {
+        border: none;
+        box-sizing: border-box;
+        background: none;
+    }
+    .sort-icon:hover {
+        cursor: pointer;
+    }
+</style>

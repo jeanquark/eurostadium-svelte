@@ -45,7 +45,8 @@
     }
 
     .active {
-        background-color: #325bad;
+        /* background-color: #325bad; */
+        background-color: var(--color-theme-1);
         color: #fff;
     }
 </style>

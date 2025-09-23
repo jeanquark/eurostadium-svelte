@@ -31,7 +31,7 @@ function createTeamStore() {
 
             const { data, error, count } = await supabase
                 .from('teams')
-                .select('*)', { count: 'exact' })
+                .select('*, stadium:stadiums (id, name), league:leagues(id, name)', { count: 'exact' })
                 // .order('id', { ascending: true })
                 .order(sortBy, { ascending: sortOrder === 'asc' })
                 .range(from, to)

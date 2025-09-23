@@ -104,12 +104,12 @@
 </svelte:head>
 
 <div class="row">
-    <div class="col-12 text-center">
-        stadiumStore.stadiums.length: {$stadiumStore.stadiums.length}<br />
+    <div class="col-12 text-center my-5">
+        <!-- stadiumStore.stadiums.length: {$stadiumStore.stadiums.length}<br />
         stadiumStore.paginatedStadiums.data.length: {$stadiumStore.paginatedStadiums?.data?.length}<br />
         stadiumStore.paginatedStadiums.totalCount: {$stadiumStore.paginatedStadiums?.totalCount}<br />
-        <!-- $stadiumStore.paginatedStadiums?.totalPages: {$stadiumStore.paginatedStadiums?.totalPages}<br /> -->
-        selectedCountry.name: {selectedCountry?.name}<br />
+        $stadiumStore.paginatedStadiums?.totalPages: {$stadiumStore.paginatedStadiums?.totalPages}<br /> -->
+        <!-- selectedCountry.name: {selectedCountry?.name}<br />
         sortOrder: {sortOrder}<br />
         countryStore.countries.length: {$countryStore.countries.length}<br />
         total pages: {$stadiumStore.paginatedStadiums.totalPages}<br />
@@ -122,8 +122,9 @@
         <br />
         <a href="{base}/teams">Teams</a>
         <br />
-        <br />
-        <a href="{base}/" class="button my-2">&larr; Home page</a>
+        <br /> -->
+        <!-- <a href="{base}/" class="button my-2">&larr; Home page</a> -->
+        <a href="{base}/" class="primary-button">Home page</a>
     </div>
 </div>
 
@@ -207,7 +208,7 @@
                             <!-- <td>{stadium.id}</td> -->
                             <td>
                                 <a href={stadium.stadium_wiki} target="_blank">
-                                    {stadium.stadium_name}
+                                    {stadium.stadium_name}&nbsp;<img src="{base}/images/icons/external-link.svg" width="10" alt="External link" />
                                 </a>
                             </td>
                             <td>{stadium.stadium_city}</td>
@@ -318,16 +319,5 @@
         opacity: 1;
     }
 
-    .button {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: var(--color-theme-1);
-        color: #fff;
-        text-decoration: none;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-    .button:hover {
-        background-color: var(--color-theme-2);
-    }
+    
 </style>

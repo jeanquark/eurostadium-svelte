@@ -178,7 +178,7 @@
     </div>
     <div class="col-sm-6 col-md-3 text-center">
         <div class="box mx-2" onmouseover={() => (iconColor.team = '#fff')} onmouseleave={() => (iconColor.team = '#000')} onfocus={() => (iconColor.team = '#fff')} onblur={() => (iconColor.team = '#000')} role="button" tabindex="0">
-            <a href="/countries">
+            <a href="/teams">
                 <span style="display: flex; justify-content: center;">
                     <Team color={iconColor.team} />
                 </span>

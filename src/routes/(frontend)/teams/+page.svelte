@@ -7,13 +7,13 @@
     import Search from "@components/Search.svelte";
     import SortAsc from "@components/icons/SortAsc.svelte";
     import SortDesc from "@components/icons/SortDesc.svelte";
-	import slugify from "@lib/utils/slugify";
+    import slugify from "@lib/utils/slugify";
 
     onMount(async () => {
         try {
-            if ($teamStore.teams.length < 2) {
+            // if ($teamStore.teams.length < 2) {
                 // await teamStore.fetchTeams();
-            }
+            // }
             await teamStore.fetchPaginatedTeams();
         } catch (error) {
             console.log("error: ", error);
@@ -33,14 +33,24 @@
             sortBy = column;
             sortOrder = "asc";
         }
-		await teamStore.fetchPaginatedteams(currentPage, itemsPerPage, sortBy, sortOrder);
-    }
+        await teamStore.fetchPaginatedteams(
+            currentPage,
+            itemsPerPage,
+            sortBy,
+            sortOrder
+        );
+    };
 
     const onPageChange = async (page) => {
         console.log("onPageChange page: ", page);
         currentPage = page;
         // update your table data here
-        await teamStore.fetchPaginatedteams(page, itemsPerPage, sortBy, sortOrder);
+        await teamStore.fetchPaginatedteams(
+            page,
+            itemsPerPage,
+            sortBy,
+            sortOrder
+        );
     };
 
     const onSearch = async (searchTerm) => {
@@ -50,18 +60,18 @@
 </script>
 
 <svelte:head>
-    <title>teams</title>
-    <meta name="description" content="Countries" />
+    <title>Teams</title>
+    <meta name="description" content="Display teams" />
 </svelte:head>
 
 <div class="row">
-    <div class="col-12 text-center">
-        teamStore.teams.length: {$teamStore.teams.length}<br />
-        teamStore.paginatedTeams.data.length: {$teamStore
-            .paginatedTeams?.data?.length}<br />
-        teamStore.paginatedTeams.totalCount: {$teamStore
-            .paginatedTeams?.totalCount}<br />
-			sortOrder: {sortOrder}<br />
+    <div class="col-12 text-center my-5">
+        <!-- teamStore.teams.length: {$teamStore.teams.length}<br />
+        teamStore.paginatedTeams.data.length: {$teamStore.paginatedTeams?.data
+            ?.length}<br />
+        teamStore.paginatedTeams.totalCount: {$teamStore.paginatedTeams
+            ?.totalCount}<br />
+        sortOrder: {sortOrder}<br />
         <h2 class="text-center">Teams page</h2>
         <br />
         <a href="{base}/">Home page</a>
@@ -69,18 +79,19 @@
         <a href="{base}/countries">Countries</a>
         <br />
         <a href="{base}/stadiums">Stadiums</a>
-        <br />
+        <br /> -->
+        <a href="{base}/" class="primary-button">Home page</a>
     </div>
 </div>
 <div class="row justify-center" style="">
     <div class="col-8" style="">
+        <h2 class="text-center">Teams</h2>
         <div class="responsive-table-container" style="">
-            <Search {onSearch} />
+            <Search {onSearch} searchTable="team" />
             <table class="full-data-table" style="">
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>ID</th>
                         <th>
                             Name
                             <button
@@ -97,24 +108,27 @@
                             </button>
                         </th>
                         <th>Image</th>
-                        <th>Wiki</th>
+                        <th>League</th>
+                        <th>Stadium</th>
                     </tr>
                 </thead>
                 <tbody>
                     {#each $teamStore.paginatedTeams?.data as team, index}
                         <tr>
                             <td>{index + 1}</td>
-                            <td>{team.id}</td>
-                            <td>{team.name}</td>
+                            <td><a href={team.wiki} target="_blank">{team.name}</a>&nbsp;<img src="{base}/images/icons/external-link.svg" width="10" alt="External link" />
+                            </td>
                             <td>
                                 <img
-                                    src="{team.image}"
+                                    src={team.image}
                                     alt={team.name}
                                     height="30"
                                     class="px-1"
                                 /></td
                             >
-                            <td>{team.wiki}</td>
+                            <td>{team.league?.name}</td>
+                            <td>
+                                <a href="/stadiums?country={team.stadium?.id}">{team.stadium?.name}</a></td>
                         </tr>
                     {/each}
                 </tbody>
@@ -128,3 +142,14 @@
     <div class="col-4">col-4</div>
     <div class="col-4">col-4</div>
 </div>
+
+<style scoped>
+    .sort-icon {
+        border: none;
+        box-sizing: border-box;
+        background: none;
+    }
+    .sort-icon:hover {
+        cursor: pointer;
+    }
+</style>

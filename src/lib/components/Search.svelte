@@ -1,5 +1,6 @@
 <script>
     export let onSearch;
+    export let searchTable;
 
     let text = "";
 
@@ -37,13 +38,13 @@
         <input
             type="text"
             id="searchInput"
-            placeholder="Start typing a country name (e.g., 'bani' for Albania)"
+            placeholder="Start typing a {searchTable} name"
             autocomplete="off"
             on:input={handleInput}
         />
-        <button id="clearButton" on:click={() => handleSearch()}>Clear</button>
+        <button id="clearButton" class="primary-button" on:click={() => handleSearch()}>Clear</button>
     </div>
-    <p>Current input: {text}</p>
+    <!-- <p>Current input: {text}</p> -->
 </div>
 
 <style scoped>
@@ -67,23 +68,9 @@
 
     input:focus {
         outline: none;
-        border-color: #1a2a6c;
+        border-color: var(--color-theme-1);
         box-shadow: 0 0 0 3px rgba(26, 42, 108, 0.2);
     }
 
-    button {
-        background: #1a2a6c;
-        color: white;
-        border: none;
-        border-radius: 8px;
-        padding: 0 20px;
-        cursor: pointer;
-        font-weight: 600;
-        transition: all 0.3s;
-    }
-
-    button:hover {
-        background: #2a3a9c;
-        transform: translateY(-2px);
-    }
+    /*  */
 </style>

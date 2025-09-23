@@ -38,7 +38,7 @@ function createCountryStore() {
 
             const { data, error, count } = await supabase
                 .from('countries')
-                .select('*, leagues (id, name)', { count: 'exact' })
+                .select('*, leagues (id, name, wiki)', { count: 'exact' })
                 // .order('id', { ascending: true })
                 .order(sortBy, { ascending: sortOrder === 'asc' })
                 .range(from, to)
