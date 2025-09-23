@@ -1,5 +1,5 @@
 import { writable } from 'svelte/store'
-import { supabase } from "@lib/supabase/supabaseClient";
+import { supabase } from '@lib/supabase/supabaseClient'
 
 const state = {
     league: null,
@@ -9,7 +9,7 @@ const state = {
         data: [],
         totalCount: 0,
         currentPage: 1,
-        totalPages: 0
+        totalPages: 0,
     },
 }
 
@@ -18,7 +18,7 @@ function createLeagueStore() {
 
     const methods = {
         async fetchLeagues() {
-            console.log('[Store] fetchLeagues');
+            console.log('[Store] fetchLeagues')
 
             // 1) Fetch from Firestore
             // const querySnapshot = await getDocs(collection(db, 'leagues'))
@@ -30,9 +30,9 @@ function createLeagueStore() {
             // this.leagues = array
 
             // 2) Or fetch from supabase
-            const { data, error } = await supabase.from("leagues").select(`id, api_football_id, name, slug, image`);
+            const { data, error } = await supabase.from('leagues').select(`id, api_football_id, name, slug, image`)
             if (error) {
-                console.log('error: ', error);
+                console.log('error: ', error)
                 throw error
             }
             // console.log("data2: ", data);
@@ -54,7 +54,7 @@ function createLeagueStore() {
             // this.leagues = array
         },
 
-        async fetchPaginatedLeagues(page = 1, pageSize = 10, sortBy = 'country(uefa_ranking)', sortOrder = 'asc') {
+        async fetchPaginatedLeagues(page = 1, pageSize = 10, sortBy = 'country(uefa_ranking), national_level', sortOrder = 'asc') {
             console.log('[Store] fetchPaginatedLeagues()', page, pageSize, sortBy, sortOrder)
             // const { data, error } = await supabase.from("countries").select(`id, name, image`);
             const from = (page - 1) * pageSize
@@ -62,32 +62,30 @@ function createLeagueStore() {
 
             const { data, error, count } = await supabase
                 .from('leagues')
-                .select('*, country:countries (id, name, uefa_ranking)', { count: 'exact' })
+                .select('*, country:countries (id, name, uefa_ranking), teams(count)', { count: 'exact' })
                 .order(sortBy, { ascending: sortOrder === 'asc' })
                 .range(from, to)
-            console.log("[Store] fetchPaginatedLeagues() data: ", data);
+            console.log('[Store] fetchPaginatedLeagues() data: ', data)
             if (error) {
-                console.log('error: ', error);
+                console.log('error: ', error)
             }
 
             update((state) => ({
-                ...state, paginatedLeagues: {
+                ...state,
+                paginatedLeagues: {
                     data,
                     totalCount: count,
                     currentPage: page,
-                    totalPages: Math.ceil(count / pageSize)
-                }
+                    totalPages: Math.ceil(count / pageSize),
+                },
             }))
         },
 
-        async fetchLeaguesByCountryId (countryId) {
-            console.log('[Store] fetchLeaguesByCountry()');
-            const { data, error } = await supabase
-                .from("leagues")
-                .select(`id, api_football_id, name, slug, image`)
-                .eq('country_id', countryId);
+        async fetchLeaguesByCountryId(countryId) {
+            console.log('[Store] fetchLeaguesByCountry()')
+            const { data, error } = await supabase.from('leagues').select(`id, api_football_id, name, slug, image`).eq('country_id', countryId)
             if (error) {
-                console.log('error: ', error);
+                console.log('error: ', error)
                 throw error
             }
             const array = []
@@ -98,34 +96,53 @@ function createLeagueStore() {
         },
 
         async fetchLeaguesByName(searchTerm, page = 1, pageSize = 10) {
+            console.log('[Store] fetchLeaguesByName()')
             const from = (page - 1) * pageSize
             const to = from + pageSize - 1
 
-            const { data, error, count } = await supabase
-                .from("leagues")
-                .select("*", { count: 'exact' })
-                .ilike("name", `%${searchTerm}%`)
-                .order("name")
-                .range(from, to);
+            const { data, error, count } = await supabase.from('leagues').select('*, country:countries (id, name, uefa_ranking), teams(count)', { count: 'exact' }).ilike('name', `%${searchTerm}%`).order('name').range(from, to)
+            console.log('[Store] data: ', data)
 
             if (error) {
-                console.error("Error fetching data:", error);
-                return [];
+                console.error('Error fetching data:', error)
+                return []
             }
             update((state) => ({
-                ...state, paginatedLeagues: {
+                ...state,
+                paginatedLeagues: {
                     data,
                     totalCount: count,
                     currentPage: page,
-                    totalPages: Math.ceil(count / pageSize)
-                }
+                    totalPages: Math.ceil(count / pageSize),
+                },
             }))
         },
-        
+
+        // async fetchLeaguesByName(searchTerm, page = 1, pageSize = 10) {
+        //     const from = (page - 1) * pageSize
+        //     const to = from + pageSize - 1
+
+        //     const { data, error, count } = await supabase.from('leagues').select('*', { count: 'exact' }).ilike('name', `%${searchTerm}%`).order('name').range(from, to)
+
+        //     if (error) {
+        //         console.error('Error fetching data:', error)
+        //         return []
+        //     }
+        //     update((state) => ({
+        //         ...state,
+        //         paginatedLeagues: {
+        //             data,
+        //             totalCount: count,
+        //             currentPage: page,
+        //             totalPages: Math.ceil(count / pageSize),
+        //         },
+        //     }))
+        // },
+
         setLeague: (league) => {
             console.log('[Store] setLeague()')
             update((state) => ({ ...state, league: league }))
-        }
+        },
     }
 
     return {

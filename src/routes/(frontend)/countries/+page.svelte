@@ -135,12 +135,12 @@
                                 >
                                 <td>{country.uefa_ranking}</td>
                                 <td
-                                    ><a href="/leagues?id={country.leagues[0]?.id}"
+                                    ><a href="/leagues?name={country.leagues[0]?.name}"
                                         >{country.leagues[0]?.name}</a
                                     ></td
                                 >
                                 <td
-                                    ><a href="/leagues?id={country.leagues[1]?.id}"
+                                    ><a href="/leagues?name={country.leagues[1]?.name}"
                                         >{country.leagues[1]?.name}</a
                                     ></td
                                 >

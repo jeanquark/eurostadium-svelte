@@ -1,6 +1,7 @@
 <script>
     export let onSearch;
     export let searchTable;
+    export let searchValue;
 
     let text = "";
 
@@ -18,7 +19,9 @@
 
     function handleSearch(text) {
         console.log("handleSearch: ", text);
-        onSearch(text);
+        // onSearch(text);
+        searchValue = "";
+        onSearch("")
     }
 
     function debounce(func, wait) {
@@ -39,6 +42,7 @@
             type="text"
             id="searchInput"
             placeholder="Start typing a {searchTable} name"
+            value={searchValue}
             autocomplete="off"
             on:input={handleInput}
         />

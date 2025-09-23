@@ -42,7 +42,7 @@ function createCountryStore() {
                 // .order('id', { ascending: true })
                 .order(sortBy, { ascending: sortOrder === 'asc' })
                 .range(from, to)
-            console.log("data2: ", data);
+            // console.log("data2: ", data);
             if (error) {
                 console.log('error: ', error);
             }

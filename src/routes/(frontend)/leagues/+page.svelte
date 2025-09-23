@@ -11,13 +11,16 @@
 
     onMount(async () => {
         try {
-            // if ($leagueStore.leagues.length < 2) {
-            //     await leagueStore.fetchLeagues();
-            // }
             const urlParams = new URLSearchParams(window.location.search);
             const leagueName = urlParams.get('name');
             console.log('leagueName: ', leagueName);
-            await leagueStore.fetchPaginatedLeagues();
+            if (leagueName) {
+                searchValue = leagueName;
+                await leagueStore.fetchLeaguesByName(leagueName);
+            } else {
+                // await leagueStore.fetchPaginatedLeagues(1, 10, 'api_football_id', 'asc');
+                await leagueStore.fetchPaginatedLeagues();
+            }
         } catch (error) {
             console.log("error: ", error);
         }
@@ -25,8 +28,9 @@
 
     let currentPage = 1;
     let itemsPerPage = 10;
-    let sortBy = "name";
+    let sortBy = "country(uefa_ranking), national_level";
     let sortOrder = "asc";
+    let searchValue = "";
     $: totalPages = $leagueStore.paginatedLeagues?.totalPages;
 
     const sortTable = async (column) => {
@@ -48,7 +52,7 @@
 
     const onSearch = async (searchTerm) => {
         console.log("onSearch searchTerm: ", searchTerm);
-        await leagueStore.fetchLeagueByName(searchTerm);
+        await leagueStore.fetchLeaguesByName(searchTerm);
     };
 </script>
 
@@ -80,7 +84,7 @@
     <div class="col-8" style="">
         <h2 class="text-center">Leagues</h2>
         <div class="responsive-table-container" style="">
-            <Search {onSearch} searchTable="league" />
+            <Search {onSearch} searchTable="league" searchValue={searchValue} />
             <table class="full-data-table" style="">
                 <thead>
                     <tr>
@@ -101,8 +105,8 @@
                             </button>
                         </th>
                         <th>Image</th>
+                        <th># Teams</th>
 						<th>Country</th>
-                        <th>Teams</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -118,8 +122,9 @@
                                     class="px-1"
                                 /></td
                             >
+                            <td><a href="/teams?country={league.country?.name}">{league.teams && league.teams[0]?.count}</a></td>
+                            <!-- <td></td> -->
 							<td>{league.country?.name}</td>
-                            <td></td>
                         </tr>
                     {/each}
                 </tbody>
