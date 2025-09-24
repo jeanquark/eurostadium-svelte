@@ -155,7 +155,7 @@
         {/if}
     </div>
 </div>
-<div class="row justify-center my-2" style="">
+<div class="row justify-center my-2" style="" id="table">
     <div class="col-8" style="background: #f8f9fa; padding: 10px 0px; border-radius: 8px;">
         <button onclick={() => generateRandomExponential()}>Generate random exponential</button>
         {#if selectedCountry !== null}

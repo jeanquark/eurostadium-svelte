@@ -83,7 +83,7 @@
         <a href="{base}/" class="primary-button">Home page</a>
     </div>
 </div>
-<div class="row justify-center" style="">
+<div class="row justify-center" style="" id="table">
     <div class="col-8" style="">
         <h2 class="text-center">Countries</h2>
         <div class="responsive-table-container" style="">

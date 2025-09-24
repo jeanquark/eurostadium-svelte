@@ -23,7 +23,7 @@ function createTeamStore() {
             update((state) => ({ ...state, teams: [...array] }))
         },
 
-        async fetchPaginatedTeams(page = 1, pageSize = 10, sortBy = 'id', sortOrder = 'asc') {
+        async fetchPaginatedTeams(page = 1, pageSize = 10, sortBy = 'name', sortOrder = 'asc', searchTerm = '') {
             console.log('[Store] fetchPaginatedTeams()', page, pageSize, sortBy, sortOrder)
             // const { data, error } = await supabase.from("countries").select(`id, name, image`);
             const from = (page - 1) * pageSize
@@ -31,11 +31,13 @@ function createTeamStore() {
 
             const { data, error, count } = await supabase
                 .from('teams')
-                .select('*, stadium:stadiums (id, name), league:leagues(id, name)', { count: 'exact' })
-                // .order('id', { ascending: true })
+                .select('*, stadium:stadiums (id, name), league:leagues(id, name, country:countries(id, name))', { count: 'exact' })
+                .ilike('name', `%${searchTerm}%`)
+                .not('api_football_league_id', 'is', null)
                 .order(sortBy, { ascending: sortOrder === 'asc' })
                 .range(from, to)
             console.log("[Store] fetchPaginatedTeams() data: ", data);
+            console.log("[Store] fetchPaginatedTeams() count: ", count);
             if (error) {
                 console.log('error: ', error);
             }
@@ -49,7 +51,38 @@ function createTeamStore() {
                 }
             }))
         },
+
+        // async fetchTeamsByName(searchTerm, page = 1, pageSize = 10) {
+        // async fetchTeamsByName(page = 1, pageSize = 10, sortBy = 'name', sortOrder = 'asc', searchTerm = '') {
+        //     console.log('[Store] fetchTeamsByName()')
+        //     const from = (page - 1) * pageSize
+        //     const to = from + pageSize - 1
+
+        //     const { data, error, count } = await supabase.from('teams')
+        //         .select('*, stadium:stadiums (id, name), league:leagues(id, name, country:countries(id, name))', { count: 'exact' })
+        //         .ilike('name', `%${searchTerm}%`)
+        //         .not('api_football_league_id', 'is', null)
+        //         .order(sortBy, { ascending: sortOrder === 'asc' })
+        //         .range(from, to)
+        //     console.log('[Store] data: ', data)
+
+        //     if (error) {
+        //         console.error('Error fetching data:', error)
+        //         return []
+        //     }
+        //     update((state) => ({
+        //         ...state,
+        //         paginatedTeams: {
+        //             data,
+        //             totalCount: count,
+        //             currentPage: page,
+        //             totalPages: Math.ceil(count / pageSize),
+        //         },
+        //     }))
+        // },
     }
+
+    
 
     return {
         subscribe,

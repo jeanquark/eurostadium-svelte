@@ -80,7 +80,7 @@
         <a href="{base}/" class="primary-button">Home page</a>
     </div>
 </div>
-<div class="row justify-center" style="">
+<div class="row justify-center" style="" id="table">
     <div class="col-8" style="">
         <h2 class="text-center">Leagues</h2>
         <div class="responsive-table-container" style="">
@@ -122,7 +122,7 @@
                                     class="px-1"
                                 /></td
                             >
-                            <td><a href="/teams?country={league.country?.name}">{league.teams && league.teams[0]?.count}</a></td>
+                            <td><a href="/teams#table?country={league.country?.name}">{league.teams && league.teams[0]?.count}</a></td>
                             <!-- <td></td> -->
 							<td>{league.country?.name}</td>
                         </tr>

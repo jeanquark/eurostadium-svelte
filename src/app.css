@@ -64,6 +64,7 @@ a:hover {
 .primary-button {
 	/* background: #1a2a6c; */
 	background: var(--color-theme-1);
+	display: inline-block;
 	color: white;
 	border: none;
 	border-radius: 8px;
