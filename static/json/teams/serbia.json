@@ -1310,7 +1310,7 @@
 			"code": null,
 			"country": "Serbia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Kabel"
 		},
 		"venue": {
 			"api_football_id": 20090,
@@ -1534,7 +1534,7 @@
 			"code": null,
 			"country": "Serbia",
 			"founded": 1919,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Loznica"
 		},
 		"venue": {
 			"api_football_id": 7855,
@@ -1750,7 +1750,7 @@
 			"code": null,
 			"country": "Serbia",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_FAP"
 		},
 		"venue": {
 			"api_football_id": 18999,
@@ -1814,7 +1814,7 @@
 			"code": null,
 			"country": "Serbia",
 			"founded": 2022,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FK_Dinamo_Jug"
 		},
 		"venue": {
 			"api_football_id": 1412,

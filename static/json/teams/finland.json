@@ -1078,7 +1078,7 @@
 			"code": null,
 			"country": "Finland",
 			"founded": 1998,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/Tampere_United"
 		},
 		"venue": {
 			"api_football_id": 6366,
@@ -1334,7 +1334,7 @@
 			"code": null,
 			"country": "Finland",
 			"founded": null,
-			"wiki": ""
+			"wiki": "https://en.wikipedia.org/wiki/FC_Inter_Turku"
 		},
 		"venue": {
 			"api_football_id": 18464,
