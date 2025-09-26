@@ -78,16 +78,6 @@
         <br />
         <a href="{base}/stadiums">Stadiums</a>
         <br /> -->
-        http://localhost:5173/images/teams/bulgaria/1420.png<br />
-        http://localhost:5173/images/teams/bulgaria/5024.png<br />
-        http://localhost:5173/images/teams/greece/22244.png<br />
-        http://localhost:5173/images/teams/greece/12403.png<br />
-        http://localhost:5173/images/teams/greece/12367.png<br />
-        http://localhost:5173/images/teams/azerbaijan/5492.png<br />
-        http://localhost:5173/images/teams/azerbaijan/5576.png<br />
-        http://localhost:5173/images/teams/northern_ireland/5349.png<br />
-        http://localhost:5173/images/teams/northern_ireland/5355.png<br />
-
         <a href="{base}/" class="primary-button">Home page</a>
     </div>
 </div>
