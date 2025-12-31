@@ -42,34 +42,14 @@
 </script>
 
 <div class="pagination my-2">
-    totalPages: {totalPages}<br />
-    currentPage: {currentPage}<br />
+    <!-- totalPages: {totalPages}<br /> -->
+    <!-- currentPage: {currentPage}<br /> -->
     <!-- visiblePages: {JSON.stringify(visiblePages)}<br /> -->
     <button
         class="page-button"
         disabled={currentPage === 1}
         on:click={() => handlePageChange(currentPage - 1)}>Prev</button
     >
-
-    <!-- {#each Array(totalPages) as _, page}
-        <button
-            class={`page-button ${currentPage === page + 1 ? "active" : ""}`}
-            on:click={() => handlePageChange(page + 1)}
-        >
-            {page + 1}
-        </button>
-    {/each} -->
-
-    <!-- {#each Array(10)
-        .fill()
-        .map((_, index) => currentPage + index - 5) as page}
-        <button
-            class={`page-button ${currentPage === page + 1 ? "active" : ""}`}
-            on:click={() => handlePageChange(page + 1)}
-        >
-            {page + 1}
-        </button>
-    {/each} -->
 
     {#each visiblePages as page}
         <button

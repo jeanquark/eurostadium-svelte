@@ -9,6 +9,8 @@
     const handleRegister = async () => {
         try {
             loading = true;
+            alert("Registration is not activated!");
+            return;
             const { data, error } = await supabase.auth.signUp({
                 email,
                 password,

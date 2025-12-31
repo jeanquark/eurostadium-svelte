@@ -7,6 +7,7 @@
     import Search from "@components/Search.svelte";
     import SortAsc from "@components/icons/SortAsc.svelte";
     import SortDesc from "@components/icons/SortDesc.svelte";
+    import { faRoute } from "@fortawesome/free-solid-svg-icons";
 
     onMount(async () => {
         try {
@@ -80,7 +81,7 @@
         <a href="{base}/teams">Teams</a>
         <br />
         <br /> -->
-        <a href="{base}/" class="primary-button">Home page</a>
+        <a href="{base}/" class="primary-button-outline">Home page</a>
     </div>
 </div>
 <div class="row justify-center" style="" id="table">
@@ -96,7 +97,7 @@
                             Name
                             <button
                                 class="sort-icon"
-                                on:click={() => sortTable("name")}
+                                onclick={() => sortTable("name")}
                             >
                                 {#if sortBy === "name" && sortOrder === "asc"}
                                     <SortAsc />
@@ -135,12 +136,16 @@
                                 >
                                 <td>{country.uefa_ranking}</td>
                                 <td
-                                    ><a href="/leagues?name={country.leagues[0]?.name}"
+                                    ><a
+                                        href="/leagues?name={country.leagues[0]
+                                            ?.name}"
                                         >{country.leagues[0]?.name}</a
                                     ></td
                                 >
                                 <td
-                                    ><a href="/leagues?name={country.leagues[1]?.name}"
+                                    ><a
+                                        href="/leagues?name={country.leagues[1]
+                                            ?.name}"
                                         >{country.leagues[1]?.name}</a
                                     ></td
                                 >
@@ -153,11 +158,12 @@
         </div>
     </div>
 </div>
-<div class="row border-3">
+
+<!-- <div class="row border-3">
     <div class="col-4 border-1">col-4</div>
     <div class="col-4">col-4</div>
     <div class="col-4">col-4</div>
-</div>
+</div> -->
 
 <style scoped>
     .sort-icon {
@@ -167,5 +173,22 @@
     }
     .sort-icon:hover {
         cursor: pointer;
+    }
+    .btn {
+        padding: 0.4em;
+        border-radius: 0.4em;
+        background: rgba(255, 255, 255, 0.3);
+        border: 2px solid var(--color-theme-1);
+        color: var(--color-theme-1);
+        margin: 0.3em;
+    }
+    .btn:hover {
+        cursor: pointer;
+        background: var(--color-theme-1);
+        /* color: #fff; */
+    }
+    .btn:hover a {
+        color: #fff;
+        text-decoration: none;
     }
 </style>

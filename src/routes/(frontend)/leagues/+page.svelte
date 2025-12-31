@@ -7,13 +7,13 @@
     import Search from "@components/Search.svelte";
     import SortAsc from "@components/icons/SortAsc.svelte";
     import SortDesc from "@components/icons/SortDesc.svelte";
-	import slugify from "@lib/utils/slugify";
+    import slugify from "@lib/utils/slugify";
 
     onMount(async () => {
         try {
             const urlParams = new URLSearchParams(window.location.search);
-            const leagueName = urlParams.get('name');
-            console.log('leagueName: ', leagueName);
+            const leagueName = urlParams.get("name");
+            console.log("leagueName: ", leagueName);
             if (leagueName) {
                 searchValue = leagueName;
                 await leagueStore.fetchLeaguesByName(leagueName);
@@ -40,14 +40,24 @@
             sortBy = column;
             sortOrder = "asc";
         }
-		await leagueStore.fetchPaginatedLeagues(currentPage, itemsPerPage, sortBy, sortOrder);
-    }
+        await leagueStore.fetchPaginatedLeagues(
+            currentPage,
+            itemsPerPage,
+            sortBy,
+            sortOrder
+        );
+    };
 
     const onPageChange = async (page) => {
         console.log("onPageChange page: ", page);
         currentPage = page;
         // update your table data here
-        await leagueStore.fetchPaginatedLeagues(page, itemsPerPage, sortBy, sortOrder);
+        await leagueStore.fetchPaginatedLeagues(
+            page,
+            itemsPerPage,
+            sortBy,
+            sortOrder
+        );
     };
 
     const onSearch = async (searchTerm) => {
@@ -77,14 +87,14 @@
         <br />
         <a href="{base}/teams">Teams</a>
         <br /> -->
-        <a href="{base}/" class="primary-button">Home page</a>
+        <a href="{base}/" class="primary-button-outline">Home page</a>
     </div>
 </div>
 <div class="row justify-center" style="" id="table">
     <div class="col-8" style="">
         <h2 class="text-center">Leagues</h2>
         <div class="responsive-table-container" style="">
-            <Search {onSearch} searchTable="league" searchValue={searchValue} />
+            <Search {onSearch} searchTable="league" {searchValue} />
             <table class="full-data-table" style="">
                 <thead>
                     <tr>
@@ -106,25 +116,39 @@
                         </th>
                         <th>Image</th>
                         <th># Teams</th>
-						<th>Country</th>
+                        <th>Country</th>
                     </tr>
                 </thead>
                 <tbody>
                     {#each $leagueStore.paginatedLeagues?.data as league, index}
                         <tr>
                             <td>{index + 1}</td>
-                            <td><a href="{league.wiki}" target="_blank">{league.name}</a>&nbsp;<img src="{base}/images/icons/external-link.svg" width="10" alt="External link" /></td>
+                            <td
+                                ><a href={league.wiki} target="_blank"
+                                    >{league.name}</a
+                                >&nbsp;<img
+                                    src="{base}/images/icons/external-link.svg"
+                                    width="10"
+                                    alt="External link"
+                                /></td
+                            >
                             <td>
                                 <img
-                                    src="{league.image}"
+                                    src={league.image}
                                     alt={league.name}
                                     height="30"
                                     class="px-1"
                                 /></td
                             >
-                            <td><a href="/teams#table?country={league.country?.name}">{league.teams && league.teams[0]?.count}</a></td>
+                            <td
+                                ><a
+                                    href="/teams#table?country={league.country
+                                        ?.name}"
+                                    >{league.teams && league.teams[0]?.count}</a
+                                ></td
+                            >
                             <!-- <td></td> -->
-							<td>{league.country?.name}</td>
+                            <td>{league.country?.name}</td>
                         </tr>
                     {/each}
                 </tbody>
@@ -133,11 +157,12 @@
         </div>
     </div>
 </div>
-<div class="row border-3">
+
+<!-- <div class="row border-3">
     <div class="col-4 border-1">col-4</div>
     <div class="col-4">col-4</div>
     <div class="col-4">col-4</div>
-</div>
+</div> -->
 
 <style scoped>
     .sort-icon {

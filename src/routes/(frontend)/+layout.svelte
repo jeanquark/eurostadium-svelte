@@ -127,14 +127,14 @@
         margin: 0;
         position: relative;
     }
-    .slide-from-left {
+    /*.slide-from-left {
         -webkit-animation: slide-from-left 1.5s ease-in-out;
         animation: slide-from-left 1.5s ease-in-out;
-    }
-    .slide-from-right {
+    }*/
+    /*.slide-from-right {
         -webkit-animation: slide-from-right 1.5s ease-in-out;
         animation: slide-from-right 1.5s ease-in-out;
-    }
+    }*/
 
     .heading-wrapper {
         display: inline-block; /* Crucial for the wrapper to shrink-to-fit its content */

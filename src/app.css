@@ -81,6 +81,25 @@ a:hover {
 	transform: translateY(-2px);
 }
 
+.primary-button-outline {
+	border: none;
+	border-radius: 8px;
+	padding: 15px 20px;
+	cursor: pointer;
+	font-weight: 600;
+	transition: all 0.3s;
+	background: transparent;
+	border: 2px solid var(--color-theme-1);
+	color: var(--color-theme-1);
+}
+
+.primary-button-outline:hover {
+	text-decoration: none;
+	background: var(--color-theme-1-accent);
+	color: #fff;
+	transform: translateY(-2px);
+}
+
 /* h1,
 h2,
 p {
