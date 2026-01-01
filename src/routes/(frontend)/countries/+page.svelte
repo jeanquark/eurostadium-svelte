@@ -174,7 +174,7 @@
     .sort-icon:hover {
         cursor: pointer;
     }
-    .btn {
+    /*.btn {
         padding: 0.4em;
         border-radius: 0.4em;
         background: rgba(255, 255, 255, 0.3);
@@ -185,10 +185,9 @@
     .btn:hover {
         cursor: pointer;
         background: var(--color-theme-1);
-        /* color: #fff; */
     }
     .btn:hover a {
         color: #fff;
         text-decoration: none;
-    }
+    }*/
 </style>
