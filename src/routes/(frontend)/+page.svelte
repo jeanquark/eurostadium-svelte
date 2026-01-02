@@ -37,7 +37,7 @@
     let mouseOverTooltip = $state(false)
     let isMobileDevice = $state(false)
     // let CurrentComponent = $state(Europe);
-    let CurrentComponent = $state(null)
+    // let CurrentComponent = $state(null)
 
     let DynamicComponent = $state(null)
     let isLoading = $state(true)
@@ -67,10 +67,9 @@
         try {
             isLoading = true
             console.log('loadComponent map: ', map)
-            // await sleep(2000); // Simulate loading delay
             const module = await import(`@components/svg/${map}.svelte`)
-            await sleep(3000)
-            CurrentComponent = module.default
+            // await sleep(3000)
+            // CurrentComponent = module.default
             DynamicComponent = module.default
             showStadiumTooltip = false
         } catch (error) {
@@ -387,13 +386,11 @@
 
         {#if isLoading}
             <div class="border-radius-08">
-                <!-- <div>Loading component...</div> -->
                 <EuropeSimplify />
             </div>
         {:else if DynamicComponent}
             <div id="svgWrapper" bind:this={svgMap} class="border-radius-08">
-                <!-- <svelte:component this={dynamicComponent} filter={filterValue} countryObj={country} stadiumsArray={stadiums} {countryHover} {countryLeave} {countryClick} {stadiumHover} {stadiumLeave} {clickOutsideCountry} /> -->
-                <DynamicComponent {filterValue} {country} {stadiums} {countryHover} {countryLeave} {countryClick} {stadiumHover} {stadiumLeave} {clickOutsideCountry} />
+                <DynamicComponent filter={filterValue} countryObj={country} stadiumsArray={stadiums} {countryHover} {countryLeave} {countryClick} {stadiumHover} {stadiumLeave} {clickOutsideCountry} />
             </div>
         {/if}
     </div>

@@ -1,12 +1,15 @@
 <script>
     import { base } from "$app/paths";
     import { onMount } from "svelte";
+    import { dev } from '$app/environment';
+    import { injectAnalytics } from '@vercel/analytics/sveltekit'
     import { PUBLIC_APP_ENV } from "$env/static/public";
     import "../../app.css";
     import { supabase } from "@lib/supabase/supabaseClient";
     import { initGA } from "@lib/analytics.js";
     import Toasts from "@components/Toasts.svelte";
 
+    injectAnalytics({ mode: dev ? 'development' : 'production' });
     let { children } = $props();
     let session = $state(null);
     const isDev = PUBLIC_APP_ENV === "development";
