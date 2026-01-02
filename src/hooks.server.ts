@@ -5,8 +5,8 @@ import { sequence } from '@sveltejs/kit/hooks'
 import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public'
 
 
-const supabase: Handle = async ({ event, resolve }) => {
-    console.log('[hooks.server.ts]')
+const supabase: Handle = async ({ event, resolve }: any) => {
+    // console.log('[hooks.server.ts]')
     /**
      * Creates a Supabase client specific to this server request.
      *
@@ -56,7 +56,7 @@ const supabase: Handle = async ({ event, resolve }) => {
         // event.locals.user = session?.user;
         // console.log('[hooks.server.ts] user: ', event.locals.user);
 
-        console.log('[hooks.server.ts] session: ', session);
+        // console.log('[hooks.server.ts] session: ', session);
         if (!session) {
             return { session: null, user: null }
         }
@@ -65,7 +65,7 @@ const supabase: Handle = async ({ event, resolve }) => {
 
         const userRoles = session.access_token ?
             JSON.parse(atob(session.access_token.split('.')[1])).user_roles : [];
-            console.log('[hooks.server.ts] userRoles: ', userRoles);
+            // console.log('[hooks.server.ts] userRoles: ', userRoles);
 
         if ((event.url.pathname.startsWith('/admin') || event.url.pathname.startsWith('/api')) && !userRoles.includes('admin')) {
             throw redirect(303, '/');
@@ -86,7 +86,7 @@ const supabase: Handle = async ({ event, resolve }) => {
     }
 
     return resolve(event, {
-        filterSerializedResponseHeaders(name) {
+        filterSerializedResponseHeaders(name: string) {
             /**
              * Supabase libraries use the `content-range` and `x-supabase-api-version`
              * headers, so we need to tell SvelteKit to pass it through.
@@ -96,7 +96,7 @@ const supabase: Handle = async ({ event, resolve }) => {
     })
 }
 
-const authGuard: Handle = async ({ event, resolve }) => {
+const authGuard: Handle = async ({ event, resolve }: any) => {
     const { session, user } = await event.locals.safeGetSession()
     event.locals.session = session
     event.locals.user = user

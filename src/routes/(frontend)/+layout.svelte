@@ -54,7 +54,7 @@
             </div>
             <div class="col-2 col-lg-2 border-0">
                 <img
-                    src="{base}/images/logo-min.svg"
+                    src="{base}/images/logo-min.png"
                     width="100%"
                     alt="logo"
                     class="text-center pulse"
