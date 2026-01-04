@@ -8,6 +8,10 @@
     import { supabase } from "@lib/supabase/supabaseClient";
     import { initGA } from "@lib/analytics.js";
     import Toasts from "@components/Toasts.svelte";
+    import GoogleAnalytics from '$lib/components/GoogleAnalytics.svelte';
+  
+    const GA_MEASUREMENT_ID = import.meta.env.VITE_GA_MEASUREMENT_ID;
+    // console.log('GA_MEASUREMENT_ID: ', GA_MEASUREMENT_ID);
 
     injectAnalytics({ mode: dev ? 'development' : 'production' });
     let { children } = $props();
@@ -70,6 +74,7 @@
     </header>
 
     <main class="main">
+        <GoogleAnalytics measurementId={GA_MEASUREMENT_ID} />
         <div style="position: fixed; top: 20px; right: 20px;">
             <Toasts />
         </div>
